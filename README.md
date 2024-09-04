@@ -22,6 +22,7 @@ This project is an Automated Insurance Claim Fraud Detection System. The system 
 - **Microservices Design**: The system is broken into services for data ingestion, rule-based analysis, machine learning predictions, and a results dashboard.
 - **Docker Containers**: Each service is containerized using Docker to ensure portability and consistency across different environments.
 - **REST API**: Exposes the fraud detection capabilities via a REST API, allowing other systems or applications to integrate and query for fraud analysis.
+- **C# DI Single Page APIs**: Implements single page APIs using C# Dependency Injection (DI) to manage the lifecycle of services and ensure efficient resource utilization.
 
 ### Frontend Interface
 - **Dashboard**: Develops a simple web dashboard using Flask (Python) and HTML/JavaScript to display the results of the fraud detection process, including visualizations of flagged claims and their associated fraud scores.
@@ -48,14 +49,14 @@ This project is an Automated Insurance Claim Fraud Detection System. The system 
 
 ## Key Technologies
 
-- **Languages**: Python
+- **Languages**: Python, C#
 - **Frameworks**: Flask for the backend and frontend, Scikit-learn for machine learning
 - **Data Management**: Pandas for data processing, JSON for local data storage
 - **Containerization**: Docker, Docker Compose
 - **Web Development**: HTML5, CSS, JavaScript
-- **Logging and Alerts**: Python logging module, lightweight alerting via email or logs
+- **Logging and Alerts**: Python logging module, lightweight alerting via logs
+- **Dependency Injection**: C# DI for managing service lifecycles
 
 ## Outcome
 
-The Automated Insurance Claim Fraud Detection System offers a unique, valuable solution that extends beyond typical platform features. It not only showcases proficiency in Python, Docker, and microservices architecture but also demonstrates the ability to solve complex problems and enhance the security of the insurance claims process. This project is highly relevant to GEICO’s needs, as it aligns with their mission of maintaining high standards of protection and availability.
-
+The Automated Insurance Claim Fraud Detection System offers a unique, valuable solution that extends beyond typical platform features. It not only showcases proficiency in Python, Docker, and microservices architecture but also demonstrates the ability to solve complex problems and enhance the security of the insurance claims process.
