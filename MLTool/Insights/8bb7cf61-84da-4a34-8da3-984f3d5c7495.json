@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8bb7cf61-84da-4a34-8da3-984f3d5c7495",
+    "PolicyID": "a84e5fc8-651a-43b9-aa57-198b4c8579a6",
+    "EffectiveDates": {
+        "StartDate": "2024-06-02",
+        "EndDate": "2025-06-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2870ab27-3477-4082-90c1-e3cf540a1460",
+        "Name": "Yvette Lewis",
+        "PolicyNumber": "a84e5fc8-651a-43b9-aa57-198b4c8579a6",
+        "ContactInformation": {
+            "Phone": "393.901.9958",
+            "Email": "leedebra@example.org",
+            "Address": "1153 Anthony Haven\nLisaland, AK 13491"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-23",
+        "Location": "Unit 7102 Box 6436\nDPO AA 44489",
+        "Description": "Put measure sure build. Think by age hard major. First sister possible political sometimes here appear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 94667
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10152
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14171
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 149392
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19446
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 37635,
+        "TotalApproved": 36856
+    },
+    "AdjusterDetails": {
+        "Name": "Wayne Morrow",
+        "ContactInformation": {
+            "Phone": "965.267.6792x001",
+            "Email": "itorres@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/09ddd761-d1cd-4fdd-a297-46dba823244d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-02T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

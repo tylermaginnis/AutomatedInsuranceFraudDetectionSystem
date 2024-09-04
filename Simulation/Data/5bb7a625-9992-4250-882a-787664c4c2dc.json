@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5bb7a625-9992-4250-882a-787664c4c2dc",
+  "PolicyID": "eb28efd7-a5a6-468a-b582-38909714fe59",
+  "EffectiveDates": {
+    "StartDate": "2024-07-13",
+    "EndDate": "2025-07-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ae53d29e-2fb4-4536-b71f-c87982f0eb80",
+    "Name": "Melissa Brown",
+    "PolicyNumber": "eb28efd7-a5a6-468a-b582-38909714fe59",
+    "ContactInformation": {
+      "Phone": "+1-562-982-5443x9902",
+      "Email": "millerhenry@example.com",
+      "Address": "676 Hill Path Suite 158\nSouth Jackfort, AS 84090"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-03",
+    "Location": "809 Tom Pines\nNorth Harold, ID 48682",
+    "Description": "Compare enter address institution listen play. Of range become each speak outside. Matter top meet ever process involve."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 16725
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 22622
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 53343
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7246
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15614
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 129052,
+    "TotalApproved": 42753
+  },
+  "AdjusterDetails": {
+    "Name": "Stephen Price",
+    "ContactInformation": {
+      "Phone": "001-307-739-5669x989",
+      "Email": "danielscrystal@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/87757d01-f65b-493b-8686-204d1d617675"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-03T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-08T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-13T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e5154b53-575b-4e3d-9474-a95fa01f7336",
+    "PolicyID": "005a3cbb-9885-424d-91f3-e762805ee6cc",
+    "EffectiveDates": {
+        "StartDate": "2024-01-31",
+        "EndDate": "2025-01-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e186d352-1b6f-4537-8ca3-6f696774963f",
+        "Name": "Stephen Nelson",
+        "PolicyNumber": "005a3cbb-9885-424d-91f3-e762805ee6cc",
+        "ContactInformation": {
+            "Phone": "(667)334-2076x65479",
+            "Email": "gregoryrobinson@example.org",
+            "Address": "569 Timothy Center\nWilliamsbury, AR 86128"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-27",
+        "Location": "56356 Walter Lake\nMoodyton, NY 97338",
+        "Description": "Difference manage full modern forget concern region. Ten give join laugh group investment bad. Study carry level make visit space."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 178335
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14279
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41533
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 153981
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 108363
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 42203,
+        "TotalApproved": 25243
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Martin",
+        "ContactInformation": {
+            "Phone": "001-850-228-0814",
+            "Email": "cortiz@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/77908b21-f6d3-4552-a74b-960bd81d2890"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-27T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-02T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-07T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

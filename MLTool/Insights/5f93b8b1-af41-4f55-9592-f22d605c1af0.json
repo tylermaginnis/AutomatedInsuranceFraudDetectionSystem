@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5f93b8b1-af41-4f55-9592-f22d605c1af0",
+    "PolicyID": "dbee8cf4-29e8-4594-a962-f16f78bdc5d8",
+    "EffectiveDates": {
+        "StartDate": "2023-10-21",
+        "EndDate": "2024-10-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8fd92be1-bd4a-41c6-bdfe-9a02a8022e07",
+        "Name": "Manuel Roberts",
+        "PolicyNumber": "dbee8cf4-29e8-4594-a962-f16f78bdc5d8",
+        "ContactInformation": {
+            "Phone": "277.509.0448x2706",
+            "Email": "jeremyfowler@example.net",
+            "Address": "4742 Adrian Bypass Suite 750\nEmilybury, GA 97149"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-05",
+        "Location": "357 Steven Spurs\nKanetown, MS 16008",
+        "Description": "Across reveal later film record go. Its wrong word.\nSeven season any network billion main find. Another blue there event least morning enough everybody."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9571
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48162
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 70275
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24877
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15052
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116054,
+        "TotalApproved": 100068
+    },
+    "AdjusterDetails": {
+        "Name": "Ms. Mary Gomez",
+        "ContactInformation": {
+            "Phone": "312-585-0117",
+            "Email": "michellephillips@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/efdeeeb1-3c05-45f0-85be-db87d917264e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

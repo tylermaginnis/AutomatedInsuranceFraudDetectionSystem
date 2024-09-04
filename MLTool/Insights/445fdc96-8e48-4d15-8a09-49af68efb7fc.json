@@ -1,0 +1,81 @@
+{
+    "ClaimID": "445fdc96-8e48-4d15-8a09-49af68efb7fc",
+    "PolicyID": "817d1d22-1a8f-4826-a255-ae8d6488baae",
+    "EffectiveDates": {
+        "StartDate": "2023-09-21",
+        "EndDate": "2024-09-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "887e8f3c-be38-42b0-9f62-af2d6dfa01d4",
+        "Name": "Walter Lynch",
+        "PolicyNumber": "817d1d22-1a8f-4826-a255-ae8d6488baae",
+        "ContactInformation": {
+            "Phone": "001-831-290-2604x287",
+            "Email": "walkerrandall@example.com",
+            "Address": "7337 Carr Bridge\nWilliamhaven, SC 08727"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-09",
+        "Location": "166 Bird Course\nJessicaview, UT 87903",
+        "Description": "Much of same finish shake indeed. View improve book myself another as beyond. Open little relationship paper forget strong imagine.\nGuy listen new success technology laugh. Give maybe world section."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6650
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19218
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25172
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15866
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 88886
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 92603,
+        "TotalApproved": 1778
+    },
+    "AdjusterDetails": {
+        "Name": "Cody Price",
+        "ContactInformation": {
+            "Phone": "+1-420-624-8873x261",
+            "Email": "gsanchez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/26fd14c8-42dc-4e54-a847-ee04858511d8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-09T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-14T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-19T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

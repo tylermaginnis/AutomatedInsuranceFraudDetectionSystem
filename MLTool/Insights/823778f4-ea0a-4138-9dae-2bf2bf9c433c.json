@@ -1,0 +1,81 @@
+{
+    "ClaimID": "823778f4-ea0a-4138-9dae-2bf2bf9c433c",
+    "PolicyID": "ebf19c07-feba-4711-a339-199c9df4cdf6",
+    "EffectiveDates": {
+        "StartDate": "2024-01-05",
+        "EndDate": "2025-01-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "682aac7b-c05d-430d-b015-402e6bf49e8b",
+        "Name": "Michael Bryant",
+        "PolicyNumber": "ebf19c07-feba-4711-a339-199c9df4cdf6",
+        "ContactInformation": {
+            "Phone": "001-982-790-8758x871",
+            "Email": "haleyrenee@example.com",
+            "Address": "703 Townsend Glen\nEast George, MI 70681"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-26",
+        "Location": "1531 Stephen Common Apt. 459\nNew Eileen, SD 34661",
+        "Description": "Cut end church Democrat where its. Traditional himself despite treat.\nStation side agreement order food general."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1327
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9967
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 85715
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 103289
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16487
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 99674,
+        "TotalApproved": 75968
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Lee",
+        "ContactInformation": {
+            "Phone": "(214)200-0370x16151",
+            "Email": "fpearson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/83cd68cd-9270-4629-8a87-0adeaf40d7ac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "65663663-0176-4795-abc7-7b49371ba29b",
+    "PolicyID": "ecb3e373-3c49-432b-a8ea-bb037be8d510",
+    "EffectiveDates": {
+        "StartDate": "2023-12-05",
+        "EndDate": "2024-12-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "74591aea-e158-46b9-afef-445bb6098c49",
+        "Name": "Robert Conner",
+        "PolicyNumber": "ecb3e373-3c49-432b-a8ea-bb037be8d510",
+        "ContactInformation": {
+            "Phone": "9048478228",
+            "Email": "jgarcia@example.org",
+            "Address": "7586 Lopez Alley Apt. 490\nSouth Cheryl, MN 72681"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-10",
+        "Location": "406 Cisneros Mount\nEast Victorialand, NM 40043",
+        "Description": "Item cold responsibility range you part. Eight plan article environment somebody recent hotel management. Life score year station the could cold. Turn meeting growth a direction."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46509
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 38364
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4660
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49291
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6087
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 118390,
+        "TotalApproved": 85954
+    },
+    "AdjusterDetails": {
+        "Name": "Julie Moore",
+        "ContactInformation": {
+            "Phone": "670.460.6005x5358",
+            "Email": "bryanwilliams@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3fea3d5e-75c6-4601-b717-f745d6ffd331"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

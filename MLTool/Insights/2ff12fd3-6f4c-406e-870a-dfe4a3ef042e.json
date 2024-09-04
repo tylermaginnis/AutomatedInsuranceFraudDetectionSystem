@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2ff12fd3-6f4c-406e-870a-dfe4a3ef042e",
+    "PolicyID": "9865bb09-c1f4-454f-9918-523a68a7d00e",
+    "EffectiveDates": {
+        "StartDate": "2024-01-01",
+        "EndDate": "2024-12-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a7b35b0a-0814-430d-9ea5-a3c7089f74e8",
+        "Name": "Kevin Morales",
+        "PolicyNumber": "9865bb09-c1f4-454f-9918-523a68a7d00e",
+        "ContactInformation": {
+            "Phone": "(911)282-9692",
+            "Email": "johnsonlinda@example.net",
+            "Address": "9215 Gonzalez Crest Suite 004\nZacharyborough, CT 45608"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-04",
+        "Location": "453 Garcia Trail Apt. 065\nAngelaton, WV 30945",
+        "Description": "Enter left individual should go practice military. Will look edge become. Modern customer change.\nTreat it memory ever work all design. Value pattern base you bit best western husband."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2121
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3553
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1603
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34747
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9368
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 178966,
+        "TotalApproved": 66881
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Lambert",
+        "ContactInformation": {
+            "Phone": "4496855099",
+            "Email": "mitchellamber@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/beb003c4-44d7-4039-a936-599956bae446"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-04T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-09T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-14T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

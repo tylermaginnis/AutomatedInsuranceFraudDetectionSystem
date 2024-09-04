@@ -1,0 +1,81 @@
+{
+    "ClaimID": "010e1fa1-a0d7-45cc-bf80-bbe3f600c0f3",
+    "PolicyID": "bab45100-4a80-4cf4-9c3e-118b8bf3764c",
+    "EffectiveDates": {
+        "StartDate": "2024-07-30",
+        "EndDate": "2025-07-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ba747fcb-8ecc-457a-95db-179d4285ff4c",
+        "Name": "Kathryn Perry",
+        "PolicyNumber": "bab45100-4a80-4cf4-9c3e-118b8bf3764c",
+        "ContactInformation": {
+            "Phone": "817-475-1426x218",
+            "Email": "campbellmatthew@example.net",
+            "Address": "15429 Lopez Club Apt. 698\nLake Rebeccaville, CA 76402"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-13",
+        "Location": "603 James Valley\nNorth Kimberlymouth, NE 28228",
+        "Description": "Religious floor across.\nWish century natural could. Notice usually decade front place near blood.\nLow certain positive notice president. Really practice determine knowledge."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 28454
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 56732
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3138
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27986
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9524
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 46000,
+        "TotalApproved": 42816
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Valentine",
+        "ContactInformation": {
+            "Phone": "(420)709-7083x1683",
+            "Email": "melissamendoza@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a261baab-5ea3-49bb-afee-2dcf12c35955"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-13T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-18T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-23T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

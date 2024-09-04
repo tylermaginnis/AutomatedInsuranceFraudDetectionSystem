@@ -1,0 +1,81 @@
+{
+    "ClaimID": "40368853-0534-4d5d-8671-262311a981db",
+    "PolicyID": "3a0c0642-f85c-4e15-9f93-a2071852861d",
+    "EffectiveDates": {
+        "StartDate": "2023-12-30",
+        "EndDate": "2024-12-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d3f14fe8-4d43-4f20-a08b-6e48af07f17d",
+        "Name": "Henry Barrett",
+        "PolicyNumber": "3a0c0642-f85c-4e15-9f93-a2071852861d",
+        "ContactInformation": {
+            "Phone": "721.967.1077x89257",
+            "Email": "nelsonralph@example.net",
+            "Address": "32181 Carlson Passage\nKevinmouth, HI 18382"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-03",
+        "Location": "58928 Elizabeth Stravenue Apt. 560\nSouth Davidshire, LA 05811",
+        "Description": "Support stand buy nice address. Stuff some cut find. Hair crime lay simple career."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48091
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 152907
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31649
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4678
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11655
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 25980,
+        "TotalApproved": 3532
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Yu",
+        "ContactInformation": {
+            "Phone": "+1-580-569-3867",
+            "Email": "gregorymayo@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d54bbc16-b41c-46d6-bb6d-90fad744d8fc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-03T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-08T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-13T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

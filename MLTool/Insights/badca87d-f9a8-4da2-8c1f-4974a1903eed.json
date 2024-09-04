@@ -1,0 +1,81 @@
+{
+    "ClaimID": "badca87d-f9a8-4da2-8c1f-4974a1903eed",
+    "PolicyID": "5986a1f4-5e54-4706-9795-c3d1a4c16fe7",
+    "EffectiveDates": {
+        "StartDate": "2024-01-02",
+        "EndDate": "2025-01-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "347642ee-f5b8-42c3-804c-031ba94bb053",
+        "Name": "Scott Rivera",
+        "PolicyNumber": "5986a1f4-5e54-4706-9795-c3d1a4c16fe7",
+        "ContactInformation": {
+            "Phone": "001-537-648-0605x7489",
+            "Email": "pwall@example.com",
+            "Address": "94698 Jared Rapid Apt. 677\nSouth Kyleside, WV 80436"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-25",
+        "Location": "282 Reilly Points\nWest Christopher, PW 39836",
+        "Description": "Cause special upon civil wind produce. Program service exist will civil.\nWorry myself watch tree old.\nOnto suffer community. Customer attorney kitchen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15568
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 96198
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60829
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4554
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49081
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 13345,
+        "TotalApproved": 4778
+    },
+    "AdjusterDetails": {
+        "Name": "Rhonda Acevedo",
+        "ContactInformation": {
+            "Phone": "9829809243",
+            "Email": "orozcoderek@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/67496b7b-3013-4b58-93a0-89d65ef00951"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-30T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-05T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

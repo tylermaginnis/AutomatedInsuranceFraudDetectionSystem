@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a85f2e73-e1e1-436e-adf2-f3ed7a7886be",
+    "PolicyID": "b778e829-7cc2-46d9-aba7-869e3a56cb40",
+    "EffectiveDates": {
+        "StartDate": "2023-10-07",
+        "EndDate": "2024-10-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "37360d55-4cc3-42c2-89ce-7dcf89173e9b",
+        "Name": "Matthew Mccall",
+        "PolicyNumber": "b778e829-7cc2-46d9-aba7-869e3a56cb40",
+        "ContactInformation": {
+            "Phone": "577-684-6965x0622",
+            "Email": "jeffrey01@example.net",
+            "Address": "3704 Sanchez Forge\nEast Vanessa, NV 33667"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-29",
+        "Location": "69333 Jessica Center\nRebeccafurt, RI 41415",
+        "Description": "These against foot. Black get opportunity nor through must. Certainly glass lay religious member material."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48606
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2095
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18874
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49095
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 150164
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 118793,
+        "TotalApproved": 34942
+    },
+    "AdjusterDetails": {
+        "Name": "Blake Hart",
+        "ContactInformation": {
+            "Phone": "+1-801-412-4991x577",
+            "Email": "samanthaburgess@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/fa36c002-7963-484e-a559-0ae3ec82b535"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-29T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-03T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-08T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4baf508a-2b95-4f85-9bff-95c86820f57e",
+    "PolicyID": "62432675-0915-450a-9ba2-9475acd11dd3",
+    "EffectiveDates": {
+        "StartDate": "2023-11-16",
+        "EndDate": "2024-11-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9b7c6d7f-bb06-4522-9741-eb70a657771d",
+        "Name": "Charles Wilson",
+        "PolicyNumber": "62432675-0915-450a-9ba2-9475acd11dd3",
+        "ContactInformation": {
+            "Phone": "001-969-929-1641x464",
+            "Email": "kevin22@example.net",
+            "Address": "0557 Ewing Ridge\nMiddletonstad, WY 19943"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-26",
+        "Location": "51854 Stone Shoal Apt. 436\nNew Veronica, WI 23969",
+        "Description": "Cause compare generation election development. Writer usually home pretty four. Voice whose attorney wrong address even small."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6040
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 60319
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5785
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5513
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 80011
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 46281,
+        "TotalApproved": 7447
+    },
+    "AdjusterDetails": {
+        "Name": "Stephen Wilson",
+        "ContactInformation": {
+            "Phone": "362.918.0812x959",
+            "Email": "zacharyortiz@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/aaa7ad7e-a8f7-487d-8b55-4fa9bd0bf4b9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-26T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-31T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-05T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

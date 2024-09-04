@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ce57d4a7-25f2-4cc1-886a-e9f7246c644f",
+    "PolicyID": "31f86781-afee-43e5-a6fc-68f9f94371ad",
+    "EffectiveDates": {
+        "StartDate": "2023-10-10",
+        "EndDate": "2024-10-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4c033be6-35b7-4e23-a8f0-f50945d0da9b",
+        "Name": "Katherine Perez",
+        "PolicyNumber": "31f86781-afee-43e5-a6fc-68f9f94371ad",
+        "ContactInformation": {
+            "Phone": "(337)711-2470x585",
+            "Email": "wrightsarah@example.com",
+            "Address": "3726 Scott Viaduct\nLake Gerald, PR 04687"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-03",
+        "Location": "962 Dalton Expressway\nHartburgh, MP 88217",
+        "Description": "Husband serve country professor.\nCulture his drop head begin force none. Grow management support opportunity world look. Official show city character detail left nice reality. Health force save."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 118398
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40676
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 124549
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1652
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6095
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 8212,
+        "TotalApproved": 2030
+    },
+    "AdjusterDetails": {
+        "Name": "Lance Sawyer",
+        "ContactInformation": {
+            "Phone": "2485481348",
+            "Email": "stephaniegillespie@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6881fe6d-a791-4a04-9a3e-6bbdd66ebd06"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

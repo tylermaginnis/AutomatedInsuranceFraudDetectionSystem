@@ -1,0 +1,81 @@
+{
+    "ClaimID": "81d705c2-319e-4fda-8f07-4081c61b3a96",
+    "PolicyID": "095de5f2-6cd3-4ec1-86f8-13058a3174a4",
+    "EffectiveDates": {
+        "StartDate": "2024-02-05",
+        "EndDate": "2025-02-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2704869a-d237-44c6-8e92-882fd580cda5",
+        "Name": "Jeffrey Bishop",
+        "PolicyNumber": "095de5f2-6cd3-4ec1-86f8-13058a3174a4",
+        "ContactInformation": {
+            "Phone": "644-886-7866x3120",
+            "Email": "christopher19@example.com",
+            "Address": "38542 Mcdonald Prairie\nNorth Kellyfurt, MS 47334"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "62342 Christopher Streets\nPaultown, NJ 64648",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 54273
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36493
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7779
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27814
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10710
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 137069,
+        "TotalApproved": 40918
+    },
+    "AdjusterDetails": {
+        "Name": "Ryan Thompson",
+        "ContactInformation": {
+            "Phone": "718-891-7966",
+            "Email": "nicole10@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/721d047d-28f4-4622-8fde-17b58631a8d3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

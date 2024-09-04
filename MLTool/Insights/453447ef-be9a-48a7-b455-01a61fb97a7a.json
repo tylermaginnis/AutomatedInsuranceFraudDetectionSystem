@@ -1,0 +1,81 @@
+{
+    "ClaimID": "453447ef-be9a-48a7-b455-01a61fb97a7a",
+    "PolicyID": "845c8efb-b19b-4826-84fc-5392f394c079",
+    "EffectiveDates": {
+        "StartDate": "2023-12-22",
+        "EndDate": "2024-12-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7033ef10-5703-48d7-89a2-85278a533fc1",
+        "Name": "Miguel Dudley",
+        "PolicyNumber": "845c8efb-b19b-4826-84fc-5392f394c079",
+        "ContactInformation": {
+            "Phone": "+1-427-481-9021",
+            "Email": "susan83@example.net",
+            "Address": "252 Mendez Shore Suite 150\nWest James, TX 05668"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-14",
+        "Location": "7537 Crane Pike\nRobertoview, ME 18672",
+        "Description": "Arrive they director especially friend. Spring answer identify.\nInstead concern play already general follow."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3264
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7163
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13289
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4318
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5977
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 177152,
+        "TotalApproved": 90293
+    },
+    "AdjusterDetails": {
+        "Name": "Shane Wise",
+        "ContactInformation": {
+            "Phone": "752.837.4755x91318",
+            "Email": "vhill@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/97b4c4c4-a65a-4ed8-9da9-5361e647d1ba"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

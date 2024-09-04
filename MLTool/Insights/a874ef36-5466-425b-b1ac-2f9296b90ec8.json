@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a874ef36-5466-425b-b1ac-2f9296b90ec8",
+    "PolicyID": "4891202d-47a4-4f97-b1f1-a265eb113a38",
+    "EffectiveDates": {
+        "StartDate": "2023-12-18",
+        "EndDate": "2024-12-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a07365da-1a90-4af5-9a82-12116e42378d",
+        "Name": "Linda Brown",
+        "PolicyNumber": "4891202d-47a4-4f97-b1f1-a265eb113a38",
+        "ContactInformation": {
+            "Phone": "+1-489-653-4350x366",
+            "Email": "qward@example.com",
+            "Address": "97412 Dalton Knolls\nMackenzietown, GU 17110"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-15",
+        "Location": "299 Peter Heights Apt. 866\nEast Timothyton, MD 19270",
+        "Description": "Seat ball yourself skin. Month popular pressure.\nRest sea available perhaps behind require. Between article ball third. Identify alone four box area agree."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8268
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2355
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39345
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17387
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37594
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 109224,
+        "TotalApproved": 9505
+    },
+    "AdjusterDetails": {
+        "Name": "John Lopez",
+        "ContactInformation": {
+            "Phone": "898.215.2171",
+            "Email": "sramirez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ef7de546-a98b-441e-a5a7-dccd59425634"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-15T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-20T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-25T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

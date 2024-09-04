@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4a20f24a-8227-4e08-a7e5-3be72fb84cb8",
+    "PolicyID": "714213df-8c8e-4fb5-8dba-d3db944ae3d4",
+    "EffectiveDates": {
+        "StartDate": "2023-09-10",
+        "EndDate": "2024-09-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0d305880-358c-42ce-af22-452df258a18c",
+        "Name": "Tommy Lutz",
+        "PolicyNumber": "714213df-8c8e-4fb5-8dba-d3db944ae3d4",
+        "ContactInformation": {
+            "Phone": "955.876.4083",
+            "Email": "gharris@example.com",
+            "Address": "30750 Brooke Parks\nBlevinsborough, WY 82905"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-23",
+        "Location": "15236 Caitlin Glens\nNew Jefferyburgh, VT 22101",
+        "Description": "Suffer wall yard method threat enter participant. Rate book sometimes trouble anything soldier on. Thing modern three might middle away effect."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13819
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4082
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1148
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9559
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 148916
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 118595,
+        "TotalApproved": 89954
+    },
+    "AdjusterDetails": {
+        "Name": "George English",
+        "ContactInformation": {
+            "Phone": "945.721.6983",
+            "Email": "webstermichelle@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2acf111f-08b9-492f-a5b7-b350a98ee55f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-23T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-28T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-02T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

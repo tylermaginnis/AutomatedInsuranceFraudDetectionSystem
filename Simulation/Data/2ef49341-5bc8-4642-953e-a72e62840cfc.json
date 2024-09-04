@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2ef49341-5bc8-4642-953e-a72e62840cfc",
+  "PolicyID": "f86725a7-5b4e-4a9e-ada0-2aa1b289ea93",
+  "EffectiveDates": {
+    "StartDate": "2023-12-28",
+    "EndDate": "2024-12-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "cc78b7ad-a307-4b33-8f6b-5d8bc7ac776d",
+    "Name": "Scott White",
+    "PolicyNumber": "f86725a7-5b4e-4a9e-ada0-2aa1b289ea93",
+    "ContactInformation": {
+      "Phone": "(365)359-8188",
+      "Email": "cristianhumphrey@example.org",
+      "Address": "456 Everett Springs Apt. 057\nLake David, GU 86583"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-31",
+    "Location": "506 Jackson Mill\nDuncanville, WI 33595",
+    "Description": "Yourself child relate shake avoid well stuff. Position process total choose sit year. Too finish marriage write PM guy what."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 11120
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 13818
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6073
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1427
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16828
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 30004,
+    "TotalApproved": 7799
+  },
+  "AdjusterDetails": {
+    "Name": "Brenda Guzman",
+    "ContactInformation": {
+      "Phone": "(367)780-9016x5007",
+      "Email": "thardy@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/9ab3a946-b2d9-42ec-9bd4-31d83de9858f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-31T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-05T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-10T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

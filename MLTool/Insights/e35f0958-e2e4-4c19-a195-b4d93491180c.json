@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e35f0958-e2e4-4c19-a195-b4d93491180c",
+    "PolicyID": "601cac42-d5bb-4686-8730-dabe101f0d2b",
+    "EffectiveDates": {
+        "StartDate": "2024-05-16",
+        "EndDate": "2025-05-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "953a3a2c-fcc0-471c-a42a-843bf6b0463d",
+        "Name": "Felicia Brown",
+        "PolicyNumber": "601cac42-d5bb-4686-8730-dabe101f0d2b",
+        "ContactInformation": {
+            "Phone": "(889)551-6065x801",
+            "Email": "terribell@example.com",
+            "Address": "871 Smith Vista Apt. 424\nEast Ryanside, ME 36648"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-21",
+        "Location": "Unit 3988 Box 1027\nDPO AA 64499",
+        "Description": "Participant group administration analysis. Seat food board near wife act assume newspaper. Determine back create trip accept outside today."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19638
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49369
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2886
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5317
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18128
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 154466,
+        "TotalApproved": 125915
+    },
+    "AdjusterDetails": {
+        "Name": "Monique Ford",
+        "ContactInformation": {
+            "Phone": "536-348-5005",
+            "Email": "chavezbrent@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b2517d79-9f8e-413a-bbba-61e093e0afd6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-21T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-26T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-31T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4f5c396e-fc46-4d49-a59a-c46f5a9fe045",
+  "PolicyID": "a1615a33-7067-4dd3-bb54-ed78694d48c8",
+  "EffectiveDates": {
+    "StartDate": "2024-08-03",
+    "EndDate": "2025-08-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0ebd4ba0-d1b4-4142-bc6a-970c00f18c49",
+    "Name": "Manuel Burke",
+    "PolicyNumber": "a1615a33-7067-4dd3-bb54-ed78694d48c8",
+    "ContactInformation": {
+      "Phone": "+1-598-787-3238x82395",
+      "Email": "jasonhill@example.net",
+      "Address": "341 Donna Plaza\nNew Justinberg, WA 84588"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-19",
+    "Location": "637 Ana Vista\nEast Erica, NV 50811",
+    "Description": "Wind establish realize air protect win find west. Project official especially hour sit message."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 139189
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11334
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7899
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 94223
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 18667
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 132723,
+    "TotalApproved": 31673
+  },
+  "AdjusterDetails": {
+    "Name": "Amanda Allen",
+    "ContactInformation": {
+      "Phone": "283.938.8709x56136",
+      "Email": "hannahgross@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/e7fa3e55-259f-4f7b-84c7-1a6179a10c31"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-19T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-24T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-29T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

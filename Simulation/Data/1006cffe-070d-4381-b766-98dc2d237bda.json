@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1006cffe-070d-4381-b766-98dc2d237bda",
+  "PolicyID": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+  "EffectiveDates": {
+    "StartDate": "2024-03-07",
+    "EndDate": "2025-03-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4b718d54-1bda-441f-9f34-2672f6b131e5",
+    "Name": "Patricia Gordon",
+    "PolicyNumber": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+    "ContactInformation": {
+      "Phone": "+1-447-858-9107x4847",
+      "Email": "lisacrane@example.org",
+      "Address": "PSC 6944, Box 1860\nAPO AP 51730"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-22",
+    "Location": "992 Jacob Plaza Apt. 651\nHerrerahaven, MO 87284",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 78001
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 46998
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5463
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 18867
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6890
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 156219,
+    "TotalApproved": 83847
+  },
+  "AdjusterDetails": {
+    "Name": "Yolanda Roberts",
+    "ContactInformation": {
+      "Phone": "393.711.3959",
+      "Email": "fordmanuel@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/663d97f5-f84c-4fe0-97b1-d8151ef7035a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-22T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-27T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-02T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

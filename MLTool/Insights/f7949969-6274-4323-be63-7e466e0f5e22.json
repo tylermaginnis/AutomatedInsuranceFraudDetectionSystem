@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f7949969-6274-4323-be63-7e466e0f5e22",
+    "PolicyID": "054a410b-72f3-43de-a6ec-d13df2dc92be",
+    "EffectiveDates": {
+        "StartDate": "2024-04-17",
+        "EndDate": "2025-04-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "726138cd-8dfa-432c-84fe-60f2ce32e68e",
+        "Name": "Jared Stephens",
+        "PolicyNumber": "054a410b-72f3-43de-a6ec-d13df2dc92be",
+        "ContactInformation": {
+            "Phone": "744.789.1238",
+            "Email": "cooperkimberly@example.org",
+            "Address": "251 Stacey Highway\nLewisfurt, VI 14514"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-08",
+        "Location": "62911 Cooley Ford Apt. 918\nJohnsonville, GU 46321",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 83786
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33154
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6844
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24790
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16635
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 165209,
+        "TotalApproved": 36100
+    },
+    "AdjusterDetails": {
+        "Name": "Lori Carter",
+        "ContactInformation": {
+            "Phone": "001-750-666-6636x4901",
+            "Email": "woodseric@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d61bb682-d471-44d1-989b-3ba0e44f9c53"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

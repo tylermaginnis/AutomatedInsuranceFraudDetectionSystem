@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3d661052-8ffa-4b73-ab0b-34672a88819c",
+    "PolicyID": "e50c3739-a2c5-4e49-8416-6a90d90461be",
+    "EffectiveDates": {
+        "StartDate": "2024-02-29",
+        "EndDate": "2025-02-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2aa8387f-aed9-4163-944e-e0e88fcbf483",
+        "Name": "Deanna Cohen",
+        "PolicyNumber": "e50c3739-a2c5-4e49-8416-6a90d90461be",
+        "ContactInformation": {
+            "Phone": "(924)831-7321",
+            "Email": "mharrison@example.com",
+            "Address": "591 Jensen Tunnel Apt. 636\nKellyborough, AZ 73430"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-26",
+        "Location": "225 Sabrina Views\nNorth Jenniferton, CO 28045",
+        "Description": "Admit relationship style local guess yeah statement. Citizen common ever paper coach team himself since."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7944
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9865
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8301
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 129071
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11282
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 29165,
+        "TotalApproved": 28349
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Fuller",
+        "ContactInformation": {
+            "Phone": "001-372-733-2236",
+            "Email": "iward@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/47013136-db89-4327-80c2-8e608d3fda65"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-31T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

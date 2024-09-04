@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bafa8af3-f873-4bac-bd1e-a129cf8f57f0",
+    "PolicyID": "2e098a26-9892-439f-8ef3-ff7bdd05eb30",
+    "EffectiveDates": {
+        "StartDate": "2023-11-25",
+        "EndDate": "2024-11-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8422f16d-f7b6-4cb0-bb13-7195dc880fd0",
+        "Name": "Maria Solomon",
+        "PolicyNumber": "2e098a26-9892-439f-8ef3-ff7bdd05eb30",
+        "ContactInformation": {
+            "Phone": "(728)541-8747x1652",
+            "Email": "yrodriguez@example.org",
+            "Address": "71291 Sharon Plaza Apt. 292\nPort Melanie, MN 90666"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-16",
+        "Location": "Unit 8339 Box 6531\nDPO AP 15749",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 76982
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46448
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8289
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20167
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5615
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 157501,
+        "TotalApproved": 92505
+    },
+    "AdjusterDetails": {
+        "Name": "John Flynn",
+        "ContactInformation": {
+            "Phone": "(879)374-8431",
+            "Email": "melissa86@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a4704f4d-0846-4e72-9648-f686fdc6476e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-16T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-21T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-26T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

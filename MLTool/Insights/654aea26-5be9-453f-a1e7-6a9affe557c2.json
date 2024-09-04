@@ -1,0 +1,81 @@
+{
+    "ClaimID": "654aea26-5be9-453f-a1e7-6a9affe557c2",
+    "PolicyID": "668dc7f7-c553-42f7-bf3d-d502553895a3",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aa3a0c84-3fef-4b64-bcb5-a7d6a7495b0e",
+        "Name": "Todd Jones",
+        "PolicyNumber": "668dc7f7-c553-42f7-bf3d-d502553895a3",
+        "ContactInformation": {
+            "Phone": "556.707.9909x35197",
+            "Email": "nicoleherrera@example.org",
+            "Address": "4512 Carlson Haven\nEast Erin, VA 12976"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-08",
+        "Location": "600 Compton Villages Apt. 843\nLake James, NJ 95189",
+        "Description": "We single appear allow apply able. Require suddenly subject government myself. Safe movie senior major.\nBecause ever Democrat join."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16032
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13085
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6266
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 76462
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26172
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 120844,
+        "TotalApproved": 120029
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Gibbs",
+        "ContactInformation": {
+            "Phone": "(275)549-8381x96230",
+            "Email": "odavis@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9c871f14-108b-49f0-9cc7-61f5bc733acd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

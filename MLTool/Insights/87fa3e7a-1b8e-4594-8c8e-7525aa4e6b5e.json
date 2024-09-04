@@ -1,0 +1,81 @@
+{
+    "ClaimID": "87fa3e7a-1b8e-4594-8c8e-7525aa4e6b5e",
+    "PolicyID": "ca8e7d9e-4e00-4d14-8fe4-4aa22dffc11d",
+    "EffectiveDates": {
+        "StartDate": "2023-09-07",
+        "EndDate": "2024-09-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4e38c5e1-a698-4101-b908-5c636dca488d",
+        "Name": "Daniel Meyers",
+        "PolicyNumber": "ca8e7d9e-4e00-4d14-8fe4-4aa22dffc11d",
+        "ContactInformation": {
+            "Phone": "(534)577-5026",
+            "Email": "joel91@example.net",
+            "Address": "USNS Carter\nFPO AP 39745"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-29",
+        "Location": "PSC 4495, Box 1883\nAPO AA 42753",
+        "Description": "Throw door agency bring. Clear good serve avoid factor.\nExperience catch need. Lead create newspaper. Size treatment she political truth visit artist."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8849
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1678
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2746
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90471
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6656
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 9445,
+        "TotalApproved": 6001
+    },
+    "AdjusterDetails": {
+        "Name": "Marilyn Jenkins",
+        "ContactInformation": {
+            "Phone": "9624992912",
+            "Email": "robert77@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9759bb38-1038-48ce-a7a0-63b1bd289ae4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

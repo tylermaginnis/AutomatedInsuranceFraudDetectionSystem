@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b2caf4bb-c762-4082-b07e-49e210616cb0",
+    "PolicyID": "0d7a3188-efe2-492e-9580-f0921ec10ae5",
+    "EffectiveDates": {
+        "StartDate": "2024-04-20",
+        "EndDate": "2025-04-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f6afcb35-173d-402f-a6b4-024522fb0773",
+        "Name": "Natalie Williams",
+        "PolicyNumber": "0d7a3188-efe2-492e-9580-f0921ec10ae5",
+        "ContactInformation": {
+            "Phone": "001-242-301-7726",
+            "Email": "greenstephen@example.org",
+            "Address": "USCGC Gregory\nFPO AP 90110"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-12",
+        "Location": "Unit 7663 Box 4827\nDPO AP 57151",
+        "Description": "Sense really quite season my reason. True ago today item. College scene yes try."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6513
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 64967
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2878
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5787
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3019
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 33154,
+        "TotalApproved": 9014
+    },
+    "AdjusterDetails": {
+        "Name": "Aaron Hill",
+        "ContactInformation": {
+            "Phone": "861-670-3088",
+            "Email": "zsmith@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b7fd0f1b-df64-4301-9cb3-52526f31cdee"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-12T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-17T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-22T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

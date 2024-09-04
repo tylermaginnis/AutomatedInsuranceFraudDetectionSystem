@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c54a7228-3072-4432-b754-befc7488ac81",
+    "PolicyID": "f18efd87-c448-4d0c-8786-a39cbad4dca4",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6f6e48b4-7aea-4461-8a91-8e6ced3d6e19",
+        "Name": "Christian Wright",
+        "PolicyNumber": "f18efd87-c448-4d0c-8786-a39cbad4dca4",
+        "ContactInformation": {
+            "Phone": "(878)688-3698",
+            "Email": "davidperez@example.org",
+            "Address": "148 Joseph Throughway Suite 691\nRobertland, DC 36151"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-13",
+        "Location": "9448 Christian Hill\nEast Dianafurt, NV 69344",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 52804
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32395
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6271
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22700
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5482
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 119652,
+        "TotalApproved": 69688
+    },
+    "AdjusterDetails": {
+        "Name": "Curtis Adams",
+        "ContactInformation": {
+            "Phone": "204-395-1104x5035",
+            "Email": "samuel19@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/bf9e86ce-8903-4eba-ab6f-72e50615ca23"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-13T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-18T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-23T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

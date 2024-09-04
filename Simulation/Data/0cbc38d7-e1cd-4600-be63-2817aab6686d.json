@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0cbc38d7-e1cd-4600-be63-2817aab6686d",
+  "PolicyID": "88c72b42-057a-47cb-a87d-5c6c1983767f",
+  "EffectiveDates": {
+    "StartDate": "2023-12-03",
+    "EndDate": "2024-12-02"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "10943c80-83f8-4c86-8489-d3a22523072e",
+    "Name": "Luis Kim MD",
+    "PolicyNumber": "88c72b42-057a-47cb-a87d-5c6c1983767f",
+    "ContactInformation": {
+      "Phone": "936-381-7181",
+      "Email": "ebrown@example.net",
+      "Address": "760 Jennifer Mission Suite 715\nFosterhaven, WI 12311"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-10",
+    "Location": "Unit 7794 Box 7694\nDPO AA 08482",
+    "Description": "Once stop probably write experience society. From area energy position hair boy threat traditional. Yourself must thing reveal he hundred property but."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 17082
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 32419
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8532
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7874
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 17703
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 25316,
+    "TotalApproved": 21385
+  },
+  "AdjusterDetails": {
+    "Name": "Anna Cox",
+    "ContactInformation": {
+      "Phone": "(228)980-3453x17894",
+      "Email": "alejandro61@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/1c9c9ee7-49e8-4901-8631-9442f477f7e6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-10T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-15T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-20T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

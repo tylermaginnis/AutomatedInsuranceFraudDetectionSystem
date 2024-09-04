@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6f070c2-7593-4d10-8ea3-8124eed586fb",
+    "PolicyID": "7257fbaa-5b8e-442b-864c-331067f12a54",
+    "EffectiveDates": {
+        "StartDate": "2024-01-15",
+        "EndDate": "2025-01-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a6be5343-ce03-4661-96ec-e73415f46169",
+        "Name": "Mr. Preston Harper",
+        "PolicyNumber": "7257fbaa-5b8e-442b-864c-331067f12a54",
+        "ContactInformation": {
+            "Phone": "001-445-821-2116x73368",
+            "Email": "csnyder@example.com",
+            "Address": "8679 Johnson Groves Suite 817\nMcguirebury, NJ 33240"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-26",
+        "Location": "77577 Callahan Vista Suite 498\nEast Stephanieville, CT 08535",
+        "Description": "Find rich way energy key politics. Anything end ok.\nAffect cost party some difficult. Major senior responsibility with quickly fund. Yard name author."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9797
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26800
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 40032
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47832
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6183
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 43473,
+        "TotalApproved": 39681
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Estes",
+        "ContactInformation": {
+            "Phone": "+1-250-403-9702",
+            "Email": "johnfrancis@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a8807f78-0a7b-4aa0-8df0-44b3a68dd2da"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-26T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-02T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-07T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

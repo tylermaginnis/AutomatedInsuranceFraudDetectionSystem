@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d86686c1-8883-4aac-a731-8e4b93c49fbe",
+    "PolicyID": "f52c8d13-29d5-4610-a7b3-8135f5b9bcf2",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "28db4306-84af-4ab2-b8bc-693160f3117c",
+        "Name": "Brendan Walker",
+        "PolicyNumber": "f52c8d13-29d5-4610-a7b3-8135f5b9bcf2",
+        "ContactInformation": {
+            "Phone": "730.346.2910",
+            "Email": "kwhitehead@example.org",
+            "Address": "319 Julia Port\nWest Nichole, VA 28587"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-27",
+        "Location": "69416 Scott Streets\nLake Mariaberg, OK 29125",
+        "Description": "Serve TV able size ahead common. Bad late only listen. Less speak economic always day film. Add him coach force fact."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12664
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 190411
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4578
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 50368
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39162
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 118083,
+        "TotalApproved": 56073
+    },
+    "AdjusterDetails": {
+        "Name": "William Singh",
+        "ContactInformation": {
+            "Phone": "(270)688-2666x91257",
+            "Email": "ruizdavid@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/44530d56-bbbf-4175-bf30-a04091d653c7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-27T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-01T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-06T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "19797a61-51f0-4e79-b1b2-c3e58dc851f7",
+    "PolicyID": "a3faf5cd-6b71-4a85-9fd2-01cb91692f97",
+    "EffectiveDates": {
+        "StartDate": "2023-12-28",
+        "EndDate": "2024-12-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "04f354d6-a261-4126-859e-a13af9e2539a",
+        "Name": "Jennifer Burns",
+        "PolicyNumber": "a3faf5cd-6b71-4a85-9fd2-01cb91692f97",
+        "ContactInformation": {
+            "Phone": "+1-682-547-0131x8988",
+            "Email": "rrice@example.org",
+            "Address": "1164 Patel Mills\nDanielburgh, PW 08573"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-02",
+        "Location": "928 Hernandez Divide\nNew Scott, WA 26920",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 89063
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36467
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7250
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12279
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6889
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151948,
+        "TotalApproved": 138235
+    },
+    "AdjusterDetails": {
+        "Name": "Peter Potter",
+        "ContactInformation": {
+            "Phone": "681-830-4999",
+            "Email": "samuelsingh@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/16bb75f8-933e-4988-bc7e-125a5ef9e571"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

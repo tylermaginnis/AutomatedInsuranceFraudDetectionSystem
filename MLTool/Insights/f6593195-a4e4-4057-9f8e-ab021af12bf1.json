@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6593195-a4e4-4057-9f8e-ab021af12bf1",
+    "PolicyID": "9bcda28b-ccbe-4db1-ae94-8790b92e6edb",
+    "EffectiveDates": {
+        "StartDate": "2024-01-11",
+        "EndDate": "2025-01-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "228c3441-8be5-4953-8fd4-cf0d40fc03a9",
+        "Name": "Charles Schroeder",
+        "PolicyNumber": "9bcda28b-ccbe-4db1-ae94-8790b92e6edb",
+        "ContactInformation": {
+            "Phone": "001-909-665-8295x93210",
+            "Email": "jesse82@example.net",
+            "Address": "954 Woods Tunnel Suite 300\nSouth Bethanyville, AK 24300"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-09",
+        "Location": "27470 Meadows View\nEast Amy, MO 12664",
+        "Description": "Operation point then foot meeting teacher foot meeting. Fear sound scientist factor ago view senior economic. Explain player base land."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 95079
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6178
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9302
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44589
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16154
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 173739,
+        "TotalApproved": 12940
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Johnson",
+        "ContactInformation": {
+            "Phone": "001-449-457-3572x532",
+            "Email": "paulmiller@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/acec1ecd-4bd8-4df7-9f0c-c141ee80ee48"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-09T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-14T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-19T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

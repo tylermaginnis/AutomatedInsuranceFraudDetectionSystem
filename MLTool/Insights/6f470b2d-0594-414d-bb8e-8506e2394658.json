@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6f470b2d-0594-414d-bb8e-8506e2394658",
+    "PolicyID": "d4e0098d-777a-4921-82ab-26bb902ba529",
+    "EffectiveDates": {
+        "StartDate": "2024-01-31",
+        "EndDate": "2025-01-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7f8505ef-715e-4b82-9b53-c6af13beb1d9",
+        "Name": "Christina Adams",
+        "PolicyNumber": "d4e0098d-777a-4921-82ab-26bb902ba529",
+        "ContactInformation": {
+            "Phone": "801-622-6585",
+            "Email": "nhenderson@example.net",
+            "Address": "71309 Lewis Knoll\nPort Michaelville, GU 95066"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-03",
+        "Location": "42384 Perez Cliff\nHartmanside, UT 14909",
+        "Description": "Job pressure character growth practice hold. World everything represent technology black economic.\nWeek bad them keep class better. Administration term choice back can. In just effort body."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9149
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5526
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 107879
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 68846
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18253
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 116536,
+        "TotalApproved": 86844
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Davis",
+        "ContactInformation": {
+            "Phone": "433.592.5078",
+            "Email": "ibender@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/cd2e22c9-6696-4dba-a939-41518b14b598"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-03T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-08T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-13T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

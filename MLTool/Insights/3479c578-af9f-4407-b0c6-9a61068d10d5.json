@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3479c578-af9f-4407-b0c6-9a61068d10d5",
+    "PolicyID": "8bfabaed-c337-42ea-a0b3-0921d361ba33",
+    "EffectiveDates": {
+        "StartDate": "2024-08-31",
+        "EndDate": "2025-08-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d238d849-6c6e-4384-854c-542f994cf5ff",
+        "Name": "Anthony Hill",
+        "PolicyNumber": "8bfabaed-c337-42ea-a0b3-0921d361ba33",
+        "ContactInformation": {
+            "Phone": "(315)975-0714",
+            "Email": "amysmith@example.com",
+            "Address": "89501 Andrea Square Suite 770\nNorth Terri, MH 29605"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-25",
+        "Location": "525 Holt Fork\nMcculloughborough, CT 55931",
+        "Description": "Agency system Mr although six war reach. Have test simply. Of organization value analysis crime through."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 153475
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 175276
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16577
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 145447
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8820
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 56254,
+        "TotalApproved": 17739
+    },
+    "AdjusterDetails": {
+        "Name": "Terry Morgan",
+        "ContactInformation": {
+            "Phone": "001-292-539-5085x14497",
+            "Email": "kyleballard@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/48333bab-a43e-4dc1-9b7c-e3aac6cf8ca6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-25T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-30T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-04T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

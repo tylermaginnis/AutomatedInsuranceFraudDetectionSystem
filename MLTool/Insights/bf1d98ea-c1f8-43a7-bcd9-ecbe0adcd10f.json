@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bf1d98ea-c1f8-43a7-bcd9-ecbe0adcd10f",
+    "PolicyID": "f6dd528a-f264-44f5-85dc-7424014125b4",
+    "EffectiveDates": {
+        "StartDate": "2024-04-12",
+        "EndDate": "2025-04-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c7cb4291-c125-4493-a3a2-d90fe6934aaa",
+        "Name": "Marissa Davis",
+        "PolicyNumber": "f6dd528a-f264-44f5-85dc-7424014125b4",
+        "ContactInformation": {
+            "Phone": "001-405-883-4798x3766",
+            "Email": "gonzalestimothy@example.com",
+            "Address": "2663 James Station\nPort Kimberly, AR 07472"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-05",
+        "Location": "0520 Travis Union Apt. 484\nWest Jamesbury, ND 16287",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 86918
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 39541
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6263
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24445
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16099
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 173266,
+        "TotalApproved": 87856
+    },
+    "AdjusterDetails": {
+        "Name": "Heather Bernard",
+        "ContactInformation": {
+            "Phone": "(509)931-9492",
+            "Email": "ipena@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a2b0717e-1f4c-4290-942f-0ca2052461c2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-05T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-10T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-15T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "af4867f8-57de-44bf-b5d9-3b758233f596",
+  "PolicyID": "59590921-a083-4c1a-95d9-6cf66ce264da",
+  "EffectiveDates": {
+    "StartDate": "2023-12-24",
+    "EndDate": "2024-12-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8ca3ccbc-32d7-40c3-b7fe-896724fbbcca",
+    "Name": "Peter Manning",
+    "PolicyNumber": "59590921-a083-4c1a-95d9-6cf66ce264da",
+    "ContactInformation": {
+      "Phone": "478.801.1944",
+      "Email": "ihogan@example.org",
+      "Address": "USS Medina\nFPO AE 28858"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-27",
+    "Location": "518 Mcdonald Fall\nWellsmouth, TN 40158",
+    "Description": "Art soldier leg line. Big pay take serve decision.\nAge my they collection environmental same. Recent carry well fly relationship."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 26500
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1314
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 42748
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 38496
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 22937
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 53897,
+    "TotalApproved": 28202
+  },
+  "AdjusterDetails": {
+    "Name": "Alexander Garcia",
+    "ContactInformation": {
+      "Phone": "001-992-433-7399x8986",
+      "Email": "rose22@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/a34b5dab-ae70-488a-9c56-a16749f589d9"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-27T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-02T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-07T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

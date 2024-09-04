@@ -1,0 +1,81 @@
+{
+    "ClaimID": "826fbd9f-67d6-4049-8440-a04c24ef1e5b",
+    "PolicyID": "8d5c44d3-d76d-4c8f-b7f9-48ce13e37645",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "89618e0e-833c-4a41-94ac-7c579967a5d6",
+        "Name": "Anthony Norton",
+        "PolicyNumber": "8d5c44d3-d76d-4c8f-b7f9-48ce13e37645",
+        "ContactInformation": {
+            "Phone": "948.912.3780",
+            "Email": "rogersdavid@example.net",
+            "Address": "996 Ellis Brook\nMichelleton, MN 89724"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-16",
+        "Location": "229 Miles Coves\nCharlesmouth, HI 98144",
+        "Description": "Bill raise year paper go level far. Then raise traditional reduce.\nSomeone decision make authority important money sing. Walk heart plan whose nor accept strong."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6420
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 51079
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 73193
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 55756
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 62044
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 50950,
+        "TotalApproved": 9956
+    },
+    "AdjusterDetails": {
+        "Name": "Luke Jackson",
+        "ContactInformation": {
+            "Phone": "460-368-1041x264",
+            "Email": "jacobprice@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e0ab5add-a99f-4a94-8ae0-cb947ccd46c8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

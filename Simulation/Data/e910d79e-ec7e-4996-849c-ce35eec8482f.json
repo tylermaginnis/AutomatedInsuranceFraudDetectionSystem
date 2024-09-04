@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e910d79e-ec7e-4996-849c-ce35eec8482f",
+  "PolicyID": "9371ee07-e016-4099-8c13-4ad4aa91c1d2",
+  "EffectiveDates": {
+    "StartDate": "2024-02-28",
+    "EndDate": "2025-02-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "69ce4886-ba12-458f-b437-37e5eced7881",
+    "Name": "Austin Rojas",
+    "PolicyNumber": "9371ee07-e016-4099-8c13-4ad4aa91c1d2",
+    "ContactInformation": {
+      "Phone": "(246)731-1780x6349",
+      "Email": "damon15@example.org",
+      "Address": "532 Karen Freeway Apt. 331\nWilliambury, KY 56855"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-17",
+    "Location": "7261 Gary Heights\nLake Angela, FL 05661",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 55189
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 24240
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7893
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 28556
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6746
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 122624,
+    "TotalApproved": 29299
+  },
+  "AdjusterDetails": {
+    "Name": "Catherine Robertson",
+    "ContactInformation": {
+      "Phone": "496.553.5154",
+      "Email": "zhaley@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/2fe2e10c-51ba-4875-b96b-12c6da85a930"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-17T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-22T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-27T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

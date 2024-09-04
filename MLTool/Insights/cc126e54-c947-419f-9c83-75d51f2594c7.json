@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cc126e54-c947-419f-9c83-75d51f2594c7",
+    "PolicyID": "b44123c7-4d6e-43f0-9409-20d939f9d60a",
+    "EffectiveDates": {
+        "StartDate": "2024-01-29",
+        "EndDate": "2025-01-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d96feffa-16e5-4da7-b16b-3cfaa0761c34",
+        "Name": "Amber Bennett",
+        "PolicyNumber": "b44123c7-4d6e-43f0-9409-20d939f9d60a",
+        "ContactInformation": {
+            "Phone": "(557)291-8253x5283",
+            "Email": "johnvelez@example.org",
+            "Address": "44721 Stephen Square\nChaveztown, OH 07524"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-26",
+        "Location": "0682 Alexa Manors Apt. 117\nSouth Summertown, NC 06962",
+        "Description": "Read find appear. Exactly sort should somebody know. Themselves effort art almost sister production section cup."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1138
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10176
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31101
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8150
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2482
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 90266,
+        "TotalApproved": 11880
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Cruz",
+        "ContactInformation": {
+            "Phone": "256.670.5872",
+            "Email": "boltonkyle@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a32376e0-8763-4a73-9968-ea6f26d10407"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-01T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-06T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

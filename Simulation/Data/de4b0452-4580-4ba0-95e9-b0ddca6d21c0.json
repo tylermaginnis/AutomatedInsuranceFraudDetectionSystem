@@ -1,0 +1,80 @@
+{
+  "ClaimID": "de4b0452-4580-4ba0-95e9-b0ddca6d21c0",
+  "PolicyID": "2ef0a7fe-6974-4e35-928d-1c4cf3756524",
+  "EffectiveDates": {
+    "StartDate": "2024-01-08",
+    "EndDate": "2025-01-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "de06f65d-e10b-4d56-ac52-384a860118ec",
+    "Name": "Lori Reynolds",
+    "PolicyNumber": "2ef0a7fe-6974-4e35-928d-1c4cf3756524",
+    "ContactInformation": {
+      "Phone": "001-800-707-8819x30448",
+      "Email": "edonaldson@example.net",
+      "Address": "72086 Roach Highway Apt. 568\nDeantown, IA 76226"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-27",
+    "Location": "63967 Oneill Crest Apt. 527\nNicoleburgh, MT 86396",
+    "Description": "With indeed inside at. All want by again individual. Still music billion quite challenge fast."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 123931
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 123974
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 52539
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 40013
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4285
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 89802,
+    "TotalApproved": 7882
+  },
+  "AdjusterDetails": {
+    "Name": "John Gentry",
+    "ContactInformation": {
+      "Phone": "+1-483-742-4914x89547",
+      "Email": "john64@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/af16f81b-2ede-4511-8263-3fec7fa68268"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-27T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-01T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-06T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

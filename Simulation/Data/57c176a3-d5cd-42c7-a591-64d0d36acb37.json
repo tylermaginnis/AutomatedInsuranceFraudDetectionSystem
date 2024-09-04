@@ -1,0 +1,80 @@
+{
+  "ClaimID": "57c176a3-d5cd-42c7-a591-64d0d36acb37",
+  "PolicyID": "61b88dd1-bc7e-496a-bc41-96c015bdf08f",
+  "EffectiveDates": {
+    "StartDate": "2024-08-11",
+    "EndDate": "2025-08-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "160f064f-566d-434b-87da-83daf4aba7a7",
+    "Name": "David Greene",
+    "PolicyNumber": "61b88dd1-bc7e-496a-bc41-96c015bdf08f",
+    "ContactInformation": {
+      "Phone": "8696274093",
+      "Email": "davisluke@example.net",
+      "Address": "PSC 7176, Box 4234\nAPO AP 84302"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-24",
+    "Location": "USNV Clements\nFPO AE 92688",
+    "Description": "Gun course line lot student company lead. Clearly author reason hair nearly necessary impact far. Position in most seat cost have each."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 40376
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 23974
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4723
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 10117
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 107752
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 27988,
+    "TotalApproved": 27088
+  },
+  "AdjusterDetails": {
+    "Name": "Jared Mack",
+    "ContactInformation": {
+      "Phone": "6396804251",
+      "Email": "aallen@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/0b36d667-6a72-42ec-9758-fadfb9feb290"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-24T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-29T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-04T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6d2a1d79-654e-4d3f-9dd7-12ed96bd43f6",
+    "PolicyID": "919c330c-7a4b-46d6-bf18-8ec599b4ecf6",
+    "EffectiveDates": {
+        "StartDate": "2024-06-12",
+        "EndDate": "2025-06-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "302a59f2-90cd-4cae-b701-c0007384580c",
+        "Name": "Douglas Macias",
+        "PolicyNumber": "919c330c-7a4b-46d6-bf18-8ec599b4ecf6",
+        "ContactInformation": {
+            "Phone": "001-509-755-6495x7828",
+            "Email": "kelleygregory@example.net",
+            "Address": "72827 Heather Loaf\nPort Destiny, MH 81808"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-23",
+        "Location": "435 Nicole Camp Suite 551\nEast Geraldland, MO 37915",
+        "Description": "Scene significant level around. Age model worker project push style true. Claim dinner team.\nWish staff western physical. Red off bed. All provide agency job. Human at response take."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 197681
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9802
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 153284
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8387
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 38774
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 109368,
+        "TotalApproved": 89610
+    },
+    "AdjusterDetails": {
+        "Name": "Jonathan Phillips",
+        "ContactInformation": {
+            "Phone": "5489560688",
+            "Email": "ericaduran@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5ae9225f-e6dc-4316-af09-41ebe43a662c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-03T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9f10326f-c4a3-485b-ab7e-90c0c3e58660",
+    "PolicyID": "ecb3e373-3c49-432b-a8ea-bb037be8d510",
+    "EffectiveDates": {
+        "StartDate": "2024-02-14",
+        "EndDate": "2025-02-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "74591aea-e158-46b9-afef-445bb6098c49",
+        "Name": "Robert Conner",
+        "PolicyNumber": "ecb3e373-3c49-432b-a8ea-bb037be8d510",
+        "ContactInformation": {
+            "Phone": "9048478228",
+            "Email": "jgarcia@example.org",
+            "Address": "7586 Lopez Alley Apt. 490\nSouth Cheryl, MN 72681"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-18",
+        "Location": "63481 Michael Lake Suite 238\nEast Michelle, OK 76128",
+        "Description": "Indeed may meet choice sing. College including great coach popular surface."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 134903
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8201
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6367
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23704
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9419
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 37467,
+        "TotalApproved": 14368
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Brown",
+        "ContactInformation": {
+            "Phone": "5427069236",
+            "Email": "janderson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/876250d3-d654-4cb7-9c1c-a2fcc044eb0b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

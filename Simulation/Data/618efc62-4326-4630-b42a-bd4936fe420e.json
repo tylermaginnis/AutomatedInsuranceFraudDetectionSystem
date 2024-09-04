@@ -1,0 +1,80 @@
+{
+  "ClaimID": "618efc62-4326-4630-b42a-bd4936fe420e",
+  "PolicyID": "bb7f1aec-0b46-42b7-b90e-7a648f7e2c57",
+  "EffectiveDates": {
+    "StartDate": "2024-01-29",
+    "EndDate": "2025-01-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b20fb675-05b4-4538-9f2a-d785a9837cfc",
+    "Name": "David Norman",
+    "PolicyNumber": "bb7f1aec-0b46-42b7-b90e-7a648f7e2c57",
+    "ContactInformation": {
+      "Phone": "261.425.5485",
+      "Email": "larry70@example.com",
+      "Address": "618 Bradley Landing\nRachelberg, MT 64232"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-26",
+    "Location": "0182 Pope Bypass Suite 940\nPort Jason, KY 14995",
+    "Description": "Use stand allow single least. Third add cut. Sell information event machine official.\nSpring take TV red. Resource would director grow democratic different."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 10558
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2585
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9353
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 43628
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 22780
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 97091,
+    "TotalApproved": 8442
+  },
+  "AdjusterDetails": {
+    "Name": "Scott Wallace",
+    "ContactInformation": {
+      "Phone": "612.273.8481x475",
+      "Email": "gdiaz@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/2132f5f5-5e99-4478-b914-3d04a4c52a71"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-26T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-01T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-06T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

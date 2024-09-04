@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fcb6082f-90df-4c84-b7c4-905618d4d7ad",
+    "PolicyID": "dad039bf-9b98-471d-8a91-48b9fbdd3cf2",
+    "EffectiveDates": {
+        "StartDate": "2024-06-25",
+        "EndDate": "2025-06-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "49f5ff26-2732-4a4e-855a-54a043f4e38a",
+        "Name": "Beverly Davis",
+        "PolicyNumber": "dad039bf-9b98-471d-8a91-48b9fbdd3cf2",
+        "ContactInformation": {
+            "Phone": "702-755-5661",
+            "Email": "jessica52@example.org",
+            "Address": "254 Lauren Locks Apt. 790\nWalshfort, FL 50895"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-17",
+        "Location": "827 Jeffrey Knolls\nSouth Cynthia, NC 60471",
+        "Description": "Say first small eight law table space. Season drive effect song building our. Carry adult hotel item price former.\nPoint might word why real. Blue scientist network wrong tend."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36378
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28012
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6136
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 82037
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 113948
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 115010,
+        "TotalApproved": 22092
+    },
+    "AdjusterDetails": {
+        "Name": "Kenneth Mcdowell",
+        "ContactInformation": {
+            "Phone": "(467)550-8267",
+            "Email": "wzimmerman@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7b11afcd-ad6c-4e04-bde2-7d4566627506"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-17T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-22T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-27T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

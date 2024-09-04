@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b502af65-96ee-4dd9-9af0-4c64c165be0b",
+  "PolicyID": "e18582d5-06a3-436a-9d49-c03a6ab8018b",
+  "EffectiveDates": {
+    "StartDate": "2024-03-24",
+    "EndDate": "2025-03-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "cf908500-f9fa-4a59-a586-601f6007252f",
+    "Name": "Julie Rangel",
+    "PolicyNumber": "e18582d5-06a3-436a-9d49-c03a6ab8018b",
+    "ContactInformation": {
+      "Phone": "001-421-285-0715",
+      "Email": "weaversherry@example.org",
+      "Address": "877 Keller Plaza\nWallaceton, NM 48839"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-08",
+    "Location": "3169 Steven Isle Apt. 073\nKatherineport, AS 93856",
+    "Description": "Material simple soldier care audience. Role ball people few cold some shoulder. Nation imagine whether suffer build true wonder."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6163
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 163328
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9505
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13422
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3842
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 182867,
+    "TotalApproved": 43371
+  },
+  "AdjusterDetails": {
+    "Name": "Anita Huber",
+    "ContactInformation": {
+      "Phone": "419-536-8179",
+      "Email": "gabrielladavis@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/917ea93b-81d4-428d-b6ce-36e1dca211fb"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-08T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-13T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-18T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

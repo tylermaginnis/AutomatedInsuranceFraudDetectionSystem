@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c83a1bd2-143c-4407-9007-7fb6111edeb1",
+    "PolicyID": "dee44bf1-792a-4957-9cbc-7ba935acd495",
+    "EffectiveDates": {
+        "StartDate": "2024-06-30",
+        "EndDate": "2025-06-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c3294fff-24c8-4a22-8393-fa2d10622775",
+        "Name": "Lucas Mason",
+        "PolicyNumber": "dee44bf1-792a-4957-9cbc-7ba935acd495",
+        "ContactInformation": {
+            "Phone": "3682232388",
+            "Email": "ljohnston@example.org",
+            "Address": "377 Curtis Estate Suite 265\nNorth Wendyland, CT 99617"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-03",
+        "Location": "939 Simmons Ranch Apt. 841\nRosalesland, MH 05797",
+        "Description": "Beyond do school. Plan though interview prepare knowledge job fine. Capital kitchen who class.\nManager nature arm try writer around. Huge certainly list radio. Whatever class detail."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90926
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17634
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 83016
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14768
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49693
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 160807,
+        "TotalApproved": 103797
+    },
+    "AdjusterDetails": {
+        "Name": "Diana Ramirez",
+        "ContactInformation": {
+            "Phone": "001-402-477-3725",
+            "Email": "kimcabrera@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/109718ac-8507-489a-8484-90b379d43053"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

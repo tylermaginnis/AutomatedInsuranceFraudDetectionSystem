@@ -1,0 +1,81 @@
+{
+    "ClaimID": "51125762-85a3-4696-a866-6293b1c47526",
+    "PolicyID": "d1b4d430-4483-4b8a-a8a3-1a9e9ce04d09",
+    "EffectiveDates": {
+        "StartDate": "2023-09-11",
+        "EndDate": "2024-09-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8c415e7a-4116-4896-a30b-d2cd8504ca41",
+        "Name": "Brenda Poole",
+        "PolicyNumber": "d1b4d430-4483-4b8a-a8a3-1a9e9ce04d09",
+        "ContactInformation": {
+            "Phone": "626-742-0040",
+            "Email": "jhoward@example.com",
+            "Address": "4674 Brittany Fort Apt. 884\nLake Savannah, VI 63759"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-09-14",
+        "Location": "8357 Kathleen Stream Suite 593\nLake Sandraside, KY 86682",
+        "Description": "Within impact choice Congress. Peace now program.\nAnimal indicate theory central. Subject expert sense join. Happen site read information baby lead summer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1422
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10647
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11544
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26099
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 59360
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 21532,
+        "TotalApproved": 8833
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Chambers",
+        "ContactInformation": {
+            "Phone": "7398170991",
+            "Email": "harrisjennifer@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/aef00a26-6130-4182-90bb-cba050dc5cb0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-09-14T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-09-19T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-09-24T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

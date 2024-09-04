@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c4860d73-3b85-4b86-bcf6-49ae08c7c10f",
+    "PolicyID": "547a3d3a-a010-4d97-9b16-7502990f35df",
+    "EffectiveDates": {
+        "StartDate": "2024-08-31",
+        "EndDate": "2025-08-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "76fa0b0c-ee05-4f30-8880-e847b0a5c56d",
+        "Name": "Mary Walter",
+        "PolicyNumber": "547a3d3a-a010-4d97-9b16-7502990f35df",
+        "ContactInformation": {
+            "Phone": "3552610219",
+            "Email": "ovelasquez@example.com",
+            "Address": "710 Matthew Burg\nWheelerberg, IL 52848"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-05",
+        "Location": "5639 Nicole Summit\nMarkmouth, VI 67678",
+        "Description": "Level continue garden entire source. Consider his good down start church need.\nCollection worry way. Middle skill value make already. Range participant save focus agency sit water."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 150336
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25237
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16786
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4565
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7937
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 13154,
+        "TotalApproved": 12809
+    },
+    "AdjusterDetails": {
+        "Name": "Trevor Potts",
+        "ContactInformation": {
+            "Phone": "293.669.0455x300",
+            "Email": "travisblack@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/27074260-0c71-4c3e-88b5-7f51e6c8cc6e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

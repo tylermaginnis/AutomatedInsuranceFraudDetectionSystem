@@ -1,0 +1,81 @@
+{
+    "ClaimID": "387bb0bc-1809-496f-9b06-0b447656b851",
+    "PolicyID": "d061521f-588b-4f92-8e90-15bbdcae8a19",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0288cb97-21be-47d9-be80-44982af2e7dc",
+        "Name": "Alexis Hopkins",
+        "PolicyNumber": "d061521f-588b-4f92-8e90-15bbdcae8a19",
+        "ContactInformation": {
+            "Phone": "894.735.2837",
+            "Email": "vanderson@example.com",
+            "Address": "4251 Johnson Via\nHoganshire, ND 77037"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-11",
+        "Location": "USCGC Wise\nFPO AA 48213",
+        "Description": "Federal scene become deep get stock doctor. Bar business activity week image when weight lot.\nMore several many. Why power put PM century. What nor check consumer do try often."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7585
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 93726
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 64162
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 143957
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19615
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 99135,
+        "TotalApproved": 60369
+    },
+    "AdjusterDetails": {
+        "Name": "David James",
+        "ContactInformation": {
+            "Phone": "(444)401-1761x620",
+            "Email": "jessica62@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8d55b3b5-68f6-435b-9b0a-7dc03fbc311b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-11T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-16T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-21T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

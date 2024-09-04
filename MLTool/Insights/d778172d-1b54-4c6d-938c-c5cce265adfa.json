@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d778172d-1b54-4c6d-938c-c5cce265adfa",
+    "PolicyID": "8e4c734c-c494-47ba-81ae-191bbb34af60",
+    "EffectiveDates": {
+        "StartDate": "2023-11-16",
+        "EndDate": "2024-11-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9e7d8763-cf1a-4d80-9556-8ddf60544b01",
+        "Name": "Samuel Anderson",
+        "PolicyNumber": "8e4c734c-c494-47ba-81ae-191bbb34af60",
+        "ContactInformation": {
+            "Phone": "(754)954-5181",
+            "Email": "briannamitchell@example.com",
+            "Address": "0990 Cheryl Spring\nNorth Dawntown, LA 00748"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-05",
+        "Location": "321 Huff Road Apt. 248\nTimothyshire, VT 15959",
+        "Description": "Important challenge at yourself blue raise. Center company next lot.\nAlone man president provide never worry. Ball former amount charge back probably whom step."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11170
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44430
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8434
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 68585
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9514
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 14627,
+        "TotalApproved": 8077
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Mcclure",
+        "ContactInformation": {
+            "Phone": "(621)754-6665",
+            "Email": "lwilkinson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4a4638bd-0665-4444-b475-0d57c8f5a83b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

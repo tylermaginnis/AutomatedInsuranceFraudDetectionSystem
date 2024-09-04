@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eea6ab69-762a-4a95-af93-90f3af16bf4b",
+    "PolicyID": "2ffb363e-a112-42aa-9a23-0cc7d2933c74",
+    "EffectiveDates": {
+        "StartDate": "2023-10-09",
+        "EndDate": "2024-10-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b9486b1c-9f79-4704-8646-5128596b38b9",
+        "Name": "Angela Tran",
+        "PolicyNumber": "2ffb363e-a112-42aa-9a23-0cc7d2933c74",
+        "ContactInformation": {
+            "Phone": "421.636.6735x547",
+            "Email": "awhite@example.net",
+            "Address": "12090 Christensen Road\nOliviaborough, FL 97840"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-05",
+        "Location": "849 Rivas Mountain\nWest Bradleyborough, AK 95724",
+        "Description": "Spend four small power put. Happen sort worry issue campaign.\nEver admit huge wait. Food reduce government score reflect. Speak mind water star house where manager."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 137958
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22792
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16092
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6867
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8137
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 87608,
+        "TotalApproved": 37916
+    },
+    "AdjusterDetails": {
+        "Name": "Kelly Gonzalez",
+        "ContactInformation": {
+            "Phone": "337.276.4022",
+            "Email": "joshua26@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/594ebd7b-4a60-4351-9f8e-b329c915b022"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

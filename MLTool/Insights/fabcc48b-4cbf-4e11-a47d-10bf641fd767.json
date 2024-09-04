@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fabcc48b-4cbf-4e11-a47d-10bf641fd767",
+    "PolicyID": "ac5bc34a-d0dc-4656-a7f1-cde2b4b6164d",
+    "EffectiveDates": {
+        "StartDate": "2024-03-18",
+        "EndDate": "2025-03-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "88dd9197-f0a7-4c30-bc48-920a50b29505",
+        "Name": "Vanessa Matthews",
+        "PolicyNumber": "ac5bc34a-d0dc-4656-a7f1-cde2b4b6164d",
+        "ContactInformation": {
+            "Phone": "330-305-9768x710",
+            "Email": "wongwilliam@example.com",
+            "Address": "98657 Billy Mountain Suite 908\nKimberlytown, LA 15650"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-27",
+        "Location": "37285 Martin Drives\nAngelachester, AZ 56747",
+        "Description": "Develop remember international hotel kid. Blood significant prepare side reveal out. Rather behavior field bar real none."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7238
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7514
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 93402
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20069
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15907
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 116921,
+        "TotalApproved": 14715
+    },
+    "AdjusterDetails": {
+        "Name": "James Allison",
+        "ContactInformation": {
+            "Phone": "854.963.5430x6798",
+            "Email": "pcardenas@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/63eb26d0-5b1b-444a-b266-512d0b90053b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-27T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-02T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-07T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

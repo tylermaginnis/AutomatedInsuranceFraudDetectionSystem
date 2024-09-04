@@ -1,0 +1,80 @@
+{
+  "ClaimID": "213f1222-952d-4a60-9ca6-5f4f461f8a8b",
+  "PolicyID": "66b702e5-fd30-49ba-8671-61ba15b4c09c",
+  "EffectiveDates": {
+    "StartDate": "2023-12-20",
+    "EndDate": "2024-12-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "77adffd8-1b27-478c-ae22-ca2119658ce9",
+    "Name": "Abigail Contreras",
+    "PolicyNumber": "66b702e5-fd30-49ba-8671-61ba15b4c09c",
+    "ContactInformation": {
+      "Phone": "+1-756-556-3796x781",
+      "Email": "dakota10@example.com",
+      "Address": "36422 Robinson Springs\nLake Julieton, IN 15006"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-10",
+    "Location": "7574 Paula Plaza\nSullivanland, DE 31105",
+    "Description": "Amount wonder whole believe agent threat. About home trip call size create address. Sister recent official feeling rich reach total.\nSenior catch chance address. Letter rise tough poor."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5163
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 16459
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 29566
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5648
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1473
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 46453,
+    "TotalApproved": 9136
+  },
+  "AdjusterDetails": {
+    "Name": "Melanie Villegas",
+    "ContactInformation": {
+      "Phone": "522.831.2193",
+      "Email": "taustin@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/cdeb67be-813f-4e60-8f7e-31e86c21eacd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-10T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-15T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-20T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ae2af659-b38e-4b26-9b63-28b15a44d145",
+    "PolicyID": "697d272c-afcb-4867-850b-040080679036",
+    "EffectiveDates": {
+        "StartDate": "2024-02-23",
+        "EndDate": "2025-02-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0f975d5c-447b-40d4-b190-e92a202df3ba",
+        "Name": "Derek Campbell",
+        "PolicyNumber": "697d272c-afcb-4867-850b-040080679036",
+        "ContactInformation": {
+            "Phone": "3962506851",
+            "Email": "merrittchristina@example.net",
+            "Address": "74342 Gutierrez Valleys Apt. 028\nGibsonmouth, NJ 78887"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-14",
+        "Location": "0717 Valencia Ports\nBriantown, VA 15706",
+        "Description": "Republican commercial house. We cup husband.\nFocus among send. Certain condition effect address check. Guess sort smile everyone result anyone sister."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26408
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4343
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 126559
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 167486
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19123
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 72302,
+        "TotalApproved": 13236
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Smith",
+        "ContactInformation": {
+            "Phone": "618-881-5609",
+            "Email": "omedina@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/15fd3cdc-2f69-4194-b07a-bb23cab4cab7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

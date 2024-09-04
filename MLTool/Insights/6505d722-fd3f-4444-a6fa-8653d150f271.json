@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6505d722-fd3f-4444-a6fa-8653d150f271",
+    "PolicyID": "5cca7104-3d04-4ddb-a816-8b403cf6bf79",
+    "EffectiveDates": {
+        "StartDate": "2024-04-20",
+        "EndDate": "2025-04-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9c82af02-e72f-4bcb-a9a3-b73a25e53445",
+        "Name": "Amanda Schwartz",
+        "PolicyNumber": "5cca7104-3d04-4ddb-a816-8b403cf6bf79",
+        "ContactInformation": {
+            "Phone": "+1-936-246-3447",
+            "Email": "shawnhensley@example.com",
+            "Address": "12830 Mcdaniel Village\nNorth Samantha, WV 55397"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-24",
+        "Location": "694 Ward Crossing Apt. 041\nJoefurt, MP 58442",
+        "Description": "Land son into able low.\nRule be yourself computer whom. Central reach against writer maintain. Other measure decide city. Bring wish effect before seek those."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3804
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9125
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 134475
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44621
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 77120
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 66367,
+        "TotalApproved": 31183
+    },
+    "AdjusterDetails": {
+        "Name": "Elijah Tran",
+        "ContactInformation": {
+            "Phone": "(619)891-5185",
+            "Email": "campbelltheresa@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ecb59acd-bd87-4056-bcb8-23a3ac0833ae"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-24T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-29T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-03T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

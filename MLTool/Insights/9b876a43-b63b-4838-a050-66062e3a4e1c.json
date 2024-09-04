@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9b876a43-b63b-4838-a050-66062e3a4e1c",
+    "PolicyID": "1431e724-bde8-4089-8cd5-b0811b85a180",
+    "EffectiveDates": {
+        "StartDate": "2024-05-26",
+        "EndDate": "2025-05-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b7a11b37-95cd-41f4-a79e-03dddd5d8c0d",
+        "Name": "Megan Taylor",
+        "PolicyNumber": "1431e724-bde8-4089-8cd5-b0811b85a180",
+        "ContactInformation": {
+            "Phone": "776.730.8869x1742",
+            "Email": "mcdonaldwanda@example.org",
+            "Address": "51350 Hayden Ferry\nRobinstad, UT 09281"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-23",
+        "Location": "156 Smith Crossing\nEast Michaelland, NY 74760",
+        "Description": "Character those true young line back across. More yes be do. Maybe ever response someone."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29176
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 108313
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5423
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9152
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49931
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 24744,
+        "TotalApproved": 6814
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Barker",
+        "ContactInformation": {
+            "Phone": "001-566-665-3284",
+            "Email": "molly13@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f63c20cd-2274-44b7-9ce2-000973d8a482"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-23T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-28T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-03T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

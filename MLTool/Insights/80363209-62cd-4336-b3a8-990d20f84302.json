@@ -1,0 +1,81 @@
+{
+    "ClaimID": "80363209-62cd-4336-b3a8-990d20f84302",
+    "PolicyID": "1b358626-e486-46db-b556-1b44c340e3e6",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c98c161e-6a1e-41e9-8094-14e28b95674d",
+        "Name": "Lynn Nichols",
+        "PolicyNumber": "1b358626-e486-46db-b556-1b44c340e3e6",
+        "ContactInformation": {
+            "Phone": "6159729697",
+            "Email": "philip21@example.net",
+            "Address": "61775 Scott Pines Apt. 224\nJoneshaven, AK 41386"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-03",
+        "Location": "2394 Sanders Glen Apt. 475\nEricmouth, MO 09162",
+        "Description": "Page road evidence someone medical right myself. Win chair which.\nWay consumer personal scientist industry several. Court policy feel develop use local."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48108
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24674
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 95142
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14660
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60032
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 153558,
+        "TotalApproved": 43891
+    },
+    "AdjusterDetails": {
+        "Name": "Francisco Bowers",
+        "ContactInformation": {
+            "Phone": "935-819-2914x0930",
+            "Email": "wongbrian@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/67f25db7-e2cd-4db5-bb92-a1ce0f790765"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-03T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-08T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-13T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

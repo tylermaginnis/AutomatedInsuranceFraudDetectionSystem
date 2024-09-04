@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ab271485-210a-409b-83da-12d4d18bba0e",
+    "PolicyID": "e68a59ae-ae85-4820-8b5d-73ffeab09cee",
+    "EffectiveDates": {
+        "StartDate": "2023-12-31",
+        "EndDate": "2024-12-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b137de1-3030-415c-9a66-eb6f09ff4d07",
+        "Name": "Cynthia Wood",
+        "PolicyNumber": "e68a59ae-ae85-4820-8b5d-73ffeab09cee",
+        "ContactInformation": {
+            "Phone": "5484275725",
+            "Email": "jill57@example.org",
+            "Address": "766 Alexander Squares\nPatrickton, GU 46067"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-12",
+        "Location": "51571 Cruz Road Suite 855\nNorth Brandi, VA 03641",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 77504
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49713
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5365
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11453
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15365
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 159400,
+        "TotalApproved": 13327
+    },
+    "AdjusterDetails": {
+        "Name": "Carolyn Morrison",
+        "ContactInformation": {
+            "Phone": "874.331.7290x593",
+            "Email": "kristen84@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8286590d-6cf8-45a3-8a4c-2e8733f89f50"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-12T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-17T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-22T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

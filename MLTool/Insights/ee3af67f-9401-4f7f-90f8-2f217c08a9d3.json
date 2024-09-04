@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ee3af67f-9401-4f7f-90f8-2f217c08a9d3",
+    "PolicyID": "4f0eb324-7442-494d-ab43-59d2123b8037",
+    "EffectiveDates": {
+        "StartDate": "2024-01-07",
+        "EndDate": "2025-01-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7d9a80e6-efc3-4166-ab26-3e2f3a0dad4d",
+        "Name": "Robert Kim",
+        "PolicyNumber": "4f0eb324-7442-494d-ab43-59d2123b8037",
+        "ContactInformation": {
+            "Phone": "001-771-692-9909x937",
+            "Email": "beth93@example.net",
+            "Address": "067 Turner Way\nMitchellton, AL 12835"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-28",
+        "Location": "6641 Ryan Mills\nWest Leah, VT 34687",
+        "Description": "Return grow collection amount join difference these. Cup writer wrong man. Small eight agree color."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12440
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 93077
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 21895
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5564
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 68379
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 193317,
+        "TotalApproved": 74647
+    },
+    "AdjusterDetails": {
+        "Name": "Kelsey Ford",
+        "ContactInformation": {
+            "Phone": "001-452-570-7829",
+            "Email": "yorkkelly@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/aec2cd0f-6462-4e96-8f7f-067e2cd9d84e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

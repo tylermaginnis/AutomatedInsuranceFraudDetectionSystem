@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8c5fdcbb-08c8-463b-8ab3-2abe8821572a",
+  "PolicyID": "fa27bb24-f195-44db-a714-643871ac8568",
+  "EffectiveDates": {
+    "StartDate": "2024-03-02",
+    "EndDate": "2025-03-02"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7090455f-3b32-48f7-b0be-2cfd6b52fcc0",
+    "Name": "Carlos Lawrence",
+    "PolicyNumber": "fa27bb24-f195-44db-a714-643871ac8568",
+    "ContactInformation": {
+      "Phone": "(339)212-4354x26279",
+      "Email": "greenmarcus@example.net",
+      "Address": "144 Joseph Ports Apt. 102\nDanielleview, NY 63404"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-08",
+    "Location": "2414 Todd Stream\nPort Joshua, ME 02217",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 78577
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 46204
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5710
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16745
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11658
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 158894,
+    "TotalApproved": 46342
+  },
+  "AdjusterDetails": {
+    "Name": "Dana Sims",
+    "ContactInformation": {
+      "Phone": "352-306-7349",
+      "Email": "qmiddleton@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/7541c5e2-ada8-4c23-8364-b3964ba1ee57"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-08T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-13T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-18T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

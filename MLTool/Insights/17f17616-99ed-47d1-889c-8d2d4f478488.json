@@ -1,0 +1,81 @@
+{
+    "ClaimID": "17f17616-99ed-47d1-889c-8d2d4f478488",
+    "PolicyID": "b8e1fc13-7947-473b-8de8-c3ac41606d45",
+    "EffectiveDates": {
+        "StartDate": "2023-12-10",
+        "EndDate": "2024-12-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a762269d-5d7a-4cdd-a8ab-08b41526395c",
+        "Name": "Kaitlyn Smith",
+        "PolicyNumber": "b8e1fc13-7947-473b-8de8-c3ac41606d45",
+        "ContactInformation": {
+            "Phone": "429-817-1631x1465",
+            "Email": "uruiz@example.net",
+            "Address": "8045 Petersen Valleys Apt. 215\nJasminefort, SC 42341"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-03",
+        "Location": "38435 Joseph Greens\nSouth Antoniostad, LA 77282",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 89619
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20422
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6915
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20978
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14601
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 152535,
+        "TotalApproved": 95572
+    },
+    "AdjusterDetails": {
+        "Name": "Adam Brown",
+        "ContactInformation": {
+            "Phone": "+1-786-926-0445x70743",
+            "Email": "garciajoshua@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/50383b23-c978-4b07-8ef3-0ee138e2493a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-03T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-08T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-13T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

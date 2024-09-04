@@ -1,0 +1,81 @@
+{
+    "ClaimID": "25cd7ffd-4f71-4104-a8ee-b3095e10e2fa",
+    "PolicyID": "ccec541f-f8d6-4310-a92a-29f6d04b36a9",
+    "EffectiveDates": {
+        "StartDate": "2024-06-17",
+        "EndDate": "2025-06-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c00d8d58-df9a-44c1-aa25-7d763c6e578f",
+        "Name": "Christopher Carroll",
+        "PolicyNumber": "ccec541f-f8d6-4310-a92a-29f6d04b36a9",
+        "ContactInformation": {
+            "Phone": "2778741953",
+            "Email": "briandalton@example.com",
+            "Address": "8975 Williams Lodge\nNorth Kathy, PW 62709"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-11",
+        "Location": "410 Hall Station\nPort Daniel, CT 54050",
+        "Description": "Action us myself lead store become enjoy. Apply most woman. Life floor staff smile best move.\nHimself stage Mrs any police pattern. Business war dream."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48528
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1211
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6338
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3390
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3782
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 20747,
+        "TotalApproved": 15598
+    },
+    "AdjusterDetails": {
+        "Name": "Sean Burgess",
+        "ContactInformation": {
+            "Phone": "(884)951-5569",
+            "Email": "nguyenchristina@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0a62d352-b50d-425e-a670-5cc32e570137"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

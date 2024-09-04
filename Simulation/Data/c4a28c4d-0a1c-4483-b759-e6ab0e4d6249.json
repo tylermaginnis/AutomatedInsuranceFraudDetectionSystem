@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c4a28c4d-0a1c-4483-b759-e6ab0e4d6249",
+  "PolicyID": "1337e824-617c-4fda-a43f-9d31db57734c",
+  "EffectiveDates": {
+    "StartDate": "2024-04-15",
+    "EndDate": "2025-04-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d015e258-01aa-448a-b127-bd46fcf5c28e",
+    "Name": "Mark Carter",
+    "PolicyNumber": "1337e824-617c-4fda-a43f-9d31db57734c",
+    "ContactInformation": {
+      "Phone": "001-328-941-1488x619",
+      "Email": "ellisdylan@example.net",
+      "Address": "886 Cobb Gardens Suite 248\nWest Codyton, NJ 36960"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-13",
+    "Location": "371 Nguyen Courts\nPort Nicole, WA 81949",
+    "Description": "Word notice knowledge food. Require draw notice have fish voice. Forget try meeting machine professional myself."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 44602
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6332
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7835
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 43934
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 71421
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 112414,
+    "TotalApproved": 64371
+  },
+  "AdjusterDetails": {
+    "Name": "Nathan Morales",
+    "ContactInformation": {
+      "Phone": "(739)438-3713",
+      "Email": "whitney47@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/4dab9551-2999-4d23-b959-bfe0474924f3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-13T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-18T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-23T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

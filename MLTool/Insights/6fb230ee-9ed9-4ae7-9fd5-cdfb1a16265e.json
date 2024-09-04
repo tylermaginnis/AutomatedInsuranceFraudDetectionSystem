@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6fb230ee-9ed9-4ae7-9fd5-cdfb1a16265e",
+    "PolicyID": "a2653957-89b0-4a1a-8640-5d5ae080d3c0",
+    "EffectiveDates": {
+        "StartDate": "2024-02-08",
+        "EndDate": "2025-02-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "95f4e10e-79f4-46c6-b0cc-bbbefd4baf55",
+        "Name": "Benjamin Garcia",
+        "PolicyNumber": "a2653957-89b0-4a1a-8640-5d5ae080d3c0",
+        "ContactInformation": {
+            "Phone": "549-995-2653",
+            "Email": "scruz@example.net",
+            "Address": "USCGC Garcia\nFPO AA 80703"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-19",
+        "Location": "261 Bell Trail\nGarciatown, MO 52334",
+        "Description": "Lot walk idea six.\nNeed respond strong foot ahead left rock.\nBuild blue find same several concern. Ahead break follow wait suffer. Lose Democrat because beautiful."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9037
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 119880
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29197
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4307
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19600
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 163702,
+        "TotalApproved": 71907
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Mullen MD",
+        "ContactInformation": {
+            "Phone": "(789)881-1405x596",
+            "Email": "robert32@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/13825e09-5543-4937-b542-a368d62a9a9e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-19T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-24T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-29T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ce1e069d-3eec-43a6-a94b-f6a531c54a59",
+    "PolicyID": "e68a59ae-ae85-4820-8b5d-73ffeab09cee",
+    "EffectiveDates": {
+        "StartDate": "2024-03-23",
+        "EndDate": "2025-03-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b137de1-3030-415c-9a66-eb6f09ff4d07",
+        "Name": "Cynthia Wood",
+        "PolicyNumber": "e68a59ae-ae85-4820-8b5d-73ffeab09cee",
+        "ContactInformation": {
+            "Phone": "5484275725",
+            "Email": "jill57@example.org",
+            "Address": "766 Alexander Squares\nPatrickton, GU 46067"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-30",
+        "Location": "PSC 5758, Box 4182\nAPO AA 40339",
+        "Description": "Everybody control environment hotel. Up part plan Mrs last writer.\nAmerican safe no sister tonight year less manage. Use all cover senior claim table."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32229
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23185
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7475
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12672
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18961
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 19022,
+        "TotalApproved": 14935
+    },
+    "AdjusterDetails": {
+        "Name": "Debbie Kaiser",
+        "ContactInformation": {
+            "Phone": "+1-288-546-8779x64047",
+            "Email": "amy73@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ac524590-a694-4bd0-ba5b-59d7da4203e5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-30T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-04T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-09T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

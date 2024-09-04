@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e285adcf-1955-42c2-83da-8c0e2656dffe",
+    "PolicyID": "d1cbbcf5-6320-4e49-af47-e4ca6ed080b2",
+    "EffectiveDates": {
+        "StartDate": "2024-05-26",
+        "EndDate": "2025-05-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ee5468af-aa38-4a90-b989-56772d1056dc",
+        "Name": "Marcus Hicks",
+        "PolicyNumber": "d1cbbcf5-6320-4e49-af47-e4ca6ed080b2",
+        "ContactInformation": {
+            "Phone": "790-830-8757x721",
+            "Email": "atkinsjose@example.org",
+            "Address": "02316 Kelly Lane\nAshleyside, PA 28985"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-06",
+        "Location": "257 Johnson Heights\nLake Emilyton, ID 60861",
+        "Description": "Table carry source shoulder.\nSafe one room economic standard science. Expect me care strategy however hear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8485
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8514
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14736
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 75977
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1741
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 129782,
+        "TotalApproved": 39908
+    },
+    "AdjusterDetails": {
+        "Name": "Linda Ho",
+        "ContactInformation": {
+            "Phone": "+1-908-891-3728",
+            "Email": "austin37@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d93d82d5-569a-4673-a730-696101bd2605"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-06T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-11T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-16T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

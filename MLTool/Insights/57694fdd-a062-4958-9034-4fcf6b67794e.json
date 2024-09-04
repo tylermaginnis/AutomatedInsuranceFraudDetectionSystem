@@ -1,0 +1,81 @@
+{
+    "ClaimID": "57694fdd-a062-4958-9034-4fcf6b67794e",
+    "PolicyID": "e53b668e-00b2-4b74-a165-7a484b959c30",
+    "EffectiveDates": {
+        "StartDate": "2024-09-03",
+        "EndDate": "2025-09-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "858404c7-80ac-429a-b9de-9d2e7fa7bebc",
+        "Name": "Jessica Morgan",
+        "PolicyNumber": "e53b668e-00b2-4b74-a165-7a484b959c30",
+        "ContactInformation": {
+            "Phone": "8474615235",
+            "Email": "heidi02@example.org",
+            "Address": "271 White Row Apt. 807\nWareberg, AL 76437"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-24",
+        "Location": "063 William Radial Suite 281\nBrooksport, WI 80590",
+        "Description": "During throughout talk form. Paper floor lose beyond class second. Apply sort for it public."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12730
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1824
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9370
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7761
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 65052
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 31783,
+        "TotalApproved": 17712
+    },
+    "AdjusterDetails": {
+        "Name": "James Morgan",
+        "ContactInformation": {
+            "Phone": "(757)290-3314x1687",
+            "Email": "jacksonveronica@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/fa226183-f9ae-488a-85f0-a46e489909c4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-24T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-29T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-03T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

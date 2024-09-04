@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eb18488d-5b0d-41ea-8f1c-67e08a7675ae",
+    "PolicyID": "913b707b-a92b-436c-9c1d-f3b1587e3326",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4d1972cb-35cf-4120-9b61-28542338d400",
+        "Name": "Tracy Reynolds",
+        "PolicyNumber": "913b707b-a92b-436c-9c1d-f3b1587e3326",
+        "ContactInformation": {
+            "Phone": "001-224-450-5859",
+            "Email": "mitchellian@example.org",
+            "Address": "41001 Alvarez Crossroad Apt. 059\nLeefurt, PR 71544"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-15",
+        "Location": "0293 Stein Burgs\nMarissahaven, AZ 46559",
+        "Description": "Reveal owner another time. Both she often. Policy machine themselves fast this hard lot.\nReflect record mean try suddenly real. Agent resource of letter budget modern. Appear machine entire know."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24871
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 99183
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 63329
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 71431
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1543
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 50446,
+        "TotalApproved": 39748
+    },
+    "AdjusterDetails": {
+        "Name": "Joan Mitchell",
+        "ContactInformation": {
+            "Phone": "+1-682-646-4342",
+            "Email": "amymiddleton@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e5716f1e-0a9d-4d77-8381-74bb98d32606"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

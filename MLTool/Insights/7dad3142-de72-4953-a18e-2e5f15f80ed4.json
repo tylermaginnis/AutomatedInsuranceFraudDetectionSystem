@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7dad3142-de72-4953-a18e-2e5f15f80ed4",
+    "PolicyID": "6f2514ef-7832-457c-80c4-98522d3d9dd6",
+    "EffectiveDates": {
+        "StartDate": "2024-06-02",
+        "EndDate": "2025-06-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0579baff-c86c-4d42-ab86-76546df04312",
+        "Name": "Rhonda Wright",
+        "PolicyNumber": "6f2514ef-7832-457c-80c4-98522d3d9dd6",
+        "ContactInformation": {
+            "Phone": "842-867-4452x1755",
+            "Email": "keithcampbell@example.org",
+            "Address": "351 Jason Rest Suite 583\nNorth Dwaynemouth, AZ 31666"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-02",
+        "Location": "27267 Joshua Meadow\nNew Gary, MT 95300",
+        "Description": "Meeting hard election beat maintain cover ten purpose. Lay beautiful born about college. Catch memory guy since company voice. Best upon also grow matter nature writer court."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3944
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7143
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6468
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2438
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 95901
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 9024,
+        "TotalApproved": 4025
+    },
+    "AdjusterDetails": {
+        "Name": "Nicholas Brooks",
+        "ContactInformation": {
+            "Phone": "388.307.6706x89349",
+            "Email": "gmedina@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b9ec0950-bd70-45a1-8d77-6797ace689aa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-02T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-07T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-12T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

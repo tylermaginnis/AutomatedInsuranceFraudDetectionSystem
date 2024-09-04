@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2e9e0e93-2ca8-4616-aeeb-47ee4c055e7b",
+    "PolicyID": "611e1280-e373-43e1-a398-c2cf1617f068",
+    "EffectiveDates": {
+        "StartDate": "2024-03-28",
+        "EndDate": "2025-03-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8eab7598-127f-482d-a06a-4a9cd59653a1",
+        "Name": "Eric Johnson",
+        "PolicyNumber": "611e1280-e373-43e1-a398-c2cf1617f068",
+        "ContactInformation": {
+            "Phone": "862-577-9744",
+            "Email": "jacksonjacqueline@example.net",
+            "Address": "313 David Center\nWilliamsmouth, MP 34324"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-30",
+        "Location": "349 Mendez Avenue Apt. 253\nEast Davidtown, AL 01256",
+        "Description": "Stuff effect want among seek pull. Increase or front song anyone.\nResponsibility base hundred example claim under wonder. Concern well area go discussion."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 71606
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16852
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 87110
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24431
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1127
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 58893,
+        "TotalApproved": 56748
+    },
+    "AdjusterDetails": {
+        "Name": "Carol Ramirez",
+        "ContactInformation": {
+            "Phone": "295-571-5795x51658",
+            "Email": "justinjensen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4d50b74d-4eba-4905-b1ce-36d93be21d30"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-30T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-04T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-09T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

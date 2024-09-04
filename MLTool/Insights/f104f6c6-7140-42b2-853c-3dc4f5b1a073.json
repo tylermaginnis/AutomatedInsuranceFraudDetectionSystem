@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f104f6c6-7140-42b2-853c-3dc4f5b1a073",
+    "PolicyID": "c33657c4-71d1-4b97-9d60-307dd8ad8324",
+    "EffectiveDates": {
+        "StartDate": "2023-10-15",
+        "EndDate": "2024-10-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3b7830a5-b1e1-432e-bc83-6a1868f776f3",
+        "Name": "Mary Smith",
+        "PolicyNumber": "c33657c4-71d1-4b97-9d60-307dd8ad8324",
+        "ContactInformation": {
+            "Phone": "001-780-335-2060",
+            "Email": "nicholsonkatherine@example.org",
+            "Address": "005 Ward Wells Suite 637\nWest Bryantown, TX 51264"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-28",
+        "Location": "105 Brandi Drive Apt. 571\nSouth Stephanie, MI 73789",
+        "Description": "Store person free war rise. Enough note hard loss bit when parent front.\nTell never sport allow national including. People know inside news enter."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9300
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2102
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14924
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6589
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34838
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 156243,
+        "TotalApproved": 32127
+    },
+    "AdjusterDetails": {
+        "Name": "Gabriel Nichols",
+        "ContactInformation": {
+            "Phone": "+1-939-394-7591",
+            "Email": "angelamelton@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a6ccfc58-a36e-4b98-b1e8-09f39aa8f652"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-28T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-02T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-07T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

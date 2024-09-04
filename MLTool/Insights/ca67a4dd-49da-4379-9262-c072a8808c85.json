@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca67a4dd-49da-4379-9262-c072a8808c85",
+    "PolicyID": "b37f9bd3-9028-4f6a-ac94-1ef3b8260f5e",
+    "EffectiveDates": {
+        "StartDate": "2024-09-01",
+        "EndDate": "2025-09-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b0d690cc-efc5-4773-8ccd-e16b477cf34e",
+        "Name": "Robert Cannon",
+        "PolicyNumber": "b37f9bd3-9028-4f6a-ac94-1ef3b8260f5e",
+        "ContactInformation": {
+            "Phone": "(842)783-1044x99229",
+            "Email": "ehebert@example.org",
+            "Address": "Unit 6753 Box 7215\nDPO AA 72920"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-05",
+        "Location": "737 Daniel Cape Suite 231\nWest Jasminetown, SD 46720",
+        "Description": "Maintain in cause beyond prepare. Board former list approach past yourself leader. Affect need eat leave we forget treat.\nTrue my born work."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9400
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 94777
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42101
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5304
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7063
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151669,
+        "TotalApproved": 63225
+    },
+    "AdjusterDetails": {
+        "Name": "Phillip Ramos",
+        "ContactInformation": {
+            "Phone": "+1-620-756-8332x190",
+            "Email": "gonzalezmichele@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5c39620c-91b5-4209-9e77-1ad76d491406"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

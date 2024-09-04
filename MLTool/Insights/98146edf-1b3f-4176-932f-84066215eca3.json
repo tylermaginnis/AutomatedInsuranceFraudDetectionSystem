@@ -1,0 +1,81 @@
+{
+    "ClaimID": "98146edf-1b3f-4176-932f-84066215eca3",
+    "PolicyID": "689eba77-478e-4015-8cef-8268d353c52c",
+    "EffectiveDates": {
+        "StartDate": "2023-11-29",
+        "EndDate": "2024-11-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5775ea41-547e-439b-8c46-339c93a6430e",
+        "Name": "Nancy Morgan",
+        "PolicyNumber": "689eba77-478e-4015-8cef-8268d353c52c",
+        "ContactInformation": {
+            "Phone": "519-802-0285",
+            "Email": "jacob59@example.com",
+            "Address": "566 James Harbors\nEast Amber, RI 81116"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-20",
+        "Location": "974 Jimmy Crest\nPort Mckenziefort, HI 79143",
+        "Description": "She culture husband million. Term time voice form back later media.\nLet enter design tonight suffer wall affect. Significant treat argue card."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 62913
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28955
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48681
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13930
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37233
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 87317,
+        "TotalApproved": 40930
+    },
+    "AdjusterDetails": {
+        "Name": "David Leonard",
+        "ContactInformation": {
+            "Phone": "5189872042",
+            "Email": "smithdominic@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/aa42e1b6-5b2d-4ca1-842c-74059a33f383"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-20T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-25T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-30T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

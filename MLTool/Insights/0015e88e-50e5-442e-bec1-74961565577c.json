@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0015e88e-50e5-442e-bec1-74961565577c",
+    "PolicyID": "2dec39c9-2380-4aca-a64b-dae0df7232ca",
+    "EffectiveDates": {
+        "StartDate": "2023-09-08",
+        "EndDate": "2024-09-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bc8567e6-8cfb-4a2c-bdde-bd0ba328627c",
+        "Name": "Francisco Smith",
+        "PolicyNumber": "2dec39c9-2380-4aca-a64b-dae0df7232ca",
+        "ContactInformation": {
+            "Phone": "384-798-4854",
+            "Email": "hmitchell@example.com",
+            "Address": "682 Sanchez Flats\nAndrewhaven, AZ 49019"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-03",
+        "Location": "668 Carter Summit Suite 176\nLake Krista, FM 43018",
+        "Description": "Concern force then dinner. Seat will ever quickly morning stand election administration.\nVisit difference fall say fear such. Reveal eight often look should item country they."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40445
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29159
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5738
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21690
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15163
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 24472,
+        "TotalApproved": 5124
+    },
+    "AdjusterDetails": {
+        "Name": "Margaret Farmer",
+        "ContactInformation": {
+            "Phone": "001-761-545-5871x936",
+            "Email": "llewis@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7deae2d5-686b-46b0-ab25-5df27fc3f0d5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-03T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-08T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-13T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

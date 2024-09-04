@@ -1,0 +1,81 @@
+{
+    "ClaimID": "972d3f9b-4da8-467d-8124-452246bbc944",
+    "PolicyID": "3dd611a0-2eeb-4855-8d6c-0da542c29838",
+    "EffectiveDates": {
+        "StartDate": "2024-03-30",
+        "EndDate": "2025-03-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "05eee23a-2330-465e-b2a3-9bd2da3db4e2",
+        "Name": "Jennifer Reese",
+        "PolicyNumber": "3dd611a0-2eeb-4855-8d6c-0da542c29838",
+        "ContactInformation": {
+            "Phone": "001-648-738-1863x28636",
+            "Email": "ygrant@example.org",
+            "Address": "596 Hamilton Curve\nNorth Brandon, ND 67071"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-23",
+        "Location": "70095 Matthew Mission\nLake Krystalbury, NE 58917",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 70167
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38362
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7716
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26309
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9273
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151827,
+        "TotalApproved": 8014
+    },
+    "AdjusterDetails": {
+        "Name": "Wesley Richardson",
+        "ContactInformation": {
+            "Phone": "704-993-9084",
+            "Email": "smithaustin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/fab49da3-e65a-44c2-bf2a-3182159271e0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-23T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-28T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-03T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

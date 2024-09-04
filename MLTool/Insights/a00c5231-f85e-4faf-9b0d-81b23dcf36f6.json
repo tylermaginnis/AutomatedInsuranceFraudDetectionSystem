@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a00c5231-f85e-4faf-9b0d-81b23dcf36f6",
+    "PolicyID": "ec95e20b-685f-42ad-82cb-133f41beea92",
+    "EffectiveDates": {
+        "StartDate": "2024-03-22",
+        "EndDate": "2025-03-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b7b05625-a1f0-420b-81f8-229147d087c6",
+        "Name": "Pamela Shaffer",
+        "PolicyNumber": "ec95e20b-685f-42ad-82cb-133f41beea92",
+        "ContactInformation": {
+            "Phone": "(544)862-4895x53450",
+            "Email": "jordankathleen@example.org",
+            "Address": "395 Burgess Shore\nTonyberg, NH 46651"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-02",
+        "Location": "260 Peter Islands\nPort Sarahmouth, MO 95959",
+        "Description": "Along news note himself. Few behind picture get. All him put reason modern it forget stand."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35848
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6983
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31005
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29966
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19056
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 193970,
+        "TotalApproved": 165357
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Barker",
+        "ContactInformation": {
+            "Phone": "4517058762",
+            "Email": "patricia43@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1b691c06-41d8-4ec6-9949-65e4d207a37f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-02T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-07T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-12T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9ad6a21b-5657-4bb1-a800-0b1dcea827fb",
+    "PolicyID": "b649d42d-c897-4f08-93b4-0fadab7f555e",
+    "EffectiveDates": {
+        "StartDate": "2024-03-18",
+        "EndDate": "2025-03-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dd9f1be2-227a-49aa-83e0-2349231312f0",
+        "Name": "Sandra Beard",
+        "PolicyNumber": "b649d42d-c897-4f08-93b4-0fadab7f555e",
+        "ContactInformation": {
+            "Phone": "(652)424-9036",
+            "Email": "mberry@example.com",
+            "Address": "68469 Hunt Key Suite 782\nChristopherview, CA 03421"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-08",
+        "Location": "0875 Michael Spurs Suite 858\nPetersonfurt, WV 80816",
+        "Description": "Couple court score. Soldier summer there job.\nPolitical specific probably official nice way. Open skin final which hand six job."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18412
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2376
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5386
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 84704
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13479
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 52231,
+        "TotalApproved": 17139
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Donovan",
+        "ContactInformation": {
+            "Phone": "250-422-1232",
+            "Email": "umills@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5d9bb87f-04bb-4ab3-b280-9be930c089aa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

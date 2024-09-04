@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1a60c5d5-107b-4fdc-82ec-58c16c7555a0",
+    "PolicyID": "2f6d01a1-81fc-4f8d-a706-65ac3e5a4500",
+    "EffectiveDates": {
+        "StartDate": "2024-05-15",
+        "EndDate": "2025-05-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7178ab3c-01da-4eb9-b3fc-753329b6ad31",
+        "Name": "Shaun Jordan",
+        "PolicyNumber": "2f6d01a1-81fc-4f8d-a706-65ac3e5a4500",
+        "ContactInformation": {
+            "Phone": "524.394.0912",
+            "Email": "richardlopez@example.org",
+            "Address": "1542 King Mall\nMannburgh, AL 97880"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-28",
+        "Location": "529 Alexandra Drives\nKennethton, GA 79312",
+        "Description": "Black morning before decide. With so later institution former space. Speak despite realize floor half bar must.\nFree across owner range. Significant card stay nothing deep radio tell."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 134611
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9246
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16892
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9425
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 80530
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 177656,
+        "TotalApproved": 3689
+    },
+    "AdjusterDetails": {
+        "Name": "Ann Blackwell",
+        "ContactInformation": {
+            "Phone": "705-351-4744x9876",
+            "Email": "benjamin54@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/7477c0d3-e157-49a2-9a2a-15ec3134b596"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-28T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-03T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-08T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

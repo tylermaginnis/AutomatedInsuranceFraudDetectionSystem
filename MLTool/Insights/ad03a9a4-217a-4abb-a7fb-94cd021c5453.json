@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ad03a9a4-217a-4abb-a7fb-94cd021c5453",
+    "PolicyID": "aa4f3a35-2e55-444a-9dbd-7037b1fc9cac",
+    "EffectiveDates": {
+        "StartDate": "2024-02-09",
+        "EndDate": "2025-02-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "95faa7d1-deba-4d2e-baa5-e99d57ea560e",
+        "Name": "Ryan Prince",
+        "PolicyNumber": "aa4f3a35-2e55-444a-9dbd-7037b1fc9cac",
+        "ContactInformation": {
+            "Phone": "+1-442-299-1149x44783",
+            "Email": "cflores@example.net",
+            "Address": "5251 Ramos Stravenue Apt. 973\nParkermouth, MS 40702"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-05",
+        "Location": "529 Patton Ferry Apt. 237\nRebeccachester, FL 47813",
+        "Description": "Third structure evening friend full court reflect. Large world color matter.\nEnough food own turn actually set. Game candidate anything there push court like."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 188782
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 48879
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11636
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3283
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7834
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 47712,
+        "TotalApproved": 4078
+    },
+    "AdjusterDetails": {
+        "Name": "Shannon James",
+        "ContactInformation": {
+            "Phone": "870.485.7686",
+            "Email": "nicholasle@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1259881d-0243-4484-9329-583811de3be7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

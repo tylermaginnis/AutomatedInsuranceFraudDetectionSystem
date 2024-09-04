@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c18f04e1-4573-49f9-8d79-59d4496dd23a",
+  "PolicyID": "96a94d90-3700-40ef-8f43-115ab2997795",
+  "EffectiveDates": {
+    "StartDate": "2024-09-02",
+    "EndDate": "2025-09-02"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7ec8b36e-1f63-4ede-99ac-5dfcbef2bfc9",
+    "Name": "Mark Smith",
+    "PolicyNumber": "96a94d90-3700-40ef-8f43-115ab2997795",
+    "ContactInformation": {
+      "Phone": "+1-496-442-5655x1401",
+      "Email": "perryjohn@example.org",
+      "Address": "9001 Keith Mount Suite 911\nNew Joann, WA 16455"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-27",
+    "Location": "342 Kenneth Stravenue\nLeeville, AK 67297",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 71519
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 21433
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7965
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 23122
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 19559
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 143598,
+    "TotalApproved": 71513
+  },
+  "AdjusterDetails": {
+    "Name": "James Stanton",
+    "ContactInformation": {
+      "Phone": "(768)801-3228x45127",
+      "Email": "patrick59@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/33d5d293-cc74-4be0-ad3b-136c3c7b51f5"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-27T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-02T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-07T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

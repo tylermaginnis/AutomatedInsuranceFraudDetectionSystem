@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2079b51d-c917-4e7c-bd05-5468514f54ba",
+    "PolicyID": "80ff79f0-56e1-4b1d-81ab-6831590216af",
+    "EffectiveDates": {
+        "StartDate": "2024-04-02",
+        "EndDate": "2025-04-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e2e2e48f-3622-4909-b9d1-2dd18163605b",
+        "Name": "John Wood",
+        "PolicyNumber": "80ff79f0-56e1-4b1d-81ab-6831590216af",
+        "ContactInformation": {
+            "Phone": "6098676385",
+            "Email": "carlos92@example.com",
+            "Address": "501 Franco Glen\nEvansfurt, MT 60207"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-29",
+        "Location": "378 Arellano Spring Suite 709\nAdamborough, MH 18920",
+        "Description": "Community threat stop common popular. Point must reduce continue remain why.\nSituation put player must. Edge modern institution upon. Production enough subject."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5368
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5109
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 127577
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 129028
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9484
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 27854,
+        "TotalApproved": 26998
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Gregory",
+        "ContactInformation": {
+            "Phone": "964-681-9457x2253",
+            "Email": "sarah33@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/203fe4e9-ed41-4148-888b-d3e6e69bd1c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

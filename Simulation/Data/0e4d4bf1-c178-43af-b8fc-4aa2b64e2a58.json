@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0e4d4bf1-c178-43af-b8fc-4aa2b64e2a58",
+  "PolicyID": "e1c619d9-d6c2-4441-ba84-844e419403ce",
+  "EffectiveDates": {
+    "StartDate": "2023-09-09",
+    "EndDate": "2024-09-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e5007b08-395b-4f02-8e8d-9e1349efce4f",
+    "Name": "Jennifer Wiggins",
+    "PolicyNumber": "e1c619d9-d6c2-4441-ba84-844e419403ce",
+    "ContactInformation": {
+      "Phone": "(334)441-9291x8965",
+      "Email": "emann@example.net",
+      "Address": "75659 Alec Spring Suite 863\nDanieltown, CO 85154"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-16",
+    "Location": "6799 Logan Tunnel\nNew Raymondland, SC 92296",
+    "Description": "National shake develop represent whole. Yourself himself describe option affect gas recently.\nMain many plan trial. Think second benefit article."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 13632
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9766
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16950
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 71052
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 14903
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 84398,
+    "TotalApproved": 62693
+  },
+  "AdjusterDetails": {
+    "Name": "Bailey Shea",
+    "ContactInformation": {
+      "Phone": "(608)258-7156x094",
+      "Email": "courtney93@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/ba7dc1a5-d640-402c-88c6-7f0a72cd8c95"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-16T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-21T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-26T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "29d17983-fd9b-4322-b1a6-9211d8465993",
+    "PolicyID": "795b929b-e739-4805-8217-970f75859cc7",
+    "EffectiveDates": {
+        "StartDate": "2024-02-23",
+        "EndDate": "2025-02-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "450a895b-52af-4f9a-907a-801319534c3b",
+        "Name": "Mark Howard",
+        "PolicyNumber": "795b929b-e739-4805-8217-970f75859cc7",
+        "ContactInformation": {
+            "Phone": "(523)680-6322x47875",
+            "Email": "william87@example.com",
+            "Address": "017 Delgado Harbor\nEast Gregory, WV 29116"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-31",
+        "Location": "61186 Graham Circles Apt. 604\nWrighthaven, NE 27608",
+        "Description": "Couple knowledge pretty hit start. Happy training at good go it huge. Issue just happen number hundred short pattern."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6915
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 53295
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1318
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50277
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3985
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 140760,
+        "TotalApproved": 117749
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Porter DDS",
+        "ContactInformation": {
+            "Phone": "558.290.5261x69392",
+            "Email": "campbelleric@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4c8b2099-8ad2-4194-b1d8-7463ac10cece"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-31T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

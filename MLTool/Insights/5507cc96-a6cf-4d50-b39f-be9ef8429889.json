@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5507cc96-a6cf-4d50-b39f-be9ef8429889",
+    "PolicyID": "7be6a4bb-9129-4e56-9a7e-dd4213f489d9",
+    "EffectiveDates": {
+        "StartDate": "2023-09-18",
+        "EndDate": "2024-09-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2390ecb3-933e-43e5-876c-50f5f7dada92",
+        "Name": "Susan Alvarez",
+        "PolicyNumber": "7be6a4bb-9129-4e56-9a7e-dd4213f489d9",
+        "ContactInformation": {
+            "Phone": "001-729-649-0170x89491",
+            "Email": "smithwilliam@example.net",
+            "Address": "8023 Edward Circle\nAdamview, WV 30479"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-27",
+        "Location": "USCGC Smith\nFPO AE 76746",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50666
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26859
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9622
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20925
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5698
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 113770,
+        "TotalApproved": 66952
+    },
+    "AdjusterDetails": {
+        "Name": "Jeffery Johnson",
+        "ContactInformation": {
+            "Phone": "990-637-9770",
+            "Email": "michaelhughes@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9defd851-5c01-4e48-9456-cdd3857f1c51"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-27T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-01T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-06T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

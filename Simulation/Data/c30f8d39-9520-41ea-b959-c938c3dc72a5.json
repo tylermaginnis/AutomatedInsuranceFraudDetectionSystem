@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c30f8d39-9520-41ea-b959-c938c3dc72a5",
+  "PolicyID": "261a1262-9b44-4168-a872-a8b672197387",
+  "EffectiveDates": {
+    "StartDate": "2024-05-08",
+    "EndDate": "2025-05-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "356bec22-e269-4f4e-9dd4-665ce53216c9",
+    "Name": "Matthew Anderson",
+    "PolicyNumber": "261a1262-9b44-4168-a872-a8b672197387",
+    "ContactInformation": {
+      "Phone": "9579791314",
+      "Email": "harrismorgan@example.com",
+      "Address": "Unit 6685 Box 2333\nDPO AE 35757"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-16",
+    "Location": "626 Galvan Rapids\nJenniferburgh, NC 76000",
+    "Description": "Best society direction over standard cause onto study. During appear learn her.\nWonder often individual their. Young according participant thought movement."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 21027
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 33016
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 75630
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 45090
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7461
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 196472,
+    "TotalApproved": 173107
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Butler",
+    "ContactInformation": {
+      "Phone": "831.923.5902x7930",
+      "Email": "jonathan51@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/bfad4a00-e845-48b1-90ad-b56501795763"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-16T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-21T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-26T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

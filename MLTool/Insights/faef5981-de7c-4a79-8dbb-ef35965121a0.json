@@ -1,0 +1,81 @@
+{
+    "ClaimID": "faef5981-de7c-4a79-8dbb-ef35965121a0",
+    "PolicyID": "87f43c16-17a1-41b4-850d-3f5ff9745f02",
+    "EffectiveDates": {
+        "StartDate": "2024-06-04",
+        "EndDate": "2025-06-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a002995c-02a6-4d5a-9c9e-86e473fe304f",
+        "Name": "Erica Roberts",
+        "PolicyNumber": "87f43c16-17a1-41b4-850d-3f5ff9745f02",
+        "ContactInformation": {
+            "Phone": "241-389-2175x7393",
+            "Email": "lisariley@example.com",
+            "Address": "57108 Thompson Village\nKimberlyport, FL 48236"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-04",
+        "Location": "950 Walter Ridges\nJonesfort, WY 71241",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 77114
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34162
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8433
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16594
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19955
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 156258,
+        "TotalApproved": 10060
+    },
+    "AdjusterDetails": {
+        "Name": "Alexa King",
+        "ContactInformation": {
+            "Phone": "867-931-1093",
+            "Email": "adamserin@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f1afee44-29dd-4810-ba2e-8caa6bfeef4c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-04T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-09T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-14T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

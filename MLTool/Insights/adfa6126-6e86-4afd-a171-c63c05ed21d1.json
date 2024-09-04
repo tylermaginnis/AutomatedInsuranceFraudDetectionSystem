@@ -1,0 +1,81 @@
+{
+    "ClaimID": "adfa6126-6e86-4afd-a171-c63c05ed21d1",
+    "PolicyID": "dca0977b-92d1-469e-a8bf-5f8bada4de03",
+    "EffectiveDates": {
+        "StartDate": "2023-10-28",
+        "EndDate": "2024-10-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a18a5499-1397-4751-afcb-f4a99f14e3d0",
+        "Name": "Robert Vazquez",
+        "PolicyNumber": "dca0977b-92d1-469e-a8bf-5f8bada4de03",
+        "ContactInformation": {
+            "Phone": "(534)449-0045x7092",
+            "Email": "ramosadam@example.com",
+            "Address": "541 Ross Forks Suite 965\nNorth Courtneyton, TX 46525"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-05",
+        "Location": "88203 Shannon Fork Apt. 066\nLeahbury, PW 82731",
+        "Description": "That including care bill because subject.\nFact pull fly threat their toward. Few already task six clear.\nServe cup window no soldier ago early. Region lawyer food participant."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 87373
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1528
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4567
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23857
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8867
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 67560,
+        "TotalApproved": 13041
+    },
+    "AdjusterDetails": {
+        "Name": "Patricia Robinson",
+        "ContactInformation": {
+            "Phone": "863.807.2556x3419",
+            "Email": "samuelgarcia@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6b5f01bc-5814-4f87-bedf-0af2e618f4af"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

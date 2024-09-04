@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e6e22164-258c-4713-b600-62df5708c7fc",
+    "PolicyID": "5b4903de-2ff2-426f-a52d-89151d8b38db",
+    "EffectiveDates": {
+        "StartDate": "2024-02-05",
+        "EndDate": "2025-02-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7f0bc876-cb29-4bc2-8ecc-e7a2251444e3",
+        "Name": "Danny Manning",
+        "PolicyNumber": "5b4903de-2ff2-426f-a52d-89151d8b38db",
+        "ContactInformation": {
+            "Phone": "+1-382-910-6130x750",
+            "Email": "steven51@example.org",
+            "Address": "25151 Timothy Crossing\nMarkhaven, FL 22180"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-11",
+        "Location": "USCGC Russell\nFPO AA 83044",
+        "Description": "Break now most sense both this. Program add third piece. Piece field why through manage edge price."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6943
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4561
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32135
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 164503
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4304
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 42968,
+        "TotalApproved": 20391
+    },
+    "AdjusterDetails": {
+        "Name": "Troy White",
+        "ContactInformation": {
+            "Phone": "(982)963-6143",
+            "Email": "dfigueroa@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b15a9a12-63e7-44cc-9238-ee2bd710133f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-11T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-16T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-21T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

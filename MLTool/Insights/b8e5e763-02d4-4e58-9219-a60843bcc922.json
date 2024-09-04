@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b8e5e763-02d4-4e58-9219-a60843bcc922",
+    "PolicyID": "27083651-079e-4717-be93-5af9a2ed8a64",
+    "EffectiveDates": {
+        "StartDate": "2023-12-30",
+        "EndDate": "2024-12-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e1d854fb-ce68-4717-b99c-f2ee9a8675a1",
+        "Name": "Robert Eaton",
+        "PolicyNumber": "27083651-079e-4717-be93-5af9a2ed8a64",
+        "ContactInformation": {
+            "Phone": "319.479.8951",
+            "Email": "beckywoods@example.net",
+            "Address": "USS Williams\nFPO AA 06733"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-07",
+        "Location": "2982 Roy Centers Suite 157\nEast Tiffanyhaven, WI 66891",
+        "Description": "Eight drop at bring interesting event. Left sort be west. Cut door response almost develop physical travel."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 22750
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7262
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50656
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7795
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31615
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 183293,
+        "TotalApproved": 143848
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Stanley DDS",
+        "ContactInformation": {
+            "Phone": "243-474-4946x14660",
+            "Email": "nwise@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/7132a577-0ca2-4b53-9f68-817de733538a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

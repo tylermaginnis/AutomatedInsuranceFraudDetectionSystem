@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2f05cde2-11e1-4d1e-8d8e-0edb784020a9",
+    "PolicyID": "d37d09f4-962f-4909-b6f2-080eab05563f",
+    "EffectiveDates": {
+        "StartDate": "2024-03-05",
+        "EndDate": "2025-03-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "64fd3ce4-818c-49ca-ba52-d77bb36b259e",
+        "Name": "Erin Pruitt",
+        "PolicyNumber": "d37d09f4-962f-4909-b6f2-080eab05563f",
+        "ContactInformation": {
+            "Phone": "(852)324-4079",
+            "Email": "donald08@example.net",
+            "Address": "94238 Sweeney Summit\nWest Charlesside, ME 73854"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-04",
+        "Location": "875 Warren Trail\nMeganland, VT 35935",
+        "Description": "Safe brother agreement prove skill. Condition piece several trip including career page.\nAnything page he number plant. Subject cover evidence here key."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50768
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7786
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 180284
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8867
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27693
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 35582,
+        "TotalApproved": 12062
+    },
+    "AdjusterDetails": {
+        "Name": "Erika Deleon",
+        "ContactInformation": {
+            "Phone": "+1-203-221-4771",
+            "Email": "castilloapril@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/81a6643c-c8dd-4284-a30f-8b6b404925f9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-04T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-09T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-14T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

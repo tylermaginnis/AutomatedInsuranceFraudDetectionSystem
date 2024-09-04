@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a3f5bac1-d257-44f6-88fb-75e36a8e46b5",
+    "PolicyID": "5b4903de-2ff2-426f-a52d-89151d8b38db",
+    "EffectiveDates": {
+        "StartDate": "2024-01-08",
+        "EndDate": "2025-01-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7f0bc876-cb29-4bc2-8ecc-e7a2251444e3",
+        "Name": "Danny Manning",
+        "PolicyNumber": "5b4903de-2ff2-426f-a52d-89151d8b38db",
+        "ContactInformation": {
+            "Phone": "+1-382-910-6130x750",
+            "Email": "steven51@example.org",
+            "Address": "25151 Timothy Crossing\nMarkhaven, FL 22180"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-19",
+        "Location": "5268 Patterson Mission\nWest Shawnchester, FL 29170",
+        "Description": "Apply whole and side. Safe beat way firm city finish. Tree artist unit eye than true hour. Computer visit involve doctor whole."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2731
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29132
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9161
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4678
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5287
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 122968,
+        "TotalApproved": 102320
+    },
+    "AdjusterDetails": {
+        "Name": "Juan Padilla",
+        "ContactInformation": {
+            "Phone": "001-927-630-3223x38707",
+            "Email": "aterrell@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9ccf4e77-8149-463f-9cdf-746e9a63fc6d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-19T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-24T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-29T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

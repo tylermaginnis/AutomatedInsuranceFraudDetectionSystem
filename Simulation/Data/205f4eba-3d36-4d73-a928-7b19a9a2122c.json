@@ -1,0 +1,80 @@
+{
+  "ClaimID": "205f4eba-3d36-4d73-a928-7b19a9a2122c",
+  "PolicyID": "e2ab9211-1a05-45be-9a97-f73fd66aaad2",
+  "EffectiveDates": {
+    "StartDate": "2024-08-20",
+    "EndDate": "2025-08-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b9c74a05-296d-4640-8fa6-abcbeede5431",
+    "Name": "Melissa Ware",
+    "PolicyNumber": "e2ab9211-1a05-45be-9a97-f73fd66aaad2",
+    "ContactInformation": {
+      "Phone": "001-784-743-5205",
+      "Email": "adriennewatson@example.com",
+      "Address": "250 Lauren Plaza\nJohnstad, MA 45267"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-28",
+    "Location": "8928 Jeffrey Spring Apt. 679\nSouth Donaldtown, WA 66164",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 91831
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 40686
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5803
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 14448
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7150
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 159918,
+    "TotalApproved": 137671
+  },
+  "AdjusterDetails": {
+    "Name": "Linda Chavez",
+    "ContactInformation": {
+      "Phone": "(651)343-6612x0455",
+      "Email": "kevin12@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/4048c6d1-f78e-439c-9399-1b64e270dfaf"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-28T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-02T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-07T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b97208c9-1ad3-43a2-9035-917112ef5f3e",
+    "PolicyID": "b9d891cc-6069-4114-8ffc-fac6f30b1763",
+    "EffectiveDates": {
+        "StartDate": "2024-08-10",
+        "EndDate": "2025-08-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef843417-7dc7-47da-8bc0-5e67a5f5510c",
+        "Name": "Brandon Berry",
+        "PolicyNumber": "b9d891cc-6069-4114-8ffc-fac6f30b1763",
+        "ContactInformation": {
+            "Phone": "+1-499-299-6088x56593",
+            "Email": "melindaortiz@example.org",
+            "Address": "683 Black Spurs\nPort Alejandra, VA 25297"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-06",
+        "Location": "882 Price Run Apt. 330\nBettymouth, KS 95915",
+        "Description": "Small face arm want commercial society bed building. Every how some decade ball trade."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37709
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36501
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5995
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 130805
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19674
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 192375,
+        "TotalApproved": 144678
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Hayes",
+        "ContactInformation": {
+            "Phone": "(830)336-7902x22542",
+            "Email": "leemarcia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/47147322-b6fb-4acd-8627-d6cc9c8784a8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

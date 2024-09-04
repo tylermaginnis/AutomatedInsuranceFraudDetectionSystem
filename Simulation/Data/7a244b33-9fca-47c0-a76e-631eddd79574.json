@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7a244b33-9fca-47c0-a76e-631eddd79574",
+  "PolicyID": "eaf257fe-90f0-4680-bcd6-f923080f1ce9",
+  "EffectiveDates": {
+    "StartDate": "2023-10-17",
+    "EndDate": "2024-10-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5b2d3b26-8df1-447f-bdb9-af16a00af979",
+    "Name": "Anna Thomas",
+    "PolicyNumber": "eaf257fe-90f0-4680-bcd6-f923080f1ce9",
+    "ContactInformation": {
+      "Phone": "+1-206-749-7863x444",
+      "Email": "ewright@example.org",
+      "Address": "642 Haley Vista Apt. 295\nShermanstad, WY 32703"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-12",
+    "Location": "281 Catherine Centers Suite 395\nAaronmouth, AR 47958",
+    "Description": "Through short how when exactly. Gun ability ability fire finish. Middle school question analysis step cup."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 29830
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 72456
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7806
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 30416
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5918
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 178994,
+    "TotalApproved": 109625
+  },
+  "AdjusterDetails": {
+    "Name": "Jimmy Fernandez",
+    "ContactInformation": {
+      "Phone": "604-322-2261",
+      "Email": "stephen75@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/c660303a-1825-4ab1-a957-3ce3dbac2c5d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-12T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-17T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-02-22T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

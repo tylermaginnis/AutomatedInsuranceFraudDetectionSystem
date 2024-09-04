@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b0f259f5-c173-49ed-880d-71ad357058fe",
+    "PolicyID": "85b1dd46-80c0-4564-94b9-07265439a176",
+    "EffectiveDates": {
+        "StartDate": "2024-07-20",
+        "EndDate": "2025-07-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7ad08d45-d300-4bf8-a79d-21229c895476",
+        "Name": "Ricky Mendez",
+        "PolicyNumber": "85b1dd46-80c0-4564-94b9-07265439a176",
+        "ContactInformation": {
+            "Phone": "(695)598-8632",
+            "Email": "chandlerandrew@example.org",
+            "Address": "134 Reynolds Corner\nShawport, OK 74630"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-18",
+        "Location": "50349 Anthony Square Suite 387\nWest Jimmyton, NY 47603",
+        "Description": "Cold surface reach. Discussion bank onto candidate.\nAmong week local voice. Personal different official support move make more.\nPersonal than body dog. Too scene end kitchen prevent drug pull."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3680
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 92869
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 30231
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 83944
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13933
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 164045,
+        "TotalApproved": 103238
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Griffith",
+        "ContactInformation": {
+            "Phone": "886-747-9880x302",
+            "Email": "david90@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/28d9c832-d701-465f-ac89-3dcf24434958"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

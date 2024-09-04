@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8bbccc9b-2cb6-43eb-8620-629832617ff2",
+  "PolicyID": "fe641f68-47ad-46fd-ae44-1f2f2e39ba0d",
+  "EffectiveDates": {
+    "StartDate": "2024-03-24",
+    "EndDate": "2025-03-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "afbb713c-460d-4997-9c4a-2f2d1c42fb2e",
+    "Name": "Samuel Gillespie",
+    "PolicyNumber": "fe641f68-47ad-46fd-ae44-1f2f2e39ba0d",
+    "ContactInformation": {
+      "Phone": "764-541-6238x60703",
+      "Email": "scottstacy@example.com",
+      "Address": "00182 Martinez Track\nNew Jacob, NJ 03789"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-27",
+    "Location": "413 Brittany Fields Apt. 376\nForbeston, AS 76547",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 58008
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 27547
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5551
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 24840
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8417
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 124363,
+    "TotalApproved": 84279
+  },
+  "AdjusterDetails": {
+    "Name": "Erin Estrada",
+    "ContactInformation": {
+      "Phone": "001-566-743-5532x589",
+      "Email": "gwillis@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/16a3520b-8ceb-40a4-b00c-34a5ea7fb66e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-27T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-02T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-07T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

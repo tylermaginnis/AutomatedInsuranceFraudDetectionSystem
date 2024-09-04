@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e71ceb63-1922-4828-8980-f84341c180ee",
+    "PolicyID": "ab504f93-f322-4bd2-9c6c-304b9480013c",
+    "EffectiveDates": {
+        "StartDate": "2024-06-07",
+        "EndDate": "2025-06-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "24476e10-65ba-4989-9f69-c676d4f9c882",
+        "Name": "Judy Allen",
+        "PolicyNumber": "ab504f93-f322-4bd2-9c6c-304b9480013c",
+        "ContactInformation": {
+            "Phone": "360.319.6458x335",
+            "Email": "ybennett@example.net",
+            "Address": "1655 David Cove\nLake Andrew, WY 30419"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-24",
+        "Location": "Unit 4029 Box 9667\nDPO AE 24073",
+        "Description": "Size physical any environmental team or. Economy sea religious reflect general game.\nCall table water anything."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10894
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8632
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12293
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35209
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12984
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 34215,
+        "TotalApproved": 20264
+    },
+    "AdjusterDetails": {
+        "Name": "Linda Mccall",
+        "ContactInformation": {
+            "Phone": "+1-437-678-7828x65110",
+            "Email": "drobinson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/cd71037b-4fa8-4fd5-b589-4ddca0487b9b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-24T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-29T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-03T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

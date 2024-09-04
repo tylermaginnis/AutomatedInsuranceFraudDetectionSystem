@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d4890ceb-a0d3-4786-a9b7-e8cd7d8057fe",
+    "PolicyID": "c90212db-b6c5-4a58-a6a1-7cba5cc766cb",
+    "EffectiveDates": {
+        "StartDate": "2024-03-20",
+        "EndDate": "2025-03-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "14e5c62f-feb8-471b-b86e-f67647cf38fb",
+        "Name": "Gabrielle Gilmore",
+        "PolicyNumber": "c90212db-b6c5-4a58-a6a1-7cba5cc766cb",
+        "ContactInformation": {
+            "Phone": "722-240-7838x8293",
+            "Email": "dillonvictoria@example.com",
+            "Address": "9852 Sarah Landing\nSarahton, OH 34600"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-11",
+        "Location": "07489 Lee Hills Apt. 981\nPattytown, DE 46049",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 66586
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42758
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8465
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21146
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10990
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 149945,
+        "TotalApproved": 89008
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Patel",
+        "ContactInformation": {
+            "Phone": "625.643.0960x357",
+            "Email": "christopherwhite@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1701564f-d817-4af8-8c29-9e8f2ea1f25f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-11T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-16T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-21T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

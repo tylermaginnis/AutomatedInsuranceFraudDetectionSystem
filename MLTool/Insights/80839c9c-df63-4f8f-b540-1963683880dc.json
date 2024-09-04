@@ -1,0 +1,81 @@
+{
+    "ClaimID": "80839c9c-df63-4f8f-b540-1963683880dc",
+    "PolicyID": "b8959a33-2d8f-45a5-a4d1-352f4ae3b965",
+    "EffectiveDates": {
+        "StartDate": "2024-05-09",
+        "EndDate": "2025-05-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e08392d2-4125-40f3-ac07-265288e6979d",
+        "Name": "Susan Hughes",
+        "PolicyNumber": "b8959a33-2d8f-45a5-a4d1-352f4ae3b965",
+        "ContactInformation": {
+            "Phone": "8688088433",
+            "Email": "amy98@example.com",
+            "Address": "376 Ryan Mills Suite 745\nLisaton, PR 67159"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-30",
+        "Location": "7649 Case Parkway\nSouth Dylan, RI 41498",
+        "Description": "Deep box inside include likely quality can. Floor operation forget eye yeah. Good serious former sign market."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 94726
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50402
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 82018
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3350
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9746
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 198772,
+        "TotalApproved": 51712
+    },
+    "AdjusterDetails": {
+        "Name": "Lawrence Blackwell",
+        "ContactInformation": {
+            "Phone": "+1-920-231-4770x49828",
+            "Email": "edwardspatricia@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7f73944e-7f7c-415d-8022-debea687cd06"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

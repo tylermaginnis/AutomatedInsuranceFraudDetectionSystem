@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c521bc5c-c009-4db7-95b4-968ff36f2160",
+    "PolicyID": "8bcfb6e8-da96-4aef-8069-8eff8173f78a",
+    "EffectiveDates": {
+        "StartDate": "2023-11-21",
+        "EndDate": "2024-11-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f688049f-882b-400b-8088-0f0a119d128d",
+        "Name": "George Herman",
+        "PolicyNumber": "8bcfb6e8-da96-4aef-8069-8eff8173f78a",
+        "ContactInformation": {
+            "Phone": "430-390-0739",
+            "Email": "brownveronica@example.org",
+            "Address": "9380 Kaitlin Underpass\nKathrynchester, AL 62437"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-01",
+        "Location": "81226 Sarah Trail\nPort Josephfort, AZ 30910",
+        "Description": "Character do hand they idea government. Business save skill those media too hard. Age save research.\nCan significant third maintain recently."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6995
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 157366
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28702
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33784
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29955
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 69526,
+        "TotalApproved": 38087
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Simpson",
+        "ContactInformation": {
+            "Phone": "+1-309-602-8585",
+            "Email": "bennettelizabeth@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/cfb2aeee-095d-4348-b7c7-af29c2b86e33"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

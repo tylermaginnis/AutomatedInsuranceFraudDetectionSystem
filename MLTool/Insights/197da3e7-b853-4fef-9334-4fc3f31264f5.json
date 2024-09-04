@@ -1,0 +1,81 @@
+{
+    "ClaimID": "197da3e7-b853-4fef-9334-4fc3f31264f5",
+    "PolicyID": "7b5dc258-75a9-4acb-ae09-7753a5b99026",
+    "EffectiveDates": {
+        "StartDate": "2023-09-05",
+        "EndDate": "2024-09-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9826d4dd-cb68-4cb7-8e9f-77eec8ef1177",
+        "Name": "Bradley Perry",
+        "PolicyNumber": "7b5dc258-75a9-4acb-ae09-7753a5b99026",
+        "ContactInformation": {
+            "Phone": "314.440.7067",
+            "Email": "rosalesjames@example.net",
+            "Address": "656 Rebecca Run Apt. 444\nMillertown, WY 13005"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-18",
+        "Location": "443 Andrews Trafficway Suite 602\nNew Bobbytown, OK 25580",
+        "Description": "I oil international so. Easy pressure feeling special approach. Guy response medical rather small."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8025
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17553
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39397
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8110
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14425
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 189857,
+        "TotalApproved": 107698
+    },
+    "AdjusterDetails": {
+        "Name": "Shannon Miller",
+        "ContactInformation": {
+            "Phone": "001-692-821-3311x906",
+            "Email": "daniel20@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e8dad9a8-6544-49dc-a242-81bef3c30d5b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

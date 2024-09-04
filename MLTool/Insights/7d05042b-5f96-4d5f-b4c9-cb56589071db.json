@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7d05042b-5f96-4d5f-b4c9-cb56589071db",
+    "PolicyID": "dcf5f3e8-2687-4655-a137-9bd18d5f0e59",
+    "EffectiveDates": {
+        "StartDate": "2023-10-08",
+        "EndDate": "2024-10-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f405adf3-e768-4dfa-9e96-c7bd17d82954",
+        "Name": "Kelsey Meadows",
+        "PolicyNumber": "dcf5f3e8-2687-4655-a137-9bd18d5f0e59",
+        "ContactInformation": {
+            "Phone": "+1-785-952-8628x04455",
+            "Email": "kevin81@example.org",
+            "Address": "8688 Linda Curve\nEast Matthewport, CA 50808"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-08",
+        "Location": "104 Johnson Corners\nNorth Jeffreyberg, NJ 24052",
+        "Description": "Foot sometimes street true public note. The form material degree shake outside major. Particular hundred protect kitchen yet need may."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25841
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 185751
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 184652
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5721
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3913
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 176418,
+        "TotalApproved": 156509
+    },
+    "AdjusterDetails": {
+        "Name": "Gina Davis",
+        "ContactInformation": {
+            "Phone": "697-818-0786",
+            "Email": "randallmichael@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a8508004-6532-40e6-abc1-86aa9192949d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

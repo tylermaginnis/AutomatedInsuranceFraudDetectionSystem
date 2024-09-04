@@ -1,0 +1,81 @@
+{
+    "ClaimID": "677b8fd7-e418-4c66-b5bc-6af7adc1bf50",
+    "PolicyID": "8596977a-b1b1-4484-ad02-5bc324ea7e44",
+    "EffectiveDates": {
+        "StartDate": "2023-11-23",
+        "EndDate": "2024-11-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "db5384bf-478c-47f5-9d9b-4b367f62d809",
+        "Name": "Derek Kaiser",
+        "PolicyNumber": "8596977a-b1b1-4484-ad02-5bc324ea7e44",
+        "ContactInformation": {
+            "Phone": "3328132003",
+            "Email": "nortonwilliam@example.org",
+            "Address": "99319 Lewis Neck Apt. 727\nDevinfurt, OR 40653"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-18",
+        "Location": "6524 Edward Junctions\nEast Michael, NE 86602",
+        "Description": "Daughter personal today may ahead laugh. Far base fight check. Result two people provide surface.\nToday plan fly us mention. Way special away minute discuss surface special."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 94597
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17151
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5545
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49369
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3975
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 68488,
+        "TotalApproved": 37878
+    },
+    "AdjusterDetails": {
+        "Name": "Edward Velazquez",
+        "ContactInformation": {
+            "Phone": "+1-727-555-1171",
+            "Email": "lauratorres@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3bb0bc4b-215b-4814-bdaa-f5a1464c7542"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

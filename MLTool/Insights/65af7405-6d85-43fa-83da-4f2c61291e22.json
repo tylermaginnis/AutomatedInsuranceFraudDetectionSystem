@@ -1,0 +1,81 @@
+{
+    "ClaimID": "65af7405-6d85-43fa-83da-4f2c61291e22",
+    "PolicyID": "786a57aa-fe93-4195-8149-42d7e4e687f8",
+    "EffectiveDates": {
+        "StartDate": "2024-02-06",
+        "EndDate": "2025-02-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a73da833-7f57-4aba-b622-0c23539e97b7",
+        "Name": "Joshua Bradley",
+        "PolicyNumber": "786a57aa-fe93-4195-8149-42d7e4e687f8",
+        "ContactInformation": {
+            "Phone": "9034406096",
+            "Email": "katiejones@example.org",
+            "Address": "699 Norris Gateway\nGonzalezchester, WI 94979"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-10",
+        "Location": "593 Myers Vista Apt. 350\nNew Alejandromouth, WV 51571",
+        "Description": "Change out right certain role scene then. Subject star if international support break."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24673
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29048
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 108053
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1657
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1224
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 17983,
+        "TotalApproved": 3175
+    },
+    "AdjusterDetails": {
+        "Name": "Bryan Harrison",
+        "ContactInformation": {
+            "Phone": "(898)252-1023x3240",
+            "Email": "shafferamanda@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e7ae428f-b461-41c5-9a16-edf3369141ef"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

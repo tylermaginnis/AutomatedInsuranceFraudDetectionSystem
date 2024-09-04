@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8d9f19f7-a03d-4857-ba8e-46ac6f084715",
+    "PolicyID": "084b51dd-b9da-4836-b7a7-d099b607138e",
+    "EffectiveDates": {
+        "StartDate": "2024-03-20",
+        "EndDate": "2025-03-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d767931b-e8b5-4994-b1e7-e435ddd5e184",
+        "Name": "Gerald Norman",
+        "PolicyNumber": "084b51dd-b9da-4836-b7a7-d099b607138e",
+        "ContactInformation": {
+            "Phone": "390.420.8608x4063",
+            "Email": "amyvelazquez@example.org",
+            "Address": "7912 Susan Village Apt. 226\nRobinsonburgh, KS 14124"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-29",
+        "Location": "0587 Joy Roads\nWest Paulfort, PA 08768",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82660
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27901
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6930
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11632
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18734
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 147857,
+        "TotalApproved": 15466
+    },
+    "AdjusterDetails": {
+        "Name": "Chad Rodriguez",
+        "ContactInformation": {
+            "Phone": "+1-659-885-7474x556",
+            "Email": "smithbobby@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/05ef0cab-4411-4be4-aa65-4cb5702527f8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-29T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-03T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-08T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

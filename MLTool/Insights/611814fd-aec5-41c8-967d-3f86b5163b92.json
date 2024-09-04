@@ -1,0 +1,81 @@
+{
+    "ClaimID": "611814fd-aec5-41c8-967d-3f86b5163b92",
+    "PolicyID": "b8b706f7-783d-4fb6-b9b3-57c9f8c1dffb",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1bda5443-3e4a-4a70-98b5-f23638d082f1",
+        "Name": "David Weber",
+        "PolicyNumber": "b8b706f7-783d-4fb6-b9b3-57c9f8c1dffb",
+        "ContactInformation": {
+            "Phone": "(764)699-3323",
+            "Email": "butlerchad@example.com",
+            "Address": "2469 Randolph Radial Apt. 645\nBergermouth, KS 57955"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-06",
+        "Location": "90729 Andrea Walk Apt. 342\nPort Darrenfort, WA 65274",
+        "Description": "Several exist important manage. Sense thus suddenly question. Each third thus especially that something. Thousand people many."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45847
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32362
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15593
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7886
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6650
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 89470,
+        "TotalApproved": 65680
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Foster",
+        "ContactInformation": {
+            "Phone": "001-233-393-6528x209",
+            "Email": "nicholas33@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e1fc0359-d549-429d-a499-7fe0c60f2242"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

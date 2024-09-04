@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d52aa8a1-b41f-4aad-90e8-341d98c7c7e4",
+    "PolicyID": "33aa1d39-8229-48f2-908a-ab434217a1bd",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "89b5dc15-5461-43d8-9327-9f9e09655525",
+        "Name": "Catherine Saunders",
+        "PolicyNumber": "33aa1d39-8229-48f2-908a-ab434217a1bd",
+        "ContactInformation": {
+            "Phone": "351.510.9681x243",
+            "Email": "delgadobenjamin@example.net",
+            "Address": "644 Cheryl Crescent Suite 076\nJohnbury, NJ 90940"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-14",
+        "Location": "051 Martinez Ville Suite 961\nAshleymouth, CO 18202",
+        "Description": "But space according about assume. Church sign improve force dark piece size structure."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1472
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39457
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6764
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 24443
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9947
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 114039,
+        "TotalApproved": 106540
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Vasquez",
+        "ContactInformation": {
+            "Phone": "(464)706-1755x3741",
+            "Email": "allison68@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/489a1acc-c08f-4d4e-b9be-b48b99bd5699"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "64fc4595-6844-48ac-9a9b-ac6fae3ee08b",
+    "PolicyID": "f58b0fc9-da64-4d82-87c5-74a6a52f9847",
+    "EffectiveDates": {
+        "StartDate": "2023-12-13",
+        "EndDate": "2024-12-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "92817b29-cbd8-4689-a136-8e74e36cc5ad",
+        "Name": "Jeffery Webb",
+        "PolicyNumber": "f58b0fc9-da64-4d82-87c5-74a6a52f9847",
+        "ContactInformation": {
+            "Phone": "513.730.1526x873",
+            "Email": "todd27@example.net",
+            "Address": "63021 Steve Field Suite 489\nEast James, MI 47083"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-14",
+        "Location": "908 Jimenez Loaf\nEast Oscarbury, NH 35781",
+        "Description": "Remain foreign building. Man sense conference organization day fight.\nGas relationship simple mouth dark. Memory site policy commercial deal."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11617
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36726
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10047
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 40238
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 84346
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 88673,
+        "TotalApproved": 11193
+    },
+    "AdjusterDetails": {
+        "Name": "Cynthia Le",
+        "ContactInformation": {
+            "Phone": "8704162178",
+            "Email": "adamgonzalez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ea0b2668-0d61-4948-80d1-6fd7c7e98314"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-14T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-19T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-24T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

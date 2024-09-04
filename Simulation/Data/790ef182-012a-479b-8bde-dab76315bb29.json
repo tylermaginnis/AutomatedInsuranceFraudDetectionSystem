@@ -1,0 +1,80 @@
+{
+  "ClaimID": "790ef182-012a-479b-8bde-dab76315bb29",
+  "PolicyID": "bb7f1aec-0b46-42b7-b90e-7a648f7e2c57",
+  "EffectiveDates": {
+    "StartDate": "2024-08-20",
+    "EndDate": "2025-08-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b20fb675-05b4-4538-9f2a-d785a9837cfc",
+    "Name": "David Norman",
+    "PolicyNumber": "bb7f1aec-0b46-42b7-b90e-7a648f7e2c57",
+    "ContactInformation": {
+      "Phone": "261.425.5485",
+      "Email": "larry70@example.com",
+      "Address": "618 Bradley Landing\nRachelberg, MT 64232"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-22",
+    "Location": "7156 Michelle Hills Suite 982\nHalltown, VT 76235",
+    "Description": "Social national middle television will. Before hospital bar future friend pick evidence."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 15954
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 32861
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 142471
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 49837
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9360
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 172304,
+    "TotalApproved": 169396
+  },
+  "AdjusterDetails": {
+    "Name": "Pamela Diaz",
+    "ContactInformation": {
+      "Phone": "820.439.6627",
+      "Email": "david19@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/98780e98-c783-41b5-b584-1510861b59fb"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-22T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-27T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-01T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

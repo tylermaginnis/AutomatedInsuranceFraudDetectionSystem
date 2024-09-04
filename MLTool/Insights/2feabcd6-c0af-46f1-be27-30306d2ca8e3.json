@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2feabcd6-c0af-46f1-be27-30306d2ca8e3",
+    "PolicyID": "f7ae0e69-5500-46ff-b602-51577d8da29e",
+    "EffectiveDates": {
+        "StartDate": "2024-04-27",
+        "EndDate": "2025-04-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "055e5507-9e64-4998-971f-12ab69129be3",
+        "Name": "Jeffrey Harris",
+        "PolicyNumber": "f7ae0e69-5500-46ff-b602-51577d8da29e",
+        "ContactInformation": {
+            "Phone": "588.342.6297x2539",
+            "Email": "pvaldez@example.com",
+            "Address": "8133 Lamb Canyon Apt. 678\nDawnmouth, MA 37818"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-24",
+        "Location": "51093 Christina Ways Apt. 996\nJonesfort, FM 37541",
+        "Description": "Student pressure set defense value stand training. Degree son chance maintain project she. Major chance phone second young put."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 60152
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46296
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20386
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12279
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 173041
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 26288,
+        "TotalApproved": 22475
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Salazar",
+        "ContactInformation": {
+            "Phone": "421.390.5290",
+            "Email": "gperkins@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b39ac458-ec90-4e74-98f8-5a22b1be0a4f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

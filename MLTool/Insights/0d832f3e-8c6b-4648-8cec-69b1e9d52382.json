@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0d832f3e-8c6b-4648-8cec-69b1e9d52382",
+    "PolicyID": "b88f1291-5f9d-4e08-8b0e-1f8fcd5ec752",
+    "EffectiveDates": {
+        "StartDate": "2024-03-05",
+        "EndDate": "2025-03-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a28209e8-7273-4260-baef-a84b559769f7",
+        "Name": "Michael Bennett",
+        "PolicyNumber": "b88f1291-5f9d-4e08-8b0e-1f8fcd5ec752",
+        "ContactInformation": {
+            "Phone": "(639)920-4442x43094",
+            "Email": "stacyramirez@example.net",
+            "Address": "39974 Davis Mission\nLake Daniel, VT 91462"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-03",
+        "Location": "02775 Dennis Stream Suite 746\nLake Scottstad, WA 80059",
+        "Description": "Order interesting morning effect everything poor thus. Put window happen soon responsibility always. Technology form mother though difficult health."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41529
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 53710
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 144512
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3452
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9799
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 94801,
+        "TotalApproved": 39952
+    },
+    "AdjusterDetails": {
+        "Name": "Juan Novak",
+        "ContactInformation": {
+            "Phone": "+1-306-401-2662x9415",
+            "Email": "brooksjeremy@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2798f565-9169-463c-976e-71e32332ab35"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-03T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-08T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-13T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

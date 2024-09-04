@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1f87393c-f952-4f9c-825a-e5ef9b7afafc",
+    "PolicyID": "a2333eca-ed16-43ef-aeff-b3d2106ca408",
+    "EffectiveDates": {
+        "StartDate": "2024-01-24",
+        "EndDate": "2025-01-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "08c7ac91-3ad6-4e8b-ab52-2a1aa705c1b5",
+        "Name": "William Gutierrez",
+        "PolicyNumber": "a2333eca-ed16-43ef-aeff-b3d2106ca408",
+        "ContactInformation": {
+            "Phone": "922.704.1394x0585",
+            "Email": "jessica20@example.com",
+            "Address": "553 Harvey Ways\nEast Stacy, WI 36991"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-11",
+        "Location": "184 Kelly Route Apt. 492\nLake Stevenchester, AS 88831",
+        "Description": "Kind letter ok toward practice other view own. Upon off left future future edge carry product. Everybody through so night."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5632
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8613
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5448
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2498
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15323
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 74555,
+        "TotalApproved": 29837
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Sanchez",
+        "ContactInformation": {
+            "Phone": "001-226-865-0919x82158",
+            "Email": "samantha63@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3e5c55c9-6621-4f26-b108-fad45013284a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-11T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-16T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-21T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

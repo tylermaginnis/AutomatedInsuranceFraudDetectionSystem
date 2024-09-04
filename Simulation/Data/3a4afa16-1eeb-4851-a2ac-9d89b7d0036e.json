@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3a4afa16-1eeb-4851-a2ac-9d89b7d0036e",
+  "PolicyID": "b64e3666-6b61-4741-aa3e-5568a1b1451e",
+  "EffectiveDates": {
+    "StartDate": "2024-05-20",
+    "EndDate": "2025-05-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "fa22cb87-6b53-4b8f-8ca4-1762da79dbda",
+    "Name": "Scott Allen",
+    "PolicyNumber": "b64e3666-6b61-4741-aa3e-5568a1b1451e",
+    "ContactInformation": {
+      "Phone": "+1-514-875-6057x854",
+      "Email": "margaretturner@example.com",
+      "Address": "657 Mary Pines Apt. 744\nVictorborough, OR 26574"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-21",
+    "Location": "52863 Harris Mission\nRobertbury, RI 94708",
+    "Description": "Teacher buy half. Live theory every stop someone. Culture identify herself up place themselves police."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2506
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 191036
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 4323
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 39286
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 25413
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 22858,
+    "TotalApproved": 11518
+  },
+  "AdjusterDetails": {
+    "Name": "Jared Noble",
+    "ContactInformation": {
+      "Phone": "(251)345-1207x700",
+      "Email": "moralesjulia@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/88aaad39-aebc-4150-860c-b78b4dd8bc81"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-21T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-26T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-31T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

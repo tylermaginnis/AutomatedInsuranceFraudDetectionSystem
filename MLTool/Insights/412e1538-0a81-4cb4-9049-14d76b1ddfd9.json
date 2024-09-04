@@ -1,0 +1,81 @@
+{
+    "ClaimID": "412e1538-0a81-4cb4-9049-14d76b1ddfd9",
+    "PolicyID": "7414f48a-acef-4037-896e-d66ef15c19d3",
+    "EffectiveDates": {
+        "StartDate": "2023-10-02",
+        "EndDate": "2024-10-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e84f6c22-24b3-4034-bc7a-572ae1407391",
+        "Name": "Sonya Jackson",
+        "PolicyNumber": "7414f48a-acef-4037-896e-d66ef15c19d3",
+        "ContactInformation": {
+            "Phone": "(442)321-3282x2644",
+            "Email": "danieltodd@example.net",
+            "Address": "63661 Jones Manor\nLeslieville, TX 12720"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-07",
+        "Location": "95062 Woods Ranch Suite 670\nEast Scottchester, NC 30642",
+        "Description": "Performance forget skill book rise create. Quality show tonight deep upon eight. Family mind six play.\nIdentify go after."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43215
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12622
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10362
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1761
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19922
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116778,
+        "TotalApproved": 89465
+    },
+    "AdjusterDetails": {
+        "Name": "Gabriela Herrera",
+        "ContactInformation": {
+            "Phone": "(361)873-7738",
+            "Email": "anntaylor@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/327fca47-7bb5-42b8-b0ab-c837f0c6fe7e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

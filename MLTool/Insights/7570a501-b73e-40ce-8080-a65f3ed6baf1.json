@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7570a501-b73e-40ce-8080-a65f3ed6baf1",
+    "PolicyID": "8889bfe5-cc4d-4a10-a8fc-ca544333c19a",
+    "EffectiveDates": {
+        "StartDate": "2024-05-15",
+        "EndDate": "2025-05-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "299b4a0c-f58a-40e8-8048-76934238d193",
+        "Name": "Jesse Dixon",
+        "PolicyNumber": "8889bfe5-cc4d-4a10-a8fc-ca544333c19a",
+        "ContactInformation": {
+            "Phone": "001-493-843-1167",
+            "Email": "danieljenkins@example.net",
+            "Address": "02583 Anthony Vista Apt. 277\nPort Tracyhaven, NV 25148"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-17",
+        "Location": "183 Wilson Rapids\nBradleymouth, PA 54396",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 70295
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 31244
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8651
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29432
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5227
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 144849,
+        "TotalApproved": 73070
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Stewart",
+        "ContactInformation": {
+            "Phone": "242.207.3191x27454",
+            "Email": "vazquezmichelle@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/7dd64197-324c-4f5b-85d9-b90c4697367c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-17T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-22T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-27T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3217ac31-b897-4a8f-add8-d501b936ae23",
+    "PolicyID": "4250a78f-2561-48fc-ba9e-f0cfa6fefcbf",
+    "EffectiveDates": {
+        "StartDate": "2023-11-11",
+        "EndDate": "2024-11-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1ee7deda-6442-4bdb-8f99-41191a7875bf",
+        "Name": "Amy Newton",
+        "PolicyNumber": "4250a78f-2561-48fc-ba9e-f0cfa6fefcbf",
+        "ContactInformation": {
+            "Phone": "(363)803-2546x66178",
+            "Email": "amanda30@example.net",
+            "Address": "32158 Brett Brooks\nNorth Samantha, GA 38776"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-08",
+        "Location": "0988 Hogan Circle\nJosephborough, MO 27067",
+        "Description": "Night growth development air section show. Sign move keep practice. Music while section reality each outside."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25040
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 134175
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18394
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3641
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1411
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 48853,
+        "TotalApproved": 4464
+    },
+    "AdjusterDetails": {
+        "Name": "Melanie Ruiz",
+        "ContactInformation": {
+            "Phone": "4086001501",
+            "Email": "bowmantanner@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5ca682af-506a-46ad-a973-99574c5c2484"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

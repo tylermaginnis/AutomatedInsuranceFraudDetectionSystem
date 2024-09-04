@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b064127-2b26-40c9-907b-4c672369421d",
+    "PolicyID": "ee41d997-e228-46ab-8185-6bb557da88e6",
+    "EffectiveDates": {
+        "StartDate": "2023-12-17",
+        "EndDate": "2024-12-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7ed18b1f-bc12-4d6d-a2b1-b210d2bd2ad9",
+        "Name": "Catherine Richards",
+        "PolicyNumber": "ee41d997-e228-46ab-8185-6bb557da88e6",
+        "ContactInformation": {
+            "Phone": "3323903110",
+            "Email": "katherine03@example.com",
+            "Address": "02680 Marc Court Apt. 462\nCortezhaven, AL 16992"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-19",
+        "Location": "779 Mark Mount\nFoxshire, MI 26344",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 81134
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27928
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7249
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23401
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15723
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 155435,
+        "TotalApproved": 91023
+    },
+    "AdjusterDetails": {
+        "Name": "Christine Whitehead",
+        "ContactInformation": {
+            "Phone": "001-354-400-0880",
+            "Email": "hjimenez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/3fbbf5af-3128-4351-a989-6980d8c016fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-19T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-24T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-29T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

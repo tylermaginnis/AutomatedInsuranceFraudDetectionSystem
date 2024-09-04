@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e07b4e31-05b2-45d2-a55b-a7a849a4d149",
+    "PolicyID": "7a880709-88a2-424e-bdf8-3819434da8e6",
+    "EffectiveDates": {
+        "StartDate": "2024-06-17",
+        "EndDate": "2025-06-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "899c9b41-2f64-402b-8602-a345b072d3c6",
+        "Name": "Alan Edwards",
+        "PolicyNumber": "7a880709-88a2-424e-bdf8-3819434da8e6",
+        "ContactInformation": {
+            "Phone": "(332)714-2177x91112",
+            "Email": "hickscarol@example.org",
+            "Address": "826 Jason Alley Suite 392\nDanielshire, NH 42651"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-07",
+        "Location": "6656 Oscar Isle Suite 778\nPort David, AZ 98408",
+        "Description": "Really what stay enough. Realize section perform life detail account. We value simple structure cut doctor.\nTax subject if federal. Possible true ago property including."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3537
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17883
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10329
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23612
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36161
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 59023,
+        "TotalApproved": 32893
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Matthew Ortega",
+        "ContactInformation": {
+            "Phone": "522.654.9058",
+            "Email": "ctaylor@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/44f0f55d-b396-42c3-8de1-6a8e9124591c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-07T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-12T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-17T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

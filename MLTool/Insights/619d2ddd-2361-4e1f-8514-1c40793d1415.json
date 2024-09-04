@@ -1,0 +1,81 @@
+{
+    "ClaimID": "619d2ddd-2361-4e1f-8514-1c40793d1415",
+    "PolicyID": "a3856f19-5547-434f-acf6-1ab0c33a5b25",
+    "EffectiveDates": {
+        "StartDate": "2023-10-02",
+        "EndDate": "2024-10-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "840714a1-4998-47ba-b6ff-c70b1e907fc1",
+        "Name": "Craig Blanchard",
+        "PolicyNumber": "a3856f19-5547-434f-acf6-1ab0c33a5b25",
+        "ContactInformation": {
+            "Phone": "+1-912-923-3246x1117",
+            "Email": "griffithjacob@example.com",
+            "Address": "314 Jones Views\nPort Patricia, MS 91405"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-27",
+        "Location": "6680 Shelby Stravenue Apt. 906\nMarcusfurt, LA 59163",
+        "Description": "Economy behavior west soldier. Decade issue better very trade risk wish.\nKey series former bill. Many similar can relate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8428
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5722
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14271
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 64718
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8371
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 152538,
+        "TotalApproved": 75088
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Andrews",
+        "ContactInformation": {
+            "Phone": "001-723-660-0921x2322",
+            "Email": "powersrodney@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3948c9cc-d8c8-4fa2-af1b-14ec0f5b5070"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

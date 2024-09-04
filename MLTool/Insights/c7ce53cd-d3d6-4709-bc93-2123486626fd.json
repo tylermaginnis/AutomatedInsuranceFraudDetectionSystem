@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c7ce53cd-d3d6-4709-bc93-2123486626fd",
+    "PolicyID": "4307d5ad-eb8b-42d1-a554-7e114e8e76fe",
+    "EffectiveDates": {
+        "StartDate": "2024-04-28",
+        "EndDate": "2025-04-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7d03c8be-909c-47ee-b745-8d19521a5a2d",
+        "Name": "Jeffery Murphy",
+        "PolicyNumber": "4307d5ad-eb8b-42d1-a554-7e114e8e76fe",
+        "ContactInformation": {
+            "Phone": "5066300221",
+            "Email": "lopezmichael@example.org",
+            "Address": "0319 Hampton Loop Suite 407\nSouth Jayhaven, VI 06301"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-23",
+        "Location": "18560 Schaefer Underpass Suite 756\nBaldwinhaven, SD 07544",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 80544
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49648
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8468
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13406
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6950
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 159016,
+        "TotalApproved": 110344
+    },
+    "AdjusterDetails": {
+        "Name": "Dana Perry",
+        "ContactInformation": {
+            "Phone": "+1-888-766-3788x7677",
+            "Email": "zwalker@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c04fe8cc-1dfd-4ef2-bf63-4556f7a854cd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-23T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-28T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-02T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9d5a2766-b68f-4d1b-9011-ea3486d42ce8",
+    "PolicyID": "bb2f65c5-7309-4912-a74b-28ccae0b3e5d",
+    "EffectiveDates": {
+        "StartDate": "2024-08-18",
+        "EndDate": "2025-08-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a90c4fcd-1d31-4ee0-9cc8-d1bcff29e1f0",
+        "Name": "Danielle Adams",
+        "PolicyNumber": "bb2f65c5-7309-4912-a74b-28ccae0b3e5d",
+        "ContactInformation": {
+            "Phone": "516-569-0603x41404",
+            "Email": "rachaelroach@example.org",
+            "Address": "01319 Mann Curve Apt. 482\nPenatown, NV 69866"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-16",
+        "Location": "35576 Raymond Shoals\nSouth Alexander, NV 79349",
+        "Description": "Letter reach commercial evening old cost understand. Able organization real process technology really."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3508
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 196236
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8923
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33834
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2507
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 77631,
+        "TotalApproved": 41601
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Stark",
+        "ContactInformation": {
+            "Phone": "001-409-724-1118x923",
+            "Email": "rebecca65@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a9725bfd-ad67-4066-9a5a-ddf0adadba2c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

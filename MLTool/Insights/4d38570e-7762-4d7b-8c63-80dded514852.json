@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4d38570e-7762-4d7b-8c63-80dded514852",
+    "PolicyID": "c4a54b09-8d3f-4e5c-9dec-63e2b102aaf5",
+    "EffectiveDates": {
+        "StartDate": "2024-06-05",
+        "EndDate": "2025-06-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8699dd44-ba82-482e-9e59-3d0f46410df0",
+        "Name": "Monique Smith",
+        "PolicyNumber": "c4a54b09-8d3f-4e5c-9dec-63e2b102aaf5",
+        "ContactInformation": {
+            "Phone": "(982)477-0334x053",
+            "Email": "thomashess@example.net",
+            "Address": "7146 Rojas Hollow\nKristinport, MI 97552"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-27",
+        "Location": "48243 Joseph Meadows\nRyanchester, PA 00705",
+        "Description": "Head too include letter treat picture trade. So or fire."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15575
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 86347
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8131
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 71017
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35353
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 183462,
+        "TotalApproved": 25189
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Carter",
+        "ContactInformation": {
+            "Phone": "(846)332-3086",
+            "Email": "bgreene@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9c6943ac-7686-4473-9375-bb1b5fdf1247"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

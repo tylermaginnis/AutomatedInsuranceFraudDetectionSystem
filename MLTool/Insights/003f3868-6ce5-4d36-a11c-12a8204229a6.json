@@ -1,0 +1,81 @@
+{
+    "ClaimID": "003f3868-6ce5-4d36-a11c-12a8204229a6",
+    "PolicyID": "613bbe7e-9497-4268-b356-dc397a30f55e",
+    "EffectiveDates": {
+        "StartDate": "2024-04-18",
+        "EndDate": "2025-04-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8be3cffa-b23e-4bd5-a63e-64e3ea5f41c7",
+        "Name": "Ashley Jefferson",
+        "PolicyNumber": "613bbe7e-9497-4268-b356-dc397a30f55e",
+        "ContactInformation": {
+            "Phone": "+1-476-519-7757",
+            "Email": "nhall@example.org",
+            "Address": "1885 Andrew Loaf Apt. 712\nKristinefurt, IN 57878"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-13",
+        "Location": "437 David Center\nEast Jessica, OK 76517",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 89909
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 31584
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6664
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22586
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9002
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 159745,
+        "TotalApproved": 129690
+    },
+    "AdjusterDetails": {
+        "Name": "Amber Kemp",
+        "ContactInformation": {
+            "Phone": "+1-417-641-2837x045",
+            "Email": "rkennedy@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/cc6e45a8-1f1b-4eb3-9845-a69676ba36b0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-13T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-18T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-23T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

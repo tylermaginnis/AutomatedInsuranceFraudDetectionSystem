@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7d6134bb-a998-4f0c-a1b6-abfb4b392066",
+    "PolicyID": "b036885e-16d0-439e-9b44-f3560f3c2fa6",
+    "EffectiveDates": {
+        "StartDate": "2024-08-14",
+        "EndDate": "2025-08-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4f13aff4-7bff-43ef-9122-b9b8012440cd",
+        "Name": "Tiffany Wells",
+        "PolicyNumber": "b036885e-16d0-439e-9b44-f3560f3c2fa6",
+        "ContactInformation": {
+            "Phone": "+1-523-952-7876",
+            "Email": "kschaefer@example.org",
+            "Address": "1036 Kevin Loop Apt. 632\nNew Theresa, MI 39492"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-08-12",
+        "Location": "489 Perez Mountains Suite 421\nNew Daleburgh, FM 48786",
+        "Description": "Tend car fall minute its assume ready little. Break particularly everyone grow government police. Modern money material campaign wish trouble citizen.\nHeart save three. Most ahead write name."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6020
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49656
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7917
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38499
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1283
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 23260,
+        "TotalApproved": 3074
+    },
+    "AdjusterDetails": {
+        "Name": "Dr. Shannon Cruz",
+        "ContactInformation": {
+            "Phone": "(829)780-0019",
+            "Email": "christophergould@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0d231a3d-0b7d-46c0-b18f-566be13de9ce"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-08-12T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-17T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-22T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

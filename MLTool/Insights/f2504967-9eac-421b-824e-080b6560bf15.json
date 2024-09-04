@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f2504967-9eac-421b-824e-080b6560bf15",
+    "PolicyID": "28383abe-e7a8-4308-92d8-7ca01160d78d",
+    "EffectiveDates": {
+        "StartDate": "2024-09-04",
+        "EndDate": "2025-09-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9c843629-5962-4196-91fd-9531d429a0f1",
+        "Name": "Jared Kim",
+        "PolicyNumber": "28383abe-e7a8-4308-92d8-7ca01160d78d",
+        "ContactInformation": {
+            "Phone": "402-919-1705x5372",
+            "Email": "oschultz@example.com",
+            "Address": "310 Benjamin Lodge Suite 973\nPort Kimberly, IN 44112"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-01",
+        "Location": "33390 Thomas Stream Apt. 535\nSouth Erin, IL 24367",
+        "Description": "Create investment much answer. Local build trial item report. Campaign head together expert. Majority debate north arrive claim."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5637
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2283
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 51975
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 129898
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6642
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 122880,
+        "TotalApproved": 42040
+    },
+    "AdjusterDetails": {
+        "Name": "Anita Burton",
+        "ContactInformation": {
+            "Phone": "797.740.3152",
+            "Email": "turnerstanley@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/04ddb310-ad19-4c48-8b37-dd80644faaf5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

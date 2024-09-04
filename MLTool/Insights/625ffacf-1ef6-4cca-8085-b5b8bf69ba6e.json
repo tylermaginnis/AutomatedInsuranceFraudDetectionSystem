@@ -1,0 +1,81 @@
+{
+    "ClaimID": "625ffacf-1ef6-4cca-8085-b5b8bf69ba6e",
+    "PolicyID": "2e4db2f0-d7b8-4ad9-b340-0eca5e965472",
+    "EffectiveDates": {
+        "StartDate": "2024-08-27",
+        "EndDate": "2025-08-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "51d89a8e-e543-4a00-a621-e18876357059",
+        "Name": "Theresa White",
+        "PolicyNumber": "2e4db2f0-d7b8-4ad9-b340-0eca5e965472",
+        "ContactInformation": {
+            "Phone": "+1-475-332-6616",
+            "Email": "debralee@example.com",
+            "Address": "PSC 8625, Box 2161\nAPO AE 23521"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-18",
+        "Location": "99204 Christopher Forge\nWillisshire, NY 42063",
+        "Description": "Finish so few field.\nBook author able together my. Order of fine can. Voice collection resource than she affect."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 38325
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9309
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1273
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13040
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 67001
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 85349,
+        "TotalApproved": 75938
+    },
+    "AdjusterDetails": {
+        "Name": "Stephen Solis",
+        "ContactInformation": {
+            "Phone": "+1-237-649-6407x40962",
+            "Email": "carterlaura@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/bc56bbf4-6063-4762-9245-7b3354862ea9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

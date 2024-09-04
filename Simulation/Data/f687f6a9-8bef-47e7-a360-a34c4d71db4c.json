@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f687f6a9-8bef-47e7-a360-a34c4d71db4c",
+  "PolicyID": "ca2c1b15-a364-4717-91c9-028d68a7d643",
+  "EffectiveDates": {
+    "StartDate": "2023-10-02",
+    "EndDate": "2024-10-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "250b97c6-0245-4c17-bfdf-21d64c484fb6",
+    "Name": "Jessica Ryan",
+    "PolicyNumber": "ca2c1b15-a364-4717-91c9-028d68a7d643",
+    "ContactInformation": {
+      "Phone": "337-239-3037x84278",
+      "Email": "dianagraves@example.net",
+      "Address": "2273 Laura Rapid Suite 353\nPort Kurt, NM 19651"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-29",
+    "Location": "821 Justin Neck\nPort Linda, WY 27419",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 62689
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 32855
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9392
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 21971
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 12776
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 139683,
+    "TotalApproved": 95002
+  },
+  "AdjusterDetails": {
+    "Name": "Thomas Valencia",
+    "ContactInformation": {
+      "Phone": "001-209-914-6151x9134",
+      "Email": "rwilliams@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/dfa8717d-fbcb-4e1c-a804-ccb3d67c64c2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-29T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-04T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-09T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

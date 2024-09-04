@@ -1,0 +1,80 @@
+{
+  "ClaimID": "779abd4d-04aa-4c8d-8e00-bfb2eca22a6b",
+  "PolicyID": "178f62d4-90b8-4cd6-9e25-d2d1ef7149d3",
+  "EffectiveDates": {
+    "StartDate": "2024-01-08",
+    "EndDate": "2025-01-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7ddf8f05-e7e0-47de-8c3c-f2afb095e488",
+    "Name": "Sara Martin",
+    "PolicyNumber": "178f62d4-90b8-4cd6-9e25-d2d1ef7149d3",
+    "ContactInformation": {
+      "Phone": "738-690-2079",
+      "Email": "nlawrence@example.org",
+      "Address": "0907 Emily Forge\nLatoyaville, NV 45682"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-31",
+    "Location": "5507 Arnold Crescent\nBriannahaven, ID 47711",
+    "Description": "Party current today can hundred run. Cold level kitchen lead million young cost. Tree share six."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9093
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 30385
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 61650
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6973
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2141
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 48120,
+    "TotalApproved": 3598
+  },
+  "AdjusterDetails": {
+    "Name": "Christopher Kim",
+    "ContactInformation": {
+      "Phone": "252.330.3881x3677",
+      "Email": "armstrongmelissa@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/1dc2cecb-5f08-4e9d-8a3a-5fe1030684ad"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-31T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-05T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-10T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

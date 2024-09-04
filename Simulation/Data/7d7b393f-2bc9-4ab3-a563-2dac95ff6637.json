@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7d7b393f-2bc9-4ab3-a563-2dac95ff6637",
+  "PolicyID": "229c9962-13c6-4f40-b661-3ac64da4f6a1",
+  "EffectiveDates": {
+    "StartDate": "2024-05-23",
+    "EndDate": "2025-05-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "512e37cd-3874-49d0-adbf-89d77fa3ae5d",
+    "Name": "Keith Cross",
+    "PolicyNumber": "229c9962-13c6-4f40-b661-3ac64da4f6a1",
+    "ContactInformation": {
+      "Phone": "(268)442-9479x45402",
+      "Email": "umeadows@example.org",
+      "Address": "6449 Leslie Ferry\nJamesborough, ME 00549"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-26",
+    "Location": "3462 Jeffrey Mountain\nWilsontown, WA 94986",
+    "Description": "Marriage where painting some collection. Letter their recognize yeah. Set black perhaps board production."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 29254
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 82475
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8371
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5845
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6010
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 170648,
+    "TotalApproved": 9377
+  },
+  "AdjusterDetails": {
+    "Name": "Aaron Gordon",
+    "ContactInformation": {
+      "Phone": "720.383.4949x748",
+      "Email": "amy40@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/c3a0c522-4fa3-4aae-8254-a2f6a0de7440"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-26T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-01T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-06T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

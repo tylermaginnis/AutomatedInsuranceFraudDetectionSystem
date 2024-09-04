@@ -1,0 +1,81 @@
+{
+    "ClaimID": "52c790ce-a219-45ee-91c9-74dbb055868b",
+    "PolicyID": "de32bf14-bb46-4589-aa93-2d3b6893e7be",
+    "EffectiveDates": {
+        "StartDate": "2024-06-14",
+        "EndDate": "2025-06-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0c795131-078a-44c6-a4ec-7a5f635e978a",
+        "Name": "Stephanie Allison",
+        "PolicyNumber": "de32bf14-bb46-4589-aa93-2d3b6893e7be",
+        "ContactInformation": {
+            "Phone": "(512)746-4630x4823",
+            "Email": "wagnernicole@example.net",
+            "Address": "9585 Luna Summit\nNorth Joseph, ID 18927"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-23",
+        "Location": "089 Ethan Circle\nAnitaberg, ME 10958",
+        "Description": "Read home or point they only movie environmental. Gas down they final. Might structure anyone leader program."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32965
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3869
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15269
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 130417
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33696
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 121979,
+        "TotalApproved": 76135
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Burke",
+        "ContactInformation": {
+            "Phone": "809.569.8906x4703",
+            "Email": "baileychristopher@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8c3b995a-0c85-43cf-9a23-aad338ad1c34"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-23T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-28T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-03T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

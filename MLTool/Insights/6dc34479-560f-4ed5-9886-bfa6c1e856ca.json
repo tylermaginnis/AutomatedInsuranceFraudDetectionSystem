@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6dc34479-560f-4ed5-9886-bfa6c1e856ca",
+    "PolicyID": "daade007-e012-4ae7-a639-a7bfe61cd0f2",
+    "EffectiveDates": {
+        "StartDate": "2024-07-06",
+        "EndDate": "2025-07-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "229af8e4-c949-4dab-bf91-96cb80ee3a18",
+        "Name": "Crystal Francis",
+        "PolicyNumber": "daade007-e012-4ae7-a639-a7bfe61cd0f2",
+        "ContactInformation": {
+            "Phone": "6458633936",
+            "Email": "alvarezlaura@example.com",
+            "Address": "31091 Fleming Mills\nPamelaberg, KS 38393"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-10",
+        "Location": "USNV Rodriguez\nFPO AP 62534",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 78961
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28494
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5683
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13375
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15954
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 142467,
+        "TotalApproved": 53167
+    },
+    "AdjusterDetails": {
+        "Name": "Teresa Fletcher",
+        "ContactInformation": {
+            "Phone": "+1-553-347-6667x77929",
+            "Email": "blakenash@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/fcc2f9ad-cf82-4c74-b649-fa7b0cc11c9f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

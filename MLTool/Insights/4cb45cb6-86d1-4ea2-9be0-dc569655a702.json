@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4cb45cb6-86d1-4ea2-9be0-dc569655a702",
+    "PolicyID": "25d934b0-199c-4549-a8fa-e6c381c5c287",
+    "EffectiveDates": {
+        "StartDate": "2024-07-14",
+        "EndDate": "2025-07-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7f9211ee-01b7-4a62-8b29-761869be3e23",
+        "Name": "Andrea Hardy",
+        "PolicyNumber": "25d934b0-199c-4549-a8fa-e6c381c5c287",
+        "ContactInformation": {
+            "Phone": "(350)866-0018x669",
+            "Email": "angelacasey@example.com",
+            "Address": "170 Newton Prairie Apt. 435\nLake Sheri, MT 61712"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-30",
+        "Location": "832 Huber Flats\nLake Matthewmouth, NM 61910",
+        "Description": "Son woman little decision industry indeed sing friend. Ability write born realize even.\nSpend cover fall drug national medical clear. Instead too on blue buy attorney response."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7785
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46865
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25588
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10272
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 188942
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 137999,
+        "TotalApproved": 76057
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Love",
+        "ContactInformation": {
+            "Phone": "001-971-404-7370x329",
+            "Email": "billquinn@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/dd71979c-93b6-40d4-9947-cf1707814abe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

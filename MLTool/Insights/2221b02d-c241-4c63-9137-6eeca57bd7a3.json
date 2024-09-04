@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2221b02d-c241-4c63-9137-6eeca57bd7a3",
+    "PolicyID": "ebfde5fe-adef-4363-b67e-b5e9ad97e7ee",
+    "EffectiveDates": {
+        "StartDate": "2024-06-10",
+        "EndDate": "2025-06-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "eb55d5c5-539a-4432-9d23-f3ce5bc8721c",
+        "Name": "Wendy Rodgers",
+        "PolicyNumber": "ebfde5fe-adef-4363-b67e-b5e9ad97e7ee",
+        "ContactInformation": {
+            "Phone": "001-733-558-3523",
+            "Email": "lewismegan@example.com",
+            "Address": "2322 Armstrong Dam\nNorth William, PR 09067"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-29",
+        "Location": "76530 Griffin Terrace\nAngelabury, WY 14507",
+        "Description": "To owner shake finish later on. Expect light central fight reason foot heavy seek.\nDraw discussion human great win. They owner less report check. Red special open."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22178
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12033
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 90998
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 85123
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 192954
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 121422,
+        "TotalApproved": 100151
+    },
+    "AdjusterDetails": {
+        "Name": "Jordan Nguyen",
+        "ContactInformation": {
+            "Phone": "477.299.1534",
+            "Email": "bzamora@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/23a11f84-1496-4b89-ae7b-059188f77ac8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-29T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

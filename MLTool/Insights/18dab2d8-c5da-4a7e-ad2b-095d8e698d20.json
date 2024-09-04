@@ -1,0 +1,81 @@
+{
+    "ClaimID": "18dab2d8-c5da-4a7e-ad2b-095d8e698d20",
+    "PolicyID": "7452159b-4a44-492a-89c3-e337b60d60a0",
+    "EffectiveDates": {
+        "StartDate": "2023-09-18",
+        "EndDate": "2024-09-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c6bc9a8c-28ac-481b-9274-6bff16791b89",
+        "Name": "Peter Rose",
+        "PolicyNumber": "7452159b-4a44-492a-89c3-e337b60d60a0",
+        "ContactInformation": {
+            "Phone": "480.448.4008x7392",
+            "Email": "andrew00@example.com",
+            "Address": "839 Jose Mountain\nNorth Anthonyborough, MT 63364"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-16",
+        "Location": "5093 Valencia Islands\nMyersberg, ID 09094",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 93382
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 48189
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8916
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14229
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12841
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 177557,
+        "TotalApproved": 99299
+    },
+    "AdjusterDetails": {
+        "Name": "Lee Nunez",
+        "ContactInformation": {
+            "Phone": "001-923-883-2728x76354",
+            "Email": "lisamurray@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/763573b7-ef20-4ce8-bfd4-ec1bc8f39d88"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-16T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-21T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-26T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

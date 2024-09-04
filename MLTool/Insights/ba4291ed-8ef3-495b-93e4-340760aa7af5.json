@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ba4291ed-8ef3-495b-93e4-340760aa7af5",
+    "PolicyID": "8bcfb6e8-da96-4aef-8069-8eff8173f78a",
+    "EffectiveDates": {
+        "StartDate": "2024-04-12",
+        "EndDate": "2025-04-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f688049f-882b-400b-8088-0f0a119d128d",
+        "Name": "George Herman",
+        "PolicyNumber": "8bcfb6e8-da96-4aef-8069-8eff8173f78a",
+        "ContactInformation": {
+            "Phone": "430-390-0739",
+            "Email": "brownveronica@example.org",
+            "Address": "9380 Kaitlin Underpass\nKathrynchester, AL 62437"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-01",
+        "Location": "4510 Johnny Greens\nPort Erin, MT 08551",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 91935
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 31435
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5228
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20384
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12084
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 161066,
+        "TotalApproved": 131638
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Jackson",
+        "ContactInformation": {
+            "Phone": "(623)295-1496x9391",
+            "Email": "paulmitchell@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/58449046-1036-4d90-b9e7-d42cdde2f0e1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-01T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-06T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-11T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "03762b67-c751-42a7-bcfc-bb93a9622a96",
+    "PolicyID": "f6010dd9-3045-43a0-ac9a-52332ef480e0",
+    "EffectiveDates": {
+        "StartDate": "2023-11-03",
+        "EndDate": "2024-11-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "da71d0b9-5d11-42cb-8417-5b73b838aaa1",
+        "Name": "Stephanie Taylor",
+        "PolicyNumber": "f6010dd9-3045-43a0-ac9a-52332ef480e0",
+        "ContactInformation": {
+            "Phone": "001-985-370-5306x2769",
+            "Email": "kathleenryan@example.net",
+            "Address": "12759 Thomas Union Suite 578\nSusanburgh, OH 15790"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-17",
+        "Location": "Unit 6067 Box 8358\nDPO AA 77199",
+        "Description": "Recent evidence a everything western here. Ever crime ever condition. Happy hear rich treatment."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 62093
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49443
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4805
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 45561
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9809
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 109294,
+        "TotalApproved": 78258
+    },
+    "AdjusterDetails": {
+        "Name": "Kayla Benson",
+        "ContactInformation": {
+            "Phone": "922.436.5262",
+            "Email": "langstephanie@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/cd6418f8-f8dc-4097-b77c-5b162ef5a2c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-17T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-22T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-27T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

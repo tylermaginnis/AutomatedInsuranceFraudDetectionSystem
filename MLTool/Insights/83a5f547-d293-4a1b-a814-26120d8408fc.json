@@ -1,0 +1,81 @@
+{
+    "ClaimID": "83a5f547-d293-4a1b-a814-26120d8408fc",
+    "PolicyID": "4bb44afe-a2c8-4759-8de4-1c2755634212",
+    "EffectiveDates": {
+        "StartDate": "2024-01-13",
+        "EndDate": "2025-01-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "99554125-f87c-41a3-8e60-ab979c9adc77",
+        "Name": "Cheryl Larson",
+        "PolicyNumber": "4bb44afe-a2c8-4759-8de4-1c2755634212",
+        "ContactInformation": {
+            "Phone": "765-621-3760x913",
+            "Email": "ksims@example.com",
+            "Address": "13056 Davis Junctions\nStoneside, DE 39884"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-10",
+        "Location": "136 Barr Flat\nSmithborough, CO 09867",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 66202
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49111
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7006
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24154
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7565
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154038,
+        "TotalApproved": 88161
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Mayo",
+        "ContactInformation": {
+            "Phone": "001-678-252-6072",
+            "Email": "megangray@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/79b9ea5f-f63e-40fe-98fc-4a2c275946da"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-10T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-15T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-20T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

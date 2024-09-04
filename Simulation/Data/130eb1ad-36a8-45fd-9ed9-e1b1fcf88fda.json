@@ -1,0 +1,80 @@
+{
+  "ClaimID": "130eb1ad-36a8-45fd-9ed9-e1b1fcf88fda",
+  "PolicyID": "05742258-e406-45fb-93b1-a5ac0f5aa8f2",
+  "EffectiveDates": {
+    "StartDate": "2024-01-07",
+    "EndDate": "2025-01-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a4f83f6e-23b8-4945-aa8d-6fe558c1cc85",
+    "Name": "Julie Bennett",
+    "PolicyNumber": "05742258-e406-45fb-93b1-a5ac0f5aa8f2",
+    "ContactInformation": {
+      "Phone": "001-691-967-2599x67289",
+      "Email": "lawrencecarr@example.com",
+      "Address": "PSC 3706, Box 5812\nAPO AE 39168"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-27",
+    "Location": "514 Phillips Parkways\nBarneston, OH 04341",
+    "Description": "President college us teach. Like ground participant teach nation. Finish where agency course local ready.\nA exactly tell old start. Quality someone window wear city."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 38160
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 11328
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 22200
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 52150
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6378
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 71471,
+    "TotalApproved": 35110
+  },
+  "AdjusterDetails": {
+    "Name": "Morgan Rivera",
+    "ContactInformation": {
+      "Phone": "001-392-839-9945x83816",
+      "Email": "robin84@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/e6d63872-38ff-4a24-b1b8-ae8189d8460e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-27T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-01T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-06T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

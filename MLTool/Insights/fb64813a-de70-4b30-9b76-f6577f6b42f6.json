@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fb64813a-de70-4b30-9b76-f6577f6b42f6",
+    "PolicyID": "54e8b4d6-dbc1-44a9-ba0e-491c8f112a77",
+    "EffectiveDates": {
+        "StartDate": "2023-12-26",
+        "EndDate": "2024-12-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b486a36a-cf8c-401e-814a-625756185cad",
+        "Name": "Taylor Warren",
+        "PolicyNumber": "54e8b4d6-dbc1-44a9-ba0e-491c8f112a77",
+        "ContactInformation": {
+            "Phone": "722-876-3940x4297",
+            "Email": "gthompson@example.com",
+            "Address": "48727 Cook Mountains\nNorth Hannah, KY 37141"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-25",
+        "Location": "73046 Sharon Fords\nEast Brittney, DC 97064",
+        "Description": "Current more could three.\nLess avoid pattern home policy administration cell inside. Firm space development than sing business."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17707
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8584
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4315
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 191211
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41346
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 13045,
+        "TotalApproved": 8301
+    },
+    "AdjusterDetails": {
+        "Name": "Isaiah Barton",
+        "ContactInformation": {
+            "Phone": "402-553-6236x6991",
+            "Email": "lrodriguez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2be90f0e-55be-43ef-9286-12d325ee494e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-25T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-30T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-04T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "22efedb7-a42f-4788-ac54-d223fb18ef74",
+    "PolicyID": "261a1262-9b44-4168-a872-a8b672197387",
+    "EffectiveDates": {
+        "StartDate": "2024-06-05",
+        "EndDate": "2025-06-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "356bec22-e269-4f4e-9dd4-665ce53216c9",
+        "Name": "Matthew Anderson",
+        "PolicyNumber": "261a1262-9b44-4168-a872-a8b672197387",
+        "ContactInformation": {
+            "Phone": "9579791314",
+            "Email": "harrismorgan@example.com",
+            "Address": "Unit 6685 Box 2333\nDPO AE 35757"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-15",
+        "Location": "698 Harrington Light\nStevenfort, MS 94621",
+        "Description": "Nice level guess lead air. Sure early show idea them conference.\nThem often voice magazine suddenly actually seek among. A account method manage hospital rather game scene."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60961
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 78237
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1352
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3424
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13701
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 17151,
+        "TotalApproved": 1046
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Schultz",
+        "ContactInformation": {
+            "Phone": "+1-732-978-3877",
+            "Email": "jennifer45@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3e77d8d3-ec46-4c83-b903-8767a62145f6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

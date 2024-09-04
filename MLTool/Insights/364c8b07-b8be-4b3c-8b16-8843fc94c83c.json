@@ -1,0 +1,81 @@
+{
+    "ClaimID": "364c8b07-b8be-4b3c-8b16-8843fc94c83c",
+    "PolicyID": "c5fc49b3-caaf-41f4-8afd-a70f5ac98bbf",
+    "EffectiveDates": {
+        "StartDate": "2024-01-26",
+        "EndDate": "2025-01-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a8166791-4ac0-4e73-8f15-8a858f79b1a7",
+        "Name": "Mrs. Cindy Miller",
+        "PolicyNumber": "c5fc49b3-caaf-41f4-8afd-a70f5ac98bbf",
+        "ContactInformation": {
+            "Phone": "(318)838-3843x0956",
+            "Email": "dbishop@example.net",
+            "Address": "Unit 4784 Box 5724\nDPO AE 35629"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-09",
+        "Location": "9875 Farley Canyon Apt. 466\nStephaniefort, AL 66601",
+        "Description": "Various western sound short.\nSite physical center production quickly question green first. His leg will special movie source three structure. Technology main evening good. Cold art paper."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3655
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20930
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 139508
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5829
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9274
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 105043,
+        "TotalApproved": 68928
+    },
+    "AdjusterDetails": {
+        "Name": "Erica Lee",
+        "ContactInformation": {
+            "Phone": "715-681-3215",
+            "Email": "hlara@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/13d68817-9d75-42b6-b943-3345f59f6142"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

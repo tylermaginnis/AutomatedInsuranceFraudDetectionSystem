@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b38cf53c-cb7e-46fc-bfd3-6585316637cf",
+    "PolicyID": "12939038-2cb4-4f4c-97f0-e9af51804df1",
+    "EffectiveDates": {
+        "StartDate": "2024-08-16",
+        "EndDate": "2025-08-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6384f273-3305-4f51-9946-947494283c0e",
+        "Name": "Michael Williams",
+        "PolicyNumber": "12939038-2cb4-4f4c-97f0-e9af51804df1",
+        "ContactInformation": {
+            "Phone": "418.735.7126x0340",
+            "Email": "johnsonbrett@example.net",
+            "Address": "71561 Ray Glens Suite 987\nNorth Miguel, CO 46935"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-16",
+        "Location": "4258 Harrison Groves\nNew Nicole, AK 38414",
+        "Description": "Low thing choice pressure western. Economic big development remain pattern board grow. Center well bed thought task."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 96698
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 163582
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 51126
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1165
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 186997
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 130662,
+        "TotalApproved": 58232
+    },
+    "AdjusterDetails": {
+        "Name": "Paula Schmidt",
+        "ContactInformation": {
+            "Phone": "+1-311-748-8011x688",
+            "Email": "tsutton@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8df2bd84-980d-45c8-90ae-bc3be1590a6a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

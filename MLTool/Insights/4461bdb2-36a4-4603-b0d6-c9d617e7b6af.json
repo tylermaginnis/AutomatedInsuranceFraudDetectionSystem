@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4461bdb2-36a4-4603-b0d6-c9d617e7b6af",
+    "PolicyID": "2559ab90-e17c-4840-ab83-f82a8b241c8a",
+    "EffectiveDates": {
+        "StartDate": "2023-09-07",
+        "EndDate": "2024-09-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8f811430-cbde-47d3-af84-7593dcfac61e",
+        "Name": "Thomas Kirby",
+        "PolicyNumber": "2559ab90-e17c-4840-ab83-f82a8b241c8a",
+        "ContactInformation": {
+            "Phone": "(792)254-0759",
+            "Email": "hooperjoseph@example.net",
+            "Address": "452 Patrick Station Apt. 806\nSouth Christopher, NV 39677"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-14",
+        "Location": "508 Sean Row Suite 230\nSouth Emma, VI 17600",
+        "Description": "Law church medical themselves. Sing than stand resource. Early always stock too.\nRed building sport painting. Answer political start heavy talk bank. Public five rock material."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26403
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10187
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9279
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26148
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6225
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 85466,
+        "TotalApproved": 43866
+    },
+    "AdjusterDetails": {
+        "Name": "David Padilla",
+        "ContactInformation": {
+            "Phone": "899-628-7507x2959",
+            "Email": "aaron29@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/36cfe01f-d196-4c2a-8188-917ee95a837c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-14T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-19T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-24T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

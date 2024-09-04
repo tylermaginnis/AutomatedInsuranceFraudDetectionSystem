@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9f79f1b0-002a-41c4-ab84-9f118412f803",
+    "PolicyID": "0d04751b-d18a-4439-af1d-29bbb26c0ac4",
+    "EffectiveDates": {
+        "StartDate": "2024-02-05",
+        "EndDate": "2025-02-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef310790-2ebf-4cc3-8d4e-d42833e86001",
+        "Name": "Sara Chapman",
+        "PolicyNumber": "0d04751b-d18a-4439-af1d-29bbb26c0ac4",
+        "ContactInformation": {
+            "Phone": "001-320-638-0973",
+            "Email": "qford@example.net",
+            "Address": "08940 Kennedy Orchard Apt. 612\nStephanieport, FL 51821"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-26",
+        "Location": "377 Daniel Circles\nBryanland, PA 03983",
+        "Description": "Create new line election. Many condition shoulder describe total hundred. Television ever story happen capital general truth."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 53686
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15661
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14827
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12627
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2591
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 31352,
+        "TotalApproved": 5693
+    },
+    "AdjusterDetails": {
+        "Name": "Kim Ford",
+        "ContactInformation": {
+            "Phone": "778-244-9094",
+            "Email": "ivelez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c57f870e-e13b-4d98-a83d-43263606afd3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-01T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-06T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

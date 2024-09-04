@@ -1,0 +1,80 @@
+{
+  "ClaimID": "91479eb3-66ec-40a2-a61a-08664abb42ba",
+  "PolicyID": "d6a40958-1416-4ce5-a42c-8a333a2773e3",
+  "EffectiveDates": {
+    "StartDate": "2024-09-01",
+    "EndDate": "2025-09-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "90a595bf-71c4-48fb-8f10-91c05c396e83",
+    "Name": "Amy Harris",
+    "PolicyNumber": "d6a40958-1416-4ce5-a42c-8a333a2773e3",
+    "ContactInformation": {
+      "Phone": "759.353.5358x48273",
+      "Email": "ortegatodd@example.org",
+      "Address": "485 Mercer Groves Apt. 660\nBrownfort, NY 94632"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-18",
+    "Location": "0703 Tyler Shoal\nNorth Kerribury, PA 86268",
+    "Description": "White course talk even back as. Pressure evening tell anyone they yeah.\nShare music north so on assume suffer. Who risk road beat probably his research."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8084
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3062
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 96106
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 29280
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 15912
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 111288,
+    "TotalApproved": 22166
+  },
+  "AdjusterDetails": {
+    "Name": "Brett Mcdonald",
+    "ContactInformation": {
+      "Phone": "2657958782",
+      "Email": "isloan@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/540194aa-631e-4db7-8cd2-2757b788d51d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-18T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-23T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-28T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

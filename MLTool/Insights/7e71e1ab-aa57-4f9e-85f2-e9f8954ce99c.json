@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7e71e1ab-aa57-4f9e-85f2-e9f8954ce99c",
+    "PolicyID": "1337e824-617c-4fda-a43f-9d31db57734c",
+    "EffectiveDates": {
+        "StartDate": "2024-08-30",
+        "EndDate": "2025-08-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d015e258-01aa-448a-b127-bd46fcf5c28e",
+        "Name": "Mark Carter",
+        "PolicyNumber": "1337e824-617c-4fda-a43f-9d31db57734c",
+        "ContactInformation": {
+            "Phone": "001-328-941-1488x619",
+            "Email": "ellisdylan@example.net",
+            "Address": "886 Cobb Gardens Suite 248\nWest Codyton, NJ 36960"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-16",
+        "Location": "2423 Sharp Circles\nLake Kristen, CO 15604",
+        "Description": "Front morning part set. Meet later majority loss. Book page listen threat natural far else."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 97586
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 74319
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33787
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12526
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44068
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 114049,
+        "TotalApproved": 100713
+    },
+    "AdjusterDetails": {
+        "Name": "Antonio Zimmerman",
+        "ContactInformation": {
+            "Phone": "366-429-1265x1644",
+            "Email": "davidjordan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a13c90d5-8038-4c3f-ac6b-26a50fb5b2be"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

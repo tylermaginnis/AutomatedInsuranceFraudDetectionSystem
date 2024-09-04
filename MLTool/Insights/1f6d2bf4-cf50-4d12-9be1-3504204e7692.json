@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1f6d2bf4-cf50-4d12-9be1-3504204e7692",
+    "PolicyID": "05c838a0-1c09-4209-944c-2457a8a6961e",
+    "EffectiveDates": {
+        "StartDate": "2024-04-08",
+        "EndDate": "2025-04-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "52f562a0-055e-464d-8f07-cda0f7f852c1",
+        "Name": "Melanie Good",
+        "PolicyNumber": "05c838a0-1c09-4209-944c-2457a8a6961e",
+        "ContactInformation": {
+            "Phone": "001-585-201-2043x8096",
+            "Email": "johnsondeborah@example.net",
+            "Address": "1406 Holland Pine Apt. 226\nGregfort, GA 66025"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-02",
+        "Location": "91846 Eric Mountains\nLake Patricia, IN 47377",
+        "Description": "Bad table medical garden person major fill. What himself popular off we reduce friend. Memory run describe every."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5105
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 53253
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18162
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37461
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8942
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 137929,
+        "TotalApproved": 113733
+    },
+    "AdjusterDetails": {
+        "Name": "John Gray",
+        "ContactInformation": {
+            "Phone": "(326)384-5805",
+            "Email": "jeffreyalexander@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/673831b1-b68c-425c-8b9a-e994c471c4ea"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-02T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-07T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-12T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

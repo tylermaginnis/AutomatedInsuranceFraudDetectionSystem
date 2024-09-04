@@ -1,0 +1,81 @@
+{
+    "ClaimID": "288d82c1-6f09-43d8-87f4-dd61f1ced74b",
+    "PolicyID": "782f1ae8-d95b-471d-8bb1-eec58ca58092",
+    "EffectiveDates": {
+        "StartDate": "2024-02-01",
+        "EndDate": "2025-01-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6f5f1613-6e3d-4733-a9c0-fa61e82c2249",
+        "Name": "James Murray",
+        "PolicyNumber": "782f1ae8-d95b-471d-8bb1-eec58ca58092",
+        "ContactInformation": {
+            "Phone": "(913)209-3355",
+            "Email": "davidschmidt@example.com",
+            "Address": "97257 Julie Forge\nLake Sarah, FM 01196"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-12",
+        "Location": "42178 Brittany Ville Apt. 558\nSouth Ashleybury, DC 18519",
+        "Description": "They teach enough good bring tell common. Establish yard effort manage certainly college. Network young adult public possible town talk. Ever front key find fear others establish."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15138
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3429
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5651
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18954
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7378
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 156663,
+        "TotalApproved": 147743
+    },
+    "AdjusterDetails": {
+        "Name": "Vincent Leon",
+        "ContactInformation": {
+            "Phone": "+1-353-955-9073x12003",
+            "Email": "kyle50@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fabfa69f-89ab-4aae-a877-82997b66c39b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-12T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-17T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-22T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

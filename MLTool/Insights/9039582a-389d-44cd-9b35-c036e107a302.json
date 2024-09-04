@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9039582a-389d-44cd-9b35-c036e107a302",
+    "PolicyID": "4f4c69c9-f081-40b4-8a04-5e1d4d311e5d",
+    "EffectiveDates": {
+        "StartDate": "2024-03-31",
+        "EndDate": "2025-03-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ea57d2df-96ab-4489-848e-58b4ed873a86",
+        "Name": "Amanda Martin",
+        "PolicyNumber": "4f4c69c9-f081-40b4-8a04-5e1d4d311e5d",
+        "ContactInformation": {
+            "Phone": "(394)613-1338",
+            "Email": "travis67@example.net",
+            "Address": "8153 Johnson Common\nPort Jessica, OR 32490"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-04",
+        "Location": "5098 Wood Circle\nDanaberg, MI 26737",
+        "Description": "Weight view never successful chair suffer page learn. Billion process million how leave out."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32549
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 93893
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 192886
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 66819
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3128
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 145508,
+        "TotalApproved": 5486
+    },
+    "AdjusterDetails": {
+        "Name": "Troy Mcdaniel",
+        "ContactInformation": {
+            "Phone": "001-599-987-0452x500",
+            "Email": "paigereynolds@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/159971ed-750c-44ce-8a29-ed18b802b408"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-04T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-09T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-14T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

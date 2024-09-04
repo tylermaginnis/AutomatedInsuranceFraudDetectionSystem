@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1eacad66-3b8f-4d11-b94a-611cffae00a4",
+    "PolicyID": "bb78ee24-fb1a-483b-ac1f-6f8691ccca70",
+    "EffectiveDates": {
+        "StartDate": "2023-09-06",
+        "EndDate": "2024-09-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "35dafdbc-b837-421d-a496-47b78b4f4c4d",
+        "Name": "Carol Cordova",
+        "PolicyNumber": "bb78ee24-fb1a-483b-ac1f-6f8691ccca70",
+        "ContactInformation": {
+            "Phone": "457-592-1547x889",
+            "Email": "edwin94@example.net",
+            "Address": "14037 Luke Creek Suite 130\nNorth Joelberg, NM 71402"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-27",
+        "Location": "4726 Tracy Hill\nMcintoshshire, NY 16149",
+        "Description": "Attack believe road meeting discover. Traditional sister laugh they among. Break field hotel commercial seat agreement age. Radio he rate thousand above play."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14824
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 58058
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15323
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3705
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47938
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 120228,
+        "TotalApproved": 37069
+    },
+    "AdjusterDetails": {
+        "Name": "Maria Massey",
+        "ContactInformation": {
+            "Phone": "622-453-4761x9046",
+            "Email": "rogerstimothy@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a2f8b6be-ec2a-4a7f-9390-09626aa6a59b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

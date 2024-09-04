@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d88f2169-6404-485c-9cff-5840b0d82ad8",
+    "PolicyID": "2d76fcd1-2414-4fd0-8f69-a8df77abf17f",
+    "EffectiveDates": {
+        "StartDate": "2024-08-18",
+        "EndDate": "2025-08-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a17bac08-fa71-4678-8978-a523f9d11798",
+        "Name": "Kevin Perry",
+        "PolicyNumber": "2d76fcd1-2414-4fd0-8f69-a8df77abf17f",
+        "ContactInformation": {
+            "Phone": "001-260-899-6050x842",
+            "Email": "fernandezrachel@example.net",
+            "Address": "4076 Schroeder Road\nZacharyside, IN 13421"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-20",
+        "Location": "65245 Larsen Extensions Suite 894\nMarissaside, CA 35142",
+        "Description": "Perform itself direction body perhaps side eye. Imagine improve ask ground forget. Quickly number road recent I environmental reveal shake."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4745
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1066
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 78925
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5898
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24832
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 143823,
+        "TotalApproved": 134509
+    },
+    "AdjusterDetails": {
+        "Name": "Patricia Torres",
+        "ContactInformation": {
+            "Phone": "001-893-756-5428x9452",
+            "Email": "suttonjustin@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3d22b25a-b0b8-4e41-a641-55167d3daee5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-20T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-25T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-30T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

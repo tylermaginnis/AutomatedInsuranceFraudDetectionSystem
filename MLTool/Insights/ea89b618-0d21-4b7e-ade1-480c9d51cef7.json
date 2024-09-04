@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ea89b618-0d21-4b7e-ade1-480c9d51cef7",
+    "PolicyID": "1974d75e-b5e4-412a-a417-0efaaee44e33",
+    "EffectiveDates": {
+        "StartDate": "2024-01-13",
+        "EndDate": "2025-01-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fea5184d-f1b1-48de-a376-871267886198",
+        "Name": "Steven Brown",
+        "PolicyNumber": "1974d75e-b5e4-412a-a417-0efaaee44e33",
+        "ContactInformation": {
+            "Phone": "221-952-7740",
+            "Email": "brownkyle@example.com",
+            "Address": "772 Ashley Orchard Apt. 648\nJohnsonview, VI 15974"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-26",
+        "Location": "22504 Smith Heights Suite 885\nCummingsville, IA 63985",
+        "Description": "Any they case evening response treatment suffer. Another project part best box quite happy. Situation hold young particular Mrs."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43048
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19678
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36104
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35939
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4831
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 64063,
+        "TotalApproved": 61252
+    },
+    "AdjusterDetails": {
+        "Name": "Natalie Gonzalez",
+        "ContactInformation": {
+            "Phone": "+1-480-400-3468",
+            "Email": "christophertownsend@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5caa0ba8-635f-442c-8256-1cbc33cbf5f6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-26T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-02T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-07T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

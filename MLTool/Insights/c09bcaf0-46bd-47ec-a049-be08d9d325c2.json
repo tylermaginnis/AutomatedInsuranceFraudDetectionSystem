@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c09bcaf0-46bd-47ec-a049-be08d9d325c2",
+    "PolicyID": "9852e66c-6796-4286-a7c1-f5b25019040c",
+    "EffectiveDates": {
+        "StartDate": "2024-03-31",
+        "EndDate": "2025-03-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f75bd4b5-4f8a-4001-aa5e-780f9c6fbcdd",
+        "Name": "Angela Martin",
+        "PolicyNumber": "9852e66c-6796-4286-a7c1-f5b25019040c",
+        "ContactInformation": {
+            "Phone": "388-579-4624x00628",
+            "Email": "rmercado@example.org",
+            "Address": "78374 Brandon Parkways Apt. 747\nWest William, MT 05499"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-22",
+        "Location": "42918 Charles Trail Apt. 758\nSouth Corey, MP 11370",
+        "Description": "Something democratic eight especially interview. Son possible future company month."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5402
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13203
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 43727
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13506
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 25959
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 60338,
+        "TotalApproved": 16318
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Mclaughlin",
+        "ContactInformation": {
+            "Phone": "001-286-283-2241",
+            "Email": "tonyadavis@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2b6f698e-0317-48e2-a739-5e841ede9f2c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-22T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-27T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

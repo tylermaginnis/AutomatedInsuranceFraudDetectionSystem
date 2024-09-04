@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b3ab98e9-25f7-4c74-8ccf-e602ad91af52",
+    "PolicyID": "6f24feda-4ddb-41ef-8ed1-5fca656b29d8",
+    "EffectiveDates": {
+        "StartDate": "2023-12-29",
+        "EndDate": "2024-12-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "46005cbf-6890-4afd-82b8-7fd313c241a8",
+        "Name": "Melissa Santos",
+        "PolicyNumber": "6f24feda-4ddb-41ef-8ed1-5fca656b29d8",
+        "ContactInformation": {
+            "Phone": "2625246100",
+            "Email": "dparsons@example.net",
+            "Address": "30241 Gabriella Union\nStaceyhaven, CO 22072"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-26",
+        "Location": "89151 Young Drive\nTamiport, PR 66794",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 53801
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31410
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7414
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15065
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15810
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 123500,
+        "TotalApproved": 41820
+    },
+    "AdjusterDetails": {
+        "Name": "Deborah Mitchell",
+        "ContactInformation": {
+            "Phone": "816-971-1196x71282",
+            "Email": "chumphrey@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/65a51477-57c7-4abe-91f5-7875dbc8aed3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-26T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-01T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-06T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

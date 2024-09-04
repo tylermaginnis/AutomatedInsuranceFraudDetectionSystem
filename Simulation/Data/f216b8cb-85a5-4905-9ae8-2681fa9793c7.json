@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f216b8cb-85a5-4905-9ae8-2681fa9793c7",
+  "PolicyID": "bc9ae5ca-40c7-4428-a6ca-cd13cd9b8699",
+  "EffectiveDates": {
+    "StartDate": "2024-05-19",
+    "EndDate": "2025-05-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "06d0e0c6-ecc4-43b3-ad18-2cda7ed0a50d",
+    "Name": "Denise Hansen",
+    "PolicyNumber": "bc9ae5ca-40c7-4428-a6ca-cd13cd9b8699",
+    "ContactInformation": {
+      "Phone": "965-290-4193",
+      "Email": "dmorgan@example.com",
+      "Address": "75883 Kimberly Islands Suite 839\nAcostaborough, MO 64388"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-25",
+    "Location": "4246 Garza Locks Suite 353\nPort Kennethchester, CO 63744",
+    "Description": "Tv five them whom. Series point technology improve chance paper while.\nResponse campaign require science street statement significant. Bank Democrat back along."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 130504
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 18976
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 74913
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1040
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3876
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 58976,
+    "TotalApproved": 36878
+  },
+  "AdjusterDetails": {
+    "Name": "Jared Jones",
+    "ContactInformation": {
+      "Phone": "3837363328",
+      "Email": "brownkristen@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/0519dd19-c4e7-4780-86f6-64b798672946"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-25T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-30T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-05T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

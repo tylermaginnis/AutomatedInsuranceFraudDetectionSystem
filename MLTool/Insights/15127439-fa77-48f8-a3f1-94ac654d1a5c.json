@@ -1,0 +1,81 @@
+{
+    "ClaimID": "15127439-fa77-48f8-a3f1-94ac654d1a5c",
+    "PolicyID": "b1aca1e8-3991-4875-a4bd-0cac7d433992",
+    "EffectiveDates": {
+        "StartDate": "2024-09-02",
+        "EndDate": "2025-09-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1ab2a7ba-94e9-45b0-a58f-2a3547a6c4ca",
+        "Name": "Linda Patel",
+        "PolicyNumber": "b1aca1e8-3991-4875-a4bd-0cac7d433992",
+        "ContactInformation": {
+            "Phone": "819-646-9368x03170",
+            "Email": "lindsey13@example.org",
+            "Address": "Unit 1976 Box 8166\nDPO AA 30871"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-23",
+        "Location": "06813 Erica Roads\nEast Andreamouth, MP 61305",
+        "Description": "Break during light total. Around north staff quality drop exist child. Night chair service thousand way act someone go."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4375
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13090
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3312
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15140
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13582
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 178002,
+        "TotalApproved": 35323
+    },
+    "AdjusterDetails": {
+        "Name": "Edward Simmons",
+        "ContactInformation": {
+            "Phone": "(570)643-0007x7455",
+            "Email": "pacesara@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2a9a7ac3-2291-4b2d-8277-c7578c629b2a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-02T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

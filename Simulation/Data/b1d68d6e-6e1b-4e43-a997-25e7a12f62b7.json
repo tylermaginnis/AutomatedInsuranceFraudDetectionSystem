@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b1d68d6e-6e1b-4e43-a997-25e7a12f62b7",
+  "PolicyID": "e2ab9211-1a05-45be-9a97-f73fd66aaad2",
+  "EffectiveDates": {
+    "StartDate": "2024-05-24",
+    "EndDate": "2025-05-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b9c74a05-296d-4640-8fa6-abcbeede5431",
+    "Name": "Melissa Ware",
+    "PolicyNumber": "e2ab9211-1a05-45be-9a97-f73fd66aaad2",
+    "ContactInformation": {
+      "Phone": "001-784-743-5205",
+      "Email": "adriennewatson@example.com",
+      "Address": "250 Lauren Plaza\nJohnstad, MA 45267"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-30",
+    "Location": "1727 Brendan Walks Suite 268\nEast Cynthiatown, HI 54542",
+    "Description": "Risk ability seek movie matter safe family. Add while poor improve current hand tax."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5633
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 66636
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 27151
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 91032
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 108081
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 161666,
+    "TotalApproved": 18408
+  },
+  "AdjusterDetails": {
+    "Name": "Tyler Smith",
+    "ContactInformation": {
+      "Phone": "+1-978-208-5029x0808",
+      "Email": "haneymichael@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/c50255c4-de56-453d-86c8-41a22998b908"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-30T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-04T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-09T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

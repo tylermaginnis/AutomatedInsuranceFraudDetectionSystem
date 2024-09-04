@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d9fe5c0b-8154-4aee-b97f-6fc41374e905",
+    "PolicyID": "ba1be0aa-b733-4402-9ded-46764c87c1c2",
+    "EffectiveDates": {
+        "StartDate": "2024-03-19",
+        "EndDate": "2025-03-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e85cfaed-1031-4248-8c86-7c2558d81d9b",
+        "Name": "Jon Thompson",
+        "PolicyNumber": "ba1be0aa-b733-4402-9ded-46764c87c1c2",
+        "ContactInformation": {
+            "Phone": "(605)885-9467x271",
+            "Email": "mark21@example.net",
+            "Address": "75129 Veronica Via Apt. 790\nWest Williamside, SD 17829"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-02",
+        "Location": "996 Chase Lane Suite 093\nGloriaton, FL 10216",
+        "Description": "Up language material everybody win. Down make animal possible before service always. Reveal decide buy affect improve."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43798
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7333
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 154710
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7839
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 98384
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 111492,
+        "TotalApproved": 13160
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Bryan",
+        "ContactInformation": {
+            "Phone": "(303)377-6795x1624",
+            "Email": "pinedaeric@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c6a49a4d-850f-4eaf-939e-f32bd02e2d9b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-02T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-07T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-12T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

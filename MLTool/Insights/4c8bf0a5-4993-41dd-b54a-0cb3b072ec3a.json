@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4c8bf0a5-4993-41dd-b54a-0cb3b072ec3a",
+    "PolicyID": "037d6c9d-c5a1-4e05-8788-6a340a186cc2",
+    "EffectiveDates": {
+        "StartDate": "2023-10-31",
+        "EndDate": "2024-10-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3181d755-6075-40d5-bcdb-f88c7b3afa37",
+        "Name": "Brooke Obrien",
+        "PolicyNumber": "037d6c9d-c5a1-4e05-8788-6a340a186cc2",
+        "ContactInformation": {
+            "Phone": "+1-372-284-3381x7281",
+            "Email": "sarah52@example.com",
+            "Address": "2519 Mario Creek\nNew Jermaine, MT 26664"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-12",
+        "Location": "633 Guzman Groves Suite 270\nOchoabury, SD 84343",
+        "Description": "Free feeling section indicate raise top interest huge. Chair same road serious whatever."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27802
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21768
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11082
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4979
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 127141
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 167019,
+        "TotalApproved": 23983
+    },
+    "AdjusterDetails": {
+        "Name": "Maria Freeman",
+        "ContactInformation": {
+            "Phone": "001-642-288-6646x1372",
+            "Email": "bmcmillan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/cf4c5a03-c316-47d6-a4fd-d79e5ec3ca05"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-12T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-17T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-22T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

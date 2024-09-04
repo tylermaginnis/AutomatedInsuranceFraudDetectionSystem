@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bff09bb5-afe3-49aa-a097-44024f1f126a",
+    "PolicyID": "c1bd90b5-7408-48cf-826c-6e6a73c9cea5",
+    "EffectiveDates": {
+        "StartDate": "2023-09-07",
+        "EndDate": "2024-09-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6828bb98-18bd-4043-801e-98ce60ce174d",
+        "Name": "Laura Robinson",
+        "PolicyNumber": "c1bd90b5-7408-48cf-826c-6e6a73c9cea5",
+        "ContactInformation": {
+            "Phone": "8259154396",
+            "Email": "howardlisa@example.com",
+            "Address": "92947 James Valleys\nNorth Benjaminfurt, RI 40616"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-31",
+        "Location": "1186 Fletcher Forks\nAshleyport, FM 42933",
+        "Description": "Field standard watch person. Show national speak else bill me lose. Ago system space together. Evening material decision study early."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 50082
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3032
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5708
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15032
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 66090
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 31026,
+        "TotalApproved": 16221
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Jones",
+        "ContactInformation": {
+            "Phone": "001-763-373-5202x263",
+            "Email": "molly19@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/40730f36-3920-4a5e-88c5-8053e908e96d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-31T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-05T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-10T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

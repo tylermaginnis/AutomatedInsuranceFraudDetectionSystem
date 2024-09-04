@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ba1ab128-86d8-4449-a97a-1d6f5cd6cc92",
+  "PolicyID": "07d3c67d-51e5-426d-9cad-9353e1d22a48",
+  "EffectiveDates": {
+    "StartDate": "2023-11-11",
+    "EndDate": "2024-11-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "caf94241-b612-4885-9394-3d8257407185",
+    "Name": "Lori Keller",
+    "PolicyNumber": "07d3c67d-51e5-426d-9cad-9353e1d22a48",
+    "ContactInformation": {
+      "Phone": "252.317.5197",
+      "Email": "nicolejimenez@example.net",
+      "Address": "Unit 9690 Box 9566\nDPO AP 58844"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-27",
+    "Location": "042 Rebekah Branch\nLake Davidbury, GA 86240",
+    "Description": "Camera instead walk decide small our. All themselves walk play particularly look. Audience might most charge two.\nA game wish rule color likely. Own deep church actually grow eat."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 81856
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 51474
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 199035
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 57634
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4279
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 178167,
+    "TotalApproved": 55301
+  },
+  "AdjusterDetails": {
+    "Name": "Gabrielle Jackson",
+    "ContactInformation": {
+      "Phone": "001-981-265-8213",
+      "Email": "ojackson@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/00ac72fa-a438-4430-82b4-486394b49ebf"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-27T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-02T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-07T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

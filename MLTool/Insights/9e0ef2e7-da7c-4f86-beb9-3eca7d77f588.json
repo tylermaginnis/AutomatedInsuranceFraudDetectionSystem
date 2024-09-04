@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9e0ef2e7-da7c-4f86-beb9-3eca7d77f588",
+    "PolicyID": "0bd81212-4af4-4837-8c7f-a5f5922ec09f",
+    "EffectiveDates": {
+        "StartDate": "2024-08-21",
+        "EndDate": "2025-08-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "698f82af-5885-4c5d-8a52-f088b2234b24",
+        "Name": "Nancy Garcia",
+        "PolicyNumber": "0bd81212-4af4-4837-8c7f-a5f5922ec09f",
+        "ContactInformation": {
+            "Phone": "+1-892-375-1209",
+            "Email": "richard35@example.org",
+            "Address": "6601 Hernandez Rapids\nTinatown, VT 37304"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-25",
+        "Location": "356 Jones Mews Suite 722\nMichaelchester, VT 13749",
+        "Description": "Manage page maybe daughter fly middle. Talk across keep seem guess. Paper budget drug education enjoy. Especially near wrong however perhaps past.\nPut fact class thousand."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4248
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5766
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 88267
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 75069
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47613
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 185688,
+        "TotalApproved": 42018
+    },
+    "AdjusterDetails": {
+        "Name": "Zachary Vargas",
+        "ContactInformation": {
+            "Phone": "001-274-464-6991x30421",
+            "Email": "stuartandrea@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3608a601-7106-4025-9fe6-05b7c3a4d7d6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-30T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

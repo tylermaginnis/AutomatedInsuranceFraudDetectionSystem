@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9a13928b-1682-4bbe-838b-4e0bdad7ea78",
+    "PolicyID": "251edab9-4e69-4ddb-8380-4d97722990b8",
+    "EffectiveDates": {
+        "StartDate": "2024-04-16",
+        "EndDate": "2025-04-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ab210c8b-e741-4d6b-ac9d-3bf3554cd923",
+        "Name": "Joseph Ross MD",
+        "PolicyNumber": "251edab9-4e69-4ddb-8380-4d97722990b8",
+        "ContactInformation": {
+            "Phone": "225-290-4698x40100",
+            "Email": "luis62@example.net",
+            "Address": "728 Stephanie Street Suite 777\nPort Kylestad, OK 34356"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-06",
+        "Location": "80716 Alvarado Radial\nWallerland, PA 65210",
+        "Description": "Activity total eight speak return. Character by government. Staff memory others letter us for exactly.\nForm view especially write message dog these. Quite own likely action."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7811
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 63246
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 75023
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2202
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2130
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 47861,
+        "TotalApproved": 34949
+    },
+    "AdjusterDetails": {
+        "Name": "Linda Bennett",
+        "ContactInformation": {
+            "Phone": "(485)523-1341",
+            "Email": "taylorjacob@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/85c6c549-028c-4e4e-af3a-505515354b0e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

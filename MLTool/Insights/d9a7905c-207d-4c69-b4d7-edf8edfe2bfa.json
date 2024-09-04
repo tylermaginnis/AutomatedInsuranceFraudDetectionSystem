@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d9a7905c-207d-4c69-b4d7-edf8edfe2bfa",
+    "PolicyID": "45fd0e52-1723-401a-81c6-47f27862fb29",
+    "EffectiveDates": {
+        "StartDate": "2023-09-07",
+        "EndDate": "2024-09-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "89009c91-1336-4ab4-98ae-c41758b15043",
+        "Name": "Michael Campbell",
+        "PolicyNumber": "45fd0e52-1723-401a-81c6-47f27862fb29",
+        "ContactInformation": {
+            "Phone": "478.827.8421",
+            "Email": "davisrussell@example.net",
+            "Address": "6733 Huang Run Suite 556\nNorth Angelaland, IA 87776"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-16",
+        "Location": "385 Pamela Curve\nChristineburgh, AK 13091",
+        "Description": "Table Congress significant pull late out easy. Coach suggest enter participant nature. Prepare go himself case who level. Enough detail such feeling."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9868
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35258
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5389
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 99119
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5212
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 160158,
+        "TotalApproved": 159445
+    },
+    "AdjusterDetails": {
+        "Name": "Kathryn Harvey",
+        "ContactInformation": {
+            "Phone": "+1-961-993-5168x1234",
+            "Email": "gjordan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/58bec9f9-e790-4465-96b9-ed81d9d7c3ab"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-16T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-21T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-26T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

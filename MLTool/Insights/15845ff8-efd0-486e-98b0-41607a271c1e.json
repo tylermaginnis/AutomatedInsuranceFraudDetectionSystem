@@ -1,0 +1,81 @@
+{
+    "ClaimID": "15845ff8-efd0-486e-98b0-41607a271c1e",
+    "PolicyID": "c2cfb384-36e1-4dbc-8ca3-db124c71e4d4",
+    "EffectiveDates": {
+        "StartDate": "2024-05-25",
+        "EndDate": "2025-05-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "654410cf-91c8-435c-b9ef-61d674844b49",
+        "Name": "Laura Knapp",
+        "PolicyNumber": "c2cfb384-36e1-4dbc-8ca3-db124c71e4d4",
+        "ContactInformation": {
+            "Phone": "001-774-568-2105x358",
+            "Email": "byrdsean@example.com",
+            "Address": "56395 Jennifer Valleys\nWest Brian, NV 15579"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-07",
+        "Location": "7485 Ryan Walks\nWest Lisa, MH 01110",
+        "Description": "Of receive help note. As successful series training show management. Guess area history policy head people allow."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6045
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38925
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 61899
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13083
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2744
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 5678,
+        "TotalApproved": 4071
+    },
+    "AdjusterDetails": {
+        "Name": "Heather Smith",
+        "ContactInformation": {
+            "Phone": "939-875-5796x5421",
+            "Email": "mgray@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8b3b3a17-f0e9-4bcf-80e7-1d11301470f9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

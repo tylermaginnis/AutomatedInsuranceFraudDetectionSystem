@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8e288b0b-8446-422d-8e0f-2df808bc0035",
+  "PolicyID": "1e0ef109-8c19-450f-83de-af122699b17e",
+  "EffectiveDates": {
+    "StartDate": "2023-10-19",
+    "EndDate": "2024-10-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ba41e290-2c40-4744-92cb-d94a81df59b9",
+    "Name": "Jerry Wright",
+    "PolicyNumber": "1e0ef109-8c19-450f-83de-af122699b17e",
+    "ContactInformation": {
+      "Phone": "+1-380-648-7760",
+      "Email": "zjohnson@example.net",
+      "Address": "14179 Allen Village\nJasontown, PR 14804"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-12",
+    "Location": "5292 Daniel Throughway Apt. 199\nHenryton, MT 70587",
+    "Description": "Role television quite Congress wrong through carry. Above somebody whole within sense together father. Industry safe learn plan interesting. Maintain ball also lead whole you."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 28731
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 20721
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1019
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 4748
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5063
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 126452,
+    "TotalApproved": 41344
+  },
+  "AdjusterDetails": {
+    "Name": "Mark Ramsey",
+    "ContactInformation": {
+      "Phone": "4937978477",
+      "Email": "jeremywise@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/474032a2-5705-46d6-a4af-71d31e6cf082"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-12T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-17T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-22T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

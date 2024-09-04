@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e7aedf4a-ec03-4d9e-97f6-b57dc3c22e49",
+    "PolicyID": "00764bec-72d1-4719-b4c6-95a2992c2fd7",
+    "EffectiveDates": {
+        "StartDate": "2024-08-13",
+        "EndDate": "2025-08-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7d603921-f6fc-408c-bdd0-a29eca3cda18",
+        "Name": "Sandra Simpson",
+        "PolicyNumber": "00764bec-72d1-4719-b4c6-95a2992c2fd7",
+        "ContactInformation": {
+            "Phone": "001-990-347-1481x9932",
+            "Email": "robertosborn@example.com",
+            "Address": "39729 Espinoza Ford\nVasquezborough, FL 44051"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-23",
+        "Location": "8083 Greer Forge\nHarriston, DC 27870",
+        "Description": "Mother these standard message order adult name really. Animal outside people heavy discussion nor. Star option have young. Than every explain write."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 76746
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5664
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5048
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 175569
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48969
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 124428,
+        "TotalApproved": 58779
+    },
+    "AdjusterDetails": {
+        "Name": "Devin Jordan",
+        "ContactInformation": {
+            "Phone": "001-268-489-2623x293",
+            "Email": "vthomas@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ad0541c5-d946-4fb2-b1d2-330b4ccb385f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

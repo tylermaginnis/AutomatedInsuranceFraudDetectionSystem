@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c8cff9a9-63d8-4e2a-94f3-85f50141b149",
+    "PolicyID": "a6f9768a-6ffd-4851-be87-cb080a2739ba",
+    "EffectiveDates": {
+        "StartDate": "2024-05-15",
+        "EndDate": "2025-05-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4094c563-eeba-41fa-859c-ee556114d32d",
+        "Name": "Angela Skinner",
+        "PolicyNumber": "a6f9768a-6ffd-4851-be87-cb080a2739ba",
+        "ContactInformation": {
+            "Phone": "001-418-483-4596x5957",
+            "Email": "alvarezariana@example.org",
+            "Address": "6117 Tara Parkway\nEast Williamport, ME 70349"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-02",
+        "Location": "PSC 0183, Box 1887\nAPO AP 95972",
+        "Description": "Sound study action become determine arm.\nBuild can red interview factor series until. Think least task only. Oil collection exactly but news."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8973
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9436
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7167
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8291
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4440
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 145859,
+        "TotalApproved": 60667
+    },
+    "AdjusterDetails": {
+        "Name": "Brandon Cole",
+        "ContactInformation": {
+            "Phone": "(382)361-7169",
+            "Email": "christine25@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5c0c347e-f254-46d5-b382-091ec8b599c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

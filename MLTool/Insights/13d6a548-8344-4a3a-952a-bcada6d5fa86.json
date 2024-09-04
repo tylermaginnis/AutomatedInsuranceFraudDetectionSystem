@@ -1,0 +1,81 @@
+{
+    "ClaimID": "13d6a548-8344-4a3a-952a-bcada6d5fa86",
+    "PolicyID": "94ff2303-da7a-4004-b971-7cf42794823f",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "016f2b2c-dd83-4176-aae4-7c7f1778e6e4",
+        "Name": "Mr. Juan Cook MD",
+        "PolicyNumber": "94ff2303-da7a-4004-b971-7cf42794823f",
+        "ContactInformation": {
+            "Phone": "3393685909",
+            "Email": "timothymoore@example.net",
+            "Address": "Unit 3945 Box 4705\nDPO AP 54384"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-18",
+        "Location": "55016 Bond Valley\nSouth John, SC 00557",
+        "Description": "Congress magazine as impact response family when. Choose vote degree movement easy there arrive level."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3049
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10367
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 165446
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11501
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6746
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 48502,
+        "TotalApproved": 15925
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Pace",
+        "ContactInformation": {
+            "Phone": "+1-671-789-5387x2057",
+            "Email": "stephenslisa@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9f1859cd-da95-4eea-9429-e0fc69f5fca5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

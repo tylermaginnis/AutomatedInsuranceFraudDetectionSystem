@@ -1,0 +1,81 @@
+{
+    "ClaimID": "31e2a1cd-70dc-4400-9ab6-ce0d5d3e56b2",
+    "PolicyID": "dd79eece-322e-4fc4-a3da-a3d7b814cfe0",
+    "EffectiveDates": {
+        "StartDate": "2024-08-15",
+        "EndDate": "2025-08-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6c643a6f-1c41-400c-a04b-32c9c377f30b",
+        "Name": "Mark Paul",
+        "PolicyNumber": "dd79eece-322e-4fc4-a3da-a3d7b814cfe0",
+        "ContactInformation": {
+            "Phone": "831-942-4029x28574",
+            "Email": "matthewpeterson@example.org",
+            "Address": "651 Riggs Haven Apt. 429\nNew John, MP 73634"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-09",
+        "Location": "1864 Katherine Fork Apt. 069\nNorth Kariberg, MA 67328",
+        "Description": "Sing avoid sense history debate wonder always. Feeling experience figure front bring."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11133
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36259
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7460
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 86351
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16009
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 1163,
+        "TotalApproved": 1019
+    },
+    "AdjusterDetails": {
+        "Name": "David Evans",
+        "ContactInformation": {
+            "Phone": "(651)867-3246x4156",
+            "Email": "vcollins@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b94e6bc3-5b34-4022-a29f-3f42e17f60db"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

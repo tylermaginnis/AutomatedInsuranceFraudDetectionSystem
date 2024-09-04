@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b9ae9d6d-ad6d-414f-95c2-c8b8c6c53009",
+    "PolicyID": "112d2bb0-e2f0-4822-a123-a4712b98e621",
+    "EffectiveDates": {
+        "StartDate": "2024-06-20",
+        "EndDate": "2025-06-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8a22ac57-948c-449f-a840-fb232d7f2cdb",
+        "Name": "Scott Martinez",
+        "PolicyNumber": "112d2bb0-e2f0-4822-a123-a4712b98e621",
+        "ContactInformation": {
+            "Phone": "001-464-347-5292x225",
+            "Email": "susanparker@example.org",
+            "Address": "6175 Jones Walks\nPayneborough, WA 95873"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-09",
+        "Location": "59131 Estrada Lock Suite 293\nEast Kyle, GA 08415",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 57707
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47201
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5817
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10556
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10815
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 132096,
+        "TotalApproved": 49723
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Ross",
+        "ContactInformation": {
+            "Phone": "001-657-404-2821x525",
+            "Email": "oryan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6abb152d-37fa-44f3-93ee-708f4134e487"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-09T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-14T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-19T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

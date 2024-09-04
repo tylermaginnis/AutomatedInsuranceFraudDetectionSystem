@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9793d172-f8a6-4356-b6b6-0632363bf96d",
+    "PolicyID": "c2cfb384-36e1-4dbc-8ca3-db124c71e4d4",
+    "EffectiveDates": {
+        "StartDate": "2024-03-29",
+        "EndDate": "2025-03-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "654410cf-91c8-435c-b9ef-61d674844b49",
+        "Name": "Laura Knapp",
+        "PolicyNumber": "c2cfb384-36e1-4dbc-8ca3-db124c71e4d4",
+        "ContactInformation": {
+            "Phone": "001-774-568-2105x358",
+            "Email": "byrdsean@example.com",
+            "Address": "56395 Jennifer Valleys\nWest Brian, NV 15579"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-17",
+        "Location": "PSC 7697, Box 9876\nAPO AE 15125",
+        "Description": "Message consider me either. Admit hair cell commercial.\nNeed beyond officer. Recent beautiful student glass raise consumer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6165
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 43259
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3781
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8105
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20830
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 99082,
+        "TotalApproved": 79308
+    },
+    "AdjusterDetails": {
+        "Name": "Alejandro Vasquez",
+        "ContactInformation": {
+            "Phone": "+1-764-539-7833x08343",
+            "Email": "twilliams@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/940a1669-799a-4c92-82aa-4f3aeee5b6ac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-17T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-22T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-27T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

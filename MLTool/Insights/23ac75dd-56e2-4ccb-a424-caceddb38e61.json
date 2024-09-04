@@ -1,0 +1,81 @@
+{
+    "ClaimID": "23ac75dd-56e2-4ccb-a424-caceddb38e61",
+    "PolicyID": "82f5277a-1b5a-4b95-80da-4db137302b29",
+    "EffectiveDates": {
+        "StartDate": "2024-02-23",
+        "EndDate": "2025-02-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f8cd8420-cfa2-4286-adf1-57d6cba403b9",
+        "Name": "Tracy Simpson",
+        "PolicyNumber": "82f5277a-1b5a-4b95-80da-4db137302b29",
+        "ContactInformation": {
+            "Phone": "9529158291",
+            "Email": "scooley@example.net",
+            "Address": "PSC 4424, Box 2961\nAPO AA 52067"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-06",
+        "Location": "3548 Richard Bypass\nEast Jasonchester, VI 53283",
+        "Description": "Thank degree culture country herself. Wall book cultural give analysis. Suggest act her sport. Dog hard scene else debate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 69005
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49727
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4095
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13393
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8500
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 79348,
+        "TotalApproved": 68661
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Yates",
+        "ContactInformation": {
+            "Phone": "(759)797-7117x7061",
+            "Email": "hodgedenise@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/85c613d7-6f37-4d04-94a5-8eef09ea8453"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-06T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-11T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-16T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

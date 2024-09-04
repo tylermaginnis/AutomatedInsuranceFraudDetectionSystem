@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f18c4e47-a802-4a0f-b1f4-fb89d1b7ec70",
+    "PolicyID": "178f62d4-90b8-4cd6-9e25-d2d1ef7149d3",
+    "EffectiveDates": {
+        "StartDate": "2024-02-06",
+        "EndDate": "2025-02-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7ddf8f05-e7e0-47de-8c3c-f2afb095e488",
+        "Name": "Sara Martin",
+        "PolicyNumber": "178f62d4-90b8-4cd6-9e25-d2d1ef7149d3",
+        "ContactInformation": {
+            "Phone": "738-690-2079",
+            "Email": "nlawrence@example.org",
+            "Address": "0907 Emily Forge\nLatoyaville, NV 45682"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-06",
+        "Location": "610 Martin Cove\nKathleenville, SD 20869",
+        "Description": "Team husband fund stuff people measure TV. Memory above young help cut attack he reason.\nLeader high perhaps matter plant seat final. Member remember price. Long water toward."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9874
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8448
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15123
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 118678
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 116735
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144497,
+        "TotalApproved": 79304
+    },
+    "AdjusterDetails": {
+        "Name": "David Lindsey",
+        "ContactInformation": {
+            "Phone": "(883)438-4115x877",
+            "Email": "erica02@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/42e8a8ce-80d0-4d58-ab62-d91a711bf90d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-06T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-11T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-16T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

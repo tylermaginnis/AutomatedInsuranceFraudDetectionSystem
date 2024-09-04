@@ -1,0 +1,81 @@
+{
+    "ClaimID": "60395615-3134-488b-a503-cd35425ff4b2",
+    "PolicyID": "6227cf57-8b94-4810-9297-7459f1acf436",
+    "EffectiveDates": {
+        "StartDate": "2023-10-14",
+        "EndDate": "2024-10-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "50f8d4c1-f5e4-4413-b32f-6a7d6513f4fc",
+        "Name": "Monica Carlson",
+        "PolicyNumber": "6227cf57-8b94-4810-9297-7459f1acf436",
+        "ContactInformation": {
+            "Phone": "2137932981",
+            "Email": "sydney30@example.org",
+            "Address": "07318 Scott Ways\nErinchester, NJ 72466"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-10",
+        "Location": "67218 Espinoza Roads Apt. 069\nAndrewstad, KS 60074",
+        "Description": "Four four opportunity ground. Force well general perform alone could step. Short receive rich class deal."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41679
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5307
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5796
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2272
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12478
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 82323,
+        "TotalApproved": 62244
+    },
+    "AdjusterDetails": {
+        "Name": "Christine Thompson",
+        "ContactInformation": {
+            "Phone": "(406)942-6245",
+            "Email": "watsonkelly@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9c9e157a-d313-4a03-b2c2-b0e3a3b82259"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-10T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-15T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-20T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

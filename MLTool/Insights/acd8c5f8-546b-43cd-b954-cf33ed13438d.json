@@ -1,0 +1,81 @@
+{
+    "ClaimID": "acd8c5f8-546b-43cd-b954-cf33ed13438d",
+    "PolicyID": "6e688d90-4853-42ba-aa64-ed2ce951f753",
+    "EffectiveDates": {
+        "StartDate": "2023-12-18",
+        "EndDate": "2024-12-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6b75de4b-d6df-4a3c-8356-36cb492a8e81",
+        "Name": "Lisa Blanchard",
+        "PolicyNumber": "6e688d90-4853-42ba-aa64-ed2ce951f753",
+        "ContactInformation": {
+            "Phone": "578-600-8052x969",
+            "Email": "deborahbird@example.com",
+            "Address": "0987 Michelle Mews Apt. 350\nBrentborough, WY 32129"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-26",
+        "Location": "469 Anthony Village\nNorth April, FL 08121",
+        "Description": "Move arm south development maintain quickly. Carry body recent minute quickly across. Tell ten reach hour development like set."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36709
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 69191
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 174558
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 24029
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5852
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 32296,
+        "TotalApproved": 5114
+    },
+    "AdjusterDetails": {
+        "Name": "Teresa Rios",
+        "ContactInformation": {
+            "Phone": "+1-611-978-5731x835",
+            "Email": "sosamegan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3082cbcd-3fd0-4c1a-8739-72f64eafddea"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-26T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-31T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-05T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

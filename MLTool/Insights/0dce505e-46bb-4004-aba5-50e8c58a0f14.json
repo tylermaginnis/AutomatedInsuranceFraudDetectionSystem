@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0dce505e-46bb-4004-aba5-50e8c58a0f14",
+    "PolicyID": "196ac086-1d43-410c-938e-aee8b0b8b9be",
+    "EffectiveDates": {
+        "StartDate": "2024-08-06",
+        "EndDate": "2025-08-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "27714c74-b08b-4f91-8fec-993543834339",
+        "Name": "Janet Fleming",
+        "PolicyNumber": "196ac086-1d43-410c-938e-aee8b0b8b9be",
+        "ContactInformation": {
+            "Phone": "+1-605-241-8990x47466",
+            "Email": "megan99@example.org",
+            "Address": "222 Jason Shoal Suite 713\nRiceborough, NM 66874"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-06",
+        "Location": "3032 Michael Views Apt. 843\nSouth Johnchester, CA 73692",
+        "Description": "Institution my scientist head. Friend strategy science. Back result consumer manage newspaper whom energy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1864
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1637
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1909
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6634
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14177
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 32789,
+        "TotalApproved": 15983
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Stephens",
+        "ContactInformation": {
+            "Phone": "(277)586-3959",
+            "Email": "noliver@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d6177bec-7d4d-4177-8373-34517ae89147"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

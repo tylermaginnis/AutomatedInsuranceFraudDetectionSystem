@@ -1,0 +1,81 @@
+{
+    "ClaimID": "51c08031-ca6d-4b8c-a0df-7944ab60ce66",
+    "PolicyID": "9248488a-4597-4e3c-af30-01b1be5bc925",
+    "EffectiveDates": {
+        "StartDate": "2023-09-21",
+        "EndDate": "2024-09-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71ccee39-1228-42f9-83cf-632755d111a3",
+        "Name": "Janet Clark",
+        "PolicyNumber": "9248488a-4597-4e3c-af30-01b1be5bc925",
+        "ContactInformation": {
+            "Phone": "+1-767-947-5142x3763",
+            "Email": "blackchristopher@example.org",
+            "Address": "Unit 8070 Box 5953\nDPO AE 30221"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-04",
+        "Location": "Unit 6421 Box 6964\nDPO AA 40166",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 79054
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 46513
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8723
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13247
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11029
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 158566,
+        "TotalApproved": 46092
+    },
+    "AdjusterDetails": {
+        "Name": "Holly Lee",
+        "ContactInformation": {
+            "Phone": "457.398.0393x158",
+            "Email": "peter24@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5c0f39a5-f985-4451-8238-e43325e03224"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-04T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-09T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-14T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

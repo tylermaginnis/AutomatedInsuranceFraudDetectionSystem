@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d2a5a541-34cd-48b6-9792-c500254af45d",
+  "PolicyID": "f2605efa-96dc-499d-a0be-9f1c00896afb",
+  "EffectiveDates": {
+    "StartDate": "2024-01-16",
+    "EndDate": "2025-01-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "c093ca1c-5b05-43ca-980f-b0974144d45f",
+    "Name": "Thomas Horne",
+    "PolicyNumber": "f2605efa-96dc-499d-a0be-9f1c00896afb",
+    "ContactInformation": {
+      "Phone": "001-645-371-5114x9210",
+      "Email": "smorgan@example.net",
+      "Address": "30984 Christopher Ford Apt. 865\nJuanfurt, ME 62584"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-03",
+    "Location": "7357 Jerry Lights\nSouth Philipville, PR 18978",
+    "Description": "Safe foot somebody. Night garden cause another seven our may. Down local walk any tax exist. Guy benefit among responsibility."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 133180
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 190057
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6716
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 92882
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 166643
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 52247,
+    "TotalApproved": 43209
+  },
+  "AdjusterDetails": {
+    "Name": "Joseph Burgess",
+    "ContactInformation": {
+      "Phone": "+1-793-778-5370x0853",
+      "Email": "eanderson@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/bddca005-0ccb-46ba-b394-f0da3396c85c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-03T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-08T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-13T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

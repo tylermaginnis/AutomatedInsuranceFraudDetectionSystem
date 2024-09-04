@@ -1,0 +1,81 @@
+{
+    "ClaimID": "38a46d5b-1ee9-4433-903e-e5c4002cd0ae",
+    "PolicyID": "fc82d9f8-5111-4ab5-9369-62956bd3df9e",
+    "EffectiveDates": {
+        "StartDate": "2024-07-11",
+        "EndDate": "2025-07-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c3350108-64b8-4947-8de9-cb326c9d5f70",
+        "Name": "Jason Carey",
+        "PolicyNumber": "fc82d9f8-5111-4ab5-9369-62956bd3df9e",
+        "ContactInformation": {
+            "Phone": "001-321-644-2620x1352",
+            "Email": "msanchez@example.org",
+            "Address": "0891 Alyssa Terrace Apt. 451\nLake Bryanmouth, RI 69645"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-08",
+        "Location": "7496 Simmons Trail Suite 546\nNorth Shawn, NC 01760",
+        "Description": "Team Mr avoid conference professional although. Base tonight impact mention over often the. Improve under happy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15344
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 96903
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27448
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6133
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45632
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 31303,
+        "TotalApproved": 11597
+    },
+    "AdjusterDetails": {
+        "Name": "Grant Schmidt",
+        "ContactInformation": {
+            "Phone": "(433)648-7689",
+            "Email": "rodriguezrobert@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b615735f-4118-4f14-9915-4da06e83ed7d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

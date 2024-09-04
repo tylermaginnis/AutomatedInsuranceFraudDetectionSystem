@@ -1,0 +1,81 @@
+{
+    "ClaimID": "151a9158-4546-4ba6-80dd-385d5a14a678",
+    "PolicyID": "26351c03-8b05-4478-8487-018c6c6bf02a",
+    "EffectiveDates": {
+        "StartDate": "2023-09-12",
+        "EndDate": "2024-09-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "342e98de-1cf7-43b1-9e2a-832f1a17dfa1",
+        "Name": "Christopher Evans",
+        "PolicyNumber": "26351c03-8b05-4478-8487-018c6c6bf02a",
+        "ContactInformation": {
+            "Phone": "525.389.9680",
+            "Email": "changlisa@example.org",
+            "Address": "13716 Thompson Rapid\nNew Alexandraton, GA 33249"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-25",
+        "Location": "7047 Simon Lock Apt. 148\nWest Tonya, PW 82858",
+        "Description": "Personal worker sister. Again nor necessary news bad certain."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3447
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5877
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12973
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3543
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 91252
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 162590,
+        "TotalApproved": 45865
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Taylor",
+        "ContactInformation": {
+            "Phone": "6265095235",
+            "Email": "jennifer67@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6597784d-bc66-4202-8e57-cc490f57561b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-25T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-30T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

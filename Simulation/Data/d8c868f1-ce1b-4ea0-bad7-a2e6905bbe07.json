@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d8c868f1-ce1b-4ea0-bad7-a2e6905bbe07",
+  "PolicyID": "26a8a87f-63b3-4e35-ab95-c1052a3ff65d",
+  "EffectiveDates": {
+    "StartDate": "2024-03-24",
+    "EndDate": "2025-03-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "201d54fc-8579-4951-9562-83a94ebef4d8",
+    "Name": "Christopher Brown DVM",
+    "PolicyNumber": "26a8a87f-63b3-4e35-ab95-c1052a3ff65d",
+    "ContactInformation": {
+      "Phone": "280.342.4296x856",
+      "Email": "vfinley@example.net",
+      "Address": "155 Mckay Lodge\nWest Melissaberg, FL 27653"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-22",
+    "Location": "4702 Brittany Manors\nMooremouth, CA 95205",
+    "Description": "Conference my while senior sea issue happy. Simple better line sign. Produce their drug institution unit green. Newspaper today indicate."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 57975
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 65665
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 80840
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 4808
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 54266
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 77535,
+    "TotalApproved": 62668
+  },
+  "AdjusterDetails": {
+    "Name": "Jon Schroeder",
+    "ContactInformation": {
+      "Phone": "001-709-485-8519x147",
+      "Email": "brookspaul@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/6c8da1d3-7862-40a5-88b4-361933036dfe"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-22T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-27T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-01T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

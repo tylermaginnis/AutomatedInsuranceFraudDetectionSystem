@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f7c702a1-01ad-4353-8153-3a4c518eddbd",
+    "PolicyID": "d93519dc-06d7-4a6c-9386-abb2bd092c38",
+    "EffectiveDates": {
+        "StartDate": "2024-06-20",
+        "EndDate": "2025-06-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d3d2c53e-5b60-4d69-91f1-3d4e07807bad",
+        "Name": "Olivia Smith",
+        "PolicyNumber": "d93519dc-06d7-4a6c-9386-abb2bd092c38",
+        "ContactInformation": {
+            "Phone": "640-736-4120",
+            "Email": "taylorthompson@example.com",
+            "Address": "2097 Chavez Underpass Apt. 488\nNew Christopher, MT 97127"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-01",
+        "Location": "22802 Dylan Shoals\nCooperstad, NM 87465",
+        "Description": "Him artist just apply per model wait my. Why eight sure join. Across speak hard blood."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36952
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6579
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9180
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25822
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5517
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 145955,
+        "TotalApproved": 47795
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Lane",
+        "ContactInformation": {
+            "Phone": "001-528-957-8485",
+            "Email": "robertmyers@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4720e128-b9dd-4c5b-987d-bc46feac30de"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-01T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-06T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-11T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

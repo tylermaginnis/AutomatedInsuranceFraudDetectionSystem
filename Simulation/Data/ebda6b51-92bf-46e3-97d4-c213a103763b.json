@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ebda6b51-92bf-46e3-97d4-c213a103763b",
+  "PolicyID": "80ff79f0-56e1-4b1d-81ab-6831590216af",
+  "EffectiveDates": {
+    "StartDate": "2023-09-22",
+    "EndDate": "2024-09-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e2e2e48f-3622-4909-b9d1-2dd18163605b",
+    "Name": "John Wood",
+    "PolicyNumber": "80ff79f0-56e1-4b1d-81ab-6831590216af",
+    "ContactInformation": {
+      "Phone": "6098676385",
+      "Email": "carlos92@example.com",
+      "Address": "501 Franco Glen\nEvansfurt, MT 60207"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-04",
+    "Location": "67848 Thomas Roads Apt. 455\nJohnsonborough, IL 42326",
+    "Description": "Because blue light since. Nothing kitchen technology pretty. Cold away likely however manager media. Form picture sister trade common arrive rich."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 26676
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10968
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 28454
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 52204
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 24422
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 84649,
+    "TotalApproved": 41861
+  },
+  "AdjusterDetails": {
+    "Name": "Melissa Roberts",
+    "ContactInformation": {
+      "Phone": "(753)728-2123",
+      "Email": "ballardchristian@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/a5603980-42d2-48c9-a0ce-c79a93d018c4"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-04T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-09T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-11-14T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

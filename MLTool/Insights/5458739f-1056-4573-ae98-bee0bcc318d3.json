@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5458739f-1056-4573-ae98-bee0bcc318d3",
+    "PolicyID": "28662ed9-6fcf-4b9b-8708-4e33065fc5c4",
+    "EffectiveDates": {
+        "StartDate": "2023-09-16",
+        "EndDate": "2024-09-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d813d76d-c8c3-41de-ba21-56b90e5c4ea6",
+        "Name": "Sarah Snyder",
+        "PolicyNumber": "28662ed9-6fcf-4b9b-8708-4e33065fc5c4",
+        "ContactInformation": {
+            "Phone": "+1-464-269-0137x75884",
+            "Email": "martincollin@example.org",
+            "Address": "322 Ricky Coves Suite 986\nHunterville, UT 59077"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-01",
+        "Location": "PSC 5738, Box 7049\nAPO AE 62940",
+        "Description": "Natural firm relate second forward language determine. Hundred worker factor beautiful small beautiful allow."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 155782
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20118
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9812
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9745
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 96037
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 83184,
+        "TotalApproved": 59408
+    },
+    "AdjusterDetails": {
+        "Name": "Jesse Carter",
+        "ContactInformation": {
+            "Phone": "001-781-435-2622x54729",
+            "Email": "matthew31@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/caa736ae-9c70-46b8-b949-ca694ead75b3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b8baa35-3bbd-4891-b416-96d8d2e013b6",
+    "PolicyID": "ec95e20b-685f-42ad-82cb-133f41beea92",
+    "EffectiveDates": {
+        "StartDate": "2024-07-12",
+        "EndDate": "2025-07-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b7b05625-a1f0-420b-81f8-229147d087c6",
+        "Name": "Pamela Shaffer",
+        "PolicyNumber": "ec95e20b-685f-42ad-82cb-133f41beea92",
+        "ContactInformation": {
+            "Phone": "(544)862-4895x53450",
+            "Email": "jordankathleen@example.org",
+            "Address": "395 Burgess Shore\nTonyberg, NH 46651"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-23",
+        "Location": "164 William Village\nGilberttown, MH 86830",
+        "Description": "School health political past face meeting.\nStation early feeling. Administration college student ask.\nStand industry yes choice size. Cost concern step nice speak."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 120831
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1733
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3801
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3159
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15086
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 32663,
+        "TotalApproved": 10081
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Ingram",
+        "ContactInformation": {
+            "Phone": "541.995.2378",
+            "Email": "ann07@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/00179984-8c82-46ae-949b-2d8080d0598b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-02T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

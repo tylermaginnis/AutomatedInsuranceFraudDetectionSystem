@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b7538e4f-1fb1-47a6-9540-773551624f97",
+  "PolicyID": "b499af23-647f-469c-af49-a9ae08173495",
+  "EffectiveDates": {
+    "StartDate": "2024-07-29",
+    "EndDate": "2025-07-29"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e1955df4-b497-49d9-9ff2-88021a14ef48",
+    "Name": "Marc Allen",
+    "PolicyNumber": "b499af23-647f-469c-af49-a9ae08173495",
+    "ContactInformation": {
+      "Phone": "424-789-3760x15563",
+      "Email": "jaclynnelson@example.org",
+      "Address": "24179 Ford Isle Apt. 097\nArroyoton, FM 15051"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-28",
+    "Location": "1185 Callahan Gardens Suite 985\nWoodsbury, GA 14873",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 96957
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 40290
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9160
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 23478
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13412
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 183297,
+    "TotalApproved": 162444
+  },
+  "AdjusterDetails": {
+    "Name": "Chris Perez",
+    "ContactInformation": {
+      "Phone": "839.618.0219",
+      "Email": "john75@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/a92a5f97-e4bc-4d90-bcee-ed1599ab1fbe"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-28T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-03T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-08T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

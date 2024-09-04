@@ -1,0 +1,81 @@
+{
+    "ClaimID": "38bbcf5e-2aee-4c28-86d0-36717b885255",
+    "PolicyID": "84916d89-1645-486a-814e-82cde43a1f8e",
+    "EffectiveDates": {
+        "StartDate": "2023-12-27",
+        "EndDate": "2024-12-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aa5c23d6-0034-4e2a-b177-436a98318c4a",
+        "Name": "Elaine Ellis",
+        "PolicyNumber": "84916d89-1645-486a-814e-82cde43a1f8e",
+        "ContactInformation": {
+            "Phone": "+1-273-814-0072x4613",
+            "Email": "smithgregory@example.com",
+            "Address": "340 Charlene Drive\nAutumnmouth, UT 32735"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-12",
+        "Location": "69761 Christopher Tunnel\nMaddenfort, NY 15053",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 75566
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25880
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6688
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12937
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6037
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 127108,
+        "TotalApproved": 93655
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Campbell",
+        "ContactInformation": {
+            "Phone": "745-420-9864x60162",
+            "Email": "cunninghamdaniel@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/145212e6-a88b-4e81-947c-00f3b313c546"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

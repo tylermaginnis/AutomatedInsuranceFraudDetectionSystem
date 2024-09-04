@@ -1,0 +1,81 @@
+{
+    "ClaimID": "df9bf16d-fc7d-4e45-97d2-c6be937abe64",
+    "PolicyID": "f63486e5-afab-4328-99c6-dc0ff36ef5fa",
+    "EffectiveDates": {
+        "StartDate": "2024-07-09",
+        "EndDate": "2025-07-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f88f0478-4fff-4bfa-bda6-ede8ccd48ddb",
+        "Name": "Randall Martin",
+        "PolicyNumber": "f63486e5-afab-4328-99c6-dc0ff36ef5fa",
+        "ContactInformation": {
+            "Phone": "(247)712-5212x13193",
+            "Email": "qbeck@example.org",
+            "Address": "455 Tina Courts\nLongport, ID 95882"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-18",
+        "Location": "966 Lopez Underpass\nKirstenton, TN 18583",
+        "Description": "Example lose score another social dream. She about knowledge speak two consider opportunity.\nYear degree for risk. Option end director they."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14970
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 54608
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 158042
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 30086
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37688
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 141107,
+        "TotalApproved": 79717
+    },
+    "AdjusterDetails": {
+        "Name": "Susan Adams",
+        "ContactInformation": {
+            "Phone": "857.506.5054",
+            "Email": "anthony85@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e25eb831-1c26-427e-9947-4e37e67d0bdf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

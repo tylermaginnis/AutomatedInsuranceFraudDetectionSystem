@@ -1,0 +1,81 @@
+{
+    "ClaimID": "54258c19-3398-48c9-89bc-7f69fef0c0bd",
+    "PolicyID": "e40abe67-530b-44ca-b3ff-b276d04d5065",
+    "EffectiveDates": {
+        "StartDate": "2024-05-26",
+        "EndDate": "2025-05-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "05936b04-53b1-4444-a24d-38e4de2d992e",
+        "Name": "Jessica Pitts",
+        "PolicyNumber": "e40abe67-530b-44ca-b3ff-b276d04d5065",
+        "ContactInformation": {
+            "Phone": "6988960000",
+            "Email": "erika32@example.net",
+            "Address": "42104 Felicia Branch\nSouth Gabrielleburgh, PW 31359"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-28",
+        "Location": "1764 James Overpass\nTuckermouth, VI 68802",
+        "Description": "Travel everyone should member hear sort want. Face father dark thus give write local.\nQuickly south action."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7339
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29301
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28612
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22102
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12874
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 157275,
+        "TotalApproved": 21439
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Sandoval",
+        "ContactInformation": {
+            "Phone": "679-492-8883x4678",
+            "Email": "dillonpatrick@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6e5f01a5-6e48-4aec-adce-5409cc9c6d75"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-28T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-02T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-07T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2dd09d26-dd92-4194-817b-b352c2b48557",
+    "PolicyID": "8b9dc417-7df8-4a04-b71b-3d87fbc414aa",
+    "EffectiveDates": {
+        "StartDate": "2024-03-17",
+        "EndDate": "2025-03-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b154b0c9-a750-4bed-a7c1-9312b40d0dbe",
+        "Name": "Leslie White",
+        "PolicyNumber": "8b9dc417-7df8-4a04-b71b-3d87fbc414aa",
+        "ContactInformation": {
+            "Phone": "+1-265-684-8358x40304",
+            "Email": "hlamb@example.net",
+            "Address": "97531 Thomas Grove\nLake Amy, WA 44025"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-08",
+        "Location": "5312 Matthew Fall\nVegaport, CT 41364",
+        "Description": "Company executive memory test. Pattern care evening herself for collection nice.\nCan defense performance interview training forget. Woman news feeling pattern."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11081
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2839
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48528
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 87317
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16581
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 107079,
+        "TotalApproved": 62232
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Ingram",
+        "ContactInformation": {
+            "Phone": "8083848277",
+            "Email": "zberry@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e933c4ed-094d-4341-878e-774c45b8548e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

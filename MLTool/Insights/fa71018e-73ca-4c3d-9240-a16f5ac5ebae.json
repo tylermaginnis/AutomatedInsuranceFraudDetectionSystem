@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fa71018e-73ca-4c3d-9240-a16f5ac5ebae",
+    "PolicyID": "9bcda28b-ccbe-4db1-ae94-8790b92e6edb",
+    "EffectiveDates": {
+        "StartDate": "2023-12-15",
+        "EndDate": "2024-12-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "228c3441-8be5-4953-8fd4-cf0d40fc03a9",
+        "Name": "Charles Schroeder",
+        "PolicyNumber": "9bcda28b-ccbe-4db1-ae94-8790b92e6edb",
+        "ContactInformation": {
+            "Phone": "001-909-665-8295x93210",
+            "Email": "jesse82@example.net",
+            "Address": "954 Woods Tunnel Suite 300\nSouth Bethanyville, AK 24300"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-06",
+        "Location": "5723 Thomas Shores Suite 189\nJohnchester, HI 92379",
+        "Description": "Art continue during dark. However among me already school outside general tell.\nStudent throw above plan. Show quality most possible often he girl nation."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 98630
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15903
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8526
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 84493
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 79665
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 159292,
+        "TotalApproved": 132523
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Arroyo",
+        "ContactInformation": {
+            "Phone": "001-377-773-8874x53160",
+            "Email": "jamesnolan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/df5cd8ba-3a80-4172-89cb-dd0d3cc54a75"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-06T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-11T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-16T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

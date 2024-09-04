@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ccba64a1-a71a-4a7b-890c-0ff3f320af11",
+  "PolicyID": "3a521f69-a364-4ed6-a0a7-d933bebac0e6",
+  "EffectiveDates": {
+    "StartDate": "2024-07-01",
+    "EndDate": "2025-07-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "87283809-08fe-4549-98ae-2298bff42072",
+    "Name": "Dr. Erik Johnson PhD",
+    "PolicyNumber": "3a521f69-a364-4ed6-a0a7-d933bebac0e6",
+    "ContactInformation": {
+      "Phone": "(379)483-7540x11712",
+      "Email": "rachelgreer@example.com",
+      "Address": "69844 Anthony Harbor Apt. 569\nWellsfort, CT 08748"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-20",
+    "Location": "3323 Sullivan Squares Apt. 477\nEast Anthonyshire, RI 21148",
+    "Description": "Hospital require late ahead. Federal mind recently open sign oil name. Figure draw win investment only.\nContain TV condition large leave. Course type type tough."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 27705
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8020
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 32441
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 48679
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8625
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 182188,
+    "TotalApproved": 151441
+  },
+  "AdjusterDetails": {
+    "Name": "Cynthia Doyle",
+    "ContactInformation": {
+      "Phone": "(540)725-4266x340",
+      "Email": "robertharrison@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/57a6338b-6653-4ec6-ad23-65ef642a0d43"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-20T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-25T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-05-30T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

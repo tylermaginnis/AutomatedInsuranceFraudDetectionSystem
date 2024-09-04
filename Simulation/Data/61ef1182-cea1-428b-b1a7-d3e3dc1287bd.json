@@ -1,0 +1,80 @@
+{
+  "ClaimID": "61ef1182-cea1-428b-b1a7-d3e3dc1287bd",
+  "PolicyID": "18003952-0ef6-4ac2-ab4d-63740fb911e1",
+  "EffectiveDates": {
+    "StartDate": "2024-05-01",
+    "EndDate": "2025-05-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "57958d1a-18bc-43f8-879a-e5ef40551af9",
+    "Name": "Mrs. Julie Sheppard",
+    "PolicyNumber": "18003952-0ef6-4ac2-ab4d-63740fb911e1",
+    "ContactInformation": {
+      "Phone": "4343898944",
+      "Email": "cartermichael@example.net",
+      "Address": "618 Cox Manor Suite 701\nNew Samuelview, HI 33201"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-16",
+    "Location": "1059 Lewis Burg Apt. 070\nLake Christina, MA 97637",
+    "Description": "Mission address later attorney organization college yard. Free probably growth president someone there. Friend statement open west.\nGuess pressure baby shoulder position."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1276
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5155
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5580
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 167132
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1347
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 134636,
+    "TotalApproved": 79617
+  },
+  "AdjusterDetails": {
+    "Name": "Derek Gomez",
+    "ContactInformation": {
+      "Phone": "7497753840",
+      "Email": "nicole57@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/3e874232-f880-4462-8eb6-e9222cb654f8"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-16T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-21T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-26T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

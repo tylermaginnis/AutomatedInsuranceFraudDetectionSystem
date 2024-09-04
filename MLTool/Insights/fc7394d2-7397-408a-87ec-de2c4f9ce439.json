@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fc7394d2-7397-408a-87ec-de2c4f9ce439",
+    "PolicyID": "e9976c48-6dc4-4011-b54f-911224f05173",
+    "EffectiveDates": {
+        "StartDate": "2024-06-10",
+        "EndDate": "2025-06-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "288176e5-1418-41c8-8687-d6e3368f64f6",
+        "Name": "Aaron Wells",
+        "PolicyNumber": "e9976c48-6dc4-4011-b54f-911224f05173",
+        "ContactInformation": {
+            "Phone": "001-998-768-3939x178",
+            "Email": "paul62@example.org",
+            "Address": "51411 Melissa Heights Suite 863\nLake Josephview, PW 46793"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-17",
+        "Location": "43616 Karen Crest\nNew Alyssa, HI 31835",
+        "Description": "Name news no whom they. Sometimes yeah help. Decision official bill enter.\nDoor region say stop exactly between foot. Claim deal kid however vote in. Enter natural science writer affect rise."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 83362
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60842
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43505
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5072
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4083
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 40918,
+        "TotalApproved": 32939
+    },
+    "AdjusterDetails": {
+        "Name": "Randall Watson",
+        "ContactInformation": {
+            "Phone": "001-499-406-0267x8425",
+            "Email": "gravesdavid@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a53d04fe-c265-4a30-86ee-4223fff92cb8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-17T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-22T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-27T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

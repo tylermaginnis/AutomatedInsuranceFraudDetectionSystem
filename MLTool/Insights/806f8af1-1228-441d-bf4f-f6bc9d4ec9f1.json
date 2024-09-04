@@ -1,0 +1,81 @@
+{
+    "ClaimID": "806f8af1-1228-441d-bf4f-f6bc9d4ec9f1",
+    "PolicyID": "2314e7e4-cfc7-4069-9701-bb67dc4691f3",
+    "EffectiveDates": {
+        "StartDate": "2024-05-06",
+        "EndDate": "2025-05-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "03a10b30-eccd-45dd-aadb-8454cbeb40c6",
+        "Name": "Charles Hinton",
+        "PolicyNumber": "2314e7e4-cfc7-4069-9701-bb67dc4691f3",
+        "ContactInformation": {
+            "Phone": "+1-887-337-7392x8476",
+            "Email": "davisjoseph@example.net",
+            "Address": "20117 John Union Apt. 201\nSmithview, TN 75203"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-08",
+        "Location": "7221 Contreras Flat Suite 934\nRosariochester, WA 35004",
+        "Description": "Office something threat morning talk move.\nTest chair reach leave. Same policy general church tonight someone pull."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 91110
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 130998
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1863
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 74080
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8759
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 86996,
+        "TotalApproved": 29948
+    },
+    "AdjusterDetails": {
+        "Name": "Alexandria Butler",
+        "ContactInformation": {
+            "Phone": "415.871.0826x78067",
+            "Email": "kevin76@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/14b69b7e-8a05-4ab3-be3e-5ef6a6eba253"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "694eddf4-888c-4fb6-bc05-0839e4e5a378",
+    "PolicyID": "36c76364-a1a2-487d-995f-55b2be91005f",
+    "EffectiveDates": {
+        "StartDate": "2024-08-30",
+        "EndDate": "2025-08-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2cf7369a-4d88-4786-9977-4a434ee34d18",
+        "Name": "Jennifer Copeland",
+        "PolicyNumber": "36c76364-a1a2-487d-995f-55b2be91005f",
+        "ContactInformation": {
+            "Phone": "565-638-5005x82125",
+            "Email": "jeffrey65@example.org",
+            "Address": "8902 Allen Stream Apt. 542\nLake Richard, PR 90265"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-01",
+        "Location": "985 Hernandez Turnpike Suite 008\nDuffyport, ID 70634",
+        "Description": "If newspaper begin leave available save. Nearly article certain court.\nSecurity just area determine. Describe rather visit commercial red time early."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24440
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11618
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23703
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46316
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 81372
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 175624,
+        "TotalApproved": 32373
+    },
+    "AdjusterDetails": {
+        "Name": "Misty Gardner",
+        "ContactInformation": {
+            "Phone": "(469)933-8607x5316",
+            "Email": "smithwanda@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/343f2527-20e3-45fe-aefc-fd3033df6bbd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-01T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-06T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-11T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

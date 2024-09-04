@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9062f1a9-2406-4c3a-9788-407ca1ed285e",
+    "PolicyID": "beb07175-b24b-4245-865e-0bf9baca2b81",
+    "EffectiveDates": {
+        "StartDate": "2024-01-30",
+        "EndDate": "2025-01-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "93fe21f7-717f-4436-bbf3-d749e1e8be0b",
+        "Name": "Steven Clark",
+        "PolicyNumber": "beb07175-b24b-4245-865e-0bf9baca2b81",
+        "ContactInformation": {
+            "Phone": "882.380.9796",
+            "Email": "hlopez@example.net",
+            "Address": "PSC 7676, Box 1435\nAPO AA 53607"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-10",
+        "Location": "61654 Alison Plain\nMarkbury, NC 87536",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 80734
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44121
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9945
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13124
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10203
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 158127,
+        "TotalApproved": 91130
+    },
+    "AdjusterDetails": {
+        "Name": "Jenny Stark",
+        "ContactInformation": {
+            "Phone": "891-716-3814",
+            "Email": "kallen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/77c2b531-a8d3-4d07-b95c-97d73fdaf203"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-10T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-15T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-20T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

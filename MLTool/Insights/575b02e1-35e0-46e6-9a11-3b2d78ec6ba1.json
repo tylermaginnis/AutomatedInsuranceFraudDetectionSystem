@@ -1,0 +1,81 @@
+{
+    "ClaimID": "575b02e1-35e0-46e6-9a11-3b2d78ec6ba1",
+    "PolicyID": "7c980b66-99b7-4e3d-8dbf-14f142b09f23",
+    "EffectiveDates": {
+        "StartDate": "2023-09-20",
+        "EndDate": "2024-09-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5e04d89a-3ca9-4c84-aa98-92f1a2271afb",
+        "Name": "Kristina Gallegos DDS",
+        "PolicyNumber": "7c980b66-99b7-4e3d-8dbf-14f142b09f23",
+        "ContactInformation": {
+            "Phone": "(942)287-8451x378",
+            "Email": "taylorangela@example.net",
+            "Address": "50789 Monica Crossing Apt. 802\nWestburgh, CA 59914"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-28",
+        "Location": "6754 Adams Rapids\nMackburgh, AR 72785",
+        "Description": "Exactly impact near stand. Race response city without whole surface pretty. Cup rather feeling become may bring."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36473
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38287
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7185
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 161424
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11202
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 139412,
+        "TotalApproved": 35255
+    },
+    "AdjusterDetails": {
+        "Name": "Kim Chambers",
+        "ContactInformation": {
+            "Phone": "(652)971-7644x2792",
+            "Email": "kedwards@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f3347fa6-0729-40b6-9570-57a1ba66f01f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-28T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-03T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-08T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

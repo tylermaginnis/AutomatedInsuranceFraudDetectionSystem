@@ -1,0 +1,80 @@
+{
+  "ClaimID": "09e4ec1b-95ce-49f2-9f12-09b7c3464432",
+  "PolicyID": "3c6c5a36-75ba-4d38-968c-7896d80d4e81",
+  "EffectiveDates": {
+    "StartDate": "2023-11-26",
+    "EndDate": "2024-11-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "19b89dbe-9826-4396-8286-b1b30777b39b",
+    "Name": "Thomas Johnson",
+    "PolicyNumber": "3c6c5a36-75ba-4d38-968c-7896d80d4e81",
+    "ContactInformation": {
+      "Phone": "4244908992",
+      "Email": "scannon@example.com",
+      "Address": "9500 Morrison Stream Apt. 965\nLeonardchester, ND 44981"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-17",
+    "Location": "79367 Harris Alley\nYuberg, HI 99373",
+    "Description": "Response government night best as get produce. You scientist building practice successful protect. Social effort evidence popular serious clearly moment."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 24793
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 40033
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 49422
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5615
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 42533
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 32897,
+    "TotalApproved": 1088
+  },
+  "AdjusterDetails": {
+    "Name": "Andrea Hahn",
+    "ContactInformation": {
+      "Phone": "891-484-0678",
+      "Email": "mcintyrelawrence@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/5953064c-a617-4f72-a773-900624a5977a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-17T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-22T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-27T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

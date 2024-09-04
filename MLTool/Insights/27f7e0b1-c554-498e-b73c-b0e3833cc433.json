@@ -1,0 +1,81 @@
+{
+    "ClaimID": "27f7e0b1-c554-498e-b73c-b0e3833cc433",
+    "PolicyID": "1a5ba983-d7b9-4544-bae9-e1206b60e789",
+    "EffectiveDates": {
+        "StartDate": "2024-08-26",
+        "EndDate": "2025-08-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6a655e16-a001-489a-9ce6-25d4de86bdae",
+        "Name": "Melinda Yang",
+        "PolicyNumber": "1a5ba983-d7b9-4544-bae9-e1206b60e789",
+        "ContactInformation": {
+            "Phone": "001-262-631-8739x535",
+            "Email": "derrickvasquez@example.net",
+            "Address": "251 Terry Station\nLake Carrie, IL 45082"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-08-17",
+        "Location": "PSC 3154, Box 0219\nAPO AE 36421",
+        "Description": "Light week whatever dark seat of fact every. Say hour result notice. Figure reason cause theory meet leader tax. Amount college citizen eight officer me."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6802
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39889
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1950
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7222
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16848
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 10430,
+        "TotalApproved": 7485
+    },
+    "AdjusterDetails": {
+        "Name": "Linda Hill",
+        "ContactInformation": {
+            "Phone": "(871)888-0661x47244",
+            "Email": "wwilliams@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/754518a7-e6ce-457e-b10a-294829b8809b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-08-17T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-22T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-27T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9a8e2542-7111-4bc1-9ae4-b8a710f8eb8d",
+  "PolicyID": "402cad34-abca-495c-b06c-5bbeef8a8038",
+  "EffectiveDates": {
+    "StartDate": "2024-04-06",
+    "EndDate": "2025-04-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6bff0dd7-b0de-41be-92f1-466998e1362b",
+    "Name": "Emily Vasquez",
+    "PolicyNumber": "402cad34-abca-495c-b06c-5bbeef8a8038",
+    "ContactInformation": {
+      "Phone": "+1-749-573-8689x30920",
+      "Email": "bmiller@example.net",
+      "Address": "2182 Glen Lane\nJacobbury, MH 85652"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-05",
+    "Location": "717 Andrew Well\nJeffreyhaven, HI 38428",
+    "Description": "Police need several at perform. Close offer matter process. Even our college about fire record all teacher.\nMust common treatment treat one ever act. Sign go when you force make small."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8357
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 51037
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9139
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11671
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 95627
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 14545,
+    "TotalApproved": 9355
+  },
+  "AdjusterDetails": {
+    "Name": "Jacob Beasley",
+    "ContactInformation": {
+      "Phone": "898-649-6907",
+      "Email": "justin17@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/cebbd103-50c7-422a-971d-4ae37c592939"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-05T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-10T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-15T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

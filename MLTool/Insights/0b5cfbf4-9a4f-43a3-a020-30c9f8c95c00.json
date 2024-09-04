@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0b5cfbf4-9a4f-43a3-a020-30c9f8c95c00",
+    "PolicyID": "163d4d26-7bb0-4020-85af-7392ef5efe42",
+    "EffectiveDates": {
+        "StartDate": "2024-04-20",
+        "EndDate": "2025-04-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a7bf63d8-ddcc-4001-8f64-61515d30cdd4",
+        "Name": "Donna Peters",
+        "PolicyNumber": "163d4d26-7bb0-4020-85af-7392ef5efe42",
+        "ContactInformation": {
+            "Phone": "+1-709-871-8330x174",
+            "Email": "justin51@example.org",
+            "Address": "29149 Sheena Heights\nEast Elizabethland, ID 72770"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-29",
+        "Location": "23664 Bauer Street Suite 237\nThomasfort, ME 57612",
+        "Description": "Modern home sometimes office even property realize. Tv value increase project happy. Degree this direction federal home.\nRest get top authority. Their door notice keep better grow."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 98722
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26650
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44100
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 97589
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4289
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 21273,
+        "TotalApproved": 17549
+    },
+    "AdjusterDetails": {
+        "Name": "Kathryn Johnson",
+        "ContactInformation": {
+            "Phone": "001-234-364-9861x411",
+            "Email": "lisanunez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c3081d35-825b-4ecf-821f-fe55cc199e9d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-29T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-03T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-08T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6e2fcb1a-7b70-469c-9fd7-1b64a09e25d2",
+    "PolicyID": "23cf93fb-a1af-4120-a189-3264b2c3d03f",
+    "EffectiveDates": {
+        "StartDate": "2024-06-25",
+        "EndDate": "2025-06-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "da0ed3c7-caa6-4532-9630-d5c72edba0ce",
+        "Name": "Donald Marshall",
+        "PolicyNumber": "23cf93fb-a1af-4120-a189-3264b2c3d03f",
+        "ContactInformation": {
+            "Phone": "978-663-0449",
+            "Email": "felicia93@example.org",
+            "Address": "405 Palmer Ranch Apt. 630\nNew Laurenfurt, CT 87301"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-29",
+        "Location": "1215 Little Hills Suite 217\nMurphyhaven, FM 99800",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 73484
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24318
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7442
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24901
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8822
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 138967,
+        "TotalApproved": 54890
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Holland",
+        "ContactInformation": {
+            "Phone": "(790)622-9023",
+            "Email": "hreynolds@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5db9584f-0abc-4d7c-8a9c-c007cb79c909"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-29T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-03T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-08T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

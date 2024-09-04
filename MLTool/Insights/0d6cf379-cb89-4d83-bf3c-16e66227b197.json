@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0d6cf379-cb89-4d83-bf3c-16e66227b197",
+    "PolicyID": "9d1226f9-3487-4f3c-887b-e9720f44a898",
+    "EffectiveDates": {
+        "StartDate": "2023-12-13",
+        "EndDate": "2024-12-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b052fe6c-19bf-4c24-b9af-7ff848f77827",
+        "Name": "Brandon Everett",
+        "PolicyNumber": "9d1226f9-3487-4f3c-887b-e9720f44a898",
+        "ContactInformation": {
+            "Phone": "5824927944",
+            "Email": "kyle76@example.com",
+            "Address": "807 Patel Cliffs Suite 345\nMartinezberg, SD 63429"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-29",
+        "Location": "34760 Michelle Ridge Suite 700\nSouth Brittanystad, UT 64713",
+        "Description": "Course our building our much our. Pay tell call region management upon fear. Process true add present center have."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9116
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16301
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 64609
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14812
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14989
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 24815,
+        "TotalApproved": 23796
+    },
+    "AdjusterDetails": {
+        "Name": "Jacob Cunningham",
+        "ContactInformation": {
+            "Phone": "+1-734-590-7606x2355",
+            "Email": "robinsonlinda@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/dfd92571-af63-496d-962d-5084559f8098"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-29T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-03T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-08T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

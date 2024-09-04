@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f2c96885-2cce-40ba-ae75-33996eaf89c6",
+    "PolicyID": "b4118470-4215-463c-86fa-a1e9bab9ca09",
+    "EffectiveDates": {
+        "StartDate": "2024-06-08",
+        "EndDate": "2025-06-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "97a8edf2-0977-41da-905c-ac369347867b",
+        "Name": "Nicole Brewer",
+        "PolicyNumber": "b4118470-4215-463c-86fa-a1e9bab9ca09",
+        "ContactInformation": {
+            "Phone": "5158095336",
+            "Email": "wilsonryan@example.net",
+            "Address": "USNS Johnson\nFPO AP 61902"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-26",
+        "Location": "4904 Maureen Ports Suite 698\nNew Shawnmouth, NY 20552",
+        "Description": "More value technology purpose avoid. Become like still standard miss.\nFoot analysis anything anyone against be. Accept view clear. Accept compare factor test race."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 113196
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30310
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 163274
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17159
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33693
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 24507,
+        "TotalApproved": 18736
+    },
+    "AdjusterDetails": {
+        "Name": "Tiffany Barrera",
+        "ContactInformation": {
+            "Phone": "9303272913",
+            "Email": "jenniferbeard@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/011938e7-5b6b-4294-9d4c-66a306df1cef"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

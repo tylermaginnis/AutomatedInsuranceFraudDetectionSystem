@@ -1,0 +1,81 @@
+{
+    "ClaimID": "55ef8e4e-f4ed-40ce-8375-5bcdbe5de19c",
+    "PolicyID": "c09aa60d-a7d8-4576-97e8-8c220cb678de",
+    "EffectiveDates": {
+        "StartDate": "2023-09-23",
+        "EndDate": "2024-09-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7393d6d6-e9b1-407e-a61f-621b28d0cf2e",
+        "Name": "Kellie Smith",
+        "PolicyNumber": "c09aa60d-a7d8-4576-97e8-8c220cb678de",
+        "ContactInformation": {
+            "Phone": "+1-461-580-8932",
+            "Email": "millerbryce@example.org",
+            "Address": "51334 Mendez Flats\nSouth Cindy, WY 33386"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-12",
+        "Location": "42280 Patrick Roads\nPaulside, WI 28848",
+        "Description": "Power wear skill beat another film. Across become when task most house. Rise drive blood.\nPerform hair read position partner act actually. Move over safe attack tonight style."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 114519
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28832
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 79025
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6081
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19462
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 175724,
+        "TotalApproved": 26559
+    },
+    "AdjusterDetails": {
+        "Name": "Gabrielle Daniels",
+        "ContactInformation": {
+            "Phone": "(603)730-4084x4488",
+            "Email": "kaylajohnson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/29765c52-dcf2-498e-a3b9-ce6ea1ce8f6c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-12T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-17T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-22T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

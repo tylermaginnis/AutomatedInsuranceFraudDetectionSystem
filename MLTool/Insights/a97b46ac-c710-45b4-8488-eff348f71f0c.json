@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a97b46ac-c710-45b4-8488-eff348f71f0c",
+    "PolicyID": "2f3201ff-0ef6-4a72-bdd4-1925a9709e30",
+    "EffectiveDates": {
+        "StartDate": "2024-01-14",
+        "EndDate": "2025-01-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "21489a1b-89b6-424e-8b25-ad7d24f12dbc",
+        "Name": "Anthony Gonzalez",
+        "PolicyNumber": "2f3201ff-0ef6-4a72-bdd4-1925a9709e30",
+        "ContactInformation": {
+            "Phone": "415-693-6869",
+            "Email": "brandtgary@example.org",
+            "Address": "PSC 1342, Box 0059\nAPO AP 64349"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-31",
+        "Location": "054 Reid Lake Apt. 892\nWest Benjamin, IN 10926",
+        "Description": "Sound customer good agree baby.\nMajor capital create. Answer close project arrive member cost. Beyond change war budget situation."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5150
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 115796
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 179617
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13423
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 89016
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 185319,
+        "TotalApproved": 180455
+    },
+    "AdjusterDetails": {
+        "Name": "Cassidy Mccall",
+        "ContactInformation": {
+            "Phone": "+1-559-398-0415",
+            "Email": "jonessteven@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c4d980c2-26b3-4afd-8ffa-a61585c397e1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-31T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-05T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-10T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b48f3be4-817f-4f3b-9d1d-8e4d56348b6a",
+    "PolicyID": "320465ef-97f2-42e7-9ae9-a3cf9215a64e",
+    "EffectiveDates": {
+        "StartDate": "2024-06-18",
+        "EndDate": "2025-06-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "eabb4d8f-ac2a-46fe-b4d9-f6f9ebf67bde",
+        "Name": "Michael Mejia",
+        "PolicyNumber": "320465ef-97f2-42e7-9ae9-a3cf9215a64e",
+        "ContactInformation": {
+            "Phone": "729-925-6917",
+            "Email": "derrickball@example.net",
+            "Address": "090 Roger Island\nHillport, NC 03165"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-24",
+        "Location": "Unit 1383 Box 8086\nDPO AA 40348",
+        "Description": "Suddenly teach movie age give high mission. Both finish walk surface really right.\nNever week turn have. Person woman she finally more lead box. According behavior prevent middle firm improve sense."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1424
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4041
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11638
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8437
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7341
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 45269,
+        "TotalApproved": 22088
+    },
+    "AdjusterDetails": {
+        "Name": "Roy Silva",
+        "ContactInformation": {
+            "Phone": "959-540-3972",
+            "Email": "brianmurphy@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c78cc30f-2980-4f2f-abef-8613ae767b5c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-24T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-01T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-06T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

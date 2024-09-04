@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f0c933fb-85b2-4f79-beed-88d66d66f47e",
+  "PolicyID": "9800f953-438c-4ce6-94bf-58ce72bfe892",
+  "EffectiveDates": {
+    "StartDate": "2023-12-28",
+    "EndDate": "2024-12-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1d166f21-eb96-4a70-b953-7f6941cd3a6e",
+    "Name": "Timothy Fry",
+    "PolicyNumber": "9800f953-438c-4ce6-94bf-58ce72bfe892",
+    "ContactInformation": {
+      "Phone": "5458181866",
+      "Email": "kcosta@example.net",
+      "Address": "63689 Rick Forges Suite 469\nLake Jasminefurt, WA 69899"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-01",
+    "Location": "4323 Campbell Path Suite 047\nMyersshire, SD 06481",
+    "Description": "Break believe force require but right last. Most special rule by. Tough visit story. Economy window everyone mention local."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1207
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 170864
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 13757
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4108
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 156356
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 111050,
+    "TotalApproved": 109709
+  },
+  "AdjusterDetails": {
+    "Name": "Christina Perez MD",
+    "ContactInformation": {
+      "Phone": "(357)677-7081x085",
+      "Email": "rebeccataylor@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/97771f13-235c-4b02-a60c-c879f37d62e7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-01T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-06T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-11T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

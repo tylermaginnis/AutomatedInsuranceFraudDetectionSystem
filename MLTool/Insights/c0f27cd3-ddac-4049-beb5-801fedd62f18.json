@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c0f27cd3-ddac-4049-beb5-801fedd62f18",
+    "PolicyID": "baeb86df-b3cb-4632-9deb-f743e6e31a92",
+    "EffectiveDates": {
+        "StartDate": "2024-01-01",
+        "EndDate": "2024-12-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f884d169-1807-4cd9-b6c6-27e3f24c496b",
+        "Name": "Alexandra Yu",
+        "PolicyNumber": "baeb86df-b3cb-4632-9deb-f743e6e31a92",
+        "ContactInformation": {
+            "Phone": "4292890091",
+            "Email": "brownjudy@example.org",
+            "Address": "0134 Daniel Estate\nJanicechester, TN 36965"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-09",
+        "Location": "63653 Camacho Ramp Suite 275\nOliverside, AZ 43913",
+        "Description": "Note different dark cause. Technology government a too game pattern when assume.\nFind street common activity care key especially type. Improve without their head let various summer. Bring after wear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9782
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4159
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33061
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41151
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 112777
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 171273,
+        "TotalApproved": 141160
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Hill",
+        "ContactInformation": {
+            "Phone": "(329)651-0848x628",
+            "Email": "wgrant@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/90dcdf64-d27d-4083-b089-63cff25d239b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-09T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-14T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-19T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

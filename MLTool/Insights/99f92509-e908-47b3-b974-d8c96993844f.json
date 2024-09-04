@@ -1,0 +1,81 @@
+{
+    "ClaimID": "99f92509-e908-47b3-b974-d8c96993844f",
+    "PolicyID": "06c4bc88-9455-49fe-ada2-a9e3b01aedc1",
+    "EffectiveDates": {
+        "StartDate": "2024-08-24",
+        "EndDate": "2025-08-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8bb1a9da-5daa-42e5-b94a-50e8401c16a2",
+        "Name": "Rebecca Williams",
+        "PolicyNumber": "06c4bc88-9455-49fe-ada2-a9e3b01aedc1",
+        "ContactInformation": {
+            "Phone": "001-889-234-3252x5973",
+            "Email": "fgay@example.org",
+            "Address": "9936 Ortiz Stravenue\nNew Sherrychester, WI 78100"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-15",
+        "Location": "98569 Medina Station\nRebeccamouth, AK 82949",
+        "Description": "Term eat economy the learn. Local table benefit wind apply tough. Either in direction free kind case real nice.\nOld agreement spring quite scene read issue. Leave may soon."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 81629
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 66795
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14770
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 152469
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 134478
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 36197,
+        "TotalApproved": 3203
+    },
+    "AdjusterDetails": {
+        "Name": "Leslie Johnson",
+        "ContactInformation": {
+            "Phone": "9413471805",
+            "Email": "skelly@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0358bc39-06c3-461e-bd64-f0860b92bfff"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

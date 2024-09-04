@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eec88c46-2af4-40a2-91ae-d888caaa1a6b",
+    "PolicyID": "c13d7075-33d9-4cb8-9f81-030a34a3be75",
+    "EffectiveDates": {
+        "StartDate": "2024-07-19",
+        "EndDate": "2025-07-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0b1b8861-c423-4ff2-92bf-a6fd5756d74a",
+        "Name": "Stacie Washington",
+        "PolicyNumber": "c13d7075-33d9-4cb8-9f81-030a34a3be75",
+        "ContactInformation": {
+            "Phone": "+1-770-334-6026",
+            "Email": "williamschristopher@example.net",
+            "Address": "557 Craig Drives Apt. 337\nJosephbury, VI 52996"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-22",
+        "Location": "327 Webb Meadows\nWest Katherinehaven, CT 13749",
+        "Description": "High natural certain. Compare get environmental.\nCare direction everybody environment. Necessary impact opportunity where least."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5311
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 99785
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1809
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49414
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33938
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 178726,
+        "TotalApproved": 65433
+    },
+    "AdjusterDetails": {
+        "Name": "Luis Cole",
+        "ContactInformation": {
+            "Phone": "514-487-6553",
+            "Email": "dustinkeller@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/55b88d23-a1d5-411d-9af5-f5258d1c5e83"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-01T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

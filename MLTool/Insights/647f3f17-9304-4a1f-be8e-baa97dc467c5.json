@@ -1,0 +1,81 @@
+{
+    "ClaimID": "647f3f17-9304-4a1f-be8e-baa97dc467c5",
+    "PolicyID": "d9d8e952-5c6b-4d0c-919f-8aaef4dd412a",
+    "EffectiveDates": {
+        "StartDate": "2024-01-27",
+        "EndDate": "2025-01-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9287f4bd-296c-493c-a7a2-ed585399fd5c",
+        "Name": "Calvin Lewis",
+        "PolicyNumber": "d9d8e952-5c6b-4d0c-919f-8aaef4dd412a",
+        "ContactInformation": {
+            "Phone": "001-437-771-9751",
+            "Email": "kevinfowler@example.org",
+            "Address": "76489 Tyler Haven\nSparksville, SD 68725"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-27",
+        "Location": "74642 Gomez Crescent Apt. 492\nCrossview, OK 69558",
+        "Description": "This force eight create memory past writer understand. Stock behind view study write. Most raise fine believe.\nRock practice to civil.\nRole partner such nature."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13591
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3424
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46651
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 98251
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2932
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 146128,
+        "TotalApproved": 19313
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Hall",
+        "ContactInformation": {
+            "Phone": "001-435-452-1847",
+            "Email": "kevinharris@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9c9b16a6-77fa-4a3c-9f58-e8ff58166d66"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-27T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-01T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-06T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

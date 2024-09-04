@@ -1,0 +1,81 @@
+{
+    "ClaimID": "651d0095-0a36-4e02-bb48-09a4eefdcc8c",
+    "PolicyID": "dcaad052-198e-4b05-91e8-f6780a2dccb4",
+    "EffectiveDates": {
+        "StartDate": "2023-12-07",
+        "EndDate": "2024-12-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c603d9a5-09a3-4295-909a-7fa621182c8f",
+        "Name": "Sean Leach",
+        "PolicyNumber": "dcaad052-198e-4b05-91e8-f6780a2dccb4",
+        "ContactInformation": {
+            "Phone": "(391)774-5309x769",
+            "Email": "xhines@example.com",
+            "Address": "73580 Melvin Lakes\nYorkbury, AZ 87057"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-30",
+        "Location": "493 Brooks Drive\nMartinview, OH 02299",
+        "Description": "Long tend perhaps summer deal. Few sort firm interesting month section. Happy into late bit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7351
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13659
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41125
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5311
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91713
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 188529,
+        "TotalApproved": 157368
+    },
+    "AdjusterDetails": {
+        "Name": "Laurie Davis",
+        "ContactInformation": {
+            "Phone": "001-791-736-6085x5903",
+            "Email": "ayalalinda@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a1af01de-80c6-4f55-9679-c0ea2d241006"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

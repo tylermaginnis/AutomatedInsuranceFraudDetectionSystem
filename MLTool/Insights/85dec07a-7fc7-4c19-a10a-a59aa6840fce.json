@@ -1,0 +1,81 @@
+{
+    "ClaimID": "85dec07a-7fc7-4c19-a10a-a59aa6840fce",
+    "PolicyID": "f3142d72-6148-4900-8269-a58748f57f7e",
+    "EffectiveDates": {
+        "StartDate": "2024-02-14",
+        "EndDate": "2025-02-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e5d510ab-59bd-4587-a593-1fda4bccb802",
+        "Name": "Courtney Holmes",
+        "PolicyNumber": "f3142d72-6148-4900-8269-a58748f57f7e",
+        "ContactInformation": {
+            "Phone": "001-974-812-1139x8063",
+            "Email": "courtneygarcia@example.com",
+            "Address": "749 Powell Crest Suite 926\nGuerreroview, MO 73121"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-23",
+        "Location": "21647 Torres Lane\nKevinport, WV 92434",
+        "Description": "Party relate style head take each. Arm simply not bit just already. Important three crime physical."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2712
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2170
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 96421
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 165595
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44617
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 95004,
+        "TotalApproved": 24002
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Moore",
+        "ContactInformation": {
+            "Phone": "(909)250-8529x25754",
+            "Email": "careybryan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/56cd8310-feb8-4077-9ee3-09a0142ba117"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-02T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

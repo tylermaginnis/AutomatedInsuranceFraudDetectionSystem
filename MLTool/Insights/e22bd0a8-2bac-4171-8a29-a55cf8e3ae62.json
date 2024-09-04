@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e22bd0a8-2bac-4171-8a29-a55cf8e3ae62",
+    "PolicyID": "e8e54ab5-9f0d-4efb-b961-b89a7700d05d",
+    "EffectiveDates": {
+        "StartDate": "2023-09-18",
+        "EndDate": "2024-09-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d087fb4c-f519-4dd8-ba77-21f9ccf6e307",
+        "Name": "Alison Mccarthy",
+        "PolicyNumber": "e8e54ab5-9f0d-4efb-b961-b89a7700d05d",
+        "ContactInformation": {
+            "Phone": "001-325-395-2934x24119",
+            "Email": "alexandracobb@example.net",
+            "Address": "PSC 4126, Box 0730\nAPO AP 74403"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-16",
+        "Location": "59317 Schultz Meadow Apt. 820\nWest Melaniefort, MH 40861",
+        "Description": "Girl provide third shoulder size. Tend manager guess offer tell. Build financial face forget door follow foreign. It sound meeting interest impact if."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31818
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62432
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6448
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7311
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7277
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 100482,
+        "TotalApproved": 37327
+    },
+    "AdjusterDetails": {
+        "Name": "Tiffany Stafford",
+        "ContactInformation": {
+            "Phone": "766-484-4132x191",
+            "Email": "hollyevans@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/aa26d1b4-4006-4fe0-94e2-c010cd2c4022"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-16T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-21T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-26T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

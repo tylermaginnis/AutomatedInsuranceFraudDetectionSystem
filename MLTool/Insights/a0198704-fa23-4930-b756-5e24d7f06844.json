@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a0198704-fa23-4930-b756-5e24d7f06844",
+    "PolicyID": "7683b2fc-4d8a-497b-a0b9-b58dd506e747",
+    "EffectiveDates": {
+        "StartDate": "2024-01-18",
+        "EndDate": "2025-01-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5d5127bc-eab0-4beb-95cb-d2332cc7dc2e",
+        "Name": "Chris Anderson Jr.",
+        "PolicyNumber": "7683b2fc-4d8a-497b-a0b9-b58dd506e747",
+        "ContactInformation": {
+            "Phone": "+1-306-552-9961x565",
+            "Email": "cpham@example.net",
+            "Address": "08235 John Wells\nCortezmouth, LA 98349"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-22",
+        "Location": "787 Miller Ports\nHorneside, RI 30214",
+        "Description": "Anything material something score little ever indicate. Finally respond series customer partner around here too."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9013
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5915
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49432
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20384
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 183210
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 28002,
+        "TotalApproved": 25389
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Hayes",
+        "ContactInformation": {
+            "Phone": "903.279.6150x063",
+            "Email": "acardenas@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d7de7618-5095-4e60-b4a7-e37492281196"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

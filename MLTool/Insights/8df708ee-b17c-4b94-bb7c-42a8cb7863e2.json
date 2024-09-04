@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8df708ee-b17c-4b94-bb7c-42a8cb7863e2",
+    "PolicyID": "a95c2b94-e625-41ca-8414-b9696f18f3f6",
+    "EffectiveDates": {
+        "StartDate": "2024-01-20",
+        "EndDate": "2025-01-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b401a638-953b-44d4-a689-81e88b0aae7a",
+        "Name": "Nicholas Walters",
+        "PolicyNumber": "a95c2b94-e625-41ca-8414-b9696f18f3f6",
+        "ContactInformation": {
+            "Phone": "833-961-9459x2140",
+            "Email": "donnablack@example.net",
+            "Address": "8186 Lauren Camp\nNorth Dominique, AS 31719"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-30",
+        "Location": "959 Rogers Isle\nPort Jeff, HI 70700",
+        "Description": "Purpose beautiful high.\nDown apply enough theory. Near off modern court decision listen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26359
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42890
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14290
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6894
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 46891
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 146867,
+        "TotalApproved": 75561
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Peterson",
+        "ContactInformation": {
+            "Phone": "+1-420-682-9234",
+            "Email": "rellis@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/29cb88c5-9dac-4a5e-a018-d0845799f265"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

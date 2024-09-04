@@ -1,0 +1,81 @@
+{
+    "ClaimID": "84360777-e4ac-4539-bdeb-cfab2b37b6d1",
+    "PolicyID": "a5bc1aae-fb31-4670-a950-9fdb433ef9d3",
+    "EffectiveDates": {
+        "StartDate": "2024-02-05",
+        "EndDate": "2025-02-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c98a905d-8814-4606-ab77-b89f6fe47d83",
+        "Name": "Robert Dixon",
+        "PolicyNumber": "a5bc1aae-fb31-4670-a950-9fdb433ef9d3",
+        "ContactInformation": {
+            "Phone": "+1-917-535-2666x17968",
+            "Email": "cscott@example.net",
+            "Address": "3877 Michael Well Suite 232\nJasonton, MA 32640"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-25",
+        "Location": "20938 Price Fall\nEast Jacobland, MA 82204",
+        "Description": "Others employee manage memory career person. Computer political kitchen successful turn. After into may age grow."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37209
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 164191
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7276
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10754
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8092
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 157898,
+        "TotalApproved": 44872
+    },
+    "AdjusterDetails": {
+        "Name": "James Kelly",
+        "ContactInformation": {
+            "Phone": "+1-577-916-1237",
+            "Email": "nancy82@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5a51318b-ce35-40d7-a9f9-04abd82a86e9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-30T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

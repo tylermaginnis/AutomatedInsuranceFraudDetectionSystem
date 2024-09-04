@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6a4f3d10-7fa3-4f86-a5c0-054ad0d37669",
+  "PolicyID": "8a400cab-58ce-48ef-bd79-10c90b5f06a0",
+  "EffectiveDates": {
+    "StartDate": "2024-08-04",
+    "EndDate": "2025-08-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e5418adc-5a20-4686-8251-fa77d06dd33f",
+    "Name": "Traci Guzman DDS",
+    "PolicyNumber": "8a400cab-58ce-48ef-bd79-10c90b5f06a0",
+    "ContactInformation": {
+      "Phone": "+1-959-723-5696x6420",
+      "Email": "mharris@example.org",
+      "Address": "PSC 7115, Box 2374\nAPO AP 39672"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-30",
+    "Location": "695 Hoffman Park Suite 011\nDerekborough, MS 93964",
+    "Description": "History air enjoy with. Worker suffer make area hear share guess data. Determine network there foreign you point."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6224
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 75424
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 71647
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 124848
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 172464
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 24573,
+    "TotalApproved": 7570
+  },
+  "AdjusterDetails": {
+    "Name": "Andrew Arellano",
+    "ContactInformation": {
+      "Phone": "848.761.4948x01816",
+      "Email": "erice@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/e02e2184-db92-4d2d-b004-056d721655e1"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-30T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-05T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-10T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

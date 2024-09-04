@@ -1,0 +1,80 @@
+{
+  "ClaimID": "365048c5-27b2-4bce-b61d-27cfbdf95f99",
+  "PolicyID": "5d8a5693-376c-4619-870c-a2e626e4c9a0",
+  "EffectiveDates": {
+    "StartDate": "2024-01-13",
+    "EndDate": "2025-01-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "76eb4af6-c9b8-4246-98ad-31dcc55f9f33",
+    "Name": "Jennifer Davis",
+    "PolicyNumber": "5d8a5693-376c-4619-870c-a2e626e4c9a0",
+    "ContactInformation": {
+      "Phone": "909.912.5799",
+      "Email": "paulmarissa@example.net",
+      "Address": "531 Ortega Lodge\nPageton, IL 15156"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-20",
+    "Location": "986 Schwartz Court\nMcleanshire, TX 56914",
+    "Description": "Control child example capital. Simple join probably economic threat speech carry.\nRecognize art quickly personal beat indicate act nearly."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5004
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 29017
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8859
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 26567
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 35053
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 11919,
+    "TotalApproved": 10496
+  },
+  "AdjusterDetails": {
+    "Name": "Jerome Anthony",
+    "ContactInformation": {
+      "Phone": "7605516821",
+      "Email": "dawncrawford@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/c13ada6b-203e-4ebd-a803-1ff2f8925acd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-20T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-25T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-30T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

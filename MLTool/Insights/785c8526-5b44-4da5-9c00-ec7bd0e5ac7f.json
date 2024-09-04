@@ -1,0 +1,81 @@
+{
+    "ClaimID": "785c8526-5b44-4da5-9c00-ec7bd0e5ac7f",
+    "PolicyID": "ef37a0b5-8bb4-442b-be54-00d776eade83",
+    "EffectiveDates": {
+        "StartDate": "2024-07-01",
+        "EndDate": "2025-07-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "17df6c7c-56e6-4702-8623-71575d30121d",
+        "Name": "Claire Cohen",
+        "PolicyNumber": "ef37a0b5-8bb4-442b-be54-00d776eade83",
+        "ContactInformation": {
+            "Phone": "+1-774-462-6363x286",
+            "Email": "cabrerarobert@example.net",
+            "Address": "28113 Thornton Parks\nBrandontown, OH 60375"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-11",
+        "Location": "4199 April Fork Apt. 192\nNorth Brandy, NJ 06256",
+        "Description": "That him voice throughout question such. Card all make coach several. Movie individual military meeting campaign do push."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11117
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 105976
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11054
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16554
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3087
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116835,
+        "TotalApproved": 16364
+    },
+    "AdjusterDetails": {
+        "Name": "Jeffrey Young",
+        "ContactInformation": {
+            "Phone": "566.933.5096",
+            "Email": "anthonyhayes@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/95b25d01-d62f-499b-979a-6150d2535466"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-11T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-16T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-21T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

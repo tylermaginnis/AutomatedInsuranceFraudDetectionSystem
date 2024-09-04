@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ffe1b065-22cd-49e7-9e4b-37ea6a6e3285",
+  "PolicyID": "c2afc456-0a22-461c-828f-456457389e36",
+  "EffectiveDates": {
+    "StartDate": "2024-05-14",
+    "EndDate": "2025-05-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1b5846bf-3a5b-4fdd-a530-77d829441d04",
+    "Name": "Crystal Clark",
+    "PolicyNumber": "c2afc456-0a22-461c-828f-456457389e36",
+    "ContactInformation": {
+      "Phone": "001-422-595-1363x553",
+      "Email": "clarknicole@example.com",
+      "Address": "Unit 8630 Box 4628\nDPO AE 08169"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-15",
+    "Location": "USS Mccormick\nFPO AP 45555",
+    "Description": "Pressure light late. Across class have office attack authority. Training bank nation set realize option.\nCollection lead just scene especially. Enjoy sense send hot move data moment city."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2875
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13353
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17786
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 27465
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 36398
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 87137,
+    "TotalApproved": 78439
+  },
+  "AdjusterDetails": {
+    "Name": "Troy Davila",
+    "ContactInformation": {
+      "Phone": "(669)324-5525x3128",
+      "Email": "bellgeorge@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/87bc9386-6190-4151-b8c7-0707d6ac55c5"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-15T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-20T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-25T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

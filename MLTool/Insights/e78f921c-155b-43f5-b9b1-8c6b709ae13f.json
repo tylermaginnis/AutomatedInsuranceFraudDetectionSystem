@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e78f921c-155b-43f5-b9b1-8c6b709ae13f",
+    "PolicyID": "ca2c1b15-a364-4717-91c9-028d68a7d643",
+    "EffectiveDates": {
+        "StartDate": "2024-05-24",
+        "EndDate": "2025-05-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "250b97c6-0245-4c17-bfdf-21d64c484fb6",
+        "Name": "Jessica Ryan",
+        "PolicyNumber": "ca2c1b15-a364-4717-91c9-028d68a7d643",
+        "ContactInformation": {
+            "Phone": "337-239-3037x84278",
+            "Email": "dianagraves@example.net",
+            "Address": "2273 Laura Rapid Suite 353\nPort Kurt, NM 19651"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-03",
+        "Location": "8461 Pamela Extension Suite 763\nNorth Kathyborough, VA 60672",
+        "Description": "Skin challenge keep up activity. Card reflect financial serve specific education.\nWoman catch to most.\nPlant how heart. Attack yard recently time."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1330
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 68770
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 165037
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 134816
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9610
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 77913,
+        "TotalApproved": 71200
+    },
+    "AdjusterDetails": {
+        "Name": "Nicholas Phillips",
+        "ContactInformation": {
+            "Phone": "001-369-280-3343",
+            "Email": "chamilton@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3adf93c5-cf26-4a3b-9419-c24489eb4ae7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-03T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-08T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-13T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

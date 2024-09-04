@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9093865e-4947-43c8-b01a-46d286880aa1",
+  "PolicyID": "5ff373e9-fd86-4c32-9ada-cf541cb0f8e8",
+  "EffectiveDates": {
+    "StartDate": "2023-11-29",
+    "EndDate": "2024-11-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "37b32b59-dde6-4267-a622-c2a22a545ea9",
+    "Name": "Dawn Wright",
+    "PolicyNumber": "5ff373e9-fd86-4c32-9ada-cf541cb0f8e8",
+    "ContactInformation": {
+      "Phone": "985.601.4988x1961",
+      "Email": "morgankathleen@example.com",
+      "Address": "379 Veronica Cliff\nMeredithchester, FM 34537"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-08",
+    "Location": "5197 Morgan Overpass Suite 921\nCookeland, AS 58141",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 68493
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 28127
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5548
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16133
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 15835
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 134136,
+    "TotalApproved": 108879
+  },
+  "AdjusterDetails": {
+    "Name": "Megan Reed",
+    "ContactInformation": {
+      "Phone": "782-274-8136",
+      "Email": "ksummers@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/7e1f8b35-78df-431b-ad63-7bb6aaabcb55"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-08T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-13T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-18T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

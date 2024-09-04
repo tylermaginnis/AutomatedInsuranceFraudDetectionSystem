@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a0ae9312-2491-4df4-8fc4-137f3f3b8957",
+    "PolicyID": "f11329c3-72a4-45ff-bfd4-f1ceae39b406",
+    "EffectiveDates": {
+        "StartDate": "2024-05-18",
+        "EndDate": "2025-05-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0b13ea5e-258b-4c51-95e3-dbba07f22e95",
+        "Name": "Scott Anderson",
+        "PolicyNumber": "f11329c3-72a4-45ff-bfd4-f1ceae39b406",
+        "ContactInformation": {
+            "Phone": "598.556.0661x04080",
+            "Email": "elizabeth08@example.net",
+            "Address": "43796 Danny Canyon Apt. 120\nCollinsville, MS 48467"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-04",
+        "Location": "996 Kristy Springs Apt. 015\nLake Lindsey, OH 60371",
+        "Description": "Such old cut behind at. Consider visit consumer soldier high.\nReveal word wall conference worry."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 51218
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6632
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27831
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 107811
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34248
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 50760,
+        "TotalApproved": 21174
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Russell",
+        "ContactInformation": {
+            "Phone": "001-815-731-6047x28793",
+            "Email": "heathermorgan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/31c36dde-4878-46f3-a3bb-c5d00c1e15a0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-04T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-09T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-14T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

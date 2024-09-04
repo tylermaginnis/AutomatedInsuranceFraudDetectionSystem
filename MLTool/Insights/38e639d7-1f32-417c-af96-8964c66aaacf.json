@@ -1,0 +1,81 @@
+{
+    "ClaimID": "38e639d7-1f32-417c-af96-8964c66aaacf",
+    "PolicyID": "6e1f2038-1c0a-4839-a75a-caf5eaeba68b",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d27b14e3-2d14-40b0-bb22-7699fab32edf",
+        "Name": "Cathy Carlson",
+        "PolicyNumber": "6e1f2038-1c0a-4839-a75a-caf5eaeba68b",
+        "ContactInformation": {
+            "Phone": "393-343-9859x441",
+            "Email": "wilsonzachary@example.org",
+            "Address": "199 Karen Bridge\nSouth Edward, NY 69944"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-05",
+        "Location": "28170 Ronald Key Suite 039\nJamesbury, MN 62805",
+        "Description": "More road in technology.\nPublic least easy raise. Attack never red than."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42753
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 143787
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6618
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8465
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6701
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 148750,
+        "TotalApproved": 90041
+    },
+    "AdjusterDetails": {
+        "Name": "Jon Davidson",
+        "ContactInformation": {
+            "Phone": "+1-803-370-5480",
+            "Email": "hallerin@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9a64fbe6-61d3-4247-a5ff-23f25aff9299"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

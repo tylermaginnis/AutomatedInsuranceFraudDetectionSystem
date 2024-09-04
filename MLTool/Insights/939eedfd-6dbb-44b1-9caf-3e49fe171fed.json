@@ -1,0 +1,81 @@
+{
+    "ClaimID": "939eedfd-6dbb-44b1-9caf-3e49fe171fed",
+    "PolicyID": "eeec77db-e3d2-43e0-bf2d-6c4448b5c04f",
+    "EffectiveDates": {
+        "StartDate": "2023-10-04",
+        "EndDate": "2024-10-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a80836eb-6c5a-4cf5-9999-880deaaaa73c",
+        "Name": "Dr. Paul Bryant",
+        "PolicyNumber": "eeec77db-e3d2-43e0-bf2d-6c4448b5c04f",
+        "ContactInformation": {
+            "Phone": "385-669-1000x601",
+            "Email": "malik90@example.com",
+            "Address": "4020 Adam Mountain Apt. 508\nNew Michaelfort, GU 73800"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-14",
+        "Location": "Unit 8184 Box 7161\nDPO AE 71943",
+        "Description": "Draw represent suddenly season stage material.\nEntire agreement pull imagine few over order. Have drive manage bit class security. Discuss hospital identify avoid seat fight.\nThough memory how."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10357
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5518
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41720
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16165
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4394
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 158225,
+        "TotalApproved": 99985
+    },
+    "AdjusterDetails": {
+        "Name": "Andrea Johnson",
+        "ContactInformation": {
+            "Phone": "6363568439",
+            "Email": "andrew82@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/394d336b-06ca-47f6-93cb-5cb108c46cb0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

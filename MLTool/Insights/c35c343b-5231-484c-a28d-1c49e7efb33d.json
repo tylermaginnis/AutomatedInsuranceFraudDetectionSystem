@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c35c343b-5231-484c-a28d-1c49e7efb33d",
+    "PolicyID": "968e0045-c6df-443d-a614-7abf1cecc56c",
+    "EffectiveDates": {
+        "StartDate": "2024-03-07",
+        "EndDate": "2025-03-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "255b4fda-bb01-41b8-874e-39c77a3a093e",
+        "Name": "David Dorsey",
+        "PolicyNumber": "968e0045-c6df-443d-a614-7abf1cecc56c",
+        "ContactInformation": {
+            "Phone": "944.949.5078x2023",
+            "Email": "karen96@example.com",
+            "Address": "PSC 7889, Box 2176\nAPO AP 94375"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-16",
+        "Location": "4813 Henry Village Suite 830\nNathanielhaven, RI 19436",
+        "Description": "Growth seek too cup.\nSpeak though concern political tell. Challenge nothing season another hard actually upon cover. Cold north the still visit create. Avoid yeah anyone."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 36497
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8687
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 105194
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 97435
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 123538
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 115460,
+        "TotalApproved": 23277
+    },
+    "AdjusterDetails": {
+        "Name": "Jeffrey Schwartz",
+        "ContactInformation": {
+            "Phone": "2332876351",
+            "Email": "katherine47@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a43941f8-a21b-4032-a95e-d999f43ae192"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

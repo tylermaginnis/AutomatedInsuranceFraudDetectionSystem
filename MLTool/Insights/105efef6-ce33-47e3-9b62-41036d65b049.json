@@ -1,0 +1,81 @@
+{
+    "ClaimID": "105efef6-ce33-47e3-9b62-41036d65b049",
+    "PolicyID": "d7fc3e5d-c779-422f-aef8-1448337f617e",
+    "EffectiveDates": {
+        "StartDate": "2024-07-15",
+        "EndDate": "2025-07-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1a778eb2-8b2c-4e48-8806-8f843175a47b",
+        "Name": "Kenneth Mays",
+        "PolicyNumber": "d7fc3e5d-c779-422f-aef8-1448337f617e",
+        "ContactInformation": {
+            "Phone": "385-511-2327x141",
+            "Email": "qmullins@example.com",
+            "Address": "460 Brown Village Apt. 339\nNew James, CT 73836"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-05",
+        "Location": "39178 Perez Meadows\nLake Amy, RI 89763",
+        "Description": "Yet process big. Sister simple team strong generation art."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 30139
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34393
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8732
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36997
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12383
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 15880,
+        "TotalApproved": 4483
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Powers",
+        "ContactInformation": {
+            "Phone": "001-400-556-4407x8658",
+            "Email": "gerald32@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/14f244f9-2851-40b1-bb5a-684551d5bdaa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

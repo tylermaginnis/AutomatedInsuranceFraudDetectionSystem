@@ -1,0 +1,81 @@
+{
+    "ClaimID": "410786bc-39bf-460f-9f33-db114921c705",
+    "PolicyID": "08ad37c1-7cab-4335-b04a-77e53bccaf4c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-03",
+        "EndDate": "2025-05-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "88fcac4e-9594-4245-91b1-1450660a4e7c",
+        "Name": "Janice Knight",
+        "PolicyNumber": "08ad37c1-7cab-4335-b04a-77e53bccaf4c",
+        "ContactInformation": {
+            "Phone": "+1-881-629-2477x3404",
+            "Email": "brittneywright@example.com",
+            "Address": "Unit 2994 Box 8338\nDPO AA 38107"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-06",
+        "Location": "552 Michelle Burgs\nNorth Amanda, WA 65992",
+        "Description": "Wait scientist good do marriage not. Manage however pull."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32061
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3812
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32882
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6662
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7393
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 128012,
+        "TotalApproved": 91306
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Figueroa",
+        "ContactInformation": {
+            "Phone": "001-687-770-8200x3632",
+            "Email": "grant65@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/cbe7bbdd-643b-47c2-823b-2f39f0a37f2a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

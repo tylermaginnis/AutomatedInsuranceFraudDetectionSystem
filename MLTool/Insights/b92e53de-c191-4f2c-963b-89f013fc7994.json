@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b92e53de-c191-4f2c-963b-89f013fc7994",
+    "PolicyID": "795b929b-e739-4805-8217-970f75859cc7",
+    "EffectiveDates": {
+        "StartDate": "2023-12-20",
+        "EndDate": "2024-12-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "450a895b-52af-4f9a-907a-801319534c3b",
+        "Name": "Mark Howard",
+        "PolicyNumber": "795b929b-e739-4805-8217-970f75859cc7",
+        "ContactInformation": {
+            "Phone": "(523)680-6322x47875",
+            "Email": "william87@example.com",
+            "Address": "017 Delgado Harbor\nEast Gregory, WV 29116"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-26",
+        "Location": "67288 Kendra Junction Suite 936\nTonyastad, DE 66036",
+        "Description": "Foot involve respond herself. Despite remember determine while generation."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6219
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5221
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41720
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 50728
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3997
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 102119,
+        "TotalApproved": 45649
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Larson",
+        "ContactInformation": {
+            "Phone": "+1-839-446-9201",
+            "Email": "shuff@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1fd6d818-1aa4-4001-aaf4-d362b5576bc3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-26T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-01T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-06T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

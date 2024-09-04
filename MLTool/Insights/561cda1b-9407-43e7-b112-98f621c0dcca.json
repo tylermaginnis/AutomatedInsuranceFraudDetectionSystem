@@ -1,0 +1,81 @@
+{
+    "ClaimID": "561cda1b-9407-43e7-b112-98f621c0dcca",
+    "PolicyID": "6f92f585-ce8c-446f-8e9d-6aaac609984a",
+    "EffectiveDates": {
+        "StartDate": "2024-01-20",
+        "EndDate": "2025-01-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d135d12b-9b5a-4ab5-b329-0f68c11d17ec",
+        "Name": "Jennifer Wood",
+        "PolicyNumber": "6f92f585-ce8c-446f-8e9d-6aaac609984a",
+        "ContactInformation": {
+            "Phone": "762.393.6857x89546",
+            "Email": "dustin64@example.net",
+            "Address": "03224 Anderson Track\nMichaelbury, MA 03484"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-30",
+        "Location": "78575 Grimes Extensions\nJosephburgh, AK 94853",
+        "Description": "Various some me lose agent perform hold cost. Option interesting high stock environment piece partner Congress."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2809
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12058
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11036
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23163
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 56773
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 69228,
+        "TotalApproved": 64597
+    },
+    "AdjusterDetails": {
+        "Name": "Kathleen Henry",
+        "ContactInformation": {
+            "Phone": "+1-583-911-2461x389",
+            "Email": "carterchristopher@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/49bd4441-ffb4-4e81-a739-fb7d375ab47e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-30T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

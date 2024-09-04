@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b49f9138-56b7-469a-950e-e37d66c4d655",
+    "PolicyID": "98875a3d-892b-4f9e-a55f-67ba9ac04d55",
+    "EffectiveDates": {
+        "StartDate": "2024-04-08",
+        "EndDate": "2025-04-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6481c2d8-1ce6-43bc-9fc4-e4225c82cf78",
+        "Name": "John Garcia",
+        "PolicyNumber": "98875a3d-892b-4f9e-a55f-67ba9ac04d55",
+        "ContactInformation": {
+            "Phone": "4747834377",
+            "Email": "garciapatricia@example.org",
+            "Address": "8351 Nicole Spurs Suite 077\nNorth Amyfurt, VT 86666"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-24",
+        "Location": "5772 Macias Spurs Suite 049\nJohnsonbury, AR 37803",
+        "Description": "Along serve consider usually general. Various moment line newspaper although.\nControl somebody list wear sing thing have. According dream laugh hundred compare. College myself for."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 57341
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 45131
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7479
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16898
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8222
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 175769,
+        "TotalApproved": 124628
+    },
+    "AdjusterDetails": {
+        "Name": "Cynthia Douglas",
+        "ContactInformation": {
+            "Phone": "575-913-8048x10284",
+            "Email": "jacobdunlap@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7c46db9c-77c8-4441-8a11-a5013132a0b2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-24T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-29T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

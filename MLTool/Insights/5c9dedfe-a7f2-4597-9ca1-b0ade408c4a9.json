@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5c9dedfe-a7f2-4597-9ca1-b0ade408c4a9",
+    "PolicyID": "bbf5db28-e609-4d5c-ad1e-807eb4a6f198",
+    "EffectiveDates": {
+        "StartDate": "2024-02-29",
+        "EndDate": "2025-02-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "da6a1623-f0da-4a45-a892-3c9cc981879c",
+        "Name": "Victor Bullock",
+        "PolicyNumber": "bbf5db28-e609-4d5c-ad1e-807eb4a6f198",
+        "ContactInformation": {
+            "Phone": "+1-604-703-2858",
+            "Email": "davidpoole@example.net",
+            "Address": "PSC 2790, Box 5308\nAPO AE 05204"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-31",
+        "Location": "USS Grimes\nFPO AA 84707",
+        "Description": "Save want here service soon help great. Little easy west media option. Less hundred beyond although."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 71648
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 75144
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 43033
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15253
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 43776
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 170761,
+        "TotalApproved": 15978
+    },
+    "AdjusterDetails": {
+        "Name": "Kurt Mendoza",
+        "ContactInformation": {
+            "Phone": "5079171970",
+            "Email": "kevin42@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/19d6d94d-4164-436c-b56e-c1621a8d8e88"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-31T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

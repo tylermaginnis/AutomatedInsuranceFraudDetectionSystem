@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9b8246ca-ad21-4e9f-bb6f-6f57548c399a",
+    "PolicyID": "a01cc237-aede-4e5e-a67c-a072d99ee50a",
+    "EffectiveDates": {
+        "StartDate": "2024-04-14",
+        "EndDate": "2025-04-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "665443c4-d350-4d58-8ab4-8bb96ee74302",
+        "Name": "Bryan Bryan MD",
+        "PolicyNumber": "a01cc237-aede-4e5e-a67c-a072d99ee50a",
+        "ContactInformation": {
+            "Phone": "001-290-935-3560x031",
+            "Email": "tdavis@example.com",
+            "Address": "20805 Sharon Terrace Apt. 593\nMichaelfurt, AS 18377"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-08",
+        "Location": "PSC 5357, Box 9969\nAPO AE 72765",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 91497
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29925
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8648
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12626
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7430
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 150126,
+        "TotalApproved": 86536
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Velez",
+        "ContactInformation": {
+            "Phone": "306.519.1116",
+            "Email": "uwoodward@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7fbf356f-74f0-49c6-9fc6-1407f56f4e39"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-08T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-13T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-18T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

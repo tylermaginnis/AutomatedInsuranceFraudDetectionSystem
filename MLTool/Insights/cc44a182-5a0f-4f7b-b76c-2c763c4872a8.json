@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cc44a182-5a0f-4f7b-b76c-2c763c4872a8",
+    "PolicyID": "13744d29-d276-4bd1-8b9e-1bea89019c7b",
+    "EffectiveDates": {
+        "StartDate": "2023-09-25",
+        "EndDate": "2024-09-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "43f4f2d9-299e-4f45-b03f-08fc3fbd12b7",
+        "Name": "Susan Lane",
+        "PolicyNumber": "13744d29-d276-4bd1-8b9e-1bea89019c7b",
+        "ContactInformation": {
+            "Phone": "(415)507-9032",
+            "Email": "banksgwendolyn@example.net",
+            "Address": "70383 Darrell Villages\nLake Heather, NE 08801"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-29",
+        "Location": "382 Steve Prairie Suite 014\nEast Brandon, ID 97805",
+        "Description": "Trip one true treatment nearly. Per reveal early same paper."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6868
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 55070
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3889
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 169819
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39027
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 113688,
+        "TotalApproved": 90511
+    },
+    "AdjusterDetails": {
+        "Name": "Susan Johnson",
+        "ContactInformation": {
+            "Phone": "(623)563-6927x794",
+            "Email": "mason79@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4b25f7c5-c867-46cb-a118-c2024a376f7d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-29T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-04T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-09T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

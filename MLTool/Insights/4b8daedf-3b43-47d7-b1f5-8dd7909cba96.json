@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4b8daedf-3b43-47d7-b1f5-8dd7909cba96",
+    "PolicyID": "2c23b41b-855e-486f-a94f-048fc974b060",
+    "EffectiveDates": {
+        "StartDate": "2024-06-24",
+        "EndDate": "2025-06-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b215bb44-719a-4dd3-9b84-82b8b5fecbf7",
+        "Name": "Richard Collins",
+        "PolicyNumber": "2c23b41b-855e-486f-a94f-048fc974b060",
+        "ContactInformation": {
+            "Phone": "001-315-266-7601x56161",
+            "Email": "gmatthews@example.net",
+            "Address": "7823 Todd Throughway\nLake Rebeccaville, MO 18452"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "81327 Nicole Fort Suite 065\nLarryberg, MI 73287",
+        "Description": "Must identify and standard fall. Class couple writer compare. Data value because rise.\nCommercial Republican serve television out couple mention."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44268
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21313
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10807
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 122173
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17848
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 135750,
+        "TotalApproved": 131028
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Smith",
+        "ContactInformation": {
+            "Phone": "399.365.6251x21215",
+            "Email": "esmith@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d0809921-ab4a-4f33-971c-1ca390ca9262"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

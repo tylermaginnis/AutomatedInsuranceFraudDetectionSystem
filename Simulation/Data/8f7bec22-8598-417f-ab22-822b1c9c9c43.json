@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8f7bec22-8598-417f-ab22-822b1c9c9c43",
+  "PolicyID": "0bd81212-4af4-4837-8c7f-a5f5922ec09f",
+  "EffectiveDates": {
+    "StartDate": "2023-11-26",
+    "EndDate": "2024-11-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "698f82af-5885-4c5d-8a52-f088b2234b24",
+    "Name": "Nancy Garcia",
+    "PolicyNumber": "0bd81212-4af4-4837-8c7f-a5f5922ec09f",
+    "ContactInformation": {
+      "Phone": "+1-892-375-1209",
+      "Email": "richard35@example.org",
+      "Address": "6601 Hernandez Rapids\nTinatown, VT 37304"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-01-26",
+    "Location": "PSC 5106, Box 0733\nAPO AP 00727",
+    "Description": "Class see figure sea. Capital often program experience material high."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 95032
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 12114
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5657
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7204
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7272
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 145122,
+    "TotalApproved": 69897
+  },
+  "AdjusterDetails": {
+    "Name": "Jason Hayden",
+    "ContactInformation": {
+      "Phone": "(481)273-9197",
+      "Email": "danielparker@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/686aaab6-d780-4275-aa37-92cb7ade0b97"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-01-26T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-31T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-02-05T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9db9e6b0-231b-47bc-b3ce-d8952c7593f9",
+    "PolicyID": "4e9b42c2-ce13-4540-b0d4-63c4e429b11d",
+    "EffectiveDates": {
+        "StartDate": "2024-04-20",
+        "EndDate": "2025-04-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "169b079b-a2f1-4d2b-b031-f026dfa22df5",
+        "Name": "Robert Scott",
+        "PolicyNumber": "4e9b42c2-ce13-4540-b0d4-63c4e429b11d",
+        "ContactInformation": {
+            "Phone": "9427343410",
+            "Email": "april72@example.com",
+            "Address": "1393 Gonzalez Glens Apt. 041\nNew Michaelchester, ID 79607"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-17",
+        "Location": "38072 Robertson Plains Apt. 344\nNew Seanfort, IL 72434",
+        "Description": "Treatment simply sister many investment. Father owner behind law.\nHead gas several huge change enter. Participant amount administration really."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6074
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 99917
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20009
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10147
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28044
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 146628,
+        "TotalApproved": 87780
+    },
+    "AdjusterDetails": {
+        "Name": "Olivia Sandoval",
+        "ContactInformation": {
+            "Phone": "751-549-0599x733",
+            "Email": "tthomas@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b04f77ec-4ee7-4a1a-819b-d1b049198faf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

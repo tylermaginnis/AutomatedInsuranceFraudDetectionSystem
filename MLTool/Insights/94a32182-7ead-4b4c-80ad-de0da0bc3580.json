@@ -1,0 +1,81 @@
+{
+    "ClaimID": "94a32182-7ead-4b4c-80ad-de0da0bc3580",
+    "PolicyID": "618f159d-197e-4d21-8d40-2a015f3b220e",
+    "EffectiveDates": {
+        "StartDate": "2024-08-31",
+        "EndDate": "2025-08-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "eb682955-7041-4187-aa67-0f4c081720fe",
+        "Name": "David Kim",
+        "PolicyNumber": "618f159d-197e-4d21-8d40-2a015f3b220e",
+        "ContactInformation": {
+            "Phone": "001-833-729-0170x9184",
+            "Email": "andre91@example.net",
+            "Address": "9671 Hall Estates Apt. 675\nEast Davidhaven, RI 25582"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-21",
+        "Location": "36397 Jones Island Apt. 882\nMcculloughfurt, HI 75556",
+        "Description": "Involve safe like dog.\nClear professor art draw a. Suddenly require position upon nothing. Produce hold reach mean hospital."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17719
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 192091
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14285
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19861
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8859
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 22735,
+        "TotalApproved": 14051
+    },
+    "AdjusterDetails": {
+        "Name": "David Williams",
+        "ContactInformation": {
+            "Phone": "995-426-2266",
+            "Email": "eschneider@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e639f9bd-4fe9-405d-bd9c-ae7c9a4da0dc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-31T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

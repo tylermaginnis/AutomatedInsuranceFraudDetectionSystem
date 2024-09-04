@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4e8ddbd3-f384-4ae9-bd73-298ffa8de2c8",
+    "PolicyID": "b9487cfc-2a7a-4c29-84c8-0787ecc15acf",
+    "EffectiveDates": {
+        "StartDate": "2024-07-01",
+        "EndDate": "2025-07-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a5bc2de9-2edc-4324-8ddc-b3bfbb09b9fc",
+        "Name": "Douglas Schroeder",
+        "PolicyNumber": "b9487cfc-2a7a-4c29-84c8-0787ecc15acf",
+        "ContactInformation": {
+            "Phone": "673.636.1879x1879",
+            "Email": "aaron17@example.org",
+            "Address": "6815 Ramirez Streets\nWest Mark, TN 57384"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-01",
+        "Location": "22982 Lopez Manors Suite 233\nNew Nancy, MN 59329",
+        "Description": "Interesting score small account. Beyond close foreign much read. Choice amount ready myself nearly particular wide."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14273
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17369
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2732
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35528
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4659
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 44995,
+        "TotalApproved": 5758
+    },
+    "AdjusterDetails": {
+        "Name": "David Lewis",
+        "ContactInformation": {
+            "Phone": "8783476735",
+            "Email": "heather22@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/eef77d9c-75f7-485b-9b38-c4b09bfa31bc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-01T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-06T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-11T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

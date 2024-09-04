@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6a12a0ee-d47c-40e2-b762-e4e7df345f56",
+    "PolicyID": "3c045146-a88e-4e13-af61-c9fa28cde58a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b866c14-bd5b-494c-8659-272f598325f8",
+        "Name": "Bryan Andrade",
+        "PolicyNumber": "3c045146-a88e-4e13-af61-c9fa28cde58a",
+        "ContactInformation": {
+            "Phone": "(907)305-6126x506",
+            "Email": "newmanmichele@example.org",
+            "Address": "127 Christian Stravenue\nMatthewshire, KS 88710"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-07",
+        "Location": "537 Heather Junction Suite 407\nPort Wendyville, VT 52183",
+        "Description": "Decision support tell traditional. Election give third determine culture available fast. View factor hope popular structure continue.\nAgent large trial ground. Term plan threat television."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37050
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9436
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3843
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2124
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7033
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 25186,
+        "TotalApproved": 6037
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Murphy",
+        "ContactInformation": {
+            "Phone": "950-941-4475x866",
+            "Email": "edward94@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2db71000-c4cd-40a2-b257-e995b445fb82"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-07T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-12T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-17T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

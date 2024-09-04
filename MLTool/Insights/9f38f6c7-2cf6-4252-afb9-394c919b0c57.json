@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9f38f6c7-2cf6-4252-afb9-394c919b0c57",
+    "PolicyID": "1e7d7517-7755-48f9-ae7f-c06c2393abcb",
+    "EffectiveDates": {
+        "StartDate": "2023-10-20",
+        "EndDate": "2024-10-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "99ee0ee3-db45-4aaa-8976-297d83ba2784",
+        "Name": "Michael Mclaughlin",
+        "PolicyNumber": "1e7d7517-7755-48f9-ae7f-c06c2393abcb",
+        "ContactInformation": {
+            "Phone": "2014635737",
+            "Email": "grosssara@example.com",
+            "Address": "088 Park Common Suite 185\nEast James, MA 94683"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-22",
+        "Location": "4580 Michael Loaf Suite 589\nDestinyville, MO 92516",
+        "Description": "Game hotel than chair stock bill white. Season wear three student effect tell.\nThousand language use charge Congress particularly trouble. Management call line recent."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 188566
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40373
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 166514
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 94120
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 80731
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 62538,
+        "TotalApproved": 37811
+    },
+    "AdjusterDetails": {
+        "Name": "Sara Dixon",
+        "ContactInformation": {
+            "Phone": "835.523.2728x449",
+            "Email": "fsherman@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cdef5e70-a812-4e92-973e-c79e4781cb72"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-22T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-27T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-01T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

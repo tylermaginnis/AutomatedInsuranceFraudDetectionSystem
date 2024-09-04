@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a560f3a1-47ca-411d-a9b5-4a22ae4a19ae",
+    "PolicyID": "7fb557b6-5466-4d8a-bbf1-b76715719cab",
+    "EffectiveDates": {
+        "StartDate": "2024-04-29",
+        "EndDate": "2025-04-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b689d57a-2fdc-4435-a42f-ca38f638707a",
+        "Name": "Caitlin Ruiz",
+        "PolicyNumber": "7fb557b6-5466-4d8a-bbf1-b76715719cab",
+        "ContactInformation": {
+            "Phone": "001-866-288-0087",
+            "Email": "kelsey03@example.com",
+            "Address": "23025 Holt Roads\nLanefurt, MI 50649"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-21",
+        "Location": "10184 Brown Mountains Apt. 431\nThomasport, AK 65211",
+        "Description": "Girl minute scene property sometimes chance.\nRepublican space interview various. Information thousand own tonight could relate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6326
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13304
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31556
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38394
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9661
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 145987,
+        "TotalApproved": 29944
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Parker",
+        "ContactInformation": {
+            "Phone": "001-805-497-8221x0271",
+            "Email": "dmoore@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c0b7bc7b-d5b6-422e-9ddc-99f234221424"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-31T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

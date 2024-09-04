@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3f85a9e5-1eb6-4827-b314-0f32fcf4ada5",
+    "PolicyID": "c5b21aeb-68c7-40b2-b620-c2082c328750",
+    "EffectiveDates": {
+        "StartDate": "2024-08-02",
+        "EndDate": "2025-08-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "89bf1b1e-1ba5-4cee-b397-3a5e6f9bacb6",
+        "Name": "Michelle Reed",
+        "PolicyNumber": "c5b21aeb-68c7-40b2-b620-c2082c328750",
+        "ContactInformation": {
+            "Phone": "253-478-5775x57398",
+            "Email": "larry20@example.net",
+            "Address": "Unit 0314 Box 4723\nDPO AA 64110"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-11",
+        "Location": "625 Brittany Springs\nElizabethhaven, OH 03538",
+        "Description": "Likely go this direction my. Republican most customer contain happen drive.\nLaw push paper cultural. American strong hospital have support hot baby."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 69329
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39649
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41061
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 71891
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 50076
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 83040,
+        "TotalApproved": 64865
+    },
+    "AdjusterDetails": {
+        "Name": "William Rodriguez",
+        "ContactInformation": {
+            "Phone": "5333695171",
+            "Email": "taylor39@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/eb653ad1-e822-4a64-a107-ca3434dcd241"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

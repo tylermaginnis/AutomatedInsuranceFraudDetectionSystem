@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0ca34560-953d-4d0d-9d9c-76e75078d4d1",
+    "PolicyID": "b07561e2-6300-4a8b-b415-ae78f0327685",
+    "EffectiveDates": {
+        "StartDate": "2024-07-26",
+        "EndDate": "2025-07-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e55a6701-6838-408e-af5a-5b1e155e747e",
+        "Name": "John Thomas",
+        "PolicyNumber": "b07561e2-6300-4a8b-b415-ae78f0327685",
+        "ContactInformation": {
+            "Phone": "852-717-9835",
+            "Email": "sherrysnyder@example.com",
+            "Address": "Unit 5671 Box 3469\nDPO AE 69827"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-03",
+        "Location": "342 Heather Corner Apt. 540\nSmithland, IN 40586",
+        "Description": "Truth everybody Mr officer those. Television kind glass girl whatever much. News can ability by.\nIndicate old but especially short share commercial develop."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 79634
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16423
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18950
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5936
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8287
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 151195,
+        "TotalApproved": 122104
+    },
+    "AdjusterDetails": {
+        "Name": "Keith Sanchez",
+        "ContactInformation": {
+            "Phone": "485-870-6151x827",
+            "Email": "alanlopez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3ab1da93-42ad-4093-993a-252b4b3d4db1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

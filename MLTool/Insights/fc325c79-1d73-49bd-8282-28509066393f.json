@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fc325c79-1d73-49bd-8282-28509066393f",
+    "PolicyID": "f153829c-eb76-43dd-aa3e-fdfec539cf9c",
+    "EffectiveDates": {
+        "StartDate": "2023-09-28",
+        "EndDate": "2024-09-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f7f0c007-b486-46f1-b96a-5984272ffb2b",
+        "Name": "Victoria Watson",
+        "PolicyNumber": "f153829c-eb76-43dd-aa3e-fdfec539cf9c",
+        "ContactInformation": {
+            "Phone": "(847)324-6146x3432",
+            "Email": "wgreen@example.net",
+            "Address": "913 Robinson Pass\nJonesmouth, RI 87156"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-24",
+        "Location": "743 Todd Wall\nDianaside, MN 52233",
+        "Description": "Share report kitchen into single. Maybe tonight reflect make.\nGlass bring city professor research. Own often its begin bad establish really.\nFinally here market."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38744
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 175203
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 184096
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49568
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 101097
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 193405,
+        "TotalApproved": 153479
+    },
+    "AdjusterDetails": {
+        "Name": "Deborah Padilla",
+        "ContactInformation": {
+            "Phone": "001-272-926-9847x695",
+            "Email": "ochoamatthew@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a36a5454-4d55-4570-9941-7082580fe4b5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-24T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-29T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-04T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ead5e183-9de5-4b84-a9ab-b229b0dc81b1",
+    "PolicyID": "b01d6eff-1f4f-40df-96f4-ec6b0f208fdd",
+    "EffectiveDates": {
+        "StartDate": "2023-12-28",
+        "EndDate": "2024-12-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1e5d7ae0-8e90-466a-a371-f3566c5f647b",
+        "Name": "Caleb Chandler",
+        "PolicyNumber": "b01d6eff-1f4f-40df-96f4-ec6b0f208fdd",
+        "ContactInformation": {
+            "Phone": "998-345-2171x318",
+            "Email": "laura44@example.org",
+            "Address": "705 Caldwell Forges Suite 545\nSmithhaven, OR 15261"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-09",
+        "Location": "7838 Amy Manors\nSouth Michaelchester, IA 64024",
+        "Description": "Economy story fact treat government institution clearly. Involve impact again address available.\nWhom drive still. Organization us raise history."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 30012
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10554
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 107104
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6760
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3341
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 104095,
+        "TotalApproved": 4087
+    },
+    "AdjusterDetails": {
+        "Name": "Lindsey Parker",
+        "ContactInformation": {
+            "Phone": "352-416-3486",
+            "Email": "shawnmann@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/fdd95c44-d6ed-4264-a37e-f1fcf07c808d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

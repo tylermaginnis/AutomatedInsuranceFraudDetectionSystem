@@ -1,0 +1,81 @@
+{
+    "ClaimID": "28b029df-6feb-4492-ba16-12738294c9f6",
+    "PolicyID": "e48cc3d1-56b2-4de3-86b9-bc9300428ca2",
+    "EffectiveDates": {
+        "StartDate": "2024-08-07",
+        "EndDate": "2025-08-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4de6b87c-2f24-4192-a3ff-a602be81f6fd",
+        "Name": "Maria Miller",
+        "PolicyNumber": "e48cc3d1-56b2-4de3-86b9-bc9300428ca2",
+        "ContactInformation": {
+            "Phone": "+1-757-785-7592x6213",
+            "Email": "josebush@example.com",
+            "Address": "453 Schmidt Square\nPort Frank, IL 49759"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-08",
+        "Location": "13500 Brian Port Suite 360\nRodriguezport, DE 27047",
+        "Description": "System blood surface fill assume though. Whose road enough. Chance short four box then benefit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 90148
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1831
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1813
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2558
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3455
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 122751,
+        "TotalApproved": 70410
+    },
+    "AdjusterDetails": {
+        "Name": "Ryan Ramirez",
+        "ContactInformation": {
+            "Phone": "001-306-721-1536x0606",
+            "Email": "medinakelly@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7df36de1-e8e2-4b52-a2b0-89b1da9b9955"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

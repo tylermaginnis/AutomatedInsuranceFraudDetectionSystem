@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9a351003-a1a2-4846-a24b-844e67ef438b",
+    "PolicyID": "ba1e356f-c9ab-4a98-8d98-b0a2312d93ca",
+    "EffectiveDates": {
+        "StartDate": "2024-02-29",
+        "EndDate": "2025-02-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ddd393dc-3f43-4b73-9608-1b2800591611",
+        "Name": "Melanie Austin",
+        "PolicyNumber": "ba1e356f-c9ab-4a98-8d98-b0a2312d93ca",
+        "ContactInformation": {
+            "Phone": "001-883-829-9036x920",
+            "Email": "maria19@example.net",
+            "Address": "67493 Sheila Island\nEast Andre, AL 67954"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-25",
+        "Location": "4721 Brett Coves\nNew Karen, MD 23884",
+        "Description": "Born whose several thank moment computer. Guess issue child choose manager. Citizen star interesting wide shoulder.\nPage company item method. Hear month believe others already. Reality effect heart."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8256
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26485
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6605
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1798
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10254
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 22314,
+        "TotalApproved": 8912
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Pham",
+        "ContactInformation": {
+            "Phone": "9918403797",
+            "Email": "hensleymorgan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c57adab4-451c-441a-99c7-023adc8ecb16"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-25T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-30T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-04T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

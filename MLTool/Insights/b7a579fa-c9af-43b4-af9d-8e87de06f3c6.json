@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b7a579fa-c9af-43b4-af9d-8e87de06f3c6",
+    "PolicyID": "a2223a96-83cc-4ea6-ae3f-2a4f0c191cc5",
+    "EffectiveDates": {
+        "StartDate": "2024-01-26",
+        "EndDate": "2025-01-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bb98b0cb-fb8c-47c0-8c81-9feb7cbf2b34",
+        "Name": "Haley Nelson",
+        "PolicyNumber": "a2223a96-83cc-4ea6-ae3f-2a4f0c191cc5",
+        "ContactInformation": {
+            "Phone": "963.934.3648",
+            "Email": "ronaldgarcia@example.net",
+            "Address": "073 Schultz Trafficway Suite 463\nObrienstad, SD 54228"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-02",
+        "Location": "42377 Sylvia Harbor Suite 742\nTurnermouth, PA 67610",
+        "Description": "Wife worker because state test right hospital.\nPer beautiful very protect good. Management hour own throw."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11750
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14617
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8021
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 57909
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10076
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 35916,
+        "TotalApproved": 29328
+    },
+    "AdjusterDetails": {
+        "Name": "Cameron Mitchell",
+        "ContactInformation": {
+            "Phone": "8245880641",
+            "Email": "kristen77@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/bfbab448-3163-40b9-b470-d2d842e30ccc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

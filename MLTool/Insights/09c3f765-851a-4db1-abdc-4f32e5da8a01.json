@@ -1,0 +1,81 @@
+{
+    "ClaimID": "09c3f765-851a-4db1-abdc-4f32e5da8a01",
+    "PolicyID": "dbeae9fe-e900-4892-b3c5-acfb496fb645",
+    "EffectiveDates": {
+        "StartDate": "2024-06-04",
+        "EndDate": "2025-06-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b45d1248-edae-45c7-b1c5-dbc2bb1bdda3",
+        "Name": "Adam Mosley",
+        "PolicyNumber": "dbeae9fe-e900-4892-b3c5-acfb496fb645",
+        "ContactInformation": {
+            "Phone": "001-587-394-3487x75371",
+            "Email": "scottdon@example.net",
+            "Address": "024 John Route Apt. 786\nFisherside, NY 86267"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-15",
+        "Location": "7496 Thomas Freeway\nSotoside, GU 38079",
+        "Description": "Rise rule heart civil page. Sit before rise security leg give listen. Ago subject remain time friend others interesting.\nArgue own expect class current. Stuff man charge hold."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23042
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82303
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 79795
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 94842
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1803
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 172203,
+        "TotalApproved": 77622
+    },
+    "AdjusterDetails": {
+        "Name": "Emily Ray",
+        "ContactInformation": {
+            "Phone": "001-623-618-3203",
+            "Email": "williamsmichael@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0dd2a7e7-ce40-4eac-ae26-3b749330d451"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

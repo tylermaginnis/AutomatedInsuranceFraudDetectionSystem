@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5a85075d-7535-48f6-971c-540d8f22818c",
+    "PolicyID": "daec6d20-2889-4743-9d05-5d63f44b3a7a",
+    "EffectiveDates": {
+        "StartDate": "2023-09-20",
+        "EndDate": "2024-09-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "286368e8-e9df-4078-a581-32def327dfdd",
+        "Name": "Shannon Oconnell",
+        "PolicyNumber": "daec6d20-2889-4743-9d05-5d63f44b3a7a",
+        "ContactInformation": {
+            "Phone": "7126042748",
+            "Email": "huntcody@example.com",
+            "Address": "PSC 1287, Box 5445\nAPO AE 75755"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-09-25",
+        "Location": "USS Stein\nFPO AA 72310",
+        "Description": "Step result whom return foot. Experience society finally collection.\nFinish mean must really possible. Writer everything later lay. Education why want wrong."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8104
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2712
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4958
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 70188
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6215
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151795,
+        "TotalApproved": 14637
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Le",
+        "ContactInformation": {
+            "Phone": "(696)782-7688x086",
+            "Email": "elizabeth98@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d17d87e1-b616-4ce7-bc09-14c94a246875"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-09-25T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-09-30T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-05T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

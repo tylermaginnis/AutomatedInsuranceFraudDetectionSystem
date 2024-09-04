@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8b558fda-abf8-4e3c-99f8-c056a39944f5",
+    "PolicyID": "d4bcea09-b16a-462c-989a-36ab5a5635a8",
+    "EffectiveDates": {
+        "StartDate": "2024-06-24",
+        "EndDate": "2025-06-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c69c5ccb-40ce-4765-8dac-bcc5f3f3952d",
+        "Name": "Jonathan Nichols",
+        "PolicyNumber": "d4bcea09-b16a-462c-989a-36ab5a5635a8",
+        "ContactInformation": {
+            "Phone": "001-489-805-8738x016",
+            "Email": "nwilcox@example.net",
+            "Address": "4438 Suarez Plains\nRicardohaven, AK 00638"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-31",
+        "Location": "234 Weaver Ramp\nMelissamouth, NY 02246",
+        "Description": "Each let friend among information up. Affect risk tree. Authority during choice house for."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 30223
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 127143
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5745
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5888
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 139609
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 199835,
+        "TotalApproved": 176078
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Ryan",
+        "ContactInformation": {
+            "Phone": "001-822-981-1600x609",
+            "Email": "gary64@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1de83fec-2eeb-4c3e-9881-beb474444a98"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-31T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

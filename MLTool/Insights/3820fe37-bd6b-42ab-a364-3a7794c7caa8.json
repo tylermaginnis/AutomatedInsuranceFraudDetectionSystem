@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3820fe37-bd6b-42ab-a364-3a7794c7caa8",
+    "PolicyID": "332a4633-b4bb-464f-a49d-c00b4f5a85e9",
+    "EffectiveDates": {
+        "StartDate": "2023-10-06",
+        "EndDate": "2024-10-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ac98a747-1d81-4101-8c02-390d4c7dcdb9",
+        "Name": "Angela Jackson",
+        "PolicyNumber": "332a4633-b4bb-464f-a49d-c00b4f5a85e9",
+        "ContactInformation": {
+            "Phone": "(345)699-6115",
+            "Email": "ramosdennis@example.com",
+            "Address": "18577 Lisa Track\nConnorhaven, OR 64291"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-13",
+        "Location": "8463 Lee Corners\nSouth Matthew, LA 05080",
+        "Description": "Impact with range tough station certain. Similar while gas deep treat care."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8664
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 88047
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 104440
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27865
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38749
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 91006,
+        "TotalApproved": 55523
+    },
+    "AdjusterDetails": {
+        "Name": "Gary Lewis",
+        "ContactInformation": {
+            "Phone": "9229556847",
+            "Email": "schwartzgary@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/242a800b-35f5-4c02-9e9d-bd5181d4a0ab"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-13T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-18T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-23T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

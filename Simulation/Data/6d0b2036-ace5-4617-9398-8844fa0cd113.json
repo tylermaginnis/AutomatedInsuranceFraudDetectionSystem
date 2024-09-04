@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6d0b2036-ace5-4617-9398-8844fa0cd113",
+  "PolicyID": "7e43a143-4509-4534-9fc4-003350c6dc8d",
+  "EffectiveDates": {
+    "StartDate": "2023-11-12",
+    "EndDate": "2024-11-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "da8b23cd-5824-4e16-9e58-2516fde82d0d",
+    "Name": "Thomas Owens",
+    "PolicyNumber": "7e43a143-4509-4534-9fc4-003350c6dc8d",
+    "ContactInformation": {
+      "Phone": "(844)768-0495",
+      "Email": "laura89@example.net",
+      "Address": "6547 Lopez Isle\nNew Carla, MI 35153"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-12",
+    "Location": "233 Savannah Highway\nBartonchester, IN 41815",
+    "Description": "Office or model chair. Friend most sure student good south whole.\nThrough candidate have upon read. Republican professional usually he star action. Voice foot case lose surface exactly."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7693
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 41597
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6957
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7357
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 11313
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 71576,
+    "TotalApproved": 70622
+  },
+  "AdjusterDetails": {
+    "Name": "Alexandra Hernandez",
+    "ContactInformation": {
+      "Phone": "521.856.5547x8680",
+      "Email": "francesgarner@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/0816da1e-77a3-495e-abfb-2f99bd829cb8"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-12T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-17T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-22T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

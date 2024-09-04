@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3ac5cd68-4960-433f-9417-306b21afe011",
+    "PolicyID": "0cd8e469-330b-4826-a11b-3322140c546a",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a435757e-97f2-47cf-9b49-ad908cc571d2",
+        "Name": "Gina Forbes",
+        "PolicyNumber": "0cd8e469-330b-4826-a11b-3322140c546a",
+        "ContactInformation": {
+            "Phone": "+1-220-475-3260",
+            "Email": "pmorales@example.net",
+            "Address": "0557 Amy Union Suite 574\nMaxville, IA 46233"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-12",
+        "Location": "5889 Hamilton Corners Apt. 078\nMitchellberg, VA 85119",
+        "Description": "Final claim way attention. Never institution wear but most.\nWant keep mean both relate. Interest product garden maintain second station color."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6364
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 72671
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10495
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2715
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7443
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 122228,
+        "TotalApproved": 33858
+    },
+    "AdjusterDetails": {
+        "Name": "Theodore Arnold",
+        "ContactInformation": {
+            "Phone": "704-758-7572x744",
+            "Email": "michael82@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6e69f48c-3d4a-4207-94c3-3c397b9ea88a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-12T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-17T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-22T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

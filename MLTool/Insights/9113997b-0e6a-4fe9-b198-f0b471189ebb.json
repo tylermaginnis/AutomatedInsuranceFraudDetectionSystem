@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9113997b-0e6a-4fe9-b198-f0b471189ebb",
+    "PolicyID": "f21b6b3a-c7bf-424f-af4c-c77ec6ba0ad6",
+    "EffectiveDates": {
+        "StartDate": "2024-03-31",
+        "EndDate": "2025-03-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5bd39cb-bac2-46ce-8d82-0ad8d9b210cf",
+        "Name": "Tracey Lewis",
+        "PolicyNumber": "f21b6b3a-c7bf-424f-af4c-c77ec6ba0ad6",
+        "ContactInformation": {
+            "Phone": "001-742-619-0111",
+            "Email": "idaniels@example.com",
+            "Address": "870 William Via Apt. 953\nJanetburgh, AS 91122"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-06",
+        "Location": "58403 Meghan Lights\nEast Glenmouth, MO 55213",
+        "Description": "Level admit American serve. Inside figure amount prevent painting.\nNotice stage that lot significant do. Eat thus rest outside response here."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13328
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21302
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3251
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3202
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9634
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 84016,
+        "TotalApproved": 81481
+    },
+    "AdjusterDetails": {
+        "Name": "Joy Hunt",
+        "ContactInformation": {
+            "Phone": "791-784-3369x0793",
+            "Email": "kristy24@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4cb7f8ee-c11e-46cc-8219-3f62aaa17895"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-06T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-11T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-16T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

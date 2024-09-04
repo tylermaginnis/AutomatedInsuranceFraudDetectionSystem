@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7793c5f3-c0a3-495d-8672-cf48e3bbaa8b",
+    "PolicyID": "803a681d-3d65-4421-9d2f-5a3341ab215d",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "76a75dc6-e91a-429a-9e92-f7dd842f7f51",
+        "Name": "David Jackson",
+        "PolicyNumber": "803a681d-3d65-4421-9d2f-5a3341ab215d",
+        "ContactInformation": {
+            "Phone": "630.398.9777x9263",
+            "Email": "cbrown@example.net",
+            "Address": "93702 Matthew Brook\nWest Melindahaven, CA 12004"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-18",
+        "Location": "03138 Carl Pine\nWest Adamberg, VI 48873",
+        "Description": "Wonder movement second. High call heavy arrive modern world across.\nBoth imagine southern least coach. After mean beyond return my animal."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4377
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 84590
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 52527
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16626
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8290
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 199305,
+        "TotalApproved": 113765
+    },
+    "AdjusterDetails": {
+        "Name": "Donald Harper",
+        "ContactInformation": {
+            "Phone": "443.801.1969",
+            "Email": "erika86@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3c231d5f-35e9-4f8d-95c0-d3f7da4f3c3c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

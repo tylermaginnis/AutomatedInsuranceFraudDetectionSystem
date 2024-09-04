@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d30abace-a3cc-448b-afcf-e869857972ff",
+    "PolicyID": "e2d1b078-0e44-4f9a-a5f5-4c989dbb0f89",
+    "EffectiveDates": {
+        "StartDate": "2024-05-13",
+        "EndDate": "2025-05-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ae3c60bb-6ec1-4d12-a36f-cc149370d507",
+        "Name": "David Scott",
+        "PolicyNumber": "e2d1b078-0e44-4f9a-a5f5-4c989dbb0f89",
+        "ContactInformation": {
+            "Phone": "408-556-6328x544",
+            "Email": "mbest@example.org",
+            "Address": "1182 Gary Harbor Apt. 796\nLake Jodi, MI 45460"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-14",
+        "Location": "Unit 0851 Box 6867\nDPO AE 20376",
+        "Description": "Happy chance available. Foreign air too director. Poor look five.\nTown put long ask region. Investment space deep movie.\nSoon sign next staff brother. Camera serve white."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1135
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 164136
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 56624
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6884
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25959
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 53868,
+        "TotalApproved": 37606
+    },
+    "AdjusterDetails": {
+        "Name": "Nicholas Wilson",
+        "ContactInformation": {
+            "Phone": "001-560-398-1103x895",
+            "Email": "stacytaylor@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9b6ac98c-e08b-4e7b-b0a5-be37b960f54f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

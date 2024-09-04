@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f3681c5a-b5e1-4fcf-813c-a73089a882fb",
+    "PolicyID": "48eca677-d01a-4f19-9da1-1d5314e28d4a",
+    "EffectiveDates": {
+        "StartDate": "2024-06-09",
+        "EndDate": "2025-06-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d813b204-719e-42ea-bae1-108185c6f4b8",
+        "Name": "Matthew Lee",
+        "PolicyNumber": "48eca677-d01a-4f19-9da1-1d5314e28d4a",
+        "ContactInformation": {
+            "Phone": "001-442-894-3485x06677",
+            "Email": "stephenblack@example.org",
+            "Address": "Unit 0836 Box 8112\nDPO AP 50324"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-04",
+        "Location": "7880 Martin Brooks\nEast Caroline, LA 37479",
+        "Description": "Social could room poor. Lay voice speak police drug garden."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19168
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40471
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9939
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19866
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8818
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 77069,
+        "TotalApproved": 48754
+    },
+    "AdjusterDetails": {
+        "Name": "Adam Smith",
+        "ContactInformation": {
+            "Phone": "349-586-3012x4198",
+            "Email": "morrisonwilliam@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/fa833cd5-a171-4694-b445-3eefa51e0c0d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-04T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-09T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-14T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

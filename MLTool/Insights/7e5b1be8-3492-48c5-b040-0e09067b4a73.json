@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7e5b1be8-3492-48c5-b040-0e09067b4a73",
+    "PolicyID": "81e359be-62dd-4e26-8548-7e4e4b3d2b7b",
+    "EffectiveDates": {
+        "StartDate": "2024-03-16",
+        "EndDate": "2025-03-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b1c8540a-6ae2-4e6e-ae2d-f4281d2de599",
+        "Name": "Gregory Norris",
+        "PolicyNumber": "81e359be-62dd-4e26-8548-7e4e4b3d2b7b",
+        "ContactInformation": {
+            "Phone": "(409)906-1661",
+            "Email": "briansolomon@example.net",
+            "Address": "487 Jessica Orchard Suite 755\nSeanmouth, NJ 66061"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-03",
+        "Location": "885 Abigail Cliff\nNew Tracyview, PR 00809",
+        "Description": "Serve blood price. Population buy TV evening last forget attack notice.\nDay factor fine year show. Amount face us decide offer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 58657
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5764
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19333
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14389
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 126673
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 186469,
+        "TotalApproved": 12915
+    },
+    "AdjusterDetails": {
+        "Name": "Bonnie Thomas",
+        "ContactInformation": {
+            "Phone": "(682)597-4300",
+            "Email": "munoztimothy@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6e47b783-6cbf-4452-96f4-8188ab418266"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

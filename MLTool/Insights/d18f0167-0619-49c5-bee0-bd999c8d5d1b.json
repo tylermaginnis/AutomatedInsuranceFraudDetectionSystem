@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d18f0167-0619-49c5-bee0-bd999c8d5d1b",
+    "PolicyID": "d90e66b2-9d03-41a6-9b4f-9c4f5a7f3356",
+    "EffectiveDates": {
+        "StartDate": "2024-04-22",
+        "EndDate": "2025-04-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1b36502f-dbf6-4980-9895-7089ba6a52cf",
+        "Name": "James Robinson",
+        "PolicyNumber": "d90e66b2-9d03-41a6-9b4f-9c4f5a7f3356",
+        "ContactInformation": {
+            "Phone": "(233)221-2090x7665",
+            "Email": "mossbrian@example.org",
+            "Address": "PSC 0550, Box 7394\nAPO AE 24832"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-18",
+        "Location": "938 Scott Valleys\nNorth Brianborough, CT 28334",
+        "Description": "Half learn data create actually. Hour box stuff take author.\nCertain least evidence design. Water seem spring simple sit everybody decide bit. Guess site note do weight. Realize billion offer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47986
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9237
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1552
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14446
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7330
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 86989,
+        "TotalApproved": 83879
+    },
+    "AdjusterDetails": {
+        "Name": "Martha Gonzalez",
+        "ContactInformation": {
+            "Phone": "001-401-330-5795x2915",
+            "Email": "orobertson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/aa2d1e55-8b9e-457e-aef3-07a78cf7f7f4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

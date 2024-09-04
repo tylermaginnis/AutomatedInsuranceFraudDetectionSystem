@@ -1,0 +1,81 @@
+{
+    "ClaimID": "efd30a44-88c1-4bbd-a94a-b867563096e5",
+    "PolicyID": "065f6cfb-0f55-48e4-9960-b25c63011576",
+    "EffectiveDates": {
+        "StartDate": "2024-03-06",
+        "EndDate": "2025-03-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fad2b24b-1eaf-4a98-8bfd-4317bf522125",
+        "Name": "Alexander Mcintosh",
+        "PolicyNumber": "065f6cfb-0f55-48e4-9960-b25c63011576",
+        "ContactInformation": {
+            "Phone": "+1-306-490-6847x7487",
+            "Email": "ipruitt@example.net",
+            "Address": "138 Collins Crescent Suite 964\nEast Ronaldtown, KS 20486"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-25",
+        "Location": "45455 Martinez Lane\nNew Richard, SD 63566",
+        "Description": "Determine piece one mother force force lay. Long card especially several. If record watch million apply win."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18294
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 143745
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 106755
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6336
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6179
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 149633,
+        "TotalApproved": 131362
+    },
+    "AdjusterDetails": {
+        "Name": "Cassandra Ross",
+        "ContactInformation": {
+            "Phone": "3726338822",
+            "Email": "csmith@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/32afa283-00ca-470e-b8bc-41f03423dd5b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-25T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-30T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-04T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

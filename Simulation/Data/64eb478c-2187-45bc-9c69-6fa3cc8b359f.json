@@ -1,0 +1,80 @@
+{
+  "ClaimID": "64eb478c-2187-45bc-9c69-6fa3cc8b359f",
+  "PolicyID": "f5eb5b1f-013e-48f7-b7df-55ef392b41ca",
+  "EffectiveDates": {
+    "StartDate": "2024-08-15",
+    "EndDate": "2025-08-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "c9a541d4-b55e-4412-ae6e-77a2989717d2",
+    "Name": "Daniel Cooper",
+    "PolicyNumber": "f5eb5b1f-013e-48f7-b7df-55ef392b41ca",
+    "ContactInformation": {
+      "Phone": "931.800.5677x5856",
+      "Email": "gardnersarah@example.net",
+      "Address": "491 Michael Street\nBaileyside, KS 70152"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-27",
+    "Location": "8838 Garcia Knoll Apt. 787\nEast Nancy, OK 72737",
+    "Description": "Include loss candidate hard however. Easy industry collection record relate."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 41156
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 73638
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 97442
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 17762
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 88356
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 169136,
+    "TotalApproved": 20539
+  },
+  "AdjusterDetails": {
+    "Name": "Emily Beck DVM",
+    "ContactInformation": {
+      "Phone": "577-584-2358",
+      "Email": "whitakerjennifer@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/c24c8673-96c1-4431-897e-85794ff8a879"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-27T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-01T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-06T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

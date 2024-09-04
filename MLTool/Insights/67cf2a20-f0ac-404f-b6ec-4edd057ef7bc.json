@@ -1,0 +1,81 @@
+{
+    "ClaimID": "67cf2a20-f0ac-404f-b6ec-4edd057ef7bc",
+    "PolicyID": "7a5c5076-f6f9-4727-a660-45e1b0d9c214",
+    "EffectiveDates": {
+        "StartDate": "2024-08-10",
+        "EndDate": "2025-08-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b6a0c010-9429-4903-9956-462babcfec2c",
+        "Name": "Stephanie Hughes",
+        "PolicyNumber": "7a5c5076-f6f9-4727-a660-45e1b0d9c214",
+        "ContactInformation": {
+            "Phone": "893.979.3499",
+            "Email": "dbrewer@example.net",
+            "Address": "37184 Garcia Corners Apt. 727\nGreenfurt, MT 66658"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-02",
+        "Location": "830 Hayes Forge Apt. 880\nEast Kevin, NY 34217",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 95697
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34510
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7397
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25092
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6065
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 168761,
+        "TotalApproved": 74443
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Anderson",
+        "ContactInformation": {
+            "Phone": "308.672.5196",
+            "Email": "rsmith@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6cb26465-4a72-4002-b37b-f1a0fda0f8b3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-02T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-07T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-12T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "445ec5da-968b-48bd-9055-0230bb696b4b",
+    "PolicyID": "0d04751b-d18a-4439-af1d-29bbb26c0ac4",
+    "EffectiveDates": {
+        "StartDate": "2023-10-19",
+        "EndDate": "2024-10-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef310790-2ebf-4cc3-8d4e-d42833e86001",
+        "Name": "Sara Chapman",
+        "PolicyNumber": "0d04751b-d18a-4439-af1d-29bbb26c0ac4",
+        "ContactInformation": {
+            "Phone": "001-320-638-0973",
+            "Email": "qford@example.net",
+            "Address": "08940 Kennedy Orchard Apt. 612\nStephanieport, FL 51821"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-24",
+        "Location": "27291 Jared Mission\nNew Maryburgh, PA 55148",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82987
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28774
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8079
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18508
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16645
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154993,
+        "TotalApproved": 21163
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Gordon",
+        "ContactInformation": {
+            "Phone": "+1-689-210-1967x656",
+            "Email": "lopezmatthew@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/284e043e-1fea-4bdf-aba6-ca29e46658f6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-24T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-29T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-04T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

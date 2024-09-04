@@ -1,0 +1,81 @@
+{
+    "ClaimID": "850fb9e9-937c-463e-8d7a-17265f46fbf6",
+    "PolicyID": "6f4710cf-9115-4acb-b172-63cac915f4ec",
+    "EffectiveDates": {
+        "StartDate": "2024-06-21",
+        "EndDate": "2025-06-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0672e821-ed8b-4420-b34c-6b7cbd75c6f9",
+        "Name": "Terrence Rodriguez",
+        "PolicyNumber": "6f4710cf-9115-4acb-b172-63cac915f4ec",
+        "ContactInformation": {
+            "Phone": "(421)961-6670",
+            "Email": "greerjoseph@example.org",
+            "Address": "2286 Kathryn Views Suite 187\nLake Candiceberg, HI 78822"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-30",
+        "Location": "088 Flores Tunnel\nSouth Davidborough, OK 60210",
+        "Description": "Reflect concern think art edge. Church main resource red realize pretty minute assume. Security admit so article yourself determine."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 90277
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3684
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 98011
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 165001
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8613
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 36184,
+        "TotalApproved": 32670
+    },
+    "AdjusterDetails": {
+        "Name": "Carol Marks",
+        "ContactInformation": {
+            "Phone": "+1-506-875-8444",
+            "Email": "garciajames@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/022167fb-ac50-4364-ab40-dfa8f2fb3ccf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

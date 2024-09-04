@@ -1,0 +1,81 @@
+{
+    "ClaimID": "dffef3c5-5788-49ac-a09d-dacfee8f00e6",
+    "PolicyID": "03c5a174-1a41-4df1-a2e5-7036046e4d87",
+    "EffectiveDates": {
+        "StartDate": "2024-08-10",
+        "EndDate": "2025-08-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "39442ece-5860-470e-870f-fe0293dc4fd9",
+        "Name": "Gary Wood",
+        "PolicyNumber": "03c5a174-1a41-4df1-a2e5-7036046e4d87",
+        "ContactInformation": {
+            "Phone": "(214)978-3360x4446",
+            "Email": "loweryabigail@example.org",
+            "Address": "66369 Blankenship Club\nDavidfort, VI 66194"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-09",
+        "Location": "823 Morgan Canyon\nLake Jason, HI 55677",
+        "Description": "Leave happen two. Turn head hard.\nSpring particular fight even bed continue government. Capital speak experience."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7221
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9542
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12968
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15763
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 157888
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 96077,
+        "TotalApproved": 39573
+    },
+    "AdjusterDetails": {
+        "Name": "Shannon Kline",
+        "ContactInformation": {
+            "Phone": "527-993-7263",
+            "Email": "danielsmith@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/228a2f9d-d203-42bc-9e16-fb3002fe7be6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

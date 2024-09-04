@@ -1,0 +1,81 @@
+{
+    "ClaimID": "98793bf8-bb97-49ef-b72a-ce2f810357f2",
+    "PolicyID": "7b25a162-609c-4a7b-8752-ba262d4bde8e",
+    "EffectiveDates": {
+        "StartDate": "2024-07-31",
+        "EndDate": "2025-07-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4160eb1b-cc59-4dc6-8983-53613b1be025",
+        "Name": "Kyle Mendoza",
+        "PolicyNumber": "7b25a162-609c-4a7b-8752-ba262d4bde8e",
+        "ContactInformation": {
+            "Phone": "(407)968-5502",
+            "Email": "merrittrobin@example.net",
+            "Address": "7594 Taylor Fork Apt. 516\nEast Ryan, KY 07752"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-16",
+        "Location": "1214 Johnson Viaduct\nJoneston, NM 78451",
+        "Description": "Hand answer ever new others paper their. Pay teach bed garden blood just. Measure effect area write sense."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 78696
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46427
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 174583
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17766
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32293
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 178066,
+        "TotalApproved": 142016
+    },
+    "AdjusterDetails": {
+        "Name": "Jeremy Cox",
+        "ContactInformation": {
+            "Phone": "001-432-345-4371x87116",
+            "Email": "ahouston@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/37271771-1f29-498d-be51-5f9b2919f4bc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

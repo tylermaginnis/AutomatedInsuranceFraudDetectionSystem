@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e06974e6-6b0c-45c0-951e-40c0d847fc5d",
+    "PolicyID": "e2520c4f-8284-4d83-907c-3e963a26402a",
+    "EffectiveDates": {
+        "StartDate": "2024-02-08",
+        "EndDate": "2025-02-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2be5dd3a-fb98-486f-aaca-f4ba23f7abb0",
+        "Name": "David Blankenship",
+        "PolicyNumber": "e2520c4f-8284-4d83-907c-3e963a26402a",
+        "ContactInformation": {
+            "Phone": "+1-837-233-7323x7546",
+            "Email": "samanthastanley@example.net",
+            "Address": "USS Sanchez\nFPO AA 31024"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-25",
+        "Location": "71742 Cameron Course\nGordonview, LA 74379",
+        "Description": "Realize pretty boy defense television. Music player actually series believe newspaper attention.\nClaim foot help coach. Manage natural generation author."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42551
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8368
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6377
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62341
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2536
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 102385,
+        "TotalApproved": 79321
+    },
+    "AdjusterDetails": {
+        "Name": "John White",
+        "ContactInformation": {
+            "Phone": "(411)595-4657",
+            "Email": "bullocknancy@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6ea4ff09-7228-4a4f-b6bc-5402e5765b34"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

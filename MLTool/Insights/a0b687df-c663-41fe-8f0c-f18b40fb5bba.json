@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a0b687df-c663-41fe-8f0c-f18b40fb5bba",
+    "PolicyID": "4cdce223-1091-44fc-b011-a925317d7396",
+    "EffectiveDates": {
+        "StartDate": "2023-10-10",
+        "EndDate": "2024-10-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "575fae68-d4d1-4c3f-b367-e5c3e089951b",
+        "Name": "Mary Sanders",
+        "PolicyNumber": "4cdce223-1091-44fc-b011-a925317d7396",
+        "ContactInformation": {
+            "Phone": "+1-605-498-8613x839",
+            "Email": "englishjessica@example.com",
+            "Address": "6696 Melissa Square Apt. 576\nPort Derrickfurt, WY 40248"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-09",
+        "Location": "01468 Graham Forest\nSouth Jasmine, KS 98508",
+        "Description": "Modern whether anyone vote mean wait recognize. Radio impact evidence join number.\nSituation ask chair over take. Great thus year open discover. Six will notice."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9725
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 55675
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1288
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2519
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 38351
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 1137,
+        "TotalApproved": 1047
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Murphy",
+        "ContactInformation": {
+            "Phone": "(911)910-5393x436",
+            "Email": "cgay@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6d87b6d4-20de-4d3e-bec3-b8b985df11e2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

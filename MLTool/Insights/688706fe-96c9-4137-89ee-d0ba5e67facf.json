@@ -1,0 +1,81 @@
+{
+    "ClaimID": "688706fe-96c9-4137-89ee-d0ba5e67facf",
+    "PolicyID": "c2fb4715-9ddd-41cb-958e-6c87aaa0e61d",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a386d916-1164-40cf-ba75-b068af911bc7",
+        "Name": "Lucas Young",
+        "PolicyNumber": "c2fb4715-9ddd-41cb-958e-6c87aaa0e61d",
+        "ContactInformation": {
+            "Phone": "6999998689",
+            "Email": "umurphy@example.net",
+            "Address": "177 Fernandez Corner Suite 703\nNorth Morgan, MA 55656"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-06",
+        "Location": "39031 Alexander Landing\nWest Melissa, KS 40292",
+        "Description": "Million role issue down town. Mrs late week pick door instead consumer. Identify piece quickly entire eight send.\nAgent coach ask themselves card matter."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7826
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19113
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1375
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15446
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19344
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 105373,
+        "TotalApproved": 75377
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Jacobs",
+        "ContactInformation": {
+            "Phone": "7188037708",
+            "Email": "donald95@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/df195af6-3805-4c37-9c66-0cc8ea3e72c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8ebb1b48-f998-42b8-b971-f86445dbaa31",
+    "PolicyID": "9371ee07-e016-4099-8c13-4ad4aa91c1d2",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "69ce4886-ba12-458f-b437-37e5eced7881",
+        "Name": "Austin Rojas",
+        "PolicyNumber": "9371ee07-e016-4099-8c13-4ad4aa91c1d2",
+        "ContactInformation": {
+            "Phone": "(246)731-1780x6349",
+            "Email": "damon15@example.org",
+            "Address": "532 Karen Freeway Apt. 331\nWilliambury, KY 56855"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-08",
+        "Location": "227 Alyssa Springs\nNorth John, AS 81208",
+        "Description": "Happy even become central part. Apply responsibility list believe order. Piece organization put."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8955
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26855
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4751
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 148895
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 22940
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 193742,
+        "TotalApproved": 78650
+    },
+    "AdjusterDetails": {
+        "Name": "Erin Green",
+        "ContactInformation": {
+            "Phone": "666-758-3137",
+            "Email": "justinnovak@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b47298c8-0f35-45cd-b1f8-f5d23cc207ab"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

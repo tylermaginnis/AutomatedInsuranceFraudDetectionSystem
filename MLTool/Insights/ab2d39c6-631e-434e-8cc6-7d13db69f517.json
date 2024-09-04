@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ab2d39c6-631e-434e-8cc6-7d13db69f517",
+    "PolicyID": "c48861ca-e7bb-4e5c-96e9-2ca9456a0236",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4151e992-193d-45c6-868b-4d4840903e2e",
+        "Name": "Zachary Luna",
+        "PolicyNumber": "c48861ca-e7bb-4e5c-96e9-2ca9456a0236",
+        "ContactInformation": {
+            "Phone": "401-691-5856x389",
+            "Email": "bonniefreeman@example.org",
+            "Address": "3788 Kevin Mill Apt. 905\nCarloston, OR 92504"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-01",
+        "Location": "54861 Eric Mountains\nThomasfurt, PA 93650",
+        "Description": "When education establish voice hotel price teacher. Husband improve month attention likely whom."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40909
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14742
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16624
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8686
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 179918
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 133253,
+        "TotalApproved": 97624
+    },
+    "AdjusterDetails": {
+        "Name": "Patrick Wheeler",
+        "ContactInformation": {
+            "Phone": "355.434.3768",
+            "Email": "heather87@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ff82aad2-59cf-46fc-a54a-5eb75c80af6d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

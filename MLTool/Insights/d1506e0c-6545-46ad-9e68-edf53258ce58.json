@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d1506e0c-6545-46ad-9e68-edf53258ce58",
+    "PolicyID": "b8e1fc13-7947-473b-8de8-c3ac41606d45",
+    "EffectiveDates": {
+        "StartDate": "2024-02-27",
+        "EndDate": "2025-02-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a762269d-5d7a-4cdd-a8ab-08b41526395c",
+        "Name": "Kaitlyn Smith",
+        "PolicyNumber": "b8e1fc13-7947-473b-8de8-c3ac41606d45",
+        "ContactInformation": {
+            "Phone": "429-817-1631x1465",
+            "Email": "uruiz@example.net",
+            "Address": "8045 Petersen Valleys Apt. 215\nJasminefort, SC 42341"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-12",
+        "Location": "534 Gallagher Lodge Apt. 771\nNorth Summertown, ID 31402",
+        "Description": "Him mean range material than prove son. Old fly cause partner interesting collection. Their official common yes."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19803
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8716
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5224
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 53185
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6152
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 37186,
+        "TotalApproved": 15303
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Smith",
+        "ContactInformation": {
+            "Phone": "+1-751-394-4819x9790",
+            "Email": "caitlin15@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/be5aaafb-84ae-4dbb-b2a6-64210b3779df"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-12T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-17T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-22T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

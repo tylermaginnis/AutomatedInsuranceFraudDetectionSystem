@@ -1,0 +1,81 @@
+{
+    "ClaimID": "71dc128c-cfa6-44aa-b128-19da660ea694",
+    "PolicyID": "f34aa06a-4210-4f0d-b946-40351985279e",
+    "EffectiveDates": {
+        "StartDate": "2024-02-02",
+        "EndDate": "2025-02-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8d6b0ac5-77c2-47f4-b7d7-074809f866b9",
+        "Name": "Ms. Gabrielle Kim MD",
+        "PolicyNumber": "f34aa06a-4210-4f0d-b946-40351985279e",
+        "ContactInformation": {
+            "Phone": "+1-877-969-4871",
+            "Email": "stephaniesnyder@example.org",
+            "Address": "7290 Estrada Lane Suite 037\nRobertmouth, MA 18862"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-02",
+        "Location": "6720 May Mills Apt. 483\nKristyview, NC 49576",
+        "Description": "Study agreement measure approach hair drug. Reality within radio some.\nCourse western argue sister race property character. Republican same fight."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 154866
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3839
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23967
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 91577
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32012
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 182319,
+        "TotalApproved": 169985
+    },
+    "AdjusterDetails": {
+        "Name": "Emma Johnson",
+        "ContactInformation": {
+            "Phone": "238.669.9134",
+            "Email": "jonathandavis@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/fcff7a1f-80ce-4ad7-a5f7-e1e36dd1dab0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-02T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-07T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-12T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e7f3ac8e-c0fc-47cc-acd2-f19bea8f3f6f",
+  "PolicyID": "a36ef80f-3588-472e-a193-e83f60425adb",
+  "EffectiveDates": {
+    "StartDate": "2023-10-02",
+    "EndDate": "2024-10-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "20422020-5a8e-43a9-ba91-103d455376bb",
+    "Name": "Jennifer Logan",
+    "PolicyNumber": "a36ef80f-3588-472e-a193-e83f60425adb",
+    "ContactInformation": {
+      "Phone": "001-681-645-3926",
+      "Email": "lfields@example.org",
+      "Address": "76319 Smith Road\nWest Christopherchester, SC 74807"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-14",
+    "Location": "5428 Miller Mill\nPort Robert, WI 07998",
+    "Description": "Perform wife ok ahead better. Message director produce mention security officer year. Finally through learn future field."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5503
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 68013
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4530
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 22042
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 39302
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 162688,
+    "TotalApproved": 154940
+  },
+  "AdjusterDetails": {
+    "Name": "Shelley Day",
+    "ContactInformation": {
+      "Phone": "417-805-1703x6679",
+      "Email": "srowe@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/0653bd4f-4503-430b-ac50-f84a09865b30"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-14T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-19T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-24T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

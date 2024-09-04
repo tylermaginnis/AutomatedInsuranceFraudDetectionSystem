@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ebf29b4e-9111-4e67-b463-6245f129e388",
+    "PolicyID": "27a79cda-57f8-4704-99c6-fd2a6d7dc5ef",
+    "EffectiveDates": {
+        "StartDate": "2023-12-31",
+        "EndDate": "2024-12-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6dfda015-b676-46b2-a1af-d643eb4944b0",
+        "Name": "Karen Ross",
+        "PolicyNumber": "27a79cda-57f8-4704-99c6-fd2a6d7dc5ef",
+        "ContactInformation": {
+            "Phone": "581-427-4127",
+            "Email": "wrightmatthew@example.net",
+            "Address": "67561 Foster Village\nNew Laura, VT 59684"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-09",
+        "Location": "5151 Green Lane Apt. 797\nMullinsfort, CA 89921",
+        "Description": "Public like response property evening special physical read. Standard with rate person though. Occur yes throughout avoid bit player.\nHusband have organization help organization. Sense already land."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13470
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18800
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22508
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 66529
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26446
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 175293,
+        "TotalApproved": 134023
+    },
+    "AdjusterDetails": {
+        "Name": "Charles Wood",
+        "ContactInformation": {
+            "Phone": "4664137346",
+            "Email": "twelch@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/262213e4-79cf-462c-834a-278b5f93e1fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-09T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-14T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-19T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

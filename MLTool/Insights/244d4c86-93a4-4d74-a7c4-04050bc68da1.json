@@ -1,0 +1,81 @@
+{
+    "ClaimID": "244d4c86-93a4-4d74-a7c4-04050bc68da1",
+    "PolicyID": "2f22da6d-c6d4-47e8-8b94-e6d468f351b9",
+    "EffectiveDates": {
+        "StartDate": "2024-01-12",
+        "EndDate": "2025-01-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8b8b0c8d-a09d-4244-bbfe-8667d1564bce",
+        "Name": "Michael Peterson",
+        "PolicyNumber": "2f22da6d-c6d4-47e8-8b94-e6d468f351b9",
+        "ContactInformation": {
+            "Phone": "(289)689-1721x42191",
+            "Email": "tthomas@example.com",
+            "Address": "631 Leonard Key\nWest Robertton, AR 68426"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-03",
+        "Location": "82486 Henry Valleys\nJenniferport, WI 58350",
+        "Description": "Care get exist any. Beat check two create clearly choice idea audience. Catch look green hand."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 157844
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9618
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1455
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42739
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8202
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 90333,
+        "TotalApproved": 10839
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Hamilton",
+        "ContactInformation": {
+            "Phone": "+1-623-551-3981x115",
+            "Email": "hendersonamy@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ead90439-2340-4b9e-9444-0d7b6b9b79a4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-03T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-08T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-13T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

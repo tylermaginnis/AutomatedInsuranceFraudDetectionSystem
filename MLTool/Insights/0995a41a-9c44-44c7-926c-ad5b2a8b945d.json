@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0995a41a-9c44-44c7-926c-ad5b2a8b945d",
+    "PolicyID": "3651bd0f-1a09-48bd-81d3-a2ccdf996200",
+    "EffectiveDates": {
+        "StartDate": "2024-09-03",
+        "EndDate": "2025-09-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a902e464-680a-45ef-8c29-af049c740716",
+        "Name": "Bill Thomas",
+        "PolicyNumber": "3651bd0f-1a09-48bd-81d3-a2ccdf996200",
+        "ContactInformation": {
+            "Phone": "001-529-804-6861x50396",
+            "Email": "lharvey@example.com",
+            "Address": "115 Shaffer Harbors Apt. 088\nSharonmouth, WY 85557"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-19",
+        "Location": "5783 Stanley Garden Suite 088\nLake Sandrahaven, ID 78420",
+        "Description": "First least good position shoulder. Idea type later contain ever range leg. Environmental state thousand simple."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19735
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 150689
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33921
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19328
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6714
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 78924,
+        "TotalApproved": 27876
+    },
+    "AdjusterDetails": {
+        "Name": "Erica Russell",
+        "ContactInformation": {
+            "Phone": "001-474-276-8236x17566",
+            "Email": "joshuasantiago@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/23563f48-94fa-45ac-bd7f-0a4d554cff18"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-19T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-24T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-29T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

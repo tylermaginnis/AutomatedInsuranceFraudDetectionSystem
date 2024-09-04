@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6035d791-3d84-4d74-aca3-111237dfb661",
+    "PolicyID": "9016ceae-38a1-44bd-bf49-ec2eaaadc3d3",
+    "EffectiveDates": {
+        "StartDate": "2024-04-06",
+        "EndDate": "2025-04-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9d70f1a9-a433-4522-8a0e-3eb0b74af569",
+        "Name": "Stephen Lee",
+        "PolicyNumber": "9016ceae-38a1-44bd-bf49-ec2eaaadc3d3",
+        "ContactInformation": {
+            "Phone": "832-403-4001",
+            "Email": "udavis@example.com",
+            "Address": "91104 White Cliff\nWaltersview, ME 92278"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-31",
+        "Location": "088 Mary Rest\nLake Matthewbury, NV 23135",
+        "Description": "Answer rest claim deal father. Child admit dog born suggest. Consumer others effect house."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 179294
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 182500
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 126693
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4854
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5622
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 95164,
+        "TotalApproved": 7891
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Smith",
+        "ContactInformation": {
+            "Phone": "566.881.4645x1107",
+            "Email": "fernandezalicia@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/713b1abb-fe1a-4c0b-81d8-e9a8c980f425"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-31T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

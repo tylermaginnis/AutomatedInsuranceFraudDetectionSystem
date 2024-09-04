@@ -1,0 +1,81 @@
+{
+    "ClaimID": "efa74462-e104-44cb-8aca-515310958318",
+    "PolicyID": "16ef9663-d87a-4351-9c9f-9334329e2f48",
+    "EffectiveDates": {
+        "StartDate": "2024-03-13",
+        "EndDate": "2025-03-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dfdb4f65-059b-4d4e-a615-c5e370a1a084",
+        "Name": "Daniel Spears",
+        "PolicyNumber": "16ef9663-d87a-4351-9c9f-9334329e2f48",
+        "ContactInformation": {
+            "Phone": "(840)402-8219",
+            "Email": "michaelwillis@example.org",
+            "Address": "47056 David Drive\nNorth Robert, CA 26115"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-16",
+        "Location": "472 Danielle Inlet Suite 161\nMichaelburgh, IL 82169",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50855
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44276
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8830
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25208
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10018
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 139187,
+        "TotalApproved": 106540
+    },
+    "AdjusterDetails": {
+        "Name": "Rebecca Garcia",
+        "ContactInformation": {
+            "Phone": "260-456-0312x820",
+            "Email": "vadams@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f56863dd-5557-41b6-b0a4-8e54d7436597"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

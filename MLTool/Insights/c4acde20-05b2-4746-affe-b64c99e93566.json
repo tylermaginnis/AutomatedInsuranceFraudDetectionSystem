@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c4acde20-05b2-4746-affe-b64c99e93566",
+    "PolicyID": "4a6675e7-0b1c-4cbf-9c7d-ee5f30faa147",
+    "EffectiveDates": {
+        "StartDate": "2024-04-05",
+        "EndDate": "2025-04-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5d0c8ad4-836a-4c8a-952f-9bb13e4e7f1f",
+        "Name": "Jared Smith",
+        "PolicyNumber": "4a6675e7-0b1c-4cbf-9c7d-ee5f30faa147",
+        "ContactInformation": {
+            "Phone": "275.492.7940x5637",
+            "Email": "wwilson@example.com",
+            "Address": "715 Graham Camp Suite 895\nNorth Kellieville, RI 74584"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-03",
+        "Location": "681 Gallagher Spurs\nSouth Allison, MO 39179",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 73755
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31762
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6125
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16023
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7422
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 135087,
+        "TotalApproved": 97160
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph House",
+        "ContactInformation": {
+            "Phone": "509-998-4653x5016",
+            "Email": "qwagner@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8ea76a85-02b9-4346-811f-6e012cae77cf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-03T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-08T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-13T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

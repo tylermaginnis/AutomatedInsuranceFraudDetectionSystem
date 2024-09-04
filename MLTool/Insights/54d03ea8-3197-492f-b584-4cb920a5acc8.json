@@ -1,0 +1,81 @@
+{
+    "ClaimID": "54d03ea8-3197-492f-b584-4cb920a5acc8",
+    "PolicyID": "d1cbbcf5-6320-4e49-af47-e4ca6ed080b2",
+    "EffectiveDates": {
+        "StartDate": "2024-06-29",
+        "EndDate": "2025-06-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ee5468af-aa38-4a90-b989-56772d1056dc",
+        "Name": "Marcus Hicks",
+        "PolicyNumber": "d1cbbcf5-6320-4e49-af47-e4ca6ed080b2",
+        "ContactInformation": {
+            "Phone": "790-830-8757x721",
+            "Email": "atkinsjose@example.org",
+            "Address": "02316 Kelly Lane\nAshleyside, PA 28985"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-05",
+        "Location": "8654 Tyrone Burg Suite 706\nWatkinsville, NY 93276",
+        "Description": "Note yes part sell ability. Economic health hear according north stop. Beautiful by middle likely art view order."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 65123
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3076
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43095
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27666
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8377
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 90845,
+        "TotalApproved": 15255
+    },
+    "AdjusterDetails": {
+        "Name": "Stephen Ponce",
+        "ContactInformation": {
+            "Phone": "731.619.0409x1679",
+            "Email": "dsanchez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ece2bd31-ca92-439c-90d7-32186d2182ab"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

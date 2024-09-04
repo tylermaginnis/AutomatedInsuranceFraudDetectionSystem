@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ef698276-c5c6-42de-a885-47e3bae93c64",
+    "PolicyID": "6f2514ef-7832-457c-80c4-98522d3d9dd6",
+    "EffectiveDates": {
+        "StartDate": "2024-07-07",
+        "EndDate": "2025-07-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0579baff-c86c-4d42-ab86-76546df04312",
+        "Name": "Rhonda Wright",
+        "PolicyNumber": "6f2514ef-7832-457c-80c4-98522d3d9dd6",
+        "ContactInformation": {
+            "Phone": "842-867-4452x1755",
+            "Email": "keithcampbell@example.org",
+            "Address": "351 Jason Rest Suite 583\nNorth Dwaynemouth, AZ 31666"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-05",
+        "Location": "02094 Cesar Views\nSouth Nicoleton, CT 59722",
+        "Description": "Who fact at. Opportunity nor like protect. Usually word road and.\nThird fine discover thought least remember second. Lay animal religious learn open. Thus do physical computer teacher indeed."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7153
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9538
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1145
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22989
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5154
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 6034,
+        "TotalApproved": 1513
+    },
+    "AdjusterDetails": {
+        "Name": "John Davis",
+        "ContactInformation": {
+            "Phone": "7586809355",
+            "Email": "jesse18@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f775d970-87ba-4373-b15d-798c40995454"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

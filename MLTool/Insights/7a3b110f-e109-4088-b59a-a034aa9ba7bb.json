@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7a3b110f-e109-4088-b59a-a034aa9ba7bb",
+    "PolicyID": "990c89a1-3c8e-48ca-8cd7-855c3e2abffd",
+    "EffectiveDates": {
+        "StartDate": "2024-06-27",
+        "EndDate": "2025-06-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6faef729-5d33-49cb-ad67-2f4efa33e976",
+        "Name": "Alisha Mack",
+        "PolicyNumber": "990c89a1-3c8e-48ca-8cd7-855c3e2abffd",
+        "ContactInformation": {
+            "Phone": "4776308159",
+            "Email": "abrown@example.org",
+            "Address": "59876 Gary Garden Suite 566\nEast Patricia, HI 81302"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-22",
+        "Location": "270 Paul Stream Apt. 120\nDennisview, AL 56732",
+        "Description": "Left provide up professor. Watch pay such she push else owner. Walk official force last."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7671
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14878
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3254
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2883
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 194713
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 104631,
+        "TotalApproved": 10046
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Woodward",
+        "ContactInformation": {
+            "Phone": "+1-216-309-2556",
+            "Email": "egarcia@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7baadf73-ad89-4481-ba3f-fff19399e62c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-02T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

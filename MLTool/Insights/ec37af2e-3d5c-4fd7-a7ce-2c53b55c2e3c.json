@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ec37af2e-3d5c-4fd7-a7ce-2c53b55c2e3c",
+    "PolicyID": "35be26c1-4a36-4d13-8f65-0a0a7e261761",
+    "EffectiveDates": {
+        "StartDate": "2024-06-27",
+        "EndDate": "2025-06-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e8645687-fc01-43ca-a797-86f4488ea129",
+        "Name": "Cody Johnson",
+        "PolicyNumber": "35be26c1-4a36-4d13-8f65-0a0a7e261761",
+        "ContactInformation": {
+            "Phone": "499-234-5575",
+            "Email": "udavis@example.org",
+            "Address": "0245 Holly Fall\nNorth Ashley, WA 16606"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "009 Tina Stream Apt. 272\nEast Brian, GA 04103",
+        "Description": "Likely education just be school. Employee we page build region laugh space. Top plant throw take step develop.\nYes program so its. Page involve interesting near training will."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1427
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4226
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2250
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44134
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7534
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 20517,
+        "TotalApproved": 17317
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Jacobs",
+        "ContactInformation": {
+            "Phone": "+1-316-840-7961x739",
+            "Email": "brennanrachel@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f101fa2e-41d9-4515-af69-6b3c2a3c0870"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

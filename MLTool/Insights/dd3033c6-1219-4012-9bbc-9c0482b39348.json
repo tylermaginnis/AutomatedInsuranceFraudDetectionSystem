@@ -1,0 +1,81 @@
+{
+    "ClaimID": "dd3033c6-1219-4012-9bbc-9c0482b39348",
+    "PolicyID": "5b5a6375-61e9-4572-96d9-4c050f83239a",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8ffc0445-091b-47a2-993e-d4cf65801763",
+        "Name": "Theresa Osborne",
+        "PolicyNumber": "5b5a6375-61e9-4572-96d9-4c050f83239a",
+        "ContactInformation": {
+            "Phone": "8113431502",
+            "Email": "cunninghamchristopher@example.org",
+            "Address": "Unit 9934 Box 2232\nDPO AP 46814"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-15",
+        "Location": "80345 Ramirez Alley Apt. 257\nSouth Kevinmouth, LA 93445",
+        "Description": "Indeed father those finish anything risk list. Then hot few although when we bar.\nWall know capital. Hope even agency. Something simple debate serve."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18488
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1004
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37054
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10359
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14138
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 80904,
+        "TotalApproved": 33682
+    },
+    "AdjusterDetails": {
+        "Name": "Kristen Herman",
+        "ContactInformation": {
+            "Phone": "+1-423-975-4316x0089",
+            "Email": "uweiss@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6782a853-9dc9-488a-9886-80449e3f7d88"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-15T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-20T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-25T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

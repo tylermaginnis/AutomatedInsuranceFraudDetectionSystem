@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6b8db0cb-7ea4-472c-9ad4-e48a70dedd73",
+    "PolicyID": "46c2b988-91e8-45ee-8616-96a83fc73333",
+    "EffectiveDates": {
+        "StartDate": "2023-09-17",
+        "EndDate": "2024-09-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "28bebc63-c075-4ffc-8bee-28f8a82a94e0",
+        "Name": "Brandon Petersen",
+        "PolicyNumber": "46c2b988-91e8-45ee-8616-96a83fc73333",
+        "ContactInformation": {
+            "Phone": "268.262.3132",
+            "Email": "lisareyes@example.org",
+            "Address": "8781 Conley Freeway\nWest Mariafurt, OH 95803"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-04",
+        "Location": "9852 Jimmy Manors\nThomasport, ME 55536",
+        "Description": "Especially amount social more several operation though himself. Audience player various discover. Various especially consider southern leave. Through war occur central guess."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3383
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4688
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9083
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 66305
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 95027
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 166979,
+        "TotalApproved": 51909
+    },
+    "AdjusterDetails": {
+        "Name": "Taylor Smith",
+        "ContactInformation": {
+            "Phone": "328.689.5651",
+            "Email": "kbarnett@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/13596213-8d01-4242-a4de-8d83fb839c1a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-04T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-09T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-14T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

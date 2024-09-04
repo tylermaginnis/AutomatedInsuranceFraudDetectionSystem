@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8956acd8-555c-4663-a5af-6f7bd81baaf0",
+    "PolicyID": "33435bc9-8900-4478-9e95-7274f35755e9",
+    "EffectiveDates": {
+        "StartDate": "2024-07-14",
+        "EndDate": "2025-07-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "91e19730-08c7-44b8-9f21-93fc45acb852",
+        "Name": "Stephanie Smith",
+        "PolicyNumber": "33435bc9-8900-4478-9e95-7274f35755e9",
+        "ContactInformation": {
+            "Phone": "384.552.2102x264",
+            "Email": "monica38@example.com",
+            "Address": "714 Colon Knolls Apt. 459\nMichelleview, KS 37108"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-21",
+        "Location": "91380 Mills Spur\nMurphymouth, NJ 48036",
+        "Description": "Agency dog almost management speak rest tonight. Affect around at agency edge why. Prepare to American stage road guy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15160
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17798
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1532
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 96244
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7077
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 38612,
+        "TotalApproved": 4721
+    },
+    "AdjusterDetails": {
+        "Name": "Bianca Black",
+        "ContactInformation": {
+            "Phone": "001-321-979-1935x949",
+            "Email": "john19@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/3d706d74-963d-4054-b3c7-8405a35bba9c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-21T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-26T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-31T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

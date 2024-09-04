@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ad633c7f-9918-4223-8555-7a41c0bb1c0a",
+    "PolicyID": "6649b4e2-2aed-4679-925b-40415dac5af9",
+    "EffectiveDates": {
+        "StartDate": "2024-07-08",
+        "EndDate": "2025-07-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7774842f-9fa5-474b-86dc-85e01964cfd0",
+        "Name": "Troy Mcintosh",
+        "PolicyNumber": "6649b4e2-2aed-4679-925b-40415dac5af9",
+        "ContactInformation": {
+            "Phone": "(700)748-8991x306",
+            "Email": "julienelson@example.com",
+            "Address": "822 Dawn Villages Apt. 247\nRichardmouth, TN 17683"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-24",
+        "Location": "PSC 1228, Box 2325\nAPO AE 87664",
+        "Description": "Break mean new itself either recently. Summer section company those ground whose.\nField help speech push. Happen increase benefit stand. Response current nature book article party break."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 105265
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47891
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 43015
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 74218
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1465
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 38084,
+        "TotalApproved": 10285
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Hendricks",
+        "ContactInformation": {
+            "Phone": "718-959-7292x86324",
+            "Email": "bmathews@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/706a51c1-2704-4e97-a908-f05b583f4bc6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

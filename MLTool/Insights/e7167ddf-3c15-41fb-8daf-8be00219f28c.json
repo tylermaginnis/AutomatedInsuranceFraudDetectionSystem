@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e7167ddf-3c15-41fb-8daf-8be00219f28c",
+    "PolicyID": "fd769974-84cc-4d7f-b38f-3e9e7c8caf7c",
+    "EffectiveDates": {
+        "StartDate": "2024-06-25",
+        "EndDate": "2025-06-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ba2ada5e-7bec-4c7f-a19c-b28a5fb11197",
+        "Name": "Shannon Ferguson",
+        "PolicyNumber": "fd769974-84cc-4d7f-b38f-3e9e7c8caf7c",
+        "ContactInformation": {
+            "Phone": "(918)519-7741",
+            "Email": "rcantrell@example.com",
+            "Address": "732 Johnson Lane\nLake Katherine, NE 39762"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-13",
+        "Location": "84041 Christopher Wall Suite 124\nPort Anthonyfurt, MI 85368",
+        "Description": "Family pass toward include create."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 142390
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19613
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2913
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5423
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 96312
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 152540,
+        "TotalApproved": 5780
+    },
+    "AdjusterDetails": {
+        "Name": "Kenneth Holder",
+        "ContactInformation": {
+            "Phone": "467-213-6434",
+            "Email": "cherylgreen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/11afd740-d691-4d14-b582-f9ef979d5686"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-13T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-18T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-23T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

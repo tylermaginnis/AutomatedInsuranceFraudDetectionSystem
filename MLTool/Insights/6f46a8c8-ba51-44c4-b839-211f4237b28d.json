@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6f46a8c8-ba51-44c4-b839-211f4237b28d",
+    "PolicyID": "c8d8347e-077a-4c9b-a12b-4e1df3c25c95",
+    "EffectiveDates": {
+        "StartDate": "2024-08-12",
+        "EndDate": "2025-08-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "311b8d0a-8bec-4497-893d-c6cb67bc310b",
+        "Name": "Jessica Flores",
+        "PolicyNumber": "c8d8347e-077a-4c9b-a12b-4e1df3c25c95",
+        "ContactInformation": {
+            "Phone": "442-601-8098",
+            "Email": "kristen43@example.com",
+            "Address": "89861 Vanessa Court\nMahoneyfort, HI 05232"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-23",
+        "Location": "Unit 7877 Box 3826\nDPO AP 54414",
+        "Description": "You federal remain our either ago arrive easy. Suggest bring whose pressure for. Than turn degree fire skill."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13325
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 106084
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2758
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 56194
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6294
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 110601,
+        "TotalApproved": 16686
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Davidson",
+        "ContactInformation": {
+            "Phone": "(594)546-8978",
+            "Email": "jerry12@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b6d0bb34-114f-4105-b62d-d1e12f04263d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-03T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

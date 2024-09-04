@@ -1,0 +1,80 @@
+{
+  "ClaimID": "711d0e91-bb96-4cb7-8ffe-4a9163cf8085",
+  "PolicyID": "1c849ce2-21b5-44bd-91e8-d171a98d9981",
+  "EffectiveDates": {
+    "StartDate": "2023-10-31",
+    "EndDate": "2024-10-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "dab5386f-6288-4cef-a029-7a8f269bdfdc",
+    "Name": "Kelsey Martinez",
+    "PolicyNumber": "1c849ce2-21b5-44bd-91e8-d171a98d9981",
+    "ContactInformation": {
+      "Phone": "403.997.4559x98764",
+      "Email": "jessicaschmidt@example.com",
+      "Address": "120 Harper Drives Suite 937\nBonniechester, RI 19035"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-02",
+    "Location": "2209 Michael Ridges\nLake Phyllisland, HI 38126",
+    "Description": "Fear feeling president fill avoid. Usually seek maybe country by news follow. Three administration camera who.\nStreet responsibility not. Successful far upon represent."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1930
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 60923
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 18642
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3408
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 45952
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 121505,
+    "TotalApproved": 22328
+  },
+  "AdjusterDetails": {
+    "Name": "Adam Cooper",
+    "ContactInformation": {
+      "Phone": "551-371-5739x7127",
+      "Email": "ulindsey@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/9f6b8186-0e49-4131-b96b-411e6d59be2c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-02T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-07T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-12T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

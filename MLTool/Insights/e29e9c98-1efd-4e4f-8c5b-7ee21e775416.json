@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e29e9c98-1efd-4e4f-8c5b-7ee21e775416",
+    "PolicyID": "255f528c-517c-4e43-97a0-b3b2796580b0",
+    "EffectiveDates": {
+        "StartDate": "2023-12-07",
+        "EndDate": "2024-12-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bb3763ac-c7d3-444e-9698-0734bbb7cc4f",
+        "Name": "Mary Turner",
+        "PolicyNumber": "255f528c-517c-4e43-97a0-b3b2796580b0",
+        "ContactInformation": {
+            "Phone": "674-952-0467",
+            "Email": "xmclaughlin@example.org",
+            "Address": "33824 Young Mountains Apt. 655\nNew Jennifer, FL 17610"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-07",
+        "Location": "841 Thomas Mission\nEast Maryport, NJ 69011",
+        "Description": "Support believe effort pick machine government. Statement risk not gas administration life culture."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 82226
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 64216
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37442
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29314
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20905
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 15810,
+        "TotalApproved": 14650
+    },
+    "AdjusterDetails": {
+        "Name": "Frank White",
+        "ContactInformation": {
+            "Phone": "(970)812-7534x9360",
+            "Email": "carolyn07@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/cca4295d-1d2c-4d07-8462-4e04b574ba4d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-07T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-12T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-17T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

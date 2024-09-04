@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bd20b8a8-e8ec-473d-97a2-503b8f8add1c",
+    "PolicyID": "85743aa0-40ec-4466-a998-af087315306f",
+    "EffectiveDates": {
+        "StartDate": "2024-08-30",
+        "EndDate": "2025-08-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ce1783bf-70a0-4a4f-896c-c685c34e262b",
+        "Name": "Laurie Gonzalez",
+        "PolicyNumber": "85743aa0-40ec-4466-a998-af087315306f",
+        "ContactInformation": {
+            "Phone": "001-327-430-9889x57080",
+            "Email": "ichapman@example.org",
+            "Address": "6286 Watson Creek\nPort Russell, AK 88752"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-28",
+        "Location": "8878 James Pass\nEast Lori, AK 74120",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 67200
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38100
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5401
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20445
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5450
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 136596,
+        "TotalApproved": 24653
+    },
+    "AdjusterDetails": {
+        "Name": "Nicole Holmes",
+        "ContactInformation": {
+            "Phone": "8727423072",
+            "Email": "edward23@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1a8da058-857b-4b1e-93cf-229a1aa10796"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-28T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-02T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-07T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

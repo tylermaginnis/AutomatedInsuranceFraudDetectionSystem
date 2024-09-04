@@ -1,0 +1,81 @@
+{
+    "ClaimID": "efcca4d6-9df3-4ed3-a4a4-d6eb19d788a6",
+    "PolicyID": "0bb75c9e-c706-492c-ae7a-a3a00b7f0cfa",
+    "EffectiveDates": {
+        "StartDate": "2024-02-08",
+        "EndDate": "2025-02-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "30137668-795d-4cef-ae01-54d38f37f957",
+        "Name": "Samantha Lyons",
+        "PolicyNumber": "0bb75c9e-c706-492c-ae7a-a3a00b7f0cfa",
+        "ContactInformation": {
+            "Phone": "3195688385",
+            "Email": "ericolson@example.com",
+            "Address": "PSC 5397, Box 6607\nAPO AP 18849"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-05",
+        "Location": "22622 Ford Walks Suite 044\nWilliebury, NH 86170",
+        "Description": "Else turn many term in. Anyone my determine watch kind.\nAccept couple whom whether forward occur speech head. After soldier amount government hundred some."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9870
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 93388
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39532
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19001
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 58210
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 69849,
+        "TotalApproved": 60336
+    },
+    "AdjusterDetails": {
+        "Name": "Cory Beck",
+        "ContactInformation": {
+            "Phone": "(685)768-8665x53147",
+            "Email": "bauerandrew@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/36759d78-aed4-47dd-8b94-dc07dfdd9be3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

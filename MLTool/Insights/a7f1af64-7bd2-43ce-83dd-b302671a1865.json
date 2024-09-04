@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a7f1af64-7bd2-43ce-83dd-b302671a1865",
+    "PolicyID": "817bedb8-9df9-4518-bc05-3cc4debd4a3e",
+    "EffectiveDates": {
+        "StartDate": "2023-09-11",
+        "EndDate": "2024-09-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0945fb02-7168-4d3c-961f-a6ddb31cf02f",
+        "Name": "Timothy West",
+        "PolicyNumber": "817bedb8-9df9-4518-bc05-3cc4debd4a3e",
+        "ContactInformation": {
+            "Phone": "792.509.3847",
+            "Email": "victoria01@example.com",
+            "Address": "360 Michael Port\nEast Nicholasside, WV 35235"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-10",
+        "Location": "024 Ryan Hollow Apt. 491\nKingland, PA 41830",
+        "Description": "Fly certain learn help one. Eight top mention popular institution best entire.\nFollow detail manager performance science. Leave occur common leg phone management. Number hair write institution court."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16383
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38743
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17552
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5093
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7258
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 17735,
+        "TotalApproved": 8010
+    },
+    "AdjusterDetails": {
+        "Name": "Breanna Davis",
+        "ContactInformation": {
+            "Phone": "001-589-543-8069x4256",
+            "Email": "uthompson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/c3170316-7cc6-4fa8-bc7c-32393c39b59b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

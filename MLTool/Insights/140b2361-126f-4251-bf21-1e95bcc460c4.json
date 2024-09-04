@@ -1,0 +1,81 @@
+{
+    "ClaimID": "140b2361-126f-4251-bf21-1e95bcc460c4",
+    "PolicyID": "2df25e4e-ee56-4059-be40-87b5ecbdf48e",
+    "EffectiveDates": {
+        "StartDate": "2024-07-02",
+        "EndDate": "2025-07-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "06d8d2d9-9bbc-44c7-8b17-f071176f1683",
+        "Name": "Lucas Ewing",
+        "PolicyNumber": "2df25e4e-ee56-4059-be40-87b5ecbdf48e",
+        "ContactInformation": {
+            "Phone": "801.874.9938",
+            "Email": "mcdonaldgary@example.org",
+            "Address": "7580 Kevin Ranch Apt. 947\nNew Kennethmouth, OR 95013"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-11",
+        "Location": "168 Higgins Avenue Apt. 453\nWeberfurt, NM 89274",
+        "Description": "Share reality fish their.\nProvide since especially real against feel. Necessary seem picture interest. Role hit own test cultural show maintain.\nMuch billion hospital get. Born himself lead discover."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1277
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 153878
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30746
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36747
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70275
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 75144,
+        "TotalApproved": 7706
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Stewart",
+        "ContactInformation": {
+            "Phone": "(468)405-4584",
+            "Email": "dmichael@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/463f3c56-6b54-445b-8d98-8e27e4db8687"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-11T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-16T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-21T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

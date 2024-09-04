@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0e21e4bc-560d-496a-9a01-6297f32133ec",
+  "PolicyID": "bde04635-f9c1-42a2-b6bf-6102e181e9ac",
+  "EffectiveDates": {
+    "StartDate": "2024-08-01",
+    "EndDate": "2025-08-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b4feccbc-5595-44ca-9410-7006a44d8cc7",
+    "Name": "Jared Palmer",
+    "PolicyNumber": "bde04635-f9c1-42a2-b6bf-6102e181e9ac",
+    "ContactInformation": {
+      "Phone": "+1-841-979-0076x05006",
+      "Email": "wilsonbarry@example.net",
+      "Address": "283 Patricia Road\nPatrickbury, NC 10215"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-24",
+    "Location": "884 Matthew Turnpike\nSouth Andrea, NV 88702",
+    "Description": "Lead school anyone computer impact. Prepare home may which have have add."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 127836
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 32861
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 166847
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 11374
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 122495
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 77276,
+    "TotalApproved": 49177
+  },
+  "AdjusterDetails": {
+    "Name": "Scott Rosales",
+    "ContactInformation": {
+      "Phone": "730-462-2851x231",
+      "Email": "walkerevelyn@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/60ffe898-a524-4f54-a827-7eda711afcbd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-24T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-29T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-04T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

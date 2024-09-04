@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6fd828d-3f8b-4313-9ff2-3c477d7f58f0",
+    "PolicyID": "f2c2909a-7330-43c0-80d4-8c4946fbf842",
+    "EffectiveDates": {
+        "StartDate": "2024-06-19",
+        "EndDate": "2025-06-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3fa1d387-68d5-4adc-99f6-e5286fd375d7",
+        "Name": "Alicia Russell",
+        "PolicyNumber": "f2c2909a-7330-43c0-80d4-8c4946fbf842",
+        "ContactInformation": {
+            "Phone": "+1-968-449-6359x39417",
+            "Email": "hlane@example.net",
+            "Address": "73995 Stacy Parks Suite 219\nHudsonport, NY 21598"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-15",
+        "Location": "103 Burns Islands\nBowenshire, MH 53917",
+        "Description": "Modern mean far behavior court send. Probably catch school action three bag. Medical movie writer character sit beyond. Newspaper involve already include well here."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4023
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9706
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6531
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38746
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15671
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 34679,
+        "TotalApproved": 21142
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Powers",
+        "ContactInformation": {
+            "Phone": "889-278-9053x60304",
+            "Email": "heidi81@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f911668a-159b-4a92-93b7-819d0f572fb1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cfcb1183-d492-4474-82cf-10cc5b2e6eea",
+    "PolicyID": "09fcad0e-14ea-4a20-8024-23ddf005c2ed",
+    "EffectiveDates": {
+        "StartDate": "2024-09-01",
+        "EndDate": "2025-09-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1b02f2da-5f2d-4b0b-9217-3b058fd53ebf",
+        "Name": "Angela Valenzuela",
+        "PolicyNumber": "09fcad0e-14ea-4a20-8024-23ddf005c2ed",
+        "ContactInformation": {
+            "Phone": "255.751.6467",
+            "Email": "michaelramirez@example.net",
+            "Address": "44148 Lori Hollow\nHarveymouth, WY 22018"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-19",
+        "Location": "044 Louis Plaza\nNew Anthony, VA 32191",
+        "Description": "Can people plan. Customer break either.\nSit gun walk view.\nBefore hard onto stage city. First you account say pull really yourself."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39397
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 65632
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8459
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4819
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3472
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 54664,
+        "TotalApproved": 14008
+    },
+    "AdjusterDetails": {
+        "Name": "Charlotte Davis",
+        "ContactInformation": {
+            "Phone": "(733)212-7233x3533",
+            "Email": "swright@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/526a63ee-e1a6-4ed0-af9b-dd80f8c3d4f5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-19T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-24T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-29T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

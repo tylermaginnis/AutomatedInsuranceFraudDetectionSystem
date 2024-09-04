@@ -1,0 +1,81 @@
+{
+    "ClaimID": "78eadb8a-0b00-47e5-a950-d513e2c2ad45",
+    "PolicyID": "e5828320-ec45-4ac1-bae3-75e9fda7104c",
+    "EffectiveDates": {
+        "StartDate": "2023-11-11",
+        "EndDate": "2024-11-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3819b593-f99d-4adc-aaf8-5526e03c043c",
+        "Name": "Seth Lozano",
+        "PolicyNumber": "e5828320-ec45-4ac1-bae3-75e9fda7104c",
+        "ContactInformation": {
+            "Phone": "(576)710-5286x31487",
+            "Email": "douglas90@example.org",
+            "Address": "444 Diane Rapid\nMcguiremouth, WA 79414"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-02",
+        "Location": "400 Dickson Oval\nEast Evelyn, OR 46780",
+        "Description": "Daughter well black identify laugh hundred. Work shoulder finally however toward bar. Design prevent place throughout bank."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9911
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8148
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 52880
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14919
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4082
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 196022,
+        "TotalApproved": 139537
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Terry",
+        "ContactInformation": {
+            "Phone": "(567)916-2835",
+            "Email": "carol71@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/42298510-ac3d-4e2a-bfad-7863fa06dbbf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

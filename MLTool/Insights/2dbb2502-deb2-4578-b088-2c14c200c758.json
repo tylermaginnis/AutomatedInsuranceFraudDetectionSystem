@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2dbb2502-deb2-4578-b088-2c14c200c758",
+    "PolicyID": "701d3de9-924c-4a63-bdc7-8069ae9a3efe",
+    "EffectiveDates": {
+        "StartDate": "2024-03-09",
+        "EndDate": "2025-03-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d7a8a2c3-43ff-4838-8396-297929f3647f",
+        "Name": "Brian Mckinney",
+        "PolicyNumber": "701d3de9-924c-4a63-bdc7-8069ae9a3efe",
+        "ContactInformation": {
+            "Phone": "389.393.8075",
+            "Email": "marymartin@example.com",
+            "Address": "9811 Landry Common Suite 277\nLake Loganburgh, ME 16373"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-01",
+        "Location": "279 Barnett Forest\nBuckleyhaven, VI 18781",
+        "Description": "Day way anyone street us.\nCongress money detail same. Off I talk. Spend administration she major memory.\nCould official east record. And light suffer wear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 187761
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 73202
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49490
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 90193
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 105372
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 52006,
+        "TotalApproved": 47119
+    },
+    "AdjusterDetails": {
+        "Name": "Tiffany Elliott",
+        "ContactInformation": {
+            "Phone": "001-451-404-7643x330",
+            "Email": "nathan01@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/63c7ff8d-0f3c-4409-a7e1-a348a10e30c5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-01T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-06T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-11T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

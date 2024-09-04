@@ -1,0 +1,81 @@
+{
+    "ClaimID": "01d0af61-3915-47e6-bff5-e766d52164dd",
+    "PolicyID": "f9c2735b-e745-47d6-962f-f866c6fa4815",
+    "EffectiveDates": {
+        "StartDate": "2023-10-14",
+        "EndDate": "2024-10-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a72c3e9b-42b6-4e3e-9aac-0457ba63a21f",
+        "Name": "Joseph Ellis",
+        "PolicyNumber": "f9c2735b-e745-47d6-962f-f866c6fa4815",
+        "ContactInformation": {
+            "Phone": "878.472.4890x2398",
+            "Email": "brookewalker@example.com",
+            "Address": "21237 Cunningham Vista Apt. 149\nSouth Isaiah, VI 83496"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-13",
+        "Location": "189 Pacheco Meadows Suite 597\nJohnborough, GA 93530",
+        "Description": "Worker form stay food person president rest.\nSay yeah provide close song measure season. Result ok talk girl many easy. Expert sit of environment dog."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36864
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2446
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 74557
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9887
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 72997
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 129301,
+        "TotalApproved": 27423
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Yu MD",
+        "ContactInformation": {
+            "Phone": "520-268-1625x30619",
+            "Email": "webbamber@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/380e5334-002d-44d3-8ab0-eafba047f4b7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-13T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-18T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-23T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

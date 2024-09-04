@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c8ff136d-773b-4441-a238-0051caae53c6",
+  "PolicyID": "5eb56c1d-f3e4-4ab2-a6c1-a14aada02e3e",
+  "EffectiveDates": {
+    "StartDate": "2024-05-08",
+    "EndDate": "2025-05-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2ba2687d-33b5-46d7-b279-558ad3b06318",
+    "Name": "Manuel Maxwell",
+    "PolicyNumber": "5eb56c1d-f3e4-4ab2-a6c1-a14aada02e3e",
+    "ContactInformation": {
+      "Phone": "(379)752-2861",
+      "Email": "rsmith@example.com",
+      "Address": "87077 Michelle Road\nNew Timothy, MD 62554"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-17",
+    "Location": "5133 Katrina Crest\nBirdmouth, UT 12050",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 71576
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 31837
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7296
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 14466
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7959
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 133134,
+    "TotalApproved": 60331
+  },
+  "AdjusterDetails": {
+    "Name": "Isabel Butler",
+    "ContactInformation": {
+      "Phone": "(456)384-7116x3686",
+      "Email": "diazsusan@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/a195e878-6eb3-4fb1-ad5a-932271e35775"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-17T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-22T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-27T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

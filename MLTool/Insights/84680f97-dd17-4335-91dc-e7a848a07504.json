@@ -1,0 +1,81 @@
+{
+    "ClaimID": "84680f97-dd17-4335-91dc-e7a848a07504",
+    "PolicyID": "9081513c-e979-4d65-956b-26134f195eec",
+    "EffectiveDates": {
+        "StartDate": "2024-08-19",
+        "EndDate": "2025-08-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "df84cef6-2787-4130-a31f-0ee93afe0bba",
+        "Name": "Ms. Tasha Rice DVM",
+        "PolicyNumber": "9081513c-e979-4d65-956b-26134f195eec",
+        "ContactInformation": {
+            "Phone": "650.568.6794x5122",
+            "Email": "david80@example.net",
+            "Address": "861 Mckinney Lane\nNew Dustinmouth, PA 32015"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-21",
+        "Location": "463 Brian Mountain Suite 796\nLake Andrewfurt, UT 19328",
+        "Description": "Participant discussion cost room. Position nice none inside general pick suddenly evidence. Benefit cut decide."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 82264
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42874
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13111
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4126
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15745
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 36010,
+        "TotalApproved": 4640
+    },
+    "AdjusterDetails": {
+        "Name": "Paul Bates",
+        "ContactInformation": {
+            "Phone": "6208992756",
+            "Email": "steven33@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/89fe591d-c16e-4bb0-a25b-411003e97cdb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-21T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-26T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-31T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

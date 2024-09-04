@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2c61e0e7-5eb3-4fd4-91df-7bf3973adbb1",
+    "PolicyID": "a1615a33-7067-4dd3-bb54-ed78694d48c8",
+    "EffectiveDates": {
+        "StartDate": "2023-11-03",
+        "EndDate": "2024-11-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0ebd4ba0-d1b4-4142-bc6a-970c00f18c49",
+        "Name": "Manuel Burke",
+        "PolicyNumber": "a1615a33-7067-4dd3-bb54-ed78694d48c8",
+        "ContactInformation": {
+            "Phone": "+1-598-787-3238x82395",
+            "Email": "jasonhill@example.net",
+            "Address": "341 Donna Plaza\nNew Justinberg, WA 84588"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-21",
+        "Location": "USNV Martin\nFPO AP 41897",
+        "Description": "Policy charge but fund peace. Back point president event exist institution loss.\nPresent indicate strong yes stay nature put authority."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 107414
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44369
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9114
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91711
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41202
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 100855,
+        "TotalApproved": 88538
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Miller",
+        "ContactInformation": {
+            "Phone": "723.507.8362",
+            "Email": "barbara81@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1420400c-7920-4710-80fa-d1da9a249cdf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-21T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-26T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-01T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

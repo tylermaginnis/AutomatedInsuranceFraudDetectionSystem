@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fe506323-ffe1-4900-953a-38f74b8c660b",
+    "PolicyID": "d2e299e7-8b4e-4b7e-9cd4-932880ff6a93",
+    "EffectiveDates": {
+        "StartDate": "2024-02-23",
+        "EndDate": "2025-02-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "46ef7138-cf80-4234-a2a3-f2eb786ed010",
+        "Name": "Melissa Young",
+        "PolicyNumber": "d2e299e7-8b4e-4b7e-9cd4-932880ff6a93",
+        "ContactInformation": {
+            "Phone": "+1-890-210-6657x7853",
+            "Email": "csampson@example.com",
+            "Address": "58159 Timothy Forge\nSethville, PR 80340"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-29",
+        "Location": "791 Hoffman Prairie Suite 777\nElijahfort, CO 36032",
+        "Description": "Figure business you bring always Mrs.\nEye upon kitchen skin bring music yeah.\nAgo national effort just. Enjoy bar want issue."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14682
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25211
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 68892
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12914
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32627
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 175832,
+        "TotalApproved": 39299
+    },
+    "AdjusterDetails": {
+        "Name": "Alyssa Vaughn",
+        "ContactInformation": {
+            "Phone": "213-777-8388x227",
+            "Email": "rodgerslisa@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4cd0fae2-2e37-4ab3-bc02-6260d3c6f331"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-29T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-03T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-08T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

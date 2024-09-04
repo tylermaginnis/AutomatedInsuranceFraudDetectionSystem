@@ -1,0 +1,81 @@
+{
+    "ClaimID": "60d6f284-ac83-467e-81bf-b2c90a05b33d",
+    "PolicyID": "199957fb-b098-472b-b40b-e094676f6c31",
+    "EffectiveDates": {
+        "StartDate": "2023-10-10",
+        "EndDate": "2024-10-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "309b200d-3b9f-4768-a125-0f40d047dd46",
+        "Name": "Jonathan Wilson",
+        "PolicyNumber": "199957fb-b098-472b-b40b-e094676f6c31",
+        "ContactInformation": {
+            "Phone": "001-670-533-1421x8079",
+            "Email": "michael96@example.com",
+            "Address": "649 Gonzalez Valley\nLake Jennifer, ID 35565"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-13",
+        "Location": "2244 Strong Forest Apt. 845\nJulieshire, AZ 48284",
+        "Description": "Wife each kid air old. Learn then reason mission sell though onto.\nProject other significant wear. Huge measure spring rest accept finally toward.\nRespond later us product recognize few tonight."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15096
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13367
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37093
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 52001
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9399
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 103589,
+        "TotalApproved": 77457
+    },
+    "AdjusterDetails": {
+        "Name": "Dennis Bentley",
+        "ContactInformation": {
+            "Phone": "533.676.4575",
+            "Email": "nicole43@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0f81ca05-02a1-48ea-a89c-0e53af185461"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

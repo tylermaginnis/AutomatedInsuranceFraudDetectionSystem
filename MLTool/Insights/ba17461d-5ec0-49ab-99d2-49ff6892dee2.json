@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ba17461d-5ec0-49ab-99d2-49ff6892dee2",
+    "PolicyID": "d075ba5f-6eb9-4b49-bd41-b671b58f6ae7",
+    "EffectiveDates": {
+        "StartDate": "2024-03-09",
+        "EndDate": "2025-03-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2516f653-c1f4-4b13-8a7a-e54f9b0e20a9",
+        "Name": "Anna Pugh",
+        "PolicyNumber": "d075ba5f-6eb9-4b49-bd41-b671b58f6ae7",
+        "ContactInformation": {
+            "Phone": "(666)369-8826",
+            "Email": "robinsoneric@example.net",
+            "Address": "2322 Douglas Junction Suite 634\nKeithmouth, CO 92379"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-09",
+        "Location": "22910 Scott Key\nReginachester, CA 45428",
+        "Description": "Thousand tonight inside real. Color participant cultural feeling.\nSo effect once relationship still including. Response major mean forget employee away agency. Hope call story maybe although."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5889
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11579
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23490
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27422
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1010
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 44605,
+        "TotalApproved": 31973
+    },
+    "AdjusterDetails": {
+        "Name": "Kara Perez",
+        "ContactInformation": {
+            "Phone": "+1-527-680-2094",
+            "Email": "jillianmartin@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3534a0b5-2322-4dc7-a1e8-460105647469"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

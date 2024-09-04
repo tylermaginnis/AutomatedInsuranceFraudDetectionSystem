@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2377db27-aa96-4942-9275-bf11f934d87e",
+    "PolicyID": "dd79eece-322e-4fc4-a3da-a3d7b814cfe0",
+    "EffectiveDates": {
+        "StartDate": "2024-02-01",
+        "EndDate": "2025-01-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6c643a6f-1c41-400c-a04b-32c9c377f30b",
+        "Name": "Mark Paul",
+        "PolicyNumber": "dd79eece-322e-4fc4-a3da-a3d7b814cfe0",
+        "ContactInformation": {
+            "Phone": "831-942-4029x28574",
+            "Email": "matthewpeterson@example.org",
+            "Address": "651 Riggs Haven Apt. 429\nNew John, MP 73634"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-28",
+        "Location": "256 Elizabeth Mills Apt. 441\nRichardsonchester, KY 45888",
+        "Description": "Bit watch especially. Response become consumer skill understand her those.\nMight threat turn practice mouth east million cold. Author protect economic threat keep PM.\nLawyer she now mean eight where."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39707
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4431
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36978
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17284
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4732
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 74090,
+        "TotalApproved": 57768
+    },
+    "AdjusterDetails": {
+        "Name": "Mason Jones",
+        "ContactInformation": {
+            "Phone": "+1-288-560-2205x8058",
+            "Email": "selenakelly@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ddf8b1dd-6ad1-4906-8da3-efb59f6f5f78"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

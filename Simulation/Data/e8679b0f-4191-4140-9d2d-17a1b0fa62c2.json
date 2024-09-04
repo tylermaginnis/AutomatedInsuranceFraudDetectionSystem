@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e8679b0f-4191-4140-9d2d-17a1b0fa62c2",
+  "PolicyID": "98a571b6-0b79-4502-9498-8cf3c8974994",
+  "EffectiveDates": {
+    "StartDate": "2023-11-17",
+    "EndDate": "2024-11-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "bccf0a82-4289-4003-80b1-80c54a6b0393",
+    "Name": "Kristin Schneider",
+    "PolicyNumber": "98a571b6-0b79-4502-9498-8cf3c8974994",
+    "ContactInformation": {
+      "Phone": "701.835.3033x72548",
+      "Email": "carolyn93@example.org",
+      "Address": "9986 Jason Wells Suite 974\nLake Brittney, PA 93858"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-22",
+    "Location": "851 Bruce Trail\nBakerhaven, MT 03738",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 66132
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 46140
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9377
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 17057
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15590
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 154296,
+    "TotalApproved": 130953
+  },
+  "AdjusterDetails": {
+    "Name": "Vincent Lucas",
+    "ContactInformation": {
+      "Phone": "(446)712-8870",
+      "Email": "michael89@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/9b05bf3e-9a56-4f1d-9b2c-9385af5f7cc5"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-22T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-27T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-01T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

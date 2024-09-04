@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b1ce6c68-4e4c-48d4-a372-b0061d3bdf5e",
+    "PolicyID": "18003952-0ef6-4ac2-ab4d-63740fb911e1",
+    "EffectiveDates": {
+        "StartDate": "2023-11-13",
+        "EndDate": "2024-11-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "57958d1a-18bc-43f8-879a-e5ef40551af9",
+        "Name": "Mrs. Julie Sheppard",
+        "PolicyNumber": "18003952-0ef6-4ac2-ab4d-63740fb911e1",
+        "ContactInformation": {
+            "Phone": "4343898944",
+            "Email": "cartermichael@example.net",
+            "Address": "618 Cox Manor Suite 701\nNew Samuelview, HI 33201"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-03",
+        "Location": "044 Lewis Summit\nThomasport, RI 11873",
+        "Description": "Sense general bill style while fact college station. Behind window themselves hand. Decade sure civil specific grow."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3833
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 118098
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11703
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 99898
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3497
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 108087,
+        "TotalApproved": 22426
+    },
+    "AdjusterDetails": {
+        "Name": "Toni Gamble",
+        "ContactInformation": {
+            "Phone": "+1-757-669-4140",
+            "Email": "salazarvictoria@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4afce6a8-4937-4702-be4a-4780dc4866d7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-03T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-08T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-13T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

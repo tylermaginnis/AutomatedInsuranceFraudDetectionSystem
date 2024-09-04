@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f9fac549-b0a2-45a0-bcbe-67e9990ee3f0",
+  "PolicyID": "da28d760-3e54-42ad-ac98-dad051a70cb2",
+  "EffectiveDates": {
+    "StartDate": "2023-12-10",
+    "EndDate": "2024-12-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e035a315-55ea-4997-ab71-3aa4f79ee0c5",
+    "Name": "Robin Noble",
+    "PolicyNumber": "da28d760-3e54-42ad-ac98-dad051a70cb2",
+    "ContactInformation": {
+      "Phone": "830-846-1821",
+      "Email": "hortonkaren@example.net",
+      "Address": "049 Craig Springs\nNew Linda, ID 85491"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-02",
+    "Location": "349 Savage Locks Suite 396\nFerrellstad, CA 35182",
+    "Description": "Important ahead thus artist. Great strategy edge community worry clear. Food like big opportunity."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 20460
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 177046
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 34810
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 52568
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6499
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 44267,
+    "TotalApproved": 29006
+  },
+  "AdjusterDetails": {
+    "Name": "Sean Clayton",
+    "ContactInformation": {
+      "Phone": "772.904.0867",
+      "Email": "kimroger@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/16173f5f-1868-4c29-96f1-26507c524c14"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-02T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-07T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-12T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

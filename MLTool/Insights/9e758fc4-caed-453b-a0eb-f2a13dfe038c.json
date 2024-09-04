@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9e758fc4-caed-453b-a0eb-f2a13dfe038c",
+    "PolicyID": "d0f4891c-1016-45b1-8a45-13410f84dc27",
+    "EffectiveDates": {
+        "StartDate": "2024-08-14",
+        "EndDate": "2025-08-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "01f2ab37-dd25-4bb9-be00-6c52e71b0ed5",
+        "Name": "Linda Johnson",
+        "PolicyNumber": "d0f4891c-1016-45b1-8a45-13410f84dc27",
+        "ContactInformation": {
+            "Phone": "001-979-971-3344x935",
+            "Email": "williamsjulie@example.com",
+            "Address": "7547 Le Hollow Suite 241\nAlexanderfurt, NC 34095"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-01",
+        "Location": "45237 Mann Parkway Suite 777\nMaryfurt, IA 73997",
+        "Description": "Ask together learn mother director road. Event recognize Congress want treatment industry."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26121
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 195852
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17237
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 150388
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8371
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 112210,
+        "TotalApproved": 41920
+    },
+    "AdjusterDetails": {
+        "Name": "Joy Rasmussen",
+        "ContactInformation": {
+            "Phone": "2907048129",
+            "Email": "ztorres@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/270e8740-1849-4b0f-be6c-f05990d17938"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

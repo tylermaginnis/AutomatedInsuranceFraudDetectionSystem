@@ -1,0 +1,81 @@
+{
+    "ClaimID": "08fee855-8fba-46d6-9172-b18814d0c27d",
+    "PolicyID": "14673c61-d6c6-4eec-a1dc-d1c28bc7c8fa",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8198325a-79ba-4a02-8ada-4c538b580211",
+        "Name": "Walter Taylor",
+        "PolicyNumber": "14673c61-d6c6-4eec-a1dc-d1c28bc7c8fa",
+        "ContactInformation": {
+            "Phone": "(602)228-9985",
+            "Email": "hernandezteresa@example.com",
+            "Address": "586 Brian Loop\nOrrchester, DE 63212"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-12",
+        "Location": "6540 Sanchez Ridges Suite 220\nNew Stacy, TX 62595",
+        "Description": "Someone phone after more. Kitchen us several get relate important half.\nLeader put level fund.\nStatement you career perhaps side dream response allow."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9536
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 63418
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1719
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18550
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 40630
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 198102,
+        "TotalApproved": 124823
+    },
+    "AdjusterDetails": {
+        "Name": "Adam Johnson",
+        "ContactInformation": {
+            "Phone": "001-314-669-1939x0670",
+            "Email": "rosemonique@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/2b5c7c6a-6b0d-4f46-8161-a81116ea4bb2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-12T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-17T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-22T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a2173c34-8208-4ad5-830d-75c639564582",
+    "PolicyID": "e1cd47d5-acfd-4131-bbfa-77bd821b4288",
+    "EffectiveDates": {
+        "StartDate": "2023-09-18",
+        "EndDate": "2024-09-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "221eace8-192c-4a41-9601-ead1b7b8a6aa",
+        "Name": "Blake Hale",
+        "PolicyNumber": "e1cd47d5-acfd-4131-bbfa-77bd821b4288",
+        "ContactInformation": {
+            "Phone": "(899)685-9448x4688",
+            "Email": "rushkyle@example.org",
+            "Address": "63246 Ashley Views\nNorth Joseton, ME 54525"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-16",
+        "Location": "344 Thomas Parks Apt. 195\nDesireeport, PR 10373",
+        "Description": "Line exactly morning feeling condition. Century though present idea fly sell crime. Staff care collection pressure.\nLong media moment while art perform. Painting board laugh himself."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5984
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8543
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24289
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16624
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1989
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 121457,
+        "TotalApproved": 82030
+    },
+    "AdjusterDetails": {
+        "Name": "Teresa Brown",
+        "ContactInformation": {
+            "Phone": "641-213-0507",
+            "Email": "njones@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f932ebd5-531c-4206-b654-9e8d0845c7ed"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-16T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-21T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-26T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

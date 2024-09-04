@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7abf8d42-de59-4eee-ae0c-737b991ab59e",
+  "PolicyID": "14993e47-bca1-4b3c-9bc0-40c347200d2a",
+  "EffectiveDates": {
+    "StartDate": "2023-11-29",
+    "EndDate": "2024-11-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1b3b6f35-96ef-4e88-9670-adbb48f06b32",
+    "Name": "Jennifer Lopez",
+    "PolicyNumber": "14993e47-bca1-4b3c-9bc0-40c347200d2a",
+    "ContactInformation": {
+      "Phone": "001-888-501-8363x99894",
+      "Email": "kathleen93@example.org",
+      "Address": "121 Welch Shore Suite 670\nDurhamburgh, LA 24708"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-20",
+    "Location": "9904 Sean Shoals\nHuntermouth, DE 89672",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 61620
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 21477
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8038
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 14033
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14678
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 119846,
+    "TotalApproved": 18328
+  },
+  "AdjusterDetails": {
+    "Name": "Anthony Sanders",
+    "ContactInformation": {
+      "Phone": "859.613.9015",
+      "Email": "laurenrodriguez@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/b5df80e5-2982-497d-9a79-471fe1509798"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-20T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-25T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-30T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

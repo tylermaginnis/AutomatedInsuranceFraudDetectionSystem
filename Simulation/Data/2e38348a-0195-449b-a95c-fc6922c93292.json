@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2e38348a-0195-449b-a95c-fc6922c93292",
+  "PolicyID": "6ff4808e-7b24-4d5b-b2d2-00daee250fd5",
+  "EffectiveDates": {
+    "StartDate": "2023-11-22",
+    "EndDate": "2024-11-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e82fb0db-7700-4c43-b0bb-9b0225dbcde9",
+    "Name": "Jeremy Pratt",
+    "PolicyNumber": "6ff4808e-7b24-4d5b-b2d2-00daee250fd5",
+    "ContactInformation": {
+      "Phone": "347.224.0528x9755",
+      "Email": "jonathandaniels@example.net",
+      "Address": "360 Jeff Brook\nSouth Larryfort, IA 16989"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-24",
+    "Location": "5393 Stacy Turnpike\nAllentown, MD 31360",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 60159
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 20552
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8768
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 14560
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 19939
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 123978,
+    "TotalApproved": 85623
+  },
+  "AdjusterDetails": {
+    "Name": "Anthony Green",
+    "ContactInformation": {
+      "Phone": "(296)787-3327x22048",
+      "Email": "wmarshall@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/e67e50d0-2182-4075-a5ac-3fe10d3f712c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-24T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-29T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-04T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

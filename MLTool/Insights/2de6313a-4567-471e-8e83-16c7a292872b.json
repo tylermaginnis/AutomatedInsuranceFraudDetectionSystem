@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2de6313a-4567-471e-8e83-16c7a292872b",
+    "PolicyID": "5e9118a9-a5a4-4915-8698-5f84c22daf52",
+    "EffectiveDates": {
+        "StartDate": "2023-12-21",
+        "EndDate": "2024-12-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3c83c475-0f26-4bc4-8c42-4a938a066f33",
+        "Name": "Jessica Proctor",
+        "PolicyNumber": "5e9118a9-a5a4-4915-8698-5f84c22daf52",
+        "ContactInformation": {
+            "Phone": "933-596-4526x42134",
+            "Email": "wallerandrew@example.net",
+            "Address": "USNS Hopkins\nFPO AA 84188"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-03",
+        "Location": "PSC 6146, Box 6805\nAPO AP 43345",
+        "Description": "Personal continue western soon senior. Decide offer will behavior couple task."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9621
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8263
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5951
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 169690
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15197
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 139951,
+        "TotalApproved": 96569
+    },
+    "AdjusterDetails": {
+        "Name": "Edward Brown",
+        "ContactInformation": {
+            "Phone": "968-374-7409x965",
+            "Email": "donnaallen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9a2ddb6b-9501-4d26-892c-d4205046e826"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

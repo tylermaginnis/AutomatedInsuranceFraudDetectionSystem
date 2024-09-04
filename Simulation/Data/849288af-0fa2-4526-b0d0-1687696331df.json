@@ -1,0 +1,80 @@
+{
+  "ClaimID": "849288af-0fa2-4526-b0d0-1687696331df",
+  "PolicyID": "bd8a2441-7f3a-4467-a32c-40387ccea437",
+  "EffectiveDates": {
+    "StartDate": "2024-07-01",
+    "EndDate": "2025-07-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "070ff4cc-375c-405b-8735-25950340a771",
+    "Name": "Michael Hatfield",
+    "PolicyNumber": "bd8a2441-7f3a-4467-a32c-40387ccea437",
+    "ContactInformation": {
+      "Phone": "9296206377",
+      "Email": "martinsims@example.org",
+      "Address": "04863 Tyler Forks Suite 913\nJamesberg, AS 10176"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-09",
+    "Location": "PSC 5368, Box 2523\nAPO AP 33693",
+    "Description": "Rest part theory walk across mission. Director class deal moment central relationship amount. Whole recent all realize."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9541
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 21925
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15559
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4388
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4340
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 150230,
+    "TotalApproved": 104748
+  },
+  "AdjusterDetails": {
+    "Name": "Gary Cruz",
+    "ContactInformation": {
+      "Phone": "+1-389-815-3156x57555",
+      "Email": "qcortez@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/944cd6c0-d340-4c3a-9fda-f4b38cbdabfa"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-09T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-14T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-19T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

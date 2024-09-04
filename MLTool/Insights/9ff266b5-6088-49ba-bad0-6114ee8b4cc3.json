@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9ff266b5-6088-49ba-bad0-6114ee8b4cc3",
+    "PolicyID": "f9c2735b-e745-47d6-962f-f866c6fa4815",
+    "EffectiveDates": {
+        "StartDate": "2024-02-27",
+        "EndDate": "2025-02-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a72c3e9b-42b6-4e3e-9aac-0457ba63a21f",
+        "Name": "Joseph Ellis",
+        "PolicyNumber": "f9c2735b-e745-47d6-962f-f866c6fa4815",
+        "ContactInformation": {
+            "Phone": "878.472.4890x2398",
+            "Email": "brookewalker@example.com",
+            "Address": "21237 Cunningham Vista Apt. 149\nSouth Isaiah, VI 83496"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-10",
+        "Location": "6239 Kari Square\nPamelafurt, ME 54229",
+        "Description": "Worker movement listen around actually. Teach base day loss.\nSomeone garden example door. Yard sister fill scientist suggest."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 189211
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 195935
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 72129
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7907
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 178464
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 141166,
+        "TotalApproved": 108306
+    },
+    "AdjusterDetails": {
+        "Name": "Gina Jensen",
+        "ContactInformation": {
+            "Phone": "+1-437-740-9934x1403",
+            "Email": "dsherman@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9d2d843c-efc0-4254-8b45-ea30edc798ad"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-10T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-15T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-20T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

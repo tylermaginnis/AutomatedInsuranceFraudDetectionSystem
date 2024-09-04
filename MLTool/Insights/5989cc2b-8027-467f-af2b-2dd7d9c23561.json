@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5989cc2b-8027-467f-af2b-2dd7d9c23561",
+    "PolicyID": "41990308-e39a-4568-be77-a25a43ba48df",
+    "EffectiveDates": {
+        "StartDate": "2024-02-10",
+        "EndDate": "2025-02-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3d740a76-dcfa-4b70-858c-e268330272c8",
+        "Name": "Jamie Simpson",
+        "PolicyNumber": "41990308-e39a-4568-be77-a25a43ba48df",
+        "ContactInformation": {
+            "Phone": "+1-995-564-4493",
+            "Email": "woodkristin@example.net",
+            "Address": "PSC 0008, Box 7051\nAPO AP 53758"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-19",
+        "Location": "4026 Chapman Harbors Suite 437\nCastilloland, FL 33904",
+        "Description": "Part ever total bad work nature. Before here recognize light stage forget stock capital.\nRadio speech long radio. Key same safe movement."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9021
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27877
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 96145
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2704
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2562
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 80971,
+        "TotalApproved": 2068
+    },
+    "AdjusterDetails": {
+        "Name": "Philip Munoz",
+        "ContactInformation": {
+            "Phone": "+1-909-883-9117x4964",
+            "Email": "kirkrobinson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/59d1cb21-7e1b-4f2d-8e7e-46acdd921dc8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-19T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-24T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-29T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

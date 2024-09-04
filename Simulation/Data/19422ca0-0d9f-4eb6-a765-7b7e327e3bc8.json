@@ -1,0 +1,80 @@
+{
+  "ClaimID": "19422ca0-0d9f-4eb6-a765-7b7e327e3bc8",
+  "PolicyID": "c4d07156-61d7-4817-9166-41637d82dceb",
+  "EffectiveDates": {
+    "StartDate": "2024-03-05",
+    "EndDate": "2025-03-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "aecd018c-3d5c-4e8f-8aa5-6535f56c32c6",
+    "Name": "Ashley Perry",
+    "PolicyNumber": "c4d07156-61d7-4817-9166-41637d82dceb",
+    "ContactInformation": {
+      "Phone": "830.669.7679x92504",
+      "Email": "dawncrane@example.net",
+      "Address": "800 Renee Mount\nNew Josephborough, DC 96802"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-27",
+    "Location": "077 Maria Crescent Apt. 197\nSandraberg, NJ 38678",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 97793
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 40873
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6812
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 17378
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6322
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 169178,
+    "TotalApproved": 158918
+  },
+  "AdjusterDetails": {
+    "Name": "Daniel Ashley",
+    "ContactInformation": {
+      "Phone": "(596)703-8220",
+      "Email": "vincentgary@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/09c9ee64-b8aa-44ba-a561-67afc5abb29f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-27T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-02T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-07T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

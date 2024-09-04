@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e1216a13-6ccf-4024-ac67-e1510ed133c1",
+  "PolicyID": "30533ff4-e5c8-406b-8f64-75b801f2f16e",
+  "EffectiveDates": {
+    "StartDate": "2024-05-25",
+    "EndDate": "2025-05-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "939089c8-3cee-4264-8d4c-905f6d1c7c54",
+    "Name": "Melissa Davila",
+    "PolicyNumber": "30533ff4-e5c8-406b-8f64-75b801f2f16e",
+    "ContactInformation": {
+      "Phone": "821-728-6749",
+      "Email": "nanderson@example.org",
+      "Address": "658 Teresa Divide Apt. 836\nPetersside, MN 07743"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-03",
+    "Location": "83850 Graham Highway Apt. 995\nPort Bradymouth, VI 26921",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 92518
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 33745
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5639
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17841
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 13741
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 163484,
+    "TotalApproved": 144026
+  },
+  "AdjusterDetails": {
+    "Name": "Julie Swanson",
+    "ContactInformation": {
+      "Phone": "868-671-7505",
+      "Email": "roger97@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/69852ad9-e06d-49e2-ae19-9c6f416ce2dc"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-03T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-08T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-13T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

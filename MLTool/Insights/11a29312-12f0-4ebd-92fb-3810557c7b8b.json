@@ -1,0 +1,81 @@
+{
+    "ClaimID": "11a29312-12f0-4ebd-92fb-3810557c7b8b",
+    "PolicyID": "c1b610ab-c9f8-4a54-8d42-fcd14dc73406",
+    "EffectiveDates": {
+        "StartDate": "2023-12-10",
+        "EndDate": "2024-12-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8f7c86fb-58e3-490d-b60c-082d5d074cc1",
+        "Name": "Holly Moore",
+        "PolicyNumber": "c1b610ab-c9f8-4a54-8d42-fcd14dc73406",
+        "ContactInformation": {
+            "Phone": "699.563.0287x280",
+            "Email": "christopheratkinson@example.org",
+            "Address": "67235 Steven Pines Suite 521\nTimothyport, KS 04291"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-31",
+        "Location": "362 Joseph Common\nNorth Matthew, MH 31617",
+        "Description": "For outside town stand PM shake. Another begin station few success. Free direction involve write particular race.\nCentury seven wife suggest. Pattern sense push big economy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5191
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4319
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50746
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 52594
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 60737
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 69296,
+        "TotalApproved": 21955
+    },
+    "AdjusterDetails": {
+        "Name": "Caitlyn Ellis",
+        "ContactInformation": {
+            "Phone": "(728)689-1457",
+            "Email": "nwu@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/dac3c3ec-2dce-48cd-ae95-5a89ad7f0cf0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-31T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

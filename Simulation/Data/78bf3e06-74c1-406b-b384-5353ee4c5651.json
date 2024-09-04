@@ -1,0 +1,80 @@
+{
+  "ClaimID": "78bf3e06-74c1-406b-b384-5353ee4c5651",
+  "PolicyID": "a02ed3df-c307-4270-8c83-8d2e450acf62",
+  "EffectiveDates": {
+    "StartDate": "2024-05-04",
+    "EndDate": "2025-05-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "de7363c4-4666-4731-8db8-531e9286c14f",
+    "Name": "Joseph Wagner",
+    "PolicyNumber": "a02ed3df-c307-4270-8c83-8d2e450acf62",
+    "ContactInformation": {
+      "Phone": "370.631.3717",
+      "Email": "hugheslucas@example.net",
+      "Address": "9495 Moore Mountains Apt. 514\nJeremyhaven, VA 33403"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-06",
+    "Location": "014 White Turnpike\nCortezberg, DC 82335",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 67804
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 27152
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7513
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 22496
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7178
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 132143,
+    "TotalApproved": 117986
+  },
+  "AdjusterDetails": {
+    "Name": "Tammy Snyder",
+    "ContactInformation": {
+      "Phone": "001-275-550-5781",
+      "Email": "jodymendez@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/d5cbd4f5-ba83-44c1-9195-40e4056856e4"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-06T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-11T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-16T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

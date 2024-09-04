@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b88ae0ab-6041-4e0f-88e7-cbac236b6add",
+    "PolicyID": "36f46c44-27d3-4709-a574-e766e3d2b175",
+    "EffectiveDates": {
+        "StartDate": "2024-05-02",
+        "EndDate": "2025-05-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9717295c-89bb-47d0-bd20-b26a8793b4d9",
+        "Name": "Benjamin Rogers",
+        "PolicyNumber": "36f46c44-27d3-4709-a574-e766e3d2b175",
+        "ContactInformation": {
+            "Phone": "460.948.9074",
+            "Email": "johnsonmary@example.org",
+            "Address": "550 Johnson Creek\nJoshuatown, MI 64045"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-10",
+        "Location": "4049 Mccoy Row Suite 869\nJacksonside, DE 56115",
+        "Description": "Strong likely serve trial military raise sound. Artist generation personal what if. Around cultural be now as position carry indicate. Or stand culture agree claim."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 147807
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7266
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3891
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2633
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10870
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 136320,
+        "TotalApproved": 98235
+    },
+    "AdjusterDetails": {
+        "Name": "Valerie Wilcox",
+        "ContactInformation": {
+            "Phone": "803-287-7130",
+            "Email": "alexanderjames@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/82351614-1f41-4e73-b28d-c10ffa53fdf9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-10T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-15T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-20T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

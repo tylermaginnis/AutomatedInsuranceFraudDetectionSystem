@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c31f7a36-631c-4624-bf57-4421e2963079",
+    "PolicyID": "6f865010-84a2-4cf3-9854-6b963984a384",
+    "EffectiveDates": {
+        "StartDate": "2024-07-29",
+        "EndDate": "2025-07-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a987f417-d9bf-4617-9d7b-efdee8b5cdac",
+        "Name": "Austin Salas",
+        "PolicyNumber": "6f865010-84a2-4cf3-9854-6b963984a384",
+        "ContactInformation": {
+            "Phone": "+1-340-706-8771x098",
+            "Email": "sabrinarogers@example.net",
+            "Address": "69845 Amy Squares\nOwensfurt, ND 53865"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-18",
+        "Location": "178 Walker Cove Suite 307\nDiazburgh, NJ 73744",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 89802
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34519
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5003
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 24962
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12038
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 166324,
+        "TotalApproved": 128952
+    },
+    "AdjusterDetails": {
+        "Name": "Cindy Jackson",
+        "ContactInformation": {
+            "Phone": "(240)687-7842x496",
+            "Email": "karenjohnson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/39973f29-575c-4eca-8122-0e4703255187"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-18T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-23T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-28T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

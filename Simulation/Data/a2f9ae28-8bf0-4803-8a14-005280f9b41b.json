@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a2f9ae28-8bf0-4803-8a14-005280f9b41b",
+  "PolicyID": "9b8265d7-8cf9-4f49-a902-040c9d6b8a9a",
+  "EffectiveDates": {
+    "StartDate": "2024-02-20",
+    "EndDate": "2025-02-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "dc77de68-b0ee-4179-88b7-2fd1506a27f8",
+    "Name": "Mrs. Brenda Parsons DDS",
+    "PolicyNumber": "9b8265d7-8cf9-4f49-a902-040c9d6b8a9a",
+    "ContactInformation": {
+      "Phone": "417.331.0573",
+      "Email": "bgould@example.net",
+      "Address": "9016 Hoffman Hill\nWest Lori, MP 99491"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-07",
+    "Location": "1146 Miller Fall Apt. 982\nSouth Brendaberg, ME 54150",
+    "Description": "Camera require American window once try between. Accept trip set similar practice relationship. Candidate that them former according writer or life.\nPast present participant tree."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6520
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 13696
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 57022
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 24588
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 41857
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 195721,
+    "TotalApproved": 150479
+  },
+  "AdjusterDetails": {
+    "Name": "Steve Davis",
+    "ContactInformation": {
+      "Phone": "777-279-6235x1183",
+      "Email": "jonathan63@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/0897c02b-a683-405d-abd5-997804d3cc06"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-07T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-12T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-17T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

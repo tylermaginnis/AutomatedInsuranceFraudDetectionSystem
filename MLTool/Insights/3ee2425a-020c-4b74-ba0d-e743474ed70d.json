@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3ee2425a-020c-4b74-ba0d-e743474ed70d",
+    "PolicyID": "dca2553b-1c87-4ad0-909a-350bf6d27d0c",
+    "EffectiveDates": {
+        "StartDate": "2024-03-06",
+        "EndDate": "2025-03-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d665cb02-1d9f-4b0a-a7f5-a97633efb0b7",
+        "Name": "Maria Edwards",
+        "PolicyNumber": "dca2553b-1c87-4ad0-909a-350bf6d27d0c",
+        "ContactInformation": {
+            "Phone": "+1-812-995-8685",
+            "Email": "jessica26@example.org",
+            "Address": "04706 Grace Squares\nMahoneyton, VT 43987"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-18",
+        "Location": "29042 Walter Green Apt. 060\nJohnside, NE 76800",
+        "Description": "Probably particularly matter present develop home. Success staff agent know give.\nPlace trip crime traditional concern simple fight. Yet step result argue they strategy any."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31775
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19002
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8445
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 90932
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19417
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 72454,
+        "TotalApproved": 3810
+    },
+    "AdjusterDetails": {
+        "Name": "Angelica Mcguire",
+        "ContactInformation": {
+            "Phone": "001-376-338-4999",
+            "Email": "porterandrew@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/915fe8ce-5f74-4cf8-a613-9d5a4b3291fc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-18T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-23T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-28T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

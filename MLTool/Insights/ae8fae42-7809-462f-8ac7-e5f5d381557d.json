@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ae8fae42-7809-462f-8ac7-e5f5d381557d",
+    "PolicyID": "618f159d-197e-4d21-8d40-2a015f3b220e",
+    "EffectiveDates": {
+        "StartDate": "2024-09-04",
+        "EndDate": "2025-09-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "eb682955-7041-4187-aa67-0f4c081720fe",
+        "Name": "David Kim",
+        "PolicyNumber": "618f159d-197e-4d21-8d40-2a015f3b220e",
+        "ContactInformation": {
+            "Phone": "001-833-729-0170x9184",
+            "Email": "andre91@example.net",
+            "Address": "9671 Hall Estates Apt. 675\nEast Davidhaven, RI 25582"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-20",
+        "Location": "PSC 6266, Box 0701\nAPO AP 69959",
+        "Description": "They floor agree sound popular usually. Red according outside similar test amount. Lead image material door."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25308
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18228
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8217
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41468
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7779
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 46236,
+        "TotalApproved": 3156
+    },
+    "AdjusterDetails": {
+        "Name": "Megan West",
+        "ContactInformation": {
+            "Phone": "001-385-859-8696x39185",
+            "Email": "sandersdanielle@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d60746ab-4127-4bed-961a-0a9a24bc2e9f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-20T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-25T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-30T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

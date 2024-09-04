@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a49c044b-5571-44a7-8c09-2aadc6063f8f",
+    "PolicyID": "bed72b57-f406-4da2-9951-20630e34aafc",
+    "EffectiveDates": {
+        "StartDate": "2024-04-24",
+        "EndDate": "2025-04-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "94dbb641-b81f-4629-bfe2-3ae8eedee917",
+        "Name": "Jennifer Fox",
+        "PolicyNumber": "bed72b57-f406-4da2-9951-20630e34aafc",
+        "ContactInformation": {
+            "Phone": "+1-330-548-8557x2268",
+            "Email": "toniowens@example.com",
+            "Address": "USNS Johnson\nFPO AP 47800"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-07",
+        "Location": "89196 Swanson Road\nNorth Jose, MH 14990",
+        "Description": "Example because first structure. Sport leg beat stock. Attention person blood but."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5702
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2469
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 179460
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4806
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45096
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 32036,
+        "TotalApproved": 2892
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Casey",
+        "ContactInformation": {
+            "Phone": "+1-890-744-6986x8463",
+            "Email": "richardhamilton@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1006d65c-3708-4a68-b1ae-8edd1adaa349"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

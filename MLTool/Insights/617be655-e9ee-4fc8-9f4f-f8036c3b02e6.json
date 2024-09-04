@@ -1,0 +1,81 @@
+{
+    "ClaimID": "617be655-e9ee-4fc8-9f4f-f8036c3b02e6",
+    "PolicyID": "91c14b11-5e64-4ff8-9010-57bb82621e15",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "35ffc483-938c-4b43-acec-958d9b44878b",
+        "Name": "Susan Martinez",
+        "PolicyNumber": "91c14b11-5e64-4ff8-9010-57bb82621e15",
+        "ContactInformation": {
+            "Phone": "001-488-883-5323x091",
+            "Email": "berickson@example.net",
+            "Address": "397 Johnson Ford Suite 352\nNorth Kevin, SC 75590"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-05",
+        "Location": "063 Lee Hill\nRitafort, OR 02489",
+        "Description": "Door form full. Already tree bring garden cut really. Discussion quite hundred buy test event.\nLawyer religious step happy main whether. Wall theory weight man admit everybody."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3643
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8376
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8527
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 122702
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6607
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 114623,
+        "TotalApproved": 4476
+    },
+    "AdjusterDetails": {
+        "Name": "Maria Roberts",
+        "ContactInformation": {
+            "Phone": "(920)719-7173",
+            "Email": "kimberly57@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/49873ce5-c93b-416f-83c9-648bfeae1b2e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

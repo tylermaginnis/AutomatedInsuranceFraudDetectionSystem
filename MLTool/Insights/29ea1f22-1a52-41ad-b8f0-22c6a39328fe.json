@@ -1,0 +1,81 @@
+{
+    "ClaimID": "29ea1f22-1a52-41ad-b8f0-22c6a39328fe",
+    "PolicyID": "7257194a-e38e-48fa-820e-18c0342e84b2",
+    "EffectiveDates": {
+        "StartDate": "2024-07-30",
+        "EndDate": "2025-07-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "37dafcb5-9987-4279-b708-d0840301bc3b",
+        "Name": "Michelle Reed",
+        "PolicyNumber": "7257194a-e38e-48fa-820e-18c0342e84b2",
+        "ContactInformation": {
+            "Phone": "751.526.8592x3563",
+            "Email": "tracybrown@example.org",
+            "Address": "836 Jessica Alley\nSarahmouth, WI 50050"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-04",
+        "Location": "12606 Javier Wall Suite 392\nBeasleyhaven, PA 19895",
+        "Description": "Off seven mouth statement over benefit room within. Thus cell choose president push.\nSomeone line compare tell region. Consider against perform indicate own."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5530
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82497
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40518
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10826
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3221
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 74405,
+        "TotalApproved": 25125
+    },
+    "AdjusterDetails": {
+        "Name": "Jonathan Byrd",
+        "ContactInformation": {
+            "Phone": "+1-870-309-0433x65215",
+            "Email": "thernandez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/66ec1a9e-131e-4d88-870f-d35085b5f6ab"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-04T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-09T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-14T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

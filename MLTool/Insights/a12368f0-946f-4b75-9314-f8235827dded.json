@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a12368f0-946f-4b75-9314-f8235827dded",
+    "PolicyID": "0acc8de4-b7ed-4b86-9049-a0090cdb0402",
+    "EffectiveDates": {
+        "StartDate": "2024-04-02",
+        "EndDate": "2025-04-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4091ba30-a877-4831-a959-74739ea96ef3",
+        "Name": "Shannon Schwartz",
+        "PolicyNumber": "0acc8de4-b7ed-4b86-9049-a0090cdb0402",
+        "ContactInformation": {
+            "Phone": "001-346-570-0253x3710",
+            "Email": "oward@example.com",
+            "Address": "535 Samuel Spur\nEast Russell, VI 80924"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-06",
+        "Location": "33446 Barry Park\nPort Michelleshire, ME 24786",
+        "Description": "Building agency fund could present service. Order sense reason spend brother artist. Trade clearly us doctor rest."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 65936
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1821
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4189
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25964
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48119
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 81572,
+        "TotalApproved": 28093
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Lopez",
+        "ContactInformation": {
+            "Phone": "(429)265-1764x6418",
+            "Email": "inichols@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6962f6e5-61c3-4d40-a508-06441461f30d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-06T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-11T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-16T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

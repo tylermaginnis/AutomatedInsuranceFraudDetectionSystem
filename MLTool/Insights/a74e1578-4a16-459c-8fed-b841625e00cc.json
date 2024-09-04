@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a74e1578-4a16-459c-8fed-b841625e00cc",
+    "PolicyID": "e2d1b078-0e44-4f9a-a5f5-4c989dbb0f89",
+    "EffectiveDates": {
+        "StartDate": "2023-10-18",
+        "EndDate": "2024-10-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ae3c60bb-6ec1-4d12-a36f-cc149370d507",
+        "Name": "David Scott",
+        "PolicyNumber": "e2d1b078-0e44-4f9a-a5f5-4c989dbb0f89",
+        "ContactInformation": {
+            "Phone": "408-556-6328x544",
+            "Email": "mbest@example.org",
+            "Address": "1182 Gary Harbor Apt. 796\nLake Jodi, MI 45460"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-21",
+        "Location": "582 John Avenue Apt. 310\nSherylview, MI 22910",
+        "Description": "Toward person lead degree necessary long indicate person. Too guess affect stand continue society upon success."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 58657
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 96930
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43849
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9611
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7077
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 37685,
+        "TotalApproved": 36101
+    },
+    "AdjusterDetails": {
+        "Name": "Cynthia Hurley",
+        "ContactInformation": {
+            "Phone": "304.345.1039x40133",
+            "Email": "lauraenglish@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ad72d3ce-991b-47f2-b825-5a845ba2b3f9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-31T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

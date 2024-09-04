@@ -1,0 +1,81 @@
+{
+    "ClaimID": "781c1dec-b539-4ab9-9f3e-991a3ba5c727",
+    "PolicyID": "ad1cf925-e467-432c-bbf9-70c3446b9059",
+    "EffectiveDates": {
+        "StartDate": "2024-05-16",
+        "EndDate": "2025-05-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "32372642-da38-4059-83ca-82e025d86ca0",
+        "Name": "Lucas Sanford",
+        "PolicyNumber": "ad1cf925-e467-432c-bbf9-70c3446b9059",
+        "ContactInformation": {
+            "Phone": "667.676.0791x1407",
+            "Email": "zhickman@example.org",
+            "Address": "940 Snow Knoll\nLindsayfort, ND 96025"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-05",
+        "Location": "04368 Scott Mews\nEast Hannahhaven, KY 98080",
+        "Description": "Guy owner lose personal project. Gun expert board. World give artist line piece position sport."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1148
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1908
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1001
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9835
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45786
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116314,
+        "TotalApproved": 37120
+    },
+    "AdjusterDetails": {
+        "Name": "Cheryl Ramirez",
+        "ContactInformation": {
+            "Phone": "(301)364-3564",
+            "Email": "sfowler@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/3ea644ba-cac3-4270-8825-59f08fea2fab"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-05T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-10T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-15T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

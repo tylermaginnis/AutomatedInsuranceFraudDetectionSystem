@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bace361a-2e88-4c8a-8eae-988c41164c8a",
+  "PolicyID": "597f0e11-7de8-4f02-ba21-aad49eed1292",
+  "EffectiveDates": {
+    "StartDate": "2024-08-25",
+    "EndDate": "2025-08-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3ad62eb9-0f15-4e5b-8283-3b30f623d703",
+    "Name": "Thomas Thornton",
+    "PolicyNumber": "597f0e11-7de8-4f02-ba21-aad49eed1292",
+    "ContactInformation": {
+      "Phone": "(680)684-0754",
+      "Email": "patelchristina@example.net",
+      "Address": "343 Johns Plains Apt. 246\nGrimesburgh, ID 16815"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-06-29",
+    "Location": "126 Amber Junction\nNicholasside, AK 23693",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 51267
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 30664
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6669
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 19802
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7467
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 115869,
+    "TotalApproved": 73361
+  },
+  "AdjusterDetails": {
+    "Name": "Katherine Thompson",
+    "ContactInformation": {
+      "Phone": "4337465312",
+      "Email": "kathy19@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/361e0c16-f6a3-4a2c-b51e-073c9092801c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-06-29T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-07-04T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-07-09T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

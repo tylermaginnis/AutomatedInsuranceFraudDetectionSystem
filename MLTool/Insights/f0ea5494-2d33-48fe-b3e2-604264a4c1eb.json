@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f0ea5494-2d33-48fe-b3e2-604264a4c1eb",
+    "PolicyID": "b8cb3d72-9663-4364-9607-f6ba77af2868",
+    "EffectiveDates": {
+        "StartDate": "2024-05-16",
+        "EndDate": "2025-05-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3c32ba67-41b5-4708-8efc-16fec91772a4",
+        "Name": "Kristen Reynolds",
+        "PolicyNumber": "b8cb3d72-9663-4364-9607-f6ba77af2868",
+        "ContactInformation": {
+            "Phone": "863-623-1412x9503",
+            "Email": "pharris@example.com",
+            "Address": "USS Smith\nFPO AP 18865"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-09",
+        "Location": "64847 Diaz Falls\nJillianberg, MI 12722",
+        "Description": "Company draw do community number person before fill. Writer difference large low represent state action. Weight mouth grow tend.\nGirl safe wrong. There respond seem training."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9036
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5141
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33873
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3070
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4535
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 31360,
+        "TotalApproved": 3157
+    },
+    "AdjusterDetails": {
+        "Name": "Katherine Rice",
+        "ContactInformation": {
+            "Phone": "622-708-3019",
+            "Email": "travisscott@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/fe2cb110-0849-4ee7-bd0f-383827c884c8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-09T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-14T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-19T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7588dcca-dfa4-4b91-9670-abde75290ae3",
+  "PolicyID": "111717a7-6706-4c48-b4ad-4df8fdd67a4b",
+  "EffectiveDates": {
+    "StartDate": "2024-07-20",
+    "EndDate": "2025-07-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6a6a87f9-f4e1-46e9-8690-783d23ee3639",
+    "Name": "Nicholas Reeves",
+    "PolicyNumber": "111717a7-6706-4c48-b4ad-4df8fdd67a4b",
+    "ContactInformation": {
+      "Phone": "7176523298",
+      "Email": "scottjay@example.com",
+      "Address": "511 Jones Heights\nMillermouth, IN 09645"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-09",
+    "Location": "921 Gregory Rest\nSusanville, AL 19343",
+    "Description": "Level order floor pick. Attack husband along. Analysis audience claim order."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2635
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 157342
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 10207
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8224
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1182
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 172330,
+    "TotalApproved": 96644
+  },
+  "AdjusterDetails": {
+    "Name": "Daniel George",
+    "ContactInformation": {
+      "Phone": "(805)696-4533",
+      "Email": "robert09@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/c6fd8d42-a7b3-446f-975c-6d39198f04c0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-09T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-14T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-19T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

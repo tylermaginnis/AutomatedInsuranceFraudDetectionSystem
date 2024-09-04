@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e6d34492-1d9e-4893-b1e4-e584186f2d83",
+    "PolicyID": "835c8c53-ef7b-4e13-b622-f1fc4b053d79",
+    "EffectiveDates": {
+        "StartDate": "2024-01-01",
+        "EndDate": "2024-12-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f114372f-1ce8-4305-bffd-17ac7a7b33cc",
+        "Name": "Brian Turner",
+        "PolicyNumber": "835c8c53-ef7b-4e13-b622-f1fc4b053d79",
+        "ContactInformation": {
+            "Phone": "001-419-826-1636",
+            "Email": "cgriffin@example.com",
+            "Address": "225 Moore Row\nPeterburgh, PA 75998"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-13",
+        "Location": "99380 Wood Prairie Apt. 727\nSouth Jody, WY 68364",
+        "Description": "Fall the pull ground. Book history per pretty degree.\nHappy future building ground day win minute. Open visit show fear great eight recognize. Respond family listen sea."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14391
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6478
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 92009
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6498
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37167
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 84413,
+        "TotalApproved": 84133
+    },
+    "AdjusterDetails": {
+        "Name": "Alyssa Mcdonald",
+        "ContactInformation": {
+            "Phone": "826.806.9596",
+            "Email": "qdavis@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/243c5e92-d090-4ae7-b751-6c2ee291d397"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2c526a34-5831-43a8-a05a-4045f962504a",
+  "PolicyID": "8596977a-b1b1-4484-ad02-5bc324ea7e44",
+  "EffectiveDates": {
+    "StartDate": "2023-10-23",
+    "EndDate": "2024-10-22"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "db5384bf-478c-47f5-9d9b-4b367f62d809",
+    "Name": "Derek Kaiser",
+    "PolicyNumber": "8596977a-b1b1-4484-ad02-5bc324ea7e44",
+    "ContactInformation": {
+      "Phone": "3328132003",
+      "Email": "nortonwilliam@example.org",
+      "Address": "99319 Lewis Neck Apt. 727\nDevinfurt, OR 40653"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-17",
+    "Location": "662 Parker Inlet\nNew Kelliport, NY 78608",
+    "Description": "About determine subject another some answer you. Determine whole structure western. Information administration provide key miss need prove."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8915
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1303
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9386
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 46874
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 45409
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 61515,
+    "TotalApproved": 38457
+  },
+  "AdjusterDetails": {
+    "Name": "Dr. Sherry Thomas",
+    "ContactInformation": {
+      "Phone": "457-257-7802",
+      "Email": "alynch@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/2cdaca05-82a0-415f-99eb-0714bd700821"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-17T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-22T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-27T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

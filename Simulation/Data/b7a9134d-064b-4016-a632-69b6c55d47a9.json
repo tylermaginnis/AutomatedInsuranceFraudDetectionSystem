@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b7a9134d-064b-4016-a632-69b6c55d47a9",
+  "PolicyID": "148b8eed-1046-422f-9dd6-29faee8d471f",
+  "EffectiveDates": {
+    "StartDate": "2024-02-20",
+    "EndDate": "2025-02-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a7ef9cdb-8102-409a-b9da-de873f7ede12",
+    "Name": "Michael Lawson",
+    "PolicyNumber": "148b8eed-1046-422f-9dd6-29faee8d471f",
+    "ContactInformation": {
+      "Phone": "283.333.7857",
+      "Email": "ndavidson@example.com",
+      "Address": "7337 Crosby Forge\nTanyamouth, LA 77868"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-05",
+    "Location": "1010 Harrison Plaza Apt. 716\nEvanchester, PR 63246",
+    "Description": "Age eye easy machine lot economy. Red director fast impact anyone."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1389
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 29707
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 78380
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 17792
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 147681
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 37788,
+    "TotalApproved": 5446
+  },
+  "AdjusterDetails": {
+    "Name": "Matthew Barker",
+    "ContactInformation": {
+      "Phone": "3855781096",
+      "Email": "garywhite@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/c90092de-6468-47c5-89fa-ac145db9eb3b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-05T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-10T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-15T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

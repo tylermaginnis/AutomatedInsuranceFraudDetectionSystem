@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1425bfe6-1908-4954-8823-b2385242dc38",
+    "PolicyID": "bb4491b1-03c4-4b18-9f36-67303a989817",
+    "EffectiveDates": {
+        "StartDate": "2024-04-19",
+        "EndDate": "2025-04-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9f07a803-4fd5-4afe-8fb0-16fdb535481d",
+        "Name": "Clayton Green",
+        "PolicyNumber": "bb4491b1-03c4-4b18-9f36-67303a989817",
+        "ContactInformation": {
+            "Phone": "865.327.3971",
+            "Email": "chapmancolleen@example.com",
+            "Address": "83821 Taylor Harbors Apt. 755\nLisaton, NJ 04872"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-29",
+        "Location": "3888 Benjamin Ford Apt. 391\nStevenfort, VT 63210",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 55379
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24643
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7168
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25887
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7858
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 120935,
+        "TotalApproved": 13461
+    },
+    "AdjusterDetails": {
+        "Name": "Alison Richardson",
+        "ContactInformation": {
+            "Phone": "001-576-664-0786x42421",
+            "Email": "petersenmark@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/55b7f7ef-aedb-4719-be21-deb1ac2dd727"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-29T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-04T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-09T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

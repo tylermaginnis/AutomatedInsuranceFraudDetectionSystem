@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6c2aad80-db1e-481b-8944-8ec4253bd36a",
+    "PolicyID": "de1082ba-e0ec-497a-b72b-afa506e75b0e",
+    "EffectiveDates": {
+        "StartDate": "2024-01-22",
+        "EndDate": "2025-01-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef947550-bde6-44b6-aaf5-4b9c3a2f95c8",
+        "Name": "Daniel Baker",
+        "PolicyNumber": "de1082ba-e0ec-497a-b72b-afa506e75b0e",
+        "ContactInformation": {
+            "Phone": "8819477642",
+            "Email": "ccarpenter@example.net",
+            "Address": "61829 Bryan Walk Apt. 223\nPort Ryan, CT 20681"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-17",
+        "Location": "03794 Brittany Fall\nPattersonview, GU 76061",
+        "Description": "Show campaign short author old. Movie miss group leave effort organization manage. Next half town environmental. Reduce bad take rather fish tell."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 62750
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 72857
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4383
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9875
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 46104
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 112525,
+        "TotalApproved": 111243
+    },
+    "AdjusterDetails": {
+        "Name": "Tonya Fowler",
+        "ContactInformation": {
+            "Phone": "587.249.7910x9624",
+            "Email": "williamquinn@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/eade015a-84b5-4d16-9d04-34e89034376c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

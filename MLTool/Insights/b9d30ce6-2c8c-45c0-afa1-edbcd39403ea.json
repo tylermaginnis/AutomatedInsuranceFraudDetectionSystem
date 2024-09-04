@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b9d30ce6-2c8c-45c0-afa1-edbcd39403ea",
+    "PolicyID": "3bd5f658-07b0-411e-afad-49f6f24bdbfc",
+    "EffectiveDates": {
+        "StartDate": "2024-06-07",
+        "EndDate": "2025-06-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "35a5eb37-626d-4e00-8f3f-683782123593",
+        "Name": "Phillip Harris",
+        "PolicyNumber": "3bd5f658-07b0-411e-afad-49f6f24bdbfc",
+        "ContactInformation": {
+            "Phone": "4917011691",
+            "Email": "sydney04@example.org",
+            "Address": "4055 Jeffery Rapids Suite 398\nAmyton, FM 39480"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-13",
+        "Location": "960 Aaron Station Apt. 831\nWilsonville, OK 09657",
+        "Description": "Hotel me hand over stock. Peace thing first follow wait take artist. List story purpose history food fall."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 116080
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8236
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 64569
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19962
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9978
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 153414,
+        "TotalApproved": 48016
+    },
+    "AdjusterDetails": {
+        "Name": "Michele Miller",
+        "ContactInformation": {
+            "Phone": "776-274-7975x334",
+            "Email": "rnelson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/da9a51f9-144a-4a4c-a382-5537adbabe79"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-13T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-18T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-23T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

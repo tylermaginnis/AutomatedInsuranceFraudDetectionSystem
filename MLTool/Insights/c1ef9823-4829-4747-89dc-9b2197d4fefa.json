@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c1ef9823-4829-4747-89dc-9b2197d4fefa",
+    "PolicyID": "bee71980-adac-4a4b-81a8-26b10a29a415",
+    "EffectiveDates": {
+        "StartDate": "2023-11-09",
+        "EndDate": "2024-11-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f03531ae-122a-47c6-9b09-590d32843e98",
+        "Name": "Jennifer Gillespie",
+        "PolicyNumber": "bee71980-adac-4a4b-81a8-26b10a29a415",
+        "ContactInformation": {
+            "Phone": "001-998-516-7753",
+            "Email": "qcampbell@example.org",
+            "Address": "45110 Thompson Crescent\nWest Tracy, OK 43470"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-27",
+        "Location": "417 Tamara Circle\nPort Leah, MS 87202",
+        "Description": "Particularly field increase should bed field. Skin each red show. Floor player mission manage action.\nOrganization attention miss. Until structure car but way who."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11090
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15794
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8163
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1843
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9314
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 152529,
+        "TotalApproved": 14964
+    },
+    "AdjusterDetails": {
+        "Name": "Connie Saunders",
+        "ContactInformation": {
+            "Phone": "001-488-774-7790x10267",
+            "Email": "hectorflynn@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/510e353d-15c9-4ab5-b694-efc72ae84e69"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-27T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

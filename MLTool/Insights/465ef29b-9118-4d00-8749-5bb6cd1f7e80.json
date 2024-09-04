@@ -1,0 +1,81 @@
+{
+    "ClaimID": "465ef29b-9118-4d00-8749-5bb6cd1f7e80",
+    "PolicyID": "0bd81212-4af4-4837-8c7f-a5f5922ec09f",
+    "EffectiveDates": {
+        "StartDate": "2023-11-29",
+        "EndDate": "2024-11-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "698f82af-5885-4c5d-8a52-f088b2234b24",
+        "Name": "Nancy Garcia",
+        "PolicyNumber": "0bd81212-4af4-4837-8c7f-a5f5922ec09f",
+        "ContactInformation": {
+            "Phone": "+1-892-375-1209",
+            "Email": "richard35@example.org",
+            "Address": "6601 Hernandez Rapids\nTinatown, VT 37304"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-17",
+        "Location": "PSC 2689, Box 9830\nAPO AE 32797",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 71303
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43617
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8242
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26031
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10130
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 159323,
+        "TotalApproved": 76438
+    },
+    "AdjusterDetails": {
+        "Name": "Raymond Nelson",
+        "ContactInformation": {
+            "Phone": "707.906.0654x2088",
+            "Email": "twilson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/765ce461-eb7a-4691-9e8e-089887fa83ec"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-17T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-22T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-27T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "273c0532-4b65-4764-a3c2-79795faae521",
+    "PolicyID": "f352cb0f-24ce-49a6-b1ca-49aa792ddae6",
+    "EffectiveDates": {
+        "StartDate": "2023-12-13",
+        "EndDate": "2024-12-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d07a1108-a952-4077-a215-371681412dd7",
+        "Name": "Wendy Fletcher",
+        "PolicyNumber": "f352cb0f-24ce-49a6-b1ca-49aa792ddae6",
+        "ContactInformation": {
+            "Phone": "430.263.4574",
+            "Email": "cduncan@example.com",
+            "Address": "7939 Keller Rapids Suite 722\nMooreside, IA 40285"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-28",
+        "Location": "5721 Torres Ridge Apt. 908\nCharlesborough, PA 98269",
+        "Description": "Provide summer provide analysis indicate play. Party entire apply training to western the law.\nCover direction usually TV always. Area TV animal with."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18100
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5661
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5359
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7783
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 60355
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 9616,
+        "TotalApproved": 6504
+    },
+    "AdjusterDetails": {
+        "Name": "Christian Rush",
+        "ContactInformation": {
+            "Phone": "+1-686-357-5681",
+            "Email": "erika65@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/74d33cd1-ada0-433a-b818-d8cc6f7cf1a0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-28T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

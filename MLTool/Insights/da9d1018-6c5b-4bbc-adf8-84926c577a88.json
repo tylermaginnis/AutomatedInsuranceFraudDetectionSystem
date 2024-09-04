@@ -1,0 +1,81 @@
+{
+    "ClaimID": "da9d1018-6c5b-4bbc-adf8-84926c577a88",
+    "PolicyID": "2c35c96a-a551-491f-a9a9-6ba08e01365d",
+    "EffectiveDates": {
+        "StartDate": "2024-01-25",
+        "EndDate": "2025-01-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "362b283e-6efa-480f-bf42-44f32cb77399",
+        "Name": "David Rivera",
+        "PolicyNumber": "2c35c96a-a551-491f-a9a9-6ba08e01365d",
+        "ContactInformation": {
+            "Phone": "885.519.8019",
+            "Email": "sjenkins@example.net",
+            "Address": "349 Melissa Cape Suite 109\nEast Joannville, NE 06374"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-10",
+        "Location": "6623 Nicole Cape\nThomasview, PA 46439",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57137
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49267
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7799
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17013
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12310
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 143526,
+        "TotalApproved": 58177
+    },
+    "AdjusterDetails": {
+        "Name": "Dalton Fischer",
+        "ContactInformation": {
+            "Phone": "746.209.6500x6946",
+            "Email": "malik51@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/88aa335f-b2d2-4ba8-96e7-676a05e4c310"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-10T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-15T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-20T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

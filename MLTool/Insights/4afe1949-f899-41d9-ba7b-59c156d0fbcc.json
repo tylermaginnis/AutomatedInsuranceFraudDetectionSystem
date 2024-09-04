@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4afe1949-f899-41d9-ba7b-59c156d0fbcc",
+    "PolicyID": "e02b3586-d4ef-4fb0-97a5-2d42a5b47ad7",
+    "EffectiveDates": {
+        "StartDate": "2024-06-02",
+        "EndDate": "2025-06-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e2302727-dd65-4ac1-b206-04b00ce0df35",
+        "Name": "James Johnson Jr.",
+        "PolicyNumber": "e02b3586-d4ef-4fb0-97a5-2d42a5b47ad7",
+        "ContactInformation": {
+            "Phone": "001-542-402-6686x725",
+            "Email": "monicanichols@example.org",
+            "Address": "300 Chan Lodge Suite 784\nNorth Austin, MI 10371"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-01",
+        "Location": "4987 Kristen Meadows\nBlairmouth, MH 63720",
+        "Description": "Act mother blood write court forget serious treat. Receive natural near store do.\nSet economy wide each close."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 55391
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 161436
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8929
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46614
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 88901
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 185114,
+        "TotalApproved": 44787
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Owens",
+        "ContactInformation": {
+            "Phone": "270-404-0459",
+            "Email": "sandra15@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/ffbe020b-6d5c-4a93-b476-17f2e606b2f4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

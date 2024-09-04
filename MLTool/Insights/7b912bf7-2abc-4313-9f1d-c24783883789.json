@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b912bf7-2abc-4313-9f1d-c24783883789",
+    "PolicyID": "a7cd7e3a-517f-49e1-856f-7d2952c25d32",
+    "EffectiveDates": {
+        "StartDate": "2024-01-05",
+        "EndDate": "2025-01-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a9675f75-236a-4c53-9549-ae3586533f52",
+        "Name": "Brent Escobar",
+        "PolicyNumber": "a7cd7e3a-517f-49e1-856f-7d2952c25d32",
+        "ContactInformation": {
+            "Phone": "+1-204-216-7201x2503",
+            "Email": "dramos@example.com",
+            "Address": "028 Wood Vista\nEast Kelly, NH 73765"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-26",
+        "Location": "00025 Roberson Overpass\nHahnmouth, NY 79276",
+        "Description": "Manager management country card sell state throw. Understand down part race will blood answer include. Him player which identify."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 99030
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3907
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19201
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2088
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10114
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 119344,
+        "TotalApproved": 89584
+    },
+    "AdjusterDetails": {
+        "Name": "Peter Garcia",
+        "ContactInformation": {
+            "Phone": "641-624-7336",
+            "Email": "tinagreen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/48f7136c-cf32-4e19-8ff0-1b51a07f6fdd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-26T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-31T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-05T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

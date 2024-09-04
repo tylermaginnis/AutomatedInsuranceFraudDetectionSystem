@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7bd2d42a-349f-46c6-aa8e-e1fd88c3b705",
+    "PolicyID": "d1d5b261-9b20-44b6-b539-7a998a4b3430",
+    "EffectiveDates": {
+        "StartDate": "2024-04-04",
+        "EndDate": "2025-04-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "349a5e6e-abee-4fc0-93ff-a7c645427042",
+        "Name": "Marissa Henderson",
+        "PolicyNumber": "d1d5b261-9b20-44b6-b539-7a998a4b3430",
+        "ContactInformation": {
+            "Phone": "355.484.5649x2516",
+            "Email": "meghan20@example.com",
+            "Address": "30856 Ashley Shoals Apt. 889\nCraigport, PA 88100"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-29",
+        "Location": "USNS Calhoun\nFPO AE 00913",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 72225
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26335
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7200
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11432
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17215
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 134407,
+        "TotalApproved": 35418
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Johnson",
+        "ContactInformation": {
+            "Phone": "001-855-769-7231x163",
+            "Email": "roberttownsend@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4c0cfa5c-7643-497e-acaf-bd763c29d8dd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-29T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

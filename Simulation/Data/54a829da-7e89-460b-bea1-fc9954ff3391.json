@@ -1,0 +1,80 @@
+{
+  "ClaimID": "54a829da-7e89-460b-bea1-fc9954ff3391",
+  "PolicyID": "59590921-a083-4c1a-95d9-6cf66ce264da",
+  "EffectiveDates": {
+    "StartDate": "2023-09-06",
+    "EndDate": "2024-09-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8ca3ccbc-32d7-40c3-b7fe-896724fbbcca",
+    "Name": "Peter Manning",
+    "PolicyNumber": "59590921-a083-4c1a-95d9-6cf66ce264da",
+    "ContactInformation": {
+      "Phone": "478.801.1944",
+      "Email": "ihogan@example.org",
+      "Address": "USS Medina\nFPO AE 28858"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-09",
+    "Location": "8790 Benjamin Summit\nNicoleville, FM 27345",
+    "Description": "Way laugh sign billion art soon parent. Down receive least hard. Hot then stay last power."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 42564
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2528
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 17707
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5291
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 20746
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 153221,
+    "TotalApproved": 29869
+  },
+  "AdjusterDetails": {
+    "Name": "Robert Wright",
+    "ContactInformation": {
+      "Phone": "001-833-391-1586",
+      "Email": "ysmith@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/059f0050-84e2-41b8-a9b2-a326ba3b9a46"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-09T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-14T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-11-19T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

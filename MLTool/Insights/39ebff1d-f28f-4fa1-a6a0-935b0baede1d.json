@@ -1,0 +1,81 @@
+{
+    "ClaimID": "39ebff1d-f28f-4fa1-a6a0-935b0baede1d",
+    "PolicyID": "e3d23889-f70f-4095-b9d3-93ab2304cbd0",
+    "EffectiveDates": {
+        "StartDate": "2023-09-30",
+        "EndDate": "2024-09-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2c747bfc-b534-4844-b97e-49bf33075e7a",
+        "Name": "Lisa Rivera",
+        "PolicyNumber": "e3d23889-f70f-4095-b9d3-93ab2304cbd0",
+        "ContactInformation": {
+            "Phone": "(502)574-9375x0358",
+            "Email": "valenzueladonald@example.com",
+            "Address": "USS Long\nFPO AP 35257"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-10",
+        "Location": "USCGC Lucas\nFPO AE 53603",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 83846
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35141
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9224
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29285
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8844
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 166340,
+        "TotalApproved": 129252
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Stone",
+        "ContactInformation": {
+            "Phone": "7037753888",
+            "Email": "lsmith@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/012ee374-8245-46e5-a107-2a9d499e6581"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-10T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-15T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-20T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

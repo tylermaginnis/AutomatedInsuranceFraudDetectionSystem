@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bc57a20a-293b-4e48-ba8a-df8ab29c15b0",
+    "PolicyID": "9ffb90be-d820-44cb-9946-6cbb36521d0c",
+    "EffectiveDates": {
+        "StartDate": "2024-03-19",
+        "EndDate": "2025-03-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5a66d24d-26b3-4651-b974-06a44e841a6f",
+        "Name": "Linda Reeves",
+        "PolicyNumber": "9ffb90be-d820-44cb-9946-6cbb36521d0c",
+        "ContactInformation": {
+            "Phone": "415.549.2907x754",
+            "Email": "stephanie73@example.net",
+            "Address": "358 Jones Stravenue Suite 329\nNorth Kristi, MA 79027"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-19",
+        "Location": "338 Joseph Plain\nLake Amyville, ID 11007",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 88883
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32567
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5211
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27367
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10280
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 164308,
+        "TotalApproved": 157428
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Fleming",
+        "ContactInformation": {
+            "Phone": "+1-794-654-6782",
+            "Email": "makaylahancock@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9d6dee83-05d2-4143-af13-af821587918a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-19T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-24T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-29T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

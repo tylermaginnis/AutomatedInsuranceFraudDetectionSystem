@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca55994b-de05-412f-985f-1de71b278bd3",
+    "PolicyID": "803a681d-3d65-4421-9d2f-5a3341ab215d",
+    "EffectiveDates": {
+        "StartDate": "2024-01-11",
+        "EndDate": "2025-01-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "76a75dc6-e91a-429a-9e92-f7dd842f7f51",
+        "Name": "David Jackson",
+        "PolicyNumber": "803a681d-3d65-4421-9d2f-5a3341ab215d",
+        "ContactInformation": {
+            "Phone": "630.398.9777x9263",
+            "Email": "cbrown@example.net",
+            "Address": "93702 Matthew Brook\nWest Melindahaven, CA 12004"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-21",
+        "Location": "300 Ryan Plains Suite 500\nGuzmanfurt, MH 04703",
+        "Description": "Hear machine through use professor. Woman together upon mean determine operation. Build series agency.\nConference argue me work poor success need keep. Energy century trial."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8894
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13332
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43574
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10524
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45130
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 134524,
+        "TotalApproved": 74366
+    },
+    "AdjusterDetails": {
+        "Name": "Reginald Wright",
+        "ContactInformation": {
+            "Phone": "(358)817-6413",
+            "Email": "leah89@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fef5852f-9fa1-4d23-aa8d-fb0a2679c6b2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-21T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-26T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-01T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

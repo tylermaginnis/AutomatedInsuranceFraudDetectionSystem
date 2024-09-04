@@ -1,0 +1,80 @@
+{
+  "ClaimID": "846dd54b-1fc7-4a7d-ac04-0909bf9acb3f",
+  "PolicyID": "5eb56c1d-f3e4-4ab2-a6c1-a14aada02e3e",
+  "EffectiveDates": {
+    "StartDate": "2024-03-29",
+    "EndDate": "2025-03-29"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2ba2687d-33b5-46d7-b279-558ad3b06318",
+    "Name": "Manuel Maxwell",
+    "PolicyNumber": "5eb56c1d-f3e4-4ab2-a6c1-a14aada02e3e",
+    "ContactInformation": {
+      "Phone": "(379)752-2861",
+      "Email": "rsmith@example.com",
+      "Address": "87077 Michelle Road\nNew Timothy, MD 62554"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-22",
+    "Location": "68344 Sanders Trace\nDanielburgh, AR 49363",
+    "Description": "Century yourself week spring capital carry.\nMake lot establish police system. Plant sit much air."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 176862
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 12324
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7182
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1826
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 16048
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 36169,
+    "TotalApproved": 5034
+  },
+  "AdjusterDetails": {
+    "Name": "Katie Lyons",
+    "ContactInformation": {
+      "Phone": "859-352-0342",
+      "Email": "pattonderek@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/dca4f32d-bd38-46d1-ab7e-a9b851a608fe"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-22T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-27T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-01T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

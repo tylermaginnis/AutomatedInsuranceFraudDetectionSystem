@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0ca3ad1d-f426-498a-8b2e-4e6ee92491c4",
+    "PolicyID": "5cb0b1f9-6926-4fed-9af4-33e8220863ef",
+    "EffectiveDates": {
+        "StartDate": "2024-04-24",
+        "EndDate": "2025-04-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "49920041-f6d5-4e40-a71e-397d7624afaa",
+        "Name": "Kathryn Weaver",
+        "PolicyNumber": "5cb0b1f9-6926-4fed-9af4-33e8220863ef",
+        "ContactInformation": {
+            "Phone": "420-708-3201x222",
+            "Email": "emily64@example.com",
+            "Address": "65867 Emily Falls Suite 139\nLake Andrew, FL 75021"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-21",
+        "Location": "4451 Barbara Run\nKinghaven, NY 15132",
+        "Description": "Within final level without democratic reduce eat. Month fly various moment budget positive little."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 62697
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 83780
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1915
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25885
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 45977
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 81477,
+        "TotalApproved": 45334
+    },
+    "AdjusterDetails": {
+        "Name": "Arthur Ramos",
+        "ContactInformation": {
+            "Phone": "+1-875-981-0096x8115",
+            "Email": "ygray@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/76a3673f-4f18-4e3d-a8dd-228dabb696e7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-01T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d2d682ec-c305-4ab4-a90e-e8f18d779662",
+    "PolicyID": "2b72a225-cfc1-4752-af0d-2885f465c88a",
+    "EffectiveDates": {
+        "StartDate": "2023-09-10",
+        "EndDate": "2024-09-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e080636e-8038-4a6c-b1bb-f28cc24b5c35",
+        "Name": "Susan Curtis",
+        "PolicyNumber": "2b72a225-cfc1-4752-af0d-2885f465c88a",
+        "ContactInformation": {
+            "Phone": "001-728-856-4918",
+            "Email": "virginia15@example.com",
+            "Address": "USS Melendez\nFPO AE 51773"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-12",
+        "Location": "9304 William Trail\nNorth Matthew, NM 70150",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 72588
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42105
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8077
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18667
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19409
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 160846,
+        "TotalApproved": 7112
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Wheeler",
+        "ContactInformation": {
+            "Phone": "682-643-5608",
+            "Email": "sandovalangela@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3bb573a9-3ee3-4b78-9702-ac5b3e31cae8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-12T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-17T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-22T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

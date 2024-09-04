@@ -1,0 +1,81 @@
+{
+    "ClaimID": "308e948d-f661-4f3e-b010-e4b5f6b56147",
+    "PolicyID": "94e8fd22-714f-4947-9c8a-835ec232fff5",
+    "EffectiveDates": {
+        "StartDate": "2024-07-20",
+        "EndDate": "2025-07-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2f784366-bb43-41c6-bc50-b6d56bfe76de",
+        "Name": "Timothy Wood",
+        "PolicyNumber": "94e8fd22-714f-4947-9c8a-835ec232fff5",
+        "ContactInformation": {
+            "Phone": "984.618.9918",
+            "Email": "uaguirre@example.net",
+            "Address": "8409 Russell Vista Apt. 793\nNew Kendra, MI 65588"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-05",
+        "Location": "80011 Fowler Shoals\nDanielfort, GA 38579",
+        "Description": "Past institution today trade man we get. Soldier indicate site. Political now too style chair discover."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37111
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5147
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9448
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3174
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31649
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 166608,
+        "TotalApproved": 70867
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Hill",
+        "ContactInformation": {
+            "Phone": "001-766-762-5492x687",
+            "Email": "npage@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3a35ab97-ed4a-4425-b6a9-44c3abbc1051"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

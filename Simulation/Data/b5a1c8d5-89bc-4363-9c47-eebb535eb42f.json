@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b5a1c8d5-89bc-4363-9c47-eebb535eb42f",
+  "PolicyID": "611e1280-e373-43e1-a398-c2cf1617f068",
+  "EffectiveDates": {
+    "StartDate": "2023-09-06",
+    "EndDate": "2024-09-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8eab7598-127f-482d-a06a-4a9cd59653a1",
+    "Name": "Eric Johnson",
+    "PolicyNumber": "611e1280-e373-43e1-a398-c2cf1617f068",
+    "ContactInformation": {
+      "Phone": "862-577-9744",
+      "Email": "jacksonjacqueline@example.net",
+      "Address": "313 David Center\nWilliamsmouth, MP 34324"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-26",
+    "Location": "99160 Mueller Extension Suite 370\nMurphyborough, AK 55399",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 85321
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 22994
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9084
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 18616
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 11336
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 147351,
+    "TotalApproved": 141929
+  },
+  "AdjusterDetails": {
+    "Name": "Tyler Ramirez",
+    "ContactInformation": {
+      "Phone": "(391)444-1807x37370",
+      "Email": "jonesjeffrey@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/3083a832-29f5-425e-af8b-a4604a16887d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-26T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-01T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-06T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

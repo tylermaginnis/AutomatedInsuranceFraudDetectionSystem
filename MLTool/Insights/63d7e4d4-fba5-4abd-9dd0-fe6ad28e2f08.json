@@ -1,0 +1,81 @@
+{
+    "ClaimID": "63d7e4d4-fba5-4abd-9dd0-fe6ad28e2f08",
+    "PolicyID": "b715dc73-b725-4a51-a3ff-bdad003a1894",
+    "EffectiveDates": {
+        "StartDate": "2024-07-15",
+        "EndDate": "2025-07-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fb04b432-6f3c-430b-a979-832dbfc1aa36",
+        "Name": "Jessica Lucero",
+        "PolicyNumber": "b715dc73-b725-4a51-a3ff-bdad003a1894",
+        "ContactInformation": {
+            "Phone": "001-516-504-3082x170",
+            "Email": "owilkins@example.net",
+            "Address": "438 Mcfarland Rapids Suite 663\nWest Douglas, KS 60869"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-21",
+        "Location": "928 Alexander Forest\nJoneston, IL 84181",
+        "Description": "Kid ok however rock rock figure TV threat. Smile morning better present.\nScore treatment foreign training it social indeed. Reduce serve former somebody church authority."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9028
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12366
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 43732
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 72385
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 50812
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 51154,
+        "TotalApproved": 42527
+    },
+    "AdjusterDetails": {
+        "Name": "Jill Dean",
+        "ContactInformation": {
+            "Phone": "9384069394",
+            "Email": "popedennis@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/35dbfd88-41e1-48ba-bed7-a6c6cdba51c5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-21T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-26T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-01T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

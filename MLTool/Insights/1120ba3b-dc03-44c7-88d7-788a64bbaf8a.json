@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1120ba3b-dc03-44c7-88d7-788a64bbaf8a",
+    "PolicyID": "ffa6af7f-bbf4-426a-9118-6d08b470959c",
+    "EffectiveDates": {
+        "StartDate": "2024-07-19",
+        "EndDate": "2025-07-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "791675b4-9659-4cf5-94b1-6452d408cbf1",
+        "Name": "Julia Davis",
+        "PolicyNumber": "ffa6af7f-bbf4-426a-9118-6d08b470959c",
+        "ContactInformation": {
+            "Phone": "8907895191",
+            "Email": "vhenry@example.com",
+            "Address": "78112 April Pines\nWilliamhaven, TX 39525"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-19",
+        "Location": "PSC 6154, Box 8720\nAPO AP 16479",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 98735
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26655
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9937
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13254
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7592
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 156173,
+        "TotalApproved": 44892
+    },
+    "AdjusterDetails": {
+        "Name": "Reginald Bauer",
+        "ContactInformation": {
+            "Phone": "+1-232-203-9769x8550",
+            "Email": "ryanmartin@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/02909339-4d7e-445c-aab8-ca3cb4ba0cec"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-19T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-24T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-29T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

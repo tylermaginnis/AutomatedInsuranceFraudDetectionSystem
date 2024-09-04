@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ec8f6d45-81c4-4f3d-9304-c01eef2abba8",
+    "PolicyID": "a273d08a-2de0-4b35-85d3-51ad3075c36c",
+    "EffectiveDates": {
+        "StartDate": "2024-07-23",
+        "EndDate": "2025-07-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1ec41c5f-9978-4ef1-b157-42cb213f04aa",
+        "Name": "Randall Bullock",
+        "PolicyNumber": "a273d08a-2de0-4b35-85d3-51ad3075c36c",
+        "ContactInformation": {
+            "Phone": "297.957.2651",
+            "Email": "connie31@example.org",
+            "Address": "815 Beth Trail Suite 900\nNew Caitlinbury, GU 64620"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-29",
+        "Location": "272 Jennifer Via\nPort Elizabethbury, VI 71508",
+        "Description": "Environmental happen like husband behavior whole speak. Create city read new. Clearly present clearly over president table."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 98782
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2393
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1341
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20974
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 48567
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 116859,
+        "TotalApproved": 87110
+    },
+    "AdjusterDetails": {
+        "Name": "Jacqueline Hogan",
+        "ContactInformation": {
+            "Phone": "+1-838-888-4189x2006",
+            "Email": "munozjames@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c8e351d2-5023-45b9-8d44-111bce1efbff"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-29T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-04T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-09T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

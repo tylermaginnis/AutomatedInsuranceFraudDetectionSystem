@@ -1,0 +1,81 @@
+{
+    "ClaimID": "df45cf5a-faad-4c82-87fd-d23d963c7693",
+    "PolicyID": "7b2816b6-9211-440a-a024-a041647eef6a",
+    "EffectiveDates": {
+        "StartDate": "2023-09-17",
+        "EndDate": "2024-09-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c4707156-bbc4-4ef2-bceb-30f4e7188ad9",
+        "Name": "Dr. Alexander Flores",
+        "PolicyNumber": "7b2816b6-9211-440a-a024-a041647eef6a",
+        "ContactInformation": {
+            "Phone": "555.293.8438x3457",
+            "Email": "joannanielsen@example.com",
+            "Address": "799 Joanna Locks Suite 909\nLake Larry, RI 25901"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-14",
+        "Location": "98464 Vincent Turnpike Suite 485\nWest Peterhaven, MS 81667",
+        "Description": "Kind fly call increase base leg. Big every whom.\nPrevent specific card coach. Million who season activity look hospital pressure front."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1460
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5355
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10396
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8941
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47405
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 41879,
+        "TotalApproved": 23098
+    },
+    "AdjusterDetails": {
+        "Name": "Brenda Kennedy",
+        "ContactInformation": {
+            "Phone": "721-616-4578x97296",
+            "Email": "mariowilson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0acdb91c-13c5-45bc-ba79-c77d02bd8de9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-14T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-19T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-24T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "107f2d1a-c29b-4d3c-b228-0f0f108482f9",
+    "PolicyID": "a5828e3a-ab0b-491a-b50e-c0bb10963db4",
+    "EffectiveDates": {
+        "StartDate": "2023-10-07",
+        "EndDate": "2024-10-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1d28651d-c71c-4c28-82d9-7fde25d47c0b",
+        "Name": "Robert Hansen",
+        "PolicyNumber": "a5828e3a-ab0b-491a-b50e-c0bb10963db4",
+        "ContactInformation": {
+            "Phone": "(582)708-2406x0252",
+            "Email": "lindseybruce@example.org",
+            "Address": "4214 Crystal Highway Apt. 592\nMartinezmouth, OH 68547"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-08",
+        "Location": "003 Patel Manor\nBaldwinside, DC 16321",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 63660
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25991
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5248
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13358
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16396
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 124653,
+        "TotalApproved": 48309
+    },
+    "AdjusterDetails": {
+        "Name": "Sydney Moore",
+        "ContactInformation": {
+            "Phone": "001-793-344-8350x4306",
+            "Email": "tracygraves@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4a5ae25e-f2e1-4f2e-b9ac-c020c231deb1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

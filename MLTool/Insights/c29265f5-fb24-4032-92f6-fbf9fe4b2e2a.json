@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c29265f5-fb24-4032-92f6-fbf9fe4b2e2a",
+    "PolicyID": "a07cb2c9-06d6-401a-8835-5c8fec31bb1e",
+    "EffectiveDates": {
+        "StartDate": "2023-12-27",
+        "EndDate": "2024-12-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "77658de5-502a-454c-8250-a0e0ba4d8b73",
+        "Name": "Amy Hoffman",
+        "PolicyNumber": "a07cb2c9-06d6-401a-8835-5c8fec31bb1e",
+        "ContactInformation": {
+            "Phone": "5979934137",
+            "Email": "roycollins@example.com",
+            "Address": "139 Jerry Keys\nMicheletown, DE 21625"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-17",
+        "Location": "079 Christine Pine Suite 633\nAngelaview, MO 71204",
+        "Description": "Fight one fire more hundred list. Reason my none.\nClass it today picture. Student leave but news.\nColor such within child. Someone assume none give."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 186934
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14199
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38773
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9699
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 85859
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 191789,
+        "TotalApproved": 185117
+    },
+    "AdjusterDetails": {
+        "Name": "Frederick Mckinney",
+        "ContactInformation": {
+            "Phone": "612.969.8340x4800",
+            "Email": "wtrujillo@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bafc6934-0a28-4aef-bca3-6b879b92ded4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

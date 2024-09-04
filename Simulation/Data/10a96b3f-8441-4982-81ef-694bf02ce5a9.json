@@ -1,0 +1,80 @@
+{
+  "ClaimID": "10a96b3f-8441-4982-81ef-694bf02ce5a9",
+  "PolicyID": "f52c8d13-29d5-4610-a7b3-8135f5b9bcf2",
+  "EffectiveDates": {
+    "StartDate": "2024-02-27",
+    "EndDate": "2025-02-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "28db4306-84af-4ab2-b8bc-693160f3117c",
+    "Name": "Brendan Walker",
+    "PolicyNumber": "f52c8d13-29d5-4610-a7b3-8135f5b9bcf2",
+    "ContactInformation": {
+      "Phone": "730.346.2910",
+      "Email": "kwhitehead@example.org",
+      "Address": "319 Julia Port\nWest Nichole, VA 28587"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-23",
+    "Location": "62269 Garner Tunnel Suite 160\nMoratown, VI 80541",
+    "Description": "Together long meeting sort year.\nMonth example night not happen. Less ask deal sing you lead. Yard TV contain inside arrive or.\nGroup see value show read win artist. Note true ask."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 81890
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 36754
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2178
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 123378
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 26151
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 91198,
+    "TotalApproved": 30439
+  },
+  "AdjusterDetails": {
+    "Name": "Mr. Gabriel Hamilton",
+    "ContactInformation": {
+      "Phone": "(691)964-6641",
+      "Email": "todd54@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/7c77f04e-c817-4239-a40d-fb7fcbc5f1f0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-23T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-28T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-03T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

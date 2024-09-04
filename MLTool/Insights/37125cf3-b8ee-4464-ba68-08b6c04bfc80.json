@@ -1,0 +1,81 @@
+{
+    "ClaimID": "37125cf3-b8ee-4464-ba68-08b6c04bfc80",
+    "PolicyID": "c2fb4715-9ddd-41cb-958e-6c87aaa0e61d",
+    "EffectiveDates": {
+        "StartDate": "2023-09-11",
+        "EndDate": "2024-09-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a386d916-1164-40cf-ba75-b068af911bc7",
+        "Name": "Lucas Young",
+        "PolicyNumber": "c2fb4715-9ddd-41cb-958e-6c87aaa0e61d",
+        "ContactInformation": {
+            "Phone": "6999998689",
+            "Email": "umurphy@example.net",
+            "Address": "177 Fernandez Corner Suite 703\nNorth Morgan, MA 55656"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-10",
+        "Location": "4961 Davila Bridge\nSouth Jesusborough, NE 69406",
+        "Description": "Result about provide rest among.\nEvidence usually daughter economy grow stock bad. Rather officer provide early if bill his laugh."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 91723
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 138761
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8494
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41528
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45809
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 46254,
+        "TotalApproved": 15648
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Brown",
+        "ContactInformation": {
+            "Phone": "620-771-6374",
+            "Email": "bradydaniel@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/236283fb-fa1e-4a3e-ae53-9d9e19bb335f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-10T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-15T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-20T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

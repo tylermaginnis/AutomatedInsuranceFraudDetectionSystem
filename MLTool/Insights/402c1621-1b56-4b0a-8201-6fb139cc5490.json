@@ -1,0 +1,81 @@
+{
+    "ClaimID": "402c1621-1b56-4b0a-8201-6fb139cc5490",
+    "PolicyID": "4aec47a7-4e77-47f8-9b2e-745dee155da2",
+    "EffectiveDates": {
+        "StartDate": "2024-05-29",
+        "EndDate": "2025-05-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "744ef3a7-e285-464d-b460-4fcfae4a3554",
+        "Name": "Laurie White",
+        "PolicyNumber": "4aec47a7-4e77-47f8-9b2e-745dee155da2",
+        "ContactInformation": {
+            "Phone": "8453997921",
+            "Email": "ijones@example.org",
+            "Address": "005 Julia Shore\nJohnbury, MN 31155"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-08",
+        "Location": "8693 Thompson Alley Apt. 453\nPort Anne, DC 65724",
+        "Description": "View trial arrive type. Research her teach everything various. Pull network upon rock visit level.\nDaughter strategy effort green interesting successful."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 127933
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8148
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67274
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 96207
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 94373
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 22323,
+        "TotalApproved": 3617
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Martin",
+        "ContactInformation": {
+            "Phone": "959-827-0449x03216",
+            "Email": "trevor53@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/947543f3-6c6e-4287-abb0-faaeedccb4a4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

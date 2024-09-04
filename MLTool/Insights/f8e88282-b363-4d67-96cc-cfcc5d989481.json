@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f8e88282-b363-4d67-96cc-cfcc5d989481",
+    "PolicyID": "f30b2447-0513-4291-8406-908669bca7af",
+    "EffectiveDates": {
+        "StartDate": "2024-01-19",
+        "EndDate": "2025-01-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ed656e8a-7b6d-49f9-a05b-fa2ebc6742b7",
+        "Name": "Mary Larsen",
+        "PolicyNumber": "f30b2447-0513-4291-8406-908669bca7af",
+        "ContactInformation": {
+            "Phone": "2384972895",
+            "Email": "alexandriadaniel@example.org",
+            "Address": "19969 Nicole Gardens\nLake Chase, KY 05897"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-02",
+        "Location": "22383 Bell Trail\nSouth Robert, FL 88816",
+        "Description": "Light approach only kind friend. Glass area wonder strong. Almost dark clearly those phone cost.\nOnly cut whom part. Growth exactly show."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 98228
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16809
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15113
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18237
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 184113
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 83866,
+        "TotalApproved": 40375
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Cunningham MD",
+        "ContactInformation": {
+            "Phone": "768.521.0384x4539",
+            "Email": "allensanchez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/45412e65-bb89-4ef8-82ee-f50d0cce5572"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

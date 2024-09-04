@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d19df5b5-8a7b-487c-86ee-15f6ce4ffaaa",
+  "PolicyID": "803a681d-3d65-4421-9d2f-5a3341ab215d",
+  "EffectiveDates": {
+    "StartDate": "2024-06-11",
+    "EndDate": "2025-06-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "76a75dc6-e91a-429a-9e92-f7dd842f7f51",
+    "Name": "David Jackson",
+    "PolicyNumber": "803a681d-3d65-4421-9d2f-5a3341ab215d",
+    "ContactInformation": {
+      "Phone": "630.398.9777x9263",
+      "Email": "cbrown@example.net",
+      "Address": "93702 Matthew Brook\nWest Melindahaven, CA 12004"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-23",
+    "Location": "USS Mitchell\nFPO AE 77521",
+    "Description": "Start the provide instead movie. Size similar catch affect.\nAudience prepare he environment until themselves blood. Her either action partner know. Get identify two collection recognize."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8374
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 39962
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 39337
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 28412
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 45131
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 132228,
+    "TotalApproved": 125812
+  },
+  "AdjusterDetails": {
+    "Name": "Carlos Perkins",
+    "ContactInformation": {
+      "Phone": "7953889155",
+      "Email": "robinsonnatasha@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/f7d03091-2011-4cb6-b1f7-2958bd8604a9"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-23T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-28T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-05T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

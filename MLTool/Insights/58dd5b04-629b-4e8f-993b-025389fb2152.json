@@ -1,0 +1,81 @@
+{
+    "ClaimID": "58dd5b04-629b-4e8f-993b-025389fb2152",
+    "PolicyID": "4f4c69c9-f081-40b4-8a04-5e1d4d311e5d",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ea57d2df-96ab-4489-848e-58b4ed873a86",
+        "Name": "Amanda Martin",
+        "PolicyNumber": "4f4c69c9-f081-40b4-8a04-5e1d4d311e5d",
+        "ContactInformation": {
+            "Phone": "(394)613-1338",
+            "Email": "travis67@example.net",
+            "Address": "8153 Johnson Common\nPort Jessica, OR 32490"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-15",
+        "Location": "455 Emily Mountain\nEast Amyberg, IA 41978",
+        "Description": "Instead arrive small. Yet color fill meeting since break along. Worker public ability teach other upon.\nSpecific report wait per hotel sister. Oil edge share left remain into speak."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17093
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1945
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4425
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 81627
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10236
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 97632,
+        "TotalApproved": 27165
+    },
+    "AdjusterDetails": {
+        "Name": "Nicholas Stewart",
+        "ContactInformation": {
+            "Phone": "(539)238-2436x6463",
+            "Email": "htownsend@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d71be102-7c93-4b93-8fdb-f5b5bfbcc2c6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

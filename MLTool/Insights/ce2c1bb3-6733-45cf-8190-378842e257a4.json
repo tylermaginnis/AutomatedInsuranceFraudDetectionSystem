@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ce2c1bb3-6733-45cf-8190-378842e257a4",
+    "PolicyID": "98b24e99-304a-463f-ac68-3a4c4eb22236",
+    "EffectiveDates": {
+        "StartDate": "2024-01-07",
+        "EndDate": "2025-01-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "79e8e846-7f6f-44f3-b01c-3a07d7244821",
+        "Name": "Heather Diaz",
+        "PolicyNumber": "98b24e99-304a-463f-ac68-3a4c4eb22236",
+        "ContactInformation": {
+            "Phone": "867.843.5919",
+            "Email": "raymond65@example.net",
+            "Address": "8905 Sarah Overpass\nJosephton, FL 70644"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-10",
+        "Location": "7313 Coleman Isle Suite 532\nWest David, FL 15121",
+        "Description": "Remember five respond officer much more. Heavy be still clear.\nMaintain threat stay idea. Collection receive century none source strong team. Agent happen concern especially drive here smile."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16113
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18696
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 174324
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35326
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2810
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 169792,
+        "TotalApproved": 141835
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Newman",
+        "ContactInformation": {
+            "Phone": "539.667.6737",
+            "Email": "jdavies@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/09cef8c4-8073-4e56-8c6c-fda6e92af526"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-10T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-15T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-20T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

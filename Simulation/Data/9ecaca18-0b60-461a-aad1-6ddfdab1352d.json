@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9ecaca18-0b60-461a-aad1-6ddfdab1352d",
+  "PolicyID": "6296dd6c-37c0-461d-bcd6-d65f13208022",
+  "EffectiveDates": {
+    "StartDate": "2024-08-26",
+    "EndDate": "2025-08-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f9bab500-1021-4a7c-ba88-81da8e6dc14b",
+    "Name": "Tracy Myers",
+    "PolicyNumber": "6296dd6c-37c0-461d-bcd6-d65f13208022",
+    "ContactInformation": {
+      "Phone": "248.240.2838",
+      "Email": "kenneth29@example.org",
+      "Address": "2595 Jeffrey Plains Apt. 510\nEast Jasonstad, GA 46569"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-12",
+    "Location": "3661 Anthony Alley Apt. 106\nNew Robert, NH 50050",
+    "Description": "Back realize property decide design soon. Focus current at.\nCenter focus sometimes a degree budget. Least sell inside mention."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8567
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2900
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 37599
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5132
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 28774
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 68545,
+    "TotalApproved": 19437
+  },
+  "AdjusterDetails": {
+    "Name": "James Rodriguez",
+    "ContactInformation": {
+      "Phone": "665-860-5802",
+      "Email": "markjohnson@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/3f9fd2ef-3fde-4bf9-b152-310dfacab06e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-12T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-17T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-22T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

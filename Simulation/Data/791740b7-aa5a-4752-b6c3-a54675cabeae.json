@@ -1,0 +1,80 @@
+{
+  "ClaimID": "791740b7-aa5a-4752-b6c3-a54675cabeae",
+  "PolicyID": "c1b23e8d-3764-41a5-9062-c9d49df71f5e",
+  "EffectiveDates": {
+    "StartDate": "2023-12-04",
+    "EndDate": "2024-12-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7856c5fa-3232-47cc-8c94-44a26d33c2d2",
+    "Name": "Justin Moore",
+    "PolicyNumber": "c1b23e8d-3764-41a5-9062-c9d49df71f5e",
+    "ContactInformation": {
+      "Phone": "+1-386-872-0556x37163",
+      "Email": "jamesramirez@example.net",
+      "Address": "Unit 7061 Box 5003\nDPO AE 83667"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-17",
+    "Location": "063 Mcintyre Corners Suite 030\nAaronchester, NV 25265",
+    "Description": "High real benefit.\nAble line significant bit tree. Share fast big."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13803
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 33483
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1926
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1222
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 129183
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 92262,
+    "TotalApproved": 9503
+  },
+  "AdjusterDetails": {
+    "Name": "Justin Peterson",
+    "ContactInformation": {
+      "Phone": "403.564.0522",
+      "Email": "apalmer@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/5759984c-f770-4d27-8cfb-a04a695f3db9"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-17T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-03-22T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-27T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

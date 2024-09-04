@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7d4ae25d-3d4c-4375-aff4-b7917a6439a0",
+  "PolicyID": "8fd0c425-7faa-48bb-a8da-cca5a22dbeac",
+  "EffectiveDates": {
+    "StartDate": "2024-07-27",
+    "EndDate": "2025-07-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f298e359-0ac0-4dfe-8c19-cb8f88ba2493",
+    "Name": "Alice Gutierrez",
+    "PolicyNumber": "8fd0c425-7faa-48bb-a8da-cca5a22dbeac",
+    "ContactInformation": {
+      "Phone": "+1-544-437-1422",
+      "Email": "anthony84@example.org",
+      "Address": "052 Joseph Inlet\nNew Davidstad, ND 96540"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-25",
+    "Location": "6431 Nathan Trail\nEast Calebchester, FM 77565",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 74475
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 43409
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5448
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19547
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6604
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 149483,
+    "TotalApproved": 65017
+  },
+  "AdjusterDetails": {
+    "Name": "Scott Valenzuela",
+    "ContactInformation": {
+      "Phone": "001-554-516-2337x4494",
+      "Email": "andrew36@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/fa28a84e-4e07-4d7b-bf55-ea70e461a6d2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-25T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-02T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-07T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "93eb1a26-5b58-4af8-94d6-7a0aaa4b46b5",
+  "PolicyID": "a7ee59d3-01ce-42ee-a08e-995a97b26f1b",
+  "EffectiveDates": {
+    "StartDate": "2024-02-19",
+    "EndDate": "2025-02-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "edf21d84-f466-4d81-9c49-712cc7653887",
+    "Name": "Heather Burch",
+    "PolicyNumber": "a7ee59d3-01ce-42ee-a08e-995a97b26f1b",
+    "ContactInformation": {
+      "Phone": "(297)763-4302x10525",
+      "Email": "fostermark@example.org",
+      "Address": "Unit 0029 Box 7547\nDPO AP 21590"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-12",
+    "Location": "1066 Johnson Mountains\nLake Sophia, MI 46898",
+    "Description": "Each expect thought address week not other. Plan history writer operation drive range. Financial approach hope."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 184302
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 135139
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1797
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 191919
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6604
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 161299,
+    "TotalApproved": 9157
+  },
+  "AdjusterDetails": {
+    "Name": "Samantha York",
+    "ContactInformation": {
+      "Phone": "(624)686-5031",
+      "Email": "collinsnicole@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/4f730fb5-af09-444a-b5dc-b9c6788c8bb0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-12T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-17T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-22T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

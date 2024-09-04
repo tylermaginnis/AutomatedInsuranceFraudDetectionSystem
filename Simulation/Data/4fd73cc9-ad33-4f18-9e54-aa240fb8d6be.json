@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4fd73cc9-ad33-4f18-9e54-aa240fb8d6be",
+  "PolicyID": "643cf1a4-956f-4428-9e88-0d61d1ec0cb7",
+  "EffectiveDates": {
+    "StartDate": "2023-12-19",
+    "EndDate": "2024-12-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "18876fea-8647-49ae-91df-f92e84573338",
+    "Name": "Cody Roach",
+    "PolicyNumber": "643cf1a4-956f-4428-9e88-0d61d1ec0cb7",
+    "ContactInformation": {
+      "Phone": "(914)665-4225",
+      "Email": "wrogers@example.org",
+      "Address": "48013 Moore Gardens\nBeltranside, MA 14015"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-09",
+    "Location": "9787 Dillon Square Suite 279\nJulianstad, NV 28347",
+    "Description": "Range catch since it top."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8833
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 119164
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 126723
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 33923
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 18573
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 150278,
+    "TotalApproved": 42831
+  },
+  "AdjusterDetails": {
+    "Name": "Lindsey Gould PhD",
+    "ContactInformation": {
+      "Phone": "(643)535-0473x5787",
+      "Email": "kristin10@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/c930ece8-a5a6-42f7-a39c-85aa741fed70"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-09T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-14T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-19T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

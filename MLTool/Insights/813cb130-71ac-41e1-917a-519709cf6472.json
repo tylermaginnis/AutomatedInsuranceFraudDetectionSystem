@@ -1,0 +1,81 @@
+{
+    "ClaimID": "813cb130-71ac-41e1-917a-519709cf6472",
+    "PolicyID": "21534c29-ca5f-4ab7-86a1-d67291921ec0",
+    "EffectiveDates": {
+        "StartDate": "2024-03-18",
+        "EndDate": "2025-03-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e6a62378-9601-42b5-8cce-155ac3fd3359",
+        "Name": "Linda Bell",
+        "PolicyNumber": "21534c29-ca5f-4ab7-86a1-d67291921ec0",
+        "ContactInformation": {
+            "Phone": "671.893.4745",
+            "Email": "tkelly@example.org",
+            "Address": "70955 Perez Fork Apt. 927\nEast Cynthiabury, DE 34951"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-02",
+        "Location": "87106 Michele Lane Apt. 109\nEast Richardfurt, GA 00893",
+        "Description": "Similar summer impact onto. Western middle true Democrat. Garden benefit friend.\nNext local heart wait. Determine the available hard those."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 36426
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 96515
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 62872
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2594
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 84361
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 35957,
+        "TotalApproved": 8200
+    },
+    "AdjusterDetails": {
+        "Name": "Adam Armstrong",
+        "ContactInformation": {
+            "Phone": "9218748501",
+            "Email": "alyssa46@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/dc50a8e7-1eed-4bf5-b7e4-a0c281d31773"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

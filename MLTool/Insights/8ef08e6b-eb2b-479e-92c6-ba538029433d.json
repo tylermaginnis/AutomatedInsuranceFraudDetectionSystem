@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8ef08e6b-eb2b-479e-92c6-ba538029433d",
+    "PolicyID": "8e40b78e-3bab-44a1-bca0-9d3763b52a85",
+    "EffectiveDates": {
+        "StartDate": "2023-11-18",
+        "EndDate": "2024-11-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "03b851ff-7944-44c0-8d9d-2cd92c4b8a6b",
+        "Name": "Emily Hernandez",
+        "PolicyNumber": "8e40b78e-3bab-44a1-bca0-9d3763b52a85",
+        "ContactInformation": {
+            "Phone": "745-985-5798x56236",
+            "Email": "rossbrenda@example.org",
+            "Address": "746 Jason Land\nSouth Justinside, WV 49575"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-21",
+        "Location": "6244 David Manors Suite 798\nNew Matthew, IN 68636",
+        "Description": "National again while important talk. Manager staff shoulder thank under speech.\nOption health thing.\nOn space floor soldier million why."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41171
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6815
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4362
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16983
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8935
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 152192,
+        "TotalApproved": 66400
+    },
+    "AdjusterDetails": {
+        "Name": "David Barnett",
+        "ContactInformation": {
+            "Phone": "8988892700",
+            "Email": "xreid@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/251b6ac4-f12d-449e-993f-69eb26058e6e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-21T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-26T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-31T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

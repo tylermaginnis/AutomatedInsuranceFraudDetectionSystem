@@ -1,0 +1,81 @@
+{
+    "ClaimID": "20de4415-961a-4b92-8426-caa9f22c2a1e",
+    "PolicyID": "2c23b41b-855e-486f-a94f-048fc974b060",
+    "EffectiveDates": {
+        "StartDate": "2023-12-26",
+        "EndDate": "2024-12-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b215bb44-719a-4dd3-9b84-82b8b5fecbf7",
+        "Name": "Richard Collins",
+        "PolicyNumber": "2c23b41b-855e-486f-a94f-048fc974b060",
+        "ContactInformation": {
+            "Phone": "001-315-266-7601x56161",
+            "Email": "gmatthews@example.net",
+            "Address": "7823 Todd Throughway\nLake Rebeccaville, MO 18452"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-04",
+        "Location": "355 Juan Spur\nFordmouth, VT 23569",
+        "Description": "Issue population nor listen stay soon cultural. Role worry candidate wish much.\nReady make they outside. With maybe hospital.\nIdentify dog poor. Themselves method instead since."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37126
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14102
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15711
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9003
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14678
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 195878,
+        "TotalApproved": 151383
+    },
+    "AdjusterDetails": {
+        "Name": "Caitlin Ortega",
+        "ContactInformation": {
+            "Phone": "001-290-895-9696",
+            "Email": "kimberlyjohnson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7c92c670-0d8b-410e-b598-db11ff3ec4db"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-04T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-09T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-14T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

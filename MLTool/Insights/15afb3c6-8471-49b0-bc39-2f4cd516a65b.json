@@ -1,0 +1,81 @@
+{
+    "ClaimID": "15afb3c6-8471-49b0-bc39-2f4cd516a65b",
+    "PolicyID": "decb5d6e-1c11-4791-9526-3ba348214bb3",
+    "EffectiveDates": {
+        "StartDate": "2024-05-11",
+        "EndDate": "2025-05-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "44682349-b221-4aaf-ae9c-53b228465f7b",
+        "Name": "Amy Maldonado",
+        "PolicyNumber": "decb5d6e-1c11-4791-9526-3ba348214bb3",
+        "ContactInformation": {
+            "Phone": "598-909-4944x57756",
+            "Email": "hzamora@example.net",
+            "Address": "Unit 0183 Box 9537\nDPO AP 51702"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-01",
+        "Location": "12102 Martinez Point\nTylertown, PW 54393",
+        "Description": "Case it produce interesting above.\nCommunity star could opportunity water region station. Against road group. Return five I develop catch society."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9630
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16174
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10454
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19944
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1418
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 166729,
+        "TotalApproved": 11677
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Sanders",
+        "ContactInformation": {
+            "Phone": "443.335.5986",
+            "Email": "adrian39@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7a79055b-3935-4a0e-a016-18255febf7c5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "753d3c77-82cb-4b16-a228-c5be195b1a62",
+    "PolicyID": "b533112d-b149-4e15-94e3-999ffed49b10",
+    "EffectiveDates": {
+        "StartDate": "2023-09-07",
+        "EndDate": "2024-09-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6b3f341e-7bb2-4aa1-ab0b-94ad76e6088f",
+        "Name": "Thomas Cole",
+        "PolicyNumber": "b533112d-b149-4e15-94e3-999ffed49b10",
+        "ContactInformation": {
+            "Phone": "4967037123",
+            "Email": "aguilarjames@example.com",
+            "Address": "45072 Jasmine Harbors Apt. 482\nNew Justin, PR 53720"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-05",
+        "Location": "2774 Rachel Via Suite 314\nMariaside, NV 30354",
+        "Description": "Glass economic part what. First inside fear natural authority debate.\nStreet message according too ball. Note deep structure seven hold attorney. Class measure city song."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7660
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4771
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6171
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3937
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33100
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 79616,
+        "TotalApproved": 69386
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Winters",
+        "ContactInformation": {
+            "Phone": "308-827-8855x076",
+            "Email": "qmckay@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2229bb45-a078-404a-9cea-0d7b115a3f47"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

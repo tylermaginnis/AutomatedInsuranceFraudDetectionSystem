@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a4abfaeb-12eb-44d6-b8f0-5485086de724",
+  "PolicyID": "285fb4af-3abe-4aa9-a696-0518592dd47e",
+  "EffectiveDates": {
+    "StartDate": "2024-05-18",
+    "EndDate": "2025-05-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "915d378b-29d2-4289-9ecc-df8e21ac1568",
+    "Name": "Edward Martin",
+    "PolicyNumber": "285fb4af-3abe-4aa9-a696-0518592dd47e",
+    "ContactInformation": {
+      "Phone": "(305)527-5714x5253",
+      "Email": "johnreid@example.org",
+      "Address": "2801 Warner Green\nJacksonland, IN 96678"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-15",
+    "Location": "165 Alyssa Road\nNorth Andrew, KY 48936",
+    "Description": "Arrive likely history into position director suggest. Loss land street off behavior.\nStudent answer trade be which reduce. Where crime play however."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7522
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4139
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 65694
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 18202
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 19301
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 190452,
+    "TotalApproved": 165982
+  },
+  "AdjusterDetails": {
+    "Name": "Daniel Moses",
+    "ContactInformation": {
+      "Phone": "+1-910-576-2815",
+      "Email": "lisa84@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/b464b648-2803-466d-b7fd-5fc0d5d27267"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-15T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-20T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-05-25T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

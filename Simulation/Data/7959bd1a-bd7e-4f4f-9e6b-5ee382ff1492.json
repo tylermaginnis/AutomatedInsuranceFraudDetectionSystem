@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7959bd1a-bd7e-4f4f-9e6b-5ee382ff1492",
+  "PolicyID": "597f0e11-7de8-4f02-ba21-aad49eed1292",
+  "EffectiveDates": {
+    "StartDate": "2023-10-02",
+    "EndDate": "2024-10-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3ad62eb9-0f15-4e5b-8283-3b30f623d703",
+    "Name": "Thomas Thornton",
+    "PolicyNumber": "597f0e11-7de8-4f02-ba21-aad49eed1292",
+    "ContactInformation": {
+      "Phone": "(680)684-0754",
+      "Email": "patelchristina@example.net",
+      "Address": "343 Johns Plains Apt. 246\nGrimesburgh, ID 16815"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-13",
+    "Location": "11389 James Valleys\nDawnmouth, NY 78682",
+    "Description": "Mission seek loss ball. Door our owner somebody data structure wear. Two worry agency beyond treatment interesting.\nEvening process view start than protect technology. Man well grow season."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 150509
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 46128
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16321
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6535
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3170
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 160150,
+    "TotalApproved": 41368
+  },
+  "AdjusterDetails": {
+    "Name": "Mathew Flores",
+    "ContactInformation": {
+      "Phone": "(747)430-5242x63565",
+      "Email": "gsmith@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/8e5addb4-58c7-4b50-9b87-7e543778368a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-13T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-18T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-11-23T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

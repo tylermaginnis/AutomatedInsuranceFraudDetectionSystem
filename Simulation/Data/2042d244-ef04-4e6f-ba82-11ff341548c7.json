@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2042d244-ef04-4e6f-ba82-11ff341548c7",
+  "PolicyID": "059efcc9-b84d-4775-b053-553f7097a6cd",
+  "EffectiveDates": {
+    "StartDate": "2024-01-08",
+    "EndDate": "2025-01-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "135143c0-a4cf-46da-bd20-74e51c8bcc93",
+    "Name": "Christopher Reyes",
+    "PolicyNumber": "059efcc9-b84d-4775-b053-553f7097a6cd",
+    "ContactInformation": {
+      "Phone": "001-657-314-5172x1688",
+      "Email": "krameremily@example.com",
+      "Address": "Unit 7768 Box 5696\nDPO AP 42143"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-10",
+    "Location": "680 Bradley Haven Suite 379\nBrownside, LA 19439",
+    "Description": "Feeling door the so never left. Conference spring page ready happy both create purpose. Grow interesting gun."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 125902
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 42509
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11498
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3341
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4968
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 55336,
+    "TotalApproved": 51750
+  },
+  "AdjusterDetails": {
+    "Name": "Tyler Smith",
+    "ContactInformation": {
+      "Phone": "001-961-637-0631",
+      "Email": "sparkschristine@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/cdeb5b6d-41d4-460c-a167-36df9b1a33c8"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-10T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-15T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-20T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

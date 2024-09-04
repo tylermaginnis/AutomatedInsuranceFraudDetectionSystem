@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1c6b6783-ad7d-4490-834f-7c1849b448ba",
+    "PolicyID": "010d79a1-8fdd-4291-b33b-349adde26489",
+    "EffectiveDates": {
+        "StartDate": "2024-01-15",
+        "EndDate": "2025-01-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9db42c5f-73b7-42da-9e27-9c80b5e1cc14",
+        "Name": "Gabriel Harvey",
+        "PolicyNumber": "010d79a1-8fdd-4291-b33b-349adde26489",
+        "ContactInformation": {
+            "Phone": "360.454.1564",
+            "Email": "grahamgregory@example.org",
+            "Address": "23452 Garcia Park Apt. 576\nLake Kathy, AR 79610"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-04",
+        "Location": "7713 Cynthia Hill Apt. 227\nNew Carolview, WV 03566",
+        "Description": "Social plan sit list structure. Range effort miss series above sport them. Out customer cover until."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7756
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 51650
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11947
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9636
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34606
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 52747,
+        "TotalApproved": 24185
+    },
+    "AdjusterDetails": {
+        "Name": "Raymond Andrews",
+        "ContactInformation": {
+            "Phone": "260.979.2683",
+            "Email": "lawrencemontoya@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d77d62fc-3a53-4328-812c-f99b1e1e893b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-04T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-09T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-14T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

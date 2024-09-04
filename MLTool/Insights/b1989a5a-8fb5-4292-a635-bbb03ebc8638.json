@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b1989a5a-8fb5-4292-a635-bbb03ebc8638",
+    "PolicyID": "285f20ab-d5ed-4cb6-95fd-6ab110000a78",
+    "EffectiveDates": {
+        "StartDate": "2023-10-07",
+        "EndDate": "2024-10-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "881687df-9669-4c49-a7ce-4de4b4275889",
+        "Name": "Eric Peterson",
+        "PolicyNumber": "285f20ab-d5ed-4cb6-95fd-6ab110000a78",
+        "ContactInformation": {
+            "Phone": "001-586-586-0652x162",
+            "Email": "lbrowning@example.net",
+            "Address": "5195 Karen Meadow Apt. 427\nPort Jane, TX 81255"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-05",
+        "Location": "698 Meza Forest Apt. 307\nSouth Terri, AK 26492",
+        "Description": "If remember entire service. Onto will three deep."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25663
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8086
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6440
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 168834
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10910
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 61807,
+        "TotalApproved": 37747
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Cannon",
+        "ContactInformation": {
+            "Phone": "+1-548-837-0279x9490",
+            "Email": "corybradley@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6c24f36b-e248-4dd8-b9d0-bdfdbb8ae0de"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

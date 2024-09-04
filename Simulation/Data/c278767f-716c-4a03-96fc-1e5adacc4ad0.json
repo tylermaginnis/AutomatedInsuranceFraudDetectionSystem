@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c278767f-716c-4a03-96fc-1e5adacc4ad0",
+  "PolicyID": "b76d761b-7299-455b-ad34-b04c11e47075",
+  "EffectiveDates": {
+    "StartDate": "2023-11-27",
+    "EndDate": "2024-11-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "473e2710-a304-47f4-b0b2-c1c3a9822417",
+    "Name": "Nicholas Ramirez",
+    "PolicyNumber": "b76d761b-7299-455b-ad34-b04c11e47075",
+    "ContactInformation": {
+      "Phone": "950-427-7464x2159",
+      "Email": "sharon33@example.org",
+      "Address": "6489 Clark Flat\nNorth Greg, VI 82689"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-10",
+    "Location": "188 Townsend Fall\nDuncanland, AR 83963",
+    "Description": "Again pay call. Add trial all fear. Than memory audience charge."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6626
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 15640
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 115420
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 125956
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 61178
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 84430,
+    "TotalApproved": 31991
+  },
+  "AdjusterDetails": {
+    "Name": "Gerald Stone",
+    "ContactInformation": {
+      "Phone": "+1-850-245-2774x2256",
+      "Email": "josephguerrero@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/abd5ee06-9fa7-4aff-bb60-4e47f5c8235e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-10T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-15T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-20T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4b654c78-a499-456f-927e-8ca51605a7fc",
+    "PolicyID": "69824c12-6d3c-49f7-8a33-5e3185c62e2b",
+    "EffectiveDates": {
+        "StartDate": "2023-09-10",
+        "EndDate": "2024-09-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ff50215-e45c-4909-9f49-b9fd88385261",
+        "Name": "Courtney Anderson",
+        "PolicyNumber": "69824c12-6d3c-49f7-8a33-5e3185c62e2b",
+        "ContactInformation": {
+            "Phone": "941-733-8434",
+            "Email": "amyluna@example.org",
+            "Address": "90532 Hall Radial Suite 090\nHaneyton, MI 07992"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-02",
+        "Location": "78014 Charles Rapids\nStephanieview, MT 04795",
+        "Description": "Truth trouble drive discover professor.\nPart individual allow will peace blue or life. Relationship take sort sort action bag central want. End policy day lot."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7949
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 59509
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21376
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 30081
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3376
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 126252,
+        "TotalApproved": 10548
+    },
+    "AdjusterDetails": {
+        "Name": "Heather Walker",
+        "ContactInformation": {
+            "Phone": "(620)398-8708x132",
+            "Email": "gillespiejamie@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/08cfa7cd-0971-43ff-bcd4-61b1ba500667"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

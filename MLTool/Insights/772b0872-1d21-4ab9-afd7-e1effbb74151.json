@@ -1,0 +1,81 @@
+{
+    "ClaimID": "772b0872-1d21-4ab9-afd7-e1effbb74151",
+    "PolicyID": "08e56204-1068-4ae7-82be-f32c10a32dca",
+    "EffectiveDates": {
+        "StartDate": "2024-02-21",
+        "EndDate": "2025-02-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f00cc73c-4c43-4671-ae2d-2db0edcb983d",
+        "Name": "Daniel Nixon",
+        "PolicyNumber": "08e56204-1068-4ae7-82be-f32c10a32dca",
+        "ContactInformation": {
+            "Phone": "001-390-411-6419x99450",
+            "Email": "josephrogers@example.com",
+            "Address": "7538 Nelson Mission Apt. 039\nSamuelport, AR 15184"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-14",
+        "Location": "PSC 2007, Box 7715\nAPO AE 65942",
+        "Description": "Left also color six hope fear.\nHuman soon society perform art. Walk song station suffer land year themselves."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9352
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49443
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 115607
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 71398
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12567
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 93930,
+        "TotalApproved": 44083
+    },
+    "AdjusterDetails": {
+        "Name": "Jaime Rodriguez",
+        "ContactInformation": {
+            "Phone": "(742)391-7774",
+            "Email": "agardner@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5f08881b-8f26-4de6-a146-68e65c34d90f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-14T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-19T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-24T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

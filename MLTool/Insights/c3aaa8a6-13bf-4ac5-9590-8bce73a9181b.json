@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c3aaa8a6-13bf-4ac5-9590-8bce73a9181b",
+    "PolicyID": "c489657c-db27-49cf-a76e-d3a09312ce08",
+    "EffectiveDates": {
+        "StartDate": "2024-02-18",
+        "EndDate": "2025-02-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "08c35b5f-671c-4f32-b1ec-9a23fc7ffd59",
+        "Name": "Jermaine Phillips",
+        "PolicyNumber": "c489657c-db27-49cf-a76e-d3a09312ce08",
+        "ContactInformation": {
+            "Phone": "(792)212-8216x5809",
+            "Email": "andrewreeves@example.net",
+            "Address": "21670 Dillon Station Apt. 834\nBelindastad, AS 85879"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-26",
+        "Location": "8962 David Way\nEast Summerchester, CA 31251",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 86299
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38870
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8448
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11868
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11765
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157250,
+        "TotalApproved": 49169
+    },
+    "AdjusterDetails": {
+        "Name": "Kayla Cohen",
+        "ContactInformation": {
+            "Phone": "652.877.6475",
+            "Email": "lopezkathryn@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f1fc28eb-48c7-4d6c-b54f-8440976a3a5d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-26T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-02T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-07T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

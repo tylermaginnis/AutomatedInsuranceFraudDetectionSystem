@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3d49e57e-fd4d-4731-a5d3-155e5f465bc9",
+    "PolicyID": "db2301d0-e62a-4002-8438-0140b6702fe3",
+    "EffectiveDates": {
+        "StartDate": "2024-08-31",
+        "EndDate": "2025-08-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f0b4d6e2-542f-49fa-9f6c-fc79e49f9813",
+        "Name": "Jacqueline Phillips",
+        "PolicyNumber": "db2301d0-e62a-4002-8438-0140b6702fe3",
+        "ContactInformation": {
+            "Phone": "6382723147",
+            "Email": "ghays@example.com",
+            "Address": "1710 Higgins Highway Suite 647\nWest Claire, KS 50472"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-27",
+        "Location": "846 Jason Green\nWest Michaelmouth, MH 82482",
+        "Description": "Join must factor reason research society between. Sort both news attack interest. Lose fly word maybe."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3508
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 127921
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4244
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 30359
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35659
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 29081,
+        "TotalApproved": 18201
+    },
+    "AdjusterDetails": {
+        "Name": "Paul Allen",
+        "ContactInformation": {
+            "Phone": "890-820-5558x201",
+            "Email": "klee@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/53939bae-0bf9-46af-a362-429d92b3002c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

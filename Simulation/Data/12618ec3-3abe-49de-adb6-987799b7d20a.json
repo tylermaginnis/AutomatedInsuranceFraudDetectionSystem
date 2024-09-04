@@ -1,0 +1,80 @@
+{
+  "ClaimID": "12618ec3-3abe-49de-adb6-987799b7d20a",
+  "PolicyID": "80fc5141-e329-4528-aade-4c917bbd2bff",
+  "EffectiveDates": {
+    "StartDate": "2023-10-15",
+    "EndDate": "2024-10-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "736a4d4a-8ce6-40fd-842e-34cfdc601f89",
+    "Name": "Vernon Morris",
+    "PolicyNumber": "80fc5141-e329-4528-aade-4c917bbd2bff",
+    "ContactInformation": {
+      "Phone": "(770)758-5539x27329",
+      "Email": "thomasaustin@example.com",
+      "Address": "4618 Adam Hills Suite 650\nNew Michael, NJ 14790"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-12",
+    "Location": "357 Dean Mission Suite 503\nNew Wayneport, TX 02241",
+    "Description": "Effort but garden thank pressure set upon. Life research available another loss keep spring."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14986
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6392
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 62134
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 33429
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 28524
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 153148,
+    "TotalApproved": 138059
+  },
+  "AdjusterDetails": {
+    "Name": "Jacob Brown",
+    "ContactInformation": {
+      "Phone": "+1-831-357-2973x2745",
+      "Email": "anthony62@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/ed73f7c6-dd79-4544-a027-cd8dab78079f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-12T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-17T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-22T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

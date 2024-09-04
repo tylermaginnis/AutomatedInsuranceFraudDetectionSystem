@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9b688ac2-abff-46b0-8b97-13d4784b6060",
+    "PolicyID": "c751dc80-dede-4f17-b659-b87ac87858fa",
+    "EffectiveDates": {
+        "StartDate": "2024-06-18",
+        "EndDate": "2025-06-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "21ac931f-8717-4e45-9750-d383a1b82da6",
+        "Name": "Carol Powell",
+        "PolicyNumber": "c751dc80-dede-4f17-b659-b87ac87858fa",
+        "ContactInformation": {
+            "Phone": "511-398-5390x0941",
+            "Email": "zwilliams@example.com",
+            "Address": "05718 David Pass\nLunaview, ME 35852"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-31",
+        "Location": "541 Hoffman Divide\nHuntburgh, MI 11427",
+        "Description": "Physical poor position picture series marriage. Science state hit because bank hot able science."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44670
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 195155
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 101424
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32700
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 183206
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 155574,
+        "TotalApproved": 58940
+    },
+    "AdjusterDetails": {
+        "Name": "Jesus Martinez",
+        "ContactInformation": {
+            "Phone": "(630)718-9608x92017",
+            "Email": "lindsayrobbins@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4ae741cd-0487-4313-969f-0775393cfda1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-31T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

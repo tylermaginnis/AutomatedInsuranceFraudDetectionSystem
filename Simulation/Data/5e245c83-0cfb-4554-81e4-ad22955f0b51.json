@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5e245c83-0cfb-4554-81e4-ad22955f0b51",
+  "PolicyID": "e68a59ae-ae85-4820-8b5d-73ffeab09cee",
+  "EffectiveDates": {
+    "StartDate": "2024-01-13",
+    "EndDate": "2025-01-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4b137de1-3030-415c-9a66-eb6f09ff4d07",
+    "Name": "Cynthia Wood",
+    "PolicyNumber": "e68a59ae-ae85-4820-8b5d-73ffeab09cee",
+    "ContactInformation": {
+      "Phone": "5484275725",
+      "Email": "jill57@example.org",
+      "Address": "766 Alexander Squares\nPatrickton, GU 46067"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-30",
+    "Location": "2671 Diaz Cliffs Apt. 305\nSouth Samuel, HI 48331",
+    "Description": "Whom pass style like. Happy alone apply use. Hundred drug inside hold news act.\nAccount lay can society. Since usually much meeting your low."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13000
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 32922
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 39491
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2780
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1043
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 141950,
+    "TotalApproved": 32508
+  },
+  "AdjusterDetails": {
+    "Name": "Daniel Turner",
+    "ContactInformation": {
+      "Phone": "674-777-0504",
+      "Email": "tiffanyhill@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/9b6233bc-e47b-4277-b3e6-eb2927752a2a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-30T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-05T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-10T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

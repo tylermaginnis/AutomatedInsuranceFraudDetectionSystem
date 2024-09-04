@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6a6aead8-693f-4e2e-af93-8accf1aeace9",
+  "PolicyID": "f5eb5b1f-013e-48f7-b7df-55ef392b41ca",
+  "EffectiveDates": {
+    "StartDate": "2024-01-30",
+    "EndDate": "2025-01-29"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "c9a541d4-b55e-4412-ae6e-77a2989717d2",
+    "Name": "Daniel Cooper",
+    "PolicyNumber": "f5eb5b1f-013e-48f7-b7df-55ef392b41ca",
+    "ContactInformation": {
+      "Phone": "931.800.5677x5856",
+      "Email": "gardnersarah@example.net",
+      "Address": "491 Michael Street\nBaileyside, KS 70152"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-23",
+    "Location": "5155 James Mall Suite 059\nCorybury, AS 00856",
+    "Description": "College message low never. Run approach of allow rather sister. Economic get avoid building candidate."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 22921
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4899
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 21168
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9753
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7561
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 138985,
+    "TotalApproved": 31760
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Warren",
+    "ContactInformation": {
+      "Phone": "(931)283-6123x343",
+      "Email": "bsummers@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/75890c8b-6c19-4c70-89d2-5c9e56843aea"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-23T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-28T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-03T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

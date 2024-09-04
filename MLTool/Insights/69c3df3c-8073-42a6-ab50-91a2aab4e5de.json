@@ -1,0 +1,81 @@
+{
+    "ClaimID": "69c3df3c-8073-42a6-ab50-91a2aab4e5de",
+    "PolicyID": "bb2f65c5-7309-4912-a74b-28ccae0b3e5d",
+    "EffectiveDates": {
+        "StartDate": "2024-05-26",
+        "EndDate": "2025-05-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a90c4fcd-1d31-4ee0-9cc8-d1bcff29e1f0",
+        "Name": "Danielle Adams",
+        "PolicyNumber": "bb2f65c5-7309-4912-a74b-28ccae0b3e5d",
+        "ContactInformation": {
+            "Phone": "516-569-0603x41404",
+            "Email": "rachaelroach@example.org",
+            "Address": "01319 Mann Curve Apt. 482\nPenatown, NV 69866"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-22",
+        "Location": "7778 Frazier Greens Apt. 461\nJustinview, DE 98288",
+        "Description": "Analysis bar fact trade focus really. Open bit before western use arm."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10434
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 96070
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 90860
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31405
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 86556
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 106835,
+        "TotalApproved": 36867
+    },
+    "AdjusterDetails": {
+        "Name": "Veronica Bates",
+        "ContactInformation": {
+            "Phone": "381-484-4213",
+            "Email": "maryhill@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8cf44ead-493c-4032-a864-db1f525ef758"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

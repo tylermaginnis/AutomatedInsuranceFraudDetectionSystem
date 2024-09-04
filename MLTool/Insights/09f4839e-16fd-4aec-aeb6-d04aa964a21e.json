@@ -1,0 +1,81 @@
+{
+    "ClaimID": "09f4839e-16fd-4aec-aeb6-d04aa964a21e",
+    "PolicyID": "73546918-ba48-4ae2-94c3-051ffb033fc8",
+    "EffectiveDates": {
+        "StartDate": "2023-12-26",
+        "EndDate": "2024-12-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "23d43d5b-ebcf-4989-8ba6-42e895515854",
+        "Name": "Joe Lee",
+        "PolicyNumber": "73546918-ba48-4ae2-94c3-051ffb033fc8",
+        "ContactInformation": {
+            "Phone": "+1-287-728-8928x4601",
+            "Email": "lewisdiana@example.net",
+            "Address": "03809 Dawn Estate Suite 554\nCastilloborough, MS 33441"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-20",
+        "Location": "81512 Joseph Gateway Suite 442\nDominicport, NM 06832",
+        "Description": "Apply treatment several hospital itself operation truth.\nReason growth usually help learn. Western throw maybe range yard. Whether suffer every customer away when seek prove. Once girl nature."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35852
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14188
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 96338
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14015
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9972
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 71033,
+        "TotalApproved": 2064
+    },
+    "AdjusterDetails": {
+        "Name": "Stacey Montgomery",
+        "ContactInformation": {
+            "Phone": "+1-814-752-5138",
+            "Email": "michael66@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c30fcb46-8011-4cd0-8868-9a48430d563e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-20T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-25T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-30T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

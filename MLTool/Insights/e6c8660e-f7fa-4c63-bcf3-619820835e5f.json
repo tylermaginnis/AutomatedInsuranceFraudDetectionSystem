@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e6c8660e-f7fa-4c63-bcf3-619820835e5f",
+    "PolicyID": "e1f4ddaf-95b6-4390-84c5-c5acaf008840",
+    "EffectiveDates": {
+        "StartDate": "2023-12-20",
+        "EndDate": "2024-12-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f9f2c407-e83e-4a2b-b8d4-62f3629e8515",
+        "Name": "Raymond Craig",
+        "PolicyNumber": "e1f4ddaf-95b6-4390-84c5-c5acaf008840",
+        "ContactInformation": {
+            "Phone": "4213490591",
+            "Email": "racheladams@example.org",
+            "Address": "08602 Theresa Summit Suite 354\nHornborough, VI 26014"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-07",
+        "Location": "336 Ward Skyway\nSouth Colleenport, MS 03542",
+        "Description": "Difficult six prevent when per with. Thing listen reality wide interview assume. Foot arm these economic."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3035
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5209
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9267
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1026
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26570
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 32361,
+        "TotalApproved": 14532
+    },
+    "AdjusterDetails": {
+        "Name": "Scott Lopez",
+        "ContactInformation": {
+            "Phone": "3244804924",
+            "Email": "fullersara@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/d464763d-9078-4da1-9362-213b9e63edc4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-07T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-12T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-17T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

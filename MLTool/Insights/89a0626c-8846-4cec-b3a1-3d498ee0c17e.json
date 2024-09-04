@@ -1,0 +1,81 @@
+{
+    "ClaimID": "89a0626c-8846-4cec-b3a1-3d498ee0c17e",
+    "PolicyID": "5ef68bc2-7b16-4c12-ae09-219c6f67d96e",
+    "EffectiveDates": {
+        "StartDate": "2024-06-02",
+        "EndDate": "2025-06-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1f389d53-24fa-4285-8607-7aa508382a67",
+        "Name": "Michael Miller",
+        "PolicyNumber": "5ef68bc2-7b16-4c12-ae09-219c6f67d96e",
+        "ContactInformation": {
+            "Phone": "001-739-537-9427x5684",
+            "Email": "johnsonrenee@example.com",
+            "Address": "91430 Brooks Cliff Apt. 981\nEast Lauren, AS 54108"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-26",
+        "Location": "797 Thomas Views\nJohnsonton, IN 88940",
+        "Description": "Would fish through score traditional. Deep thing wait science own must. Music white sea firm method necessary.\nMarket business tend effect run. Third sea home turn."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14668
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45879
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 92148
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18994
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9237
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 91037,
+        "TotalApproved": 80296
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Hale",
+        "ContactInformation": {
+            "Phone": "777-486-1371",
+            "Email": "martinjoseph@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cd7a1a94-1c10-4a74-bb37-b35074d7fcac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-26T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-03T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-08T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

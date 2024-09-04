@@ -1,0 +1,81 @@
+{
+    "ClaimID": "12318fff-ded4-46fd-be0c-8680ec7e9ed9",
+    "PolicyID": "c90212db-b6c5-4a58-a6a1-7cba5cc766cb",
+    "EffectiveDates": {
+        "StartDate": "2024-04-26",
+        "EndDate": "2025-04-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "14e5c62f-feb8-471b-b86e-f67647cf38fb",
+        "Name": "Gabrielle Gilmore",
+        "PolicyNumber": "c90212db-b6c5-4a58-a6a1-7cba5cc766cb",
+        "ContactInformation": {
+            "Phone": "722-240-7838x8293",
+            "Email": "dillonvictoria@example.com",
+            "Address": "9852 Sarah Landing\nSarahton, OH 34600"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-31",
+        "Location": "44783 Denise Forges Apt. 327\nSouth Stacy, VA 63006",
+        "Description": "Top statement be little. Continue become material son audience officer. Line large station win development."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42884
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 48661
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23486
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41711
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20944
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 170445,
+        "TotalApproved": 64477
+    },
+    "AdjusterDetails": {
+        "Name": "John Alexander",
+        "ContactInformation": {
+            "Phone": "(252)880-5726x35587",
+            "Email": "craig16@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ed934af8-d1c5-4041-918d-6ae1a35c6f1a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-31T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

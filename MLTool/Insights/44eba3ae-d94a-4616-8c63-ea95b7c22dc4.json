@@ -1,0 +1,81 @@
+{
+    "ClaimID": "44eba3ae-d94a-4616-8c63-ea95b7c22dc4",
+    "PolicyID": "9d6f156a-a935-4402-90d4-ff2a6ed09ee4",
+    "EffectiveDates": {
+        "StartDate": "2024-03-18",
+        "EndDate": "2025-03-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "029520fd-3207-48d6-b9b0-e7f2f41359d9",
+        "Name": "Catherine Higgins",
+        "PolicyNumber": "9d6f156a-a935-4402-90d4-ff2a6ed09ee4",
+        "ContactInformation": {
+            "Phone": "001-330-930-9839x5033",
+            "Email": "erinjennings@example.org",
+            "Address": "724 Davis Spring\nBryantstad, MO 75606"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-05",
+        "Location": "51325 Kelly Oval\nNew Justin, CT 74688",
+        "Description": "Today movement why local practice food. Machine price music subject area."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16750
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8256
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 51118
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 99799
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19190
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 144736,
+        "TotalApproved": 4892
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Williams",
+        "ContactInformation": {
+            "Phone": "365-912-0716x7484",
+            "Email": "dbrown@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/12e40c75-cb13-4f0a-9c17-08302bb6aead"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

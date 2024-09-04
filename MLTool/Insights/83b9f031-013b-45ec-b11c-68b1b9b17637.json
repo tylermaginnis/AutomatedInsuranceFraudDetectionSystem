@@ -1,0 +1,81 @@
+{
+    "ClaimID": "83b9f031-013b-45ec-b11c-68b1b9b17637",
+    "PolicyID": "15498201-d107-4538-b66a-97487a14be8f",
+    "EffectiveDates": {
+        "StartDate": "2023-11-17",
+        "EndDate": "2024-11-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5a3d8cc3-d520-4489-bfb5-2f6632e7d494",
+        "Name": "James Stephens",
+        "PolicyNumber": "15498201-d107-4538-b66a-97487a14be8f",
+        "ContactInformation": {
+            "Phone": "(984)209-4901x75908",
+            "Email": "rubengregory@example.net",
+            "Address": "USS Johnson\nFPO AA 71977"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-24",
+        "Location": "77104 Palmer Place\nWest Jeffreymouth, AS 18027",
+        "Description": "Suffer common sense service. Run sea gun rather explain city. Improve image remain to trial.\nTheory identify exactly front."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 188510
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 177545
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60841
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15672
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37163
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 9489,
+        "TotalApproved": 5090
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Warren",
+        "ContactInformation": {
+            "Phone": "+1-484-395-0692x65917",
+            "Email": "evanstammy@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e2cd93c7-8553-4172-8285-7b083a2197fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

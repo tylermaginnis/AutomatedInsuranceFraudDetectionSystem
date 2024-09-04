@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9b450910-c4e7-491a-95f8-e1fe29c7c0df",
+    "PolicyID": "b62508dd-a8d5-40aa-8404-0128af128503",
+    "EffectiveDates": {
+        "StartDate": "2024-02-19",
+        "EndDate": "2025-02-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cdb0f67d-5571-4e5f-9b79-f74b33e3d99f",
+        "Name": "Hayden Bentley",
+        "PolicyNumber": "b62508dd-a8d5-40aa-8404-0128af128503",
+        "ContactInformation": {
+            "Phone": "(758)420-0080",
+            "Email": "andrew30@example.net",
+            "Address": "000 Charles Glens Apt. 547\nEast Patriciastad, TN 39854"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-25",
+        "Location": "9172 Christopher Village Apt. 549\nWest Brandon, IL 87092",
+        "Description": "A pretty very improve.\nCentury across say record. Force apply focus. Myself though work there her."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37898
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5722
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 45806
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18690
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34493
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 84656,
+        "TotalApproved": 47103
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Guzman",
+        "ContactInformation": {
+            "Phone": "712-772-4941x14870",
+            "Email": "ricejonathan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/10fec7b9-43bf-47ac-8ef2-60abb58aa2fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-25T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-30T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-04T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

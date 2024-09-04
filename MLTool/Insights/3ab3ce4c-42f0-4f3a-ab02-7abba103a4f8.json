@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3ab3ce4c-42f0-4f3a-ab02-7abba103a4f8",
+    "PolicyID": "8095283b-0664-469a-8f7e-f517dec650a7",
+    "EffectiveDates": {
+        "StartDate": "2024-03-06",
+        "EndDate": "2025-03-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "be5909ab-775e-49f5-9bf6-4d1f5e75c556",
+        "Name": "Jacob Ritter",
+        "PolicyNumber": "8095283b-0664-469a-8f7e-f517dec650a7",
+        "ContactInformation": {
+            "Phone": "+1-679-679-9476x472",
+            "Email": "osborneemma@example.org",
+            "Address": "944 Crystal Freeway\nEast Michael, KS 28879"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-15",
+        "Location": "27737 Roy Dam Suite 448\nGabrielburgh, ME 71379",
+        "Description": "Authority century various return good. Girl study she think vote. Off likely manage simply plan fight able."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2783
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12684
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1166
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 119528
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17842
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 138442,
+        "TotalApproved": 101465
+    },
+    "AdjusterDetails": {
+        "Name": "Claudia Diaz",
+        "ContactInformation": {
+            "Phone": "+1-653-454-7862x896",
+            "Email": "blairjoshua@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f88952fa-409f-4b4b-a6ff-5ae0ec27006b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

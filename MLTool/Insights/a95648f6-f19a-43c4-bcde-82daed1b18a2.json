@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a95648f6-f19a-43c4-bcde-82daed1b18a2",
+    "PolicyID": "073b0f35-028a-49cc-9a49-cf895ab1aa2d",
+    "EffectiveDates": {
+        "StartDate": "2024-01-08",
+        "EndDate": "2025-01-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cb893b92-6492-4b0c-b64e-2622ffcfc8cc",
+        "Name": "Douglas Watson",
+        "PolicyNumber": "073b0f35-028a-49cc-9a49-cf895ab1aa2d",
+        "ContactInformation": {
+            "Phone": "658.849.4439",
+            "Email": "morriserik@example.org",
+            "Address": "698 Wiley Mission Apt. 503\nSouth Alvin, FL 19388"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-25",
+        "Location": "Unit 9049 Box 0642\nDPO AP 96226",
+        "Description": "Draw key program. Production pick year.\nGlass particularly factor attack. Then put soldier within. Six always people bag best."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 195668
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37404
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4918
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12640
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 80085
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 25901,
+        "TotalApproved": 11168
+    },
+    "AdjusterDetails": {
+        "Name": "Rachael Howard",
+        "ContactInformation": {
+            "Phone": "441.332.1410x1110",
+            "Email": "coxcarmen@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/39132b35-ee8b-4112-bde9-e2c65e16767e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-30T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

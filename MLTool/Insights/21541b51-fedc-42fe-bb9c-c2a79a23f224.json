@@ -1,0 +1,81 @@
+{
+    "ClaimID": "21541b51-fedc-42fe-bb9c-c2a79a23f224",
+    "PolicyID": "f581cf47-275f-4a1f-a22b-0d38428e359a",
+    "EffectiveDates": {
+        "StartDate": "2023-11-29",
+        "EndDate": "2024-11-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "703e125f-5187-41d4-b40d-0aa2e397f23c",
+        "Name": "Tammy Wells",
+        "PolicyNumber": "f581cf47-275f-4a1f-a22b-0d38428e359a",
+        "ContactInformation": {
+            "Phone": "414-618-0320x575",
+            "Email": "thomasjustin@example.org",
+            "Address": "79106 Terrence Stream Suite 659\nNorth Andrea, OH 26261"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-22",
+        "Location": "858 Michael Drive Apt. 545\nJessicafurt, NV 84912",
+        "Description": "Receive service call rate often. Country good season inside. Key another the onto market policy listen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1709
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 91137
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4131
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20572
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9991
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 169339,
+        "TotalApproved": 2574
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Jones",
+        "ContactInformation": {
+            "Phone": "341-498-8672x6868",
+            "Email": "wrighttyler@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3d0c9792-1871-4c2a-a86d-e265f2d7414d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-22T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-27T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

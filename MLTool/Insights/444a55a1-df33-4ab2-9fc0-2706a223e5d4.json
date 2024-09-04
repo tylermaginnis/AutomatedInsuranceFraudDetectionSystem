@@ -1,0 +1,81 @@
+{
+    "ClaimID": "444a55a1-df33-4ab2-9fc0-2706a223e5d4",
+    "PolicyID": "9371ee07-e016-4099-8c13-4ad4aa91c1d2",
+    "EffectiveDates": {
+        "StartDate": "2024-02-12",
+        "EndDate": "2025-02-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "69ce4886-ba12-458f-b437-37e5eced7881",
+        "Name": "Austin Rojas",
+        "PolicyNumber": "9371ee07-e016-4099-8c13-4ad4aa91c1d2",
+        "ContactInformation": {
+            "Phone": "(246)731-1780x6349",
+            "Email": "damon15@example.org",
+            "Address": "532 Karen Freeway Apt. 331\nWilliambury, KY 56855"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-24",
+        "Location": "16851 Horton Vista\nJeffersonport, PR 50465",
+        "Description": "Nice prove amount free local purpose. Knowledge military rather figure hard recent."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19435
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11067
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19104
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21782
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 166544
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 70638,
+        "TotalApproved": 31270
+    },
+    "AdjusterDetails": {
+        "Name": "Shannon Barrett",
+        "ContactInformation": {
+            "Phone": "(649)357-8526x158",
+            "Email": "xjones@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/55e04569-50aa-4894-8582-9ec93ad79d3c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-24T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-29T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-04T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

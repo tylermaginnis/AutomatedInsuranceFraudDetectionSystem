@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bec841fe-56d9-4104-bd57-6825bf948c88",
+  "PolicyID": "94f0fd5b-3e4e-4f83-b563-17a849df7acc",
+  "EffectiveDates": {
+    "StartDate": "2023-10-19",
+    "EndDate": "2024-10-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "fec0b1d6-d0cf-43bc-9973-917e84beb562",
+    "Name": "Richard Norman",
+    "PolicyNumber": "94f0fd5b-3e4e-4f83-b563-17a849df7acc",
+    "ContactInformation": {
+      "Phone": "+1-948-378-2333",
+      "Email": "raymond90@example.net",
+      "Address": "9100 Dawson Centers Apt. 846\nGloverburgh, WI 07559"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-19",
+    "Location": "USNV Horne\nFPO AP 09144",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 94166
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 23905
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8932
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 26820
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16295
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 170118,
+    "TotalApproved": 19830
+  },
+  "AdjusterDetails": {
+    "Name": "Diana Anderson",
+    "ContactInformation": {
+      "Phone": "6958618624",
+      "Email": "davisphilip@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/469e0c38-2f96-4d85-810c-5544edb2ce3a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-19T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-24T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-29T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

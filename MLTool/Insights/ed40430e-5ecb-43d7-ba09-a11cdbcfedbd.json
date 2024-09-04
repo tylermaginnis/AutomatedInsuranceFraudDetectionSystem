@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ed40430e-5ecb-43d7-ba09-a11cdbcfedbd",
+    "PolicyID": "800976e4-a556-4c94-8518-46ff288b6707",
+    "EffectiveDates": {
+        "StartDate": "2024-05-19",
+        "EndDate": "2025-05-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "735f1daa-e662-42f9-ad07-8457c14b7e1b",
+        "Name": "Cynthia Bartlett",
+        "PolicyNumber": "800976e4-a556-4c94-8518-46ff288b6707",
+        "ContactInformation": {
+            "Phone": "(361)452-6509",
+            "Email": "dustin80@example.org",
+            "Address": "23446 Stephanie Branch Apt. 524\nPort Dianechester, IA 46977"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-06",
+        "Location": "94215 Sherri Harbor Apt. 209\nLake Jenniferport, GA 53084",
+        "Description": "Collection form agree own. Call able hour around near. Later significant degree to like piece.\nBoth human just home. Summer own simple course couple stand."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17877
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 75110
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 138058
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7962
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10931
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 14936,
+        "TotalApproved": 3939
+    },
+    "AdjusterDetails": {
+        "Name": "John Gray",
+        "ContactInformation": {
+            "Phone": "(919)814-2976",
+            "Email": "jessicarhodes@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c993aff9-7139-436f-b38b-3482366c8d80"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-06T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-11T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-16T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

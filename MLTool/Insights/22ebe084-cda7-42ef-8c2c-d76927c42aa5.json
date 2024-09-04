@@ -1,0 +1,81 @@
+{
+    "ClaimID": "22ebe084-cda7-42ef-8c2c-d76927c42aa5",
+    "PolicyID": "ba1e619d-64a0-4122-b0f2-17742d6565ec",
+    "EffectiveDates": {
+        "StartDate": "2024-04-02",
+        "EndDate": "2025-04-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3a87abce-a8df-4232-8d4f-b2674677dda3",
+        "Name": "Tiffany Haley",
+        "PolicyNumber": "ba1e619d-64a0-4122-b0f2-17742d6565ec",
+        "ContactInformation": {
+            "Phone": "762.410.9976",
+            "Email": "peggy92@example.net",
+            "Address": "960 Shannon Knoll Apt. 022\nJosephshire, LA 46055"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-02",
+        "Location": "32013 Katrina Port Apt. 674\nPort James, AS 78654",
+        "Description": "Base theory fear economic check prevent major. Boy this reality above without car same. Factor her beautiful."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1279
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 56418
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3266
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3078
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 57689
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 153559,
+        "TotalApproved": 130712
+    },
+    "AdjusterDetails": {
+        "Name": "David Hammond",
+        "ContactInformation": {
+            "Phone": "932-272-2489x5230",
+            "Email": "annette16@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3e6cf99d-c601-4bc9-94f8-ef6065a2fd87"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-02T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-07T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-12T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

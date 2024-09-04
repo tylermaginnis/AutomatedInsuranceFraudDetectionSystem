@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b98ac3e0-3940-4c94-a782-77a6698f12b9",
+    "PolicyID": "3a225c8f-ac58-479b-9c7f-f86f66f1abd7",
+    "EffectiveDates": {
+        "StartDate": "2024-07-28",
+        "EndDate": "2025-07-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e87536e7-bc9d-4da3-bcf1-bd80e5438188",
+        "Name": "Jason Anderson",
+        "PolicyNumber": "3a225c8f-ac58-479b-9c7f-f86f66f1abd7",
+        "ContactInformation": {
+            "Phone": "+1-210-713-0422x348",
+            "Email": "lhickman@example.net",
+            "Address": "PSC 4603, Box 7732\nAPO AA 73355"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-03",
+        "Location": "Unit 4514 Box 5230\nDPO AE 72891",
+        "Description": "Guy ask so sit just off. In rise let kid within feel when.\nDesign administration unit learn dark. Knowledge certain TV dog control agency ten."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42044
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6295
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 190241
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4212
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1489
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 50818,
+        "TotalApproved": 15931
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Garrison",
+        "ContactInformation": {
+            "Phone": "8075504908",
+            "Email": "vgreen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a8812a3a-575d-4b32-b2b5-74ba566ea0b3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

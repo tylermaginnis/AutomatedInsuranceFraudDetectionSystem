@@ -1,0 +1,81 @@
+{
+    "ClaimID": "50169e56-d37b-4fd3-b71e-13c87a686eae",
+    "PolicyID": "be0cb745-e2f8-46bc-becb-763c0faffbf3",
+    "EffectiveDates": {
+        "StartDate": "2023-11-14",
+        "EndDate": "2024-11-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0b06e6ad-a184-4262-930f-8269c5727dbf",
+        "Name": "Richard Walker",
+        "PolicyNumber": "be0cb745-e2f8-46bc-becb-763c0faffbf3",
+        "ContactInformation": {
+            "Phone": "(459)676-7562",
+            "Email": "hvang@example.com",
+            "Address": "006 Kenneth Meadows\nBlackchester, MD 36901"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-05",
+        "Location": "7170 Smith Ferry Apt. 729\nLake Paul, MI 72331",
+        "Description": "Low machine population sport. Everybody north draw blue town.\nLead face doctor catch. Put school administration price. Face ask front interview high something movement medical."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4304
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 68362
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16789
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 164636
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8158
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 101857,
+        "TotalApproved": 96748
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Pope",
+        "ContactInformation": {
+            "Phone": "001-266-651-0313",
+            "Email": "stephanieolsen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c029f866-76a8-4135-b9b7-76ec0a066200"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

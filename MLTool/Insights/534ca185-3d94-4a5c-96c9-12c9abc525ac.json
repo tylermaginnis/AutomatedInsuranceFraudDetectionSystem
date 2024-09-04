@@ -1,0 +1,81 @@
+{
+    "ClaimID": "534ca185-3d94-4a5c-96c9-12c9abc525ac",
+    "PolicyID": "e2e98556-002f-4cbf-b3a3-460ca765776e",
+    "EffectiveDates": {
+        "StartDate": "2024-05-01",
+        "EndDate": "2025-05-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ebb51c8-eefc-4723-bee0-34059fb2b96b",
+        "Name": "Jesse Alexander",
+        "PolicyNumber": "e2e98556-002f-4cbf-b3a3-460ca765776e",
+        "ContactInformation": {
+            "Phone": "287-232-7722x1360",
+            "Email": "fford@example.net",
+            "Address": "1304 Avila Center Apt. 087\nReedland, TN 84738"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-27",
+        "Location": "50180 Silva Walks\nCampbellland, MA 05302",
+        "Description": "Base but mind quality. Heavy late control teach cold art according. Rise themselves listen bank his plan. Treatment chance range commercial challenge range open."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5688
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18512
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4315
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23694
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12895
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 95303,
+        "TotalApproved": 69924
+    },
+    "AdjusterDetails": {
+        "Name": "Cameron Wheeler",
+        "ContactInformation": {
+            "Phone": "315.553.3697x74531",
+            "Email": "tammyanderson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/08ff2e63-f28c-4083-a5fa-f4621ce774d6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-27T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-02T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-07T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

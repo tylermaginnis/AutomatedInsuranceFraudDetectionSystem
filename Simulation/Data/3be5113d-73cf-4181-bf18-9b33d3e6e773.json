@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3be5113d-73cf-4181-bf18-9b33d3e6e773",
+  "PolicyID": "e84a1a87-d961-43f9-b85a-5631a7ea12d2",
+  "EffectiveDates": {
+    "StartDate": "2024-03-04",
+    "EndDate": "2025-03-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0bee2feb-6de5-4003-9b73-c87f83360506",
+    "Name": "Claudia Day",
+    "PolicyNumber": "e84a1a87-d961-43f9-b85a-5631a7ea12d2",
+    "ContactInformation": {
+      "Phone": "001-459-399-7484x7706",
+      "Email": "matthewbrown@example.org",
+      "Address": "934 Sheryl Plains Apt. 904\nSouth David, MP 35665"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-04",
+    "Location": "7219 Vincent Road\nNorth Barbara, KY 07813",
+    "Description": "Movement this thus. Evidence today color those training.\nDinner particularly lawyer information forget. Magazine born result north."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3812
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 85325
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1406
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16036
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 15908
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 142519,
+    "TotalApproved": 126202
+  },
+  "AdjusterDetails": {
+    "Name": "Kendra Miller",
+    "ContactInformation": {
+      "Phone": "001-465-289-1993x9767",
+      "Email": "cynthiarichards@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/2ec9cb75-d9e4-4a2c-83b7-59b2e7d9c2ae"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-04T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-09T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-14T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

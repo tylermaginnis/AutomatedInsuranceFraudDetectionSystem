@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1c70a9ea-42e1-4bf8-be30-dd2c8aa83a01",
+    "PolicyID": "6e6155ec-983e-45d2-b172-faee5f103bbf",
+    "EffectiveDates": {
+        "StartDate": "2023-10-05",
+        "EndDate": "2024-10-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71c31b52-4419-484e-bb13-28da79840848",
+        "Name": "Rachel Burton",
+        "PolicyNumber": "6e6155ec-983e-45d2-b172-faee5f103bbf",
+        "ContactInformation": {
+            "Phone": "001-269-482-3595",
+            "Email": "clarkrachel@example.org",
+            "Address": "4670 Wilson Trafficway Suite 372\nWest Mackenzie, IN 52432"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-22",
+        "Location": "834 Smith Corners Apt. 049\nDavisfurt, IN 46176",
+        "Description": "Month few paper mention gas already final. Ask anyone attorney kind think industry cost. Former military particular weight during assume option."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8146
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 128398
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34879
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 64395
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 70461
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 156632,
+        "TotalApproved": 130343
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Gill",
+        "ContactInformation": {
+            "Phone": "928-864-0527x27578",
+            "Email": "watsonlaura@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d3f93a26-0e3e-4fcc-8667-f06797486ee2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-22T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-27T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-01T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

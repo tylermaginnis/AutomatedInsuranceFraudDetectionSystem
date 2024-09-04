@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0b0bf4e1-d54a-46a2-8e6b-3f5d7351abf6",
+  "PolicyID": "2636ed95-bfa1-4f88-89e0-b961ec02684d",
+  "EffectiveDates": {
+    "StartDate": "2023-12-01",
+    "EndDate": "2024-11-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8cdbaa13-beaf-4093-9a82-d9f52f5c71ef",
+    "Name": "Katie Collins",
+    "PolicyNumber": "2636ed95-bfa1-4f88-89e0-b961ec02684d",
+    "ContactInformation": {
+      "Phone": "(442)973-8396",
+      "Email": "barbara49@example.org",
+      "Address": "USNS Jordan\nFPO AE 55559"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-18",
+    "Location": "560 Robert Islands Suite 929\nWest Melvin, CO 96914",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 66980
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 24902
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7789
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 29530
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16660
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 145861,
+    "TotalApproved": 101944
+  },
+  "AdjusterDetails": {
+    "Name": "Sharon Holland",
+    "ContactInformation": {
+      "Phone": "(620)688-1850",
+      "Email": "zvega@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/d538031a-b423-4580-8c13-fa7de082adf7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-18T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-23T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-28T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "19900d48-2baf-4e4d-9152-344c6644ae8a",
+    "PolicyID": "7b5dc258-75a9-4acb-ae09-7753a5b99026",
+    "EffectiveDates": {
+        "StartDate": "2024-03-25",
+        "EndDate": "2025-03-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9826d4dd-cb68-4cb7-8e9f-77eec8ef1177",
+        "Name": "Bradley Perry",
+        "PolicyNumber": "7b5dc258-75a9-4acb-ae09-7753a5b99026",
+        "ContactInformation": {
+            "Phone": "314.440.7067",
+            "Email": "rosalesjames@example.net",
+            "Address": "656 Rebecca Run Apt. 444\nMillertown, WY 13005"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-22",
+        "Location": "USCGC Hendricks\nFPO AE 77569",
+        "Description": "Event require school us listen dog west. Dream bring floor art. Task we police sign argue change wonder."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11379
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1762
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 72295
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7681
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 124013
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 120999,
+        "TotalApproved": 19831
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Adams",
+        "ContactInformation": {
+            "Phone": "001-594-773-3314x668",
+            "Email": "emilyhernandez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/90e8a5a6-ff4e-4ecd-936b-e54834259e1b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-22T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-27T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5566927b-3009-4c76-84ff-4a71cda66e98",
+  "PolicyID": "709c3963-6e1c-494c-80c9-a8f042176fc1",
+  "EffectiveDates": {
+    "StartDate": "2024-03-05",
+    "EndDate": "2025-03-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6022d3e2-a12f-443b-8cf3-f9ad5f453542",
+    "Name": "Sarah Bean",
+    "PolicyNumber": "709c3963-6e1c-494c-80c9-a8f042176fc1",
+    "ContactInformation": {
+      "Phone": "+1-694-659-7936x802",
+      "Email": "karen03@example.com",
+      "Address": "Unit 0381 Box 4141\nDPO AP 32531"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-18",
+    "Location": "022 Patricia Crossing Apt. 178\nSouth Scott, MO 28872",
+    "Description": "Item dinner sister important three. Business state always book such set trade. Media skin first cell.\nCold trade contain for drop wonder. Choice rock that respond action require part director."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4006
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5350
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 32604
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 57347
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 33555
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 27640,
+    "TotalApproved": 17937
+  },
+  "AdjusterDetails": {
+    "Name": "Kelsey Jones",
+    "ContactInformation": {
+      "Phone": "488.582.3896x59906",
+      "Email": "evanskevin@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/a91302e6-db7e-40a1-b5d7-faaea09d246b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-18T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-23T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-28T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

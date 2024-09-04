@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f571b223-96f6-463e-aa56-264dcce39dba",
+    "PolicyID": "2d4521aa-0bd6-4080-91ea-54371d23eb6c",
+    "EffectiveDates": {
+        "StartDate": "2024-02-17",
+        "EndDate": "2025-02-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "97d7cd20-83b0-4195-b9b0-14744e45a46c",
+        "Name": "Laura Deleon",
+        "PolicyNumber": "2d4521aa-0bd6-4080-91ea-54371d23eb6c",
+        "ContactInformation": {
+            "Phone": "8126904139",
+            "Email": "charleskatherine@example.net",
+            "Address": "137 Cobb Glen Apt. 459\nJohnsonland, GU 90709"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-30",
+        "Location": "76825 Smith Lane\nMichaelbury, KY 01399",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 52155
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28585
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8156
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24785
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9243
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 122924,
+        "TotalApproved": 79887
+    },
+    "AdjusterDetails": {
+        "Name": "Clinton Fleming",
+        "ContactInformation": {
+            "Phone": "396-382-6651x0942",
+            "Email": "tonya72@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d7c81f1b-7e67-4d29-b86c-4fc53df65ad6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-30T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-05T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-10T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

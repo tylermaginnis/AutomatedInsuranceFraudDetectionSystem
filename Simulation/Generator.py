@@ -25,7 +25,7 @@ def generate_policy_holder(policy_holder_id, schema):
         }
     }
 
-def generate_claim(policy_holder, claim_id, is_fraudulent, schema):
+def generate_claim(policy_holder, claim_id, is_fraudulent, schema, is_abnormal):
     start_date = datetime.now() - timedelta(days=random.randint(0, 365))
     end_date = start_date + timedelta(days=365)
     accident_date = start_date + timedelta(days=random.randint(0, 365))
@@ -130,9 +130,16 @@ def generate_claim(policy_holder, claim_id, is_fraudulent, schema):
         ])
         claim["ClaimAmounts"]["TotalApproved"] = random.randint(1000, claim["ClaimAmounts"]["TotalClaimed"])
     
+    if is_abnormal:
+        # Generate highly abnormal distributions of data
+        claim["ClaimAmounts"]["TotalClaimed"] = random.randint(1000000, 5000000)
+        claim["ClaimAmounts"]["TotalApproved"] = random.randint(500000, claim["ClaimAmounts"]["TotalClaimed"])
+        for coverage_type in claim["Coverage"]:
+            claim["Coverage"][coverage_type]["ClaimedAmount"] = random.randint(100000, 1000000)
+    
     return claim
 
-def generate_claims(num_claims, num_policy_holders, schema):
+def generate_claims(num_claims, num_policy_holders, schema, is_abnormal):
     policy_holders = [generate_policy_holder(i, schema) for i in range(num_policy_holders)]
     claims = []
     fraud_rate = 0.1
@@ -141,7 +148,7 @@ def generate_claims(num_claims, num_policy_holders, schema):
     for i in range(num_claims):
         policy_holder = random.choice(policy_holders)
         is_fraudulent = i < num_fraudulent_claims
-        claim = generate_claim(policy_holder, str(uuid.uuid4()), is_fraudulent, schema)
+        claim = generate_claim(policy_holder, str(uuid.uuid4()), is_fraudulent, schema, is_abnormal)
         claims.append(claim)
     
     return claims
@@ -155,6 +162,7 @@ def save_claims(claims):
 def main():
     parser = argparse.ArgumentParser(description="Generate insurance claims data")
     parser.add_argument("-d", "--clear_data", action="store_true", help="Clear the data in Simulation/Data/ directory before generating new claims")
+    parser.add_argument("-a", "--abnormal", action="store_true", help="Generate highly abnormal distributions of data")
     parser.add_argument("num_claims", type=int, nargs='?', help="Number of claims to generate", default=0)
     parser.add_argument("num_policy_holders", type=int, nargs='?', help="Number of unique policy holders", default=0)
     args = parser.parse_args()
@@ -168,7 +176,7 @@ def main():
     
     if args.num_claims > 0 and args.num_policy_holders > 0:
         schema = load_schema()
-        claims = generate_claims(args.num_claims, args.num_policy_holders, schema)
+        claims = generate_claims(args.num_claims, args.num_policy_holders, schema, args.abnormal)
         save_claims(claims)
     else:
         parser.print_usage()

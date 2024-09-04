@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eb09efd8-9b36-4301-9edc-304f28f774e0",
+    "PolicyID": "cc11a500-e805-40b0-9aee-ed5871333d70",
+    "EffectiveDates": {
+        "StartDate": "2023-09-26",
+        "EndDate": "2024-09-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0d4c9763-f939-46cd-a467-434e0075260e",
+        "Name": "Allison Meyer",
+        "PolicyNumber": "cc11a500-e805-40b0-9aee-ed5871333d70",
+        "ContactInformation": {
+            "Phone": "256.710.8135",
+            "Email": "jenniferbailey@example.org",
+            "Address": "25745 Natalie Walk\nLake Gerald, PW 68055"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-20",
+        "Location": "26600 Jared Lane Suite 739\nLake Mistyside, PR 85495",
+        "Description": "Director response phone check score. Bank new each require subject right size. Thousand staff base however room future identify."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5194
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20679
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 107651
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20922
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20333
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 25709,
+        "TotalApproved": 13592
+    },
+    "AdjusterDetails": {
+        "Name": "Michelle Blair",
+        "ContactInformation": {
+            "Phone": "001-773-453-9189x2639",
+            "Email": "brownheather@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4e2ce390-0e10-4ae0-a808-d5803ec6760f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

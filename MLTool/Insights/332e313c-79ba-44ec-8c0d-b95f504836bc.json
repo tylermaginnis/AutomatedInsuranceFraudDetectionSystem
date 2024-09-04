@@ -1,0 +1,81 @@
+{
+    "ClaimID": "332e313c-79ba-44ec-8c0d-b95f504836bc",
+    "PolicyID": "45811972-135e-45d5-9020-fc68e00efabb",
+    "EffectiveDates": {
+        "StartDate": "2023-11-21",
+        "EndDate": "2024-11-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7193264d-9d36-4e52-9962-77260058e634",
+        "Name": "Dr. Margaret Horne",
+        "PolicyNumber": "45811972-135e-45d5-9020-fc68e00efabb",
+        "ContactInformation": {
+            "Phone": "(699)469-8610x3786",
+            "Email": "thomas80@example.com",
+            "Address": "USNV Cross\nFPO AA 46871"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "00247 Barrett Glen\nRussellfurt, NC 74786",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 69480
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25184
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5980
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16643
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10228
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 127515,
+        "TotalApproved": 92099
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Brown",
+        "ContactInformation": {
+            "Phone": "6879859008",
+            "Email": "sschmidt@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ff10f014-aa4b-4389-8b0e-165fe63aec3a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

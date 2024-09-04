@@ -1,0 +1,81 @@
+{
+    "ClaimID": "033ab3d0-399c-4b8e-9ed8-96fee0f02d1b",
+    "PolicyID": "eb28efd7-a5a6-468a-b582-38909714fe59",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ae53d29e-2fb4-4536-b71f-c87982f0eb80",
+        "Name": "Melissa Brown",
+        "PolicyNumber": "eb28efd7-a5a6-468a-b582-38909714fe59",
+        "ContactInformation": {
+            "Phone": "+1-562-982-5443x9902",
+            "Email": "millerhenry@example.com",
+            "Address": "676 Hill Path Suite 158\nSouth Jackfort, AS 84090"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-14",
+        "Location": "52944 Brittney Centers\nStanleyborough, OR 35641",
+        "Description": "Public lose door really five receive. Small painting development worry machine memory between.\nEducation right write seat discover. Film human item garden anyone bad involve. Push week future."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44853
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27543
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47859
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8329
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14909
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 136919,
+        "TotalApproved": 95583
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Sanchez",
+        "ContactInformation": {
+            "Phone": "(308)935-0101x782",
+            "Email": "rriddle@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/af0871fe-39c9-4603-9390-d29f820b1fa8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

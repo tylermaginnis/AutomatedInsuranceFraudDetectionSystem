@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca128106-ee71-465e-bef2-7585610edca6",
+    "PolicyID": "4cfbd131-8824-4fe0-aacf-bd83deb102b0",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e700f978-5063-45bf-9d37-b5a455e7c112",
+        "Name": "Nicholas Dodson",
+        "PolicyNumber": "4cfbd131-8824-4fe0-aacf-bd83deb102b0",
+        "ContactInformation": {
+            "Phone": "001-216-779-6485x496",
+            "Email": "joycerobin@example.org",
+            "Address": "917 William Place\nDavismouth, VI 54893"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-23",
+        "Location": "80989 Troy Creek Apt. 669\nNew Juanburgh, MP 78174",
+        "Description": "Game modern director new somebody eat. Where authority clear toward or college drop business. Sense base yard save able hotel."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 72200
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50244
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48411
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 77420
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 98406
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 1771,
+        "TotalApproved": 1552
+    },
+    "AdjusterDetails": {
+        "Name": "Mitchell Ford",
+        "ContactInformation": {
+            "Phone": "(299)270-5001x88363",
+            "Email": "dawn13@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ec177867-9992-4cd8-8004-f15e7fd67fe8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

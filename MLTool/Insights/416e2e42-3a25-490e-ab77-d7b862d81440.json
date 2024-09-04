@@ -1,0 +1,81 @@
+{
+    "ClaimID": "416e2e42-3a25-490e-ab77-d7b862d81440",
+    "PolicyID": "ec6db3d2-c269-49b1-826a-392e7bc2211c",
+    "EffectiveDates": {
+        "StartDate": "2024-01-03",
+        "EndDate": "2025-01-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6ed77fdb-ef43-48dd-ad9e-7b1e4de24752",
+        "Name": "Adrian Walsh",
+        "PolicyNumber": "ec6db3d2-c269-49b1-826a-392e7bc2211c",
+        "ContactInformation": {
+            "Phone": "(527)443-2726",
+            "Email": "sbradley@example.org",
+            "Address": "405 Reed Circles\nStevenmouth, IN 05443"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-05",
+        "Location": "538 Williams Streets\nNew Michelle, PA 02580",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 59235
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31184
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6049
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13992
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5665
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 116125,
+        "TotalApproved": 4084
+    },
+    "AdjusterDetails": {
+        "Name": "Jake Perez",
+        "ContactInformation": {
+            "Phone": "(537)359-3734",
+            "Email": "barrettbobby@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/afb97901-2db4-48d1-8a8c-9c66bfa07794"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-05T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-10T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-15T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

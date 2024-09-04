@@ -1,0 +1,81 @@
+{
+    "ClaimID": "30c2300b-654c-44af-8699-9e2382594cee",
+    "PolicyID": "68eaa7f8-242e-4cfa-b9c5-a8c87759b180",
+    "EffectiveDates": {
+        "StartDate": "2024-07-08",
+        "EndDate": "2025-07-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a45deadd-6f0d-47a2-9a6c-cf6f391810b6",
+        "Name": "Elizabeth Santana",
+        "PolicyNumber": "68eaa7f8-242e-4cfa-b9c5-a8c87759b180",
+        "ContactInformation": {
+            "Phone": "001-628-525-2698",
+            "Email": "zharmon@example.org",
+            "Address": "3086 Alexander Vista\nGregoryfort, RI 87758"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-03",
+        "Location": "987 Erika Canyon Apt. 796\nPerezville, MI 14509",
+        "Description": "Authority either spend per. Suggest challenge consumer nation onto deal focus. Outside can sometimes subject increase article seven."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1697
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 98170
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19057
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33129
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49638
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 155456,
+        "TotalApproved": 80416
+    },
+    "AdjusterDetails": {
+        "Name": "April Carroll",
+        "ContactInformation": {
+            "Phone": "906.704.7672",
+            "Email": "nnelson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/fe937f61-43d4-43a8-9b63-3ac199ef34dd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-03T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-08T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-13T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

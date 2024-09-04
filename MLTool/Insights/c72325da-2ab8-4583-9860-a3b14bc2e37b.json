@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c72325da-2ab8-4583-9860-a3b14bc2e37b",
+    "PolicyID": "8f237112-88cb-4975-acf5-23b83c3ddc4f",
+    "EffectiveDates": {
+        "StartDate": "2023-12-10",
+        "EndDate": "2024-12-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2f02c854-9a2b-4c2f-afa9-d3dd47ba7945",
+        "Name": "Alexander Zuniga",
+        "PolicyNumber": "8f237112-88cb-4975-acf5-23b83c3ddc4f",
+        "ContactInformation": {
+            "Phone": "966-205-1284x9240",
+            "Email": "pwest@example.net",
+            "Address": "3801 Williams Walks\nThomasberg, NV 86048"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-06",
+        "Location": "503 Jonathan Path Suite 534\nRyanland, IA 29573",
+        "Description": "Question other store cup pick. Explain artist instead field through already stop. Fill treatment material voice democratic born. Least hear assume off skill environmental."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2293
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 63004
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 66825
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 77715
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34635
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 53166,
+        "TotalApproved": 32758
+    },
+    "AdjusterDetails": {
+        "Name": "Amber Moody",
+        "ContactInformation": {
+            "Phone": "001-334-645-4873x16985",
+            "Email": "carrdanny@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5658c378-8f4e-4128-9832-07ab7b6d2607"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-06T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-11T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-16T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

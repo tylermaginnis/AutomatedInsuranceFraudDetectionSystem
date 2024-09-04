@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2bf47799-5dae-472a-9ecb-827a585342bd",
+  "PolicyID": "bd54f39f-1ad8-432b-9745-b069bf5c672e",
+  "EffectiveDates": {
+    "StartDate": "2024-06-25",
+    "EndDate": "2025-06-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a9ef3a14-401d-47fc-a08b-24a4988762f1",
+    "Name": "James Williams",
+    "PolicyNumber": "bd54f39f-1ad8-432b-9745-b069bf5c672e",
+    "ContactInformation": {
+      "Phone": "(218)503-6525x65746",
+      "Email": "fmartin@example.com",
+      "Address": "99637 Martin Spur Suite 088\nPort Nathanland, HI 73686"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-23",
+    "Location": "PSC 2042, Box 3311\nAPO AA 33643",
+    "Description": "Theory order none admit. Alone war four audience. Action share into service certainly firm start fire."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5245
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8088
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 157605
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1612
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 76824
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 27609,
+    "TotalApproved": 2696
+  },
+  "AdjusterDetails": {
+    "Name": "Christian Brown",
+    "ContactInformation": {
+      "Phone": "001-271-942-5359x311",
+      "Email": "sandracunningham@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/7303c9a7-bb68-418c-a6d7-3da234d0663a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-23T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-28T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-02T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

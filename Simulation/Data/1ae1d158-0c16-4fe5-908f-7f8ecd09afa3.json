@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1ae1d158-0c16-4fe5-908f-7f8ecd09afa3",
+  "PolicyID": "4b8afce3-c669-48b8-b5cb-123b1dd228cb",
+  "EffectiveDates": {
+    "StartDate": "2024-06-16",
+    "EndDate": "2025-06-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7cb26a18-0ba2-4dd9-a2b6-e3fd67719648",
+    "Name": "Bethany Webb",
+    "PolicyNumber": "4b8afce3-c669-48b8-b5cb-123b1dd228cb",
+    "ContactInformation": {
+      "Phone": "001-418-723-4591x5956",
+      "Email": "keithtodd@example.com",
+      "Address": "16882 Wise Trail Apt. 242\nNataliechester, MS 63010"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-21",
+    "Location": "1137 Robert Inlet\nZunigashire, ND 34550",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 60984
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 33194
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7564
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 26587
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6321
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 134650,
+    "TotalApproved": 24395
+  },
+  "AdjusterDetails": {
+    "Name": "Krystal Taylor",
+    "ContactInformation": {
+      "Phone": "+1-504-921-3767x9747",
+      "Email": "carrheather@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/b13f63b3-b5e8-4830-8669-8b338de51392"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-21T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-26T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-01T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

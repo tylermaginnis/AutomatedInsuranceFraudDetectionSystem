@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f5c6694f-169d-4f70-b2a7-96ab9f8793f4",
+    "PolicyID": "801664f7-fc33-4b9a-b652-c9a19788d820",
+    "EffectiveDates": {
+        "StartDate": "2023-09-26",
+        "EndDate": "2024-09-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5cdb136b-aff1-468b-9428-a8a6ca6c2a6d",
+        "Name": "David Long",
+        "PolicyNumber": "801664f7-fc33-4b9a-b652-c9a19788d820",
+        "ContactInformation": {
+            "Phone": "+1-343-551-6830x8106",
+            "Email": "michael84@example.com",
+            "Address": "2049 Jones Centers\nNorth Jason, NV 87424"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-24",
+        "Location": "2011 Romero Spur\nBrendaberg, NY 78078",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 92642
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48885
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9614
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20862
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14395
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 186398,
+        "TotalApproved": 38377
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Stone",
+        "ContactInformation": {
+            "Phone": "(590)733-7842x809",
+            "Email": "hilljames@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ac7e8d83-488c-4303-aa97-49cd7e13f68e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-24T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-29T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-03T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

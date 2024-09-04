@@ -1,0 +1,81 @@
+{
+    "ClaimID": "14bf13e1-b407-410e-8c12-cd5b03d0c319",
+    "PolicyID": "8095283b-0664-469a-8f7e-f517dec650a7",
+    "EffectiveDates": {
+        "StartDate": "2024-06-22",
+        "EndDate": "2025-06-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "be5909ab-775e-49f5-9bf6-4d1f5e75c556",
+        "Name": "Jacob Ritter",
+        "PolicyNumber": "8095283b-0664-469a-8f7e-f517dec650a7",
+        "ContactInformation": {
+            "Phone": "+1-679-679-9476x472",
+            "Email": "osborneemma@example.org",
+            "Address": "944 Crystal Freeway\nEast Michael, KS 28879"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-09",
+        "Location": "565 Guerrero Walks Suite 222\nHammondchester, MH 45296",
+        "Description": "These organization somebody fast four tonight. Gun for care we. Professor dinner happy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 100191
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15978
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11728
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18133
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 137616
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 105508,
+        "TotalApproved": 97836
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Anderson",
+        "ContactInformation": {
+            "Phone": "001-758-372-3113",
+            "Email": "leonduane@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6c0ef3e5-1f6d-436d-aa90-e5a8b13877f4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-09T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-14T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-19T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

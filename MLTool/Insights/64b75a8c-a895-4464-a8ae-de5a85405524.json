@@ -1,0 +1,81 @@
+{
+    "ClaimID": "64b75a8c-a895-4464-a8ae-de5a85405524",
+    "PolicyID": "a952842f-a665-42be-bcd7-0fccc1ae752e",
+    "EffectiveDates": {
+        "StartDate": "2024-01-31",
+        "EndDate": "2025-01-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "db26769a-14a4-4311-ae95-81e02ae8b8f3",
+        "Name": "Sydney Tate",
+        "PolicyNumber": "a952842f-a665-42be-bcd7-0fccc1ae752e",
+        "ContactInformation": {
+            "Phone": "(975)840-6811x048",
+            "Email": "andersonchristina@example.com",
+            "Address": "535 Erin Trafficway Apt. 700\nEast Shirleyberg, UT 37688"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-17",
+        "Location": "2404 Julian Drive\nPort Catherine, FM 48168",
+        "Description": "Collection top ever ok. In despite affect anyone now court. Account identify rise cost weight."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6694
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9918
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 192531
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90752
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16258
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 56027,
+        "TotalApproved": 16426
+    },
+    "AdjusterDetails": {
+        "Name": "Ms. Jennifer Lee",
+        "ContactInformation": {
+            "Phone": "882-869-4531x31488",
+            "Email": "jeffrey61@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bc09374e-700e-4d8f-8a7f-42b267543c5e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

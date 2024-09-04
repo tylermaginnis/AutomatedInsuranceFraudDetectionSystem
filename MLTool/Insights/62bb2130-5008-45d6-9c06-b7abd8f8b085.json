@@ -1,0 +1,81 @@
+{
+    "ClaimID": "62bb2130-5008-45d6-9c06-b7abd8f8b085",
+    "PolicyID": "803a681d-3d65-4421-9d2f-5a3341ab215d",
+    "EffectiveDates": {
+        "StartDate": "2024-05-21",
+        "EndDate": "2025-05-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "76a75dc6-e91a-429a-9e92-f7dd842f7f51",
+        "Name": "David Jackson",
+        "PolicyNumber": "803a681d-3d65-4421-9d2f-5a3341ab215d",
+        "ContactInformation": {
+            "Phone": "630.398.9777x9263",
+            "Email": "cbrown@example.net",
+            "Address": "93702 Matthew Brook\nWest Melindahaven, CA 12004"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-08",
+        "Location": "737 David Light\nEast Amberside, AZ 84186",
+        "Description": "Specific imagine show choose benefit. Wrong yard rule today single prove. Office here billion against together successful however."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7580
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 87533
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14940
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49982
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21650
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 72976,
+        "TotalApproved": 26791
+    },
+    "AdjusterDetails": {
+        "Name": "Gregory Khan",
+        "ContactInformation": {
+            "Phone": "841-565-3505x2916",
+            "Email": "kwolfe@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/61407496-ebd5-4d16-b205-ca342e4f89a3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-08T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-13T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-18T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

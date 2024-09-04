@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bc866057-0afc-48c0-8219-000e284590f8",
+    "PolicyID": "b5103dc6-355f-4fb1-b720-ed1406fb4860",
+    "EffectiveDates": {
+        "StartDate": "2023-12-18",
+        "EndDate": "2024-12-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bc13a09c-10e8-4b9f-86b2-5176d8878ee1",
+        "Name": "Franklin Johnson",
+        "PolicyNumber": "b5103dc6-355f-4fb1-b720-ed1406fb4860",
+        "ContactInformation": {
+            "Phone": "+1-421-375-2128x5263",
+            "Email": "erica50@example.org",
+            "Address": "619 Blevins Flats Apt. 789\nLake Edwardhaven, CO 69305"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-18",
+        "Location": "0625 Oneal Mount Apt. 695\nEast Carlosstad, AZ 49373",
+        "Description": "Though consider relate return least form wait. Deep cold near ready fact third region. Quickly break shoulder plant."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 97298
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21984
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15373
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4561
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19414
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 74420,
+        "TotalApproved": 54578
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Mcdonald",
+        "ContactInformation": {
+            "Phone": "001-802-993-6326",
+            "Email": "nicholsandrew@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/69b177d7-9710-4a1f-a66a-b67379ea6f74"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

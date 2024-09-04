@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c9f8bd69-064f-459a-9450-1cb3b007d218",
+    "PolicyID": "f039ec18-5c6f-494d-b4f5-c8f386b6fd20",
+    "EffectiveDates": {
+        "StartDate": "2023-10-04",
+        "EndDate": "2024-10-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3b4d958b-74ff-4834-83d1-8e6e738636b0",
+        "Name": "Jennifer Graham",
+        "PolicyNumber": "f039ec18-5c6f-494d-b4f5-c8f386b6fd20",
+        "ContactInformation": {
+            "Phone": "+1-331-503-4521x563",
+            "Email": "dixonjames@example.org",
+            "Address": "70340 Lindsey Row\nPaulaview, KY 60219"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-27",
+        "Location": "904 Justin Ports Apt. 959\nEast Mistystad, IL 31828",
+        "Description": "Issue together ago dark. Serious somebody share during.\nDetail really mention business game audience. Action account foot decade time fine."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 75460
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3997
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17790
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 167286
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44594
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 161537,
+        "TotalApproved": 38403
+    },
+    "AdjusterDetails": {
+        "Name": "Kendra Porter",
+        "ContactInformation": {
+            "Phone": "001-287-281-4343x0099",
+            "Email": "billy36@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/44722999-955f-4939-8b84-acf233770598"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-27T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-01T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-06T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

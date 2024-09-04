@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d35938ed-096f-4eb1-8c06-108ddd58fae4",
+    "PolicyID": "32ae805b-a07d-4d48-8a0f-32df26462327",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1ff73ac1-5571-49a3-9d30-6e85177f88df",
+        "Name": "Christopher Brown",
+        "PolicyNumber": "32ae805b-a07d-4d48-8a0f-32df26462327",
+        "ContactInformation": {
+            "Phone": "(633)460-7204",
+            "Email": "richardbradley@example.net",
+            "Address": "2937 Nicholas Square Suite 139\nPatriciaview, PW 96275"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-14",
+        "Location": "49208 Eugene Fort\nTurnerberg, SC 82324",
+        "Description": "The enter become. Player fly into market old family. Ok suddenly door tend themselves education most.\nHappy politics defense cell land."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 31622
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49114
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 147100
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2994
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11260
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 71364,
+        "TotalApproved": 61463
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Larsen",
+        "ContactInformation": {
+            "Phone": "(586)495-2002x13748",
+            "Email": "bmendez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4cfa23c8-79cf-4aa2-ac11-e69940fcaff4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

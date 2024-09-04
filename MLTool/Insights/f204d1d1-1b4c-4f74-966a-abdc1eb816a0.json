@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f204d1d1-1b4c-4f74-966a-abdc1eb816a0",
+    "PolicyID": "eea1fda1-83d7-4b04-94eb-9b862031e9a9",
+    "EffectiveDates": {
+        "StartDate": "2023-09-11",
+        "EndDate": "2024-09-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4a7c061b-c93f-41d1-a6c2-e090d6908fba",
+        "Name": "Scott Mcdowell",
+        "PolicyNumber": "eea1fda1-83d7-4b04-94eb-9b862031e9a9",
+        "ContactInformation": {
+            "Phone": "595-963-9284",
+            "Email": "ortizjesse@example.org",
+            "Address": "3299 Yvonne Mews Apt. 794\nNew Devin, CT 92530"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-15",
+        "Location": "6411 Harris Forest Apt. 565\nPort Adriana, DE 14560",
+        "Description": "Watch city reason anyone wide two. Hotel discover production note moment.\nMission agent western fear dark strategy these. Place down left conference usually quite."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 81277
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7411
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 29425
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 146070
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 171786
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 78170,
+        "TotalApproved": 49652
+    },
+    "AdjusterDetails": {
+        "Name": "Glenda Valencia",
+        "ContactInformation": {
+            "Phone": "(814)299-4290x512",
+            "Email": "oprice@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/28eb39dc-0887-4bf4-ae03-160f4d575453"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

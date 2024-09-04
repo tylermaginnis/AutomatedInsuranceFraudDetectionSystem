@@ -1,0 +1,80 @@
+{
+  "ClaimID": "505b43d2-b15c-437f-9593-04b151d70e67",
+  "PolicyID": "f945da1f-a514-4245-9bc7-2cf187ee0300",
+  "EffectiveDates": {
+    "StartDate": "2024-08-15",
+    "EndDate": "2025-08-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1d4c37a4-fd93-4a52-b05d-8493b1f4ed01",
+    "Name": "Leah Baker",
+    "PolicyNumber": "f945da1f-a514-4245-9bc7-2cf187ee0300",
+    "ContactInformation": {
+      "Phone": "583-315-3253",
+      "Email": "jamesgregory@example.net",
+      "Address": "817 Crane Coves Apt. 240\nSouth Lauramouth, CO 65553"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-25",
+    "Location": "Unit 6423 Box 0666\nDPO AA 37378",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 62098
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 29177
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9784
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 11496
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16066
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 128621,
+    "TotalApproved": 80393
+  },
+  "AdjusterDetails": {
+    "Name": "Todd Wolf",
+    "ContactInformation": {
+      "Phone": "643.870.0406x257",
+      "Email": "bryan81@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/2cf31024-6f2f-4287-ab7a-8d7d102c15f8"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-25T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-30T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-04T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

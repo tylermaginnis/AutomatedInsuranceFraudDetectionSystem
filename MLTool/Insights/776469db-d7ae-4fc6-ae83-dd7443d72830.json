@@ -1,0 +1,81 @@
+{
+    "ClaimID": "776469db-d7ae-4fc6-ae83-dd7443d72830",
+    "PolicyID": "ec08bf7a-d18f-419f-bdd9-e1ac0d321cd8",
+    "EffectiveDates": {
+        "StartDate": "2024-02-09",
+        "EndDate": "2025-02-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6ef03b23-a5cf-41ff-8a38-5b0c4e6af932",
+        "Name": "Melissa Taylor",
+        "PolicyNumber": "ec08bf7a-d18f-419f-bdd9-e1ac0d321cd8",
+        "ContactInformation": {
+            "Phone": "345.458.1330x8054",
+            "Email": "gcastaneda@example.net",
+            "Address": "928 Nicole Fields Suite 853\nPort Angela, SC 27282"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-06",
+        "Location": "475 Brianna Shoal\nHillborough, RI 70753",
+        "Description": "Doctor language idea suggest picture. Say throw them reality country. Several service allow community."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42777
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 65217
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10488
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2453
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11434
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 198812,
+        "TotalApproved": 125859
+    },
+    "AdjusterDetails": {
+        "Name": "Ann Williams",
+        "ContactInformation": {
+            "Phone": "225.615.4026x8788",
+            "Email": "robert00@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/15ad9f21-1adb-419f-80bb-65ac1e1b65ad"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-06T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-11T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-16T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

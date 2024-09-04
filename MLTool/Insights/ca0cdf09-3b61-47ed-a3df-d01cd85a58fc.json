@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca0cdf09-3b61-47ed-a3df-d01cd85a58fc",
+    "PolicyID": "9d1226f9-3487-4f3c-887b-e9720f44a898",
+    "EffectiveDates": {
+        "StartDate": "2024-08-28",
+        "EndDate": "2025-08-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b052fe6c-19bf-4c24-b9af-7ff848f77827",
+        "Name": "Brandon Everett",
+        "PolicyNumber": "9d1226f9-3487-4f3c-887b-e9720f44a898",
+        "ContactInformation": {
+            "Phone": "5824927944",
+            "Email": "kyle76@example.com",
+            "Address": "807 Patel Cliffs Suite 345\nMartinezberg, SD 63429"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-18",
+        "Location": "36481 Justin Mill Suite 851\nTaylormouth, OR 09561",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 55154
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42474
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6352
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12021
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18038
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 134039,
+        "TotalApproved": 69252
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Steven Oliver MD",
+        "ContactInformation": {
+            "Phone": "483.414.5216x14611",
+            "Email": "jmiller@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/04273829-2664-40ab-95b2-e015cc73434b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-18T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-23T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-28T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

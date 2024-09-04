@@ -1,0 +1,81 @@
+{
+    "ClaimID": "201f8377-1c3c-4b7b-996f-ccc5736ed372",
+    "PolicyID": "68aa050d-aaeb-4882-a381-3399b9062a26",
+    "EffectiveDates": {
+        "StartDate": "2024-03-26",
+        "EndDate": "2025-03-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "141583d4-0d2d-4f4a-bf21-4caf14af9f54",
+        "Name": "Carol Jones",
+        "PolicyNumber": "68aa050d-aaeb-4882-a381-3399b9062a26",
+        "ContactInformation": {
+            "Phone": "(747)409-7706",
+            "Email": "christophermcdaniel@example.org",
+            "Address": "36204 Proctor Falls\nMatthewburgh, TN 69008"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-25",
+        "Location": "43802 Kevin Forge Apt. 736\nPort Stephen, MI 32161",
+        "Description": "Today measure color. However letter majority sport cell.\nToo business note budget ball. Town sister business. Same agency lay sport choice outside."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 81252
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 75579
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 180856
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1766
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26676
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 169748,
+        "TotalApproved": 46080
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Maxwell",
+        "ContactInformation": {
+            "Phone": "001-723-502-2579x615",
+            "Email": "daniel45@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a8746a7b-6c39-42ea-be07-9fe0e26e167e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-25T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-30T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

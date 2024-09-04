@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d1db5450-8904-47c5-9a5d-e2d71c56dd25",
+    "PolicyID": "4f26ce00-a4f9-473c-a99b-e5e09b2e2555",
+    "EffectiveDates": {
+        "StartDate": "2024-04-24",
+        "EndDate": "2025-04-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "21ba1b88-b896-4d16-beb0-d27d8397190c",
+        "Name": "Brian Garcia DDS",
+        "PolicyNumber": "4f26ce00-a4f9-473c-a99b-e5e09b2e2555",
+        "ContactInformation": {
+            "Phone": "(348)472-6564x85994",
+            "Email": "moyerpeter@example.net",
+            "Address": "1371 Mayer Branch\nRyanmouth, SC 82245"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-24",
+        "Location": "0450 Lisa Port Apt. 557\nElizabethborough, MO 21679",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 64276
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22486
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9560
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20565
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5779
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 122666,
+        "TotalApproved": 9243
+    },
+    "AdjusterDetails": {
+        "Name": "Melinda Payne",
+        "ContactInformation": {
+            "Phone": "515.632.3557",
+            "Email": "hrocha@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/11e5ada8-9c75-444a-a28e-2aed15eabec9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-24T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-29T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-04T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

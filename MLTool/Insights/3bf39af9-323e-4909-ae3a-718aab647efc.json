@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3bf39af9-323e-4909-ae3a-718aab647efc",
+    "PolicyID": "661f3eaa-8b34-4246-a9f1-052edbba9866",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "77fb62d0-b02a-4362-b38d-83754072bfcb",
+        "Name": "Shelley Johnson",
+        "PolicyNumber": "661f3eaa-8b34-4246-a9f1-052edbba9866",
+        "ContactInformation": {
+            "Phone": "509-344-8777x983",
+            "Email": "browndebra@example.net",
+            "Address": "87437 Ford Parkway\nLewisborough, FL 42876"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-12",
+        "Location": "Unit 4674 Box 1865\nDPO AE 11632",
+        "Description": "Remain leader smile change mind really best. Son mother to fight which.\nSuggest career ahead first. Quite born cut high goal."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7943
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 99039
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5086
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7019
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38491
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 75599,
+        "TotalApproved": 55765
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Johnson",
+        "ContactInformation": {
+            "Phone": "001-883-584-5156",
+            "Email": "christine69@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/648f5601-e4e4-4192-b838-99b21e6fa8c2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-12T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-17T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-22T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

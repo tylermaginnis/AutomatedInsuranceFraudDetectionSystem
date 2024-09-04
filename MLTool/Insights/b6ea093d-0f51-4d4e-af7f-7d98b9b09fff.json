@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b6ea093d-0f51-4d4e-af7f-7d98b9b09fff",
+    "PolicyID": "5c9b26db-16a4-4953-b1e5-0f311e9e91f4",
+    "EffectiveDates": {
+        "StartDate": "2024-01-11",
+        "EndDate": "2025-01-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "17821496-2b18-4f58-b11a-b360e38ea5ec",
+        "Name": "Rose Gardner",
+        "PolicyNumber": "5c9b26db-16a4-4953-b1e5-0f311e9e91f4",
+        "ContactInformation": {
+            "Phone": "956.258.8624",
+            "Email": "harroyo@example.org",
+            "Address": "PSC 1982, Box 4809\nAPO AA 02526"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-12",
+        "Location": "59360 Williams Crossing Apt. 605\nEast John, IA 77267",
+        "Description": "Necessary thus authority front piece truth box.\nFew at field another would education top. Just suggest appear value common. Political least season from discuss north."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46124
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18154
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 88435
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27147
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14890
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 81751,
+        "TotalApproved": 71381
+    },
+    "AdjusterDetails": {
+        "Name": "David Martinez",
+        "ContactInformation": {
+            "Phone": "001-245-554-6963x76991",
+            "Email": "whitney86@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/711e4fde-f7c0-49eb-9b07-5e03e59e36c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-12T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-17T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-22T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9a75eb4d-904d-4d26-86b2-75cb0eed40e6",
+    "PolicyID": "e50144a4-737e-429c-bc76-dd7c526b10c8",
+    "EffectiveDates": {
+        "StartDate": "2023-12-12",
+        "EndDate": "2024-12-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "401df0e4-f8fc-4406-94cc-3d4a6663c43c",
+        "Name": "Christopher Jones",
+        "PolicyNumber": "e50144a4-737e-429c-bc76-dd7c526b10c8",
+        "ContactInformation": {
+            "Phone": "001-486-945-7573x5868",
+            "Email": "duarteamanda@example.org",
+            "Address": "561 Mccoy Island Suite 365\nNew David, NC 38470"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-14",
+        "Location": "9604 Miles Ranch\nStevenhaven, UT 04021",
+        "Description": "Foreign choose policy decision. Mr gun soldier expect.\nMove business official hour Mrs it. Begin eat travel story."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 42915
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 60392
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6138
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16395
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4431
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 147831,
+        "TotalApproved": 18610
+    },
+    "AdjusterDetails": {
+        "Name": "Andrea Phillips",
+        "ContactInformation": {
+            "Phone": "001-686-501-1386",
+            "Email": "hartdavid@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1fe39105-7011-4128-a882-8e18c191ee34"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-14T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-19T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-24T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

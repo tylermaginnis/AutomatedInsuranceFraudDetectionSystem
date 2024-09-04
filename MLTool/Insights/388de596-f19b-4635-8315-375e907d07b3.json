@@ -1,0 +1,81 @@
+{
+    "ClaimID": "388de596-f19b-4635-8315-375e907d07b3",
+    "PolicyID": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+    "EffectiveDates": {
+        "StartDate": "2023-10-21",
+        "EndDate": "2024-10-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b718d54-1bda-441f-9f34-2672f6b131e5",
+        "Name": "Patricia Gordon",
+        "PolicyNumber": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+        "ContactInformation": {
+            "Phone": "+1-447-858-9107x4847",
+            "Email": "lisacrane@example.org",
+            "Address": "PSC 6944, Box 1860\nAPO AP 51730"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-05",
+        "Location": "716 Douglas Isle Apt. 231\nPort Amandaton, FL 10651",
+        "Description": "Account main anything head. Scientist office court purpose summer civil.\nGlass head own ahead their. Expert though yourself seat.\nBall because recent couple present protect manager."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 66829
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3265
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9316
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3847
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25881
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 140468,
+        "TotalApproved": 113091
+    },
+    "AdjusterDetails": {
+        "Name": "Maurice Roberson",
+        "ContactInformation": {
+            "Phone": "001-407-909-3045",
+            "Email": "ojohnson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/23fb4059-86f1-4a83-9390-31f3b95bbcf3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

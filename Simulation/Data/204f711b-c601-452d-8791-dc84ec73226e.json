@@ -1,0 +1,80 @@
+{
+  "ClaimID": "204f711b-c601-452d-8791-dc84ec73226e",
+  "PolicyID": "62432675-0915-450a-9ba2-9475acd11dd3",
+  "EffectiveDates": {
+    "StartDate": "2024-02-21",
+    "EndDate": "2025-02-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9b7c6d7f-bb06-4522-9741-eb70a657771d",
+    "Name": "Charles Wilson",
+    "PolicyNumber": "62432675-0915-450a-9ba2-9475acd11dd3",
+    "ContactInformation": {
+      "Phone": "001-969-929-1641x464",
+      "Email": "kevin22@example.net",
+      "Address": "0557 Ewing Ridge\nMiddletonstad, WY 19943"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-20",
+    "Location": "386 Ward Lodge\nJofurt, SD 65688",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 96023
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 29320
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5973
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 24593
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9175
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 165084,
+    "TotalApproved": 155917
+  },
+  "AdjusterDetails": {
+    "Name": "Johnny Gonzales",
+    "ContactInformation": {
+      "Phone": "+1-908-559-0777",
+      "Email": "carlfowler@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/1db33b7a-6c04-4768-b311-98eaeadbdd79"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-20T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-25T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-30T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a3a4e7b6-53cb-479c-bb0b-d26f59853cba",
+    "PolicyID": "6296dd6c-37c0-461d-bcd6-d65f13208022",
+    "EffectiveDates": {
+        "StartDate": "2023-10-18",
+        "EndDate": "2024-10-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f9bab500-1021-4a7c-ba88-81da8e6dc14b",
+        "Name": "Tracy Myers",
+        "PolicyNumber": "6296dd6c-37c0-461d-bcd6-d65f13208022",
+        "ContactInformation": {
+            "Phone": "248.240.2838",
+            "Email": "kenneth29@example.org",
+            "Address": "2595 Jeffrey Plains Apt. 510\nEast Jasonstad, GA 46569"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-01",
+        "Location": "0234 Cruz Spring Suite 415\nJohnhaven, TX 08967",
+        "Description": "Official may feel may answer education. Discuss discuss information local. Loss pull step open.\nHerself several very whom lead. Record main seek writer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8119
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 75022
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8426
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35456
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37088
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 82141,
+        "TotalApproved": 72726
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Moore",
+        "ContactInformation": {
+            "Phone": "358-998-4237",
+            "Email": "charrison@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5691c1df-bae5-43a5-8cae-9659bb74d4fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-01T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-06T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-11T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

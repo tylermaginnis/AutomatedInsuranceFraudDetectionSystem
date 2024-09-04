@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ae7c2543-aec6-402b-8765-832f9f892ef3",
+    "PolicyID": "2b72a225-cfc1-4752-af0d-2885f465c88a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-20",
+        "EndDate": "2024-10-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e080636e-8038-4a6c-b1bb-f28cc24b5c35",
+        "Name": "Susan Curtis",
+        "PolicyNumber": "2b72a225-cfc1-4752-af0d-2885f465c88a",
+        "ContactInformation": {
+            "Phone": "001-728-856-4918",
+            "Email": "virginia15@example.com",
+            "Address": "USS Melendez\nFPO AE 51773"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-24",
+        "Location": "USCGC Hale\nFPO AE 88649",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 66602
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46704
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7080
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24639
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13740
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 158765,
+        "TotalApproved": 55796
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Miller",
+        "ContactInformation": {
+            "Phone": "8703056426",
+            "Email": "russellcharles@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/604962ef-6bf3-4091-9e21-8d2a7d462a42"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-24T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-29T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-04T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

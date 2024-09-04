@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6b820cab-d822-41f0-8be0-9627fece4264",
+    "PolicyID": "68311175-43e0-41e2-ac3d-1ef2f2bca71d",
+    "EffectiveDates": {
+        "StartDate": "2024-07-16",
+        "EndDate": "2025-07-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3d8b6752-4b15-4856-887a-c21205c67096",
+        "Name": "Angela Davis",
+        "PolicyNumber": "68311175-43e0-41e2-ac3d-1ef2f2bca71d",
+        "ContactInformation": {
+            "Phone": "310-505-8802",
+            "Email": "yday@example.net",
+            "Address": "187 Haney Turnpike Suite 125\nElizabethchester, VA 26958"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-13",
+        "Location": "9025 Shawna Cove Apt. 101\nRobertsstad, NY 45383",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 58642
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33282
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9037
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25491
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10898
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 137350,
+        "TotalApproved": 26432
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Rodriguez",
+        "ContactInformation": {
+            "Phone": "(289)766-7442x093",
+            "Email": "robert77@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ef3e8ffe-7608-42af-8ec4-ecb6be8a40b1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

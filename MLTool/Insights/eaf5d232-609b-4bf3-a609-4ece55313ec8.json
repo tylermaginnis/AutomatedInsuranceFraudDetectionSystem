@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eaf5d232-609b-4bf3-a609-4ece55313ec8",
+    "PolicyID": "485af009-4abb-43ff-a18d-088abc9949ba",
+    "EffectiveDates": {
+        "StartDate": "2023-09-29",
+        "EndDate": "2024-09-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8ec455f3-3112-42f3-ad24-aa31f9ef5d98",
+        "Name": "Stephanie Schwartz",
+        "PolicyNumber": "485af009-4abb-43ff-a18d-088abc9949ba",
+        "ContactInformation": {
+            "Phone": "931.826.3730x5048",
+            "Email": "emily75@example.net",
+            "Address": "812 Matthew Way Suite 763\nEdgarberg, MN 80379"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-16",
+        "Location": "889 Ruth Motorway Apt. 010\nNathanton, SD 95686",
+        "Description": "Compare main grow eat. Into wish rich century join seek parent why."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12955
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 98922
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27970
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23231
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42596
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 7349,
+        "TotalApproved": 6540
+    },
+    "AdjusterDetails": {
+        "Name": "Larry Johnson",
+        "ContactInformation": {
+            "Phone": "818.346.4117x031",
+            "Email": "pattersonshelley@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/2f764382-4032-4d31-9047-d9b6bf79734c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

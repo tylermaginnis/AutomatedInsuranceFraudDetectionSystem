@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1e2fba58-f516-4213-aa47-9e9987605e6f",
+  "PolicyID": "60c5539c-8824-4305-9164-8b60d2d94592",
+  "EffectiveDates": {
+    "StartDate": "2024-04-07",
+    "EndDate": "2025-04-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "34a2890a-f8df-4286-a548-b615d358e828",
+    "Name": "David George",
+    "PolicyNumber": "60c5539c-8824-4305-9164-8b60d2d94592",
+    "ContactInformation": {
+      "Phone": "+1-632-321-0781x79862",
+      "Email": "dyerdaniel@example.com",
+      "Address": "5406 Brianna Stream Apt. 604\nEllisland, MD 86368"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-12",
+    "Location": "429 Gardner Junction\nMatthewsville, OH 95981",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 99804
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 21673
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7716
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 24428
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11893
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 165514,
+    "TotalApproved": 91485
+  },
+  "AdjusterDetails": {
+    "Name": "Jacqueline Choi",
+    "ContactInformation": {
+      "Phone": "+1-973-394-7236x3010",
+      "Email": "yhawkins@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/59dbee11-9f88-49c6-b395-b62e918b9afa"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-12T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-17T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-22T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

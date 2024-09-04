@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d709b9fb-c4f1-4bd1-94ea-873a33b90aba",
+    "PolicyID": "384669fd-b47d-4bb8-a0af-b5f3c861db29",
+    "EffectiveDates": {
+        "StartDate": "2023-10-08",
+        "EndDate": "2024-10-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "41d77cd4-7bbf-4033-9e38-8122720121a6",
+        "Name": "Mr. Corey Pham",
+        "PolicyNumber": "384669fd-b47d-4bb8-a0af-b5f3c861db29",
+        "ContactInformation": {
+            "Phone": "8062083223",
+            "Email": "megan94@example.com",
+            "Address": "505 Daniel Trafficway Apt. 183\nEast Henry, NY 45704"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-11",
+        "Location": "0702 Smith Flat\nNorth Tracy, NV 13800",
+        "Description": "Agent their such effect down reveal.\nThemselves shoulder boy lose. Author prepare herself nice Democrat financial manage bag. Democrat stuff different."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 95759
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16321
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13574
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47460
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5542
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 187687,
+        "TotalApproved": 169897
+    },
+    "AdjusterDetails": {
+        "Name": "Jenny Allen",
+        "ContactInformation": {
+            "Phone": "(763)385-4613",
+            "Email": "bakerkayla@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/17a3012b-0608-4ffc-a383-43e9db8ef319"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-11T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-16T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-21T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "477832d1-d036-419e-9e29-f853c6902d63",
+    "PolicyID": "77c13f1f-59e1-487d-a5f7-5897fd63f00a",
+    "EffectiveDates": {
+        "StartDate": "2023-12-17",
+        "EndDate": "2024-12-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4c9fea6a-88b2-4aac-8645-1b9a1692fe74",
+        "Name": "Thomas Wilkinson",
+        "PolicyNumber": "77c13f1f-59e1-487d-a5f7-5897fd63f00a",
+        "ContactInformation": {
+            "Phone": "5374471074",
+            "Email": "copelandanthony@example.com",
+            "Address": "9580 Luis Courts Apt. 502\nNorth Laura, MA 49596"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-23",
+        "Location": "1854 Cooper Fields Suite 514\nFrankshire, IL 03535",
+        "Description": "Over interview ground often writer usually their east. Late sister instead. Personal fall year could.\nTeach east believe season hair child know community."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 95585
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 143946
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1872
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16547
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27507
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 151374,
+        "TotalApproved": 128395
+    },
+    "AdjusterDetails": {
+        "Name": "Kelsey Carpenter",
+        "ContactInformation": {
+            "Phone": "(626)494-3709",
+            "Email": "stephanie41@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5ea784e6-0e05-438d-8f4d-01eee2d7ad83"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-23T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-28T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-03T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "04517705-a3b1-4802-a8d2-8a16cbd3a369",
+    "PolicyID": "a5c0a9d6-d0fc-458b-b49a-1dc2bead69f7",
+    "EffectiveDates": {
+        "StartDate": "2024-02-01",
+        "EndDate": "2025-01-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "04a59c23-48ee-40f5-b499-a668d48da623",
+        "Name": "Kylie Marks",
+        "PolicyNumber": "a5c0a9d6-d0fc-458b-b49a-1dc2bead69f7",
+        "ContactInformation": {
+            "Phone": "(336)921-3552",
+            "Email": "madison97@example.net",
+            "Address": "29954 Anthony Divide\nCraigside, WA 24781"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-05",
+        "Location": "30550 Daniel Stravenue\nEast Victor, NC 65235",
+        "Description": "Line leader already hard significant go dog. Goal particularly teacher author huge."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6456
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 169605
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37460
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1954
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15352
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 35451,
+        "TotalApproved": 6646
+    },
+    "AdjusterDetails": {
+        "Name": "Tyler Parks",
+        "ContactInformation": {
+            "Phone": "001-210-477-8620",
+            "Email": "stevenssteven@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/85d324ca-a650-4f1a-a46b-6ab2af228934"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

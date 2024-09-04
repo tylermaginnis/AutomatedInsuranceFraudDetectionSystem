@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9c27bd91-0d80-4c22-b72a-b9ea946ab181",
+    "PolicyID": "a2653957-89b0-4a1a-8640-5d5ae080d3c0",
+    "EffectiveDates": {
+        "StartDate": "2024-04-01",
+        "EndDate": "2025-04-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "95f4e10e-79f4-46c6-b0cc-bbbefd4baf55",
+        "Name": "Benjamin Garcia",
+        "PolicyNumber": "a2653957-89b0-4a1a-8640-5d5ae080d3c0",
+        "ContactInformation": {
+            "Phone": "549-995-2653",
+            "Email": "scruz@example.net",
+            "Address": "USCGC Garcia\nFPO AA 80703"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-31",
+        "Location": "0473 Benjamin Plain\nPort Adamview, WV 83624",
+        "Description": "Suddenly them talk necessary more wonder second. American future condition nation west. Finally letter new commercial join center."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33662
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4281
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18163
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7728
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6589
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 196272,
+        "TotalApproved": 15846
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Taylor",
+        "ContactInformation": {
+            "Phone": "(877)393-6929",
+            "Email": "scott80@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7a0ef9c4-0d59-450f-93d9-6b2aaa771e95"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-31T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

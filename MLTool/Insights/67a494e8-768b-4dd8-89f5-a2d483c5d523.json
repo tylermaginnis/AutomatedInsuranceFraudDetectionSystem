@@ -1,0 +1,81 @@
+{
+    "ClaimID": "67a494e8-768b-4dd8-89f5-a2d483c5d523",
+    "PolicyID": "3c6c5a36-75ba-4d38-968c-7896d80d4e81",
+    "EffectiveDates": {
+        "StartDate": "2023-12-05",
+        "EndDate": "2024-12-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "19b89dbe-9826-4396-8286-b1b30777b39b",
+        "Name": "Thomas Johnson",
+        "PolicyNumber": "3c6c5a36-75ba-4d38-968c-7896d80d4e81",
+        "ContactInformation": {
+            "Phone": "4244908992",
+            "Email": "scannon@example.com",
+            "Address": "9500 Morrison Stream Apt. 965\nLeonardchester, ND 44981"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-09",
+        "Location": "6681 Randall Trafficway\nSalazarhaven, LA 55424",
+        "Description": "Experience purpose dream. Out act recent morning its young. Concern support offer maintain may step."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3173
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 184858
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17975
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8718
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8967
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 132123,
+        "TotalApproved": 46656
+    },
+    "AdjusterDetails": {
+        "Name": "Ian Johnson",
+        "ContactInformation": {
+            "Phone": "001-517-550-8113x16121",
+            "Email": "charlesmoody@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5585a8d1-0ae7-4da6-b655-5a400fa42993"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-09T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-14T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-19T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

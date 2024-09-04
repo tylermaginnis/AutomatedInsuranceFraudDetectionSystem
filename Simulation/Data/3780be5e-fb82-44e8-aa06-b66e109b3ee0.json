@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3780be5e-fb82-44e8-aa06-b66e109b3ee0",
+  "PolicyID": "8bb8f650-eb7f-48f9-b0c8-d07b75fc3fdb",
+  "EffectiveDates": {
+    "StartDate": "2023-09-07",
+    "EndDate": "2024-09-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "cd8ad1cb-c183-4865-9f25-66b0db36514e",
+    "Name": "Sheryl Taylor",
+    "PolicyNumber": "8bb8f650-eb7f-48f9-b0c8-d07b75fc3fdb",
+    "ContactInformation": {
+      "Phone": "705-846-3085x56045",
+      "Email": "smithashley@example.com",
+      "Address": "4039 Nancy Terrace\nNew Laurabury, NE 92568"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-04",
+    "Location": "USS Jones\nFPO AA 32728",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 73386
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 45532
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7369
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 29736
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15482
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 171505,
+    "TotalApproved": 89533
+  },
+  "AdjusterDetails": {
+    "Name": "Ryan Clark",
+    "ContactInformation": {
+      "Phone": "3733443492",
+      "Email": "toddgilbert@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/2e978964-d94a-466b-83d8-6cbeb06f8451"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-04T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-03-09T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-14T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

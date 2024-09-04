@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d990b139-6617-4b8a-8658-076b86e57c76",
+    "PolicyID": "c774b6d5-fec5-43bb-8c60-1728b7d4b8a2",
+    "EffectiveDates": {
+        "StartDate": "2023-09-22",
+        "EndDate": "2024-09-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7bf5ed46-2e93-46df-85d0-bca4130086b3",
+        "Name": "Mrs. Sandra Park DDS",
+        "PolicyNumber": "c774b6d5-fec5-43bb-8c60-1728b7d4b8a2",
+        "ContactInformation": {
+            "Phone": "4608144835",
+            "Email": "michael72@example.org",
+            "Address": "5046 Frederick Harbors Apt. 101\nHansenstad, NM 64786"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-13",
+        "Location": "221 Kayla Spurs Suite 006\nPatricialand, AR 44378",
+        "Description": "Camera would oil professional possible need.\nSix read others these ahead southern worker. Mission all meet public.\nAnything goal management case. Project box particular base catch large."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 61736
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47099
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 80073
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18983
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20432
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 94581,
+        "TotalApproved": 50978
+    },
+    "AdjusterDetails": {
+        "Name": "Barbara Alvarado",
+        "ContactInformation": {
+            "Phone": "001-561-416-6328x903",
+            "Email": "patriciajones@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/736239dd-56ca-48c8-80f0-7d71695dffb3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-13T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-18T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-23T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

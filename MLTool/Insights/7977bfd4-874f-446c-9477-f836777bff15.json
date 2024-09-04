@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7977bfd4-874f-446c-9477-f836777bff15",
+    "PolicyID": "fc6e8d74-ae39-4498-b1c5-44f0a4f05f00",
+    "EffectiveDates": {
+        "StartDate": "2024-03-17",
+        "EndDate": "2025-03-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "31961f19-be32-4272-a1b1-3c2cd84c9983",
+        "Name": "Marc Gardner",
+        "PolicyNumber": "fc6e8d74-ae39-4498-b1c5-44f0a4f05f00",
+        "ContactInformation": {
+            "Phone": "994-758-4410x714",
+            "Email": "karenadkins@example.org",
+            "Address": "PSC 6148, Box 7376\nAPO AE 68816"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-07",
+        "Location": "12068 Tom Circle Suite 886\nSouth Joseph, MD 91670",
+        "Description": "Right nor drive building exactly require enter minute. Behavior above wide door lot reach item."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 96025
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 21839
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16843
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1465
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 157541
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 122125,
+        "TotalApproved": 106567
+    },
+    "AdjusterDetails": {
+        "Name": "Veronica Schmitt",
+        "ContactInformation": {
+            "Phone": "920-307-8973",
+            "Email": "nicholeshaw@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f217d15b-9ef3-4900-ad16-8288aac2ae0d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-07T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-12T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-17T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

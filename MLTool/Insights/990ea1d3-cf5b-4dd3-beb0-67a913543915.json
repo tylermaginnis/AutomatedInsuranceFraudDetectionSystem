@@ -1,0 +1,81 @@
+{
+    "ClaimID": "990ea1d3-cf5b-4dd3-beb0-67a913543915",
+    "PolicyID": "968e0045-c6df-443d-a614-7abf1cecc56c",
+    "EffectiveDates": {
+        "StartDate": "2024-06-11",
+        "EndDate": "2025-06-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "255b4fda-bb01-41b8-874e-39c77a3a093e",
+        "Name": "David Dorsey",
+        "PolicyNumber": "968e0045-c6df-443d-a614-7abf1cecc56c",
+        "ContactInformation": {
+            "Phone": "944.949.5078x2023",
+            "Email": "karen96@example.com",
+            "Address": "PSC 7889, Box 2176\nAPO AP 94375"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-11",
+        "Location": "62863 Cheryl Valley Apt. 180\nLatashaburgh, DE 77870",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 91484
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41360
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7192
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20470
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8997
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 169503,
+        "TotalApproved": 129623
+    },
+    "AdjusterDetails": {
+        "Name": "Sandra Manning",
+        "ContactInformation": {
+            "Phone": "(541)433-3997x0044",
+            "Email": "lisa02@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c5b26fbd-a3f3-4aae-bf19-f84c2d4b3e52"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-11T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-16T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-21T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

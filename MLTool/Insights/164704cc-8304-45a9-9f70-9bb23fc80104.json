@@ -1,0 +1,81 @@
+{
+    "ClaimID": "164704cc-8304-45a9-9f70-9bb23fc80104",
+    "PolicyID": "9abc09c9-ff77-4b65-adc1-e2c586dcfca2",
+    "EffectiveDates": {
+        "StartDate": "2024-09-03",
+        "EndDate": "2025-09-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "02ee066a-f888-4670-9225-f597f53290be",
+        "Name": "Jocelyn Jackson",
+        "PolicyNumber": "9abc09c9-ff77-4b65-adc1-e2c586dcfca2",
+        "ContactInformation": {
+            "Phone": "902-706-1722x4718",
+            "Email": "vjohnson@example.net",
+            "Address": "82108 Mikayla Well\nBowersfort, NJ 54499"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-19",
+        "Location": "86751 Lynn Overpass\nPort Kimberly, NV 96183",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 93104
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41492
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5388
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17493
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12461
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 169938,
+        "TotalApproved": 14057
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Robinson",
+        "ContactInformation": {
+            "Phone": "723.756.4202",
+            "Email": "kellykaitlin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1612118b-d24f-4280-a290-40e10909b7d5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-19T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-24T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-29T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

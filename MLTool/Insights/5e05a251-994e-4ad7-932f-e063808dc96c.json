@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5e05a251-994e-4ad7-932f-e063808dc96c",
+    "PolicyID": "ffa6af7f-bbf4-426a-9118-6d08b470959c",
+    "EffectiveDates": {
+        "StartDate": "2023-10-11",
+        "EndDate": "2024-10-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "791675b4-9659-4cf5-94b1-6452d408cbf1",
+        "Name": "Julia Davis",
+        "PolicyNumber": "ffa6af7f-bbf4-426a-9118-6d08b470959c",
+        "ContactInformation": {
+            "Phone": "8907895191",
+            "Email": "vhenry@example.com",
+            "Address": "78112 April Pines\nWilliamhaven, TX 39525"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-02",
+        "Location": "578 Becker Turnpike Apt. 719\nHollandville, GA 11676",
+        "Description": "Tend stop realize under friend. Cultural mouth site reveal start how. None campaign gun ball."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11815
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11649
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47888
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4216
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13996
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 120115,
+        "TotalApproved": 34839
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Robertson",
+        "ContactInformation": {
+            "Phone": "(800)356-0096x955",
+            "Email": "carriejordan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1a6a87a9-55e8-435b-b128-0f2bfce53184"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-02T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-07T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-12T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

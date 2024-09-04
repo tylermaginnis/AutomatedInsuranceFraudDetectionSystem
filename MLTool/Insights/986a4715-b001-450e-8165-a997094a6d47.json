@@ -1,0 +1,81 @@
+{
+    "ClaimID": "986a4715-b001-450e-8165-a997094a6d47",
+    "PolicyID": "1fa86e06-28ce-4940-9cea-981d0b4aa75e",
+    "EffectiveDates": {
+        "StartDate": "2024-03-18",
+        "EndDate": "2025-03-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "27fdac26-d95d-4a4a-9e98-5d968be782b9",
+        "Name": "Paula Bowman",
+        "PolicyNumber": "1fa86e06-28ce-4940-9cea-981d0b4aa75e",
+        "ContactInformation": {
+            "Phone": "942-801-4447",
+            "Email": "fguzman@example.com",
+            "Address": "Unit 3683 Box 8566\nDPO AE 50796"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-09",
+        "Location": "02406 Tina Road Apt. 040\nEast Amandachester, MS 97025",
+        "Description": "Man kitchen woman eye fall couple. Still everyone condition cold. Happy edge teach teacher town according production."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12892
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8828
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 97164
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 64643
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 50610
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 101535,
+        "TotalApproved": 75306
+    },
+    "AdjusterDetails": {
+        "Name": "Adam Greene",
+        "ContactInformation": {
+            "Phone": "992-224-9784x7568",
+            "Email": "maria33@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/36c7b842-be05-48ea-863d-bef9c6f3adb0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

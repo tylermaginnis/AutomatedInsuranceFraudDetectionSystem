@@ -1,0 +1,81 @@
+{
+    "ClaimID": "23c63ceb-b764-42a4-a449-2d12c574856b",
+    "PolicyID": "08323177-e1cb-492a-970e-30500670c274",
+    "EffectiveDates": {
+        "StartDate": "2024-08-18",
+        "EndDate": "2025-08-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fc06f0cf-012d-4598-bbce-ba3ac5b994e4",
+        "Name": "Linda Krause",
+        "PolicyNumber": "08323177-e1cb-492a-970e-30500670c274",
+        "ContactInformation": {
+            "Phone": "471.381.1325x89515",
+            "Email": "bcollins@example.net",
+            "Address": "708 Brandon Mews Suite 248\nEast Alejandrofort, KY 09975"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-18",
+        "Location": "PSC 2589, Box 2947\nAPO AE 02408",
+        "Description": "For camera far argue value. Agent start water field glass just however. Who that be party alone democratic.\nAcross company available. Run economy often class itself."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 62291
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8775
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7864
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9729
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 85180
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 79878,
+        "TotalApproved": 61956
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Freeman",
+        "ContactInformation": {
+            "Phone": "947-431-0100x21967",
+            "Email": "heather18@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/63820361-6130-4148-9bdd-5a702c6ee175"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

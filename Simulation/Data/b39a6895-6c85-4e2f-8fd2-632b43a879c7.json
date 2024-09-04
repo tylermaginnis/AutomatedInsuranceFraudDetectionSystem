@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b39a6895-6c85-4e2f-8fd2-632b43a879c7",
+  "PolicyID": "0d04751b-d18a-4439-af1d-29bbb26c0ac4",
+  "EffectiveDates": {
+    "StartDate": "2023-12-19",
+    "EndDate": "2024-12-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ef310790-2ebf-4cc3-8d4e-d42833e86001",
+    "Name": "Sara Chapman",
+    "PolicyNumber": "0d04751b-d18a-4439-af1d-29bbb26c0ac4",
+    "ContactInformation": {
+      "Phone": "001-320-638-0973",
+      "Email": "qford@example.net",
+      "Address": "08940 Kennedy Orchard Apt. 612\nStephanieport, FL 51821"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-04",
+    "Location": "69814 Kelley Branch Apt. 061\nRoybury, MP 25409",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 53598
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 21160
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9044
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 20624
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7640
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 112066,
+    "TotalApproved": 8096
+  },
+  "AdjusterDetails": {
+    "Name": "Kristin Collins",
+    "ContactInformation": {
+      "Phone": "614-631-8025",
+      "Email": "frostkelly@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/9d8c3766-53f6-4408-9ecf-e354485fb11d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-04T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-09T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-14T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

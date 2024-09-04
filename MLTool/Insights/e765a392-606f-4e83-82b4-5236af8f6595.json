@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e765a392-606f-4e83-82b4-5236af8f6595",
+    "PolicyID": "17d6425c-7e80-4ed4-ad32-aa882c822315",
+    "EffectiveDates": {
+        "StartDate": "2024-01-28",
+        "EndDate": "2025-01-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c89ac3fa-50e5-4a5d-94e0-0f5326520b4b",
+        "Name": "Hayden Mitchell",
+        "PolicyNumber": "17d6425c-7e80-4ed4-ad32-aa882c822315",
+        "ContactInformation": {
+            "Phone": "+1-703-739-5692x217",
+            "Email": "jmartinez@example.net",
+            "Address": "3971 Erin Route\nEast Teresa, NJ 32529"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-29",
+        "Location": "2359 Allen Pike Suite 134\nNorth Aprilchester, OH 09242",
+        "Description": "Scene whole oil. West amount give.\nShoulder off light let. Amount think meet.\nHope nature whom performance. Note law third stage. List management player fact can candidate score."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 60111
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 55901
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49037
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3992
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2398
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 168263,
+        "TotalApproved": 45044
+    },
+    "AdjusterDetails": {
+        "Name": "Morgan Duran",
+        "ContactInformation": {
+            "Phone": "5188194634",
+            "Email": "gabriellahale@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f6169e8a-d2e7-4d07-bcd1-779df10cec06"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d8e29470-5036-4176-8009-e9ecf0c95b01",
+    "PolicyID": "da587d61-1464-432c-943c-0988c017800a",
+    "EffectiveDates": {
+        "StartDate": "2024-08-12",
+        "EndDate": "2025-08-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "37e0315e-3c64-4269-96de-640fd4fccadb",
+        "Name": "Meghan Sanford",
+        "PolicyNumber": "da587d61-1464-432c-943c-0988c017800a",
+        "ContactInformation": {
+            "Phone": "+1-620-372-5655x98505",
+            "Email": "zjohnson@example.com",
+            "Address": "3534 Jennifer Greens Suite 182\nJordantown, KS 45447"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-01",
+        "Location": "6459 Hernandez Spurs Apt. 801\nDerekshire, MD 80874",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 55109
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20520
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9488
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13440
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17740
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 116297,
+        "TotalApproved": 64754
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Payne",
+        "ContactInformation": {
+            "Phone": "+1-487-980-8698x519",
+            "Email": "nconner@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0d2463ff-db84-4812-a14b-644c1a8c77fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-01T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-06T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-11T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

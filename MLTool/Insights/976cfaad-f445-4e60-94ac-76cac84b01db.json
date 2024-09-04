@@ -1,0 +1,81 @@
+{
+    "ClaimID": "976cfaad-f445-4e60-94ac-76cac84b01db",
+    "PolicyID": "81aa67c3-f1dd-4c91-ae63-05f020ef99ad",
+    "EffectiveDates": {
+        "StartDate": "2023-11-25",
+        "EndDate": "2024-11-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f57dd975-0657-4d04-818d-7abb101d1383",
+        "Name": "Cynthia Phillips",
+        "PolicyNumber": "81aa67c3-f1dd-4c91-ae63-05f020ef99ad",
+        "ContactInformation": {
+            "Phone": "(558)595-1673",
+            "Email": "rbennett@example.net",
+            "Address": "583 Michael Common Apt. 292\nWest Aaron, UT 49529"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-07",
+        "Location": "2361 Walsh Points\nSouth Catherine, VA 19677",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 95605
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22644
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8968
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26817
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10314
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 164348,
+        "TotalApproved": 143311
+    },
+    "AdjusterDetails": {
+        "Name": "Yvette Holt",
+        "ContactInformation": {
+            "Phone": "001-362-516-9733x909",
+            "Email": "anthony02@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5e0081a6-a238-489b-8001-f9c7536960c0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-07T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-12T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-17T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

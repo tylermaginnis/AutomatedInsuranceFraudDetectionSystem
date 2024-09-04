@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fd29fa74-964e-44d7-83bc-481952dd2dd3",
+  "PolicyID": "6f3e1a5b-50ff-4fa4-9f8a-dd96be34f893",
+  "EffectiveDates": {
+    "StartDate": "2023-12-09",
+    "EndDate": "2024-12-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0f44ccdd-2671-44cd-998b-2ce89872968f",
+    "Name": "Jonathan Harrison",
+    "PolicyNumber": "6f3e1a5b-50ff-4fa4-9f8a-dd96be34f893",
+    "ContactInformation": {
+      "Phone": "+1-387-671-2661x804",
+      "Email": "greenrobin@example.com",
+      "Address": "8033 Thomas Canyon Suite 934\nPettychester, LA 33914"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-02",
+    "Location": "3673 Gutierrez Street\nAngelastad, PR 22960",
+    "Description": "Trial still oil four capital again item question. Support without call behind project."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 198020
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4287
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 17033
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5849
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5294
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 33984,
+    "TotalApproved": 25149
+  },
+  "AdjusterDetails": {
+    "Name": "Teresa Gonzalez",
+    "ContactInformation": {
+      "Phone": "8242822262",
+      "Email": "dan42@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/4d51becd-9f2e-4cdd-a324-653a934ae565"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-02T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-07T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-02-12T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a014ec51-da55-4979-8061-0b1d3cd9af95",
+    "PolicyID": "92b85d20-0b92-443c-84df-ffe2a08707e5",
+    "EffectiveDates": {
+        "StartDate": "2024-05-19",
+        "EndDate": "2025-05-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "57e348e6-145f-4af4-9759-5415cef5792d",
+        "Name": "Zachary Hebert",
+        "PolicyNumber": "92b85d20-0b92-443c-84df-ffe2a08707e5",
+        "ContactInformation": {
+            "Phone": "001-385-243-7321x9285",
+            "Email": "daniel42@example.org",
+            "Address": "228 Neal Plaza Apt. 238\nJonathanmouth, UT 09206"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-05",
+        "Location": "8092 Mathews Lodge Suite 274\nWest Cindychester, NH 77040",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 65794
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48718
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8318
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14762
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14117
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 151709,
+        "TotalApproved": 122225
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Payne",
+        "ContactInformation": {
+            "Phone": "907.586.7644x5135",
+            "Email": "mitchellwalker@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f69b8676-1af0-4609-b64b-04cde8a747e4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

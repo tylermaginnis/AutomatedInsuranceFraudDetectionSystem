@@ -1,0 +1,81 @@
+{
+    "ClaimID": "10a50a15-e7af-4cce-a283-6a5d40773ed4",
+    "PolicyID": "e337ccb6-413f-4f70-8a53-8d38724ae56c",
+    "EffectiveDates": {
+        "StartDate": "2024-07-27",
+        "EndDate": "2025-07-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5e863e16-3ca8-4ec5-9481-a708fa2d704e",
+        "Name": "Mario Olson",
+        "PolicyNumber": "e337ccb6-413f-4f70-8a53-8d38724ae56c",
+        "ContactInformation": {
+            "Phone": "001-805-777-6903",
+            "Email": "wadecarrie@example.net",
+            "Address": "7943 Fisher Villages\nMichaelshire, AZ 88169"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-04",
+        "Location": "93573 Hamilton Trail Apt. 477\nHarpermouth, WA 59714",
+        "Description": "Others drug social student sure back. Seat wide interesting there remain position first left. Once include very many future college."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17701
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7635
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 86249
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2326
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15994
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 139398,
+        "TotalApproved": 71660
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Anderson",
+        "ContactInformation": {
+            "Phone": "001-818-939-6901x979",
+            "Email": "kaitlynfoster@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0c09ca81-ea57-4787-b295-56065fb0b847"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-04T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-09T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-14T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

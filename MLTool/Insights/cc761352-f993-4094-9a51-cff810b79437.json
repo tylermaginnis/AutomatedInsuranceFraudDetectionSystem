@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cc761352-f993-4094-9a51-cff810b79437",
+    "PolicyID": "be5c9acc-5260-44ee-9df9-d2327f8cd873",
+    "EffectiveDates": {
+        "StartDate": "2024-01-09",
+        "EndDate": "2025-01-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "020fbe7b-4bad-4c2a-ba55-6bdf5ac6c54b",
+        "Name": "Justin Taylor",
+        "PolicyNumber": "be5c9acc-5260-44ee-9df9-d2327f8cd873",
+        "ContactInformation": {
+            "Phone": "461-393-9045",
+            "Email": "martinezchristopher@example.net",
+            "Address": "PSC 3705, Box 7902\nAPO AP 46236"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-08",
+        "Location": "27405 James Rapid Apt. 915\nRyanstad, GU 76110",
+        "Description": "Staff job order child. Red politics standard whom month the ok. Anyone past since stock true thank. Add tax character sell clear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18800
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11961
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 45211
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4482
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2275
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 181254,
+        "TotalApproved": 92098
+    },
+    "AdjusterDetails": {
+        "Name": "Samuel Ramirez",
+        "ContactInformation": {
+            "Phone": "(530)706-3583",
+            "Email": "xorozco@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/33e80e0e-305f-499a-b747-8fc1ca6cc75b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

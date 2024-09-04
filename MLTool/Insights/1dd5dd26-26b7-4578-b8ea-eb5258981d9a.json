@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1dd5dd26-26b7-4578-b8ea-eb5258981d9a",
+    "PolicyID": "18828acb-466e-46a7-bc4c-4e63b98d0b61",
+    "EffectiveDates": {
+        "StartDate": "2023-11-27",
+        "EndDate": "2024-11-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bdf694c5-e7ed-4fbb-b8c4-3a3c265b2f7a",
+        "Name": "Bruce Wilson",
+        "PolicyNumber": "18828acb-466e-46a7-bc4c-4e63b98d0b61",
+        "ContactInformation": {
+            "Phone": "001-437-553-6125x7577",
+            "Email": "zwilson@example.com",
+            "Address": "2388 Lutz Plains Suite 339\nGonzalezberg, NM 23684"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-21",
+        "Location": "335 Michael Roads Suite 361\nWest Nathan, OK 89783",
+        "Description": "Attack anyone hotel know edge person chance. Now Congress particular industry meeting brother. Political itself it east notice morning six."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 78351
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5225
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7348
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3028
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12200
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 22862,
+        "TotalApproved": 1383
+    },
+    "AdjusterDetails": {
+        "Name": "Tonya Wyatt",
+        "ContactInformation": {
+            "Phone": "+1-517-617-3771x06393",
+            "Email": "dawn41@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f9e07a65-d729-4c1f-bdc3-4f07e1c740b9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-02T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

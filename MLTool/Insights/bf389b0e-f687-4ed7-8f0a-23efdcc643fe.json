@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bf389b0e-f687-4ed7-8f0a-23efdcc643fe",
+    "PolicyID": "a9b7d234-3bb7-41c0-bb29-414c41c10e9c",
+    "EffectiveDates": {
+        "StartDate": "2024-07-05",
+        "EndDate": "2025-07-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "09ec3fc1-a63e-40c4-a5b5-2a52e32c8188",
+        "Name": "Karen Jacobs",
+        "PolicyNumber": "a9b7d234-3bb7-41c0-bb29-414c41c10e9c",
+        "ContactInformation": {
+            "Phone": "264.510.3999",
+            "Email": "katie62@example.org",
+            "Address": "016 Brianna Circle Suite 677\nNew Rachelmouth, MT 18153"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-07",
+        "Location": "66780 Robin Centers Apt. 621\nJessicaton, ME 19909",
+        "Description": "Explain clearly find example. Home leg do rich blue. Speak store although will per. Somebody management place.\nExpert sometimes so soldier. Style above cut suggest size hundred."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16215
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16211
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 149884
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14829
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12284
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 28555,
+        "TotalApproved": 7297
+    },
+    "AdjusterDetails": {
+        "Name": "Courtney Johnson",
+        "ContactInformation": {
+            "Phone": "001-499-490-6298x1085",
+            "Email": "xmorrow@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/af9c9f8a-058e-42bd-b188-3d8d5b604de5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-07T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-12T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-17T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4ad8d18b-8edf-4e26-b8b5-4dde309ed6e1",
+    "PolicyID": "eb0a9794-29cb-467f-96ee-207e4686e4d9",
+    "EffectiveDates": {
+        "StartDate": "2024-06-20",
+        "EndDate": "2025-06-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ccd0a63c-b1b5-4290-9d2a-ecdd6576343a",
+        "Name": "Samuel Conner",
+        "PolicyNumber": "eb0a9794-29cb-467f-96ee-207e4686e4d9",
+        "ContactInformation": {
+            "Phone": "873.474.7531x4765",
+            "Email": "johnmendez@example.com",
+            "Address": "49679 James Ridge Suite 107\nThomasmouth, NH 35299"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-12",
+        "Location": "032 Travis Village\nWest Matthewstad, AL 21399",
+        "Description": "Leader account charge actually prepare physical couple blood. Tree race all make. Window prevent during.\nTravel seek range follow total too. Should reach look blue trouble."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 101446
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46625
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10370
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3936
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5854
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 47818,
+        "TotalApproved": 16318
+    },
+    "AdjusterDetails": {
+        "Name": "James Torres",
+        "ContactInformation": {
+            "Phone": "001-822-657-8972x554",
+            "Email": "christopher56@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/405472f2-454f-47ea-9450-0663a6182298"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

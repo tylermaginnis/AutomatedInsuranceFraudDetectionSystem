@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9693912f-ed42-4775-9fbe-6c3206d7429b",
+  "PolicyID": "4c048fd3-2299-4593-ae67-e0b601ddb3a5",
+  "EffectiveDates": {
+    "StartDate": "2023-09-09",
+    "EndDate": "2024-09-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8f7e5718-27f1-4e9c-956c-c23c68a14af0",
+    "Name": "Robert Haley",
+    "PolicyNumber": "4c048fd3-2299-4593-ae67-e0b601ddb3a5",
+    "ContactInformation": {
+      "Phone": "465-358-1294x7740",
+      "Email": "robynbarnes@example.com",
+      "Address": "5469 Roth Light Suite 061\nNorth Arthur, OR 81666"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-31",
+    "Location": "USNV Mercer\nFPO AA 97625",
+    "Description": "Remember player late sell sea own first. Control finish computer. Establish there size stuff high."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 29062
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 30052
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 19165
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 4279
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 85398
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 66456,
+    "TotalApproved": 5167
+  },
+  "AdjusterDetails": {
+    "Name": "Steven Chavez",
+    "ContactInformation": {
+      "Phone": "380.541.9278x73987",
+      "Email": "heatherbullock@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/f33ee66c-9b3c-4329-ad0d-129450b8b5ae"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-31T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-05T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-10T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4f0e11c7-e91e-4b3c-985c-fd1fd363d727",
+    "PolicyID": "c413de19-d731-4975-b340-e32b7216ba0b",
+    "EffectiveDates": {
+        "StartDate": "2024-08-26",
+        "EndDate": "2025-08-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b33a61b1-66d7-42d2-b4fa-bf833c45e1e0",
+        "Name": "Cynthia Cantu",
+        "PolicyNumber": "c413de19-d731-4975-b340-e32b7216ba0b",
+        "ContactInformation": {
+            "Phone": "(442)646-8718x93074",
+            "Email": "eayala@example.net",
+            "Address": "Unit 3468 Box 9034\nDPO AP 88619"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-07",
+        "Location": "17383 Eric Lake\nNew Nicolemouth, HI 01915",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 94802
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48706
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5032
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27404
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16283
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 192227,
+        "TotalApproved": 39540
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Rhodes",
+        "ContactInformation": {
+            "Phone": "(918)676-2464",
+            "Email": "rodriguezjacob@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/37683367-485e-4b0f-b79a-358fcd04b4f6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-07T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-12T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-17T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

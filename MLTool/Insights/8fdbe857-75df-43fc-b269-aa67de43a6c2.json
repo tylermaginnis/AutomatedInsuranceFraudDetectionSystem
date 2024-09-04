@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8fdbe857-75df-43fc-b269-aa67de43a6c2",
+    "PolicyID": "2bfa031d-8186-4535-818b-0cc84528f81a",
+    "EffectiveDates": {
+        "StartDate": "2024-06-01",
+        "EndDate": "2025-06-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "48e14176-f409-446b-a379-6045767b68ff",
+        "Name": "Andres Hines",
+        "PolicyNumber": "2bfa031d-8186-4535-818b-0cc84528f81a",
+        "ContactInformation": {
+            "Phone": "001-799-640-4189x2956",
+            "Email": "markkelly@example.net",
+            "Address": "909 Wilson Ville Apt. 998\nLake Susan, ND 83182"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-10",
+        "Location": "1889 Fowler Place\nPort Daniel, MS 37914",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 97369
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21574
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9223
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18437
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7994
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154597,
+        "TotalApproved": 46783
+    },
+    "AdjusterDetails": {
+        "Name": "Dylan Smith",
+        "ContactInformation": {
+            "Phone": "373.924.5424x645",
+            "Email": "fwalker@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/77c00dc7-d3c3-4a37-94dd-4ede377018da"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-10T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-15T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-20T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

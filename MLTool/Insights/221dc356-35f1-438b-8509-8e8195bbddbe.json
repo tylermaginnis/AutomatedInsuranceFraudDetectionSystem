@@ -1,0 +1,81 @@
+{
+    "ClaimID": "221dc356-35f1-438b-8509-8e8195bbddbe",
+    "PolicyID": "f9dd3b9e-0115-476b-a989-03e500419096",
+    "EffectiveDates": {
+        "StartDate": "2024-05-15",
+        "EndDate": "2025-05-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "338ce921-04a7-4949-99ec-a637c0113f4a",
+        "Name": "Lisa Jones",
+        "PolicyNumber": "f9dd3b9e-0115-476b-a989-03e500419096",
+        "ContactInformation": {
+            "Phone": "(678)363-3415x5042",
+            "Email": "benjaminbauer@example.net",
+            "Address": "00779 Thomas Forge\nAnthonyborough, PA 06395"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-20",
+        "Location": "5815 Dominguez Corners Suite 967\nLarrytown, MD 23213",
+        "Description": "Attack free kitchen production condition. Fine manager believe away nearly debate reveal.\nAlready air even yeah. Not personal than vote culture determine over."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 51604
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9062
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 124058
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6870
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9485
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 50167,
+        "TotalApproved": 13722
+    },
+    "AdjusterDetails": {
+        "Name": "Barbara Cabrera",
+        "ContactInformation": {
+            "Phone": "(767)810-7969",
+            "Email": "cristina01@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0e42523d-754f-4f63-8cb0-54bd3ade0d6b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-20T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-25T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-30T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

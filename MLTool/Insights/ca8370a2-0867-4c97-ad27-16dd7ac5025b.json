@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca8370a2-0867-4c97-ad27-16dd7ac5025b",
+    "PolicyID": "df6074fe-d8bb-4bbb-bfa7-bdb3ab6df2ec",
+    "EffectiveDates": {
+        "StartDate": "2024-08-21",
+        "EndDate": "2025-08-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c7cc7114-6585-43b7-bda4-f2ec8de4f65f",
+        "Name": "Ana Weeks",
+        "PolicyNumber": "df6074fe-d8bb-4bbb-bfa7-bdb3ab6df2ec",
+        "ContactInformation": {
+            "Phone": "001-655-720-3674",
+            "Email": "brianberry@example.com",
+            "Address": "44492 Thompson Brook Suite 148\nSimpsonstad, MS 79777"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-03",
+        "Location": "1596 Calvin Harbors\nReneeview, WV 03260",
+        "Description": "Source for partner culture action similar. Chair word suddenly begin grow. Road never director which really."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 65902
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37498
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20531
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8298
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3454
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 117786,
+        "TotalApproved": 72554
+    },
+    "AdjusterDetails": {
+        "Name": "Heather Ball",
+        "ContactInformation": {
+            "Phone": "4208067780",
+            "Email": "cooperjustin@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b281bb3c-cf7c-4e17-8b8c-3405d68d5879"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-03T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-08T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-13T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

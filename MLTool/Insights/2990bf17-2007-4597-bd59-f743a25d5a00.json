@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2990bf17-2007-4597-bd59-f743a25d5a00",
+    "PolicyID": "4a4ac7ba-5154-42a1-9199-e94ee611beba",
+    "EffectiveDates": {
+        "StartDate": "2024-07-01",
+        "EndDate": "2025-07-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "92c5478b-5856-479a-a271-758edd43ffaf",
+        "Name": "Emily Copeland",
+        "PolicyNumber": "4a4ac7ba-5154-42a1-9199-e94ee611beba",
+        "ContactInformation": {
+            "Phone": "731-533-5431x2217",
+            "Email": "lori79@example.org",
+            "Address": "Unit 3019 Box 0877\nDPO AP 94333"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-13",
+        "Location": "67115 Lowery Rest\nVillegasburgh, AL 42655",
+        "Description": "Here management name buy. Up item and per standard. Thing night two next.\nToday own key door small hope around break. Should worry test."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 69628
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12097
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7218
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43920
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2896
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 35620,
+        "TotalApproved": 9147
+    },
+    "AdjusterDetails": {
+        "Name": "Dr. Elizabeth Jones",
+        "ContactInformation": {
+            "Phone": "(915)432-5272",
+            "Email": "bryan65@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4def0f4b-aa3a-4f79-b0f2-f2b8de674b89"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

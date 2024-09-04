@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5e3b9895-d2d1-43cc-8190-71529378eebe",
+    "PolicyID": "ba448e61-193c-4d97-9b2d-f9037ee6569c",
+    "EffectiveDates": {
+        "StartDate": "2024-08-24",
+        "EndDate": "2025-08-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bab91437-b144-4c11-a1ca-71c08c2e0492",
+        "Name": "Carol Martin",
+        "PolicyNumber": "ba448e61-193c-4d97-9b2d-f9037ee6569c",
+        "ContactInformation": {
+            "Phone": "+1-564-878-1170x4434",
+            "Email": "thomasnguyen@example.net",
+            "Address": "758 Reynolds Forge\nHayesborough, MA 10751"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-25",
+        "Location": "517 John Manor Apt. 399\nBrownmouth, KS 92512",
+        "Description": "Health law likely oil ever order. Fine too from this last rather open. Back by mother although point election."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5836
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3424
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1858
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9199
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 87800
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 156090,
+        "TotalApproved": 127334
+    },
+    "AdjusterDetails": {
+        "Name": "Sandy Guerra",
+        "ContactInformation": {
+            "Phone": "(505)807-6966",
+            "Email": "jonesfrancis@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e33317dd-ab63-4a98-b460-fdde9e940ab7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-25T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-30T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-04T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

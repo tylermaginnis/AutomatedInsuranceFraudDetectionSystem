@@ -1,0 +1,81 @@
+{
+    "ClaimID": "351f5b43-cd42-42c5-b11d-d1a289dbf1f2",
+    "PolicyID": "2b42239e-284b-454c-a218-dc20d680a645",
+    "EffectiveDates": {
+        "StartDate": "2024-08-20",
+        "EndDate": "2025-08-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5df48e58-3af3-4693-9c4f-82e0d6c803da",
+        "Name": "Michael Blake",
+        "PolicyNumber": "2b42239e-284b-454c-a218-dc20d680a645",
+        "ContactInformation": {
+            "Phone": "+1-804-965-1004x33455",
+            "Email": "erikalawrence@example.net",
+            "Address": "6988 Rhonda Stravenue\nJohnsonview, CT 49322"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-28",
+        "Location": "014 Benson Garden Suite 069\nSarastad, DE 16040",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 77007
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26742
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8963
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12774
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11447
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 136933,
+        "TotalApproved": 104157
+    },
+    "AdjusterDetails": {
+        "Name": "Alicia Knight",
+        "ContactInformation": {
+            "Phone": "765.343.6522x3892",
+            "Email": "garrettkristi@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ac4856aa-fa14-4d73-9eb3-2e12323e8e44"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

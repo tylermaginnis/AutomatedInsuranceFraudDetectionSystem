@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a561ac09-985f-434e-b8dd-ad5fe8dc0ce1",
+    "PolicyID": "d5a7df7c-1c2b-43d9-a66d-c0d7ea8d7d1c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-13",
+        "EndDate": "2025-05-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b213bbee-8910-4069-8e71-01490935ee8c",
+        "Name": "Jessica Barrett",
+        "PolicyNumber": "d5a7df7c-1c2b-43d9-a66d-c0d7ea8d7d1c",
+        "ContactInformation": {
+            "Phone": "820.597.1819",
+            "Email": "dmiles@example.org",
+            "Address": "20723 Pena Spur Apt. 207\nNew John, WV 65022"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-20",
+        "Location": "518 Leonard Rest Suite 850\nEast Robert, DE 14700",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79391
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41639
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8351
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12810
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16351
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 158542,
+        "TotalApproved": 94456
+    },
+    "AdjusterDetails": {
+        "Name": "Amber Ramos",
+        "ContactInformation": {
+            "Phone": "(244)717-0935",
+            "Email": "ihayes@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/639dbf92-b7ca-4920-bad6-eb513b4c4c62"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-20T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-25T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-30T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

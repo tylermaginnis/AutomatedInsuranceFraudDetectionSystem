@@ -1,0 +1,81 @@
+{
+    "ClaimID": "256bcf31-622b-4e70-976a-332a512e1f09",
+    "PolicyID": "47b1cb84-657b-4232-9b1b-cce0ce402ab8",
+    "EffectiveDates": {
+        "StartDate": "2024-06-28",
+        "EndDate": "2025-06-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c8f51a6b-e764-4182-8946-6d907a276c6b",
+        "Name": "Bryan Rodriguez",
+        "PolicyNumber": "47b1cb84-657b-4232-9b1b-cce0ce402ab8",
+        "ContactInformation": {
+            "Phone": "927-238-4586x77469",
+            "Email": "zdominguez@example.org",
+            "Address": "26226 Jackson Crest Apt. 334\nEast Jennifer, CO 83506"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-03",
+        "Location": "443 Patricia Pines\nSouth Laura, NC 48825",
+        "Description": "Himself resource care assume seem lose. Visit include student.\nTry radio store space. Pass sign word worker office all moment purpose. Show her environmental because third term."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 157351
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 67009
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49970
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6956
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6459
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 75658,
+        "TotalApproved": 25332
+    },
+    "AdjusterDetails": {
+        "Name": "Benjamin Peters",
+        "ContactInformation": {
+            "Phone": "(691)353-5345x45761",
+            "Email": "nathanwilliams@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a3a0c537-85d0-4f3b-bda2-a0de6339d9c4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

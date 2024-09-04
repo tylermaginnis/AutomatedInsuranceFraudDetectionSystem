@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2e52a8ec-4e84-4776-8c7b-79cebf0d23bd",
+  "PolicyID": "d0f4891c-1016-45b1-8a45-13410f84dc27",
+  "EffectiveDates": {
+    "StartDate": "2023-12-21",
+    "EndDate": "2024-12-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "01f2ab37-dd25-4bb9-be00-6c52e71b0ed5",
+    "Name": "Linda Johnson",
+    "PolicyNumber": "d0f4891c-1016-45b1-8a45-13410f84dc27",
+    "ContactInformation": {
+      "Phone": "001-979-971-3344x935",
+      "Email": "williamsjulie@example.com",
+      "Address": "7547 Le Hollow Suite 241\nAlexanderfurt, NC 34095"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-28",
+    "Location": "13677 Williams Roads\nCrystalstad, AK 16948",
+    "Description": "Test thing lead today tell behavior. Back computer consumer upon data brother. During without eat can."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 60273
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 108633
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 75718
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7474
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2100
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 167173,
+    "TotalApproved": 70501
+  },
+  "AdjusterDetails": {
+    "Name": "Troy Farrell",
+    "ContactInformation": {
+      "Phone": "(580)398-0798",
+      "Email": "bpotter@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/dcadc1fd-20bf-4de0-b20e-263e6b6af02a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-28T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-02T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-07T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

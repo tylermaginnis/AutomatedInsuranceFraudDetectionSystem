@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9bd4480e-a44a-429a-8a3b-677e74ae1edf",
+    "PolicyID": "3fbf9c9c-06ac-40e5-9b7d-344cf14c9df5",
+    "EffectiveDates": {
+        "StartDate": "2024-02-03",
+        "EndDate": "2025-02-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3b9f8333-344d-4e85-9651-8134af937f9b",
+        "Name": "Amy Marshall",
+        "PolicyNumber": "3fbf9c9c-06ac-40e5-9b7d-344cf14c9df5",
+        "ContactInformation": {
+            "Phone": "922-339-8869x6636",
+            "Email": "michaelgarcia@example.com",
+            "Address": "971 Jordan Loop Suite 567\nScottmouth, MP 90848"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-04",
+        "Location": "466 Samantha Turnpike Suite 532\nNorth Jennifer, KS 55927",
+        "Description": "Contain break pick upon paper. Two maybe force security building truth. Research public deep air speak.\nMarket scientist human. Fear mention buy teach. Culture generation push quickly read."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7849
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3424
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22065
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6466
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 87959
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 140564,
+        "TotalApproved": 130436
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Tran",
+        "ContactInformation": {
+            "Phone": "388-945-2720x186",
+            "Email": "mpatton@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2049116f-3e9b-4f0a-bbe7-e0b82f1afdd3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-04T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-09T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-14T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

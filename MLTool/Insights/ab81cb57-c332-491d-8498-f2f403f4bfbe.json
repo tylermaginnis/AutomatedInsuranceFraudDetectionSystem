@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ab81cb57-c332-491d-8498-f2f403f4bfbe",
+    "PolicyID": "d4404111-d3ef-4aff-9931-8e2c2cb44ada",
+    "EffectiveDates": {
+        "StartDate": "2024-02-21",
+        "EndDate": "2025-02-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4591c2b8-bb10-4f56-94ca-0c3d76fac505",
+        "Name": "Shawna Cross",
+        "PolicyNumber": "d4404111-d3ef-4aff-9931-8e2c2cb44ada",
+        "ContactInformation": {
+            "Phone": "711-246-2898x61390",
+            "Email": "kevinarnold@example.net",
+            "Address": "28675 David Canyon Suite 630\nJaymouth, OK 28314"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-10",
+        "Location": "22217 Johnson Points\nPalmerfort, CO 26709",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 82172
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22512
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7931
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23258
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19579
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 155452,
+        "TotalApproved": 146035
+    },
+    "AdjusterDetails": {
+        "Name": "Susan Atkinson",
+        "ContactInformation": {
+            "Phone": "+1-845-313-4700",
+            "Email": "fitzpatrickmichelle@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/14f8117f-8c2b-4ef7-a16d-3e6bdbb6f8f5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

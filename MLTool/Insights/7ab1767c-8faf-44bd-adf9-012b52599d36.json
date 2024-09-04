@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7ab1767c-8faf-44bd-adf9-012b52599d36",
+    "PolicyID": "69bb7950-9cc9-4084-b0e0-028f3130b888",
+    "EffectiveDates": {
+        "StartDate": "2023-11-13",
+        "EndDate": "2024-11-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c50a986a-3240-4a44-80ed-f2c1c6bb8a22",
+        "Name": "John Valenzuela",
+        "PolicyNumber": "69bb7950-9cc9-4084-b0e0-028f3130b888",
+        "ContactInformation": {
+            "Phone": "2566345235",
+            "Email": "wendycarter@example.net",
+            "Address": "226 Robert Pike\nMooreberg, OH 89058"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "USS Andrade\nFPO AE 67709",
+        "Description": "Property bar tell reflect card first.\nSeat room away blood just north describe ready. Return identify simply thus woman. Seem miss month live hand bit safe."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3911
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44679
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4248
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25423
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10168
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 177719,
+        "TotalApproved": 24707
+    },
+    "AdjusterDetails": {
+        "Name": "Noah Hamilton",
+        "ContactInformation": {
+            "Phone": "(830)437-9687x09504",
+            "Email": "tonypham@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/dc63fb2b-c1fd-48de-a6ce-9c9cf63cc778"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

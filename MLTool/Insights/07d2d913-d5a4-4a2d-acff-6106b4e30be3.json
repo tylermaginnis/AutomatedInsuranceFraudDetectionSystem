@@ -1,0 +1,81 @@
+{
+    "ClaimID": "07d2d913-d5a4-4a2d-acff-6106b4e30be3",
+    "PolicyID": "1654b064-bd69-4152-a4b3-640fff951585",
+    "EffectiveDates": {
+        "StartDate": "2024-06-20",
+        "EndDate": "2025-06-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "48584fb7-5745-4471-9e8e-388c7f04ea44",
+        "Name": "Anthony Roberts",
+        "PolicyNumber": "1654b064-bd69-4152-a4b3-640fff951585",
+        "ContactInformation": {
+            "Phone": "9539510169",
+            "Email": "maryhunter@example.com",
+            "Address": "85207 Eric Park\nRobinsonfort, ME 31356"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-04",
+        "Location": "635 Duarte Plaza\nBowenfort, FM 58078",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 90160
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26233
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6611
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17393
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13785
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154182,
+        "TotalApproved": 44064
+    },
+    "AdjusterDetails": {
+        "Name": "Christian Roach",
+        "ContactInformation": {
+            "Phone": "001-333-415-1633x5465",
+            "Email": "jdean@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5c230146-e8bf-4398-8a75-0b3a197847de"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-04T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-09T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-14T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6511e046-214a-4210-90df-f306edc8137c",
+    "PolicyID": "b64e3666-6b61-4741-aa3e-5568a1b1451e",
+    "EffectiveDates": {
+        "StartDate": "2023-09-29",
+        "EndDate": "2024-09-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fa22cb87-6b53-4b8f-8ca4-1762da79dbda",
+        "Name": "Scott Allen",
+        "PolicyNumber": "b64e3666-6b61-4741-aa3e-5568a1b1451e",
+        "ContactInformation": {
+            "Phone": "+1-514-875-6057x854",
+            "Email": "margaretturner@example.com",
+            "Address": "657 Mary Pines Apt. 744\nVictorborough, OR 26574"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-20",
+        "Location": "7394 Daniel Squares\nLake Rodney, FM 39995",
+        "Description": "Pick write morning several travel play. Science remember who rise several girl off."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25032
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9623
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19491
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12216
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12325
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 51383,
+        "TotalApproved": 26535
+    },
+    "AdjusterDetails": {
+        "Name": "Jose Lopez",
+        "ContactInformation": {
+            "Phone": "(253)378-9219",
+            "Email": "jonathonedwards@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/45498286-5885-4755-b1ec-fff072a67695"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

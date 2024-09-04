@@ -1,0 +1,81 @@
+{
+    "ClaimID": "53b7f41c-5689-474a-9dcd-97489cb23561",
+    "PolicyID": "5ee3a893-b5b1-4af3-b9d7-f3bf377bccd4",
+    "EffectiveDates": {
+        "StartDate": "2023-10-25",
+        "EndDate": "2024-10-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ddde174c-15d1-4711-8686-ee5af5d56a4b",
+        "Name": "Christopher Mcbride",
+        "PolicyNumber": "5ee3a893-b5b1-4af3-b9d7-f3bf377bccd4",
+        "ContactInformation": {
+            "Phone": "948.463.9789",
+            "Email": "adamskeith@example.org",
+            "Address": "22819 Joshua Fall Apt. 239\nRileyton, WA 76259"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-01",
+        "Location": "33772 James Heights\nLake Nicole, AK 08013",
+        "Description": "Ground heart happy allow. Seven force oil pay.\nBaby parent partner friend. Believe agreement product course. Be paper color through.\nItself hour picture. Practice accept peace more nearly throughout."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9530
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7116
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6060
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 74951
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 178533
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 59560,
+        "TotalApproved": 17323
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Fisher",
+        "ContactInformation": {
+            "Phone": "001-631-590-8366x0854",
+            "Email": "michael30@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9374add2-f858-4161-8b9c-903c77ac19e0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

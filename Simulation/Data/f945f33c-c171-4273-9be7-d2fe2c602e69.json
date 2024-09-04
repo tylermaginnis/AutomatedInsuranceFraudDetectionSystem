@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f945f33c-c171-4273-9be7-d2fe2c602e69",
+  "PolicyID": "4283d505-6435-4537-900b-04f3fe5d6245",
+  "EffectiveDates": {
+    "StartDate": "2024-08-08",
+    "EndDate": "2025-08-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "88d75284-e11a-40b7-b44a-dbe4ced996a5",
+    "Name": "Alec Terrell",
+    "PolicyNumber": "4283d505-6435-4537-900b-04f3fe5d6245",
+    "ContactInformation": {
+      "Phone": "7637615315",
+      "Email": "tinachristian@example.org",
+      "Address": "136 William Throughway\nBrandonton, MI 21560"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-25",
+    "Location": "5175 Robert Track\nNorth Davidtown, WA 31086",
+    "Description": "They station nor agreement crime. Light reality student.\nLeave toward child tree see. Decide star account light."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5877
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 119819
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1677
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 45370
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 19208
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 23531,
+    "TotalApproved": 18614
+  },
+  "AdjusterDetails": {
+    "Name": "Carla Nelson",
+    "ContactInformation": {
+      "Phone": "719.586.7829x55049",
+      "Email": "cassandracoleman@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/bafa7b6f-69df-4487-b017-fd3f93e3be96"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-25T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-30T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-04T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

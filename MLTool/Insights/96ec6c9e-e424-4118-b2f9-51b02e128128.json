@@ -1,0 +1,81 @@
+{
+    "ClaimID": "96ec6c9e-e424-4118-b2f9-51b02e128128",
+    "PolicyID": "a10ffec5-a1e0-4125-8b2c-cf11d778b661",
+    "EffectiveDates": {
+        "StartDate": "2024-01-22",
+        "EndDate": "2025-01-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "818146b3-6556-41ee-9c14-14e089aee195",
+        "Name": "Amy Atkins",
+        "PolicyNumber": "a10ffec5-a1e0-4125-8b2c-cf11d778b661",
+        "ContactInformation": {
+            "Phone": "+1-510-906-6911x719",
+            "Email": "john30@example.com",
+            "Address": "35918 Schroeder Cliff\nErikbury, VA 96257"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-22",
+        "Location": "58507 Karen Alley Apt. 074\nLake Jennifer, KS 84700",
+        "Description": "Within hear size quickly song. Me western movie catch never story wish mind. Above tonight number down cost well Mrs."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46220
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7165
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23120
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 85042
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15124
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 13475,
+        "TotalApproved": 10181
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Daniel",
+        "ContactInformation": {
+            "Phone": "(606)999-9192x6722",
+            "Email": "rpacheco@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ee98c685-05d4-462c-944b-29546287c3a3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-22T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-27T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

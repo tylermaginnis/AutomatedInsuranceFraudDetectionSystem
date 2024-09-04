@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f543035a-fd15-4a8b-bc0f-5aefdfafbfd7",
+    "PolicyID": "25933f48-8942-41ff-9a03-374b19ea9c5d",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f167f3b1-5901-4b40-901c-dcc1bab18b7b",
+        "Name": "Christopher Simpson",
+        "PolicyNumber": "25933f48-8942-41ff-9a03-374b19ea9c5d",
+        "ContactInformation": {
+            "Phone": "(705)575-8077",
+            "Email": "angelajames@example.net",
+            "Address": "03757 Kari Crescent\nJimport, UT 49954"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-28",
+        "Location": "32910 Rivers Island\nWendymouth, ND 23798",
+        "Description": "Cell reveal provide trial inside mean deep. Know fine free whatever interest center sport. Newspaper guy see anyone."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3212
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8366
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33137
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4360
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8207
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 155235,
+        "TotalApproved": 4227
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Susan Martinez",
+        "ContactInformation": {
+            "Phone": "001-500-396-9663x63457",
+            "Email": "victorgonzales@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/eb2ce931-63e6-4557-ab14-eeb5b7222831"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-28T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-03T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-08T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

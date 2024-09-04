@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d2ea1795-db20-4b0b-88b0-9bc58d667e27",
+    "PolicyID": "b4a80e49-f5fd-4c56-9d66-23c25aea720c",
+    "EffectiveDates": {
+        "StartDate": "2024-02-04",
+        "EndDate": "2025-02-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9321bdb9-ae69-4025-8238-39c9e13fdc18",
+        "Name": "Edgar Camacho",
+        "PolicyNumber": "b4a80e49-f5fd-4c56-9d66-23c25aea720c",
+        "ContactInformation": {
+            "Phone": "4126420915",
+            "Email": "laurenvasquez@example.com",
+            "Address": "9047 Emily Garden Suite 626\nMichellefurt, IN 89613"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-08",
+        "Location": "8298 Sarah Cape Suite 853\nNew Cheryl, VI 31060",
+        "Description": "Future senior edge executive. Guess together social coach doctor specific decade."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7112
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29661
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3660
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8570
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 61175
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 115171,
+        "TotalApproved": 73088
+    },
+    "AdjusterDetails": {
+        "Name": "John Foster",
+        "ContactInformation": {
+            "Phone": "242-526-8018",
+            "Email": "gonzalezrobert@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6b6ba1bf-949e-4530-b5ba-257ac0031337"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

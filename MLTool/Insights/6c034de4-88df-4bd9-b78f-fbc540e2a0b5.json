@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6c034de4-88df-4bd9-b78f-fbc540e2a0b5",
+    "PolicyID": "62cd4d1e-4d79-40c7-a21b-33f74905842f",
+    "EffectiveDates": {
+        "StartDate": "2023-11-27",
+        "EndDate": "2024-11-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "47087ebf-ef83-4b3e-8080-c33b190c0009",
+        "Name": "Curtis Valdez",
+        "PolicyNumber": "62cd4d1e-4d79-40c7-a21b-33f74905842f",
+        "ContactInformation": {
+            "Phone": "349-857-1869",
+            "Email": "huberaustin@example.org",
+            "Address": "15524 Susan Extension Suite 843\nLake Rickfort, NE 73100"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-28",
+        "Location": "0668 Tonya Grove Suite 689\nNorrisborough, VA 75496",
+        "Description": "Energy already word real everybody indeed. Let cultural anything mind American instead. Box will fire shake drug financial individual."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9620
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2293
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8013
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38034
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15903
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 80182,
+        "TotalApproved": 57732
+    },
+    "AdjusterDetails": {
+        "Name": "Carmen Salinas",
+        "ContactInformation": {
+            "Phone": "(200)328-8786",
+            "Email": "raymondblack@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6736b98e-54c6-40f7-bd54-9fa75d5bd592"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-28T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-02T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-07T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

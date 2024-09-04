@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4d6fd982-dfed-4de8-93f3-ca954c86e6b1",
+    "PolicyID": "e3d23889-f70f-4095-b9d3-93ab2304cbd0",
+    "EffectiveDates": {
+        "StartDate": "2023-09-23",
+        "EndDate": "2024-09-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2c747bfc-b534-4844-b97e-49bf33075e7a",
+        "Name": "Lisa Rivera",
+        "PolicyNumber": "e3d23889-f70f-4095-b9d3-93ab2304cbd0",
+        "ContactInformation": {
+            "Phone": "(502)574-9375x0358",
+            "Email": "valenzueladonald@example.com",
+            "Address": "USS Long\nFPO AP 35257"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-26",
+        "Location": "PSC 3612, Box 1084\nAPO AP 94556",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 52418
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 22931
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5738
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13719
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14602
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 109408,
+        "TotalApproved": 10872
+    },
+    "AdjusterDetails": {
+        "Name": "James Hall",
+        "ContactInformation": {
+            "Phone": "001-965-585-3683",
+            "Email": "xstewart@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/75a7647b-3ffc-490d-aaa5-7b286c23d786"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-31T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

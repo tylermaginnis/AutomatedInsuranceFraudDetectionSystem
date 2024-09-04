@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7d0da8b0-c7fb-4551-9586-38297bf51717",
+  "PolicyID": "1b5ae8e5-0a4c-4dc0-ba02-5e91802957bf",
+  "EffectiveDates": {
+    "StartDate": "2023-12-16",
+    "EndDate": "2024-12-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "acea07fe-f8cb-47a2-814d-27d792e8e3cb",
+    "Name": "Kevin Zuniga",
+    "PolicyNumber": "1b5ae8e5-0a4c-4dc0-ba02-5e91802957bf",
+    "ContactInformation": {
+      "Phone": "001-272-849-6321x70040",
+      "Email": "robbinsrichard@example.net",
+      "Address": "281 Jones Gateway\nWest Amyshire, ND 13633"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-03",
+    "Location": "635 Gonzalez Freeway Apt. 408\nTatefurt, MH 01026",
+    "Description": "Chance everybody over hour accept its may. Apply agree difficult.\nForeign water safe enough than consider. Care system east still father possible purpose. Hundred cultural despite blue sort."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13239
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10772
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9597
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 41330
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2524
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 153466,
+    "TotalApproved": 18639
+  },
+  "AdjusterDetails": {
+    "Name": "Tanya Williams",
+    "ContactInformation": {
+      "Phone": "+1-851-240-5141x01343",
+      "Email": "huynhbrian@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/b6eef17b-f92f-4c5c-befa-5a634af5dd3b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-03T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-08T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-13T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

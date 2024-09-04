@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d4262523-8733-42fa-adff-9c7efe0e0058",
+    "PolicyID": "3a521f69-a364-4ed6-a0a7-d933bebac0e6",
+    "EffectiveDates": {
+        "StartDate": "2024-06-12",
+        "EndDate": "2025-06-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "87283809-08fe-4549-98ae-2298bff42072",
+        "Name": "Dr. Erik Johnson PhD",
+        "PolicyNumber": "3a521f69-a364-4ed6-a0a7-d933bebac0e6",
+        "ContactInformation": {
+            "Phone": "(379)483-7540x11712",
+            "Email": "rachelgreer@example.com",
+            "Address": "69844 Anthony Harbor Apt. 569\nWellsfort, CT 08748"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-06",
+        "Location": "07414 Justin River Suite 757\nNew Nathanville, WA 61818",
+        "Description": "Military situation seven color night.\nBoy second break care during whom yourself. Every see change record seem foot only. Bed information current especially ask whether finish."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13559
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24414
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2530
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1331
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4618
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 139628,
+        "TotalApproved": 49609
+    },
+    "AdjusterDetails": {
+        "Name": "Holly Fitzgerald",
+        "ContactInformation": {
+            "Phone": "001-282-724-1315x481",
+            "Email": "james66@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5f1b332b-954f-44d9-a6b4-28a070088a1d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "607f5fbc-859b-44aa-9f0d-15735f4a40a7",
+    "PolicyID": "4033f743-8196-47ec-bf03-d3a758cc7a75",
+    "EffectiveDates": {
+        "StartDate": "2023-11-22",
+        "EndDate": "2024-11-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "611e724b-629b-4b99-b748-edc8d76e27cc",
+        "Name": "Tara Duncan",
+        "PolicyNumber": "4033f743-8196-47ec-bf03-d3a758cc7a75",
+        "ContactInformation": {
+            "Phone": "(805)512-2955x4920",
+            "Email": "jessicaking@example.org",
+            "Address": "99167 Abigail Burgs\nPerkinshaven, MS 01592"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-22",
+        "Location": "698 Harper Inlet\nLeslieburgh, FL 65051",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 84997
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34866
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8147
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11841
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9929
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 149780,
+        "TotalApproved": 139878
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Conway",
+        "ContactInformation": {
+            "Phone": "001-747-647-1795",
+            "Email": "jillpeters@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d4fc75bd-22cd-47bc-8137-fb2364835883"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-22T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-27T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-02T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

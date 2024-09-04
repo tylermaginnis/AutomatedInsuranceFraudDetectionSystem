@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3d2b6899-68bb-4f26-8c7b-ffd7efe0f587",
+    "PolicyID": "f195a3b2-9d09-4760-bf5a-305b799b5326",
+    "EffectiveDates": {
+        "StartDate": "2024-01-23",
+        "EndDate": "2025-01-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "378f97cb-2a3e-42c5-9a63-cd27e33f930b",
+        "Name": "Crystal Saunders DVM",
+        "PolicyNumber": "f195a3b2-9d09-4760-bf5a-305b799b5326",
+        "ContactInformation": {
+            "Phone": "727-915-8316x0452",
+            "Email": "kimberlystanley@example.net",
+            "Address": "44713 Nathan Lake\nJohnview, WV 57741"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-19",
+        "Location": "73886 Friedman Rest Apt. 729\nEast Amber, FM 44549",
+        "Description": "Glass none response. Choice training job let. Lead respond bit idea media.\nStock meeting too ask stop detail. High response success commercial."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19418
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8504
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28087
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 50105
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5740
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 126320,
+        "TotalApproved": 72615
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Collins",
+        "ContactInformation": {
+            "Phone": "921-791-5825x8746",
+            "Email": "phuang@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/14ac65fb-5449-4545-8c7f-69a58f8bf8fb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-19T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-24T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-29T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

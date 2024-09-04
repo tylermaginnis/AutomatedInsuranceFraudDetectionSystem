@@ -1,0 +1,81 @@
+{
+    "ClaimID": "979a3018-c452-49e5-82f1-8f915e415789",
+    "PolicyID": "b7eb36ef-5c63-4b23-8fb9-fbd8974e1d13",
+    "EffectiveDates": {
+        "StartDate": "2024-04-29",
+        "EndDate": "2025-04-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "704a2177-273a-4e00-9bec-0cb8e22aec88",
+        "Name": "Natalie Murphy",
+        "PolicyNumber": "b7eb36ef-5c63-4b23-8fb9-fbd8974e1d13",
+        "ContactInformation": {
+            "Phone": "8313621981",
+            "Email": "huntjoshua@example.com",
+            "Address": "991 Margaret Road Suite 670\nLake Johnfort, AL 92830"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "38232 Rowe Meadows\nPort Shirley, ND 65916",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 73556
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 43794
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7057
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10186
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5277
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 139870,
+        "TotalApproved": 18151
+    },
+    "AdjusterDetails": {
+        "Name": "Richard Burke",
+        "ContactInformation": {
+            "Phone": "001-933-588-9939x7729",
+            "Email": "jameshamilton@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/05127572-9333-4c36-a023-b319acdf49df"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

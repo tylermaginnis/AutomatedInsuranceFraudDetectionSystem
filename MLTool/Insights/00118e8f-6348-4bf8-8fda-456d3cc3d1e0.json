@@ -1,0 +1,81 @@
+{
+    "ClaimID": "00118e8f-6348-4bf8-8fda-456d3cc3d1e0",
+    "PolicyID": "b8491aeb-dc99-40a4-a327-d26f0c74b58c",
+    "EffectiveDates": {
+        "StartDate": "2023-12-23",
+        "EndDate": "2024-12-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1e31daad-e69c-4f5f-9d9f-9e2c19a29ac9",
+        "Name": "Virginia Randall",
+        "PolicyNumber": "b8491aeb-dc99-40a4-a327-d26f0c74b58c",
+        "ContactInformation": {
+            "Phone": "(746)777-2660",
+            "Email": "jared06@example.org",
+            "Address": "741 West Forks Apt. 505\nOrrmouth, MH 39105"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-01",
+        "Location": "53221 Chase Row\nDavidville, CO 81562",
+        "Description": "Term commercial world which scene approach issue. Along along cultural whose we. Leg other would leader social."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9401
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4074
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 109626
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2907
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 124037
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 195722,
+        "TotalApproved": 137872
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Lee",
+        "ContactInformation": {
+            "Phone": "+1-626-399-2197x856",
+            "Email": "scott79@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/951223a4-4126-468e-a5f6-01c2424272a1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-01T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-06T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-11T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

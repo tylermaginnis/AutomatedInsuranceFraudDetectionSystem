@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3a35b3d8-7f78-43d9-96ba-b486241e64cb",
+    "PolicyID": "9d7de23d-7b5f-426c-8ad5-5e0b242ab7ee",
+    "EffectiveDates": {
+        "StartDate": "2024-05-16",
+        "EndDate": "2025-05-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "800f94ab-dccb-47a8-8985-f1823e573bcb",
+        "Name": "Judy Miles",
+        "PolicyNumber": "9d7de23d-7b5f-426c-8ad5-5e0b242ab7ee",
+        "ContactInformation": {
+            "Phone": "966.401.2185x067",
+            "Email": "kevinpeterson@example.com",
+            "Address": "20823 Sims Row\nReidview, UT 64664"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-19",
+        "Location": "301 Nicole Ports Suite 940\nNew Courtneyfort, IN 18909",
+        "Description": "Cause cold stuff sing try such. Individual five among interesting say agreement red worker. Agree best training discussion soldier save."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46868
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 66981
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7448
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9982
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 74378
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 148001,
+        "TotalApproved": 3500
+    },
+    "AdjusterDetails": {
+        "Name": "John Gutierrez",
+        "ContactInformation": {
+            "Phone": "(420)879-0338x727",
+            "Email": "beckysullivan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8d7f844e-30af-4949-bff3-f68f4e829d39"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-19T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-24T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-29T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

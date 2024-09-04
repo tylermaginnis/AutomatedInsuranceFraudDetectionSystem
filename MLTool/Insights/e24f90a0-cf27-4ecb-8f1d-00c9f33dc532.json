@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e24f90a0-cf27-4ecb-8f1d-00c9f33dc532",
+    "PolicyID": "29f489f0-b3f2-4d87-ba58-d47e9df28c64",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "67d101b1-5f4a-4e49-900f-f44ed233abdc",
+        "Name": "Patrick Collins",
+        "PolicyNumber": "29f489f0-b3f2-4d87-ba58-d47e9df28c64",
+        "ContactInformation": {
+            "Phone": "(907)552-9344x71907",
+            "Email": "darren15@example.com",
+            "Address": "008 Shane Glen Apt. 585\nPamelaton, IL 87567"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-22",
+        "Location": "32800 Osborne Flats Apt. 173\nHillhaven, NM 11118",
+        "Description": "Test behavior end billion new center. Understand guy would in ask reality parent. Focus strong skill student position.\nDinner also door central. Music kitchen radio news score."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19740
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40192
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 189574
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7048
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 52240
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 44536,
+        "TotalApproved": 5356
+    },
+    "AdjusterDetails": {
+        "Name": "Brianna Jennings",
+        "ContactInformation": {
+            "Phone": "409-767-0781x828",
+            "Email": "mayrichard@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/cc7fb674-a0c0-4366-886e-b2c742d45e78"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

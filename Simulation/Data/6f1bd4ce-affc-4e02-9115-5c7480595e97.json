@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6f1bd4ce-affc-4e02-9115-5c7480595e97",
+  "PolicyID": "5bc4933f-a486-4027-b3a9-56aab83abb7e",
+  "EffectiveDates": {
+    "StartDate": "2024-06-25",
+    "EndDate": "2025-06-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "10b08b00-17b8-4253-9be6-7f5cf8ea7adc",
+    "Name": "Stephen Wolf",
+    "PolicyNumber": "5bc4933f-a486-4027-b3a9-56aab83abb7e",
+    "ContactInformation": {
+      "Phone": "4296514524",
+      "Email": "deniseowens@example.org",
+      "Address": "43813 Moon View\nJeffreychester, AK 60793"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-24",
+    "Location": "5618 Underwood Overpass\nGreenemouth, NH 81148",
+    "Description": "Hospital pick particularly billion throw thousand.\nMean fact build media amount only tough. Outside kid price another individual recent sometimes."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5910
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 91965
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3180
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2056
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 17448
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 25202,
+    "TotalApproved": 1685
+  },
+  "AdjusterDetails": {
+    "Name": "Andrew Davis",
+    "ContactInformation": {
+      "Phone": "914.950.0869",
+      "Email": "tara86@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/2e2ef183-787c-4103-a51b-91ab02efd063"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-24T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-29T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-06-03T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

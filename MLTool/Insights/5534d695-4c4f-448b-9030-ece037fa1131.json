@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5534d695-4c4f-448b-9030-ece037fa1131",
+    "PolicyID": "d8dfd318-9d77-4d8b-8d85-a250fe5a6211",
+    "EffectiveDates": {
+        "StartDate": "2024-01-13",
+        "EndDate": "2025-01-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b6a99680-4413-438f-afe4-6b072f805418",
+        "Name": "Sierra Anderson",
+        "PolicyNumber": "d8dfd318-9d77-4d8b-8d85-a250fe5a6211",
+        "ContactInformation": {
+            "Phone": "(510)602-5340x00120",
+            "Email": "zlopez@example.net",
+            "Address": "2451 Antonio Mill\nCharlesburgh, AS 82479"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-05",
+        "Location": "906 Michael Crescent Suite 373\nLoganborough, CO 48267",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 89869
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40460
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5461
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14388
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10569
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 160747,
+        "TotalApproved": 42275
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Byrd",
+        "ContactInformation": {
+            "Phone": "001-694-209-9769x133",
+            "Email": "eric29@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/54314d1d-5955-4caa-aba1-7133703b5131"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

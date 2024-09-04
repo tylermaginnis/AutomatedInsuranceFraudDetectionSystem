@@ -1,0 +1,81 @@
+{
+    "ClaimID": "80c429ef-d461-453b-9063-1e7305b9e395",
+    "PolicyID": "21534c29-ca5f-4ab7-86a1-d67291921ec0",
+    "EffectiveDates": {
+        "StartDate": "2023-11-09",
+        "EndDate": "2024-11-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e6a62378-9601-42b5-8cce-155ac3fd3359",
+        "Name": "Linda Bell",
+        "PolicyNumber": "21534c29-ca5f-4ab7-86a1-d67291921ec0",
+        "ContactInformation": {
+            "Phone": "671.893.4745",
+            "Email": "tkelly@example.org",
+            "Address": "70955 Perez Fork Apt. 927\nEast Cynthiabury, DE 34951"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-02",
+        "Location": "583 Saunders Estates Suite 741\nWest Michael, PA 43887",
+        "Description": "Thousand with soldier doctor wonder. Moment quite PM just pattern nation start. Forget through music.\nWrite word air number mind move. Once rise high newspaper feel."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4281
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 77203
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 190968
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8153
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 171815
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 77549,
+        "TotalApproved": 46274
+    },
+    "AdjusterDetails": {
+        "Name": "Tristan Greene",
+        "ContactInformation": {
+            "Phone": "560.529.4199x66413",
+            "Email": "ericksonjoseph@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/57cf8b98-0e2a-446a-9055-f694e38b13df"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-02T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-07T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-12T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

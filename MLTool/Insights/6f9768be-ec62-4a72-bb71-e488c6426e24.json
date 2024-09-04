@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6f9768be-ec62-4a72-bb71-e488c6426e24",
+    "PolicyID": "5cca7104-3d04-4ddb-a816-8b403cf6bf79",
+    "EffectiveDates": {
+        "StartDate": "2024-06-07",
+        "EndDate": "2025-06-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9c82af02-e72f-4bcb-a9a3-b73a25e53445",
+        "Name": "Amanda Schwartz",
+        "PolicyNumber": "5cca7104-3d04-4ddb-a816-8b403cf6bf79",
+        "ContactInformation": {
+            "Phone": "+1-936-246-3447",
+            "Email": "shawnhensley@example.com",
+            "Address": "12830 Mcdaniel Village\nNorth Samantha, WV 55397"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-14",
+        "Location": "236 Bonilla Gardens Apt. 182\nLake Leahton, HI 36048",
+        "Description": "Human three Republican rest always cultural main radio. Apply environment they leader."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14445
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5754
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8121
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3044
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 79957
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 104708,
+        "TotalApproved": 50376
+    },
+    "AdjusterDetails": {
+        "Name": "Anne Collins",
+        "ContactInformation": {
+            "Phone": "+1-504-932-8243",
+            "Email": "ryan24@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/77a4f6d8-73de-4379-8eea-3335ea9f203c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

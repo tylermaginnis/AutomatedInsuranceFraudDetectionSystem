@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c72a8cae-7e21-472d-b36c-4c7775306f7e",
+  "PolicyID": "baefcd51-04bf-42a8-a9c2-42ea2638453a",
+  "EffectiveDates": {
+    "StartDate": "2024-03-15",
+    "EndDate": "2025-03-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "dd4001a4-30c3-4af6-ba4b-bc39d9263efe",
+    "Name": "Dennis Jensen",
+    "PolicyNumber": "baefcd51-04bf-42a8-a9c2-42ea2638453a",
+    "ContactInformation": {
+      "Phone": "001-450-540-1159x319",
+      "Email": "bsullivan@example.com",
+      "Address": "604 Wilson Harbor\nSouth Curtisville, UT 18571"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-23",
+    "Location": "940 Joanna Run\nBreannamouth, MD 66280",
+    "Description": "Look agent company decade its value. Detail thousand age traditional recent big crime. Research our everybody only impact."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 21891
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13768
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 60346
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 43341
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 194200
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 44151,
+    "TotalApproved": 43690
+  },
+  "AdjusterDetails": {
+    "Name": "Diane Casey",
+    "ContactInformation": {
+      "Phone": "4478060915",
+      "Email": "jasmine51@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/96897b40-8326-45e0-8d06-030203d8ad4a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-23T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-28T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-02T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

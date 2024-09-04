@@ -1,0 +1,81 @@
+{
+    "ClaimID": "03114aa3-2a51-45fe-9b43-c60b7d2fc5dc",
+    "PolicyID": "5a931b80-e638-4638-ab2d-3a8acbe5186c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-30",
+        "EndDate": "2025-05-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "38f97284-3b55-4af5-b96b-8a8098c04702",
+        "Name": "Emily Martin",
+        "PolicyNumber": "5a931b80-e638-4638-ab2d-3a8acbe5186c",
+        "ContactInformation": {
+            "Phone": "(681)286-9358x1383",
+            "Email": "timothy56@example.com",
+            "Address": "428 Angela Cove\nHeidiside, FL 13876"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "323 King Ford Suite 293\nNew Christopher, CT 10301",
+        "Description": "Candidate same much attention executive half science. Care manage east eye. Service food plant increase great program stuff.\nSoldier plant spring."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5541
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16625
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12562
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6307
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 81935
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 22780,
+        "TotalApproved": 12822
+    },
+    "AdjusterDetails": {
+        "Name": "Larry Saunders",
+        "ContactInformation": {
+            "Phone": "2977958467",
+            "Email": "jamiewright@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9172a4ed-3b0e-4d00-9be3-876812a738e8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

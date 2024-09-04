@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ad575ef9-7ae8-4e3e-9a9e-0e03dd399b1f",
+    "PolicyID": "5d8a5693-376c-4619-870c-a2e626e4c9a0",
+    "EffectiveDates": {
+        "StartDate": "2023-12-25",
+        "EndDate": "2024-12-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "76eb4af6-c9b8-4246-98ad-31dcc55f9f33",
+        "Name": "Jennifer Davis",
+        "PolicyNumber": "5d8a5693-376c-4619-870c-a2e626e4c9a0",
+        "ContactInformation": {
+            "Phone": "909.912.5799",
+            "Email": "paulmarissa@example.net",
+            "Address": "531 Ortega Lodge\nPageton, IL 15156"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-18",
+        "Location": "62549 Lynn Gardens Suite 186\nKingport, UT 30803",
+        "Description": "As could only machine available exist. However piece already admit.\nYoung kind partner animal measure far fact. Show down structure daughter."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 107942
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 194582
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10696
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 70317
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13119
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 58239,
+        "TotalApproved": 8006
+    },
+    "AdjusterDetails": {
+        "Name": "Kendra Diaz",
+        "ContactInformation": {
+            "Phone": "(512)564-5247x14757",
+            "Email": "davidgarner@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e499ca3c-dc7e-405c-a659-74b2fd7b9a3e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-18T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-23T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-28T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

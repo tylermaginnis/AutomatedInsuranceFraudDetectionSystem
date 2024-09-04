@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cdb5e52c-682f-4df5-a9e0-0489f777e6fb",
+    "PolicyID": "3d559647-dfbd-40c1-9e63-307edb47947f",
+    "EffectiveDates": {
+        "StartDate": "2024-07-13",
+        "EndDate": "2025-07-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "60d76b1f-e5c2-40ba-bc94-4a289043dc77",
+        "Name": "Anthony Kennedy",
+        "PolicyNumber": "3d559647-dfbd-40c1-9e63-307edb47947f",
+        "ContactInformation": {
+            "Phone": "001-441-853-5686",
+            "Email": "jacob57@example.org",
+            "Address": "86731 Trevor Haven Suite 171\nNorth Amber, NE 80726"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-29",
+        "Location": "883 Darin Loop Apt. 245\nBrianville, MI 88668",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 64991
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48053
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7123
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24153
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8378
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 152698,
+        "TotalApproved": 36187
+    },
+    "AdjusterDetails": {
+        "Name": "Jenna Dunlap",
+        "ContactInformation": {
+            "Phone": "950.925.8000",
+            "Email": "skirby@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/41d66557-8913-4e9f-8ee8-b0f080ba1ee1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-29T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-03T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-08T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

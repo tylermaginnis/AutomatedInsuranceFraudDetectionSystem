@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cbe91f77-b5f5-45fb-b326-17d451979e72",
+    "PolicyID": "c09aa60d-a7d8-4576-97e8-8c220cb678de",
+    "EffectiveDates": {
+        "StartDate": "2024-07-28",
+        "EndDate": "2025-07-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7393d6d6-e9b1-407e-a61f-621b28d0cf2e",
+        "Name": "Kellie Smith",
+        "PolicyNumber": "c09aa60d-a7d8-4576-97e8-8c220cb678de",
+        "ContactInformation": {
+            "Phone": "+1-461-580-8932",
+            "Email": "millerbryce@example.org",
+            "Address": "51334 Mendez Flats\nSouth Cindy, WY 33386"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-24",
+        "Location": "950 Crystal Gateway Apt. 579\nWest Victoriatown, KY 70355",
+        "Description": "Task fall physical. Herself same less decide fill.\nCapital service middle everybody condition such we. Peace wish just allow upon whole hear market. Most community people charge."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 130600
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 69688
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32542
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19919
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27760
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 54744,
+        "TotalApproved": 30860
+    },
+    "AdjusterDetails": {
+        "Name": "Sara Rose",
+        "ContactInformation": {
+            "Phone": "9054317344",
+            "Email": "apriljackson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/996e8e90-9656-4a35-af35-8402ca3609b1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-24T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-29T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

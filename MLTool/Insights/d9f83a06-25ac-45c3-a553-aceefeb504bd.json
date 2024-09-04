@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d9f83a06-25ac-45c3-a553-aceefeb504bd",
+    "PolicyID": "5e9118a9-a5a4-4915-8698-5f84c22daf52",
+    "EffectiveDates": {
+        "StartDate": "2024-08-02",
+        "EndDate": "2025-08-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3c83c475-0f26-4bc4-8c42-4a938a066f33",
+        "Name": "Jessica Proctor",
+        "PolicyNumber": "5e9118a9-a5a4-4915-8698-5f84c22daf52",
+        "ContactInformation": {
+            "Phone": "933-596-4526x42134",
+            "Email": "wallerandrew@example.net",
+            "Address": "USNS Hopkins\nFPO AA 84188"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-08",
+        "Location": "USNS Vaughn\nFPO AA 14621",
+        "Description": "Despite much listen. Direction decision person leader painting indicate. Door apply me inside body."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4788
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 57921
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 94551
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31572
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 96353
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 39223,
+        "TotalApproved": 11580
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Young",
+        "ContactInformation": {
+            "Phone": "546-522-7078x5846",
+            "Email": "farnold@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/cbe9c642-0f79-453b-8f26-16467d1896ed"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "691b46ea-7ec5-4e39-8628-2b06ba996706",
+    "PolicyID": "ea04ff1c-d2f4-4de5-9bdc-3f4c53daf4cd",
+    "EffectiveDates": {
+        "StartDate": "2024-07-01",
+        "EndDate": "2025-07-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d517f122-f4b1-40c4-b6f7-5dfe04300b69",
+        "Name": "Jennifer Clark",
+        "PolicyNumber": "ea04ff1c-d2f4-4de5-9bdc-3f4c53daf4cd",
+        "ContactInformation": {
+            "Phone": "6627163941",
+            "Email": "vancepatricia@example.net",
+            "Address": "560 Williams Plains Suite 855\nAmberburgh, IA 93515"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-11",
+        "Location": "825 Morris Square Apt. 725\nRogerton, AZ 03602",
+        "Description": "Pm color design arrive letter. Ahead exist cold leave than. Data past magazine level.\nReason adult write maybe public close. They citizen discuss lose."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3404
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 67286
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 98168
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 125738
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3314
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 198455,
+        "TotalApproved": 88439
+    },
+    "AdjusterDetails": {
+        "Name": "Donald Vasquez",
+        "ContactInformation": {
+            "Phone": "(761)665-7885x487",
+            "Email": "glenalexander@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/48eda0b9-cb78-4e19-94db-fcbbda9a23d2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

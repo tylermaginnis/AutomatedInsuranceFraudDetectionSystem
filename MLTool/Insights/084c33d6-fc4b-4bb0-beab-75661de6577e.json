@@ -1,0 +1,81 @@
+{
+    "ClaimID": "084c33d6-fc4b-4bb0-beab-75661de6577e",
+    "PolicyID": "c5393c37-f19f-418d-862d-296b04fa6d34",
+    "EffectiveDates": {
+        "StartDate": "2024-07-14",
+        "EndDate": "2025-07-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e48ed150-b65d-4198-b445-0d70b2ae937e",
+        "Name": "Brooke Gray",
+        "PolicyNumber": "c5393c37-f19f-418d-862d-296b04fa6d34",
+        "ContactInformation": {
+            "Phone": "2105045556",
+            "Email": "ncole@example.net",
+            "Address": "27252 David Haven\nLake William, MN 94140"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-19",
+        "Location": "0580 Megan Corners\nLake Aliciamouth, OH 96402",
+        "Description": "Able early message reflect. Nice two member near.\nIncrease speak gas dark dream live. Owner officer citizen condition."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 138148
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18232
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6386
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9771
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4163
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 47035,
+        "TotalApproved": 44871
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Goodman",
+        "ContactInformation": {
+            "Phone": "454.698.0223x3939",
+            "Email": "hjenkins@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e9e41115-28a0-44e1-9fbd-95cb3fe250e9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-19T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-24T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-01T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

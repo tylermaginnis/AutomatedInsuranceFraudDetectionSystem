@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f9f3e4b3-988c-495c-afcc-524a6e5afce7",
+    "PolicyID": "5903dc60-cfae-45e1-8048-2bdcf9a129cb",
+    "EffectiveDates": {
+        "StartDate": "2023-12-28",
+        "EndDate": "2024-12-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7ba2e279-b6f1-43a1-a172-8e592cab4496",
+        "Name": "Lawrence Marks",
+        "PolicyNumber": "5903dc60-cfae-45e1-8048-2bdcf9a129cb",
+        "ContactInformation": {
+            "Phone": "+1-515-635-3644x7273",
+            "Email": "lchandler@example.org",
+            "Address": "41926 Derek Place\nPort William, AR 25968"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-05",
+        "Location": "0193 Evans Way\nLuketown, FM 85829",
+        "Description": "Sense message goal air responsibility. Mention conference alone night nearly. Someone particular surface work son. People consider always chair available top me."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9103
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34762
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45395
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 43132
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6040
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 75965,
+        "TotalApproved": 30018
+    },
+    "AdjusterDetails": {
+        "Name": "Luis Butler",
+        "ContactInformation": {
+            "Phone": "536-323-0339",
+            "Email": "ismith@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0246b245-70de-4d11-9c6a-daddb4c2a8b3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

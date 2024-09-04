@@ -1,0 +1,81 @@
+{
+    "ClaimID": "65ae596c-9a36-4402-b862-b2bebb132921",
+    "PolicyID": "8e40b78e-3bab-44a1-bca0-9d3763b52a85",
+    "EffectiveDates": {
+        "StartDate": "2024-03-16",
+        "EndDate": "2025-03-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "03b851ff-7944-44c0-8d9d-2cd92c4b8a6b",
+        "Name": "Emily Hernandez",
+        "PolicyNumber": "8e40b78e-3bab-44a1-bca0-9d3763b52a85",
+        "ContactInformation": {
+            "Phone": "745-985-5798x56236",
+            "Email": "rossbrenda@example.org",
+            "Address": "746 Jason Land\nSouth Justinside, WV 49575"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-01",
+        "Location": "1624 Melissa Brooks Apt. 144\nLake Michellestad, AL 23572",
+        "Description": "Smile those sister. Know program question study realize card young. Opportunity product record range beautiful. Ability rise various.\nAmerican line safe big."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25825
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 164368
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13298
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19105
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17904
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 61755,
+        "TotalApproved": 57854
+    },
+    "AdjusterDetails": {
+        "Name": "Eddie Reid",
+        "ContactInformation": {
+            "Phone": "690-690-0630",
+            "Email": "frenchlinda@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1b329731-6af9-40f2-81c8-99f6b54de386"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

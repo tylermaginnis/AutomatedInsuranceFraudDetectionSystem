@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ab56b119-d651-4323-bacc-f09d93b1ec0e",
+    "PolicyID": "68eaa7f8-242e-4cfa-b9c5-a8c87759b180",
+    "EffectiveDates": {
+        "StartDate": "2024-07-24",
+        "EndDate": "2025-07-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a45deadd-6f0d-47a2-9a6c-cf6f391810b6",
+        "Name": "Elizabeth Santana",
+        "PolicyNumber": "68eaa7f8-242e-4cfa-b9c5-a8c87759b180",
+        "ContactInformation": {
+            "Phone": "001-628-525-2698",
+            "Email": "zharmon@example.org",
+            "Address": "3086 Alexander Vista\nGregoryfort, RI 87758"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-17",
+        "Location": "34376 Brittany Bypass Suite 104\nBarronbury, HI 87792",
+        "Description": "Information around break them fine air. Speech later wait defense one. Anyone alone and heart his.\nExpect charge small heart north occur performance hospital. Next wear market I close life beautiful."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 83230
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2399
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41040
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5979
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20176
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 50618,
+        "TotalApproved": 22274
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Morrison",
+        "ContactInformation": {
+            "Phone": "305.955.0640x935",
+            "Email": "lisasmith@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1afa8278-3497-4a62-8af0-e59bc7312e08"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-17T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-22T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-27T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

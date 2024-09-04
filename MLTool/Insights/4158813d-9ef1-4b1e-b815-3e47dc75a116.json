@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4158813d-9ef1-4b1e-b815-3e47dc75a116",
+    "PolicyID": "597f0e11-7de8-4f02-ba21-aad49eed1292",
+    "EffectiveDates": {
+        "StartDate": "2023-12-20",
+        "EndDate": "2024-12-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ad62eb9-0f15-4e5b-8283-3b30f623d703",
+        "Name": "Thomas Thornton",
+        "PolicyNumber": "597f0e11-7de8-4f02-ba21-aad49eed1292",
+        "ContactInformation": {
+            "Phone": "(680)684-0754",
+            "Email": "patelchristina@example.net",
+            "Address": "343 Johns Plains Apt. 246\nGrimesburgh, ID 16815"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-26",
+        "Location": "642 Johnson Plains Apt. 855\nNorth Sierrafort, KY 29852",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 74512
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45583
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8566
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28727
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17390
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 174778,
+        "TotalApproved": 89369
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Wood",
+        "ContactInformation": {
+            "Phone": "563.943.5903x232",
+            "Email": "stevehood@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1dabb523-d1c8-41eb-8af5-4730128c285c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-26T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-01T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-06T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

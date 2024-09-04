@@ -1,0 +1,81 @@
+{
+    "ClaimID": "22e46f5f-c14a-43a7-ba2d-654c63941e6c",
+    "PolicyID": "7b25a162-609c-4a7b-8752-ba262d4bde8e",
+    "EffectiveDates": {
+        "StartDate": "2024-08-12",
+        "EndDate": "2025-08-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4160eb1b-cc59-4dc6-8983-53613b1be025",
+        "Name": "Kyle Mendoza",
+        "PolicyNumber": "7b25a162-609c-4a7b-8752-ba262d4bde8e",
+        "ContactInformation": {
+            "Phone": "(407)968-5502",
+            "Email": "merrittrobin@example.net",
+            "Address": "7594 Taylor Fork Apt. 516\nEast Ryan, KY 07752"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-07",
+        "Location": "85454 Whitaker Inlet Suite 444\nThomasmouth, NM 71004",
+        "Description": "Win effort condition education notice. Allow nature surface quality fear once. Material amount seat candidate former."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14328
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 91790
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25811
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19847
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2855
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 60181,
+        "TotalApproved": 57746
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Rivas",
+        "ContactInformation": {
+            "Phone": "2032533864",
+            "Email": "oscar28@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/d5e48011-68f3-4dab-9858-ba36a8d914d1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

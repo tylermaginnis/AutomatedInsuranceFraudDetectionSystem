@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7babc233-d8b0-496f-a305-4be1120a7ac1",
+    "PolicyID": "c06bd9ac-6030-4754-a826-b12aed93e419",
+    "EffectiveDates": {
+        "StartDate": "2024-01-12",
+        "EndDate": "2025-01-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "018857c3-b25a-4272-8a58-3cc1a90410fe",
+        "Name": "Kaitlin Lutz",
+        "PolicyNumber": "c06bd9ac-6030-4754-a826-b12aed93e419",
+        "ContactInformation": {
+            "Phone": "223.258.2295",
+            "Email": "qmcneil@example.net",
+            "Address": "371 Sarah Estate Suite 048\nKatherinechester, MA 51537"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-13",
+        "Location": "1231 Schneider Prairie\nDunlapmouth, TX 88322",
+        "Description": "Four reality part man perform market. Push strong safe production popular hospital.\nExplain now order. She majority various. Whole just interest minute. Travel two note such allow."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 111942
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16192
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 55255
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24700
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1979
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 177387,
+        "TotalApproved": 159977
+    },
+    "AdjusterDetails": {
+        "Name": "Laurie Robinson",
+        "ContactInformation": {
+            "Phone": "725.717.5765",
+            "Email": "wgeorge@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/d18bcba1-99ae-40da-8604-38d3869268ee"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "354a865d-835b-4707-a0f9-4be8ec8df8bc",
+  "PolicyID": "643cf1a4-956f-4428-9e88-0d61d1ec0cb7",
+  "EffectiveDates": {
+    "StartDate": "2023-12-28",
+    "EndDate": "2024-12-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "18876fea-8647-49ae-91df-f92e84573338",
+    "Name": "Cody Roach",
+    "PolicyNumber": "643cf1a4-956f-4428-9e88-0d61d1ec0cb7",
+    "ContactInformation": {
+      "Phone": "(914)665-4225",
+      "Email": "wrogers@example.org",
+      "Address": "48013 Moore Gardens\nBeltranside, MA 14015"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-19",
+    "Location": "8150 Michele Trace\nNorth Kristen, WY 01144",
+    "Description": "Movie sport minute small.\nAnyone price themselves support treat throw peace. Step employee friend owner project represent since. Future pay character list reflect feel activity."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2030
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6734
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13939
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15634
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3895
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 51333,
+    "TotalApproved": 42942
+  },
+  "AdjusterDetails": {
+    "Name": "Brandon Cruz",
+    "ContactInformation": {
+      "Phone": "3547218637",
+      "Email": "edwardpierce@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/06a63f33-90e7-4079-8865-d53beab66e97"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-19T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-24T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-29T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

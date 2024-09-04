@@ -1,0 +1,81 @@
+{
+    "ClaimID": "88e94451-f810-42d9-a631-18c657ec3f36",
+    "PolicyID": "6e1ebc90-730f-44e3-8f79-075bb265f8df",
+    "EffectiveDates": {
+        "StartDate": "2024-07-24",
+        "EndDate": "2025-07-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5b218a15-f9ce-414e-83db-361af238bca9",
+        "Name": "Ronald Cortez",
+        "PolicyNumber": "6e1ebc90-730f-44e3-8f79-075bb265f8df",
+        "ContactInformation": {
+            "Phone": "+1-767-228-2501x942",
+            "Email": "phoward@example.net",
+            "Address": "97191 Osborne Fall\nPort Jessica, NJ 56605"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-01",
+        "Location": "3504 Nash Expressway\nNew Denise, NC 18808",
+        "Description": "Off trouble example bad get. Treat pay hot series mind. Represent present person foreign realize argue factor others."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 93548
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 134293
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5785
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42578
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39492
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 125188,
+        "TotalApproved": 53204
+    },
+    "AdjusterDetails": {
+        "Name": "Danielle Carroll",
+        "ContactInformation": {
+            "Phone": "690-440-2992x10855",
+            "Email": "fbrandt@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/12559840-cc70-4d4f-ad57-9fb798ad8b52"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-01T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-06T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-11T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

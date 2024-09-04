@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7f312857-1912-4a62-8107-fd155e63e722",
+    "PolicyID": "21534c29-ca5f-4ab7-86a1-d67291921ec0",
+    "EffectiveDates": {
+        "StartDate": "2024-01-22",
+        "EndDate": "2025-01-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e6a62378-9601-42b5-8cce-155ac3fd3359",
+        "Name": "Linda Bell",
+        "PolicyNumber": "21534c29-ca5f-4ab7-86a1-d67291921ec0",
+        "ContactInformation": {
+            "Phone": "671.893.4745",
+            "Email": "tkelly@example.org",
+            "Address": "70955 Perez Fork Apt. 927\nEast Cynthiabury, DE 34951"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-13",
+        "Location": "685 Robert Road Apt. 260\nLisaton, GU 10538",
+        "Description": "Lose chair ok record. Part against medical church dog deep never."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2698
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2946
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8915
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10489
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3649
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 4510,
+        "TotalApproved": 4370
+    },
+    "AdjusterDetails": {
+        "Name": "Shannon Smith",
+        "ContactInformation": {
+            "Phone": "(681)201-1396x387",
+            "Email": "hannah98@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6ecd3f16-9e5d-436b-969f-6976b8d397e8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-13T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-18T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-23T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

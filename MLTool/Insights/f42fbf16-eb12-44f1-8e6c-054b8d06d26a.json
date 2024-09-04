@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f42fbf16-eb12-44f1-8e6c-054b8d06d26a",
+    "PolicyID": "a9754571-a174-4598-970c-8582383a81b5",
+    "EffectiveDates": {
+        "StartDate": "2023-10-02",
+        "EndDate": "2024-10-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "936b200d-7247-4a1f-92eb-d1714550e7cd",
+        "Name": "Daniel Turner",
+        "PolicyNumber": "a9754571-a174-4598-970c-8582383a81b5",
+        "ContactInformation": {
+            "Phone": "482.392.6488x1193",
+            "Email": "markhunter@example.net",
+            "Address": "32679 Johnson Landing\nNorth Tristanchester, NH 61437"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-06",
+        "Location": "6717 Richardson Mews Suite 073\nLeetown, SC 58296",
+        "Description": "These on tough. Window fall thousand red south audience charge operation. Fine color why memory Republican positive practice very.\nOutside than box hope even. Prove range past employee."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32781
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9774
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 182530
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 197456
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1963
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 124282,
+        "TotalApproved": 89822
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Miller",
+        "ContactInformation": {
+            "Phone": "001-556-416-9526x23493",
+            "Email": "jennifermurphy@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8682fc44-365e-4d22-8b61-b736f6c088a2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-06T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-11T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-16T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f35ea639-86a6-4849-b34f-1bc1a6fb5a57",
+  "PolicyID": "57ffb301-f539-4cfc-86ec-4215e1f7bc66",
+  "EffectiveDates": {
+    "StartDate": "2023-10-09",
+    "EndDate": "2024-10-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b0373cf6-d420-4367-b8dc-503ebb20e79c",
+    "Name": "Paul Wilson",
+    "PolicyNumber": "57ffb301-f539-4cfc-86ec-4215e1f7bc66",
+    "ContactInformation": {
+      "Phone": "+1-374-291-5742x8590",
+      "Email": "nicole57@example.net",
+      "Address": "Unit 2496 Box 0578\nDPO AA 50631"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-09",
+    "Location": "7816 Smith Keys\nSouth Angelica, DE 77459",
+    "Description": "Pass think ball watch. Read character consider hotel cost. Century likely suffer work word garden. Apply piece produce charge.\nInto then those hair future. Weight compare where example assume."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1197
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 23629
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 91553
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 65109
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2216
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 42493,
+    "TotalApproved": 38866
+  },
+  "AdjusterDetails": {
+    "Name": "Michelle Turner",
+    "ContactInformation": {
+      "Phone": "9487972946",
+      "Email": "hbrown@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/71cdf390-34e8-4b91-8b93-e5734dce08a3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-09T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-14T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-19T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

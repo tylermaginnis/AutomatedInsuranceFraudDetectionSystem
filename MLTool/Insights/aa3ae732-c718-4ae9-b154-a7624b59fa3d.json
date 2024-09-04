@@ -1,0 +1,81 @@
+{
+    "ClaimID": "aa3ae732-c718-4ae9-b154-a7624b59fa3d",
+    "PolicyID": "97fc5e25-08f9-49cc-8be0-7c7c21bdfdb6",
+    "EffectiveDates": {
+        "StartDate": "2023-09-27",
+        "EndDate": "2024-09-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "32fbb94b-18f7-4359-8112-76d989da444f",
+        "Name": "Evan Ward",
+        "PolicyNumber": "97fc5e25-08f9-49cc-8be0-7c7c21bdfdb6",
+        "ContactInformation": {
+            "Phone": "621-893-9899",
+            "Email": "sbenton@example.net",
+            "Address": "2604 Debbie Vista Suite 696\nPorterside, PA 01667"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-01",
+        "Location": "7836 Smith Passage Suite 541\nPort Carmenburgh, OR 10130",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 64104
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35180
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5456
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28894
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16057
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 149691,
+        "TotalApproved": 139324
+    },
+    "AdjusterDetails": {
+        "Name": "Alan Sanders",
+        "ContactInformation": {
+            "Phone": "001-469-898-3749x7734",
+            "Email": "thomas99@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/dfb0779c-9c67-4766-be36-f4392444188e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bd80d986-1aa5-4bb7-a27e-a617767733c8",
+    "PolicyID": "afbff8f2-bcde-4fa0-9e36-7a24a8863e67",
+    "EffectiveDates": {
+        "StartDate": "2023-11-13",
+        "EndDate": "2024-11-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "147ef6a4-688f-4a51-9b33-eee2c982153f",
+        "Name": "Brian Gaines",
+        "PolicyNumber": "afbff8f2-bcde-4fa0-9e36-7a24a8863e67",
+        "ContactInformation": {
+            "Phone": "(867)672-0189x7792",
+            "Email": "ericmorales@example.com",
+            "Address": "58857 Paula Drive\nSouth Miguel, WI 38863"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-29",
+        "Location": "83202 Andrew Club Suite 680\nLake Juliemouth, ME 53286",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91128
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 48116
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5332
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14488
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7990
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 167054,
+        "TotalApproved": 60921
+    },
+    "AdjusterDetails": {
+        "Name": "Frances Campbell",
+        "ContactInformation": {
+            "Phone": "001-588-754-5872",
+            "Email": "gwoods@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a0a980f3-a351-4936-83a4-2a091f594837"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-29T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

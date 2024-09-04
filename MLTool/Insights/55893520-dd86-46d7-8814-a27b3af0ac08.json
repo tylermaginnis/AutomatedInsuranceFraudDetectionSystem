@@ -1,0 +1,81 @@
+{
+    "ClaimID": "55893520-dd86-46d7-8814-a27b3af0ac08",
+    "PolicyID": "2a971eea-6d8f-480d-a7d7-6feb469173cc",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a708bf18-1535-43ad-ad3b-63393dc6d8ad",
+        "Name": "Monica Kim",
+        "PolicyNumber": "2a971eea-6d8f-480d-a7d7-6feb469173cc",
+        "ContactInformation": {
+            "Phone": "+1-378-588-2851",
+            "Email": "ryan11@example.com",
+            "Address": "89349 Cox Via Apt. 548\nLake Matthewborough, MP 38829"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-23",
+        "Location": "4574 Kimberly Valley\nLake Marymouth, WA 48646",
+        "Description": "Drop agent prevent safe bring develop. Hotel read whatever significant check. Another window talk particularly against ago door."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3694
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2863
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7140
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8367
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 113524
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 196912,
+        "TotalApproved": 162407
+    },
+    "AdjusterDetails": {
+        "Name": "Lori Gregory",
+        "ContactInformation": {
+            "Phone": "+1-547-729-1862x678",
+            "Email": "curtis24@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/bedbcd3c-3d48-4db3-872b-d0ea69690872"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

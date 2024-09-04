@@ -1,0 +1,81 @@
+{
+    "ClaimID": "207b9b6e-b328-4c38-8463-7a3dd9c3d636",
+    "PolicyID": "a20c3202-7d05-46cf-b829-afb86272aace",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71844aa3-a60f-40df-b2d8-c38afae4de98",
+        "Name": "Ashley Ford",
+        "PolicyNumber": "a20c3202-7d05-46cf-b829-afb86272aace",
+        "ContactInformation": {
+            "Phone": "283-959-9369",
+            "Email": "djones@example.com",
+            "Address": "481 Heather Throughway Apt. 220\nSmithland, ID 63281"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-12",
+        "Location": "USNS Bender\nFPO AA 79076",
+        "Description": "Catch report six respond customer. Professional laugh mother head.\nHospital ten you fine. Himself guy administration. Form will miss give protect ball."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17468
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11532
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 83288
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 57861
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57049
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 188444,
+        "TotalApproved": 35792
+    },
+    "AdjusterDetails": {
+        "Name": "Ryan Pacheco",
+        "ContactInformation": {
+            "Phone": "661.832.4181",
+            "Email": "ewhite@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a81d6334-e5c6-405c-9e22-4fe7b6c958ba"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-12T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-17T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-22T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6c8a7eac-183c-4c63-a8cc-6ea786d209cf",
+    "PolicyID": "2d471617-3006-4007-80f5-e16e506cdc98",
+    "EffectiveDates": {
+        "StartDate": "2023-09-26",
+        "EndDate": "2024-09-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "836f3fcd-81ab-456e-9d67-fee87f722fcf",
+        "Name": "Jasmine Carpenter",
+        "PolicyNumber": "2d471617-3006-4007-80f5-e16e506cdc98",
+        "ContactInformation": {
+            "Phone": "(580)226-4110x933",
+            "Email": "stacey29@example.org",
+            "Address": "PSC 1554, Box 7373\nAPO AP 70007"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-08",
+        "Location": "12722 Miranda Fall Suite 987\nNorth Jessicastad, VI 80425",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 96380
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34516
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9264
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 29867
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5555
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 175582,
+        "TotalApproved": 48582
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Rodriguez",
+        "ContactInformation": {
+            "Phone": "973.946.0592x153",
+            "Email": "jessicarodriguez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1855580e-9063-4c16-9c06-d0953b33952d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-08T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-13T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-18T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

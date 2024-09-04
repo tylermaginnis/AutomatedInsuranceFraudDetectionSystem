@@ -1,0 +1,81 @@
+{
+    "ClaimID": "61aaced0-26b1-4c14-a85c-7fb2f28ff1ed",
+    "PolicyID": "27a79cda-57f8-4704-99c6-fd2a6d7dc5ef",
+    "EffectiveDates": {
+        "StartDate": "2024-07-20",
+        "EndDate": "2025-07-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6dfda015-b676-46b2-a1af-d643eb4944b0",
+        "Name": "Karen Ross",
+        "PolicyNumber": "27a79cda-57f8-4704-99c6-fd2a6d7dc5ef",
+        "ContactInformation": {
+            "Phone": "581-427-4127",
+            "Email": "wrightmatthew@example.net",
+            "Address": "67561 Foster Village\nNew Laura, VT 59684"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-01",
+        "Location": "04839 Powell Tunnel\nJohnland, VT 77022",
+        "Description": "Heart poor marriage never pick firm town. Defense meeting international we though can quite. Daughter however no improve campaign.\nSeat yet prepare."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22522
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 78732
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39599
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37528
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8391
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 84390,
+        "TotalApproved": 39327
+    },
+    "AdjusterDetails": {
+        "Name": "Courtney Baker",
+        "ContactInformation": {
+            "Phone": "896.425.5526x9718",
+            "Email": "vgillespie@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/87790d7a-5d3a-4b32-8635-b727327a195d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ccad93cd-2ae0-4dde-a42c-124eea994afb",
+    "PolicyID": "976cb525-ba37-47d9-8f9b-2f2e543f53ce",
+    "EffectiveDates": {
+        "StartDate": "2024-08-29",
+        "EndDate": "2025-08-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5251a828-a6c6-4354-9242-530103f66eb0",
+        "Name": "Ashley Anderson",
+        "PolicyNumber": "976cb525-ba37-47d9-8f9b-2f2e543f53ce",
+        "ContactInformation": {
+            "Phone": "001-591-237-3145x7794",
+            "Email": "ebailey@example.com",
+            "Address": "876 Kim Streets Apt. 221\nRobertborough, NM 04789"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-30",
+        "Location": "63269 Brianna Groves Apt. 833\nMollyview, CO 02005",
+        "Description": "Fall represent Mrs. Four finally read song type.\nParticularly decade manager talk stock."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13578
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 76738
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2059
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8181
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14004
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 130483,
+        "TotalApproved": 41518
+    },
+    "AdjusterDetails": {
+        "Name": "Justin Smith",
+        "ContactInformation": {
+            "Phone": "806-411-5039x1910",
+            "Email": "deborahblack@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0d18cdc1-e42e-4150-9f8e-656f981c55ef"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "43e286a3-344a-4489-bc14-116767c7d2f8",
+    "PolicyID": "edb1979d-cf68-4e60-9e1e-965dd402887e",
+    "EffectiveDates": {
+        "StartDate": "2023-09-26",
+        "EndDate": "2024-09-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b6494c84-6d5a-4af6-82f1-d25c0e1e261d",
+        "Name": "Angela Payne",
+        "PolicyNumber": "edb1979d-cf68-4e60-9e1e-965dd402887e",
+        "ContactInformation": {
+            "Phone": "943-259-3080x930",
+            "Email": "jamesherman@example.com",
+            "Address": "PSC 7970, Box 9629\nAPO AE 72438"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-15",
+        "Location": "USNS Bauer\nFPO AE 35010",
+        "Description": "Take believe make party.\nAgency support important including key our then. Huge seven really wish."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2908
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48055
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 121338
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4239
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12589
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 141530,
+        "TotalApproved": 37231
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Jones",
+        "ContactInformation": {
+            "Phone": "5392147024",
+            "Email": "lindsey54@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/64f169e9-4362-47e1-ac8e-81ea9c1ceeb4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

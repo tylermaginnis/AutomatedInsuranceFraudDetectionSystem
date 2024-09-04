@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e92f9c09-1b32-44d5-898f-69c2081f83c9",
+    "PolicyID": "ee2628f0-47a4-4353-bfcc-033ef75de0aa",
+    "EffectiveDates": {
+        "StartDate": "2023-09-09",
+        "EndDate": "2024-09-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "10ecfd41-cfcf-481f-81bf-cf2d90b8aa65",
+        "Name": "Kathryn Taylor",
+        "PolicyNumber": "ee2628f0-47a4-4353-bfcc-033ef75de0aa",
+        "ContactInformation": {
+            "Phone": "(749)632-3901",
+            "Email": "ffischer@example.com",
+            "Address": "8699 Keith Brooks Apt. 451\nBaxterport, AK 14575"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-05",
+        "Location": "6264 Emma Lodge Apt. 132\nWest Samuel, AZ 14602",
+        "Description": "Suddenly class talk.\nEnvironment hand owner artist recognize. Media indeed yet research campaign want Congress. Friend lot mission.\nHimself final house right any. News eat century player."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7751
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8898
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23879
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 172161
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32129
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 105151,
+        "TotalApproved": 76109
+    },
+    "AdjusterDetails": {
+        "Name": "Erik Marshall Jr.",
+        "ContactInformation": {
+            "Phone": "7512118061",
+            "Email": "michaelbrewer@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e72940e0-ca0d-4114-9a7b-6e40a43f0c4d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

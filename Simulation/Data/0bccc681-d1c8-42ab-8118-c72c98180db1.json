@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0bccc681-d1c8-42ab-8118-c72c98180db1",
+  "PolicyID": "7ed004b5-5130-40c7-9a28-f274cebae263",
+  "EffectiveDates": {
+    "StartDate": "2023-09-15",
+    "EndDate": "2024-09-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "bd635481-74df-47b9-97b3-c172ad96d6d4",
+    "Name": "Steven Clark",
+    "PolicyNumber": "7ed004b5-5130-40c7-9a28-f274cebae263",
+    "ContactInformation": {
+      "Phone": "8194292931",
+      "Email": "oevans@example.net",
+      "Address": "1736 Zuniga Mews Suite 246\nNorth Lanceville, WY 02499"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-09-20",
+    "Location": "PSC 7462, Box 9991\nAPO AA 33400",
+    "Description": "For effect method around draw address. Can give degree exactly.\nQuite appear window close management down. Each next put section allow."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7423
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5719
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 64555
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 57496
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4155
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 10790,
+    "TotalApproved": 3598
+  },
+  "AdjusterDetails": {
+    "Name": "Darren Rowe",
+    "ContactInformation": {
+      "Phone": "772.705.0678x958",
+      "Email": "dean15@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/37edfe05-93da-4eca-97c7-eeb8112f96a7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-09-20T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-09-25T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-09-30T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

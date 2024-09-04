@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8bb1f0e0-d48d-4772-b6d3-f96d247b5c79",
+  "PolicyID": "93e1c903-6fc3-4139-8b9a-8f2a79335ed4",
+  "EffectiveDates": {
+    "StartDate": "2023-10-11",
+    "EndDate": "2024-10-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5b9739e3-1388-4896-8a48-ec90b33f1604",
+    "Name": "Wanda Ortiz",
+    "PolicyNumber": "93e1c903-6fc3-4139-8b9a-8f2a79335ed4",
+    "ContactInformation": {
+      "Phone": "(779)326-3066x971",
+      "Email": "olsonmelissa@example.com",
+      "Address": "90020 Alex Gardens Suite 636\nCollinshire, ID 79261"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-04",
+    "Location": "8652 Matthew Divide\nNorth Michael, VA 49248",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 96775
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 49351
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8217
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 17261
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 14949
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 186553,
+    "TotalApproved": 175996
+  },
+  "AdjusterDetails": {
+    "Name": "Jeffrey Lester",
+    "ContactInformation": {
+      "Phone": "001-831-930-9003x20124",
+      "Email": "lovescott@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/aba65289-b5b5-43af-8b2f-1a59f9f0ed75"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-04T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-09T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-14T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

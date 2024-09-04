@@ -1,0 +1,81 @@
+{
+    "ClaimID": "def0b180-f21b-4805-8729-f064fefcfed8",
+    "PolicyID": "81e359be-62dd-4e26-8548-7e4e4b3d2b7b",
+    "EffectiveDates": {
+        "StartDate": "2024-06-21",
+        "EndDate": "2025-06-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b1c8540a-6ae2-4e6e-ae2d-f4281d2de599",
+        "Name": "Gregory Norris",
+        "PolicyNumber": "81e359be-62dd-4e26-8548-7e4e4b3d2b7b",
+        "ContactInformation": {
+            "Phone": "(409)906-1661",
+            "Email": "briansolomon@example.net",
+            "Address": "487 Jessica Orchard Suite 755\nSeanmouth, NJ 66061"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-10",
+        "Location": "65078 Michael Skyway Suite 051\nSarashire, ID 74120",
+        "Description": "Share agency wife.\nYeah contain I rather wide eat. Pressure society system."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19269
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35523
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35766
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6400
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38125
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 130217,
+        "TotalApproved": 53340
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Ross",
+        "ContactInformation": {
+            "Phone": "3296520282",
+            "Email": "lowekelly@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/eb20ed9f-6dc3-4778-979b-a00c7d3d5406"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-10T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-15T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-20T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

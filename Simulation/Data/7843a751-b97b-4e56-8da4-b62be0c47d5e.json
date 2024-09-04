@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7843a751-b97b-4e56-8da4-b62be0c47d5e",
+  "PolicyID": "f2c2909a-7330-43c0-80d4-8c4946fbf842",
+  "EffectiveDates": {
+    "StartDate": "2024-04-16",
+    "EndDate": "2025-04-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3fa1d387-68d5-4adc-99f6-e5286fd375d7",
+    "Name": "Alicia Russell",
+    "PolicyNumber": "f2c2909a-7330-43c0-80d4-8c4946fbf842",
+    "ContactInformation": {
+      "Phone": "+1-968-449-6359x39417",
+      "Email": "hlane@example.net",
+      "Address": "73995 Stacy Parks Suite 219\nHudsonport, NY 21598"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-21",
+    "Location": "962 Barbara Point Suite 413\nShepherdtown, NV 51350",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 98886
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 27881
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8282
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 26622
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 13306
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 174977,
+    "TotalApproved": 109244
+  },
+  "AdjusterDetails": {
+    "Name": "Jessica Washington",
+    "ContactInformation": {
+      "Phone": "(622)916-0715",
+      "Email": "xjohnson@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/61572378-dd3e-4e78-a618-c03db7121085"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-21T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-26T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-31T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

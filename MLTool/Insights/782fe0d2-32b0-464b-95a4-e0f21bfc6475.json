@@ -1,0 +1,81 @@
+{
+    "ClaimID": "782fe0d2-32b0-464b-95a4-e0f21bfc6475",
+    "PolicyID": "c905a604-8bfb-46a3-8f8f-19cb70fc5255",
+    "EffectiveDates": {
+        "StartDate": "2024-01-19",
+        "EndDate": "2025-01-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "845b5ece-b2a4-4337-b38e-40b2209e0063",
+        "Name": "Jennifer Woods",
+        "PolicyNumber": "c905a604-8bfb-46a3-8f8f-19cb70fc5255",
+        "ContactInformation": {
+            "Phone": "858-889-6822x3076",
+            "Email": "crodriguez@example.net",
+            "Address": "879 Anderson Ports Suite 760\nNew Travis, AR 36710"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-11",
+        "Location": "469 Moore Drive\nLauraport, NC 75377",
+        "Description": "Source or deep health control but. Matter consider citizen. Add per by without western different movie."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 86802
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 87428
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 123014
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14779
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8772
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 77428,
+        "TotalApproved": 22440
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Foster",
+        "ContactInformation": {
+            "Phone": "755.260.6838",
+            "Email": "msingh@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2dadcec9-f415-41d6-84ec-6f82a2df4078"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-11T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-16T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-21T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

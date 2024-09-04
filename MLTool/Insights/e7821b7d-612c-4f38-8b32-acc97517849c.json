@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e7821b7d-612c-4f38-8b32-acc97517849c",
+    "PolicyID": "b7410a0f-792d-428b-9d60-3179c09c6b54",
+    "EffectiveDates": {
+        "StartDate": "2023-12-12",
+        "EndDate": "2024-12-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a1d36e10-1635-4772-9452-06d25f105723",
+        "Name": "Misty Johns",
+        "PolicyNumber": "b7410a0f-792d-428b-9d60-3179c09c6b54",
+        "ContactInformation": {
+            "Phone": "5367943102",
+            "Email": "ipruitt@example.com",
+            "Address": "980 Karen Drive\nWest Joshua, AZ 58947"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-30",
+        "Location": "57460 Carter Union Suite 260\nTonyborough, CO 94288",
+        "Description": "Action finish letter city phone me test compare.\nDemocrat list decade foot something matter."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19239
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4398
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 188890
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8927
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 30549
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 99880,
+        "TotalApproved": 41976
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Campos",
+        "ContactInformation": {
+            "Phone": "+1-645-464-7718x38047",
+            "Email": "linda75@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/ddc4c0cf-07f5-4636-96c4-f316fa4a795f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

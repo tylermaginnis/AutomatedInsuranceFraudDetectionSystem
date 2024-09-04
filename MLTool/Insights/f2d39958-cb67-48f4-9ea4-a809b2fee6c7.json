@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f2d39958-cb67-48f4-9ea4-a809b2fee6c7",
+    "PolicyID": "095de5f2-6cd3-4ec1-86f8-13058a3174a4",
+    "EffectiveDates": {
+        "StartDate": "2023-10-01",
+        "EndDate": "2024-09-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2704869a-d237-44c6-8e92-882fd580cda5",
+        "Name": "Jeffrey Bishop",
+        "PolicyNumber": "095de5f2-6cd3-4ec1-86f8-13058a3174a4",
+        "ContactInformation": {
+            "Phone": "644-886-7866x3120",
+            "Email": "christopher19@example.com",
+            "Address": "38542 Mcdonald Prairie\nNorth Kellyfurt, MS 47334"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-12",
+        "Location": "64958 Lucero Rue Suite 638\nSouth Ashleyfurt, TX 11826",
+        "Description": "Buy under group man continue. Could station citizen series wrong year economy. Director serious after owner eight else Mrs."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1671
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4583
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1310
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6563
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 122514
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 127134,
+        "TotalApproved": 31713
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Wise",
+        "ContactInformation": {
+            "Phone": "575.739.3429",
+            "Email": "billy99@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/eaa75020-847c-4873-bb38-38e62818ef2f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-12T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-17T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-22T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

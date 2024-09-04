@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d4b7fd4e-cb27-4027-b71e-9725134e780a",
+    "PolicyID": "57f9233c-6057-4273-9fc8-d2a860ff1c38",
+    "EffectiveDates": {
+        "StartDate": "2024-02-26",
+        "EndDate": "2025-02-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aa7fa0cd-a7ca-44c9-bbba-a700cc2a12dd",
+        "Name": "Ms. Janet Wilson",
+        "PolicyNumber": "57f9233c-6057-4273-9fc8-d2a860ff1c38",
+        "ContactInformation": {
+            "Phone": "(253)999-9079",
+            "Email": "stanley92@example.org",
+            "Address": "144 Hart Forks\nNew Cassandraville, WY 91908"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-14",
+        "Location": "PSC 9492, Box 5731\nAPO AE 58239",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 86658
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46142
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6693
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20140
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11350
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 170983,
+        "TotalApproved": 64897
+    },
+    "AdjusterDetails": {
+        "Name": "Stefanie Burns",
+        "ContactInformation": {
+            "Phone": "607.972.5732x5911",
+            "Email": "xpatrick@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0d6015fb-a1bf-4204-a5e5-84998a1ae5b4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-14T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-19T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-24T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

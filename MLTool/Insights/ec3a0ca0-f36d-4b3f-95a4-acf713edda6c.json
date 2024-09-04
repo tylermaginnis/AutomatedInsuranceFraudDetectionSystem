@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ec3a0ca0-f36d-4b3f-95a4-acf713edda6c",
+    "PolicyID": "91ea6572-e53b-4268-8f47-58ee94608dfa",
+    "EffectiveDates": {
+        "StartDate": "2024-08-04",
+        "EndDate": "2025-08-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3bdcad23-a02e-4ffb-a3c3-8c7354536675",
+        "Name": "Debra Phillips",
+        "PolicyNumber": "91ea6572-e53b-4268-8f47-58ee94608dfa",
+        "ContactInformation": {
+            "Phone": "(544)538-6399x5285",
+            "Email": "jamie43@example.org",
+            "Address": "83424 Perkins Park Suite 736\nJasonville, ID 67479"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-08",
+        "Location": "3690 Jordan Keys Suite 170\nSouth Victor, MH 16686",
+        "Description": "Character nation weight expert audience artist party. Easy design once ok. Show determine reflect worker."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5038
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1367
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35193
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4122
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2334
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 18020,
+        "TotalApproved": 2782
+    },
+    "AdjusterDetails": {
+        "Name": "Haley Bryant",
+        "ContactInformation": {
+            "Phone": "242-829-4497",
+            "Email": "zwilliams@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/818acae9-0d71-4154-b3cc-0cdce801de99"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

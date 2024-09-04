@@ -1,0 +1,81 @@
+{
+    "ClaimID": "58dec645-0a32-4249-862d-b96fd1fad32d",
+    "PolicyID": "fc4b1036-9da4-46b0-9b8e-b01e57ee3589",
+    "EffectiveDates": {
+        "StartDate": "2024-05-01",
+        "EndDate": "2025-05-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e900709d-0151-4589-9fb6-de6d8137b344",
+        "Name": "David Murphy",
+        "PolicyNumber": "fc4b1036-9da4-46b0-9b8e-b01e57ee3589",
+        "ContactInformation": {
+            "Phone": "001-775-654-1482x86804",
+            "Email": "wendy39@example.net",
+            "Address": "7417 Hamilton Alley\nDustinfort, WV 62574"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-29",
+        "Location": "03094 Wilson Row\nPort Frank, CT 12827",
+        "Description": "Professional throw us tell. Old thought nature near every.\nThird sister record table. Pass page prepare thank avoid animal glass."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32875
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38529
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 61332
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18007
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8128
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 152540,
+        "TotalApproved": 70259
+    },
+    "AdjusterDetails": {
+        "Name": "Theresa Black",
+        "ContactInformation": {
+            "Phone": "001-546-920-7369x2341",
+            "Email": "rmeyer@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/91967b78-770e-4866-99ed-f5c0baf17242"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

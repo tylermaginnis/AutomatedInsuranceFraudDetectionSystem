@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b1e9aa93-1160-42fe-ad42-3a062c07545f",
+    "PolicyID": "29f98328-780b-4c2f-be29-29bb10ca61e4",
+    "EffectiveDates": {
+        "StartDate": "2023-10-20",
+        "EndDate": "2024-10-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c045ab68-2148-4b1d-8bda-8ee50120fa02",
+        "Name": "Jennifer Lopez",
+        "PolicyNumber": "29f98328-780b-4c2f-be29-29bb10ca61e4",
+        "ContactInformation": {
+            "Phone": "429-264-5929",
+            "Email": "shaunsavage@example.net",
+            "Address": "733 Louis Divide\nMelaniemouth, MA 75443"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-26",
+        "Location": "100 Brown View\nReedland, NE 86273",
+        "Description": "Citizen wife floor thank activity glass. Especially commercial itself leader treatment civil success each. Discover truth wind page late require. Wait here change avoid here ahead you rock."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 115868
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6921
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40683
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 43258
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22748
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 170731,
+        "TotalApproved": 154218
+    },
+    "AdjusterDetails": {
+        "Name": "Stanley Singh PhD",
+        "ContactInformation": {
+            "Phone": "322-254-9617x4677",
+            "Email": "bookermichael@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0e48b866-2244-46a6-b28c-ba4aa87721af"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

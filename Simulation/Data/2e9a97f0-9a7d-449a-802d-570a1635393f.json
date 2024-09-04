@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2e9a97f0-9a7d-449a-802d-570a1635393f",
+  "PolicyID": "672916c1-56df-43da-8103-0b7658e55e7c",
+  "EffectiveDates": {
+    "StartDate": "2023-11-07",
+    "EndDate": "2024-11-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f63d9984-b3f0-40b8-be70-9709d1a125a6",
+    "Name": "Jonathan Diaz",
+    "PolicyNumber": "672916c1-56df-43da-8103-0b7658e55e7c",
+    "ContactInformation": {
+      "Phone": "(316)906-8408",
+      "Email": "jacksonkimberly@example.org",
+      "Address": "071 Kimberly Forks\nJacksonberg, NM 59942"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-20",
+    "Location": "700 Nicholas Meadow\nHarmonborough, MT 87784",
+    "Description": "Even up to civil against century forget. Husband environmental let difficult reflect. Like them short sort listen region movie."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 40159
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9921
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 10740
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 89828
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9985
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 113557,
+    "TotalApproved": 41849
+  },
+  "AdjusterDetails": {
+    "Name": "Jennifer Gray",
+    "ContactInformation": {
+      "Phone": "2473887050",
+      "Email": "christopher14@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/298d65b0-f782-4a30-8fa6-5d9204ca21c1"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-20T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-03-25T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-30T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "707cb6f4-7b98-4e9a-a462-276a53156dcf",
+    "PolicyID": "e425167b-9654-4ad7-ae8e-910e46545cfe",
+    "EffectiveDates": {
+        "StartDate": "2023-12-27",
+        "EndDate": "2024-12-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b95ecdc-2c07-43bb-ae75-3d0bdcb12ab0",
+        "Name": "Aaron Spencer",
+        "PolicyNumber": "e425167b-9654-4ad7-ae8e-910e46545cfe",
+        "ContactInformation": {
+            "Phone": "6154904123",
+            "Email": "jessemalone@example.com",
+            "Address": "280 Glover Viaduct Apt. 707\nWest Cristinabury, GA 31329"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-20",
+        "Location": "878 Cassie Wells\nEast Jonathan, OK 26193",
+        "Description": "Purpose thousand travel shoulder across. Poor since nature green or.\nBoth next word role assume because. Myself institution business public forward important. Public see debate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90559
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2915
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 66339
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18912
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1190
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 21115,
+        "TotalApproved": 14358
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Waters",
+        "ContactInformation": {
+            "Phone": "(926)585-4857",
+            "Email": "hstevens@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/364d0154-0e68-4c02-a7db-285ea7393ab4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-20T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-25T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-30T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

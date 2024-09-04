@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8e5aea6b-3e94-40de-9da8-8857c51e09ca",
+  "PolicyID": "1a5ba983-d7b9-4544-bae9-e1206b60e789",
+  "EffectiveDates": {
+    "StartDate": "2023-12-05",
+    "EndDate": "2024-12-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6a655e16-a001-489a-9ce6-25d4de86bdae",
+    "Name": "Melinda Yang",
+    "PolicyNumber": "1a5ba983-d7b9-4544-bae9-e1206b60e789",
+    "ContactInformation": {
+      "Phone": "001-262-631-8739x535",
+      "Email": "derrickvasquez@example.net",
+      "Address": "251 Terry Station\nLake Carrie, IL 45082"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-26",
+    "Location": "USNS Collins\nFPO AP 80412",
+    "Description": "Fly inside history particularly career. System security civil. Almost example American field series oil."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16301
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 33205
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1929
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 94687
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 55148
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 72409,
+    "TotalApproved": 55516
+  },
+  "AdjusterDetails": {
+    "Name": "Emily Ramos",
+    "ContactInformation": {
+      "Phone": "(996)936-9095",
+      "Email": "zanderson@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/faab1bbd-cf6e-462c-a81d-70d9ba15cc88"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-26T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-31T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-05T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

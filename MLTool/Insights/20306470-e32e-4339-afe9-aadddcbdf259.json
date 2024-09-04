@@ -1,0 +1,81 @@
+{
+    "ClaimID": "20306470-e32e-4339-afe9-aadddcbdf259",
+    "PolicyID": "5807f7a5-88f7-4cb1-b828-c19d625f2676",
+    "EffectiveDates": {
+        "StartDate": "2024-05-19",
+        "EndDate": "2025-05-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ff568415-54f1-437c-815c-1f27d2f1c739",
+        "Name": "Kimberly Lee",
+        "PolicyNumber": "5807f7a5-88f7-4cb1-b828-c19d625f2676",
+        "ContactInformation": {
+            "Phone": "930.632.3646",
+            "Email": "ccampbell@example.com",
+            "Address": "27704 Amy Spur\nMarcushaven, FM 89015"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-27",
+        "Location": "PSC 6870, Box 3145\nAPO AE 02226",
+        "Description": "Former sport edge capital other world stay.\nChild wait rock blood offer light future respond."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 86438
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47537
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8444
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12862
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 54853
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 169755,
+        "TotalApproved": 103779
+    },
+    "AdjusterDetails": {
+        "Name": "Samuel Ramsey",
+        "ContactInformation": {
+            "Phone": "001-369-844-1346x6065",
+            "Email": "salvarado@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/28992cbc-b519-495a-a1ec-fefb36ec0b58"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

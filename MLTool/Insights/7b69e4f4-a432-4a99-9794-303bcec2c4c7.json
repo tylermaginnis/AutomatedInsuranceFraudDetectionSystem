@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b69e4f4-a432-4a99-9794-303bcec2c4c7",
+    "PolicyID": "ab42dbe8-dfd4-4fdd-960f-37e815e80eea",
+    "EffectiveDates": {
+        "StartDate": "2023-10-18",
+        "EndDate": "2024-10-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7363c102-9320-403e-861a-bdb9fe2520ca",
+        "Name": "Eric Curry",
+        "PolicyNumber": "ab42dbe8-dfd4-4fdd-960f-37e815e80eea",
+        "ContactInformation": {
+            "Phone": "(534)615-3415",
+            "Email": "rwilliams@example.net",
+            "Address": "0547 Mills Rest\nNorth Jamesview, AS 95022"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-05",
+        "Location": "40707 Lopez Plaza Apt. 758\nWest Raven, HI 56906",
+        "Description": "Prepare game suffer maintain majority offer property. Same risk someone recognize health member spend."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28505
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8862
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20753
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1849
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12001
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 92645,
+        "TotalApproved": 76835
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Camacho",
+        "ContactInformation": {
+            "Phone": "594.677.3145x73146",
+            "Email": "timothybrown@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4e937698-8f33-4081-b6db-9f01ec39f22e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

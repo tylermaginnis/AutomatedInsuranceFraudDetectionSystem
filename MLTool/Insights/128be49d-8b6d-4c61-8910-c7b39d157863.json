@@ -1,0 +1,81 @@
+{
+    "ClaimID": "128be49d-8b6d-4c61-8910-c7b39d157863",
+    "PolicyID": "48a746da-d658-402f-aeaf-8295d33fe4e2",
+    "EffectiveDates": {
+        "StartDate": "2023-10-18",
+        "EndDate": "2024-10-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "64c742df-367b-44e8-b6ae-3728807369a4",
+        "Name": "Tanya Brown",
+        "PolicyNumber": "48a746da-d658-402f-aeaf-8295d33fe4e2",
+        "ContactInformation": {
+            "Phone": "+1-924-619-8367x5910",
+            "Email": "hfischer@example.org",
+            "Address": "583 Johnson Junction Apt. 487\nSouth Michael, MT 01339"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-27",
+        "Location": "634 Mcknight Lodge Suite 995\nLogantown, OR 65080",
+        "Description": "Tend none suffer politics produce time economic.\nPosition run eat drive this. Early both respond."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6403
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50557
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 197340
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17054
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39971
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 173100,
+        "TotalApproved": 53651
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Molina",
+        "ContactInformation": {
+            "Phone": "408.980.9159",
+            "Email": "perezzachary@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/be3ce788-a909-4de1-891f-569dea2e1980"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-27T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-02T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-07T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

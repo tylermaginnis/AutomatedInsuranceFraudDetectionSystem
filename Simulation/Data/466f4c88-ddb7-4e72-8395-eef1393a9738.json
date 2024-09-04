@@ -1,0 +1,80 @@
+{
+  "ClaimID": "466f4c88-ddb7-4e72-8395-eef1393a9738",
+  "PolicyID": "e9976c48-6dc4-4011-b54f-911224f05173",
+  "EffectiveDates": {
+    "StartDate": "2023-11-03",
+    "EndDate": "2024-11-02"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "288176e5-1418-41c8-8687-d6e3368f64f6",
+    "Name": "Aaron Wells",
+    "PolicyNumber": "e9976c48-6dc4-4011-b54f-911224f05173",
+    "ContactInformation": {
+      "Phone": "001-998-768-3939x178",
+      "Email": "paul62@example.org",
+      "Address": "51411 Melissa Heights Suite 863\nLake Josephview, PW 46793"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-25",
+    "Location": "29809 Johnson Plains Apt. 678\nAllisonborough, FM 29492",
+    "Description": "Shoulder eight claim remember probably need ten. Rate level machine relationship authority."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 38403
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 40089
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 27808
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5827
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 41608
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 84690,
+    "TotalApproved": 61293
+  },
+  "AdjusterDetails": {
+    "Name": "Dr. Chelsea Villegas",
+    "ContactInformation": {
+      "Phone": "693-873-5094x44218",
+      "Email": "rogersrobert@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/e6f536c6-12bb-4972-bb17-c828a228af6c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-25T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-30T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-05T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

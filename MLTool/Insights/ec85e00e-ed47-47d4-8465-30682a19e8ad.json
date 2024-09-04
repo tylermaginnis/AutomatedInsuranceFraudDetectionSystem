@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ec85e00e-ed47-47d4-8465-30682a19e8ad",
+    "PolicyID": "0aa00015-8aa0-4435-8fd6-680aa8cb45e8",
+    "EffectiveDates": {
+        "StartDate": "2024-08-08",
+        "EndDate": "2025-08-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "572057ea-3a2c-4cd0-ba6c-f48c95999461",
+        "Name": "Andrew Farmer",
+        "PolicyNumber": "0aa00015-8aa0-4435-8fd6-680aa8cb45e8",
+        "ContactInformation": {
+            "Phone": "361.754.1878",
+            "Email": "laurathomas@example.net",
+            "Address": "597 Gary Centers\nSouth Adrianport, AL 01630"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-08",
+        "Location": "0379 Farrell Overpass Suite 474\nEast Allison, MT 92465",
+        "Description": "Page simple some however. Continue among first identify month.\nJust according good. Idea once either TV stay tax guess. Nearly risk carry. Agreement official its without."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44295
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 61999
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49102
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14820
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9418
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 120146,
+        "TotalApproved": 69535
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Williams",
+        "ContactInformation": {
+            "Phone": "303-311-2790x64296",
+            "Email": "yoconnor@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2e61eb60-3514-4e3f-9d31-810abb18a57f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

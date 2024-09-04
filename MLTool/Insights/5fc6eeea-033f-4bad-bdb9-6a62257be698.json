@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5fc6eeea-033f-4bad-bdb9-6a62257be698",
+    "PolicyID": "5dccb6b5-54cf-4a5c-9d43-1c4d33ff26ba",
+    "EffectiveDates": {
+        "StartDate": "2023-12-28",
+        "EndDate": "2024-12-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "95011c90-55ee-4a87-9c95-10df6989f48a",
+        "Name": "Lauren Farley",
+        "PolicyNumber": "5dccb6b5-54cf-4a5c-9d43-1c4d33ff26ba",
+        "ContactInformation": {
+            "Phone": "(960)576-7364",
+            "Email": "michaellawrence@example.net",
+            "Address": "88477 Benson Terrace\nJoelborough, NH 26607"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-29",
+        "Location": "87371 Andrea Coves\nPort Joseph, NJ 83822",
+        "Description": "Enter management somebody in upon. Long question her morning play course much.\nConference conference scientist newspaper increase. Herself teach see prove."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6905
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8136
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2658
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15838
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27671
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 45366,
+        "TotalApproved": 14764
+    },
+    "AdjusterDetails": {
+        "Name": "Wendy Jones",
+        "ContactInformation": {
+            "Phone": "(304)340-7857",
+            "Email": "chelseajones@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e7d17e43-27e0-48d0-9b1c-3f6e1ab6dce8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-29T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

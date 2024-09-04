@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8daf6131-b07c-431f-b0c8-7c336787f550",
+    "PolicyID": "14b28a01-823c-4092-bbfa-81632c2ba284",
+    "EffectiveDates": {
+        "StartDate": "2024-02-01",
+        "EndDate": "2025-01-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f0f23031-e7c6-47aa-8d46-8ca42fb0be9e",
+        "Name": "Brian Molina",
+        "PolicyNumber": "14b28a01-823c-4092-bbfa-81632c2ba284",
+        "ContactInformation": {
+            "Phone": "355-276-1865",
+            "Email": "richardsonheather@example.net",
+            "Address": "9740 Henry Islands\nSydneybury, FL 59449"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-08",
+        "Location": "194 Tasha Curve\nBrendamouth, VT 79283",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 88602
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29290
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6313
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22578
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7650
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 154433,
+        "TotalApproved": 121083
+    },
+    "AdjusterDetails": {
+        "Name": "David Contreras",
+        "ContactInformation": {
+            "Phone": "+1-432-257-7459x97339",
+            "Email": "lopeztodd@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0aeb41a5-3677-4a63-95c5-fdbfddb38e7b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-08T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-13T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-18T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

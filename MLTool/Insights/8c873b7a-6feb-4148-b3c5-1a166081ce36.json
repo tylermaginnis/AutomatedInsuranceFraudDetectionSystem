@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8c873b7a-6feb-4148-b3c5-1a166081ce36",
+    "PolicyID": "20bc49de-13a2-411c-8727-ad6c848069bd",
+    "EffectiveDates": {
+        "StartDate": "2023-10-31",
+        "EndDate": "2024-10-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9ad13e12-77b2-49a5-bc9a-a688be9cd952",
+        "Name": "Troy Ellis",
+        "PolicyNumber": "20bc49de-13a2-411c-8727-ad6c848069bd",
+        "ContactInformation": {
+            "Phone": "+1-908-503-4897x175",
+            "Email": "scottspencer@example.org",
+            "Address": "Unit 6163 Box 1294\nDPO AP 82739"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-27",
+        "Location": "0042 Cole Underpass\nJimmystad, RI 26570",
+        "Description": "Senior make recent picture. Question idea person among rock challenge federal. Enjoy image production degree woman challenge red month."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 65292
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 181550
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24297
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 145052
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1849
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 28922,
+        "TotalApproved": 18611
+    },
+    "AdjusterDetails": {
+        "Name": "Courtney Smith",
+        "ContactInformation": {
+            "Phone": "001-848-476-2191x1105",
+            "Email": "catherinemcmillan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/37b406ee-b0d9-4d20-9f41-cd01bcfe38c4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-27T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-02T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-07T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

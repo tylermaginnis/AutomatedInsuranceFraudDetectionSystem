@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2f51a130-9574-4d88-998b-a2f6ad9e4757",
+    "PolicyID": "1cd3d466-938c-41aa-a077-32062a8e6eba",
+    "EffectiveDates": {
+        "StartDate": "2024-07-05",
+        "EndDate": "2025-07-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0372ad55-f737-4c30-af95-5dd21551f43a",
+        "Name": "Crystal Gilbert",
+        "PolicyNumber": "1cd3d466-938c-41aa-a077-32062a8e6eba",
+        "ContactInformation": {
+            "Phone": "(358)578-1453x0812",
+            "Email": "deborah28@example.net",
+            "Address": "2634 Brown Forks\nMorganshire, MN 49012"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-15",
+        "Location": "3520 Duran Mews\nPort Colleenmouth, MO 61175",
+        "Description": "Contain almost environmental name all foreign consumer specific. You trial late miss alone service. Increase cut position mind trade tough."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4350
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17773
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26878
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13512
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8694
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 85142,
+        "TotalApproved": 50221
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy King",
+        "ContactInformation": {
+            "Phone": "001-309-332-1094",
+            "Email": "brianstephens@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5c3c42f3-024c-45a6-8b88-a33d2253652b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f0706390-bc9c-497a-a7f9-5179d59b6540",
+    "PolicyID": "3d039798-6d9e-4037-8d71-52c03da1b06d",
+    "EffectiveDates": {
+        "StartDate": "2024-05-22",
+        "EndDate": "2025-05-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ca1429c2-612f-4d5f-9ccc-33ead58cedaa",
+        "Name": "Tracy Love",
+        "PolicyNumber": "3d039798-6d9e-4037-8d71-52c03da1b06d",
+        "ContactInformation": {
+            "Phone": "706-503-2053x9522",
+            "Email": "karen59@example.org",
+            "Address": "1041 Angela Tunnel\nSouth Judith, ID 29417"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-15",
+        "Location": "43618 Taylor Radial Apt. 278\nEmilyfort, SD 24098",
+        "Description": "Present large a. Likely stay attention out bar condition interview. Republican church student hair great tell especially."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 161202
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34844
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5212
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8858
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 140357
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 133328,
+        "TotalApproved": 75535
+    },
+    "AdjusterDetails": {
+        "Name": "Michelle Snyder",
+        "ContactInformation": {
+            "Phone": "243.254.8679x42741",
+            "Email": "suarezjohn@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ac5a1111-7e6d-49e5-b2c4-36f73428f6e9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

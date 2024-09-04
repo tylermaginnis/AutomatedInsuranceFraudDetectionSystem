@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ebeb8a44-2421-447f-9cc3-cbe5de235980",
+    "PolicyID": "68eaa7f8-242e-4cfa-b9c5-a8c87759b180",
+    "EffectiveDates": {
+        "StartDate": "2024-01-16",
+        "EndDate": "2025-01-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a45deadd-6f0d-47a2-9a6c-cf6f391810b6",
+        "Name": "Elizabeth Santana",
+        "PolicyNumber": "68eaa7f8-242e-4cfa-b9c5-a8c87759b180",
+        "ContactInformation": {
+            "Phone": "001-628-525-2698",
+            "Email": "zharmon@example.org",
+            "Address": "3086 Alexander Vista\nGregoryfort, RI 87758"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-14",
+        "Location": "2498 Roberts Heights\nLake Jason, WI 95291",
+        "Description": "Budget ready law phone. Drive describe recent throw article her ten.\nStage father suddenly score model war us western. Perhaps people within sit throw guy learn. Sense capital nothing drug."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4496
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17186
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8781
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13436
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 85183
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 179595,
+        "TotalApproved": 35001
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Donovan",
+        "ContactInformation": {
+            "Phone": "8705661143",
+            "Email": "ydavis@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/707d24fb-3608-47dd-a023-8d1cda47ffc7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

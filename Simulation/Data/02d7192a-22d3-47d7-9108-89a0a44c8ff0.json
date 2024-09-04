@@ -1,0 +1,80 @@
+{
+  "ClaimID": "02d7192a-22d3-47d7-9108-89a0a44c8ff0",
+  "PolicyID": "55774ab4-f24d-42f9-98fb-f693fa48510a",
+  "EffectiveDates": {
+    "StartDate": "2024-04-13",
+    "EndDate": "2025-04-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2d7c6750-a8e9-4262-ac56-1cd9014ed50a",
+    "Name": "Susan Owens",
+    "PolicyNumber": "55774ab4-f24d-42f9-98fb-f693fa48510a",
+    "ContactInformation": {
+      "Phone": "001-789-443-6794x2032",
+      "Email": "michaelavila@example.org",
+      "Address": "8056 Andrea Ways\nLake Sara, OR 24382"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-25",
+    "Location": "9260 Justin Stream Apt. 018\nThomasborough, GU 28978",
+    "Description": "Sea central best present. Actually more international above get bring. Where movement capital something exactly word."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4380
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8278
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 47253
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1619
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 118562
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 170808,
+    "TotalApproved": 118833
+  },
+  "AdjusterDetails": {
+    "Name": "Darin Duarte",
+    "ContactInformation": {
+      "Phone": "(848)463-4519x282",
+      "Email": "clarkshane@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/bc3469eb-6f44-4fe5-8a17-5375083a680d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-25T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-30T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-04T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

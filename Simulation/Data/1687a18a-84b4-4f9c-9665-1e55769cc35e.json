@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1687a18a-84b4-4f9c-9665-1e55769cc35e",
+  "PolicyID": "e94fae2a-faef-4ebc-a840-461f53528ec9",
+  "EffectiveDates": {
+    "StartDate": "2024-05-04",
+    "EndDate": "2025-05-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "14899431-eaf3-4121-985a-7b9737236bb8",
+    "Name": "John Romero",
+    "PolicyNumber": "e94fae2a-faef-4ebc-a840-461f53528ec9",
+    "ContactInformation": {
+      "Phone": "478.436.4583",
+      "Email": "xmurphy@example.com",
+      "Address": "9065 Reid Spur\nGonzalesport, DE 33869"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-23",
+    "Location": "8405 Martin Roads\nLake Robinville, MA 95621",
+    "Description": "World decade appear off nothing anything record court. Compare three response. Discuss forget off."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16888
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1343
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 13445
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 33154
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6514
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 64337,
+    "TotalApproved": 5590
+  },
+  "AdjusterDetails": {
+    "Name": "Ryan Hatfield",
+    "ContactInformation": {
+      "Phone": "974.410.2531x0147",
+      "Email": "dennismartinez@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/266d10c9-c603-4831-8be2-e179db3c455b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-23T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-28T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-02T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

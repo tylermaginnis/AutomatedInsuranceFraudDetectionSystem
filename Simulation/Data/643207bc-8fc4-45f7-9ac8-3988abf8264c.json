@@ -1,0 +1,80 @@
+{
+  "ClaimID": "643207bc-8fc4-45f7-9ac8-3988abf8264c",
+  "PolicyID": "12eaa55d-3112-4854-ab9f-6d361c59c21a",
+  "EffectiveDates": {
+    "StartDate": "2023-11-10",
+    "EndDate": "2024-11-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "df122140-d00d-4d8f-92f1-0c6a010bf978",
+    "Name": "Bianca Tran",
+    "PolicyNumber": "12eaa55d-3112-4854-ab9f-6d361c59c21a",
+    "ContactInformation": {
+      "Phone": "001-655-762-7200",
+      "Email": "kschmidt@example.net",
+      "Address": "23404 Kimberly Shoal\nSarafort, DE 58290"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-29",
+    "Location": "560 Katelyn Stream\nChristopherport, SC 22036",
+    "Description": "Case me talk audience station. Of reveal Congress whose. Cover might carry approach resource north. Measure operation second."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8979
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4501
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 112236
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 69291
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7557
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 5116,
+    "TotalApproved": 3396
+  },
+  "AdjusterDetails": {
+    "Name": "Christopher Owens",
+    "ContactInformation": {
+      "Phone": "001-215-793-5040x7566",
+      "Email": "powellaimee@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/10e359a2-ee0e-42f1-99a1-ef0579d1e1b3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-29T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-03T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-08T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

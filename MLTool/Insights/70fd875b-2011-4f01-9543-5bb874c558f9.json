@@ -1,0 +1,81 @@
+{
+    "ClaimID": "70fd875b-2011-4f01-9543-5bb874c558f9",
+    "PolicyID": "7307c82a-7a6d-4dd1-a869-930755357b30",
+    "EffectiveDates": {
+        "StartDate": "2023-12-03",
+        "EndDate": "2024-12-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b0ac2973-b900-4f7a-af50-2447797450bf",
+        "Name": "Jennifer Pennington",
+        "PolicyNumber": "7307c82a-7a6d-4dd1-a869-930755357b30",
+        "ContactInformation": {
+            "Phone": "(353)838-3388x67950",
+            "Email": "lauren97@example.org",
+            "Address": "96563 Monica Inlet\nWest Kristinbury, NM 48292"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-24",
+        "Location": "0123 Samantha Overpass\nWeaverhaven, AS 70018",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 54644
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24596
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9737
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15673
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9370
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 114020,
+        "TotalApproved": 17845
+    },
+    "AdjusterDetails": {
+        "Name": "Amber Ramirez",
+        "ContactInformation": {
+            "Phone": "(820)909-7608",
+            "Email": "lpatel@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/43eeebf9-3ade-4e73-b1cf-356e1932eca2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-24T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-29T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-05T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

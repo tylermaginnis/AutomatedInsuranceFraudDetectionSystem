@@ -1,0 +1,80 @@
+{
+  "ClaimID": "65ba3cfb-3531-412e-bd87-5566b0a3186a",
+  "PolicyID": "afe33f80-ed6b-4ffc-981d-fc46a03d51de",
+  "EffectiveDates": {
+    "StartDate": "2024-08-30",
+    "EndDate": "2025-08-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "455c5d86-e6e2-4e59-ad9b-69741ec55249",
+    "Name": "David Medina",
+    "PolicyNumber": "afe33f80-ed6b-4ffc-981d-fc46a03d51de",
+    "ContactInformation": {
+      "Phone": "351.801.7334",
+      "Email": "wbrooks@example.net",
+      "Address": "2089 Sarah Port\nEast Nicholefort, NJ 66701"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-21",
+    "Location": "5131 Thomas Bypass Suite 853\nNorth David, CO 70376",
+    "Description": "Film type dark simply beyond sense. Ground these hundred such street his week.\nMeet option listen word really development significant mean. Hit my kid."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 49941
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 45667
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 59323
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 45909
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 46060
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 83460,
+    "TotalApproved": 33498
+  },
+  "AdjusterDetails": {
+    "Name": "Jeffrey White",
+    "ContactInformation": {
+      "Phone": "+1-655-320-9048x067",
+      "Email": "stevenwebb@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/428732f6-4c27-4876-bebb-a71ec7e8b6b6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-21T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-26T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-31T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

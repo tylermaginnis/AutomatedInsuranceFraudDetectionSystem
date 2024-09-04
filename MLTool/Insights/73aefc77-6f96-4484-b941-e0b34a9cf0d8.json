@@ -1,0 +1,81 @@
+{
+    "ClaimID": "73aefc77-6f96-4484-b941-e0b34a9cf0d8",
+    "PolicyID": "9f1133f7-c4c8-499d-9236-0adfbf65b33f",
+    "EffectiveDates": {
+        "StartDate": "2023-09-16",
+        "EndDate": "2024-09-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0c24c45f-fd6e-43ef-ba67-24f2409804d9",
+        "Name": "Jordan Smith",
+        "PolicyNumber": "9f1133f7-c4c8-499d-9236-0adfbf65b33f",
+        "ContactInformation": {
+            "Phone": "001-874-526-2194x85159",
+            "Email": "malonejennifer@example.net",
+            "Address": "595 Carter Fields Apt. 942\nDarrellshire, GU 93242"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-09",
+        "Location": "Unit 7856 Box 4953\nDPO AE 02652",
+        "Description": "Some show test feeling house pass song. Speak offer three evidence. Performance religious human laugh.\nColor each forget. Show cup position minute."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3096
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16945
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17384
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79058
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9049
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 37242,
+        "TotalApproved": 26207
+    },
+    "AdjusterDetails": {
+        "Name": "Misty Buckley",
+        "ContactInformation": {
+            "Phone": "662-826-2842",
+            "Email": "cduncan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/77f31253-e63b-44e2-a182-8f5763096d86"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

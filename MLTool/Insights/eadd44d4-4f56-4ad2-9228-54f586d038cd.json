@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eadd44d4-4f56-4ad2-9228-54f586d038cd",
+    "PolicyID": "b71062ff-09ea-4e69-9f07-4c3636e98522",
+    "EffectiveDates": {
+        "StartDate": "2024-01-22",
+        "EndDate": "2025-01-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "60c1b486-ca61-440e-8577-0b133027a3b6",
+        "Name": "Alison Garrett",
+        "PolicyNumber": "b71062ff-09ea-4e69-9f07-4c3636e98522",
+        "ContactInformation": {
+            "Phone": "6376017253",
+            "Email": "anthony23@example.com",
+            "Address": "64112 Aaron Junctions Apt. 428\nJenniferside, OK 83658"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-15",
+        "Location": "2849 Luke Plaza\nJackmouth, SC 98669",
+        "Description": "Institution network city. Reason something big line stop knowledge hospital. Probably item field current pay."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 43783
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31930
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 128346
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18952
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2872
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 165170,
+        "TotalApproved": 88876
+    },
+    "AdjusterDetails": {
+        "Name": "Roberto Maddox",
+        "ContactInformation": {
+            "Phone": "001-457-220-8342x242",
+            "Email": "owright@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f47c7cb8-96f3-473a-bbc9-76dc4da396ce"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-15T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-20T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-25T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

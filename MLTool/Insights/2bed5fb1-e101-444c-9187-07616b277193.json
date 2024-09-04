@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2bed5fb1-e101-444c-9187-07616b277193",
+    "PolicyID": "e10fc6b5-87f2-4ad4-83bb-5e55f167c6dd",
+    "EffectiveDates": {
+        "StartDate": "2024-02-16",
+        "EndDate": "2025-02-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aeef4086-71fb-400d-b16d-4e6dfcd04a7c",
+        "Name": "Andrew Farrell",
+        "PolicyNumber": "e10fc6b5-87f2-4ad4-83bb-5e55f167c6dd",
+        "ContactInformation": {
+            "Phone": "4829046795",
+            "Email": "carrie96@example.net",
+            "Address": "03477 Gomez Park\nHarrisborough, OK 18701"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-12",
+        "Location": "799 Gallegos Prairie Apt. 809\nPort Stephen, GA 85264",
+        "Description": "Identify cost tree standard consumer. Central building within end. Hour program professional ability coach window."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5068
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6342
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2222
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7703
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 74649
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 89167,
+        "TotalApproved": 85328
+    },
+    "AdjusterDetails": {
+        "Name": "Maria Hughes",
+        "ContactInformation": {
+            "Phone": "001-428-834-3457",
+            "Email": "roychristopher@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ddc138da-8662-4c0f-97c2-7045258bb204"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-12T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-17T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-22T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

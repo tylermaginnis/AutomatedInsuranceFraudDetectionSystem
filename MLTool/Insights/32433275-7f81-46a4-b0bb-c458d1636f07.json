@@ -1,0 +1,81 @@
+{
+    "ClaimID": "32433275-7f81-46a4-b0bb-c458d1636f07",
+    "PolicyID": "054a410b-72f3-43de-a6ec-d13df2dc92be",
+    "EffectiveDates": {
+        "StartDate": "2024-02-26",
+        "EndDate": "2025-02-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "726138cd-8dfa-432c-84fe-60f2ce32e68e",
+        "Name": "Jared Stephens",
+        "PolicyNumber": "054a410b-72f3-43de-a6ec-d13df2dc92be",
+        "ContactInformation": {
+            "Phone": "744.789.1238",
+            "Email": "cooperkimberly@example.org",
+            "Address": "251 Stacey Highway\nLewisfurt, VI 14514"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-01",
+        "Location": "67740 Torres Burgs Suite 397\nEllisonside, WI 51341",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 96309
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47113
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6212
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24675
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19064
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 193373,
+        "TotalApproved": 74005
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Stuart",
+        "ContactInformation": {
+            "Phone": "(409)827-5966",
+            "Email": "yriley@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6596cb5a-efac-4e04-8c15-1f082f4a29d7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-01T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-06T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-11T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

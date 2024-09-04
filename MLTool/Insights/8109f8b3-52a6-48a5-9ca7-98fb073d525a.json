@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8109f8b3-52a6-48a5-9ca7-98fb073d525a",
+    "PolicyID": "7d04c3dc-a20c-4c8a-a51a-340dac1524a4",
+    "EffectiveDates": {
+        "StartDate": "2023-09-08",
+        "EndDate": "2024-09-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fafe4550-1ccb-44ce-9cb0-f53937fcfc7c",
+        "Name": "Jenny Abbott",
+        "PolicyNumber": "7d04c3dc-a20c-4c8a-a51a-340dac1524a4",
+        "ContactInformation": {
+            "Phone": "331-271-4740x459",
+            "Email": "schneiderjason@example.com",
+            "Address": "76168 Castillo Well Apt. 056\nStanleychester, TX 11765"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-12",
+        "Location": "PSC 1203, Box 0243\nAPO AP 91931",
+        "Description": "Under husband have cover lead run next. Too identify draw.\nGrow identify ready. Base appear claim his conference. Window role loss push debate keep."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1176
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3819
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 167928
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19774
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38854
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 27706,
+        "TotalApproved": 12167
+    },
+    "AdjusterDetails": {
+        "Name": "Jeff Miller",
+        "ContactInformation": {
+            "Phone": "(402)588-0228x822",
+            "Email": "spencerlaura@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2c4975b0-a98a-4fb7-9e12-3c44d72fe1fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

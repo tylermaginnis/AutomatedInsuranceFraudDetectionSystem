@@ -1,0 +1,81 @@
+{
+    "ClaimID": "721fc1b6-128c-429b-a455-72b017e2ce50",
+    "PolicyID": "2081b71a-d7c6-43c5-92dc-22396f89f85e",
+    "EffectiveDates": {
+        "StartDate": "2024-01-29",
+        "EndDate": "2025-01-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2696f6b3-2ff8-4302-87fd-e0b00a830180",
+        "Name": "Christopher Walton",
+        "PolicyNumber": "2081b71a-d7c6-43c5-92dc-22396f89f85e",
+        "ContactInformation": {
+            "Phone": "751.245.0161x6160",
+            "Email": "michelegreene@example.org",
+            "Address": "USCGC Perez\nFPO AP 84942"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-24",
+        "Location": "75083 Richard Loop Suite 975\nJohnnyview, IN 69362",
+        "Description": "Suggest interview leg. Smile environment within ability main goal. Truth nearly maintain. Onto eat American central eye company."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8387
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36818
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 50527
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3301
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 189196
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 75287,
+        "TotalApproved": 32282
+    },
+    "AdjusterDetails": {
+        "Name": "Randy Hernandez",
+        "ContactInformation": {
+            "Phone": "387.218.4559",
+            "Email": "danawilliams@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7a99dc94-7cdf-45b5-b68b-78293ba5cfe1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-24T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-29T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-04T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

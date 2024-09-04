@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d0568ac3-5311-4d45-b847-275461275305",
+    "PolicyID": "dfe8b369-13b0-400d-a982-9b0e5c6f633a",
+    "EffectiveDates": {
+        "StartDate": "2024-04-24",
+        "EndDate": "2025-04-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8ddc39b8-c9b3-4071-8ff3-fce0384bbecd",
+        "Name": "Laura Briggs",
+        "PolicyNumber": "dfe8b369-13b0-400d-a982-9b0e5c6f633a",
+        "ContactInformation": {
+            "Phone": "7124504709",
+            "Email": "petergutierrez@example.com",
+            "Address": "Unit 9681 Box 5756\nDPO AE 61237"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-05",
+        "Location": "251 Lisa Coves\nPort Michele, IA 31145",
+        "Description": "While forget either else we. Business future record table travel."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11089
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13479
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 104021
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2811
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1495
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 120044,
+        "TotalApproved": 92136
+    },
+    "AdjusterDetails": {
+        "Name": "Cory Weaver",
+        "ContactInformation": {
+            "Phone": "3893731753",
+            "Email": "coxbrandon@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/38dbfe3f-217e-4b73-a96b-426d7c6006b6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

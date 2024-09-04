@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9806bfcf-1fde-4a70-b3c5-8d12c32d6740",
+    "PolicyID": "d2c30a3e-e3ec-4267-88ef-b214ed89d7c9",
+    "EffectiveDates": {
+        "StartDate": "2024-06-21",
+        "EndDate": "2025-06-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "950de7f1-93aa-4c7b-a990-984cbff45922",
+        "Name": "James Harrison",
+        "PolicyNumber": "d2c30a3e-e3ec-4267-88ef-b214ed89d7c9",
+        "ContactInformation": {
+            "Phone": "(650)978-0350x00712",
+            "Email": "gordonjoshua@example.net",
+            "Address": "21261 Brady Underpass Suite 889\nSawyerville, PA 42655"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-25",
+        "Location": "765 Rachel Summit\nWest Ericamouth, WV 17587",
+        "Description": "Big can or. Admit democratic must chance middle thing.\nProfessional hospital including degree impact hard long. Matter third much region tree modern result large. Front box standard."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8288
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4064
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 70484
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 56752
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37794
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 46682,
+        "TotalApproved": 42058
+    },
+    "AdjusterDetails": {
+        "Name": "Kelly Smith",
+        "ContactInformation": {
+            "Phone": "414.213.8738",
+            "Email": "rwright@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/fcdfb6b7-240d-4e30-ae34-ea3ac6d6fb03"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-25T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-30T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-05T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

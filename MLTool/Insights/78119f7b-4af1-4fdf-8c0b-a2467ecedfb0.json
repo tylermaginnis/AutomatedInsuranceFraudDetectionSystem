@@ -1,0 +1,81 @@
+{
+    "ClaimID": "78119f7b-4af1-4fdf-8c0b-a2467ecedfb0",
+    "PolicyID": "f30b2447-0513-4291-8406-908669bca7af",
+    "EffectiveDates": {
+        "StartDate": "2023-12-11",
+        "EndDate": "2024-12-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ed656e8a-7b6d-49f9-a05b-fa2ebc6742b7",
+        "Name": "Mary Larsen",
+        "PolicyNumber": "f30b2447-0513-4291-8406-908669bca7af",
+        "ContactInformation": {
+            "Phone": "2384972895",
+            "Email": "alexandriadaniel@example.org",
+            "Address": "19969 Nicole Gardens\nLake Chase, KY 05897"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-20",
+        "Location": "842 Melinda Pines\nWest Meganton, VI 58179",
+        "Description": "Yes hundred sure federal. These staff hard could consider establish pick.\nImpact throw case social. Home side fire section."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9016
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12068
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 112828
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 92024
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 136996
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154833,
+        "TotalApproved": 39983
+    },
+    "AdjusterDetails": {
+        "Name": "Audrey Caldwell",
+        "ContactInformation": {
+            "Phone": "(404)484-8862x46979",
+            "Email": "christinaodom@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7391c7dc-c872-4914-abc0-bbebbfe21cba"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c2b02880-46e7-4fe7-955c-f8b1659c928e",
+  "PolicyID": "88eb5a9a-7feb-4222-b343-7378b24c14c3",
+  "EffectiveDates": {
+    "StartDate": "2024-02-28",
+    "EndDate": "2025-02-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e6b82973-ed68-4447-925b-bbcbdad7ed76",
+    "Name": "Natalie Mckinney",
+    "PolicyNumber": "88eb5a9a-7feb-4222-b343-7378b24c14c3",
+    "ContactInformation": {
+      "Phone": "575-689-7817",
+      "Email": "helen08@example.org",
+      "Address": "96545 White Mills Suite 548\nLauraberg, NH 33058"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-10",
+    "Location": "Unit 6135 Box 8603\nDPO AE 47760",
+    "Description": "Travel something ok investment shake position. Response can front.\nEspecially arm son place about. Thus religious home ahead practice form. He arm employee hope he."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 12866
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 134603
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 73642
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 152288
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 27162
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 77913,
+    "TotalApproved": 4253
+  },
+  "AdjusterDetails": {
+    "Name": "Danny Bullock",
+    "ContactInformation": {
+      "Phone": "341-406-1281",
+      "Email": "williambrown@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/8f07dca1-3808-491a-93ae-04ee58e0ef53"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-10T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-15T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-20T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

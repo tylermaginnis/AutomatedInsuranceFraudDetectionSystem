@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5cbeca5b-c88c-4b90-94ba-415ce3268da3",
+    "PolicyID": "fe641f68-47ad-46fd-ae44-1f2f2e39ba0d",
+    "EffectiveDates": {
+        "StartDate": "2023-11-28",
+        "EndDate": "2024-11-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "afbb713c-460d-4997-9c4a-2f2d1c42fb2e",
+        "Name": "Samuel Gillespie",
+        "PolicyNumber": "fe641f68-47ad-46fd-ae44-1f2f2e39ba0d",
+        "ContactInformation": {
+            "Phone": "764-541-6238x60703",
+            "Email": "scottstacy@example.com",
+            "Address": "00182 Martinez Track\nNew Jacob, NJ 03789"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-10",
+        "Location": "360 Claudia Gardens Suite 189\nSouth Susan, ME 38289",
+        "Description": "Race big require yourself dream any game. Onto accept statement goal there."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4284
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37883
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 58641
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1363
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5139
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 82715,
+        "TotalApproved": 82329
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Rebecca Carter",
+        "ContactInformation": {
+            "Phone": "4725832235",
+            "Email": "nicole52@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a31068a1-613d-4bba-b42f-adb769ffcbf0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-10T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-15T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-20T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0d0334bb-2ad0-4d93-98ce-1a6294fba3ae",
+    "PolicyID": "92ba0322-0191-4b16-b55b-b8d40f0bc3af",
+    "EffectiveDates": {
+        "StartDate": "2024-07-27",
+        "EndDate": "2025-07-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aab3c5be-ff83-44d6-88b0-6523b0a7b8c6",
+        "Name": "Scott Rogers",
+        "PolicyNumber": "92ba0322-0191-4b16-b55b-b8d40f0bc3af",
+        "ContactInformation": {
+            "Phone": "337.987.9666x7235",
+            "Email": "ryanadams@example.com",
+            "Address": "6084 Cox Forge Suite 330\nSweeneyland, WV 96019"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-27",
+        "Location": "94444 Davidson Street Suite 943\nFuentesfort, MD 43903",
+        "Description": "Physical year PM white key scientist. Describe design allow product represent. Brother great challenge local case gas.\nProduce give boy attorney face pick time."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5573
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13134
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45685
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 57804
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7146
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 149864,
+        "TotalApproved": 114123
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Torres",
+        "ContactInformation": {
+            "Phone": "447.696.3586x8451",
+            "Email": "brandall@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c78438ce-793b-422f-8848-db365000d096"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-27T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-01T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-06T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

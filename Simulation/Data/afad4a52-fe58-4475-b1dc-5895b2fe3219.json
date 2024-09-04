@@ -1,0 +1,80 @@
+{
+  "ClaimID": "afad4a52-fe58-4475-b1dc-5895b2fe3219",
+  "PolicyID": "4c9a15dc-bc83-477c-81d9-3bf53ce89bd9",
+  "EffectiveDates": {
+    "StartDate": "2024-06-25",
+    "EndDate": "2025-06-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6ddc4f6a-5944-433a-be04-c4c381f74172",
+    "Name": "Michael Turner",
+    "PolicyNumber": "4c9a15dc-bc83-477c-81d9-3bf53ce89bd9",
+    "ContactInformation": {
+      "Phone": "657-898-5612x58178",
+      "Email": "jholmes@example.com",
+      "Address": "2831 Breanna Club\nHannahborough, MN 41519"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-22",
+    "Location": "758 Michael Course Apt. 203\nLopezshire, MP 71595",
+    "Description": "Every bed century enough may. Partner many continue break project career difference. Past future toward executive try."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 26542
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 163026
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 18191
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 61578
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 92848
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 142965,
+    "TotalApproved": 30074
+  },
+  "AdjusterDetails": {
+    "Name": "Madison Hernandez",
+    "ContactInformation": {
+      "Phone": "263-877-8407x05199",
+      "Email": "ohernandez@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/0f331e1b-072b-46e7-9f39-1cb0037e3a2d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-22T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-27T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-02T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

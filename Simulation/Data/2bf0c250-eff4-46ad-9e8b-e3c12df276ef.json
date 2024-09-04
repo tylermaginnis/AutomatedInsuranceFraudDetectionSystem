@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2bf0c250-eff4-46ad-9e8b-e3c12df276ef",
+  "PolicyID": "2cf72746-033e-4ff5-82bb-fa527e171e8a",
+  "EffectiveDates": {
+    "StartDate": "2024-03-20",
+    "EndDate": "2025-03-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b8d589d8-2a2e-4701-935a-95268018da29",
+    "Name": "Stephanie Hammond",
+    "PolicyNumber": "2cf72746-033e-4ff5-82bb-fa527e171e8a",
+    "ContactInformation": {
+      "Phone": "974-849-2105x6359",
+      "Email": "mark49@example.com",
+      "Address": "41337 Stacy Route\nWest Evelynville, VI 96452"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-19",
+    "Location": "0711 Kathleen Branch\nJamesmouth, WA 96248",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 75657
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 29744
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8861
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 27429
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8055
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 149746,
+    "TotalApproved": 76821
+  },
+  "AdjusterDetails": {
+    "Name": "William Sullivan",
+    "ContactInformation": {
+      "Phone": "904-748-7223x8097",
+      "Email": "xgallagher@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/4ca3b5f7-b04d-4c8b-ac07-b7809489529f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-19T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-24T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-01T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

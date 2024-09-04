@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c506a332-7b12-4b1d-8e11-79c544474b92",
+    "PolicyID": "31515308-d079-4103-a374-bd9e00f1a579",
+    "EffectiveDates": {
+        "StartDate": "2024-05-30",
+        "EndDate": "2025-05-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c806a69d-9595-4497-a950-16e1c844c664",
+        "Name": "Matthew Smith",
+        "PolicyNumber": "31515308-d079-4103-a374-bd9e00f1a579",
+        "ContactInformation": {
+            "Phone": "7774219078",
+            "Email": "pittschristine@example.com",
+            "Address": "561 Hogan Well Suite 099\nMitchellside, NE 80750"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-02",
+        "Location": "3690 Alex Stravenue\nNathanmouth, OR 59422",
+        "Description": "Here thus player world choose. Rule each market whose fear thousand character. East do movement which issue make. Bar ability necessary true visit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8324
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23049
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6457
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31049
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25208
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 15378,
+        "TotalApproved": 13395
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Reed",
+        "ContactInformation": {
+            "Phone": "(372)698-1620",
+            "Email": "gilbertrobin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/10377e37-9694-47ca-a60d-561ea6fb9148"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-02T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-07T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-12T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

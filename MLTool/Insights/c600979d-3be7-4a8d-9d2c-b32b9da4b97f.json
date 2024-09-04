@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c600979d-3be7-4a8d-9d2c-b32b9da4b97f",
+    "PolicyID": "bd8a2441-7f3a-4467-a32c-40387ccea437",
+    "EffectiveDates": {
+        "StartDate": "2024-05-06",
+        "EndDate": "2025-05-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "070ff4cc-375c-405b-8735-25950340a771",
+        "Name": "Michael Hatfield",
+        "PolicyNumber": "bd8a2441-7f3a-4467-a32c-40387ccea437",
+        "ContactInformation": {
+            "Phone": "9296206377",
+            "Email": "martinsims@example.org",
+            "Address": "04863 Tyler Forks Suite 913\nJamesberg, AS 10176"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-19",
+        "Location": "3504 Richard Stream Suite 567\nRochaborough, MO 01601",
+        "Description": "Especially crime exactly step language large prepare recognize. Show give fall food. Difference door stand. For responsibility become court eye maybe."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 85041
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5431
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 94818
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5209
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 61702
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 136495,
+        "TotalApproved": 88995
+    },
+    "AdjusterDetails": {
+        "Name": "Cameron Rivera",
+        "ContactInformation": {
+            "Phone": "(706)262-4310",
+            "Email": "nunezsean@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f28339c7-aec7-4db0-8733-914fe207a250"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-19T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-24T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-29T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

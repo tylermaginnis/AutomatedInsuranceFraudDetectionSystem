@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a7d593da-c56c-4ba3-842f-0e2ce6ae3e87",
+    "PolicyID": "17c22fc1-b9d8-44e3-9183-789b0441012f",
+    "EffectiveDates": {
+        "StartDate": "2024-06-11",
+        "EndDate": "2025-06-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "237a3f37-2416-4e2e-a57a-7bdaa806938c",
+        "Name": "Kristen Hill",
+        "PolicyNumber": "17c22fc1-b9d8-44e3-9183-789b0441012f",
+        "ContactInformation": {
+            "Phone": "723-519-1691",
+            "Email": "jhamilton@example.net",
+            "Address": "451 Torres Flat Suite 348\nFoxshire, ND 08260"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-21",
+        "Location": "68602 Faulkner Forks Apt. 090\nJefferychester, NH 30931",
+        "Description": "Ball feel member office. Indicate whose reduce low.\nUnit book draw. Involve too red walk pay picture goal. Situation man financial."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7867
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5145
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15340
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12992
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 59361
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 37275,
+        "TotalApproved": 12093
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Roberts",
+        "ContactInformation": {
+            "Phone": "(724)873-3390x9844",
+            "Email": "scottwilkerson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/75ce8861-3bb8-4228-8f69-c8724361b029"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-21T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-26T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-31T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

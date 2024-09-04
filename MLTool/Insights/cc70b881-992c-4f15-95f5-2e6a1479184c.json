@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cc70b881-992c-4f15-95f5-2e6a1479184c",
+    "PolicyID": "36477d17-449b-4187-b0b4-a1c3bea21250",
+    "EffectiveDates": {
+        "StartDate": "2023-09-07",
+        "EndDate": "2024-09-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "516b433a-818b-4364-a9b7-12c5c9966e80",
+        "Name": "Janet Cochran",
+        "PolicyNumber": "36477d17-449b-4187-b0b4-a1c3bea21250",
+        "ContactInformation": {
+            "Phone": "001-625-584-9262",
+            "Email": "gschwartz@example.com",
+            "Address": "PSC 8845, Box 9369\nAPO AP 51961"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-28",
+        "Location": "212 Jackson Forest\nAlexabury, CA 72654",
+        "Description": "World piece concern talk. Line follow sing professor firm make seem realize.\nMrs beat improve upon. Themselves politics mission allow different."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11510
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 95903
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 144069
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 113054
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38401
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 119751,
+        "TotalApproved": 105794
+    },
+    "AdjusterDetails": {
+        "Name": "David Hurst",
+        "ContactInformation": {
+            "Phone": "001-818-237-5724",
+            "Email": "ericarodriguez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7e8a2602-a65b-4cdb-bcee-4983ac7645c0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-02T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-07T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

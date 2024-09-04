@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a7f1ec70-47e3-49dc-a1ab-d9d21eb98ee7",
+    "PolicyID": "38d60756-2fc8-4744-b2e7-5bc3c90d4123",
+    "EffectiveDates": {
+        "StartDate": "2024-07-17",
+        "EndDate": "2025-07-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9db82088-617c-4290-b061-426c5345e0da",
+        "Name": "Paul Huff",
+        "PolicyNumber": "38d60756-2fc8-4744-b2e7-5bc3c90d4123",
+        "ContactInformation": {
+            "Phone": "3462244201",
+            "Email": "jesse66@example.net",
+            "Address": "PSC 7781, Box 1595\nAPO AA 46260"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-27",
+        "Location": "961 Joseph Valley\nMorrowmouth, MN 95607",
+        "Description": "Actually source eye yet choose. Able remain eat word pass."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 96579
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7503
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 102937
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7091
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4011
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 84104,
+        "TotalApproved": 58527
+    },
+    "AdjusterDetails": {
+        "Name": "Travis Nelson",
+        "ContactInformation": {
+            "Phone": "598.348.3056x454",
+            "Email": "warrenlindsay@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/87937e78-ee1e-4645-957c-0d272487a851"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-27T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-01T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-06T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

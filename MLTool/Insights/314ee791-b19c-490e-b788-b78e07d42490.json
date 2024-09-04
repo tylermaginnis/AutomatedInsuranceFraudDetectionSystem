@@ -1,0 +1,81 @@
+{
+    "ClaimID": "314ee791-b19c-490e-b788-b78e07d42490",
+    "PolicyID": "d3ed72c6-de47-4e57-8750-f9d9323bfd5c",
+    "EffectiveDates": {
+        "StartDate": "2024-04-13",
+        "EndDate": "2025-04-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "290821e2-7a98-4873-8c0b-3a972c20be7e",
+        "Name": "Diane Cannon",
+        "PolicyNumber": "d3ed72c6-de47-4e57-8750-f9d9323bfd5c",
+        "ContactInformation": {
+            "Phone": "001-378-327-9240x46955",
+            "Email": "wallbruce@example.org",
+            "Address": "140 Smith Port Apt. 035\nEllisonhaven, AL 47439"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-19",
+        "Location": "30997 Valerie Ferry\nSalinasside, DE 85570",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 62913
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47698
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6137
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22924
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11728
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 151400,
+        "TotalApproved": 84488
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Miller",
+        "ContactInformation": {
+            "Phone": "588.783.5442",
+            "Email": "judith27@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2c1766d2-c522-4039-921e-a58a49fc5fde"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-19T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-24T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-29T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

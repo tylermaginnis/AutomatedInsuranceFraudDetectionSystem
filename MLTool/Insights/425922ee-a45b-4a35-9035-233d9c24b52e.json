@@ -1,0 +1,81 @@
+{
+    "ClaimID": "425922ee-a45b-4a35-9035-233d9c24b52e",
+    "PolicyID": "eb28efd7-a5a6-468a-b582-38909714fe59",
+    "EffectiveDates": {
+        "StartDate": "2023-09-08",
+        "EndDate": "2024-09-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ae53d29e-2fb4-4536-b71f-c87982f0eb80",
+        "Name": "Melissa Brown",
+        "PolicyNumber": "eb28efd7-a5a6-468a-b582-38909714fe59",
+        "ContactInformation": {
+            "Phone": "+1-562-982-5443x9902",
+            "Email": "millerhenry@example.com",
+            "Address": "676 Hill Path Suite 158\nSouth Jackfort, AS 84090"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-18",
+        "Location": "1207 Watson Squares Suite 946\nDawsonborough, NJ 06288",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 50327
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23373
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9753
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23387
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12959
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 119799,
+        "TotalApproved": 54860
+    },
+    "AdjusterDetails": {
+        "Name": "David Blankenship",
+        "ContactInformation": {
+            "Phone": "001-216-930-2969x946",
+            "Email": "ptaylor@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/bda25b7a-86bb-44b8-8c77-da23739f6845"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-18T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-23T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-28T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

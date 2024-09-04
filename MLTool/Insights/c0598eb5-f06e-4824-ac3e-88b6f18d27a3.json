@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c0598eb5-f06e-4824-ac3e-88b6f18d27a3",
+    "PolicyID": "ce406b3f-a17c-44fb-ab5f-be82c76155f0",
+    "EffectiveDates": {
+        "StartDate": "2023-10-03",
+        "EndDate": "2024-10-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "869160d9-1644-4004-99fd-dfbffc9ab2b5",
+        "Name": "Keith Mueller",
+        "PolicyNumber": "ce406b3f-a17c-44fb-ab5f-be82c76155f0",
+        "ContactInformation": {
+            "Phone": "001-324-957-2715x50025",
+            "Email": "jillian06@example.com",
+            "Address": "USNS Lee\nFPO AP 79402"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-26",
+        "Location": "8683 Peters Lake Apt. 692\nNew Bradley, OH 14610",
+        "Description": "Strong run meeting past clearly probably. Role field me ask happy growth then phone. These necessary area black section set."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44188
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25292
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17566
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25329
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 111140
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 54301,
+        "TotalApproved": 34647
+    },
+    "AdjusterDetails": {
+        "Name": "Deborah Washington",
+        "ContactInformation": {
+            "Phone": "(220)266-4544x89563",
+            "Email": "jonesjeffrey@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/06025a32-fc88-4e97-bb69-0aefb3beb437"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-31T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

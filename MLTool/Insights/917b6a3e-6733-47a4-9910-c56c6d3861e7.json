@@ -1,0 +1,81 @@
+{
+    "ClaimID": "917b6a3e-6733-47a4-9910-c56c6d3861e7",
+    "PolicyID": "8a6c9ec3-1cf8-4ff7-88df-b99b00845013",
+    "EffectiveDates": {
+        "StartDate": "2023-09-19",
+        "EndDate": "2024-09-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1d90a0f0-368c-492c-9a2a-544bab5b7221",
+        "Name": "Kim Smith",
+        "PolicyNumber": "8a6c9ec3-1cf8-4ff7-88df-b99b00845013",
+        "ContactInformation": {
+            "Phone": "(443)597-4356x8963",
+            "Email": "samanthamiddleton@example.net",
+            "Address": "46569 Chase Shore Suite 347\nPort Miachester, IN 01285"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-07",
+        "Location": "2415 Sutton Trail\nRobinsonhaven, CA 94082",
+        "Description": "Win view explain. Call half heart wrong decision news maintain.\nGame bring need future. Answer generation value consider unit shake. Will wonder all wall sing hundred measure positive."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15400
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11048
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9916
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42980
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 137350
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 11220,
+        "TotalApproved": 5481
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Hodge",
+        "ContactInformation": {
+            "Phone": "783-713-8913",
+            "Email": "ydeleon@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a9c44191-9a6f-44d1-bfc7-f8017b533771"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-07T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-12T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-17T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

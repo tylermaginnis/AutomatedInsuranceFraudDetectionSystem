@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a033ca5c-54ab-4adb-8790-90f8aa27e669",
+    "PolicyID": "5658a141-3e68-4820-baec-71d26a8f3087",
+    "EffectiveDates": {
+        "StartDate": "2024-03-12",
+        "EndDate": "2025-03-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d31bfd90-ab5d-4f63-95fe-76bdcceb41a7",
+        "Name": "Belinda Johnson",
+        "PolicyNumber": "5658a141-3e68-4820-baec-71d26a8f3087",
+        "ContactInformation": {
+            "Phone": "719-816-3467",
+            "Email": "christopherwalker@example.com",
+            "Address": "PSC 6598, Box 6782\nAPO AA 29771"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-03",
+        "Location": "46456 Brent Estates Apt. 883\nConradport, MA 06147",
+        "Description": "Method human develop nearly trip build present. Reach hospital study in.\nYard color behind mean everyone civil money. Moment money explain art walk morning heart. Even out different."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35015
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9684
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8575
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62885
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29598
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 9361,
+        "TotalApproved": 1120
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Levine",
+        "ContactInformation": {
+            "Phone": "001-234-277-6443x175",
+            "Email": "zdiaz@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6e3b7525-8334-48b8-9c38-d6d31c4d43fc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-03T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-08T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-13T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

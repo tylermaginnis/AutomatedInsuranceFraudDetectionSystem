@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8c3e22c0-5f16-4853-9afc-eafecfed6568",
+    "PolicyID": "68aa050d-aaeb-4882-a381-3399b9062a26",
+    "EffectiveDates": {
+        "StartDate": "2024-02-04",
+        "EndDate": "2025-02-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "141583d4-0d2d-4f4a-bf21-4caf14af9f54",
+        "Name": "Carol Jones",
+        "PolicyNumber": "68aa050d-aaeb-4882-a381-3399b9062a26",
+        "ContactInformation": {
+            "Phone": "(747)409-7706",
+            "Email": "christophermcdaniel@example.org",
+            "Address": "36204 Proctor Falls\nMatthewburgh, TN 69008"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-21",
+        "Location": "850 Christopher Trail\nWest Matthewside, SC 13388",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 79704
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31242
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9616
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25867
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8672
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 155101,
+        "TotalApproved": 97093
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Martinez",
+        "ContactInformation": {
+            "Phone": "842.694.9239",
+            "Email": "gonzalespeter@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/cb44a9a0-a366-4823-bb7c-298720df971b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-31T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

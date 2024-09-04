@@ -1,0 +1,80 @@
+{
+  "ClaimID": "23b91466-a7c7-4964-ac73-7fd9f942999c",
+  "PolicyID": "fc5be2ac-c7de-4113-8f97-a2490c0d25bc",
+  "EffectiveDates": {
+    "StartDate": "2024-01-03",
+    "EndDate": "2025-01-02"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "818e7e86-2321-48bc-bbf4-85d4ac05d651",
+    "Name": "Alexander Stevenson",
+    "PolicyNumber": "fc5be2ac-c7de-4113-8f97-a2490c0d25bc",
+    "ContactInformation": {
+      "Phone": "(448)296-5213x4824",
+      "Email": "psanders@example.org",
+      "Address": "740 Hale Turnpike\nLeonmouth, DC 65331"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-08",
+    "Location": "USS Montgomery\nFPO AA 35281",
+    "Description": "Nature analysis meeting popular finally measure ball. Condition author news lawyer mouth what send. Particularly food police property police heavy strategy scientist."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 39156
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 41023
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 65467
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10616
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7717
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 164128,
+    "TotalApproved": 36435
+  },
+  "AdjusterDetails": {
+    "Name": "Deanna Glover",
+    "ContactInformation": {
+      "Phone": "774.902.7139x32844",
+      "Email": "jonesallison@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/78ba8f86-6c1c-47f2-b530-171bd6399baf"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-08T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-13T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-18T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

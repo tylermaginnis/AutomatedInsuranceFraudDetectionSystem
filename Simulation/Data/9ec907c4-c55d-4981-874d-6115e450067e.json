@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9ec907c4-c55d-4981-874d-6115e450067e",
+  "PolicyID": "9caa308c-5c3d-4a0a-b347-ae9cfe3f06da",
+  "EffectiveDates": {
+    "StartDate": "2024-06-17",
+    "EndDate": "2025-06-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "75bceb0b-2ea5-40bf-ba7f-006f6c4b6a8b",
+    "Name": "Timothy Price",
+    "PolicyNumber": "9caa308c-5c3d-4a0a-b347-ae9cfe3f06da",
+    "ContactInformation": {
+      "Phone": "218.399.5602",
+      "Email": "bbaker@example.net",
+      "Address": "0341 Miller Dale\nLoribury, ME 44987"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-15",
+    "Location": "Unit 5413 Box 1021\nDPO AP 57971",
+    "Description": "Leader father two trouble without current station goal. Drive computer fund than."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 46533
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3591
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 33904
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9674
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8896
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 159518,
+    "TotalApproved": 55414
+  },
+  "AdjusterDetails": {
+    "Name": "Gerald King",
+    "ContactInformation": {
+      "Phone": "254-765-2526",
+      "Email": "elizabethsheppard@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/5dc56d73-7f4f-494d-bb86-1d1b3ad448ba"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-15T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-20T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-25T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

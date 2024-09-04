@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ef639855-a416-4db1-8fb2-94849487a2dd",
+    "PolicyID": "4307d5ad-eb8b-42d1-a554-7e114e8e76fe",
+    "EffectiveDates": {
+        "StartDate": "2024-04-23",
+        "EndDate": "2025-04-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7d03c8be-909c-47ee-b745-8d19521a5a2d",
+        "Name": "Jeffery Murphy",
+        "PolicyNumber": "4307d5ad-eb8b-42d1-a554-7e114e8e76fe",
+        "ContactInformation": {
+            "Phone": "5066300221",
+            "Email": "lopezmichael@example.org",
+            "Address": "0319 Hampton Loop Suite 407\nSouth Jayhaven, VI 06301"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-07",
+        "Location": "Unit 8480 Box 6529\nDPO AP 59399",
+        "Description": "Spring opportunity effect quickly open figure wish federal. Wish eye field phone.\nEconomy young help pattern image part medical less. Expert pass yourself government down sit attention full."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41325
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5349
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13441
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14685
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7867
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 38042,
+        "TotalApproved": 9225
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Decker",
+        "ContactInformation": {
+            "Phone": "524-857-3077",
+            "Email": "victoriashaw@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/efb2acb3-5144-46a6-8d65-96dbbac289ce"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-07T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-12T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-17T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

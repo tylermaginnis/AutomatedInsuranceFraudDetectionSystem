@@ -1,0 +1,81 @@
+{
+    "ClaimID": "db99d7d4-2925-4ea3-9447-de50b2df248e",
+    "PolicyID": "6b7ed233-4aea-411b-9349-0dda1f712fa2",
+    "EffectiveDates": {
+        "StartDate": "2024-07-13",
+        "EndDate": "2025-07-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7e600ca4-33c0-48f2-a386-73986be6a1e1",
+        "Name": "Justin Ingram",
+        "PolicyNumber": "6b7ed233-4aea-411b-9349-0dda1f712fa2",
+        "ContactInformation": {
+            "Phone": "001-564-343-8777",
+            "Email": "leslie15@example.org",
+            "Address": "110 Black Fields Suite 188\nCarlosland, ID 63294"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-26",
+        "Location": "39816 Brown Wall\nLake Markfurt, WA 14279",
+        "Description": "Land bed draw across pass lawyer note. Toward baby wish do year move win. Important image hair color series would catch. Performance to local space tax member old."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 81669
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 143343
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 191958
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6764
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25903
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154195,
+        "TotalApproved": 65185
+    },
+    "AdjusterDetails": {
+        "Name": "Marc Morris",
+        "ContactInformation": {
+            "Phone": "+1-271-279-7789x689",
+            "Email": "dmueller@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0236ffac-1a5d-4c52-b02d-b3f019f0bae5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-26T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-01T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-06T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

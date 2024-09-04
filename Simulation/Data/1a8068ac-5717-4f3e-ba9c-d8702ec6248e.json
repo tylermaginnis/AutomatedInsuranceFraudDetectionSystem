@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1a8068ac-5717-4f3e-ba9c-d8702ec6248e",
+  "PolicyID": "a6b89e43-e2e0-4531-9ff6-d6a28d3f2765",
+  "EffectiveDates": {
+    "StartDate": "2024-05-22",
+    "EndDate": "2025-05-22"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ee719f11-84c2-492c-a387-519c864d43ea",
+    "Name": "Charles Smith",
+    "PolicyNumber": "a6b89e43-e2e0-4531-9ff6-d6a28d3f2765",
+    "ContactInformation": {
+      "Phone": "001-251-546-8432x94542",
+      "Email": "edwindavis@example.org",
+      "Address": "578 Anna Canyon\nNew Andrew, ND 44028"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-10",
+    "Location": "555 Diana Passage\nNew Natalie, DE 16896",
+    "Description": "Box treat huge garden. Race war east its audience there. Art team page force final what.\nExpert see chair control politics. More available administration their pay pay he small."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 164647
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 25856
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5897
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 93364
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 65467
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 1725,
+    "TotalApproved": 1135
+  },
+  "AdjusterDetails": {
+    "Name": "Kristin Gonzalez",
+    "ContactInformation": {
+      "Phone": "(224)667-3778",
+      "Email": "bbyrd@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/a70529fb-8e18-4b63-97fb-111e4c5bcb3e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-10T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-15T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-20T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

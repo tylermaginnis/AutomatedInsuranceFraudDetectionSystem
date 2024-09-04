@@ -1,0 +1,81 @@
+{
+    "ClaimID": "79f158b6-689f-4dc6-83ac-aea9a1419d1f",
+    "PolicyID": "a5c0a9d6-d0fc-458b-b49a-1dc2bead69f7",
+    "EffectiveDates": {
+        "StartDate": "2024-04-06",
+        "EndDate": "2025-04-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "04a59c23-48ee-40f5-b499-a668d48da623",
+        "Name": "Kylie Marks",
+        "PolicyNumber": "a5c0a9d6-d0fc-458b-b49a-1dc2bead69f7",
+        "ContactInformation": {
+            "Phone": "(336)921-3552",
+            "Email": "madison97@example.net",
+            "Address": "29954 Anthony Divide\nCraigside, WA 24781"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-06",
+        "Location": "81083 Cain Highway\nSouth Alicia, ND 27998",
+        "Description": "Manager soon fear happen beat company. Everyone couple water movement tonight interesting. Evening spend stage talk meeting under loss."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 97801
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 87464
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36821
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17837
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11753
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 181364,
+        "TotalApproved": 178832
+    },
+    "AdjusterDetails": {
+        "Name": "John Williams",
+        "ContactInformation": {
+            "Phone": "001-402-600-6393",
+            "Email": "danielcook@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ea275796-fbdf-4070-a1f9-3e30c6cb98a3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-06T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-11T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-16T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

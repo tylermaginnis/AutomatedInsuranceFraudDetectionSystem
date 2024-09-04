@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e40f34c3-a745-4e31-bd5c-b511f0023588",
+    "PolicyID": "645e6c53-be1b-413a-92f7-861d7fee2551",
+    "EffectiveDates": {
+        "StartDate": "2024-09-02",
+        "EndDate": "2025-09-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "74a038b4-b662-4ce9-9564-2488f0de0e74",
+        "Name": "Micheal Krause",
+        "PolicyNumber": "645e6c53-be1b-413a-92f7-861d7fee2551",
+        "ContactInformation": {
+            "Phone": "+1-823-890-5012x1620",
+            "Email": "christopherwalker@example.com",
+            "Address": "5591 Evan Islands Suite 037\nWest Christopher, AS 40506"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-06",
+        "Location": "USS Phillips\nFPO AA 71917",
+        "Description": "Arrive understand southern wrong environmental. Onto imagine whom first local. Ever property recognize already sing."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9446
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21673
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7175
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 86310
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31844
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 22442,
+        "TotalApproved": 10606
+    },
+    "AdjusterDetails": {
+        "Name": "Mitchell Morales",
+        "ContactInformation": {
+            "Phone": "617-353-5178x92659",
+            "Email": "wrightsteven@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a7d860f7-c974-4eba-84b1-85eb8b75cd13"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

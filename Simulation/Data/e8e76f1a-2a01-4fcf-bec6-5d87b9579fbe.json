@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e8e76f1a-2a01-4fcf-bec6-5d87b9579fbe",
+  "PolicyID": "3188ff87-919b-49a5-b7bf-6caae8c04fce",
+  "EffectiveDates": {
+    "StartDate": "2024-04-27",
+    "EndDate": "2025-04-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e4f1bc41-b03b-4614-99e3-20d58b15aab1",
+    "Name": "Victoria Spencer",
+    "PolicyNumber": "3188ff87-919b-49a5-b7bf-6caae8c04fce",
+    "ContactInformation": {
+      "Phone": "+1-854-694-9767x223",
+      "Email": "jane38@example.com",
+      "Address": "2657 Andrea Shoal\nRachaelview, WY 13621"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-14",
+    "Location": "9853 Hanna Wells Suite 259\nHaileyfort, MD 59935",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 95982
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 34693
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5020
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 19195
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 11170
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 166060,
+    "TotalApproved": 153674
+  },
+  "AdjusterDetails": {
+    "Name": "Julia Mcdonald",
+    "ContactInformation": {
+      "Phone": "629.715.2914",
+      "Email": "rachelrios@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/d16b4ac0-b210-4f51-b335-2deaabffd8b2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-14T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-19T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-24T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

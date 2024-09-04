@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1041b4a3-6862-47d9-b8bc-0f8f7769a545",
+    "PolicyID": "2e2d2eb1-8226-4ba3-9ebd-d5696da5cfdf",
+    "EffectiveDates": {
+        "StartDate": "2024-01-09",
+        "EndDate": "2025-01-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e5e3e616-1b7d-4be1-9f7e-0bc94e6e9778",
+        "Name": "Jason Bridges",
+        "PolicyNumber": "2e2d2eb1-8226-4ba3-9ebd-d5696da5cfdf",
+        "ContactInformation": {
+            "Phone": "+1-432-520-9290",
+            "Email": "warnermark@example.com",
+            "Address": "112 Austin Rest\nLake Markville, SC 85283"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-20",
+        "Location": "73115 Vincent Lane Suite 838\nMorrisshire, DC 65871",
+        "Description": "Some purpose common school bit. Goal soldier similar indeed turn authority.\nOver paper network history let model. Several future environment. Watch race dinner fly whom."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3094
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2381
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34102
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7445
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 68901
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 25625,
+        "TotalApproved": 7578
+    },
+    "AdjusterDetails": {
+        "Name": "Evan Murphy",
+        "ContactInformation": {
+            "Phone": "644.913.3234x092",
+            "Email": "stephanie48@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c1b535b2-af70-4d06-aedf-82bcf051ec73"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-20T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-25T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-30T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

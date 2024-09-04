@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1fad083d-426c-4194-ac40-6ab0fc6f09c0",
+  "PolicyID": "251edab9-4e69-4ddb-8380-4d97722990b8",
+  "EffectiveDates": {
+    "StartDate": "2024-06-19",
+    "EndDate": "2025-06-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ab210c8b-e741-4d6b-ac9d-3bf3554cd923",
+    "Name": "Joseph Ross MD",
+    "PolicyNumber": "251edab9-4e69-4ddb-8380-4d97722990b8",
+    "ContactInformation": {
+      "Phone": "225-290-4698x40100",
+      "Email": "luis62@example.net",
+      "Address": "728 Stephanie Street Suite 777\nPort Kylestad, OK 34356"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-30",
+    "Location": "1214 Bowen Ways\nEast Yvetteville, KY 29837",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 89924
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 45167
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9903
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 21300
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 10435
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 176729,
+    "TotalApproved": 82017
+  },
+  "AdjusterDetails": {
+    "Name": "Mike Mooney",
+    "ContactInformation": {
+      "Phone": "291.535.1463x70955",
+      "Email": "brianbarker@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/68b2ef95-065e-4a50-ba4f-cf00c8af610f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-30T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-04T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-09T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

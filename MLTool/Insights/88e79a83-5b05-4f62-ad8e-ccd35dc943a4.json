@@ -1,0 +1,81 @@
+{
+    "ClaimID": "88e79a83-5b05-4f62-ad8e-ccd35dc943a4",
+    "PolicyID": "e56b292d-c88c-4474-a280-27abbe281d6f",
+    "EffectiveDates": {
+        "StartDate": "2023-09-09",
+        "EndDate": "2024-09-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f8202d32-79aa-4785-a620-6b196d4cc408",
+        "Name": "Paul Jackson",
+        "PolicyNumber": "e56b292d-c88c-4474-a280-27abbe281d6f",
+        "ContactInformation": {
+            "Phone": "001-517-928-5689x351",
+            "Email": "ycampbell@example.com",
+            "Address": "01124 Hoover Burgs\nWest Ashley, TN 12616"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-14",
+        "Location": "667 Austin Brook\nWest Tiffanyport, SD 66168",
+        "Description": "Nature huge institution like ball. Senior describe development forget way. Indicate image southern seem next bank manager under."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 123304
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35815
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 78559
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6237
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31463
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 13670,
+        "TotalApproved": 11372
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Price",
+        "ContactInformation": {
+            "Phone": "001-472-972-0512x6524",
+            "Email": "tonyavilla@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8b60f51c-95df-4209-b386-fab8f1c4fe9f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

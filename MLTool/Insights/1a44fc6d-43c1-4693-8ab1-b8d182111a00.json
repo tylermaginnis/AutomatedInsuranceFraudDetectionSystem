@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1a44fc6d-43c1-4693-8ab1-b8d182111a00",
+    "PolicyID": "1c018b7a-6d46-49be-8a26-d3a3a086967c",
+    "EffectiveDates": {
+        "StartDate": "2024-02-10",
+        "EndDate": "2025-02-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ecefe066-d5dc-46a7-bf68-6581cefdd876",
+        "Name": "Perry Hill",
+        "PolicyNumber": "1c018b7a-6d46-49be-8a26-d3a3a086967c",
+        "ContactInformation": {
+            "Phone": "6502580705",
+            "Email": "burkeanna@example.com",
+            "Address": "385 Nelson Union\nWest Brittany, IL 43350"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-16",
+        "Location": "71260 Cooper Neck Apt. 867\nSierraville, NE 06837",
+        "Description": "Name indeed throw member cost. Truth special cell national foot phone. Apply last try appear involve behind.\nHour drug particularly upon. Together senior form week."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1762
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 50937
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9080
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1393
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40295
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 40898,
+        "TotalApproved": 16920
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Sanders",
+        "ContactInformation": {
+            "Phone": "(431)748-1151",
+            "Email": "danielwilliams@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6c365740-cede-45cc-bf5e-0aed4348461e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-16T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-21T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-26T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

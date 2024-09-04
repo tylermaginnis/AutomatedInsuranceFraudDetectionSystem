@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1bc86850-f573-430e-a266-123fc69afdd9",
+  "PolicyID": "60c5539c-8824-4305-9164-8b60d2d94592",
+  "EffectiveDates": {
+    "StartDate": "2024-07-13",
+    "EndDate": "2025-07-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "34a2890a-f8df-4286-a548-b615d358e828",
+    "Name": "David George",
+    "PolicyNumber": "60c5539c-8824-4305-9164-8b60d2d94592",
+    "ContactInformation": {
+      "Phone": "+1-632-321-0781x79862",
+      "Email": "dyerdaniel@example.com",
+      "Address": "5406 Brianna Stream Apt. 604\nEllisland, MD 86368"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-07",
+    "Location": "4566 Peter Falls\nMendozashire, AS 26348",
+    "Description": "Four analysis close drive. Its physical officer. Next imagine find inside.\nMiddle analysis already third to serve size."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9825
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6640
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10635
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19747
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 121340
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 46686,
+    "TotalApproved": 6754
+  },
+  "AdjusterDetails": {
+    "Name": "Brandi Simpson",
+    "ContactInformation": {
+      "Phone": "631.881.1516x131",
+      "Email": "anna83@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/e7ec9288-5eb6-450e-a52b-eb1ea9c24356"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-07T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-12T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-17T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

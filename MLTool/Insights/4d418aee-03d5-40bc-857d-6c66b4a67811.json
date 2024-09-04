@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4d418aee-03d5-40bc-857d-6c66b4a67811",
+    "PolicyID": "7aaacf18-0510-471e-87c4-efe19478182d",
+    "EffectiveDates": {
+        "StartDate": "2024-01-07",
+        "EndDate": "2025-01-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c096a582-effe-4e24-ab06-1749938ab843",
+        "Name": "Cynthia Farmer",
+        "PolicyNumber": "7aaacf18-0510-471e-87c4-efe19478182d",
+        "ContactInformation": {
+            "Phone": "3962018613",
+            "Email": "paynelaura@example.net",
+            "Address": "Unit 7652 Box 2797\nDPO AP 54423"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-12",
+        "Location": "3678 Haley Glens Apt. 144\nJamesstad, NC 83169",
+        "Description": "Finish stand former week staff many quality relationship.\nStreet toward your many. Star later trip arrive able he ready. Picture rich less maybe Republican sense seat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22654
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50453
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21240
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12473
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 126856
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 119892,
+        "TotalApproved": 80152
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Jones",
+        "ContactInformation": {
+            "Phone": "214.486.4804",
+            "Email": "millerjacob@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/14299c79-15cc-48e3-8fb8-42d92b6ecad3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-12T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-17T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-22T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

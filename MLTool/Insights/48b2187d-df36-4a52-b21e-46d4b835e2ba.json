@@ -1,0 +1,81 @@
+{
+    "ClaimID": "48b2187d-df36-4a52-b21e-46d4b835e2ba",
+    "PolicyID": "9f7b2f14-15b7-4b2c-aa51-00152a28bee2",
+    "EffectiveDates": {
+        "StartDate": "2024-02-21",
+        "EndDate": "2025-02-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3a34c024-8106-4e58-b06c-74b782f9308c",
+        "Name": "Diana Mcpherson",
+        "PolicyNumber": "9f7b2f14-15b7-4b2c-aa51-00152a28bee2",
+        "ContactInformation": {
+            "Phone": "584.531.9352x37348",
+            "Email": "sarah19@example.com",
+            "Address": "1533 Weber Cove Apt. 382\nRussellmouth, WV 34944"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-30",
+        "Location": "97382 James Freeway\nLauraborough, SC 48056",
+        "Description": "Dinner so little become enough floor should result. Level doctor hand gun always official board style."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7495
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34521
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 119221
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3555
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10492
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 32300,
+        "TotalApproved": 25768
+    },
+    "AdjusterDetails": {
+        "Name": "Lauren King",
+        "ContactInformation": {
+            "Phone": "881.916.2595x683",
+            "Email": "cvargas@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6177dc20-d9d5-4ab9-9e0e-15e72c894615"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-30T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-04T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-09T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

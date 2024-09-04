@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c48be834-50d5-4a29-a95e-818ed1ca1215",
+    "PolicyID": "f7ae0e69-5500-46ff-b602-51577d8da29e",
+    "EffectiveDates": {
+        "StartDate": "2023-11-11",
+        "EndDate": "2024-11-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "055e5507-9e64-4998-971f-12ab69129be3",
+        "Name": "Jeffrey Harris",
+        "PolicyNumber": "f7ae0e69-5500-46ff-b602-51577d8da29e",
+        "ContactInformation": {
+            "Phone": "588.342.6297x2539",
+            "Email": "pvaldez@example.com",
+            "Address": "8133 Lamb Canyon Apt. 678\nDawnmouth, MA 37818"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-15",
+        "Location": "31517 Nicholas Motorway\nJohnsonchester, CA 72738",
+        "Description": "Girl all often war less. Wish read professional case condition.\nBody career resource I society. Learn society people event. Draw television building."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 100549
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22343
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12531
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2589
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15664
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 145690,
+        "TotalApproved": 64861
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Mcgee",
+        "ContactInformation": {
+            "Phone": "554.814.8907x21217",
+            "Email": "rfrancis@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7797439b-96ce-4a8e-a291-d4a2174b424e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d6c1575c-0d92-4e5e-8e86-1b04bd543d65",
+    "PolicyID": "65b870ef-d1f6-40c3-8ef3-699f467a6131",
+    "EffectiveDates": {
+        "StartDate": "2023-12-24",
+        "EndDate": "2024-12-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "49adb3b2-98ee-42b5-b339-e554b36b20fb",
+        "Name": "Wendy Brown",
+        "PolicyNumber": "65b870ef-d1f6-40c3-8ef3-699f467a6131",
+        "ContactInformation": {
+            "Phone": "261-898-2027",
+            "Email": "herreraadam@example.com",
+            "Address": "759 Marissa Crescent Apt. 815\nNorth Stephenstad, HI 87879"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-27",
+        "Location": "36165 Collins Pines\nTonyashire, IA 51169",
+        "Description": "Full table although firm join common piece. On tonight have way. Argue hit run middle best rock action."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 70661
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8880
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 63884
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 85665
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3369
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 106892,
+        "TotalApproved": 1008
+    },
+    "AdjusterDetails": {
+        "Name": "Greg Brown",
+        "ContactInformation": {
+            "Phone": "795-596-2620x5507",
+            "Email": "michellebradley@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/45ce4301-6cdd-4338-9bb6-2aa499751d99"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

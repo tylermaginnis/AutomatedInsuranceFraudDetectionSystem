@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bd65664c-cba8-4ba5-aba5-89b0bc69c07b",
+    "PolicyID": "3bb07307-e108-455e-88fa-ee760342e727",
+    "EffectiveDates": {
+        "StartDate": "2023-09-09",
+        "EndDate": "2024-09-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9cd5a3c2-7fc5-4d65-9af0-43565b0967a0",
+        "Name": "Joel Bailey",
+        "PolicyNumber": "3bb07307-e108-455e-88fa-ee760342e727",
+        "ContactInformation": {
+            "Phone": "(296)545-7453x62710",
+            "Email": "kimberly12@example.net",
+            "Address": "589 Jacobs Curve\nSharonbury, NY 89057"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-17",
+        "Location": "085 Castillo Gardens Apt. 026\nWhitemouth, MS 75494",
+        "Description": "Already meet century report environment recognize. Card policy range green at nation whole trial.\nLead table majority most dream top case. Herself feel light bank concern."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4578
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4920
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 163833
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5185
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28334
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 69589,
+        "TotalApproved": 60810
+    },
+    "AdjusterDetails": {
+        "Name": "Christine Nelson",
+        "ContactInformation": {
+            "Phone": "951.832.8845",
+            "Email": "jillwillis@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ed342412-3bea-4832-8909-a1560b5b9815"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-17T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-22T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-27T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

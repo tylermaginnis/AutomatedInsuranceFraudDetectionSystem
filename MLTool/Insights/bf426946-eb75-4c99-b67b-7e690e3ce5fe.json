@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bf426946-eb75-4c99-b67b-7e690e3ce5fe",
+    "PolicyID": "42f059f7-9fba-4af2-8f2b-b74f13e40d39",
+    "EffectiveDates": {
+        "StartDate": "2024-02-15",
+        "EndDate": "2025-02-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "623f46c0-c64b-4e6a-b44e-10a4b1f7033f",
+        "Name": "Julie Avila",
+        "PolicyNumber": "42f059f7-9fba-4af2-8f2b-b74f13e40d39",
+        "ContactInformation": {
+            "Phone": "255-647-0811",
+            "Email": "dmccoy@example.net",
+            "Address": "89125 Erin Knoll\nDylanview, WA 57331"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-26",
+        "Location": "992 Jackson Terrace\nFischershire, IN 67111",
+        "Description": "Way visit play step. Practice material special include. Security might tax begin discussion region case. Economy argue at everybody last free."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43196
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21292
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6858
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41021
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3193
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 123517,
+        "TotalApproved": 64313
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Cox",
+        "ContactInformation": {
+            "Phone": "938.641.3571x340",
+            "Email": "clarkthomas@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/57fdc630-8ad4-4d31-9f5f-6c481f0a3adc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-26T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-31T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-05T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

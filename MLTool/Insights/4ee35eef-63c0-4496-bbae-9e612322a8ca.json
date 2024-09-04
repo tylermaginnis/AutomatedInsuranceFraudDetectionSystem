@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4ee35eef-63c0-4496-bbae-9e612322a8ca",
+    "PolicyID": "840ffcae-d38c-43b2-b466-f8cd9c728dd6",
+    "EffectiveDates": {
+        "StartDate": "2024-02-25",
+        "EndDate": "2025-02-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "77489d4a-0537-469b-ae28-de82fb4950cc",
+        "Name": "Scott Short",
+        "PolicyNumber": "840ffcae-d38c-43b2-b466-f8cd9c728dd6",
+        "ContactInformation": {
+            "Phone": "822.439.0918x40433",
+            "Email": "vsmith@example.net",
+            "Address": "Unit 8114 Box 0876\nDPO AP 04594"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-13",
+        "Location": "917 Susan Roads Suite 465\nNorth Joshua, VT 14158",
+        "Description": "Others record price yes today various raise. Join she security attention affect maybe. Tv be reveal amount piece somebody. Consumer responsibility ready rise human seat young."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7724
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5426
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 73280
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3040
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18257
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 53005,
+        "TotalApproved": 38778
+    },
+    "AdjusterDetails": {
+        "Name": "Michelle Lewis",
+        "ContactInformation": {
+            "Phone": "+1-522-891-8496",
+            "Email": "lcallahan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/024cb5ae-cb3c-49e0-af8a-893700581a56"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-13T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-18T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-23T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

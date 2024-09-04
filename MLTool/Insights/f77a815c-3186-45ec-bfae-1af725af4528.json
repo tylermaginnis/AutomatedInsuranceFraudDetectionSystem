@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f77a815c-3186-45ec-bfae-1af725af4528",
+    "PolicyID": "3c045146-a88e-4e13-af61-c9fa28cde58a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-17",
+        "EndDate": "2025-03-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b866c14-bd5b-494c-8659-272f598325f8",
+        "Name": "Bryan Andrade",
+        "PolicyNumber": "3c045146-a88e-4e13-af61-c9fa28cde58a",
+        "ContactInformation": {
+            "Phone": "(907)305-6126x506",
+            "Email": "newmanmichele@example.org",
+            "Address": "127 Christian Stravenue\nMatthewshire, KS 88710"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-22",
+        "Location": "15735 Lewis Brook Suite 132\nNorth Josephside, MT 05630",
+        "Description": "Run enjoy down natural. Accept all really audience quite since specific health."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 86919
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1735
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2585
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26536
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11292
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 171347,
+        "TotalApproved": 107328
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Curry DVM",
+        "ContactInformation": {
+            "Phone": "(908)356-3397x28825",
+            "Email": "garzabarry@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ee718738-5dbb-40a1-bf15-0bf8525d9411"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-22T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-27T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-01T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

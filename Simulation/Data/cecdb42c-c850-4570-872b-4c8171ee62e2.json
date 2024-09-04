@@ -1,0 +1,80 @@
+{
+  "ClaimID": "cecdb42c-c850-4570-872b-4c8171ee62e2",
+  "PolicyID": "09105fbf-1660-43ec-aeac-c3ee539fbd6d",
+  "EffectiveDates": {
+    "StartDate": "2024-01-01",
+    "EndDate": "2024-12-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9cce2f63-fa71-4834-9340-63d71eef0c45",
+    "Name": "Seth Garcia",
+    "PolicyNumber": "09105fbf-1660-43ec-aeac-c3ee539fbd6d",
+    "ContactInformation": {
+      "Phone": "886-854-5451x5403",
+      "Email": "petersmith@example.net",
+      "Address": "544 Dave Flat\nWest Lawrence, IA 44229"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-29",
+    "Location": "09938 Mclean Springs Suite 211\nNguyenville, PA 81827",
+    "Description": "Artist firm wrong sister. Responsibility safe miss score cold.\nAge scene nation decision. Quite show let subject what possible.\nSite how green race. Worry middle public."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 32229
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8188
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 42983
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 166981
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5679
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 194764,
+    "TotalApproved": 47099
+  },
+  "AdjusterDetails": {
+    "Name": "Jason Smith",
+    "ContactInformation": {
+      "Phone": "275.247.0460x9585",
+      "Email": "jasonrios@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/8ebd9e2c-b8eb-4e13-b48f-ac703c0f53a9"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-29T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-03T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-08T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

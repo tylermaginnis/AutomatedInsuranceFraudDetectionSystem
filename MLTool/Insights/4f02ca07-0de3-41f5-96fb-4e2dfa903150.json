@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4f02ca07-0de3-41f5-96fb-4e2dfa903150",
+    "PolicyID": "e10fc6b5-87f2-4ad4-83bb-5e55f167c6dd",
+    "EffectiveDates": {
+        "StartDate": "2024-08-03",
+        "EndDate": "2025-08-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aeef4086-71fb-400d-b16d-4e6dfcd04a7c",
+        "Name": "Andrew Farrell",
+        "PolicyNumber": "e10fc6b5-87f2-4ad4-83bb-5e55f167c6dd",
+        "ContactInformation": {
+            "Phone": "4829046795",
+            "Email": "carrie96@example.net",
+            "Address": "03477 Gomez Park\nHarrisborough, OK 18701"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-04",
+        "Location": "677 Emily Knolls\nSouth Ashleyfurt, MP 85833",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 67802
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27329
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8702
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14325
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7293
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 125451,
+        "TotalApproved": 112195
+    },
+    "AdjusterDetails": {
+        "Name": "Ann Reynolds",
+        "ContactInformation": {
+            "Phone": "(931)318-5403",
+            "Email": "frederick91@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5ebe3313-4fab-4880-acb6-309437608a5a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-04T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-09T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-14T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

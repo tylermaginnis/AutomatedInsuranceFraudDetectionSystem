@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3bf6434c-2361-4911-8526-75edea06fa33",
+    "PolicyID": "8673fa9c-ea31-4bb5-8221-16475dab4b39",
+    "EffectiveDates": {
+        "StartDate": "2023-12-24",
+        "EndDate": "2024-12-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "13779920-0552-4b46-9a99-7666f6242951",
+        "Name": "Bruce Adams",
+        "PolicyNumber": "8673fa9c-ea31-4bb5-8221-16475dab4b39",
+        "ContactInformation": {
+            "Phone": "901-323-7119x80584",
+            "Email": "banksnicholas@example.org",
+            "Address": "90180 Adkins Corners\nEast Kimberlymouth, ID 13598"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-27",
+        "Location": "PSC 9251, Box 6371\nAPO AP 55486",
+        "Description": "Modern big task ask mouth use position. Himself ten she he this none chance. Series maintain might suffer option."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9162
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7909
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32409
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19449
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 85228
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 131718,
+        "TotalApproved": 58899
+    },
+    "AdjusterDetails": {
+        "Name": "Dana Hayes",
+        "ContactInformation": {
+            "Phone": "5408818383",
+            "Email": "lynnwilson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/470f13e9-701f-46b1-9c32-e7f9e57c4ce9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

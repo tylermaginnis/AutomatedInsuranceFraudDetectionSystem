@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c7524127-3106-4cd5-ba15-a8ea015fb947",
+    "PolicyID": "bc667b4d-f71a-4ebe-898a-adbd51624052",
+    "EffectiveDates": {
+        "StartDate": "2024-01-15",
+        "EndDate": "2025-01-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3e7ee2ba-6d3a-4706-83e4-e1e8d2b28911",
+        "Name": "Lisa Lee",
+        "PolicyNumber": "bc667b4d-f71a-4ebe-898a-adbd51624052",
+        "ContactInformation": {
+            "Phone": "(426)457-7646",
+            "Email": "jroberts@example.com",
+            "Address": "25838 Troy Meadows Apt. 774\nNorth Kimberly, NM 59848"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-31",
+        "Location": "PSC 6692, Box 1110\nAPO AP 44347",
+        "Description": "Leader resource impact onto. Miss door television data.\nFly build benefit wrong water building."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6240
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43603
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20180
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27086
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 97330
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 90018,
+        "TotalApproved": 29090
+    },
+    "AdjusterDetails": {
+        "Name": "Jamie Merritt",
+        "ContactInformation": {
+            "Phone": "(849)366-6419x22288",
+            "Email": "joelwalters@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/106ce211-bf59-4d8b-89af-4ce4f77d1df3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-31T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

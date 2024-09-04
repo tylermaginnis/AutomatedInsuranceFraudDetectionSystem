@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d2b29773-4ed5-4092-a5a0-db4e2144c032",
+    "PolicyID": "9220a34b-e6ef-4205-bfb5-8491a9b4d14c",
+    "EffectiveDates": {
+        "StartDate": "2024-06-12",
+        "EndDate": "2025-06-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7f8fe908-85f8-453a-aebe-837a3498cf3f",
+        "Name": "John Miller",
+        "PolicyNumber": "9220a34b-e6ef-4205-bfb5-8491a9b4d14c",
+        "ContactInformation": {
+            "Phone": "+1-370-632-1895",
+            "Email": "jonesscott@example.com",
+            "Address": "33022 Keith Port\nLake Michaelstad, ND 44153"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-11",
+        "Location": "68622 Taylor Overpass Suite 819\nSandovalmouth, NE 79607",
+        "Description": "This everyone guy game. Type others focus shoulder guess. Recently discussion instead order collection.\nOfficial community attack write through. Policy put positive save fire."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5562
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2505
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7798
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9079
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2341
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 83620,
+        "TotalApproved": 15917
+    },
+    "AdjusterDetails": {
+        "Name": "Ebony Miller",
+        "ContactInformation": {
+            "Phone": "+1-392-241-1519x350",
+            "Email": "dennis84@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d437d52b-6c7a-4512-ad6e-437e106bb1da"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

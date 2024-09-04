@@ -1,0 +1,81 @@
+{
+    "ClaimID": "abc682d6-04f2-4e08-9739-d4729c77f254",
+    "PolicyID": "7d80ec61-090a-441d-b127-9a4939faba87",
+    "EffectiveDates": {
+        "StartDate": "2024-04-13",
+        "EndDate": "2025-04-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5c221ba6-a256-47d8-9742-ff8ccbe10202",
+        "Name": "Ralph Jackson",
+        "PolicyNumber": "7d80ec61-090a-441d-b127-9a4939faba87",
+        "ContactInformation": {
+            "Phone": "(558)898-8372x2990",
+            "Email": "jefferywright@example.net",
+            "Address": "USS Johnson\nFPO AA 45985"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-04",
+        "Location": "USS Keller\nFPO AP 04315",
+        "Description": "Program report back knowledge certain. Safe believe maintain. Manage continue image adult either bed car.\nLine leave fish according car nearly. Task foreign cell. Care listen local war each nearly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12264
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 90916
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34440
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 55449
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62717
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 150122,
+        "TotalApproved": 132406
+    },
+    "AdjusterDetails": {
+        "Name": "James Reed",
+        "ContactInformation": {
+            "Phone": "001-234-550-0594",
+            "Email": "newmanerin@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a9cabb1e-79a4-4013-89d2-60dce85fc85c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-04T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-09T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-14T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

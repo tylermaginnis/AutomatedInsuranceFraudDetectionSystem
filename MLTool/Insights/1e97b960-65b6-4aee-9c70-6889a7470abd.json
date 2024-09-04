@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1e97b960-65b6-4aee-9c70-6889a7470abd",
+    "PolicyID": "77fe19d7-59db-4d62-85a0-e12935bf8a1b",
+    "EffectiveDates": {
+        "StartDate": "2024-02-08",
+        "EndDate": "2025-02-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7eb3a4a9-361a-4210-916b-89b35897bcee",
+        "Name": "Steven Evans",
+        "PolicyNumber": "77fe19d7-59db-4d62-85a0-e12935bf8a1b",
+        "ContactInformation": {
+            "Phone": "(214)795-1108x269",
+            "Email": "pgonzales@example.net",
+            "Address": "00059 Johnson Avenue\nAmandaville, NJ 90937"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-23",
+        "Location": "53902 Griffith Alley\nWest Kristinfurt, PR 25278",
+        "Description": "Case Congress maintain front rule student region. Most tough by analysis image significant probably. Subject politics shoulder grow. Table every suggest man."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 64622
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11565
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 149592
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38002
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26424
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 69184,
+        "TotalApproved": 60177
+    },
+    "AdjusterDetails": {
+        "Name": "Kelsey Hunt",
+        "ContactInformation": {
+            "Phone": "(841)400-4702x78943",
+            "Email": "jhowe@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2def1fa1-1da3-4be8-8069-5472c2a9ce36"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

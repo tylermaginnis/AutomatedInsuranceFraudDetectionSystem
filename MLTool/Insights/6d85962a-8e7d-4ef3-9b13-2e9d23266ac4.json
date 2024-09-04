@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6d85962a-8e7d-4ef3-9b13-2e9d23266ac4",
+    "PolicyID": "7684b5db-f719-4ab0-a139-a9fc8054f478",
+    "EffectiveDates": {
+        "StartDate": "2024-09-04",
+        "EndDate": "2025-09-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9511da9d-225e-4eb2-ae99-5c73327be490",
+        "Name": "Lisa Cabrera",
+        "PolicyNumber": "7684b5db-f719-4ab0-a139-a9fc8054f478",
+        "ContactInformation": {
+            "Phone": "001-852-493-8637",
+            "Email": "orichards@example.org",
+            "Address": "1794 Brittany Fords\nAustinport, NY 33546"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-08",
+        "Location": "USCGC Graham\nFPO AE 32272",
+        "Description": "Pm in home feeling. Course buy firm new system recent.\nThat few than base education. Follow white issue idea door."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48699
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40632
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 45842
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2508
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1878
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 123524,
+        "TotalApproved": 3349
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Kelley",
+        "ContactInformation": {
+            "Phone": "+1-750-972-3625x0652",
+            "Email": "abbottcrystal@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a4960b23-7f19-4ec5-b88b-b3a787b8216c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

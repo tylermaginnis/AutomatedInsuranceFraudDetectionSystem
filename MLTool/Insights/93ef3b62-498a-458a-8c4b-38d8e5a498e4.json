@@ -1,0 +1,81 @@
+{
+    "ClaimID": "93ef3b62-498a-458a-8c4b-38d8e5a498e4",
+    "PolicyID": "357c7e1e-459c-47e5-a55a-4f98c17708d8",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9b31dd88-2464-4a96-8ebe-54f09c2d087d",
+        "Name": "Maria Berg",
+        "PolicyNumber": "357c7e1e-459c-47e5-a55a-4f98c17708d8",
+        "ContactInformation": {
+            "Phone": "4009835599",
+            "Email": "wayne67@example.com",
+            "Address": "USNV Edwards\nFPO AE 09459"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-05",
+        "Location": "65901 Jane Vista Apt. 421\nObrienport, SD 15866",
+        "Description": "Stuff board weight professor southern best. Listen nothing capital police. Bring card anything admit collection reduce wonder."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12883
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6292
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14584
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1655
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 90997
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 40254,
+        "TotalApproved": 30103
+    },
+    "AdjusterDetails": {
+        "Name": "Chris Henry",
+        "ContactInformation": {
+            "Phone": "407.361.4799x61654",
+            "Email": "crystaljones@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ccf97ab9-32c4-4c34-a166-75ed194f718d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

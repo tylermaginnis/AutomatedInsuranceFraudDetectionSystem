@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a458d97a-b0d0-4976-b106-58861ac516cf",
+  "PolicyID": "df4b99b5-1686-49a7-8477-682066e53066",
+  "EffectiveDates": {
+    "StartDate": "2024-07-08",
+    "EndDate": "2025-07-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e8f261aa-9882-4851-b66e-218d75f1da1d",
+    "Name": "Jamie Patel",
+    "PolicyNumber": "df4b99b5-1686-49a7-8477-682066e53066",
+    "ContactInformation": {
+      "Phone": "839.664.4940x59665",
+      "Email": "nmyers@example.org",
+      "Address": "75175 Ortega River Apt. 426\nEast Kylemouth, DE 96318"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-30",
+    "Location": "872 Kelly Stream\nWest Williamland, MS 52768",
+    "Description": "Car grow herself cell red manage. Trouble letter everything our class buy relate."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9093
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 49262
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7992
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7766
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6422
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 161628,
+    "TotalApproved": 149261
+  },
+  "AdjusterDetails": {
+    "Name": "Kevin Murphy",
+    "ContactInformation": {
+      "Phone": "7734780471",
+      "Email": "qharrison@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/eb134054-559f-4885-bbc5-eef1606e8efc"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-30T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-06-04T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-06-09T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

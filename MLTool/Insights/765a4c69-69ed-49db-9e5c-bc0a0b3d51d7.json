@@ -1,0 +1,81 @@
+{
+    "ClaimID": "765a4c69-69ed-49db-9e5c-bc0a0b3d51d7",
+    "PolicyID": "afb823ff-7bd0-4549-89a5-a27dc04ef812",
+    "EffectiveDates": {
+        "StartDate": "2024-03-01",
+        "EndDate": "2025-03-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5554c24e-a1fc-470f-b39a-19f4db3f14b2",
+        "Name": "Nicholas Prince",
+        "PolicyNumber": "afb823ff-7bd0-4549-89a5-a27dc04ef812",
+        "ContactInformation": {
+            "Phone": "+1-716-394-7394x19864",
+            "Email": "jennifer25@example.org",
+            "Address": "996 Taylor Bypass Apt. 956\nSamanthaburgh, MA 17329"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-20",
+        "Location": "8724 Morton Garden Apt. 000\nWardville, WY 55576",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 85153
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41227
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5137
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18082
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19231
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 168830,
+        "TotalApproved": 10712
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Woods",
+        "ContactInformation": {
+            "Phone": "266.230.9583",
+            "Email": "billyfloyd@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/14088623-a824-4760-91c6-def2fd963f60"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-20T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-25T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-30T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

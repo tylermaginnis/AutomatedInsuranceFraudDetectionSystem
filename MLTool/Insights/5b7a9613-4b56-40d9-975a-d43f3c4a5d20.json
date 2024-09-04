@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5b7a9613-4b56-40d9-975a-d43f3c4a5d20",
+    "PolicyID": "c1837053-c36c-4092-bd8c-e0f1b87a5331",
+    "EffectiveDates": {
+        "StartDate": "2023-09-24",
+        "EndDate": "2024-09-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e3f192d2-26f7-4d5b-83d1-db7375f101a6",
+        "Name": "Joshua Harper",
+        "PolicyNumber": "c1837053-c36c-4092-bd8c-e0f1b87a5331",
+        "ContactInformation": {
+            "Phone": "+1-221-769-6998",
+            "Email": "dianeperez@example.org",
+            "Address": "5674 Erin Tunnel Apt. 031\nHeatherstad, SC 76709"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-20",
+        "Location": "11091 Carter Heights Apt. 181\nWest Christine, MN 66660",
+        "Description": "Discover somebody really brother. Its could rock line. Very before oil.\nStructure behind eight available maintain degree easy. Four floor office sell middle not area."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16504
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17122
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9010
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14409
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1418
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 183318,
+        "TotalApproved": 107666
+    },
+    "AdjusterDetails": {
+        "Name": "Louis Fleming",
+        "ContactInformation": {
+            "Phone": "001-738-410-0106x745",
+            "Email": "rgibson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/98e39ee4-d81e-4189-a742-3a519b6594f1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-20T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-25T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-30T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

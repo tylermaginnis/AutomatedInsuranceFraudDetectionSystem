@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f66de6c5-1531-45cf-9564-12d767764ca2",
+    "PolicyID": "95f49b58-7e3f-475a-be70-d0f78e107b07",
+    "EffectiveDates": {
+        "StartDate": "2024-08-10",
+        "EndDate": "2025-08-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6d8d2f9c-d340-4e88-a800-81a7e572a885",
+        "Name": "Robert Howard",
+        "PolicyNumber": "95f49b58-7e3f-475a-be70-d0f78e107b07",
+        "ContactInformation": {
+            "Phone": "723-983-5496x0702",
+            "Email": "xwilliams@example.org",
+            "Address": "025 Gray Inlet Apt. 531\nLake Melodyfurt, DE 78842"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-31",
+        "Location": "Unit 9125 Box 2435\nDPO AE 01821",
+        "Description": "Year argue clear again have ground ask wrong. Allow late color quickly.\nPlayer instead article space agency short. Base lawyer dinner record poor decide traditional."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 91582
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3560
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 173413
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 96866
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6983
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 146413,
+        "TotalApproved": 136700
+    },
+    "AdjusterDetails": {
+        "Name": "Melanie Smith",
+        "ContactInformation": {
+            "Phone": "001-575-799-2403x8987",
+            "Email": "millermichael@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2cff029b-cb9c-4fca-8a37-fb45d8ee1879"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-31T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-05T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-10T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

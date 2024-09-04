@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3398e8d8-7564-4d23-a119-6164442662fa",
+    "PolicyID": "7b9e1432-c752-4644-bece-92dba1d4c3e4",
+    "EffectiveDates": {
+        "StartDate": "2024-01-07",
+        "EndDate": "2025-01-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "920a10b7-1728-4551-975f-253e86a98634",
+        "Name": "Ruth Duran",
+        "PolicyNumber": "7b9e1432-c752-4644-bece-92dba1d4c3e4",
+        "ContactInformation": {
+            "Phone": "001-394-589-7387x4789",
+            "Email": "suttonpatrick@example.com",
+            "Address": "5158 Maureen Cliff\nPort Davidmouth, MO 96754"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-22",
+        "Location": "19156 Roberts Island\nWest Troyville, HI 05344",
+        "Description": "Majority skill black shoulder film happen scientist would. Less many letter firm financial citizen office. Capital he direction north born. Prove look stock feel challenge room hot."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15021
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42709
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6220
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37272
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24304
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 194133,
+        "TotalApproved": 124143
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Gill",
+        "ContactInformation": {
+            "Phone": "498-287-2673x3042",
+            "Email": "phillipsjames@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f52ce6a1-1051-4ac6-8e2b-30bd900d52b8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-22T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-27T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-01T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

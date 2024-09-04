@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a2afb683-9f09-47d2-984f-4e343ce53706",
+  "PolicyID": "b5d10af1-d24e-42be-9b48-fcd22abb8013",
+  "EffectiveDates": {
+    "StartDate": "2024-03-20",
+    "EndDate": "2025-03-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "60eebab4-b8d2-479c-8cdc-761e4c05fe90",
+    "Name": "Wanda Ho",
+    "PolicyNumber": "b5d10af1-d24e-42be-9b48-fcd22abb8013",
+    "ContactInformation": {
+      "Phone": "001-891-643-4006x5943",
+      "Email": "lisacannon@example.org",
+      "Address": "252 Michael Place Suite 113\nNathanielstad, NM 12323"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-12",
+    "Location": "USCGC Zimmerman\nFPO AP 74800",
+    "Description": "Claim write customer physical. Herself no usually mouth staff lead far. Apply box experience view forward."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 25686
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 28780
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19167
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 43171
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 21940
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 143449,
+    "TotalApproved": 124079
+  },
+  "AdjusterDetails": {
+    "Name": "Cindy Nguyen",
+    "ContactInformation": {
+      "Phone": "(833)653-0892x336",
+      "Email": "iweber@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/05dbea79-9393-4d3c-934e-69b1ccd9fe1d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-12T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-17T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-22T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

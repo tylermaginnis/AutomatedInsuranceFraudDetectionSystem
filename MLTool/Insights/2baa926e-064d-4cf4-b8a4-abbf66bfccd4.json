@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2baa926e-064d-4cf4-b8a4-abbf66bfccd4",
+    "PolicyID": "c5ca1a66-80da-4b6f-ad61-55a8e2f10aae",
+    "EffectiveDates": {
+        "StartDate": "2024-08-23",
+        "EndDate": "2025-08-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "37144973-dd1a-4dd2-b57b-f997a069817e",
+        "Name": "Vickie Perez",
+        "PolicyNumber": "c5ca1a66-80da-4b6f-ad61-55a8e2f10aae",
+        "ContactInformation": {
+            "Phone": "(560)600-6485x547",
+            "Email": "pottertim@example.net",
+            "Address": "48709 Tara Junctions Apt. 159\nPort Donna, TN 65068"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-22",
+        "Location": "494 Peggy Green\nLeestad, UT 00690",
+        "Description": "Like western then garden. Involve evidence nice table cell accept. How create raise station firm."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10141
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3767
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8759
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 110399
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62434
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 10139,
+        "TotalApproved": 4684
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Dixon",
+        "ContactInformation": {
+            "Phone": "968.720.6016x10144",
+            "Email": "bbaker@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/864e1b45-4747-4fdf-96e1-f9adc94dc691"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-22T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-27T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

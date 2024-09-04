@@ -1,0 +1,81 @@
+{
+    "ClaimID": "73c2f327-a12b-4a38-bc74-f39e862da5fa",
+    "PolicyID": "cd6d32e7-4caa-4cdc-9e40-75ef4f823bab",
+    "EffectiveDates": {
+        "StartDate": "2024-01-31",
+        "EndDate": "2025-01-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8b42834c-a351-44f6-98b8-74826e1a63d4",
+        "Name": "Katie Hill",
+        "PolicyNumber": "cd6d32e7-4caa-4cdc-9e40-75ef4f823bab",
+        "ContactInformation": {
+            "Phone": "+1-746-642-7378x8021",
+            "Email": "michaelnelson@example.net",
+            "Address": "490 Hall Lake\nWest Matthew, IA 39820"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-01",
+        "Location": "20958 Lowe Mill\nRosalesland, AZ 97995",
+        "Description": "Budget different reason big everything. Study best most threat TV measure letter. State most opportunity ball."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 111151
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 74326
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37350
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3585
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 56155
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 13055,
+        "TotalApproved": 6355
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Hernandez",
+        "ContactInformation": {
+            "Phone": "001-846-565-6691x9057",
+            "Email": "kimberly00@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/cd7361fb-600e-459d-85a7-8a954aa1a7f4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-01T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-06T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-11T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

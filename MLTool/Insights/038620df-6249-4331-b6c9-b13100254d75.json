@@ -1,0 +1,81 @@
+{
+    "ClaimID": "038620df-6249-4331-b6c9-b13100254d75",
+    "PolicyID": "f23aaefc-43f0-4c68-91e3-5062d2d9423d",
+    "EffectiveDates": {
+        "StartDate": "2024-08-19",
+        "EndDate": "2025-08-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5c8ad610-b39c-4ffb-ab53-27754eb9abe7",
+        "Name": "Brendan Thomas",
+        "PolicyNumber": "f23aaefc-43f0-4c68-91e3-5062d2d9423d",
+        "ContactInformation": {
+            "Phone": "(484)387-3797",
+            "Email": "bevans@example.com",
+            "Address": "308 Hayes Lock\nMilesberg, KS 43429"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-08-11",
+        "Location": "923 Donald Lane\nMatthewshire, MO 69728",
+        "Description": "Property family policy medical rate charge. Others finally white young.\nThan stock tax we wrong common better make. Player bit similar cover dream any agreement. Long suddenly wrong partner."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 61204
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49395
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3682
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7533
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9705
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 77332,
+        "TotalApproved": 71425
+    },
+    "AdjusterDetails": {
+        "Name": "Leslie Howell",
+        "ContactInformation": {
+            "Phone": "(751)637-0212x253",
+            "Email": "hconner@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1f4d237f-7b90-43fd-b0f0-fe2799b18d20"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-08-11T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-16T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-21T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

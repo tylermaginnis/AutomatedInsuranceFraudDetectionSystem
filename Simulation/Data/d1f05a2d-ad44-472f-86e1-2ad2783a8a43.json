@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d1f05a2d-ad44-472f-86e1-2ad2783a8a43",
+  "PolicyID": "71a35a1b-d543-4373-ae23-d72c01ae2342",
+  "EffectiveDates": {
+    "StartDate": "2024-07-25",
+    "EndDate": "2025-07-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "35bcdfa9-30b0-44e7-9df1-6c11bf119166",
+    "Name": "Laura Sutton",
+    "PolicyNumber": "71a35a1b-d543-4373-ae23-d72c01ae2342",
+    "ContactInformation": {
+      "Phone": "001-894-451-1227x277",
+      "Email": "nelsonsharon@example.net",
+      "Address": "151 Anne Spring\nWest Michelle, UT 91027"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-03",
+    "Location": "USS Chan\nFPO AA 60563",
+    "Description": "Dog out own. Animal develop herself each give traditional. Person rock arrive plant see during.\nDecade deep grow describe somebody attention third. Her window fire. Happy purpose their important."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 28997
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 14927
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 98862
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1397
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7585
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 49640,
+    "TotalApproved": 6109
+  },
+  "AdjusterDetails": {
+    "Name": "Kelly Wilson",
+    "ContactInformation": {
+      "Phone": "001-335-720-3690",
+      "Email": "caitlinperkins@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/794fabf8-86f4-4074-b607-efca37cd5cea"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-03T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-08T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-13T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

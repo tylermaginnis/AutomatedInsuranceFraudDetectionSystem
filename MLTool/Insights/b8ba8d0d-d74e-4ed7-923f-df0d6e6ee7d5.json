@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b8ba8d0d-d74e-4ed7-923f-df0d6e6ee7d5",
+    "PolicyID": "ee2628f0-47a4-4353-bfcc-033ef75de0aa",
+    "EffectiveDates": {
+        "StartDate": "2024-04-13",
+        "EndDate": "2025-04-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "10ecfd41-cfcf-481f-81bf-cf2d90b8aa65",
+        "Name": "Kathryn Taylor",
+        "PolicyNumber": "ee2628f0-47a4-4353-bfcc-033ef75de0aa",
+        "ContactInformation": {
+            "Phone": "(749)632-3901",
+            "Email": "ffischer@example.com",
+            "Address": "8699 Keith Brooks Apt. 451\nBaxterport, AK 14575"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-26",
+        "Location": "277 Michael Key\nJenniferborough, MI 65106",
+        "Description": "Together turn recently approach indeed add lot. Medical four check plan. Both heavy light boy health surface.\nHotel discussion democratic well. My front business tax."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5910
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3308
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 90433
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 92006
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11308
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 33358,
+        "TotalApproved": 23259
+    },
+    "AdjusterDetails": {
+        "Name": "James Frost",
+        "ContactInformation": {
+            "Phone": "539-857-3630x793",
+            "Email": "rsaunders@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1b4f7316-7aa7-4590-a26c-7d5299b1ba20"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

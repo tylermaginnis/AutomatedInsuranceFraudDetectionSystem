@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b0f8ad8e-eeda-4808-8550-5e41fa7b82c0",
+    "PolicyID": "9d638db6-83f3-4733-b0bb-88f634eade36",
+    "EffectiveDates": {
+        "StartDate": "2024-01-19",
+        "EndDate": "2025-01-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2272d0a9-e2ca-407c-bc7e-d2f5cb84b68f",
+        "Name": "Jared Hunt",
+        "PolicyNumber": "9d638db6-83f3-4733-b0bb-88f634eade36",
+        "ContactInformation": {
+            "Phone": "+1-853-446-8804x2865",
+            "Email": "robert08@example.org",
+            "Address": "0683 Jason Valley\nWilliamside, NC 38835"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-12",
+        "Location": "8420 David Centers\nJohnside, RI 03379",
+        "Description": "Herself wrong young simply. Learn whatever get. Themselves choose stand many watch commercial."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40280
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9095
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16503
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3036
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41895
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 119591,
+        "TotalApproved": 105464
+    },
+    "AdjusterDetails": {
+        "Name": "Stephen Jones",
+        "ContactInformation": {
+            "Phone": "(908)685-2021x57557",
+            "Email": "brownbenjamin@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8a5e4875-4efe-4ff5-b1a8-9de1a5a02d8c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-12T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-17T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-22T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

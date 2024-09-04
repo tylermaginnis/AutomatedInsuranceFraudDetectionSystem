@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bf0af4e7-1005-47c1-b017-2e3368a44c1d",
+    "PolicyID": "a606b06b-d234-4a96-8087-fabe359eeb0b",
+    "EffectiveDates": {
+        "StartDate": "2024-07-15",
+        "EndDate": "2025-07-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f37ad635-fd88-47ec-8813-a8b6997cee04",
+        "Name": "Thomas Hayden",
+        "PolicyNumber": "a606b06b-d234-4a96-8087-fabe359eeb0b",
+        "ContactInformation": {
+            "Phone": "(434)530-6829",
+            "Email": "adamschristina@example.com",
+            "Address": "12781 Leah Streets Apt. 888\nFranklinchester, PA 11512"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-23",
+        "Location": "8822 Joshua Greens\nJeffreyport, CO 43355",
+        "Description": "Others decade chance claim side yes. Watch someone activity western security public. Cultural design purpose want hold blue."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 66362
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 73188
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57629
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 93572
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5212
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 19475,
+        "TotalApproved": 5782
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Ford",
+        "ContactInformation": {
+            "Phone": "917-253-5992x2993",
+            "Email": "melissalewis@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8a866f22-1341-4ed8-8c99-bd9620cc8794"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-23T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-28T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-02T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

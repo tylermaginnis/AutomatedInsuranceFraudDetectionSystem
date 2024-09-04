@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bd1f485c-ab40-430c-a5ab-160b29fd4c36",
+    "PolicyID": "a28d2cb5-7022-4762-9356-a5a3e139bbd2",
+    "EffectiveDates": {
+        "StartDate": "2024-02-25",
+        "EndDate": "2025-02-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6a4db6b0-90c3-4356-8836-0563c8204693",
+        "Name": "Amanda Gonzalez",
+        "PolicyNumber": "a28d2cb5-7022-4762-9356-a5a3e139bbd2",
+        "ContactInformation": {
+            "Phone": "001-630-461-3557x2678",
+            "Email": "barbara79@example.com",
+            "Address": "2982 Jordan Roads Apt. 822\nSeanmouth, MP 40222"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-20",
+        "Location": "110 Erin Spring Suite 751\nPaulachester, TX 39331",
+        "Description": "These give poor poor nation. Those sometimes management group. Activity mind off president. Plan they south finish alone."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 137634
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45311
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2474
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6492
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2049
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 94713,
+        "TotalApproved": 43720
+    },
+    "AdjusterDetails": {
+        "Name": "Shannon Kim",
+        "ContactInformation": {
+            "Phone": "001-525-906-9487",
+            "Email": "haguilar@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cdced883-9612-4c0a-9cab-88fad1f400e5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-20T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-25T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-30T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

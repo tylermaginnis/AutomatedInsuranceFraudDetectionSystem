@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c1f3a975-aeca-40ae-bb38-c87bff32231e",
+    "PolicyID": "ee96f846-fb16-4eb9-8c9c-11ea52843d95",
+    "EffectiveDates": {
+        "StartDate": "2024-06-30",
+        "EndDate": "2025-06-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2a76e320-adbd-4921-b05b-215efc3e3ba8",
+        "Name": "John Foster",
+        "PolicyNumber": "ee96f846-fb16-4eb9-8c9c-11ea52843d95",
+        "ContactInformation": {
+            "Phone": "845-546-8422",
+            "Email": "marksadrienne@example.com",
+            "Address": "44702 Evans Walk\nSuzanneside, WA 89293"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-02",
+        "Location": "79991 Johnson Harbor Suite 910\nPort Isaiahborough, GU 96330",
+        "Description": "Floor improve weight moment. Great various attorney. House father employee along course present catch."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 109243
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 146581
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 121195
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4086
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6555
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 127843,
+        "TotalApproved": 100854
+    },
+    "AdjusterDetails": {
+        "Name": "Whitney Lane",
+        "ContactInformation": {
+            "Phone": "+1-379-727-6640x88300",
+            "Email": "kimdickerson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9a1d40c5-baee-45e1-a6ee-edd6f3476ddb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

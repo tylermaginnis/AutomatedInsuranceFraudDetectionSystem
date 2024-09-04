@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e8086b31-cc68-4caf-80c1-cc9de33ddcf5",
+  "PolicyID": "edfb229a-08fc-4e9e-adaf-f70f3fdf7016",
+  "EffectiveDates": {
+    "StartDate": "2024-07-09",
+    "EndDate": "2025-07-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2821d24f-24b5-4d54-98ef-f1d33e58f6e0",
+    "Name": "Bill Cain",
+    "PolicyNumber": "edfb229a-08fc-4e9e-adaf-f70f3fdf7016",
+    "ContactInformation": {
+      "Phone": "+1-526-279-1694x8062",
+      "Email": "smithjose@example.net",
+      "Address": "945 Hanna Knolls\nElizabethburgh, VT 78128"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-31",
+    "Location": "51692 David River Suite 421\nWest Michael, CA 93130",
+    "Description": "Per on work. Travel involve back leg.\nSomething yard finally research must west. Gun nice instead soon despite audience practice skill. Commercial assume peace president technology significant nor."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1646
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 29228
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1364
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3546
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5235
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 84144,
+    "TotalApproved": 79909
+  },
+  "AdjusterDetails": {
+    "Name": "Samantha Martin",
+    "ContactInformation": {
+      "Phone": "001-536-633-8167",
+      "Email": "solissharon@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/d03b7cd4-5d94-4712-82de-a0784b8c6b2a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-31T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-05T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-10T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

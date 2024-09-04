@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ee407f6e-8f2f-43e1-80b3-ebbf25b4d090",
+  "PolicyID": "6e23ec4c-e7be-4852-910f-a974faecbd89",
+  "EffectiveDates": {
+    "StartDate": "2024-08-29",
+    "EndDate": "2025-08-29"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b97a869f-128c-472d-a275-5f1c17a7d1dd",
+    "Name": "Todd Rodriguez",
+    "PolicyNumber": "6e23ec4c-e7be-4852-910f-a974faecbd89",
+    "ContactInformation": {
+      "Phone": "849.390.1831x2714",
+      "Email": "nicholashood@example.com",
+      "Address": "7624 Jones Camp\nLake Theresamouth, NE 65380"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-02",
+    "Location": "817 Parker Junctions\nNew Kyle, AK 80735",
+    "Description": "Senior each its although few know. Benefit all human. Animal high let particularly record only."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 43311
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3736
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 101976
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1937
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7080
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 78888,
+    "TotalApproved": 15606
+  },
+  "AdjusterDetails": {
+    "Name": "Jill Gomez",
+    "ContactInformation": {
+      "Phone": "(407)920-8785",
+      "Email": "lcarr@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/fdca16de-9f72-42be-a12b-a420ca6aa1dd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-02T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-07T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-12T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

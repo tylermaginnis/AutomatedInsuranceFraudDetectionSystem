@@ -1,0 +1,81 @@
+{
+    "ClaimID": "13d9c603-3ca9-42ec-ae9f-a9ac1b08c7a8",
+    "PolicyID": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+    "EffectiveDates": {
+        "StartDate": "2023-12-28",
+        "EndDate": "2024-12-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e5105667-3211-446f-9c3d-593050b81d43",
+        "Name": "Julie Porter",
+        "PolicyNumber": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+        "ContactInformation": {
+            "Phone": "001-222-366-0081",
+            "Email": "cameronbailey@example.org",
+            "Address": "288 Maddox Center Apt. 437\nPort Loganton, WY 10809"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-14",
+        "Location": "4325 Thomas Circle\nWest Justinmouth, AR 97670",
+        "Description": "Word clearly project industry on peace offer. History else minute change economic. Candidate late technology item."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10793
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9630
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28414
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1958
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2848
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 18517,
+        "TotalApproved": 5819
+    },
+    "AdjusterDetails": {
+        "Name": "Megan Jimenez",
+        "ContactInformation": {
+            "Phone": "001-385-609-4141x8854",
+            "Email": "howardrobert@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/cd08c9de-65b3-4b5e-8300-8ba678e64171"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

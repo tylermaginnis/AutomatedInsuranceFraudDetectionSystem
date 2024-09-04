@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ae4949d5-6da5-4263-8e3b-f8f1d6542007",
+  "PolicyID": "4a2c4457-78b0-43c4-ab9d-6f895f4984bb",
+  "EffectiveDates": {
+    "StartDate": "2023-12-17",
+    "EndDate": "2024-12-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1056e7f2-e45a-48dc-b15b-0dc6385b20ee",
+    "Name": "Sarah Perez",
+    "PolicyNumber": "4a2c4457-78b0-43c4-ab9d-6f895f4984bb",
+    "ContactInformation": {
+      "Phone": "203.624.7886",
+      "Email": "karen63@example.com",
+      "Address": "01043 Jensen Trail\nAndersonchester, FM 99211"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-01",
+    "Location": "6296 Eric Fall\nJasontown, SD 12362",
+    "Description": "Because fine ability health two wear might. Design your which analysis win.\nDetermine set deal. Although radio week physical eight step. Ahead big explain method quickly."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 3913
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 78763
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3709
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4106
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 14698
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 186624,
+    "TotalApproved": 20725
+  },
+  "AdjusterDetails": {
+    "Name": "Crystal Scott",
+    "ContactInformation": {
+      "Phone": "722-963-7334x93559",
+      "Email": "crystal06@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/dc58f777-b3d6-45d2-98de-abb102d9bd08"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-01T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-06T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-02-11T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

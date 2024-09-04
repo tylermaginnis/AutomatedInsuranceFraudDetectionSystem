@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5d010628-9593-45a4-bb79-cef16a9f1334",
+  "PolicyID": "bd8a2441-7f3a-4467-a32c-40387ccea437",
+  "EffectiveDates": {
+    "StartDate": "2024-03-03",
+    "EndDate": "2025-03-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "070ff4cc-375c-405b-8735-25950340a771",
+    "Name": "Michael Hatfield",
+    "PolicyNumber": "bd8a2441-7f3a-4467-a32c-40387ccea437",
+    "ContactInformation": {
+      "Phone": "9296206377",
+      "Email": "martinsims@example.org",
+      "Address": "04863 Tyler Forks Suite 913\nJamesberg, AS 10176"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-11",
+    "Location": "36494 Hernandez Stream\nNew Stephenfurt, MO 27201",
+    "Description": "Rather discussion defense agree station. Still rest central nor Mrs accept. Medical likely finally event civil administration.\nDecide reason type."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 15220
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7275
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 14306
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 45497
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 34274
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 155407,
+    "TotalApproved": 142114
+  },
+  "AdjusterDetails": {
+    "Name": "Andrew Dixon",
+    "ContactInformation": {
+      "Phone": "9532049378",
+      "Email": "robertduran@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/e2ae3829-fc23-4437-a19f-a969a3962691"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-11T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-16T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-21T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a6078121-cb97-4b8f-b514-d8b8adbda453",
+    "PolicyID": "17e96972-650b-4fdb-9d4f-448c2bfed415",
+    "EffectiveDates": {
+        "StartDate": "2024-08-22",
+        "EndDate": "2025-08-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fc0e6a46-4f87-4260-abc6-9d4ca0ae26cc",
+        "Name": "Jennifer Perez",
+        "PolicyNumber": "17e96972-650b-4fdb-9d4f-448c2bfed415",
+        "ContactInformation": {
+            "Phone": "830-896-1379",
+            "Email": "samantha05@example.com",
+            "Address": "11614 Jon Square Suite 431\nMartinezburgh, WI 27269"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-07",
+        "Location": "821 Anne Valleys Suite 638\nPort Anthonyton, VA 89151",
+        "Description": "Measure draw all say outside. Worker generation accept Mrs effort. Subject take impact not fall professional. World sister hit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3628
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31829
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14596
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 80906
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 174406
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 186730,
+        "TotalApproved": 63298
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Walters",
+        "ContactInformation": {
+            "Phone": "+1-599-822-1768",
+            "Email": "matthew13@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2f12d213-535c-4559-a276-127a188f06ff"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

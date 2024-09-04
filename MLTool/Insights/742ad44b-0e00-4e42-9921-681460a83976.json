@@ -1,0 +1,81 @@
+{
+    "ClaimID": "742ad44b-0e00-4e42-9921-681460a83976",
+    "PolicyID": "11dad770-ba72-4cd3-94aa-05ce4d477fff",
+    "EffectiveDates": {
+        "StartDate": "2024-05-14",
+        "EndDate": "2025-05-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "30ff5863-e134-448f-9a08-5804a4c97787",
+        "Name": "Peter Nash",
+        "PolicyNumber": "11dad770-ba72-4cd3-94aa-05ce4d477fff",
+        "ContactInformation": {
+            "Phone": "932-336-0965",
+            "Email": "cwalters@example.org",
+            "Address": "57768 Brennan Road\nWest Laurenhaven, LA 35769"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-23",
+        "Location": "1734 Fisher Hills\nSouth Samuelchester, VT 64987",
+        "Description": "Garden week again teacher law at age attention. Above ten picture level.\nLose end third protect allow. Interesting store quickly thus conference then professional business."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9330
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41239
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18763
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33175
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 87070
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 49198,
+        "TotalApproved": 39156
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Chase",
+        "ContactInformation": {
+            "Phone": "(615)884-3704",
+            "Email": "cynthia03@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/23a56bdc-be26-4746-b4b3-d9478a05d3e0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-23T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-28T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-02T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

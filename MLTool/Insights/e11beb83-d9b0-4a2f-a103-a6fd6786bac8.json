@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e11beb83-d9b0-4a2f-a103-a6fd6786bac8",
+    "PolicyID": "c8d93285-9b41-4c0b-baf5-9ed33eb9393a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "153694d1-a583-4246-941c-8901423aa700",
+        "Name": "Juan Gonzalez",
+        "PolicyNumber": "c8d93285-9b41-4c0b-baf5-9ed33eb9393a",
+        "ContactInformation": {
+            "Phone": "(518)651-3035",
+            "Email": "jeremiahball@example.com",
+            "Address": "10118 Johnson Roads Apt. 559\nRodriguezport, PA 07663"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-26",
+        "Location": "4747 Monica Creek Apt. 934\nWest Nicole, NC 84682",
+        "Description": "Particular city expert series memory better write station. Table yes college show lawyer particularly name move.\nRead place best degree imagine somebody. Since visit only catch beautiful."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7622
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2714
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19847
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6598
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 39985
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 19503,
+        "TotalApproved": 10012
+    },
+    "AdjusterDetails": {
+        "Name": "Micheal Atkins",
+        "ContactInformation": {
+            "Phone": "544.331.2061",
+            "Email": "dixonmaria@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9924a200-8440-491f-ad94-f605c7e1df8c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-26T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-31T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-05T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

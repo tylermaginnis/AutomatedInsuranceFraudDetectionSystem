@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ccdb64d5-6aee-4214-a357-ff84e177e109",
+    "PolicyID": "9bcda28b-ccbe-4db1-ae94-8790b92e6edb",
+    "EffectiveDates": {
+        "StartDate": "2024-01-05",
+        "EndDate": "2025-01-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "228c3441-8be5-4953-8fd4-cf0d40fc03a9",
+        "Name": "Charles Schroeder",
+        "PolicyNumber": "9bcda28b-ccbe-4db1-ae94-8790b92e6edb",
+        "ContactInformation": {
+            "Phone": "001-909-665-8295x93210",
+            "Email": "jesse82@example.net",
+            "Address": "954 Woods Tunnel Suite 300\nSouth Bethanyville, AK 24300"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-16",
+        "Location": "501 Kelly Harbor\nPort Crystal, CT 24342",
+        "Description": "Doctor maybe technology table hard. Increase sign moment young kind prove.\nSuccess add opportunity buy. Language effort travel history weight century. Cold same traditional share drop system listen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29733
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12521
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3851
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39251
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8656
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 15201,
+        "TotalApproved": 6252
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Perkins",
+        "ContactInformation": {
+            "Phone": "690.788.4821x2048",
+            "Email": "michael39@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/69fbe6a8-85ac-4b68-ba4d-174d5d30b8a5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

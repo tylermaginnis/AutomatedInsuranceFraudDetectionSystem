@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b9102a11-c501-41eb-82f8-37ca65074b52",
+    "PolicyID": "0011919a-89b4-48d1-b3d7-8432bb41ecbe",
+    "EffectiveDates": {
+        "StartDate": "2024-08-08",
+        "EndDate": "2025-08-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e4542e73-e878-4fda-9fcc-45c8dd01e400",
+        "Name": "Cheryl Wilson",
+        "PolicyNumber": "0011919a-89b4-48d1-b3d7-8432bb41ecbe",
+        "ContactInformation": {
+            "Phone": "398-371-3141",
+            "Email": "wnichols@example.com",
+            "Address": "64843 Frazier Tunnel\nNew Ashleymouth, GU 77326"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-10",
+        "Location": "15503 Alyssa Key\nChristopherview, VT 63310",
+        "Description": "Smile threat share blood direction hand entire. Letter approach arrive impact someone.\nOne entire participant stuff. Relate who never cause where. First box sister continue exist add skill same."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37698
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39589
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8944
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9085
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 158289
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 103494,
+        "TotalApproved": 54012
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Watson",
+        "ContactInformation": {
+            "Phone": "268.751.6423x56661",
+            "Email": "paulcruz@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f5b0ec7c-b419-4110-881c-63f4076a0408"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-10T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-15T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-20T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

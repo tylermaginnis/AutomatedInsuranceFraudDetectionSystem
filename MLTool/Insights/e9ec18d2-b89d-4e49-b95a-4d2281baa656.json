@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e9ec18d2-b89d-4e49-b95a-4d2281baa656",
+    "PolicyID": "bf582c88-4f2f-4455-917e-3c5f8f54cacc",
+    "EffectiveDates": {
+        "StartDate": "2024-09-03",
+        "EndDate": "2025-09-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0ccfece9-7397-48b9-957e-2d46a56aefed",
+        "Name": "Steven Hernandez",
+        "PolicyNumber": "bf582c88-4f2f-4455-917e-3c5f8f54cacc",
+        "ContactInformation": {
+            "Phone": "7776695541",
+            "Email": "carneymichael@example.com",
+            "Address": "7226 Amanda Summit Suite 130\nThomasburgh, IL 47583"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-30",
+        "Location": "14729 Monique Points\nEast Mary, MN 61152",
+        "Description": "Bring name they wish up. Me mention author sing run wind window. Though for subject follow structure garden.\nEarly capital tonight yeah. Window including build good."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 67398
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 197172
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90772
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 92004
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4963
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 39998,
+        "TotalApproved": 15968
+    },
+    "AdjusterDetails": {
+        "Name": "Curtis Miller",
+        "ContactInformation": {
+            "Phone": "307-997-4580x452",
+            "Email": "ncastillo@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6f7345da-7a92-4f6c-b090-36531567e353"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "be2a9270-69f9-4b8a-af9d-e046851c252f",
+    "PolicyID": "0c57edb2-3168-4a98-a5f6-4c062edd13d5",
+    "EffectiveDates": {
+        "StartDate": "2024-08-11",
+        "EndDate": "2025-08-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "961c7344-c4dc-44be-992f-87bb735efa74",
+        "Name": "Brandon Freeman",
+        "PolicyNumber": "0c57edb2-3168-4a98-a5f6-4c062edd13d5",
+        "ContactInformation": {
+            "Phone": "(245)368-1222x15753",
+            "Email": "kevin47@example.org",
+            "Address": "826 Cynthia View\nEricmouth, VA 29519"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-10",
+        "Location": "9391 Bryan Lane\nChristopherberg, IL 60145",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 50855
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 43982
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9929
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23587
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6778
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 135131,
+        "TotalApproved": 47189
+    },
+    "AdjusterDetails": {
+        "Name": "Ian Beasley",
+        "ContactInformation": {
+            "Phone": "691.847.8835x1898",
+            "Email": "btaylor@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/67c7ecfa-62fa-411a-ad3c-18e68e6c6287"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-10T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-15T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-20T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

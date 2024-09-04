@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7da406d4-9dee-48a4-b4b7-6e99240a82a6",
+    "PolicyID": "32e54e08-4915-43d3-98c3-fdf85c79bffe",
+    "EffectiveDates": {
+        "StartDate": "2024-03-13",
+        "EndDate": "2025-03-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a03fcbfa-9fd4-4840-8c92-4c56320a26f8",
+        "Name": "Dustin Larsen",
+        "PolicyNumber": "32e54e08-4915-43d3-98c3-fdf85c79bffe",
+        "ContactInformation": {
+            "Phone": "(646)312-4569x3051",
+            "Email": "lschultz@example.net",
+            "Address": "46058 Jessica Turnpike\nPort Ericchester, OH 52042"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-02",
+        "Location": "3408 Ward Cliff\nWilliammouth, MI 21775",
+        "Description": "Whose start ten write. Wrong reduce perhaps. Listen may mean mean network away official.\nFeeling federal director vote. Including save other argue information trip reach."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 65459
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31595
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13956
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71962
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11132
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 47951,
+        "TotalApproved": 46914
+    },
+    "AdjusterDetails": {
+        "Name": "Sydney Mejia",
+        "ContactInformation": {
+            "Phone": "+1-580-989-1492",
+            "Email": "vnicholson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f95e05ea-95be-4077-aba1-002f3792f337"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

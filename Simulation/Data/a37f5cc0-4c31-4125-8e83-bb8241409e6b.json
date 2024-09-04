@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a37f5cc0-4c31-4125-8e83-bb8241409e6b",
+  "PolicyID": "ea3fcba1-afc9-4d8f-a273-3f80d739e68f",
+  "EffectiveDates": {
+    "StartDate": "2024-04-08",
+    "EndDate": "2025-04-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "c91d380c-0874-4925-a748-0d37065619f7",
+    "Name": "Patricia Beck",
+    "PolicyNumber": "ea3fcba1-afc9-4d8f-a273-3f80d739e68f",
+    "ContactInformation": {
+      "Phone": "(751)326-2484x01205",
+      "Email": "ryanstacey@example.com",
+      "Address": "192 Ryan Flat Suite 063\nJohnsonville, DE 41186"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-07",
+    "Location": "4628 Micheal Coves Apt. 927\nNorth Steven, MP 55183",
+    "Description": "Painting million all somebody through subject spend establish.\nPainting out adult. Choice everybody record much culture ask. Opportunity daughter machine agent."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 38917
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 18791
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 14254
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 82910
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16401
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 100721,
+    "TotalApproved": 71480
+  },
+  "AdjusterDetails": {
+    "Name": "Jeffrey Williams",
+    "ContactInformation": {
+      "Phone": "775-600-2302",
+      "Email": "james02@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/f58235c1-d898-4cfa-905b-b6c491272f7c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-07T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-12T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-17T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a85437e3-6ba0-4980-b2f1-518c6ac66f99",
+    "PolicyID": "4f5a992e-c9da-437d-a617-d9c40db0aa2e",
+    "EffectiveDates": {
+        "StartDate": "2024-02-02",
+        "EndDate": "2025-02-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "85928755-856d-41d7-96f1-893e57de71de",
+        "Name": "Christopher Berg",
+        "PolicyNumber": "4f5a992e-c9da-437d-a617-d9c40db0aa2e",
+        "ContactInformation": {
+            "Phone": "(494)978-3567x3344",
+            "Email": "ylewis@example.net",
+            "Address": "392 Anna Shoals Suite 794\nEast Melissa, UT 88880"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-19",
+        "Location": "250 Lindsay Groves\nRichardsonport, NJ 25028",
+        "Description": "Scene charge station something. Fight return instead century always wall social. Reduce still consider but.\nNetwork because born exactly likely. Shoulder agree sing billion. High skin bad truth."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12229
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37444
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7163
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9970
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3494
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 88688,
+        "TotalApproved": 76516
+    },
+    "AdjusterDetails": {
+        "Name": "Teresa Garcia",
+        "ContactInformation": {
+            "Phone": "+1-804-787-8543",
+            "Email": "james14@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/11983a49-333d-44bc-b3e2-64abcd090962"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-19T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-24T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-29T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

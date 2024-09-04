@@ -1,0 +1,81 @@
+{
+    "ClaimID": "46e21b42-b87f-43a1-95a9-44b2dc9d29ec",
+    "PolicyID": "d4e0098d-777a-4921-82ab-26bb902ba529",
+    "EffectiveDates": {
+        "StartDate": "2024-05-04",
+        "EndDate": "2025-05-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7f8505ef-715e-4b82-9b53-c6af13beb1d9",
+        "Name": "Christina Adams",
+        "PolicyNumber": "d4e0098d-777a-4921-82ab-26bb902ba529",
+        "ContactInformation": {
+            "Phone": "801-622-6585",
+            "Email": "nhenderson@example.net",
+            "Address": "71309 Lewis Knoll\nPort Michaelville, GU 95066"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-05",
+        "Location": "4722 Christopher Port\nSarahshire, UT 52556",
+        "Description": "They them every sure bar party. Fear kitchen have across food doctor as.\nStrategy fight history process. Concern feel walk current population."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6610
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3151
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1152
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35420
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30753
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 79748,
+        "TotalApproved": 21380
+    },
+    "AdjusterDetails": {
+        "Name": "Donna Richards",
+        "ContactInformation": {
+            "Phone": "001-798-382-2608x294",
+            "Email": "ulandry@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d0590765-1140-4c0a-a994-d90cf3a4a702"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-05T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-10T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-15T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

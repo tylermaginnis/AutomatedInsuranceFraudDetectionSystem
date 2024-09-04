@@ -1,0 +1,81 @@
+{
+    "ClaimID": "10a26ceb-f6dd-478a-8e55-c8618170ffa9",
+    "PolicyID": "11de28cb-2474-47fb-9fbc-e30f1ea5029f",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9ea9ffa4-d0e6-4d28-a910-be8dac2f7a87",
+        "Name": "Edwin Eaton",
+        "PolicyNumber": "11de28cb-2474-47fb-9fbc-e30f1ea5029f",
+        "ContactInformation": {
+            "Phone": "001-374-554-5353x38503",
+            "Email": "mariah96@example.com",
+            "Address": "336 Kevin Passage\nJenniferberg, ME 11532"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-08",
+        "Location": "6422 Laura Ports Suite 792\nAprilfurt, DC 50705",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 85607
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23744
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9161
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10974
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17325
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 146811,
+        "TotalApproved": 115630
+    },
+    "AdjusterDetails": {
+        "Name": "Casey Harvey",
+        "ContactInformation": {
+            "Phone": "7539066893",
+            "Email": "cwilliams@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/cb8176bb-e7aa-4422-8c01-3eef027cb9c0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-08T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-13T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-18T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

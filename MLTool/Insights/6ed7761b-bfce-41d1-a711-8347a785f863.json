@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6ed7761b-bfce-41d1-a711-8347a785f863",
+    "PolicyID": "748ec1aa-73f9-44d9-b380-c27e99a94dc7",
+    "EffectiveDates": {
+        "StartDate": "2024-03-22",
+        "EndDate": "2025-03-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e51820dd-b756-4a4e-8ea2-d8178cb47d5a",
+        "Name": "Caleb Brooks",
+        "PolicyNumber": "748ec1aa-73f9-44d9-b380-c27e99a94dc7",
+        "ContactInformation": {
+            "Phone": "6383894782",
+            "Email": "qgonzalez@example.com",
+            "Address": "24493 Foster Ridge\nPort Justinton, WA 29431"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-31",
+        "Location": "02992 Williams Course Suite 150\nEricchester, AL 93937",
+        "Description": "Nearly hot campaign among but. Any staff focus back. Table time technology participant anything. Concern offer child place."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22843
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12066
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 91733
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27727
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17956
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 49393,
+        "TotalApproved": 9529
+    },
+    "AdjusterDetails": {
+        "Name": "Luis Cochran",
+        "ContactInformation": {
+            "Phone": "3105915719",
+            "Email": "orichards@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4c8087c7-b23b-4d15-9817-52c846fd95fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-31T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-05T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-10T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

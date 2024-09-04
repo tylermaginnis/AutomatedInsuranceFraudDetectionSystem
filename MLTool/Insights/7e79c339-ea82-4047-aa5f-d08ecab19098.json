@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7e79c339-ea82-4047-aa5f-d08ecab19098",
+    "PolicyID": "cbec1d7c-20ff-48eb-a25f-9757eb171ed2",
+    "EffectiveDates": {
+        "StartDate": "2024-02-11",
+        "EndDate": "2025-02-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5d64acd4-747b-468f-804f-a1ae97d93829",
+        "Name": "Dean Rios",
+        "PolicyNumber": "cbec1d7c-20ff-48eb-a25f-9757eb171ed2",
+        "ContactInformation": {
+            "Phone": "001-833-677-1270x7407",
+            "Email": "nicholashendrix@example.net",
+            "Address": "PSC 2883, Box 3400\nAPO AE 30932"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-14",
+        "Location": "310 Dixon Ford\nSouth Gregory, NH 61791",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 86139
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28399
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6713
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17487
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18798
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157536,
+        "TotalApproved": 41519
+    },
+    "AdjusterDetails": {
+        "Name": "Tonya Hall",
+        "ContactInformation": {
+            "Phone": "(589)399-1991x12231",
+            "Email": "qgonzales@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/94753a13-ffbd-401a-812f-84e0cfff6fd2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-14T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-19T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-24T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

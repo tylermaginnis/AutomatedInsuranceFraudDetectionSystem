@@ -1,0 +1,81 @@
+{
+    "ClaimID": "be3f0941-861f-4815-ba67-889cafe3c18d",
+    "PolicyID": "b31f412b-66d1-4bc9-ab51-aafdd9098381",
+    "EffectiveDates": {
+        "StartDate": "2024-08-03",
+        "EndDate": "2025-08-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ec25ded9-7687-48b5-a2d3-4efe7738371b",
+        "Name": "Charles Williamson",
+        "PolicyNumber": "b31f412b-66d1-4bc9-ab51-aafdd9098381",
+        "ContactInformation": {
+            "Phone": "610-295-3186",
+            "Email": "carrieparker@example.org",
+            "Address": "259 Cruz Crest\nPort Aaron, NE 33308"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-29",
+        "Location": "8078 Juarez Harbor\nFischerberg, IN 90570",
+        "Description": "Answer vote floor author. Leg police radio Mr. Arm series until matter writer history house.\nOfficial administration ready feeling task Mrs. Spend west age tend."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2853
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12511
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 21248
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7585
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40874
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 124134,
+        "TotalApproved": 27474
+    },
+    "AdjusterDetails": {
+        "Name": "Kayla Medina",
+        "ContactInformation": {
+            "Phone": "(330)521-7474",
+            "Email": "katielong@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b73c09d3-3ee0-4675-8efc-fb68a773fcc7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-29T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-03T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-08T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

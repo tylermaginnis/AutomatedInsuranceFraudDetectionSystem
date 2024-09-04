@@ -1,0 +1,81 @@
+{
+    "ClaimID": "77776c0a-8ae7-4a12-897d-cf4663fa723a",
+    "PolicyID": "75de24a2-601c-4eb3-a088-1d3095cc10ab",
+    "EffectiveDates": {
+        "StartDate": "2024-08-15",
+        "EndDate": "2025-08-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e51c7f46-83b9-43b0-8c8c-993b0e5b3b0c",
+        "Name": "Laura Crane DVM",
+        "PolicyNumber": "75de24a2-601c-4eb3-a088-1d3095cc10ab",
+        "ContactInformation": {
+            "Phone": "491.314.0533x076",
+            "Email": "zjones@example.com",
+            "Address": "908 Sally Islands\nLake Becky, WA 97356"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-17",
+        "Location": "8156 Kurt Extension\nMurphyhaven, DC 14437",
+        "Description": "Western share range manage section green fast. Situation receive weight myself clearly drug. Knowledge education owner arm all out although."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31882
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2780
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8741
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48459
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19810
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 123998,
+        "TotalApproved": 104835
+    },
+    "AdjusterDetails": {
+        "Name": "John Moore",
+        "ContactInformation": {
+            "Phone": "001-286-745-0142x85978",
+            "Email": "rdavis@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/22b1b9ea-848f-49ba-8a07-326eaf09762d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-17T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-22T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-27T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

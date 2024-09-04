@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bf87d0c8-4f43-4643-9868-3376be601fa6",
+  "PolicyID": "c1f9acc0-c0eb-476d-a571-44a06014dd4a",
+  "EffectiveDates": {
+    "StartDate": "2023-11-01",
+    "EndDate": "2024-10-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "40225429-ea2f-4f03-a858-b1bbc76d589f",
+    "Name": "Timothy Patterson",
+    "PolicyNumber": "c1f9acc0-c0eb-476d-a571-44a06014dd4a",
+    "ContactInformation": {
+      "Phone": "(675)356-3143x945",
+      "Email": "chelsea83@example.org",
+      "Address": "28877 Paul Harbor Suite 071\nDavisberg, MA 83339"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-18",
+    "Location": "177 Patricia Rapids Suite 340\nIanton, KY 43867",
+    "Description": "Score matter left education receive we. View able store cause half rich. Appear trial list eight human."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 101026
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 46310
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 26134
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5778
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 18850
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 190430,
+    "TotalApproved": 28893
+  },
+  "AdjusterDetails": {
+    "Name": "Theresa Rodgers",
+    "ContactInformation": {
+      "Phone": "612.591.0432x9277",
+      "Email": "alan40@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/5e5ba486-f650-476a-9a59-e0125ef0dcdb"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-18T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-23T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-28T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

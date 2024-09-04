@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8def90eb-d1ea-4fdb-b10d-86ce23bd67e8",
+    "PolicyID": "07224231-efa3-4255-945d-d1bd4bd30a15",
+    "EffectiveDates": {
+        "StartDate": "2024-03-30",
+        "EndDate": "2025-03-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3f71d8b9-8c45-40d1-be69-05be00b986fe",
+        "Name": "Savannah Johnson",
+        "PolicyNumber": "07224231-efa3-4255-945d-d1bd4bd30a15",
+        "ContactInformation": {
+            "Phone": "001-529-703-9063x9834",
+            "Email": "brianstout@example.net",
+            "Address": "102 Cooke Trail\nRobinsonhaven, FL 82106"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-10",
+        "Location": "4236 Michelle Groves Suite 698\nAndersonburgh, WV 30720",
+        "Description": "Card find past on. Stock record want phone. Also around large perform weight rich.\nGeneral begin lawyer culture simply. Sing son nor carry my push turn rise. He husband effect vote."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 149879
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3280
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4572
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7099
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3709
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 51237,
+        "TotalApproved": 38350
+    },
+    "AdjusterDetails": {
+        "Name": "Cody Pennington",
+        "ContactInformation": {
+            "Phone": "+1-300-508-1167x3761",
+            "Email": "fcarpenter@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d93655d2-c6b3-4822-b4e7-30504804f152"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-10T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-15T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-20T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

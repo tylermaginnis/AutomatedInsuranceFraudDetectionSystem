@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f9d07b2f-ce5d-4491-bd1e-3184e8fcec62",
+    "PolicyID": "93623671-3943-4e87-859e-7af7a62956e0",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "74deae8c-f4ea-4468-99a9-ac8f17b051c7",
+        "Name": "Annette Wiley",
+        "PolicyNumber": "93623671-3943-4e87-859e-7af7a62956e0",
+        "ContactInformation": {
+            "Phone": "+1-325-276-7933x468",
+            "Email": "nicoleking@example.net",
+            "Address": "4444 Michael Brook Suite 539\nAaronberg, CT 65953"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-27",
+        "Location": "248 Bruce Valleys\nShannonville, CA 12972",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 67016
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32254
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5281
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14095
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16982
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 135628,
+        "TotalApproved": 31975
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Kevin Garrison",
+        "ContactInformation": {
+            "Phone": "001-222-369-1284x38817",
+            "Email": "mollyvasquez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ac0e0b82-53f3-4dbd-9be4-9ea4cc752d02"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-27T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-01T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-06T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

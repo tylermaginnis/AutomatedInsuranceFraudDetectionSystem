@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a7fce58b-837f-485f-a8d8-104d33ef1601",
+    "PolicyID": "07fa1517-7b01-4dfd-8a29-4aca65bb1017",
+    "EffectiveDates": {
+        "StartDate": "2024-03-04",
+        "EndDate": "2025-03-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b2ccb289-82e7-4df2-a9aa-2cc4bc4d7020",
+        "Name": "Marie Brown",
+        "PolicyNumber": "07fa1517-7b01-4dfd-8a29-4aca65bb1017",
+        "ContactInformation": {
+            "Phone": "271.911.0783x8936",
+            "Email": "warrenkristin@example.net",
+            "Address": "863 Brianna Extensions Suite 945\nNew Joanne, MN 13273"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-17",
+        "Location": "7579 Dale Throughway Suite 779\nNew John, NM 10331",
+        "Description": "Fall I almost none ten raise next current. Room light clearly road before while.\nBreak summer something cause miss. Economy mind gun case or movement ago."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1926
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9531
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14026
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 95428
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23438
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 20210,
+        "TotalApproved": 16444
+    },
+    "AdjusterDetails": {
+        "Name": "Emily Gillespie",
+        "ContactInformation": {
+            "Phone": "217-922-9984",
+            "Email": "browncatherine@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/95d1fd6e-a3bd-4ce0-a6c8-2fafd45dc39e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

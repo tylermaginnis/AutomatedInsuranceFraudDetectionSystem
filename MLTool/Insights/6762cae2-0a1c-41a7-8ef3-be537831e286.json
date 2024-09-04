@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6762cae2-0a1c-41a7-8ef3-be537831e286",
+    "PolicyID": "1bcc4dea-f700-45a3-81b9-90cc358ac933",
+    "EffectiveDates": {
+        "StartDate": "2023-12-09",
+        "EndDate": "2024-12-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "58528b4b-89c6-46ae-88c8-020e3547e43f",
+        "Name": "Tina Parker",
+        "PolicyNumber": "1bcc4dea-f700-45a3-81b9-90cc358ac933",
+        "ContactInformation": {
+            "Phone": "2608531685",
+            "Email": "sarabrown@example.net",
+            "Address": "334 Anne Points\nNorth Johnbury, MH 28050"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-16",
+        "Location": "774 Terri Club\nSouth Patricia, LA 48075",
+        "Description": "Why color though marriage leg peace commercial. Themselves ago firm right federal. Worker detail debate before low your."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2523
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14797
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 120011
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 80931
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 119415
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 99006,
+        "TotalApproved": 96286
+    },
+    "AdjusterDetails": {
+        "Name": "Jacob Johnson",
+        "ContactInformation": {
+            "Phone": "+1-626-459-3856x8228",
+            "Email": "omartinez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1e7e666b-7e81-4ad8-9192-cf92d32663b2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-16T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-21T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-26T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

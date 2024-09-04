@@ -1,0 +1,80 @@
+{
+  "ClaimID": "eecc466e-da84-4189-bcfd-068a6546a305",
+  "PolicyID": "77868c86-ce36-4d0c-88eb-25d4b530f127",
+  "EffectiveDates": {
+    "StartDate": "2023-10-23",
+    "EndDate": "2024-10-22"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0d92a20f-033b-4f9c-8a37-a6f4d9ada63e",
+    "Name": "Samantha Scott",
+    "PolicyNumber": "77868c86-ce36-4d0c-88eb-25d4b530f127",
+    "ContactInformation": {
+      "Phone": "742-673-8969x779",
+      "Email": "chelsey46@example.net",
+      "Address": "1907 Sean Point Apt. 178\nChristinaburgh, WY 51946"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-17",
+    "Location": "1702 Megan Estates\nLake Heather, MS 81748",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 54816
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 43944
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7764
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 16979
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 11437
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 134940,
+    "TotalApproved": 41056
+  },
+  "AdjusterDetails": {
+    "Name": "Stephanie Lynch",
+    "ContactInformation": {
+      "Phone": "784.960.6305",
+      "Email": "kschneider@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/36f7a946-9e07-461b-b1b4-d03f49eb3c4f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-17T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-22T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-27T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

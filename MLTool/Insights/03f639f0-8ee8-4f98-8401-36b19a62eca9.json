@@ -1,0 +1,81 @@
+{
+    "ClaimID": "03f639f0-8ee8-4f98-8401-36b19a62eca9",
+    "PolicyID": "1afc9277-6917-4ccb-84f7-c40b1fcb94a1",
+    "EffectiveDates": {
+        "StartDate": "2024-06-23",
+        "EndDate": "2025-06-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fdbc9cf7-88de-4b1f-b242-4ddeccda789c",
+        "Name": "Alexander Nielsen",
+        "PolicyNumber": "1afc9277-6917-4ccb-84f7-c40b1fcb94a1",
+        "ContactInformation": {
+            "Phone": "474-200-9495",
+            "Email": "cgray@example.com",
+            "Address": "3728 Jodi Spring\nWest Laura, ME 16930"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-20",
+        "Location": "3775 Jessica Drives\nWest Kellyport, AL 55621",
+        "Description": "Turn security draw their although brother cut section. Commercial understand probably particularly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5470
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 154231
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1982
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49518
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40664
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 55949,
+        "TotalApproved": 18327
+    },
+    "AdjusterDetails": {
+        "Name": "Gloria Perry",
+        "ContactInformation": {
+            "Phone": "001-761-950-5454x43560",
+            "Email": "jenkinstimothy@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2643765d-9c18-41cf-828c-21c9c2d7492d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-20T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-25T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-30T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

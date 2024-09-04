@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e093c608-71ee-46dd-bfc0-f36e7982a598",
+  "PolicyID": "afdd4021-743a-4d95-95dc-41fb2f29c147",
+  "EffectiveDates": {
+    "StartDate": "2024-08-05",
+    "EndDate": "2025-08-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f11781fd-c6e1-4f88-80d0-bd3e2399878c",
+    "Name": "Paul Perry",
+    "PolicyNumber": "afdd4021-743a-4d95-95dc-41fb2f29c147",
+    "ContactInformation": {
+      "Phone": "(532)958-2125",
+      "Email": "drice@example.org",
+      "Address": "11752 Hall Plaza Suite 577\nLake Elizabethburgh, SC 37934"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-30",
+    "Location": "6582 Theresa Ways Apt. 052\nNew Erica, PA 83808",
+    "Description": "Discussion need doctor fund himself. Middle age natural sport. While head design environment relationship."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 65115
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5756
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9103
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13876
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7655
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 79477,
+    "TotalApproved": 15409
+  },
+  "AdjusterDetails": {
+    "Name": "Carlos Garcia",
+    "ContactInformation": {
+      "Phone": "+1-759-689-9050x7802",
+      "Email": "qwilkins@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/06b9ca13-463d-465c-8898-dfde8d71fc6e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-30T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-04T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-09T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5320ddaf-7385-4ea8-9f25-5b0f96236d84",
+    "PolicyID": "920a1b80-b0a9-4151-b69f-9ec4950dba8c",
+    "EffectiveDates": {
+        "StartDate": "2023-10-29",
+        "EndDate": "2024-10-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "47fc3b9c-ba83-467e-9c95-af77696aaa7a",
+        "Name": "Catherine Butler",
+        "PolicyNumber": "920a1b80-b0a9-4151-b69f-9ec4950dba8c",
+        "ContactInformation": {
+            "Phone": "001-455-516-4465",
+            "Email": "burgesscarl@example.net",
+            "Address": "2087 Lester Trace Suite 806\nPort John, SC 21157"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-22",
+        "Location": "8680 Baldwin Fall\nHowellville, DE 96694",
+        "Description": "Different their edge letter expect successful moment and. Over study they good.\nActually travel unit he. Option its finish college air foot. Final modern exist."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 52916
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 60267
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29675
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41418
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1826
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 196696,
+        "TotalApproved": 161928
+    },
+    "AdjusterDetails": {
+        "Name": "Brenda Pierce",
+        "ContactInformation": {
+            "Phone": "(938)868-0832",
+            "Email": "paulreilly@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/554640b6-376a-43b1-ad2f-8c78bd3b8f08"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-22T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-27T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

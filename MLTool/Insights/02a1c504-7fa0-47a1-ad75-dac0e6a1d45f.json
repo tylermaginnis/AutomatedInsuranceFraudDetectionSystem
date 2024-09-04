@@ -1,0 +1,81 @@
+{
+    "ClaimID": "02a1c504-7fa0-47a1-ad75-dac0e6a1d45f",
+    "PolicyID": "a40c8973-5599-44ac-ac82-acc66d8e11ae",
+    "EffectiveDates": {
+        "StartDate": "2024-02-26",
+        "EndDate": "2025-02-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7898a54e-7035-4b3b-a7e5-ffb09b129884",
+        "Name": "Katherine Carr",
+        "PolicyNumber": "a40c8973-5599-44ac-ac82-acc66d8e11ae",
+        "ContactInformation": {
+            "Phone": "+1-210-974-2539x3668",
+            "Email": "willissharon@example.net",
+            "Address": "6265 Eduardo Estates\nNorth Charlesside, SD 47042"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-16",
+        "Location": "7219 Darrell Brooks Suite 818\nKathyhaven, ID 87894",
+        "Description": "Board religious help way music something finish which. Couple total him white language nor college. Both south land now help exactly here."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2834
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1795
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 89981
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 116501
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 80816
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 147022,
+        "TotalApproved": 118939
+    },
+    "AdjusterDetails": {
+        "Name": "Tyler Miller",
+        "ContactInformation": {
+            "Phone": "440-303-8143",
+            "Email": "dlewis@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9fb178fd-f8d6-4cb8-8b7d-3d3924123b02"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

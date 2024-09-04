@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2cf6e313-71dc-4fea-b317-02bf61f10402",
+  "PolicyID": "2bda9e0f-8f1d-4275-95ea-0fb6435fec42",
+  "EffectiveDates": {
+    "StartDate": "2024-06-26",
+    "EndDate": "2025-06-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2592ded6-8694-4964-b950-6366d6a596b2",
+    "Name": "Mrs. Ann Smith",
+    "PolicyNumber": "2bda9e0f-8f1d-4275-95ea-0fb6435fec42",
+    "ContactInformation": {
+      "Phone": "461.615.6686",
+      "Email": "melinda41@example.com",
+      "Address": "9713 Alyssa Meadow\nPhelpsview, MD 91577"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-07",
+    "Location": "6989 Brown Islands Apt. 686\nChadbury, AL 33407",
+    "Description": "Test dark central only. We manage one.\nShould manager inside remain. Anything space evening provide.\nWithout outside head southern better agent. Structure voice look young place."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 66980
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 12713
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 129532
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8829
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 153099
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 23050,
+    "TotalApproved": 9122
+  },
+  "AdjusterDetails": {
+    "Name": "Jason Cook",
+    "ContactInformation": {
+      "Phone": "3249742554",
+      "Email": "bcastro@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/294c4ead-bd3c-4760-a055-c935fdb5bc45"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-07T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-12T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-17T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

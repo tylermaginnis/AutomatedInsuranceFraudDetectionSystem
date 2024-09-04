@@ -1,0 +1,80 @@
+{
+  "ClaimID": "677821df-7b2b-4891-999b-22702839629d",
+  "PolicyID": "9e97219a-c3a4-4429-8ed6-78bc92b2d6c2",
+  "EffectiveDates": {
+    "StartDate": "2023-11-29",
+    "EndDate": "2024-11-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6f3b6ab6-c01b-4305-b4b5-b6f13deb0f38",
+    "Name": "Jeremy Guzman",
+    "PolicyNumber": "9e97219a-c3a4-4429-8ed6-78bc92b2d6c2",
+    "ContactInformation": {
+      "Phone": "352-723-9305x3482",
+      "Email": "williamsmorgan@example.org",
+      "Address": "548 Watson Row\nPort Jacob, CT 28357"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-03",
+    "Location": "Unit 1590 Box 9110\nDPO AA 67647",
+    "Description": "Local short by bar mission. Western growth unit several.\nAt many ago where. Grow cell song call piece. Responsibility talk song within recognize. Order especially foreign within."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2780
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 66228
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 172502
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 28805
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9227
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 136406,
+    "TotalApproved": 56173
+  },
+  "AdjusterDetails": {
+    "Name": "Beth Thomas",
+    "ContactInformation": {
+      "Phone": "247.526.3806",
+      "Email": "vthomas@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/a75b2c28-e444-4255-b431-d2e03197a850"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-03T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-08T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-13T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

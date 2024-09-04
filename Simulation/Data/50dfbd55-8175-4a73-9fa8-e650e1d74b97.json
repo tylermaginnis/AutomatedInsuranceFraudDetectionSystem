@@ -1,0 +1,80 @@
+{
+  "ClaimID": "50dfbd55-8175-4a73-9fa8-e650e1d74b97",
+  "PolicyID": "bae212c6-0a57-4324-89d1-83beccc79337",
+  "EffectiveDates": {
+    "StartDate": "2024-04-05",
+    "EndDate": "2025-04-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d8ea001f-ba83-4efa-bc8a-c4b8e118c827",
+    "Name": "Nathan Huff",
+    "PolicyNumber": "bae212c6-0a57-4324-89d1-83beccc79337",
+    "ContactInformation": {
+      "Phone": "001-849-478-4041x6600",
+      "Email": "mitchellrodgers@example.net",
+      "Address": "782 Smith Orchard Apt. 175\nNorth Dillon, CA 46900"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-28",
+    "Location": "31691 Hoffman Plains Suite 531\nWest Madison, AS 44126",
+    "Description": "Capital upon again.\nWestern dog notice natural reveal should American among. Realize hair finish dream fight. Notice employee animal then animal realize."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9955
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3768
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1492
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19225
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 48611
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 27188,
+    "TotalApproved": 14405
+  },
+  "AdjusterDetails": {
+    "Name": "Amanda Huerta",
+    "ContactInformation": {
+      "Phone": "(630)313-7684",
+      "Email": "huffmanjeffrey@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/8420ab82-9996-41a0-9239-746addbd36ea"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-28T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-05T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-10T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

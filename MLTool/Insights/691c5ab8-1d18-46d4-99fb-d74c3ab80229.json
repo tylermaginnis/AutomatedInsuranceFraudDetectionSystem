@@ -1,0 +1,81 @@
+{
+    "ClaimID": "691c5ab8-1d18-46d4-99fb-d74c3ab80229",
+    "PolicyID": "62432675-0915-450a-9ba2-9475acd11dd3",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9b7c6d7f-bb06-4522-9741-eb70a657771d",
+        "Name": "Charles Wilson",
+        "PolicyNumber": "62432675-0915-450a-9ba2-9475acd11dd3",
+        "ContactInformation": {
+            "Phone": "001-969-929-1641x464",
+            "Email": "kevin22@example.net",
+            "Address": "0557 Ewing Ridge\nMiddletonstad, WY 19943"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-05",
+        "Location": "17180 Hawkins Village Apt. 059\nRoymouth, DE 37784",
+        "Description": "Receive message lose yet right. Last necessary medical away easy. Source then yeah rate.\nPaper statement effect phone. From condition law find. Experience loss reach daughter."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9838
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11377
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 191605
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41686
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8093
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 181050,
+        "TotalApproved": 99879
+    },
+    "AdjusterDetails": {
+        "Name": "Alex Turner",
+        "ContactInformation": {
+            "Phone": "4348790476",
+            "Email": "carterthomas@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/26ec33a2-ae4c-4d41-8deb-0c5b01fae2aa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

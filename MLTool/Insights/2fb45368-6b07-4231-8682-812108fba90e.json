@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2fb45368-6b07-4231-8682-812108fba90e",
+    "PolicyID": "795b929b-e739-4805-8217-970f75859cc7",
+    "EffectiveDates": {
+        "StartDate": "2024-06-01",
+        "EndDate": "2025-06-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "450a895b-52af-4f9a-907a-801319534c3b",
+        "Name": "Mark Howard",
+        "PolicyNumber": "795b929b-e739-4805-8217-970f75859cc7",
+        "ContactInformation": {
+            "Phone": "(523)680-6322x47875",
+            "Email": "william87@example.com",
+            "Address": "017 Delgado Harbor\nEast Gregory, WV 29116"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-23",
+        "Location": "457 Tina Road\nPort Pamela, DC 58130",
+        "Description": "My chance but condition town. No pass next. Discuss under try conference play.\nMorning central offer me within certain finish. Reason blood two themselves task. Car seven task draw artist."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17579
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2917
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17430
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 73223
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25024
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 16414,
+        "TotalApproved": 8070
+    },
+    "AdjusterDetails": {
+        "Name": "Patrick Guerrero",
+        "ContactInformation": {
+            "Phone": "(795)834-8049",
+            "Email": "baxterpeter@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/fa0712c6-85f6-4105-b203-80b9419be4c8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

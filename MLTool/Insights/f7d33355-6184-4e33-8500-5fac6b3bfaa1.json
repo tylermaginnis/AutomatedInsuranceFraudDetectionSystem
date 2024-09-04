@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f7d33355-6184-4e33-8500-5fac6b3bfaa1",
+    "PolicyID": "3bd5f658-07b0-411e-afad-49f6f24bdbfc",
+    "EffectiveDates": {
+        "StartDate": "2024-01-19",
+        "EndDate": "2025-01-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "35a5eb37-626d-4e00-8f3f-683782123593",
+        "Name": "Phillip Harris",
+        "PolicyNumber": "3bd5f658-07b0-411e-afad-49f6f24bdbfc",
+        "ContactInformation": {
+            "Phone": "4917011691",
+            "Email": "sydney04@example.org",
+            "Address": "4055 Jeffery Rapids Suite 398\nAmyton, FM 39480"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-06",
+        "Location": "095 Timothy Point\nLake Alicia, NM 38132",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 80991
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25558
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7819
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19642
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6028
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 140038,
+        "TotalApproved": 23880
+    },
+    "AdjusterDetails": {
+        "Name": "Sheri Smith",
+        "ContactInformation": {
+            "Phone": "392-450-2702x6939",
+            "Email": "cmiller@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/530c19f7-35c3-475a-9dbf-f74d894c4878"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-06T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-11T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-16T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f20324f0-f334-4593-9704-b27a5d3ffe11",
+    "PolicyID": "ffa6af7f-bbf4-426a-9118-6d08b470959c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-04",
+        "EndDate": "2025-05-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "791675b4-9659-4cf5-94b1-6452d408cbf1",
+        "Name": "Julia Davis",
+        "PolicyNumber": "ffa6af7f-bbf4-426a-9118-6d08b470959c",
+        "ContactInformation": {
+            "Phone": "8907895191",
+            "Email": "vhenry@example.com",
+            "Address": "78112 April Pines\nWilliamhaven, TX 39525"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-21",
+        "Location": "36119 Julie Fields Apt. 414\nNorth Deborah, VA 28423",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 90276
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25224
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7011
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27504
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7958
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157973,
+        "TotalApproved": 37356
+    },
+    "AdjusterDetails": {
+        "Name": "Isaiah Robertson",
+        "ContactInformation": {
+            "Phone": "506-304-2649",
+            "Email": "vking@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d614a8dd-54ad-436b-822c-3ac668ace3c5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-21T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-26T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-01T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

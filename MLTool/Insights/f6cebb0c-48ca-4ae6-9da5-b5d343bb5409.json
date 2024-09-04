@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6cebb0c-48ca-4ae6-9da5-b5d343bb5409",
+    "PolicyID": "a77540e1-d515-4f12-bd64-fec7fd736104",
+    "EffectiveDates": {
+        "StartDate": "2024-08-04",
+        "EndDate": "2025-08-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0e614418-d179-4eea-9092-56651097265f",
+        "Name": "Melissa Jones",
+        "PolicyNumber": "a77540e1-d515-4f12-bd64-fec7fd736104",
+        "ContactInformation": {
+            "Phone": "(703)856-2845x4277",
+            "Email": "derekdiaz@example.net",
+            "Address": "2815 Hunter Trace\nNorth Saraport, KS 68390"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-15",
+        "Location": "1994 James Greens\nJerryville, WI 59349",
+        "Description": "Avoid matter agency stand me. Make tree garden media government will.\nBillion bar daughter when measure heavy. What born note six arm impact."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38999
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35133
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18353
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4542
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44201
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 48892,
+        "TotalApproved": 4912
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Stewart",
+        "ContactInformation": {
+            "Phone": "+1-408-526-3598x164",
+            "Email": "wmcfarland@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2baeaeca-d590-43e4-9a6a-ccf90cc1fa23"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-15T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-20T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-25T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

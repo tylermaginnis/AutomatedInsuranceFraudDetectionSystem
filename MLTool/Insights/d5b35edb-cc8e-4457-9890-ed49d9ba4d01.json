@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d5b35edb-cc8e-4457-9890-ed49d9ba4d01",
+    "PolicyID": "b4118470-4215-463c-86fa-a1e9bab9ca09",
+    "EffectiveDates": {
+        "StartDate": "2023-11-23",
+        "EndDate": "2024-11-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "97a8edf2-0977-41da-905c-ac369347867b",
+        "Name": "Nicole Brewer",
+        "PolicyNumber": "b4118470-4215-463c-86fa-a1e9bab9ca09",
+        "ContactInformation": {
+            "Phone": "5158095336",
+            "Email": "wilsonryan@example.net",
+            "Address": "USNS Johnson\nFPO AP 61902"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-21",
+        "Location": "5157 Simmons Rapid Apt. 806\nWest Charlesview, ME 30877",
+        "Description": "Turn few step these. Artist yeah Democrat better sister young. Audience drug travel I note.\nDevelop role cup couple. Choice meet data be small plant wide his."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 187031
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33002
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3720
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3491
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8723
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 139731,
+        "TotalApproved": 28817
+    },
+    "AdjusterDetails": {
+        "Name": "Carlos Jones",
+        "ContactInformation": {
+            "Phone": "(643)552-3923x012",
+            "Email": "mcarey@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/90fbf5e0-56f3-4ba7-93f5-b2a4393556a9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-31T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

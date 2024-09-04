@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ea8c0146-ea4c-44a8-8595-83443e78158e",
+    "PolicyID": "31c2f5d6-54e0-4eaa-b719-5fe26ffbe721",
+    "EffectiveDates": {
+        "StartDate": "2024-04-27",
+        "EndDate": "2025-04-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cd25ef56-7d26-4165-a9a4-35c6f9dd2336",
+        "Name": "Randy Nelson",
+        "PolicyNumber": "31c2f5d6-54e0-4eaa-b719-5fe26ffbe721",
+        "ContactInformation": {
+            "Phone": "382.344.4669x3500",
+            "Email": "longelizabeth@example.net",
+            "Address": "912 Alan Circles Suite 375\nAshleyport, NJ 69876"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-18",
+        "Location": "35354 Atkins Gardens Apt. 304\nWest Marystad, MN 34175",
+        "Description": "When million lot wide their realize forward attention. Eight smile capital even hope continue idea."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 191344
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9707
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5684
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35121
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8633
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 97772,
+        "TotalApproved": 79395
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Hoffman",
+        "ContactInformation": {
+            "Phone": "(761)847-1004",
+            "Email": "annmcdaniel@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/50acbe93-5b38-4b96-a587-d638120af2a7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-18T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-23T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-28T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

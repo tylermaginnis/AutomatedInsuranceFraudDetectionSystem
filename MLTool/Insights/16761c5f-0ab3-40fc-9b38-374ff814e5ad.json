@@ -1,0 +1,81 @@
+{
+    "ClaimID": "16761c5f-0ab3-40fc-9b38-374ff814e5ad",
+    "PolicyID": "05159ca8-a81c-491e-9968-c3859ecc6317",
+    "EffectiveDates": {
+        "StartDate": "2024-01-21",
+        "EndDate": "2025-01-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "11176056-cc0a-40ea-b43a-664694453cc7",
+        "Name": "Stephanie Bishop MD",
+        "PolicyNumber": "05159ca8-a81c-491e-9968-c3859ecc6317",
+        "ContactInformation": {
+            "Phone": "001-947-373-4575",
+            "Email": "jonesemily@example.com",
+            "Address": "4733 Amanda Pine\nJeffreyland, DE 82920"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-08",
+        "Location": "41214 James Island\nEast Derekburgh, AL 17105",
+        "Description": "Case four population simple edge. Piece have fund. Image effect under take seem. Remember industry wait suddenly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 67063
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3988
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 102014
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 188951
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7795
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 150375,
+        "TotalApproved": 88815
+    },
+    "AdjusterDetails": {
+        "Name": "Ronald Garcia",
+        "ContactInformation": {
+            "Phone": "884.221.3310",
+            "Email": "melissa10@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/62128f7d-6bd3-4e65-83d9-75334ecf7550"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-08T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-13T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-18T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

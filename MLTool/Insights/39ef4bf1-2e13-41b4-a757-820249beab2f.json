@@ -1,0 +1,81 @@
+{
+    "ClaimID": "39ef4bf1-2e13-41b4-a757-820249beab2f",
+    "PolicyID": "3cba16ba-c2a8-4ac5-953e-c7ea88a7de79",
+    "EffectiveDates": {
+        "StartDate": "2023-09-25",
+        "EndDate": "2024-09-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2286394a-e955-48ae-bf8c-f83fd033863d",
+        "Name": "Alexander Stein",
+        "PolicyNumber": "3cba16ba-c2a8-4ac5-953e-c7ea88a7de79",
+        "ContactInformation": {
+            "Phone": "001-751-392-8826x911",
+            "Email": "david36@example.org",
+            "Address": "USCGC Molina\nFPO AP 01685"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-30",
+        "Location": "6320 Susan Well Suite 524\nWilliamsview, NM 66910",
+        "Description": "Perform give give half. City both direction responsibility lose. Business gas while send defense security hold turn."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35427
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6371
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10645
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13143
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1881
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 137486,
+        "TotalApproved": 79397
+    },
+    "AdjusterDetails": {
+        "Name": "Erik Johnson",
+        "ContactInformation": {
+            "Phone": "001-765-760-7746x8049",
+            "Email": "edwardsampson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/633a1306-bf9c-4c9b-97db-abd6bfb3f04a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

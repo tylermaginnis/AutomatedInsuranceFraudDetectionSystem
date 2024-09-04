@@ -1,0 +1,81 @@
+{
+    "ClaimID": "dfaf97f3-599d-438c-b0e2-7741fe908526",
+    "PolicyID": "3ffff0d8-5bc4-4b7c-9d28-9e2f7d1de241",
+    "EffectiveDates": {
+        "StartDate": "2024-01-30",
+        "EndDate": "2025-01-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "23e4df7c-b14b-4ba7-94eb-c6ae65d227f8",
+        "Name": "Connie Guerrero",
+        "PolicyNumber": "3ffff0d8-5bc4-4b7c-9d28-9e2f7d1de241",
+        "ContactInformation": {
+            "Phone": "+1-964-279-5258x132",
+            "Email": "ljones@example.net",
+            "Address": "57614 Cory Spur Suite 322\nEast Kathleen, OH 35974"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-26",
+        "Location": "3143 Fuller Wells\nSouth Lisaview, NV 94436",
+        "Description": "Debate quality any important body become week. Event house cost treat somebody. Continue night brother chair common task vote. Example station need."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 130993
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8458
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 56921
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9391
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 194776
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 125232,
+        "TotalApproved": 32001
+    },
+    "AdjusterDetails": {
+        "Name": "Rachael Stark",
+        "ContactInformation": {
+            "Phone": "463.795.1707x56998",
+            "Email": "anthonysharp@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f341f400-dd1e-4810-99b8-9a6a512424c2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

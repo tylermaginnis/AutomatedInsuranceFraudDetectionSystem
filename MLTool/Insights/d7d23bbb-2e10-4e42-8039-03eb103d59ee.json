@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d7d23bbb-2e10-4e42-8039-03eb103d59ee",
+    "PolicyID": "c80bd82d-b4a8-48ca-b899-59a67713bffb",
+    "EffectiveDates": {
+        "StartDate": "2024-01-23",
+        "EndDate": "2025-01-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "24a819dc-ad70-4b4e-9893-28f302eb335b",
+        "Name": "Thomas Williams",
+        "PolicyNumber": "c80bd82d-b4a8-48ca-b899-59a67713bffb",
+        "ContactInformation": {
+            "Phone": "(409)737-5090x2196",
+            "Email": "higginsmichael@example.com",
+            "Address": "176 Bethany Bridge Apt. 677\nSuttonview, NJ 18801"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-17",
+        "Location": "78616 Lee Rapid\nTravisburgh, IN 51355",
+        "Description": "Black reach tree system simply. Security force lot score.\nImagine such exist expect explain policy even. Through why increase data although commercial sell."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2271
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 52859
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8471
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20462
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4895
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 15591,
+        "TotalApproved": 7755
+    },
+    "AdjusterDetails": {
+        "Name": "Jimmy Clark",
+        "ContactInformation": {
+            "Phone": "(774)664-0291",
+            "Email": "toddbailey@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/99fd7e0f-ba4e-41e8-bd91-ae27bec383a3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bf351039-3f2a-426d-9509-0acf0600a21a",
+    "PolicyID": "30b7db1d-5b44-4e9a-99ee-e72d320ff8b9",
+    "EffectiveDates": {
+        "StartDate": "2024-06-02",
+        "EndDate": "2025-06-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "faa78c66-91d1-4073-9a54-af4f1fe85cf3",
+        "Name": "Brittany Cunningham",
+        "PolicyNumber": "30b7db1d-5b44-4e9a-99ee-e72d320ff8b9",
+        "ContactInformation": {
+            "Phone": "284.909.5334",
+            "Email": "montoyaanna@example.net",
+            "Address": "685 Gabriella Village Suite 807\nPort Stephanieton, MI 39451"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-04",
+        "Location": "133 Williamson Creek\nWest Joannaburgh, UT 93205",
+        "Description": "Because dinner nice air seem little someone behavior. I PM break whole expect religious. Could country here land even that."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 62530
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2970
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19438
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3675
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21821
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 45694,
+        "TotalApproved": 35051
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Macias",
+        "ContactInformation": {
+            "Phone": "(538)744-7100x5666",
+            "Email": "amywhitehead@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f3731c29-1de3-46b4-b0be-10f8c781ed76"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-04T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-09T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-14T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

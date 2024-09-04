@@ -1,0 +1,81 @@
+{
+    "ClaimID": "68252d6d-c0ed-4c7f-be8e-3672d569e31d",
+    "PolicyID": "ccec541f-f8d6-4310-a92a-29f6d04b36a9",
+    "EffectiveDates": {
+        "StartDate": "2024-01-23",
+        "EndDate": "2025-01-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c00d8d58-df9a-44c1-aa25-7d763c6e578f",
+        "Name": "Christopher Carroll",
+        "PolicyNumber": "ccec541f-f8d6-4310-a92a-29f6d04b36a9",
+        "ContactInformation": {
+            "Phone": "2778741953",
+            "Email": "briandalton@example.com",
+            "Address": "8975 Williams Lodge\nNorth Kathy, PW 62709"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-22",
+        "Location": "6746 Johnson Well\nLake William, IL 60446",
+        "Description": "Join must anyone moment.\nWife whom media participant. Positive I star girl nor paper require. Peace shake nor worker better everybody."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6340
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35936
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25148
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 74489
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40474
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157871,
+        "TotalApproved": 99504
+    },
+    "AdjusterDetails": {
+        "Name": "Peter Mclaughlin",
+        "ContactInformation": {
+            "Phone": "+1-622-263-2366x943",
+            "Email": "ttaylor@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/490c4e68-a76f-4c4d-9632-574ea9a66634"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-22T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-27T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

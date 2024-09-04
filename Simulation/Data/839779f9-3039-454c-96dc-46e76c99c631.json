@@ -1,0 +1,80 @@
+{
+  "ClaimID": "839779f9-3039-454c-96dc-46e76c99c631",
+  "PolicyID": "15498201-d107-4538-b66a-97487a14be8f",
+  "EffectiveDates": {
+    "StartDate": "2024-05-15",
+    "EndDate": "2025-05-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5a3d8cc3-d520-4489-bfb5-2f6632e7d494",
+    "Name": "James Stephens",
+    "PolicyNumber": "15498201-d107-4538-b66a-97487a14be8f",
+    "ContactInformation": {
+      "Phone": "(984)209-4901x75908",
+      "Email": "rubengregory@example.net",
+      "Address": "USS Johnson\nFPO AA 71977"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-25",
+    "Location": "184 Justin Island\nNew Kevin, CO 78405",
+    "Description": "Job run war dream watch. Meet government crime people. Of stay meet."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 99226
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 11790
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 27498
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1531
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2238
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 146135,
+    "TotalApproved": 32369
+  },
+  "AdjusterDetails": {
+    "Name": "Peter Simpson",
+    "ContactInformation": {
+      "Phone": "001-576-945-2869",
+      "Email": "valencialouis@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/1871afc4-8bee-43cc-9e32-ca3ead4ba928"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-25T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-30T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-04T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

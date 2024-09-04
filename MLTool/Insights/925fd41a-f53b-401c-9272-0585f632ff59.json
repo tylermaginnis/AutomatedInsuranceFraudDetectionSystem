@@ -1,0 +1,81 @@
+{
+    "ClaimID": "925fd41a-f53b-401c-9272-0585f632ff59",
+    "PolicyID": "b2336575-f8e8-470e-9f4d-538834cc41c3",
+    "EffectiveDates": {
+        "StartDate": "2023-11-04",
+        "EndDate": "2024-11-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5af63239-4d91-46c2-bdbe-8a25c0b40335",
+        "Name": "Cindy Walker",
+        "PolicyNumber": "b2336575-f8e8-470e-9f4d-538834cc41c3",
+        "ContactInformation": {
+            "Phone": "(994)707-1887",
+            "Email": "garciakimberly@example.com",
+            "Address": "364 Mcdowell Radial Suite 260\nSouth Louistown, RI 36902"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-09",
+        "Location": "66252 Theresa Glens\nPerezport, PA 73686",
+        "Description": "Air avoid benefit either bar join drop. A major certain show buy everybody evidence hot.\nScience price field may dinner. Care adult even."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47980
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18611
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16775
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 105882
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 138330
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 56313,
+        "TotalApproved": 8109
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Martinez",
+        "ContactInformation": {
+            "Phone": "6632963102",
+            "Email": "joshua65@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7039f2b3-227e-4b8e-a8c4-e980a45416d0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

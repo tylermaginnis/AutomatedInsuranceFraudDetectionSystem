@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b69aa40-f22a-4754-a11c-32f7da6e22a1",
+    "PolicyID": "e3f34bd9-9e29-4e10-9079-20a072022593",
+    "EffectiveDates": {
+        "StartDate": "2023-10-14",
+        "EndDate": "2024-10-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6fc1382b-1d35-43d5-b6d1-2cc9a8f4e379",
+        "Name": "Caitlin Johnson DDS",
+        "PolicyNumber": "e3f34bd9-9e29-4e10-9079-20a072022593",
+        "ContactInformation": {
+            "Phone": "2632248416",
+            "Email": "theresamendoza@example.com",
+            "Address": "2343 Ingram Lodge\nDavidton, AS 46585"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-24",
+        "Location": "3182 Kiara Junctions\nCraigberg, ID 06512",
+        "Description": "Next act any drive especially subject difference blood. Security later develop art."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6028
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45291
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 83563
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 134506
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3009
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 150041,
+        "TotalApproved": 21666
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Grant",
+        "ContactInformation": {
+            "Phone": "375.697.4011x714",
+            "Email": "phillipsjacob@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/12202d01-8476-4269-af1b-e4e7d7613595"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-24T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-29T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

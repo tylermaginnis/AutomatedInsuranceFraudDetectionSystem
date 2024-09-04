@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c8577a44-e1e6-47e2-a283-bdf79f31052f",
+    "PolicyID": "a95c2b94-e625-41ca-8414-b9696f18f3f6",
+    "EffectiveDates": {
+        "StartDate": "2024-03-19",
+        "EndDate": "2025-03-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b401a638-953b-44d4-a689-81e88b0aae7a",
+        "Name": "Nicholas Walters",
+        "PolicyNumber": "a95c2b94-e625-41ca-8414-b9696f18f3f6",
+        "ContactInformation": {
+            "Phone": "833-961-9459x2140",
+            "Email": "donnablack@example.net",
+            "Address": "8186 Lauren Camp\nNorth Dominique, AS 31719"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-05",
+        "Location": "43661 Christopher Mills\nNorth Vincent, PW 40482",
+        "Description": "Attorney myself which season particularly free bit. Three particular television machine whom budget. Individual leave computer meet leave let."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 125665
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2246
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 58521
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1295
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10418
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 56837,
+        "TotalApproved": 7313
+    },
+    "AdjusterDetails": {
+        "Name": "John Thomas",
+        "ContactInformation": {
+            "Phone": "472-743-6184x2352",
+            "Email": "jessica55@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4b0887a9-d901-4a42-9ba6-a9f373f6b384"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

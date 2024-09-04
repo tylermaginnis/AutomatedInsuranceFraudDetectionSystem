@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9d294369-cd1d-4ae6-b6ee-1c3a2f64a21a",
+    "PolicyID": "7c0d4707-2043-4656-98e7-7c4a0f3e408c",
+    "EffectiveDates": {
+        "StartDate": "2024-08-11",
+        "EndDate": "2025-08-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "28d8818e-ca0b-4d57-bba5-0cd702ec9a2f",
+        "Name": "Mary Wood",
+        "PolicyNumber": "7c0d4707-2043-4656-98e7-7c4a0f3e408c",
+        "ContactInformation": {
+            "Phone": "+1-453-889-5945x0001",
+            "Email": "jose10@example.com",
+            "Address": "1096 Gallegos Ways\nPort Daniel, WY 82391"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-23",
+        "Location": "48835 Anthony Turnpike\nPort Donna, SC 65203",
+        "Description": "Then front drive woman simple camera challenge. Worker fund those probably person traditional onto bag."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 137651
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24714
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11418
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27151
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2471
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 79339,
+        "TotalApproved": 44437
+    },
+    "AdjusterDetails": {
+        "Name": "Samantha Mendoza",
+        "ContactInformation": {
+            "Phone": "(970)781-7001",
+            "Email": "sandersstacy@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c6a2fe07-7747-4cfc-b124-a5cbadd60c30"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

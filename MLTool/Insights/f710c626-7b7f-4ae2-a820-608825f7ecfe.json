@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f710c626-7b7f-4ae2-a820-608825f7ecfe",
+    "PolicyID": "60947468-244f-48ef-921f-9dfff861b0ca",
+    "EffectiveDates": {
+        "StartDate": "2024-07-29",
+        "EndDate": "2025-07-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "20ade36d-3ea7-44f4-a4ff-12f6324ce981",
+        "Name": "Jonathan Torres",
+        "PolicyNumber": "60947468-244f-48ef-921f-9dfff861b0ca",
+        "ContactInformation": {
+            "Phone": "977-987-7813",
+            "Email": "terry27@example.net",
+            "Address": "886 Brittany Cliff Apt. 590\nRobinchester, KS 15841"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-16",
+        "Location": "PSC 3839, Box 1795\nAPO AE 83408",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 52172
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49466
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7568
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10310
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13826
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 133342,
+        "TotalApproved": 47548
+    },
+    "AdjusterDetails": {
+        "Name": "Sheri Lewis",
+        "ContactInformation": {
+            "Phone": "522-252-6890",
+            "Email": "matthew95@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9bca941c-c19d-459c-988f-e8db407aae8a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-16T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-21T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-26T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

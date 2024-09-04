@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ae3c8471-1799-40a9-b29d-d8af9ddf1209",
+  "PolicyID": "7c980b66-99b7-4e3d-8dbf-14f142b09f23",
+  "EffectiveDates": {
+    "StartDate": "2023-12-02",
+    "EndDate": "2024-12-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5e04d89a-3ca9-4c84-aa98-92f1a2271afb",
+    "Name": "Kristina Gallegos DDS",
+    "PolicyNumber": "7c980b66-99b7-4e3d-8dbf-14f142b09f23",
+    "ContactInformation": {
+      "Phone": "(942)287-8451x378",
+      "Email": "taylorangela@example.net",
+      "Address": "50789 Monica Crossing Apt. 802\nWestburgh, CA 59914"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-14",
+    "Location": "879 Sarah Garden\nWest Benjamin, ME 53527",
+    "Description": "As somebody group available add. Church act next former. Half seven pretty despite like."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1189
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 96352
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 162618
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 43818
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13949
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 79997,
+    "TotalApproved": 62861
+  },
+  "AdjusterDetails": {
+    "Name": "David Freeman",
+    "ContactInformation": {
+      "Phone": "744-594-4668",
+      "Email": "lross@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/36ca0ade-c406-4129-bd63-8cce3d42d356"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-14T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-19T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-24T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

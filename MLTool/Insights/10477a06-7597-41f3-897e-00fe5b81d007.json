@@ -1,0 +1,81 @@
+{
+    "ClaimID": "10477a06-7597-41f3-897e-00fe5b81d007",
+    "PolicyID": "d532506d-b086-495e-bbd2-fe964e169aec",
+    "EffectiveDates": {
+        "StartDate": "2024-03-19",
+        "EndDate": "2025-03-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ec7dd388-2854-4686-8b9e-6958c4708d08",
+        "Name": "Amy Green",
+        "PolicyNumber": "d532506d-b086-495e-bbd2-fe964e169aec",
+        "ContactInformation": {
+            "Phone": "001-497-278-1039x13161",
+            "Email": "ipalmer@example.org",
+            "Address": "8843 Jones Ridges\nJoshuahaven, ND 34900"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-27",
+        "Location": "68385 Hernandez Turnpike\nPort Susanstad, PR 30350",
+        "Description": "Nearly director color watch floor. Mouth woman student suggest at newspaper else. Left five nature upon.\nGoal finish floor social red. Scientist budget reduce ready data.\nSpace task once different."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 126653
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12584
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7815
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44435
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 99494
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 71882,
+        "TotalApproved": 58966
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Sharp",
+        "ContactInformation": {
+            "Phone": "268.518.7645",
+            "Email": "walkersarah@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2f9e4e1a-913a-459f-bf38-2a77463d60f0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-27T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-01T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-06T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

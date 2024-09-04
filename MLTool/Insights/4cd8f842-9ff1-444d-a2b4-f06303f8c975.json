@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4cd8f842-9ff1-444d-a2b4-f06303f8c975",
+    "PolicyID": "88c72b42-057a-47cb-a87d-5c6c1983767f",
+    "EffectiveDates": {
+        "StartDate": "2024-02-15",
+        "EndDate": "2025-02-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "10943c80-83f8-4c86-8489-d3a22523072e",
+        "Name": "Luis Kim MD",
+        "PolicyNumber": "88c72b42-057a-47cb-a87d-5c6c1983767f",
+        "ContactInformation": {
+            "Phone": "936-381-7181",
+            "Email": "ebrown@example.net",
+            "Address": "760 Jennifer Mission Suite 715\nFosterhaven, WI 12311"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-13",
+        "Location": "PSC 7183, Box 1895\nAPO AE 22098",
+        "Description": "Number simple safe against occur nation. Sort soldier who ten happen. Kid behavior field letter."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17494
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12731
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8349
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 86138
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2312
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 9797,
+        "TotalApproved": 4207
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Henderson",
+        "ContactInformation": {
+            "Phone": "205-274-2243x182",
+            "Email": "jamescohen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b99e4c78-21a2-483d-abb2-2258914ad488"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-13T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-18T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-23T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

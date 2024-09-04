@@ -1,0 +1,81 @@
+{
+    "ClaimID": "55120ca6-0969-4011-9bef-d4faeb688eec",
+    "PolicyID": "9e09003b-8683-48ac-961c-f66b5933d003",
+    "EffectiveDates": {
+        "StartDate": "2023-12-07",
+        "EndDate": "2024-12-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "faecc031-43ab-429c-97b8-a2fe547ee509",
+        "Name": "Daniel Weber",
+        "PolicyNumber": "9e09003b-8683-48ac-961c-f66b5933d003",
+        "ContactInformation": {
+            "Phone": "2796885947",
+            "Email": "barnesalexander@example.net",
+            "Address": "PSC 1130, Box 9305\nAPO AA 90427"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-25",
+        "Location": "9545 Smith Skyway\nMendeztown, WV 18540",
+        "Description": "Perform peace action development. Safe fight time main.\nAfter wall Mrs through never manager whether. Money likely stock reason. Seven weight subject."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6444
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17528
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34591
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17948
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18128
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 121746,
+        "TotalApproved": 94128
+    },
+    "AdjusterDetails": {
+        "Name": "Kristen Brown",
+        "ContactInformation": {
+            "Phone": "+1-993-680-1167x1090",
+            "Email": "kathryn28@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ccbbaf7d-fe8c-4098-891d-8d11771c0ad5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-25T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-30T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-04T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "004e02ff-18c2-4b18-9140-3914b91b10ef",
+    "PolicyID": "3655a9e5-35bb-4ba3-940e-7b22f65aadbd",
+    "EffectiveDates": {
+        "StartDate": "2024-01-25",
+        "EndDate": "2025-01-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ab498fa9-de1b-49d2-b7e5-5ede71e02dfb",
+        "Name": "Marcia Steele",
+        "PolicyNumber": "3655a9e5-35bb-4ba3-940e-7b22f65aadbd",
+        "ContactInformation": {
+            "Phone": "001-738-607-6655",
+            "Email": "william56@example.org",
+            "Address": "4435 Bowman Mountains Suite 393\nEast Alexisburgh, RI 78740"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-23",
+        "Location": "4777 Matthew Throughway Apt. 620\nEricastad, ND 18920",
+        "Description": "Respond visit take assume home stock. Among reflect matter personal range."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5276
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5974
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 148332
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 172812
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12100
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 132845,
+        "TotalApproved": 28866
+    },
+    "AdjusterDetails": {
+        "Name": "Denise Mathews",
+        "ContactInformation": {
+            "Phone": "634.742.7375",
+            "Email": "derrick18@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/d82797ec-169d-40b8-9c6b-af758eab887b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

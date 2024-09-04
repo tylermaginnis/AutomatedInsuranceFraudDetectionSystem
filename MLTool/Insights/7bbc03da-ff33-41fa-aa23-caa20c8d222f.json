@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7bbc03da-ff33-41fa-aa23-caa20c8d222f",
+    "PolicyID": "9e94ea91-692b-4533-80dd-6855fa9e0bd0",
+    "EffectiveDates": {
+        "StartDate": "2023-10-03",
+        "EndDate": "2024-10-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e423ad34-8fe6-48e8-b7fc-12eb9db2e818",
+        "Name": "Jackson Sullivan",
+        "PolicyNumber": "9e94ea91-692b-4533-80dd-6855fa9e0bd0",
+        "ContactInformation": {
+            "Phone": "(826)405-7554",
+            "Email": "jodymccormick@example.net",
+            "Address": "1371 Stephanie Brooks\nLake Cathyberg, NC 67090"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-24",
+        "Location": "5211 Johnson Circles\nNorth Katrina, NH 47581",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50744
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32259
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9253
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25101
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16581
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 133938,
+        "TotalApproved": 94004
+    },
+    "AdjusterDetails": {
+        "Name": "Craig Brown",
+        "ContactInformation": {
+            "Phone": "(417)503-0423x672",
+            "Email": "phillip06@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/552d6d52-e001-4cf8-839b-5d08279c752a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-24T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-29T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-03T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

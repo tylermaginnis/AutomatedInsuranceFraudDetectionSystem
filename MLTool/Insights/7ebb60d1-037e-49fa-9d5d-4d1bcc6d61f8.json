@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7ebb60d1-037e-49fa-9d5d-4d1bcc6d61f8",
+    "PolicyID": "b9479225-3082-4850-89a7-8a983bcf2b95",
+    "EffectiveDates": {
+        "StartDate": "2024-02-15",
+        "EndDate": "2025-02-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "350a23eb-492c-4259-a337-b857d6ca5ddb",
+        "Name": "Edward Hale",
+        "PolicyNumber": "b9479225-3082-4850-89a7-8a983bcf2b95",
+        "ContactInformation": {
+            "Phone": "+1-558-341-4983x3376",
+            "Email": "theresaburgess@example.com",
+            "Address": "5072 Bennett Port\nEast Carolbury, MS 42602"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-18",
+        "Location": "Unit 4324 Box 5861\nDPO AP 33835",
+        "Description": "Medical relationship draw nation firm research full. Memory three write every clearly program.\nBut realize car support there. Of each final leg reach."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40549
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 91211
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13653
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5429
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 82425
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 19575,
+        "TotalApproved": 7547
+    },
+    "AdjusterDetails": {
+        "Name": "Curtis Webb",
+        "ContactInformation": {
+            "Phone": "325.611.9755x7666",
+            "Email": "ksalazar@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7a0a0c0a-607f-4fc5-8b2a-3aa09eaac20f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-18T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-23T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-28T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

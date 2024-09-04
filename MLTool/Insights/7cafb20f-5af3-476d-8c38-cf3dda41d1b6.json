@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7cafb20f-5af3-476d-8c38-cf3dda41d1b6",
+    "PolicyID": "94dc29c8-ac81-4a6e-8244-aa7ea6a6e1ac",
+    "EffectiveDates": {
+        "StartDate": "2023-10-11",
+        "EndDate": "2024-10-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b3b03b39-2ff6-4688-8b78-252307a6de29",
+        "Name": "David Brown",
+        "PolicyNumber": "94dc29c8-ac81-4a6e-8244-aa7ea6a6e1ac",
+        "ContactInformation": {
+            "Phone": "001-517-713-2803",
+            "Email": "sdaniels@example.org",
+            "Address": "409 Gallagher Dam Apt. 494\nChavezshire, MA 94375"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-24",
+        "Location": "538 Todd Parkway Suite 466\nPriceview, OK 17424",
+        "Description": "Until night wife first. Beat rock church run small center southern they. Financial last white reality mouth truth investment."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 115762
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5399
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 75626
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3770
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34125
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 146098,
+        "TotalApproved": 87032
+    },
+    "AdjusterDetails": {
+        "Name": "Randy Jordan",
+        "ContactInformation": {
+            "Phone": "+1-498-969-2249",
+            "Email": "bartonronald@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3ed2d1a0-d0cc-4b56-84c3-9de2374ce033"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-24T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-29T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-04T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

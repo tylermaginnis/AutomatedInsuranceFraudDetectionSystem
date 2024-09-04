@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5e7813a6-4f54-4bf3-9ea2-207c61ea71ea",
+    "PolicyID": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+    "EffectiveDates": {
+        "StartDate": "2024-06-18",
+        "EndDate": "2025-06-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e5105667-3211-446f-9c3d-593050b81d43",
+        "Name": "Julie Porter",
+        "PolicyNumber": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+        "ContactInformation": {
+            "Phone": "001-222-366-0081",
+            "Email": "cameronbailey@example.org",
+            "Address": "288 Maddox Center Apt. 437\nPort Loganton, WY 10809"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-25",
+        "Location": "5468 Parsons Lights Suite 662\nNorth Adambury, MD 37078",
+        "Description": "Answer step box want. Later mission avoid its catch foreign word cold.\nFall state free against. Hospital with effect radio some second Mr race. Lose hope hot name image."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3790
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9839
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 38316
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26227
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 115037
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 86095,
+        "TotalApproved": 16120
+    },
+    "AdjusterDetails": {
+        "Name": "Lauren Ryan",
+        "ContactInformation": {
+            "Phone": "001-991-462-9821x23838",
+            "Email": "pamelamarshall@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/36925f2e-a780-4140-8b8e-569663947102"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-25T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-30T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-04T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

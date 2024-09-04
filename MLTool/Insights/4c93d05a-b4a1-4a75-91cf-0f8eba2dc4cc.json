@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4c93d05a-b4a1-4a75-91cf-0f8eba2dc4cc",
+    "PolicyID": "c20b93ba-d986-4fc0-a50b-25f14905fbff",
+    "EffectiveDates": {
+        "StartDate": "2023-11-21",
+        "EndDate": "2024-11-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "606f1373-cfc7-43c1-99ae-0992df3d3a4b",
+        "Name": "Sarah Fleming",
+        "PolicyNumber": "c20b93ba-d986-4fc0-a50b-25f14905fbff",
+        "ContactInformation": {
+            "Phone": "701.760.1746x45587",
+            "Email": "bradley04@example.org",
+            "Address": "8192 Pacheco Cliff\nJosephport, GU 46397"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-17",
+        "Location": "5445 Rose Gateway\nCookfort, VI 24241",
+        "Description": "Itself reveal increase write floor enough nature.\nOption benefit work establish. Ahead only goal bad spring home. Mouth worry century hope individual bill. Most region say too wear beat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13692
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23131
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22979
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 66394
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9818
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 79288,
+        "TotalApproved": 61940
+    },
+    "AdjusterDetails": {
+        "Name": "Patricia Hampton",
+        "ContactInformation": {
+            "Phone": "3602260713",
+            "Email": "xlara@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a93486f7-44bd-412c-8bbc-2ad8e3e51e7b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "31af127d-2245-41df-9f56-5e82e5c97ffd",
+    "PolicyID": "0a5d9177-fa36-4272-b83c-0889c2504b2c",
+    "EffectiveDates": {
+        "StartDate": "2024-07-16",
+        "EndDate": "2025-07-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dd8bf566-cd27-43ed-8fc2-6cd150ec87b5",
+        "Name": "Rachel Davis",
+        "PolicyNumber": "0a5d9177-fa36-4272-b83c-0889c2504b2c",
+        "ContactInformation": {
+            "Phone": "747-395-6698x177",
+            "Email": "blakephilip@example.org",
+            "Address": "854 Brown Views Suite 498\nNewtontown, KY 50599"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-10",
+        "Location": "349 Kevin Wall Suite 825\nPort Lindaland, AZ 03379",
+        "Description": "Identify participant next think your. Though game several.\nEast send lot tonight participant toward guess. Information although radio firm red national true."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 56988
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2110
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5733
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17434
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 99447
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 97247,
+        "TotalApproved": 43186
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Cox",
+        "ContactInformation": {
+            "Phone": "001-359-274-5577x124",
+            "Email": "aprilromero@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3e07c94d-79a5-4b6c-80e0-e51df2ae81f1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-10T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-15T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-20T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

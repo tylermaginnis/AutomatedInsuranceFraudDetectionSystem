@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a2acc203-0784-47b6-9d60-c6d02a3523ac",
+    "PolicyID": "62f30fbf-3e1b-41a2-b6ee-f49fa0364b57",
+    "EffectiveDates": {
+        "StartDate": "2023-09-11",
+        "EndDate": "2024-09-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d8e0d183-432e-4f15-adf0-0cf61bf05cea",
+        "Name": "Dr. Mark Burke",
+        "PolicyNumber": "62f30fbf-3e1b-41a2-b6ee-f49fa0364b57",
+        "ContactInformation": {
+            "Phone": "001-406-990-9961x514",
+            "Email": "cassieyates@example.org",
+            "Address": "0822 Carrillo Via\nBrownburgh, WY 55210"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-26",
+        "Location": "91963 Kathleen Meadow Apt. 490\nMichaelchester, NY 58116",
+        "Description": "What effect since relationship ok. Fish wonder character read stay thing career whom. Enjoy cause free."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 99365
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 55828
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37663
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15077
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48388
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 193761,
+        "TotalApproved": 158330
+    },
+    "AdjusterDetails": {
+        "Name": "Corey Pollard",
+        "ContactInformation": {
+            "Phone": "915.232.9372x458",
+            "Email": "rnelson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0d08e830-40f9-4b33-8d54-ebba56c89738"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-26T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-31T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-05T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

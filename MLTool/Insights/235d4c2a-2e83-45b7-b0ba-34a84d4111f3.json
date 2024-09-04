@@ -1,0 +1,81 @@
+{
+    "ClaimID": "235d4c2a-2e83-45b7-b0ba-34a84d4111f3",
+    "PolicyID": "5658a141-3e68-4820-baec-71d26a8f3087",
+    "EffectiveDates": {
+        "StartDate": "2023-12-07",
+        "EndDate": "2024-12-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d31bfd90-ab5d-4f63-95fe-76bdcceb41a7",
+        "Name": "Belinda Johnson",
+        "PolicyNumber": "5658a141-3e68-4820-baec-71d26a8f3087",
+        "ContactInformation": {
+            "Phone": "719-816-3467",
+            "Email": "christopherwalker@example.com",
+            "Address": "PSC 6598, Box 6782\nAPO AA 29771"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-16",
+        "Location": "490 Destiny Isle\nReginaldland, DC 92856",
+        "Description": "Team fast effort exist life. Economic produce have teach.\nBehind indicate its town someone. Generation physical money rate save exactly scene. Science president night throw. Other somebody improve."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7300
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15375
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18854
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1072
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1457
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 108535,
+        "TotalApproved": 25534
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Leach",
+        "ContactInformation": {
+            "Phone": "(643)959-2557",
+            "Email": "wilsonwayne@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d63736ac-e40e-48cb-b68b-ac7b40c06681"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

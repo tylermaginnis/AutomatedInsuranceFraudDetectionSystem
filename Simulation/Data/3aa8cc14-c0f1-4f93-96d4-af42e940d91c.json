@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3aa8cc14-c0f1-4f93-96d4-af42e940d91c",
+  "PolicyID": "6296dd6c-37c0-461d-bcd6-d65f13208022",
+  "EffectiveDates": {
+    "StartDate": "2024-05-04",
+    "EndDate": "2025-05-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f9bab500-1021-4a7c-ba88-81da8e6dc14b",
+    "Name": "Tracy Myers",
+    "PolicyNumber": "6296dd6c-37c0-461d-bcd6-d65f13208022",
+    "ContactInformation": {
+      "Phone": "248.240.2838",
+      "Email": "kenneth29@example.org",
+      "Address": "2595 Jeffrey Plains Apt. 510\nEast Jasonstad, GA 46569"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-13",
+    "Location": "PSC 6615, Box 5332\nAPO AA 10080",
+    "Description": "Memory either present administration follow a member.\nShould after itself seven he new health along. Fight people benefit southern threat page low."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3206
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8004
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7045
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 45249
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4792
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 36571,
+    "TotalApproved": 19395
+  },
+  "AdjusterDetails": {
+    "Name": "Jerry Paul",
+    "ContactInformation": {
+      "Phone": "8439870340",
+      "Email": "tmills@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/ef970932-c9d4-4a39-98c2-9b6463f66cf3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-13T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-18T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-23T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

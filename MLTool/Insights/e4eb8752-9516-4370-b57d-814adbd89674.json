@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e4eb8752-9516-4370-b57d-814adbd89674",
+    "PolicyID": "d87ed340-2498-48ef-84d1-c083f80ec4f6",
+    "EffectiveDates": {
+        "StartDate": "2024-08-01",
+        "EndDate": "2025-08-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "46554750-f176-454b-b6a8-5679d4544232",
+        "Name": "Thomas Hickman",
+        "PolicyNumber": "d87ed340-2498-48ef-84d1-c083f80ec4f6",
+        "ContactInformation": {
+            "Phone": "743.487.4044x4064",
+            "Email": "patriciarose@example.org",
+            "Address": "94199 Brett Hill\nNorth Zachary, RI 74779"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-10",
+        "Location": "69086 Acevedo Alley\nSimmonsshire, MI 35294",
+        "Description": "Themselves organization southern maybe rich power land. Present question account staff sound song.\nWhether available put challenge. Short learn process course war can tree."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 147083
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21940
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5223
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2485
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9379
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 9411,
+        "TotalApproved": 5016
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Gonzales",
+        "ContactInformation": {
+            "Phone": "(756)517-3645x2190",
+            "Email": "linhailey@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a60850c7-cafd-4d60-94f7-abff254f0cc5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-10T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-15T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-20T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b2061938-4385-4d60-8332-e476575c0f21",
+    "PolicyID": "f8d8b458-af31-452b-9c38-9b4926041c2f",
+    "EffectiveDates": {
+        "StartDate": "2024-07-29",
+        "EndDate": "2025-07-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5b8ec278-f932-418c-a96c-b568d262966d",
+        "Name": "Richard Mitchell",
+        "PolicyNumber": "f8d8b458-af31-452b-9c38-9b4926041c2f",
+        "ContactInformation": {
+            "Phone": "926-677-1618x7293",
+            "Email": "pachecolindsay@example.com",
+            "Address": "79793 Jeffrey Ridge\nNorth Elizabethborough, RI 23024"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-09",
+        "Location": "342 Mitchell Walks Apt. 578\nDavidberg, MA 76806",
+        "Description": "Home trade rule white black admit thank case. Opportunity inside allow start computer stay.\nShake stop inside huge explain. Politics idea possible seem enter factor term."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 61353
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 67481
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 73831
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30543
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17031
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 153483,
+        "TotalApproved": 4313
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Weber",
+        "ContactInformation": {
+            "Phone": "001-264-986-5945",
+            "Email": "austinlong@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6cdea7a5-a48c-4337-860d-470fcb792a5b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-09T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-14T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-19T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

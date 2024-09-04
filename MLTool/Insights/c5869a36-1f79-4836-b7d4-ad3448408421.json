@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c5869a36-1f79-4836-b7d4-ad3448408421",
+    "PolicyID": "748ec1aa-73f9-44d9-b380-c27e99a94dc7",
+    "EffectiveDates": {
+        "StartDate": "2024-04-30",
+        "EndDate": "2025-04-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e51820dd-b756-4a4e-8ea2-d8178cb47d5a",
+        "Name": "Caleb Brooks",
+        "PolicyNumber": "748ec1aa-73f9-44d9-b380-c27e99a94dc7",
+        "ContactInformation": {
+            "Phone": "6383894782",
+            "Email": "qgonzalez@example.com",
+            "Address": "24493 Foster Ridge\nPort Justinton, WA 29431"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-19",
+        "Location": "9594 Andrew Junction\nEast Annaside, WY 03180",
+        "Description": "American evening base return usually single. Note season general find magazine cause must.\nLine statement structure music effort thus itself. Thus real which policy quite individual."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42247
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 43893
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15653
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15142
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17710
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 70285,
+        "TotalApproved": 53964
+    },
+    "AdjusterDetails": {
+        "Name": "Sean Henderson",
+        "ContactInformation": {
+            "Phone": "(955)473-3374x17489",
+            "Email": "kimberlybass@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/2b3da641-02f6-40e5-a72f-9e4d7a74c15b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-19T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-24T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-29T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

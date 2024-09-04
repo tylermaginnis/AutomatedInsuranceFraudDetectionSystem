@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3abdbaf4-bcc6-4470-9b29-d829ed725d03",
+    "PolicyID": "370a9ddb-72e4-4cde-9d52-faa1fed18a73",
+    "EffectiveDates": {
+        "StartDate": "2024-03-28",
+        "EndDate": "2025-03-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7fdf57e9-1ce1-4f4c-b816-9945693b70c3",
+        "Name": "Jessica Mullen",
+        "PolicyNumber": "370a9ddb-72e4-4cde-9d52-faa1fed18a73",
+        "ContactInformation": {
+            "Phone": "921-886-9247",
+            "Email": "donaldreed@example.net",
+            "Address": "047 Douglas Plains Suite 723\nWest Nicholasshire, MA 82325"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-29",
+        "Location": "9865 Thomas Haven Suite 460\nPort Rebecca, ND 78625",
+        "Description": "Build serious section them save white democratic. Significant he the candidate.\nEat lawyer night end. Yeah develop actually cover."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 121698
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18907
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 123405
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18174
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 194969
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 5388,
+        "TotalApproved": 4311
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Kim",
+        "ContactInformation": {
+            "Phone": "001-596-318-3818x67695",
+            "Email": "cindy82@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/31ed3580-e617-4627-80cc-e1bcb11422bb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-29T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-03T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-08T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

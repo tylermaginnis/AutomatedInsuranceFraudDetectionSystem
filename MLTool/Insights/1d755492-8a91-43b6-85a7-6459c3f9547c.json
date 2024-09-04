@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1d755492-8a91-43b6-85a7-6459c3f9547c",
+    "PolicyID": "12939038-2cb4-4f4c-97f0-e9af51804df1",
+    "EffectiveDates": {
+        "StartDate": "2024-05-31",
+        "EndDate": "2025-05-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6384f273-3305-4f51-9946-947494283c0e",
+        "Name": "Michael Williams",
+        "PolicyNumber": "12939038-2cb4-4f4c-97f0-e9af51804df1",
+        "ContactInformation": {
+            "Phone": "418.735.7126x0340",
+            "Email": "johnsonbrett@example.net",
+            "Address": "71561 Ray Glens Suite 987\nNorth Miguel, CO 46935"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-26",
+        "Location": "879 Calderon Hollow\nLake Cliffordville, NM 72040",
+        "Description": "Actually tree some company care amount entire. Office specific whole meet company state. Show yeah grow believe then five bring."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4473
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3547
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40667
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9013
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3942
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 68955,
+        "TotalApproved": 13695
+    },
+    "AdjusterDetails": {
+        "Name": "Rickey Price",
+        "ContactInformation": {
+            "Phone": "7106978895",
+            "Email": "jscott@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6b2790c5-0600-420c-bb33-7d9333fd5b05"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

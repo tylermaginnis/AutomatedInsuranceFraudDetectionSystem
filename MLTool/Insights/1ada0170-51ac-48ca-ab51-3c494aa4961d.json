@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1ada0170-51ac-48ca-ab51-3c494aa4961d",
+    "PolicyID": "c5951a01-65cd-4b07-82af-18f7e32ba710",
+    "EffectiveDates": {
+        "StartDate": "2023-10-16",
+        "EndDate": "2024-10-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8da0dc54-2fa4-4b4a-8715-d956ab701d20",
+        "Name": "Jamie Peterson",
+        "PolicyNumber": "c5951a01-65cd-4b07-82af-18f7e32ba710",
+        "ContactInformation": {
+            "Phone": "+1-560-585-8049x28533",
+            "Email": "bclark@example.com",
+            "Address": "87784 Amy Branch\nSaraland, MS 20175"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-06",
+        "Location": "089 Jennifer Road\nSouth Molly, IL 64880",
+        "Description": "Certain rise street need. Coach treatment vote hot share cold boy crime."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3381
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49334
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37308
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5856
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 153835
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 172135,
+        "TotalApproved": 25187
+    },
+    "AdjusterDetails": {
+        "Name": "Courtney Garcia",
+        "ContactInformation": {
+            "Phone": "958.815.4077",
+            "Email": "moyerbrian@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f3955ceb-a608-4170-8aa2-5fcc8014cd14"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

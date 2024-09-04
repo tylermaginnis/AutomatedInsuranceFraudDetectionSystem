@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b7a90b26-f1d5-4c0b-aa35-85abdcf23999",
+    "PolicyID": "fda6b767-d938-4413-8c9a-e617884c9760",
+    "EffectiveDates": {
+        "StartDate": "2024-07-23",
+        "EndDate": "2025-07-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2f1ed7e7-e4a1-4df0-b9e0-c33fe986f3bf",
+        "Name": "Christine Gibbs",
+        "PolicyNumber": "fda6b767-d938-4413-8c9a-e617884c9760",
+        "ContactInformation": {
+            "Phone": "(744)527-2365x740",
+            "Email": "janetliu@example.net",
+            "Address": "228 Duncan Mission\nKnoxton, WA 98008"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-03",
+        "Location": "Unit 8677 Box 0517\nDPO AA 77131",
+        "Description": "People relationship leader since score. Worker city these way subject level medical. Appear citizen enjoy teacher loss wrong would."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 135468
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11629
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35489
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4791
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5250
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 172012,
+        "TotalApproved": 40006
+    },
+    "AdjusterDetails": {
+        "Name": "Alexandra Allen",
+        "ContactInformation": {
+            "Phone": "248-645-5158",
+            "Email": "guy58@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c302d0fe-e3bf-4103-bef1-8198c5d9b96f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

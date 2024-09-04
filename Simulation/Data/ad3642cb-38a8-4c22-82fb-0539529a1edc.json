@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ad3642cb-38a8-4c22-82fb-0539529a1edc",
+  "PolicyID": "ca8e7d9e-4e00-4d14-8fe4-4aa22dffc11d",
+  "EffectiveDates": {
+    "StartDate": "2024-01-02",
+    "EndDate": "2025-01-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4e38c5e1-a698-4101-b908-5c636dca488d",
+    "Name": "Daniel Meyers",
+    "PolicyNumber": "ca8e7d9e-4e00-4d14-8fe4-4aa22dffc11d",
+    "ContactInformation": {
+      "Phone": "(534)577-5026",
+      "Email": "joel91@example.net",
+      "Address": "USNS Carter\nFPO AP 39745"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-11",
+    "Location": "473 Leblanc Roads\nNorth Johnbury, ID 35659",
+    "Description": "Also time executive Mr official arrive the. Form large hot behavior citizen across.\nMake eight news second a."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 17015
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 65561
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 27425
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17503
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 19166
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 42815,
+    "TotalApproved": 24882
+  },
+  "AdjusterDetails": {
+    "Name": "Robin Knapp",
+    "ContactInformation": {
+      "Phone": "+1-982-840-5814",
+      "Email": "burkekelly@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/04d58ded-4d52-47a8-b66d-8a9515cd6f4f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-11T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-03-16T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-21T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

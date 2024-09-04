@@ -1,0 +1,81 @@
+{
+    "ClaimID": "169120e4-f7b9-43c7-a503-bf10a0c89db1",
+    "PolicyID": "74ece6b1-026c-4a9c-b3cd-e8381ee00826",
+    "EffectiveDates": {
+        "StartDate": "2024-05-03",
+        "EndDate": "2025-05-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2a6e6579-b21b-4397-8f40-298903b0b1e7",
+        "Name": "Taylor Alvarez",
+        "PolicyNumber": "74ece6b1-026c-4a9c-b3cd-e8381ee00826",
+        "ContactInformation": {
+            "Phone": "554-633-4806",
+            "Email": "wbrooks@example.com",
+            "Address": "6836 Parker Dam Apt. 101\nNew Matthew, NM 40251"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-15",
+        "Location": "53172 Ashley Plains Apt. 943\nBriggsbury, AR 84351",
+        "Description": "Common serious difference beautiful deep power usually. Require wear land military expert many hundred. Answer home what call analysis Mr the right."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41275
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25915
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42827
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6900
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9826
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 180811,
+        "TotalApproved": 176511
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Gonzalez",
+        "ContactInformation": {
+            "Phone": "001-697-608-6724x221",
+            "Email": "keysamantha@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b6a29a02-fe56-4d66-a88b-30cf51a5d8ef"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

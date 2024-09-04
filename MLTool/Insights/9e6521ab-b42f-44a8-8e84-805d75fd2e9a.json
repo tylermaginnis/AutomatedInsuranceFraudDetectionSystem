@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9e6521ab-b42f-44a8-8e84-805d75fd2e9a",
+    "PolicyID": "9f924d06-b7ff-4b08-9d70-0d3b67f02e11",
+    "EffectiveDates": {
+        "StartDate": "2024-01-18",
+        "EndDate": "2025-01-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f851d3cc-e407-4c81-8a98-9acf4f0f347a",
+        "Name": "April Woods",
+        "PolicyNumber": "9f924d06-b7ff-4b08-9d70-0d3b67f02e11",
+        "ContactInformation": {
+            "Phone": "+1-645-947-2255x7765",
+            "Email": "zwhite@example.com",
+            "Address": "91962 Cook Summit\nPort Erin, UT 19128"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-30",
+        "Location": "83874 Peters Views\nHarveyburgh, MI 73794",
+        "Description": "Expect section miss manage. Herself at write drug least. Indicate investment firm must save."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9057
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1357
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 93251
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12091
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 182300
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116309,
+        "TotalApproved": 46676
+    },
+    "AdjusterDetails": {
+        "Name": "Jean Russell",
+        "ContactInformation": {
+            "Phone": "(237)595-6386",
+            "Email": "leewilliam@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9b336bd1-adcf-4865-abf5-466916726e7c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

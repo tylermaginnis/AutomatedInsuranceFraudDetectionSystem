@@ -1,0 +1,81 @@
+{
+    "ClaimID": "79e67404-4224-447f-9e76-a00bb5f7288c",
+    "PolicyID": "b3300ce6-3073-4397-a5e0-cc7f99cd489a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-12",
+        "EndDate": "2025-03-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "23d7302f-7b00-4cd8-b077-4fcb59ef470d",
+        "Name": "Micheal Jensen",
+        "PolicyNumber": "b3300ce6-3073-4397-a5e0-cc7f99cd489a",
+        "ContactInformation": {
+            "Phone": "+1-273-550-6137",
+            "Email": "ygutierrez@example.com",
+            "Address": "167 Cooper Bypass\nSouth Tomshire, NE 94819"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-25",
+        "Location": "2757 Vega Glens\nCurryberg, WI 09815",
+        "Description": "Service less too true clear million. My option determine. Property center yet else smile some.\nBy something activity. Appear shake organization kitchen bag church. Economic record store."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42665
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4854
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4301
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11937
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13446
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 50406,
+        "TotalApproved": 24515
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Johnson",
+        "ContactInformation": {
+            "Phone": "001-370-302-8619x99822",
+            "Email": "kimberlyanderson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7fc4024d-59a9-4e0b-855d-9fbb347afc7b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-30T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-05T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

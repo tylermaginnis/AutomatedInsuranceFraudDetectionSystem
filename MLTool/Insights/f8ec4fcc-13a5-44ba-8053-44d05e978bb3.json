@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f8ec4fcc-13a5-44ba-8053-44d05e978bb3",
+    "PolicyID": "31bd68e0-9d83-45d3-aacc-b8214c2d1461",
+    "EffectiveDates": {
+        "StartDate": "2024-05-08",
+        "EndDate": "2025-05-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8a27a3dd-e226-4ece-8296-48050c67b878",
+        "Name": "Maria Garcia",
+        "PolicyNumber": "31bd68e0-9d83-45d3-aacc-b8214c2d1461",
+        "ContactInformation": {
+            "Phone": "+1-766-353-1546x6778",
+            "Email": "davisangela@example.com",
+            "Address": "19107 Stephanie Islands\nElizabethtown, MS 46510"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-04",
+        "Location": "Unit 8613 Box 5892\nDPO AA 89483",
+        "Description": "Defense left to short final television unit experience. Join detail rich usually manager suggest author.\nMarket show product particular. Inside admit energy research there whom because response."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3594
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21333
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45561
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 39531
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9500
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 164563,
+        "TotalApproved": 146629
+    },
+    "AdjusterDetails": {
+        "Name": "Jeffrey Petty",
+        "ContactInformation": {
+            "Phone": "7094710475",
+            "Email": "johnturner@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/09b77aed-22f9-4f80-940b-db03a7d7d948"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-04T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-09T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-14T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

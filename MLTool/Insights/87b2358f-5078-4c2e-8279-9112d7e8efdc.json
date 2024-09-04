@@ -1,0 +1,81 @@
+{
+    "ClaimID": "87b2358f-5078-4c2e-8279-9112d7e8efdc",
+    "PolicyID": "bead2dd1-0d12-465d-9f17-56c4bdb42f7e",
+    "EffectiveDates": {
+        "StartDate": "2024-04-10",
+        "EndDate": "2025-04-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2106730a-2dfc-4042-b2f4-d22627fab328",
+        "Name": "Stacey Medina",
+        "PolicyNumber": "bead2dd1-0d12-465d-9f17-56c4bdb42f7e",
+        "ContactInformation": {
+            "Phone": "001-267-802-8633x7724",
+            "Email": "gscott@example.com",
+            "Address": "087 Douglas Parkways\nEast Jeffreyside, MN 01215"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-07",
+        "Location": "Unit 0057 Box 4536\nDPO AE 32611",
+        "Description": "Good vote history suddenly. Whatever similar store minute want company better. Need available design fear first."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48217
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19410
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43138
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 51982
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7480
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 129911,
+        "TotalApproved": 89814
+    },
+    "AdjusterDetails": {
+        "Name": "Jerry Wilkerson",
+        "ContactInformation": {
+            "Phone": "+1-803-911-5854",
+            "Email": "amyramos@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/34927e61-4280-4f7d-9453-9e2d756b1139"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-07T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-12T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-17T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

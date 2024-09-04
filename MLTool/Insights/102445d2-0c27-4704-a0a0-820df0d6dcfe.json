@@ -1,0 +1,81 @@
+{
+    "ClaimID": "102445d2-0c27-4704-a0a0-820df0d6dcfe",
+    "PolicyID": "f5f7ecb3-52b4-4b1e-90b0-476fda859b5a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3e6d4611-8721-4073-b2ce-ac6aeadc9a43",
+        "Name": "Sharon Espinoza",
+        "PolicyNumber": "f5f7ecb3-52b4-4b1e-90b0-476fda859b5a",
+        "ContactInformation": {
+            "Phone": "244-868-7278",
+            "Email": "devinbridges@example.net",
+            "Address": "0169 William Ranch\nElizabethville, AS 94540"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-09",
+        "Location": "7725 Richardson Cove\nWilliammouth, CO 63042",
+        "Description": "Station inside miss describe for forget. Maintain kitchen explain morning total rule. Science though college. Lawyer may follow rock."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19518
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7549
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 91055
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5310
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 84132
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 95490,
+        "TotalApproved": 16592
+    },
+    "AdjusterDetails": {
+        "Name": "James Jones DDS",
+        "ContactInformation": {
+            "Phone": "788.534.6028",
+            "Email": "devinhudson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/23bbce7f-ed9a-4bb1-8873-870a6a2a316c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

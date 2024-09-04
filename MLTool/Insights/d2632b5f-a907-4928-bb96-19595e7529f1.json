@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d2632b5f-a907-4928-bb96-19595e7529f1",
+    "PolicyID": "8104da2c-a05f-4455-ac00-0a9af3f2b21a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-03",
+        "EndDate": "2024-10-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "64768876-963b-4c59-8bfc-4c847dd76b78",
+        "Name": "Teresa Daugherty",
+        "PolicyNumber": "8104da2c-a05f-4455-ac00-0a9af3f2b21a",
+        "ContactInformation": {
+            "Phone": "001-850-690-0324x639",
+            "Email": "paceduane@example.org",
+            "Address": "56412 Amanda Square\nEast Amberport, IA 06386"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-17",
+        "Location": "78228 Mendoza Islands\nWilsonbury, KY 23563",
+        "Description": "Dinner defense thank place. Able crime actually former successful during. Drug TV tend dog forget.\nExist huge always capital seem sit adult. State sound ahead scientist energy space bring would."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3303
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4516
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6626
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 54524
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39369
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 160061,
+        "TotalApproved": 26842
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Klein",
+        "ContactInformation": {
+            "Phone": "+1-355-310-5334",
+            "Email": "larry16@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/77b39060-627c-4d64-82b7-45807628eef1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

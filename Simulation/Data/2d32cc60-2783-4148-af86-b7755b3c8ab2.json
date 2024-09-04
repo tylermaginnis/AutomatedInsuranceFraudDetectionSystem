@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2d32cc60-2783-4148-af86-b7755b3c8ab2",
+  "PolicyID": "680a7d56-80dd-47f5-a2e4-ad5dca0fefad",
+  "EffectiveDates": {
+    "StartDate": "2024-07-27",
+    "EndDate": "2025-07-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4b17ceed-cc02-48a9-be93-c73cf22be687",
+    "Name": "John Anderson",
+    "PolicyNumber": "680a7d56-80dd-47f5-a2e4-ad5dca0fefad",
+    "ContactInformation": {
+      "Phone": "(805)516-7852x741",
+      "Email": "maxwelldebra@example.org",
+      "Address": "5218 Eaton Villages\nRushport, KY 18016"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-10",
+    "Location": "085 Jennifer Locks Suite 081\nWest Jimmy, NJ 20223",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 77885
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 26115
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9308
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 19034
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7789
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 140131,
+    "TotalApproved": 94819
+  },
+  "AdjusterDetails": {
+    "Name": "Kyle Carson",
+    "ContactInformation": {
+      "Phone": "722-873-2603",
+      "Email": "richarddecker@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/323860e2-f7db-4924-9626-bc9049f2d272"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-10T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-15T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-20T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

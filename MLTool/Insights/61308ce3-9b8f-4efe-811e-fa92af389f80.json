@@ -1,0 +1,81 @@
+{
+    "ClaimID": "61308ce3-9b8f-4efe-811e-fa92af389f80",
+    "PolicyID": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+    "EffectiveDates": {
+        "StartDate": "2024-08-01",
+        "EndDate": "2025-08-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e5105667-3211-446f-9c3d-593050b81d43",
+        "Name": "Julie Porter",
+        "PolicyNumber": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+        "ContactInformation": {
+            "Phone": "001-222-366-0081",
+            "Email": "cameronbailey@example.org",
+            "Address": "288 Maddox Center Apt. 437\nPort Loganton, WY 10809"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-13",
+        "Location": "497 Dana Burgs Apt. 246\nEast Kristen, AK 24102",
+        "Description": "Yet field writer treatment interest his. Like answer girl suddenly hot build themselves. Decade job general mention early. Animal who statement hear word create."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11487
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 140457
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 87951
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5115
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5799
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 185238,
+        "TotalApproved": 33330
+    },
+    "AdjusterDetails": {
+        "Name": "Bryan Mitchell",
+        "ContactInformation": {
+            "Phone": "442-567-7013x243",
+            "Email": "hendricksralph@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/34ae39c5-7f4a-409d-b0cf-25b2c57312f9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-13T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-18T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-23T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

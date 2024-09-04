@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a4729e31-d768-4dea-80d0-6a02060d483d",
+    "PolicyID": "976cb525-ba37-47d9-8f9b-2f2e543f53ce",
+    "EffectiveDates": {
+        "StartDate": "2023-11-02",
+        "EndDate": "2024-11-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5251a828-a6c6-4354-9242-530103f66eb0",
+        "Name": "Ashley Anderson",
+        "PolicyNumber": "976cb525-ba37-47d9-8f9b-2f2e543f53ce",
+        "ContactInformation": {
+            "Phone": "001-591-237-3145x7794",
+            "Email": "ebailey@example.com",
+            "Address": "876 Kim Streets Apt. 221\nRobertborough, NM 04789"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-28",
+        "Location": "290 April Mission\nEast Tyler, HI 38559",
+        "Description": "Spend nearly would write. Recent agree a view board ahead. Near last small accept hot.\nOpen dream new home will police. Line former large. Them contain kind away chance smile."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18331
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10936
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12836
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42172
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12152
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 33253,
+        "TotalApproved": 18605
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Pineda",
+        "ContactInformation": {
+            "Phone": "(318)739-6302x6531",
+            "Email": "mmontgomery@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/96423b44-d69b-4704-bfb2-d767cf20d15c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-02T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-07T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

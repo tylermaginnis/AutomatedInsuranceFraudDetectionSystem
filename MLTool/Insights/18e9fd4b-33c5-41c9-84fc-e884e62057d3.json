@@ -1,0 +1,81 @@
+{
+    "ClaimID": "18e9fd4b-33c5-41c9-84fc-e884e62057d3",
+    "PolicyID": "2e360434-51fc-4a20-b9eb-369bfacf0a20",
+    "EffectiveDates": {
+        "StartDate": "2023-09-14",
+        "EndDate": "2024-09-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4de7434c-ed63-434b-b01c-8f76aada9e25",
+        "Name": "Jessica Mathis",
+        "PolicyNumber": "2e360434-51fc-4a20-b9eb-369bfacf0a20",
+        "ContactInformation": {
+            "Phone": "941-367-6288",
+            "Email": "janicesloan@example.org",
+            "Address": "17226 Ryan Meadows Apt. 351\nPort Ann, CO 42987"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-02",
+        "Location": "822 Hernandez Ways Suite 420\nMicheleshire, OH 88217",
+        "Description": "Community even marriage fine large respond space.\nWoman believe away room than. Law factor whether especially ability answer quickly way. Fly help they room likely employee up tree."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 181894
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5409
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8917
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3404
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35050
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 83298,
+        "TotalApproved": 72531
+    },
+    "AdjusterDetails": {
+        "Name": "Lauren Mcneil",
+        "ContactInformation": {
+            "Phone": "+1-590-201-3906x15054",
+            "Email": "fparker@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3063b0bc-fce5-4c5d-8745-77a4d259a18a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

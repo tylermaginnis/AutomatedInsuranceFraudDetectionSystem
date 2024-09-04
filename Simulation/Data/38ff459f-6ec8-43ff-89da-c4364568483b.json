@@ -1,0 +1,80 @@
+{
+  "ClaimID": "38ff459f-6ec8-43ff-89da-c4364568483b",
+  "PolicyID": "30533ff4-e5c8-406b-8f64-75b801f2f16e",
+  "EffectiveDates": {
+    "StartDate": "2023-10-16",
+    "EndDate": "2024-10-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "939089c8-3cee-4264-8d4c-905f6d1c7c54",
+    "Name": "Melissa Davila",
+    "PolicyNumber": "30533ff4-e5c8-406b-8f64-75b801f2f16e",
+    "ContactInformation": {
+      "Phone": "821-728-6749",
+      "Email": "nanderson@example.org",
+      "Address": "658 Teresa Divide Apt. 836\nPetersside, MN 07743"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-25",
+    "Location": "429 Katherine Islands Suite 350\nNewmanbury, MO 44904",
+    "Description": "History lose service. Environmental drive both. American nearly purpose popular whether.\nBig serious truth commercial until purpose red during. Offer reduce model record during guy sure plant."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2213
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 150479
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 95369
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 19107
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16595
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 125263,
+    "TotalApproved": 88229
+  },
+  "AdjusterDetails": {
+    "Name": "Lindsey Olson",
+    "ContactInformation": {
+      "Phone": "779-536-3184x1199",
+      "Email": "ncamacho@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/deb925bf-c61c-4f0f-aa42-722765f387f5"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-25T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-30T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-04T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

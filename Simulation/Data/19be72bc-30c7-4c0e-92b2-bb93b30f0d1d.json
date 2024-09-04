@@ -1,0 +1,80 @@
+{
+  "ClaimID": "19be72bc-30c7-4c0e-92b2-bb93b30f0d1d",
+  "PolicyID": "3ffff0d8-5bc4-4b7c-9d28-9e2f7d1de241",
+  "EffectiveDates": {
+    "StartDate": "2023-12-10",
+    "EndDate": "2024-12-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "23e4df7c-b14b-4ba7-94eb-c6ae65d227f8",
+    "Name": "Connie Guerrero",
+    "PolicyNumber": "3ffff0d8-5bc4-4b7c-9d28-9e2f7d1de241",
+    "ContactInformation": {
+      "Phone": "+1-964-279-5258x132",
+      "Email": "ljones@example.net",
+      "Address": "57614 Cory Spur Suite 322\nEast Kathleen, OH 35974"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-25",
+    "Location": "877 Ortega Knoll\nJameschester, UT 37950",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 74023
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 44453
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9723
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 20421
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 12717
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 161337,
+    "TotalApproved": 109026
+  },
+  "AdjusterDetails": {
+    "Name": "Jennifer Carter",
+    "ContactInformation": {
+      "Phone": "972-419-8805x725",
+      "Email": "christopherporter@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/fabab276-8191-4d18-9f45-64c9ee69b27a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-25T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-30T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-04T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

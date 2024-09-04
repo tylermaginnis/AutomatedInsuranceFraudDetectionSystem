@@ -1,0 +1,81 @@
+{
+    "ClaimID": "42d3e637-cf43-4fe1-a56c-0e41003a2e4d",
+    "PolicyID": "dee44bf1-792a-4957-9cbc-7ba935acd495",
+    "EffectiveDates": {
+        "StartDate": "2024-04-27",
+        "EndDate": "2025-04-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c3294fff-24c8-4a22-8393-fa2d10622775",
+        "Name": "Lucas Mason",
+        "PolicyNumber": "dee44bf1-792a-4957-9cbc-7ba935acd495",
+        "ContactInformation": {
+            "Phone": "3682232388",
+            "Email": "ljohnston@example.org",
+            "Address": "377 Curtis Estate Suite 265\nNorth Wendyland, CT 99617"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-23",
+        "Location": "26141 Lisa Lake\nPatriciaville, AK 50666",
+        "Description": "Machine series kitchen lay. Mouth task control evening crime.\nFloor whose ago whom reality economy necessary. Street newspaper list development whether away."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16359
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 74463
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12591
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17092
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2256
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 25949,
+        "TotalApproved": 11463
+    },
+    "AdjusterDetails": {
+        "Name": "Brandi Warner",
+        "ContactInformation": {
+            "Phone": "389-221-3372x811",
+            "Email": "zchung@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c83f70a2-db66-440a-8760-d8560a899cc8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

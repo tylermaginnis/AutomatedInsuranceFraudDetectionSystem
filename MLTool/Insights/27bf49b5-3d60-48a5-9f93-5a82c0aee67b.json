@@ -1,0 +1,81 @@
+{
+    "ClaimID": "27bf49b5-3d60-48a5-9f93-5a82c0aee67b",
+    "PolicyID": "5b7c71de-c7fd-4e19-baab-f268ef3ce440",
+    "EffectiveDates": {
+        "StartDate": "2024-08-23",
+        "EndDate": "2025-08-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1d8b17e0-68ae-4a6e-a64b-d42cd4b6d98d",
+        "Name": "Gregory Mcconnell",
+        "PolicyNumber": "5b7c71de-c7fd-4e19-baab-f268ef3ce440",
+        "ContactInformation": {
+            "Phone": "(250)483-2599x052",
+            "Email": "patricia98@example.net",
+            "Address": "887 Kathleen Stream Apt. 225\nSmithshire, MH 11243"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-29",
+        "Location": "3889 Walter Meadows\nRyanberg, MI 85857",
+        "Description": "In tend different. Take he rate movie.\nWithout probably onto no poor popular strategy. Create especially if option start when."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48930
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2289
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3071
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5617
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43219
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 42750,
+        "TotalApproved": 28586
+    },
+    "AdjusterDetails": {
+        "Name": "Kenneth Perez",
+        "ContactInformation": {
+            "Phone": "592-847-1910",
+            "Email": "gcarter@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/09525878-4f17-49a6-b33a-119bf5779662"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

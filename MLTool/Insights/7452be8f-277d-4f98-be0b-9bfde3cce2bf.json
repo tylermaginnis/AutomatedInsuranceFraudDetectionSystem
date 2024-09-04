@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7452be8f-277d-4f98-be0b-9bfde3cce2bf",
+    "PolicyID": "5bf7ae29-0655-41ef-a637-524ca69d35a2",
+    "EffectiveDates": {
+        "StartDate": "2024-03-02",
+        "EndDate": "2025-03-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "55a44dd8-3f70-40c8-ac2a-4b7d0451ade5",
+        "Name": "Ashley Greer",
+        "PolicyNumber": "5bf7ae29-0655-41ef-a637-524ca69d35a2",
+        "ContactInformation": {
+            "Phone": "(558)675-8737x178",
+            "Email": "troyferguson@example.net",
+            "Address": "715 Dawson Falls\nEast Joshuaburgh, KS 32630"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-28",
+        "Location": "8613 Marissa Harbors\nJohnton, TX 95188",
+        "Description": "Research direction just experience political. Up anything project economy.\nMuch Mrs identify girl."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32799
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15067
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 175235
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8531
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 95268
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 43259,
+        "TotalApproved": 26962
+    },
+    "AdjusterDetails": {
+        "Name": "Ruth Murphy",
+        "ContactInformation": {
+            "Phone": "7965219247",
+            "Email": "francisco89@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/03cbb8f4-4dba-4c6a-b590-98579d12f550"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

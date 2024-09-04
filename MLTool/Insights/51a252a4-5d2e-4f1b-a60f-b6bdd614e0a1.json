@@ -1,0 +1,81 @@
+{
+    "ClaimID": "51a252a4-5d2e-4f1b-a60f-b6bdd614e0a1",
+    "PolicyID": "fe93b1dc-b987-4b67-bfc0-2c7ca6f810b3",
+    "EffectiveDates": {
+        "StartDate": "2023-10-03",
+        "EndDate": "2024-10-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7a5f8c08-cf34-456b-9449-c22fcab5dc65",
+        "Name": "Michael Figueroa",
+        "PolicyNumber": "fe93b1dc-b987-4b67-bfc0-2c7ca6f810b3",
+        "ContactInformation": {
+            "Phone": "(871)946-3119x699",
+            "Email": "browndebra@example.org",
+            "Address": "53668 Lindsay Knoll\nChristopherland, HI 81661"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-05",
+        "Location": "USCGC Lewis\nFPO AE 18394",
+        "Description": "Down yard reflect half it role.\nNation old foot entire million my. Inside southern stay six cold race. Tv claim member popular hundred.\nRepresent among could."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10872
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38045
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28292
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1336
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16228
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 174810,
+        "TotalApproved": 120175
+    },
+    "AdjusterDetails": {
+        "Name": "Patrick Anderson",
+        "ContactInformation": {
+            "Phone": "3956411845",
+            "Email": "angelagarcia@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/866c6bb8-f3ee-4c31-9fbf-a380a94d72dc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c7ac61f5-1639-4a75-a9e7-0b9803824a5a",
+  "PolicyID": "3525fffe-062b-4ae2-bcef-379f2ac52898",
+  "EffectiveDates": {
+    "StartDate": "2024-06-11",
+    "EndDate": "2025-06-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3ba2d384-fd81-43e2-8f31-6ed419c8c725",
+    "Name": "Danielle Pierce",
+    "PolicyNumber": "3525fffe-062b-4ae2-bcef-379f2ac52898",
+    "ContactInformation": {
+      "Phone": "001-792-391-9183x03858",
+      "Email": "david51@example.com",
+      "Address": "93817 Brandy Points Apt. 717\nJoshuamouth, PR 75369"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-19",
+    "Location": "714 Smith Isle Suite 244\nWendymouth, KS 75127",
+    "Description": "Rather director interview. Will list member pass agree."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 19223
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 41911
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 10654
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 63611
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4878
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 71207,
+    "TotalApproved": 42025
+  },
+  "AdjusterDetails": {
+    "Name": "Diane Rosales",
+    "ContactInformation": {
+      "Phone": "579-531-6897",
+      "Email": "lopezshawn@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/01e8bff8-ce60-4d03-93e7-c6aee715811f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-19T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-24T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-29T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

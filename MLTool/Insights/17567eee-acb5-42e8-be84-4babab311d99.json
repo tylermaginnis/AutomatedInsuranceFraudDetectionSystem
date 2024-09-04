@@ -1,0 +1,81 @@
+{
+    "ClaimID": "17567eee-acb5-42e8-be84-4babab311d99",
+    "PolicyID": "33aa1d39-8229-48f2-908a-ab434217a1bd",
+    "EffectiveDates": {
+        "StartDate": "2024-04-19",
+        "EndDate": "2025-04-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "89b5dc15-5461-43d8-9327-9f9e09655525",
+        "Name": "Catherine Saunders",
+        "PolicyNumber": "33aa1d39-8229-48f2-908a-ab434217a1bd",
+        "ContactInformation": {
+            "Phone": "351.510.9681x243",
+            "Email": "delgadobenjamin@example.net",
+            "Address": "644 Cheryl Crescent Suite 076\nJohnbury, NJ 90940"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-01",
+        "Location": "697 Jack Route\nCampbellside, MT 19227",
+        "Description": "Me hair billion environment. Building spring foot choose pay.\nSomebody from she international stuff. Service century mission reason."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25473
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41413
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6843
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33566
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12944
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 165657,
+        "TotalApproved": 139603
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Callahan",
+        "ContactInformation": {
+            "Phone": "263.725.1591",
+            "Email": "sfischer@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/72328d65-015f-42d8-8c75-a63cfe644d4d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

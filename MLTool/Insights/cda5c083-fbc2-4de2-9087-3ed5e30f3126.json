@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cda5c083-fbc2-4de2-9087-3ed5e30f3126",
+    "PolicyID": "e94fae2a-faef-4ebc-a840-461f53528ec9",
+    "EffectiveDates": {
+        "StartDate": "2023-11-23",
+        "EndDate": "2024-11-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "14899431-eaf3-4121-985a-7b9737236bb8",
+        "Name": "John Romero",
+        "PolicyNumber": "e94fae2a-faef-4ebc-a840-461f53528ec9",
+        "ContactInformation": {
+            "Phone": "478.436.4583",
+            "Email": "xmurphy@example.com",
+            "Address": "9065 Reid Spur\nGonzalesport, DE 33869"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-04",
+        "Location": "190 Hodge Center Suite 025\nPort Michael, SC 20318",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 84084
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31455
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5735
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13081
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11525
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 145880,
+        "TotalApproved": 3288
+    },
+    "AdjusterDetails": {
+        "Name": "Billy Pugh",
+        "ContactInformation": {
+            "Phone": "001-532-910-2450x22411",
+            "Email": "plang@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/17447cf0-ccd2-4d95-b637-b48fd3267ca8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-04T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-09T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-14T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

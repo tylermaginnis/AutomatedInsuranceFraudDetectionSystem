@@ -1,0 +1,81 @@
+{
+    "ClaimID": "25a07359-3d6f-4f2d-b9f0-75fa152277b7",
+    "PolicyID": "d617fc3d-fa57-4e98-8646-1df723ba4315",
+    "EffectiveDates": {
+        "StartDate": "2023-10-10",
+        "EndDate": "2024-10-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f24c44d1-e69d-4a8f-b426-62bf22de021b",
+        "Name": "Jill Clark",
+        "PolicyNumber": "d617fc3d-fa57-4e98-8646-1df723ba4315",
+        "ContactInformation": {
+            "Phone": "+1-992-662-7343x35681",
+            "Email": "david86@example.org",
+            "Address": "682 Perry Green\nPort John, DC 52473"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-07",
+        "Location": "9066 Jones Locks Suite 982\nEast Marc, AK 26785",
+        "Description": "Garden cover necessary social. Level how most natural. Visit full fill anything professor Mr why.\nProcess perhaps degree whether."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26915
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4325
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9022
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 58819
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42656
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 96421,
+        "TotalApproved": 33570
+    },
+    "AdjusterDetails": {
+        "Name": "Gregory Silva",
+        "ContactInformation": {
+            "Phone": "+1-253-979-4606",
+            "Email": "williamsmatthew@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/59840ecc-ff2b-4651-8657-b00519e70851"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-07T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-12T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-17T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

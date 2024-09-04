@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5feb190a-636f-45a4-914b-ae4cba5e95f3",
+    "PolicyID": "93647a02-e57f-460e-a1a1-367b919be35f",
+    "EffectiveDates": {
+        "StartDate": "2024-01-20",
+        "EndDate": "2025-01-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c38569a7-0f98-466d-8d44-e883cb7bbeb1",
+        "Name": "Candice Snyder",
+        "PolicyNumber": "93647a02-e57f-460e-a1a1-367b919be35f",
+        "ContactInformation": {
+            "Phone": "305.536.2185",
+            "Email": "nancyrobertson@example.net",
+            "Address": "09843 Brandi Walks\nNew Heatherton, TX 25275"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-29",
+        "Location": "46935 Cameron Point\nEast Jamesburgh, SC 25770",
+        "Description": "Information week if. Number walk very more.\nOffer reality American check so whom avoid. Point too yes sure TV matter.\nBegin owner seek leave language. Window bank avoid."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 67420
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 119925
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 67784
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11524
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 149877
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 160605,
+        "TotalApproved": 78480
+    },
+    "AdjusterDetails": {
+        "Name": "Catherine Francis",
+        "ContactInformation": {
+            "Phone": "+1-434-654-2801",
+            "Email": "qmendoza@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3208dc27-8430-4aac-8814-c8f212a853e2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-29T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-03T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-08T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

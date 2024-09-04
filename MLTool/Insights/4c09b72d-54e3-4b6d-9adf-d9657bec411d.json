@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4c09b72d-54e3-4b6d-9adf-d9657bec411d",
+    "PolicyID": "0b8c6ae9-fd98-4e86-8de6-cacc95f1eb80",
+    "EffectiveDates": {
+        "StartDate": "2023-09-16",
+        "EndDate": "2024-09-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f5afba86-ebd3-4d29-afda-6aaeacb1fc28",
+        "Name": "Tina Deleon",
+        "PolicyNumber": "0b8c6ae9-fd98-4e86-8de6-cacc95f1eb80",
+        "ContactInformation": {
+            "Phone": "+1-610-464-4496x0282",
+            "Email": "dsmith@example.net",
+            "Address": "USCGC Moss\nFPO AP 99170"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-26",
+        "Location": "2209 Brian Station\nMichaelmouth, ME 53965",
+        "Description": "Southern mission behind minute member. Agent strategy bill lead. Imagine city every paper light mission evening cold."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10405
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9993
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2276
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1874
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5988
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 17953,
+        "TotalApproved": 6917
+    },
+    "AdjusterDetails": {
+        "Name": "Tiffany Rogers",
+        "ContactInformation": {
+            "Phone": "+1-674-566-1121x071",
+            "Email": "martinezroy@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2a49e81a-eb48-405f-95f8-9fa98e821d99"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-26T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-01T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-06T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c9d5c548-7a04-480c-9245-5c394b6c7780",
+    "PolicyID": "4e9b42c2-ce13-4540-b0d4-63c4e429b11d",
+    "EffectiveDates": {
+        "StartDate": "2024-03-14",
+        "EndDate": "2025-03-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "169b079b-a2f1-4d2b-b031-f026dfa22df5",
+        "Name": "Robert Scott",
+        "PolicyNumber": "4e9b42c2-ce13-4540-b0d4-63c4e429b11d",
+        "ContactInformation": {
+            "Phone": "9427343410",
+            "Email": "april72@example.com",
+            "Address": "1393 Gonzalez Glens Apt. 041\nNew Michaelchester, ID 79607"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-20",
+        "Location": "6378 Odom Road Apt. 266\nStephentown, OH 58455",
+        "Description": "Truth order or quite which. Second smile moment memory. Back travel street create commercial cup."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3555
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19139
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27226
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 58698
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6900
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 189715,
+        "TotalApproved": 184164
+    },
+    "AdjusterDetails": {
+        "Name": "Danielle Flores",
+        "ContactInformation": {
+            "Phone": "001-933-965-4494",
+            "Email": "johndonovan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/de37a378-350a-4a93-b7b7-0c17ac7056fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-20T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-25T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-30T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

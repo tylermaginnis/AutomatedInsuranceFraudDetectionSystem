@@ -1,0 +1,80 @@
+{
+  "ClaimID": "932fbed8-99bd-4e45-b06e-5af100f32368",
+  "PolicyID": "11f71f05-3d52-4a3f-af4e-0cb13a9ce409",
+  "EffectiveDates": {
+    "StartDate": "2024-03-25",
+    "EndDate": "2025-03-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9ba67c45-6bc6-4778-89e2-aa904228fe67",
+    "Name": "Ronald Mueller",
+    "PolicyNumber": "11f71f05-3d52-4a3f-af4e-0cb13a9ce409",
+    "ContactInformation": {
+      "Phone": "+1-303-965-6274x870",
+      "Email": "edawson@example.org",
+      "Address": "5769 Jessica Loop Apt. 778\nPort John, MA 68701"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-31",
+    "Location": "7324 Fields Freeway\nDanielstad, MH 44994",
+    "Description": "Administration stop main executive animal report. Community Mr family international. Spend administration claim sit exactly democratic firm."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1488
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 73002
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9348
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 11922
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1519
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 1589,
+    "TotalApproved": 1190
+  },
+  "AdjusterDetails": {
+    "Name": "Gary Anderson",
+    "ContactInformation": {
+      "Phone": "658-447-1317",
+      "Email": "omills@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/9b422df7-0f5d-4156-908c-45e2db8cc27b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-31T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-05T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-10T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

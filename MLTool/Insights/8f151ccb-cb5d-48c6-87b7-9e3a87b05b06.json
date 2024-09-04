@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8f151ccb-cb5d-48c6-87b7-9e3a87b05b06",
+    "PolicyID": "1a35e423-2879-4bb9-bc82-38934d5ab060",
+    "EffectiveDates": {
+        "StartDate": "2024-07-04",
+        "EndDate": "2025-07-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0c3b65d2-921d-4ed5-833f-99b1de9e5486",
+        "Name": "Andrew West",
+        "PolicyNumber": "1a35e423-2879-4bb9-bc82-38934d5ab060",
+        "ContactInformation": {
+            "Phone": "+1-707-815-7689x9099",
+            "Email": "christopherlambert@example.org",
+            "Address": "390 Heather Estate\nSouth Antoniobury, FL 69288"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-28",
+        "Location": "95974 James Prairie Suite 005\nWest Joseph, ND 38757",
+        "Description": "Human key edge. American significant despite turn. Whether second of show reality present.\nAccording relate professional president your machine. Herself list card main bar daughter hospital public."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49531
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18177
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37520
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 84387
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15076
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 19092,
+        "TotalApproved": 17325
+    },
+    "AdjusterDetails": {
+        "Name": "Victoria Williams",
+        "ContactInformation": {
+            "Phone": "648.649.3407",
+            "Email": "williampatterson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/afde2db6-732a-40c7-91da-8f036333bc62"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

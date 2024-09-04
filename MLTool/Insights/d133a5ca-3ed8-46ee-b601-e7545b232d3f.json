@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d133a5ca-3ed8-46ee-b601-e7545b232d3f",
+    "PolicyID": "92d9f5f4-4195-46a7-9e5b-9d457148e7bf",
+    "EffectiveDates": {
+        "StartDate": "2024-06-12",
+        "EndDate": "2025-06-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4af2201f-7ed2-4d0b-b513-81a0a7f9b9b0",
+        "Name": "Randy Wright",
+        "PolicyNumber": "92d9f5f4-4195-46a7-9e5b-9d457148e7bf",
+        "ContactInformation": {
+            "Phone": "001-739-866-5543x398",
+            "Email": "hesterryan@example.com",
+            "Address": "32937 Holly Burgs Apt. 125\nNew Aaron, NY 10356"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-15",
+        "Location": "5638 Reeves Wells Suite 506\nWalkerfurt, FL 31441",
+        "Description": "Professional section event. Like through property news sit scene first.\nOwn my hotel in. International here necessary arrive another respond fill mean."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 121289
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13020
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7886
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 182607
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 155689
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 163091,
+        "TotalApproved": 43781
+    },
+    "AdjusterDetails": {
+        "Name": "Robin Pearson",
+        "ContactInformation": {
+            "Phone": "(876)733-4616x2386",
+            "Email": "nathanfigueroa@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ccc3b817-6287-46ec-9756-450d0c303554"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "31d2a94a-79a3-4f8a-ae8b-525628c11199",
+    "PolicyID": "92b85d20-0b92-443c-84df-ffe2a08707e5",
+    "EffectiveDates": {
+        "StartDate": "2024-05-10",
+        "EndDate": "2025-05-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "57e348e6-145f-4af4-9759-5415cef5792d",
+        "Name": "Zachary Hebert",
+        "PolicyNumber": "92b85d20-0b92-443c-84df-ffe2a08707e5",
+        "ContactInformation": {
+            "Phone": "001-385-243-7321x9285",
+            "Email": "daniel42@example.org",
+            "Address": "228 Neal Plaza Apt. 238\nJonathanmouth, UT 09206"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-29",
+        "Location": "PSC 1490, Box 8161\nAPO AE 93319",
+        "Description": "Democratic local sure behavior health economy actually. Act wait new everybody catch open sister very. Single soldier health or. Large step everybody buy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18827
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5891
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19217
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15686
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 189759
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 136171,
+        "TotalApproved": 92945
+    },
+    "AdjusterDetails": {
+        "Name": "John Foster",
+        "ContactInformation": {
+            "Phone": "001-935-770-6142",
+            "Email": "michael35@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/16d8d5af-904c-49ce-b38f-5e444d5f4548"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-29T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3e58e1d8-9240-4a56-b78f-efc11beb7648",
+    "PolicyID": "a04faa22-7d1d-44a8-9c28-b9e8c6b06daa",
+    "EffectiveDates": {
+        "StartDate": "2024-02-25",
+        "EndDate": "2025-02-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f6a626e6-57be-466a-aa15-9a840a1ef0e7",
+        "Name": "Dale Garcia",
+        "PolicyNumber": "a04faa22-7d1d-44a8-9c28-b9e8c6b06daa",
+        "ContactInformation": {
+            "Phone": "+1-726-333-3922",
+            "Email": "vincentforbes@example.org",
+            "Address": "106 Richardson Point\nLake Judy, IL 90167"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-01",
+        "Location": "164 Stephanie Lock\nJamesside, NE 71539",
+        "Description": "The ability pass. Family mind nothing operation head. View home per finally.\nPower memory discussion drop experience case."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46821
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9045
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21800
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3533
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 182706
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 87866,
+        "TotalApproved": 75751
+    },
+    "AdjusterDetails": {
+        "Name": "Amber Gonzalez",
+        "ContactInformation": {
+            "Phone": "001-426-405-1342x01278",
+            "Email": "mwalker@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/136eccef-2105-4f79-8981-744d0c071c67"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

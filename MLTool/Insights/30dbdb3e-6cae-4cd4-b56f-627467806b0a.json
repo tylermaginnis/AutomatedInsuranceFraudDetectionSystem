@@ -1,0 +1,81 @@
+{
+    "ClaimID": "30dbdb3e-6cae-4cd4-b56f-627467806b0a",
+    "PolicyID": "ffbc0573-553f-42c9-afd5-41b13e7e4d9e",
+    "EffectiveDates": {
+        "StartDate": "2024-07-06",
+        "EndDate": "2025-07-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8dc3ddc4-bea1-423c-85cb-c4ef4ecafca6",
+        "Name": "Christine Park",
+        "PolicyNumber": "ffbc0573-553f-42c9-afd5-41b13e7e4d9e",
+        "ContactInformation": {
+            "Phone": "+1-731-577-8719x92088",
+            "Email": "xbarton@example.com",
+            "Address": "64940 Garza Rapid\nMillerview, IN 32440"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-04",
+        "Location": "946 Brown Heights Apt. 511\nKendraland, MD 55075",
+        "Description": "Sing summer your. Story police save former finally study change woman. Every base member off tree peace cover pull.\nPush stuff better. Treat red carry foot since develop. Occur animal wear team."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12874
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33289
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 83206
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9364
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 198789
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 187038,
+        "TotalApproved": 154746
+    },
+    "AdjusterDetails": {
+        "Name": "Rodney Brown",
+        "ContactInformation": {
+            "Phone": "734.331.3076",
+            "Email": "andersonjoshua@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7306697a-4040-49e8-bfc7-641d6f8e1f5f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-04T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-09T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-14T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

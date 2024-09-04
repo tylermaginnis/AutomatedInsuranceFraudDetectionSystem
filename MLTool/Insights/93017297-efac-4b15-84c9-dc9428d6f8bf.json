@@ -1,0 +1,81 @@
+{
+    "ClaimID": "93017297-efac-4b15-84c9-dc9428d6f8bf",
+    "PolicyID": "4f4afc13-3e14-4368-afca-96bba2cdfdc7",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "994d71b3-5d7f-4d0e-aaa1-fd50ae68ad2e",
+        "Name": "Kimberly Harvey",
+        "PolicyNumber": "4f4afc13-3e14-4368-afca-96bba2cdfdc7",
+        "ContactInformation": {
+            "Phone": "536.726.9644x0383",
+            "Email": "tmalone@example.org",
+            "Address": "903 Anthony Grove Apt. 522\nSouth Debraburgh, LA 69896"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-19",
+        "Location": "1980 Harvey Turnpike Suite 007\nSarahburgh, OH 83618",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 68833
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28860
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5100
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10658
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9786
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 123237,
+        "TotalApproved": 57332
+    },
+    "AdjusterDetails": {
+        "Name": "Linda Shelton",
+        "ContactInformation": {
+            "Phone": "+1-456-787-3902x778",
+            "Email": "richardprice@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8e34d960-f003-437f-a543-a7773de20f7b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-19T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-24T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-29T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

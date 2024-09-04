@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4412b3b9-50bd-47b4-be91-f9b5c9d7dc66",
+    "PolicyID": "81e359be-62dd-4e26-8548-7e4e4b3d2b7b",
+    "EffectiveDates": {
+        "StartDate": "2024-04-04",
+        "EndDate": "2025-04-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b1c8540a-6ae2-4e6e-ae2d-f4281d2de599",
+        "Name": "Gregory Norris",
+        "PolicyNumber": "81e359be-62dd-4e26-8548-7e4e4b3d2b7b",
+        "ContactInformation": {
+            "Phone": "(409)906-1661",
+            "Email": "briansolomon@example.net",
+            "Address": "487 Jessica Orchard Suite 755\nSeanmouth, NJ 66061"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-07",
+        "Location": "3669 Butler Orchard Apt. 336\nAguilarmouth, MD 26520",
+        "Description": "Last movie Mrs between. Here maybe church mean alone choice would.\nSit debate explain population thing five. Contain my staff left. Management they card president."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3046
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60087
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44816
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14101
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2553
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 126696,
+        "TotalApproved": 6233
+    },
+    "AdjusterDetails": {
+        "Name": "Shannon Parker",
+        "ContactInformation": {
+            "Phone": "+1-412-229-9663x37010",
+            "Email": "gwhitehead@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1c6c6779-b884-4bbf-9758-cc9f64d2e77b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

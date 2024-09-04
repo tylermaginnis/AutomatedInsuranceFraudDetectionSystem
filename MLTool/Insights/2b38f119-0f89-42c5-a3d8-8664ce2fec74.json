@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2b38f119-0f89-42c5-a3d8-8664ce2fec74",
+    "PolicyID": "e63df121-cd5e-4ab0-ade1-528f46ea6156",
+    "EffectiveDates": {
+        "StartDate": "2024-03-30",
+        "EndDate": "2025-03-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fb8a4591-3c14-4656-89ad-39f56902152f",
+        "Name": "Isabel Perez",
+        "PolicyNumber": "e63df121-cd5e-4ab0-ade1-528f46ea6156",
+        "ContactInformation": {
+            "Phone": "+1-978-426-1731x987",
+            "Email": "snyderheidi@example.com",
+            "Address": "3906 Lisa Trail\nEast Anthony, TX 09148"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-30",
+        "Location": "407 Cristina Parkway Suite 529\nJasonmouth, ME 21139",
+        "Description": "Phone least nothing check source. Actually among such part. Security possible evening.\nSing decade nearly speak. You put see person stand."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 111733
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27934
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11436
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 36306
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 149430
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 24270,
+        "TotalApproved": 23816
+    },
+    "AdjusterDetails": {
+        "Name": "Anna Walsh",
+        "ContactInformation": {
+            "Phone": "791-773-1149x634",
+            "Email": "thomas56@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ed5eb3c3-429f-40b1-849c-fc03f03cfa37"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-30T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-04T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-09T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

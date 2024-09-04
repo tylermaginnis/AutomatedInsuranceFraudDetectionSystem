@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7be453f5-a5bf-467f-b51f-54853e666099",
+    "PolicyID": "36477d17-449b-4187-b0b4-a1c3bea21250",
+    "EffectiveDates": {
+        "StartDate": "2024-06-30",
+        "EndDate": "2025-06-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "516b433a-818b-4364-a9b7-12c5c9966e80",
+        "Name": "Janet Cochran",
+        "PolicyNumber": "36477d17-449b-4187-b0b4-a1c3bea21250",
+        "ContactInformation": {
+            "Phone": "001-625-584-9262",
+            "Email": "gschwartz@example.com",
+            "Address": "PSC 8845, Box 9369\nAPO AP 51961"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-17",
+        "Location": "7492 Louis Lakes\nRobertsstad, ND 74910",
+        "Description": "Election future player eat evidence station everything. All movement show."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2161
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1629
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19104
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 42116
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7700
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 60658,
+        "TotalApproved": 51469
+    },
+    "AdjusterDetails": {
+        "Name": "Brandi Hamilton",
+        "ContactInformation": {
+            "Phone": "420-974-1324",
+            "Email": "briana14@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/08f6085c-5d28-4cf2-bb24-e1d04c3c8fd9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-17T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-22T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-27T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

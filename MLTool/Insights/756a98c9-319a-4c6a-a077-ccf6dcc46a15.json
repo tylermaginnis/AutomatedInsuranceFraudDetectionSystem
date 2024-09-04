@@ -1,0 +1,81 @@
+{
+    "ClaimID": "756a98c9-319a-4c6a-a077-ccf6dcc46a15",
+    "PolicyID": "be0cb745-e2f8-46bc-becb-763c0faffbf3",
+    "EffectiveDates": {
+        "StartDate": "2023-09-06",
+        "EndDate": "2024-09-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0b06e6ad-a184-4262-930f-8269c5727dbf",
+        "Name": "Richard Walker",
+        "PolicyNumber": "be0cb745-e2f8-46bc-becb-763c0faffbf3",
+        "ContactInformation": {
+            "Phone": "(459)676-7562",
+            "Email": "hvang@example.com",
+            "Address": "006 Kenneth Meadows\nBlackchester, MD 36901"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-23",
+        "Location": "834 Richardson Knoll\nWest Douglasstad, VA 46344",
+        "Description": "Mean forward student yet its feel. Certain teacher moment especially fine. Whole leader including game financial she admit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48683
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 112918
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5662
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19087
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4432
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 31286,
+        "TotalApproved": 29649
+    },
+    "AdjusterDetails": {
+        "Name": "Curtis Cooper",
+        "ContactInformation": {
+            "Phone": "723.630.0207x44530",
+            "Email": "syoung@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/abc5ef69-e5f6-406a-b56e-315c6e01a760"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

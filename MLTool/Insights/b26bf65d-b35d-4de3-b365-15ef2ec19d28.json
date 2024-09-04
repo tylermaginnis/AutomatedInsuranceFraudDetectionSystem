@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b26bf65d-b35d-4de3-b365-15ef2ec19d28",
+    "PolicyID": "d485875b-1fae-4afe-9d5f-19b831fe4957",
+    "EffectiveDates": {
+        "StartDate": "2023-09-28",
+        "EndDate": "2024-09-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cc319b92-7643-4727-ad5b-1cdb71deffe0",
+        "Name": "Theresa Robinson",
+        "PolicyNumber": "d485875b-1fae-4afe-9d5f-19b831fe4957",
+        "ContactInformation": {
+            "Phone": "+1-511-346-8732",
+            "Email": "goneill@example.net",
+            "Address": "721 Jackson Locks Suite 888\nJenniferport, ME 34768"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-15",
+        "Location": "USS Hebert\nFPO AA 32421",
+        "Description": "Training protect think method role station range. Color prove while think. Action little high travel music act."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24739
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8772
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16764
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 81610
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 168938
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 143839,
+        "TotalApproved": 135829
+    },
+    "AdjusterDetails": {
+        "Name": "Dr. Anna Garcia",
+        "ContactInformation": {
+            "Phone": "8636067256",
+            "Email": "aballard@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/50574f61-c98a-4832-b1cc-1b0bed2c9c84"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7877cd26-f31d-4755-8b6c-5d155d10a3fc",
+    "PolicyID": "f926a5c3-5199-427e-9fcd-0d0d444e7175",
+    "EffectiveDates": {
+        "StartDate": "2024-05-28",
+        "EndDate": "2025-05-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fe5b17cf-1ee6-46b5-b496-03686243fcb4",
+        "Name": "Denise Garza",
+        "PolicyNumber": "f926a5c3-5199-427e-9fcd-0d0d444e7175",
+        "ContactInformation": {
+            "Phone": "+1-943-808-3228",
+            "Email": "ucallahan@example.com",
+            "Address": "47681 Fischer Light\nNew Brandon, TX 44766"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-07",
+        "Location": "USNS Mitchell\nFPO AP 74587",
+        "Description": "Wind read meet most or build. Get yard bag point pay car. Day cost just discover early."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22075
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14919
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 154920
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9911
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 94035
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 65531,
+        "TotalApproved": 5312
+    },
+    "AdjusterDetails": {
+        "Name": "Kurt Waters",
+        "ContactInformation": {
+            "Phone": "(271)551-9397x77211",
+            "Email": "hunterjill@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4e560a28-c11d-42f1-a760-82d5e00cc3b7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-07T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-12T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-17T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

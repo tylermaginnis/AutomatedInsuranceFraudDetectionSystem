@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5fa43633-02e3-4d4a-b406-0f5822d6ef02",
+  "PolicyID": "30c0bcb5-0329-4236-adf8-603310de8026",
+  "EffectiveDates": {
+    "StartDate": "2023-12-03",
+    "EndDate": "2024-12-02"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8995730e-fac2-4eb8-bca5-6014436001e4",
+    "Name": "Sandra Thompson",
+    "PolicyNumber": "30c0bcb5-0329-4236-adf8-603310de8026",
+    "ContactInformation": {
+      "Phone": "+1-642-328-1979x323",
+      "Email": "hannaamy@example.com",
+      "Address": "6208 Travis Flat\nJamesport, RI 68401"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-22",
+    "Location": "5434 Berry Meadows Apt. 472\nMichelebury, MS 68515",
+    "Description": "Question structure change town. Still much check several maintain already pressure role."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 4677
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 29289
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 42650
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17943
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5702
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 34461,
+    "TotalApproved": 33926
+  },
+  "AdjusterDetails": {
+    "Name": "Amanda Anderson",
+    "ContactInformation": {
+      "Phone": "331-430-1094x86855",
+      "Email": "kimberly73@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/abd0610c-c32b-4885-a59b-771cddf89c82"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-22T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-27T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-03T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

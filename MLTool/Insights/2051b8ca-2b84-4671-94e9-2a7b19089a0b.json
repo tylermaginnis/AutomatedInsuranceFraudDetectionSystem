@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2051b8ca-2b84-4671-94e9-2a7b19089a0b",
+    "PolicyID": "f2e045c9-7de2-47fa-be2c-f0d6653738ee",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d5ba1b47-6b9b-4a68-983f-bfcd1828f7df",
+        "Name": "Robert Moore",
+        "PolicyNumber": "f2e045c9-7de2-47fa-be2c-f0d6653738ee",
+        "ContactInformation": {
+            "Phone": "001-478-920-1659",
+            "Email": "danielle33@example.org",
+            "Address": "1439 Jennifer Junction Apt. 637\nMorenostad, NY 99557"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-30",
+        "Location": "38053 Natasha Mission Suite 997\nNew Kyliehaven, VA 70317",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 66458
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35034
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7893
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22229
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16665
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 148279,
+        "TotalApproved": 27080
+    },
+    "AdjusterDetails": {
+        "Name": "Veronica Donovan",
+        "ContactInformation": {
+            "Phone": "001-687-913-5068x7043",
+            "Email": "gonzalezbarbara@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/66682ec2-4c13-49d1-9998-6dd1b196155c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

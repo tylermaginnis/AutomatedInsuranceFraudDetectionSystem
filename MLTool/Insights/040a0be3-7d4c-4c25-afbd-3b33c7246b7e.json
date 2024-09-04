@@ -1,0 +1,81 @@
+{
+    "ClaimID": "040a0be3-7d4c-4c25-afbd-3b33c7246b7e",
+    "PolicyID": "88abba63-468a-49c8-aab6-e4c5e1dead0d",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "924327a0-ec69-4f71-8c8f-c33c86b04a2d",
+        "Name": "Monica Turner",
+        "PolicyNumber": "88abba63-468a-49c8-aab6-e4c5e1dead0d",
+        "ContactInformation": {
+            "Phone": "547-460-6633",
+            "Email": "david06@example.org",
+            "Address": "985 Karen Key\nEast Toddstad, UT 21264"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-07",
+        "Location": "157 Sarah Points Apt. 053\nAutumnhaven, KS 45563",
+        "Description": "Mrs firm yet. Themselves left start sure would plant.\nStand speech particular son. Manager three major human treatment prevent main.\nSea particular knowledge number when plan various."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5375
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42473
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18935
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67331
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6413
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 89493,
+        "TotalApproved": 39354
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Contreras",
+        "ContactInformation": {
+            "Phone": "(797)358-7506x24649",
+            "Email": "ryan03@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/eb25043f-4ed3-43f7-8a11-23d9123cb928"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "327705a9-347d-4e41-88a8-ff409cb0f945",
+  "PolicyID": "c788eaf2-aa26-4c7a-b67d-b231832d3dcb",
+  "EffectiveDates": {
+    "StartDate": "2024-07-30",
+    "EndDate": "2025-07-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a07e006c-6387-4371-88d4-78e5865ca2fa",
+    "Name": "Nathan Trevino",
+    "PolicyNumber": "c788eaf2-aa26-4c7a-b67d-b231832d3dcb",
+    "ContactInformation": {
+      "Phone": "3656975847",
+      "Email": "desiree88@example.net",
+      "Address": "Unit 1014 Box 1101\nDPO AE 39566"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-17",
+    "Location": "589 Rebecca Loaf\nKaylashire, IN 39906",
+    "Description": "Church seek he something enjoy material. Sing special present military another style. Very newspaper research nature responsibility. Party red already culture."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 171457
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4842
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 94730
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16384
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4292
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 60493,
+    "TotalApproved": 37446
+  },
+  "AdjusterDetails": {
+    "Name": "Robert Webb",
+    "ContactInformation": {
+      "Phone": "653-461-8312",
+      "Email": "johnsondana@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/0c5b7540-95c7-4228-9b14-0535243d1b21"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-17T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-22T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-27T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

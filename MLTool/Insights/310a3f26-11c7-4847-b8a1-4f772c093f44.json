@@ -1,0 +1,81 @@
+{
+    "ClaimID": "310a3f26-11c7-4847-b8a1-4f772c093f44",
+    "PolicyID": "4e68ff64-fdc1-4605-af6a-b98e4ce5bb19",
+    "EffectiveDates": {
+        "StartDate": "2023-10-22",
+        "EndDate": "2024-10-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "77c028d9-84ec-41ac-8d1d-7ab8b9ac9223",
+        "Name": "Anthony Miller",
+        "PolicyNumber": "4e68ff64-fdc1-4605-af6a-b98e4ce5bb19",
+        "ContactInformation": {
+            "Phone": "001-686-511-8517",
+            "Email": "vfoster@example.org",
+            "Address": "6218 Jeremy Expressway Apt. 141\nNew Jenna, HI 64395"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-28",
+        "Location": "72585 Chloe Junction Apt. 376\nSouth Adrianbury, AS 07466",
+        "Description": "Interview before cell work year explain.\nWest consider among smile each room place remember. Require sound few order bag also say who. Indicate green kid poor specific within add."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 133970
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5599
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41546
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17474
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6982
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 130205,
+        "TotalApproved": 20757
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Garcia",
+        "ContactInformation": {
+            "Phone": "001-335-489-4810x400",
+            "Email": "pthornton@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/275e93fb-d25f-49df-9a93-5526cfb75766"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-28T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-02T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-07T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

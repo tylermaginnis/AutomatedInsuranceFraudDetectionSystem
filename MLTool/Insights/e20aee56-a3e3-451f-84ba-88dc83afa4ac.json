@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e20aee56-a3e3-451f-84ba-88dc83afa4ac",
+    "PolicyID": "97592afb-572c-47df-9de1-c03d9f8dcc27",
+    "EffectiveDates": {
+        "StartDate": "2024-02-19",
+        "EndDate": "2025-02-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "96f9ffed-1a70-4c1b-8caf-2c215744f5d6",
+        "Name": "Annette Lee",
+        "PolicyNumber": "97592afb-572c-47df-9de1-c03d9f8dcc27",
+        "ContactInformation": {
+            "Phone": "388.498.7935x017",
+            "Email": "warddanielle@example.com",
+            "Address": "26882 Peters Crossing\nFrancistown, FM 12553"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-16",
+        "Location": "05101 Adam Fork\nPort Heather, SC 63297",
+        "Description": "Available human perhaps set direction. Throw often win simply probably owner."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50906
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9993
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6206
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33586
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6895
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 114110,
+        "TotalApproved": 110515
+    },
+    "AdjusterDetails": {
+        "Name": "Belinda Davis MD",
+        "ContactInformation": {
+            "Phone": "(328)304-3371",
+            "Email": "cameronmeadows@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4e1e32dd-55a7-4518-b7eb-b3bc83f0c3d1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

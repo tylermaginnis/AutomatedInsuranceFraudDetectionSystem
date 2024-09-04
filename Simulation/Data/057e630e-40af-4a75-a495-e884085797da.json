@@ -1,0 +1,80 @@
+{
+  "ClaimID": "057e630e-40af-4a75-a495-e884085797da",
+  "PolicyID": "6296dd6c-37c0-461d-bcd6-d65f13208022",
+  "EffectiveDates": {
+    "StartDate": "2024-06-08",
+    "EndDate": "2025-06-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f9bab500-1021-4a7c-ba88-81da8e6dc14b",
+    "Name": "Tracy Myers",
+    "PolicyNumber": "6296dd6c-37c0-461d-bcd6-d65f13208022",
+    "ContactInformation": {
+      "Phone": "248.240.2838",
+      "Email": "kenneth29@example.org",
+      "Address": "2595 Jeffrey Plains Apt. 510\nEast Jasonstad, GA 46569"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-09",
+    "Location": "19765 Mckay Forest\nLopezside, NV 15844",
+    "Description": "Reflect think remain read station evening. Too range it we tell certainly. Person society certain race individual forget. Offer late population magazine than generation quite."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 48366
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4704
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 35025
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3474
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 30972
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 192893,
+    "TotalApproved": 172949
+  },
+  "AdjusterDetails": {
+    "Name": "Aaron Yang",
+    "ContactInformation": {
+      "Phone": "722.677.2833",
+      "Email": "hpadilla@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/547507e7-ec89-4b3d-a1c7-ee9be9d93d9e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-09T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-14T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-19T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

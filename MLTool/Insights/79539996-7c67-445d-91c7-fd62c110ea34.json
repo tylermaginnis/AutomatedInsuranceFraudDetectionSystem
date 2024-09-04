@@ -1,0 +1,81 @@
+{
+    "ClaimID": "79539996-7c67-445d-91c7-fd62c110ea34",
+    "PolicyID": "19a5f306-a611-480d-836a-1544843e8e1b",
+    "EffectiveDates": {
+        "StartDate": "2024-04-18",
+        "EndDate": "2025-04-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "24b89b85-fd44-4cf2-8da4-b6a5e595dd46",
+        "Name": "Seth Jackson",
+        "PolicyNumber": "19a5f306-a611-480d-836a-1544843e8e1b",
+        "ContactInformation": {
+            "Phone": "583-511-3157",
+            "Email": "karina39@example.com",
+            "Address": "1393 Walker Centers Suite 862\nNorth Tracychester, CT 05617"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-10",
+        "Location": "11010 Pamela Club Apt. 263\nKathrynburgh, FM 80650",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 77597
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35522
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8650
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11513
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6562
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 139844,
+        "TotalApproved": 13934
+    },
+    "AdjusterDetails": {
+        "Name": "Raymond Pierce",
+        "ContactInformation": {
+            "Phone": "775-447-5854",
+            "Email": "madisonlewis@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f7ea3056-92a1-4255-a016-e2b8171a4e5e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

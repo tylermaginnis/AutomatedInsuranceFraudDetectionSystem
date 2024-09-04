@@ -1,0 +1,81 @@
+{
+    "ClaimID": "91daa67b-2f00-4493-b87c-6d46fc048a9f",
+    "PolicyID": "89aa5365-fbe6-4491-85ea-6b1bd6b2f6ad",
+    "EffectiveDates": {
+        "StartDate": "2024-05-02",
+        "EndDate": "2025-05-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3c25a608-22c8-4402-9dce-ce18989d5a85",
+        "Name": "Shannon Jones",
+        "PolicyNumber": "89aa5365-fbe6-4491-85ea-6b1bd6b2f6ad",
+        "ContactInformation": {
+            "Phone": "817.556.6905",
+            "Email": "michael83@example.org",
+            "Address": "801 Paul Manor\nSarahmouth, FM 03704"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-27",
+        "Location": "75143 Robert Drives Suite 601\nWest Eric, TN 18144",
+        "Description": "Cost population meeting range type trouble because. Short people certain bag but campaign.\nStreet discover work thought prevent left anything. Near however trip them."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 101594
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12735
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7273
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11611
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 53324
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 100580,
+        "TotalApproved": 85895
+    },
+    "AdjusterDetails": {
+        "Name": "Todd Hensley",
+        "ContactInformation": {
+            "Phone": "(228)401-4429x3844",
+            "Email": "jillianberry@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c0bd24f7-b911-44c3-bb2e-f5be17f31aaf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-02T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-07T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1bc12436-151f-4917-b77e-b99020a85b3a",
+    "PolicyID": "642ce263-9b4e-4719-a636-a2e8e1a2634d",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a691246d-5a32-4f7f-934e-b951bc07a875",
+        "Name": "Renee Clark",
+        "PolicyNumber": "642ce263-9b4e-4719-a636-a2e8e1a2634d",
+        "ContactInformation": {
+            "Phone": "979-640-8725",
+            "Email": "tammygibbs@example.com",
+            "Address": "3772 Lisa Club Suite 510\nMatthewfort, SC 54297"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-04",
+        "Location": "472 Brian Hill Apt. 502\nWilsonborough, MD 24364",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 52950
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35230
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8662
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23416
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5664
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 125922,
+        "TotalApproved": 30263
+    },
+    "AdjusterDetails": {
+        "Name": "Katherine Allison",
+        "ContactInformation": {
+            "Phone": "955-793-9179",
+            "Email": "joanbaker@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9dd6d590-037c-4861-b9b6-91684b7da6be"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-04T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-09T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-14T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

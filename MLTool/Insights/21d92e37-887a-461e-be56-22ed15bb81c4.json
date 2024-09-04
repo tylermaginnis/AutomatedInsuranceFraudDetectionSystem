@@ -1,0 +1,81 @@
+{
+    "ClaimID": "21d92e37-887a-461e-be56-22ed15bb81c4",
+    "PolicyID": "58f9ea8a-316d-4629-aa9f-f94c91d72949",
+    "EffectiveDates": {
+        "StartDate": "2023-09-19",
+        "EndDate": "2024-09-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3b685590-285c-44c5-96b3-28c356e18964",
+        "Name": "Jennifer Rojas",
+        "PolicyNumber": "58f9ea8a-316d-4629-aa9f-f94c91d72949",
+        "ContactInformation": {
+            "Phone": "+1-716-656-1901",
+            "Email": "emorse@example.org",
+            "Address": "64763 Miller Green Apt. 106\nLopezborough, OK 23919"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-20",
+        "Location": "97862 Megan Glens\nNew Barbara, GA 06445",
+        "Description": "Public chair officer. Gas choose still support note.\nFilm like tough choice fight national born. Day why soldier against candidate. Service major food history dark camera interview."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 124112
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16072
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4584
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38874
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3099
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 78239,
+        "TotalApproved": 19141
+    },
+    "AdjusterDetails": {
+        "Name": "Shelia Taylor",
+        "ContactInformation": {
+            "Phone": "6313790576",
+            "Email": "jacqueline65@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b9bb99a7-2650-4f02-92c9-1f9b27add549"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-20T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-25T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-30T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

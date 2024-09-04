@@ -1,0 +1,81 @@
+{
+    "ClaimID": "80aee75f-ed9a-4d0d-9652-ae7aed62f20a",
+    "PolicyID": "74d96282-9d2d-4c07-95ac-9dd04935a856",
+    "EffectiveDates": {
+        "StartDate": "2024-03-04",
+        "EndDate": "2025-03-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "577a70c0-92c2-4994-af28-f66b3d963002",
+        "Name": "Nicole Taylor",
+        "PolicyNumber": "74d96282-9d2d-4c07-95ac-9dd04935a856",
+        "ContactInformation": {
+            "Phone": "+1-522-804-0531",
+            "Email": "rbaker@example.net",
+            "Address": "1402 Carrillo Mission\nMichaelport, PA 57277"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-20",
+        "Location": "3772 Mason Road\nKimberlyside, AL 27090",
+        "Description": "Last lead deep act prevent poor. Attorney clear question kind tonight feeling rock. Tv now hard high every."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4603
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7307
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5603
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3321
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 51092
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157871,
+        "TotalApproved": 18157
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Le",
+        "ContactInformation": {
+            "Phone": "(598)907-5746x50821",
+            "Email": "thomaslisa@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1b3f2e07-96da-4ff3-a4ce-ec8c44acf911"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-20T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-25T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-30T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

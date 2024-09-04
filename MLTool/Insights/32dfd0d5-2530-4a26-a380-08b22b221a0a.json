@@ -1,0 +1,81 @@
+{
+    "ClaimID": "32dfd0d5-2530-4a26-a380-08b22b221a0a",
+    "PolicyID": "d93519dc-06d7-4a6c-9386-abb2bd092c38",
+    "EffectiveDates": {
+        "StartDate": "2023-12-28",
+        "EndDate": "2024-12-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d3d2c53e-5b60-4d69-91f1-3d4e07807bad",
+        "Name": "Olivia Smith",
+        "PolicyNumber": "d93519dc-06d7-4a6c-9386-abb2bd092c38",
+        "ContactInformation": {
+            "Phone": "640-736-4120",
+            "Email": "taylorthompson@example.com",
+            "Address": "2097 Chavez Underpass Apt. 488\nNew Christopher, MT 97127"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-16",
+        "Location": "15533 Richard View\nSouth Laura, RI 10045",
+        "Description": "Decade respond conference music form east. Individual fine value human site.\nNight most one bring single build each fall. Firm building box and. Middle government do born so impact rest."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4308
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 127213
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 45867
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18812
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 65727
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157311,
+        "TotalApproved": 16760
+    },
+    "AdjusterDetails": {
+        "Name": "Jonathan Armstrong",
+        "ContactInformation": {
+            "Phone": "001-396-323-0755x2340",
+            "Email": "sandragarcia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6deb3a2b-4e1d-486a-a1a8-4b7588959dba"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

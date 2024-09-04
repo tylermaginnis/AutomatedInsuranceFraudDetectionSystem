@@ -1,0 +1,81 @@
+{
+    "ClaimID": "818719b5-74de-4894-8c37-36d8450bb570",
+    "PolicyID": "c6ec397b-7bf7-4200-b9df-d10c557b7ef7",
+    "EffectiveDates": {
+        "StartDate": "2024-08-07",
+        "EndDate": "2025-08-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "afe37406-8a74-47e1-a90a-eed783b4e57c",
+        "Name": "Laura Snow",
+        "PolicyNumber": "c6ec397b-7bf7-4200-b9df-d10c557b7ef7",
+        "ContactInformation": {
+            "Phone": "818-865-6712",
+            "Email": "ana11@example.com",
+            "Address": "199 Daniel Oval Suite 598\nTaylorfort, SD 33387"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-14",
+        "Location": "00601 Renee Track Suite 851\nKingfort, OR 39753",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 68193
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22110
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6357
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11199
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5955
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 113814,
+        "TotalApproved": 100228
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Montgomery",
+        "ContactInformation": {
+            "Phone": "+1-431-687-4589x767",
+            "Email": "andreasilva@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b486d746-c775-41ca-a69d-a4dffac8219d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-14T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-19T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-24T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

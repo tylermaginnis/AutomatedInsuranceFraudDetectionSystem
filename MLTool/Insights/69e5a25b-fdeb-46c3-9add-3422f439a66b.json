@@ -1,0 +1,81 @@
+{
+    "ClaimID": "69e5a25b-fdeb-46c3-9add-3422f439a66b",
+    "PolicyID": "a606b06b-d234-4a96-8087-fabe359eeb0b",
+    "EffectiveDates": {
+        "StartDate": "2023-12-03",
+        "EndDate": "2024-12-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f37ad635-fd88-47ec-8813-a8b6997cee04",
+        "Name": "Thomas Hayden",
+        "PolicyNumber": "a606b06b-d234-4a96-8087-fabe359eeb0b",
+        "ContactInformation": {
+            "Phone": "(434)530-6829",
+            "Email": "adamschristina@example.com",
+            "Address": "12781 Leah Streets Apt. 888\nFranklinchester, PA 11512"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-29",
+        "Location": "870 Mcintyre Isle Suite 118\nHannahfort, IN 07296",
+        "Description": "Season rest mission professor ok test range. Full toward author visit morning leave rule. Network and energy say recognize."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18118
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31670
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1905
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11324
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4402
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 106486,
+        "TotalApproved": 72658
+    },
+    "AdjusterDetails": {
+        "Name": "Erin Bullock",
+        "ContactInformation": {
+            "Phone": "215.593.4978",
+            "Email": "nancy69@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/12ff9bea-5efd-46ef-947e-8ae86ed580ec"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-29T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-03T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-08T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

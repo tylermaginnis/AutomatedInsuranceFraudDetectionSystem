@@ -1,0 +1,81 @@
+{
+    "ClaimID": "dd7fd651-4645-4b78-aff9-f2d315eeecd3",
+    "PolicyID": "6c8bb863-3d83-41bb-85ff-3df8be0e6701",
+    "EffectiveDates": {
+        "StartDate": "2024-02-16",
+        "EndDate": "2025-02-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7323d841-4eeb-423b-85ec-4c09d2b5c9bb",
+        "Name": "Nicole Cantu",
+        "PolicyNumber": "6c8bb863-3d83-41bb-85ff-3df8be0e6701",
+        "ContactInformation": {
+            "Phone": "5879671454",
+            "Email": "klynch@example.org",
+            "Address": "790 Tina Street Suite 240\nAngelaberg, KS 37363"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-06",
+        "Location": "287 Eric Mews\nSouth Josephmouth, MA 39147",
+        "Description": "Paper factor whole somebody very particular available. Say PM you hundred social. Total meeting chair and inside other free."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4933
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42222
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17797
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16377
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2811
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 102597,
+        "TotalApproved": 17003
+    },
+    "AdjusterDetails": {
+        "Name": "John Hicks",
+        "ContactInformation": {
+            "Phone": "670-816-7573x256",
+            "Email": "robert29@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/97d773b9-3b30-4f3d-a8b0-af4c6a96758f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

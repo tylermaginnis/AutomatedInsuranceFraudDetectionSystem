@@ -1,0 +1,81 @@
+{
+    "ClaimID": "45f9007d-0c69-40f3-a039-0e49fc771767",
+    "PolicyID": "7877248f-48cc-4df3-b93f-ab690095c19f",
+    "EffectiveDates": {
+        "StartDate": "2023-11-14",
+        "EndDate": "2024-11-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2bdfd2d6-e1ce-4a0f-8ac3-dfec0350b0f1",
+        "Name": "Jessica Roth",
+        "PolicyNumber": "7877248f-48cc-4df3-b93f-ab690095c19f",
+        "ContactInformation": {
+            "Phone": "337-326-3222x590",
+            "Email": "sethblanchard@example.com",
+            "Address": "00496 Samantha Plaza Suite 454\nWest James, KS 12126"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-27",
+        "Location": "4214 Stephen Ridges\nWest Robertshire, AL 86163",
+        "Description": "Reduce stock hour. Hit he sure case threat program. Difficult news kind teach."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7867
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15587
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1081
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 25652
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3202
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 82152,
+        "TotalApproved": 77295
+    },
+    "AdjusterDetails": {
+        "Name": "Dana Powell",
+        "ContactInformation": {
+            "Phone": "974.201.6225",
+            "Email": "lvalencia@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/daa1f741-d09c-4195-9031-9ce95b7897b2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-27T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-01T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-06T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

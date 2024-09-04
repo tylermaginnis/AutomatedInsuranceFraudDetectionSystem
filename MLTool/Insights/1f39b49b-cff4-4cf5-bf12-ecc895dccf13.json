@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1f39b49b-cff4-4cf5-bf12-ecc895dccf13",
+    "PolicyID": "bde04635-f9c1-42a2-b6bf-6102e181e9ac",
+    "EffectiveDates": {
+        "StartDate": "2024-03-14",
+        "EndDate": "2025-03-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b4feccbc-5595-44ca-9410-7006a44d8cc7",
+        "Name": "Jared Palmer",
+        "PolicyNumber": "bde04635-f9c1-42a2-b6bf-6102e181e9ac",
+        "ContactInformation": {
+            "Phone": "+1-841-979-0076x05006",
+            "Email": "wilsonbarry@example.net",
+            "Address": "283 Patricia Road\nPatrickbury, NC 10215"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-24",
+        "Location": "794 Jacob Extension\nShannonshire, FL 73818",
+        "Description": "Star during Mrs weight executive someone. Worry challenge certainly myself light wind door."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36940
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34965
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 52516
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 136586
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33388
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 84741,
+        "TotalApproved": 17426
+    },
+    "AdjusterDetails": {
+        "Name": "Gerald Anderson",
+        "ContactInformation": {
+            "Phone": "236.514.7679x4331",
+            "Email": "tylerpena@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/33dd9f03-20a8-4ba2-af27-8cad3f23a1a8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-24T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-29T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-03T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0cbdafbc-331f-48ca-8e75-b67fc6f61000",
+    "PolicyID": "83ac9aca-8c67-4427-bc3a-354b56df9b25",
+    "EffectiveDates": {
+        "StartDate": "2023-12-02",
+        "EndDate": "2024-12-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "92e5e6f3-f8dd-433a-91c4-711276486070",
+        "Name": "Mary Williams",
+        "PolicyNumber": "83ac9aca-8c67-4427-bc3a-354b56df9b25",
+        "ContactInformation": {
+            "Phone": "+1-623-304-1520x65009",
+            "Email": "chelsea83@example.net",
+            "Address": "9606 Christine Road Suite 279\nLake Kathyfort, TX 72643"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-24",
+        "Location": "714 Beverly Vista Apt. 641\nNorth Colintown, NE 12281",
+        "Description": "Late recognize successful. Anything seat deep million hot large knowledge.\nSingle hot check research ago.\nHealth no state rich increase. Same go Mr.\nSuggest hotel do idea pull result institution."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 123805
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37401
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5160
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14771
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 196458
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 103427,
+        "TotalApproved": 85940
+    },
+    "AdjusterDetails": {
+        "Name": "April Smith",
+        "ContactInformation": {
+            "Phone": "001-228-383-2302",
+            "Email": "kenneth34@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/abafe3de-159c-4bef-8503-9dc920f5bc35"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-24T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-29T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-05T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

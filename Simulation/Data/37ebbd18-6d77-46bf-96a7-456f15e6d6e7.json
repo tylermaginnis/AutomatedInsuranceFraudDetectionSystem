@@ -1,0 +1,80 @@
+{
+  "ClaimID": "37ebbd18-6d77-46bf-96a7-456f15e6d6e7",
+  "PolicyID": "bb7f1aec-0b46-42b7-b90e-7a648f7e2c57",
+  "EffectiveDates": {
+    "StartDate": "2024-08-13",
+    "EndDate": "2025-08-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b20fb675-05b4-4538-9f2a-d785a9837cfc",
+    "Name": "David Norman",
+    "PolicyNumber": "bb7f1aec-0b46-42b7-b90e-7a648f7e2c57",
+    "ContactInformation": {
+      "Phone": "261.425.5485",
+      "Email": "larry70@example.com",
+      "Address": "618 Bradley Landing\nRachelberg, MT 64232"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-01",
+    "Location": "7798 Carpenter Extension Suite 179\nWest Catherineton, MS 39094",
+    "Description": "Baby your six according sport anyone. Couple structure such someone just ball. Standard arrive player assume citizen represent certain."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9250
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 24278
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7253
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 45134
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 136154
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 156202,
+    "TotalApproved": 28680
+  },
+  "AdjusterDetails": {
+    "Name": "Mark Johnson",
+    "ContactInformation": {
+      "Phone": "238.320.2100x51485",
+      "Email": "jonesjason@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/92b1fbc0-b025-4707-8f89-0dfee378d616"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-01T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-06T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-11T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

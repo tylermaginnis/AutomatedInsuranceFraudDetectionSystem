@@ -1,0 +1,80 @@
+{
+  "ClaimID": "597abf15-b541-4a63-bfff-78cfcdde5d71",
+  "PolicyID": "7a5c5076-f6f9-4727-a660-45e1b0d9c214",
+  "EffectiveDates": {
+    "StartDate": "2024-01-24",
+    "EndDate": "2025-01-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b6a0c010-9429-4903-9956-462babcfec2c",
+    "Name": "Stephanie Hughes",
+    "PolicyNumber": "7a5c5076-f6f9-4727-a660-45e1b0d9c214",
+    "ContactInformation": {
+      "Phone": "893.979.3499",
+      "Email": "dbrewer@example.net",
+      "Address": "37184 Garcia Corners Apt. 727\nGreenfurt, MT 66658"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-19",
+    "Location": "9050 Flores Harbor\nEast Julie, NV 03237",
+    "Description": "Beat bank early whatever. Society federal minute describe chair. Detail task around and tonight. National ten common because sell save."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 74853
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 67072
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 64926
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 28284
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2558
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 6404,
+    "TotalApproved": 1970
+  },
+  "AdjusterDetails": {
+    "Name": "Kathryn Warren",
+    "ContactInformation": {
+      "Phone": "+1-386-317-5024x8221",
+      "Email": "combsnicole@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/3e503ea8-9942-42b2-9af4-e8fcb689ee3c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-19T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-24T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-29T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

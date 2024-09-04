@@ -1,0 +1,81 @@
+{
+    "ClaimID": "96e30dba-cd4f-4c20-888b-092cfa0e236d",
+    "PolicyID": "672db7af-b1f0-49fd-87c6-ad6615e61590",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c2d74410-d95f-43a2-8096-978ddefe0339",
+        "Name": "David Wright",
+        "PolicyNumber": "672db7af-b1f0-49fd-87c6-ad6615e61590",
+        "ContactInformation": {
+            "Phone": "+1-686-578-4874x933",
+            "Email": "slane@example.org",
+            "Address": "4561 Richardson Light Suite 831\nEast Brittanymouth, VI 48784"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-06",
+        "Location": "Unit 0655 Box 1752\nDPO AP 35960",
+        "Description": "Wind reduce seem tough exist.\nSuddenly ten by only. Deal of commercial success.\nCard song that support month. Both though moment reality read science try food."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39965
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26595
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5669
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49861
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17601
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 118744,
+        "TotalApproved": 112672
+    },
+    "AdjusterDetails": {
+        "Name": "Denise Ewing",
+        "ContactInformation": {
+            "Phone": "001-947-257-0123",
+            "Email": "hperry@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0dcd299e-e26d-47de-9f11-42ba25b49afa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

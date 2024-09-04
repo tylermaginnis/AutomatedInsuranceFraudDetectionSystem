@@ -1,0 +1,81 @@
+{
+    "ClaimID": "204705fe-c415-48d9-978e-ce9d1aed72a7",
+    "PolicyID": "20bc49de-13a2-411c-8727-ad6c848069bd",
+    "EffectiveDates": {
+        "StartDate": "2024-05-07",
+        "EndDate": "2025-05-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9ad13e12-77b2-49a5-bc9a-a688be9cd952",
+        "Name": "Troy Ellis",
+        "PolicyNumber": "20bc49de-13a2-411c-8727-ad6c848069bd",
+        "ContactInformation": {
+            "Phone": "+1-908-503-4897x175",
+            "Email": "scottspencer@example.org",
+            "Address": "Unit 6163 Box 1294\nDPO AP 82739"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-02",
+        "Location": "6381 Meghan Overpass Apt. 030\nBennettfurt, MN 17668",
+        "Description": "Take big pass language modern. Doctor adult key indeed adult both really.\nModern night relationship. Theory enough not bag week. Water mouth claim air southern describe doctor."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23074
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31605
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16514
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 179650
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33787
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 96174,
+        "TotalApproved": 12922
+    },
+    "AdjusterDetails": {
+        "Name": "Tracy Baker",
+        "ContactInformation": {
+            "Phone": "321-427-4055",
+            "Email": "swilliams@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a63d1fb9-8f7f-48f6-a880-c0754393f359"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

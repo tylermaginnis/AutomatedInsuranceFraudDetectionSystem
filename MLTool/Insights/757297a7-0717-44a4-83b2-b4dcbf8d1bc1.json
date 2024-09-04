@@ -1,0 +1,81 @@
+{
+    "ClaimID": "757297a7-0717-44a4-83b2-b4dcbf8d1bc1",
+    "PolicyID": "b144f25e-411b-4d69-9baf-3b83caf5daf3",
+    "EffectiveDates": {
+        "StartDate": "2024-06-13",
+        "EndDate": "2025-06-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1d61f460-d722-45dd-872e-c1ceb9d83737",
+        "Name": "Gregory Nguyen",
+        "PolicyNumber": "b144f25e-411b-4d69-9baf-3b83caf5daf3",
+        "ContactInformation": {
+            "Phone": "533-832-5044x2141",
+            "Email": "olsonhaley@example.net",
+            "Address": "20909 Lisa Junctions Suite 615\nPort Lisa, NC 91242"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-24",
+        "Location": "409 Martinez Track\nCruzhaven, WV 91262",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 88200
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28195
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6230
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12830
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15475
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 150930,
+        "TotalApproved": 59490
+    },
+    "AdjusterDetails": {
+        "Name": "Gordon Campbell",
+        "ContactInformation": {
+            "Phone": "(694)417-4056x4442",
+            "Email": "jason13@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5536b43e-bda1-4e1c-a2ef-2f85999185e2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-24T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-29T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-04T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

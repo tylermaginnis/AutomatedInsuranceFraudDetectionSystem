@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca1beb34-9eb1-4e61-9c4a-f450b8abc515",
+    "PolicyID": "08c9e176-f698-4bd1-ab4b-071780b81b10",
+    "EffectiveDates": {
+        "StartDate": "2024-08-11",
+        "EndDate": "2025-08-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e9d12938-085a-40c5-9c33-e1f7e6e171d0",
+        "Name": "Nicole Mitchell",
+        "PolicyNumber": "08c9e176-f698-4bd1-ab4b-071780b81b10",
+        "ContactInformation": {
+            "Phone": "7067074711",
+            "Email": "carrie59@example.org",
+            "Address": "7507 Michele Inlet Suite 419\nLisaberg, VA 16757"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-05",
+        "Location": "806 Angela Estates\nColemanton, DE 68351",
+        "Description": "Often pick both public enjoy. Have catch project end own prepare. Charge key deep debate evidence imagine interesting.\nMillion difference arm imagine. Hand determine until minute happen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22217
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21531
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44066
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18017
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38044
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 140037,
+        "TotalApproved": 91370
+    },
+    "AdjusterDetails": {
+        "Name": "Rebecca Miller",
+        "ContactInformation": {
+            "Phone": "001-431-523-3470x83451",
+            "Email": "brianpatel@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/38c000b7-d021-476a-8f4d-227b9b9eb87b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-05T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-10T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-15T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

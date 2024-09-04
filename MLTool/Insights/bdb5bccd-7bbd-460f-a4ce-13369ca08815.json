@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bdb5bccd-7bbd-460f-a4ce-13369ca08815",
+    "PolicyID": "da033154-992f-4b3a-adc1-a24c9e15af1b",
+    "EffectiveDates": {
+        "StartDate": "2023-09-11",
+        "EndDate": "2024-09-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c7958789-0fd8-4bed-b7d0-b2e08a453bef",
+        "Name": "Kayla Miller",
+        "PolicyNumber": "da033154-992f-4b3a-adc1-a24c9e15af1b",
+        "ContactInformation": {
+            "Phone": "001-689-459-4521x1916",
+            "Email": "reeveschristopher@example.org",
+            "Address": "17134 Alicia Ford Apt. 489\nParsonston, IA 38235"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-01",
+        "Location": "983 Lauren Drives Suite 353\nNew Tony, VT 74827",
+        "Description": "Bed herself property where. Point drug unit every mention data imagine finally."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2737
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 63197
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8396
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15741
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20751
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 63642,
+        "TotalApproved": 8141
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Galloway",
+        "ContactInformation": {
+            "Phone": "(891)579-4439x583",
+            "Email": "jonesemily@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/37668a42-2095-4ad3-980d-da87124af343"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

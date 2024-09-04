@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7a311286-e1e9-4840-bb86-f1a2f81e768e",
+    "PolicyID": "d5b9b124-fb60-414e-9208-88542fdd0741",
+    "EffectiveDates": {
+        "StartDate": "2023-11-05",
+        "EndDate": "2024-11-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5461fdee-c3e3-420a-90e8-eb3173a8abff",
+        "Name": "Patricia Ramirez",
+        "PolicyNumber": "d5b9b124-fb60-414e-9208-88542fdd0741",
+        "ContactInformation": {
+            "Phone": "575-424-5140",
+            "Email": "morganashley@example.org",
+            "Address": "237 Donna Dale\nYolandaland, GU 95246"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-19",
+        "Location": "96432 Karen Creek\nNew Michael, NV 68519",
+        "Description": "Material market mouth piece color but foot. Should choose of.\nThroughout leader consider brother mission would movement. Build actually arrive style show tend cold at."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12364
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32663
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42064
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2699
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46388
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 146444,
+        "TotalApproved": 45989
+    },
+    "AdjusterDetails": {
+        "Name": "David Sanchez",
+        "ContactInformation": {
+            "Phone": "001-584-715-3108x63162",
+            "Email": "colecrystal@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ca051fd4-9d4a-40ac-9fb2-9ef12d2ab212"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-19T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-24T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-29T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

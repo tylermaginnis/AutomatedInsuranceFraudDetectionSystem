@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4fa0d8fc-5f22-46c1-b71d-60749f8ed5b6",
+    "PolicyID": "5a130f48-fe39-4ba0-a444-9b3f269671d6",
+    "EffectiveDates": {
+        "StartDate": "2024-06-16",
+        "EndDate": "2025-06-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b440ffb9-c443-49b0-80e8-250fe8001424",
+        "Name": "Martin Buchanan",
+        "PolicyNumber": "5a130f48-fe39-4ba0-a444-9b3f269671d6",
+        "ContactInformation": {
+            "Phone": "(434)581-1197",
+            "Email": "davidcox@example.org",
+            "Address": "085 Angela Cliffs\nWest Mariah, DC 35902"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-22",
+        "Location": "30531 Toni Mountain\nGrayberg, IN 80494",
+        "Description": "Bit responsibility need skill yeah century. Clearly nation agent event early chair.\nAs want rise lay four away. Fish career man upon amount box. Form young three professor seven law."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8965
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 75593
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3338
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17051
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3250
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 169760,
+        "TotalApproved": 161489
+    },
+    "AdjusterDetails": {
+        "Name": "Alexis Smith",
+        "ContactInformation": {
+            "Phone": "570.675.4893x24714",
+            "Email": "bakermatthew@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0321a2bf-397f-4842-a54f-e9f4575ea3cd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-22T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-27T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-01T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

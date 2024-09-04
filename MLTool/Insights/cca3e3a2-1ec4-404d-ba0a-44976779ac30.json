@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cca3e3a2-1ec4-404d-ba0a-44976779ac30",
+    "PolicyID": "d63736b2-d66c-47f0-9c49-4e8ee30d6e09",
+    "EffectiveDates": {
+        "StartDate": "2023-12-26",
+        "EndDate": "2024-12-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "43cd0ac3-e558-42f8-9dd1-bcc9b3525427",
+        "Name": "Christopher Ramos",
+        "PolicyNumber": "d63736b2-d66c-47f0-9c49-4e8ee30d6e09",
+        "ContactInformation": {
+            "Phone": "+1-326-855-9024x68396",
+            "Email": "wolfelaura@example.com",
+            "Address": "021 Miller Greens Apt. 731\nEast Danielle, IL 33176"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-26",
+        "Location": "5334 Richard Hills\nNorth Nicoleport, WA 29286",
+        "Description": "Budget admit young realize. Special stand majority money main place. Year thousand wind situation water establish idea.\nThere leave brother three item. Tonight really call hold."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 122512
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29956
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11500
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1733
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18984
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 62829,
+        "TotalApproved": 61690
+    },
+    "AdjusterDetails": {
+        "Name": "Richard Rodriguez",
+        "ContactInformation": {
+            "Phone": "+1-670-295-6386x3662",
+            "Email": "mendozawilliam@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ce9f28f6-bedb-4c7a-80a7-7179d653564f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-31T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

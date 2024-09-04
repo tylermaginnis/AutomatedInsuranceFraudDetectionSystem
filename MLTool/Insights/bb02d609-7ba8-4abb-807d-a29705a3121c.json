@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bb02d609-7ba8-4abb-807d-a29705a3121c",
+    "PolicyID": "a0c1cb19-d4b7-40b5-a958-142085b56d26",
+    "EffectiveDates": {
+        "StartDate": "2024-07-20",
+        "EndDate": "2025-07-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3771f061-0fce-443b-9573-5b68c902192d",
+        "Name": "Mrs. Elizabeth Thomas",
+        "PolicyNumber": "a0c1cb19-d4b7-40b5-a958-142085b56d26",
+        "ContactInformation": {
+            "Phone": "+1-402-984-2137",
+            "Email": "luke10@example.com",
+            "Address": "14220 Ashley Crossing\nJonesburgh, OR 77623"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-24",
+        "Location": "58352 Sandra Ports\nWest Kevinview, OK 63774",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 68034
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37810
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5493
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16449
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19278
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 147064,
+        "TotalApproved": 57565
+    },
+    "AdjusterDetails": {
+        "Name": "Victor Johnson",
+        "ContactInformation": {
+            "Phone": "553-567-1561x0976",
+            "Email": "ashleymcdaniel@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/615efd3d-0d64-4f86-88ff-8042ec07e8a6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-24T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

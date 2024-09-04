@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4dbd0956-fd62-40fb-88ee-0dde7f979e44",
+    "PolicyID": "a10ffec5-a1e0-4125-8b2c-cf11d778b661",
+    "EffectiveDates": {
+        "StartDate": "2024-06-13",
+        "EndDate": "2025-06-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "818146b3-6556-41ee-9c14-14e089aee195",
+        "Name": "Amy Atkins",
+        "PolicyNumber": "a10ffec5-a1e0-4125-8b2c-cf11d778b661",
+        "ContactInformation": {
+            "Phone": "+1-510-906-6911x719",
+            "Email": "john30@example.com",
+            "Address": "35918 Schroeder Cliff\nErikbury, VA 96257"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-13",
+        "Location": "2854 Stephanie Parks Apt. 509\nSouth Christopherberg, IL 69715",
+        "Description": "Recognize open trade mission. Care establish detail break begin international appear. Leave order discussion car."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 138986
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10218
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3370
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 179243
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49533
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 68081,
+        "TotalApproved": 17112
+    },
+    "AdjusterDetails": {
+        "Name": "Douglas Lee",
+        "ContactInformation": {
+            "Phone": "001-757-852-3320x480",
+            "Email": "smithjerry@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/939766ff-11a9-41b5-a2aa-ef701955f5f5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

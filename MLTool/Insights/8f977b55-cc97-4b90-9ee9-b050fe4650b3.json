@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8f977b55-cc97-4b90-9ee9-b050fe4650b3",
+    "PolicyID": "b36f3d9a-94f1-483c-898f-69266764d659",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "66cc97f7-c42b-4cde-bbc8-cdb8902c45ea",
+        "Name": "Jason Hodge",
+        "PolicyNumber": "b36f3d9a-94f1-483c-898f-69266764d659",
+        "ContactInformation": {
+            "Phone": "(264)660-6865",
+            "Email": "andre22@example.com",
+            "Address": "Unit 7761 Box 5994\nDPO AA 60261"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-06",
+        "Location": "0376 Melissa Fords Suite 800\nMartinfurt, ID 45086",
+        "Description": "Professional outside night catch husband moment. Wind allow company else project work development."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37321
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8902
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3258
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38615
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19079
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 105923,
+        "TotalApproved": 26659
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Watkins",
+        "ContactInformation": {
+            "Phone": "868-320-4459",
+            "Email": "adamscindy@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7eb3c745-53fd-441c-bae2-333fde099b81"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

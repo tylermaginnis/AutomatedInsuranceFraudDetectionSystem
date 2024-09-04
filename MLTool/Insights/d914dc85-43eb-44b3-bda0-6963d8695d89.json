@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d914dc85-43eb-44b3-bda0-6963d8695d89",
+    "PolicyID": "c289cebf-ca27-4955-9616-4ab20a2d9cc7",
+    "EffectiveDates": {
+        "StartDate": "2024-04-27",
+        "EndDate": "2025-04-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5b5f406e-18e4-4711-885e-f9615ba232db",
+        "Name": "Hunter Ramos",
+        "PolicyNumber": "c289cebf-ca27-4955-9616-4ab20a2d9cc7",
+        "ContactInformation": {
+            "Phone": "735.233.2100",
+            "Email": "penningtonjean@example.com",
+            "Address": "43740 Steven Island\nJacksonchester, WY 08090"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-14",
+        "Location": "552 Turner Mill\nJuanside, WV 14302",
+        "Description": "Trip personal statement. Outside meet memory short try. In trip treat bill early fear field. Less part wear ask.\nKnow benefit college police. Much author very establish."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 92529
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 184475
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5450
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11039
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49591
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 104791,
+        "TotalApproved": 98069
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Thornton",
+        "ContactInformation": {
+            "Phone": "001-699-967-9403x0954",
+            "Email": "qescobar@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5fb0cf5e-ddf2-49d0-9565-3ddd31d60fa2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

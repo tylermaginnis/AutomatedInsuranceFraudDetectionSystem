@@ -1,0 +1,81 @@
+{
+    "ClaimID": "24e7fdeb-c061-4566-beba-38dee09470fa",
+    "PolicyID": "bcb55b56-4184-4e97-949e-e1c1d76e0ae8",
+    "EffectiveDates": {
+        "StartDate": "2023-11-18",
+        "EndDate": "2024-11-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2b736246-8148-47bd-8157-2bd10b65365b",
+        "Name": "Heather Rogers",
+        "PolicyNumber": "bcb55b56-4184-4e97-949e-e1c1d76e0ae8",
+        "ContactInformation": {
+            "Phone": "001-709-761-3661x262",
+            "Email": "phillipflores@example.org",
+            "Address": "32296 Barnes Inlet\nNew Andrew, MO 44339"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-07",
+        "Location": "87884 Howard Shoal\nNorth Olivia, LA 45865",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 92024
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25585
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5838
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21481
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10642
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 155570,
+        "TotalApproved": 84466
+    },
+    "AdjusterDetails": {
+        "Name": "Linda Foley",
+        "ContactInformation": {
+            "Phone": "752.408.5741",
+            "Email": "bishopkimberly@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ac348361-33a5-4694-8a76-759f3fd4d9ee"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-07T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-12T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-17T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

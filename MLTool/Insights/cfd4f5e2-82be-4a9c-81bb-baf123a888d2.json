@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cfd4f5e2-82be-4a9c-81bb-baf123a888d2",
+    "PolicyID": "f542d943-9ac8-492b-bc57-76bf4e31f0b2",
+    "EffectiveDates": {
+        "StartDate": "2024-01-13",
+        "EndDate": "2025-01-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "843627d2-4431-48b1-b8de-2ac4db139c21",
+        "Name": "Jessica Guerra",
+        "PolicyNumber": "f542d943-9ac8-492b-bc57-76bf4e31f0b2",
+        "ContactInformation": {
+            "Phone": "001-363-693-7441x147",
+            "Email": "gwilkinson@example.org",
+            "Address": "45365 Harris Walks Apt. 094\nWilliamchester, GA 97869"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-20",
+        "Location": "63918 Wendy Inlet\nLake Sarahberg, VT 97062",
+        "Description": "Vote play population wait activity sit. Big forget factor anyone success house especially. Very build factor difference instead theory few."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37318
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27209
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9901
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12855
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41927
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 70740,
+        "TotalApproved": 69044
+    },
+    "AdjusterDetails": {
+        "Name": "Kathleen Harris",
+        "ContactInformation": {
+            "Phone": "785.266.7919x99987",
+            "Email": "rodriguezronald@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/fbc4c1da-12af-4a8a-bee2-1dfc7d363585"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-20T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-25T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-30T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

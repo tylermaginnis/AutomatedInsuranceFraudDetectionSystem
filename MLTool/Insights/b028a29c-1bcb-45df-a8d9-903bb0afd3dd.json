@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b028a29c-1bcb-45df-a8d9-903bb0afd3dd",
+    "PolicyID": "e776e4fa-1e90-456a-a914-bcd793f374a2",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "61333e09-97b7-4ad5-b3b6-9257e9de4acc",
+        "Name": "Karen Austin",
+        "PolicyNumber": "e776e4fa-1e90-456a-a914-bcd793f374a2",
+        "ContactInformation": {
+            "Phone": "3285841084",
+            "Email": "uelliott@example.net",
+            "Address": "438 Stout Throughway\nJenniferberg, DE 70552"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-21",
+        "Location": "USS Burton\nFPO AA 28182",
+        "Description": "Son experience medical wait. Company most above top candidate seem mind those.\nThird success recognize move claim lay. Nice executive soldier big wonder number account."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5088
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 79000
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3104
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 88311
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 51219
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 176939,
+        "TotalApproved": 64524
+    },
+    "AdjusterDetails": {
+        "Name": "William Wilkins",
+        "ContactInformation": {
+            "Phone": "934.207.6580",
+            "Email": "mirandaamy@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fe1d0df7-9a89-4555-b153-b758583e9fd6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-31T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

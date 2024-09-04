@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2cb8d71a-e62e-4b0e-925b-47e4f5eef0b3",
+    "PolicyID": "de4d6b65-5267-456f-a58c-e145effc9185",
+    "EffectiveDates": {
+        "StartDate": "2024-08-09",
+        "EndDate": "2025-08-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f5501545-bf0d-4e91-be6e-531510d01b33",
+        "Name": "Tina Simon",
+        "PolicyNumber": "de4d6b65-5267-456f-a58c-e145effc9185",
+        "ContactInformation": {
+            "Phone": "+1-208-615-6234",
+            "Email": "qsanchez@example.org",
+            "Address": "151 Kristine Pines\nWest Alecview, NM 05050"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-06",
+        "Location": "42960 Chelsea Pass Suite 602\nLake Markfort, NE 36436",
+        "Description": "Outside candidate stand across language. Difficult car military want yeah road each.\nHand at man receive apply glass smile. Firm something such tend operation."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57131
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41887
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9457
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1413
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35346
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 114568,
+        "TotalApproved": 91314
+    },
+    "AdjusterDetails": {
+        "Name": "Steve Sanford",
+        "ContactInformation": {
+            "Phone": "(206)452-3301x71775",
+            "Email": "ricemaureen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/bb87f382-53f2-444d-9ffd-c2229fc732bf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-06T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-11T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-16T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

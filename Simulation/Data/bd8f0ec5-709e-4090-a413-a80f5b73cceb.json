@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bd8f0ec5-709e-4090-a413-a80f5b73cceb",
+  "PolicyID": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+  "EffectiveDates": {
+    "StartDate": "2023-11-14",
+    "EndDate": "2024-11-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e5105667-3211-446f-9c3d-593050b81d43",
+    "Name": "Julie Porter",
+    "PolicyNumber": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+    "ContactInformation": {
+      "Phone": "001-222-366-0081",
+      "Email": "cameronbailey@example.org",
+      "Address": "288 Maddox Center Apt. 437\nPort Loganton, WY 10809"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-07",
+    "Location": "72331 Tiffany Corner\nYorkmouth, OH 59640",
+    "Description": "By trade six simply style best beyond.\nDay often factor own study. Guess some difference travel. Price its less buy really decade."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 38690
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 26962
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 11640
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 13160
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7444
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 116194,
+    "TotalApproved": 98246
+  },
+  "AdjusterDetails": {
+    "Name": "Nicholas Petersen",
+    "ContactInformation": {
+      "Phone": "(426)319-0383x1822",
+      "Email": "melissathomas@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/d14dee47-b17b-4335-9e80-c7de6124f99f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-07T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-12T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-17T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

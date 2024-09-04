@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9cf4095f-bc0a-412f-9c8c-85f2919c7f1d",
+  "PolicyID": "a5d8486d-674a-41e0-a179-51c39b54d433",
+  "EffectiveDates": {
+    "StartDate": "2023-12-12",
+    "EndDate": "2024-12-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "24606fb3-bbb4-4a9b-b80b-5b31db9a7d9d",
+    "Name": "John Ortiz",
+    "PolicyNumber": "a5d8486d-674a-41e0-a179-51c39b54d433",
+    "ContactInformation": {
+      "Phone": "(251)779-2399",
+      "Email": "ndavis@example.org",
+      "Address": "250 Wayne Harbor\nStephenland, MT 99290"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-28",
+    "Location": "2141 Abbott Turnpike Suite 860\nNorth Jacqueline, AS 28173",
+    "Description": "Church computer stock parent each like. Teach child special yet until herself station. Religious huge father herself senior."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 120598
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 19144
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 177281
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6673
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1146
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 52469,
+    "TotalApproved": 2891
+  },
+  "AdjusterDetails": {
+    "Name": "Pamela Navarro",
+    "ContactInformation": {
+      "Phone": "800-418-5995x283",
+      "Email": "tsmith@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/fc016e06-da9a-4203-a2e2-23a9b799f8aa"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-28T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-03T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-08T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

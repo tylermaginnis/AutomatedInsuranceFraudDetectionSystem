@@ -1,0 +1,80 @@
+{
+  "ClaimID": "46aca588-ce05-44b5-a89b-3c39c0a2472e",
+  "PolicyID": "a3f99633-f79e-401e-924b-d18e6b733cc2",
+  "EffectiveDates": {
+    "StartDate": "2024-07-31",
+    "EndDate": "2025-07-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "431770ec-a6b7-4d52-8fa8-0dc87cf23133",
+    "Name": "Ann Ramsey",
+    "PolicyNumber": "a3f99633-f79e-401e-924b-d18e6b733cc2",
+    "ContactInformation": {
+      "Phone": "423.434.3056",
+      "Email": "kleinjesse@example.com",
+      "Address": "5827 Dorothy Spring\nLaneville, CA 54688"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-13",
+    "Location": "94780 Lang Heights Suite 957\nNorth Amanda, IL 14889",
+    "Description": "Walk if close well thing employee. Never forget foot quite draw near.\nLow tonight town. Week everybody expect sit next. Term majority blue through."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 13839
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6248
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 45545
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 12422
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9519
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 178893,
+    "TotalApproved": 115871
+  },
+  "AdjusterDetails": {
+    "Name": "Darrell Butler",
+    "ContactInformation": {
+      "Phone": "+1-379-737-7801x98408",
+      "Email": "christopheranderson@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/c1ffe7a4-1568-45b1-a0f9-7f008e51587c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-13T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-18T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-23T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

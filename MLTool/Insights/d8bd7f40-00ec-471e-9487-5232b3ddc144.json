@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d8bd7f40-00ec-471e-9487-5232b3ddc144",
+    "PolicyID": "b0096f4e-e122-4a4f-bac4-9b7c49acabb7",
+    "EffectiveDates": {
+        "StartDate": "2024-02-20",
+        "EndDate": "2025-02-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "31a057eb-5e68-461d-a577-48591dae0ee5",
+        "Name": "Sierra Downs",
+        "PolicyNumber": "b0096f4e-e122-4a4f-bac4-9b7c49acabb7",
+        "ContactInformation": {
+            "Phone": "775-920-8800x828",
+            "Email": "william91@example.com",
+            "Address": "192 Alex Mews\nFordmouth, NV 90557"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-23",
+        "Location": "95883 Blair Isle\nSouth Brandonborough, MT 14220",
+        "Description": "Music produce move most leader attention. Degree far physical be. Number south benefit art necessary performance."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 68344
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2461
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16348
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60474
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2124
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 87512,
+        "TotalApproved": 47671
+    },
+    "AdjusterDetails": {
+        "Name": "Alyssa Strickland",
+        "ContactInformation": {
+            "Phone": "467-217-6669x9624",
+            "Email": "sanchezkenneth@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0e0820e8-421a-4c2d-852f-7aca62120734"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

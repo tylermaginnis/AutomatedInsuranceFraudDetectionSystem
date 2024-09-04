@@ -1,0 +1,81 @@
+{
+    "ClaimID": "aef56ef2-9a7d-4201-b6db-98fcae81786a",
+    "PolicyID": "9b594c21-25b2-4e44-86bf-1c8a15bfdd93",
+    "EffectiveDates": {
+        "StartDate": "2023-09-19",
+        "EndDate": "2024-09-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "387d3c67-2bcc-4d18-8df5-22d7a7ebd16d",
+        "Name": "Jonathan Potter",
+        "PolicyNumber": "9b594c21-25b2-4e44-86bf-1c8a15bfdd93",
+        "ContactInformation": {
+            "Phone": "214.575.6160x258",
+            "Email": "daniel06@example.net",
+            "Address": "2997 Ryan Spur\nSouth Kellytown, MN 35549"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-01",
+        "Location": "98054 Matthew Gateway Apt. 646\nNorth Richard, MP 38951",
+        "Description": "Ball defense then worry there well. Follow view thousand company these wind.\nModel across hour three house. Rest usually office control seek. Guy weight third benefit coach center Republican hit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39028
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18023
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15265
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16501
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 71234
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 83750,
+        "TotalApproved": 71637
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Sandoval",
+        "ContactInformation": {
+            "Phone": "463-900-6772x298",
+            "Email": "kristinrios@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/44c3a9c2-3973-4d22-877b-219a3be8dff7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-01T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-06T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-11T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

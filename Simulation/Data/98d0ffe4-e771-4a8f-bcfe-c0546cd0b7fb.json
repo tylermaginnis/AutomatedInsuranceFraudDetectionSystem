@@ -1,0 +1,80 @@
+{
+  "ClaimID": "98d0ffe4-e771-4a8f-bcfe-c0546cd0b7fb",
+  "PolicyID": "43d8ad43-d469-40b1-b8d7-8060f85503d1",
+  "EffectiveDates": {
+    "StartDate": "2023-12-02",
+    "EndDate": "2024-12-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4b28b33a-0ecf-4c40-a495-427ac8db4053",
+    "Name": "Sabrina Mcdaniel",
+    "PolicyNumber": "43d8ad43-d469-40b1-b8d7-8060f85503d1",
+    "ContactInformation": {
+      "Phone": "676-650-5997",
+      "Email": "travisjohnson@example.org",
+      "Address": "42152 Owen Extension Apt. 957\nChelseamouth, NM 61659"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-01-03",
+    "Location": "380 Moore Parkway Suite 055\nPattersonside, MD 99458",
+    "Description": "Dream example nature true she there. Pick others size effort run table down. Exist school record ball meeting particular. May physical issue on hard."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4349
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 59402
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 23298
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 23229
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 45786
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 98901,
+    "TotalApproved": 78051
+  },
+  "AdjusterDetails": {
+    "Name": "Wesley Hudson",
+    "ContactInformation": {
+      "Phone": "927-412-2896",
+      "Email": "romanscott@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/8b53c4fb-2360-4e3e-87a2-bf3b89a35986"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-01-03T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-08T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-13T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

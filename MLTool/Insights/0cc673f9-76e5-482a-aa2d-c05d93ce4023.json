@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0cc673f9-76e5-482a-aa2d-c05d93ce4023",
+    "PolicyID": "95c4b78f-8e96-4e99-b7f2-207783dee41d",
+    "EffectiveDates": {
+        "StartDate": "2024-07-23",
+        "EndDate": "2025-07-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a8c1b71e-dd85-479a-bf61-fe86fd1c3208",
+        "Name": "Patrick Kelly",
+        "PolicyNumber": "95c4b78f-8e96-4e99-b7f2-207783dee41d",
+        "ContactInformation": {
+            "Phone": "+1-676-798-2832x025",
+            "Email": "marcopayne@example.net",
+            "Address": "8949 Robinson Inlet\nLake Crystalstad, MS 99772"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-24",
+        "Location": "Unit 2232 Box 6358\nDPO AA 99841",
+        "Description": "Office process something skin green. Probably choose nor successful movement look.\nTwo along them tonight still fight. Common consider brother."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1028
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4041
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35688
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9210
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 148891
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 131535,
+        "TotalApproved": 94177
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Jones",
+        "ContactInformation": {
+            "Phone": "822.737.3185",
+            "Email": "lowerymichael@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3384b791-6e21-4a14-8f7c-c3f1b5ddebcc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-24T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-29T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-04T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

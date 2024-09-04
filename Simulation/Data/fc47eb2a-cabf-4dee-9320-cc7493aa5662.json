@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fc47eb2a-cabf-4dee-9320-cc7493aa5662",
+  "PolicyID": "36467aaf-f039-46da-8e16-0f526baf6991",
+  "EffectiveDates": {
+    "StartDate": "2024-04-27",
+    "EndDate": "2025-04-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "13859a74-0c80-4891-944a-7f7a43d72597",
+    "Name": "Alex Hensley",
+    "PolicyNumber": "36467aaf-f039-46da-8e16-0f526baf6991",
+    "ContactInformation": {
+      "Phone": "531.622.8215x50082",
+      "Email": "patriciagarcia@example.net",
+      "Address": "37628 Le Radial Suite 284\nJasonville, MT 82359"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-25",
+    "Location": "4215 Henry Inlet\nTracieshire, IN 97118",
+    "Description": "Exactly teacher significant method cup. These whether service win."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 144551
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 14603
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8858
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13265
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 12232
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 164582,
+    "TotalApproved": 120337
+  },
+  "AdjusterDetails": {
+    "Name": "Erik Martinez",
+    "ContactInformation": {
+      "Phone": "545-357-4635x449",
+      "Email": "megan94@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/aa1389da-dbce-4d7a-a9fd-7753a6f0fef2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-25T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-30T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-04T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

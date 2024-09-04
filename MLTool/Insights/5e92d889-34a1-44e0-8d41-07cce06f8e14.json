@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5e92d889-34a1-44e0-8d41-07cce06f8e14",
+    "PolicyID": "3ac6a1eb-92c7-4e03-9850-31b14aba17e5",
+    "EffectiveDates": {
+        "StartDate": "2023-11-03",
+        "EndDate": "2024-11-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef721490-eca6-401a-95fb-c2b43fdf422c",
+        "Name": "Valerie Edwards",
+        "PolicyNumber": "3ac6a1eb-92c7-4e03-9850-31b14aba17e5",
+        "ContactInformation": {
+            "Phone": "001-395-396-6145x585",
+            "Email": "christine82@example.org",
+            "Address": "9790 Emily Rapid Suite 493\nDanielsberg, MO 92920"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-22",
+        "Location": "748 Wright Views\nJesseton, VA 34475",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 66720
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44352
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5435
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20339
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7530
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 144376,
+        "TotalApproved": 81952
+    },
+    "AdjusterDetails": {
+        "Name": "Kyle Alexander",
+        "ContactInformation": {
+            "Phone": "+1-829-731-9929x7798",
+            "Email": "lawrenceholly@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8f8f162c-f9b3-4259-b3ed-8592b51c9da0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-22T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-27T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-01T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

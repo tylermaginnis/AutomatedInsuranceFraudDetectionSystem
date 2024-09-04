@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c80aa42d-c9f0-4fba-9f3b-615a6eabb06a",
+    "PolicyID": "b8491aeb-dc99-40a4-a327-d26f0c74b58c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-23",
+        "EndDate": "2025-05-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1e31daad-e69c-4f5f-9d9f-9e2c19a29ac9",
+        "Name": "Virginia Randall",
+        "PolicyNumber": "b8491aeb-dc99-40a4-a327-d26f0c74b58c",
+        "ContactInformation": {
+            "Phone": "(746)777-2660",
+            "Email": "jared06@example.org",
+            "Address": "741 West Forks Apt. 505\nOrrmouth, MH 39105"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-28",
+        "Location": "46504 Travis Harbors Apt. 750\nWrightland, GA 97145",
+        "Description": "Western risk response table western might although. Send plant score bag movement point.\nNight company threat century you number. Remember I I rise just camera defense."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43323
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20041
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32882
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7305
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41804
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 153883,
+        "TotalApproved": 94631
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Brown",
+        "ContactInformation": {
+            "Phone": "5048690086",
+            "Email": "meghanvalencia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ae680bc1-68aa-41a2-b4ac-aa2f02f8fbce"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-28T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-02T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-07T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

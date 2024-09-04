@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5b5088cc-2932-47a3-811c-0ab5eb422773",
+    "PolicyID": "ced07a0a-8caa-412a-9b3d-fe45cf5e87b0",
+    "EffectiveDates": {
+        "StartDate": "2023-12-23",
+        "EndDate": "2024-12-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7d26fa11-e90c-4f47-a80b-0b179502805c",
+        "Name": "Laura Martin",
+        "PolicyNumber": "ced07a0a-8caa-412a-9b3d-fe45cf5e87b0",
+        "ContactInformation": {
+            "Phone": "(267)297-6185x14672",
+            "Email": "shirley90@example.com",
+            "Address": "447 Mason Fall Apt. 455\nLake Christina, WA 35924"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-03",
+        "Location": "7372 Calhoun Islands Suite 215\nRickyland, TX 26272",
+        "Description": "Wind tough account see entire great dinner. Actually place door degree central other again. Dark election cup mouth war.\nEnvironmental factor condition song ten. Pm discover specific nice."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13995
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5073
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 48847
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3247
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8080
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 30266,
+        "TotalApproved": 17935
+    },
+    "AdjusterDetails": {
+        "Name": "Billy Stevens",
+        "ContactInformation": {
+            "Phone": "001-265-466-7004x6864",
+            "Email": "brittanycross@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e15c165d-f135-42f3-acb3-37c27f2612a0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-03T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-08T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-13T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

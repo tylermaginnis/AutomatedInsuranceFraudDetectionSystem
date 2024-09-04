@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8740b108-2be0-42d3-b4a5-1f9b8caf5432",
+    "PolicyID": "59170585-74bc-4d6e-9a48-8808098ce89f",
+    "EffectiveDates": {
+        "StartDate": "2024-07-12",
+        "EndDate": "2025-07-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6edf7870-d694-4920-bec6-732799beb213",
+        "Name": "Jordan Thomas",
+        "PolicyNumber": "59170585-74bc-4d6e-9a48-8808098ce89f",
+        "ContactInformation": {
+            "Phone": "001-881-625-0995x463",
+            "Email": "joyjohnson@example.org",
+            "Address": "69989 Jackson Springs\nMatthewland, VT 93894"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-14",
+        "Location": "1299 Joseph Crest Apt. 581\nLowestad, IN 42662",
+        "Description": "Federal remember commercial reach nor. Painting grow couple will adult we. Employee well friend laugh."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35115
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20791
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5395
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 148517
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10277
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 185478,
+        "TotalApproved": 126640
+    },
+    "AdjusterDetails": {
+        "Name": "Julia Baker",
+        "ContactInformation": {
+            "Phone": "001-736-393-8066x61628",
+            "Email": "lblack@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a209a383-d556-4824-8611-94a7ab13921a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

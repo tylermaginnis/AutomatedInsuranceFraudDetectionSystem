@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b0a27f0-7e4f-4bea-962e-e12fd29a967c",
+    "PolicyID": "661f3eaa-8b34-4246-a9f1-052edbba9866",
+    "EffectiveDates": {
+        "StartDate": "2024-04-29",
+        "EndDate": "2025-04-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "77fb62d0-b02a-4362-b38d-83754072bfcb",
+        "Name": "Shelley Johnson",
+        "PolicyNumber": "661f3eaa-8b34-4246-a9f1-052edbba9866",
+        "ContactInformation": {
+            "Phone": "509-344-8777x983",
+            "Email": "browndebra@example.net",
+            "Address": "87437 Ford Parkway\nLewisborough, FL 42876"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-30",
+        "Location": "619 Jeff Falls Apt. 580\nCortezmouth, PR 16793",
+        "Description": "Leave drop mother perform meeting per. Keep girl find single. Wish sit teach clear.\nCut impact throw prepare. Degree tonight natural performance character. Seven sell bank choice social day."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3480
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 86775
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 112654
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 60246
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8218
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 175553,
+        "TotalApproved": 45341
+    },
+    "AdjusterDetails": {
+        "Name": "Jack Padilla",
+        "ContactInformation": {
+            "Phone": "(732)303-2897x1382",
+            "Email": "carlalutz@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/00e7a9f6-c0b2-4844-aed8-9133e70a9d77"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fbd3dad9-48c2-4731-b568-3ffd638c387a",
+    "PolicyID": "75cb4fc9-5322-40e8-b56d-e21237903e56",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e624bb90-a117-4592-a14e-8f3c51bbb856",
+        "Name": "Deborah Howard",
+        "PolicyNumber": "75cb4fc9-5322-40e8-b56d-e21237903e56",
+        "ContactInformation": {
+            "Phone": "354-439-1695",
+            "Email": "elizabethgrant@example.com",
+            "Address": "60994 Rodriguez Ramp\nNatashastad, AS 96712"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-17",
+        "Location": "4665 Kelli Walks Suite 775\nPort Kevin, NV 47881",
+        "Description": "Quality woman probably receive year out. Either realize lose recent another group paper."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 72840
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2275
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 90019
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19924
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4133
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 88415,
+        "TotalApproved": 78982
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Myers",
+        "ContactInformation": {
+            "Phone": "(679)507-1528x87498",
+            "Email": "jeffery29@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8f8f4c06-98e8-4e9a-ba27-e33d2270a221"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-17T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-22T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-27T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

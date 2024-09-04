@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1a700d43-63d3-4a66-bc40-81296c535909",
+    "PolicyID": "4fa49e22-b047-49f8-8771-51486a7c6772",
+    "EffectiveDates": {
+        "StartDate": "2024-08-10",
+        "EndDate": "2025-08-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ca7f066a-6933-4a39-af8a-447b802eed51",
+        "Name": "Thomas Anderson",
+        "PolicyNumber": "4fa49e22-b047-49f8-8771-51486a7c6772",
+        "ContactInformation": {
+            "Phone": "286-736-5052",
+            "Email": "nclark@example.com",
+            "Address": "USNS Reid\nFPO AA 38320"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-05",
+        "Location": "PSC 9731, Box 5943\nAPO AP 36853",
+        "Description": "Mr foot stand Congress suffer field smile. By member night former from marriage.\nAttorney learn indicate reality order street.\nNature age outside either clearly or most."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 67231
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 87146
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5609
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3454
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1247
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 94211,
+        "TotalApproved": 88367
+    },
+    "AdjusterDetails": {
+        "Name": "Debra Lloyd",
+        "ContactInformation": {
+            "Phone": "624.740.2297x97692",
+            "Email": "stephanieatkins@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b3222058-301d-47ce-a58d-11b2a3804015"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

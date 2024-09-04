@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a8086354-b160-492f-8e44-3ad5a4f3b9bb",
+    "PolicyID": "813e3754-7c26-4321-827a-5b14bfda4896",
+    "EffectiveDates": {
+        "StartDate": "2023-12-23",
+        "EndDate": "2024-12-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "46881af3-21ca-4101-99be-bc6041d561d1",
+        "Name": "Mr. Matthew Hernandez",
+        "PolicyNumber": "813e3754-7c26-4321-827a-5b14bfda4896",
+        "ContactInformation": {
+            "Phone": "581-877-6700x877",
+            "Email": "robert53@example.net",
+            "Address": "650 Leslie Courts Suite 921\nWest Sandraton, NV 64528"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-10",
+        "Location": "3947 Melvin Dam\nObrienview, WA 43743",
+        "Description": "Rather letter tax kid trade. Shake sit most specific. Policy night only.\nKitchen cause always simple it compare lawyer pretty. Mention pressure laugh four recent side."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2198
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4995
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25001
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19219
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 139722
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 117422,
+        "TotalApproved": 60295
+    },
+    "AdjusterDetails": {
+        "Name": "Nicole Cooke",
+        "ContactInformation": {
+            "Phone": "+1-408-439-4074x242",
+            "Email": "ujordan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/97f96293-cb71-48be-9de4-3664a53048f9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-10T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-15T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-20T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

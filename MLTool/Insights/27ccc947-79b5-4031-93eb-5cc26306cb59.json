@@ -1,0 +1,81 @@
+{
+    "ClaimID": "27ccc947-79b5-4031-93eb-5cc26306cb59",
+    "PolicyID": "14993e47-bca1-4b3c-9bc0-40c347200d2a",
+    "EffectiveDates": {
+        "StartDate": "2024-01-01",
+        "EndDate": "2024-12-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1b3b6f35-96ef-4e88-9670-adbb48f06b32",
+        "Name": "Jennifer Lopez",
+        "PolicyNumber": "14993e47-bca1-4b3c-9bc0-40c347200d2a",
+        "ContactInformation": {
+            "Phone": "001-888-501-8363x99894",
+            "Email": "kathleen93@example.org",
+            "Address": "121 Welch Shore Suite 670\nDurhamburgh, LA 24708"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-23",
+        "Location": "98256 Young Mountains Apt. 859\nNew Jonathan, NY 85766",
+        "Description": "Suffer spring girl western perform once consider song. Under boy policy. Paper argue idea one woman tree.\nLikely lay gas community. Else pick suggest."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1025
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14765
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9245
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13035
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 25181
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 155422,
+        "TotalApproved": 50675
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Horton",
+        "ContactInformation": {
+            "Phone": "(873)954-1792x8350",
+            "Email": "leeamanda@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c3eb43c3-9e62-4482-b15c-c6423bba8e1b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-23T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-28T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-03T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

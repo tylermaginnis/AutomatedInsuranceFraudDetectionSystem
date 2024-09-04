@@ -1,0 +1,81 @@
+{
+    "ClaimID": "78115afd-bad5-4cab-bf11-a8e00065c92a",
+    "PolicyID": "95d127b8-cbba-42ab-93ff-05c8cc6f4ffc",
+    "EffectiveDates": {
+        "StartDate": "2023-10-08",
+        "EndDate": "2024-10-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c4f9a122-b0cc-4af2-9e4f-8b29cc953575",
+        "Name": "Jacqueline West",
+        "PolicyNumber": "95d127b8-cbba-42ab-93ff-05c8cc6f4ffc",
+        "ContactInformation": {
+            "Phone": "001-937-912-0598x670",
+            "Email": "kimjohn@example.org",
+            "Address": "694 Dennis Fort\nEast Bettyfurt, MH 05208"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-13",
+        "Location": "USS Watson\nFPO AA 71283",
+        "Description": "Dinner explain customer guess decision. Television tree off boy structure.\nWhat production pull national. Bit building would large cultural method discussion."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15565
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47952
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14694
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 148777
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7952
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 71647,
+        "TotalApproved": 1112
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Tyler",
+        "ContactInformation": {
+            "Phone": "+1-543-323-9765",
+            "Email": "xbutler@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2b54c48b-12ee-4df3-9377-ffa63904c497"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-13T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-18T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-23T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

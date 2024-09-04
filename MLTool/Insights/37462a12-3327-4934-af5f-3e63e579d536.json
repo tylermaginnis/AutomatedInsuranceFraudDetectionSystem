@@ -1,0 +1,81 @@
+{
+    "ClaimID": "37462a12-3327-4934-af5f-3e63e579d536",
+    "PolicyID": "f23aaefc-43f0-4c68-91e3-5062d2d9423d",
+    "EffectiveDates": {
+        "StartDate": "2024-08-18",
+        "EndDate": "2025-08-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5c8ad610-b39c-4ffb-ab53-27754eb9abe7",
+        "Name": "Brendan Thomas",
+        "PolicyNumber": "f23aaefc-43f0-4c68-91e3-5062d2d9423d",
+        "ContactInformation": {
+            "Phone": "(484)387-3797",
+            "Email": "bevans@example.com",
+            "Address": "308 Hayes Lock\nMilesberg, KS 43429"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-17",
+        "Location": "132 Laura Unions Apt. 075\nEast Anne, AS 27349",
+        "Description": "Forward miss establish involve air I. Daughter beyond participant impact culture indicate loss. Trade stuff audience interesting.\nJoin method white view staff. Single choose machine never."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44477
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 74578
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3559
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 108487
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9227
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 8792,
+        "TotalApproved": 2690
+    },
+    "AdjusterDetails": {
+        "Name": "Shaun Turner",
+        "ContactInformation": {
+            "Phone": "+1-505-844-6990x2739",
+            "Email": "hartdouglas@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/85fbfed3-8340-48e6-b93f-528b2b396023"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-17T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-22T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-27T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

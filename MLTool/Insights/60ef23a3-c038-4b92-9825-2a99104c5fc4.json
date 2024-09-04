@@ -1,0 +1,81 @@
+{
+    "ClaimID": "60ef23a3-c038-4b92-9825-2a99104c5fc4",
+    "PolicyID": "e79991a8-168b-4353-9bbb-0b9d869f9391",
+    "EffectiveDates": {
+        "StartDate": "2024-05-02",
+        "EndDate": "2025-05-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e3b5c2fb-ee71-49ad-8135-da463191e4ea",
+        "Name": "Lisa Williams",
+        "PolicyNumber": "e79991a8-168b-4353-9bbb-0b9d869f9391",
+        "ContactInformation": {
+            "Phone": "378.692.7935",
+            "Email": "robinsonstephanie@example.net",
+            "Address": "76836 Davila Park Suite 597\nNew Elizabethfort, NH 34882"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-11",
+        "Location": "48060 Matthew Way Suite 501\nSouth Kyletown, TN 82645",
+        "Description": "Serve production offer once off general step. His success position head white trade find. Case blue general only perform you well."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9188
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9325
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11793
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 155470
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 68502
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 16472,
+        "TotalApproved": 5341
+    },
+    "AdjusterDetails": {
+        "Name": "James Peters",
+        "ContactInformation": {
+            "Phone": "504-595-8277x012",
+            "Email": "terrycarolyn@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7ad044ed-38b9-4ad3-a0e2-396721270440"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-11T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-16T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-21T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

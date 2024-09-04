@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c4aa4b8f-f0e1-46e9-ba64-a69e9981a1e5",
+    "PolicyID": "10165aca-2b9b-4ee8-9f99-04daa59acb40",
+    "EffectiveDates": {
+        "StartDate": "2024-08-29",
+        "EndDate": "2025-08-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1b41b54c-20c2-4f28-a476-b680df09f04a",
+        "Name": "Courtney Santos",
+        "PolicyNumber": "10165aca-2b9b-4ee8-9f99-04daa59acb40",
+        "ContactInformation": {
+            "Phone": "315-821-7382x82255",
+            "Email": "wendy90@example.net",
+            "Address": "79308 Brandy Ridge\nNew Sandra, GU 63258"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-01",
+        "Location": "0467 Wright Divide Suite 413\nSouth Casey, NE 94120",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 97623
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25322
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5300
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14242
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9683
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 152170,
+        "TotalApproved": 45645
+    },
+    "AdjusterDetails": {
+        "Name": "Terri Evans",
+        "ContactInformation": {
+            "Phone": "673.367.2111x9495",
+            "Email": "nicholas34@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7639ccc1-35f3-468b-b65c-2f8eef84c7e1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

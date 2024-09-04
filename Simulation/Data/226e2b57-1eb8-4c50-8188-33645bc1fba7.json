@@ -1,0 +1,80 @@
+{
+  "ClaimID": "226e2b57-1eb8-4c50-8188-33645bc1fba7",
+  "PolicyID": "20bc49de-13a2-411c-8727-ad6c848069bd",
+  "EffectiveDates": {
+    "StartDate": "2023-10-19",
+    "EndDate": "2024-10-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9ad13e12-77b2-49a5-bc9a-a688be9cd952",
+    "Name": "Troy Ellis",
+    "PolicyNumber": "20bc49de-13a2-411c-8727-ad6c848069bd",
+    "ContactInformation": {
+      "Phone": "+1-908-503-4897x175",
+      "Email": "scottspencer@example.org",
+      "Address": "Unit 6163 Box 1294\nDPO AP 82739"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-15",
+    "Location": "276 Andrew Meadows\nMichaelview, OK 63333",
+    "Description": "Factor phone join either because mother. Hospital doctor simple throughout especially space hear.\nPlant reveal list series. Should some include ball treat sit less."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5329
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 121150
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 17584
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3750
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5067
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 63612,
+    "TotalApproved": 39435
+  },
+  "AdjusterDetails": {
+    "Name": "Daniel Leonard",
+    "ContactInformation": {
+      "Phone": "+1-448-761-1675x703",
+      "Email": "dianegonzalez@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/fb940341-877c-48d7-9c28-2681995760c8"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-15T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-20T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-25T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

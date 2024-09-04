@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a8ebb88d-50ab-4cb4-9d10-732c11b1a88d",
+    "PolicyID": "98875a3d-892b-4f9e-a55f-67ba9ac04d55",
+    "EffectiveDates": {
+        "StartDate": "2023-10-26",
+        "EndDate": "2024-10-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6481c2d8-1ce6-43bc-9fc4-e4225c82cf78",
+        "Name": "John Garcia",
+        "PolicyNumber": "98875a3d-892b-4f9e-a55f-67ba9ac04d55",
+        "ContactInformation": {
+            "Phone": "4747834377",
+            "Email": "garciapatricia@example.org",
+            "Address": "8351 Nicole Spurs Suite 077\nNorth Amyfurt, VT 86666"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-28",
+        "Location": "111 Jeremy Row Apt. 248\nPort Matthew, LA 69379",
+        "Description": "Itself purpose friend too. Cost structure base decision. Increase bring development feel those news skill. South support director wrong."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 185447
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1964
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44649
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49991
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 30616
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 103099,
+        "TotalApproved": 31139
+    },
+    "AdjusterDetails": {
+        "Name": "Kathleen Pugh",
+        "ContactInformation": {
+            "Phone": "935-863-0914x37897",
+            "Email": "dylanmurphy@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3c1eb000-86cd-465f-95f1-2d05abe0d577"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-28T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-02T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-07T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

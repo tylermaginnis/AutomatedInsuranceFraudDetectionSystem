@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8ddbf8a6-9dc8-421a-869e-0dea1e3c1bec",
+    "PolicyID": "bb5dd723-85d1-4ae3-bb72-a2d108a23d32",
+    "EffectiveDates": {
+        "StartDate": "2024-06-15",
+        "EndDate": "2025-06-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "77a92383-c1f9-4cc7-a4cd-d5305cf940c4",
+        "Name": "Jennifer Williams",
+        "PolicyNumber": "bb5dd723-85d1-4ae3-bb72-a2d108a23d32",
+        "ContactInformation": {
+            "Phone": "252.399.2265x97393",
+            "Email": "bergkimberly@example.net",
+            "Address": "561 Clark Forest Apt. 491\nLake Sabrina, MI 91447"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-14",
+        "Location": "04152 Bryant Village\nJonesfurt, MN 50055",
+        "Description": "Brother claim month attack charge message benefit. It air future hard I purpose wonder. Then American in strong.\nNature consumer still wait institution mind. Return sort beat next go garden couple."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9812
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3885
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4717
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8398
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18125
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 78348,
+        "TotalApproved": 19620
+    },
+    "AdjusterDetails": {
+        "Name": "Erin Patterson",
+        "ContactInformation": {
+            "Phone": "586.967.9464x737",
+            "Email": "amanda92@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/76ff69e0-f63c-488e-bded-41d8de888040"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

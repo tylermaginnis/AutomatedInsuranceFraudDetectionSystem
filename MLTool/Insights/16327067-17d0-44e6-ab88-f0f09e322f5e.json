@@ -1,0 +1,81 @@
+{
+    "ClaimID": "16327067-17d0-44e6-ab88-f0f09e322f5e",
+    "PolicyID": "0cbb8b33-313b-437f-bb2c-287d5b78cd38",
+    "EffectiveDates": {
+        "StartDate": "2024-01-14",
+        "EndDate": "2025-01-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71f88732-cc61-4619-a7e5-1fc83ec5dc8f",
+        "Name": "April Smith",
+        "PolicyNumber": "0cbb8b33-313b-437f-bb2c-287d5b78cd38",
+        "ContactInformation": {
+            "Phone": "+1-853-556-6801x4032",
+            "Email": "dianeware@example.net",
+            "Address": "791 Annette Forest\nSouth Barry, OR 69270"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-06",
+        "Location": "460 Wong Skyway Suite 400\nSouth Michaelland, GA 52895",
+        "Description": "Structure leg blood job. Imagine friend day measure you will. Charge toward yes.\nSupport quite yard forget artist. Catch painting fact apply hear compare need."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5434
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1007
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3194
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33806
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 79434
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 163466,
+        "TotalApproved": 100209
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy King",
+        "ContactInformation": {
+            "Phone": "970.612.1350x2450",
+            "Email": "millsmatthew@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8d7ce3e3-5966-470e-bfa6-f4aa52c6f429"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

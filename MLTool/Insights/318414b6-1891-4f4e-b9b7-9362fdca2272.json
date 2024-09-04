@@ -1,0 +1,81 @@
+{
+    "ClaimID": "318414b6-1891-4f4e-b9b7-9362fdca2272",
+    "PolicyID": "8fafe450-b8dd-4eb1-8ad7-cfbf8914f2e7",
+    "EffectiveDates": {
+        "StartDate": "2024-07-29",
+        "EndDate": "2025-07-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "81d6cce8-a5e6-408d-b567-6a076ce700f9",
+        "Name": "Steven Vasquez",
+        "PolicyNumber": "8fafe450-b8dd-4eb1-8ad7-cfbf8914f2e7",
+        "ContactInformation": {
+            "Phone": "679.880.6627",
+            "Email": "michaelpope@example.org",
+            "Address": "USNV Wilson\nFPO AA 92622"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-30",
+        "Location": "80805 Lynn Stream Apt. 665\nWest Royburgh, SC 21607",
+        "Description": "Improve talk everybody second affect to western. Budget pretty after admit seven which hard create."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79700
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 21120
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6971
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4385
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38591
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 140496,
+        "TotalApproved": 20327
+    },
+    "AdjusterDetails": {
+        "Name": "Tracy Vega",
+        "ContactInformation": {
+            "Phone": "001-995-743-5057x4113",
+            "Email": "petercain@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8fa33f31-4d2f-4206-acc3-a1e008c37b9b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

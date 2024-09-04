@@ -1,0 +1,81 @@
+{
+    "ClaimID": "518cf10c-729c-4e39-bac8-e89b88fc4fc1",
+    "PolicyID": "37a447e7-dd66-4a86-817a-45e8b478aab4",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "96271429-b7d5-4e5b-acd8-adc0a0b69460",
+        "Name": "James Stone",
+        "PolicyNumber": "37a447e7-dd66-4a86-817a-45e8b478aab4",
+        "ContactInformation": {
+            "Phone": "958-929-2331x4819",
+            "Email": "richard58@example.net",
+            "Address": "4310 Knight Gardens\nRamosview, NJ 60862"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-02",
+        "Location": "602 Bradley Rapids\nHerringmouth, ND 58273",
+        "Description": "Certain yet wide exist day anyone. Government authority long painting recognize. However more force community should. Kitchen space staff daughter decision firm explain."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9552
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 110855
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32507
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 171024
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7986
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 27026,
+        "TotalApproved": 26596
+    },
+    "AdjusterDetails": {
+        "Name": "Calvin Johnson",
+        "ContactInformation": {
+            "Phone": "389-378-6504x9736",
+            "Email": "schmittwendy@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c249ebb0-f6ad-4cd4-80e9-fcf169ef0f5a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

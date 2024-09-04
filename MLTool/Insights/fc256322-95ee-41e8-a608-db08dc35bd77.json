@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fc256322-95ee-41e8-a608-db08dc35bd77",
+    "PolicyID": "c33f7104-f0f9-4716-8936-edb1a7ba1539",
+    "EffectiveDates": {
+        "StartDate": "2024-06-12",
+        "EndDate": "2025-06-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d36aba4c-fbd2-4486-971e-00e33aff2720",
+        "Name": "Johnathan Mora Jr.",
+        "PolicyNumber": "c33f7104-f0f9-4716-8936-edb1a7ba1539",
+        "ContactInformation": {
+            "Phone": "764-210-8731",
+            "Email": "lukekent@example.com",
+            "Address": "00174 Robinson Springs\nPort Loritown, IN 21574"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-15",
+        "Location": "5739 Mathew Lake Apt. 548\nNew Connie, GU 97606",
+        "Description": "Fund daughter response learn particularly under might. Plant fire or speech girl.\nOr a sign authority heart board gun art. Front list free admit middle standard."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 65153
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49512
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12059
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13502
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13506
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 156848,
+        "TotalApproved": 78725
+    },
+    "AdjusterDetails": {
+        "Name": "Troy Boyd",
+        "ContactInformation": {
+            "Phone": "284-728-7069x599",
+            "Email": "aduncan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/af36b043-be59-442f-890a-e57f4e295b1d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4c7dc1e5-d523-46ae-9cf0-1609b282c9ca",
+    "PolicyID": "eb28efd7-a5a6-468a-b582-38909714fe59",
+    "EffectiveDates": {
+        "StartDate": "2023-09-05",
+        "EndDate": "2024-09-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ae53d29e-2fb4-4536-b71f-c87982f0eb80",
+        "Name": "Melissa Brown",
+        "PolicyNumber": "eb28efd7-a5a6-468a-b582-38909714fe59",
+        "ContactInformation": {
+            "Phone": "+1-562-982-5443x9902",
+            "Email": "millerhenry@example.com",
+            "Address": "676 Hill Path Suite 158\nSouth Jackfort, AS 84090"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-03",
+        "Location": "761 Stone Spur\nSouth Cameron, AS 48793",
+        "Description": "Better off place above. Statement size available thus source that produce significant."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18392
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7679
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 127060
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15367
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 99779
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 72730,
+        "TotalApproved": 59021
+    },
+    "AdjusterDetails": {
+        "Name": "Christian Kline",
+        "ContactInformation": {
+            "Phone": "521.745.2414",
+            "Email": "matthew86@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/78c70149-6413-4b2c-b65e-f17a98f3ad8d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-03T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-08T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-13T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "260d5b84-000c-47e1-938e-156eb80cc948",
+  "PolicyID": "e56c58b5-2f18-43a2-b9b6-bb4129fd9429",
+  "EffectiveDates": {
+    "StartDate": "2023-09-26",
+    "EndDate": "2024-09-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f205eb69-8ccb-49a5-a21a-c641c9736bed",
+    "Name": "Monica Smith",
+    "PolicyNumber": "e56c58b5-2f18-43a2-b9b6-bb4129fd9429",
+    "ContactInformation": {
+      "Phone": "234.545.0560x45313",
+      "Email": "carrollalicia@example.com",
+      "Address": "61340 Nathan Orchard\nAndrewsshire, GA 73825"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-18",
+    "Location": "2712 Dickson Courts\nJulieside, OK 87855",
+    "Description": "Outside now start choose. Fill hundred improve another set now article. Physical person partner international person behavior guy."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 25427
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 17682
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 38876
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2540
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15512
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 45436,
+    "TotalApproved": 18030
+  },
+  "AdjusterDetails": {
+    "Name": "Melinda Smith",
+    "ContactInformation": {
+      "Phone": "981-694-7720",
+      "Email": "edwardstricia@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/f29322cc-dde7-4cc9-ac9a-a06eb739f2d6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-18T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-23T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-28T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

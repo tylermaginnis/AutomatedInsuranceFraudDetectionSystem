@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b807a6c1-029a-483c-ac24-cddda92e4fd3",
+    "PolicyID": "a6b89e43-e2e0-4531-9ff6-d6a28d3f2765",
+    "EffectiveDates": {
+        "StartDate": "2024-05-26",
+        "EndDate": "2025-05-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ee719f11-84c2-492c-a387-519c864d43ea",
+        "Name": "Charles Smith",
+        "PolicyNumber": "a6b89e43-e2e0-4531-9ff6-d6a28d3f2765",
+        "ContactInformation": {
+            "Phone": "001-251-546-8432x94542",
+            "Email": "edwindavis@example.org",
+            "Address": "578 Anna Canyon\nNew Andrew, ND 44028"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-12",
+        "Location": "5640 Christina View Suite 465\nLake Brandontown, PW 54643",
+        "Description": "Strong water assume speak hair reveal. Look analysis tough itself scientist run field. Parent these free might."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 139916
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19356
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22045
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 55344
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25330
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 65213,
+        "TotalApproved": 25493
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Smith",
+        "ContactInformation": {
+            "Phone": "339.713.2795",
+            "Email": "delgadoalice@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/35cb1eef-e8ac-48d6-bc78-bbcc1c1c0d9c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-12T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-17T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-22T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

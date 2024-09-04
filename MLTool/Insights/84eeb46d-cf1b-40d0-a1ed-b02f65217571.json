@@ -1,0 +1,81 @@
+{
+    "ClaimID": "84eeb46d-cf1b-40d0-a1ed-b02f65217571",
+    "PolicyID": "e1cd47d5-acfd-4131-bbfa-77bd821b4288",
+    "EffectiveDates": {
+        "StartDate": "2023-12-21",
+        "EndDate": "2024-12-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "221eace8-192c-4a41-9601-ead1b7b8a6aa",
+        "Name": "Blake Hale",
+        "PolicyNumber": "e1cd47d5-acfd-4131-bbfa-77bd821b4288",
+        "ContactInformation": {
+            "Phone": "(899)685-9448x4688",
+            "Email": "rushkyle@example.org",
+            "Address": "63246 Ashley Views\nNorth Joseton, ME 54525"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-07",
+        "Location": "04259 Angela Rest\nZunigaborough, AL 20356",
+        "Description": "Role argue send everything.\nBecome resource above time fish eat whom prevent. Marriage key whether keep represent.\nMember brother reflect class hair. Have determine let much miss have."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8432
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1222
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 67256
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47341
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10853
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 41985,
+        "TotalApproved": 40476
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Kelly",
+        "ContactInformation": {
+            "Phone": "242-983-1882x640",
+            "Email": "holtjohn@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/672a81b4-6fab-4de2-8703-74406b0d91c7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-07T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-12T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-17T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

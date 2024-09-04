@@ -1,0 +1,80 @@
+{
+  "ClaimID": "52b0b97e-fb9f-4f9a-a0fb-6202636ce783",
+  "PolicyID": "06c4bc88-9455-49fe-ada2-a9e3b01aedc1",
+  "EffectiveDates": {
+    "StartDate": "2023-10-19",
+    "EndDate": "2024-10-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8bb1a9da-5daa-42e5-b94a-50e8401c16a2",
+    "Name": "Rebecca Williams",
+    "PolicyNumber": "06c4bc88-9455-49fe-ada2-a9e3b01aedc1",
+    "ContactInformation": {
+      "Phone": "001-889-234-3252x5973",
+      "Email": "fgay@example.org",
+      "Address": "9936 Ortiz Stravenue\nNew Sherrychester, WI 78100"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-27",
+    "Location": "2018 Michael Loaf Apt. 791\nPort Sarahport, SC 01725",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 97332
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 33474
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6376
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 22789
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10666
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 170637,
+    "TotalApproved": 102925
+  },
+  "AdjusterDetails": {
+    "Name": "Lance Cruz",
+    "ContactInformation": {
+      "Phone": "3782753586",
+      "Email": "iflores@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/cd3564ca-66b2-4acf-ae47-24e817c72971"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-27T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-01T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-06T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

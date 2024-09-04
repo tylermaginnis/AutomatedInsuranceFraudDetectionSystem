@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8a2355a9-39dd-4f69-8f2a-9d2d51164e87",
+    "PolicyID": "daddba21-5819-4fdd-ac89-8e5938c32444",
+    "EffectiveDates": {
+        "StartDate": "2024-08-24",
+        "EndDate": "2025-08-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1c663fcb-daa6-4968-9a31-964e9f5330b8",
+        "Name": "Paul Swanson",
+        "PolicyNumber": "daddba21-5819-4fdd-ac89-8e5938c32444",
+        "ContactInformation": {
+            "Phone": "(808)334-5153x57112",
+            "Email": "erica30@example.com",
+            "Address": "USCGC Hanson\nFPO AE 33329"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-24",
+        "Location": "3955 Tyler Islands\nPort Brittanyside, MI 23308",
+        "Description": "Soon beyond like population. Dark return just.\nEver mind ahead firm control only defense. Station mention star. Play PM right hold."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1230
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1643
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45217
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7324
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7424
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 119422,
+        "TotalApproved": 61717
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Williams",
+        "ContactInformation": {
+            "Phone": "735-286-9262",
+            "Email": "westrada@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9c3f93ff-c096-485f-94ca-000e02da5768"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-24T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-01T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-06T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

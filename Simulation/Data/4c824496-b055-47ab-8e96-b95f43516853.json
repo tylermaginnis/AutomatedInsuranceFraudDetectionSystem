@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4c824496-b055-47ab-8e96-b95f43516853",
+  "PolicyID": "5a7261ea-d807-4a4a-b70b-68936508ea68",
+  "EffectiveDates": {
+    "StartDate": "2024-07-30",
+    "EndDate": "2025-07-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f956e769-5529-4a14-9054-063628570b7f",
+    "Name": "Wesley Moore",
+    "PolicyNumber": "5a7261ea-d807-4a4a-b70b-68936508ea68",
+    "ContactInformation": {
+      "Phone": "991.216.6972",
+      "Email": "ortizdavid@example.org",
+      "Address": "370 Li Haven\nSouth Glenn, MA 88210"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-28",
+    "Location": "734 Jack Street\nNorth Melinda, GA 55012",
+    "Description": "The and myself herself institution simply why. Alone table realize money particular. Central usually play mention fight."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2932
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 33516
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 94110
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3525
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 68577
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 94044,
+    "TotalApproved": 47542
+  },
+  "AdjusterDetails": {
+    "Name": "Jamie Morse",
+    "ContactInformation": {
+      "Phone": "+1-205-876-2600x15244",
+      "Email": "osnyder@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/453b032f-3aab-4c21-bdd6-1e61a634d742"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-28T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-03T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-05-08T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

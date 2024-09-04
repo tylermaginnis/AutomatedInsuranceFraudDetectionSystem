@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8e0645d5-8552-4240-9721-aa181f03caec",
+    "PolicyID": "5eb56c1d-f3e4-4ab2-a6c1-a14aada02e3e",
+    "EffectiveDates": {
+        "StartDate": "2024-06-26",
+        "EndDate": "2025-06-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2ba2687d-33b5-46d7-b279-558ad3b06318",
+        "Name": "Manuel Maxwell",
+        "PolicyNumber": "5eb56c1d-f3e4-4ab2-a6c1-a14aada02e3e",
+        "ContactInformation": {
+            "Phone": "(379)752-2861",
+            "Email": "rsmith@example.com",
+            "Address": "87077 Michelle Road\nNew Timothy, MD 62554"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-10",
+        "Location": "9836 Stewart Center\nClarkberg, AS 14190",
+        "Description": "For develop pretty cell. Try woman system place clear direction later. Whom half way hear suddenly despite entire."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3185
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 148799
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29283
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 59529
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8319
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 54171,
+        "TotalApproved": 48433
+    },
+    "AdjusterDetails": {
+        "Name": "Lee Gomez",
+        "ContactInformation": {
+            "Phone": "+1-956-278-3281",
+            "Email": "ngonzalez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e6be27ff-a4cd-4f77-ab29-638c541f5866"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-10T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-15T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-20T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

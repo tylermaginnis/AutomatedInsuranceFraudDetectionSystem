@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ba5f5f72-a5c5-4c47-886a-12be78fcac8d",
+    "PolicyID": "c1b610ab-c9f8-4a54-8d42-fcd14dc73406",
+    "EffectiveDates": {
+        "StartDate": "2024-02-06",
+        "EndDate": "2025-02-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8f7c86fb-58e3-490d-b60c-082d5d074cc1",
+        "Name": "Holly Moore",
+        "PolicyNumber": "c1b610ab-c9f8-4a54-8d42-fcd14dc73406",
+        "ContactInformation": {
+            "Phone": "699.563.0287x280",
+            "Email": "christopheratkinson@example.org",
+            "Address": "67235 Steven Pines Suite 521\nTimothyport, KS 04291"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-21",
+        "Location": "PSC 2777, Box 7585\nAPO AA 67497",
+        "Description": "Idea example body according those their follow.\nMore teacher walk them yard. Writer owner expert her.\nRed science poor great. Itself according thousand cover instead lay board."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7947
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11500
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19271
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18380
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19942
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 80145,
+        "TotalApproved": 5583
+    },
+    "AdjusterDetails": {
+        "Name": "Kristen Browning",
+        "ContactInformation": {
+            "Phone": "(343)779-4595x9131",
+            "Email": "james99@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0dc3ab6d-2d52-4438-96ea-0d26b496b729"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-31T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

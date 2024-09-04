@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1d3b202c-e4e9-4b21-8c96-9fb67b10087a",
+  "PolicyID": "e6acdac7-3d03-45cb-a68d-b9cda34c91c4",
+  "EffectiveDates": {
+    "StartDate": "2023-12-20",
+    "EndDate": "2024-12-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d82fa9b5-3f40-4791-b303-bc7db1dd8f98",
+    "Name": "Mark Williamson",
+    "PolicyNumber": "e6acdac7-3d03-45cb-a68d-b9cda34c91c4",
+    "ContactInformation": {
+      "Phone": "345-282-8039x774",
+      "Email": "abbottcheryl@example.net",
+      "Address": "57356 Fox Crossroad\nSouth Adamhaven, VA 02210"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-29",
+    "Location": "418 Chen Fork\nPort Kenneth, MA 38899",
+    "Description": "She time item may I dog. Soldier continue late break nearly result protect add. Memory worry her box night."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4807
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9208
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 159051
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 19120
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 145412
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 185633,
+    "TotalApproved": 167833
+  },
+  "AdjusterDetails": {
+    "Name": "Kimberly Brown",
+    "ContactInformation": {
+      "Phone": "(750)202-1242x087",
+      "Email": "owright@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/8e7f75a1-91e6-4e22-9d92-1919e6d5d300"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-29T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-04T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-09T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

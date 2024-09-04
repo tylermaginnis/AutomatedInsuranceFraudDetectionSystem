@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cd2ccf2b-d566-45a0-bc02-ade66552de1b",
+    "PolicyID": "43d39d40-214e-433f-8626-4aed77cf1006",
+    "EffectiveDates": {
+        "StartDate": "2024-03-17",
+        "EndDate": "2025-03-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e82f704d-0447-46ea-9fdf-2f94951c824f",
+        "Name": "Jerry Snyder",
+        "PolicyNumber": "43d39d40-214e-433f-8626-4aed77cf1006",
+        "ContactInformation": {
+            "Phone": "9955472736",
+            "Email": "rclark@example.com",
+            "Address": "517 Claire Mall Suite 468\nEast Carlyburgh, KS 47029"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-10",
+        "Location": "4598 Jennifer Divide\nMelissatown, VT 90618",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 96351
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34346
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6249
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21735
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16732
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 175413,
+        "TotalApproved": 114021
+    },
+    "AdjusterDetails": {
+        "Name": "Kyle Jackson",
+        "ContactInformation": {
+            "Phone": "(784)787-4534x652",
+            "Email": "santossamuel@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6b83bd69-81a3-4b90-b2a7-71aaec85b6b1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

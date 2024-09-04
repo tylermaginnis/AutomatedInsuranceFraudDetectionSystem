@@ -1,0 +1,81 @@
+{
+    "ClaimID": "022fd80a-cace-46f7-8dca-2149300f5776",
+    "PolicyID": "1063bf11-429a-44a7-a892-db200555b30b",
+    "EffectiveDates": {
+        "StartDate": "2024-03-04",
+        "EndDate": "2025-03-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b73257b-6992-4eaa-a7e1-a9d0f6d7d4da",
+        "Name": "Becky Williams",
+        "PolicyNumber": "1063bf11-429a-44a7-a892-db200555b30b",
+        "ContactInformation": {
+            "Phone": "4956562079",
+            "Email": "richard80@example.org",
+            "Address": "1998 Ricardo Street\nSparksview, NM 74456"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-16",
+        "Location": "36346 Janet Hollow\nLaurieland, PA 76607",
+        "Description": "Hotel whatever see well sit. Begin me begin four soldier offer.\nAnalysis help real threat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1694
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10441
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10795
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48624
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19834
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 80260,
+        "TotalApproved": 26829
+    },
+    "AdjusterDetails": {
+        "Name": "Wendy Mccoy",
+        "ContactInformation": {
+            "Phone": "4496760353",
+            "Email": "morristhomas@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6ce42b67-3f4d-4f09-b3a2-2dfb20870e00"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-16T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-21T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-26T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ac29dc70-fbe7-4fa9-9a7a-65665c5b122c",
+    "PolicyID": "26157df0-f8ed-46e8-a926-9aefa6d95334",
+    "EffectiveDates": {
+        "StartDate": "2024-03-01",
+        "EndDate": "2025-03-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1cafc11b-6c79-4939-a702-ced704e4e50a",
+        "Name": "Sarah Byrd",
+        "PolicyNumber": "26157df0-f8ed-46e8-a926-9aefa6d95334",
+        "ContactInformation": {
+            "Phone": "(290)384-5385",
+            "Email": "timothylewis@example.net",
+            "Address": "1238 Patrick Island Suite 632\nMarshallchester, FM 92850"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-18",
+        "Location": "5017 Krause Divide\nEast Jerryborough, MN 22902",
+        "Description": "Indeed performance reveal them sure. At training detail word stuff.\nSit ask cell should. Return moment effect could understand than. Theory Mr keep hear put TV local."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33305
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40219
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34047
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6360
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4761
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 193687,
+        "TotalApproved": 166938
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Velez",
+        "ContactInformation": {
+            "Phone": "674.822.3860x24993",
+            "Email": "uadkins@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e57cd61c-4892-451e-a3ba-6a7caf41e4f9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

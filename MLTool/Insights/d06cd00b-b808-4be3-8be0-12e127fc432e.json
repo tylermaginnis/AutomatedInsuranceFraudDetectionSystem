@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d06cd00b-b808-4be3-8be0-12e127fc432e",
+    "PolicyID": "1bcc4dea-f700-45a3-81b9-90cc358ac933",
+    "EffectiveDates": {
+        "StartDate": "2023-11-23",
+        "EndDate": "2024-11-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "58528b4b-89c6-46ae-88c8-020e3547e43f",
+        "Name": "Tina Parker",
+        "PolicyNumber": "1bcc4dea-f700-45a3-81b9-90cc358ac933",
+        "ContactInformation": {
+            "Phone": "2608531685",
+            "Email": "sarabrown@example.net",
+            "Address": "334 Anne Points\nNorth Johnbury, MH 28050"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-08",
+        "Location": "662 Walter Lodge Suite 813\nNew Wanda, IL 64323",
+        "Description": "Brother industry manage rule kid. Next lay away hit region magazine."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5110
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5931
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 156458
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1819
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 178399
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 195787,
+        "TotalApproved": 20936
+    },
+    "AdjusterDetails": {
+        "Name": "Christine Miller",
+        "ContactInformation": {
+            "Phone": "359.847.7042",
+            "Email": "doughertymaria@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1dc9de30-0993-4fb9-92bb-d2ee511405c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

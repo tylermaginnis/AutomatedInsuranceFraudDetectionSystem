@@ -1,0 +1,80 @@
+{
+  "ClaimID": "217b1da7-061d-4ff7-a46d-5710d5e879af",
+  "PolicyID": "b566216f-2f4f-4f9d-8634-45a38251c375",
+  "EffectiveDates": {
+    "StartDate": "2023-10-21",
+    "EndDate": "2024-10-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3d265c01-3fdd-445f-8d21-42949f44b813",
+    "Name": "Kenneth Jordan",
+    "PolicyNumber": "b566216f-2f4f-4f9d-8634-45a38251c375",
+    "ContactInformation": {
+      "Phone": "9776144301",
+      "Email": "dphillips@example.com",
+      "Address": "2377 Kevin Mall\nJohnbury, HI 47280"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-08",
+    "Location": "11778 Carter Hills\nMarytown, IA 28705",
+    "Description": "Figure job conference hair. Security stand station many specific space. Moment miss good candidate coach oil."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5601
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 136853
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 95469
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4487
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 19307
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 19196,
+    "TotalApproved": 4113
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Morris",
+    "ContactInformation": {
+      "Phone": "605.876.6930x2570",
+      "Email": "bmcclain@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/102d5803-730c-475c-b958-5133af1ac4ff"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-08T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-13T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-18T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

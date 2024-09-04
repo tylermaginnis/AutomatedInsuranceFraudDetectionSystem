@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b6f4af76-bdb2-46fd-afce-6c3ff11165ce",
+    "PolicyID": "e5fe7e26-d5f2-4855-92c8-00a880a612c7",
+    "EffectiveDates": {
+        "StartDate": "2024-02-24",
+        "EndDate": "2025-02-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a389d1cf-8bd8-4d08-bf62-6d572091ad91",
+        "Name": "Kelly Archer",
+        "PolicyNumber": "e5fe7e26-d5f2-4855-92c8-00a880a612c7",
+        "ContactInformation": {
+            "Phone": "933.528.6703",
+            "Email": "hrobinson@example.org",
+            "Address": "45598 Obrien Drive Suite 618\nPort Cassieport, VT 67782"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-17",
+        "Location": "57455 Gonzalez Station\nRayside, OH 78906",
+        "Description": "Somebody example near exactly.\nMost control dark offer learn. Candidate issue practice accept full he wide. Head rise perhaps dream away paper."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19830
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7434
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39750
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42286
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 30775
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 117327,
+        "TotalApproved": 6276
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Gonzalez",
+        "ContactInformation": {
+            "Phone": "937.845.9757x32412",
+            "Email": "edwardgonzalez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/693b9447-a871-4076-be48-d86cd9bc4240"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5f7f9a55-6b33-47de-8cb3-ae6940f285af",
+  "PolicyID": "77868c86-ce36-4d0c-88eb-25d4b530f127",
+  "EffectiveDates": {
+    "StartDate": "2023-11-27",
+    "EndDate": "2024-11-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0d92a20f-033b-4f9c-8a37-a6f4d9ada63e",
+    "Name": "Samantha Scott",
+    "PolicyNumber": "77868c86-ce36-4d0c-88eb-25d4b530f127",
+    "ContactInformation": {
+      "Phone": "742-673-8969x779",
+      "Email": "chelsey46@example.net",
+      "Address": "1907 Sean Point Apt. 178\nChristinaburgh, WY 51946"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-19",
+    "Location": "713 Martin Squares\nCurtisside, ME 81538",
+    "Description": "Truth scene executive nice through other region ahead. Message view arm father thus child."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 25132
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 52333
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 120178
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16507
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 15371
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 76614,
+    "TotalApproved": 44857
+  },
+  "AdjusterDetails": {
+    "Name": "Brian Bailey",
+    "ContactInformation": {
+      "Phone": "001-911-488-1398",
+      "Email": "alvarezjohn@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/e9c63046-e2e6-48f8-96bf-b17c96a6d3fa"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-19T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-24T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-29T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

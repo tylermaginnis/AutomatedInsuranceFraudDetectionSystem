@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f018bfd9-6e6b-4676-ab07-b209360810c0",
+    "PolicyID": "bf468686-1115-4a9c-b5cb-f5ed06cf9cc0",
+    "EffectiveDates": {
+        "StartDate": "2024-05-24",
+        "EndDate": "2025-05-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "00be1944-93b4-45e9-9f57-296d00008693",
+        "Name": "Jonathan Perry",
+        "PolicyNumber": "bf468686-1115-4a9c-b5cb-f5ed06cf9cc0",
+        "ContactInformation": {
+            "Phone": "251.410.8567x8188",
+            "Email": "amandasantiago@example.org",
+            "Address": "13677 Vance Stream\nEast Tammybury, CA 98806"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-21",
+        "Location": "970 Russell Oval Suite 686\nMooreland, ND 82606",
+        "Description": "Drug person picture doctor this choice onto. Able approach method service. Cost laugh admit poor account benefit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21173
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18113
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7855
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13004
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8461
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 28970,
+        "TotalApproved": 24964
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Allen",
+        "ContactInformation": {
+            "Phone": "725-672-1491x80282",
+            "Email": "dprice@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/62974479-9fa3-41ab-8288-02cac68cdf09"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

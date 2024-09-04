@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5ce7b6b9-c232-4e07-952f-9423a0324e58",
+    "PolicyID": "e1cd47d5-acfd-4131-bbfa-77bd821b4288",
+    "EffectiveDates": {
+        "StartDate": "2023-10-11",
+        "EndDate": "2024-10-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "221eace8-192c-4a41-9601-ead1b7b8a6aa",
+        "Name": "Blake Hale",
+        "PolicyNumber": "e1cd47d5-acfd-4131-bbfa-77bd821b4288",
+        "ContactInformation": {
+            "Phone": "(899)685-9448x4688",
+            "Email": "rushkyle@example.org",
+            "Address": "63246 Ashley Views\nNorth Joseton, ME 54525"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-11",
+        "Location": "4171 Moore Causeway\nPinedaside, KY 89440",
+        "Description": "Direction him happen itself Republican listen. Build center live must system drive laugh.\nClass book hospital only will event return. Debate member available."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62853
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16827
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7620
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8931
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 98921
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 85575,
+        "TotalApproved": 64258
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Kevin Stevenson MD",
+        "ContactInformation": {
+            "Phone": "001-898-475-6873x63508",
+            "Email": "bacosta@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/ac0c36be-f9b4-4739-bf1c-60ca36a0b65f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

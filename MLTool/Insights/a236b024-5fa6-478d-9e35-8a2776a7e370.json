@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a236b024-5fa6-478d-9e35-8a2776a7e370",
+    "PolicyID": "d3ca6320-da02-4e7e-bd62-c17d648d02d2",
+    "EffectiveDates": {
+        "StartDate": "2023-09-06",
+        "EndDate": "2024-09-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e188bcc2-5e2a-4bb1-b411-b08c58cc030e",
+        "Name": "Christopher Mann",
+        "PolicyNumber": "d3ca6320-da02-4e7e-bd62-c17d648d02d2",
+        "ContactInformation": {
+            "Phone": "984.281.2260x40024",
+            "Email": "kathryn32@example.net",
+            "Address": "43550 Lauren Fords Suite 821\nWest Carl, SD 01530"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-27",
+        "Location": "197 Ashley Rapid\nLoweryland, KS 71597",
+        "Description": "And rise return he ever particular. Too worry seek address senior.\nSuffer trial fear. Top Congress yourself money Congress collection. Production different audience expect."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9901
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4275
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 65450
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 193354
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79618
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 38242,
+        "TotalApproved": 4081
+    },
+    "AdjusterDetails": {
+        "Name": "Paul Johnson",
+        "ContactInformation": {
+            "Phone": "242-944-6660x897",
+            "Email": "kathleen92@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e5955290-d06f-4906-8de7-a5b5411d11da"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-27T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-01T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-06T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

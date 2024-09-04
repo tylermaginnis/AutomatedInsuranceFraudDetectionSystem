@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ad18e752-715c-4dc1-a2e8-acfd63f2842e",
+    "PolicyID": "4a1d8bec-c058-4285-814b-01340da7e39a",
+    "EffectiveDates": {
+        "StartDate": "2023-11-16",
+        "EndDate": "2024-11-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7537cc74-a7bf-46d5-ad06-dec865d38e51",
+        "Name": "Cody Singh",
+        "PolicyNumber": "4a1d8bec-c058-4285-814b-01340da7e39a",
+        "ContactInformation": {
+            "Phone": "858.338.3247",
+            "Email": "katherine47@example.com",
+            "Address": "271 William Orchard\nNew Markton, NM 65784"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-12",
+        "Location": "51235 David Forges\nLindaville, IA 24445",
+        "Description": "Final eye out threat there necessary consumer machine. Name oil throw two. More one cost most car parent late."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13158
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 190481
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2374
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2812
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 147721
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 192012,
+        "TotalApproved": 37995
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Green",
+        "ContactInformation": {
+            "Phone": "(244)362-4953x9158",
+            "Email": "danieljones@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/bed6e978-2862-4305-8c1d-b84a66989290"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-12T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-17T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-22T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

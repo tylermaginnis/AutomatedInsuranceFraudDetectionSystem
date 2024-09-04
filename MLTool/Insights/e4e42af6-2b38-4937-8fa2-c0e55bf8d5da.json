@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e4e42af6-2b38-4937-8fa2-c0e55bf8d5da",
+    "PolicyID": "9bef082b-09a5-43b1-9036-89da14b804bb",
+    "EffectiveDates": {
+        "StartDate": "2024-06-17",
+        "EndDate": "2025-06-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9a0f2153-029d-4968-95a4-0730b179fbdd",
+        "Name": "Natalie Cruz",
+        "PolicyNumber": "9bef082b-09a5-43b1-9036-89da14b804bb",
+        "ContactInformation": {
+            "Phone": "641-785-8041",
+            "Email": "johndavis@example.org",
+            "Address": "11115 Ryan Dam\nSouth Laurie, CO 03197"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-15",
+        "Location": "46942 David Isle Apt. 297\nLake Benjaminstad, MA 62725",
+        "Description": "West learn country growth century responsibility. Commercial sign officer.\nRegion upon many win research perform. Right let kind agency although southern drop."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 117241
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7800
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9483
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14570
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32845
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 131263,
+        "TotalApproved": 73017
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Adams",
+        "ContactInformation": {
+            "Phone": "001-269-619-7014x380",
+            "Email": "eshaw@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/90cbd628-91dd-42fd-9745-c2d309695d66"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6373a3d2-bc0d-4f64-9517-eb59028cc15f",
+  "PolicyID": "5048cd38-f591-4560-91fa-80ee22a07b5c",
+  "EffectiveDates": {
+    "StartDate": "2023-11-09",
+    "EndDate": "2024-11-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2ceba931-2cdc-4dde-a2f6-6bb21d43ab94",
+    "Name": "James Luna",
+    "PolicyNumber": "5048cd38-f591-4560-91fa-80ee22a07b5c",
+    "ContactInformation": {
+      "Phone": "711.629.2674",
+      "Email": "parkmike@example.net",
+      "Address": "361 Frank Stream Suite 048\nElliottburgh, MD 98195"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-30",
+    "Location": "28552 Smith Rest\nReedburgh, CO 63223",
+    "Description": "Kid least seek night. Nearly create what concern minute market.\nNational live real out ahead.\nWide develop everybody station various. Red tax picture in race seat benefit."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 75832
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 14370
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 77490
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17427
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 43582
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 117106,
+    "TotalApproved": 117009
+  },
+  "AdjusterDetails": {
+    "Name": "Tonya Perez",
+    "ContactInformation": {
+      "Phone": "493.902.0295x8190",
+      "Email": "kingjackie@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/82e85e58-ffbf-4750-a076-fbeb565c4956"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-30T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-04T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-09T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

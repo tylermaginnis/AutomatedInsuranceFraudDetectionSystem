@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d14ea5a7-9245-4399-bbf3-8b8c92248c76",
+    "PolicyID": "c5951a01-65cd-4b07-82af-18f7e32ba710",
+    "EffectiveDates": {
+        "StartDate": "2024-04-08",
+        "EndDate": "2025-04-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8da0dc54-2fa4-4b4a-8715-d956ab701d20",
+        "Name": "Jamie Peterson",
+        "PolicyNumber": "c5951a01-65cd-4b07-82af-18f7e32ba710",
+        "ContactInformation": {
+            "Phone": "+1-560-585-8049x28533",
+            "Email": "bclark@example.com",
+            "Address": "87784 Amy Branch\nSaraland, MS 20175"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-11",
+        "Location": "62286 Welch Key Apt. 223\nPort Nathanland, SC 45852",
+        "Description": "Whose case them authority its. Relationship prevent same tree character sort program.\nOutside kind concern knowledge successful various impact. Student process side."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21750
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 28628
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5155
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19845
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11295
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 20109,
+        "TotalApproved": 3038
+    },
+    "AdjusterDetails": {
+        "Name": "Bradley Anderson",
+        "ContactInformation": {
+            "Phone": "7273607781",
+            "Email": "jacqueline99@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9061f43a-a6b4-46f3-b3d9-47b2e16f8fd3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

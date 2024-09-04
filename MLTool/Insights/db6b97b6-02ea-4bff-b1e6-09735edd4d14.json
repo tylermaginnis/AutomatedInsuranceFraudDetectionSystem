@@ -1,0 +1,81 @@
+{
+    "ClaimID": "db6b97b6-02ea-4bff-b1e6-09735edd4d14",
+    "PolicyID": "dd79eece-322e-4fc4-a3da-a3d7b814cfe0",
+    "EffectiveDates": {
+        "StartDate": "2024-07-20",
+        "EndDate": "2025-07-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6c643a6f-1c41-400c-a04b-32c9c377f30b",
+        "Name": "Mark Paul",
+        "PolicyNumber": "dd79eece-322e-4fc4-a3da-a3d7b814cfe0",
+        "ContactInformation": {
+            "Phone": "831-942-4029x28574",
+            "Email": "matthewpeterson@example.org",
+            "Address": "651 Riggs Haven Apt. 429\nNew John, MP 73634"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-15",
+        "Location": "86505 Kayla Plains Apt. 949\nBeckerburgh, SC 01874",
+        "Description": "Model drug painting response. Forward believe again space she future top manager. Brother step reduce."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18651
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 96497
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71240
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7523
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 78981
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 114973,
+        "TotalApproved": 92588
+    },
+    "AdjusterDetails": {
+        "Name": "John Gardner",
+        "ContactInformation": {
+            "Phone": "+1-367-309-1696x617",
+            "Email": "yreid@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/cffbe749-5841-4578-a9f6-de6a851cea93"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

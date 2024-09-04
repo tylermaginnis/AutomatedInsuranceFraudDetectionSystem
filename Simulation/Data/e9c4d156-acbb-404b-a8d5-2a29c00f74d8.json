@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e9c4d156-acbb-404b-a8d5-2a29c00f74d8",
+  "PolicyID": "76b4a79f-92d9-4bda-92cd-642d441d50ec",
+  "EffectiveDates": {
+    "StartDate": "2023-12-22",
+    "EndDate": "2024-12-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0ef843e7-db8c-4640-85ee-86bd7834ba75",
+    "Name": "Pedro Parker",
+    "PolicyNumber": "76b4a79f-92d9-4bda-92cd-642d441d50ec",
+    "ContactInformation": {
+      "Phone": "525.495.1810x0459",
+      "Email": "zriley@example.net",
+      "Address": "6760 Sarah Estate Apt. 063\nPort Michelleton, NV 65986"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-13",
+    "Location": "3169 Tammy Station Apt. 261\nNew Kaylachester, IL 47258",
+    "Description": "Truth group itself include stand could."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7164
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9830
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7038
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 24585
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 126821
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 135053,
+    "TotalApproved": 93422
+  },
+  "AdjusterDetails": {
+    "Name": "Charles Reese",
+    "ContactInformation": {
+      "Phone": "(357)418-4536x954",
+      "Email": "vanessawilliams@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/6eeab1dd-7017-400f-9133-bbd896206ccd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-13T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-18T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-23T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

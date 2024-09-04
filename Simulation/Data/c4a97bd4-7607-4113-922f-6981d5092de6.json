@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c4a97bd4-7607-4113-922f-6981d5092de6",
+  "PolicyID": "2c35c96a-a551-491f-a9a9-6ba08e01365d",
+  "EffectiveDates": {
+    "StartDate": "2024-01-10",
+    "EndDate": "2025-01-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "362b283e-6efa-480f-bf42-44f32cb77399",
+    "Name": "David Rivera",
+    "PolicyNumber": "2c35c96a-a551-491f-a9a9-6ba08e01365d",
+    "ContactInformation": {
+      "Phone": "885.519.8019",
+      "Email": "sjenkins@example.net",
+      "Address": "349 Melissa Cape Suite 109\nEast Joannville, NE 06374"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-25",
+    "Location": "773 Johnson Manor Apt. 041\nPort Christianburgh, IL 02791",
+    "Description": "Tax at crime once garden measure statement wonder. Appear visit serve tonight meet painting star."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7513
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 94292
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 155657
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 79774
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8372
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 94742,
+    "TotalApproved": 65752
+  },
+  "AdjusterDetails": {
+    "Name": "Brian Sweeney",
+    "ContactInformation": {
+      "Phone": "991.211.0118",
+      "Email": "sowens@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/b1b30698-f4b2-4982-92ed-e51ab28a0a2b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-25T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-30T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-04T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

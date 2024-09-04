@@ -1,0 +1,81 @@
+{
+    "ClaimID": "07a1be7c-8556-42a4-b39f-3e40990c85ea",
+    "PolicyID": "edb1979d-cf68-4e60-9e1e-965dd402887e",
+    "EffectiveDates": {
+        "StartDate": "2024-02-21",
+        "EndDate": "2025-02-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b6494c84-6d5a-4af6-82f1-d25c0e1e261d",
+        "Name": "Angela Payne",
+        "PolicyNumber": "edb1979d-cf68-4e60-9e1e-965dd402887e",
+        "ContactInformation": {
+            "Phone": "943-259-3080x930",
+            "Email": "jamesherman@example.com",
+            "Address": "PSC 7970, Box 9629\nAPO AE 72438"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-09",
+        "Location": "975 Allen Station\nJosephside, WA 42579",
+        "Description": "Film truth soon impact. Everybody four result commercial state experience.\nImprove almost almost. Dinner avoid upon child. Reveal travel finish pretty."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7186
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24162
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 71126
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6168
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31913
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 5515,
+        "TotalApproved": 2570
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Miller",
+        "ContactInformation": {
+            "Phone": "759.871.1520",
+            "Email": "rodriguezderek@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f66a6315-44f4-41ed-b40b-1b588b5ad59e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

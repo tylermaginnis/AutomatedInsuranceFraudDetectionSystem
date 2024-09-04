@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b0b16790-5e67-4a1c-b4e8-80b9ab3168ab",
+    "PolicyID": "f13349d6-f21b-4430-b3ca-6b040200ce76",
+    "EffectiveDates": {
+        "StartDate": "2024-02-28",
+        "EndDate": "2025-02-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0884f03d-0d91-4800-babe-bb22fee1b18a",
+        "Name": "James Ho",
+        "PolicyNumber": "f13349d6-f21b-4430-b3ca-6b040200ce76",
+        "ContactInformation": {
+            "Phone": "877-346-7754x5054",
+            "Email": "mooremarcus@example.net",
+            "Address": "3961 Benjamin Wall\nHarveyville, RI 93461"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-20",
+        "Location": "334 Daniel Crest Apt. 167\nEast Natashaland, NH 61910",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 50703
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47482
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9753
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16369
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6899
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 131206,
+        "TotalApproved": 76130
+    },
+    "AdjusterDetails": {
+        "Name": "Andrea Allen",
+        "ContactInformation": {
+            "Phone": "5698648280",
+            "Email": "david50@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6215f482-b399-4b40-8395-b078d25967f1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-20T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-25T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-30T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

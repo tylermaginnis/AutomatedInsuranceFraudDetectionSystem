@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f40c62e2-063e-4dad-bf3f-11ced233701b",
+    "PolicyID": "bdba6eb2-5112-4451-9959-2e6675261837",
+    "EffectiveDates": {
+        "StartDate": "2024-06-14",
+        "EndDate": "2025-06-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b4e7013a-b899-4c31-a4d9-2610b2cf3dcb",
+        "Name": "Kristen Terrell",
+        "PolicyNumber": "bdba6eb2-5112-4451-9959-2e6675261837",
+        "ContactInformation": {
+            "Phone": "832-539-8260x9481",
+            "Email": "matthewmoody@example.com",
+            "Address": "364 William View\nCollinsview, DE 09510"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-05",
+        "Location": "17717 Patrick Motorway\nPort Zacharyburgh, GA 69996",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 73387
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42658
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6617
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11796
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13710
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 148168,
+        "TotalApproved": 62876
+    },
+    "AdjusterDetails": {
+        "Name": "Candice Lloyd",
+        "ContactInformation": {
+            "Phone": "001-628-492-8030",
+            "Email": "morgandylan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/df2fa927-851c-443e-91c2-340480dd90a5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

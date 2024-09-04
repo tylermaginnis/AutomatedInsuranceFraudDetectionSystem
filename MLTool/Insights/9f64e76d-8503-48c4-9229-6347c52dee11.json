@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9f64e76d-8503-48c4-9229-6347c52dee11",
+    "PolicyID": "68aa050d-aaeb-4882-a381-3399b9062a26",
+    "EffectiveDates": {
+        "StartDate": "2024-07-05",
+        "EndDate": "2025-07-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "141583d4-0d2d-4f4a-bf21-4caf14af9f54",
+        "Name": "Carol Jones",
+        "PolicyNumber": "68aa050d-aaeb-4882-a381-3399b9062a26",
+        "ContactInformation": {
+            "Phone": "(747)409-7706",
+            "Email": "christophermcdaniel@example.org",
+            "Address": "36204 Proctor Falls\nMatthewburgh, TN 69008"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-14",
+        "Location": "Unit 2926 Box 1601\nDPO AE 75319",
+        "Description": "Name area art family although theory understand. Threat say tax real finish. Make Republican young democratic travel."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33906
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33114
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 88146
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 143483
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10242
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 128171,
+        "TotalApproved": 34167
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Davis",
+        "ContactInformation": {
+            "Phone": "5923354409",
+            "Email": "christopher33@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/30b60723-258d-40c3-91da-c0b494b96239"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

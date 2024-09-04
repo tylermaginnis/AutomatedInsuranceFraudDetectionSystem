@@ -1,0 +1,81 @@
+{
+    "ClaimID": "304d3935-44de-4c18-a728-88aedeb32291",
+    "PolicyID": "48248bbd-18f6-4164-8a52-805b84df1097",
+    "EffectiveDates": {
+        "StartDate": "2024-06-30",
+        "EndDate": "2025-06-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "350938f9-2979-4492-8e33-5c1e6ecfddf9",
+        "Name": "Melissa Shelton",
+        "PolicyNumber": "48248bbd-18f6-4164-8a52-805b84df1097",
+        "ContactInformation": {
+            "Phone": "918.989.9744x167",
+            "Email": "laura85@example.com",
+            "Address": "USNS Gibson\nFPO AE 22517"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-07",
+        "Location": "USNS Evans\nFPO AP 62684",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 68812
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49996
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5840
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16044
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10400
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 151092,
+        "TotalApproved": 108892
+    },
+    "AdjusterDetails": {
+        "Name": "David Ballard",
+        "ContactInformation": {
+            "Phone": "623.660.2583",
+            "Email": "oconnordebra@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/27abf6f4-2684-4888-b619-621e85b6bc91"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-07T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-12T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-17T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

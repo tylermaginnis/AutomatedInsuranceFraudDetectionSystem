@@ -1,0 +1,81 @@
+{
+    "ClaimID": "da05c056-9b90-4165-a84e-3640872e8956",
+    "PolicyID": "ce8d7047-e48e-4603-bb46-8b1cc2a05000",
+    "EffectiveDates": {
+        "StartDate": "2024-06-01",
+        "EndDate": "2025-06-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0a4dfafa-e389-480b-975f-d585102c9c37",
+        "Name": "Alicia Wyatt",
+        "PolicyNumber": "ce8d7047-e48e-4603-bb46-8b1cc2a05000",
+        "ContactInformation": {
+            "Phone": "001-368-783-2367",
+            "Email": "barbermatthew@example.com",
+            "Address": "65446 Briana Squares Apt. 554\nJosephland, MA 03157"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-08",
+        "Location": "1712 Pierce Dale Suite 761\nMarieview, MN 93316",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 66221
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28191
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9154
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13407
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5477
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 122450,
+        "TotalApproved": 52637
+    },
+    "AdjusterDetails": {
+        "Name": "Austin Romero",
+        "ContactInformation": {
+            "Phone": "431.429.1856",
+            "Email": "odavis@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/73964db9-c157-41ea-b4e1-2e713a246633"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

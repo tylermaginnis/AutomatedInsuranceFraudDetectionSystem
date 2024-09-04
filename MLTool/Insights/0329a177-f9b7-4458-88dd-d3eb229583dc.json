@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0329a177-f9b7-4458-88dd-d3eb229583dc",
+    "PolicyID": "fe6fc2fa-43d5-41e9-ab19-d0dd16cb54b8",
+    "EffectiveDates": {
+        "StartDate": "2023-10-14",
+        "EndDate": "2024-10-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9bb96e2d-534d-49f9-944d-c76baab3f00f",
+        "Name": "Don Friedman",
+        "PolicyNumber": "fe6fc2fa-43d5-41e9-ab19-d0dd16cb54b8",
+        "ContactInformation": {
+            "Phone": "404-716-5181x4868",
+            "Email": "rebecca79@example.net",
+            "Address": "1143 Luna Forest\nJacobshire, NE 11830"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-31",
+        "Location": "86123 Cook Manors\nStephanieland, CA 07892",
+        "Description": "Out stop worry party agree. Develop later degree offer listen almost smile. Edge enough better.\nMeet sing today once. Television least stop employee order."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 103604
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12815
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17715
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7490
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4369
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 80981,
+        "TotalApproved": 80299
+    },
+    "AdjusterDetails": {
+        "Name": "Rodney Brown",
+        "ContactInformation": {
+            "Phone": "001-514-437-9378x94698",
+            "Email": "rebecca60@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f0ab6470-80b2-43a3-ad0e-ac5ff721ce08"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-31T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

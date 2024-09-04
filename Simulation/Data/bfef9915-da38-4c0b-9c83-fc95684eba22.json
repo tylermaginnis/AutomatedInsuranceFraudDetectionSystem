@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bfef9915-da38-4c0b-9c83-fc95684eba22",
+  "PolicyID": "d7b9f6f8-5ca0-4d4f-a01e-0a8510195bce",
+  "EffectiveDates": {
+    "StartDate": "2023-11-19",
+    "EndDate": "2024-11-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d336c84d-f248-47bb-8f13-9481b5af302e",
+    "Name": "Julian Wright",
+    "PolicyNumber": "d7b9f6f8-5ca0-4d4f-a01e-0a8510195bce",
+    "ContactInformation": {
+      "Phone": "537.624.7518x2087",
+      "Email": "ryaningram@example.net",
+      "Address": "1010 Andrew Roads Suite 933\nCalvinmouth, NM 90450"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-20",
+    "Location": "USCGC Smith\nFPO AP 09576",
+    "Description": "Table state dinner give certain. Pm last affect trade remain office either foot. Born serious responsibility woman job idea."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11700
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 34374
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 91193
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10217
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6152
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 55759,
+    "TotalApproved": 45919
+  },
+  "AdjusterDetails": {
+    "Name": "Brad Clarke",
+    "ContactInformation": {
+      "Phone": "5243878758",
+      "Email": "jchambers@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/60bf0b40-8264-4a7a-b30c-fb596cc1377b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-20T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-25T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-30T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

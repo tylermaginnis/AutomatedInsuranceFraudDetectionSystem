@@ -1,0 +1,81 @@
+{
+    "ClaimID": "559db7b2-2936-4369-b417-e9c565fddac5",
+    "PolicyID": "5fd2105e-2a68-413a-b0f8-dc58eee08878",
+    "EffectiveDates": {
+        "StartDate": "2024-05-12",
+        "EndDate": "2025-05-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e8b2c329-1b61-444b-a94c-698033ec133a",
+        "Name": "Robert Bond",
+        "PolicyNumber": "5fd2105e-2a68-413a-b0f8-dc58eee08878",
+        "ContactInformation": {
+            "Phone": "926.638.0280x0970",
+            "Email": "sbrown@example.net",
+            "Address": "PSC 2914, Box 5279\nAPO AP 32750"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-07",
+        "Location": "903 Lopez Loaf\nDixonport, RI 50788",
+        "Description": "Use big measure standard consumer summer. Medical score machine only environment time. Hour something program morning for how must.\nField happy talk picture wear else base. Poor detail team attorney."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 99247
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15524
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 182510
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10980
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18740
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 189338,
+        "TotalApproved": 25162
+    },
+    "AdjusterDetails": {
+        "Name": "Allison Stanley",
+        "ContactInformation": {
+            "Phone": "9679226806",
+            "Email": "angie31@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/349007bd-16e5-45a9-9b86-e4c489eef5c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c590221d-f940-49d1-9462-9cc534a21519",
+    "PolicyID": "f23aaefc-43f0-4c68-91e3-5062d2d9423d",
+    "EffectiveDates": {
+        "StartDate": "2024-04-27",
+        "EndDate": "2025-04-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5c8ad610-b39c-4ffb-ab53-27754eb9abe7",
+        "Name": "Brendan Thomas",
+        "PolicyNumber": "f23aaefc-43f0-4c68-91e3-5062d2d9423d",
+        "ContactInformation": {
+            "Phone": "(484)387-3797",
+            "Email": "bevans@example.com",
+            "Address": "308 Hayes Lock\nMilesberg, KS 43429"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-13",
+        "Location": "33539 Jack Islands Apt. 375\nHarrisonville, MH 50222",
+        "Description": "Or effect tree focus plant research. Table other listen top garden claim. Black bit wide newspaper three ahead condition."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 128843
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 149335
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35543
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 75564
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21363
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 153875,
+        "TotalApproved": 79422
+    },
+    "AdjusterDetails": {
+        "Name": "Walter Garza",
+        "ContactInformation": {
+            "Phone": "443.306.8684",
+            "Email": "shannon22@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7c7d148c-3138-4da3-997d-81e723df6e3a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-13T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-18T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-23T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

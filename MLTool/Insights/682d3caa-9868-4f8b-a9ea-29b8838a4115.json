@@ -1,0 +1,81 @@
+{
+    "ClaimID": "682d3caa-9868-4f8b-a9ea-29b8838a4115",
+    "PolicyID": "cd6d32e7-4caa-4cdc-9e40-75ef4f823bab",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8b42834c-a351-44f6-98b8-74826e1a63d4",
+        "Name": "Katie Hill",
+        "PolicyNumber": "cd6d32e7-4caa-4cdc-9e40-75ef4f823bab",
+        "ContactInformation": {
+            "Phone": "+1-746-642-7378x8021",
+            "Email": "michaelnelson@example.net",
+            "Address": "490 Hall Lake\nWest Matthew, IA 39820"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-02",
+        "Location": "PSC 7385, Box 3622\nAPO AP 67327",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 81111
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37921
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5004
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11230
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10575
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 145841,
+        "TotalApproved": 67144
+    },
+    "AdjusterDetails": {
+        "Name": "Douglas Wade",
+        "ContactInformation": {
+            "Phone": "001-545-200-3508",
+            "Email": "robin37@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/52c67477-a336-425f-af79-b3bf29314644"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

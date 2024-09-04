@@ -1,0 +1,81 @@
+{
+    "ClaimID": "77020b90-4086-4db1-8478-c45604b55cf6",
+    "PolicyID": "cce75843-03f2-48ac-9bde-9e8d6955bb2d",
+    "EffectiveDates": {
+        "StartDate": "2024-06-29",
+        "EndDate": "2025-06-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7d56031e-78ed-4ac7-8548-d2190d93f25a",
+        "Name": "Sally Humphrey",
+        "PolicyNumber": "cce75843-03f2-48ac-9bde-9e8d6955bb2d",
+        "ContactInformation": {
+            "Phone": "243-307-5362x68855",
+            "Email": "stephen19@example.org",
+            "Address": "USNS Hanson\nFPO AP 85933"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-10",
+        "Location": "95673 Mason Skyway Suite 328\nArmstrongburgh, MH 60429",
+        "Description": "Discussion education wrong name interview door operation. Consumer section drop.\nMagazine service less action fund because."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5070
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4136
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2806
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15370
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8226
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 179226,
+        "TotalApproved": 176940
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Mendoza MD",
+        "ContactInformation": {
+            "Phone": "+1-361-985-8153x57195",
+            "Email": "tammy72@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1533f797-bac9-48c1-9661-1767d600e6fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-10T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-15T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-20T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a99308c7-14c8-4e79-aab0-7f626378751c",
+    "PolicyID": "f01a5f2a-3733-42ee-b683-5ec4fa075aa3",
+    "EffectiveDates": {
+        "StartDate": "2024-04-13",
+        "EndDate": "2025-04-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e6b1f1d8-da35-4c53-a3cc-2c4aa00616f9",
+        "Name": "Jacob Maxwell",
+        "PolicyNumber": "f01a5f2a-3733-42ee-b683-5ec4fa075aa3",
+        "ContactInformation": {
+            "Phone": "(916)645-5477x312",
+            "Email": "meganmcpherson@example.org",
+            "Address": "14964 Brian Ferry\nNew Amyview, CO 03368"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-05",
+        "Location": "65833 Daniel Extensions Apt. 315\nLaurafort, LA 70829",
+        "Description": "Court family national trip finish herself meet. Safe fact remember smile nothing before throughout."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 98596
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2634
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4571
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 89436
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22675
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 172403,
+        "TotalApproved": 76964
+    },
+    "AdjusterDetails": {
+        "Name": "Alexander Cain",
+        "ContactInformation": {
+            "Phone": "397-215-4724x85062",
+            "Email": "tjohnson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/68511264-8754-4717-bd69-b958eff5a1ef"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

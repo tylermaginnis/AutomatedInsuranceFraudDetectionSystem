@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9892d9d2-1d8e-4ce9-be68-6fc62a0fd37a",
+    "PolicyID": "ed42dbeb-683a-4ebf-8acc-077915a72750",
+    "EffectiveDates": {
+        "StartDate": "2024-01-05",
+        "EndDate": "2025-01-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a8ae25ee-a641-47e6-958e-addbb3327747",
+        "Name": "Kevin Castillo",
+        "PolicyNumber": "ed42dbeb-683a-4ebf-8acc-077915a72750",
+        "ContactInformation": {
+            "Phone": "433.444.9252x1222",
+            "Email": "brandon74@example.com",
+            "Address": "28071 Holland Rest Apt. 142\nKyleburgh, DE 45872"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-18",
+        "Location": "454 Brown Mount\nLake Madisonside, RI 06356",
+        "Description": "Clear see rise thus not fall plan. Item wait appear professional else maybe within statement.\nOthers meeting green we maybe. Very ground network."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 71141
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9464
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11624
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25893
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27589
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 75539,
+        "TotalApproved": 71730
+    },
+    "AdjusterDetails": {
+        "Name": "Jill Howell",
+        "ContactInformation": {
+            "Phone": "596-436-9864",
+            "Email": "christopher64@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/290e7d7d-be72-44fb-a638-03de6825d476"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

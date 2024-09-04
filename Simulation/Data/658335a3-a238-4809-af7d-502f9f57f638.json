@@ -1,0 +1,80 @@
+{
+  "ClaimID": "658335a3-a238-4809-af7d-502f9f57f638",
+  "PolicyID": "09078d71-e0b8-4d2c-a09f-b6cc1380d329",
+  "EffectiveDates": {
+    "StartDate": "2024-04-16",
+    "EndDate": "2025-04-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4dfab6a0-7986-433f-bb24-1b9386c3777a",
+    "Name": "Christopher Reed PhD",
+    "PolicyNumber": "09078d71-e0b8-4d2c-a09f-b6cc1380d329",
+    "ContactInformation": {
+      "Phone": "336.472.3775x988",
+      "Email": "ysmith@example.org",
+      "Address": "9088 Victoria Via\nShawtown, AZ 20110"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-26",
+    "Location": "42804 Andrea Ridge\nKnoxberg, MD 19077",
+    "Description": "Mr she street trouble.\nBoard perhaps house pull improve build. Age challenge price political issue ball nearly."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 3338
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3861
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9091
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5965
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2914
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 95543,
+    "TotalApproved": 19712
+  },
+  "AdjusterDetails": {
+    "Name": "Clayton Gonzales",
+    "ContactInformation": {
+      "Phone": "650.200.2906x63268",
+      "Email": "donaldshannon@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/fd08dbf3-70f0-4973-9a50-21a8980b0bdb"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-26T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-01T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-06T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "55281275-01f5-4e7a-bb47-cb16161ae09e",
+    "PolicyID": "f960e43d-2b6e-43a4-9c7d-7e2fb48ebba8",
+    "EffectiveDates": {
+        "StartDate": "2023-09-10",
+        "EndDate": "2024-09-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f953eb65-37e2-4409-96fb-2376d62a8993",
+        "Name": "Michael Jones",
+        "PolicyNumber": "f960e43d-2b6e-43a4-9c7d-7e2fb48ebba8",
+        "ContactInformation": {
+            "Phone": "233-659-5060",
+            "Email": "charlesjohnson@example.net",
+            "Address": "23867 Jeffrey Neck Apt. 342\nKurtshire, AR 11116"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-19",
+        "Location": "2010 Kari View Suite 808\nNorth Williamport, MP 84646",
+        "Description": "Him wrong wait. Take member reflect customer.\nBeyond none economic require alone bar. Doctor woman name young whose family pull."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9212
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36716
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49880
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7296
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13034
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 183150,
+        "TotalApproved": 98711
+    },
+    "AdjusterDetails": {
+        "Name": "David Dalton",
+        "ContactInformation": {
+            "Phone": "(685)488-2698x4611",
+            "Email": "tbaker@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cfc2f385-0e91-4db0-b934-df0fd5355315"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-19T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-24T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-29T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

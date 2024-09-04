@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8619e6c8-5285-42ee-bd31-570531b1ffd9",
+    "PolicyID": "857f8df9-0916-43fe-a87e-b765a7787cbf",
+    "EffectiveDates": {
+        "StartDate": "2023-12-11",
+        "EndDate": "2024-12-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5a28b626-79d8-412e-9153-a729d1750a6a",
+        "Name": "Jason Lawrence",
+        "PolicyNumber": "857f8df9-0916-43fe-a87e-b765a7787cbf",
+        "ContactInformation": {
+            "Phone": "+1-654-459-0922x10451",
+            "Email": "johnsonrebecca@example.net",
+            "Address": "7581 Mark Route Suite 909\nElizabethfort, FL 78066"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "89412 Marissa Landing Apt. 309\nHernandezmouth, WI 76500",
+        "Description": "Drive woman attention something weight provide. Unit writer plan improve. Fine just discussion perform magazine also truth strong."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3353
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26376
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38143
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47832
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19067
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 128422,
+        "TotalApproved": 29523
+    },
+    "AdjusterDetails": {
+        "Name": "Anne Jones MD",
+        "ContactInformation": {
+            "Phone": "+1-947-559-3589",
+            "Email": "ohill@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c76aefac-1b18-406f-84bf-46c1a4aea3c0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

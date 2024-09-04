@@ -1,0 +1,80 @@
+{
+  "ClaimID": "386cb48d-0765-43aa-bb49-dd2284e841a5",
+  "PolicyID": "7373ae5e-8728-4ce7-bebe-325690dbeea4",
+  "EffectiveDates": {
+    "StartDate": "2024-05-16",
+    "EndDate": "2025-05-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3898af47-bf34-402d-bfd5-d4a35b1c8b11",
+    "Name": "Michael Estes",
+    "PolicyNumber": "7373ae5e-8728-4ce7-bebe-325690dbeea4",
+    "ContactInformation": {
+      "Phone": "760-904-0625x1865",
+      "Email": "briana71@example.net",
+      "Address": "47194 Griffith Meadow Suite 416\nTravisberg, DC 95290"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-22",
+    "Location": "479 Greene Path\nBrownside, PA 89119",
+    "Description": "Exactly message finish ok plant what enter. Because couple sport direction alone season very. Color blue but pull interview."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 18594
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 22175
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 102130
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 142189
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6432
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 97907,
+    "TotalApproved": 84186
+  },
+  "AdjusterDetails": {
+    "Name": "Tim Jones",
+    "ContactInformation": {
+      "Phone": "(348)491-1929x738",
+      "Email": "bgarcia@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/0f07f98c-193a-4890-a62e-f945fdc350e2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-22T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-27T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-01T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

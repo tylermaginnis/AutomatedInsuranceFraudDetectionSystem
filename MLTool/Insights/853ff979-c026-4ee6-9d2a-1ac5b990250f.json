@@ -1,0 +1,81 @@
+{
+    "ClaimID": "853ff979-c026-4ee6-9d2a-1ac5b990250f",
+    "PolicyID": "b649d42d-c897-4f08-93b4-0fadab7f555e",
+    "EffectiveDates": {
+        "StartDate": "2023-11-03",
+        "EndDate": "2024-11-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dd9f1be2-227a-49aa-83e0-2349231312f0",
+        "Name": "Sandra Beard",
+        "PolicyNumber": "b649d42d-c897-4f08-93b4-0fadab7f555e",
+        "ContactInformation": {
+            "Phone": "(652)424-9036",
+            "Email": "mberry@example.com",
+            "Address": "68469 Hunt Key Suite 782\nChristopherview, CA 03421"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-13",
+        "Location": "60322 Matthew Road Suite 666\nWilliamshaven, AK 03426",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 86570
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34190
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6081
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14156
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15103
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 156100,
+        "TotalApproved": 14084
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Danielle Wilcox PhD",
+        "ContactInformation": {
+            "Phone": "+1-606-643-2214x9740",
+            "Email": "ywoodward@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/89e2721b-df1f-46c4-a886-3b6bafe7e439"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

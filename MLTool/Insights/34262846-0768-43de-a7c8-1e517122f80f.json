@@ -1,0 +1,81 @@
+{
+    "ClaimID": "34262846-0768-43de-a7c8-1e517122f80f",
+    "PolicyID": "d1cbbcf5-6320-4e49-af47-e4ca6ed080b2",
+    "EffectiveDates": {
+        "StartDate": "2024-06-17",
+        "EndDate": "2025-06-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ee5468af-aa38-4a90-b989-56772d1056dc",
+        "Name": "Marcus Hicks",
+        "PolicyNumber": "d1cbbcf5-6320-4e49-af47-e4ca6ed080b2",
+        "ContactInformation": {
+            "Phone": "790-830-8757x721",
+            "Email": "atkinsjose@example.org",
+            "Address": "02316 Kelly Lane\nAshleyside, PA 28985"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-31",
+        "Location": "275 Tyler Field Apt. 474\nRachelview, CA 05426",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 97596
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34429
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8405
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17275
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12722
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 170427,
+        "TotalApproved": 85597
+    },
+    "AdjusterDetails": {
+        "Name": "Taylor Burns",
+        "ContactInformation": {
+            "Phone": "001-343-254-8467x209",
+            "Email": "david52@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/2dd901cb-4881-4549-834b-0c34a1c964ce"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-31T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

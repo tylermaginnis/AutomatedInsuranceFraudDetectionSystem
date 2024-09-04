@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5a7c5059-22ae-42b2-a3ce-08bee361c783",
+    "PolicyID": "5f368acf-1ee2-41c8-98cd-01553b62626a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-30",
+        "EndDate": "2025-03-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "41baf347-d8d1-4ffd-a3e5-2189363f8d4a",
+        "Name": "Kayla Contreras",
+        "PolicyNumber": "5f368acf-1ee2-41c8-98cd-01553b62626a",
+        "ContactInformation": {
+            "Phone": "+1-515-638-6000",
+            "Email": "wwilliams@example.net",
+            "Address": "9359 Sherri Islands\nMariestad, MO 04784"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-26",
+        "Location": "97653 Jones Canyon Apt. 834\nEast Jonathanfort, UT 17656",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 99128
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36446
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8126
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11135
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9772
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 164607,
+        "TotalApproved": 145832
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Pierce",
+        "ContactInformation": {
+            "Phone": "875.824.3117",
+            "Email": "bonnie49@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ca6acfa8-47da-4f0d-bd4d-f585fc6355c7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-26T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-31T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-05T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "dcd8a5a1-6a0c-4126-850a-2661ccaef276",
+  "PolicyID": "e54f9c77-efb3-434a-abd5-71eaf6779c94",
+  "EffectiveDates": {
+    "StartDate": "2024-07-10",
+    "EndDate": "2025-07-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "df29ece7-0f49-4d99-8e6c-b6aefe3a8b8c",
+    "Name": "Emily Evans",
+    "PolicyNumber": "e54f9c77-efb3-434a-abd5-71eaf6779c94",
+    "ContactInformation": {
+      "Phone": "346-452-8808x07510",
+      "Email": "lhuffman@example.com",
+      "Address": "174 Reed Lane\nIantown, OK 06175"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-09",
+    "Location": "474 Stuart Ridge Suite 626\nPort Carol, PA 56344",
+    "Description": "Subject eight fill. Spend avoid set second radio answer short. How mention eight father keep particular.\nWide director success tend ready its serious. Everyone several effort sister."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3464
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2359
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9812
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 45451
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 27310
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 169794,
+    "TotalApproved": 74134
+  },
+  "AdjusterDetails": {
+    "Name": "Rachel Herman",
+    "ContactInformation": {
+      "Phone": "9866951228",
+      "Email": "cervantesbarry@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/90ec70ef-eec1-4e15-a65f-c82b15aca066"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-09T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-14T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-19T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9e5cf0e5-c0b5-4360-8053-8ade865f9346",
+    "PolicyID": "7877248f-48cc-4df3-b93f-ab690095c19f",
+    "EffectiveDates": {
+        "StartDate": "2024-07-17",
+        "EndDate": "2025-07-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2bdfd2d6-e1ce-4a0f-8ac3-dfec0350b0f1",
+        "Name": "Jessica Roth",
+        "PolicyNumber": "7877248f-48cc-4df3-b93f-ab690095c19f",
+        "ContactInformation": {
+            "Phone": "337-326-3222x590",
+            "Email": "sethblanchard@example.com",
+            "Address": "00496 Samantha Plaza Suite 454\nWest James, KS 12126"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-15",
+        "Location": "5417 Bailey Ridge Apt. 606\nKimberlyhaven, NY 10862",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 99893
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33936
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9943
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10018
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16720
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 170510,
+        "TotalApproved": 158249
+    },
+    "AdjusterDetails": {
+        "Name": "Jaime Jones",
+        "ContactInformation": {
+            "Phone": "(340)458-9410x8669",
+            "Email": "kimpamela@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/faa6baa3-8fa1-4b3b-834d-8386846b8bc3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-15T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-20T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-25T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

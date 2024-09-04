@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4dee00f8-7ea2-4c20-8304-f92cb26eb364",
+    "PolicyID": "76b4a79f-92d9-4bda-92cd-642d441d50ec",
+    "EffectiveDates": {
+        "StartDate": "2024-08-18",
+        "EndDate": "2025-08-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0ef843e7-db8c-4640-85ee-86bd7834ba75",
+        "Name": "Pedro Parker",
+        "PolicyNumber": "76b4a79f-92d9-4bda-92cd-642d441d50ec",
+        "ContactInformation": {
+            "Phone": "525.495.1810x0459",
+            "Email": "zriley@example.net",
+            "Address": "6760 Sarah Estate Apt. 063\nPort Michelleton, NV 65986"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-01",
+        "Location": "70268 Frey Walk\nEast Donna, NC 85048",
+        "Description": "Organization effort eye approach coach sign. Whatever evidence social later machine. The yourself glass.\nOpportunity I improve look eat common. Mention leave real watch say."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2984
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5939
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7655
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 172153
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 84398
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 86795,
+        "TotalApproved": 79548
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Johnson",
+        "ContactInformation": {
+            "Phone": "564.511.8053",
+            "Email": "reynoldsjessica@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/7f60d5b6-d7aa-4b8f-8a8f-cea265938c03"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

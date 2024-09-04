@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3f94da24-e9b7-41cb-ac6b-062c373983db",
+    "PolicyID": "fb7f8074-dca6-42d8-8180-c73ccbc271f8",
+    "EffectiveDates": {
+        "StartDate": "2023-10-08",
+        "EndDate": "2024-10-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "28784103-97c8-4116-99e8-521b409e7fd9",
+        "Name": "Christina Jimenez",
+        "PolicyNumber": "fb7f8074-dca6-42d8-8180-c73ccbc271f8",
+        "ContactInformation": {
+            "Phone": "564-651-1133",
+            "Email": "cbrown@example.org",
+            "Address": "7879 Kevin Glens Suite 947\nGarciaside, RI 97885"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-12",
+        "Location": "1616 Wendy Drive Apt. 577\nFishertown, LA 78282",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 59279
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 30567
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7430
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17595
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11139
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 126010,
+        "TotalApproved": 113419
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Davis",
+        "ContactInformation": {
+            "Phone": "001-915-280-4803",
+            "Email": "ojohnson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/885bc952-103d-4c3e-ab9a-395c3727d7eb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-12T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-17T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-22T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

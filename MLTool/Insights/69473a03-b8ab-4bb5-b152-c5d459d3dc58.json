@@ -1,0 +1,81 @@
+{
+    "ClaimID": "69473a03-b8ab-4bb5-b152-c5d459d3dc58",
+    "PolicyID": "20ae2305-7c0b-4252-9d3b-c498337044ad",
+    "EffectiveDates": {
+        "StartDate": "2024-01-26",
+        "EndDate": "2025-01-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6c878cdb-8112-44f8-8a84-64e3110415dd",
+        "Name": "Brian Garcia",
+        "PolicyNumber": "20ae2305-7c0b-4252-9d3b-c498337044ad",
+        "ContactInformation": {
+            "Phone": "3418451274",
+            "Email": "sarahgilbert@example.net",
+            "Address": "3847 Kathleen Loaf Apt. 226\nKristenborough, ND 47635"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-10",
+        "Location": "9262 Susan Meadows Apt. 620\nPinedachester, MS 96752",
+        "Description": "Night exactly that. More street small entire who scientist. Try most again health carry prepare.\nMovement per middle president commercial. Near recent beyond candidate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 183835
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15962
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3669
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35550
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9852
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 19637,
+        "TotalApproved": 14064
+    },
+    "AdjusterDetails": {
+        "Name": "Connie Schroeder",
+        "ContactInformation": {
+            "Phone": "(451)250-1063x806",
+            "Email": "ytyler@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/67ea5d77-0330-4d66-a4cd-ad08fa562bc7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-10T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-15T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-20T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

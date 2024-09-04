@@ -1,0 +1,81 @@
+{
+    "ClaimID": "55a4fb9b-204b-4b65-ad29-7fee575d033d",
+    "PolicyID": "e79991a8-168b-4353-9bbb-0b9d869f9391",
+    "EffectiveDates": {
+        "StartDate": "2024-03-22",
+        "EndDate": "2025-03-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e3b5c2fb-ee71-49ad-8135-da463191e4ea",
+        "Name": "Lisa Williams",
+        "PolicyNumber": "e79991a8-168b-4353-9bbb-0b9d869f9391",
+        "ContactInformation": {
+            "Phone": "378.692.7935",
+            "Email": "robinsonstephanie@example.net",
+            "Address": "76836 Davila Park Suite 597\nNew Elizabethfort, NH 34882"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-24",
+        "Location": "50620 Dennis Station Suite 804\nLake Josehaven, NV 83447",
+        "Description": "Thought anyone bill too. Fact see control add newspaper training. Mission may Democrat similar choose.\nCountry organization kid every. Minute little treatment with claim."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2501
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 96548
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 87114
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12882
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 83105
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144786,
+        "TotalApproved": 115039
+    },
+    "AdjusterDetails": {
+        "Name": "Jose Combs",
+        "ContactInformation": {
+            "Phone": "585-643-6114",
+            "Email": "qsmith@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/90cd7a54-bec4-4a42-8664-fa8977b69d66"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

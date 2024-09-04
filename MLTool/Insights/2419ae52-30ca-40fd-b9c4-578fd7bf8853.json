@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2419ae52-30ca-40fd-b9c4-578fd7bf8853",
+    "PolicyID": "e6f82b2d-a383-453a-95ce-abc67790fc99",
+    "EffectiveDates": {
+        "StartDate": "2023-09-28",
+        "EndDate": "2024-09-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "66f5d475-fb52-4c56-8e2d-5a919ad82f67",
+        "Name": "Frank Coffey",
+        "PolicyNumber": "e6f82b2d-a383-453a-95ce-abc67790fc99",
+        "ContactInformation": {
+            "Phone": "665-936-5713x291",
+            "Email": "sherribolton@example.com",
+            "Address": "729 Jamie Stravenue\nDerrickbury, PA 40437"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-09",
+        "Location": "603 Kara Hills\nSouth Allisonborough, NJ 87481",
+        "Description": "Would ability network weight throw treatment prepare. Fly mean PM compare dark very. Meet moment accept worker discover sea life."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 145446
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14992
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 156114
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10694
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 175355
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 107195,
+        "TotalApproved": 83935
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Castaneda",
+        "ContactInformation": {
+            "Phone": "913-493-7694",
+            "Email": "william85@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a947ff3a-9f16-42bc-a1de-0d9b918473da"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bfc7853d-ba7b-468e-822c-e7f737df9dd4",
+  "PolicyID": "e2520c4f-8284-4d83-907c-3e963a26402a",
+  "EffectiveDates": {
+    "StartDate": "2024-03-12",
+    "EndDate": "2025-03-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2be5dd3a-fb98-486f-aaca-f4ba23f7abb0",
+    "Name": "David Blankenship",
+    "PolicyNumber": "e2520c4f-8284-4d83-907c-3e963a26402a",
+    "ContactInformation": {
+      "Phone": "+1-837-233-7323x7546",
+      "Email": "samanthastanley@example.net",
+      "Address": "USS Sanchez\nFPO AA 31024"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-08",
+    "Location": "5341 Mario Forge\nNorth Christopher, MP 28314",
+    "Description": "Debate child show sea.\nNever decision strong establish growth. Company doctor least sense pretty ground conference surface."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8289
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 3228
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9174
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8025
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7027
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 106829,
+    "TotalApproved": 7705
+  },
+  "AdjusterDetails": {
+    "Name": "Crystal Carpenter",
+    "ContactInformation": {
+      "Phone": "+1-249-219-9709x74024",
+      "Email": "taylor12@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/c15e614f-d5c5-49bf-8b76-40b6ce4de54e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-08T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-13T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-18T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f5a2ab99-0133-4345-9fce-1a1512c1a552",
+    "PolicyID": "b8cb3d72-9663-4364-9607-f6ba77af2868",
+    "EffectiveDates": {
+        "StartDate": "2023-10-30",
+        "EndDate": "2024-10-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3c32ba67-41b5-4708-8efc-16fec91772a4",
+        "Name": "Kristen Reynolds",
+        "PolicyNumber": "b8cb3d72-9663-4364-9607-f6ba77af2868",
+        "ContactInformation": {
+            "Phone": "863-623-1412x9503",
+            "Email": "pharris@example.com",
+            "Address": "USS Smith\nFPO AP 18865"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-27",
+        "Location": "6173 Jamie Circle\nPort Michaelville, MN 86204",
+        "Description": "Stock enjoy hand read. Make career plan themselves understand effect then policy.\nMedical candidate population tend tree professor."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9077
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1063
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15870
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12484
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 58701
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 69155,
+        "TotalApproved": 8538
+    },
+    "AdjusterDetails": {
+        "Name": "Drew Rivera",
+        "ContactInformation": {
+            "Phone": "914.683.5501x456",
+            "Email": "jacksonpatrick@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9ee493d1-947a-4e2f-82f4-d4b5f042c7dd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-27T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-01T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-06T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

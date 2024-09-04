@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c11ff28b-f414-4039-8c1b-6fada71b84d4",
+    "PolicyID": "bf36de0a-440b-4487-b1e3-f30b998656d9",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0cd75083-b950-43d6-bef8-3e76530713c2",
+        "Name": "Holly Anderson",
+        "PolicyNumber": "bf36de0a-440b-4487-b1e3-f30b998656d9",
+        "ContactInformation": {
+            "Phone": "001-689-207-3551",
+            "Email": "bschmidt@example.org",
+            "Address": "2538 Stephens Garden\nSouth Jenniferside, OH 98013"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-18",
+        "Location": "51814 Paul Brook Suite 817\nJustinfurt, AK 74214",
+        "Description": "Father perform environment team son. Gun town our fast again civil raise cut. Us dog there indicate worker spring wife easy. Personal culture wish so."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 52549
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 123280
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16095
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11520
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7237
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 60728,
+        "TotalApproved": 4516
+    },
+    "AdjusterDetails": {
+        "Name": "Samuel Payne",
+        "ContactInformation": {
+            "Phone": "785.202.1947x96473",
+            "Email": "douglasespinoza@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3184bcea-d9c8-46e8-b1e7-b3defcef2f0b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

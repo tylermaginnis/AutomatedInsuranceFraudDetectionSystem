@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9979fc08-32a5-4017-83fd-e70603db39c5",
+  "PolicyID": "ced07a0a-8caa-412a-9b3d-fe45cf5e87b0",
+  "EffectiveDates": {
+    "StartDate": "2024-06-24",
+    "EndDate": "2025-06-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7d26fa11-e90c-4f47-a80b-0b179502805c",
+    "Name": "Laura Martin",
+    "PolicyNumber": "ced07a0a-8caa-412a-9b3d-fe45cf5e87b0",
+    "ContactInformation": {
+      "Phone": "(267)297-6185x14672",
+      "Email": "shirley90@example.com",
+      "Address": "447 Mason Fall Apt. 455\nLake Christina, WA 35924"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-05",
+    "Location": "59922 Samantha Lights\nJohnsonburgh, ND 49711",
+    "Description": "Could course clear suffer face. Imagine themselves pass role heavy upon. Century officer organization behind."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6112
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6894
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 25786
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 42765
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 27061
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 43392,
+    "TotalApproved": 20980
+  },
+  "AdjusterDetails": {
+    "Name": "Jason Marshall",
+    "ContactInformation": {
+      "Phone": "(928)861-8838x528",
+      "Email": "ryansmith@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/dc15575f-58d1-438e-b907-5f7a04842b4f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-05T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-10T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-15T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

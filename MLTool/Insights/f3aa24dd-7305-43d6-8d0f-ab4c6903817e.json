@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f3aa24dd-7305-43d6-8d0f-ab4c6903817e",
+    "PolicyID": "49eadf63-52c3-4300-8dc2-4e35fba56185",
+    "EffectiveDates": {
+        "StartDate": "2024-04-24",
+        "EndDate": "2025-04-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1195cfc3-a0a6-4575-9165-63483da8d0a6",
+        "Name": "Kimberly Daniels",
+        "PolicyNumber": "49eadf63-52c3-4300-8dc2-4e35fba56185",
+        "ContactInformation": {
+            "Phone": "395.616.3380",
+            "Email": "cabreracameron@example.net",
+            "Address": "Unit 6029 Box 1869\nDPO AE 61534"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-21",
+        "Location": "236 Horton Knoll Apt. 528\nWest Sheilahaven, DE 86151",
+        "Description": "Establish speech special around question food. Voice serious tax partner right prevent."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 69637
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5389
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 69649
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9981
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5058
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 199935,
+        "TotalApproved": 68973
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Arias",
+        "ContactInformation": {
+            "Phone": "326-769-6156",
+            "Email": "collinsaaron@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/97b7e8d1-06b1-41ad-8989-d2ba6bb67642"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-31T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

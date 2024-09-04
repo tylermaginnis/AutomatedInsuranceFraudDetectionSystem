@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d611c20b-5d0c-40ac-b016-50796bf76687",
+    "PolicyID": "7b25a162-609c-4a7b-8752-ba262d4bde8e",
+    "EffectiveDates": {
+        "StartDate": "2024-02-19",
+        "EndDate": "2025-02-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4160eb1b-cc59-4dc6-8983-53613b1be025",
+        "Name": "Kyle Mendoza",
+        "PolicyNumber": "7b25a162-609c-4a7b-8752-ba262d4bde8e",
+        "ContactInformation": {
+            "Phone": "(407)968-5502",
+            "Email": "merrittrobin@example.net",
+            "Address": "7594 Taylor Fork Apt. 516\nEast Ryan, KY 07752"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-23",
+        "Location": "345 Debra Turnpike Apt. 295\nJonesside, KS 66386",
+        "Description": "Old center old visit treat. Toward quality respond. Glass nice simple help it.\nSoldier executive police teacher amount. Baby spring unit end."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3344
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47522
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 125108
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4605
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 64884
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 153945,
+        "TotalApproved": 41984
+    },
+    "AdjusterDetails": {
+        "Name": "Kayla Hernandez",
+        "ContactInformation": {
+            "Phone": "745.611.4473",
+            "Email": "holmesjasmine@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ff85c894-9a27-4670-9449-5fa1ae81c1c8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-02T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

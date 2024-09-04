@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bb0f73de-3e0f-44dc-ad13-fe4bdcc563e3",
+    "PolicyID": "88321ddf-3bb1-40a9-ba95-18612f4ce575",
+    "EffectiveDates": {
+        "StartDate": "2024-03-14",
+        "EndDate": "2025-03-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "361c8e1e-9b7d-40a6-a328-959b8dc5e4e3",
+        "Name": "Eric Mccann",
+        "PolicyNumber": "88321ddf-3bb1-40a9-ba95-18612f4ce575",
+        "ContactInformation": {
+            "Phone": "772.751.3680x55989",
+            "Email": "melissa68@example.com",
+            "Address": "836 Caitlin Trail\nJerryborough, MD 63805"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-09",
+        "Location": "2070 Miller Park\nWoodsside, PR 55167",
+        "Description": "Let eye ground heavy.\nWhole protect road evidence often action. Phone sound energy child when question. First occur poor card physical require."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8092
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1916
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7160
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18465
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2396
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 35774,
+        "TotalApproved": 7236
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Waters",
+        "ContactInformation": {
+            "Phone": "001-741-598-1608",
+            "Email": "stephensonkevin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9344bfdd-342e-42f4-bacd-326c563cd179"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-09T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-14T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-19T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

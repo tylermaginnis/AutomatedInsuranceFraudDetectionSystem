@@ -1,0 +1,81 @@
+{
+    "ClaimID": "379da596-e9a5-49ae-b68e-9cb8b48448cd",
+    "PolicyID": "f8b459c9-2e0d-4131-bc62-16ca67261ba8",
+    "EffectiveDates": {
+        "StartDate": "2023-11-02",
+        "EndDate": "2024-11-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a6d12c8a-e119-4d6e-91b4-d5722c186298",
+        "Name": "Kenneth Gould",
+        "PolicyNumber": "f8b459c9-2e0d-4131-bc62-16ca67261ba8",
+        "ContactInformation": {
+            "Phone": "001-392-832-7335x30370",
+            "Email": "johnny13@example.org",
+            "Address": "4779 Browning Causeway\nRobinsonport, TN 82432"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-15",
+        "Location": "Unit 8513 Box 5003\nDPO AA 78481",
+        "Description": "Impact affect TV. Economic hospital finish beat wall always response. Difficult on will company watch many realize.\nOperation kind or purpose standard use. Another argue hand hundred."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 170283
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13506
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 36546
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14657
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 94137
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 55305,
+        "TotalApproved": 21793
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Doyle",
+        "ContactInformation": {
+            "Phone": "(926)390-7193",
+            "Email": "hammondbenjamin@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5c32597e-bd97-4af8-a299-40e25ae35a89"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

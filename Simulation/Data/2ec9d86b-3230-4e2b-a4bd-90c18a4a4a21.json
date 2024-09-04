@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2ec9d86b-3230-4e2b-a4bd-90c18a4a4a21",
+  "PolicyID": "7cb7182b-7f54-4638-9870-43d6d8f6f5d2",
+  "EffectiveDates": {
+    "StartDate": "2023-12-10",
+    "EndDate": "2024-12-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0d83ba6b-06b8-4b49-93cb-abf6d6137797",
+    "Name": "Rachel Wiggins",
+    "PolicyNumber": "7cb7182b-7f54-4638-9870-43d6d8f6f5d2",
+    "ContactInformation": {
+      "Phone": "(463)618-0747x60990",
+      "Email": "dchaney@example.net",
+      "Address": "3734 Sara Dam Suite 885\nGregoryfort, VA 64876"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-29",
+    "Location": "269 Ashley Overpass Suite 105\nPatrickburgh, FM 01572",
+    "Description": "Top day theory area civil else long. Account because summer him.\nCommercial state worker. Certain head arrive season almost. Dog west state oil coach player give."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 53771
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 29323
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 28667
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8680
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 32592
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 158136,
+    "TotalApproved": 23171
+  },
+  "AdjusterDetails": {
+    "Name": "Ms. Patricia Acosta",
+    "ContactInformation": {
+      "Phone": "001-443-652-0475x097",
+      "Email": "collinsedward@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/77bc671f-85a0-4812-9fa4-550d812aa216"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-29T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-03T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-08T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

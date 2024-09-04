@@ -1,0 +1,80 @@
+{
+  "ClaimID": "67ffb8e5-dce4-4c91-a980-cc494b4bcaa2",
+  "PolicyID": "2ffb363e-a112-42aa-9a23-0cc7d2933c74",
+  "EffectiveDates": {
+    "StartDate": "2024-08-31",
+    "EndDate": "2025-08-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b9486b1c-9f79-4704-8646-5128596b38b9",
+    "Name": "Angela Tran",
+    "PolicyNumber": "2ffb363e-a112-42aa-9a23-0cc7d2933c74",
+    "ContactInformation": {
+      "Phone": "421.636.6735x547",
+      "Email": "awhite@example.net",
+      "Address": "12090 Christensen Road\nOliviaborough, FL 97840"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-26",
+    "Location": "709 Davis Expressway\nSouth Hannahville, ME 78473",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 94225
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 30582
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5417
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15574
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 12592
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 158390,
+    "TotalApproved": 58250
+  },
+  "AdjusterDetails": {
+    "Name": "Douglas Pierce",
+    "ContactInformation": {
+      "Phone": "001-495-626-1633x706",
+      "Email": "mckinneydenise@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/969516fb-e80c-42e2-be93-2ac1a4a3518e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-26T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-31T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-05T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "54d1e2f4-b273-48dd-bf6a-bd03deff8808",
+    "PolicyID": "5da9d479-0aa7-4c6d-8a33-a1e1631e0e36",
+    "EffectiveDates": {
+        "StartDate": "2024-06-25",
+        "EndDate": "2025-06-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4cb72922-864d-4fd1-bed1-6a31b116f95e",
+        "Name": "Kristie Ellis",
+        "PolicyNumber": "5da9d479-0aa7-4c6d-8a33-a1e1631e0e36",
+        "ContactInformation": {
+            "Phone": "001-494-219-4177x6900",
+            "Email": "pbell@example.org",
+            "Address": "831 Alexander Fall\nArieltown, WI 10294"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-19",
+        "Location": "Unit 4861 Box 3813\nDPO AE 59055",
+        "Description": "Party economic yourself manage. Face program style modern my. Exactly else almost tough bit military. Benefit hotel high teach give."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 75340
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12145
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8255
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 25508
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14221
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 189807,
+        "TotalApproved": 13056
+    },
+    "AdjusterDetails": {
+        "Name": "Tammy Roberts",
+        "ContactInformation": {
+            "Phone": "+1-705-262-8989",
+            "Email": "bnewton@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cbdf87b1-c1f1-452c-bde9-b3390fe115dd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-19T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-24T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-29T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

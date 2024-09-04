@@ -1,0 +1,80 @@
+{
+  "ClaimID": "091e1d0a-47a6-4d84-b84b-f79861276ca3",
+  "PolicyID": "843f527c-b163-4b96-bb66-c342c53bb857",
+  "EffectiveDates": {
+    "StartDate": "2024-02-20",
+    "EndDate": "2025-02-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6c144fcc-3779-4061-bb7d-25517a7a8791",
+    "Name": "Derek Nicholson",
+    "PolicyNumber": "843f527c-b163-4b96-bb66-c342c53bb857",
+    "ContactInformation": {
+      "Phone": "001-275-533-2713x16847",
+      "Email": "dwilliams@example.org",
+      "Address": "4941 Mark Meadows\nMeyersberg, ME 24741"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-28",
+    "Location": "9218 Cooper Gateway\nHarveychester, IN 49353",
+    "Description": "Space tell book tell. That human order compare.\nAge religious buy across. President away nature yard road. Get nothing already should factor. Choose require try fact."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 116498
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2500
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11715
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5038
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 114960
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 115951,
+    "TotalApproved": 56215
+  },
+  "AdjusterDetails": {
+    "Name": "Colton Scott",
+    "ContactInformation": {
+      "Phone": "7698233449",
+      "Email": "brett62@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/104d5b90-4c99-445c-8798-ad6064f4f316"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-28T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-02T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-07T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

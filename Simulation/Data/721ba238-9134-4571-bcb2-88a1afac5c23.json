@@ -1,0 +1,80 @@
+{
+  "ClaimID": "721ba238-9134-4571-bcb2-88a1afac5c23",
+  "PolicyID": "3647e92f-bc7e-41b8-9d89-538c3d64b81b",
+  "EffectiveDates": {
+    "StartDate": "2023-09-24",
+    "EndDate": "2024-09-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "44ddd3f5-f5c2-462c-bcea-9e7f2f4725ab",
+    "Name": "Jason Johnson",
+    "PolicyNumber": "3647e92f-bc7e-41b8-9d89-538c3d64b81b",
+    "ContactInformation": {
+      "Phone": "367.641.7840",
+      "Email": "georgecook@example.org",
+      "Address": "58033 Levy Prairie Apt. 367\nMitchellstad, KS 57948"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-13",
+    "Location": "USCGC Chang\nFPO AA 22470",
+    "Description": "Door eat member at prepare clear window. See situation morning building light.\nCommercial high positive begin despite hard adult. I number reflect reach."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4316
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9558
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7223
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1281
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 49714
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 99713,
+    "TotalApproved": 22419
+  },
+  "AdjusterDetails": {
+    "Name": "Jonathan Ward",
+    "ContactInformation": {
+      "Phone": "533-581-2587x220",
+      "Email": "lisa62@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/556b8f57-8471-4baa-a395-f10f75c5d1ca"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-13T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-18T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-11-23T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

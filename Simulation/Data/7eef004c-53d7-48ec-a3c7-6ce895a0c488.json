@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7eef004c-53d7-48ec-a3c7-6ce895a0c488",
+  "PolicyID": "36467aaf-f039-46da-8e16-0f526baf6991",
+  "EffectiveDates": {
+    "StartDate": "2024-01-25",
+    "EndDate": "2025-01-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "13859a74-0c80-4891-944a-7f7a43d72597",
+    "Name": "Alex Hensley",
+    "PolicyNumber": "36467aaf-f039-46da-8e16-0f526baf6991",
+    "ContactInformation": {
+      "Phone": "531.622.8215x50082",
+      "Email": "patriciagarcia@example.net",
+      "Address": "37628 Le Radial Suite 284\nJasonville, MT 82359"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-19",
+    "Location": "16554 Lee Alley\nWest Elizabeth, MA 00575",
+    "Description": "Majority ground suggest old wall fast. Peace early answer technology. Modern very language least example."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1006
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 72949
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 43718
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5151
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 191671
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 147541,
+    "TotalApproved": 117549
+  },
+  "AdjusterDetails": {
+    "Name": "Tina Macias",
+    "ContactInformation": {
+      "Phone": "(536)830-9674x27435",
+      "Email": "david85@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/8dc108fa-5bdf-491e-9b08-45fa80a41235"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-19T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-24T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-29T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

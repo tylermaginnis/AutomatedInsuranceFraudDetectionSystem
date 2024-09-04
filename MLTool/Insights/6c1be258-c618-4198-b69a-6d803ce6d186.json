@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6c1be258-c618-4198-b69a-6d803ce6d186",
+    "PolicyID": "0046ae11-f751-40fe-a3ea-2e58f362b3d8",
+    "EffectiveDates": {
+        "StartDate": "2023-12-21",
+        "EndDate": "2024-12-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a8f5ffa2-67ef-49e6-a918-baa237e5b608",
+        "Name": "Jeffrey Alvarado",
+        "PolicyNumber": "0046ae11-f751-40fe-a3ea-2e58f362b3d8",
+        "ContactInformation": {
+            "Phone": "001-648-793-1660x2461",
+            "Email": "bianca00@example.net",
+            "Address": "21355 Andrew Crossroad\nJosephborough, NJ 58216"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-04",
+        "Location": "25173 Kathy Expressway Suite 927\nCabrerafort, VA 49832",
+        "Description": "Well determine father professional. Clearly more parent for everybody inside. Nothing college far increase what pretty nature."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27852
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38927
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 60989
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 110561
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7332
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 167047,
+        "TotalApproved": 88235
+    },
+    "AdjusterDetails": {
+        "Name": "William Miller",
+        "ContactInformation": {
+            "Phone": "9973539234",
+            "Email": "harrismorgan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1fe0ed2f-4071-4083-b3b3-f31c13ea66e5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-04T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-09T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-14T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

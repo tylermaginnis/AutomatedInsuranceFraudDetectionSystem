@@ -1,0 +1,80 @@
+{
+  "ClaimID": "180c4f0f-5fb7-4bdc-a475-5073adc0fa03",
+  "PolicyID": "e8bc3bd7-7e75-40a1-a784-d5e0b888fa1c",
+  "EffectiveDates": {
+    "StartDate": "2024-04-28",
+    "EndDate": "2025-04-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d1fe6093-753d-412d-af1b-85153a342e4d",
+    "Name": "Kevin Reeves",
+    "PolicyNumber": "e8bc3bd7-7e75-40a1-a784-d5e0b888fa1c",
+    "ContactInformation": {
+      "Phone": "368-947-0740",
+      "Email": "floydomar@example.net",
+      "Address": "98594 Debbie Pine Apt. 229\nKennethborough, NH 34866"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-15",
+    "Location": "26907 Colleen Terrace\nLake Tristan, TN 85233",
+    "Description": "Around really face now share agreement build shoulder. Recent we its ball first about defense price."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8944
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 164561
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 82226
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 102837
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 167632
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 98831,
+    "TotalApproved": 54953
+  },
+  "AdjusterDetails": {
+    "Name": "Angela Miller",
+    "ContactInformation": {
+      "Phone": "484.850.0683x359",
+      "Email": "andrewnicholson@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/e3311dfb-3e16-42ed-a731-b37b82fe4e05"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-15T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-20T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-25T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

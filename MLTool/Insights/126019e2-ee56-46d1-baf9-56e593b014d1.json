@@ -1,0 +1,81 @@
+{
+    "ClaimID": "126019e2-ee56-46d1-baf9-56e593b014d1",
+    "PolicyID": "60b478eb-d2be-4931-9352-ff08104a065f",
+    "EffectiveDates": {
+        "StartDate": "2024-03-31",
+        "EndDate": "2025-03-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "27eb0338-4509-41da-a42d-de19bf06cdfe",
+        "Name": "Steven Preston",
+        "PolicyNumber": "60b478eb-d2be-4931-9352-ff08104a065f",
+        "ContactInformation": {
+            "Phone": "839-824-9633x6251",
+            "Email": "jasonporter@example.net",
+            "Address": "081 Johnson Green Apt. 301\nAmyport, VA 80771"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-08",
+        "Location": "Unit 7516 Box 9402\nDPO AA 51081",
+        "Description": "Media husband station senior whose movement amount. Near plant cell model. Father beat yes popular."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7077
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47484
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15711
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 147702
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 54850
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 65352,
+        "TotalApproved": 53886
+    },
+    "AdjusterDetails": {
+        "Name": "Harold Smith",
+        "ContactInformation": {
+            "Phone": "255-211-9775x898",
+            "Email": "holly41@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2d77bb12-97f3-4ba1-a109-c81f5f39aa63"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

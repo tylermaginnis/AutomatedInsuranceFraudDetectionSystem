@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5cfb66b8-7164-484c-8a11-a0879aa94fd7",
+    "PolicyID": "46c2b988-91e8-45ee-8616-96a83fc73333",
+    "EffectiveDates": {
+        "StartDate": "2023-12-31",
+        "EndDate": "2024-12-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "28bebc63-c075-4ffc-8bee-28f8a82a94e0",
+        "Name": "Brandon Petersen",
+        "PolicyNumber": "46c2b988-91e8-45ee-8616-96a83fc73333",
+        "ContactInformation": {
+            "Phone": "268.262.3132",
+            "Email": "lisareyes@example.org",
+            "Address": "8781 Conley Freeway\nWest Mariafurt, OH 95803"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-05",
+        "Location": "1162 Kenneth Burgs Suite 592\nNew Sandra, OR 31337",
+        "Description": "Ground indicate act rule field owner. Deal impact fear turn try federal cell. Able study century experience artist.\nCurrent month cold kid other through."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8868
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 109237
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11468
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5333
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9890
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 149052,
+        "TotalApproved": 138598
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Barron",
+        "ContactInformation": {
+            "Phone": "215.208.0207x194",
+            "Email": "douglas80@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a370c189-daa0-49fa-a11e-99955ee35101"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

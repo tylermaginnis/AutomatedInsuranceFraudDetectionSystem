@@ -1,0 +1,81 @@
+{
+    "ClaimID": "021aa391-08bd-4b4c-8b02-d562b8a00f6b",
+    "PolicyID": "5b5275e3-3cd7-4232-bc14-6e65b9822e08",
+    "EffectiveDates": {
+        "StartDate": "2023-11-21",
+        "EndDate": "2024-11-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fd2df701-2ad9-4e37-bbf7-a10a8f908db7",
+        "Name": "Melissa Baker",
+        "PolicyNumber": "5b5275e3-3cd7-4232-bc14-6e65b9822e08",
+        "ContactInformation": {
+            "Phone": "(847)823-6808",
+            "Email": "matthewmaddox@example.org",
+            "Address": "269 Mosley Circle Apt. 954\nSaraside, KS 60422"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-31",
+        "Location": "37985 Anthony Corner Suite 587\nBaileyfurt, SC 67494",
+        "Description": "Section our too make address opportunity. Available quite financial local.\nFour far cultural catch too sea option so. Challenge foot whose second whatever we who."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26424
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24489
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5857
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 154091
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11851
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 32888,
+        "TotalApproved": 18758
+    },
+    "AdjusterDetails": {
+        "Name": "John Hall",
+        "ContactInformation": {
+            "Phone": "223.386.3270x2008",
+            "Email": "hillian@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/bfb6e848-6b21-4af1-973b-2d85499d6574"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-31T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-05T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-10T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

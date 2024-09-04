@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b1fc607f-fd17-40c1-951b-769909911c59",
+    "PolicyID": "3dd09024-1a5b-4fb4-bf0e-0607687bba46",
+    "EffectiveDates": {
+        "StartDate": "2023-12-17",
+        "EndDate": "2024-12-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ad9dc41a-5152-4008-8113-61b61ff6a4bb",
+        "Name": "Gregory Walker",
+        "PolicyNumber": "3dd09024-1a5b-4fb4-bf0e-0607687bba46",
+        "ContactInformation": {
+            "Phone": "577-447-7307x1069",
+            "Email": "erikarichardson@example.net",
+            "Address": "9662 Stephanie Mountains Suite 536\nStevenborough, AS 41955"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-07",
+        "Location": "3683 Brown Shoal\nTorresmouth, MA 21612",
+        "Description": "Tonight ahead certainly stop.\nEnter read finally price like stage. Total main drug. Girl party look piece value successful hotel."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8425
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2348
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7514
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18334
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13435
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 81664,
+        "TotalApproved": 51089
+    },
+    "AdjusterDetails": {
+        "Name": "Juan Martin",
+        "ContactInformation": {
+            "Phone": "(812)264-6349x49522",
+            "Email": "ocurry@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6b6910ca-6e57-4e18-afea-8f2866152ec9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-07T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-12T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-17T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c1bfd2e6-6bf0-48c6-b1b8-091d3e9f6506",
+    "PolicyID": "23cf93fb-a1af-4120-a189-3264b2c3d03f",
+    "EffectiveDates": {
+        "StartDate": "2023-09-24",
+        "EndDate": "2024-09-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "da0ed3c7-caa6-4532-9630-d5c72edba0ce",
+        "Name": "Donald Marshall",
+        "PolicyNumber": "23cf93fb-a1af-4120-a189-3264b2c3d03f",
+        "ContactInformation": {
+            "Phone": "978-663-0449",
+            "Email": "felicia93@example.org",
+            "Address": "405 Palmer Ranch Apt. 630\nNew Laurenfurt, CT 87301"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-18",
+        "Location": "1598 Steven Walks Apt. 826\nWest Elizabethfort, MH 66370",
+        "Description": "Five night cut much card treatment. Store message development similar. Fund big daughter most red interest democratic."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6666
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 157916
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10023
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23074
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8866
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 29834,
+        "TotalApproved": 16197
+    },
+    "AdjusterDetails": {
+        "Name": "Taylor Rivera",
+        "ContactInformation": {
+            "Phone": "264-412-9893",
+            "Email": "maxwellmichelle@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8782145e-b299-4bc4-9c2d-01fb0d49ebd3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7e1cdb99-a83f-43e5-b588-caa830b071a2",
+    "PolicyID": "3c6c5a36-75ba-4d38-968c-7896d80d4e81",
+    "EffectiveDates": {
+        "StartDate": "2023-10-09",
+        "EndDate": "2024-10-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "19b89dbe-9826-4396-8286-b1b30777b39b",
+        "Name": "Thomas Johnson",
+        "PolicyNumber": "3c6c5a36-75ba-4d38-968c-7896d80d4e81",
+        "ContactInformation": {
+            "Phone": "4244908992",
+            "Email": "scannon@example.com",
+            "Address": "9500 Morrison Stream Apt. 965\nLeonardchester, ND 44981"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-02",
+        "Location": "25924 Anderson Streets\nEricabury, WI 93434",
+        "Description": "Large charge bed really federal store. Soon me relationship wife down.\nAnalysis morning tree child author. Sort political start friend growth side cultural. Light six second."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15685
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 183740
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18286
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6499
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22211
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 23146,
+        "TotalApproved": 20418
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Wolf",
+        "ContactInformation": {
+            "Phone": "610-749-0481",
+            "Email": "susansnow@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/70c1eb50-4d54-4a86-a4f9-850f5c4c1bfa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

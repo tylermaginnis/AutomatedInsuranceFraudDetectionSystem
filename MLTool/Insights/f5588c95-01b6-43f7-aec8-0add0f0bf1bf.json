@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f5588c95-01b6-43f7-aec8-0add0f0bf1bf",
+    "PolicyID": "168732d3-272a-4afb-9ed0-6ee2d6e1e9a9",
+    "EffectiveDates": {
+        "StartDate": "2023-12-25",
+        "EndDate": "2024-12-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "80543ba5-3cad-432b-86e4-9523c77a5c54",
+        "Name": "Tiffany Allison",
+        "PolicyNumber": "168732d3-272a-4afb-9ed0-6ee2d6e1e9a9",
+        "ContactInformation": {
+            "Phone": "3502595001",
+            "Email": "greenkatherine@example.com",
+            "Address": "992 Blackwell Drive Apt. 521\nCalvinburgh, MH 49007"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-18",
+        "Location": "5527 Horton Ville Suite 823\nPort Brettshire, ND 60113",
+        "Description": "Recently former figure great theory go. Light teach chance show its.\nIf indeed fly lawyer phone. Tend place idea none leader itself. Them this same lawyer worker image."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 56251
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7943
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 99441
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13656
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 57887
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 77671,
+        "TotalApproved": 14471
+    },
+    "AdjusterDetails": {
+        "Name": "Dana Jackson",
+        "ContactInformation": {
+            "Phone": "(270)735-3232",
+            "Email": "stanleyellison@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9af463b9-553f-46e3-bb2e-32eda28d4619"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-18T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-23T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-28T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

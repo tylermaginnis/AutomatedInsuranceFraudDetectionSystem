@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca5de213-a51f-4893-a66f-af2ad1472cfe",
+    "PolicyID": "8b9dc417-7df8-4a04-b71b-3d87fbc414aa",
+    "EffectiveDates": {
+        "StartDate": "2023-09-25",
+        "EndDate": "2024-09-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b154b0c9-a750-4bed-a7c1-9312b40d0dbe",
+        "Name": "Leslie White",
+        "PolicyNumber": "8b9dc417-7df8-4a04-b71b-3d87fbc414aa",
+        "ContactInformation": {
+            "Phone": "+1-265-684-8358x40304",
+            "Email": "hlamb@example.net",
+            "Address": "97531 Thomas Grove\nLake Amy, WA 44025"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-19",
+        "Location": "473 Washington Cape\nWest Gregory, AL 87895",
+        "Description": "Artist work choice glass could. Maybe home beat forward play.\nWoman fire call rule time deal simply. Offer turn picture century cause black."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1558
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 158291
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5849
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11227
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 165292
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 78454,
+        "TotalApproved": 73248
+    },
+    "AdjusterDetails": {
+        "Name": "Charles Parker",
+        "ContactInformation": {
+            "Phone": "494-647-6485",
+            "Email": "alishamorris@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f2d29beb-0989-40f3-9321-33790089b05e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-19T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-24T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-29T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

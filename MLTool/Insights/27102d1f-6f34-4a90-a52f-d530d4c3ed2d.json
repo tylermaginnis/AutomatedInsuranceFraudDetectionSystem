@@ -1,0 +1,81 @@
+{
+    "ClaimID": "27102d1f-6f34-4a90-a52f-d530d4c3ed2d",
+    "PolicyID": "722bd29f-40d6-4d1c-87e0-814860995d31",
+    "EffectiveDates": {
+        "StartDate": "2024-07-28",
+        "EndDate": "2025-07-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c6844991-d014-4854-b36e-197f39f30aa6",
+        "Name": "Valerie Armstrong",
+        "PolicyNumber": "722bd29f-40d6-4d1c-87e0-814860995d31",
+        "ContactInformation": {
+            "Phone": "367-347-4424x6727",
+            "Email": "olozano@example.org",
+            "Address": "724 Colleen Shoals\nJustinville, SC 50932"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-06",
+        "Location": "USCGC Black\nFPO AA 98621",
+        "Description": "Nor respond stop new create far she. Fire catch space ago. Performance different health morning. Report music movie Republican involve present quite."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5917
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6373
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16968
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32751
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23324
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 161468,
+        "TotalApproved": 6675
+    },
+    "AdjusterDetails": {
+        "Name": "Sabrina Frazier",
+        "ContactInformation": {
+            "Phone": "607.670.0990",
+            "Email": "wrightjoe@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/21c37600-7d67-4651-b195-0ae557ebc8fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-06T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-11T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-16T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

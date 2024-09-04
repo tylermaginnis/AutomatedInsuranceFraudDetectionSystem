@@ -1,0 +1,81 @@
+{
+    "ClaimID": "326af963-92a3-4a50-a65e-79245b3328fa",
+    "PolicyID": "88abba63-468a-49c8-aab6-e4c5e1dead0d",
+    "EffectiveDates": {
+        "StartDate": "2024-03-02",
+        "EndDate": "2025-03-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "924327a0-ec69-4f71-8c8f-c33c86b04a2d",
+        "Name": "Monica Turner",
+        "PolicyNumber": "88abba63-468a-49c8-aab6-e4c5e1dead0d",
+        "ContactInformation": {
+            "Phone": "547-460-6633",
+            "Email": "david06@example.org",
+            "Address": "985 Karen Key\nEast Toddstad, UT 21264"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-24",
+        "Location": "PSC 8278, Box 6832\nAPO AA 66407",
+        "Description": "Them data change their available. Explain stay analysis."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41729
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17739
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 73607
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8411
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31208
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 123682,
+        "TotalApproved": 88040
+    },
+    "AdjusterDetails": {
+        "Name": "Marco Howard",
+        "ContactInformation": {
+            "Phone": "+1-606-761-6517x24713",
+            "Email": "erin89@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3b29a373-c765-4010-8b23-a24b750dfc34"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

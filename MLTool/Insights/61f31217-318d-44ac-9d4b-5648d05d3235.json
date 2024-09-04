@@ -1,0 +1,81 @@
+{
+    "ClaimID": "61f31217-318d-44ac-9d4b-5648d05d3235",
+    "PolicyID": "700e37af-d58a-48b9-9ae0-10b02fe756aa",
+    "EffectiveDates": {
+        "StartDate": "2023-11-11",
+        "EndDate": "2024-11-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0c147234-f72e-452b-be47-530a6d1abe23",
+        "Name": "Brittney Harvey",
+        "PolicyNumber": "700e37af-d58a-48b9-9ae0-10b02fe756aa",
+        "ContactInformation": {
+            "Phone": "7924041599",
+            "Email": "sarah49@example.net",
+            "Address": "3321 Dylan Spur Apt. 568\nJameschester, AK 59151"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-15",
+        "Location": "1356 Adams Greens\nMurrayfurt, ME 52400",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 59834
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49622
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9565
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21523
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6352
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 146896,
+        "TotalApproved": 124710
+    },
+    "AdjusterDetails": {
+        "Name": "Bryan Smith",
+        "ContactInformation": {
+            "Phone": "640.518.9955",
+            "Email": "morenoscott@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5d43f6f3-b9ac-4e72-92b7-03b67dff725a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-15T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-20T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-25T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

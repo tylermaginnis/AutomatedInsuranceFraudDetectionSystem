@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8b51e7e1-06c9-484f-b5bb-934a0c1444ff",
+    "PolicyID": "7d04c3dc-a20c-4c8a-a51a-340dac1524a4",
+    "EffectiveDates": {
+        "StartDate": "2024-03-06",
+        "EndDate": "2025-03-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fafe4550-1ccb-44ce-9cb0-f53937fcfc7c",
+        "Name": "Jenny Abbott",
+        "PolicyNumber": "7d04c3dc-a20c-4c8a-a51a-340dac1524a4",
+        "ContactInformation": {
+            "Phone": "331-271-4740x459",
+            "Email": "schneiderjason@example.com",
+            "Address": "76168 Castillo Well Apt. 056\nStanleychester, TX 11765"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-01",
+        "Location": "92539 Hoover Rapids\nNew Victormouth, NV 05430",
+        "Description": "Senior together man treatment believe foot. Those business color east. Point cut student experience town."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 54348
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2747
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47068
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 64017
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12526
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 199729,
+        "TotalApproved": 151934
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Stacey Maldonado",
+        "ContactInformation": {
+            "Phone": "(426)903-4440x842",
+            "Email": "agarcia@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/03f56df2-2705-43fc-8ec5-8808e406c75a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

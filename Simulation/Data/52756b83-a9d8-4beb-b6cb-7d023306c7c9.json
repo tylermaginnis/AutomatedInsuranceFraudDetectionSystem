@@ -1,0 +1,80 @@
+{
+  "ClaimID": "52756b83-a9d8-4beb-b6cb-7d023306c7c9",
+  "PolicyID": "07fb544b-b3a9-41c3-b0e5-dffc4fcfa99c",
+  "EffectiveDates": {
+    "StartDate": "2024-03-04",
+    "EndDate": "2025-03-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "af02b5ad-7ae2-49b9-923b-d6a857a4f238",
+    "Name": "Lindsey Elliott",
+    "PolicyNumber": "07fb544b-b3a9-41c3-b0e5-dffc4fcfa99c",
+    "ContactInformation": {
+      "Phone": "001-978-233-2110x2902",
+      "Email": "bwoods@example.com",
+      "Address": "078 Elizabeth Springs\nJenniferstad, OH 76545"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-04",
+    "Location": "864 Wade Rapids Apt. 859\nSilvahaven, ND 40498",
+    "Description": "Still pick include half be. Or whole maintain know. Read rich pay court. Turn less next eye standard according."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 38283
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 39248
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 20576
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16890
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14967
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 116527,
+    "TotalApproved": 51597
+  },
+  "AdjusterDetails": {
+    "Name": "Robert Zamora",
+    "ContactInformation": {
+      "Phone": "001-850-553-4251x277",
+      "Email": "yluna@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/07fa15a2-7f9c-4e50-88de-3c0f5a3bbd90"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-04T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-09T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-14T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

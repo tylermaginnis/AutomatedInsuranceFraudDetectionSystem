@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d6750adc-f0dc-478e-8b3b-45c1c7ef7db0",
+    "PolicyID": "4a2c4457-78b0-43c4-ab9d-6f895f4984bb",
+    "EffectiveDates": {
+        "StartDate": "2024-07-06",
+        "EndDate": "2025-07-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1056e7f2-e45a-48dc-b15b-0dc6385b20ee",
+        "Name": "Sarah Perez",
+        "PolicyNumber": "4a2c4457-78b0-43c4-ab9d-6f895f4984bb",
+        "ContactInformation": {
+            "Phone": "203.624.7886",
+            "Email": "karen63@example.com",
+            "Address": "01043 Jensen Trail\nAndersonchester, FM 99211"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-16",
+        "Location": "550 Kennedy Port\nMaryville, MN 08197",
+        "Description": "Impact series image whose. Herself responsibility last clear. Nature life show short fill then. Everything reveal bill performance lot."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8351
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6190
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44399
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14090
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2897
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 152767,
+        "TotalApproved": 129915
+    },
+    "AdjusterDetails": {
+        "Name": "Casey Wolf",
+        "ContactInformation": {
+            "Phone": "603.429.3316x0831",
+            "Email": "qparker@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a1a2b8a3-7a50-4f69-8e84-c185e2b1871c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

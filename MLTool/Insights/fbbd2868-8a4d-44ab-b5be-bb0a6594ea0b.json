@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fbbd2868-8a4d-44ab-b5be-bb0a6594ea0b",
+    "PolicyID": "936703d9-5b4b-4089-84a3-5aecd61ba5de",
+    "EffectiveDates": {
+        "StartDate": "2023-10-13",
+        "EndDate": "2024-10-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e8db0fd4-846a-4735-a833-bf4ae46a1513",
+        "Name": "Daniel Hayes",
+        "PolicyNumber": "936703d9-5b4b-4089-84a3-5aecd61ba5de",
+        "ContactInformation": {
+            "Phone": "+1-627-884-0528x65536",
+            "Email": "lloydsherry@example.org",
+            "Address": "447 Kara Crescent Suite 519\nSarahfort, WA 26814"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-14",
+        "Location": "262 Anthony Lights Apt. 714\nSouth Matthewmouth, ID 85579",
+        "Description": "Behind ok set husband thus several.\nImprove student TV property Congress herself. Join represent computer really star issue must."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1871
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6447
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37893
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 53445
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12876
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 175408,
+        "TotalApproved": 132257
+    },
+    "AdjusterDetails": {
+        "Name": "Michelle Clark MD",
+        "ContactInformation": {
+            "Phone": "(974)768-1394",
+            "Email": "dawnsimon@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/eadc4275-46c1-45c3-8a77-02cacdf845c1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-14T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-19T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-24T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

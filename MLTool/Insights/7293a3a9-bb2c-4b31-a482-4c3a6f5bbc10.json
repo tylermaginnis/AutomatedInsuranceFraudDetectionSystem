@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7293a3a9-bb2c-4b31-a482-4c3a6f5bbc10",
+    "PolicyID": "a9754571-a174-4598-970c-8582383a81b5",
+    "EffectiveDates": {
+        "StartDate": "2024-04-11",
+        "EndDate": "2025-04-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "936b200d-7247-4a1f-92eb-d1714550e7cd",
+        "Name": "Daniel Turner",
+        "PolicyNumber": "a9754571-a174-4598-970c-8582383a81b5",
+        "ContactInformation": {
+            "Phone": "482.392.6488x1193",
+            "Email": "markhunter@example.net",
+            "Address": "32679 Johnson Landing\nNorth Tristanchester, NH 61437"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-11",
+        "Location": "Unit 6354 Box 7868\nDPO AE 91563",
+        "Description": "Able free produce. Sort important admit enough. She yeah join let."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 54663
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36006
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15834
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 54501
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1022
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 145058,
+        "TotalApproved": 118285
+    },
+    "AdjusterDetails": {
+        "Name": "Kristen Rivera",
+        "ContactInformation": {
+            "Phone": "580-372-5871x744",
+            "Email": "jacksonchristy@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/af1c7310-0597-4361-b576-b6597a1fd47c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

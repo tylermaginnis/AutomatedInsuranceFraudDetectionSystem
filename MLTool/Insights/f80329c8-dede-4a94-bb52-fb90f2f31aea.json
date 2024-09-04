@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f80329c8-dede-4a94-bb52-fb90f2f31aea",
+    "PolicyID": "54e8b4d6-dbc1-44a9-ba0e-491c8f112a77",
+    "EffectiveDates": {
+        "StartDate": "2024-01-18",
+        "EndDate": "2025-01-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b486a36a-cf8c-401e-814a-625756185cad",
+        "Name": "Taylor Warren",
+        "PolicyNumber": "54e8b4d6-dbc1-44a9-ba0e-491c8f112a77",
+        "ContactInformation": {
+            "Phone": "722-876-3940x4297",
+            "Email": "gthompson@example.com",
+            "Address": "48727 Cook Mountains\nNorth Hannah, KY 37141"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-29",
+        "Location": "73822 Sara Divide Apt. 470\nPort Ryan, KY 69736",
+        "Description": "Organization without team win. Country partner produce let reason culture where coach."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9688
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 92578
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14346
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3400
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27461
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 194433,
+        "TotalApproved": 164904
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Mcconnell",
+        "ContactInformation": {
+            "Phone": "473.906.0579",
+            "Email": "james02@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7895f7fc-c33e-4070-81cc-cd552c5447b8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-29T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-03T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-08T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

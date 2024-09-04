@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0d5e579b-575b-4c48-828c-ea484799cf8e",
+  "PolicyID": "1c720b81-64dc-47f6-ac3a-74800a226d42",
+  "EffectiveDates": {
+    "StartDate": "2024-04-30",
+    "EndDate": "2025-04-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5678a5a7-ba44-44f1-b786-9fe08fc51686",
+    "Name": "Julie Young",
+    "PolicyNumber": "1c720b81-64dc-47f6-ac3a-74800a226d42",
+    "ContactInformation": {
+      "Phone": "3588472003",
+      "Email": "tiffany19@example.com",
+      "Address": "39289 Webb Underpass\nGonzalesfurt, WA 36788"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-30",
+    "Location": "PSC 8744, Box 1299\nAPO AE 67411",
+    "Description": "Particularly business allow thus once several type community. Western argue goal strong professor near fish. Very case beat when almost myself project."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 156558
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 13617
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7323
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 49182
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 108572
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 70754,
+    "TotalApproved": 29413
+  },
+  "AdjusterDetails": {
+    "Name": "Nicholas Brown",
+    "ContactInformation": {
+      "Phone": "001-886-736-5000x2628",
+      "Email": "kimberly11@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/7e145bfa-d05c-4314-8b16-250949919333"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-30T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-04T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-09T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

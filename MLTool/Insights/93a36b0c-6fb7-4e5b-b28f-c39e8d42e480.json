@@ -1,0 +1,81 @@
+{
+    "ClaimID": "93a36b0c-6fb7-4e5b-b28f-c39e8d42e480",
+    "PolicyID": "4c702c56-74f0-4d3e-b806-3242d6970cde",
+    "EffectiveDates": {
+        "StartDate": "2024-08-29",
+        "EndDate": "2025-08-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "38657bb6-cde7-4591-8db3-468b5865d00a",
+        "Name": "Wendy Morris",
+        "PolicyNumber": "4c702c56-74f0-4d3e-b806-3242d6970cde",
+        "ContactInformation": {
+            "Phone": "+1-543-798-7490x172",
+            "Email": "rebeccasantos@example.com",
+            "Address": "506 Smith Island\nSouth Stacyville, GA 22617"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-22",
+        "Location": "Unit 1853 Box 8921\nDPO AE 76178",
+        "Description": "Old anything allow what discussion. Class that social baby west yourself. Message side my."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5576
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 69079
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14221
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31301
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 110071
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 34808,
+        "TotalApproved": 24361
+    },
+    "AdjusterDetails": {
+        "Name": "Megan Vincent",
+        "ContactInformation": {
+            "Phone": "215.561.0902x52181",
+            "Email": "taylorkendra@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1704a64f-027e-4a85-8b0e-f0743d5be9ab"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-22T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-27T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

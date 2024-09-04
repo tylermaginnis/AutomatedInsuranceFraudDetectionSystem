@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fe0a4023-f0d0-4e10-b1bb-61069f12a0a8",
+    "PolicyID": "eaf719fd-c9e7-47a3-be34-c21e2b7d92d7",
+    "EffectiveDates": {
+        "StartDate": "2024-03-12",
+        "EndDate": "2025-03-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a9a72ace-b1ae-4111-af40-920192b7d54d",
+        "Name": "Mary Valentine",
+        "PolicyNumber": "eaf719fd-c9e7-47a3-be34-c21e2b7d92d7",
+        "ContactInformation": {
+            "Phone": "(439)639-7942",
+            "Email": "aherrera@example.net",
+            "Address": "60808 James Shoals\nJohnsonchester, AL 03334"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-08",
+        "Location": "544 Ward Cliffs\nMelissafort, HI 51507",
+        "Description": "Hit other recent second long phone. Western even season explain assume thousand address truth. Unit part and meeting piece vote fast about.\nRaise prepare nearly most mother look process."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1205
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9442
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 51595
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 162839
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16596
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 120862,
+        "TotalApproved": 9316
+    },
+    "AdjusterDetails": {
+        "Name": "Crystal Brown",
+        "ContactInformation": {
+            "Phone": "(228)903-5639",
+            "Email": "hjohnson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/2e8e5ffb-b2b0-4f7e-a39b-340f0d6d0278"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

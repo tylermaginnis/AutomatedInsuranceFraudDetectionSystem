@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bacbd3e7-b2cc-48d6-9bb8-03bc76359c8b",
+    "PolicyID": "49310832-23bd-45d1-ade7-cf957948d503",
+    "EffectiveDates": {
+        "StartDate": "2023-10-09",
+        "EndDate": "2024-10-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1bcc57a1-cf29-469b-a207-4d281c220842",
+        "Name": "Nancy Roberts",
+        "PolicyNumber": "49310832-23bd-45d1-ade7-cf957948d503",
+        "ContactInformation": {
+            "Phone": "(822)418-4633",
+            "Email": "andreaharrison@example.org",
+            "Address": "280 Kelley Motorway\nMartinezhaven, DC 54630"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-05",
+        "Location": "4408 Sutton Isle Apt. 328\nAmandastad, MI 09739",
+        "Description": "Quality executive situation protect skin plan. Whatever organization environment identify gas shake should."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 78119
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 66749
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9476
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19734
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37493
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 72813,
+        "TotalApproved": 32953
+    },
+    "AdjusterDetails": {
+        "Name": "William Johnson",
+        "ContactInformation": {
+            "Phone": "5323319026",
+            "Email": "jsampson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/d6370f0b-42d6-4534-a36c-78371ee8775d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

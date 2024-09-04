@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7f60b49f-ba44-4cdc-a819-c154b02d275c",
+    "PolicyID": "edfb229a-08fc-4e9e-adaf-f70f3fdf7016",
+    "EffectiveDates": {
+        "StartDate": "2024-05-22",
+        "EndDate": "2025-05-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2821d24f-24b5-4d54-98ef-f1d33e58f6e0",
+        "Name": "Bill Cain",
+        "PolicyNumber": "edfb229a-08fc-4e9e-adaf-f70f3fdf7016",
+        "ContactInformation": {
+            "Phone": "+1-526-279-1694x8062",
+            "Email": "smithjose@example.net",
+            "Address": "945 Hanna Knolls\nElizabethburgh, VT 78128"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-19",
+        "Location": "384 Carla Parkway Suite 767\nEast Victoria, NJ 88871",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 79208
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49953
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6679
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21795
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17946
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 175581,
+        "TotalApproved": 156275
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Brown",
+        "ContactInformation": {
+            "Phone": "(926)739-5317x841",
+            "Email": "jamescraig@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9d0489cf-dd59-4a31-b99d-138da17eab23"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-19T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-24T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-29T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

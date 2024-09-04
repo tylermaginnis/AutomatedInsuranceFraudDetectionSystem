@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1f21adcc-11b0-495e-ad60-ba677d92962a",
+  "PolicyID": "9d5056bb-035b-4a6d-a71b-4fe825194c14",
+  "EffectiveDates": {
+    "StartDate": "2024-08-31",
+    "EndDate": "2025-08-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f61e09f1-2d61-4b05-b10e-5f7b4ef6c799",
+    "Name": "Ashley Evans",
+    "PolicyNumber": "9d5056bb-035b-4a6d-a71b-4fe825194c14",
+    "ContactInformation": {
+      "Phone": "001-363-788-9689",
+      "Email": "nwaters@example.net",
+      "Address": "733 Jeffrey Parks\nEast Brian, MP 16771"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-13",
+    "Location": "78965 Daniel Forks\nNorth Ronaldborough, WA 07712",
+    "Description": "Nothing tell beautiful suffer pass look behind. Particular compare star be build series yourself gun."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14360
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 31668
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 15922
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7292
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3000
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 33885,
+    "TotalApproved": 26144
+  },
+  "AdjusterDetails": {
+    "Name": "Kathryn Mitchell",
+    "ContactInformation": {
+      "Phone": "421-465-4287x38802",
+      "Email": "stephen22@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/b704be53-2127-4170-9ea2-db64cfa447b7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-13T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-18T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-23T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

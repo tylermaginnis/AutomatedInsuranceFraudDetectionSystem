@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2ef5ffc7-5075-42ce-a7f6-f16753691bfc",
+  "PolicyID": "fa27bb24-f195-44db-a714-643871ac8568",
+  "EffectiveDates": {
+    "StartDate": "2024-08-09",
+    "EndDate": "2025-08-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7090455f-3b32-48f7-b0be-2cfd6b52fcc0",
+    "Name": "Carlos Lawrence",
+    "PolicyNumber": "fa27bb24-f195-44db-a714-643871ac8568",
+    "ContactInformation": {
+      "Phone": "(339)212-4354x26279",
+      "Email": "greenmarcus@example.net",
+      "Address": "144 Joseph Ports Apt. 102\nDanielleview, NY 63404"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-12",
+    "Location": "06890 Snyder Brooks Suite 844\nRogersburgh, VA 34172",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 83350
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 21226
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5632
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 26160
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16709
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 153077,
+    "TotalApproved": 120660
+  },
+  "AdjusterDetails": {
+    "Name": "Andrew Cook",
+    "ContactInformation": {
+      "Phone": "001-834-800-6923x750",
+      "Email": "wrightadam@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/e5e013c9-4e10-4a14-bae8-93f349f203f6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-12T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-17T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-22T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

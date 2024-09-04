@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bc4d973f-2dca-4e2c-9c31-b8ddb013dcd7",
+    "PolicyID": "810349fd-f2e8-4dd4-89ca-2683ff7029bc",
+    "EffectiveDates": {
+        "StartDate": "2024-08-14",
+        "EndDate": "2025-08-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d774c242-abaa-4928-aacf-97faf6080673",
+        "Name": "Hannah Berg",
+        "PolicyNumber": "810349fd-f2e8-4dd4-89ca-2683ff7029bc",
+        "ContactInformation": {
+            "Phone": "001-384-740-3742",
+            "Email": "dominique46@example.net",
+            "Address": "62646 John Trail\nJacquelineburgh, CA 54878"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-06",
+        "Location": "USNS Ray\nFPO AP 46847",
+        "Description": "Wife important mission mission note. Positive exist face husband Mrs result outside air.\nLine number issue surface full couple remain."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2265
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 161486
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26814
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5359
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6401
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 3839,
+        "TotalApproved": 1161
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Smith",
+        "ContactInformation": {
+            "Phone": "+1-435-505-9137x400",
+            "Email": "zmccarty@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/357aad9f-b84b-48f6-8a52-b0d88844621c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-06T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-11T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-16T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

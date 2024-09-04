@@ -1,0 +1,81 @@
+{
+    "ClaimID": "59f0a8cb-94d2-417f-96f2-55aa6d55bb04",
+    "PolicyID": "d2ba5fdf-270a-4de4-be09-0d7745e3b2cd",
+    "EffectiveDates": {
+        "StartDate": "2023-12-25",
+        "EndDate": "2024-12-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3bfb117e-bd57-42fb-b179-b7a186cb720b",
+        "Name": "Suzanne Smith",
+        "PolicyNumber": "d2ba5fdf-270a-4de4-be09-0d7745e3b2cd",
+        "ContactInformation": {
+            "Phone": "8009732060",
+            "Email": "jason62@example.com",
+            "Address": "USNV Alvarado\nFPO AE 06597"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-26",
+        "Location": "646 Mills Knolls Suite 138\nJohnsonbury, NM 32725",
+        "Description": "Understand actually push personal. Year player deep special.\nMarket factor agency certainly plan become certainly. Leader stand reality exist. Finally know better economic program lot."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13115
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15442
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 191115
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 21977
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7556
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 10278,
+        "TotalApproved": 1576
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Bryan Maldonado DDS",
+        "ContactInformation": {
+            "Phone": "294-860-6966",
+            "Email": "wrobinson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/68330669-3a5e-4888-aebc-0b1eaa6f4a41"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-26T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-31T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-05T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

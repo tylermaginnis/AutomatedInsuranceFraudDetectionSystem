@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b7b63fe4-4e64-47eb-9852-d50f49145b4b",
+    "PolicyID": "13641441-3017-4ab3-8662-43e17b2b1689",
+    "EffectiveDates": {
+        "StartDate": "2024-01-16",
+        "EndDate": "2025-01-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c2eb34de-5c20-45e3-998a-d1d67b64a7a2",
+        "Name": "Stephanie Henson",
+        "PolicyNumber": "13641441-3017-4ab3-8662-43e17b2b1689",
+        "ContactInformation": {
+            "Phone": "(574)921-5046",
+            "Email": "tcarey@example.org",
+            "Address": "481 Bass Valley Apt. 440\nMckinneyview, HI 79429"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-07",
+        "Location": "USNV Davis\nFPO AE 20867",
+        "Description": "Certainly process care difficult reality now catch whatever. Up maybe very follow interview today discussion. Recognize various president partner agent political."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7512
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2136
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5995
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 95996
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 92595
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 65227,
+        "TotalApproved": 13175
+    },
+    "AdjusterDetails": {
+        "Name": "Johnny Ross",
+        "ContactInformation": {
+            "Phone": "583.273.5704",
+            "Email": "sara24@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/75d8cfd9-c982-439f-a187-2feaa1f3ee86"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

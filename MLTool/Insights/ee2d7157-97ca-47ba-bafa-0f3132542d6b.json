@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ee2d7157-97ca-47ba-bafa-0f3132542d6b",
+    "PolicyID": "f581cf47-275f-4a1f-a22b-0d38428e359a",
+    "EffectiveDates": {
+        "StartDate": "2024-05-08",
+        "EndDate": "2025-05-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "703e125f-5187-41d4-b40d-0aa2e397f23c",
+        "Name": "Tammy Wells",
+        "PolicyNumber": "f581cf47-275f-4a1f-a22b-0d38428e359a",
+        "ContactInformation": {
+            "Phone": "414-618-0320x575",
+            "Email": "thomasjustin@example.org",
+            "Address": "79106 Terrence Stream Suite 659\nNorth Andrea, OH 26261"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-16",
+        "Location": "Unit 6639 Box 0309\nDPO AP 37806",
+        "Description": "Culture without know city rise office natural. Simple growth consider eat news pretty find thought. Day nation hard."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4384
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8616
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18857
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9386
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49342
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 35760,
+        "TotalApproved": 24471
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Johnson",
+        "ContactInformation": {
+            "Phone": "387-356-6044",
+            "Email": "david06@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d590dcc2-1945-4c4f-869e-5b623255b274"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ac0998db-5902-4bc2-9d9a-b8343ea04b45",
+  "PolicyID": "baefcd51-04bf-42a8-a9c2-42ea2638453a",
+  "EffectiveDates": {
+    "StartDate": "2023-09-11",
+    "EndDate": "2024-09-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "dd4001a4-30c3-4af6-ba4b-bc39d9263efe",
+    "Name": "Dennis Jensen",
+    "PolicyNumber": "baefcd51-04bf-42a8-a9c2-42ea2638453a",
+    "ContactInformation": {
+      "Phone": "001-450-540-1159x319",
+      "Email": "bsullivan@example.com",
+      "Address": "604 Wilson Harbor\nSouth Curtisville, UT 18571"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-05",
+    "Location": "240 Thomas Neck Suite 201\nSouth Melissa, CO 62127",
+    "Description": "Start book write box. Analysis more laugh bill Congress deep example. Main decision institution cut.\nHope whom should. Care detail enter health quite mean my. Must whatever person town until."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 35362
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 25435
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 15026
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 4998
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 38311
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 107970,
+    "TotalApproved": 3642
+  },
+  "AdjusterDetails": {
+    "Name": "Cynthia Cook",
+    "ContactInformation": {
+      "Phone": "(986)827-6092x1046",
+      "Email": "kelly40@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/c8497a78-9c4f-465e-9807-b938502b9b27"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-05T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-10T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-02-15T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

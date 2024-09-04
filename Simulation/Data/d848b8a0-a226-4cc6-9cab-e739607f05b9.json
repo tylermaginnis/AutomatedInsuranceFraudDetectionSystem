@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d848b8a0-a226-4cc6-9cab-e739607f05b9",
+  "PolicyID": "74fe2854-1a12-4de0-a868-bc98523b7ccd",
+  "EffectiveDates": {
+    "StartDate": "2023-12-02",
+    "EndDate": "2024-12-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3f113b31-cabf-40df-8a62-607bcd5c0b2c",
+    "Name": "Laura Jensen",
+    "PolicyNumber": "74fe2854-1a12-4de0-a868-bc98523b7ccd",
+    "ContactInformation": {
+      "Phone": "001-914-626-5880x7224",
+      "Email": "ronaldjones@example.net",
+      "Address": "940 Sarah River\nBushport, MS 67664"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-15",
+    "Location": "36336 Lewis Valley\nMcmahonville, PR 84216",
+    "Description": "Bed good provide show. Indeed present school community life operation protect. Test push animal free hundred.\nWish do will parent get. Situation poor show early artist situation brother onto."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 99940
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2336
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15929
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3031
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 65824
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 141239,
+    "TotalApproved": 82916
+  },
+  "AdjusterDetails": {
+    "Name": "Ariana Ward",
+    "ContactInformation": {
+      "Phone": "(347)756-6206",
+      "Email": "zwilliams@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/ef7c4cc3-3fcc-4f5d-8505-a6cbe10ee7e0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-15T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-20T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-25T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "44ed7c8e-933c-451b-ba9a-8d5e627900f9",
+    "PolicyID": "ecacbdbe-7098-4f3f-b80f-93a99ef40311",
+    "EffectiveDates": {
+        "StartDate": "2023-09-15",
+        "EndDate": "2024-09-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d622ea97-df54-4145-b4cc-bc15de43393e",
+        "Name": "Jimmy Mitchell",
+        "PolicyNumber": "ecacbdbe-7098-4f3f-b80f-93a99ef40311",
+        "ContactInformation": {
+            "Phone": "(732)883-5686",
+            "Email": "emorgan@example.org",
+            "Address": "6811 Collins Stream Apt. 668\nKaylaport, VA 25877"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-28",
+        "Location": "54393 Quinn Radial\nNicholasberg, SC 57647",
+        "Description": "Laugh there page wrong small under.\nSouthern on process trip investment boy long. Republican thank stage according draw. Particularly trade take fill."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4332
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 84001
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 88271
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25440
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21833
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151216,
+        "TotalApproved": 28362
+    },
+    "AdjusterDetails": {
+        "Name": "Megan Lawson",
+        "ContactInformation": {
+            "Phone": "593-503-6478",
+            "Email": "richardwhite@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9a404d7f-b46a-4def-9769-f668819c9673"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

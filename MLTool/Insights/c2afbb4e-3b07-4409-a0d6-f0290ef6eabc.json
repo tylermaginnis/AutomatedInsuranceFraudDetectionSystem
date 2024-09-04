@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c2afbb4e-3b07-4409-a0d6-f0290ef6eabc",
+    "PolicyID": "3ac6a1eb-92c7-4e03-9850-31b14aba17e5",
+    "EffectiveDates": {
+        "StartDate": "2023-10-28",
+        "EndDate": "2024-10-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef721490-eca6-401a-95fb-c2b43fdf422c",
+        "Name": "Valerie Edwards",
+        "PolicyNumber": "3ac6a1eb-92c7-4e03-9850-31b14aba17e5",
+        "ContactInformation": {
+            "Phone": "001-395-396-6145x585",
+            "Email": "christine82@example.org",
+            "Address": "9790 Emily Rapid Suite 493\nDanielsberg, MO 92920"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-22",
+        "Location": "845 Romero Stream Suite 335\nPort Bradleyhaven, OK 02271",
+        "Description": "Man report number list way threat look. Building travel still hair whatever shoulder just.\nAge feel protect now PM."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14885
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91655
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31846
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71378
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16225
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 50868,
+        "TotalApproved": 6652
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Lopez",
+        "ContactInformation": {
+            "Phone": "8669241470",
+            "Email": "pcardenas@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a347663c-6a2a-4ea0-bc9c-d0d33b889135"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-03T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

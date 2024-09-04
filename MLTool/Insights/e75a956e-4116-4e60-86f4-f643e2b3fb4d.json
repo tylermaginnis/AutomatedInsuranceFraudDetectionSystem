@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e75a956e-4116-4e60-86f4-f643e2b3fb4d",
+    "PolicyID": "35be26c1-4a36-4d13-8f65-0a0a7e261761",
+    "EffectiveDates": {
+        "StartDate": "2023-09-19",
+        "EndDate": "2024-09-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e8645687-fc01-43ca-a797-86f4488ea129",
+        "Name": "Cody Johnson",
+        "PolicyNumber": "35be26c1-4a36-4d13-8f65-0a0a7e261761",
+        "ContactInformation": {
+            "Phone": "499-234-5575",
+            "Email": "udavis@example.org",
+            "Address": "0245 Holly Fall\nNorth Ashley, WA 16606"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-16",
+        "Location": "0819 Murray Place\nKiddtown, SC 77220",
+        "Description": "Model ground travel forget upon.\nMove hope represent star impact. Recently school education network attention."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 155129
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47627
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1425
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4296
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14117
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 108937,
+        "TotalApproved": 13472
+    },
+    "AdjusterDetails": {
+        "Name": "Ronald Sutton",
+        "ContactInformation": {
+            "Phone": "834-562-5608",
+            "Email": "elizabeth33@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bbd7538c-2edc-45da-9e8a-196d1c3af42a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

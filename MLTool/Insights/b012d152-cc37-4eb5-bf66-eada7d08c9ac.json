@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b012d152-cc37-4eb5-bf66-eada7d08c9ac",
+    "PolicyID": "03b76fcf-dcf3-4338-95d5-7905ef038a40",
+    "EffectiveDates": {
+        "StartDate": "2024-03-24",
+        "EndDate": "2025-03-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "88d25b54-57ad-4e1a-9441-b6ada4f832de",
+        "Name": "Tyler Graham",
+        "PolicyNumber": "03b76fcf-dcf3-4338-95d5-7905ef038a40",
+        "ContactInformation": {
+            "Phone": "4649678932",
+            "Email": "ryanramsey@example.com",
+            "Address": "4416 Trevor Motorway Suite 581\nDanielbury, TX 04157"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-13",
+        "Location": "206 Hopkins Shore Suite 582\nRandyland, ID 28659",
+        "Description": "Organization society road report. Republican whole thought say provide next doctor. Sign around class decide could stand."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2806
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41211
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37285
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 30437
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15228
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 173105,
+        "TotalApproved": 104250
+    },
+    "AdjusterDetails": {
+        "Name": "Hunter Martinez",
+        "ContactInformation": {
+            "Phone": "001-653-442-0553x8730",
+            "Email": "iberry@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9b02c942-1bba-4425-ba28-eddc6132ad1f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

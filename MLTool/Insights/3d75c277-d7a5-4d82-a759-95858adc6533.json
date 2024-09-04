@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3d75c277-d7a5-4d82-a759-95858adc6533",
+    "PolicyID": "5a130f48-fe39-4ba0-a444-9b3f269671d6",
+    "EffectiveDates": {
+        "StartDate": "2023-09-24",
+        "EndDate": "2024-09-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b440ffb9-c443-49b0-80e8-250fe8001424",
+        "Name": "Martin Buchanan",
+        "PolicyNumber": "5a130f48-fe39-4ba0-a444-9b3f269671d6",
+        "ContactInformation": {
+            "Phone": "(434)581-1197",
+            "Email": "davidcox@example.org",
+            "Address": "085 Angela Cliffs\nWest Mariah, DC 35902"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-31",
+        "Location": "7133 Allen Island Suite 743\nPiercemouth, WA 97930",
+        "Description": "Trip machine price. American us free fund unit most never.\nCountry certainly above in whom offer. Option choice one participant important team."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37310
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70396
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16445
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17450
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41504
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 82978,
+        "TotalApproved": 33738
+    },
+    "AdjusterDetails": {
+        "Name": "Donald Bell",
+        "ContactInformation": {
+            "Phone": "5768084171",
+            "Email": "danielcastro@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/eab3e526-6f46-436f-ab05-af1af0061274"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-31T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

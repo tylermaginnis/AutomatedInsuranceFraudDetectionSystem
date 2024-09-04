@@ -1,0 +1,81 @@
+{
+    "ClaimID": "702af052-18a8-4910-aa90-2d5558df53e5",
+    "PolicyID": "86a1588b-87c6-4dfa-b37a-f113e3ae4916",
+    "EffectiveDates": {
+        "StartDate": "2024-07-10",
+        "EndDate": "2025-07-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2e38a979-3ad3-45bd-9e8a-0ac900e437ee",
+        "Name": "Yvonne Stein",
+        "PolicyNumber": "86a1588b-87c6-4dfa-b37a-f113e3ae4916",
+        "ContactInformation": {
+            "Phone": "453-831-4207x28180",
+            "Email": "reneesmith@example.org",
+            "Address": "6260 Beth Viaduct Apt. 142\nLindseyburgh, MD 05697"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-03",
+        "Location": "93445 Payne Isle Apt. 843\nWest Jenniferside, MA 26220",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 59769
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45997
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6990
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11106
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14472
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 138334,
+        "TotalApproved": 71976
+    },
+    "AdjusterDetails": {
+        "Name": "Robin Johnson",
+        "ContactInformation": {
+            "Phone": "685-271-2387x4766",
+            "Email": "benjamin51@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0f0f091e-b9cb-4d9e-acc1-d53f394add7f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

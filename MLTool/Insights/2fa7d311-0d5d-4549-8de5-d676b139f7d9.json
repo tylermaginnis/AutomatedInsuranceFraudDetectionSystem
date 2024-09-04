@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2fa7d311-0d5d-4549-8de5-d676b139f7d9",
+    "PolicyID": "c9909473-7914-45f3-985f-3b53f6b41297",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a7c5e73e-eb02-40e6-88ec-890d5938a1ad",
+        "Name": "Gina Anderson",
+        "PolicyNumber": "c9909473-7914-45f3-985f-3b53f6b41297",
+        "ContactInformation": {
+            "Phone": "(522)249-0365x2132",
+            "Email": "rhonda01@example.org",
+            "Address": "74185 Michael Vista\nRoberttown, WA 38648"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-05",
+        "Location": "06967 Ashley Dale Suite 727\nAaronchester, TN 83519",
+        "Description": "Animal assume class nature. Federal position threat especially by she however. Floor soon produce agent book indeed activity."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9164
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 85162
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3116
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5643
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 136755
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 140365,
+        "TotalApproved": 4244
+    },
+    "AdjusterDetails": {
+        "Name": "Natalie Robertson",
+        "ContactInformation": {
+            "Phone": "(730)409-4552x310",
+            "Email": "rpollard@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9a2f389f-2970-4651-ab8b-1f4a5c10c5a5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

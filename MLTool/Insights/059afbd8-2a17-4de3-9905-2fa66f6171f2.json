@@ -1,0 +1,81 @@
+{
+    "ClaimID": "059afbd8-2a17-4de3-9905-2fa66f6171f2",
+    "PolicyID": "3019283a-9e27-413d-919d-54de3621cdbb",
+    "EffectiveDates": {
+        "StartDate": "2023-10-24",
+        "EndDate": "2024-10-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ea2f1003-f69a-4c72-9bf4-396d4b13d49a",
+        "Name": "Kristen Bell",
+        "PolicyNumber": "3019283a-9e27-413d-919d-54de3621cdbb",
+        "ContactInformation": {
+            "Phone": "545-330-3971x949",
+            "Email": "johngreen@example.net",
+            "Address": "777 David Street Suite 344\nDoylestad, AZ 26292"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-01",
+        "Location": "0613 Robinson Hills Apt. 196\nEast Kennethfort, RI 35028",
+        "Description": "Account west character option wrong must car. Seem strong simple than case case also. Know star station lawyer have.\nRest art number few allow chance. Born performance from perform military still."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49213
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 83222
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 61223
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82501
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3295
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 142405,
+        "TotalApproved": 136057
+    },
+    "AdjusterDetails": {
+        "Name": "Marie Davidson",
+        "ContactInformation": {
+            "Phone": "320.284.6852",
+            "Email": "lisadaugherty@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/601ce400-8aac-4bf4-ad29-232f8e45127f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

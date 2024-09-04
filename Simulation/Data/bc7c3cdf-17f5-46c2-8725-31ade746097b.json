@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bc7c3cdf-17f5-46c2-8725-31ade746097b",
+  "PolicyID": "12eaa55d-3112-4854-ab9f-6d361c59c21a",
+  "EffectiveDates": {
+    "StartDate": "2023-10-20",
+    "EndDate": "2024-10-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "df122140-d00d-4d8f-92f1-0c6a010bf978",
+    "Name": "Bianca Tran",
+    "PolicyNumber": "12eaa55d-3112-4854-ab9f-6d361c59c21a",
+    "ContactInformation": {
+      "Phone": "001-655-762-7200",
+      "Email": "kschmidt@example.net",
+      "Address": "23404 Kimberly Shoal\nSarafort, DE 58290"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-14",
+    "Location": "33168 Miller Mountains\nEast Jacob, IA 12979",
+    "Description": "Offer sure could less experience order tough. Must seven fine our image. Best might among current law design later will."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 36766
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6840
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 168097
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19151
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 91624
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 68580,
+    "TotalApproved": 68515
+  },
+  "AdjusterDetails": {
+    "Name": "Robert Petersen",
+    "ContactInformation": {
+      "Phone": "(575)359-4639",
+      "Email": "lorireyes@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/3721216f-ce27-409e-ac38-7e6516cd4df6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-14T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-19T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-24T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

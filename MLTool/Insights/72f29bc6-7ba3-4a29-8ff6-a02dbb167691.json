@@ -1,0 +1,81 @@
+{
+    "ClaimID": "72f29bc6-7ba3-4a29-8ff6-a02dbb167691",
+    "PolicyID": "b83100d1-b9f2-4526-b13c-3decabc735f7",
+    "EffectiveDates": {
+        "StartDate": "2024-01-25",
+        "EndDate": "2025-01-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0e8c9533-5145-44d5-8d38-2078c0cbb0eb",
+        "Name": "Jenna Pearson",
+        "PolicyNumber": "b83100d1-b9f2-4526-b13c-3decabc735f7",
+        "ContactInformation": {
+            "Phone": "001-847-325-2467",
+            "Email": "zmacdonald@example.net",
+            "Address": "2875 Gordon Passage Apt. 986\nBrianmouth, LA 33454"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-27",
+        "Location": "46306 Anthony Passage\nHolmestown, PA 79332",
+        "Description": "Add support somebody first. Me process free idea.\nPrevent occur decade should set follow story. Yet remain deal them step. Continue yet who might deep agreement off newspaper.\nChild act stop."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 138194
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19185
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6679
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2656
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14542
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 4473,
+        "TotalApproved": 3387
+    },
+    "AdjusterDetails": {
+        "Name": "Dana Steele",
+        "ContactInformation": {
+            "Phone": "+1-696-266-7160",
+            "Email": "lstevens@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/05b8cae8-c845-40a5-bce3-4b4e0a00e583"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-27T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-02T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-07T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

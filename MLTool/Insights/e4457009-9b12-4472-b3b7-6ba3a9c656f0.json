@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e4457009-9b12-4472-b3b7-6ba3a9c656f0",
+    "PolicyID": "2ef0a7fe-6974-4e35-928d-1c4cf3756524",
+    "EffectiveDates": {
+        "StartDate": "2024-01-29",
+        "EndDate": "2025-01-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "de06f65d-e10b-4d56-ac52-384a860118ec",
+        "Name": "Lori Reynolds",
+        "PolicyNumber": "2ef0a7fe-6974-4e35-928d-1c4cf3756524",
+        "ContactInformation": {
+            "Phone": "001-800-707-8819x30448",
+            "Email": "edonaldson@example.net",
+            "Address": "72086 Roach Highway Apt. 568\nDeantown, IA 76226"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-01",
+        "Location": "95775 Hernandez Green\nSchneiderberg, AL 18679",
+        "Description": "Popular challenge example. Interesting hour international everybody various heart care. Protect movement improve discussion similar here."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 132534
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2033
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12989
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25507
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 196073
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 65463,
+        "TotalApproved": 30599
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Fitzpatrick",
+        "ContactInformation": {
+            "Phone": "913-526-0990",
+            "Email": "ashley61@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6f1c25cc-e08e-4e0a-a7b8-6bf248c353db"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

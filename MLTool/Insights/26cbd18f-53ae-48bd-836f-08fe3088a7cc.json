@@ -1,0 +1,81 @@
+{
+    "ClaimID": "26cbd18f-53ae-48bd-836f-08fe3088a7cc",
+    "PolicyID": "e79991a8-168b-4353-9bbb-0b9d869f9391",
+    "EffectiveDates": {
+        "StartDate": "2024-08-20",
+        "EndDate": "2025-08-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e3b5c2fb-ee71-49ad-8135-da463191e4ea",
+        "Name": "Lisa Williams",
+        "PolicyNumber": "e79991a8-168b-4353-9bbb-0b9d869f9391",
+        "ContactInformation": {
+            "Phone": "378.692.7935",
+            "Email": "robinsonstephanie@example.net",
+            "Address": "76836 Davila Park Suite 597\nNew Elizabethfort, NH 34882"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-19",
+        "Location": "0093 James Valley\nLake Tiffany, AS 11155",
+        "Description": "Little attention six. Someone local performance ago attorney should vote into. Heart way measure everybody often yeah player."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18404
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3426
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 87104
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15847
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4822
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 151509,
+        "TotalApproved": 85945
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Booth",
+        "ContactInformation": {
+            "Phone": "339-919-9626x896",
+            "Email": "jordanwoods@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/ce6236fb-a896-40bc-9973-09deb02ffd47"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-19T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-24T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-29T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

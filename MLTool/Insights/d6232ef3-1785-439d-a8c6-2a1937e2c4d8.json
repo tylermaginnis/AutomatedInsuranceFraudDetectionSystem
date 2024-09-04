@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d6232ef3-1785-439d-a8c6-2a1937e2c4d8",
+    "PolicyID": "c289cebf-ca27-4955-9616-4ab20a2d9cc7",
+    "EffectiveDates": {
+        "StartDate": "2024-01-28",
+        "EndDate": "2025-01-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5b5f406e-18e4-4711-885e-f9615ba232db",
+        "Name": "Hunter Ramos",
+        "PolicyNumber": "c289cebf-ca27-4955-9616-4ab20a2d9cc7",
+        "ContactInformation": {
+            "Phone": "735.233.2100",
+            "Email": "penningtonjean@example.com",
+            "Address": "43740 Steven Island\nJacksonchester, WY 08090"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-28",
+        "Location": "5744 Noble Highway Suite 673\nAdamsview, SC 88675",
+        "Description": "Make that matter maybe while turn standard. Poor various remember chance technology risk treat. Question imagine staff field."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16790
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9170
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2761
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4300
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 80931
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 75365,
+        "TotalApproved": 16086
+    },
+    "AdjusterDetails": {
+        "Name": "Tiffany Schmidt",
+        "ContactInformation": {
+            "Phone": "807-995-7689x3247",
+            "Email": "garycrawford@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ef028ee7-6dee-4ddc-a9a2-fcbfafd77825"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-28T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

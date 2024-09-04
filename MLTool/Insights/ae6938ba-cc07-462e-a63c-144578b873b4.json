@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ae6938ba-cc07-462e-a63c-144578b873b4",
+    "PolicyID": "3651bd0f-1a09-48bd-81d3-a2ccdf996200",
+    "EffectiveDates": {
+        "StartDate": "2023-12-19",
+        "EndDate": "2024-12-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a902e464-680a-45ef-8c29-af049c740716",
+        "Name": "Bill Thomas",
+        "PolicyNumber": "3651bd0f-1a09-48bd-81d3-a2ccdf996200",
+        "ContactInformation": {
+            "Phone": "001-529-804-6861x50396",
+            "Email": "lharvey@example.com",
+            "Address": "115 Shaffer Harbors Apt. 088\nSharonmouth, WY 85557"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-12",
+        "Location": "346 Harper Green Suite 979\nAaronton, PW 83692",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 70049
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24091
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8134
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27531
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11551
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 141356,
+        "TotalApproved": 125694
+    },
+    "AdjusterDetails": {
+        "Name": "Rhonda Martinez",
+        "ContactInformation": {
+            "Phone": "546-954-6246x5703",
+            "Email": "bethanypotter@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1f078377-cad8-42a2-a068-f1ecbae0c61d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-12T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-17T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-22T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

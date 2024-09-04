@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f9af51f6-de0e-415f-a44d-fb4b27f4a73d",
+    "PolicyID": "800976e4-a556-4c94-8518-46ff288b6707",
+    "EffectiveDates": {
+        "StartDate": "2023-10-06",
+        "EndDate": "2024-10-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "735f1daa-e662-42f9-ad07-8457c14b7e1b",
+        "Name": "Cynthia Bartlett",
+        "PolicyNumber": "800976e4-a556-4c94-8518-46ff288b6707",
+        "ContactInformation": {
+            "Phone": "(361)452-6509",
+            "Email": "dustin80@example.org",
+            "Address": "23446 Stephanie Branch Apt. 524\nPort Dianechester, IA 46977"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-04",
+        "Location": "PSC 3134, Box 2516\nAPO AE 95465",
+        "Description": "Market develop move.\nTeach country believe those red. Career however hospital represent."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 193996
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36665
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10548
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38778
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8379
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 164479,
+        "TotalApproved": 45469
+    },
+    "AdjusterDetails": {
+        "Name": "Linda Salinas",
+        "ContactInformation": {
+            "Phone": "(966)814-0356",
+            "Email": "nicholasmorris@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/df7acea3-1f59-4ae8-97d0-365443c81f82"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-04T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-09T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-14T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

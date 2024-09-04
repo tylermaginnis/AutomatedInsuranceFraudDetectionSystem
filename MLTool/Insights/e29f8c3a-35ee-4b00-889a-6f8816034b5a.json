@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e29f8c3a-35ee-4b00-889a-6f8816034b5a",
+    "PolicyID": "d500f0d0-ecfc-4822-b4ed-dd65cd46f450",
+    "EffectiveDates": {
+        "StartDate": "2023-12-29",
+        "EndDate": "2024-12-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "636030f6-2827-4ebc-ad2c-0eb242fb4f63",
+        "Name": "Susan Mosley",
+        "PolicyNumber": "d500f0d0-ecfc-4822-b4ed-dd65cd46f450",
+        "ContactInformation": {
+            "Phone": "413-930-0778x301",
+            "Email": "wolfechristina@example.org",
+            "Address": "14489 Rivera Station Apt. 906\nNorth Curtisberg, GU 57522"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-23",
+        "Location": "064 Mary Mountains Apt. 759\nRichardhaven, KS 41265",
+        "Description": "Everyone tough actually born but. Care lay general any. Tv skin institution daughter.\nMilitary room information catch ahead. According should thus by group health another. Until their my next."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8323
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6213
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8721
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11291
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 81632
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 65155,
+        "TotalApproved": 43844
+    },
+    "AdjusterDetails": {
+        "Name": "Karl Knight",
+        "ContactInformation": {
+            "Phone": "(600)984-1380",
+            "Email": "holly03@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9bc632d1-81bc-40af-a689-fc2e66d22b9b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

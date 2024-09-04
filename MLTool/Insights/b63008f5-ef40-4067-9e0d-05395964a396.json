@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b63008f5-ef40-4067-9e0d-05395964a396",
+    "PolicyID": "ae3c8a8f-bb8c-40fb-9dbd-89cf09aa7a1f",
+    "EffectiveDates": {
+        "StartDate": "2024-04-26",
+        "EndDate": "2025-04-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "288b8138-651f-4758-9471-26abfde32082",
+        "Name": "Dorothy Valdez",
+        "PolicyNumber": "ae3c8a8f-bb8c-40fb-9dbd-89cf09aa7a1f",
+        "ContactInformation": {
+            "Phone": "938-968-4698",
+            "Email": "travis10@example.com",
+            "Address": "65608 Nicole Locks\nSouth Carly, NC 07627"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-14",
+        "Location": "5230 Rebecca Turnpike Apt. 385\nHendersonhaven, MI 92956",
+        "Description": "World or keep family lay movement late.\nImprove PM its serve. Person couple standard. Law employee current individual candidate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10827
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10258
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10987
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5108
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1764
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 105112,
+        "TotalApproved": 28281
+    },
+    "AdjusterDetails": {
+        "Name": "Jacob Powell",
+        "ContactInformation": {
+            "Phone": "+1-651-541-7315x8304",
+            "Email": "kellerfrank@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e005fb85-d7b3-4db5-bcf0-004f7fefbd49"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-14T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-19T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-24T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

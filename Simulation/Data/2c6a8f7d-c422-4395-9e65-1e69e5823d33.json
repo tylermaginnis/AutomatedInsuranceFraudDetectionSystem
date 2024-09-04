@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2c6a8f7d-c422-4395-9e65-1e69e5823d33",
+  "PolicyID": "e2520c4f-8284-4d83-907c-3e963a26402a",
+  "EffectiveDates": {
+    "StartDate": "2024-06-16",
+    "EndDate": "2025-06-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2be5dd3a-fb98-486f-aaca-f4ba23f7abb0",
+    "Name": "David Blankenship",
+    "PolicyNumber": "e2520c4f-8284-4d83-907c-3e963a26402a",
+    "ContactInformation": {
+      "Phone": "+1-837-233-7323x7546",
+      "Email": "samanthastanley@example.net",
+      "Address": "USS Sanchez\nFPO AA 31024"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-24",
+    "Location": "786 Delacruz Courts\nPort Dawn, RI 91497",
+    "Description": "Bill dark production power step assume.\nWork garden surface newspaper important back executive. Two close away cell."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16032
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 65517
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16827
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2709
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2408
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 11467,
+    "TotalApproved": 6958
+  },
+  "AdjusterDetails": {
+    "Name": "Lindsey Allen",
+    "ContactInformation": {
+      "Phone": "(389)258-6853",
+      "Email": "robert94@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/78bf8cd1-bfb1-483a-9241-2f606f078668"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-24T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-29T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-03T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

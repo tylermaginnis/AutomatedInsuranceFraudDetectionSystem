@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9582cd29-18dc-4843-969a-9c2c4b5bea10",
+    "PolicyID": "14993e47-bca1-4b3c-9bc0-40c347200d2a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-15",
+        "EndDate": "2025-03-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1b3b6f35-96ef-4e88-9670-adbb48f06b32",
+        "Name": "Jennifer Lopez",
+        "PolicyNumber": "14993e47-bca1-4b3c-9bc0-40c347200d2a",
+        "ContactInformation": {
+            "Phone": "001-888-501-8363x99894",
+            "Email": "kathleen93@example.org",
+            "Address": "121 Welch Shore Suite 670\nDurhamburgh, LA 24708"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-29",
+        "Location": "67925 Mckinney Neck\nNorth Samanthatown, MN 65171",
+        "Description": "Hear produce just tree bed national. Little crime player measure of alone. Develop then identify trip general produce free."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17254
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 135327
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9072
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17834
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39459
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 42656,
+        "TotalApproved": 20871
+    },
+    "AdjusterDetails": {
+        "Name": "Desiree Sanchez",
+        "ContactInformation": {
+            "Phone": "001-445-529-2096x0120",
+            "Email": "kellyanthony@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2d657c73-98ad-4ef8-8434-576b1b5e389b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-29T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-03T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-08T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

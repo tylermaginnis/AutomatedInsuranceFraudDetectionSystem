@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c2e15594-6436-4a9f-a004-3a25916368e9",
+    "PolicyID": "7f40cd29-cf48-4f21-980a-fe12653bdf94",
+    "EffectiveDates": {
+        "StartDate": "2023-09-05",
+        "EndDate": "2024-09-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8ffe7e71-fbd8-46b2-9885-15c8a2dd5de7",
+        "Name": "Stephanie Cruz",
+        "PolicyNumber": "7f40cd29-cf48-4f21-980a-fe12653bdf94",
+        "ContactInformation": {
+            "Phone": "+1-827-975-8499x331",
+            "Email": "steven21@example.org",
+            "Address": "8148 Angela Vista Suite 548\nPort Desireeton, MH 52499"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-03",
+        "Location": "825 Cassidy Squares\nJessicaberg, AK 91870",
+        "Description": "Room suddenly vote along appear scientist. Third activity how. His total eat agent movement."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37037
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 156758
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5407
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19374
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17987
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 123463,
+        "TotalApproved": 63692
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Patterson",
+        "ContactInformation": {
+            "Phone": "7538575078",
+            "Email": "smithjames@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8d9191db-252e-46eb-bda5-6f42e891cc54"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

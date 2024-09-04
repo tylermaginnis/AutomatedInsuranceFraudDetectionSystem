@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d96c976f-c23c-4159-8692-239eac433dc8",
+    "PolicyID": "b6d26c6c-52a9-458d-afa5-9c33eddbd1bb",
+    "EffectiveDates": {
+        "StartDate": "2024-07-18",
+        "EndDate": "2025-07-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e72783e8-0048-4c97-88b7-3eb48efddc51",
+        "Name": "Carol Hebert",
+        "PolicyNumber": "b6d26c6c-52a9-458d-afa5-9c33eddbd1bb",
+        "ContactInformation": {
+            "Phone": "+1-480-369-9662x264",
+            "Email": "gregory07@example.net",
+            "Address": "7062 Gregory Ville\nTeresaside, OH 51169"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-25",
+        "Location": "38813 Sanders Road\nEast Kristen, OH 92201",
+        "Description": "Upon suffer consumer. Brother art stage citizen although what. Take however off provide."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19279
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14570
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18041
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15787
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6117
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 43864,
+        "TotalApproved": 41718
+    },
+    "AdjusterDetails": {
+        "Name": "Philip Perez",
+        "ContactInformation": {
+            "Phone": "354.908.4566",
+            "Email": "pateldonna@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cd2c5fbe-d808-453e-a2f8-cc2ae0d1db3f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-30T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

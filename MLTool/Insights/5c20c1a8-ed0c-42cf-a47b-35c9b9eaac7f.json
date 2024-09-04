@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5c20c1a8-ed0c-42cf-a47b-35c9b9eaac7f",
+    "PolicyID": "a4addefb-31b4-4400-9f1c-9672da1391ca",
+    "EffectiveDates": {
+        "StartDate": "2023-10-10",
+        "EndDate": "2024-10-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dae1534e-eb7e-433c-9443-405ea677c1cc",
+        "Name": "Emily Landry",
+        "PolicyNumber": "a4addefb-31b4-4400-9f1c-9672da1391ca",
+        "ContactInformation": {
+            "Phone": "001-777-994-1149",
+            "Email": "michaeljones@example.org",
+            "Address": "31408 Stephens Haven Suite 246\nDunnstad, AZ 11174"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-24",
+        "Location": "7944 Annette Crescent Suite 996\nEast Brian, UT 40807",
+        "Description": "Perform north surface enter friend. Break would away life nearly.\nSituation growth leg fine learn way. Style help hear human."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10105
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40214
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6879
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 50996
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34326
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144705,
+        "TotalApproved": 114006
+    },
+    "AdjusterDetails": {
+        "Name": "Marie Jones",
+        "ContactInformation": {
+            "Phone": "418.602.3894",
+            "Email": "parkerangela@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a8131624-ac14-4445-985c-af9a15a0cada"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-24T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-29T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-04T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ceb2d698-0e76-4969-99d1-c277809c09d4",
+    "PolicyID": "7bb17fc8-f058-4833-9485-b346dd8770f4",
+    "EffectiveDates": {
+        "StartDate": "2024-07-11",
+        "EndDate": "2025-07-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0012a065-5ff3-4e1e-9375-59b365b5886e",
+        "Name": "Mary Gutierrez",
+        "PolicyNumber": "7bb17fc8-f058-4833-9485-b346dd8770f4",
+        "ContactInformation": {
+            "Phone": "001-740-724-5087x00177",
+            "Email": "lisa89@example.net",
+            "Address": "345 Dennis Rapid\nWest Steven, FL 37415"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-10",
+        "Location": "3106 Colton Views\nAllisonberg, SD 06486",
+        "Description": "Manager feel heart street.\nSound heavy sing source land. Likely only care when list all."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2635
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 113563
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37310
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6968
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 77688
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 155795,
+        "TotalApproved": 93533
+    },
+    "AdjusterDetails": {
+        "Name": "Shelly Wilson",
+        "ContactInformation": {
+            "Phone": "(909)877-2576x4226",
+            "Email": "pamela72@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c43a971f-a28d-490f-8cdf-8fe1c15734aa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-10T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-15T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-20T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

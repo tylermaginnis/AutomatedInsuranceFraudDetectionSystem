@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4a0aba96-8fa0-425b-b1aa-1bd7a0b7555c",
+    "PolicyID": "eff5109b-44ce-4576-b3a4-afc810776282",
+    "EffectiveDates": {
+        "StartDate": "2024-04-23",
+        "EndDate": "2025-04-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f831e57e-5385-46c0-91dd-59e8574d2731",
+        "Name": "Scott Harper",
+        "PolicyNumber": "eff5109b-44ce-4576-b3a4-afc810776282",
+        "ContactInformation": {
+            "Phone": "916-651-6672x6395",
+            "Email": "sarahhart@example.org",
+            "Address": "73204 Wanda Views\nPort Ellenport, WI 88206"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-21",
+        "Location": "551 Cummings Park Suite 220\nZacharyville, DE 40760",
+        "Description": "Whose meeting health seven page case skin. Fear skill time past possible member. Name probably laugh thought style."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23079
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3402
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32645
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7531
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15955
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 117491,
+        "TotalApproved": 84062
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Camacho",
+        "ContactInformation": {
+            "Phone": "001-746-937-8760x60696",
+            "Email": "gsullivan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6142b2c3-0a1f-448a-a8b3-a41436f54325"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-21T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-26T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-31T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

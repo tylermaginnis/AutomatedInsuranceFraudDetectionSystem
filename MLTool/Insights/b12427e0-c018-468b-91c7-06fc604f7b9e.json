@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b12427e0-c018-468b-91c7-06fc604f7b9e",
+    "PolicyID": "65a0c750-704e-4f1a-af9f-f200cd85512e",
+    "EffectiveDates": {
+        "StartDate": "2024-06-22",
+        "EndDate": "2025-06-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "13c97001-5506-4e23-b81e-894a44d3ffff",
+        "Name": "Chelsea Delgado",
+        "PolicyNumber": "65a0c750-704e-4f1a-af9f-f200cd85512e",
+        "ContactInformation": {
+            "Phone": "(250)696-5684x947",
+            "Email": "gweber@example.com",
+            "Address": "PSC 9137, Box 7125\nAPO AE 03712"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-12",
+        "Location": "453 Miller Row Apt. 021\nLake Keithview, NM 19692",
+        "Description": "More anything field free possible nice. Bar rate little drive officer.\nEver nor born as him.\nBuilding view listen visit travel water."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47783
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34877
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38217
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13188
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14585
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 129998,
+        "TotalApproved": 7570
+    },
+    "AdjusterDetails": {
+        "Name": "Gabriella Johnson",
+        "ContactInformation": {
+            "Phone": "001-977-740-9108x89673",
+            "Email": "psuarez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d824a107-30bc-4418-a144-284bdbeb564b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-12T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-17T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-22T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4f0c67b9-6d59-4d08-bb83-0723a41d2399",
+    "PolicyID": "86a1588b-87c6-4dfa-b37a-f113e3ae4916",
+    "EffectiveDates": {
+        "StartDate": "2024-08-07",
+        "EndDate": "2025-08-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2e38a979-3ad3-45bd-9e8a-0ac900e437ee",
+        "Name": "Yvonne Stein",
+        "PolicyNumber": "86a1588b-87c6-4dfa-b37a-f113e3ae4916",
+        "ContactInformation": {
+            "Phone": "453-831-4207x28180",
+            "Email": "reneesmith@example.org",
+            "Address": "6260 Beth Viaduct Apt. 142\nLindseyburgh, MD 05697"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-21",
+        "Location": "8583 Rick Mission Apt. 048\nSouth Jonathan, CA 08303",
+        "Description": "Television fly what often continue. Now example from game.\nFear probably big will artist people notice. Husband executive ok."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9645
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41214
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8040
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34114
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13270
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 171838,
+        "TotalApproved": 157476
+    },
+    "AdjusterDetails": {
+        "Name": "Todd Bell",
+        "ContactInformation": {
+            "Phone": "+1-530-701-5436x8132",
+            "Email": "michellehughes@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/be060de2-ced1-402b-ab1f-3c41001a6c21"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-31T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

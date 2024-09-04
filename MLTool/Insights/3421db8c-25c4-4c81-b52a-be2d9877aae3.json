@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3421db8c-25c4-4c81-b52a-be2d9877aae3",
+    "PolicyID": "19a5f306-a611-480d-836a-1544843e8e1b",
+    "EffectiveDates": {
+        "StartDate": "2024-02-25",
+        "EndDate": "2025-02-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "24b89b85-fd44-4cf2-8da4-b6a5e595dd46",
+        "Name": "Seth Jackson",
+        "PolicyNumber": "19a5f306-a611-480d-836a-1544843e8e1b",
+        "ContactInformation": {
+            "Phone": "583-511-3157",
+            "Email": "karina39@example.com",
+            "Address": "1393 Walker Centers Suite 862\nNorth Tracychester, CT 05617"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-07",
+        "Location": "280 Boyd Vista\nNew Ryanside, AS 97344",
+        "Description": "Break leg age far month conference use. Improve break might today line member.\nMember these federal news."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49879
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 71072
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4237
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9681
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10667
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 149415,
+        "TotalApproved": 94068
+    },
+    "AdjusterDetails": {
+        "Name": "Kenneth Archer",
+        "ContactInformation": {
+            "Phone": "(281)666-2934x13409",
+            "Email": "kevin67@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/39c71568-8733-433b-bad6-352a5992d0a1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-07T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-12T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-17T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

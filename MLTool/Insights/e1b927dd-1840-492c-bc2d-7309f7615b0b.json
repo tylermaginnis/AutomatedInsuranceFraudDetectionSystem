@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e1b927dd-1840-492c-bc2d-7309f7615b0b",
+    "PolicyID": "ee97df43-3378-4d2e-aff5-80b72d765ed0",
+    "EffectiveDates": {
+        "StartDate": "2024-03-07",
+        "EndDate": "2025-03-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "411419a7-17d4-43af-8014-9330512c44b9",
+        "Name": "Daniel Mcpherson",
+        "PolicyNumber": "ee97df43-3378-4d2e-aff5-80b72d765ed0",
+        "ContactInformation": {
+            "Phone": "500.311.2516x03642",
+            "Email": "hughesbrandon@example.net",
+            "Address": "Unit 7034 Box 9308\nDPO AA 52130"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-04",
+        "Location": "918 Lori Islands\nMorrisside, AS 34804",
+        "Description": "Best seek someone cold. Go agent any fight far. Run child main order into."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 95408
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13196
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 98163
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 66873
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10995
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 93997,
+        "TotalApproved": 72743
+    },
+    "AdjusterDetails": {
+        "Name": "Sheri Moore",
+        "ContactInformation": {
+            "Phone": "218-470-7932x313",
+            "Email": "meganbarton@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/610f2192-5f91-4cd7-839d-1c847eeb396a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-04T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-09T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-14T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

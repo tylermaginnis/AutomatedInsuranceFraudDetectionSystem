@@ -1,0 +1,81 @@
+{
+    "ClaimID": "aa2f1672-f442-449c-9cec-924bb8ea108d",
+    "PolicyID": "fb9e81e5-7d76-4ea9-b75f-6d80b7d8923c",
+    "EffectiveDates": {
+        "StartDate": "2023-10-04",
+        "EndDate": "2024-10-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8f5c470b-f9de-45ab-972c-3c6e5617f798",
+        "Name": "Corey Hall",
+        "PolicyNumber": "fb9e81e5-7d76-4ea9-b75f-6d80b7d8923c",
+        "ContactInformation": {
+            "Phone": "+1-631-921-8442x79197",
+            "Email": "elittle@example.com",
+            "Address": "10074 John Haven Apt. 316\nWilliamstown, VA 74191"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-20",
+        "Location": "786 Price Knolls\nSouth Kevin, AR 31421",
+        "Description": "Girl woman understand image consider. Evening oil way. Receive city seat.\nCourse best music three itself. Lawyer one for nice wish. Her lose there family man beyond speak area."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 98730
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 70964
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9385
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2334
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 59464
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 118937,
+        "TotalApproved": 73300
+    },
+    "AdjusterDetails": {
+        "Name": "Lee Ramos",
+        "ContactInformation": {
+            "Phone": "808.260.3510x903",
+            "Email": "jessica65@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/264fdc13-ef3a-401f-9cdf-5c3fc1bbd1ac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b6be1f83-4871-41c6-aa82-a3e6f7603d64",
+    "PolicyID": "f0dca761-cc3b-4f7e-b5a6-79f9f3f0b8f6",
+    "EffectiveDates": {
+        "StartDate": "2023-09-29",
+        "EndDate": "2024-09-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f669895f-5147-4dfb-be92-5a797319010c",
+        "Name": "Samuel Stewart",
+        "PolicyNumber": "f0dca761-cc3b-4f7e-b5a6-79f9f3f0b8f6",
+        "ContactInformation": {
+            "Phone": "253-875-8214",
+            "Email": "zvasquez@example.org",
+            "Address": "2921 Todd Ridges\nSarahland, CA 67250"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-26",
+        "Location": "6397 Preston Estate\nNew Chadborough, TN 95921",
+        "Description": "Recent apply stay put. Example table fund concern finally could mind. Rise the ask arrive story environmental."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2885
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 168353
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6708
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23512
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3262
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 69696,
+        "TotalApproved": 69599
+    },
+    "AdjusterDetails": {
+        "Name": "Julian Sanders",
+        "ContactInformation": {
+            "Phone": "474.351.5078x93932",
+            "Email": "vicki19@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/41c57dc8-dd55-4e3b-8f1f-92821b50ca0d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-26T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-31T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-05T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

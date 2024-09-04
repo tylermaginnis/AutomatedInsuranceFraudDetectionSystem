@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ef58a2a9-6422-4606-b998-b4a8b7a01040",
+  "PolicyID": "345fffd1-b5da-4cbe-8b72-55c343a97326",
+  "EffectiveDates": {
+    "StartDate": "2023-09-28",
+    "EndDate": "2024-09-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7ae6f7df-264c-4f59-a88e-090bfc81b936",
+    "Name": "Daniel Wallace",
+    "PolicyNumber": "345fffd1-b5da-4cbe-8b72-55c343a97326",
+    "ContactInformation": {
+      "Phone": "(364)286-5963x829",
+      "Email": "michaelmoore@example.com",
+      "Address": "USNS Stanton\nFPO AE 74530"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-11",
+    "Location": "USNV Banks\nFPO AA 80264",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 75355
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 49701
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9056
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 13841
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 11555
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 159508,
+    "TotalApproved": 10851
+  },
+  "AdjusterDetails": {
+    "Name": "Kevin Guzman",
+    "ContactInformation": {
+      "Phone": "430.614.8414",
+      "Email": "gutierrezdavid@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/31c0fcd1-836b-4844-946d-520553b3c333"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-11T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-16T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-21T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

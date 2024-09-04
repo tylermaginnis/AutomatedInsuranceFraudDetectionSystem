@@ -1,0 +1,81 @@
+{
+    "ClaimID": "90f038b8-01e3-4f0d-a676-b076ab8fb8b4",
+    "PolicyID": "c17944d7-5df0-448a-8160-77666726bfb3",
+    "EffectiveDates": {
+        "StartDate": "2024-03-13",
+        "EndDate": "2025-03-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "59dc7b16-ea3b-4b81-afed-4d04225d078c",
+        "Name": "Brian Schmitt",
+        "PolicyNumber": "c17944d7-5df0-448a-8160-77666726bfb3",
+        "ContactInformation": {
+            "Phone": "7209458373",
+            "Email": "martinezelizabeth@example.org",
+            "Address": "97628 Erin Mission\nWolfland, VI 41276"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-15",
+        "Location": "604 Smith Meadows\nPort John, LA 12041",
+        "Description": "Training along glass identify only.\nAway carry discover my truth painting single. Billion black challenge."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35553
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30516
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13741
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 110726
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3992
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 112820,
+        "TotalApproved": 106421
+    },
+    "AdjusterDetails": {
+        "Name": "Cathy Moore",
+        "ContactInformation": {
+            "Phone": "(595)741-2833x523",
+            "Email": "greenwilliam@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/10f26175-af0f-4d94-834b-84301bc1dbdf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

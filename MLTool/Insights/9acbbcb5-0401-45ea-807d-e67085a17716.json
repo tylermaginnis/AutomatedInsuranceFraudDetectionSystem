@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9acbbcb5-0401-45ea-807d-e67085a17716",
+    "PolicyID": "34bd8097-9ca5-4d30-a7e5-9f390455e812",
+    "EffectiveDates": {
+        "StartDate": "2024-06-27",
+        "EndDate": "2025-06-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "03538c68-e8a2-43a2-b686-aac0930747be",
+        "Name": "Jerome Brandt",
+        "PolicyNumber": "34bd8097-9ca5-4d30-a7e5-9f390455e812",
+        "ContactInformation": {
+            "Phone": "(581)575-2657x1014",
+            "Email": "richardsheather@example.net",
+            "Address": "197 Charles Mountain\nPort Jamesview, NC 43489"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-09",
+        "Location": "8817 Robert Way Apt. 192\nThomasbury, ND 51266",
+        "Description": "Should amount pretty.\nPopulation easy area mother. Less relationship source list attention next near. Design language sound different woman move."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 71046
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2572
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8750
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 85979
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48447
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 10247,
+        "TotalApproved": 7464
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Harrington",
+        "ContactInformation": {
+            "Phone": "9665651819",
+            "Email": "kramerjason@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bf2643ab-e0d3-45fc-81ab-1229f568dacd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-09T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-14T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-19T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

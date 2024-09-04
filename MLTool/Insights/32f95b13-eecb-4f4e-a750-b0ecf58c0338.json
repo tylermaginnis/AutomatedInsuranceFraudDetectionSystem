@@ -1,0 +1,81 @@
+{
+    "ClaimID": "32f95b13-eecb-4f4e-a750-b0ecf58c0338",
+    "PolicyID": "c751dc80-dede-4f17-b659-b87ac87858fa",
+    "EffectiveDates": {
+        "StartDate": "2024-08-18",
+        "EndDate": "2025-08-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "21ac931f-8717-4e45-9750-d383a1b82da6",
+        "Name": "Carol Powell",
+        "PolicyNumber": "c751dc80-dede-4f17-b659-b87ac87858fa",
+        "ContactInformation": {
+            "Phone": "511-398-5390x0941",
+            "Email": "zwilliams@example.com",
+            "Address": "05718 David Pass\nLunaview, ME 35852"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-30",
+        "Location": "30580 Todd Viaduct Suite 784\nWilsonland, MA 18968",
+        "Description": "Kitchen leave else enter subject reveal store tend. Different particular talk remain effort side."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5030
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12806
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27173
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14214
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6833
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 56177,
+        "TotalApproved": 15502
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Hoover",
+        "ContactInformation": {
+            "Phone": "306-929-8954",
+            "Email": "kelsey70@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/81cf6fbb-468c-4ccf-81aa-97264fc7a9db"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

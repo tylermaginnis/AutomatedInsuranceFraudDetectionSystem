@@ -1,0 +1,80 @@
+{
+  "ClaimID": "40a951b7-3149-4bba-ad95-dea28573dd8e",
+  "PolicyID": "27938c99-07e4-472c-b206-68139666d614",
+  "EffectiveDates": {
+    "StartDate": "2023-09-21",
+    "EndDate": "2024-09-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "64435b31-b27e-4c45-ba45-3e68cdff9b6d",
+    "Name": "Kimberly Sullivan",
+    "PolicyNumber": "27938c99-07e4-472c-b206-68139666d614",
+    "ContactInformation": {
+      "Phone": "883.725.0681x523",
+      "Email": "hickskristine@example.org",
+      "Address": "5974 Brown Hills\nNathanhaven, WY 15778"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-04",
+    "Location": "4595 Henry Lodge Apt. 155\nNorth Catherine, GA 12085",
+    "Description": "Build simply field thought. Protect indicate American debate better fund bar."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2452
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 87899
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7529
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 95786
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11481
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 111067,
+    "TotalApproved": 43348
+  },
+  "AdjusterDetails": {
+    "Name": "Jacqueline Andrews",
+    "ContactInformation": {
+      "Phone": "545-928-5499",
+      "Email": "nryan@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/07faa535-b70c-47df-a468-33eae2142190"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-04T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-09T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-14T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cf54c157-b0e9-4fe3-9419-af75d46608ba",
+    "PolicyID": "73546918-ba48-4ae2-94c3-051ffb033fc8",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "23d43d5b-ebcf-4989-8ba6-42e895515854",
+        "Name": "Joe Lee",
+        "PolicyNumber": "73546918-ba48-4ae2-94c3-051ffb033fc8",
+        "ContactInformation": {
+            "Phone": "+1-287-728-8928x4601",
+            "Email": "lewisdiana@example.net",
+            "Address": "03809 Dawn Estate Suite 554\nCastilloborough, MS 33441"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-10",
+        "Location": "42206 Edwards Rue Suite 725\nClineshire, ME 84444",
+        "Description": "Moment north myself bad research line whether. Unit poor use with develop. Trouble test hold garden me letter.\nVoice stay middle as would. Open everyone reason easy phone time official identify."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9793
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 79856
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29220
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 132833
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39376
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 125853,
+        "TotalApproved": 25039
+    },
+    "AdjusterDetails": {
+        "Name": "Donna Johnson",
+        "ContactInformation": {
+            "Phone": "265.679.6701",
+            "Email": "rwright@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c8eb55bc-edd2-4aa9-9c20-834b31c02919"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-10T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-15T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-20T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

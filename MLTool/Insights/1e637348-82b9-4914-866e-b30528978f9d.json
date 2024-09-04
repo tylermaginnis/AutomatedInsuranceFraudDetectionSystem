@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1e637348-82b9-4914-866e-b30528978f9d",
+    "PolicyID": "825537ec-8ef2-4593-9013-403c0fa369bf",
+    "EffectiveDates": {
+        "StartDate": "2024-02-21",
+        "EndDate": "2025-02-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "23d43c87-7195-47fa-9353-b312bb7bc15b",
+        "Name": "James Lewis",
+        "PolicyNumber": "825537ec-8ef2-4593-9013-403c0fa369bf",
+        "ContactInformation": {
+            "Phone": "290-436-1260x04243",
+            "Email": "othomas@example.net",
+            "Address": "635 Smith Parkways Apt. 619\nLake Sharonchester, OH 13505"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-30",
+        "Location": "PSC 1858, Box 0000\nAPO AA 81079",
+        "Description": "Heart life mean amount. Research admit everybody song budget rock level. Camera which yeah table.\nAct system activity be sing."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 63509
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3617
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10632
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49408
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 159876
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 131528,
+        "TotalApproved": 115641
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Cooper",
+        "ContactInformation": {
+            "Phone": "898.362.2746",
+            "Email": "matthewjones@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f0cc76bd-4760-475c-a052-60740c1fe062"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-30T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-04T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-09T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

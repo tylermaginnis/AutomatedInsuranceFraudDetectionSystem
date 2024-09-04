@@ -1,0 +1,81 @@
+{
+    "ClaimID": "735205f5-2bf3-463a-9f82-28d17c41b941",
+    "PolicyID": "56801c97-1ce1-4c40-93e7-2a436b26620a",
+    "EffectiveDates": {
+        "StartDate": "2023-11-26",
+        "EndDate": "2024-11-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8850e1fa-d4c4-4e6a-92fa-cbb7c10ba323",
+        "Name": "Thomas Nelson",
+        "PolicyNumber": "56801c97-1ce1-4c40-93e7-2a436b26620a",
+        "ContactInformation": {
+            "Phone": "(475)665-9756",
+            "Email": "johnsongary@example.org",
+            "Address": "40008 Atkinson Street\nVasquezville, MP 07737"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-30",
+        "Location": "4334 Jenna Divide\nMichaelside, ID 66157",
+        "Description": "Radio run worry way ever ball boy. Record build particularly no writer. Place including edge throw imagine analysis.\nFollow street reality. When ground lay member available."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 95044
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7702
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9032
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50067
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14337
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 195398,
+        "TotalApproved": 136422
+    },
+    "AdjusterDetails": {
+        "Name": "Brenda Buckley",
+        "ContactInformation": {
+            "Phone": "7326750802",
+            "Email": "ievans@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8190a5be-ea47-4bd1-a96c-852466f4532b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

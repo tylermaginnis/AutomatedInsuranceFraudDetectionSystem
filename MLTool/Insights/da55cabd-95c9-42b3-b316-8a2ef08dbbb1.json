@@ -1,0 +1,81 @@
+{
+    "ClaimID": "da55cabd-95c9-42b3-b316-8a2ef08dbbb1",
+    "PolicyID": "82737e8c-376c-4f60-aedf-05fb0f78695e",
+    "EffectiveDates": {
+        "StartDate": "2024-06-22",
+        "EndDate": "2025-06-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b425890-665d-4a3a-9b29-0ee38ecaee2d",
+        "Name": "Charles Keith",
+        "PolicyNumber": "82737e8c-376c-4f60-aedf-05fb0f78695e",
+        "ContactInformation": {
+            "Phone": "9769829793",
+            "Email": "jose99@example.org",
+            "Address": "552 Neal Underpass Apt. 347\nStephaniefurt, MT 35752"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-23",
+        "Location": "454 Rose Grove Apt. 571\nNew Jesse, NC 90411",
+        "Description": "Alone scientist approach ground. Rich seven enjoy common half choice. Official situation hold PM feel represent seven same. Shake career who environment billion near."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4671
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20699
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29623
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 101373
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 85936
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 87601,
+        "TotalApproved": 84942
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Allen",
+        "ContactInformation": {
+            "Phone": "+1-369-201-5522",
+            "Email": "alexanderrandall@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/edeee66d-7659-4642-9042-bb88e60bb16f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-23T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-28T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-02T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3f8bf261-53fa-4f57-b425-aa485a569216",
+    "PolicyID": "21cf0234-49e4-4a7e-9dde-126de2f3de0a",
+    "EffectiveDates": {
+        "StartDate": "2023-12-18",
+        "EndDate": "2024-12-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "002e451e-7e9f-4ce7-a701-055ca1c208f1",
+        "Name": "Michael Brooks",
+        "PolicyNumber": "21cf0234-49e4-4a7e-9dde-126de2f3de0a",
+        "ContactInformation": {
+            "Phone": "(848)977-6765x94780",
+            "Email": "ystewart@example.com",
+            "Address": "PSC 3160, Box 6735\nAPO AE 85005"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-14",
+        "Location": "988 David Lodge\nWest Natashaberg, CT 61675",
+        "Description": "Customer about all themselves ball. Person indeed half page against government fund.\nSon site forward product him commercial. Power data personal room important last firm."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 114995
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 39147
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 59462
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 75421
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1027
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 65516,
+        "TotalApproved": 39668
+    },
+    "AdjusterDetails": {
+        "Name": "Carmen Andrews",
+        "ContactInformation": {
+            "Phone": "+1-647-641-2162",
+            "Email": "davidjones@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/efcb3fae-eb37-461a-9131-c49455ebc051"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-14T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-19T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-24T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

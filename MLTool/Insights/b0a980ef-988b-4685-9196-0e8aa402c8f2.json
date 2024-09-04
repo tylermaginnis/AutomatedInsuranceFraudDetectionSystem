@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b0a980ef-988b-4685-9196-0e8aa402c8f2",
+    "PolicyID": "c8d2bdb9-2891-4d90-b865-a8fb043b0bb6",
+    "EffectiveDates": {
+        "StartDate": "2023-09-20",
+        "EndDate": "2024-09-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3df50c58-49e2-4bd2-a71a-9c55393bf8f8",
+        "Name": "Christopher Mathis",
+        "PolicyNumber": "c8d2bdb9-2891-4d90-b865-a8fb043b0bb6",
+        "ContactInformation": {
+            "Phone": "7522776756",
+            "Email": "djohnson@example.org",
+            "Address": "580 Tara Walks\nNorth Lydia, DE 99669"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-06",
+        "Location": "324 Alexis Rapids Suite 433\nPort Toniborough, WA 59466",
+        "Description": "Use claim sense natural budget. Art ten beyond daughter.\nHave Mrs wrong early federal note heavy operation. Magazine theory line minute behind."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41469
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 179709
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10527
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 29071
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40565
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 102942,
+        "TotalApproved": 69069
+    },
+    "AdjusterDetails": {
+        "Name": "Samuel Webb",
+        "ContactInformation": {
+            "Phone": "240-309-9445",
+            "Email": "markreed@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bb6e265b-a666-42e3-be26-7e5175eeb906"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-06T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-11T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-16T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

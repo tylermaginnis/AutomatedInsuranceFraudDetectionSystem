@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5090f87e-99f2-4e73-bbb3-7b42fe1215bf",
+    "PolicyID": "5623310c-dd25-480a-8ae3-7855d9c60f24",
+    "EffectiveDates": {
+        "StartDate": "2024-02-16",
+        "EndDate": "2025-02-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "77900c19-9e47-4f28-ae59-13ae607f6c13",
+        "Name": "Dr. Michael Black",
+        "PolicyNumber": "5623310c-dd25-480a-8ae3-7855d9c60f24",
+        "ContactInformation": {
+            "Phone": "524-728-0836x23258",
+            "Email": "ronald38@example.com",
+            "Address": "PSC 9985, Box 9877\nAPO AP 88337"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-06",
+        "Location": "PSC 1562, Box 3445\nAPO AA 64964",
+        "Description": "Per establish buy question mouth character. Program probably nature less. Field suddenly rest option government.\nLight spring full need physical lose. Cup specific effect TV beyond."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 170447
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14687
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 189795
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5097
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 184910
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 114217,
+        "TotalApproved": 47526
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Knight",
+        "ContactInformation": {
+            "Phone": "587-559-0440",
+            "Email": "dholmes@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7d9e5b4c-42e4-4946-b7f2-9ce5e0bd6872"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-06T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-11T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-16T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

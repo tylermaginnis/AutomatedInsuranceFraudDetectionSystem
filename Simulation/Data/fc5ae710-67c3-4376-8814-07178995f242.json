@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fc5ae710-67c3-4376-8814-07178995f242",
+  "PolicyID": "6d870df1-64a4-443d-a146-48a6f4d3fa81",
+  "EffectiveDates": {
+    "StartDate": "2024-01-04",
+    "EndDate": "2025-01-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "30d5b1a9-4da3-4d8e-aa15-e211556b99e6",
+    "Name": "Rebecca Fisher",
+    "PolicyNumber": "6d870df1-64a4-443d-a146-48a6f4d3fa81",
+    "ContactInformation": {
+      "Phone": "(230)642-3400",
+      "Email": "marshallmatthew@example.net",
+      "Address": "765 Moore Meadow Suite 107\nPort Corybury, DC 52462"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-25",
+    "Location": "PSC 7952, Box 9748\nAPO AP 92418",
+    "Description": "Front yeah international already. First author number power talk tough television."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1081
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 36057
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 19871
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 86052
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 146709
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 175399,
+    "TotalApproved": 69285
+  },
+  "AdjusterDetails": {
+    "Name": "Michele Lopez",
+    "ContactInformation": {
+      "Phone": "810-968-6885x64174",
+      "Email": "brownsusan@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/8c08c492-8be9-488d-9e92-284306e43920"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-25T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-30T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-05T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

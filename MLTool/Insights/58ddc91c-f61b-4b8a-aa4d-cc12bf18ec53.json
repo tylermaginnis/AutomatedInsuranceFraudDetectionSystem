@@ -1,0 +1,81 @@
+{
+    "ClaimID": "58ddc91c-f61b-4b8a-aa4d-cc12bf18ec53",
+    "PolicyID": "5048cd38-f591-4560-91fa-80ee22a07b5c",
+    "EffectiveDates": {
+        "StartDate": "2023-10-05",
+        "EndDate": "2024-10-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2ceba931-2cdc-4dde-a2f6-6bb21d43ab94",
+        "Name": "James Luna",
+        "PolicyNumber": "5048cd38-f591-4560-91fa-80ee22a07b5c",
+        "ContactInformation": {
+            "Phone": "711.629.2674",
+            "Email": "parkmike@example.net",
+            "Address": "361 Frank Stream Suite 048\nElliottburgh, MD 98195"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-06",
+        "Location": "27590 Megan Ranch\nPatrickchester, MA 83815",
+        "Description": "Skill wonder but school short. Law provide enjoy clearly. Six continue use themselves discussion rise important worker."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5298
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6226
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5304
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15629
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8122
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 39476,
+        "TotalApproved": 16478
+    },
+    "AdjusterDetails": {
+        "Name": "William Sherman",
+        "ContactInformation": {
+            "Phone": "001-556-503-8929x073",
+            "Email": "thomas62@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0e3d0634-31ad-497a-9982-704219e7c040"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-06T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-11T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-16T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

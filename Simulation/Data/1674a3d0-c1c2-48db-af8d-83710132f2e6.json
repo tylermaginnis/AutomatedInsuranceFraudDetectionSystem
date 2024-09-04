@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1674a3d0-c1c2-48db-af8d-83710132f2e6",
+  "PolicyID": "efa81879-9cba-45f6-a54e-9b290ec18034",
+  "EffectiveDates": {
+    "StartDate": "2024-07-03",
+    "EndDate": "2025-07-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f4a5f1a8-9fa9-49f9-b2ea-2a8ea699769c",
+    "Name": "Donald Phillips",
+    "PolicyNumber": "efa81879-9cba-45f6-a54e-9b290ec18034",
+    "ContactInformation": {
+      "Phone": "676-669-9007",
+      "Email": "kennethmccormick@example.net",
+      "Address": "59404 Castillo Pike\nNew Jennifer, WV 88297"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-13",
+    "Location": "3378 Melissa Drives\nJohnnyland, OK 34477",
+    "Description": "Discuss but reduce should your sense support recognize.\nCare part political late health finish keep value. Standard occur staff different young order."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7056
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 53426
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1636
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 148588
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 26616
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 132226,
+    "TotalApproved": 34007
+  },
+  "AdjusterDetails": {
+    "Name": "Tyler Hood",
+    "ContactInformation": {
+      "Phone": "839-980-3771x726",
+      "Email": "dana25@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/f536b565-304e-4b16-ac11-8a9abc20b6cb"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-13T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-18T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-23T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

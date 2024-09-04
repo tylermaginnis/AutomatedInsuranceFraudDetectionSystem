@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a71f111d-92ae-4304-893e-1817c85823f5",
+  "PolicyID": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+  "EffectiveDates": {
+    "StartDate": "2024-08-28",
+    "EndDate": "2025-08-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4b718d54-1bda-441f-9f34-2672f6b131e5",
+    "Name": "Patricia Gordon",
+    "PolicyNumber": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+    "ContactInformation": {
+      "Phone": "+1-447-858-9107x4847",
+      "Email": "lisacrane@example.org",
+      "Address": "PSC 6944, Box 1860\nAPO AP 51730"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-07",
+    "Location": "PSC 3691, Box 5249\nAPO AP 06806",
+    "Description": "Even item travel final health. Lay necessary song attention morning sure future. Success just father stand president prove."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 30069
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 22021
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7920
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 26866
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 26376
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 26306,
+    "TotalApproved": 12532
+  },
+  "AdjusterDetails": {
+    "Name": "Jeffrey Santana",
+    "ContactInformation": {
+      "Phone": "413-959-4439x6547",
+      "Email": "qmorris@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/59bc80a9-1ee3-446a-838c-497dfa3bd2cb"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-07T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-12T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-17T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "df135ae8-339f-4e5a-9295-9a5f7bf0e0f7",
+    "PolicyID": "689eba77-478e-4015-8cef-8268d353c52c",
+    "EffectiveDates": {
+        "StartDate": "2024-07-27",
+        "EndDate": "2025-07-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5775ea41-547e-439b-8c46-339c93a6430e",
+        "Name": "Nancy Morgan",
+        "PolicyNumber": "689eba77-478e-4015-8cef-8268d353c52c",
+        "ContactInformation": {
+            "Phone": "519-802-0285",
+            "Email": "jacob59@example.com",
+            "Address": "566 James Harbors\nEast Amber, RI 81116"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-16",
+        "Location": "7314 Patrick Passage\nNew Jessica, OH 26531",
+        "Description": "Financial me every catch member allow. Girl experience rest such bit.\nCurrent whatever nice figure anything power. Charge site cultural enter set. Author especially able quality. See president life."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 76090
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19492
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 183967
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 88660
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6376
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 57772,
+        "TotalApproved": 21466
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Giles",
+        "ContactInformation": {
+            "Phone": "942-310-9566x94356",
+            "Email": "xfreeman@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/530328a4-ffa2-4d9b-bfb5-43ae67158ffd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "53910fc1-f454-46b5-af2b-2daf3b55c989",
+    "PolicyID": "79e19fab-00b1-4b8b-932f-90e9afa999e4",
+    "EffectiveDates": {
+        "StartDate": "2024-08-19",
+        "EndDate": "2025-08-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "09b5eb6b-bf8a-4cf9-a055-c028ffecd70f",
+        "Name": "Brittney Estrada",
+        "PolicyNumber": "79e19fab-00b1-4b8b-932f-90e9afa999e4",
+        "ContactInformation": {
+            "Phone": "737.656.0834",
+            "Email": "patricianguyen@example.org",
+            "Address": "191 Moran Turnpike\nNorth Josephbury, ND 94735"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-13",
+        "Location": "5043 Christine Trail Suite 400\nNew Johnathan, GU 16543",
+        "Description": "Dog front Mrs the study. Human conference magazine better third base truth able. Approach theory ok growth occur."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17908
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 60539
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 70912
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62287
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5885
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 108405,
+        "TotalApproved": 8667
+    },
+    "AdjusterDetails": {
+        "Name": "Jesse Abbott",
+        "ContactInformation": {
+            "Phone": "001-659-956-5480",
+            "Email": "crystal75@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/369a479e-91a6-4d06-9f90-359cdfb9d0bd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9a35b765-9394-40aa-ace5-c24766086c0a",
+    "PolicyID": "03b76fcf-dcf3-4338-95d5-7905ef038a40",
+    "EffectiveDates": {
+        "StartDate": "2024-08-25",
+        "EndDate": "2025-08-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "88d25b54-57ad-4e1a-9441-b6ada4f832de",
+        "Name": "Tyler Graham",
+        "PolicyNumber": "03b76fcf-dcf3-4338-95d5-7905ef038a40",
+        "ContactInformation": {
+            "Phone": "4649678932",
+            "Email": "ryanramsey@example.com",
+            "Address": "4416 Trevor Motorway Suite 581\nDanielbury, TX 04157"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-12",
+        "Location": "778 Austin Islands Suite 057\nCampbelltown, VA 80506",
+        "Description": "Small party floor last hundred team month. Everyone dream father design day mission."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1792
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 181294
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 97593
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13873
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37103
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 30681,
+        "TotalApproved": 3835
+    },
+    "AdjusterDetails": {
+        "Name": "Samuel Lawrence",
+        "ContactInformation": {
+            "Phone": "001-449-856-6577",
+            "Email": "ambermartinez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/aa262518-9264-4362-b91f-d72f223a4528"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-12T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-17T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-22T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

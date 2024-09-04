@@ -1,0 +1,80 @@
+{
+  "ClaimID": "84bab4f4-93b2-429d-9b17-c3099e52bb80",
+  "PolicyID": "204a4b8b-36ce-48eb-9423-e62128c642c9",
+  "EffectiveDates": {
+    "StartDate": "2023-10-19",
+    "EndDate": "2024-10-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "bb4b6671-e3cc-437e-a4d6-ae4b8a9433b5",
+    "Name": "Elizabeth Huynh",
+    "PolicyNumber": "204a4b8b-36ce-48eb-9423-e62128c642c9",
+    "ContactInformation": {
+      "Phone": "205-548-5432",
+      "Email": "pholden@example.org",
+      "Address": "2428 Schmitt Viaduct\nBarryfurt, WA 68419"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-06",
+    "Location": "2700 Morris Spring\nWiseborough, SC 50784",
+    "Description": "Sing institution federal we apply. Part office newspaper dinner glass together care."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6993
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3114
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 17677
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2776
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 106076
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 151662,
+    "TotalApproved": 40033
+  },
+  "AdjusterDetails": {
+    "Name": "Jacob Smith",
+    "ContactInformation": {
+      "Phone": "2806683285",
+      "Email": "pcook@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/9b273ec9-bb1d-4ee9-9a63-882bbf7658f5"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-06T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-11T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-16T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

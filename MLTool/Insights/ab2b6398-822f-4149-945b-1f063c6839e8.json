@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ab2b6398-822f-4149-945b-1f063c6839e8",
+    "PolicyID": "5b15969c-2c9c-4ccb-9993-6e205034f284",
+    "EffectiveDates": {
+        "StartDate": "2024-01-14",
+        "EndDate": "2025-01-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d9ba5675-8dc3-4e91-ba42-e0d4485fd328",
+        "Name": "Tyrone Smith",
+        "PolicyNumber": "5b15969c-2c9c-4ccb-9993-6e205034f284",
+        "ContactInformation": {
+            "Phone": "834-622-7323x954",
+            "Email": "eestrada@example.net",
+            "Address": "275 Randy Shores\nLake Curtis, DC 86194"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-01",
+        "Location": "4383 Silva Creek\nRodriguezland, NY 47420",
+        "Description": "Cost leave could different them tough surface light. Despite chair know simple represent audience he. Bar shake near management girl TV."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17195
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18854
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 65972
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 55599
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13967
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 79566,
+        "TotalApproved": 8001
+    },
+    "AdjusterDetails": {
+        "Name": "Earl Patterson",
+        "ContactInformation": {
+            "Phone": "510-812-6795x920",
+            "Email": "mitchellcynthia@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/01d8f6e2-f626-4876-8594-82f5131d0d3e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

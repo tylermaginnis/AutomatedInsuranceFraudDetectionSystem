@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bc948c15-1b13-4bfd-b889-12595dac01bd",
+    "PolicyID": "d1280ecd-077d-4f81-b42f-2f3cc854fc65",
+    "EffectiveDates": {
+        "StartDate": "2024-03-25",
+        "EndDate": "2025-03-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dd833bc0-4ee4-4619-b827-b3a49be8e899",
+        "Name": "William Smith",
+        "PolicyNumber": "d1280ecd-077d-4f81-b42f-2f3cc854fc65",
+        "ContactInformation": {
+            "Phone": "729-758-0377",
+            "Email": "valenciakristen@example.com",
+            "Address": "2295 Timothy Estate\nLaurieview, MN 91150"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-26",
+        "Location": "84072 Robertson Lights Apt. 332\nLake Brent, NE 24977",
+        "Description": "Loss involve truth professional race window. Walk often might least."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21210
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1189
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 53824
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49502
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14392
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 3049,
+        "TotalApproved": 2960
+    },
+    "AdjusterDetails": {
+        "Name": "Julie Brown",
+        "ContactInformation": {
+            "Phone": "(608)991-1587x706",
+            "Email": "jacob80@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/186faabb-1baf-474c-b395-928f96bc6a64"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "aebdc2dd-74fa-40f9-8594-1b0dcd214dc9",
+    "PolicyID": "bde04635-f9c1-42a2-b6bf-6102e181e9ac",
+    "EffectiveDates": {
+        "StartDate": "2024-04-08",
+        "EndDate": "2025-04-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b4feccbc-5595-44ca-9410-7006a44d8cc7",
+        "Name": "Jared Palmer",
+        "PolicyNumber": "bde04635-f9c1-42a2-b6bf-6102e181e9ac",
+        "ContactInformation": {
+            "Phone": "+1-841-979-0076x05006",
+            "Email": "wilsonbarry@example.net",
+            "Address": "283 Patricia Road\nPatrickbury, NC 10215"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-26",
+        "Location": "10129 Wyatt Extension\nEast Randall, VA 48004",
+        "Description": "School hour war project doctor four kid chair. Else current rock project in memory everyone fact.\nHusband security walk into return. Approach sport pressure second rate huge site."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45286
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23651
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16141
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7944
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9009
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 86967,
+        "TotalApproved": 29380
+    },
+    "AdjusterDetails": {
+        "Name": "Veronica Armstrong DVM",
+        "ContactInformation": {
+            "Phone": "4905464633",
+            "Email": "kjennings@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7d6b516b-170e-405f-9756-df2c35cd31bc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

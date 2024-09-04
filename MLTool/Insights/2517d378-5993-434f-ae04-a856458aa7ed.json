@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2517d378-5993-434f-ae04-a856458aa7ed",
+    "PolicyID": "db6c1a44-161e-4bd8-8e74-450d801598fc",
+    "EffectiveDates": {
+        "StartDate": "2024-02-15",
+        "EndDate": "2025-02-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "481848b7-9e75-4986-869c-9b2370f9810b",
+        "Name": "Edward Snyder",
+        "PolicyNumber": "db6c1a44-161e-4bd8-8e74-450d801598fc",
+        "ContactInformation": {
+            "Phone": "(707)551-0123x28877",
+            "Email": "fwilson@example.org",
+            "Address": "00570 Valdez Plain Apt. 784\nWilsonhaven, SC 96715"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-26",
+        "Location": "74639 Stephen Green Suite 766\nNew Chasemouth, FM 20284",
+        "Description": "Simply modern voice former everything meet. Boy chair action senior office. Area issue beyond action care experience deep.\nCourt family purpose. Not writer discuss window wait."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 60743
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24659
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 157922
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 95031
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18948
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 147757,
+        "TotalApproved": 9889
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Morales",
+        "ContactInformation": {
+            "Phone": "001-392-294-2298x743",
+            "Email": "aaronmorgan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5f4104ee-986d-4b7a-8d38-e6304e61925f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-26T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

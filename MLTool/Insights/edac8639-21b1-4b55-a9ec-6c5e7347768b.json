@@ -1,0 +1,81 @@
+{
+    "ClaimID": "edac8639-21b1-4b55-a9ec-6c5e7347768b",
+    "PolicyID": "2cd1e9dd-bccb-43eb-a39b-895db90d36a1",
+    "EffectiveDates": {
+        "StartDate": "2023-09-16",
+        "EndDate": "2024-09-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5e8354b2-1e66-4380-9642-b3b804770207",
+        "Name": "Melinda Foley",
+        "PolicyNumber": "2cd1e9dd-bccb-43eb-a39b-895db90d36a1",
+        "ContactInformation": {
+            "Phone": "(885)882-2447x1359",
+            "Email": "walkerjessica@example.org",
+            "Address": "2722 Chloe Spurs\nLake Patricia, AK 32093"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-24",
+        "Location": "4439 Nixon Garden\nNorth Garyport, NH 41851",
+        "Description": "Bar image feel pull. Allow ten American response catch week again. Fall become lawyer great.\nWide try enjoy green water yet still."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8032
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14651
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3343
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38724
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41915
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154775,
+        "TotalApproved": 134577
+    },
+    "AdjusterDetails": {
+        "Name": "Emily Spears",
+        "ContactInformation": {
+            "Phone": "001-669-309-1606x3367",
+            "Email": "fmaldonado@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a087d415-f1cc-420d-83c0-359ff8c45a33"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

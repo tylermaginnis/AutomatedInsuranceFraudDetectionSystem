@@ -1,0 +1,81 @@
+{
+    "ClaimID": "110f10be-2df5-4f0e-8b33-3a3911aa7bb6",
+    "PolicyID": "13c8ab17-8bdb-4fe6-b1aa-f5dcd96859f4",
+    "EffectiveDates": {
+        "StartDate": "2024-03-23",
+        "EndDate": "2025-03-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "15cded11-4442-45c8-a80c-abb53fcad33b",
+        "Name": "Rebecca Hood",
+        "PolicyNumber": "13c8ab17-8bdb-4fe6-b1aa-f5dcd96859f4",
+        "ContactInformation": {
+            "Phone": "291.509.3261",
+            "Email": "vbrewer@example.org",
+            "Address": "0313 Mejia Forks Apt. 531\nLake Tracy, FL 19681"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-11",
+        "Location": "18431 Patricia Via\nCarlaside, IL 96022",
+        "Description": "Enjoy away citizen drop resource hear. Word everyone chance you response.\nBoard sound rather service technology. Pick movie baby."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3825
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5950
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 131290
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3613
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20761
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 15677,
+        "TotalApproved": 2491
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Snyder",
+        "ContactInformation": {
+            "Phone": "001-892-295-0761",
+            "Email": "davidharris@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9a4c0e19-84d7-42b1-b194-fbb1723411b5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

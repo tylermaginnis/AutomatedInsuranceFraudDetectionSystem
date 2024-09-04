@@ -1,0 +1,81 @@
+{
+    "ClaimID": "161ba4c6-dbe7-452c-8bc0-d7b8732366df",
+    "PolicyID": "30533ff4-e5c8-406b-8f64-75b801f2f16e",
+    "EffectiveDates": {
+        "StartDate": "2024-04-23",
+        "EndDate": "2025-04-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "939089c8-3cee-4264-8d4c-905f6d1c7c54",
+        "Name": "Melissa Davila",
+        "PolicyNumber": "30533ff4-e5c8-406b-8f64-75b801f2f16e",
+        "ContactInformation": {
+            "Phone": "821-728-6749",
+            "Email": "nanderson@example.org",
+            "Address": "658 Teresa Divide Apt. 836\nPetersside, MN 07743"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-05",
+        "Location": "3588 Kevin Mission\nRodneyton, MI 08538",
+        "Description": "Soon director meet pass.\nMyself hospital well treatment amount.\nClose power per radio.\nArea true contain deep. Growth number world paper. Scientist that material same. Energy answer child fill bad."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35739
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18391
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19269
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 113503
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 191284
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 83647,
+        "TotalApproved": 75962
+    },
+    "AdjusterDetails": {
+        "Name": "Veronica Walker",
+        "ContactInformation": {
+            "Phone": "001-378-417-4974x4795",
+            "Email": "wlucas@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/be8e0aee-be66-4ea3-98e2-a6560a2f2a3c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-05T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-10T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-15T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

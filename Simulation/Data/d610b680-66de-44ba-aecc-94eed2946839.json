@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d610b680-66de-44ba-aecc-94eed2946839",
+  "PolicyID": "fc5be2ac-c7de-4113-8f97-a2490c0d25bc",
+  "EffectiveDates": {
+    "StartDate": "2024-07-14",
+    "EndDate": "2025-07-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "818e7e86-2321-48bc-bbf4-85d4ac05d651",
+    "Name": "Alexander Stevenson",
+    "PolicyNumber": "fc5be2ac-c7de-4113-8f97-a2490c0d25bc",
+    "ContactInformation": {
+      "Phone": "(448)296-5213x4824",
+      "Email": "psanders@example.org",
+      "Address": "740 Hale Turnpike\nLeonmouth, DC 65331"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-28",
+    "Location": "018 Martinez Crescent\nSouth Jeffreyshire, RI 47770",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 77340
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 21188
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9684
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 26652
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15841
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 150705,
+    "TotalApproved": 3139
+  },
+  "AdjusterDetails": {
+    "Name": "Zachary Newman",
+    "ContactInformation": {
+      "Phone": "(707)652-5067x643",
+      "Email": "thogan@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/ccb06f22-2276-4b37-a80f-45a3ee28435d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-28T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-03T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-08T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

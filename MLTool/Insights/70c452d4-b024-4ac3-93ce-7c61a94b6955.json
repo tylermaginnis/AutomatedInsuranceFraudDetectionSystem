@@ -1,0 +1,81 @@
+{
+    "ClaimID": "70c452d4-b024-4ac3-93ce-7c61a94b6955",
+    "PolicyID": "c6eab148-0bc5-4e55-8e9a-5534426e10ce",
+    "EffectiveDates": {
+        "StartDate": "2023-10-07",
+        "EndDate": "2024-10-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "941193a6-ee80-4812-9969-346118c9d13a",
+        "Name": "Daniel Carson",
+        "PolicyNumber": "c6eab148-0bc5-4e55-8e9a-5534426e10ce",
+        "ContactInformation": {
+            "Phone": "735.587.6587",
+            "Email": "pamelabender@example.org",
+            "Address": "917 William Hollow\nCookmouth, IN 92893"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-12",
+        "Location": "6003 Douglas Lights Suite 405\nAlisonland, ME 16420",
+        "Description": "Economic board station management. Drop speech news relationship each. Third decision scientist may."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7245
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3303
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 53844
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12556
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 99399
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 106555,
+        "TotalApproved": 104818
+    },
+    "AdjusterDetails": {
+        "Name": "James Trevino",
+        "ContactInformation": {
+            "Phone": "(770)598-9388",
+            "Email": "uross@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5e44ce05-ac2e-4ce9-9fe0-64da014797b5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

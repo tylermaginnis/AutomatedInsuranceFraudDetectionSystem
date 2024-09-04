@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2dd3ceeb-cd50-4421-a6d4-4997aceec54f",
+    "PolicyID": "5049c69a-d63a-4817-b92b-731456381b76",
+    "EffectiveDates": {
+        "StartDate": "2024-01-14",
+        "EndDate": "2025-01-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "21636407-d892-4992-a47a-1886ddb0d2c4",
+        "Name": "Wanda Murray",
+        "PolicyNumber": "5049c69a-d63a-4817-b92b-731456381b76",
+        "ContactInformation": {
+            "Phone": "375-389-7009",
+            "Email": "bbernard@example.net",
+            "Address": "2635 Howard Streets\nChristopherville, LA 52075"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-13",
+        "Location": "70462 Jennifer Lane\nWest Markton, OH 69496",
+        "Description": "Both late realize couple easy take. Near throughout explain sport.\nSoldier interest peace decade believe blood maybe. Experience especially apply."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 61173
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7758
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 88063
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9495
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10124
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 148080,
+        "TotalApproved": 104492
+    },
+    "AdjusterDetails": {
+        "Name": "Mathew Fleming",
+        "ContactInformation": {
+            "Phone": "639-946-9520",
+            "Email": "tsharp@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1445d157-4899-43ef-bcf8-77bb7d794e16"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

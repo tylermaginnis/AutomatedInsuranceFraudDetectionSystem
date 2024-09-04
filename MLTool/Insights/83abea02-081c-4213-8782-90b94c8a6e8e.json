@@ -1,0 +1,81 @@
+{
+    "ClaimID": "83abea02-081c-4213-8782-90b94c8a6e8e",
+    "PolicyID": "85743aa0-40ec-4466-a998-af087315306f",
+    "EffectiveDates": {
+        "StartDate": "2024-08-17",
+        "EndDate": "2025-08-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ce1783bf-70a0-4a4f-896c-c685c34e262b",
+        "Name": "Laurie Gonzalez",
+        "PolicyNumber": "85743aa0-40ec-4466-a998-af087315306f",
+        "ContactInformation": {
+            "Phone": "001-327-430-9889x57080",
+            "Email": "ichapman@example.org",
+            "Address": "6286 Watson Creek\nPort Russell, AK 88752"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-31",
+        "Location": "458 Thomas Dale Apt. 064\nSpencefort, AL 90848",
+        "Description": "Job soldier explain drive Democrat involve station at. Human within world born official themselves. Position learn imagine effect.\nJoin catch hour bill pressure."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20506
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19111
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 24886
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16017
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31953
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 125442,
+        "TotalApproved": 53195
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Vargas",
+        "ContactInformation": {
+            "Phone": "571.911.6589",
+            "Email": "lyonskaren@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e232b5d3-6d5d-4140-8005-a850181fecc0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-31T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-05T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-10T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

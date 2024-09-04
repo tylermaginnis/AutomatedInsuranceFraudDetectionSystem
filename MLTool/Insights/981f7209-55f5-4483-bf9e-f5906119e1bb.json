@@ -1,0 +1,81 @@
+{
+    "ClaimID": "981f7209-55f5-4483-bf9e-f5906119e1bb",
+    "PolicyID": "4283d505-6435-4537-900b-04f3fe5d6245",
+    "EffectiveDates": {
+        "StartDate": "2024-05-31",
+        "EndDate": "2025-05-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "88d75284-e11a-40b7-b44a-dbe4ced996a5",
+        "Name": "Alec Terrell",
+        "PolicyNumber": "4283d505-6435-4537-900b-04f3fe5d6245",
+        "ContactInformation": {
+            "Phone": "7637615315",
+            "Email": "tinachristian@example.org",
+            "Address": "136 William Throughway\nBrandonton, MI 21560"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-21",
+        "Location": "729 Nicole Hollow Apt. 187\nJohnsonport, IA 03095",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 70585
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28959
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6791
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21294
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18429
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 146058,
+        "TotalApproved": 32128
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Gibbs",
+        "ContactInformation": {
+            "Phone": "001-888-592-1210x9513",
+            "Email": "hwright@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/27b709a8-b2f5-4edc-8663-56f941600b4c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-21T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-26T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-31T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

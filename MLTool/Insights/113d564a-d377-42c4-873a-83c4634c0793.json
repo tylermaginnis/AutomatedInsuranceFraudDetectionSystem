@@ -1,0 +1,81 @@
+{
+    "ClaimID": "113d564a-d377-42c4-873a-83c4634c0793",
+    "PolicyID": "62f4a22b-f514-42f5-b23b-4bf1eb9b40d5",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4063512e-7473-4ced-a4a1-580103abce22",
+        "Name": "Jeffrey Santiago",
+        "PolicyNumber": "62f4a22b-f514-42f5-b23b-4bf1eb9b40d5",
+        "ContactInformation": {
+            "Phone": "730.548.5355",
+            "Email": "asmith@example.org",
+            "Address": "517 Lisa Avenue\nNorth Emily, IL 04634"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-19",
+        "Location": "298 Gould Manors Suite 152\nGregorytown, GA 10737",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 97324
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35572
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5991
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23801
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11139
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 173827,
+        "TotalApproved": 147565
+    },
+    "AdjusterDetails": {
+        "Name": "Pamela Mcintyre",
+        "ContactInformation": {
+            "Phone": "001-217-290-4561x50201",
+            "Email": "jermainewilson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/fdebec8f-5e89-4d1a-9372-fca4466a4c12"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-19T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-24T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-29T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

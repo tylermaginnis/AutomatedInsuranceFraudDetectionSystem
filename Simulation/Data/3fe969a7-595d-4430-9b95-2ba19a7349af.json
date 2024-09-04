@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3fe969a7-595d-4430-9b95-2ba19a7349af",
+  "PolicyID": "c4d07156-61d7-4817-9166-41637d82dceb",
+  "EffectiveDates": {
+    "StartDate": "2023-11-12",
+    "EndDate": "2024-11-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "aecd018c-3d5c-4e8f-8aa5-6535f56c32c6",
+    "Name": "Ashley Perry",
+    "PolicyNumber": "c4d07156-61d7-4817-9166-41637d82dceb",
+    "ContactInformation": {
+      "Phone": "830.669.7679x92504",
+      "Email": "dawncrane@example.net",
+      "Address": "800 Renee Mount\nNew Josephborough, DC 96802"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-11",
+    "Location": "317 Alexander Station Suite 576\nMorganview, FL 86289",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 79061
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 32329
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5301
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 19437
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 18557
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 154685,
+    "TotalApproved": 90706
+  },
+  "AdjusterDetails": {
+    "Name": "John Lewis",
+    "ContactInformation": {
+      "Phone": "678-461-4525",
+      "Email": "omartinez@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/37e938ad-944b-4118-94a2-840c2a4cb3be"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-11T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-16T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-21T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

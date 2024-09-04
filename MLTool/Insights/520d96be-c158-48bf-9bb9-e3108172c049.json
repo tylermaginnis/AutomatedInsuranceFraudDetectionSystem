@@ -1,0 +1,81 @@
+{
+    "ClaimID": "520d96be-c158-48bf-9bb9-e3108172c049",
+    "PolicyID": "0e921ab4-7276-45ca-b6e4-11ce01ea2a28",
+    "EffectiveDates": {
+        "StartDate": "2024-07-30",
+        "EndDate": "2025-07-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "de3d6de7-3d80-4bf4-8323-f6f5a0deed51",
+        "Name": "Kimberly Chapman",
+        "PolicyNumber": "0e921ab4-7276-45ca-b6e4-11ce01ea2a28",
+        "ContactInformation": {
+            "Phone": "4602851692",
+            "Email": "irasmussen@example.org",
+            "Address": "570 Nicole Locks Suite 553\nThompsonchester, ME 44806"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-18",
+        "Location": "USS Barnes\nFPO AP 44672",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 95757
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22128
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9621
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17862
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8421
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 153789,
+        "TotalApproved": 119320
+    },
+    "AdjusterDetails": {
+        "Name": "Abigail Townsend",
+        "ContactInformation": {
+            "Phone": "(791)789-9107",
+            "Email": "rcunningham@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/d8b0ebda-13f1-4c6f-ba4c-a23034ec272f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-18T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-23T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-28T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

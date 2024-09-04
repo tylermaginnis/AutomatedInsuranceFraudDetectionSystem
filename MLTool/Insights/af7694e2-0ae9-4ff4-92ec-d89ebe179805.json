@@ -1,0 +1,81 @@
+{
+    "ClaimID": "af7694e2-0ae9-4ff4-92ec-d89ebe179805",
+    "PolicyID": "87f43c16-17a1-41b4-850d-3f5ff9745f02",
+    "EffectiveDates": {
+        "StartDate": "2024-02-03",
+        "EndDate": "2025-02-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a002995c-02a6-4d5a-9c9e-86e473fe304f",
+        "Name": "Erica Roberts",
+        "PolicyNumber": "87f43c16-17a1-41b4-850d-3f5ff9745f02",
+        "ContactInformation": {
+            "Phone": "241-389-2175x7393",
+            "Email": "lisariley@example.com",
+            "Address": "57108 Thompson Village\nKimberlyport, FL 48236"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-09",
+        "Location": "6821 Baker Glens Apt. 329\nSingletonland, VI 07247",
+        "Description": "Claim find college tend reveal dark. Image raise tend. Style national partner Mr. Officer race light might another.\nFinish attention general space. Detail best need edge."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 55104
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 122019
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 24754
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1821
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 168627
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 57292,
+        "TotalApproved": 45160
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Smith",
+        "ContactInformation": {
+            "Phone": "347-507-0449x251",
+            "Email": "landerson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bd0cb033-500f-4a70-a576-a94dfebaa956"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-09T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-14T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-19T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

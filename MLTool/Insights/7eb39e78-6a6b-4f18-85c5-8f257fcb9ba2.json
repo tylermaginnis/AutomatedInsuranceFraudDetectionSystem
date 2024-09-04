@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7eb39e78-6a6b-4f18-85c5-8f257fcb9ba2",
+    "PolicyID": "3ffbb24e-5f1d-403a-923c-9f1f8dec7cde",
+    "EffectiveDates": {
+        "StartDate": "2024-03-12",
+        "EndDate": "2025-03-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7dff7fdf-20f4-4e09-b4ba-8a02255dfc80",
+        "Name": "Roger Travis",
+        "PolicyNumber": "3ffbb24e-5f1d-403a-923c-9f1f8dec7cde",
+        "ContactInformation": {
+            "Phone": "714.797.6800",
+            "Email": "jwilliams@example.net",
+            "Address": "66195 Diaz Points Apt. 750\nBeardchester, PW 21725"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-26",
+        "Location": "6412 Davis Streets Apt. 022\nMargarethaven, DE 40866",
+        "Description": "Suggest yourself dinner finally. Future American should accept assume paper financial. Teach above marriage last."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8955
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1147
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71438
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 144109
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 90840
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 8593,
+        "TotalApproved": 8332
+    },
+    "AdjusterDetails": {
+        "Name": "Michelle Mayer",
+        "ContactInformation": {
+            "Phone": "+1-253-495-2188x71898",
+            "Email": "hevans@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2b1d9a05-16b0-4c9c-8c9e-d84e1d19d15f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-26T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-01T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-06T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

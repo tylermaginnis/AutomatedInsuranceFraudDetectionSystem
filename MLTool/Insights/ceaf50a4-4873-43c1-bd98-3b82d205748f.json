@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ceaf50a4-4873-43c1-bd98-3b82d205748f",
+    "PolicyID": "36477d17-449b-4187-b0b4-a1c3bea21250",
+    "EffectiveDates": {
+        "StartDate": "2024-04-03",
+        "EndDate": "2025-04-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "516b433a-818b-4364-a9b7-12c5c9966e80",
+        "Name": "Janet Cochran",
+        "PolicyNumber": "36477d17-449b-4187-b0b4-a1c3bea21250",
+        "ContactInformation": {
+            "Phone": "001-625-584-9262",
+            "Email": "gschwartz@example.com",
+            "Address": "PSC 8845, Box 9369\nAPO AP 51961"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-30",
+        "Location": "6877 Chavez Run\nRodneyview, ME 07381",
+        "Description": "Either before economy none affect. Work customer traditional protect feeling allow. Bit easy inside.\nFrom take agency place. Capital life production return soon grow. Development daughter town other."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 191817
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 181453
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 87963
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 147483
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 69159
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 171197,
+        "TotalApproved": 133829
+    },
+    "AdjusterDetails": {
+        "Name": "Diane Gilbert",
+        "ContactInformation": {
+            "Phone": "217.520.1790",
+            "Email": "michelleclark@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6eb5b9d0-4d1b-4b72-b906-f8df5a4d741f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0739c974-ef77-4b78-a0e6-4e29be026f18",
+    "PolicyID": "c639b87d-e094-467f-ac89-bcd75824343e",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f2e6354f-3b9b-4e52-bcb4-0be7e32cad3b",
+        "Name": "Scott Allen",
+        "PolicyNumber": "c639b87d-e094-467f-ac89-bcd75824343e",
+        "ContactInformation": {
+            "Phone": "305.575.2404x0519",
+            "Email": "darmstrong@example.net",
+            "Address": "77574 Scott Via\nLake Stephanie, NJ 60752"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-08",
+        "Location": "474 Oconnell Springs Apt. 383\nKeithborough, DE 40977",
+        "Description": "Civil institution Republican age space soldier head. Place issue down space wonder foreign. Debate born member control edge."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30672
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8746
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8838
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 75969
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18193
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 78404,
+        "TotalApproved": 48808
+    },
+    "AdjusterDetails": {
+        "Name": "Jimmy Gutierrez",
+        "ContactInformation": {
+            "Phone": "590.210.3807x583",
+            "Email": "ahuynh@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/260c8c28-b656-4193-8f59-e74301820b7b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-08T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-13T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-18T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

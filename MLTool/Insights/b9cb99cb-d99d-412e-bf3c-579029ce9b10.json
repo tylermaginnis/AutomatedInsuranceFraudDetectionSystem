@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b9cb99cb-d99d-412e-bf3c-579029ce9b10",
+    "PolicyID": "0ba49a6d-03c9-4cea-a738-943333f44dab",
+    "EffectiveDates": {
+        "StartDate": "2024-03-13",
+        "EndDate": "2025-03-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7ceaf90e-ac5f-4aa4-a87a-40b48d2256b3",
+        "Name": "Christopher Flynn",
+        "PolicyNumber": "0ba49a6d-03c9-4cea-a738-943333f44dab",
+        "ContactInformation": {
+            "Phone": "+1-676-730-2613x86215",
+            "Email": "vsanchez@example.org",
+            "Address": "2032 Christine Ridges Apt. 063\nShawhaven, GA 09426"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-20",
+        "Location": "868 Macias Locks Apt. 768\nDanielville, AR 92365",
+        "Description": "Brother present against family among. Stock half section activity often rather unit. Enter office him station.\nBusiness sing tell fight Republican member."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44158
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 61283
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39586
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36799
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1679
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 82554,
+        "TotalApproved": 57479
+    },
+    "AdjusterDetails": {
+        "Name": "Annette Hill",
+        "ContactInformation": {
+            "Phone": "+1-301-644-3212",
+            "Email": "rebeccaglover@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9b1d1a30-8538-4936-9257-7a15c0fe5f9b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-20T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-25T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ee02102f-6452-48f8-92c5-4be368617bdd",
+    "PolicyID": "60c5539c-8824-4305-9164-8b60d2d94592",
+    "EffectiveDates": {
+        "StartDate": "2023-11-19",
+        "EndDate": "2024-11-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "34a2890a-f8df-4286-a548-b615d358e828",
+        "Name": "David George",
+        "PolicyNumber": "60c5539c-8824-4305-9164-8b60d2d94592",
+        "ContactInformation": {
+            "Phone": "+1-632-321-0781x79862",
+            "Email": "dyerdaniel@example.com",
+            "Address": "5406 Brianna Stream Apt. 604\nEllisland, MD 86368"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-24",
+        "Location": "3844 Gary Forks Suite 752\nWalkerside, AL 41891",
+        "Description": "Financial art risk so. Away five resource group.\nProperty member which make. Answer expert PM she fear star former."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25287
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4681
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47789
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6782
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15139
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 106792,
+        "TotalApproved": 92158
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Goodman",
+        "ContactInformation": {
+            "Phone": "(440)608-1199x23927",
+            "Email": "jillianbradshaw@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7fdd5504-ae47-4d62-92a7-3e7cf9be12ae"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-24T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-29T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-04T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

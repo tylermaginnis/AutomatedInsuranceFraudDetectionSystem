@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0b894f43-9fd8-4931-95e8-573ad88d9c31",
+    "PolicyID": "d4d330b8-62f9-4c93-9126-168a7f9e8e6e",
+    "EffectiveDates": {
+        "StartDate": "2023-09-17",
+        "EndDate": "2024-09-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c803c802-1250-4b16-8155-23f702992069",
+        "Name": "Kim Sullivan",
+        "PolicyNumber": "d4d330b8-62f9-4c93-9126-168a7f9e8e6e",
+        "ContactInformation": {
+            "Phone": "(748)598-3195",
+            "Email": "zachary61@example.net",
+            "Address": "121 Karen Path\nProctormouth, LA 95412"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-02",
+        "Location": "395 King Course\nEast Joshua, SD 36619",
+        "Description": "Relate quality network. All power your onto.\nBudget improve spend child natural with we. Be measure back me sister step option."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11413
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 155174
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 93742
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 54129
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 140126
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 163759,
+        "TotalApproved": 6978
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Terry",
+        "ContactInformation": {
+            "Phone": "(327)750-3169x4624",
+            "Email": "norrisanthony@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/dc876733-b651-4aaa-8845-7f57e49e16d4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-02T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-07T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-12T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

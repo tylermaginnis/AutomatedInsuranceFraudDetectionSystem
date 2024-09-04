@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6c292977-c260-4255-9cce-247dbffd536b",
+    "PolicyID": "2beb9a3e-449e-4157-b8d4-2bf9f2995292",
+    "EffectiveDates": {
+        "StartDate": "2024-04-08",
+        "EndDate": "2025-04-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e7b067a9-fab1-43b4-93ac-4d02ae7cbab6",
+        "Name": "Larry Jones",
+        "PolicyNumber": "2beb9a3e-449e-4157-b8d4-2bf9f2995292",
+        "ContactInformation": {
+            "Phone": "4128524599",
+            "Email": "allenrachel@example.net",
+            "Address": "06870 Nicholas Avenue\nVanessaland, AZ 42074"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-19",
+        "Location": "PSC 1832, Box 3906\nAPO AA 54567",
+        "Description": "Half left arm some. Cell maintain game knowledge.\nImagine product sister who enter person relate. Society fine professor personal adult remain. Account imagine probably act table."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18543
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 59706
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 137096
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7490
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42030
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 107750,
+        "TotalApproved": 43678
+    },
+    "AdjusterDetails": {
+        "Name": "John Adams",
+        "ContactInformation": {
+            "Phone": "871.430.7203",
+            "Email": "ggonzales@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6c14f917-88d8-4424-aa47-504a1a472837"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-19T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-24T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-29T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "61df2c0c-aa30-4ea7-9ce8-4b40736f2df6",
+    "PolicyID": "09105fbf-1660-43ec-aeac-c3ee539fbd6d",
+    "EffectiveDates": {
+        "StartDate": "2024-06-06",
+        "EndDate": "2025-06-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9cce2f63-fa71-4834-9340-63d71eef0c45",
+        "Name": "Seth Garcia",
+        "PolicyNumber": "09105fbf-1660-43ec-aeac-c3ee539fbd6d",
+        "ContactInformation": {
+            "Phone": "886-854-5451x5403",
+            "Email": "petersmith@example.net",
+            "Address": "544 Dave Flat\nWest Lawrence, IA 44229"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-11",
+        "Location": "2789 Ashley Fields\nChristineton, VI 19557",
+        "Description": "Step all remember treat. Life while listen his choose. Drive always state throughout. Past car body again step often military."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39782
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16983
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17478
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5198
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10937
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 25608,
+        "TotalApproved": 6634
+    },
+    "AdjusterDetails": {
+        "Name": "Justin Williams",
+        "ContactInformation": {
+            "Phone": "903.938.2091x0469",
+            "Email": "jleonard@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/571bbce6-301e-4e8e-8bc8-a9cdcd727f1f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-11T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-16T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-21T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

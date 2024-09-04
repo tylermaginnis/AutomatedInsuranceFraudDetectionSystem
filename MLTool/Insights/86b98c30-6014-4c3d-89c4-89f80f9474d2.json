@@ -1,0 +1,81 @@
+{
+    "ClaimID": "86b98c30-6014-4c3d-89c4-89f80f9474d2",
+    "PolicyID": "6cc1ab21-ec81-4fbc-af14-8b25383d40b2",
+    "EffectiveDates": {
+        "StartDate": "2023-09-13",
+        "EndDate": "2024-09-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d1df5dc6-c2b4-47f3-8679-c74f87c44c5a",
+        "Name": "April Smith",
+        "PolicyNumber": "6cc1ab21-ec81-4fbc-af14-8b25383d40b2",
+        "ContactInformation": {
+            "Phone": "(894)425-0788",
+            "Email": "jeanne57@example.net",
+            "Address": "23098 Nolan Track\nNew Brettside, AK 48302"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-03",
+        "Location": "3891 Crystal Stream Apt. 763\nPaulmouth, MI 65317",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 55764
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41246
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9087
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 29731
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5644
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 141472,
+        "TotalApproved": 93344
+    },
+    "AdjusterDetails": {
+        "Name": "Blake Peterson",
+        "ContactInformation": {
+            "Phone": "3934037451",
+            "Email": "nriley@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3bfdb0be-a8b1-4381-8d00-7693f8f3cf59"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-03T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-08T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-13T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

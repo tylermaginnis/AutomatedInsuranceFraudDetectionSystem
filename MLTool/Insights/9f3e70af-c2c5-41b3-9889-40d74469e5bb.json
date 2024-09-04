@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9f3e70af-c2c5-41b3-9889-40d74469e5bb",
+    "PolicyID": "111717a7-6706-4c48-b4ad-4df8fdd67a4b",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6a6a87f9-f4e1-46e9-8690-783d23ee3639",
+        "Name": "Nicholas Reeves",
+        "PolicyNumber": "111717a7-6706-4c48-b4ad-4df8fdd67a4b",
+        "ContactInformation": {
+            "Phone": "7176523298",
+            "Email": "scottjay@example.com",
+            "Address": "511 Jones Heights\nMillermouth, IN 09645"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-22",
+        "Location": "0587 Danny Corner\nGoodmanberg, RI 29367",
+        "Description": "Operation set government around occur. Many theory evening eat fight matter human. Boy network want support writer father personal."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 95266
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31103
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3780
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29497
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7233
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 128211,
+        "TotalApproved": 31182
+    },
+    "AdjusterDetails": {
+        "Name": "Crystal Gonzalez",
+        "ContactInformation": {
+            "Phone": "001-747-441-9377x815",
+            "Email": "rushteresa@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/63cd54a0-d669-4437-ab01-1c7a55a47533"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

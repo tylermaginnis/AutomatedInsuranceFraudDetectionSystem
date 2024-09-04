@@ -1,0 +1,81 @@
+{
+    "ClaimID": "801e9727-c1f4-4419-bd82-4f1a266f7f78",
+    "PolicyID": "70555650-30d2-49f4-90ee-953d1c7065c0",
+    "EffectiveDates": {
+        "StartDate": "2023-12-24",
+        "EndDate": "2024-12-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dde0ca2d-7ce1-47ae-89cc-a3002ac64aa2",
+        "Name": "Franklin Russo",
+        "PolicyNumber": "70555650-30d2-49f4-90ee-953d1c7065c0",
+        "ContactInformation": {
+            "Phone": "+1-498-279-4461",
+            "Email": "pmurray@example.net",
+            "Address": "2457 Harper Circles\nSherriberg, ND 59396"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-05",
+        "Location": "78573 Brown Spurs Suite 526\nNew Lindsayport, WY 92030",
+        "Description": "Travel watch moment represent. Relationship picture help career better summer history.\nBack already choice Mrs nothing seem. Cost senior adult new."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 155122
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5760
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14477
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1946
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43203
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 159874,
+        "TotalApproved": 119327
+    },
+    "AdjusterDetails": {
+        "Name": "Alyssa Williams",
+        "ContactInformation": {
+            "Phone": "(505)990-9013",
+            "Email": "ronaldrush@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/36aef23d-08c6-41a5-a436-aaa280affb55"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f59c5b05-fd6f-40bd-ae2f-57ed515408e7",
+    "PolicyID": "b71062ff-09ea-4e69-9f07-4c3636e98522",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "60c1b486-ca61-440e-8577-0b133027a3b6",
+        "Name": "Alison Garrett",
+        "PolicyNumber": "b71062ff-09ea-4e69-9f07-4c3636e98522",
+        "ContactInformation": {
+            "Phone": "6376017253",
+            "Email": "anthony23@example.com",
+            "Address": "64112 Aaron Junctions Apt. 428\nJenniferside, OK 83658"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-31",
+        "Location": "17129 Leach Key\nLake Angela, MH 44155",
+        "Description": "Professional hour piece for available. Per somebody various account not participant.\nResponse camera clearly person. Teach you boy president. Forget still research operation contain."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15626
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7348
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3037
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46300
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17050
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 27952,
+        "TotalApproved": 19319
+    },
+    "AdjusterDetails": {
+        "Name": "Brenda Martinez",
+        "ContactInformation": {
+            "Phone": "001-320-229-5077x5620",
+            "Email": "reevesrebecca@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d1ee8975-da26-46fe-b479-d2c104a1fdb2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-31T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-05T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-10T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

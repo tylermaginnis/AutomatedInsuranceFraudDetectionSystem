@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4ee85dd5-ece8-4e82-8110-176c46c9dcf5",
+    "PolicyID": "c2c5acee-9adf-4af1-a780-aeaa83218800",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7eb87c48-9e8a-471d-8cdd-195a02011abd",
+        "Name": "Jordan Ewing",
+        "PolicyNumber": "c2c5acee-9adf-4af1-a780-aeaa83218800",
+        "ContactInformation": {
+            "Phone": "(645)307-5016x60133",
+            "Email": "brandon00@example.org",
+            "Address": "2466 Torres Club Suite 558\nNorth Juliashire, GU 13861"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-14",
+        "Location": "24697 Proctor Field\nNorth Joseph, NC 05695",
+        "Description": "Scene Mrs able share them. Reveal share size east memory what."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7662
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5292
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32166
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7276
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 125596
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 146968,
+        "TotalApproved": 59306
+    },
+    "AdjusterDetails": {
+        "Name": "Brett Lamb",
+        "ContactInformation": {
+            "Phone": "+1-624-951-5991x74457",
+            "Email": "robert33@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3a6b5785-63ee-4496-b091-ffe4a3d01b36"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-14T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-19T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-24T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

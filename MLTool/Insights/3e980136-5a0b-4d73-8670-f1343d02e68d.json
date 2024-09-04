@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3e980136-5a0b-4d73-8670-f1343d02e68d",
+    "PolicyID": "58d614c1-b81f-4a3d-86ca-f78f706bc00d",
+    "EffectiveDates": {
+        "StartDate": "2024-05-05",
+        "EndDate": "2025-05-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "82eaf0b3-aa4d-4c68-9da7-87b6e6ed9732",
+        "Name": "Susan Fitzpatrick",
+        "PolicyNumber": "58d614c1-b81f-4a3d-86ca-f78f706bc00d",
+        "ContactInformation": {
+            "Phone": "001-689-963-7433x9225",
+            "Email": "woodsmathew@example.net",
+            "Address": "93040 Snyder Ramp Apt. 726\nBethview, MH 07416"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-30",
+        "Location": "40386 Roberto Brooks Suite 842\nMercershire, NJ 12181",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 52193
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34757
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7481
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18924
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16512
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 129867,
+        "TotalApproved": 27794
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Watson",
+        "ContactInformation": {
+            "Phone": "992-265-4918x528",
+            "Email": "johnnelson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0d91aa79-f764-4907-aa44-682df104e8f8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

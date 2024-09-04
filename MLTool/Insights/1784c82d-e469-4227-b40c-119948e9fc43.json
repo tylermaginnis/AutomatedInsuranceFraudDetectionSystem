@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1784c82d-e469-4227-b40c-119948e9fc43",
+    "PolicyID": "4a480044-35b1-4bff-826d-bc07fc585d8d",
+    "EffectiveDates": {
+        "StartDate": "2023-11-12",
+        "EndDate": "2024-11-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9c833495-c4de-41c3-a8f1-f9395176c535",
+        "Name": "George Cole",
+        "PolicyNumber": "4a480044-35b1-4bff-826d-bc07fc585d8d",
+        "ContactInformation": {
+            "Phone": "766-281-1895x478",
+            "Email": "alexander63@example.org",
+            "Address": "200 Glenn Villages Apt. 699\nJacquelineborough, TX 96763"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-09",
+        "Location": "283 Jasmine Field\nDeborahstad, SD 12152",
+        "Description": "Case shake life enter television change. Future buy character something relate through machine. After fear chance crime investment Democrat alone."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 113611
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31865
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8644
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11980
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8106
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 76523,
+        "TotalApproved": 50805
+    },
+    "AdjusterDetails": {
+        "Name": "Philip Peck",
+        "ContactInformation": {
+            "Phone": "001-224-745-2204",
+            "Email": "alexisbenson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d5839e94-dfff-44af-8004-89acb903f859"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

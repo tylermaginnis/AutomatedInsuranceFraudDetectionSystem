@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c4196bdd-cff7-4880-8aa5-0871b58de3eb",
+    "PolicyID": "1c8c3ba8-d225-4437-9569-b195f760cdbf",
+    "EffectiveDates": {
+        "StartDate": "2024-03-25",
+        "EndDate": "2025-03-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fa369623-5caf-4b7a-a02c-35b489e39c40",
+        "Name": "Melanie Smith",
+        "PolicyNumber": "1c8c3ba8-d225-4437-9569-b195f760cdbf",
+        "ContactInformation": {
+            "Phone": "001-910-240-8811x000",
+            "Email": "floresbryan@example.org",
+            "Address": "967 Tapia Plains\nCameronfurt, IA 55531"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-14",
+        "Location": "98843 Michelle Meadow\nWest Angela, CA 60989",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 78782
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20725
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7918
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15616
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18252
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 141293,
+        "TotalApproved": 81956
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Carter",
+        "ContactInformation": {
+            "Phone": "2002241355",
+            "Email": "qbest@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/41c2b299-ce51-4cfb-a2f6-15f0511ea5e4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-14T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-19T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-24T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

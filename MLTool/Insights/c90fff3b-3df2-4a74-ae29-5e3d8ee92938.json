@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c90fff3b-3df2-4a74-ae29-5e3d8ee92938",
+    "PolicyID": "11dad770-ba72-4cd3-94aa-05ce4d477fff",
+    "EffectiveDates": {
+        "StartDate": "2024-03-21",
+        "EndDate": "2025-03-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "30ff5863-e134-448f-9a08-5804a4c97787",
+        "Name": "Peter Nash",
+        "PolicyNumber": "11dad770-ba72-4cd3-94aa-05ce4d477fff",
+        "ContactInformation": {
+            "Phone": "932-336-0965",
+            "Email": "cwalters@example.org",
+            "Address": "57768 Brennan Road\nWest Laurenhaven, LA 35769"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-06",
+        "Location": "35993 Jonathan Drive Apt. 610\nNew Connor, WI 58259",
+        "Description": "Chair most customer minute economy him so. Out field sing seek. Production focus last daughter. Customer answer want life find trial stuff.\nLess growth direction cover response land finish."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5610
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45977
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9847
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35249
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5333
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 182753,
+        "TotalApproved": 57821
+    },
+    "AdjusterDetails": {
+        "Name": "Christine Branch",
+        "ContactInformation": {
+            "Phone": "(881)679-9467x302",
+            "Email": "chorn@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/48f19177-e3c5-4388-bc16-93b6e0c106a1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-06T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-11T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-16T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

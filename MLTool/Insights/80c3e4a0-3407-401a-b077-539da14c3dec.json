@@ -1,0 +1,81 @@
+{
+    "ClaimID": "80c3e4a0-3407-401a-b077-539da14c3dec",
+    "PolicyID": "3019283a-9e27-413d-919d-54de3621cdbb",
+    "EffectiveDates": {
+        "StartDate": "2024-05-27",
+        "EndDate": "2025-05-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ea2f1003-f69a-4c72-9bf4-396d4b13d49a",
+        "Name": "Kristen Bell",
+        "PolicyNumber": "3019283a-9e27-413d-919d-54de3621cdbb",
+        "ContactInformation": {
+            "Phone": "545-330-3971x949",
+            "Email": "johngreen@example.net",
+            "Address": "777 David Street Suite 344\nDoylestad, AZ 26292"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-23",
+        "Location": "0789 John Light Suite 812\nTaylorland, FM 61552",
+        "Description": "Certain how blood gun success sing. Manager religious them thus.\nRise child agent call realize. Likely pressure life just general coach budget subject."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20700
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3549
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37588
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35614
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9598
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 64903,
+        "TotalApproved": 18485
+    },
+    "AdjusterDetails": {
+        "Name": "Theresa Taylor",
+        "ContactInformation": {
+            "Phone": "(275)512-3890",
+            "Email": "angiewilkinson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/521d64e2-4f65-4bf8-b735-2b94d943459a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-23T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-28T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-03T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

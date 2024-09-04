@@ -1,0 +1,81 @@
+{
+    "ClaimID": "78947cf0-465d-47cd-8cef-4a7353c5b029",
+    "PolicyID": "a0b2b78a-c51c-475a-9553-e3e1f789fb27",
+    "EffectiveDates": {
+        "StartDate": "2023-12-28",
+        "EndDate": "2024-12-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9fa53e77-3e4c-44d3-936b-56f395c6fa59",
+        "Name": "Jamie Butler DDS",
+        "PolicyNumber": "a0b2b78a-c51c-475a-9553-e3e1f789fb27",
+        "ContactInformation": {
+            "Phone": "439-723-4710x56073",
+            "Email": "ricky11@example.net",
+            "Address": "51274 Parker Rue\nLake Craigchester, AR 37782"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-22",
+        "Location": "99981 Fred Oval\nNew Tonyabury, VT 65621",
+        "Description": "Least for create pretty during. From answer development evidence director material still fast. Radio such indeed study late continue."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2727
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35403
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24471
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16665
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 90859
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 133783,
+        "TotalApproved": 84959
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Tran",
+        "ContactInformation": {
+            "Phone": "001-505-261-7282x13751",
+            "Email": "kirstenkrueger@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/39c53d72-decb-493f-9111-dbc9d630927f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-22T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-27T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

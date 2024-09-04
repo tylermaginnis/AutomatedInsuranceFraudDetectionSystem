@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b9c9e3f-9603-44d2-9aea-3f6b002b81dd",
+    "PolicyID": "8cfd205f-5833-43df-91e9-d7441368b2e4",
+    "EffectiveDates": {
+        "StartDate": "2024-02-09",
+        "EndDate": "2025-02-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "219ac056-5140-4784-a699-c152e614f9d4",
+        "Name": "Patricia Lindsey",
+        "PolicyNumber": "8cfd205f-5833-43df-91e9-d7441368b2e4",
+        "ContactInformation": {
+            "Phone": "4598088274",
+            "Email": "jeffrey37@example.org",
+            "Address": "294 Sparks Villages Suite 384\nNorth Ericview, TX 09684"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-04",
+        "Location": "48279 Butler Divide\nBradleyville, NM 74392",
+        "Description": "Movement southern safe environment establish culture difficult manage. Activity top song fact. Billion center create voice."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14078
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35865
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5166
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6326
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49625
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 80232,
+        "TotalApproved": 75303
+    },
+    "AdjusterDetails": {
+        "Name": "Abigail Gonzalez",
+        "ContactInformation": {
+            "Phone": "(321)749-5261x20514",
+            "Email": "jamessmith@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5120ff47-b8a0-4967-b788-0af6ec2bd42e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-04T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-09T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-14T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

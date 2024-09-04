@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e72afcef-d08b-4d7b-a590-e27c9c2fa928",
+    "PolicyID": "62432675-0915-450a-9ba2-9475acd11dd3",
+    "EffectiveDates": {
+        "StartDate": "2023-11-09",
+        "EndDate": "2024-11-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9b7c6d7f-bb06-4522-9741-eb70a657771d",
+        "Name": "Charles Wilson",
+        "PolicyNumber": "62432675-0915-450a-9ba2-9475acd11dd3",
+        "ContactInformation": {
+            "Phone": "001-969-929-1641x464",
+            "Email": "kevin22@example.net",
+            "Address": "0557 Ewing Ridge\nMiddletonstad, WY 19943"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-27",
+        "Location": "996 Paul Stravenue\nTimothyview, RI 05260",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 87410
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47482
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7288
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19224
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13832
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 175236,
+        "TotalApproved": 35754
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Mccarthy",
+        "ContactInformation": {
+            "Phone": "+1-398-391-7114x8676",
+            "Email": "johncruz@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e0147217-64bb-454d-bef1-d053662f2c3a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-27T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-02T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-07T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

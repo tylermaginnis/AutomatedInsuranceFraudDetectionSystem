@@ -1,0 +1,81 @@
+{
+    "ClaimID": "324c8fef-913d-42a8-be01-bdfac574cd04",
+    "PolicyID": "cd57c4d6-2846-4edc-b986-10a66c81cfd5",
+    "EffectiveDates": {
+        "StartDate": "2024-08-19",
+        "EndDate": "2025-08-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ccb29fd6-9da8-4b31-be54-4074507f6158",
+        "Name": "Jessica Acosta",
+        "PolicyNumber": "cd57c4d6-2846-4edc-b986-10a66c81cfd5",
+        "ContactInformation": {
+            "Phone": "807-448-9257x64382",
+            "Email": "jose07@example.com",
+            "Address": "277 Peter Fields Apt. 637\nPattersonport, FM 32830"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-04",
+        "Location": "452 Sarah Bypass Suite 858\nScotthaven, MD 14273",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 62858
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36708
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6128
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27329
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14232
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 147255,
+        "TotalApproved": 71969
+    },
+    "AdjusterDetails": {
+        "Name": "Deanna Horn",
+        "ContactInformation": {
+            "Phone": "647-844-7228",
+            "Email": "austinjoanna@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/96912f47-8e39-466c-93c5-6dc37c3d9fde"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-04T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-09T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-14T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

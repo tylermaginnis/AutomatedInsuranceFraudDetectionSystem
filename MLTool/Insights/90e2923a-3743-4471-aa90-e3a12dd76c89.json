@@ -1,0 +1,81 @@
+{
+    "ClaimID": "90e2923a-3743-4471-aa90-e3a12dd76c89",
+    "PolicyID": "a5d8486d-674a-41e0-a179-51c39b54d433",
+    "EffectiveDates": {
+        "StartDate": "2023-12-04",
+        "EndDate": "2024-12-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "24606fb3-bbb4-4a9b-b80b-5b31db9a7d9d",
+        "Name": "John Ortiz",
+        "PolicyNumber": "a5d8486d-674a-41e0-a179-51c39b54d433",
+        "ContactInformation": {
+            "Phone": "(251)779-2399",
+            "Email": "ndavis@example.org",
+            "Address": "250 Wayne Harbor\nStephenland, MT 99290"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-09",
+        "Location": "0423 Hughes Valley Apt. 783\nWest Jason, AL 61550",
+        "Description": "Forget when bar ball choose company. Of cover look image discussion somebody activity.\nAdministration win school economy possible. Over another in work college."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4654
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 69176
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 195080
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5536
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8158
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 40913,
+        "TotalApproved": 19249
+    },
+    "AdjusterDetails": {
+        "Name": "Emily Moore",
+        "ContactInformation": {
+            "Phone": "259-478-2082x9594",
+            "Email": "cynthia45@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/88694aed-beb6-4f69-8a4c-bd0bb36dc905"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

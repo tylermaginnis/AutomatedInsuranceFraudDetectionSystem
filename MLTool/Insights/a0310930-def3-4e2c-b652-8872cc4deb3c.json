@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a0310930-def3-4e2c-b652-8872cc4deb3c",
+    "PolicyID": "c911d2bd-c7e2-4f34-9f62-53ac536bf851",
+    "EffectiveDates": {
+        "StartDate": "2023-10-17",
+        "EndDate": "2024-10-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0aed1d38-427b-4d9c-930b-e6545093c244",
+        "Name": "Norma Franklin",
+        "PolicyNumber": "c911d2bd-c7e2-4f34-9f62-53ac536bf851",
+        "ContactInformation": {
+            "Phone": "215.983.9646",
+            "Email": "amberlee@example.com",
+            "Address": "8459 Medina Green Apt. 906\nThomasmouth, AK 40811"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-07",
+        "Location": "64836 Janice Walk\nNorth Marisamouth, RI 94029",
+        "Description": "Expect spend chance scientist notice doctor do. Prepare account however blood side impact center. Join will fine edge else like reduce."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6133
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46590
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 108953
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30185
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 118147
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 130174,
+        "TotalApproved": 51736
+    },
+    "AdjusterDetails": {
+        "Name": "Cindy Ochoa",
+        "ContactInformation": {
+            "Phone": "505-705-2865x59498",
+            "Email": "martinezryan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3886fe72-49e9-40f0-a936-96f1201970d6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

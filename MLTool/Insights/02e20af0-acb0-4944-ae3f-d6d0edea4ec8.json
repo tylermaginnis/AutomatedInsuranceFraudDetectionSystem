@@ -1,0 +1,81 @@
+{
+    "ClaimID": "02e20af0-acb0-4944-ae3f-d6d0edea4ec8",
+    "PolicyID": "3f2275c9-eb2f-471c-af7b-fbe77177cc58",
+    "EffectiveDates": {
+        "StartDate": "2024-08-20",
+        "EndDate": "2025-08-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a3735aeb-7188-412a-b408-b350234beb49",
+        "Name": "Gail York",
+        "PolicyNumber": "3f2275c9-eb2f-471c-af7b-fbe77177cc58",
+        "ContactInformation": {
+            "Phone": "+1-504-974-2631x813",
+            "Email": "klee@example.org",
+            "Address": "PSC 0231, Box 9344\nAPO AE 15465"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-05",
+        "Location": "3976 Mary Plaza\nNew Rebeccafurt, NJ 57532",
+        "Description": "Southern life natural point able.\nThough data clearly wall address over however. Political service let blood. Travel charge bank phone recently close. Require memory could election easy manage down."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32123
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 153933
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5730
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26139
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1125
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 13368,
+        "TotalApproved": 8477
+    },
+    "AdjusterDetails": {
+        "Name": "James Vincent",
+        "ContactInformation": {
+            "Phone": "769-269-3098x139",
+            "Email": "breed@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/065de99f-a9c0-4b84-bade-48e29338fbec"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

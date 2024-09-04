@@ -1,0 +1,81 @@
+{
+    "ClaimID": "826fbfed-a897-4d54-8b36-95f518197018",
+    "PolicyID": "08adc5c5-41ba-46f1-8feb-bfdf553f1fca",
+    "EffectiveDates": {
+        "StartDate": "2023-10-25",
+        "EndDate": "2024-10-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "92f85290-5add-49c0-ab09-b3ff2a46c8d2",
+        "Name": "Angela Ross",
+        "PolicyNumber": "08adc5c5-41ba-46f1-8feb-bfdf553f1fca",
+        "ContactInformation": {
+            "Phone": "4257436908",
+            "Email": "joshua89@example.net",
+            "Address": "PSC 4056, Box 2675\nAPO AE 65293"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-09",
+        "Location": "43800 Bowman Field\nLeachbury, TN 24777",
+        "Description": "Share science mention popular since. Bring alone tree determine. Parent both institution conference.\nStation foreign last. Economy challenge security others page not."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 163602
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18153
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11340
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3546
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 82697
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 150641,
+        "TotalApproved": 60327
+    },
+    "AdjusterDetails": {
+        "Name": "Curtis Webb",
+        "ContactInformation": {
+            "Phone": "001-672-718-3548x114",
+            "Email": "thompsonelaine@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a1612686-b9e6-4072-9b56-8aa01597cbf0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-09T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-14T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-19T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

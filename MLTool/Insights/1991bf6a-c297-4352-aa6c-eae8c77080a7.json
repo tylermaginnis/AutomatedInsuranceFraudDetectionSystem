@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1991bf6a-c297-4352-aa6c-eae8c77080a7",
+    "PolicyID": "20bc49de-13a2-411c-8727-ad6c848069bd",
+    "EffectiveDates": {
+        "StartDate": "2024-03-31",
+        "EndDate": "2025-03-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9ad13e12-77b2-49a5-bc9a-a688be9cd952",
+        "Name": "Troy Ellis",
+        "PolicyNumber": "20bc49de-13a2-411c-8727-ad6c848069bd",
+        "ContactInformation": {
+            "Phone": "+1-908-503-4897x175",
+            "Email": "scottspencer@example.org",
+            "Address": "Unit 6163 Box 1294\nDPO AP 82739"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-24",
+        "Location": "4418 Farley Club Apt. 868\nSouth Amy, PR 11514",
+        "Description": "Tax often garden someone career make investment.\nUp rule manager coach. Production try art.\nLike hundred win might. Capital form watch little hope miss hundred."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8303
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15583
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4529
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5182
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 172296
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 78051,
+        "TotalApproved": 76798
+    },
+    "AdjusterDetails": {
+        "Name": "Brianna Bowers MD",
+        "ContactInformation": {
+            "Phone": "809-610-2526x2130",
+            "Email": "agarza@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2d2cfc49-1a0f-4fef-bc7f-f2e879036551"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

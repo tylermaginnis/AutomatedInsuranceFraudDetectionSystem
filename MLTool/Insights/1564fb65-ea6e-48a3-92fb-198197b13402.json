@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1564fb65-ea6e-48a3-92fb-198197b13402",
+    "PolicyID": "1d6e6506-992c-4fb0-96a3-8d375dc73d23",
+    "EffectiveDates": {
+        "StartDate": "2024-03-21",
+        "EndDate": "2025-03-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7e7643b6-322e-41fc-acff-cf53f85487aa",
+        "Name": "Linda White",
+        "PolicyNumber": "1d6e6506-992c-4fb0-96a3-8d375dc73d23",
+        "ContactInformation": {
+            "Phone": "804-713-7833x3865",
+            "Email": "sheenaellis@example.net",
+            "Address": "6079 Heather Ridge\nCharleston, NH 45810"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-14",
+        "Location": "5547 Julie Bridge\nChristopherborough, GA 84717",
+        "Description": "Six probably general deep rich skin well. Amount behind final any.\nAddress note far nature opportunity popular stuff. Reduce own particularly lose."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9934
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 56092
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 30011
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 128986
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 104743
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 188984,
+        "TotalApproved": 81075
+    },
+    "AdjusterDetails": {
+        "Name": "Randy Sharp",
+        "ContactInformation": {
+            "Phone": "001-734-209-6733x4855",
+            "Email": "maria23@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a007e02f-2cf0-43b0-8dde-b51bde059639"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-14T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-19T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-24T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

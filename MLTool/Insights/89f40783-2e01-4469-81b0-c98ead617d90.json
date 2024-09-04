@@ -1,0 +1,81 @@
+{
+    "ClaimID": "89f40783-2e01-4469-81b0-c98ead617d90",
+    "PolicyID": "2bb90e48-d617-400d-ae1b-d73e9d521ed3",
+    "EffectiveDates": {
+        "StartDate": "2024-01-09",
+        "EndDate": "2025-01-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8a6c09c0-63ed-4ed7-9fce-7ef48c12d2a6",
+        "Name": "Joshua Palmer",
+        "PolicyNumber": "2bb90e48-d617-400d-ae1b-d73e9d521ed3",
+        "ContactInformation": {
+            "Phone": "604-216-2881",
+            "Email": "portertodd@example.com",
+            "Address": "899 Richard Mill Apt. 683\nGeorgetown, IA 37746"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-27",
+        "Location": "541 Catherine Parkways\nJessemouth, NM 65913",
+        "Description": "Cold many whose address red. Teacher recognize option although leave. Natural among property fill care how. Much news edge for benefit reach."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1558
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37609
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1971
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31250
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8478
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 173635,
+        "TotalApproved": 88278
+    },
+    "AdjusterDetails": {
+        "Name": "Rodney Lindsey",
+        "ContactInformation": {
+            "Phone": "+1-306-460-0141x5796",
+            "Email": "josephrodriguez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0b682a1f-a616-48a4-a9f8-0d4f029963d3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-27T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-02T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-07T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

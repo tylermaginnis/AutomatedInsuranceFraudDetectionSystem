@@ -1,0 +1,81 @@
+{
+    "ClaimID": "aa10ff8e-0631-41ca-ac29-70a50b9d9913",
+    "PolicyID": "b57f2692-2d22-48ef-bb5d-84b764af2a41",
+    "EffectiveDates": {
+        "StartDate": "2023-11-23",
+        "EndDate": "2024-11-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "523d4434-3c01-47dd-a2ca-f18f39e8b3bb",
+        "Name": "David Norris",
+        "PolicyNumber": "b57f2692-2d22-48ef-bb5d-84b764af2a41",
+        "ContactInformation": {
+            "Phone": "973.559.7072",
+            "Email": "trevor26@example.com",
+            "Address": "515 Alexander Isle\nLake Benjaminfort, FM 37446"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-17",
+        "Location": "031 Stewart Rapid\nWest Diane, WA 69820",
+        "Description": "Range identify answer.\nMother notice call peace. Evening let effect case.\nMy whether poor task will. Example I bit risk rate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13045
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11254
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6143
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 51701
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47688
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 94465,
+        "TotalApproved": 16860
+    },
+    "AdjusterDetails": {
+        "Name": "Gabriel Robinson",
+        "ContactInformation": {
+            "Phone": "(669)424-4782",
+            "Email": "angela56@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e15ac34f-8d39-4d5c-bbcb-52a2300107eb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

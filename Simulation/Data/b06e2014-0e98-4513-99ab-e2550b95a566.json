@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b06e2014-0e98-4513-99ab-e2550b95a566",
+  "PolicyID": "18d14133-211d-4eba-9faa-d154c47ecfa4",
+  "EffectiveDates": {
+    "StartDate": "2024-04-15",
+    "EndDate": "2025-04-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "bc9e28b6-293e-4383-87cb-002688c5ce4d",
+    "Name": "Christine Mendoza",
+    "PolicyNumber": "18d14133-211d-4eba-9faa-d154c47ecfa4",
+    "ContactInformation": {
+      "Phone": "3813465633",
+      "Email": "crystalsmith@example.net",
+      "Address": "40332 Courtney Station Apt. 286\nWolfeport, TN 74748"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-13",
+    "Location": "285 Williams Roads Apt. 128\nAndersonland, SD 25787",
+    "Description": "Truth green land look still both hotel plan. Commercial rich small. Top family minute student carry your if."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 113907
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 33392
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 18262
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 18281
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14831
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 103436,
+    "TotalApproved": 65268
+  },
+  "AdjusterDetails": {
+    "Name": "Sara Acosta",
+    "ContactInformation": {
+      "Phone": "+1-561-392-1105x52966",
+      "Email": "bentleycaleb@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/f85e1d09-f45f-409c-a19f-765b78ca8f7b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-13T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-18T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-23T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

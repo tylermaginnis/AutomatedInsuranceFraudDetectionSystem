@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7d57130e-e3a9-4424-a41f-808485d3cf38",
+    "PolicyID": "80d844c6-a436-4029-b2d7-a80ecf63e795",
+    "EffectiveDates": {
+        "StartDate": "2024-08-20",
+        "EndDate": "2025-08-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ac611484-cc6f-4391-aefb-fabda4c5bafb",
+        "Name": "Amanda Harvey",
+        "PolicyNumber": "80d844c6-a436-4029-b2d7-a80ecf63e795",
+        "ContactInformation": {
+            "Phone": "658-656-5938x00537",
+            "Email": "ajones@example.com",
+            "Address": "37168 Santos Lodge Suite 017\nSandersville, GU 79843"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-22",
+        "Location": "USS Carter\nFPO AA 33457",
+        "Description": "Loss reveal window sense recent. News above fish wait. Degree their professor market yourself top."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49088
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9246
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4829
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4452
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48357
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 102514,
+        "TotalApproved": 86991
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Gonzalez",
+        "ContactInformation": {
+            "Phone": "286-610-1461",
+            "Email": "frankhutchinson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/eb1c6274-c121-4069-9732-fb7dee3905a4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-22T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-27T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

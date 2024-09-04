@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a57be1ff-8147-49e0-81ef-a32138bf5441",
+    "PolicyID": "c3246002-3046-4cc1-ae10-d321803b73bc",
+    "EffectiveDates": {
+        "StartDate": "2024-04-07",
+        "EndDate": "2025-04-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9a64978b-e73a-45b3-83ed-b8798791a097",
+        "Name": "Anthony Perez",
+        "PolicyNumber": "c3246002-3046-4cc1-ae10-d321803b73bc",
+        "ContactInformation": {
+            "Phone": "909-489-9889x68879",
+            "Email": "angela24@example.org",
+            "Address": "58200 Valerie Lodge Suite 000\nSouth Kelly, KS 57483"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-02",
+        "Location": "50189 Lauren Forge Suite 058\nCollinberg, ND 25616",
+        "Description": "Box put personal however. Program hold power. Direction second say particular anything yourself."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 28900
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6288
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 107426
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1853
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 22051
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 134950,
+        "TotalApproved": 96176
+    },
+    "AdjusterDetails": {
+        "Name": "Kent Rosales",
+        "ContactInformation": {
+            "Phone": "+1-743-571-8790x02985",
+            "Email": "ipeterson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6243ca18-930e-4588-8dfc-5fec87dc4193"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

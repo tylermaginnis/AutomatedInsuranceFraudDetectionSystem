@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9268b6dd-3ecb-477a-a945-3e060272b68f",
+    "PolicyID": "2ef1f6c2-7079-408b-9b69-31d5ec7cda1d",
+    "EffectiveDates": {
+        "StartDate": "2023-12-26",
+        "EndDate": "2024-12-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0b9cbb48-523b-4a72-ada4-61493e347394",
+        "Name": "Jessica Lucas",
+        "PolicyNumber": "2ef1f6c2-7079-408b-9b69-31d5ec7cda1d",
+        "ContactInformation": {
+            "Phone": "(565)492-4421",
+            "Email": "johnwhite@example.org",
+            "Address": "461 Marissa Orchard Apt. 528\nSouth Cheryl, OR 50719"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-05",
+        "Location": "9384 Aguilar Pine\nNancyburgh, MP 77850",
+        "Description": "Even candidate development nice never. Food wind prepare ok attention public fear. Position leave small parent improve."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 74284
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 60092
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 43250
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7006
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2748
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 100550,
+        "TotalApproved": 35205
+    },
+    "AdjusterDetails": {
+        "Name": "Sandra Dixon",
+        "ContactInformation": {
+            "Phone": "5788630711",
+            "Email": "ashley01@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/cc547a2d-c784-4bf4-8339-4f155e2338a8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

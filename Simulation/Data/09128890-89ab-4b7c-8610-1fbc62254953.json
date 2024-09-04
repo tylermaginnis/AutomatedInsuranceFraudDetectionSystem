@@ -1,0 +1,80 @@
+{
+  "ClaimID": "09128890-89ab-4b7c-8610-1fbc62254953",
+  "PolicyID": "661f3eaa-8b34-4246-a9f1-052edbba9866",
+  "EffectiveDates": {
+    "StartDate": "2023-09-16",
+    "EndDate": "2024-09-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "77fb62d0-b02a-4362-b38d-83754072bfcb",
+    "Name": "Shelley Johnson",
+    "PolicyNumber": "661f3eaa-8b34-4246-a9f1-052edbba9866",
+    "ContactInformation": {
+      "Phone": "509-344-8777x983",
+      "Email": "browndebra@example.net",
+      "Address": "87437 Ford Parkway\nLewisborough, FL 42876"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-22",
+    "Location": "3188 Steven Groves Suite 463\nWest Katherine, CA 53946",
+    "Description": "Share great issue remember experience maybe night. Trial story human weight.\nTravel summer stop sense. Usually town computer fine."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 10774
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7125
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 144983
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 10226
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 133954
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 61812,
+    "TotalApproved": 45684
+  },
+  "AdjusterDetails": {
+    "Name": "Micheal Johnson",
+    "ContactInformation": {
+      "Phone": "(679)910-4359x1848",
+      "Email": "davidberg@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/84613201-d894-4de6-9585-f13d265a9bbf"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-22T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-27T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-02T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bd1fb482-751a-45d3-ad3b-01571dfc0d25",
+    "PolicyID": "2c9dc47c-5d78-4cba-a1b1-9ae8bfb4d49d",
+    "EffectiveDates": {
+        "StartDate": "2023-09-14",
+        "EndDate": "2024-09-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c4a84d54-2c1e-4fc8-864f-580e1404b2a4",
+        "Name": "Andrew Mueller",
+        "PolicyNumber": "2c9dc47c-5d78-4cba-a1b1-9ae8bfb4d49d",
+        "ContactInformation": {
+            "Phone": "001-459-881-0333",
+            "Email": "alan49@example.org",
+            "Address": "801 Randall Roads Apt. 414\nPort Nathanborough, TX 97421"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-02",
+        "Location": "19116 Harmon Corner Suite 076\nLake Emily, MI 72446",
+        "Description": "Process responsibility how position would me win. Natural ahead it piece major note better. Check writer over great always."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 81843
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33651
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21870
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 58533
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1758
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 93584,
+        "TotalApproved": 25614
+    },
+    "AdjusterDetails": {
+        "Name": "Shawn Herrera",
+        "ContactInformation": {
+            "Phone": "001-359-903-3329x57474",
+            "Email": "wolfekelly@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1010405e-1c61-4390-9147-2cd3d1045554"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-02T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-07T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-12T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

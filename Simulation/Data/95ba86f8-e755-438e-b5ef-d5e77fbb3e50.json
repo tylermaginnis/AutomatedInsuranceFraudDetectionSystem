@@ -1,0 +1,80 @@
+{
+  "ClaimID": "95ba86f8-e755-438e-b5ef-d5e77fbb3e50",
+  "PolicyID": "bbf5db28-e609-4d5c-ad1e-807eb4a6f198",
+  "EffectiveDates": {
+    "StartDate": "2023-09-18",
+    "EndDate": "2024-09-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "da6a1623-f0da-4a45-a892-3c9cc981879c",
+    "Name": "Victor Bullock",
+    "PolicyNumber": "bbf5db28-e609-4d5c-ad1e-807eb4a6f198",
+    "ContactInformation": {
+      "Phone": "+1-604-703-2858",
+      "Email": "davidpoole@example.net",
+      "Address": "PSC 2790, Box 5308\nAPO AE 05204"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-05",
+    "Location": "416 Jessica Plains\nSouth Laurenside, MD 39022",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 59138
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 35742
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9000
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16358
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17495
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 137733,
+    "TotalApproved": 47841
+  },
+  "AdjusterDetails": {
+    "Name": "Michelle Bennett",
+    "ContactInformation": {
+      "Phone": "(235)261-7496x9692",
+      "Email": "kdoyle@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/81d038b4-80aa-4994-9a11-d90a5e54524b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-05T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-10T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-15T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

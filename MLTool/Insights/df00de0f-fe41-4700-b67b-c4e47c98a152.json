@@ -1,0 +1,81 @@
+{
+    "ClaimID": "df00de0f-fe41-4700-b67b-c4e47c98a152",
+    "PolicyID": "8e51261c-a74b-4c42-a345-267a7c26eb3f",
+    "EffectiveDates": {
+        "StartDate": "2024-01-15",
+        "EndDate": "2025-01-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9bc0f8cb-ac13-435f-a4d8-09664703413d",
+        "Name": "Matthew Brown",
+        "PolicyNumber": "8e51261c-a74b-4c42-a345-267a7c26eb3f",
+        "ContactInformation": {
+            "Phone": "+1-301-349-5085x14367",
+            "Email": "stacy86@example.com",
+            "Address": "Unit 6409 Box 4701\nDPO AA 74143"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-26",
+        "Location": "5537 Brenda Court\nWest Benjaminchester, AZ 56799",
+        "Description": "Serious base worry home. Clear lead assume what. Hospital test view.\nAbility box magazine sort among trade. Attention charge side coach perform population."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19268
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9249
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4090
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17163
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 177577
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 167579,
+        "TotalApproved": 123407
+    },
+    "AdjusterDetails": {
+        "Name": "Tamara Durham",
+        "ContactInformation": {
+            "Phone": "+1-436-601-1472x295",
+            "Email": "joanna14@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b99882f4-1df6-467f-a0a2-c3358f37f929"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "83b6843c-950b-4496-80d1-b7ee9e17306c",
+    "PolicyID": "30b7db1d-5b44-4e9a-99ee-e72d320ff8b9",
+    "EffectiveDates": {
+        "StartDate": "2023-11-23",
+        "EndDate": "2024-11-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "faa78c66-91d1-4073-9a54-af4f1fe85cf3",
+        "Name": "Brittany Cunningham",
+        "PolicyNumber": "30b7db1d-5b44-4e9a-99ee-e72d320ff8b9",
+        "ContactInformation": {
+            "Phone": "284.909.5334",
+            "Email": "montoyaanna@example.net",
+            "Address": "685 Gabriella Village Suite 807\nPort Stephanieton, MI 39451"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-13",
+        "Location": "PSC 1215, Box 9131\nAPO AA 01100",
+        "Description": "Of short environmental relate yet sound property. Bill society talk say stage local security."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36772
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10768
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14874
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3573
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10835
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 5252,
+        "TotalApproved": 3696
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Schultz",
+        "ContactInformation": {
+            "Phone": "(780)780-5409",
+            "Email": "lewisdaniel@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/11f2236f-ee61-47c4-a6cd-17849a943320"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-13T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-18T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-23T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

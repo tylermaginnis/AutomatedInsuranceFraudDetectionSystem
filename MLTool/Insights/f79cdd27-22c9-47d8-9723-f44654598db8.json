@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f79cdd27-22c9-47d8-9723-f44654598db8",
+    "PolicyID": "3fb49ff8-aa30-4adf-a256-a711ade511fb",
+    "EffectiveDates": {
+        "StartDate": "2023-11-03",
+        "EndDate": "2024-11-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4f47b3b3-4beb-43f3-b075-ef06626d9664",
+        "Name": "Tracy Hunt",
+        "PolicyNumber": "3fb49ff8-aa30-4adf-a256-a711ade511fb",
+        "ContactInformation": {
+            "Phone": "(996)348-4843x86206",
+            "Email": "thomasjohnson@example.com",
+            "Address": "6479 Palmer Terrace Suite 055\nSouth Joseph, MP 20024"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-14",
+        "Location": "Unit 3087 Box 1344\nDPO AA 96086",
+        "Description": "Structure edge something middle. Method some international vote spend best science."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8761
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39596
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41758
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41175
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2985
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 7255,
+        "TotalApproved": 7099
+    },
+    "AdjusterDetails": {
+        "Name": "George Lopez",
+        "ContactInformation": {
+            "Phone": "(465)624-3096x83614",
+            "Email": "grios@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fd04d1a7-0e0c-4327-adae-fcf717bb866a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

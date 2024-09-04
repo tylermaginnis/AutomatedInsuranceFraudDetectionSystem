@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f2fb7be8-1839-44d0-bf17-548748534681",
+    "PolicyID": "56a83aa0-a6d3-4e7b-8a10-16ae86d6a049",
+    "EffectiveDates": {
+        "StartDate": "2024-01-12",
+        "EndDate": "2025-01-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "366f0f56-adfe-4773-a556-c592789af730",
+        "Name": "Philip Williams",
+        "PolicyNumber": "56a83aa0-a6d3-4e7b-8a10-16ae86d6a049",
+        "ContactInformation": {
+            "Phone": "+1-210-537-0887x33436",
+            "Email": "hdawson@example.net",
+            "Address": "31287 Brian Keys\nAllenmouth, GA 40163"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "7644 John Summit Apt. 310\nCalvinhaven, TX 81229",
+        "Description": "Participant join hundred. Environmental travel face if that kid.\nLeast listen adult walk data big as. Say half yet sing agency reveal."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19424
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3760
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 168156
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1189
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31162
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 97313,
+        "TotalApproved": 50581
+    },
+    "AdjusterDetails": {
+        "Name": "Tina Johnson",
+        "ContactInformation": {
+            "Phone": "+1-605-285-8673x9994",
+            "Email": "laurenjones@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/758836ca-1153-42ac-8712-c2f556451e45"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

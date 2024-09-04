@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7b2a4de7-5cd3-491b-9cc4-a23b1192affb",
+  "PolicyID": "3bb07307-e108-455e-88fa-ee760342e727",
+  "EffectiveDates": {
+    "StartDate": "2024-03-04",
+    "EndDate": "2025-03-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9cd5a3c2-7fc5-4d65-9af0-43565b0967a0",
+    "Name": "Joel Bailey",
+    "PolicyNumber": "3bb07307-e108-455e-88fa-ee760342e727",
+    "ContactInformation": {
+      "Phone": "(296)545-7453x62710",
+      "Email": "kimberly12@example.net",
+      "Address": "589 Jacobs Curve\nSharonbury, NY 89057"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-19",
+    "Location": "327 Wright Mall Apt. 745\nEast Larry, AR 29235",
+    "Description": "Party accept lawyer successful case. Activity pick tend keep watch create."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2850
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17332
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 44084
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 40856
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 66873
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 148416,
+    "TotalApproved": 146613
+  },
+  "AdjusterDetails": {
+    "Name": "Kristina Sims",
+    "ContactInformation": {
+      "Phone": "6835527828",
+      "Email": "jenniferbennett@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/e2493d7d-fc5d-4619-b158-893c7bd260e4"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-19T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-24T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-29T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

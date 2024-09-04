@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a1d681fe-78a9-4f89-92eb-2b1c6e3f1d53",
+    "PolicyID": "76f9065a-bd18-4af7-80e9-016b4b30d25f",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9eb9d83d-bf68-40e0-841f-695fcbe853d0",
+        "Name": "Sharon Erickson",
+        "PolicyNumber": "76f9065a-bd18-4af7-80e9-016b4b30d25f",
+        "ContactInformation": {
+            "Phone": "219-745-0987",
+            "Email": "paulbailey@example.com",
+            "Address": "596 Jaime Grove Suite 097\nPort Patrick, MT 52757"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-14",
+        "Location": "679 Larson Garden Apt. 192\nBurtonview, IN 12659",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 68205
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 30443
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5215
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14105
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11962
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 129930,
+        "TotalApproved": 85271
+    },
+    "AdjusterDetails": {
+        "Name": "Kristin Mccarthy",
+        "ContactInformation": {
+            "Phone": "(313)314-9293x5873",
+            "Email": "sandymartinez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5e5adda6-dac6-476d-a0e0-df75d580a8bf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-14T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-19T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-24T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

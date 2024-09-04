@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ebd6c996-2c0a-42b5-a52e-df98504ef888",
+    "PolicyID": "61b88dd1-bc7e-496a-bc41-96c015bdf08f",
+    "EffectiveDates": {
+        "StartDate": "2023-10-24",
+        "EndDate": "2024-10-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "160f064f-566d-434b-87da-83daf4aba7a7",
+        "Name": "David Greene",
+        "PolicyNumber": "61b88dd1-bc7e-496a-bc41-96c015bdf08f",
+        "ContactInformation": {
+            "Phone": "8696274093",
+            "Email": "davisluke@example.net",
+            "Address": "PSC 7176, Box 4234\nAPO AP 84302"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-12",
+        "Location": "785 Denise Point\nEast Jacqueline, OH 38181",
+        "Description": "Media hard some bad model figure word. Accept raise list past drive move office. Only else resource source purpose sell.\nSubject possible find pick provide free."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34237
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90054
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12923
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44696
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35511
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 40842,
+        "TotalApproved": 17812
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Lopez",
+        "ContactInformation": {
+            "Phone": "444.216.5156x4998",
+            "Email": "morrisdiamond@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/420bdb9e-b2ae-4c74-ae5e-541f8b200589"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-12T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-17T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-22T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

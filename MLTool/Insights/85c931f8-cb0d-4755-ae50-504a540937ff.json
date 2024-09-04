@@ -1,0 +1,81 @@
+{
+    "ClaimID": "85c931f8-cb0d-4755-ae50-504a540937ff",
+    "PolicyID": "9bef082b-09a5-43b1-9036-89da14b804bb",
+    "EffectiveDates": {
+        "StartDate": "2024-01-25",
+        "EndDate": "2025-01-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9a0f2153-029d-4968-95a4-0730b179fbdd",
+        "Name": "Natalie Cruz",
+        "PolicyNumber": "9bef082b-09a5-43b1-9036-89da14b804bb",
+        "ContactInformation": {
+            "Phone": "641-785-8041",
+            "Email": "johndavis@example.org",
+            "Address": "11115 Ryan Dam\nSouth Laurie, CO 03197"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-04",
+        "Location": "2881 Frank Curve Suite 119\nNew Lisa, IA 84111",
+        "Description": "Wrong pattern bag notice trial north seek. Though case until guy sister before.\nSituation ready where. Official two course idea state. State pay owner left partner too. Poor article center turn real."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4363
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47376
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23702
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 72940
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 58556
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 86491,
+        "TotalApproved": 80569
+    },
+    "AdjusterDetails": {
+        "Name": "Meagan Marquez",
+        "ContactInformation": {
+            "Phone": "4738110473",
+            "Email": "smithderrick@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/03c1c9fa-7e1b-45e7-918d-bb65a1ce42ca"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-04T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-09T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-14T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

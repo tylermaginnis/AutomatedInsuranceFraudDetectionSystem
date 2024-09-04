@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d47850b4-3943-47a5-a190-3ff17d8f000b",
+    "PolicyID": "3a28ef4c-c52a-4fcd-9650-5dba26dca58b",
+    "EffectiveDates": {
+        "StartDate": "2024-08-11",
+        "EndDate": "2025-08-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5689068f-70bb-4d6a-8a2f-3031b609144c",
+        "Name": "Elijah Higgins",
+        "PolicyNumber": "3a28ef4c-c52a-4fcd-9650-5dba26dca58b",
+        "ContactInformation": {
+            "Phone": "554-947-9088x124",
+            "Email": "deanna68@example.org",
+            "Address": "601 Sellers Overpass\nBlankenshipmouth, OK 40733"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-23",
+        "Location": "Unit 3650 Box 7844\nDPO AA 68366",
+        "Description": "Success discussion amount set. Matter major rather industry federal light different. Security data cup property wife."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 98325
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71946
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50267
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39175
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7297
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 64242,
+        "TotalApproved": 57730
+    },
+    "AdjusterDetails": {
+        "Name": "John Stone",
+        "ContactInformation": {
+            "Phone": "936-870-5894x7184",
+            "Email": "wjenkins@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/28acc699-ceac-4e35-8a2a-3c0c1bd82918"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

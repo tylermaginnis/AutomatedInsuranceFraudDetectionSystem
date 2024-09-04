@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8b38e601-0416-4836-895b-58581124a589",
+    "PolicyID": "f721786b-e1c5-415a-90d7-a015bbc79010",
+    "EffectiveDates": {
+        "StartDate": "2024-07-30",
+        "EndDate": "2025-07-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "732cd73e-4ed0-4e9a-b061-34fce36fa55d",
+        "Name": "Paul Buck",
+        "PolicyNumber": "f721786b-e1c5-415a-90d7-a015bbc79010",
+        "ContactInformation": {
+            "Phone": "645-334-0616x168",
+            "Email": "stephaniemoran@example.net",
+            "Address": "6385 Gina Greens Apt. 780\nGreenefort, AR 62141"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-26",
+        "Location": "83590 Jason Brook\nNorth Bryanbury, CA 07848",
+        "Description": "Local federal western join foreign. Always cell protect stuff each who court. Trouble purpose new.\nNow gas pass agency. Cause actually these appear.\nInside research wonder north across stay."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20599
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7388
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 189024
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34461
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 25200
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 38255,
+        "TotalApproved": 29312
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Adams",
+        "ContactInformation": {
+            "Phone": "001-379-779-9828",
+            "Email": "ubell@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d1264566-659c-42dc-ab46-0b216a7dde57"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-31T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

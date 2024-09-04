@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0c11340e-f949-49fb-868e-20ff81459f7f",
+    "PolicyID": "748ec1aa-73f9-44d9-b380-c27e99a94dc7",
+    "EffectiveDates": {
+        "StartDate": "2024-01-21",
+        "EndDate": "2025-01-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e51820dd-b756-4a4e-8ea2-d8178cb47d5a",
+        "Name": "Caleb Brooks",
+        "PolicyNumber": "748ec1aa-73f9-44d9-b380-c27e99a94dc7",
+        "ContactInformation": {
+            "Phone": "6383894782",
+            "Email": "qgonzalez@example.com",
+            "Address": "24493 Foster Ridge\nPort Justinton, WA 29431"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-05",
+        "Location": "32974 Mann Isle\nNew Carolyn, CA 66241",
+        "Description": "Care animal red mention. Matter environmental color home sing we itself soon. From continue hotel TV throughout actually stock him.\nWork project table drop. Most employee cut focus hard his job."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30208
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19166
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1324
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25799
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 125634
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 27105,
+        "TotalApproved": 9127
+    },
+    "AdjusterDetails": {
+        "Name": "Logan Kent",
+        "ContactInformation": {
+            "Phone": "001-485-555-4142x73247",
+            "Email": "laurendawson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/62bf921e-df68-4512-aec8-5b7ac601764a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-05T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-10T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-15T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

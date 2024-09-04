@@ -1,0 +1,81 @@
+{
+    "ClaimID": "89703376-7aed-4a5e-aec9-5bf70ad07f66",
+    "PolicyID": "3c6c5a36-75ba-4d38-968c-7896d80d4e81",
+    "EffectiveDates": {
+        "StartDate": "2024-06-04",
+        "EndDate": "2025-06-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "19b89dbe-9826-4396-8286-b1b30777b39b",
+        "Name": "Thomas Johnson",
+        "PolicyNumber": "3c6c5a36-75ba-4d38-968c-7896d80d4e81",
+        "ContactInformation": {
+            "Phone": "4244908992",
+            "Email": "scannon@example.com",
+            "Address": "9500 Morrison Stream Apt. 965\nLeonardchester, ND 44981"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-22",
+        "Location": "414 Weaver Road Suite 686\nWest Robertburgh, WI 88250",
+        "Description": "Bring always off car choose thought see could. Worry fill hotel accept actually agency.\nHigh important both age whatever. About doctor up western."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33583
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3585
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 166810
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5208
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22738
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 82296,
+        "TotalApproved": 51745
+    },
+    "AdjusterDetails": {
+        "Name": "Dr. Amanda Brown",
+        "ContactInformation": {
+            "Phone": "+1-999-649-0153x7235",
+            "Email": "coreychavez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a1df3064-0210-4037-81c1-9fd3a0a5d073"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-22T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-27T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-02T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

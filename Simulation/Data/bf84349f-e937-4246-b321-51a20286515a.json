@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bf84349f-e937-4246-b321-51a20286515a",
+  "PolicyID": "eaf257fe-90f0-4680-bcd6-f923080f1ce9",
+  "EffectiveDates": {
+    "StartDate": "2023-12-15",
+    "EndDate": "2024-12-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5b2d3b26-8df1-447f-bdb9-af16a00af979",
+    "Name": "Anna Thomas",
+    "PolicyNumber": "eaf257fe-90f0-4680-bcd6-f923080f1ce9",
+    "ContactInformation": {
+      "Phone": "+1-206-749-7863x444",
+      "Email": "ewright@example.org",
+      "Address": "642 Haley Vista Apt. 295\nShermanstad, WY 32703"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-02",
+    "Location": "847 Harold Road\nSantosland, WI 24138",
+    "Description": "Large lose dog threat perform. About suffer about month economic source address. Though half sound present turn start let."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 54020
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1944
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 20694
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 65287
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9734
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 20562,
+    "TotalApproved": 18324
+  },
+  "AdjusterDetails": {
+    "Name": "Jennifer Young",
+    "ContactInformation": {
+      "Phone": "8245168954",
+      "Email": "laurencunningham@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/4f2a5a6b-64f4-49ba-91c5-cf69fc0f93a9"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-02T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-07T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-12T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

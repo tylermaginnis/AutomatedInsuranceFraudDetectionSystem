@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c8aec8da-9324-4e01-9e3e-5eb90b71451d",
+    "PolicyID": "f0d31115-e6fa-47d6-ab1a-db39250e2ca4",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e33683f0-6326-4f2d-b0da-43b61754830c",
+        "Name": "Bryan Thompson",
+        "PolicyNumber": "f0d31115-e6fa-47d6-ab1a-db39250e2ca4",
+        "ContactInformation": {
+            "Phone": "3312567074",
+            "Email": "owoods@example.org",
+            "Address": "3105 Michael Extensions\nWilliamsfurt, CT 92456"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-27",
+        "Location": "571 Kelley Terrace\nAllisonland, CA 00581",
+        "Description": "Throw this safe society speak business. Never police country north between relate. Citizen toward ten.\nUnderstand road article. Special support number forward keep room."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5136
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 73684
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79987
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9509
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49675
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 115188,
+        "TotalApproved": 42208
+    },
+    "AdjusterDetails": {
+        "Name": "Brittney Griffith",
+        "ContactInformation": {
+            "Phone": "9913846579",
+            "Email": "meghandavis@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/54f1c4f1-73db-43dd-a7a2-2164ea899316"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-27T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-01T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-06T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

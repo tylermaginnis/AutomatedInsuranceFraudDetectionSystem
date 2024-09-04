@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c27b5626-9998-4ad8-b6c4-d139c7436075",
+    "PolicyID": "3655a9e5-35bb-4ba3-940e-7b22f65aadbd",
+    "EffectiveDates": {
+        "StartDate": "2023-10-26",
+        "EndDate": "2024-10-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ab498fa9-de1b-49d2-b7e5-5ede71e02dfb",
+        "Name": "Marcia Steele",
+        "PolicyNumber": "3655a9e5-35bb-4ba3-940e-7b22f65aadbd",
+        "ContactInformation": {
+            "Phone": "001-738-607-6655",
+            "Email": "william56@example.org",
+            "Address": "4435 Bowman Mountains Suite 393\nEast Alexisburgh, RI 78740"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-24",
+        "Location": "16991 Tony Alley\nDavidfurt, AZ 45584",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 77173
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38228
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5025
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28338
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6864
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 155628,
+        "TotalApproved": 98651
+    },
+    "AdjusterDetails": {
+        "Name": "Jeffrey Long",
+        "ContactInformation": {
+            "Phone": "001-226-605-7092x787",
+            "Email": "dmunoz@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a9ae51f1-a18f-4526-9892-94fc4d0bbf3f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-24T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-29T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-03T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

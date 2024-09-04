@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5d06675c-0612-4921-af69-f052119aa051",
+  "PolicyID": "b0663d2e-6a06-4ea5-a8de-1860b12cba85",
+  "EffectiveDates": {
+    "StartDate": "2024-05-06",
+    "EndDate": "2025-05-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f607906f-70f2-4133-98ef-75f49651f3db",
+    "Name": "Nicole Farley",
+    "PolicyNumber": "b0663d2e-6a06-4ea5-a8de-1860b12cba85",
+    "ContactInformation": {
+      "Phone": "+1-862-472-4452",
+      "Email": "michael89@example.com",
+      "Address": "33517 Cory Park Suite 608\nWrightchester, IN 23424"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-14",
+    "Location": "409 Weiss Walks Apt. 096\nMillerfurt, DC 36864",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 90950
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 44597
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7637
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 12309
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7503
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 162996,
+    "TotalApproved": 88963
+  },
+  "AdjusterDetails": {
+    "Name": "Kimberly Gonzalez",
+    "ContactInformation": {
+      "Phone": "765-787-0186x6954",
+      "Email": "davidwells@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/a2740904-8a44-4957-9f7d-bb00a36aeb89"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-14T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-19T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-24T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

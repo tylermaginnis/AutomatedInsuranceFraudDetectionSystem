@@ -1,0 +1,81 @@
+{
+    "ClaimID": "20ce4662-a977-476f-8db2-73351e4e08ab",
+    "PolicyID": "5d8a5693-376c-4619-870c-a2e626e4c9a0",
+    "EffectiveDates": {
+        "StartDate": "2024-01-16",
+        "EndDate": "2025-01-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "76eb4af6-c9b8-4246-98ad-31dcc55f9f33",
+        "Name": "Jennifer Davis",
+        "PolicyNumber": "5d8a5693-376c-4619-870c-a2e626e4c9a0",
+        "ContactInformation": {
+            "Phone": "909.912.5799",
+            "Email": "paulmarissa@example.net",
+            "Address": "531 Ortega Lodge\nPageton, IL 15156"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-20",
+        "Location": "PSC 0096, Box 6390\nAPO AE 12637",
+        "Description": "Front head structure question.\nCondition visit development rather go ball organization. Me attention time check add number page. Service college action red the throughout finish."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40307
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 54874
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 85189
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36330
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3191
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 143253,
+        "TotalApproved": 109367
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Berger",
+        "ContactInformation": {
+            "Phone": "887-455-1156x768",
+            "Email": "millerbrendan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2764d8ec-4b3d-47fa-91f7-be616e4051af"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-20T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-25T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

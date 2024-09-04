@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ee727e1d-e11d-439f-944d-354adb474d4f",
+    "PolicyID": "abdc4b93-9d6f-4e1e-9331-89ae15f5882d",
+    "EffectiveDates": {
+        "StartDate": "2023-11-03",
+        "EndDate": "2024-11-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "65196877-92cd-4e85-8480-d56c0cf24251",
+        "Name": "Deborah Morris",
+        "PolicyNumber": "abdc4b93-9d6f-4e1e-9331-89ae15f5882d",
+        "ContactInformation": {
+            "Phone": "001-865-727-8627x48442",
+            "Email": "wayne40@example.net",
+            "Address": "807 Edward Plains\nPort Kimberly, WA 52539"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-28",
+        "Location": "94619 Tamara Turnpike Suite 793\nPort Nicholasborough, AK 55489",
+        "Description": "Challenge reflect loss positive. Lot leader camera whether majority. Act product so audience agent.\nSize name what start drug leave."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14087
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44341
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 84289
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3062
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 98513
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 182404,
+        "TotalApproved": 141113
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Summers",
+        "ContactInformation": {
+            "Phone": "768-558-3142x32745",
+            "Email": "crosssusan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/aa8ef247-dacf-4285-8701-4a14e6323bbe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-02T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-07T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

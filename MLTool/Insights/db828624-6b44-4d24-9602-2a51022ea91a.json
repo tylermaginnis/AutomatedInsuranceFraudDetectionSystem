@@ -1,0 +1,81 @@
+{
+    "ClaimID": "db828624-6b44-4d24-9602-2a51022ea91a",
+    "PolicyID": "e1f4ddaf-95b6-4390-84c5-c5acaf008840",
+    "EffectiveDates": {
+        "StartDate": "2024-06-01",
+        "EndDate": "2025-06-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f9f2c407-e83e-4a2b-b8d4-62f3629e8515",
+        "Name": "Raymond Craig",
+        "PolicyNumber": "e1f4ddaf-95b6-4390-84c5-c5acaf008840",
+        "ContactInformation": {
+            "Phone": "4213490591",
+            "Email": "racheladams@example.org",
+            "Address": "08602 Theresa Summit Suite 354\nHornborough, VI 26014"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-23",
+        "Location": "79730 Chavez Port Apt. 448\nSarahview, SC 93074",
+        "Description": "Blood part believe. Media within soldier happy.\nNearly teacher look information only. Peace green million stuff fund."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 114728
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19499
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 66476
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21543
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18724
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 105762,
+        "TotalApproved": 52959
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Rodriguez",
+        "ContactInformation": {
+            "Phone": "(336)221-8567x1076",
+            "Email": "phyllisbrewer@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5405b439-6911-4443-a08f-6272272196b3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-23T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-28T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-02T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

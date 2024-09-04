@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b2f7138e-9b60-406f-aa8b-b7f9164cf733",
+    "PolicyID": "a606b06b-d234-4a96-8087-fabe359eeb0b",
+    "EffectiveDates": {
+        "StartDate": "2024-05-07",
+        "EndDate": "2025-05-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f37ad635-fd88-47ec-8813-a8b6997cee04",
+        "Name": "Thomas Hayden",
+        "PolicyNumber": "a606b06b-d234-4a96-8087-fabe359eeb0b",
+        "ContactInformation": {
+            "Phone": "(434)530-6829",
+            "Email": "adamschristina@example.com",
+            "Address": "12781 Leah Streets Apt. 888\nFranklinchester, PA 11512"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-16",
+        "Location": "11622 Freeman Mill Suite 936\nAllenborough, ND 25578",
+        "Description": "Themselves for son experience consider would. Boy hot point. Last including media occur account well."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11543
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 81571
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2081
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9908
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1786
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 79031,
+        "TotalApproved": 37479
+    },
+    "AdjusterDetails": {
+        "Name": "Heather Jones",
+        "ContactInformation": {
+            "Phone": "(747)845-1045x16826",
+            "Email": "alyssa01@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/24e45e7b-1397-43e9-a065-6a8603d4672a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

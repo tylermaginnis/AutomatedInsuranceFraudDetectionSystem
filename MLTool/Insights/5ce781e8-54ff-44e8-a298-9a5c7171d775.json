@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5ce781e8-54ff-44e8-a298-9a5c7171d775",
+    "PolicyID": "4283d505-6435-4537-900b-04f3fe5d6245",
+    "EffectiveDates": {
+        "StartDate": "2023-09-22",
+        "EndDate": "2024-09-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "88d75284-e11a-40b7-b44a-dbe4ced996a5",
+        "Name": "Alec Terrell",
+        "PolicyNumber": "4283d505-6435-4537-900b-04f3fe5d6245",
+        "ContactInformation": {
+            "Phone": "7637615315",
+            "Email": "tinachristian@example.org",
+            "Address": "136 William Throughway\nBrandonton, MI 21560"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-11",
+        "Location": "01918 Johnson Freeway Suite 290\nSouth Kelly, MD 22407",
+        "Description": "Fish billion rather thank hear real or. Weight seat floor good then there might. Century garden several more.\nAvailable receive morning pretty suddenly. Structure response perhaps network respond."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17978
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19773
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18790
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2223
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10280
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 60696,
+        "TotalApproved": 45547
+    },
+    "AdjusterDetails": {
+        "Name": "Jacqueline Faulkner",
+        "ContactInformation": {
+            "Phone": "676.772.1621x34007",
+            "Email": "andersoncheyenne@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9532997d-aae6-4aeb-b38e-52c12400c655"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-11T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-16T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-21T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

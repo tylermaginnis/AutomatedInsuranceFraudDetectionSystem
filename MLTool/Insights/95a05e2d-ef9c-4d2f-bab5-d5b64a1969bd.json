@@ -1,0 +1,81 @@
+{
+    "ClaimID": "95a05e2d-ef9c-4d2f-bab5-d5b64a1969bd",
+    "PolicyID": "917e8ad1-1244-4802-abeb-9e6d343791c9",
+    "EffectiveDates": {
+        "StartDate": "2024-03-31",
+        "EndDate": "2025-03-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ccc6cf5a-f21c-44dc-a791-53c6916371c9",
+        "Name": "Michelle Becker",
+        "PolicyNumber": "917e8ad1-1244-4802-abeb-9e6d343791c9",
+        "ContactInformation": {
+            "Phone": "001-611-995-1682x5361",
+            "Email": "richardelliott@example.org",
+            "Address": "89231 Ellen Valley Apt. 943\nHintonchester, NH 01301"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-29",
+        "Location": "32710 Kevin Inlet Suite 100\nNew Stacy, VT 92873",
+        "Description": "Crime body side no wrong turn late. Figure statement pay despite if. Appear by protect water listen.\nFriend again rate able. Tv seek create box part piece."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 84470
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9840
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7437
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1851
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 64495
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 51763,
+        "TotalApproved": 46833
+    },
+    "AdjusterDetails": {
+        "Name": "Stephen Stone",
+        "ContactInformation": {
+            "Phone": "001-849-708-7979x014",
+            "Email": "schwartztimothy@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e8c50fe4-055d-4306-acd1-b63281620319"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-29T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

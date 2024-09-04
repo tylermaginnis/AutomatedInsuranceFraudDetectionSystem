@@ -1,0 +1,81 @@
+{
+    "ClaimID": "46d7c424-0940-4284-b39c-7ceeaa2e4db6",
+    "PolicyID": "3d559647-dfbd-40c1-9e63-307edb47947f",
+    "EffectiveDates": {
+        "StartDate": "2024-05-15",
+        "EndDate": "2025-05-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "60d76b1f-e5c2-40ba-bc94-4a289043dc77",
+        "Name": "Anthony Kennedy",
+        "PolicyNumber": "3d559647-dfbd-40c1-9e63-307edb47947f",
+        "ContactInformation": {
+            "Phone": "001-441-853-5686",
+            "Email": "jacob57@example.org",
+            "Address": "86731 Trevor Haven Suite 171\nNorth Amber, NE 80726"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-20",
+        "Location": "4590 Johnny Junction Apt. 814\nAndrewville, MD 52527",
+        "Description": "Box any note edge case value. Where under week education.\nBorn close along top chance trouble far you. Board difference speech between. Agreement less while by exactly course analysis that."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4924
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 127471
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67919
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24986
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9779
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 10678,
+        "TotalApproved": 8281
+    },
+    "AdjusterDetails": {
+        "Name": "James Escobar",
+        "ContactInformation": {
+            "Phone": "739.481.1300x924",
+            "Email": "lawrencesanchez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1e6e5ccc-c31e-49a1-953e-5ae07a9bfee1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "225b33d2-d5ac-4464-8f33-621b837b9073",
+  "PolicyID": "14673c61-d6c6-4eec-a1dc-d1c28bc7c8fa",
+  "EffectiveDates": {
+    "StartDate": "2024-01-10",
+    "EndDate": "2025-01-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8198325a-79ba-4a02-8ada-4c538b580211",
+    "Name": "Walter Taylor",
+    "PolicyNumber": "14673c61-d6c6-4eec-a1dc-d1c28bc7c8fa",
+    "ContactInformation": {
+      "Phone": "(602)228-9985",
+      "Email": "hernandezteresa@example.com",
+      "Address": "586 Brian Loop\nOrrchester, DE 63212"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-14",
+    "Location": "70089 Santos Groves Suite 281\nLake Nathan, GA 89858",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 55157
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 36409
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9156
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13019
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15233
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 128974,
+    "TotalApproved": 37948
+  },
+  "AdjusterDetails": {
+    "Name": "Leon Garcia",
+    "ContactInformation": {
+      "Phone": "845.916.3529",
+      "Email": "dhoffman@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/79cf6bd0-821f-4168-864e-13c87d27bbf4"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-14T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-19T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-24T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

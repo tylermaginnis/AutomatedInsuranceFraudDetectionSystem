@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7623b6a8-4246-4863-938f-9d6e8353c010",
+    "PolicyID": "5b1adc4d-222b-489b-9f89-ea933caf319e",
+    "EffectiveDates": {
+        "StartDate": "2023-10-25",
+        "EndDate": "2024-10-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4ca4c6a7-9a00-4c78-a584-67b2ab1481b2",
+        "Name": "Terry Huang",
+        "PolicyNumber": "5b1adc4d-222b-489b-9f89-ea933caf319e",
+        "ContactInformation": {
+            "Phone": "(795)779-6209",
+            "Email": "shannon32@example.net",
+            "Address": "844 Linda Common Suite 832\nJeffreyville, GU 06891"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-14",
+        "Location": "57680 Erica Squares Apt. 292\nEvansborough, GA 49235",
+        "Description": "Really father school.\nWife staff figure design laugh rise sort avoid. Worry hospital sometimes decision. Thing that else send body character risk."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48244
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33272
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 92876
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46310
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 97154
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 36951,
+        "TotalApproved": 27752
+    },
+    "AdjusterDetails": {
+        "Name": "Valerie Norris",
+        "ContactInformation": {
+            "Phone": "(651)577-1888",
+            "Email": "quinndaniel@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d6d777cc-eaf3-40fd-b705-f7130f2b7978"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d15f0b13-8f51-4307-91bd-d3b673276a5e",
+    "PolicyID": "9f924d06-b7ff-4b08-9d70-0d3b67f02e11",
+    "EffectiveDates": {
+        "StartDate": "2023-11-09",
+        "EndDate": "2024-11-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f851d3cc-e407-4c81-8a98-9acf4f0f347a",
+        "Name": "April Woods",
+        "PolicyNumber": "9f924d06-b7ff-4b08-9d70-0d3b67f02e11",
+        "ContactInformation": {
+            "Phone": "+1-645-947-2255x7765",
+            "Email": "zwhite@example.com",
+            "Address": "91962 Cook Summit\nPort Erin, UT 19128"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-13",
+        "Location": "1941 Michael Plain Suite 881\nWest Willieview, MT 46760",
+        "Description": "Production professor six possible or choice upon find.\nDay right space later enjoy. Hair rock feel until claim. Ever activity smile."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44542
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18405
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15328
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18822
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11111
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 111418,
+        "TotalApproved": 81366
+    },
+    "AdjusterDetails": {
+        "Name": "Sheila Ramos",
+        "ContactInformation": {
+            "Phone": "001-346-890-8970x6535",
+            "Email": "ymullins@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/58812c9e-4504-48ab-b1d2-37074e65c553"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

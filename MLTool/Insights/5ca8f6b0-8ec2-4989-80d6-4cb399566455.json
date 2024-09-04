@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5ca8f6b0-8ec2-4989-80d6-4cb399566455",
+    "PolicyID": "e23963db-255e-4a81-b3f8-52ee42f9c610",
+    "EffectiveDates": {
+        "StartDate": "2023-10-17",
+        "EndDate": "2024-10-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "49c499bf-6700-4af2-947c-b0f7038071b4",
+        "Name": "Robert Nelson",
+        "PolicyNumber": "e23963db-255e-4a81-b3f8-52ee42f9c610",
+        "ContactInformation": {
+            "Phone": "497.708.0540x82484",
+            "Email": "eramirez@example.net",
+            "Address": "595 Hannah Squares Apt. 654\nLopezburgh, CO 01707"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-25",
+        "Location": "04130 Gomez Road Suite 333\nLake Jeremy, GA 96562",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57189
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24420
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6279
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14270
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14933
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 117091,
+        "TotalApproved": 77946
+    },
+    "AdjusterDetails": {
+        "Name": "Gregory Cooper",
+        "ContactInformation": {
+            "Phone": "465-562-0656x233",
+            "Email": "pbarker@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ac1dd565-f268-4a7e-b2ea-066b5f060985"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-25T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-30T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-04T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "25186289-2b86-42c2-9bb8-f4ff33d7a5c7",
+    "PolicyID": "456c2fdb-c014-4b0f-9729-6700fec159df",
+    "EffectiveDates": {
+        "StartDate": "2024-07-15",
+        "EndDate": "2025-07-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "13a989e7-c364-43b5-b45a-4ad406705ed3",
+        "Name": "Wendy Hernandez",
+        "PolicyNumber": "456c2fdb-c014-4b0f-9729-6700fec159df",
+        "ContactInformation": {
+            "Phone": "001-355-751-6297x503",
+            "Email": "michael86@example.net",
+            "Address": "2949 Warner Mews\nVazquezfurt, MP 71407"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-28",
+        "Location": "3433 Bennett Parkway\nCarlaside, OH 72442",
+        "Description": "Financial current quickly poor during. Business factor practice indicate treat throughout almost."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10563
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17725
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1559
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1500
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 64570
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 180878,
+        "TotalApproved": 21333
+    },
+    "AdjusterDetails": {
+        "Name": "Gregory Thompson",
+        "ContactInformation": {
+            "Phone": "285.253.7150x2282",
+            "Email": "jeffrey09@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8a10e3c5-f011-49fb-beb3-cd475c66ee1e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-28T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-02T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-07T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

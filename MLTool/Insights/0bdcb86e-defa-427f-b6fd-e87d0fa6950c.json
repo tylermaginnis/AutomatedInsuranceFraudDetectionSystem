@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0bdcb86e-defa-427f-b6fd-e87d0fa6950c",
+    "PolicyID": "8d117d72-a85c-4a61-b828-a02c9f2533d6",
+    "EffectiveDates": {
+        "StartDate": "2024-08-16",
+        "EndDate": "2025-08-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8d8e21e2-f193-4444-ae2b-1177590d0965",
+        "Name": "Jamie Beard",
+        "PolicyNumber": "8d117d72-a85c-4a61-b828-a02c9f2533d6",
+        "ContactInformation": {
+            "Phone": "535-511-3718",
+            "Email": "longaaron@example.net",
+            "Address": "54184 Kelly Club Suite 069\nLake Bryceport, TN 63766"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-02",
+        "Location": "42380 Stacy River\nWest Rebeccaland, MT 49176",
+        "Description": "Customer benefit pretty both either. Hit whole nearly see blue back. Room prove pull bad kind room.\nExpect pick director. Structure as allow just suddenly. Buy protect dark hundred black."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12296
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5066
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2904
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8405
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16661
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 25992,
+        "TotalApproved": 7115
+    },
+    "AdjusterDetails": {
+        "Name": "William Hicks",
+        "ContactInformation": {
+            "Phone": "951.590.0146x97468",
+            "Email": "lisamcdonald@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c42b6b7c-e315-4e41-992b-bc733b87e16e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

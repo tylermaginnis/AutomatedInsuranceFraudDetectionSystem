@@ -1,0 +1,81 @@
+{
+    "ClaimID": "66b206c6-eda7-487d-a4b2-f5a0504c36bc",
+    "PolicyID": "655e04bc-7f9a-4e31-8878-e5d154d2affc",
+    "EffectiveDates": {
+        "StartDate": "2024-02-27",
+        "EndDate": "2025-02-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "38080489-1e8e-4fbe-8c8f-919f9e62e626",
+        "Name": "Cynthia Andrews",
+        "PolicyNumber": "655e04bc-7f9a-4e31-8878-e5d154d2affc",
+        "ContactInformation": {
+            "Phone": "9119758451",
+            "Email": "nperez@example.org",
+            "Address": "6325 Smith Trace\nGomezstad, AK 11592"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-21",
+        "Location": "PSC 8209, Box 3116\nAPO AP 84640",
+        "Description": "Smile near way customer ask point. Responsibility prove nature community.\nMarket look land international however choose drive today. Write mention matter. Trouble what your believe care left have."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1702
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21762
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36657
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 107491
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 58745
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 23420,
+        "TotalApproved": 18529
+    },
+    "AdjusterDetails": {
+        "Name": "Dakota Hernandez",
+        "ContactInformation": {
+            "Phone": "(566)284-4976",
+            "Email": "maxmoyer@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1b5ea382-25b7-48b1-a288-d05d690b0f31"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-21T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-26T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

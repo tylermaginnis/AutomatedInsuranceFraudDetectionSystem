@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fec92de6-089d-45bc-b2d5-8260257ed5d6",
+    "PolicyID": "13adbbe0-4272-424a-96f4-d0c88bcedbef",
+    "EffectiveDates": {
+        "StartDate": "2024-01-07",
+        "EndDate": "2025-01-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4e229439-bfc2-4399-ba62-205527ba5780",
+        "Name": "Thomas Moore",
+        "PolicyNumber": "13adbbe0-4272-424a-96f4-d0c88bcedbef",
+        "ContactInformation": {
+            "Phone": "(844)471-5563",
+            "Email": "vellison@example.com",
+            "Address": "2590 Evan Unions Apt. 296\nEast Jamesberg, NM 41567"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-11",
+        "Location": "PSC 5166, Box 3042\nAPO AP 19615",
+        "Description": "Music believe thought. Throughout seek operation heart need. Series past more task effect good fine measure. Despite reach eat analysis."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7926
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 83621
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37441
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 71783
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34444
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144305,
+        "TotalApproved": 18271
+    },
+    "AdjusterDetails": {
+        "Name": "Pamela Miller",
+        "ContactInformation": {
+            "Phone": "(450)258-7964x2021",
+            "Email": "thomas60@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/36fdbccb-4bcd-4054-b0a9-8113f59a6731"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

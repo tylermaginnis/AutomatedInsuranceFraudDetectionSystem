@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8a8148ca-1081-43f2-a64b-a4d6e3a91dfb",
+    "PolicyID": "5cb1fb61-29b8-434c-b0e8-324330434450",
+    "EffectiveDates": {
+        "StartDate": "2024-01-01",
+        "EndDate": "2024-12-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ebb65137-2f67-4b97-9ded-d8873c4d1bac",
+        "Name": "Ariel Cruz",
+        "PolicyNumber": "5cb1fb61-29b8-434c-b0e8-324330434450",
+        "ContactInformation": {
+            "Phone": "001-235-781-6982",
+            "Email": "imills@example.com",
+            "Address": "447 Sarah Cove\nBowmanton, AZ 94565"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-11",
+        "Location": "48913 Williams Alley Suite 909\nChristopherview, MP 83687",
+        "Description": "Southern yard traditional including rule. Unit often cup sure pressure. War rock fast world accept cultural ground."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27773
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21965
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7214
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2635
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91557
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 134631,
+        "TotalApproved": 87085
+    },
+    "AdjusterDetails": {
+        "Name": "Jimmy Mcguire",
+        "ContactInformation": {
+            "Phone": "817.567.5401",
+            "Email": "clarkekathleen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/816162db-7468-49b1-be19-6806708ac21e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-11T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-16T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-21T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

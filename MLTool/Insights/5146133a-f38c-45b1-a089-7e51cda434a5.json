@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5146133a-f38c-45b1-a089-7e51cda434a5",
+    "PolicyID": "b78a295d-3b46-4adf-b282-28ca63c096b2",
+    "EffectiveDates": {
+        "StartDate": "2023-10-22",
+        "EndDate": "2024-10-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2ae23fd1-ba0f-4f6d-bb23-8777eee485df",
+        "Name": "Joshua Goodwin",
+        "PolicyNumber": "b78a295d-3b46-4adf-b282-28ca63c096b2",
+        "ContactInformation": {
+            "Phone": "+1-912-256-7025x346",
+            "Email": "michael10@example.org",
+            "Address": "6604 Amanda Isle\nSouth Paul, TX 92660"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-24",
+        "Location": "38404 Lisa Squares Suite 817\nEast Deniseborough, TX 30597",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 83369
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21397
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9315
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21968
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6294
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 142343,
+        "TotalApproved": 17411
+    },
+    "AdjusterDetails": {
+        "Name": "James Crane",
+        "ContactInformation": {
+            "Phone": "832-343-8530",
+            "Email": "kathrynramos@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/67420c9c-60f7-4088-aa38-2a16a3c1ca3c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-24T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-29T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-03T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

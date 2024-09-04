@@ -1,0 +1,81 @@
+{
+    "ClaimID": "42a97191-0d4d-4842-8c0c-71886f5121a8",
+    "PolicyID": "a3f99633-f79e-401e-924b-d18e6b733cc2",
+    "EffectiveDates": {
+        "StartDate": "2023-11-18",
+        "EndDate": "2024-11-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "431770ec-a6b7-4d52-8fa8-0dc87cf23133",
+        "Name": "Ann Ramsey",
+        "PolicyNumber": "a3f99633-f79e-401e-924b-d18e6b733cc2",
+        "ContactInformation": {
+            "Phone": "423.434.3056",
+            "Email": "kleinjesse@example.com",
+            "Address": "5827 Dorothy Spring\nLaneville, CA 54688"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-04",
+        "Location": "866 Gary Mills\nMarkbury, KS 50903",
+        "Description": "Article mouth remain three attention stop low. Guess thing responsibility less. Exactly service theory practice color experience woman."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5397
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42951
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 150188
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4447
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5334
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 125517,
+        "TotalApproved": 33611
+    },
+    "AdjusterDetails": {
+        "Name": "Ronald Hurley",
+        "ContactInformation": {
+            "Phone": "729-397-3757x70800",
+            "Email": "bfoster@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e059a7fb-d24d-4bd4-9dac-d1b464ee1006"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-04T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-09T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-14T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

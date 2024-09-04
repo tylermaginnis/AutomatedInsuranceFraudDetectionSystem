@@ -1,0 +1,80 @@
+{
+  "ClaimID": "cb61f39f-39a1-4f8d-9cbc-88ba08a7d212",
+  "PolicyID": "975cce04-5373-4a4c-84f4-c1622641d272",
+  "EffectiveDates": {
+    "StartDate": "2023-11-14",
+    "EndDate": "2024-11-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "94b5f263-9957-462c-abc1-f14b49c93016",
+    "Name": "Samantha Gardner",
+    "PolicyNumber": "975cce04-5373-4a4c-84f4-c1622641d272",
+    "ContactInformation": {
+      "Phone": "936-260-6338",
+      "Email": "gainesnicolas@example.com",
+      "Address": "Unit 6028 Box 8041\nDPO AP 24168"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-02",
+    "Location": "41293 Cummings Shores Suite 550\nSouth Teresa, WA 33827",
+    "Description": "First decide candidate one now. Push final two recent level. Investment natural seven feeling manager."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2570
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 74801
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 121503
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 28694
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 90299
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 34814,
+    "TotalApproved": 33014
+  },
+  "AdjusterDetails": {
+    "Name": "Shawn Brewer",
+    "ContactInformation": {
+      "Phone": "(702)577-7793",
+      "Email": "xreyes@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/dc74f12b-1ad8-4cd5-94d7-30bad64432c2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-02T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-07T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-12T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

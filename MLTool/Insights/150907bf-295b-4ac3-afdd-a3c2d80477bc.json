@@ -1,0 +1,81 @@
+{
+    "ClaimID": "150907bf-295b-4ac3-afdd-a3c2d80477bc",
+    "PolicyID": "ec513a4b-ee68-443f-8518-29a6f8a7e0a3",
+    "EffectiveDates": {
+        "StartDate": "2024-05-09",
+        "EndDate": "2025-05-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "affa2ade-640e-4d82-a66e-86dab7b06b6e",
+        "Name": "Jennifer Smith",
+        "PolicyNumber": "ec513a4b-ee68-443f-8518-29a6f8a7e0a3",
+        "ContactInformation": {
+            "Phone": "217.877.8073x01817",
+            "Email": "benjaminshepard@example.org",
+            "Address": "94774 Lisa Branch\nLake Gina, SC 05212"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-19",
+        "Location": "78112 Susan Mill Apt. 123\nWandashire, FM 42230",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90742
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33684
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7189
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19387
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14142
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 165144,
+        "TotalApproved": 51251
+    },
+    "AdjusterDetails": {
+        "Name": "Theresa Ward",
+        "ContactInformation": {
+            "Phone": "(786)782-8136x86927",
+            "Email": "potterjonathan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f7c0b0bb-0851-483e-82b4-1dc2130ad8fc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-19T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-24T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-29T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

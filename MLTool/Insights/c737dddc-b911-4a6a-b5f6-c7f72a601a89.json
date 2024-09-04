@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c737dddc-b911-4a6a-b5f6-c7f72a601a89",
+    "PolicyID": "fc5be2ac-c7de-4113-8f97-a2490c0d25bc",
+    "EffectiveDates": {
+        "StartDate": "2024-04-15",
+        "EndDate": "2025-04-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "818e7e86-2321-48bc-bbf4-85d4ac05d651",
+        "Name": "Alexander Stevenson",
+        "PolicyNumber": "fc5be2ac-c7de-4113-8f97-a2490c0d25bc",
+        "ContactInformation": {
+            "Phone": "(448)296-5213x4824",
+            "Email": "psanders@example.org",
+            "Address": "740 Hale Turnpike\nLeonmouth, DC 65331"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-08",
+        "Location": "562 Mcdonald Fort\nNew Barbaraville, OK 55173",
+        "Description": "Small early treatment relate hot of itself.\nFar bag option. Forward pretty campaign pattern information. Recently body eat onto much member raise area."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19503
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13961
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10394
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 73336
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12267
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 85983,
+        "TotalApproved": 5177
+    },
+    "AdjusterDetails": {
+        "Name": "Ryan Garza",
+        "ContactInformation": {
+            "Phone": "+1-320-257-4453x520",
+            "Email": "dannyjones@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2fd48cd8-04c5-4085-985a-b3f5264286d7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-08T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-13T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-18T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

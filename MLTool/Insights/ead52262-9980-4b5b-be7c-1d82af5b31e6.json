@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ead52262-9980-4b5b-be7c-1d82af5b31e6",
+    "PolicyID": "2fe84869-b47d-4fb5-94dc-151e42a532d8",
+    "EffectiveDates": {
+        "StartDate": "2024-05-21",
+        "EndDate": "2025-05-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6edfac67-230e-4faf-9f3b-e621f52fd854",
+        "Name": "Austin Brown",
+        "PolicyNumber": "2fe84869-b47d-4fb5-94dc-151e42a532d8",
+        "ContactInformation": {
+            "Phone": "562-853-1398",
+            "Email": "doughertymegan@example.org",
+            "Address": "USCGC Castro\nFPO AP 44891"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-13",
+        "Location": "1176 Silva Crossing\nSamanthaville, VI 55357",
+        "Description": "Study staff maybe. Bag will those a girl until. Parent town whole focus air government interesting enjoy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31964
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2946
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2979
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 182849
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32424
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 90939,
+        "TotalApproved": 60759
+    },
+    "AdjusterDetails": {
+        "Name": "Mason Callahan",
+        "ContactInformation": {
+            "Phone": "001-511-753-4399",
+            "Email": "andersonedward@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/48685433-1001-4261-be06-fc21d64917e9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

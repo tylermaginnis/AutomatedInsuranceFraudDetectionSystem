@@ -1,0 +1,81 @@
+{
+    "ClaimID": "282729cd-71a9-4c01-9e3f-378ef61fa91b",
+    "PolicyID": "e63df121-cd5e-4ab0-ade1-528f46ea6156",
+    "EffectiveDates": {
+        "StartDate": "2023-12-16",
+        "EndDate": "2024-12-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fb8a4591-3c14-4656-89ad-39f56902152f",
+        "Name": "Isabel Perez",
+        "PolicyNumber": "e63df121-cd5e-4ab0-ade1-528f46ea6156",
+        "ContactInformation": {
+            "Phone": "+1-978-426-1731x987",
+            "Email": "snyderheidi@example.com",
+            "Address": "3906 Lisa Trail\nEast Anthony, TX 09148"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-13",
+        "Location": "27182 Nancy Terrace\nNorth Justintown, PR 61849",
+        "Description": "Happy member some ok shake maybe. Single smile rest interest type blood. Attack soon local. Technology chair it usually success health easy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16662
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 46581
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1568
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5786
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2441
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 185080,
+        "TotalApproved": 55293
+    },
+    "AdjusterDetails": {
+        "Name": "Karina Rodriguez",
+        "ContactInformation": {
+            "Phone": "539.682.2827x70717",
+            "Email": "robert30@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/be9fa724-046d-4f90-9473-aa321bc01d32"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-13T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-18T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-23T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

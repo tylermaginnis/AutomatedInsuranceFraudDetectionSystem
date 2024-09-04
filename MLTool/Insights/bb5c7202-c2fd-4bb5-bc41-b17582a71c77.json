@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bb5c7202-c2fd-4bb5-bc41-b17582a71c77",
+    "PolicyID": "a00be598-335a-415d-bb95-8c9081a6e769",
+    "EffectiveDates": {
+        "StartDate": "2024-07-20",
+        "EndDate": "2025-07-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "62cb1c9a-11d3-480e-b2a5-2e4a6ac7dd3c",
+        "Name": "David Lin",
+        "PolicyNumber": "a00be598-335a-415d-bb95-8c9081a6e769",
+        "ContactInformation": {
+            "Phone": "537.294.3448",
+            "Email": "omitchell@example.com",
+            "Address": "65221 Patterson Courts Apt. 423\nWest Martin, CA 77462"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "0357 John Plain\nEast Matthewview, GA 82512",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 63574
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37488
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7543
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15054
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18944
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 142603,
+        "TotalApproved": 127309
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Clayton",
+        "ContactInformation": {
+            "Phone": "940.910.9508x11166",
+            "Email": "kinghector@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/772445c5-f495-44a7-80a9-7577271fe886"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

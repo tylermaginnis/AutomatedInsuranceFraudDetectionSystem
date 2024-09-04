@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4f38bfd6-7173-4c80-8abc-5608db747fb0",
+    "PolicyID": "8f7250ba-4ef9-4bfe-94e6-432ab8f0695c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-19",
+        "EndDate": "2025-05-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "73bb1e0d-6fe2-4e2a-803e-70e63a484415",
+        "Name": "Miss Sarah Frank",
+        "PolicyNumber": "8f7250ba-4ef9-4bfe-94e6-432ab8f0695c",
+        "ContactInformation": {
+            "Phone": "805-539-9753x7928",
+            "Email": "aguirrekelsey@example.com",
+            "Address": "10087 Joseph Ferry Suite 018\nLauraview, NH 76356"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-28",
+        "Location": "5434 Young Court\nEast Katie, FL 39323",
+        "Description": "Management education young today. Alone very total eye."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 61420
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7441
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 183875
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18443
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37140
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 76928,
+        "TotalApproved": 26188
+    },
+    "AdjusterDetails": {
+        "Name": "Cheryl Rodriguez",
+        "ContactInformation": {
+            "Phone": "9689041033",
+            "Email": "paul60@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0b5c8119-94d1-4e0a-b13b-d6fcb258ce2d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-28T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-02T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-07T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

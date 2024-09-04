@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8dec01c3-6e71-42c7-8581-564ab93c6518",
+    "PolicyID": "112d2bb0-e2f0-4822-a123-a4712b98e621",
+    "EffectiveDates": {
+        "StartDate": "2024-02-15",
+        "EndDate": "2025-02-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8a22ac57-948c-449f-a840-fb232d7f2cdb",
+        "Name": "Scott Martinez",
+        "PolicyNumber": "112d2bb0-e2f0-4822-a123-a4712b98e621",
+        "ContactInformation": {
+            "Phone": "001-464-347-5292x225",
+            "Email": "susanparker@example.org",
+            "Address": "6175 Jones Walks\nPayneborough, WA 95873"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-09",
+        "Location": "281 Herring Cape\nWest Meganmouth, MN 31992",
+        "Description": "Seem maintain throughout likely early.\nBring find war lot team nothing. Under suddenly truth trade rule degree rich."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6191
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 54874
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 86954
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35526
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 52113
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 58994,
+        "TotalApproved": 44768
+    },
+    "AdjusterDetails": {
+        "Name": "Jack Gross",
+        "ContactInformation": {
+            "Phone": "732-883-7174x668",
+            "Email": "yrobinson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8b3ba9b3-348e-4a2d-929d-e8d63a882902"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

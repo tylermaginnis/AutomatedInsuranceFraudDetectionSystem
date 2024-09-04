@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f78209ea-f3dc-4a29-94dc-db12e50dbb4c",
+    "PolicyID": "9220a34b-e6ef-4205-bfb5-8491a9b4d14c",
+    "EffectiveDates": {
+        "StartDate": "2024-04-26",
+        "EndDate": "2025-04-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7f8fe908-85f8-453a-aebe-837a3498cf3f",
+        "Name": "John Miller",
+        "PolicyNumber": "9220a34b-e6ef-4205-bfb5-8491a9b4d14c",
+        "ContactInformation": {
+            "Phone": "+1-370-632-1895",
+            "Email": "jonesscott@example.com",
+            "Address": "33022 Keith Port\nLake Michaelstad, ND 44153"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-06",
+        "Location": "115 Amy Dale\nNorth Kimberlyport, MI 39979",
+        "Description": "Speak anything early miss fire a. Power once watch room enter campaign. Drug hour law eye sure focus.\nToo party picture meet. Part serve everyone girl huge. Difficult senior onto become."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 76122
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4918
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4557
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5202
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6109
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 12514,
+        "TotalApproved": 6740
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Bolton",
+        "ContactInformation": {
+            "Phone": "416-215-1183",
+            "Email": "susan38@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/414a8033-44b9-4f06-b85e-bfca52652a07"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

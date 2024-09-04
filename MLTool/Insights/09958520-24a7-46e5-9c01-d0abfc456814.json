@@ -1,0 +1,81 @@
+{
+    "ClaimID": "09958520-24a7-46e5-9c01-d0abfc456814",
+    "PolicyID": "b01ae818-f3f9-4ec9-8b88-967cc6d0f2f2",
+    "EffectiveDates": {
+        "StartDate": "2024-01-16",
+        "EndDate": "2025-01-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6c9c1561-cde3-4741-a4f8-246243901476",
+        "Name": "Jonathan Anderson",
+        "PolicyNumber": "b01ae818-f3f9-4ec9-8b88-967cc6d0f2f2",
+        "ContactInformation": {
+            "Phone": "649.359.4602",
+            "Email": "lauriegarcia@example.net",
+            "Address": "9518 Stewart Oval\nWest Anthonyfort, VI 41197"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-14",
+        "Location": "568 John Crest\nPort Michael, MI 42991",
+        "Description": "Old catch bank type best station. Image power front safe third live.\nVarious happy positive effect every. Series nice space marriage research other. Light number particularly dream."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12669
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5627
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 31209
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20383
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35611
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 179704,
+        "TotalApproved": 14888
+    },
+    "AdjusterDetails": {
+        "Name": "Jeffrey Bray",
+        "ContactInformation": {
+            "Phone": "2537991702",
+            "Email": "robinwise@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/bd07b19d-c723-4fa6-92f0-35866b4eba21"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-14T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-19T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-24T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

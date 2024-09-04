@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6c7c6826-baa9-455e-8f49-619b0e6f040c",
+    "PolicyID": "7aaacf18-0510-471e-87c4-efe19478182d",
+    "EffectiveDates": {
+        "StartDate": "2023-11-13",
+        "EndDate": "2024-11-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c096a582-effe-4e24-ab06-1749938ab843",
+        "Name": "Cynthia Farmer",
+        "PolicyNumber": "7aaacf18-0510-471e-87c4-efe19478182d",
+        "ContactInformation": {
+            "Phone": "3962018613",
+            "Email": "paynelaura@example.net",
+            "Address": "Unit 7652 Box 2797\nDPO AP 54423"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-10",
+        "Location": "5437 Eric Mount\nFarmerland, CT 07144",
+        "Description": "Across stand fear. Third drive another training affect audience.\nSort effort country talk recent TV player. Information science discover. Per interest him type."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16525
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 159292
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4816
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 154876
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5080
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116763,
+        "TotalApproved": 62378
+    },
+    "AdjusterDetails": {
+        "Name": "David Lee",
+        "ContactInformation": {
+            "Phone": "(840)974-8567x8711",
+            "Email": "dbell@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/786f5ad0-d074-4437-b4fe-c739fd2dde76"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-10T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-15T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-20T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

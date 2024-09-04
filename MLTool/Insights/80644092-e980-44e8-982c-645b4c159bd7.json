@@ -1,0 +1,81 @@
+{
+    "ClaimID": "80644092-e980-44e8-982c-645b4c159bd7",
+    "PolicyID": "ddd08de0-1fd9-432c-a895-7fd8d3b5596a",
+    "EffectiveDates": {
+        "StartDate": "2024-04-27",
+        "EndDate": "2025-04-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cdbda358-4e72-4fb2-997b-fa726f0593c9",
+        "Name": "Herbert Johnson",
+        "PolicyNumber": "ddd08de0-1fd9-432c-a895-7fd8d3b5596a",
+        "ContactInformation": {
+            "Phone": "915-515-4227x59162",
+            "Email": "jhanson@example.com",
+            "Address": "499 Richard Mountain Suite 261\nVasquezland, NC 57289"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-05",
+        "Location": "3361 Shaw Manor\nKathleenbury, LA 93882",
+        "Description": "Be response oil west color hot. Represent little piece garden thank natural growth. Perform whatever citizen across store realize figure."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8440
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 29903
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15775
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35014
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8378
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 23455,
+        "TotalApproved": 1708
+    },
+    "AdjusterDetails": {
+        "Name": "James Smith",
+        "ContactInformation": {
+            "Phone": "+1-750-383-4631x56106",
+            "Email": "burnsbrittany@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b248c80d-8bf1-41ad-8cb0-73643e505e90"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

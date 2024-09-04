@@ -1,0 +1,81 @@
+{
+    "ClaimID": "365af0fe-d9ef-4ec2-941b-368e6da32141",
+    "PolicyID": "9ac5a85b-3576-45d2-b697-50059e9c3351",
+    "EffectiveDates": {
+        "StartDate": "2024-04-14",
+        "EndDate": "2025-04-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ddc4fde1-2aad-4424-90ec-27ca227104f2",
+        "Name": "Alicia Thompson",
+        "PolicyNumber": "9ac5a85b-3576-45d2-b697-50059e9c3351",
+        "ContactInformation": {
+            "Phone": "552.925.1349x794",
+            "Email": "elizabethsharp@example.net",
+            "Address": "7594 Sandra Village\nLake Paulfurt, CT 60539"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-09",
+        "Location": "4918 Carroll Skyway Suite 810\nCalebfurt, VA 97984",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 64140
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34019
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5981
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11174
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10868
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 126182,
+        "TotalApproved": 49382
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Davis",
+        "ContactInformation": {
+            "Phone": "001-769-692-9300x754",
+            "Email": "john13@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/59be6af4-0e2f-426d-a340-fd5a5e070bde"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

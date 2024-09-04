@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fdcf23a3-f443-4bf8-8379-b0d1e82ad2a6",
+    "PolicyID": "259a3dde-e8c2-408f-8576-cd96f709da45",
+    "EffectiveDates": {
+        "StartDate": "2024-06-20",
+        "EndDate": "2025-06-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f25e5fca-9e52-4fcf-a83c-429a54edc5ce",
+        "Name": "William Kelly",
+        "PolicyNumber": "259a3dde-e8c2-408f-8576-cd96f709da45",
+        "ContactInformation": {
+            "Phone": "+1-487-613-1024x3795",
+            "Email": "vewing@example.net",
+            "Address": "900 Keith Harbors Apt. 164\nHarrisonmouth, ND 12347"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-09",
+        "Location": "USNS Jordan\nFPO AA 80480",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 56067
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46929
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5983
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16211
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10535
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 135725,
+        "TotalApproved": 2939
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Cooper MD",
+        "ContactInformation": {
+            "Phone": "495-899-9397",
+            "Email": "samantha19@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/97b6c157-a842-44d3-a36a-554160629038"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-09T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-14T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-19T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

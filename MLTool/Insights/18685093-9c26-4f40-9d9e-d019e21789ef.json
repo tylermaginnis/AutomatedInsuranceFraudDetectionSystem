@@ -1,0 +1,81 @@
+{
+    "ClaimID": "18685093-9c26-4f40-9d9e-d019e21789ef",
+    "PolicyID": "e63df121-cd5e-4ab0-ade1-528f46ea6156",
+    "EffectiveDates": {
+        "StartDate": "2024-03-23",
+        "EndDate": "2025-03-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fb8a4591-3c14-4656-89ad-39f56902152f",
+        "Name": "Isabel Perez",
+        "PolicyNumber": "e63df121-cd5e-4ab0-ade1-528f46ea6156",
+        "ContactInformation": {
+            "Phone": "+1-978-426-1731x987",
+            "Email": "snyderheidi@example.com",
+            "Address": "3906 Lisa Trail\nEast Anthony, TX 09148"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-26",
+        "Location": "00788 Veronica Common Suite 516\nWest Samuelmouth, NV 76674",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 68122
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47697
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9152
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26641
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7575
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 159187,
+        "TotalApproved": 28423
+    },
+    "AdjusterDetails": {
+        "Name": "Jeremy West",
+        "ContactInformation": {
+            "Phone": "4963445867",
+            "Email": "pharper@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5f46f84b-01d5-41c6-a412-0b673ede4bb7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-26T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-31T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-05T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

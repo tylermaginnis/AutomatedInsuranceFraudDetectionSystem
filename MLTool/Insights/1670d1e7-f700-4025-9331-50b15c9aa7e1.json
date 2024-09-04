@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1670d1e7-f700-4025-9331-50b15c9aa7e1",
+    "PolicyID": "ced07a0a-8caa-412a-9b3d-fe45cf5e87b0",
+    "EffectiveDates": {
+        "StartDate": "2024-07-17",
+        "EndDate": "2025-07-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7d26fa11-e90c-4f47-a80b-0b179502805c",
+        "Name": "Laura Martin",
+        "PolicyNumber": "ced07a0a-8caa-412a-9b3d-fe45cf5e87b0",
+        "ContactInformation": {
+            "Phone": "(267)297-6185x14672",
+            "Email": "shirley90@example.com",
+            "Address": "447 Mason Fall Apt. 455\nLake Christina, WA 35924"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-03",
+        "Location": "2418 Traci Lakes Suite 887\nPatrickville, MT 51317",
+        "Description": "Wall church serve represent. High service guess light report product include sit.\nOnto present much. Add sign likely a fill might."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11280
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 123558
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11041
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5401
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16014
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 103874,
+        "TotalApproved": 90573
+    },
+    "AdjusterDetails": {
+        "Name": "Stephen Lambert",
+        "ContactInformation": {
+            "Phone": "+1-318-414-2332x4869",
+            "Email": "johnstontina@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/41f44e4e-d7de-4366-ae26-901a5a8a0d23"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-03T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-08T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-13T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

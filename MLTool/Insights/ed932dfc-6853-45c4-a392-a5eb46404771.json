@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ed932dfc-6853-45c4-a392-a5eb46404771",
+    "PolicyID": "32876d5d-466b-4f85-a22e-df02ddccb5b5",
+    "EffectiveDates": {
+        "StartDate": "2023-10-10",
+        "EndDate": "2024-10-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7cb5b9c9-eae9-47dc-af31-e39683fcf15b",
+        "Name": "Nancy Hopkins",
+        "PolicyNumber": "32876d5d-466b-4f85-a22e-df02ddccb5b5",
+        "ContactInformation": {
+            "Phone": "651-244-7867x5302",
+            "Email": "victor59@example.org",
+            "Address": "191 Brown Turnpike\nWest Michele, NC 87812"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-31",
+        "Location": "4165 Mcconnell Shoals\nCharlesborough, GA 09117",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 54654
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 36945
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5667
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16260
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9663
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 123189,
+        "TotalApproved": 23581
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Wiley",
+        "ContactInformation": {
+            "Phone": "(692)742-3209x00063",
+            "Email": "zlowe@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4eaaccdd-97a2-4136-a60a-5e5c652eae65"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-31T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

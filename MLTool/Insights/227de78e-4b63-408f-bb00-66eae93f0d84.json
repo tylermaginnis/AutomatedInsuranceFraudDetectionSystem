@@ -1,0 +1,81 @@
+{
+    "ClaimID": "227de78e-4b63-408f-bb00-66eae93f0d84",
+    "PolicyID": "abdc4b93-9d6f-4e1e-9331-89ae15f5882d",
+    "EffectiveDates": {
+        "StartDate": "2024-06-06",
+        "EndDate": "2025-06-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "65196877-92cd-4e85-8480-d56c0cf24251",
+        "Name": "Deborah Morris",
+        "PolicyNumber": "abdc4b93-9d6f-4e1e-9331-89ae15f5882d",
+        "ContactInformation": {
+            "Phone": "001-865-727-8627x48442",
+            "Email": "wayne40@example.net",
+            "Address": "807 Edward Plains\nPort Kimberly, WA 52539"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-08",
+        "Location": "461 Richard Tunnel\nLake Lisaside, DE 84362",
+        "Description": "Party similar mean program. Take against walk available.\nHard and operation majority kid need modern civil."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48881
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 95086
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23250
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15777
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32571
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157217,
+        "TotalApproved": 121183
+    },
+    "AdjusterDetails": {
+        "Name": "Gary Carter",
+        "ContactInformation": {
+            "Phone": "+1-639-622-4350x0751",
+            "Email": "rortiz@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6bbbc8ac-955d-476e-b82f-756c5689ced0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

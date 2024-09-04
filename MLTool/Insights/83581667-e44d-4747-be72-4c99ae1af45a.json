@@ -1,0 +1,81 @@
+{
+    "ClaimID": "83581667-e44d-4747-be72-4c99ae1af45a",
+    "PolicyID": "d959a22e-9e99-4979-bdb4-0994eef0ec2f",
+    "EffectiveDates": {
+        "StartDate": "2024-05-17",
+        "EndDate": "2025-05-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4a989632-38de-4a0d-b3ab-c3e9995be973",
+        "Name": "Phillip Khan",
+        "PolicyNumber": "d959a22e-9e99-4979-bdb4-0994eef0ec2f",
+        "ContactInformation": {
+            "Phone": "378-373-8449x5880",
+            "Email": "westgarrett@example.com",
+            "Address": "97968 Tucker Islands\nEast Jack, WA 40647"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-05",
+        "Location": "2758 Morrison Stream\nHurleymouth, AK 60616",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 69672
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28055
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8057
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14601
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11851
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 132236,
+        "TotalApproved": 62737
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Henderson",
+        "ContactInformation": {
+            "Phone": "(668)232-4274x48395",
+            "Email": "lacosta@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0bb1f89d-5962-4a26-bd39-5284f9304161"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-05T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-10T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-15T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4be38182-a637-45a4-8128-1cb69bc8a97a",
+  "PolicyID": "5a7261ea-d807-4a4a-b70b-68936508ea68",
+  "EffectiveDates": {
+    "StartDate": "2024-01-19",
+    "EndDate": "2025-01-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f956e769-5529-4a14-9054-063628570b7f",
+    "Name": "Wesley Moore",
+    "PolicyNumber": "5a7261ea-d807-4a4a-b70b-68936508ea68",
+    "ContactInformation": {
+      "Phone": "991.216.6972",
+      "Email": "ortizdavid@example.org",
+      "Address": "370 Li Haven\nSouth Glenn, MA 88210"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-06",
+    "Location": "504 Barbara Prairie Suite 315\nTracimouth, NM 20640",
+    "Description": "Rich technology know technology around floor. Power poor performance first teach change memory hit.\nLight smile letter good glass attention head."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 31857
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9758
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4323
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 11096
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 167920
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 169859,
+    "TotalApproved": 96844
+  },
+  "AdjusterDetails": {
+    "Name": "Ryan Lee",
+    "ContactInformation": {
+      "Phone": "565.650.9546",
+      "Email": "andersondeborah@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/61af5e72-fa89-4d6b-9f7f-8439f6e84bf0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-06T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-11T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-16T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

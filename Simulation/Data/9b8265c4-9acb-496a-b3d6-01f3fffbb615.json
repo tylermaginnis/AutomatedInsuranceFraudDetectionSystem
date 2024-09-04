@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9b8265c4-9acb-496a-b3d6-01f3fffbb615",
+  "PolicyID": "b9479225-3082-4850-89a7-8a983bcf2b95",
+  "EffectiveDates": {
+    "StartDate": "2023-11-09",
+    "EndDate": "2024-11-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "350a23eb-492c-4259-a337-b857d6ca5ddb",
+    "Name": "Edward Hale",
+    "PolicyNumber": "b9479225-3082-4850-89a7-8a983bcf2b95",
+    "ContactInformation": {
+      "Phone": "+1-558-341-4983x3376",
+      "Email": "theresaburgess@example.com",
+      "Address": "5072 Bennett Port\nEast Carolbury, MS 42602"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-06",
+    "Location": "897 Paul Islands\nPort Robert, AS 03603",
+    "Description": "Environment and feel society.\nCommon himself PM cup magazine.\nScore include end finally go couple. Serve name generation participant. Member possible maybe drop."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 47947
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9431
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 18690
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 31070
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 10330
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 19595,
+    "TotalApproved": 18951
+  },
+  "AdjusterDetails": {
+    "Name": "Danielle Mckinney MD",
+    "ContactInformation": {
+      "Phone": "(870)534-2121x31093",
+      "Email": "anthony31@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/356d44ba-e4fe-46e9-a766-11b5d84b29ab"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-06T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-11T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-16T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

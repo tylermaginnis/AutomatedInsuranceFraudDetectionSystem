@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8ff1e56b-fd80-4bc6-9eb8-fd96611f3c23",
+    "PolicyID": "e21e84d3-7e9a-4bd2-94a3-cdba8b384efa",
+    "EffectiveDates": {
+        "StartDate": "2023-12-10",
+        "EndDate": "2024-12-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b4a5e8f5-ac5b-4a59-a0ec-c9a05e57a543",
+        "Name": "Jennifer Chavez",
+        "PolicyNumber": "e21e84d3-7e9a-4bd2-94a3-cdba8b384efa",
+        "ContactInformation": {
+            "Phone": "+1-656-690-2902x381",
+            "Email": "latashabaker@example.org",
+            "Address": "0503 Anderson Cliff\nPort Luis, MD 24086"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-04",
+        "Location": "386 James Road Apt. 939\nEast Brent, PR 63307",
+        "Description": "At indicate leader institution ability thought guy throw. These professional authority join culture research. Good ability citizen near whatever."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25043
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9352
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32201
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19112
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16737
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 101648,
+        "TotalApproved": 39579
+    },
+    "AdjusterDetails": {
+        "Name": "Zachary Gibson",
+        "ContactInformation": {
+            "Phone": "724-795-6256x22170",
+            "Email": "llopez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/be7021ee-bc82-4b80-a689-051e62013f8f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-04T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-09T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-14T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "69f56754-4dfe-481f-8541-ec4f866ed61e",
+    "PolicyID": "68cb90e5-7232-4564-b41f-84d19855a375",
+    "EffectiveDates": {
+        "StartDate": "2024-02-05",
+        "EndDate": "2025-02-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "edbe0039-93d7-452c-9514-d6523bbcb0f6",
+        "Name": "Brian Bauer",
+        "PolicyNumber": "68cb90e5-7232-4564-b41f-84d19855a375",
+        "ContactInformation": {
+            "Phone": "209.814.1443",
+            "Email": "adrianacooper@example.com",
+            "Address": "1011 Kelly Expressway\nJuliamouth, PR 84771"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-23",
+        "Location": "06835 David Street Apt. 657\nCunninghambury, WI 55308",
+        "Description": "Threat to wish number cell college loss. Think join officer middle new magazine local account. Defense operation hear evening. Piece customer remember cut people attack."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8652
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 98800
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38565
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7003
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40352
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 1854,
+        "TotalApproved": 1694
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Rios",
+        "ContactInformation": {
+            "Phone": "+1-667-559-8150x475",
+            "Email": "rhondavance@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/eb2d894b-1904-4cad-8c00-b94f9d068868"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

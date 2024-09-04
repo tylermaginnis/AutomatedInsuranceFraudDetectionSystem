@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bc47490c-5d99-48cf-b1ea-dbe4c829d176",
+    "PolicyID": "a3677bb0-c302-4b21-bc81-2385bc4baa4d",
+    "EffectiveDates": {
+        "StartDate": "2024-06-10",
+        "EndDate": "2025-06-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0d23d819-4fcc-4e86-9b55-7a11308b0393",
+        "Name": "Christina Sanders",
+        "PolicyNumber": "a3677bb0-c302-4b21-bc81-2385bc4baa4d",
+        "ContactInformation": {
+            "Phone": "+1-876-686-6286",
+            "Email": "tapiachristopher@example.net",
+            "Address": "182 Jimmy Brook\nNorth Stephaniemouth, ND 45378"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-23",
+        "Location": "74907 Mathews Orchard\nHernandezstad, VA 66525",
+        "Description": "High set street size mission. American owner treatment mission suffer.\nServe level at actually pretty voice.\nLetter step even leader beyond."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42838
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1371
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4678
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14251
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16923
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 147295,
+        "TotalApproved": 129326
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Chen",
+        "ContactInformation": {
+            "Phone": "001-964-955-4328x7507",
+            "Email": "anna42@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5e784261-d2d1-4462-ad2e-7eaa8703d45b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-23T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-28T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-02T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

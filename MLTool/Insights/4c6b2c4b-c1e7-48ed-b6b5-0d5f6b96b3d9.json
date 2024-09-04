@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4c6b2c4b-c1e7-48ed-b6b5-0d5f6b96b3d9",
+    "PolicyID": "990c89a1-3c8e-48ca-8cd7-855c3e2abffd",
+    "EffectiveDates": {
+        "StartDate": "2023-11-17",
+        "EndDate": "2024-11-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6faef729-5d33-49cb-ad67-2f4efa33e976",
+        "Name": "Alisha Mack",
+        "PolicyNumber": "990c89a1-3c8e-48ca-8cd7-855c3e2abffd",
+        "ContactInformation": {
+            "Phone": "4776308159",
+            "Email": "abrown@example.org",
+            "Address": "59876 Gary Garden Suite 566\nEast Patricia, HI 81302"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-31",
+        "Location": "USNS Fitzgerald\nFPO AA 82351",
+        "Description": "Hair away commercial money camera. Able five save along. Economy discuss laugh least view."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8301
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32166
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44996
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1019
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17457
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 55421,
+        "TotalApproved": 14382
+    },
+    "AdjusterDetails": {
+        "Name": "Alexandria Daniels",
+        "ContactInformation": {
+            "Phone": "679-944-6798x89069",
+            "Email": "liujason@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2617d98b-f42b-4620-8653-e930513f47e9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-31T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

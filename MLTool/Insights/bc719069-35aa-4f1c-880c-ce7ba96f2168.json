@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bc719069-35aa-4f1c-880c-ce7ba96f2168",
+    "PolicyID": "e22efcd0-0c6e-4385-bb33-71210a0f1dc1",
+    "EffectiveDates": {
+        "StartDate": "2023-11-30",
+        "EndDate": "2024-11-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9b45f35b-dd05-4cba-a14e-590a263708d3",
+        "Name": "Stephen Allen",
+        "PolicyNumber": "e22efcd0-0c6e-4385-bb33-71210a0f1dc1",
+        "ContactInformation": {
+            "Phone": "+1-865-917-2332x027",
+            "Email": "hallpatricia@example.net",
+            "Address": "76856 Shaw Shoals\nKurtborough, CO 61318"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-30",
+        "Location": "18249 Monica Via Apt. 519\nWest Lindsey, NM 37391",
+        "Description": "Even management economy change throw. Past majority most voice performance trade debate give. Production why add miss hear international."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5691
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6963
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 53406
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9051
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19841
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 155791,
+        "TotalApproved": 19492
+    },
+    "AdjusterDetails": {
+        "Name": "George Lawrence",
+        "ContactInformation": {
+            "Phone": "(618)733-6269",
+            "Email": "cstevens@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b76de3ff-8e90-40d4-a1f6-e88146a899af"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

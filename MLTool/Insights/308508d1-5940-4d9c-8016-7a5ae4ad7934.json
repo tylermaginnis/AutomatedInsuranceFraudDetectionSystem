@@ -1,0 +1,81 @@
+{
+    "ClaimID": "308508d1-5940-4d9c-8016-7a5ae4ad7934",
+    "PolicyID": "f0ea8ae2-b128-4062-b30b-a9ab879e1faa",
+    "EffectiveDates": {
+        "StartDate": "2023-10-15",
+        "EndDate": "2024-10-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8d7caace-a35b-4199-83f5-3e81d8a9d129",
+        "Name": "Jean Horne",
+        "PolicyNumber": "f0ea8ae2-b128-4062-b30b-a9ab879e1faa",
+        "ContactInformation": {
+            "Phone": "(965)608-9148x856",
+            "Email": "turnerstephen@example.com",
+            "Address": "485 Fritz Ways\nFordside, MA 42328"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-08",
+        "Location": "195 Duarte Station\nAnthonystad, MN 71043",
+        "Description": "Offer media wonder set suggest. Its however material city ten country others. Arrive maintain be top."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 192274
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 119502
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3133
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14839
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1873
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 71727,
+        "TotalApproved": 66903
+    },
+    "AdjusterDetails": {
+        "Name": "Sean Clark",
+        "ContactInformation": {
+            "Phone": "(386)337-8572",
+            "Email": "adamsmith@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/16481a68-d3a3-46c6-ac2a-814f2014a34d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

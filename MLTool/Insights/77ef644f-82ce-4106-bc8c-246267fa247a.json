@@ -1,0 +1,81 @@
+{
+    "ClaimID": "77ef644f-82ce-4106-bc8c-246267fa247a",
+    "PolicyID": "969f55ca-b0b1-42a1-8bf7-5ace158ce8ff",
+    "EffectiveDates": {
+        "StartDate": "2023-11-01",
+        "EndDate": "2024-10-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5e78bf4b-7ab6-4b45-9ce4-006c5e54c738",
+        "Name": "Lori Yang",
+        "PolicyNumber": "969f55ca-b0b1-42a1-8bf7-5ace158ce8ff",
+        "ContactInformation": {
+            "Phone": "636-514-2187x3163",
+            "Email": "jefffischer@example.net",
+            "Address": "Unit 8844 Box 8983\nDPO AE 50706"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-26",
+        "Location": "Unit 6093 Box 2994\nDPO AE 08645",
+        "Description": "Play happy send happy administration air.\nBad range speech history. Pull keep stuff environment partner peace edge. Situation eight various trip decide."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8195
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10887
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23691
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 110796
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 180320
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 93437,
+        "TotalApproved": 37529
+    },
+    "AdjusterDetails": {
+        "Name": "Philip Hood",
+        "ContactInformation": {
+            "Phone": "752.906.5414",
+            "Email": "austinstephen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/df5c0755-388f-4239-996f-16c4f3b6f2c9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-26T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-31T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-05T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

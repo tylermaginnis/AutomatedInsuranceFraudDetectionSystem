@@ -1,0 +1,81 @@
+{
+    "ClaimID": "63a79d90-761c-4e23-baed-d59992ef3fcc",
+    "PolicyID": "a0c81835-e7ce-4235-8120-0bd0d6454a29",
+    "EffectiveDates": {
+        "StartDate": "2024-06-12",
+        "EndDate": "2025-06-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e986aa4c-d3ad-40ec-b9bb-47b25d71593f",
+        "Name": "Beth Kane",
+        "PolicyNumber": "a0c81835-e7ce-4235-8120-0bd0d6454a29",
+        "ContactInformation": {
+            "Phone": "716.786.0079x6168",
+            "Email": "john84@example.org",
+            "Address": "6993 Galvan Union Apt. 916\nSouth Patriciaport, MA 25309"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-03",
+        "Location": "Unit 9698 Box 6242\nDPO AE 36785",
+        "Description": "My sit contain ahead face bed newspaper.\nPublic television chance share low begin. Board measure develop cell."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35826
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 61768
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9043
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2245
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49754
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 67498,
+        "TotalApproved": 41677
+    },
+    "AdjusterDetails": {
+        "Name": "Kelli Medina",
+        "ContactInformation": {
+            "Phone": "305-902-1692x26949",
+            "Email": "caldwellstephanie@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2b11808e-8cf4-403e-9592-209e3bede358"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-03T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-08T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-13T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

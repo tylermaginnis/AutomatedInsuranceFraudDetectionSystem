@@ -1,0 +1,81 @@
+{
+    "ClaimID": "83ea642f-0256-4f91-85b3-61919336f74d",
+    "PolicyID": "b7eb36ef-5c63-4b23-8fb9-fbd8974e1d13",
+    "EffectiveDates": {
+        "StartDate": "2024-09-01",
+        "EndDate": "2025-09-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "704a2177-273a-4e00-9bec-0cb8e22aec88",
+        "Name": "Natalie Murphy",
+        "PolicyNumber": "b7eb36ef-5c63-4b23-8fb9-fbd8974e1d13",
+        "ContactInformation": {
+            "Phone": "8313621981",
+            "Email": "huntjoshua@example.com",
+            "Address": "991 Margaret Road Suite 670\nLake Johnfort, AL 92830"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-09",
+        "Location": "25692 Sanchez Green Apt. 198\nSmithport, FL 54152",
+        "Description": "Sister or institution tonight friend how water. Goal high statement.\nSeek compare part reason court threat speech three. Year blue note either."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 158042
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1660
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 107964
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 94180
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1943
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116901,
+        "TotalApproved": 81962
+    },
+    "AdjusterDetails": {
+        "Name": "Alejandro Rodriguez",
+        "ContactInformation": {
+            "Phone": "529.252.7316",
+            "Email": "steinangie@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/65a46e8e-b808-40d3-aba4-ae18b53124d0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

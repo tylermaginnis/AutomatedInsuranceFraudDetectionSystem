@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bd66bdb9-8088-451e-b5b7-e9015edf6003",
+    "PolicyID": "9bef082b-09a5-43b1-9036-89da14b804bb",
+    "EffectiveDates": {
+        "StartDate": "2024-02-23",
+        "EndDate": "2025-02-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9a0f2153-029d-4968-95a4-0730b179fbdd",
+        "Name": "Natalie Cruz",
+        "PolicyNumber": "9bef082b-09a5-43b1-9036-89da14b804bb",
+        "ContactInformation": {
+            "Phone": "641-785-8041",
+            "Email": "johndavis@example.org",
+            "Address": "11115 Ryan Dam\nSouth Laurie, CO 03197"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-11",
+        "Location": "477 Schmidt Locks\nEast Danielfurt, ID 13764",
+        "Description": "Pm two than. Yeah dream behind somebody main so.\nFor economic ask might both try. New start far down wait."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8949
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14719
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26735
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 54998
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 170367
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 48935,
+        "TotalApproved": 7885
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Chung",
+        "ContactInformation": {
+            "Phone": "+1-963-444-2294x177",
+            "Email": "sdowns@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0c637927-e652-49d5-891b-3499c30c6dc0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-11T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-16T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-21T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

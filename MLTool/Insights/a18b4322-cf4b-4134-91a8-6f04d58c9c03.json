@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a18b4322-cf4b-4134-91a8-6f04d58c9c03",
+    "PolicyID": "f721786b-e1c5-415a-90d7-a015bbc79010",
+    "EffectiveDates": {
+        "StartDate": "2024-03-25",
+        "EndDate": "2025-03-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "732cd73e-4ed0-4e9a-b061-34fce36fa55d",
+        "Name": "Paul Buck",
+        "PolicyNumber": "f721786b-e1c5-415a-90d7-a015bbc79010",
+        "ContactInformation": {
+            "Phone": "645-334-0616x168",
+            "Email": "stephaniemoran@example.net",
+            "Address": "6385 Gina Greens Apt. 780\nGreenefort, AR 62141"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-26",
+        "Location": "08353 Ruiz Streets Apt. 737\nJamesview, OR 49346",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 64042
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25059
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6036
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15267
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12396
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 122800,
+        "TotalApproved": 85093
+    },
+    "AdjusterDetails": {
+        "Name": "Zachary Ayala",
+        "ContactInformation": {
+            "Phone": "(444)232-0530x929",
+            "Email": "hwilliams@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d35104f5-21d8-493f-b5e2-1d29562c62d4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-31T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

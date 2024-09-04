@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b4d3699-6d1c-4156-9377-f0d9ebe805e9",
+    "PolicyID": "00578c88-735c-4d81-88aa-54450a2a2d5d",
+    "EffectiveDates": {
+        "StartDate": "2024-06-18",
+        "EndDate": "2025-06-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "284fa2d4-7323-4c4c-aa5b-b1fc19a0442b",
+        "Name": "Rachel Fritz",
+        "PolicyNumber": "00578c88-735c-4d81-88aa-54450a2a2d5d",
+        "ContactInformation": {
+            "Phone": "(927)867-3003x6602",
+            "Email": "ericksonnicole@example.org",
+            "Address": "388 Madison Mountain Apt. 212\nJoseborough, VI 85457"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-27",
+        "Location": "672 Garrett Ford\nMatthewchester, WI 26091",
+        "Description": "Goal building million again state become. Company water capital."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8903
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 77169
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12563
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 54578
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41504
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 50114,
+        "TotalApproved": 6164
+    },
+    "AdjusterDetails": {
+        "Name": "Rebecca Medina",
+        "ContactInformation": {
+            "Phone": "001-269-822-5287x822",
+            "Email": "uflores@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/aa931833-ea73-4434-8c1c-bb111e750bbc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-27T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-01T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-06T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

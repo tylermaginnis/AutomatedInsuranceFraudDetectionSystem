@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6131664-7c78-4196-afaa-9468472cf3d1",
+    "PolicyID": "f46246be-394b-4d82-a04e-3e5bc10f61e6",
+    "EffectiveDates": {
+        "StartDate": "2023-12-29",
+        "EndDate": "2024-12-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2efc94ad-7229-411b-afeb-58618bdce527",
+        "Name": "Richard Bennett",
+        "PolicyNumber": "f46246be-394b-4d82-a04e-3e5bc10f61e6",
+        "ContactInformation": {
+            "Phone": "235.425.8059x247",
+            "Email": "pjefferson@example.com",
+            "Address": "151 Green Port\nPort Jameston, NJ 15749"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-04",
+        "Location": "733 Ortiz Summit\nNancyview, NV 17961",
+        "Description": "Traditional cold by under. Cut direction have exist bring.\nCongress protect major amount case name media student. Card on summer soldier level certain feeling."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6205
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2801
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15929
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 146525
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16990
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 129942,
+        "TotalApproved": 113054
+    },
+    "AdjusterDetails": {
+        "Name": "Brittney Ibarra",
+        "ContactInformation": {
+            "Phone": "(642)298-0244x053",
+            "Email": "herreramary@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/dff7a21d-50aa-4df6-b8af-565eb7b07d25"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-04T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-09T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-14T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

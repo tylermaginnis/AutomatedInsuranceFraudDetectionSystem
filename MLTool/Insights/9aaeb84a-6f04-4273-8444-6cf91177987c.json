@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9aaeb84a-6f04-4273-8444-6cf91177987c",
+    "PolicyID": "1d9b252c-f5ec-4a7e-9051-13fd9c5e14fb",
+    "EffectiveDates": {
+        "StartDate": "2024-07-03",
+        "EndDate": "2025-07-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5aa4096-0459-4477-98a8-a5cb4866b77a",
+        "Name": "Michelle Turner",
+        "PolicyNumber": "1d9b252c-f5ec-4a7e-9051-13fd9c5e14fb",
+        "ContactInformation": {
+            "Phone": "+1-734-929-5585x095",
+            "Email": "travis89@example.com",
+            "Address": "900 Adam Squares\nTiffanybury, GU 90789"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-28",
+        "Location": "PSC 1007, Box 1592\nAPO AP 89498",
+        "Description": "Look budget mission large age. Go loss various serve space.\nRoad help rock season stay mother. Protect center middle recently. It pull behind.\nBecause program this more medical."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12860
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18246
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49994
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8899
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4238
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 78040,
+        "TotalApproved": 51621
+    },
+    "AdjusterDetails": {
+        "Name": "Brandon Brown",
+        "ContactInformation": {
+            "Phone": "+1-927-391-2510",
+            "Email": "cmaxwell@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/00cb833d-7533-43ed-815c-ad8681c30e9c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-28T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

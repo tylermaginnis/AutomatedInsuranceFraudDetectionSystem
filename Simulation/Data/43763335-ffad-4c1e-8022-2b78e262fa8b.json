@@ -1,0 +1,80 @@
+{
+  "ClaimID": "43763335-ffad-4c1e-8022-2b78e262fa8b",
+  "PolicyID": "34493b85-e870-4a43-ac0b-f1efc91805d7",
+  "EffectiveDates": {
+    "StartDate": "2024-01-07",
+    "EndDate": "2025-01-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8ee757f2-2114-47fa-b23a-8e7525bf8215",
+    "Name": "Paul James",
+    "PolicyNumber": "34493b85-e870-4a43-ac0b-f1efc91805d7",
+    "ContactInformation": {
+      "Phone": "402-582-1648x54770",
+      "Email": "lisa97@example.com",
+      "Address": "94970 Henry Via\nCooperport, MS 65834"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-01",
+    "Location": "98964 Jacob Mews\nLake Bradleyfurt, AZ 50842",
+    "Description": "Step arrive spring main. Arm involve example break have whose success."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 30591
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 185999
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 23629
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 96459
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 10857
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 65215,
+    "TotalApproved": 12151
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Torres",
+    "ContactInformation": {
+      "Phone": "(353)728-2942x3272",
+      "Email": "pooleemily@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/d2dfc37a-3aca-488b-8ddb-007b6807cef4"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-01T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-06T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-11T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

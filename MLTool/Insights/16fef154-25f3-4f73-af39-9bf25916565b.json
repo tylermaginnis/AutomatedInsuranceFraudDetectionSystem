@@ -1,0 +1,81 @@
+{
+    "ClaimID": "16fef154-25f3-4f73-af39-9bf25916565b",
+    "PolicyID": "825537ec-8ef2-4593-9013-403c0fa369bf",
+    "EffectiveDates": {
+        "StartDate": "2024-01-08",
+        "EndDate": "2025-01-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "23d43c87-7195-47fa-9353-b312bb7bc15b",
+        "Name": "James Lewis",
+        "PolicyNumber": "825537ec-8ef2-4593-9013-403c0fa369bf",
+        "ContactInformation": {
+            "Phone": "290-436-1260x04243",
+            "Email": "othomas@example.net",
+            "Address": "635 Smith Parkways Apt. 619\nLake Sharonchester, OH 13505"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-12",
+        "Location": "053 Lucas Loaf Suite 438\nAprilstad, SD 64327",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 98593
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20686
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6759
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29349
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17816
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 173203,
+        "TotalApproved": 88505
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Wood",
+        "ContactInformation": {
+            "Phone": "828.257.2202x1781",
+            "Email": "mooreamber@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1bf719d4-9994-4767-9648-76db7e08e10a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-12T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-17T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-22T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

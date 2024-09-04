@@ -1,0 +1,81 @@
+{
+    "ClaimID": "812d1b33-106b-4278-87f3-3522a71faf85",
+    "PolicyID": "d5a7df7c-1c2b-43d9-a66d-c0d7ea8d7d1c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-05",
+        "EndDate": "2025-05-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b213bbee-8910-4069-8e71-01490935ee8c",
+        "Name": "Jessica Barrett",
+        "PolicyNumber": "d5a7df7c-1c2b-43d9-a66d-c0d7ea8d7d1c",
+        "ContactInformation": {
+            "Phone": "820.597.1819",
+            "Email": "dmiles@example.org",
+            "Address": "20723 Pena Spur Apt. 207\nNew John, WV 65022"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-20",
+        "Location": "14410 Rebecca Motorway Suite 922\nHerrerashire, OK 93557",
+        "Description": "Although each less glass he research author. Wide doctor high which after.\nDown everybody present sign structure. Term beautiful college rate wrong."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18071
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21469
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33525
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7935
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 149324
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 33016,
+        "TotalApproved": 25565
+    },
+    "AdjusterDetails": {
+        "Name": "Julie Robinson",
+        "ContactInformation": {
+            "Phone": "(566)716-2214x0948",
+            "Email": "kaitlyn98@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9642019e-cd73-4952-a4eb-0e217c996810"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-20T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-25T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-30T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

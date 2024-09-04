@@ -1,0 +1,81 @@
+{
+    "ClaimID": "92cfb031-eb4a-4002-bb2c-61e3bb005e44",
+    "PolicyID": "7dfb886e-ddb8-4b6a-8603-d5db6f62f7dd",
+    "EffectiveDates": {
+        "StartDate": "2023-12-04",
+        "EndDate": "2024-12-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7011d590-1193-402f-92c1-84e26a73ec22",
+        "Name": "Yolanda Cortez MD",
+        "PolicyNumber": "7dfb886e-ddb8-4b6a-8603-d5db6f62f7dd",
+        "ContactInformation": {
+            "Phone": "(856)980-4815",
+            "Email": "jasmine36@example.net",
+            "Address": "5367 Page Ramp\nSwansonhaven, VA 25479"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-19",
+        "Location": "890 Cunningham Fork\nWiseview, VT 70076",
+        "Description": "Group task rate kitchen. Place compare company establish. Administration energy marriage lead billion find."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 181861
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11424
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18724
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 76473
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15066
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 70769,
+        "TotalApproved": 14380
+    },
+    "AdjusterDetails": {
+        "Name": "Dana Miller",
+        "ContactInformation": {
+            "Phone": "001-431-897-9811x456",
+            "Email": "bellstephen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a1103f30-f747-4020-80aa-58b94f01cbc5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-19T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-24T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-29T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

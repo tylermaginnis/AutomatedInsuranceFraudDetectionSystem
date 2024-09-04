@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9ea4fd55-8fef-41fc-9c62-6cbd42ad80df",
+  "PolicyID": "66ea51f6-8072-4256-a4cd-18e23a25cd8c",
+  "EffectiveDates": {
+    "StartDate": "2023-11-12",
+    "EndDate": "2024-11-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "694e0206-9028-48e5-b2af-55770e776940",
+    "Name": "Kara Cameron",
+    "PolicyNumber": "66ea51f6-8072-4256-a4cd-18e23a25cd8c",
+    "ContactInformation": {
+      "Phone": "001-696-706-2117x80584",
+      "Email": "lbyrd@example.org",
+      "Address": "3829 Thomas Shoal\nWilliamsview, KS 72226"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-01-02",
+    "Location": "6250 Kerri Manors Apt. 832\nLake John, VT 01777",
+    "Description": "Direction right either night issue amount professional. Wind must player region. Compare media realize feeling return develop other."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16005
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2696
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 11604
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 3792
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 135021
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 130798,
+    "TotalApproved": 110226
+  },
+  "AdjusterDetails": {
+    "Name": "Olivia Olson",
+    "ContactInformation": {
+      "Phone": "498-902-1284x89067",
+      "Email": "mcook@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/d6cd963d-c72e-4b87-905c-944e305886e7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-01-02T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-07T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-12T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

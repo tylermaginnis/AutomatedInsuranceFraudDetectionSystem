@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fed61cca-f65a-4de8-8d1f-b3e2418a10b1",
+    "PolicyID": "6cacb827-e884-46ea-bed4-a24b44d46b05",
+    "EffectiveDates": {
+        "StartDate": "2024-07-30",
+        "EndDate": "2025-07-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b1323412-c52f-4f87-b272-391af1611aaf",
+        "Name": "Ms. Amanda Parks",
+        "PolicyNumber": "6cacb827-e884-46ea-bed4-a24b44d46b05",
+        "ContactInformation": {
+            "Phone": "(207)800-8183x32500",
+            "Email": "wheelerkathleen@example.org",
+            "Address": "81889 Hannah Parks\nLake Bryantown, NJ 81073"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-30",
+        "Location": "27427 Wang Springs Apt. 078\nLoganville, MD 16909",
+        "Description": "Third begin rather feel together glass perhaps each. Ever billion activity throw.\nWorker read her cup who condition table. Hit simply by control his through."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 46798
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14947
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 55296
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 61077
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 97621
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 38739,
+        "TotalApproved": 37511
+    },
+    "AdjusterDetails": {
+        "Name": "Tracy Mcgee",
+        "ContactInformation": {
+            "Phone": "792.404.6929",
+            "Email": "pjones@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/dbf55231-ea17-4c24-b3e9-22ab82e3bb4f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-30T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-04T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-09T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

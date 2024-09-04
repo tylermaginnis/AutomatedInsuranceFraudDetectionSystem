@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6e135b92-e6cb-49fb-b945-8fda909f2d7d",
+    "PolicyID": "4305b5d7-3e22-4200-aa37-1d49f498a522",
+    "EffectiveDates": {
+        "StartDate": "2023-09-18",
+        "EndDate": "2024-09-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bc7e302a-1be8-4806-a177-ec85713437aa",
+        "Name": "Steven Robinson",
+        "PolicyNumber": "4305b5d7-3e22-4200-aa37-1d49f498a522",
+        "ContactInformation": {
+            "Phone": "526.207.6245x1439",
+            "Email": "susanjackson@example.org",
+            "Address": "67045 Hart Valleys Apt. 093\nAbigailbury, CO 51543"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-14",
+        "Location": "922 Ramirez Radial\nPottermouth, SD 64800",
+        "Description": "Project sister group too write anything hear. Ready research them boy generation."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4029
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45629
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 67474
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20075
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 87969
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 57223,
+        "TotalApproved": 32551
+    },
+    "AdjusterDetails": {
+        "Name": "Ryan Collins",
+        "ContactInformation": {
+            "Phone": "2177139937",
+            "Email": "rachelkim@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/05aa4549-3cdb-4a5c-b8b7-821fa4fcf3b5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-14T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-19T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-24T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "350e18cc-2728-4409-b277-a7ad6297ac94",
+  "PolicyID": "f3b7fec5-0ac5-4105-8a8f-40411d52689a",
+  "EffectiveDates": {
+    "StartDate": "2024-03-01",
+    "EndDate": "2025-03-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6b5806d0-0564-4f34-88a1-35621e3a4fe6",
+    "Name": "Jessica Martinez",
+    "PolicyNumber": "f3b7fec5-0ac5-4105-8a8f-40411d52689a",
+    "ContactInformation": {
+      "Phone": "533-915-3212x261",
+      "Email": "jacobhansen@example.net",
+      "Address": "1391 Buck Forest\nLake Jamie, NC 66147"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-08",
+    "Location": "942 Lisa Ridges Apt. 647\nOliverhaven, MH 60665",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 93762
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 42789
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8227
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 17925
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 13355
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 176058,
+    "TotalApproved": 6540
+  },
+  "AdjusterDetails": {
+    "Name": "Robert Bailey",
+    "ContactInformation": {
+      "Phone": "8062031899",
+      "Email": "amanda24@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/351e897b-ac2f-4c7f-8190-0c02064f1f4f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-08T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-13T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-18T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

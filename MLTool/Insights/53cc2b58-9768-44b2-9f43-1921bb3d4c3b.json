@@ -1,0 +1,81 @@
+{
+    "ClaimID": "53cc2b58-9768-44b2-9f43-1921bb3d4c3b",
+    "PolicyID": "7816dbff-c4a3-4e6b-af58-daa0f0a5e0a2",
+    "EffectiveDates": {
+        "StartDate": "2024-04-05",
+        "EndDate": "2025-04-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2ba18cb7-8779-4a8f-9b24-ddaa61bc3fcf",
+        "Name": "Bryan Cummings",
+        "PolicyNumber": "7816dbff-c4a3-4e6b-af58-daa0f0a5e0a2",
+        "ContactInformation": {
+            "Phone": "001-839-498-6528x288",
+            "Email": "kellyaustin@example.com",
+            "Address": "5674 Peterson Overpass\nLake Kevin, OK 38805"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-10",
+        "Location": "189 Laura Wall\nAngelamouth, AZ 34205",
+        "Description": "While lose prepare major team. Of common side.\nUnderstand series mean final. Available skill almost decision."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18263
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17925
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 85018
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 177116
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4314
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 171263,
+        "TotalApproved": 95999
+    },
+    "AdjusterDetails": {
+        "Name": "Tonya Rose",
+        "ContactInformation": {
+            "Phone": "+1-475-900-9221x36854",
+            "Email": "twong@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/94fa1239-43a7-4f09-b8ce-bde0562249b5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-10T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-15T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-20T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

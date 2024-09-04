@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2d703ef3-aad4-4454-96b3-65a99994fd99",
+    "PolicyID": "c2fb4715-9ddd-41cb-958e-6c87aaa0e61d",
+    "EffectiveDates": {
+        "StartDate": "2024-03-02",
+        "EndDate": "2025-03-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a386d916-1164-40cf-ba75-b068af911bc7",
+        "Name": "Lucas Young",
+        "PolicyNumber": "c2fb4715-9ddd-41cb-958e-6c87aaa0e61d",
+        "ContactInformation": {
+            "Phone": "6999998689",
+            "Email": "umurphy@example.net",
+            "Address": "177 Fernandez Corner Suite 703\nNorth Morgan, MA 55656"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-18",
+        "Location": "573 Jonathan Pike\nTinaberg, IA 80293",
+        "Description": "Nice unit course know church. Over example Republican sport life. Garden attack black simple exist significant space. Leave hospital program market always go security."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11317
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 50914
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 80944
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 176380
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16458
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 16211,
+        "TotalApproved": 4480
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Tran",
+        "ContactInformation": {
+            "Phone": "591.374.8434x5137",
+            "Email": "joshua29@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/023b8e1a-d56e-4d1c-981c-7849b1632273"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-18T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-23T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-28T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

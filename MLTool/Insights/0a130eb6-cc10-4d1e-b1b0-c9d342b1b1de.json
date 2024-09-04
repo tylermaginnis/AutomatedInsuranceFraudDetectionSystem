@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0a130eb6-cc10-4d1e-b1b0-c9d342b1b1de",
+    "PolicyID": "beb07175-b24b-4245-865e-0bf9baca2b81",
+    "EffectiveDates": {
+        "StartDate": "2024-06-17",
+        "EndDate": "2025-06-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "93fe21f7-717f-4436-bbf3-d749e1e8be0b",
+        "Name": "Steven Clark",
+        "PolicyNumber": "beb07175-b24b-4245-865e-0bf9baca2b81",
+        "ContactInformation": {
+            "Phone": "882.380.9796",
+            "Email": "hlopez@example.net",
+            "Address": "PSC 7676, Box 1435\nAPO AA 53607"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-12",
+        "Location": "3610 Jason Ports\nLawsonville, MI 09851",
+        "Description": "Mrs issue perform letter lose live painting system. Run teach garden rather. Right law treatment fish off Mr American social."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23240
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 102034
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3754
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42171
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 81567
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 96957,
+        "TotalApproved": 87784
+    },
+    "AdjusterDetails": {
+        "Name": "Dr. Victor Brown",
+        "ContactInformation": {
+            "Phone": "(755)579-1906x3070",
+            "Email": "catherinegibson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/429c1c91-bc0a-419f-a40f-8f3b250394b7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-12T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-17T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-22T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

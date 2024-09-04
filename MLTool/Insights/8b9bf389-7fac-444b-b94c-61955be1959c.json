@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8b9bf389-7fac-444b-b94c-61955be1959c",
+    "PolicyID": "c67a70e1-a796-4025-b978-a9940d509b3d",
+    "EffectiveDates": {
+        "StartDate": "2024-03-18",
+        "EndDate": "2025-03-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8f7f4217-c16d-44c5-bd31-650bf7c66ccc",
+        "Name": "Steven Moore",
+        "PolicyNumber": "c67a70e1-a796-4025-b978-a9940d509b3d",
+        "ContactInformation": {
+            "Phone": "+1-802-544-5112x24320",
+            "Email": "richardbarnes@example.org",
+            "Address": "4174 Sanchez Corner Suite 404\nWilliamtown, OR 69617"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-25",
+        "Location": "2476 Charles Vista\nJarvisshire, AK 21322",
+        "Description": "Sing dark you help. Year majority feeling floor budget major point meet."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33544
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1794
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5745
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25214
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13229
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 182032,
+        "TotalApproved": 94451
+    },
+    "AdjusterDetails": {
+        "Name": "Travis Vasquez",
+        "ContactInformation": {
+            "Phone": "(347)752-2400x6238",
+            "Email": "robertallen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1384ac22-2c0d-4566-875d-7fcca846bad3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-30T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

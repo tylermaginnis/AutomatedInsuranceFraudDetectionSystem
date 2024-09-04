@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bc552d59-0d5b-44aa-96c0-cf407985fc36",
+  "PolicyID": "cf3cabd9-03d1-4b9c-a01e-72fff5f559d8",
+  "EffectiveDates": {
+    "StartDate": "2024-02-29",
+    "EndDate": "2025-02-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8e16acdb-8a39-4f71-9203-ec6eada01765",
+    "Name": "Thomas Jenkins",
+    "PolicyNumber": "cf3cabd9-03d1-4b9c-a01e-72fff5f559d8",
+    "ContactInformation": {
+      "Phone": "212.980.2853x106",
+      "Email": "salinasjon@example.com",
+      "Address": "40861 Cheyenne Parks\nEast Ashleyhaven, MI 60630"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-22",
+    "Location": "14523 Fox Islands Suite 699\nMckenziehaven, WY 61049",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 66212
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 42086
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6770
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 25101
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5708
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 145877,
+    "TotalApproved": 53253
+  },
+  "AdjusterDetails": {
+    "Name": "William Wong",
+    "ContactInformation": {
+      "Phone": "+1-469-705-4724x924",
+      "Email": "nmarshall@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/661b8d30-52cc-42b2-b313-2b4e9fd0039a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-22T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-27T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-01T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1f52f271-052c-4d9a-b4f4-d7658b0d3751",
+  "PolicyID": "0a5d9177-fa36-4272-b83c-0889c2504b2c",
+  "EffectiveDates": {
+    "StartDate": "2024-01-05",
+    "EndDate": "2025-01-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "dd8bf566-cd27-43ed-8fc2-6cd150ec87b5",
+    "Name": "Rachel Davis",
+    "PolicyNumber": "0a5d9177-fa36-4272-b83c-0889c2504b2c",
+    "ContactInformation": {
+      "Phone": "747-395-6698x177",
+      "Email": "blakephilip@example.org",
+      "Address": "854 Brown Views Suite 498\nNewtontown, KY 50599"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-18",
+    "Location": "Unit 1174 Box 8711\nDPO AA 49573",
+    "Description": "Grow sometimes herself well effort court. Administration toward no time can story check. Shake expect artist one back cup Mrs image."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 13839
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 32172
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2606
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 3606
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 22373
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 5218,
+    "TotalApproved": 2689
+  },
+  "AdjusterDetails": {
+    "Name": "Jenny Hunt",
+    "ContactInformation": {
+      "Phone": "9356298870",
+      "Email": "duncanruth@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/84f77307-0faf-4062-9c4d-38922d770aa6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-18T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-23T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-28T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

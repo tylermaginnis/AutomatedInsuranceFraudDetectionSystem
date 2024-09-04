@@ -1,0 +1,80 @@
+{
+  "ClaimID": "dfa5bb9b-eae1-49d4-9a7d-5dcf98e25d3d",
+  "PolicyID": "ae158e3a-90e0-439e-be47-563dce478096",
+  "EffectiveDates": {
+    "StartDate": "2024-03-01",
+    "EndDate": "2025-03-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "62f28f52-2fce-4728-b8b7-08f6c5b09c87",
+    "Name": "Linda Dixon",
+    "PolicyNumber": "ae158e3a-90e0-439e-be47-563dce478096",
+    "ContactInformation": {
+      "Phone": "838.219.7282x0976",
+      "Email": "robertsonsarah@example.com",
+      "Address": "73471 Aguirre Stream\nGregoryburgh, WV 99569"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-02",
+    "Location": "08122 Parker Trail\nJacobhaven, FL 26479",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 68766
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 37683
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8153
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 25280
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 13792
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 153674,
+    "TotalApproved": 119586
+  },
+  "AdjusterDetails": {
+    "Name": "Leslie Mckee",
+    "ContactInformation": {
+      "Phone": "451.299.0511",
+      "Email": "floresjesus@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/2fcb4871-664c-418c-a32e-644803c71133"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-02T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-07T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-12T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

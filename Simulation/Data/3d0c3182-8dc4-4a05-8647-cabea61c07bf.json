@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3d0c3182-8dc4-4a05-8647-cabea61c07bf",
+  "PolicyID": "a3f99633-f79e-401e-924b-d18e6b733cc2",
+  "EffectiveDates": {
+    "StartDate": "2024-08-27",
+    "EndDate": "2025-08-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "431770ec-a6b7-4d52-8fa8-0dc87cf23133",
+    "Name": "Ann Ramsey",
+    "PolicyNumber": "a3f99633-f79e-401e-924b-d18e6b733cc2",
+    "ContactInformation": {
+      "Phone": "423.434.3056",
+      "Email": "kleinjesse@example.com",
+      "Address": "5827 Dorothy Spring\nLaneville, CA 54688"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-31",
+    "Location": "USS Colon\nFPO AA 57471",
+    "Description": "Tonight particular across recognize fall. Article next structure reason assume eight."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7643
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 22822
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5362
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 182935
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1898
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 32603,
+    "TotalApproved": 13638
+  },
+  "AdjusterDetails": {
+    "Name": "Vickie Fitzpatrick",
+    "ContactInformation": {
+      "Phone": "302.510.8947x903",
+      "Email": "williamwilliams@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/d152182b-24d4-4750-9102-5d3b2be793c7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-31T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-05T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-10T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

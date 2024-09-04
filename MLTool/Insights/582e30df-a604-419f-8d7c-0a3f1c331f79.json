@@ -1,0 +1,81 @@
+{
+    "ClaimID": "582e30df-a604-419f-8d7c-0a3f1c331f79",
+    "PolicyID": "e1f4ddaf-95b6-4390-84c5-c5acaf008840",
+    "EffectiveDates": {
+        "StartDate": "2024-01-01",
+        "EndDate": "2024-12-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f9f2c407-e83e-4a2b-b8d4-62f3629e8515",
+        "Name": "Raymond Craig",
+        "PolicyNumber": "e1f4ddaf-95b6-4390-84c5-c5acaf008840",
+        "ContactInformation": {
+            "Phone": "4213490591",
+            "Email": "racheladams@example.org",
+            "Address": "08602 Theresa Summit Suite 354\nHornborough, VI 26014"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-28",
+        "Location": "043 Christy Harbors Apt. 241\nNorth Robertport, MT 68169",
+        "Description": "Both purpose down edge. Front size he everything travel card life industry. Behavior about card travel draw worry team."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2726
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 133844
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7773
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 182556
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4377
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 51456,
+        "TotalApproved": 49055
+    },
+    "AdjusterDetails": {
+        "Name": "Morgan Allen",
+        "ContactInformation": {
+            "Phone": "(722)715-8940x32327",
+            "Email": "michael45@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/298091c2-813a-497c-86ef-a46de16e419f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-28T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-02T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-07T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

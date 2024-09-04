@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6f5381a6-06f0-44b7-a08b-53d4c1441d34",
+    "PolicyID": "90d1a4c5-40e5-49e8-8659-bc8e3232b978",
+    "EffectiveDates": {
+        "StartDate": "2024-04-03",
+        "EndDate": "2025-04-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b301c66d-24bb-4d47-bfb4-013efecf2b24",
+        "Name": "Billy Huff",
+        "PolicyNumber": "90d1a4c5-40e5-49e8-8659-bc8e3232b978",
+        "ContactInformation": {
+            "Phone": "468-544-9012",
+            "Email": "ledan@example.com",
+            "Address": "44715 Hoffman Shoals Apt. 799\nPort Danielhaven, KY 87031"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-03",
+        "Location": "518 Mcguire Inlet\nRavenside, MD 30235",
+        "Description": "Above water gun wait adult. Poor fear character. Able article environment allow wait. Rise too wife.\nHeart garden most general. Appear painting address ask. Life like item senior what one."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22267
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4051
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2003
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4645
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2304
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 89452,
+        "TotalApproved": 23519
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Tammy Mcdaniel",
+        "ContactInformation": {
+            "Phone": "378-916-2632x42665",
+            "Email": "sotojames@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f7c7c0d3-1f8b-40c5-9e58-e5dd0eb2b4fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "13e4dd1e-e190-48ef-b788-bbcb8fe7d86d",
+  "PolicyID": "22837860-dce6-4671-bcc1-34b85a571188",
+  "EffectiveDates": {
+    "StartDate": "2024-02-10",
+    "EndDate": "2025-02-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0583c1b8-b41d-4713-b388-3587780f10c5",
+    "Name": "Devon Stewart",
+    "PolicyNumber": "22837860-dce6-4671-bcc1-34b85a571188",
+    "ContactInformation": {
+      "Phone": "(596)882-2815",
+      "Email": "karen52@example.org",
+      "Address": "0544 Pacheco Run Apt. 281\nBoyermouth, VI 18892"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-28",
+    "Location": "USNV Vasquez\nFPO AE 75032",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 58581
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 34701
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7693
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 21754
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7791
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 130520,
+    "TotalApproved": 40480
+  },
+  "AdjusterDetails": {
+    "Name": "Julia Armstrong",
+    "ContactInformation": {
+      "Phone": "001-648-864-3994x51886",
+      "Email": "dsmith@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/11f5ddde-c235-47cf-9147-6781fa97c3a6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-28T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-02T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-07T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

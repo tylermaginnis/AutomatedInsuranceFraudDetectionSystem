@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a38fdd0a-84c3-46d0-a96c-64947119ad62",
+    "PolicyID": "5613e806-89fc-4a5a-b5f8-589ec137790e",
+    "EffectiveDates": {
+        "StartDate": "2023-10-27",
+        "EndDate": "2024-10-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "46ec38e1-be71-48d7-96e7-448aa8943c3f",
+        "Name": "Kurt Gilmore",
+        "PolicyNumber": "5613e806-89fc-4a5a-b5f8-589ec137790e",
+        "ContactInformation": {
+            "Phone": "(711)290-9627x358",
+            "Email": "ohernandez@example.net",
+            "Address": "657 Meza Run Suite 080\nNortonland, IN 37898"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-18",
+        "Location": "325 Lopez Coves\nSouth Robertville, WY 65475",
+        "Description": "Health me week bad concern she. Rule risk mouth.\nBook note speak find almost. Majority outside reason involve. Energy let among behavior.\nClass candidate Congress see another movie."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1665
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4156
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22326
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12185
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27111
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 1128,
+        "TotalApproved": 1084
+    },
+    "AdjusterDetails": {
+        "Name": "Jonathan Mcfarland",
+        "ContactInformation": {
+            "Phone": "666.551.5945x566",
+            "Email": "jamie20@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/99f3e8d1-e417-48a8-ad4f-5c5c2832b574"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-18T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-23T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-28T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

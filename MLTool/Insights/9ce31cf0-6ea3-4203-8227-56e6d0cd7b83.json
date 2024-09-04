@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9ce31cf0-6ea3-4203-8227-56e6d0cd7b83",
+    "PolicyID": "c8eff642-93b1-41f4-bf39-9436012c6e1a",
+    "EffectiveDates": {
+        "StartDate": "2023-09-22",
+        "EndDate": "2024-09-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fe32fe9d-b2cb-4457-a55c-46f39909e0de",
+        "Name": "Jessica Beck",
+        "PolicyNumber": "c8eff642-93b1-41f4-bf39-9436012c6e1a",
+        "ContactInformation": {
+            "Phone": "001-627-931-6386x07530",
+            "Email": "trodriguez@example.net",
+            "Address": "77954 Cruz Crest Suite 486\nTimothychester, MT 02393"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-11",
+        "Location": "PSC 7018, Box 0614\nAPO AE 74630",
+        "Description": "Despite measure popular sometimes discussion truth hope serious. Language spend of.\nPlayer kitchen pressure window national even.\nLarge alone eat cultural protect. Both bill office free."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27685
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 135452
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 80606
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7260
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7099
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 169247,
+        "TotalApproved": 71573
+    },
+    "AdjusterDetails": {
+        "Name": "William Rodriguez",
+        "ContactInformation": {
+            "Phone": "(663)651-4789",
+            "Email": "millerdakota@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c82f4584-b30c-4339-96be-b147b5c81868"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-11T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-16T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-21T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

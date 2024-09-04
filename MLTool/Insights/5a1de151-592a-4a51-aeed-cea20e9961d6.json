@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5a1de151-592a-4a51-aeed-cea20e9961d6",
+    "PolicyID": "eb6c8cb1-2d23-4eba-9904-2007fb9ab810",
+    "EffectiveDates": {
+        "StartDate": "2024-05-18",
+        "EndDate": "2025-05-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "16ad5efa-fd45-4112-948a-203aad697a41",
+        "Name": "Matthew Taylor",
+        "PolicyNumber": "eb6c8cb1-2d23-4eba-9904-2007fb9ab810",
+        "ContactInformation": {
+            "Phone": "748.206.0412",
+            "Email": "karengarcia@example.org",
+            "Address": "912 Perry Stravenue Suite 973\nNorth Heatherborough, MD 24100"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-18",
+        "Location": "4977 Veronica Pines\nKellyfort, WV 35559",
+        "Description": "Mr fire exist process else raise. Whether let range himself stay our conference.\nControl city hear condition. Above worker risk issue. President hospital audience president power resource or."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5339
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9759
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 150736
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19887
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26987
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 77658,
+        "TotalApproved": 48237
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Dickerson",
+        "ContactInformation": {
+            "Phone": "734.482.5602x88815",
+            "Email": "sarahlopez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f30ebef0-dbd7-4f71-a66a-baf62eba0722"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-18T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-23T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-28T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

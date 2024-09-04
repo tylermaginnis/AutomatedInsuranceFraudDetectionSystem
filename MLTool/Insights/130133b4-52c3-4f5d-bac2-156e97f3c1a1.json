@@ -1,0 +1,81 @@
+{
+    "ClaimID": "130133b4-52c3-4f5d-bac2-156e97f3c1a1",
+    "PolicyID": "b715dc73-b725-4a51-a3ff-bdad003a1894",
+    "EffectiveDates": {
+        "StartDate": "2023-09-17",
+        "EndDate": "2024-09-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fb04b432-6f3c-430b-a979-832dbfc1aa36",
+        "Name": "Jessica Lucero",
+        "PolicyNumber": "b715dc73-b725-4a51-a3ff-bdad003a1894",
+        "ContactInformation": {
+            "Phone": "001-516-504-3082x170",
+            "Email": "owilkins@example.net",
+            "Address": "438 Mcfarland Rapids Suite 663\nWest Douglas, KS 60869"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-05",
+        "Location": "984 Hale Field Suite 914\nEast Crystal, PR 88541",
+        "Description": "Whole determine they alone show. Few live several whose.\nProfessor network onto collection generation space. Begin spring create now five. Door help history short anyone friend chair."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8929
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13695
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 118150
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46362
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6174
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 54561,
+        "TotalApproved": 42125
+    },
+    "AdjusterDetails": {
+        "Name": "Alexis Mckay",
+        "ContactInformation": {
+            "Phone": "593.885.1541x14551",
+            "Email": "daniel65@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8fda232f-9513-4c2e-b6ee-50ffc0896904"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

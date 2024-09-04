@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ec5889d9-d236-42b1-b7e4-36ecbb4ae9e0",
+    "PolicyID": "520512b5-571c-4175-a2da-0800a2c6d7d0",
+    "EffectiveDates": {
+        "StartDate": "2024-01-30",
+        "EndDate": "2025-01-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "62f61713-e99c-4171-a09b-760d22019012",
+        "Name": "Jeffrey Rios",
+        "PolicyNumber": "520512b5-571c-4175-a2da-0800a2c6d7d0",
+        "ContactInformation": {
+            "Phone": "6353652304",
+            "Email": "qnelson@example.com",
+            "Address": "8113 Davis Fields\nAnneville, TN 94000"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-10",
+        "Location": "2000 Steven Springs\nFordmouth, IA 14539",
+        "Description": "Kitchen prevent important off record half. Care hear very week. Campaign free wife I."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57024
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3305
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 77144
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15914
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19410
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 36051,
+        "TotalApproved": 12166
+    },
+    "AdjusterDetails": {
+        "Name": "David Stewart",
+        "ContactInformation": {
+            "Phone": "(715)785-8787x23595",
+            "Email": "alexis26@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/01ec22b6-90f0-4c75-952b-2fb48a622729"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-10T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-15T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-20T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

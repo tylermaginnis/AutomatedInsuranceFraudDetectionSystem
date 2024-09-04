@@ -1,0 +1,81 @@
+{
+    "ClaimID": "321080c9-6d6f-43ad-8b15-0ca740ae2faf",
+    "PolicyID": "b0ae04f1-00cc-4c5f-a151-296b2ef11d1b",
+    "EffectiveDates": {
+        "StartDate": "2023-09-16",
+        "EndDate": "2024-09-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "16da7428-d4b6-4d68-a09a-1bccb6db4e10",
+        "Name": "James Juarez",
+        "PolicyNumber": "b0ae04f1-00cc-4c5f-a151-296b2ef11d1b",
+        "ContactInformation": {
+            "Phone": "(357)271-5906",
+            "Email": "zharris@example.net",
+            "Address": "136 John Spur\nMarshallville, NM 47564"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-15",
+        "Location": "765 Duncan Forge\nLake Lindafurt, CO 55298",
+        "Description": "Heavy when often too place avoid interview. Different manager game them. Southern toward animal sport thought detail baby."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4756
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36706
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1218
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8130
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 184487
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 70438,
+        "TotalApproved": 23234
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Small",
+        "ContactInformation": {
+            "Phone": "324.335.7928",
+            "Email": "elizabeth62@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/11eb9ed7-68f1-42f5-b699-87a8d5dd6895"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-15T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-20T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-25T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

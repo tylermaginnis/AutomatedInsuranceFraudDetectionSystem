@@ -1,0 +1,81 @@
+{
+    "ClaimID": "18ea982d-5959-4316-9325-7183eadc2b57",
+    "PolicyID": "34493b85-e870-4a43-ac0b-f1efc91805d7",
+    "EffectiveDates": {
+        "StartDate": "2024-01-19",
+        "EndDate": "2025-01-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8ee757f2-2114-47fa-b23a-8e7525bf8215",
+        "Name": "Paul James",
+        "PolicyNumber": "34493b85-e870-4a43-ac0b-f1efc91805d7",
+        "ContactInformation": {
+            "Phone": "402-582-1648x54770",
+            "Email": "lisa97@example.com",
+            "Address": "94970 Henry Via\nCooperport, MS 65834"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-01",
+        "Location": "2451 Jeremy Courts\nKatherinefort, PA 88818",
+        "Description": "Subject computer apply speak sing above. Happen popular or your. Camera part maintain cause. Amount material as nice.\nInvolve accept our clearly list school. Ahead yard three laugh figure."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 51910
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3700
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22579
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47542
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19277
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 35895,
+        "TotalApproved": 14873
+    },
+    "AdjusterDetails": {
+        "Name": "Cindy Hughes",
+        "ContactInformation": {
+            "Phone": "360.617.0076x703",
+            "Email": "kduncan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/750c9adc-868a-4daf-9884-72c94a91b169"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-01T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-06T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-11T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

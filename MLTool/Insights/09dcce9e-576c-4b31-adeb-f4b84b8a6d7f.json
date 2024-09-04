@@ -1,0 +1,81 @@
+{
+    "ClaimID": "09dcce9e-576c-4b31-adeb-f4b84b8a6d7f",
+    "PolicyID": "a6acad05-ede1-4515-99bd-755b2f843607",
+    "EffectiveDates": {
+        "StartDate": "2023-11-02",
+        "EndDate": "2024-11-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "12bc238b-1fca-4dac-8d0b-856a9df10e44",
+        "Name": "Timothy Hunter",
+        "PolicyNumber": "a6acad05-ede1-4515-99bd-755b2f843607",
+        "ContactInformation": {
+            "Phone": "(872)956-7511x155",
+            "Email": "aross@example.net",
+            "Address": "62900 Melissa Springs Suite 220\nMariahview, HI 98976"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-02",
+        "Location": "76862 Harold Manors Apt. 960\nPort Michael, DC 25594",
+        "Description": "This school after result wonder day experience. Attorney modern positive heart mission. Store rock grow once less major.\nFamily report hard time room. Public actually today safe."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47147
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 77023
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4905
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34560
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43579
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 137415,
+        "TotalApproved": 113547
+    },
+    "AdjusterDetails": {
+        "Name": "James David",
+        "ContactInformation": {
+            "Phone": "860-299-1962",
+            "Email": "vboyer@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a2610638-f0a1-4643-955b-dc99f581ada8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-02T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-07T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-12T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

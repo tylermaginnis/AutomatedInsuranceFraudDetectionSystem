@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a7a40dc3-cb16-47ef-b2b6-429c4fdb61cc",
+    "PolicyID": "f3b7fec5-0ac5-4105-8a8f-40411d52689a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-21",
+        "EndDate": "2024-10-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6b5806d0-0564-4f34-88a1-35621e3a4fe6",
+        "Name": "Jessica Martinez",
+        "PolicyNumber": "f3b7fec5-0ac5-4105-8a8f-40411d52689a",
+        "ContactInformation": {
+            "Phone": "533-915-3212x261",
+            "Email": "jacobhansen@example.net",
+            "Address": "1391 Buck Forest\nLake Jamie, NC 66147"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-11",
+        "Location": "81839 Castro Rapids\nArmstrongville, GU 01272",
+        "Description": "Data unit never measure practice leave. Grow either perform special successful close."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47863
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3386
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37284
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4803
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3001
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157693,
+        "TotalApproved": 140398
+    },
+    "AdjusterDetails": {
+        "Name": "Emily Herrera",
+        "ContactInformation": {
+            "Phone": "958-892-7646x6078",
+            "Email": "ashleyblankenship@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/95043eb7-5b3a-4287-bf81-83d4423793df"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-11T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-16T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-21T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

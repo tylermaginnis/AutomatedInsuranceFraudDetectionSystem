@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3a28005c-965d-4621-b5aa-83ccdfc18056",
+    "PolicyID": "680a7d56-80dd-47f5-a2e4-ad5dca0fefad",
+    "EffectiveDates": {
+        "StartDate": "2024-07-23",
+        "EndDate": "2025-07-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b17ceed-cc02-48a9-be93-c73cf22be687",
+        "Name": "John Anderson",
+        "PolicyNumber": "680a7d56-80dd-47f5-a2e4-ad5dca0fefad",
+        "ContactInformation": {
+            "Phone": "(805)516-7852x741",
+            "Email": "maxwelldebra@example.org",
+            "Address": "5218 Eaton Villages\nRushport, KY 18016"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-26",
+        "Location": "09911 Jessica Mount Apt. 825\nNorth Evanhaven, PA 33290",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 90222
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36140
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9759
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26795
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9242
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 172158,
+        "TotalApproved": 40383
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Navarro",
+        "ContactInformation": {
+            "Phone": "+1-291-772-8845x24640",
+            "Email": "dthompson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ac6268fc-e026-468c-aa24-bf6f7be8cfb4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-26T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-31T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-05T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

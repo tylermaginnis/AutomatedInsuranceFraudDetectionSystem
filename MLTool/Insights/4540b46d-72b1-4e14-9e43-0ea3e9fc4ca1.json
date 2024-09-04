@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4540b46d-72b1-4e14-9e43-0ea3e9fc4ca1",
+    "PolicyID": "8bc2d8a1-d360-47cb-8e20-7ea887a8ed55",
+    "EffectiveDates": {
+        "StartDate": "2024-02-04",
+        "EndDate": "2025-02-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "36a987a8-4e46-42e9-a87d-403fc497bad6",
+        "Name": "Alyssa Hanson",
+        "PolicyNumber": "8bc2d8a1-d360-47cb-8e20-7ea887a8ed55",
+        "ContactInformation": {
+            "Phone": "340.249.4453x998",
+            "Email": "thompsonjared@example.com",
+            "Address": "4359 Nguyen Valley Suite 987\nPort Tony, RI 83232"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-12",
+        "Location": "27378 Amanda Gateway\nLake Alexis, IL 27876",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 61137
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35903
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5501
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17850
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6108
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 126499,
+        "TotalApproved": 90623
+    },
+    "AdjusterDetails": {
+        "Name": "John Johnson",
+        "ContactInformation": {
+            "Phone": "+1-727-704-3960",
+            "Email": "xhernandez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/817ffdac-c8e6-4e3c-8c07-824e9ceab343"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-12T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-17T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-22T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9a516104-08fb-43db-a294-97a979d3276f",
+    "PolicyID": "d1d5b261-9b20-44b6-b539-7a998a4b3430",
+    "EffectiveDates": {
+        "StartDate": "2024-04-25",
+        "EndDate": "2025-04-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "349a5e6e-abee-4fc0-93ff-a7c645427042",
+        "Name": "Marissa Henderson",
+        "PolicyNumber": "d1d5b261-9b20-44b6-b539-7a998a4b3430",
+        "ContactInformation": {
+            "Phone": "355.484.5649x2516",
+            "Email": "meghan20@example.com",
+            "Address": "30856 Ashley Shoals Apt. 889\nCraigport, PA 88100"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-20",
+        "Location": "5053 Zavala Avenue\nRebeccahaven, LA 65333",
+        "Description": "Physical training forget fear risk. Night sign reason current present section military girl.\nUse dog choice authority. Argue base west rich maybe."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 159003
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7378
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2089
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 165156
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19160
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 74843,
+        "TotalApproved": 18252
+    },
+    "AdjusterDetails": {
+        "Name": "Gina Ortiz",
+        "ContactInformation": {
+            "Phone": "+1-559-211-7331x97164",
+            "Email": "snelson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/32a86b18-bd43-4a6b-b964-52229a9cb863"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-20T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-25T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-30T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

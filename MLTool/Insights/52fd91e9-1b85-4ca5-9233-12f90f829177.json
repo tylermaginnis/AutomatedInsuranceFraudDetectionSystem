@@ -1,0 +1,81 @@
+{
+    "ClaimID": "52fd91e9-1b85-4ca5-9233-12f90f829177",
+    "PolicyID": "65cf49f3-6a2b-4740-8872-5a13c2ee3d6f",
+    "EffectiveDates": {
+        "StartDate": "2024-06-18",
+        "EndDate": "2025-06-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "83ff445f-0cf4-4ab1-bc62-841caa9a7fc3",
+        "Name": "Thomas Rice",
+        "PolicyNumber": "65cf49f3-6a2b-4740-8872-5a13c2ee3d6f",
+        "ContactInformation": {
+            "Phone": "001-509-424-2191x832",
+            "Email": "gharris@example.com",
+            "Address": "6858 Larson Drives\nChristopherport, AK 43768"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-23",
+        "Location": "44447 Griffin Forest Suite 928\nStephenside, OK 52928",
+        "Description": "Hair former since north anyone. Go population say west need.\nCommercial and old suddenly lawyer nice. Office Mr street music. Heavy her central chair forget discuss."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43857
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45747
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9174
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 95331
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33602
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 158703,
+        "TotalApproved": 25338
+    },
+    "AdjusterDetails": {
+        "Name": "Wayne Green",
+        "ContactInformation": {
+            "Phone": "001-677-887-0652",
+            "Email": "jordanburns@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d8ebcfcd-718f-4650-abf6-6cb187c18a71"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

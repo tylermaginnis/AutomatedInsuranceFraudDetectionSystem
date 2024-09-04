@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7fe11079-d18a-413e-9a37-3375e75ca8a5",
+    "PolicyID": "e2fa85e2-9982-4dc3-ad45-a90193a8d766",
+    "EffectiveDates": {
+        "StartDate": "2024-05-08",
+        "EndDate": "2025-05-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9607cc03-91c5-4a92-a86f-15dcbffa1835",
+        "Name": "Brent Thomas",
+        "PolicyNumber": "e2fa85e2-9982-4dc3-ad45-a90193a8d766",
+        "ContactInformation": {
+            "Phone": "(729)423-1134x46615",
+            "Email": "michael84@example.org",
+            "Address": "USNS Johnston\nFPO AE 61255"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-19",
+        "Location": "648 Ramirez Villages\nSouth Kenneth, SD 21733",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 60770
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34270
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7609
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18942
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13381
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 134972,
+        "TotalApproved": 40973
+    },
+    "AdjusterDetails": {
+        "Name": "Kendra Wright",
+        "ContactInformation": {
+            "Phone": "9243250470",
+            "Email": "icarpenter@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/90b9c60a-1510-4094-bb0b-def68eae8e4b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-19T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-24T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-29T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

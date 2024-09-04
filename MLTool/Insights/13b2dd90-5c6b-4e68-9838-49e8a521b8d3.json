@@ -1,0 +1,81 @@
+{
+    "ClaimID": "13b2dd90-5c6b-4e68-9838-49e8a521b8d3",
+    "PolicyID": "50f2930b-7a3c-493d-8b9d-64ae80645790",
+    "EffectiveDates": {
+        "StartDate": "2024-02-19",
+        "EndDate": "2025-02-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "55b01935-ddde-46f9-b780-f89920a7edcd",
+        "Name": "Lisa Shepherd DDS",
+        "PolicyNumber": "50f2930b-7a3c-493d-8b9d-64ae80645790",
+        "ContactInformation": {
+            "Phone": "(431)365-8252",
+            "Email": "thorntonjames@example.net",
+            "Address": "991 William Locks\nEast Laurie, TN 97907"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-02",
+        "Location": "09739 Teresa Walk\nNew Mark, CA 58922",
+        "Description": "Should kitchen simple understand meeting increase. Such happen investment. Garden usually small floor avoid power strong. Specific question certain investment field."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18771
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12648
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6895
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2381
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13814
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151762,
+        "TotalApproved": 96149
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Diaz",
+        "ContactInformation": {
+            "Phone": "600-883-7288",
+            "Email": "johnsoncynthia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0c7f1a7c-506e-45dc-b935-cf6252154f56"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

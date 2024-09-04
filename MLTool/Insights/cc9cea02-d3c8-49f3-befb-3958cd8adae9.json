@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cc9cea02-d3c8-49f3-befb-3958cd8adae9",
+    "PolicyID": "5cb1fb61-29b8-434c-b0e8-324330434450",
+    "EffectiveDates": {
+        "StartDate": "2024-02-27",
+        "EndDate": "2025-02-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ebb65137-2f67-4b97-9ded-d8873c4d1bac",
+        "Name": "Ariel Cruz",
+        "PolicyNumber": "5cb1fb61-29b8-434c-b0e8-324330434450",
+        "ContactInformation": {
+            "Phone": "001-235-781-6982",
+            "Email": "imills@example.com",
+            "Address": "447 Sarah Cove\nBowmanton, AZ 94565"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-30",
+        "Location": "7751 Barrett Corners Suite 794\nNorth Stephenview, VT 91503",
+        "Description": "Trouble instead light learn experience sea. Rich eye box network section. Thank wish myself.\nSchool attention me teacher brother indeed course own. Discover consumer everybody majority."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 92241
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9928
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19446
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10469
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 99876
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 102717,
+        "TotalApproved": 7284
+    },
+    "AdjusterDetails": {
+        "Name": "Edwin Hart",
+        "ContactInformation": {
+            "Phone": "575-990-2004x031",
+            "Email": "vsilva@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/aec70549-323c-4ec2-ab07-8e524f5f628d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-30T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-05T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-10T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

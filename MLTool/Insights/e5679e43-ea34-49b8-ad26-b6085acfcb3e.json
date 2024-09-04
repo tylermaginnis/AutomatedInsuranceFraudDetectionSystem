@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e5679e43-ea34-49b8-ad26-b6085acfcb3e",
+    "PolicyID": "9c72b5fc-b95f-4e0d-9da1-379ed7550bdb",
+    "EffectiveDates": {
+        "StartDate": "2024-04-20",
+        "EndDate": "2025-04-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "627bb9a1-c2af-4e6b-b87b-e0bd66881323",
+        "Name": "Kevin Scott",
+        "PolicyNumber": "9c72b5fc-b95f-4e0d-9da1-379ed7550bdb",
+        "ContactInformation": {
+            "Phone": "+1-507-943-0683x4655",
+            "Email": "douglas13@example.org",
+            "Address": "3638 Thomas Glen\nPort Dawnhaven, CA 85177"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-05",
+        "Location": "1964 Parker Cove\nPort Amandaland, VT 08270",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 62300
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39330
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7858
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25536
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7923
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 142947,
+        "TotalApproved": 20946
+    },
+    "AdjusterDetails": {
+        "Name": "John Rollins",
+        "ContactInformation": {
+            "Phone": "+1-825-614-7720x368",
+            "Email": "debratodd@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/08a81cd0-ffda-4dcd-8b29-99cda5957333"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

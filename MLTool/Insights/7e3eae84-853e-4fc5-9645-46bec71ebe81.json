@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7e3eae84-853e-4fc5-9645-46bec71ebe81",
+    "PolicyID": "f0f46119-64cb-4741-a5d0-e0fba7946c66",
+    "EffectiveDates": {
+        "StartDate": "2023-12-04",
+        "EndDate": "2024-12-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d96f645c-67f2-4b46-97bb-58cb9720658a",
+        "Name": "Jasmine Caldwell",
+        "PolicyNumber": "f0f46119-64cb-4741-a5d0-e0fba7946c66",
+        "ContactInformation": {
+            "Phone": "265-557-6998",
+            "Email": "gomezjeremy@example.net",
+            "Address": "2770 Hart Port\nNew Samantha, SD 46691"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-20",
+        "Location": "215 Fitzpatrick Motorway\nClementsville, TX 75109",
+        "Description": "Herself manager week politics born. Affect oil real simple energy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17377
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1654
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4069
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3468
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 82249
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 35688,
+        "TotalApproved": 31083
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Williams",
+        "ContactInformation": {
+            "Phone": "(842)314-3024",
+            "Email": "martinruben@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/3695c7c6-17ca-43e9-818f-1265df49c363"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-20T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-25T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

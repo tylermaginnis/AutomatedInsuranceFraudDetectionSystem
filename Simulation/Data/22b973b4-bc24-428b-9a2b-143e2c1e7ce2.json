@@ -1,0 +1,80 @@
+{
+  "ClaimID": "22b973b4-bc24-428b-9a2b-143e2c1e7ce2",
+  "PolicyID": "5fbfb53e-6eda-43bb-ada0-044d79d0eb77",
+  "EffectiveDates": {
+    "StartDate": "2024-05-29",
+    "EndDate": "2025-05-29"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "220007f8-3f73-47c4-b362-c93cda193699",
+    "Name": "Michael English",
+    "PolicyNumber": "5fbfb53e-6eda-43bb-ada0-044d79d0eb77",
+    "ContactInformation": {
+      "Phone": "+1-528-941-0331x9248",
+      "Email": "osanders@example.org",
+      "Address": "755 Barron Prairie Apt. 453\nLake Ashleymouth, MD 84530"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-14",
+    "Location": "102 Sean Lodge\nJacobfurt, FL 45292",
+    "Description": "Themselves environmental at difficult back indeed. Can medical affect development field. Base operation study particularly organization fall.\nAfter carry sing education."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 87572
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8395
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 17328
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6211
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 37162
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 129651,
+    "TotalApproved": 8678
+  },
+  "AdjusterDetails": {
+    "Name": "Diamond Carey",
+    "ContactInformation": {
+      "Phone": "(765)703-8807",
+      "Email": "karenperez@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/25c3cadc-8bb9-45d8-99e0-3d07e9837ab5"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-14T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-19T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-24T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9ed45c0c-b636-4fe7-ab32-7612d500af0c",
+  "PolicyID": "850c50cc-7d12-4d96-937b-e6592d52e379",
+  "EffectiveDates": {
+    "StartDate": "2024-01-29",
+    "EndDate": "2025-01-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "01e98eae-4a12-43af-acca-1001f8ddd162",
+    "Name": "Mrs. Jessica Green",
+    "PolicyNumber": "850c50cc-7d12-4d96-937b-e6592d52e379",
+    "ContactInformation": {
+      "Phone": "249.272.1202x73072",
+      "Email": "jennifer32@example.com",
+      "Address": "751 Jasmine Manor\nNew Madison, VA 73264"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-24",
+    "Location": "1600 Fowler Fields\nJohnsonmouth, ID 89393",
+    "Description": "Seek travel why interest really one outside. Win like determine chair kitchen less. Any receive dream resource believe."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 40496
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5879
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 12924
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 15922
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4251
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 60525,
+    "TotalApproved": 25139
+  },
+  "AdjusterDetails": {
+    "Name": "Daniel Miles",
+    "ContactInformation": {
+      "Phone": "443-221-6385x639",
+      "Email": "aboyer@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/3abaa524-1b62-4f5a-95d9-4547811224a8"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-24T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-29T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-03T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

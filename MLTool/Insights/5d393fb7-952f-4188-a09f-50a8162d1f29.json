@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5d393fb7-952f-4188-a09f-50a8162d1f29",
+    "PolicyID": "0de6c23f-cd8c-4aea-ad71-4b17c0a22a78",
+    "EffectiveDates": {
+        "StartDate": "2024-06-01",
+        "EndDate": "2025-06-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8ccff113-04d0-4fa3-bbbf-dd9e0588017e",
+        "Name": "Aaron Lawrence",
+        "PolicyNumber": "0de6c23f-cd8c-4aea-ad71-4b17c0a22a78",
+        "ContactInformation": {
+            "Phone": "324.939.6709",
+            "Email": "theresa00@example.com",
+            "Address": "72342 Williams Lakes\nWest Maryside, WY 90528"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-16",
+        "Location": "897 Robert Pike Apt. 460\nPort Tyrone, AZ 38156",
+        "Description": "Service service list later ever dinner. Story heavy after receive bank hand. Able common involve.\nYoung with enough hold. Reason care be share manage."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31355
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4217
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3664
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5289
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46973
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 147456,
+        "TotalApproved": 14671
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Lopez",
+        "ContactInformation": {
+            "Phone": "+1-373-952-2934",
+            "Email": "patrickdelacruz@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e1e0f75f-46cc-4ecb-94d8-e17561be705e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

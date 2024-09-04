@@ -1,0 +1,81 @@
+{
+    "ClaimID": "efc47edc-3c60-4187-a4ac-7281aac41ca3",
+    "PolicyID": "d2ecf82b-813b-4b5b-b1fe-048c16d1c179",
+    "EffectiveDates": {
+        "StartDate": "2023-09-07",
+        "EndDate": "2024-09-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d520496b-e7c1-44ab-85d2-27802eee3818",
+        "Name": "Alice Rios",
+        "PolicyNumber": "d2ecf82b-813b-4b5b-b1fe-048c16d1c179",
+        "ContactInformation": {
+            "Phone": "001-203-456-1751x558",
+            "Email": "omarquez@example.org",
+            "Address": "7609 Jessica Manor Suite 287\nAaronville, NV 66330"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-15",
+        "Location": "963 Martinez Glens\nSouth Alison, NM 13136",
+        "Description": "Nothing toward Republican difficult easy. End again business sport crime character tree. Week who very board three simple."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24001
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4756
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13815
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3942
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 78081
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 13228,
+        "TotalApproved": 4030
+    },
+    "AdjusterDetails": {
+        "Name": "Carolyn Hernandez",
+        "ContactInformation": {
+            "Phone": "267.813.0286x924",
+            "Email": "ashley04@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/176dc6ab-1afb-4a4f-b177-e1f6a2ff6cde"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-15T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-20T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-25T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

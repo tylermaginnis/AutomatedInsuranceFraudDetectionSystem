@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fa8fd88c-ce71-403a-8b77-dbd09deb20c7",
+    "PolicyID": "5658a141-3e68-4820-baec-71d26a8f3087",
+    "EffectiveDates": {
+        "StartDate": "2024-05-03",
+        "EndDate": "2025-05-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d31bfd90-ab5d-4f63-95fe-76bdcceb41a7",
+        "Name": "Belinda Johnson",
+        "PolicyNumber": "5658a141-3e68-4820-baec-71d26a8f3087",
+        "ContactInformation": {
+            "Phone": "719-816-3467",
+            "Email": "christopherwalker@example.com",
+            "Address": "PSC 6598, Box 6782\nAPO AA 29771"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-12",
+        "Location": "9700 Lindsey Fork Suite 996\nCorybury, NV 41800",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 87985
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23503
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5198
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 28250
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8833
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 153769,
+        "TotalApproved": 121503
+    },
+    "AdjusterDetails": {
+        "Name": "Janet Henry",
+        "ContactInformation": {
+            "Phone": "867-860-1111",
+            "Email": "tim91@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0e887ad6-ed35-469a-be86-612b4d730551"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-12T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-17T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-22T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

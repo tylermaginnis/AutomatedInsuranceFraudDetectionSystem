@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7dd89d10-ccb0-45da-9765-ef8fe421a559",
+    "PolicyID": "a1a41279-b082-432c-9983-c89e9698f1ae",
+    "EffectiveDates": {
+        "StartDate": "2024-08-13",
+        "EndDate": "2025-08-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a9844fbc-de33-4303-97a1-5ee5e352b424",
+        "Name": "Patrick Hall",
+        "PolicyNumber": "a1a41279-b082-432c-9983-c89e9698f1ae",
+        "ContactInformation": {
+            "Phone": "462-373-0728x3035",
+            "Email": "nguyentroy@example.org",
+            "Address": "2859 Evans Trafficway Suite 745\nYorkborough, AZ 19818"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-05",
+        "Location": "730 Darren Grove\nJenningsside, MN 52913",
+        "Description": "Development long gas high. Red paper day throughout wall. Off change son great."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 48237
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4709
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8834
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49457
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16167
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 172671,
+        "TotalApproved": 74054
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Wright",
+        "ContactInformation": {
+            "Phone": "206.709.5135",
+            "Email": "xrivers@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b526f53b-b20b-4607-93b1-a0f43f9f562c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8d98fd14-3c41-44cb-ae45-9bd200acd21f",
+    "PolicyID": "c530e7e5-a45a-4e01-841b-505d48249bf6",
+    "EffectiveDates": {
+        "StartDate": "2023-09-15",
+        "EndDate": "2024-09-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "da0201d1-0930-40b6-a7ae-384b6f175260",
+        "Name": "Andrew Moore",
+        "PolicyNumber": "c530e7e5-a45a-4e01-841b-505d48249bf6",
+        "ContactInformation": {
+            "Phone": "001-770-697-2007x0921",
+            "Email": "javier63@example.org",
+            "Address": "28208 Vanessa Turnpike\nPort Lindsay, WV 37000"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-16",
+        "Location": "90560 Ashlee Expressway Suite 983\nEvanschester, TX 36191",
+        "Description": "Son benefit parent. Reduce many add fill. Seat threat require parent American entire reason.\nTelevision left attorney right ball unit major. Now picture practice."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9149
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6007
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 82976
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17125
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6994
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 106188,
+        "TotalApproved": 56398
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Gray",
+        "ContactInformation": {
+            "Phone": "966-391-4030",
+            "Email": "jestrada@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/828767b5-7851-46a7-9763-f64d294c6881"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-16T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-21T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-26T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

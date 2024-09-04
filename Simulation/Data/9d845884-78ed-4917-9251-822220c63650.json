@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9d845884-78ed-4917-9251-822220c63650",
+  "PolicyID": "56401de8-a3bc-46b3-87bc-de7092bf1a2e",
+  "EffectiveDates": {
+    "StartDate": "2023-10-28",
+    "EndDate": "2024-10-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ae82256c-579d-4c3a-afc0-404ca57dc214",
+    "Name": "Bradley Snyder DVM",
+    "PolicyNumber": "56401de8-a3bc-46b3-87bc-de7092bf1a2e",
+    "ContactInformation": {
+      "Phone": "(723)265-9327x733",
+      "Email": "sellersmercedes@example.org",
+      "Address": "0506 Peterson Corner Suite 287\nCarlyburgh, FM 98234"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-30",
+    "Location": "011 Corey Flat\nNorth Manuelview, GU 77607",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 80969
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 32710
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9680
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 16912
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 17973
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 158244,
+    "TotalApproved": 26651
+  },
+  "AdjusterDetails": {
+    "Name": "Matthew Rubio",
+    "ContactInformation": {
+      "Phone": "977-630-6968",
+      "Email": "xmartin@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/7fd75cd2-ae07-4fb6-b27f-8ba563aa61f8"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-30T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-04T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-09T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

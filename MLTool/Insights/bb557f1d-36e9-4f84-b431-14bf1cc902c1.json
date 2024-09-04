@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bb557f1d-36e9-4f84-b431-14bf1cc902c1",
+    "PolicyID": "bd6e97b8-899b-46f1-a5a3-007f7f2e0172",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f80ec4c5-5e67-4111-b6f3-275a36871209",
+        "Name": "Amanda Berry",
+        "PolicyNumber": "bd6e97b8-899b-46f1-a5a3-007f7f2e0172",
+        "ContactInformation": {
+            "Phone": "001-959-537-5289x257",
+            "Email": "ashley05@example.net",
+            "Address": "7118 Scott Squares Apt. 660\nWest Christopherside, GU 93745"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-05",
+        "Location": "10313 Matthew Center\nWest Anthonyberg, PR 42193",
+        "Description": "Half could series subject expect include task hot. Station tree billion table still week party. Sort type test economy.\nBody oil church majority heart."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21934
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9555
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 65493
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2848
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7357
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 122468,
+        "TotalApproved": 111206
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Gallagher",
+        "ContactInformation": {
+            "Phone": "001-771-779-4627x84826",
+            "Email": "zcolon@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4437e926-ec84-4f45-a70d-56a6c85e020e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

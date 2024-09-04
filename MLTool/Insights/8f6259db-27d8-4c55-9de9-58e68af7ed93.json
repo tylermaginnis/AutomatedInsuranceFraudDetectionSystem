@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8f6259db-27d8-4c55-9de9-58e68af7ed93",
+    "PolicyID": "81188f6a-de87-4630-9cb5-85f24a2cce5c",
+    "EffectiveDates": {
+        "StartDate": "2023-11-29",
+        "EndDate": "2024-11-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a06029ff-53e7-40aa-b88e-9425480121fc",
+        "Name": "Robert Moreno",
+        "PolicyNumber": "81188f6a-de87-4630-9cb5-85f24a2cce5c",
+        "ContactInformation": {
+            "Phone": "(982)776-9864x46451",
+            "Email": "john05@example.org",
+            "Address": "965 Lopez Springs\nNew Katherineton, SC 82307"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-25",
+        "Location": "1250 Timothy Creek Suite 790\nNorth Lori, PA 64324",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 67764
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33907
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9905
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16690
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18616
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 146882,
+        "TotalApproved": 146091
+    },
+    "AdjusterDetails": {
+        "Name": "Erica Bailey",
+        "ContactInformation": {
+            "Phone": "283-288-8977x0343",
+            "Email": "williamdean@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a228bd41-aeca-4e53-9fd0-7dceb4499d9a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-25T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-30T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-05T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

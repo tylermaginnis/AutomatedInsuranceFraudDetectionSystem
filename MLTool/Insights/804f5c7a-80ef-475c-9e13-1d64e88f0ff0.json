@@ -1,0 +1,81 @@
+{
+    "ClaimID": "804f5c7a-80ef-475c-9e13-1d64e88f0ff0",
+    "PolicyID": "cb6d3484-57f5-4648-9b43-fe60caf7e14b",
+    "EffectiveDates": {
+        "StartDate": "2024-07-22",
+        "EndDate": "2025-07-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b055801d-7199-49ab-91e8-327cc87fc666",
+        "Name": "Stephen Davis",
+        "PolicyNumber": "cb6d3484-57f5-4648-9b43-fe60caf7e14b",
+        "ContactInformation": {
+            "Phone": "723-322-1087",
+            "Email": "nweaver@example.net",
+            "Address": "356 Emily Hill\nLake Melissaville, PA 79541"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-07",
+        "Location": "60642 Sean Street\nNew Jeffrey, MH 04745",
+        "Description": "Color some however explain. Likely share choose deep military happen computer.\nFive accept base indeed however. Congress blue live. Choose particular focus list doctor. Loss part analysis ok."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 190441
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9079
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 182326
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31077
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19934
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 64984,
+        "TotalApproved": 29933
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Moreno",
+        "ContactInformation": {
+            "Phone": "589-551-9199x36961",
+            "Email": "qramirez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/97922be2-c6a4-4a08-b8b6-08d8ddd64f40"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-07T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-12T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-17T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

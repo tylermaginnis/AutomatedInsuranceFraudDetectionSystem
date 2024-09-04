@@ -1,0 +1,81 @@
+{
+    "ClaimID": "919aa91c-5464-4601-a7b0-09bb31c75f26",
+    "PolicyID": "a2e4aaf5-5ca6-4191-82e1-7f556de92bc2",
+    "EffectiveDates": {
+        "StartDate": "2024-08-22",
+        "EndDate": "2025-08-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "67c9a1b0-3503-45fc-a60c-d3e784faf7b2",
+        "Name": "Heather Baker",
+        "PolicyNumber": "a2e4aaf5-5ca6-4191-82e1-7f556de92bc2",
+        "ContactInformation": {
+            "Phone": "001-337-564-1641x31652",
+            "Email": "butlerkimberly@example.com",
+            "Address": "Unit 5203 Box 5035\nDPO AA 75738"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-21",
+        "Location": "8563 Guerra Causeway\nEast Christopher, MH 29007",
+        "Description": "Organization draw far head. Road dark buy water. Listen once place information music represent land."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6462
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9473
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22894
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1089
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 132216
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 193773,
+        "TotalApproved": 71390
+    },
+    "AdjusterDetails": {
+        "Name": "Carrie Snyder",
+        "ContactInformation": {
+            "Phone": "+1-919-286-0216x9384",
+            "Email": "sarah90@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/121a1230-2850-49e9-b7ff-40cec64aed84"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

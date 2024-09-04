@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c1d4fbab-5a6d-4bf9-a51b-8f69b5b8fb28",
+  "PolicyID": "56801c97-1ce1-4c40-93e7-2a436b26620a",
+  "EffectiveDates": {
+    "StartDate": "2024-05-15",
+    "EndDate": "2025-05-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8850e1fa-d4c4-4e6a-92fa-cbb7c10ba323",
+    "Name": "Thomas Nelson",
+    "PolicyNumber": "56801c97-1ce1-4c40-93e7-2a436b26620a",
+    "ContactInformation": {
+      "Phone": "(475)665-9756",
+      "Email": "johnsongary@example.org",
+      "Address": "40008 Atkinson Street\nVasquezville, MP 07737"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-29",
+    "Location": "36727 Parker Spring Suite 897\nEast Carl, SC 68223",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 85282
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 48658
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5004
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16660
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 17098
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 172702,
+    "TotalApproved": 28414
+  },
+  "AdjusterDetails": {
+    "Name": "Tracy Freeman",
+    "ContactInformation": {
+      "Phone": "836-948-8706x78401",
+      "Email": "jaredmccoy@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/4ae813d0-d9e3-4ea5-b83f-483381f26f90"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-29T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-04T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-09T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

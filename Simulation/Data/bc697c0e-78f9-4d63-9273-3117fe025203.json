@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bc697c0e-78f9-4d63-9273-3117fe025203",
+  "PolicyID": "6f3e1a5b-50ff-4fa4-9f8a-dd96be34f893",
+  "EffectiveDates": {
+    "StartDate": "2024-05-31",
+    "EndDate": "2025-05-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0f44ccdd-2671-44cd-998b-2ce89872968f",
+    "Name": "Jonathan Harrison",
+    "PolicyNumber": "6f3e1a5b-50ff-4fa4-9f8a-dd96be34f893",
+    "ContactInformation": {
+      "Phone": "+1-387-671-2661x804",
+      "Email": "greenrobin@example.com",
+      "Address": "8033 Thomas Canyon Suite 934\nPettychester, LA 33914"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-04",
+    "Location": "Unit 4666 Box 6053\nDPO AP 12335",
+    "Description": "Great wind explain part. Soldier receive off trouble in. Represent know red.\nMessage yeah itself. Sea yard president population likely soon. Without quality move prepare."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2139
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 49422
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1237
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 46682
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 85502
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 55601,
+    "TotalApproved": 3861
+  },
+  "AdjusterDetails": {
+    "Name": "John Williams",
+    "ContactInformation": {
+      "Phone": "955.701.1799",
+      "Email": "thomas49@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/e7efcf43-b616-4078-9628-09e34bf8f7cf"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-04T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-09T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-14T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

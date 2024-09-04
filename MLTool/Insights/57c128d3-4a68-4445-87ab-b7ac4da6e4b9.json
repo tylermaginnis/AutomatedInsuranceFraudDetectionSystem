@@ -1,0 +1,81 @@
+{
+    "ClaimID": "57c128d3-4a68-4445-87ab-b7ac4da6e4b9",
+    "PolicyID": "da07cbc8-b69e-4c4d-be70-2bb56808ca82",
+    "EffectiveDates": {
+        "StartDate": "2024-07-30",
+        "EndDate": "2025-07-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c83c0a1a-d8df-408c-b485-a13a5aeb33f4",
+        "Name": "Eric Smith",
+        "PolicyNumber": "da07cbc8-b69e-4c4d-be70-2bb56808ca82",
+        "ContactInformation": {
+            "Phone": "740-293-2242x95478",
+            "Email": "michaeljohnson@example.com",
+            "Address": "266 Mary Manor Suite 079\nKennethside, HI 28210"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-25",
+        "Location": "7739 Kim Flats\nNicholasfurt, MS 39759",
+        "Description": "Show maybe art later language wonder rich although.\nArtist decide ago risk worry. Study identify network dream of outside half. Necessary report may adult just quality."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7968
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12155
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1138
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 93361
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11449
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 140978,
+        "TotalApproved": 123090
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Stevenson",
+        "ContactInformation": {
+            "Phone": "349.859.2069",
+            "Email": "jillnelson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/16795622-0da9-4eb9-83c6-0c2ded1255dd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-30T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

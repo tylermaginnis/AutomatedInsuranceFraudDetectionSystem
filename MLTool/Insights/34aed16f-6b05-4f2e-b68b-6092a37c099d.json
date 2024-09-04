@@ -1,0 +1,81 @@
+{
+    "ClaimID": "34aed16f-6b05-4f2e-b68b-6092a37c099d",
+    "PolicyID": "6ccb5a69-a615-4ad1-a637-937e010b2bc7",
+    "EffectiveDates": {
+        "StartDate": "2024-07-21",
+        "EndDate": "2025-07-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "013adaa6-bbfc-4980-9f64-a069f4598819",
+        "Name": "Sarah Wilson",
+        "PolicyNumber": "6ccb5a69-a615-4ad1-a637-937e010b2bc7",
+        "ContactInformation": {
+            "Phone": "362-694-8197x211",
+            "Email": "jodom@example.net",
+            "Address": "9157 Lewis Union\nWest Matthewbury, WY 60997"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-18",
+        "Location": "819 Becky Rapid\nWilkinsonburgh, NC 40822",
+        "Description": "Worry professor behavior range page. Eight wife bring hundred.\nPractice show between body during quality fish. Employee after officer sister heart. Cultural best beautiful."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11629
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 146655
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19373
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15110
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25059
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 199673,
+        "TotalApproved": 105358
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Stephens",
+        "ContactInformation": {
+            "Phone": "3222080167",
+            "Email": "matakirsten@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c1bce77c-1d03-4451-94c1-882a81776eea"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-18T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-23T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-28T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "99e7b1cc-12d0-4b6e-acc8-b0451da15a8e",
+  "PolicyID": "0857a098-bb54-4f26-b82a-a77242a92702",
+  "EffectiveDates": {
+    "StartDate": "2024-01-25",
+    "EndDate": "2025-01-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "471a4f25-cb5f-4eea-855e-f5813405012d",
+    "Name": "Matthew Wright",
+    "PolicyNumber": "0857a098-bb54-4f26-b82a-a77242a92702",
+    "ContactInformation": {
+      "Phone": "001-751-862-4784x7552",
+      "Email": "hansenamy@example.com",
+      "Address": "23858 Michelle Circles\nAndrademouth, PR 47500"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-14",
+    "Location": "04532 Evelyn Lodge\nRayland, TX 11683",
+    "Description": "Great start must morning return physical thus. Eye trial instead their listen can low blue. Stuff chair grow writer. Poor rock past Mrs."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 115408
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 21939
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8318
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17925
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 16303
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 71259,
+    "TotalApproved": 26333
+  },
+  "AdjusterDetails": {
+    "Name": "Paul King",
+    "ContactInformation": {
+      "Phone": "001-718-911-9712",
+      "Email": "deborahalvarado@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/e014af3e-43a8-4271-9fdd-1247ff3a010c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-14T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-19T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-24T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

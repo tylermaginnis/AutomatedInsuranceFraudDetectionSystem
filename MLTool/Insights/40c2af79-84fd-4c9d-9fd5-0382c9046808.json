@@ -1,0 +1,81 @@
+{
+    "ClaimID": "40c2af79-84fd-4c9d-9fd5-0382c9046808",
+    "PolicyID": "ca6b94c8-8d47-48b8-b7b0-a7a778679624",
+    "EffectiveDates": {
+        "StartDate": "2023-10-18",
+        "EndDate": "2024-10-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "09d6a31c-cb8f-4b39-a1fa-29081135c5d3",
+        "Name": "Nicholas Rogers",
+        "PolicyNumber": "ca6b94c8-8d47-48b8-b7b0-a7a778679624",
+        "ContactInformation": {
+            "Phone": "490.898.6977x80029",
+            "Email": "ssmith@example.com",
+            "Address": "572 Malone Via\nDanielfurt, ID 49269"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-19",
+        "Location": "3465 Erin Spur\nWest Timothy, WA 97151",
+        "Description": "Your television use Congress drive.\nToward mention performance huge service along. Certainly family game and adult ahead. Feel country around service conference yes."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13638
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49310
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16941
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 55154
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21964
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 68110,
+        "TotalApproved": 12236
+    },
+    "AdjusterDetails": {
+        "Name": "Devon Powell",
+        "ContactInformation": {
+            "Phone": "841.908.5754",
+            "Email": "jlittle@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f9b637cc-c499-4574-bcc9-08cb3c92ebc1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-19T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-24T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-29T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c3fe2fb2-db5a-4391-9f2f-6dd01ba3f0c9",
+    "PolicyID": "952d86b6-9ca5-4fda-920e-6f6ca8e868e1",
+    "EffectiveDates": {
+        "StartDate": "2024-08-17",
+        "EndDate": "2025-08-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3da3b0d5-76ca-4baa-9add-780b7965cd01",
+        "Name": "William Marquez",
+        "PolicyNumber": "952d86b6-9ca5-4fda-920e-6f6ca8e868e1",
+        "ContactInformation": {
+            "Phone": "+1-674-284-2655x905",
+            "Email": "yramirez@example.com",
+            "Address": "38747 Wilkinson Lodge\nNavarroton, NJ 01415"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-08-02",
+        "Location": "95475 Adam Prairie Apt. 913\nCharlesport, DC 49065",
+        "Description": "Thousand sell our fish enough character mind. Drop soon seven suffer he. Rich good quite message night class.\nMorning worker everyone card.\nAdd five network money participant call."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22833
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20128
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2714
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17763
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3225
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 76602,
+        "TotalApproved": 6475
+    },
+    "AdjusterDetails": {
+        "Name": "Carrie Mcbride",
+        "ContactInformation": {
+            "Phone": "001-454-628-3542x477",
+            "Email": "paul83@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3f8ba9e4-a0c5-40e5-9cac-e8f81dfd2508"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-08-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

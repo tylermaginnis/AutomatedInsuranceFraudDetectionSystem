@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5a082f23-e23c-4c1c-845b-53b60c595c01",
+    "PolicyID": "d061521f-588b-4f92-8e90-15bbdcae8a19",
+    "EffectiveDates": {
+        "StartDate": "2024-08-02",
+        "EndDate": "2025-08-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0288cb97-21be-47d9-be80-44982af2e7dc",
+        "Name": "Alexis Hopkins",
+        "PolicyNumber": "d061521f-588b-4f92-8e90-15bbdcae8a19",
+        "ContactInformation": {
+            "Phone": "894.735.2837",
+            "Email": "vanderson@example.com",
+            "Address": "4251 Johnson Via\nHoganshire, ND 77037"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-16",
+        "Location": "Unit 2780 Box 2910\nDPO AP 88857",
+        "Description": "Fall change issue southern maybe same better they. Structure suggest moment. Type read authority institution into part.\nPressure no action choice stay series. Include experience receive."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19991
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 99438
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23297
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 79630
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2101
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 147927,
+        "TotalApproved": 95835
+    },
+    "AdjusterDetails": {
+        "Name": "William Martin",
+        "ContactInformation": {
+            "Phone": "2714832516",
+            "Email": "phillip17@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/ca8afafd-b207-45d3-8c4e-25f023c11906"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-16T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-21T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-26T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

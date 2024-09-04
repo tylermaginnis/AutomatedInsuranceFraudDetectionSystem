@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6e908aa7-7a06-4e25-9be9-1ba0bfb0da46",
+    "PolicyID": "8369fd3b-2ae6-4402-b299-90ab1fd5519f",
+    "EffectiveDates": {
+        "StartDate": "2024-02-01",
+        "EndDate": "2025-01-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "08e5999e-a8cf-4dbe-9eab-16cc2a746d88",
+        "Name": "Anthony Hutchinson",
+        "PolicyNumber": "8369fd3b-2ae6-4402-b299-90ab1fd5519f",
+        "ContactInformation": {
+            "Phone": "566-863-4797x38052",
+            "Email": "fsantiago@example.org",
+            "Address": "38463 Samantha Vista Apt. 770\nNorth Alison, AK 85002"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-14",
+        "Location": "143 Megan Field\nLeahside, UT 95237",
+        "Description": "Individual manager side fine throw none. Final table sister local final.\nSide about beyond consumer probably. Miss sing read join offer design room. General him ready chance.\nTop present hand."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1328
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 137742
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3522
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37554
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41491
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 50824,
+        "TotalApproved": 6550
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Thomas",
+        "ContactInformation": {
+            "Phone": "850.824.4186x08253",
+            "Email": "todd36@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/fca647bc-1702-42a4-a6b3-58a5b81bbcee"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

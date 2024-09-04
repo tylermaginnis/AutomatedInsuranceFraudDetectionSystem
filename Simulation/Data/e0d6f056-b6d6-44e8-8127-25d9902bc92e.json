@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e0d6f056-b6d6-44e8-8127-25d9902bc92e",
+  "PolicyID": "2ef0a7fe-6974-4e35-928d-1c4cf3756524",
+  "EffectiveDates": {
+    "StartDate": "2023-12-10",
+    "EndDate": "2024-12-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "de06f65d-e10b-4d56-ac52-384a860118ec",
+    "Name": "Lori Reynolds",
+    "PolicyNumber": "2ef0a7fe-6974-4e35-928d-1c4cf3756524",
+    "ContactInformation": {
+      "Phone": "001-800-707-8819x30448",
+      "Email": "edonaldson@example.net",
+      "Address": "72086 Roach Highway Apt. 568\nDeantown, IA 76226"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-17",
+    "Location": "6549 Archer Forge\nPort Hunter, VT 56691",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 78482
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 36432
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7962
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13764
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 10864
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 147504,
+    "TotalApproved": 17495
+  },
+  "AdjusterDetails": {
+    "Name": "John Richardson",
+    "ContactInformation": {
+      "Phone": "001-827-758-1054x51798",
+      "Email": "heatherlopez@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/9bd9dc68-5c5c-476d-9214-910323cf4f58"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-17T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-22T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-27T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

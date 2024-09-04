@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d21cc1e7-9694-4f6d-ad56-d1883ac53f51",
+    "PolicyID": "4cf67f4d-f3da-455e-85f4-89b99505a5a6",
+    "EffectiveDates": {
+        "StartDate": "2023-10-03",
+        "EndDate": "2024-10-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71455117-9bb4-4e42-a16c-53bcaaf2e534",
+        "Name": "Troy Estrada",
+        "PolicyNumber": "4cf67f4d-f3da-455e-85f4-89b99505a5a6",
+        "ContactInformation": {
+            "Phone": "3269797726",
+            "Email": "collinsdavid@example.org",
+            "Address": "357 Callahan Mountain\nNorth Mary, IL 64279"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-07",
+        "Location": "224 Bryan Track\nShaneton, DC 08982",
+        "Description": "Or expect door. Meeting interest east another.\nInterview book decide low might accept. Eight society police ten carry.\nEvidence impact group before again grow. Item hospital identify final."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2087
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 58319
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30726
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5137
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6581
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 172379,
+        "TotalApproved": 164777
+    },
+    "AdjusterDetails": {
+        "Name": "Tina Kelly",
+        "ContactInformation": {
+            "Phone": "(764)783-5927x758",
+            "Email": "hernandezerica@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/db741a59-3c88-462c-bf65-d981db137e8e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

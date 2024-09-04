@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4260d92d-e613-4142-b2ad-38206a83dcb5",
+    "PolicyID": "aa85173e-a1ef-4f7b-9f65-402cf01b5e4c",
+    "EffectiveDates": {
+        "StartDate": "2024-01-13",
+        "EndDate": "2025-01-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d57b5a18-a577-41c3-a00e-e8654ac84d1f",
+        "Name": "Rachael Kim",
+        "PolicyNumber": "aa85173e-a1ef-4f7b-9f65-402cf01b5e4c",
+        "ContactInformation": {
+            "Phone": "371-452-1617x745",
+            "Email": "wolfejerry@example.org",
+            "Address": "9174 Love Camp\nWest Sarah, AS 64201"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-30",
+        "Location": "281 Bethany Mission\nCarlaview, PR 69378",
+        "Description": "Great be table few its open. Chance seem try fear professional. Apply could fill almost paper religious."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2248
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8119
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 69679
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41562
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8924
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 132004,
+        "TotalApproved": 18349
+    },
+    "AdjusterDetails": {
+        "Name": "Erica Duke",
+        "ContactInformation": {
+            "Phone": "(768)505-5553x829",
+            "Email": "parsonslarry@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6469ebc8-5fb3-4220-bc42-b99065baa8a0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-05T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-10T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

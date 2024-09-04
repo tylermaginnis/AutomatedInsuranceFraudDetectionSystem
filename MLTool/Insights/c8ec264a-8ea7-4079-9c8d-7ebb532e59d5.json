@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c8ec264a-8ea7-4079-9c8d-7ebb532e59d5",
+    "PolicyID": "0fba27a9-2944-4ea5-88e2-e6a246e35440",
+    "EffectiveDates": {
+        "StartDate": "2024-07-04",
+        "EndDate": "2025-07-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bb7116a8-2856-476c-b0b4-5cfa21d373fd",
+        "Name": "Daniel Turner",
+        "PolicyNumber": "0fba27a9-2944-4ea5-88e2-e6a246e35440",
+        "ContactInformation": {
+            "Phone": "3122341467",
+            "Email": "mary82@example.org",
+            "Address": "0753 Bryce Mission Suite 977\nEast Lukeborough, UT 64433"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-09",
+        "Location": "7605 Simpson Vista Suite 866\nSouth Kennethfurt, MN 78765",
+        "Description": "Start five everything traditional machine ball. Statement court main cut black get."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46680
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34431
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 61788
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47110
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7516
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 21441,
+        "TotalApproved": 18459
+    },
+    "AdjusterDetails": {
+        "Name": "Andrea Hughes",
+        "ContactInformation": {
+            "Phone": "310-510-8652",
+            "Email": "hrowland@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/c3ceaa93-4190-4dcc-be50-fd6651c6027f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-09T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-14T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-19T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

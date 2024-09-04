@@ -1,0 +1,81 @@
+{
+    "ClaimID": "44506ffb-9a57-4ada-bb1a-f7d40ab28ffd",
+    "PolicyID": "8a9c287d-d3e7-4719-915b-842d7130a756",
+    "EffectiveDates": {
+        "StartDate": "2024-04-05",
+        "EndDate": "2025-04-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "37be6651-7dd8-4b88-b3d2-372a35ef95d8",
+        "Name": "Kimberly Ray",
+        "PolicyNumber": "8a9c287d-d3e7-4719-915b-842d7130a756",
+        "ContactInformation": {
+            "Phone": "001-799-327-6449",
+            "Email": "kelli02@example.com",
+            "Address": "53730 Nichole Streets Apt. 413\nRebeccatown, VA 08254"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-25",
+        "Location": "228 Larry Pike\nPort Richardchester, ID 59655",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 66720
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47343
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9462
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25729
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8756
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 158010,
+        "TotalApproved": 157971
+    },
+    "AdjusterDetails": {
+        "Name": "Chad Perez",
+        "ContactInformation": {
+            "Phone": "001-289-394-9446x0920",
+            "Email": "kbradford@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/21b9f1b6-35ae-4de1-9d19-c1c366207c10"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-25T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-30T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-04T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

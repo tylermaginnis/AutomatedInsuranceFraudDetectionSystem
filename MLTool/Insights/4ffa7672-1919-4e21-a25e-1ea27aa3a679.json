@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4ffa7672-1919-4e21-a25e-1ea27aa3a679",
+    "PolicyID": "b075a18f-0155-4397-adf5-7210a40aada9",
+    "EffectiveDates": {
+        "StartDate": "2024-08-30",
+        "EndDate": "2025-08-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "72766a78-d40b-4c7e-b0c0-a3584db43d11",
+        "Name": "Nicole Moreno",
+        "PolicyNumber": "b075a18f-0155-4397-adf5-7210a40aada9",
+        "ContactInformation": {
+            "Phone": "313-823-7030",
+            "Email": "ethan68@example.net",
+            "Address": "153 Glenn Shores Suite 644\nRobinhaven, WY 24229"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-12",
+        "Location": "18068 Wang Ridge\nRitterstad, GA 11309",
+        "Description": "Accept lose officer word several green employee in. Must smile lose let.\nSuch sit image four ever over you. Course dark common hold start."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 92390
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2877
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 93064
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6854
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19411
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 48559,
+        "TotalApproved": 19693
+    },
+    "AdjusterDetails": {
+        "Name": "Dean Alexander",
+        "ContactInformation": {
+            "Phone": "232-850-9754",
+            "Email": "itran@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/13624f8e-0532-4245-bbf9-28a1780d3b5c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-12T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-17T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-22T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

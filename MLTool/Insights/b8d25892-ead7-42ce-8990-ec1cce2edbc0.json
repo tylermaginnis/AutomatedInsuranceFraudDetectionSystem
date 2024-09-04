@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b8d25892-ead7-42ce-8990-ec1cce2edbc0",
+    "PolicyID": "89d1af40-83f7-4974-8bc3-d268d7b48ed8",
+    "EffectiveDates": {
+        "StartDate": "2024-04-25",
+        "EndDate": "2025-04-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7558a051-8ef9-43ca-b267-54041ac2c761",
+        "Name": "Allison Wilson",
+        "PolicyNumber": "89d1af40-83f7-4974-8bc3-d268d7b48ed8",
+        "ContactInformation": {
+            "Phone": "001-446-541-7364x1624",
+            "Email": "bennettlisa@example.net",
+            "Address": "895 Larry Cliff\nNew James, NE 05180"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-10",
+        "Location": "7510 Ayala Isle\nDunnburgh, MD 99200",
+        "Description": "Later total seven value. Next deal same. Which player watch base stay practice vote protect."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 30773
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9305
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39440
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2154
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15092
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 78659,
+        "TotalApproved": 40223
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Griffin",
+        "ContactInformation": {
+            "Phone": "001-890-826-3793",
+            "Email": "stewartmichele@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/95c27167-679e-438e-9c91-cea9fc1147a6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-10T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-15T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-20T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

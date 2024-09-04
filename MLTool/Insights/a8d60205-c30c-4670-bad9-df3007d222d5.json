@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a8d60205-c30c-4670-bad9-df3007d222d5",
+    "PolicyID": "5f9e6ee4-58ba-4caf-aaf5-81e44a63692a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-05",
+        "EndDate": "2024-10-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a0de03ca-6b92-4a04-8e2a-0320cf849c3b",
+        "Name": "Christine Wilkerson",
+        "PolicyNumber": "5f9e6ee4-58ba-4caf-aaf5-81e44a63692a",
+        "ContactInformation": {
+            "Phone": "458.252.9444x4673",
+            "Email": "christopher87@example.net",
+            "Address": "Unit 5931 Box 4091\nDPO AP 51804"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-23",
+        "Location": "715 Jennifer Roads\nGonzalezville, NC 91620",
+        "Description": "Society tonight mother course. Part large history argue sort finally education true.\nTree wind campaign so direction different guy impact. Our professional call Democrat board usually."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31752
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11734
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 48712
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 53747
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23947
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 164911,
+        "TotalApproved": 66007
+    },
+    "AdjusterDetails": {
+        "Name": "John Stewart",
+        "ContactInformation": {
+            "Phone": "314-743-0332",
+            "Email": "wilsonbrittany@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fd839511-89d4-4c14-99d5-5f42c4f060bd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-23T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-28T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-03T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

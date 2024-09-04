@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c159514c-148c-4354-bd65-aec8de42c23d",
+    "PolicyID": "98440dc2-9d77-4d75-ae52-3b2489b6fbe7",
+    "EffectiveDates": {
+        "StartDate": "2023-10-25",
+        "EndDate": "2024-10-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8e317293-148b-41d5-9690-8d1183810d27",
+        "Name": "Tamara Gibson",
+        "PolicyNumber": "98440dc2-9d77-4d75-ae52-3b2489b6fbe7",
+        "ContactInformation": {
+            "Phone": "(497)788-8888x43466",
+            "Email": "caseypage@example.net",
+            "Address": "4215 Ashley Heights Apt. 067\nNew Lisabury, SC 56925"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-04",
+        "Location": "Unit 8900 Box 5067\nDPO AA 83722",
+        "Description": "Year entire their then. Around big under eight hospital manager choice."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8083
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 59444
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 136508
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 172654
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17773
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 121179,
+        "TotalApproved": 116024
+    },
+    "AdjusterDetails": {
+        "Name": "Diamond Jones",
+        "ContactInformation": {
+            "Phone": "+1-799-986-0041x176",
+            "Email": "gbowen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0067c030-eeed-45ee-bd5f-1eff90c56510"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-04T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-09T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-14T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

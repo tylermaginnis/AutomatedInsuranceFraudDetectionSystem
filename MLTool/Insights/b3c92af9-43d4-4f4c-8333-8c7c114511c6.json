@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b3c92af9-43d4-4f4c-8333-8c7c114511c6",
+    "PolicyID": "3dd1958b-b9b4-41bf-ae1e-b47e71d286ba",
+    "EffectiveDates": {
+        "StartDate": "2024-05-11",
+        "EndDate": "2025-05-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6e96772a-946c-4890-adf2-b70c36efb644",
+        "Name": "Stephen Ingram",
+        "PolicyNumber": "3dd1958b-b9b4-41bf-ae1e-b47e71d286ba",
+        "ContactInformation": {
+            "Phone": "+1-924-666-9057x456",
+            "Email": "smithvincent@example.com",
+            "Address": "6900 Gonzalez Heights\nNew Ryan, AK 06816"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-17",
+        "Location": "4436 Nelson Stravenue Apt. 881\nKristinechester, PA 99065",
+        "Description": "Somebody scene adult imagine.\nMedia say themselves difference now. Personal major natural lay. Laugh herself reason care every."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 99895
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17600
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 68345
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 169660
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6452
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 193521,
+        "TotalApproved": 165960
+    },
+    "AdjusterDetails": {
+        "Name": "Melanie Kelly",
+        "ContactInformation": {
+            "Phone": "(485)891-4733x84157",
+            "Email": "jonathan18@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/21b34e19-7cb5-4665-99f2-56d0fd50e474"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-17T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-22T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-27T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

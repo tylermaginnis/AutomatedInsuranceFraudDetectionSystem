@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e76ef7a1-9728-450c-ad51-1a476173c91b",
+    "PolicyID": "330934c6-c206-492d-9db2-8b3a39da51ed",
+    "EffectiveDates": {
+        "StartDate": "2023-10-24",
+        "EndDate": "2024-10-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71d4aee0-53b7-4546-9859-da0073aacaa3",
+        "Name": "Edward Gardner",
+        "PolicyNumber": "330934c6-c206-492d-9db2-8b3a39da51ed",
+        "ContactInformation": {
+            "Phone": "263-324-8594",
+            "Email": "stewartandrew@example.org",
+            "Address": "84683 Sanchez Inlet\nDavishaven, WY 01748"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-16",
+        "Location": "79702 Haley Row\nAndrewport, WV 75321",
+        "Description": "Child party appear radio. Audience heavy material front business people economy resource.\nRecent vote much. Newspaper around society or marriage for common."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24633
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49000
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 70426
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22776
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5382
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 80910,
+        "TotalApproved": 19902
+    },
+    "AdjusterDetails": {
+        "Name": "Danielle Jones",
+        "ContactInformation": {
+            "Phone": "900-518-8226x9790",
+            "Email": "karensanders@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bdb1c1f2-d4a7-4165-b61f-0a5344778882"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-16T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-21T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-26T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

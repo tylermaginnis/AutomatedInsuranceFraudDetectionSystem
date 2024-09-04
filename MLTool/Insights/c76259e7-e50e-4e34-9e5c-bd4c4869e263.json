@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c76259e7-e50e-4e34-9e5c-bd4c4869e263",
+    "PolicyID": "e3b2b422-cd34-40b1-b761-9bb0af662a23",
+    "EffectiveDates": {
+        "StartDate": "2024-01-15",
+        "EndDate": "2025-01-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "17c2bb75-6f61-4c90-a80f-8ea50614ebed",
+        "Name": "Justin Harris",
+        "PolicyNumber": "e3b2b422-cd34-40b1-b761-9bb0af662a23",
+        "ContactInformation": {
+            "Phone": "640-945-2277x3819",
+            "Email": "fuentesjill@example.net",
+            "Address": "988 Sutton Gateway\nDustinbury, MS 71357"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-21",
+        "Location": "24393 Brady Court\nRangelmouth, IA 91123",
+        "Description": "Top huge would his within discover. Look tax ok affect investment alone military. Two our hand live.\nDraw best common after attention."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42665
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 114393
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 30377
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1854
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20873
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 122095,
+        "TotalApproved": 79257
+    },
+    "AdjusterDetails": {
+        "Name": "Tabitha Mcgee",
+        "ContactInformation": {
+            "Phone": "663.687.4402x300",
+            "Email": "frankthomas@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/83adc45f-3553-446c-baeb-6823584cb6b2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9c59fa8f-42fd-4b9d-a4b5-1130aec02f71",
+    "PolicyID": "fee28de2-fd28-4e40-893b-b2778b03c989",
+    "EffectiveDates": {
+        "StartDate": "2023-09-09",
+        "EndDate": "2024-09-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5bec907-5db5-415c-b9a1-1b935fef7117",
+        "Name": "Sarah Miller",
+        "PolicyNumber": "fee28de2-fd28-4e40-893b-b2778b03c989",
+        "ContactInformation": {
+            "Phone": "(805)917-2307x969",
+            "Email": "sandra12@example.org",
+            "Address": "1444 Ramos Groves Suite 792\nLopezfurt, TX 18192"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-09-16",
+        "Location": "9748 Medina Shoals\nPort Sonya, NM 48872",
+        "Description": "Example environmental edge street kind you conference. Represent after listen again contain account other. Economic old positive.\nSkill me big national which just middle. Why me seat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10231
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8602
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2069
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40247
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7040
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 180417,
+        "TotalApproved": 144636
+    },
+    "AdjusterDetails": {
+        "Name": "Cristian Deleon",
+        "ContactInformation": {
+            "Phone": "+1-611-732-1553x85509",
+            "Email": "katelynalexander@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e28edb88-1db0-4d8f-a1f0-0d7e66faae42"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-09-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-09-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-09-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6dc0b831-7e75-46d3-bbee-a294280d4083",
+    "PolicyID": "77868c86-ce36-4d0c-88eb-25d4b530f127",
+    "EffectiveDates": {
+        "StartDate": "2024-02-29",
+        "EndDate": "2025-02-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0d92a20f-033b-4f9c-8a37-a6f4d9ada63e",
+        "Name": "Samantha Scott",
+        "PolicyNumber": "77868c86-ce36-4d0c-88eb-25d4b530f127",
+        "ContactInformation": {
+            "Phone": "742-673-8969x779",
+            "Email": "chelsey46@example.net",
+            "Address": "1907 Sean Point Apt. 178\nChristinaburgh, WY 51946"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-20",
+        "Location": "405 Riggs Cove Apt. 828\nPort Colinland, KS 56602",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 75120
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24893
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9179
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11944
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7848
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 128984,
+        "TotalApproved": 36207
+    },
+    "AdjusterDetails": {
+        "Name": "Ann Compton",
+        "ContactInformation": {
+            "Phone": "534.363.4317x47326",
+            "Email": "johnsonroger@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5eb6b6de-40f4-4441-9fde-0aee2003a10e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-20T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-25T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-30T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

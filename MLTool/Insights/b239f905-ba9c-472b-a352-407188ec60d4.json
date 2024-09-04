@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b239f905-ba9c-472b-a352-407188ec60d4",
+    "PolicyID": "eb6c8cb1-2d23-4eba-9904-2007fb9ab810",
+    "EffectiveDates": {
+        "StartDate": "2024-07-07",
+        "EndDate": "2025-07-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "16ad5efa-fd45-4112-948a-203aad697a41",
+        "Name": "Matthew Taylor",
+        "PolicyNumber": "eb6c8cb1-2d23-4eba-9904-2007fb9ab810",
+        "ContactInformation": {
+            "Phone": "748.206.0412",
+            "Email": "karengarcia@example.org",
+            "Address": "912 Perry Stravenue Suite 973\nNorth Heatherborough, MD 24100"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-03",
+        "Location": "0160 James Park Apt. 267\nJamestown, ND 15214",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 60752
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31814
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8695
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14379
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5192
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 120832,
+        "TotalApproved": 74128
+    },
+    "AdjusterDetails": {
+        "Name": "Nicholas Mason",
+        "ContactInformation": {
+            "Phone": "(590)546-3939x92072",
+            "Email": "karlfox@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1af6e7d0-25c4-42be-98d1-a3e101e9687f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-03T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-08T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-13T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

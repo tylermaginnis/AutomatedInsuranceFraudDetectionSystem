@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3e528b3b-a8aa-4b60-9cae-172b864ab4cd",
+    "PolicyID": "6df97824-b565-487d-b4a9-7fb79156ff6d",
+    "EffectiveDates": {
+        "StartDate": "2024-08-23",
+        "EndDate": "2025-08-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5898c0bc-156c-4d50-82b3-46d7be6de5cf",
+        "Name": "Craig Brown",
+        "PolicyNumber": "6df97824-b565-487d-b4a9-7fb79156ff6d",
+        "ContactInformation": {
+            "Phone": "950.760.8565x90797",
+            "Email": "fparker@example.org",
+            "Address": "335 Joseph Forest Suite 918\nPort Christopher, AK 79222"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-15",
+        "Location": "167 Burton Highway\nWest David, RI 35462",
+        "Description": "Summer chance career state must environment story.\nAnimal fire system. Create our force everything."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4869
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18904
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9811
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18515
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 76294
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 199757,
+        "TotalApproved": 96305
+    },
+    "AdjusterDetails": {
+        "Name": "Susan Chavez",
+        "ContactInformation": {
+            "Phone": "+1-302-735-3649x1700",
+            "Email": "kporter@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4d844286-b50d-478e-802a-91ccceb82612"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0570171d-06bb-42fa-9671-119b3d94e405",
+    "PolicyID": "39a54b8e-19be-4907-b6f8-104ae2c7f50f",
+    "EffectiveDates": {
+        "StartDate": "2024-04-29",
+        "EndDate": "2025-04-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "122903a9-7ab8-4a38-b48c-ff471c62dc07",
+        "Name": "Jasmine Mosley",
+        "PolicyNumber": "39a54b8e-19be-4907-b6f8-104ae2c7f50f",
+        "ContactInformation": {
+            "Phone": "314.891.0935x0892",
+            "Email": "evansdavid@example.net",
+            "Address": "Unit 0413 Box 0596\nDPO AP 50772"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-25",
+        "Location": "065 Williams Coves Suite 355\nBurnsborough, ID 19839",
+        "Description": "Assume see subject. Against Republican nice effect above else. Suggest surface sing left."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8407
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17569
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4187
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8037
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16837
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 24446,
+        "TotalApproved": 12309
+    },
+    "AdjusterDetails": {
+        "Name": "Shelly Martinez",
+        "ContactInformation": {
+            "Phone": "(545)320-7308",
+            "Email": "qbrown@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a927138e-1ddd-4e5b-827c-3e15a9049c09"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-25T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-30T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-04T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

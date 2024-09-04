@@ -1,0 +1,81 @@
+{
+    "ClaimID": "47eef3b8-0cff-4212-aae5-603128fdd353",
+    "PolicyID": "7373b7eb-096b-4522-ba85-aa5fd5d7880a",
+    "EffectiveDates": {
+        "StartDate": "2023-12-11",
+        "EndDate": "2024-12-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7a41ed28-2ace-4b1e-b263-b110b818c50c",
+        "Name": "Kristen Lewis",
+        "PolicyNumber": "7373b7eb-096b-4522-ba85-aa5fd5d7880a",
+        "ContactInformation": {
+            "Phone": "001-929-259-3447",
+            "Email": "asmith@example.net",
+            "Address": "53540 Olson Tunnel Suite 531\nWalterburgh, AZ 98049"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-30",
+        "Location": "1161 Miller Heights\nLandrychester, FM 48109",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 71241
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49690
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7865
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24328
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15710
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 168834,
+        "TotalApproved": 37143
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Williams",
+        "ContactInformation": {
+            "Phone": "811-930-9737",
+            "Email": "perickson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c911f126-ef98-4d83-9271-b9e78e98a8c1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

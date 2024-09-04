@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0392348b-0198-4e99-b021-c83c6dd6ce4c",
+  "PolicyID": "1551de2c-da46-428b-8c67-a0007cfd1162",
+  "EffectiveDates": {
+    "StartDate": "2024-02-21",
+    "EndDate": "2025-02-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e4b50bc3-5bd2-43a8-858f-0a73912ee5ed",
+    "Name": "Robert Bradford",
+    "PolicyNumber": "1551de2c-da46-428b-8c67-a0007cfd1162",
+    "ContactInformation": {
+      "Phone": "001-982-371-6695",
+      "Email": "singhkenneth@example.net",
+      "Address": "USNS Fernandez\nFPO AE 40559"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-04",
+    "Location": "155 Powell Rest\nWellsborough, CT 87324",
+    "Description": "Word great positive ok practice government show. Current computer few compare sound view foreign. Wear agency sit watch price everyone."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 31239
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 29873
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 106943
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4962
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 68236
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 24747,
+    "TotalApproved": 19168
+  },
+  "AdjusterDetails": {
+    "Name": "David Kidd",
+    "ContactInformation": {
+      "Phone": "4889626401",
+      "Email": "robertonorton@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/76fc1609-9412-4b0f-bb06-57b7fec6c5a7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-04T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-09T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-14T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

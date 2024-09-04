@@ -1,0 +1,80 @@
+{
+  "ClaimID": "39900e59-09ce-4a9b-9cb2-bfaec11e5e5d",
+  "PolicyID": "b2336575-f8e8-470e-9f4d-538834cc41c3",
+  "EffectiveDates": {
+    "StartDate": "2024-06-03",
+    "EndDate": "2025-06-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5af63239-4d91-46c2-bdbe-8a25c0b40335",
+    "Name": "Cindy Walker",
+    "PolicyNumber": "b2336575-f8e8-470e-9f4d-538834cc41c3",
+    "ContactInformation": {
+      "Phone": "(994)707-1887",
+      "Email": "garciakimberly@example.com",
+      "Address": "364 Mcdowell Radial Suite 260\nSouth Louistown, RI 36902"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-09",
+    "Location": "67740 Pierce Knoll\nSmithville, OR 68481",
+    "Description": "Hospital picture city write form. Change understand reflect us. Change both material behind.\nCell class may despite million guess program. Every today seven option."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 168064
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 98237
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 146576
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 28543
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 11727
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 135365,
+    "TotalApproved": 102566
+  },
+  "AdjusterDetails": {
+    "Name": "Jesus Rose",
+    "ContactInformation": {
+      "Phone": "001-677-787-7822x182",
+      "Email": "jordansmith@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/f2394f74-1e5d-4bd8-9992-a2c907adaed3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-09T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-14T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-19T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

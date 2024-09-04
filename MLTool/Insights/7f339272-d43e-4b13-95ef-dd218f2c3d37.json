@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7f339272-d43e-4b13-95ef-dd218f2c3d37",
+    "PolicyID": "8eff4b47-5833-43ff-af26-cab96d0e449b",
+    "EffectiveDates": {
+        "StartDate": "2024-02-20",
+        "EndDate": "2025-02-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "426ead9d-dc4d-4c6f-82df-cbd7391ef38e",
+        "Name": "Angela Young",
+        "PolicyNumber": "8eff4b47-5833-43ff-af26-cab96d0e449b",
+        "ContactInformation": {
+            "Phone": "944.681.0262",
+            "Email": "joneschloe@example.org",
+            "Address": "Unit 7739 Box 3993\nDPO AP 66678"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-08",
+        "Location": "302 Sherri Greens Suite 268\nStokesberg, WI 66707",
+        "Description": "Air region participant laugh. Always huge not dream.\nAnother doctor my bit year certainly support. Team by throw water today bit leave."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 99693
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5222
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 137784
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2534
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13525
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 109649,
+        "TotalApproved": 41399
+    },
+    "AdjusterDetails": {
+        "Name": "Marisa Sanchez",
+        "ContactInformation": {
+            "Phone": "+1-692-556-4598",
+            "Email": "lindseygarcia@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/25ec2f76-9dab-477c-a076-6c1988c90a18"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

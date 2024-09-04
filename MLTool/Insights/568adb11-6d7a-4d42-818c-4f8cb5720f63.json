@@ -1,0 +1,81 @@
+{
+    "ClaimID": "568adb11-6d7a-4d42-818c-4f8cb5720f63",
+    "PolicyID": "66fd54cf-0c5d-4799-b919-634e3962d401",
+    "EffectiveDates": {
+        "StartDate": "2024-07-14",
+        "EndDate": "2025-07-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4efd53ff-9e21-49e5-816e-d30a60ea5db9",
+        "Name": "Audrey Andrews",
+        "PolicyNumber": "66fd54cf-0c5d-4799-b919-634e3962d401",
+        "ContactInformation": {
+            "Phone": "001-218-792-9498x1616",
+            "Email": "luisfarmer@example.net",
+            "Address": "USNV Moody\nFPO AE 66083"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-29",
+        "Location": "PSC 7768, Box 4710\nAPO AA 29338",
+        "Description": "Society prevent five style action right new. Her home head father. Mission value second.\nSome capital mouth. Room off her commercial nature their.\nUnderstand often piece role place per."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 157994
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 30870
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 199043
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13561
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6743
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 138939,
+        "TotalApproved": 25652
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Chambers",
+        "ContactInformation": {
+            "Phone": "528.940.5883x839",
+            "Email": "ylong@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/76082514-6e52-476a-b8ce-95ecdfa0d4ed"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

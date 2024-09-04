@@ -1,0 +1,80 @@
+{
+  "ClaimID": "02fd0b96-b6e2-4f4d-a16e-758a7de29829",
+  "PolicyID": "bbbe01be-3e37-467c-bbb1-88537b9635dd",
+  "EffectiveDates": {
+    "StartDate": "2024-02-10",
+    "EndDate": "2025-02-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "698ba4cc-5a7e-49d2-bf6e-185e57dc592e",
+    "Name": "Wanda Smith",
+    "PolicyNumber": "bbbe01be-3e37-467c-bbb1-88537b9635dd",
+    "ContactInformation": {
+      "Phone": "658.413.5267",
+      "Email": "hferguson@example.com",
+      "Address": "79353 Anthony Flats\nWest Joanmouth, WV 86923"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-02",
+    "Location": "157 Williams Mountain Apt. 706\nClayfort, PA 53942",
+    "Description": "Already their spend fear lot position. Wife policy doctor detail good response. Might issue rather anyone best card."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 70463
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4798
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 44529
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17424
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5379
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 53342,
+    "TotalApproved": 9172
+  },
+  "AdjusterDetails": {
+    "Name": "Laura Thompson",
+    "ContactInformation": {
+      "Phone": "255-592-0323",
+      "Email": "anne21@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/63e14a1b-f147-4824-8f41-882c594fb41a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-02T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-07T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-12T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

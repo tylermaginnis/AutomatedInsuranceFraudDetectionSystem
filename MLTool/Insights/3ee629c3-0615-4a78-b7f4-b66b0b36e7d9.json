@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3ee629c3-0615-4a78-b7f4-b66b0b36e7d9",
+    "PolicyID": "6d86f26b-ad69-4dd7-8b47-38f3bd1b6ebc",
+    "EffectiveDates": {
+        "StartDate": "2024-03-12",
+        "EndDate": "2025-03-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a918698d-e264-4528-95ea-69f765c6d26d",
+        "Name": "James Henry",
+        "PolicyNumber": "6d86f26b-ad69-4dd7-8b47-38f3bd1b6ebc",
+        "ContactInformation": {
+            "Phone": "973.826.5498x758",
+            "Email": "debra63@example.com",
+            "Address": "165 Sharp Dam\nRonaldside, MA 94429"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-09",
+        "Location": "9761 Watts Street\nEast Sierra, MT 88530",
+        "Description": "Last staff think mouth tell describe guy lay. Serious fire get structure end.\nGlass go building consumer southern throw. Begin level hot however sort skill material. Small health several government."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2001
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 192281
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4395
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36342
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48214
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 169709,
+        "TotalApproved": 82767
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Brown",
+        "ContactInformation": {
+            "Phone": "998-991-4635x07396",
+            "Email": "daniel94@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b1abc12f-18ce-4096-81a9-9658bdf7d099"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

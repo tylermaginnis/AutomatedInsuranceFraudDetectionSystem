@@ -1,0 +1,81 @@
+{
+    "ClaimID": "993b2d4b-66ef-42ec-b5ab-6a8a7d2fd80f",
+    "PolicyID": "f4669398-fac2-4503-8ac6-1a5260328124",
+    "EffectiveDates": {
+        "StartDate": "2024-07-25",
+        "EndDate": "2025-07-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ed02193-03d9-43d2-9a2a-9136ecf40076",
+        "Name": "Brian English",
+        "PolicyNumber": "f4669398-fac2-4503-8ac6-1a5260328124",
+        "ContactInformation": {
+            "Phone": "354.679.1667",
+            "Email": "heatherperez@example.org",
+            "Address": "Unit 5659 Box 8296\nDPO AA 35984"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-16",
+        "Location": "1338 Alejandro Lodge\nJasonchester, FM 77441",
+        "Description": "South beat clearly. Respond while exactly create card mention challenge society.\nReach ready century learn somebody. Big admit inside lead."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2367
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37129
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1829
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7090
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16381
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 192042,
+        "TotalApproved": 187935
+    },
+    "AdjusterDetails": {
+        "Name": "Lori Ho",
+        "ContactInformation": {
+            "Phone": "553.493.2699",
+            "Email": "scottmcclain@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3dadc334-97be-4844-a593-1f475951c4d6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

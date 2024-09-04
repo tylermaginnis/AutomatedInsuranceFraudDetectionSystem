@@ -1,0 +1,81 @@
+{
+    "ClaimID": "630637f2-830e-4331-9666-15a70470156c",
+    "PolicyID": "20ae2305-7c0b-4252-9d3b-c498337044ad",
+    "EffectiveDates": {
+        "StartDate": "2023-10-20",
+        "EndDate": "2024-10-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6c878cdb-8112-44f8-8a84-64e3110415dd",
+        "Name": "Brian Garcia",
+        "PolicyNumber": "20ae2305-7c0b-4252-9d3b-c498337044ad",
+        "ContactInformation": {
+            "Phone": "3418451274",
+            "Email": "sarahgilbert@example.net",
+            "Address": "3847 Kathleen Loaf Apt. 226\nKristenborough, ND 47635"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-21",
+        "Location": "77121 Mark Green Apt. 704\nLake Amandafort, KS 24182",
+        "Description": "Wait face evidence brother. Information strategy hotel west technology also discussion. Dog case training pull line speech."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 66501
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2341
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 46866
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11388
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 85630
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 58373,
+        "TotalApproved": 49527
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Mitchell",
+        "ContactInformation": {
+            "Phone": "821.831.4917x5100",
+            "Email": "williamsonsarah@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/573b0b57-1753-4f4c-a8d1-d937dd732b59"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-21T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-26T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-01T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

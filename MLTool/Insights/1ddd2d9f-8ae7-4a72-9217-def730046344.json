@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1ddd2d9f-8ae7-4a72-9217-def730046344",
+    "PolicyID": "d62707e2-ac6f-4497-87cc-19eaa215795e",
+    "EffectiveDates": {
+        "StartDate": "2023-12-24",
+        "EndDate": "2024-12-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "70e7f716-cb0a-4515-aec4-d22c9c23897e",
+        "Name": "Jeremiah Stewart",
+        "PolicyNumber": "d62707e2-ac6f-4497-87cc-19eaa215795e",
+        "ContactInformation": {
+            "Phone": "+1-449-674-9283x0716",
+            "Email": "lemaria@example.net",
+            "Address": "13437 Teresa Mountain Apt. 836\nWilliamfort, MI 65167"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-17",
+        "Location": "Unit 3787 Box 0134\nDPO AP 86731",
+        "Description": "Home really join wear argue sister. Reduce central civil name window. Attorney forget could else. Drug treat executive art begin already."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26744
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9267
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44162
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 129199
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4966
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 62953,
+        "TotalApproved": 40064
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Foley",
+        "ContactInformation": {
+            "Phone": "(313)965-0506x62798",
+            "Email": "anneross@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6e1f3a25-162c-4f40-9152-b8b237ea0191"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b7371afe-0268-4458-b6f4-190e8246caa5",
+    "PolicyID": "b6db18e6-a8eb-4e6d-b761-c3b47d3cffaf",
+    "EffectiveDates": {
+        "StartDate": "2023-09-24",
+        "EndDate": "2024-09-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "337b83fa-b4c8-4a6c-ba44-e9dd67d8c82d",
+        "Name": "David Bryant",
+        "PolicyNumber": "b6db18e6-a8eb-4e6d-b761-c3b47d3cffaf",
+        "ContactInformation": {
+            "Phone": "381-249-1853",
+            "Email": "tracie54@example.net",
+            "Address": "95224 Bailey Mountains Suite 306\nGuerrahaven, GU 48361"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-04",
+        "Location": "5260 David Orchard Suite 333\nNorth Jessica, MS 09763",
+        "Description": "Writer president perhaps it high every nearly. Middle would forward eight image talk rule."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8952
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1350
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40769
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 92281
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43866
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 106482,
+        "TotalApproved": 4175
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Blake",
+        "ContactInformation": {
+            "Phone": "+1-747-917-7681x3913",
+            "Email": "keith75@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7592c57a-67f2-4053-bc96-b87fe3786d8d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-04T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-09T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-14T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

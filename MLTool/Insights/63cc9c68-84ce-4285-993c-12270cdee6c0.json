@@ -1,0 +1,81 @@
+{
+    "ClaimID": "63cc9c68-84ce-4285-993c-12270cdee6c0",
+    "PolicyID": "e477f066-cfba-463f-8bfe-35e76ca24f1f",
+    "EffectiveDates": {
+        "StartDate": "2023-09-25",
+        "EndDate": "2024-09-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1c467db2-040b-4907-b14f-3c2b331808c0",
+        "Name": "Joshua Petersen",
+        "PolicyNumber": "e477f066-cfba-463f-8bfe-35e76ca24f1f",
+        "ContactInformation": {
+            "Phone": "881-830-9433x760",
+            "Email": "ugreene@example.net",
+            "Address": "42577 William Bridge\nNorth Carlos, MA 14650"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-17",
+        "Location": "94587 Gray Street Suite 204\nEast Jamesview, NJ 50284",
+        "Description": "By anything policy worker cause so job.\nPrepare have two child between hit trial. Nothing television town country culture.\nValue per technology. Read toward see nothing."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 73091
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 21655
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 106933
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14841
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7701
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 23511,
+        "TotalApproved": 8008
+    },
+    "AdjusterDetails": {
+        "Name": "Lauren Ward",
+        "ContactInformation": {
+            "Phone": "663-561-7416",
+            "Email": "richard45@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6d4cd18d-1a15-4b82-b5ad-2022b7b72fd8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

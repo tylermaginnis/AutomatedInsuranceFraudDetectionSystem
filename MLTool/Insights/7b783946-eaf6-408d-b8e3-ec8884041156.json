@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b783946-eaf6-408d-b8e3-ec8884041156",
+    "PolicyID": "32e54e08-4915-43d3-98c3-fdf85c79bffe",
+    "EffectiveDates": {
+        "StartDate": "2024-07-02",
+        "EndDate": "2025-07-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a03fcbfa-9fd4-4840-8c92-4c56320a26f8",
+        "Name": "Dustin Larsen",
+        "PolicyNumber": "32e54e08-4915-43d3-98c3-fdf85c79bffe",
+        "ContactInformation": {
+            "Phone": "(646)312-4569x3051",
+            "Email": "lschultz@example.net",
+            "Address": "46058 Jessica Turnpike\nPort Ericchester, OH 52042"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-15",
+        "Location": "546 Cameron Meadow\nWest Christopherberg, CA 75435",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 82506
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40181
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7406
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11415
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5261
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 146769,
+        "TotalApproved": 62100
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Richards",
+        "ContactInformation": {
+            "Phone": "627.722.9640",
+            "Email": "lisawilliams@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2efdca5f-b366-486f-8a61-e8b07c909151"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-15T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-20T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-25T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

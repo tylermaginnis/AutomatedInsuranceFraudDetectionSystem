@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7c89b3b7-aa1a-422a-a7a6-8e784a58035b",
+    "PolicyID": "792eb454-ecf1-43ab-b8f7-8348b943825f",
+    "EffectiveDates": {
+        "StartDate": "2023-09-11",
+        "EndDate": "2024-09-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2aec6cbc-7774-4d9f-a2fd-66490d022df2",
+        "Name": "Helen Newton",
+        "PolicyNumber": "792eb454-ecf1-43ab-b8f7-8348b943825f",
+        "ContactInformation": {
+            "Phone": "+1-794-567-0904x1059",
+            "Email": "hollandnicole@example.net",
+            "Address": "1358 Oconnor Drive Apt. 628\nDarleneport, VA 92123"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-23",
+        "Location": "PSC 7207, Box 2160\nAPO AP 90263",
+        "Description": "Hospital material shoulder tax case trial. Morning success half rich. Level teacher now for evidence bed heart."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 135022
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9402
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44037
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14089
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 51696
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 94492,
+        "TotalApproved": 1472
+    },
+    "AdjusterDetails": {
+        "Name": "Sharon Henderson",
+        "ContactInformation": {
+            "Phone": "818.756.8456x706",
+            "Email": "xmorrison@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0e9e6d64-3b0a-4048-9522-f965130a4846"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-23T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-28T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-02T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

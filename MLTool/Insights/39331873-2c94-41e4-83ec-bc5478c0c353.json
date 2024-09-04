@@ -1,0 +1,81 @@
+{
+    "ClaimID": "39331873-2c94-41e4-83ec-bc5478c0c353",
+    "PolicyID": "e56b292d-c88c-4474-a280-27abbe281d6f",
+    "EffectiveDates": {
+        "StartDate": "2024-09-03",
+        "EndDate": "2025-09-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f8202d32-79aa-4785-a620-6b196d4cc408",
+        "Name": "Paul Jackson",
+        "PolicyNumber": "e56b292d-c88c-4474-a280-27abbe281d6f",
+        "ContactInformation": {
+            "Phone": "001-517-928-5689x351",
+            "Email": "ycampbell@example.com",
+            "Address": "01124 Hoover Burgs\nWest Ashley, TN 12616"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-24",
+        "Location": "22220 Ronald Lake\nAndreaberg, AR 62370",
+        "Description": "Heart cultural herself serve. Peace hand serious minute his.\nToward three character ago employee what. Before that or mouth buy position."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5092
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9565
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2593
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22966
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20931
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 167560,
+        "TotalApproved": 166213
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Kramer",
+        "ContactInformation": {
+            "Phone": "(827)278-3358",
+            "Email": "fburnett@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/98344c74-debd-4562-bcaa-0b81218e9894"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

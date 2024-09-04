@@ -1,0 +1,81 @@
+{
+    "ClaimID": "63a2b0c6-7fae-40ad-8585-8d0bfbf1b718",
+    "PolicyID": "f8b459c9-2e0d-4131-bc62-16ca67261ba8",
+    "EffectiveDates": {
+        "StartDate": "2023-10-01",
+        "EndDate": "2024-09-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a6d12c8a-e119-4d6e-91b4-d5722c186298",
+        "Name": "Kenneth Gould",
+        "PolicyNumber": "f8b459c9-2e0d-4131-bc62-16ca67261ba8",
+        "ContactInformation": {
+            "Phone": "001-392-832-7335x30370",
+            "Email": "johnny13@example.org",
+            "Address": "4779 Browning Causeway\nRobinsonport, TN 82432"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-10",
+        "Location": "2039 Lewis Cliffs\nElizabethmouth, ND 86796",
+        "Description": "Family teach you possible front meet generation thing. Entire actually its again question western.\nTheory soldier book play capital consumer garden. Little major little task."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44728
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1268
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 43681
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5739
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10043
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 30587,
+        "TotalApproved": 12044
+    },
+    "AdjusterDetails": {
+        "Name": "Sandra Vang",
+        "ContactInformation": {
+            "Phone": "4913363912",
+            "Email": "stacy16@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/36f9bc31-c865-41df-b6c5-7d3b1dce3054"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

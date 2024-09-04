@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6c3b02d8-fd3f-46dc-a38f-aaf1e08a1445",
+    "PolicyID": "3553e3a4-e943-4ea2-a303-4cddc8b45be3",
+    "EffectiveDates": {
+        "StartDate": "2024-02-28",
+        "EndDate": "2025-02-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c5353a77-1eea-4ab2-99c3-3a0e856357eb",
+        "Name": "Paul Bonilla",
+        "PolicyNumber": "3553e3a4-e943-4ea2-a303-4cddc8b45be3",
+        "ContactInformation": {
+            "Phone": "397-202-9348",
+            "Email": "michellenicholson@example.net",
+            "Address": "PSC 4607, Box 9155\nAPO AP 50681"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-25",
+        "Location": "0980 Reyes Center\nAllisonville, DC 34375",
+        "Description": "Family be respond. Assume want rather thought. Serious authority himself true.\nEasy eat stage sing wear certain box. Subject full nearly want responsibility share full."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 78112
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 21640
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34892
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23247
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8561
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 101771,
+        "TotalApproved": 88801
+    },
+    "AdjusterDetails": {
+        "Name": "David Reyes",
+        "ContactInformation": {
+            "Phone": "(569)876-0213x025",
+            "Email": "shepardtyler@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c27a7772-b47a-4943-a4f7-8fa9ba50b4f1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-25T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-30T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-04T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

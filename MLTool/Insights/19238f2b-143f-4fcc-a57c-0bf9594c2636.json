@@ -1,0 +1,81 @@
+{
+    "ClaimID": "19238f2b-143f-4fcc-a57c-0bf9594c2636",
+    "PolicyID": "203b6ad4-b9b4-4338-b3ba-f116d0a632d4",
+    "EffectiveDates": {
+        "StartDate": "2024-05-24",
+        "EndDate": "2025-05-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "16ccd00b-9a0b-4313-8ad3-e53033410eb1",
+        "Name": "Cindy Miller",
+        "PolicyNumber": "203b6ad4-b9b4-4338-b3ba-f116d0a632d4",
+        "ContactInformation": {
+            "Phone": "214-374-4188",
+            "Email": "robert01@example.net",
+            "Address": "550 Tammy Lakes Apt. 232\nAdamsfurt, AS 41791"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-18",
+        "Location": "Unit 5491 Box 9007\nDPO AA 05268",
+        "Description": "Wish whatever seat plant standard candidate. Walk language medical service teach deep. Statement future final.\nYes foreign per after area this already. Shoulder deep free open."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16250
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8644
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 97337
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2935
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3324
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 89163,
+        "TotalApproved": 29425
+    },
+    "AdjusterDetails": {
+        "Name": "Jorge Sanchez",
+        "ContactInformation": {
+            "Phone": "(860)418-6923",
+            "Email": "cscott@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6741f274-37ff-44c3-9269-d2cd413df34e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-18T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-23T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-28T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

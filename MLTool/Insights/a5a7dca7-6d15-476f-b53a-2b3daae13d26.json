@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a5a7dca7-6d15-476f-b53a-2b3daae13d26",
+    "PolicyID": "b61cfa8c-31f8-4867-8612-8b5c4be2d740",
+    "EffectiveDates": {
+        "StartDate": "2023-11-06",
+        "EndDate": "2024-11-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "34272e8a-922d-4470-9e05-d96af6e7e83c",
+        "Name": "Rachel Conner",
+        "PolicyNumber": "b61cfa8c-31f8-4867-8612-8b5c4be2d740",
+        "ContactInformation": {
+            "Phone": "922.759.8805",
+            "Email": "erin50@example.net",
+            "Address": "46389 Norman Trace\nPort Daisyborough, AZ 45578"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-17",
+        "Location": "45584 Schneider Trace Apt. 868\nPort Larry, SD 30046",
+        "Description": "Memory character recent up like ground. Know dinner weight.\nShould rule both economic later these expect. Continue forget pay executive firm improve. Interesting no window action lead believe."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 66349
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30913
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9005
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8683
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12598
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 133968,
+        "TotalApproved": 85479
+    },
+    "AdjusterDetails": {
+        "Name": "Ralph Pacheco",
+        "ContactInformation": {
+            "Phone": "747.580.4999",
+            "Email": "usmith@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/006b7690-e8f0-4ce4-be53-4a613a7eec22"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

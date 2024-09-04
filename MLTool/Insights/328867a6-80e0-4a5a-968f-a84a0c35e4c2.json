@@ -1,0 +1,81 @@
+{
+    "ClaimID": "328867a6-80e0-4a5a-968f-a84a0c35e4c2",
+    "PolicyID": "46659807-5f4f-42e2-9910-0475d0184ac1",
+    "EffectiveDates": {
+        "StartDate": "2023-09-15",
+        "EndDate": "2024-09-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dfdb7e42-dda6-4b82-a60c-56c8ce90cafd",
+        "Name": "Melissa Adams",
+        "PolicyNumber": "46659807-5f4f-42e2-9910-0475d0184ac1",
+        "ContactInformation": {
+            "Phone": "001-616-330-8039",
+            "Email": "richardclark@example.net",
+            "Address": "305 Cook Spur Suite 481\nJoseburgh, OK 29299"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-02",
+        "Location": "666 Maria Summit Apt. 799\nJulieland, FM 82121",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91286
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 30892
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9210
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17381
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11397
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 160166,
+        "TotalApproved": 47636
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Brown",
+        "ContactInformation": {
+            "Phone": "+1-773-568-8691x2407",
+            "Email": "padillalinda@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a3d625eb-e4aa-4c31-832f-8c0b73a86c23"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

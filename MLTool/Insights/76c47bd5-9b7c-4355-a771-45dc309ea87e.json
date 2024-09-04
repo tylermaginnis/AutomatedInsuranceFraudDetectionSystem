@@ -1,0 +1,81 @@
+{
+    "ClaimID": "76c47bd5-9b7c-4355-a771-45dc309ea87e",
+    "PolicyID": "879f028e-405c-4025-8b30-d9254a602538",
+    "EffectiveDates": {
+        "StartDate": "2024-07-23",
+        "EndDate": "2025-07-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cd3f72cf-3dc6-4f1b-add2-17dfbe95c3ce",
+        "Name": "Elizabeth Espinoza",
+        "PolicyNumber": "879f028e-405c-4025-8b30-d9254a602538",
+        "ContactInformation": {
+            "Phone": "982-454-5114x142",
+            "Email": "wallacemary@example.net",
+            "Address": "795 Tina Mountain\nCoreyside, WA 99846"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-03",
+        "Location": "36839 Clements Road\nWest Barbaraburgh, OR 82418",
+        "Description": "Free dinner simple several next trial really. Seek process close hotel prepare."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 118604
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4987
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4502
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7117
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12128
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 137684,
+        "TotalApproved": 80574
+    },
+    "AdjusterDetails": {
+        "Name": "Kathryn Wagner",
+        "ContactInformation": {
+            "Phone": "(962)879-3638x566",
+            "Email": "mtaylor@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1b503f69-31b4-470a-9d5e-e0b7048a78b0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

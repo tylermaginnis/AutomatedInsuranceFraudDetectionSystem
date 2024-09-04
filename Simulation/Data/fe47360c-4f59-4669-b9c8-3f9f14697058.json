@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fe47360c-4f59-4669-b9c8-3f9f14697058",
+  "PolicyID": "885c18f2-185c-442b-8e8f-7bece1206761",
+  "EffectiveDates": {
+    "StartDate": "2024-04-04",
+    "EndDate": "2025-04-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ea41c9af-3d3a-4b99-abc6-40939da9d2d9",
+    "Name": "Roger Smith",
+    "PolicyNumber": "885c18f2-185c-442b-8e8f-7bece1206761",
+    "ContactInformation": {
+      "Phone": "001-546-921-2542x7369",
+      "Email": "campbelledgar@example.net",
+      "Address": "34535 Kyle Ports\nNorth Katherine, VI 11337"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-16",
+    "Location": "9500 Smith Wall Apt. 663\nNorth Amanda, IA 69676",
+    "Description": "Step mean night go fill provide. Talk moment crime time general.\nGuess air eye television. Respond rate president themselves. Term direction police operation base."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 24831
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 49995
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 97883
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5745
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 25215
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 19627,
+    "TotalApproved": 16127
+  },
+  "AdjusterDetails": {
+    "Name": "Steven Nguyen",
+    "ContactInformation": {
+      "Phone": "9157977198",
+      "Email": "jgomez@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/8227fe30-2c0b-4add-9149-c55cc198fa1d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-16T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-21T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-26T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

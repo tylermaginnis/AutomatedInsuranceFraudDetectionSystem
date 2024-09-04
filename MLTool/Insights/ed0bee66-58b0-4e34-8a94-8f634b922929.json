@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ed0bee66-58b0-4e34-8a94-8f634b922929",
+    "PolicyID": "2c9dc47c-5d78-4cba-a1b1-9ae8bfb4d49d",
+    "EffectiveDates": {
+        "StartDate": "2023-11-06",
+        "EndDate": "2024-11-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c4a84d54-2c1e-4fc8-864f-580e1404b2a4",
+        "Name": "Andrew Mueller",
+        "PolicyNumber": "2c9dc47c-5d78-4cba-a1b1-9ae8bfb4d49d",
+        "ContactInformation": {
+            "Phone": "001-459-881-0333",
+            "Email": "alan49@example.org",
+            "Address": "801 Randall Roads Apt. 414\nPort Nathanborough, TX 97421"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-29",
+        "Location": "78623 Mason Stravenue\nSouth Michaelbury, WI 76913",
+        "Description": "Program single thousand hair true he kid. Watch worker better sign reduce. Upon church also represent important.\nTeacher trade century get name over grow. Less several front. Let peace soon choose."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15151
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15139
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16828
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4176
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43504
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151143,
+        "TotalApproved": 125395
+    },
+    "AdjusterDetails": {
+        "Name": "Russell Yang",
+        "ContactInformation": {
+            "Phone": "946.974.0102x88983",
+            "Email": "edward97@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ff54a0b7-7837-4dec-aa09-45e4d221ca1b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-29T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-03T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-08T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

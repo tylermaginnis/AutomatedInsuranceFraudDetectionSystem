@@ -1,0 +1,81 @@
+{
+    "ClaimID": "90d8d6ef-10bb-4ab2-bfab-33c6689f6f6d",
+    "PolicyID": "f21b6b3a-c7bf-424f-af4c-c77ec6ba0ad6",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5bd39cb-bac2-46ce-8d82-0ad8d9b210cf",
+        "Name": "Tracey Lewis",
+        "PolicyNumber": "f21b6b3a-c7bf-424f-af4c-c77ec6ba0ad6",
+        "ContactInformation": {
+            "Phone": "001-742-619-0111",
+            "Email": "idaniels@example.com",
+            "Address": "870 William Via Apt. 953\nJanetburgh, AS 91122"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-30",
+        "Location": "17741 Jennifer Street Apt. 869\nWest Brianshire, MD 30443",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 72927
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38479
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8664
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 25780
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8332
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 154182,
+        "TotalApproved": 27431
+    },
+    "AdjusterDetails": {
+        "Name": "Rebecca Morse",
+        "ContactInformation": {
+            "Phone": "(565)893-2190x52937",
+            "Email": "amanda76@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3ee94945-3448-4d19-8f1b-6a931b68f33b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

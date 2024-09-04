@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d613e0b1-00be-42c0-b4cf-60fc92009f6d",
+    "PolicyID": "171af8de-fba9-4294-b2c2-f584b2f197fd",
+    "EffectiveDates": {
+        "StartDate": "2024-06-19",
+        "EndDate": "2025-06-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f1acfd71-469c-4b0d-a491-3c6201cf3352",
+        "Name": "James Orozco",
+        "PolicyNumber": "171af8de-fba9-4294-b2c2-f584b2f197fd",
+        "ContactInformation": {
+            "Phone": "+1-522-708-4586",
+            "Email": "valdezjames@example.org",
+            "Address": "PSC 4272, Box 5177\nAPO AE 53604"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-08",
+        "Location": "4691 Rodriguez Flat\nNew John, NH 18568",
+        "Description": "Matter around fire only. Different night since impact build project who. Director give bad research when but rule.\nMay win yeah program. Himself read owner current long interview report seven."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 45822
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44047
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 85739
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1224
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2650
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 190061,
+        "TotalApproved": 159405
+    },
+    "AdjusterDetails": {
+        "Name": "Alexander Brady",
+        "ContactInformation": {
+            "Phone": "001-891-482-0781x70633",
+            "Email": "wagnerjeffrey@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f4688840-e556-42b5-9909-5005b5c8e85c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-08T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-13T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-18T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

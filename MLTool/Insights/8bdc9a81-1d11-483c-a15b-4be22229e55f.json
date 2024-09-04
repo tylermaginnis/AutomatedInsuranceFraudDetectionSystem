@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8bdc9a81-1d11-483c-a15b-4be22229e55f",
+    "PolicyID": "77fe19d7-59db-4d62-85a0-e12935bf8a1b",
+    "EffectiveDates": {
+        "StartDate": "2024-03-06",
+        "EndDate": "2025-03-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7eb3a4a9-361a-4210-916b-89b35897bcee",
+        "Name": "Steven Evans",
+        "PolicyNumber": "77fe19d7-59db-4d62-85a0-e12935bf8a1b",
+        "ContactInformation": {
+            "Phone": "(214)795-1108x269",
+            "Email": "pgonzales@example.net",
+            "Address": "00059 Johnson Avenue\nAmandaville, NJ 90937"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-20",
+        "Location": "241 Rodriguez Branch Suite 034\nToddberg, AS 96408",
+        "Description": "Near whatever hour beat answer firm medical. Ten different hospital just police performance. Record picture thus name question possible."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49655
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35776
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 157520
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 98460
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19015
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 44533,
+        "TotalApproved": 17950
+    },
+    "AdjusterDetails": {
+        "Name": "Shawn Morris",
+        "ContactInformation": {
+            "Phone": "001-669-567-5579x24655",
+            "Email": "sarah53@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/daa7a71c-acef-460f-81de-8bf66441417f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-20T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-25T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-30T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

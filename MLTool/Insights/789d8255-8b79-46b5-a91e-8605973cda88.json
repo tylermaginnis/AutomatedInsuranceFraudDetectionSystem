@@ -1,0 +1,81 @@
+{
+    "ClaimID": "789d8255-8b79-46b5-a91e-8605973cda88",
+    "PolicyID": "2c3884fb-2aa4-47fc-8d06-d78131e51081",
+    "EffectiveDates": {
+        "StartDate": "2024-05-09",
+        "EndDate": "2025-05-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8b6ec8f9-96a2-4ada-a0cf-794885f50ac1",
+        "Name": "Miguel Lloyd",
+        "PolicyNumber": "2c3884fb-2aa4-47fc-8d06-d78131e51081",
+        "ContactInformation": {
+            "Phone": "8607297574",
+            "Email": "williamallen@example.com",
+            "Address": "40909 Kelsey Plain\nGreenfort, PW 48523"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-13",
+        "Location": "918 Jones Mill Apt. 879\nPort Brianamouth, CT 97357",
+        "Description": "Catch space cold ready develop rest true. Send loss into stand field five source discussion. Daughter few note take dark however join.\nYear reality article free control property."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2290
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10997
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15066
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24169
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 176221
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 158222,
+        "TotalApproved": 3418
+    },
+    "AdjusterDetails": {
+        "Name": "Debra Freeman",
+        "ContactInformation": {
+            "Phone": "336.959.1169x567",
+            "Email": "rbrown@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c50653ea-359c-4f2e-8f21-696b7e0cf8e1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-13T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-18T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-23T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

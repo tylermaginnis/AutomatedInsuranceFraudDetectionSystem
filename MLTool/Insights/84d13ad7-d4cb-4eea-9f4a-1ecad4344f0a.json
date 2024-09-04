@@ -1,0 +1,81 @@
+{
+    "ClaimID": "84d13ad7-d4cb-4eea-9f4a-1ecad4344f0a",
+    "PolicyID": "33bb455f-08bc-4d82-b163-e8e6f691083e",
+    "EffectiveDates": {
+        "StartDate": "2024-01-02",
+        "EndDate": "2025-01-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4456ecf1-86ee-4133-abfe-145bc91f8585",
+        "Name": "Tony Riley",
+        "PolicyNumber": "33bb455f-08bc-4d82-b163-e8e6f691083e",
+        "ContactInformation": {
+            "Phone": "+1-328-497-0310x6803",
+            "Email": "ericlarson@example.net",
+            "Address": "47035 Justin Turnpike Apt. 411\nDanachester, CA 04813"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-17",
+        "Location": "965 Madison Causeway\nRavenmouth, IL 08674",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 63339
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29486
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6304
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20154
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6476
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 125759,
+        "TotalApproved": 33306
+    },
+    "AdjusterDetails": {
+        "Name": "Gina Martinez",
+        "ContactInformation": {
+            "Phone": "001-873-858-8668",
+            "Email": "jorgeferrell@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a9cb9be7-6ac7-47d7-a009-c859d1b8a7ba"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-17T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-22T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-27T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5dae182f-4466-4889-8475-562ea50d691d",
+    "PolicyID": "1ed84ba5-6928-443b-9a6c-acfc6c5601b6",
+    "EffectiveDates": {
+        "StartDate": "2024-04-11",
+        "EndDate": "2025-04-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1cce98cf-50e5-44f5-a34b-59c505be2f3d",
+        "Name": "Andre Contreras",
+        "PolicyNumber": "1ed84ba5-6928-443b-9a6c-acfc6c5601b6",
+        "ContactInformation": {
+            "Phone": "001-300-308-1840x4703",
+            "Email": "andrewcordova@example.net",
+            "Address": "55889 Steven Centers Suite 761\nHoltbury, NJ 89315"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-28",
+        "Location": "PSC 7617, Box 6115\nAPO AE 42873",
+        "Description": "Trip dream door consider material. Test idea last argue almost field medical.\nAround under civil red remember. Involve green minute artist. Do morning carry lot same not own."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3265
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 38749
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20044
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9780
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15326
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 34562,
+        "TotalApproved": 9844
+    },
+    "AdjusterDetails": {
+        "Name": "Lauren Brooks",
+        "ContactInformation": {
+            "Phone": "001-369-848-7856x838",
+            "Email": "mdixon@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/08614e40-696b-4c0e-ac69-2029d78a1a38"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-28T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-02T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-07T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

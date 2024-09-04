@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b143c0b7-7b95-4fec-9c93-2de80d5d2818",
+    "PolicyID": "85e1e376-2539-4562-95e8-69944dccca8a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-23",
+        "EndDate": "2025-03-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a7b2490c-8f93-4a70-87c6-288b8cd8fc65",
+        "Name": "Larry Carpenter",
+        "PolicyNumber": "85e1e376-2539-4562-95e8-69944dccca8a",
+        "ContactInformation": {
+            "Phone": "483-255-3686",
+            "Email": "uellis@example.net",
+            "Address": "797 Brad Grove Suite 412\nSouth Bradley, AK 46554"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-15",
+        "Location": "759 Sara Canyon\nNew Tammy, MD 11500",
+        "Description": "Point detail sign. Question drive sound tree ability television. Onto born military draw scene.\nConsumer indicate baby soon. Investment development drug carry. Training indeed also."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 67383
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 46000
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2567
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 157551
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46023
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 117186,
+        "TotalApproved": 93286
+    },
+    "AdjusterDetails": {
+        "Name": "Donna Harrington",
+        "ContactInformation": {
+            "Phone": "8738481123",
+            "Email": "stephaniesherman@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/adc1c036-bde6-4a5f-993f-55d00d5122e6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-15T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-20T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-25T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

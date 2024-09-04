@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5a41e3da-dbc7-40ca-b0f9-7d872a62470d",
+    "PolicyID": "f0f61efe-0a4c-48f8-91af-f987172aecb5",
+    "EffectiveDates": {
+        "StartDate": "2024-05-26",
+        "EndDate": "2025-05-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef730bce-2ee8-40ee-a6a5-8e53de34a99f",
+        "Name": "James Carpenter",
+        "PolicyNumber": "f0f61efe-0a4c-48f8-91af-f987172aecb5",
+        "ContactInformation": {
+            "Phone": "(332)485-7282x41539",
+            "Email": "xkim@example.org",
+            "Address": "398 Everett Union\nSouth Gregory, ND 02901"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-03",
+        "Location": "9001 Terry Alley Suite 753\nPort Courtneyton, WI 73550",
+        "Description": "Tonight loss her general everything also. Probably open result stage.\nWhom mission hope. Turn take area. Many ever must finish without."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 61337
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5834
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6272
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 60993
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48778
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 7787,
+        "TotalApproved": 7365
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Thompson",
+        "ContactInformation": {
+            "Phone": "+1-705-593-7433x95779",
+            "Email": "donna30@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1dc2d45d-281b-4e86-8e12-a909e566e227"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

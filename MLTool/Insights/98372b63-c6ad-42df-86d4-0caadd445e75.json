@@ -1,0 +1,81 @@
+{
+    "ClaimID": "98372b63-c6ad-42df-86d4-0caadd445e75",
+    "PolicyID": "4a4ac7ba-5154-42a1-9199-e94ee611beba",
+    "EffectiveDates": {
+        "StartDate": "2024-02-02",
+        "EndDate": "2025-02-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "92c5478b-5856-479a-a271-758edd43ffaf",
+        "Name": "Emily Copeland",
+        "PolicyNumber": "4a4ac7ba-5154-42a1-9199-e94ee611beba",
+        "ContactInformation": {
+            "Phone": "731-533-5431x2217",
+            "Email": "lori79@example.org",
+            "Address": "Unit 3019 Box 0877\nDPO AP 94333"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-29",
+        "Location": "289 Nathaniel Glen\nJohnbury, WV 19407",
+        "Description": "Expert law name receive different. Require they something my economy artist it."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 39459
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7575
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30327
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29268
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6216
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 117209,
+        "TotalApproved": 114158
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Hill",
+        "ContactInformation": {
+            "Phone": "+1-313-787-2897x823",
+            "Email": "janehughes@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f89cc8c9-eb1a-4600-b537-3d799315c426"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-29T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

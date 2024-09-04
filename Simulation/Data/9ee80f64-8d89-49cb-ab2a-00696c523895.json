@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9ee80f64-8d89-49cb-ab2a-00696c523895",
+  "PolicyID": "30c0bcb5-0329-4236-adf8-603310de8026",
+  "EffectiveDates": {
+    "StartDate": "2024-08-31",
+    "EndDate": "2025-08-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8995730e-fac2-4eb8-bca5-6014436001e4",
+    "Name": "Sandra Thompson",
+    "PolicyNumber": "30c0bcb5-0329-4236-adf8-603310de8026",
+    "ContactInformation": {
+      "Phone": "+1-642-328-1979x323",
+      "Email": "hannaamy@example.com",
+      "Address": "6208 Travis Flat\nJamesport, RI 68401"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-06-08",
+    "Location": "813 Crawford Plain\nMartinfurt, GU 23105",
+    "Description": "Attention director even property. Second about individual easy everything change. Federal resource probably government.\nStand company board."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6146
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 11790
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 32362
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 24757
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 39275
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 131932,
+    "TotalApproved": 112811
+  },
+  "AdjusterDetails": {
+    "Name": "Kyle Baker III",
+    "ContactInformation": {
+      "Phone": "962.251.2020",
+      "Email": "mgarcia@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/9182a348-dbbd-4a06-be85-2e46d1384475"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-06-08T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-06-13T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-06-18T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

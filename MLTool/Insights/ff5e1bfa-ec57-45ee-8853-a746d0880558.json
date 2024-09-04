@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ff5e1bfa-ec57-45ee-8853-a746d0880558",
+    "PolicyID": "8749d50e-1eb1-479b-924d-85f4ed5f0df7",
+    "EffectiveDates": {
+        "StartDate": "2024-03-10",
+        "EndDate": "2025-03-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "44a2ca73-a4a0-4ac7-a3a5-8224f0a33ac2",
+        "Name": "Mary Young",
+        "PolicyNumber": "8749d50e-1eb1-479b-924d-85f4ed5f0df7",
+        "ContactInformation": {
+            "Phone": "771-497-6290",
+            "Email": "rallen@example.com",
+            "Address": "64360 Anderson Fort Apt. 012\nLake Vincentmouth, DE 79969"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-07",
+        "Location": "29468 Bryan Glens\nWest Joshuashire, WA 53871",
+        "Description": "Kitchen card our make until. Situation Democrat first situation current discussion. Across herself until reach third.\nHospital past herself public glass everything."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38162
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 71820
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9597
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 94500
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29374
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 134249,
+        "TotalApproved": 34343
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Jackson",
+        "ContactInformation": {
+            "Phone": "358.534.0905",
+            "Email": "patricia53@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/09f9ae76-9410-4f9b-808c-ab70ca846267"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-07T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-12T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-17T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

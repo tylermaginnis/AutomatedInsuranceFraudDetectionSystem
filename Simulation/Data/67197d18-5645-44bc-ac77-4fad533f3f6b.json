@@ -1,0 +1,80 @@
+{
+  "ClaimID": "67197d18-5645-44bc-ac77-4fad533f3f6b",
+  "PolicyID": "440157cf-06dd-4378-8ded-62fc94f61002",
+  "EffectiveDates": {
+    "StartDate": "2024-03-01",
+    "EndDate": "2025-03-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "af8fda1a-36f5-4f62-8a11-140a5dd97dd3",
+    "Name": "Paul Li",
+    "PolicyNumber": "440157cf-06dd-4378-8ded-62fc94f61002",
+    "ContactInformation": {
+      "Phone": "001-471-939-6450",
+      "Email": "johnmason@example.com",
+      "Address": "510 Rachel Tunnel Apt. 515\nSouth Margaret, VT 56037"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-07",
+    "Location": "283 Randy Tunnel\nRichmondmouth, MI 84915",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 83900
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 43402
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9157
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 20575
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13077
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 170111,
+    "TotalApproved": 12143
+  },
+  "AdjusterDetails": {
+    "Name": "Nicholas Herrera",
+    "ContactInformation": {
+      "Phone": "001-613-510-1066",
+      "Email": "charlenealexander@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/0a6607c3-b57e-43e5-879b-4ac2a4dd3214"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-07T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-12T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-17T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

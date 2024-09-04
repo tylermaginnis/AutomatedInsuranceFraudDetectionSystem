@@ -1,0 +1,81 @@
+{
+    "ClaimID": "08df16ec-28e0-482d-a200-ef111e2c2249",
+    "PolicyID": "f195a3b2-9d09-4760-bf5a-305b799b5326",
+    "EffectiveDates": {
+        "StartDate": "2024-05-18",
+        "EndDate": "2025-05-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "378f97cb-2a3e-42c5-9a63-cd27e33f930b",
+        "Name": "Crystal Saunders DVM",
+        "PolicyNumber": "f195a3b2-9d09-4760-bf5a-305b799b5326",
+        "ContactInformation": {
+            "Phone": "727-915-8316x0452",
+            "Email": "kimberlystanley@example.net",
+            "Address": "44713 Nathan Lake\nJohnview, WV 57741"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-24",
+        "Location": "285 Allison Camp\nAdamsshire, FL 60103",
+        "Description": "Almost it us by. Purpose threat light size keep table already various. Anyone put remember city serious case nice.\nWhy name evidence try how focus watch. Church report I smile clear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39182
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7719
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16785
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6339
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29398
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 30693,
+        "TotalApproved": 4817
+    },
+    "AdjusterDetails": {
+        "Name": "Jacob Young",
+        "ContactInformation": {
+            "Phone": "3074590473",
+            "Email": "stewartjody@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/887b1634-00f3-40f5-9b27-6a5be022d71a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-24T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-29T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

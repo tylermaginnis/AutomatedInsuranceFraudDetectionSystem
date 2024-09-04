@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ce78c84e-ffa4-48e0-b9cb-3617df7d3e00",
+    "PolicyID": "f6dd528a-f264-44f5-85dc-7424014125b4",
+    "EffectiveDates": {
+        "StartDate": "2023-09-23",
+        "EndDate": "2024-09-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c7cb4291-c125-4493-a3a2-d90fe6934aaa",
+        "Name": "Marissa Davis",
+        "PolicyNumber": "f6dd528a-f264-44f5-85dc-7424014125b4",
+        "ContactInformation": {
+            "Phone": "001-405-883-4798x3766",
+            "Email": "gonzalestimothy@example.com",
+            "Address": "2663 James Station\nPort Kimberly, AR 07472"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-22",
+        "Location": "068 Linda Valleys\nScotthaven, NE 35269",
+        "Description": "Style trade option. Watch special personal scientist especially once watch area."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 180010
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10191
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20729
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2582
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5636
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 27620,
+        "TotalApproved": 18775
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly King",
+        "ContactInformation": {
+            "Phone": "539.742.0209x0335",
+            "Email": "zdavis@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/99d4e655-43ad-4547-afe2-efabc6a27d98"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

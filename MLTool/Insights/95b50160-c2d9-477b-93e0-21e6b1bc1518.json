@@ -1,0 +1,81 @@
+{
+    "ClaimID": "95b50160-c2d9-477b-93e0-21e6b1bc1518",
+    "PolicyID": "3c3042f1-8e82-45c9-8da8-a37e2b3df8ec",
+    "EffectiveDates": {
+        "StartDate": "2024-09-01",
+        "EndDate": "2025-09-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "20efbbd4-7f14-4f3a-a6ec-eb34c18124ce",
+        "Name": "Thomas Thomas",
+        "PolicyNumber": "3c3042f1-8e82-45c9-8da8-a37e2b3df8ec",
+        "ContactInformation": {
+            "Phone": "988.589.2023",
+            "Email": "jimenezblake@example.com",
+            "Address": "487 Johnathan Dam Suite 517\nLake Jennifer, NV 52000"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-15",
+        "Location": "77992 Richards Flat\nMccormickton, PR 20897",
+        "Description": "When lead citizen. Sister want lose federal present rest."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 63429
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46597
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 86131
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22735
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3562
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 44953,
+        "TotalApproved": 27590
+    },
+    "AdjusterDetails": {
+        "Name": "Cynthia Davis",
+        "ContactInformation": {
+            "Phone": "001-999-565-7915x39559",
+            "Email": "stevenzamora@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8e919860-06f2-4a56-ac9e-8384fe7a00be"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

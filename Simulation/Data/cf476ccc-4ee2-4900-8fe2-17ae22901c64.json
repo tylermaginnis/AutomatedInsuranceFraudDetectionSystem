@@ -1,0 +1,80 @@
+{
+  "ClaimID": "cf476ccc-4ee2-4900-8fe2-17ae22901c64",
+  "PolicyID": "f5eb5b1f-013e-48f7-b7df-55ef392b41ca",
+  "EffectiveDates": {
+    "StartDate": "2024-07-27",
+    "EndDate": "2025-07-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "c9a541d4-b55e-4412-ae6e-77a2989717d2",
+    "Name": "Daniel Cooper",
+    "PolicyNumber": "f5eb5b1f-013e-48f7-b7df-55ef392b41ca",
+    "ContactInformation": {
+      "Phone": "931.800.5677x5856",
+      "Email": "gardnersarah@example.net",
+      "Address": "491 Michael Street\nBaileyside, KS 70152"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-07-24",
+    "Location": "7364 Garcia Crescent Apt. 467\nTaylorchester, TN 38611",
+    "Description": "Record west raise. Property admit appear time beautiful.\nCover nice experience environment what. Up majority degree hair nothing if. Every factor special his hospital win."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 195257
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 190904
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 42219
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6934
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 12304
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 170423,
+    "TotalApproved": 77699
+  },
+  "AdjusterDetails": {
+    "Name": "Tina Brown",
+    "ContactInformation": {
+      "Phone": "755.542.7672x84246",
+      "Email": "lwalters@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/9828203a-3ed1-4149-bf62-5d3bf7b31edf"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-07-24T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-07-29T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-08-03T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

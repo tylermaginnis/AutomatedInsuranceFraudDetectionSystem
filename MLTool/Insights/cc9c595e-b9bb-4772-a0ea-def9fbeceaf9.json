@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cc9c595e-b9bb-4772-a0ea-def9fbeceaf9",
+    "PolicyID": "917e8ad1-1244-4802-abeb-9e6d343791c9",
+    "EffectiveDates": {
+        "StartDate": "2024-01-26",
+        "EndDate": "2025-01-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ccc6cf5a-f21c-44dc-a791-53c6916371c9",
+        "Name": "Michelle Becker",
+        "PolicyNumber": "917e8ad1-1244-4802-abeb-9e6d343791c9",
+        "ContactInformation": {
+            "Phone": "001-611-995-1682x5361",
+            "Email": "richardelliott@example.org",
+            "Address": "89231 Ellen Valley Apt. 943\nHintonchester, NH 01301"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-23",
+        "Location": "22609 Tara Place\nTylerborough, NE 96547",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 94167
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35667
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9725
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10775
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8225
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 158559,
+        "TotalApproved": 146700
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Savage",
+        "ContactInformation": {
+            "Phone": "264-914-0582",
+            "Email": "gdunn@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7692e360-3680-4d54-9f8b-421cea977f12"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

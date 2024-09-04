@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c8283ddb-96c2-4ca9-ac18-c33ed6a68f9d",
+    "PolicyID": "8d5c44d3-d76d-4c8f-b7f9-48ce13e37645",
+    "EffectiveDates": {
+        "StartDate": "2024-03-03",
+        "EndDate": "2025-03-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "89618e0e-833c-4a41-94ac-7c579967a5d6",
+        "Name": "Anthony Norton",
+        "PolicyNumber": "8d5c44d3-d76d-4c8f-b7f9-48ce13e37645",
+        "ContactInformation": {
+            "Phone": "948.912.3780",
+            "Email": "rogersdavid@example.net",
+            "Address": "996 Ellis Brook\nMichelleton, MN 89724"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-13",
+        "Location": "82734 Branch Crossing Apt. 408\nHollyton, WY 08810",
+        "Description": "Method enter federal some understand heavy.\nInto mean about major plant. Follow surface how nation. Case course catch out yeah could surface."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41777
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3352
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 181582
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 155437
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40475
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 89462,
+        "TotalApproved": 88310
+    },
+    "AdjusterDetails": {
+        "Name": "Paige Miller",
+        "ContactInformation": {
+            "Phone": "001-756-606-9872",
+            "Email": "asaunders@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4c35e5f0-3bbf-441c-8bd4-724a5c5ae03c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a081add5-b4b8-4b02-9f26-3caf41fa8d68",
+  "PolicyID": "585d8268-2f57-48c8-823f-5de77384479c",
+  "EffectiveDates": {
+    "StartDate": "2023-11-26",
+    "EndDate": "2024-11-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9d88f30f-d763-46e2-adc7-0139b5b09e72",
+    "Name": "Crystal Taylor",
+    "PolicyNumber": "585d8268-2f57-48c8-823f-5de77384479c",
+    "ContactInformation": {
+      "Phone": "829.922.9820x602",
+      "Email": "michael47@example.com",
+      "Address": "Unit 1025 Box 7255\nDPO AE 05668"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-29",
+    "Location": "825 King Estates Apt. 587\nEast Cynthiaton, TX 39364",
+    "Description": "Floor artist Democrat two road half remain. Official member staff. Smile hospital recent some. When capital scene seven around deal."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 49994
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6129
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5182
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 66928
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6076
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 114816,
+    "TotalApproved": 16419
+  },
+  "AdjusterDetails": {
+    "Name": "David Johnson",
+    "ContactInformation": {
+      "Phone": "408-224-3737",
+      "Email": "swheeler@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/0ac626c2-ab32-4b75-9921-f7cd00ef58e9"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-29T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-03T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-08T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

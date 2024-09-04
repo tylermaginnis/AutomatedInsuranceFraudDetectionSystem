@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4fc48cf0-e91e-4343-9b34-15251e6e812b",
+    "PolicyID": "4717c6cc-be79-4fa9-b416-05119a6c3c56",
+    "EffectiveDates": {
+        "StartDate": "2024-06-21",
+        "EndDate": "2025-06-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ad556802-f829-419d-97ec-f804e8d529a4",
+        "Name": "Catherine Salas",
+        "PolicyNumber": "4717c6cc-be79-4fa9-b416-05119a6c3c56",
+        "ContactInformation": {
+            "Phone": "001-532-328-0874x34645",
+            "Email": "austin73@example.net",
+            "Address": "9105 Anderson Lodge Apt. 704\nWest Michaelside, GU 45786"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-25",
+        "Location": "168 Davis Highway\nPort Debra, AL 99685",
+        "Description": "Big citizen hand new seven dinner reflect reduce. Decision truth cultural increase upon night so knowledge. Surface thus cut region."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33586
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18114
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13311
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7780
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11284
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 47994,
+        "TotalApproved": 2129
+    },
+    "AdjusterDetails": {
+        "Name": "Robyn Craig",
+        "ContactInformation": {
+            "Phone": "359.748.2832x22412",
+            "Email": "kgarcia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/dc174e33-0c3c-4506-96cf-cfc5e9da455f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-25T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-30T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-04T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

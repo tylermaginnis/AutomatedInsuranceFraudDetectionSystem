@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1dffbdd8-5d6c-4760-bb43-1453c23e3d42",
+  "PolicyID": "0ef72d90-e4e6-485d-a12e-8a4265581a77",
+  "EffectiveDates": {
+    "StartDate": "2024-02-06",
+    "EndDate": "2025-02-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4f28c746-120e-4469-9d5f-edcf51e0f246",
+    "Name": "Kimberly Wade",
+    "PolicyNumber": "0ef72d90-e4e6-485d-a12e-8a4265581a77",
+    "ContactInformation": {
+      "Phone": "001-305-228-0057x58560",
+      "Email": "beverlysmith@example.net",
+      "Address": "2211 Valerie Ville\nEdwardmouth, SD 61534"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-10",
+    "Location": "1881 Fitzpatrick Via Apt. 729\nGarciaview, NV 67141",
+    "Description": "Visit ever large. Culture else minute anyone us model ball. Put recently professional that choose actually at.\nFirm shake skin."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6428
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 18579
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4963
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16354
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6417
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 195612,
+    "TotalApproved": 155459
+  },
+  "AdjusterDetails": {
+    "Name": "Sara Brown",
+    "ContactInformation": {
+      "Phone": "001-234-547-2842x24900",
+      "Email": "kellyanderson@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/61db46d7-89ae-49a1-b76d-19976beba433"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-10T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-15T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-20T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

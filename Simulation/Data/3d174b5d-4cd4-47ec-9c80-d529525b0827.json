@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3d174b5d-4cd4-47ec-9c80-d529525b0827",
+  "PolicyID": "dec10011-2576-4297-98f1-71f150e1076a",
+  "EffectiveDates": {
+    "StartDate": "2023-10-28",
+    "EndDate": "2024-10-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5576d8da-cfd6-4cdf-9556-71a47ab57362",
+    "Name": "Yvonne Jones",
+    "PolicyNumber": "dec10011-2576-4297-98f1-71f150e1076a",
+    "ContactInformation": {
+      "Phone": "(974)789-2680x133",
+      "Email": "smithbrandon@example.org",
+      "Address": "Unit 4997 Box 2732\nDPO AE 55383"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-28",
+    "Location": "4267 Wilson Brook\nKevinberg, AZ 33930",
+    "Description": "Before style may deep any. Coach feeling local meeting especially especially forget too. Time trade candidate. Strategy rather coach want team shoulder."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 39437
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 10719
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9207
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 19449
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3190
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 191734,
+    "TotalApproved": 23192
+  },
+  "AdjusterDetails": {
+    "Name": "Javier Dillon",
+    "ContactInformation": {
+      "Phone": "001-698-939-3789",
+      "Email": "jessica31@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/9bf8d641-3fe2-49d0-87db-e8e5c1a9cfef"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-28T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-03T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-08T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

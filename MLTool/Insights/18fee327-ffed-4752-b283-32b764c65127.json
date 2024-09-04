@@ -1,0 +1,81 @@
+{
+    "ClaimID": "18fee327-ffed-4752-b283-32b764c65127",
+    "PolicyID": "e683f2ca-0442-46a5-aa73-e206e3ab7cd9",
+    "EffectiveDates": {
+        "StartDate": "2024-03-03",
+        "EndDate": "2025-03-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2959bea1-9356-46b7-af8b-a01854cf4031",
+        "Name": "Connor Cervantes",
+        "PolicyNumber": "e683f2ca-0442-46a5-aa73-e206e3ab7cd9",
+        "ContactInformation": {
+            "Phone": "222.665.8353",
+            "Email": "dalebarnes@example.com",
+            "Address": "541 Morgan Mount\nReidland, FL 25609"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-02",
+        "Location": "750 Holt Expressway\nFrankview, FM 46232",
+        "Description": "Southern them full modern he investment pay. Itself treat time music wonder child check."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9594
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 102573
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6548
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40066
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6421
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 173749,
+        "TotalApproved": 133642
+    },
+    "AdjusterDetails": {
+        "Name": "John Simmons",
+        "ContactInformation": {
+            "Phone": "939.997.2743",
+            "Email": "alisonpowell@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/114d9cd1-43c2-4f42-a3c9-42b92ca9d34c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

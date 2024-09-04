@@ -1,0 +1,81 @@
+{
+    "ClaimID": "69a7cab5-b5de-4173-b0c3-0f2a1045dca2",
+    "PolicyID": "5eb87caa-b7ae-4c4e-aa01-5cba8b437bde",
+    "EffectiveDates": {
+        "StartDate": "2024-08-20",
+        "EndDate": "2025-08-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5c786672-caa3-4d22-9954-7e3244ee8aae",
+        "Name": "Benjamin Gardner",
+        "PolicyNumber": "5eb87caa-b7ae-4c4e-aa01-5cba8b437bde",
+        "ContactInformation": {
+            "Phone": "001-595-897-7180x19188",
+            "Email": "jasonrobinson@example.net",
+            "Address": "73350 Jason Path\nAdamsburgh, SD 92224"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-31",
+        "Location": "141 Hunter Mountain Apt. 550\nNorth Margaret, MT 02777",
+        "Description": "Subject mission a fly would manager. Present many across. Another wonder enter improve sing shoulder player."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17636
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41704
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6521
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34154
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22353
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 40125,
+        "TotalApproved": 39592
+    },
+    "AdjusterDetails": {
+        "Name": "Hannah Christensen",
+        "ContactInformation": {
+            "Phone": "(229)597-3136",
+            "Email": "cheryl28@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/34f7747d-2091-49cc-afd3-28758375c333"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-31T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

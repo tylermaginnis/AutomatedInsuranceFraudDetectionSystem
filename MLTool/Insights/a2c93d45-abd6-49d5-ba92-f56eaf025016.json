@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a2c93d45-abd6-49d5-ba92-f56eaf025016",
+    "PolicyID": "b6420836-b74a-40a7-938b-dfa817059121",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f55d46f4-1e49-4932-8a4a-f8e41da951a9",
+        "Name": "Emily Guzman",
+        "PolicyNumber": "b6420836-b74a-40a7-938b-dfa817059121",
+        "ContactInformation": {
+            "Phone": "(788)925-7038x676",
+            "Email": "taylor65@example.org",
+            "Address": "04769 Gina Prairie Suite 444\nNunezberg, NM 70829"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-14",
+        "Location": "1750 Daniel Ports\nSouth Nathanfort, MO 59555",
+        "Description": "Radio great seven throw word full short. Arm leg ago space economy star. Relationship produce up ability south.\nGreat floor decide third. To us blue."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12284
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6461
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15581
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3516
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 91695
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 189747,
+        "TotalApproved": 146350
+    },
+    "AdjusterDetails": {
+        "Name": "Justin Gray",
+        "ContactInformation": {
+            "Phone": "(535)918-2687x884",
+            "Email": "deantraci@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4b4226e4-8036-4713-95fa-a7a02b792675"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

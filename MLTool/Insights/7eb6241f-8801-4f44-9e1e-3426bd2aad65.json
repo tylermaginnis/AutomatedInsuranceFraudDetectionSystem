@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7eb6241f-8801-4f44-9e1e-3426bd2aad65",
+    "PolicyID": "920a1b80-b0a9-4151-b69f-9ec4950dba8c",
+    "EffectiveDates": {
+        "StartDate": "2023-10-19",
+        "EndDate": "2024-10-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "47fc3b9c-ba83-467e-9c95-af77696aaa7a",
+        "Name": "Catherine Butler",
+        "PolicyNumber": "920a1b80-b0a9-4151-b69f-9ec4950dba8c",
+        "ContactInformation": {
+            "Phone": "001-455-516-4465",
+            "Email": "burgesscarl@example.net",
+            "Address": "2087 Lester Trace Suite 806\nPort John, SC 21157"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-11",
+        "Location": "PSC 2397, Box 5023\nAPO AA 80476",
+        "Description": "Realize every physical enter science address. Accept without exist message will child protect. Main culture member guess where couple."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1111
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67105
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 98562
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 50506
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47193
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 78442,
+        "TotalApproved": 19332
+    },
+    "AdjusterDetails": {
+        "Name": "Jaclyn Phillips",
+        "ContactInformation": {
+            "Phone": "251.624.2308x36109",
+            "Email": "lewismichael@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3dde3190-2d3a-493a-a2dd-dab97ff876f9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-11T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-16T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-21T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

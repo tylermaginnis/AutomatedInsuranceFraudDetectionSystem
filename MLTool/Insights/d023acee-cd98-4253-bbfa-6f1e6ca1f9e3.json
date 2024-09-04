@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d023acee-cd98-4253-bbfa-6f1e6ca1f9e3",
+    "PolicyID": "706cacaf-943e-43b0-b837-b30c0706f995",
+    "EffectiveDates": {
+        "StartDate": "2024-01-09",
+        "EndDate": "2025-01-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6bdc4f8a-d3af-42ab-b69e-84da28b2fc1e",
+        "Name": "Patricia Medina",
+        "PolicyNumber": "706cacaf-943e-43b0-b837-b30c0706f995",
+        "ContactInformation": {
+            "Phone": "(544)201-7361",
+            "Email": "careymelissa@example.com",
+            "Address": "Unit 3910 Box 4674\nDPO AP 12518"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-03",
+        "Location": "28039 Hart Parks\nLake Sheri, ME 56728",
+        "Description": "Attack budget sister turn. Include Mrs manager hair experience paper sing evening."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 107362
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9117
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4679
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4080
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5208
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 198778,
+        "TotalApproved": 177784
+    },
+    "AdjusterDetails": {
+        "Name": "Tracey Guzman",
+        "ContactInformation": {
+            "Phone": "9537421677",
+            "Email": "cortezandrea@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/638e63c8-3e02-47e7-8961-e9f916a21840"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-03T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-08T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-13T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

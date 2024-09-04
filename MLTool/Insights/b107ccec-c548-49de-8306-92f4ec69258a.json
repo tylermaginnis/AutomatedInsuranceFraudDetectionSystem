@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b107ccec-c548-49de-8306-92f4ec69258a",
+    "PolicyID": "32a4637d-f689-4ec1-8b6a-f6a811400c9c",
+    "EffectiveDates": {
+        "StartDate": "2024-01-15",
+        "EndDate": "2025-01-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "916b9130-fa64-44da-8f53-44b2af95d696",
+        "Name": "Michael Rodriguez",
+        "PolicyNumber": "32a4637d-f689-4ec1-8b6a-f6a811400c9c",
+        "ContactInformation": {
+            "Phone": "(231)789-5307",
+            "Email": "dustindouglas@example.org",
+            "Address": "07541 Rachel Terrace Apt. 603\nPort Spencertown, VT 22868"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-21",
+        "Location": "981 Dennis Pines\nLake Jefferyville, OK 60590",
+        "Description": "According new since last mission fact else.\nYet movie magazine call near option. Mind commercial across history think food. Game could letter him generation spring school.\nNo new easy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2563
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 99797
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1648
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5654
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30423
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 100325,
+        "TotalApproved": 1886
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Powell",
+        "ContactInformation": {
+            "Phone": "876-679-9225",
+            "Email": "wwalls@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1392027c-0912-43f2-a79e-4c3b98d3b77f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-31T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

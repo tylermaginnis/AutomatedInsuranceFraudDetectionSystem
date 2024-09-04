@@ -1,0 +1,81 @@
+{
+    "ClaimID": "312f6810-a4d1-4528-bf61-272eb5c0daa5",
+    "PolicyID": "bde04635-f9c1-42a2-b6bf-6102e181e9ac",
+    "EffectiveDates": {
+        "StartDate": "2023-09-10",
+        "EndDate": "2024-09-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b4feccbc-5595-44ca-9410-7006a44d8cc7",
+        "Name": "Jared Palmer",
+        "PolicyNumber": "bde04635-f9c1-42a2-b6bf-6102e181e9ac",
+        "ContactInformation": {
+            "Phone": "+1-841-979-0076x05006",
+            "Email": "wilsonbarry@example.net",
+            "Address": "283 Patricia Road\nPatrickbury, NC 10215"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-04",
+        "Location": "00182 Valdez Overpass\nOdonnellfort, LA 51237",
+        "Description": "Investment live sing voice go itself knowledge. She throughout nothing nice suggest nothing. Image voice food sport.\nDescribe man quite."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5805
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6967
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6820
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1936
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6888
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 22293,
+        "TotalApproved": 12317
+    },
+    "AdjusterDetails": {
+        "Name": "Bobby Obrien",
+        "ContactInformation": {
+            "Phone": "(990)786-1101x4957",
+            "Email": "sharonharris@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/844a15cd-ee92-438f-b1d2-bab923620131"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-04T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-09T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-14T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

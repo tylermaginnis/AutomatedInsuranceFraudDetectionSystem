@@ -1,0 +1,81 @@
+{
+    "ClaimID": "58507c23-7209-4a0c-84a4-5d1a6e7620b9",
+    "PolicyID": "4a2c4457-78b0-43c4-ab9d-6f895f4984bb",
+    "EffectiveDates": {
+        "StartDate": "2023-10-10",
+        "EndDate": "2024-10-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1056e7f2-e45a-48dc-b15b-0dc6385b20ee",
+        "Name": "Sarah Perez",
+        "PolicyNumber": "4a2c4457-78b0-43c4-ab9d-6f895f4984bb",
+        "ContactInformation": {
+            "Phone": "203.624.7886",
+            "Email": "karen63@example.com",
+            "Address": "01043 Jensen Trail\nAndersonchester, FM 99211"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-23",
+        "Location": "819 Osborn Spur\nEast Laura, CO 13376",
+        "Description": "Phone may cost state not spend. Know ball doctor election.\nAge plan ability hundred. Order those health work generation send should look."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3974
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 30391
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4768
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 142472
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42640
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 160336,
+        "TotalApproved": 1345
+    },
+    "AdjusterDetails": {
+        "Name": "Alexandra Evans",
+        "ContactInformation": {
+            "Phone": "381-234-0504",
+            "Email": "andreacortez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a87b9e28-4965-49e5-8487-9917e27df9e3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-23T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-28T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-02T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

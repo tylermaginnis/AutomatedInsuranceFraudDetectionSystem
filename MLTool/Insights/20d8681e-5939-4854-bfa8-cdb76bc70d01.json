@@ -1,0 +1,81 @@
+{
+    "ClaimID": "20d8681e-5939-4854-bfa8-cdb76bc70d01",
+    "PolicyID": "3248edd5-7d36-4bb2-97af-23c546a33cc7",
+    "EffectiveDates": {
+        "StartDate": "2024-06-20",
+        "EndDate": "2025-06-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fbb5b990-18a7-4734-bb28-844caa602b69",
+        "Name": "Kimberly Freeman",
+        "PolicyNumber": "3248edd5-7d36-4bb2-97af-23c546a33cc7",
+        "ContactInformation": {
+            "Phone": "(304)567-9344",
+            "Email": "davieskelsey@example.com",
+            "Address": "73150 Eaton Mall Apt. 822\nPort Michaelburgh, HI 31662"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-27",
+        "Location": "3588 Michael Street Suite 332\nLake Miranda, NH 61798",
+        "Description": "Natural base identify ball citizen thought set degree. Participant popular mention yourself under population."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 79614
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13734
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7899
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2573
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1374
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 164996,
+        "TotalApproved": 103334
+    },
+    "AdjusterDetails": {
+        "Name": "David Deleon",
+        "ContactInformation": {
+            "Phone": "(237)332-7033x957",
+            "Email": "joel36@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/19bc43f4-a333-45b7-999f-2c2e7ee34100"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-27T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-02T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-07T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

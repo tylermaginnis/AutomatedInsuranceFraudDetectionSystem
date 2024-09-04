@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bcd932f1-2363-41fe-8009-8f1258408e68",
+    "PolicyID": "121a6e77-80ce-4e03-a6e8-d0e1608f8e80",
+    "EffectiveDates": {
+        "StartDate": "2023-12-24",
+        "EndDate": "2024-12-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "961223f4-ce73-4c81-ba96-e70e82e25cfb",
+        "Name": "Vincent Davis",
+        "PolicyNumber": "121a6e77-80ce-4e03-a6e8-d0e1608f8e80",
+        "ContactInformation": {
+            "Phone": "+1-235-840-4653x03337",
+            "Email": "jessicaholmes@example.org",
+            "Address": "763 Sharon Shore\nLake Amandaton, FM 69077"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-13",
+        "Location": "Unit 6441 Box 2900\nDPO AE 14219",
+        "Description": "Two lay example agent seek board. Single fill over against score fund. Left know staff.\nInstitution exactly with not pay dark upon adult. Past fear two into according never."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6321
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9797
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 156924
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6899
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20576
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 102445,
+        "TotalApproved": 40726
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Copeland",
+        "ContactInformation": {
+            "Phone": "345.533.2614x93457",
+            "Email": "mporter@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5e52a21e-0897-4b05-9d09-e5ff12ec9655"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "39e34faf-06be-412b-b2fb-04743963cfda",
+    "PolicyID": "9ce0cc65-076c-45b9-9cc8-86287bba6be2",
+    "EffectiveDates": {
+        "StartDate": "2024-08-22",
+        "EndDate": "2025-08-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8abb33f7-aabb-445f-a8ef-2f6e0a4420b9",
+        "Name": "Jeffrey White",
+        "PolicyNumber": "9ce0cc65-076c-45b9-9cc8-86287bba6be2",
+        "ContactInformation": {
+            "Phone": "001-459-527-5549",
+            "Email": "melissa93@example.com",
+            "Address": "PSC 6029, Box 8743\nAPO AA 90032"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-12",
+        "Location": "479 Matthew Plain Suite 646\nMurrayport, MS 53160",
+        "Description": "Area box total most. Marriage foot key up present identify five direction. Rate discover suddenly political leg miss truth."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33294
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 77745
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9347
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13359
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 195369
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 35873,
+        "TotalApproved": 26375
+    },
+    "AdjusterDetails": {
+        "Name": "Bradley Pena",
+        "ContactInformation": {
+            "Phone": "001-312-202-6616x96054",
+            "Email": "luisrodriguez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5e2a1d96-a3c5-47ea-997b-9e57a1bfc454"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-12T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-17T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-22T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5f790057-79c4-47b4-8440-2999648751c8",
+    "PolicyID": "d4e0098d-777a-4921-82ab-26bb902ba529",
+    "EffectiveDates": {
+        "StartDate": "2024-08-27",
+        "EndDate": "2025-08-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7f8505ef-715e-4b82-9b53-c6af13beb1d9",
+        "Name": "Christina Adams",
+        "PolicyNumber": "d4e0098d-777a-4921-82ab-26bb902ba529",
+        "ContactInformation": {
+            "Phone": "801-622-6585",
+            "Email": "nhenderson@example.net",
+            "Address": "71309 Lewis Knoll\nPort Michaelville, GU 95066"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-07",
+        "Location": "40351 Joseph Lock Suite 686\nAndrewshire, CO 77195",
+        "Description": "Three under set attention. Speak not successful city key. Hospital administration bit nearly develop moment."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5970
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2072
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1150
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29337
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44680
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 54317,
+        "TotalApproved": 34327
+    },
+    "AdjusterDetails": {
+        "Name": "Jeff Hernandez",
+        "ContactInformation": {
+            "Phone": "+1-795-774-8845x505",
+            "Email": "scott40@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/48212243-e9e8-4c3c-89a1-281bdebc259c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-07T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-12T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-17T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

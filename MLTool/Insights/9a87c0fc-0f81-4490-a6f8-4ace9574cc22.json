@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9a87c0fc-0f81-4490-a6f8-4ace9574cc22",
+    "PolicyID": "2b42239e-284b-454c-a218-dc20d680a645",
+    "EffectiveDates": {
+        "StartDate": "2024-08-06",
+        "EndDate": "2025-08-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5df48e58-3af3-4693-9c4f-82e0d6c803da",
+        "Name": "Michael Blake",
+        "PolicyNumber": "2b42239e-284b-454c-a218-dc20d680a645",
+        "ContactInformation": {
+            "Phone": "+1-804-965-1004x33455",
+            "Email": "erikalawrence@example.net",
+            "Address": "6988 Rhonda Stravenue\nJohnsonview, CT 49322"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-19",
+        "Location": "PSC 6460, Box 2459\nAPO AP 59626",
+        "Description": "Identify red especially bring look push. Newspaper those book character increase other.\nAgent in affect either. Involve every safe."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4591
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 43224
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6715
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9761
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14224
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 89538,
+        "TotalApproved": 78009
+    },
+    "AdjusterDetails": {
+        "Name": "Veronica Graham",
+        "ContactInformation": {
+            "Phone": "274-348-0800",
+            "Email": "tbrown@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/604af489-b14a-4e6f-ac63-58d58f7e37d4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-19T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-24T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-29T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

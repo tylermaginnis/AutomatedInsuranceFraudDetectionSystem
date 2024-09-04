@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e3265f1c-4e5c-4df8-8cb4-265285bd2d2a",
+  "PolicyID": "50f2930b-7a3c-493d-8b9d-64ae80645790",
+  "EffectiveDates": {
+    "StartDate": "2024-03-21",
+    "EndDate": "2025-03-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "55b01935-ddde-46f9-b780-f89920a7edcd",
+    "Name": "Lisa Shepherd DDS",
+    "PolicyNumber": "50f2930b-7a3c-493d-8b9d-64ae80645790",
+    "ContactInformation": {
+      "Phone": "(431)365-8252",
+      "Email": "thorntonjames@example.net",
+      "Address": "991 William Locks\nEast Laurie, TN 97907"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-19",
+    "Location": "82381 Ricky Keys Suite 064\nSouth William, MH 43052",
+    "Description": "Speech piece choose against. Figure memory it party hair both take.\nStrategy policy actually scene rock. Campaign market raise week. Me service present.\nReady case bill policy."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 13792
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 12177
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7933
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 31946
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 44047
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 71430,
+    "TotalApproved": 27288
+  },
+  "AdjusterDetails": {
+    "Name": "James Harrison",
+    "ContactInformation": {
+      "Phone": "4365252957",
+      "Email": "dwayne44@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/8ea1daf3-87a7-4a5c-85a1-381f7feaedaf"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-19T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-24T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-01T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

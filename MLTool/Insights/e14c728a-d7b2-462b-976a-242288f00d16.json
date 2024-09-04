@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e14c728a-d7b2-462b-976a-242288f00d16",
+    "PolicyID": "9f53a7a1-8bef-4c28-b6ee-05542965013c",
+    "EffectiveDates": {
+        "StartDate": "2024-01-03",
+        "EndDate": "2025-01-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4e3d94e2-bef3-467c-9950-ad568dbf3a66",
+        "Name": "Sara Ramirez",
+        "PolicyNumber": "9f53a7a1-8bef-4c28-b6ee-05542965013c",
+        "ContactInformation": {
+            "Phone": "579-389-1935x8826",
+            "Email": "benjaminmartinez@example.org",
+            "Address": "7799 Cook Expressway Suite 025\nThomasberg, MT 94859"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-23",
+        "Location": "619 Lara Rue Apt. 441\nNicoleview, SD 85540",
+        "Description": "Outside despite she radio artist put kid. Man fish new claim. Continue save pull parent evening security."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2447
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3227
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26051
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36821
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7076
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 122846,
+        "TotalApproved": 30523
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Allen",
+        "ContactInformation": {
+            "Phone": "531.697.7620x05922",
+            "Email": "robert62@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5d732c2c-9c70-4d58-a525-01bf37cf6f6f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

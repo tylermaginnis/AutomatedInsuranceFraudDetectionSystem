@@ -1,0 +1,81 @@
+{
+    "ClaimID": "75adda42-7c15-4398-82fb-6feb2f596119",
+    "PolicyID": "32876d5d-466b-4f85-a22e-df02ddccb5b5",
+    "EffectiveDates": {
+        "StartDate": "2023-10-31",
+        "EndDate": "2024-10-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7cb5b9c9-eae9-47dc-af31-e39683fcf15b",
+        "Name": "Nancy Hopkins",
+        "PolicyNumber": "32876d5d-466b-4f85-a22e-df02ddccb5b5",
+        "ContactInformation": {
+            "Phone": "651-244-7867x5302",
+            "Email": "victor59@example.org",
+            "Address": "191 Brown Turnpike\nWest Michele, NC 87812"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-26",
+        "Location": "9213 Jason Circles\nMorrowton, AR 21290",
+        "Description": "Attorney avoid operation church figure success. Yeah few I record part fill off heart. Rest fire after itself set but final finally."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 71449
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12886
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1276
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 67429
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24177
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 103812,
+        "TotalApproved": 86349
+    },
+    "AdjusterDetails": {
+        "Name": "Annette Alexander",
+        "ContactInformation": {
+            "Phone": "9975885093",
+            "Email": "zmorrison@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/41cf007b-2230-407a-9cd7-87f16ae77626"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-31T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

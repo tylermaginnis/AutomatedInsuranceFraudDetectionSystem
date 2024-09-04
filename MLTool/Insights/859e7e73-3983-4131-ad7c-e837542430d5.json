@@ -1,0 +1,81 @@
+{
+    "ClaimID": "859e7e73-3983-4131-ad7c-e837542430d5",
+    "PolicyID": "897130e3-71d5-43ad-8e75-8292adfaf908",
+    "EffectiveDates": {
+        "StartDate": "2024-04-28",
+        "EndDate": "2025-04-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a164226e-2214-4edf-b758-0fea4f5a6e5d",
+        "Name": "Patricia Peterson",
+        "PolicyNumber": "897130e3-71d5-43ad-8e75-8292adfaf908",
+        "ContactInformation": {
+            "Phone": "737-800-3940",
+            "Email": "shaneneal@example.org",
+            "Address": "59179 Pena Plain Apt. 781\nRobinberg, FL 88013"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-19",
+        "Location": "4196 Warner Plaza Suite 510\nDavidview, OH 72212",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 65518
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33072
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7579
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17631
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7402
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 131202,
+        "TotalApproved": 23150
+    },
+    "AdjusterDetails": {
+        "Name": "Erica Barker",
+        "ContactInformation": {
+            "Phone": "+1-356-689-3688x09958",
+            "Email": "andrewgibson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c638c96f-404e-423d-93ff-e724f6a6e639"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-19T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-24T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-29T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "362fc0ab-117a-4c13-b614-81786a7b5f58",
+    "PolicyID": "8ce42182-3dc5-4c49-bf8e-2caef08087c5",
+    "EffectiveDates": {
+        "StartDate": "2024-08-04",
+        "EndDate": "2025-08-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "81f41d7d-f814-4c4a-b5af-ebc4c68ea14c",
+        "Name": "Thomas Khan",
+        "PolicyNumber": "8ce42182-3dc5-4c49-bf8e-2caef08087c5",
+        "ContactInformation": {
+            "Phone": "+1-750-711-1954",
+            "Email": "xwebb@example.com",
+            "Address": "860 Dylan Vista Suite 527\nChristensenmouth, IA 87644"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-13",
+        "Location": "93611 Andrew Centers\nWest Lisa, MP 68607",
+        "Description": "Reality director two blue. Goal matter entire computer form. Bed site show would firm weight student book."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33160
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5240
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2486
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3983
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46422
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 84032,
+        "TotalApproved": 29378
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Perez",
+        "ContactInformation": {
+            "Phone": "+1-916-824-3163x043",
+            "Email": "kshea@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c7b7e9a2-81b9-4a28-9ee1-9aeea54d19e3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

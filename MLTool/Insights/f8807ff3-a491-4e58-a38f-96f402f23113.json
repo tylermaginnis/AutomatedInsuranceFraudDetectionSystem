@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f8807ff3-a491-4e58-a38f-96f402f23113",
+    "PolicyID": "2216c70a-784d-45b1-87a3-80447528900f",
+    "EffectiveDates": {
+        "StartDate": "2024-04-05",
+        "EndDate": "2025-04-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a8615402-1a38-45b7-9226-a9e9ebf08a09",
+        "Name": "Troy Tanner",
+        "PolicyNumber": "2216c70a-784d-45b1-87a3-80447528900f",
+        "ContactInformation": {
+            "Phone": "471.804.6896",
+            "Email": "lroberts@example.net",
+            "Address": "19906 Danielle Burg\nJohnsonburgh, MH 14215"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-13",
+        "Location": "699 Rebecca Spur\nEast Dominiquechester, WA 96573",
+        "Description": "Crime edge dog short lay whose. Different become first mind somebody human value. Own various everything movie."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24344
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6741
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1116
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11491
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4675
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 4643,
+        "TotalApproved": 1006
+    },
+    "AdjusterDetails": {
+        "Name": "Jorge Wood",
+        "ContactInformation": {
+            "Phone": "983-651-2934",
+            "Email": "cordovachristopher@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6e8c735a-e259-45de-ad07-b56966cea440"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "84cba12c-01a7-4ed2-b7c5-23eadac94e1d",
+    "PolicyID": "c530e7e5-a45a-4e01-841b-505d48249bf6",
+    "EffectiveDates": {
+        "StartDate": "2024-01-22",
+        "EndDate": "2025-01-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "da0201d1-0930-40b6-a7ae-384b6f175260",
+        "Name": "Andrew Moore",
+        "PolicyNumber": "c530e7e5-a45a-4e01-841b-505d48249bf6",
+        "ContactInformation": {
+            "Phone": "001-770-697-2007x0921",
+            "Email": "javier63@example.org",
+            "Address": "28208 Vanessa Turnpike\nPort Lindsay, WV 37000"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-04",
+        "Location": "7443 Nathan Drive\nEast Elizabeth, NY 67242",
+        "Description": "Talk back expert again likely long. Data expect personal war whom fish color that. Physical amount ahead."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13528
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15040
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37307
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8227
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33397
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 7906,
+        "TotalApproved": 3754
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Reeves",
+        "ContactInformation": {
+            "Phone": "001-729-946-8126x701",
+            "Email": "wwilliams@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a285bc45-0992-4a51-9b6a-d1eb55818daf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-04T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-09T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-14T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

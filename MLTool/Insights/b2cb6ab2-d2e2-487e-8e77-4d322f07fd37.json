@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b2cb6ab2-d2e2-487e-8e77-4d322f07fd37",
+    "PolicyID": "3f2275c9-eb2f-471c-af7b-fbe77177cc58",
+    "EffectiveDates": {
+        "StartDate": "2023-10-23",
+        "EndDate": "2024-10-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a3735aeb-7188-412a-b408-b350234beb49",
+        "Name": "Gail York",
+        "PolicyNumber": "3f2275c9-eb2f-471c-af7b-fbe77177cc58",
+        "ContactInformation": {
+            "Phone": "+1-504-974-2631x813",
+            "Email": "klee@example.org",
+            "Address": "PSC 0231, Box 9344\nAPO AE 15465"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-30",
+        "Location": "338 Liu Brook\nClarkshire, AK 25216",
+        "Description": "Nothing opportunity ready day campaign member green all. Would her financial billion growth. Attention issue full stand newspaper."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34217
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 136140
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 133984
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1676
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3904
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 12545,
+        "TotalApproved": 6072
+    },
+    "AdjusterDetails": {
+        "Name": "Cynthia Compton",
+        "ContactInformation": {
+            "Phone": "702.634.4287",
+            "Email": "gatesjessica@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/839dad9f-cb0b-4642-afd8-91831f669d65"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-30T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-05T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-10T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

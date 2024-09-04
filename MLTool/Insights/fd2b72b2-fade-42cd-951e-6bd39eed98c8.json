@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fd2b72b2-fade-42cd-951e-6bd39eed98c8",
+    "PolicyID": "ce792fe6-8f1a-43f0-b067-d8f0bdcda224",
+    "EffectiveDates": {
+        "StartDate": "2023-10-16",
+        "EndDate": "2024-10-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b365701e-67d1-4043-979a-7d5c817348ef",
+        "Name": "Brett Harris",
+        "PolicyNumber": "ce792fe6-8f1a-43f0-b067-d8f0bdcda224",
+        "ContactInformation": {
+            "Phone": "555-941-5156x45931",
+            "Email": "suarezdenise@example.com",
+            "Address": "8022 Barnes Views\nEast Jacob, FL 74839"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-16",
+        "Location": "PSC 6238, Box 7177\nAPO AA 73421",
+        "Description": "Play fire will make sport law. Protect ever consider recent stay garden."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31431
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 54753
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10131
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32731
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2003
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 73593,
+        "TotalApproved": 16335
+    },
+    "AdjusterDetails": {
+        "Name": "Kerri Kelly",
+        "ContactInformation": {
+            "Phone": "978.818.5935",
+            "Email": "harrisonerin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a8b2df82-bee6-4dd5-8d7f-1ae9e58318a9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-16T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-21T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-26T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

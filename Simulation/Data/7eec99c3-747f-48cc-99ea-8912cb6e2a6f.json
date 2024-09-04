@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7eec99c3-747f-48cc-99ea-8912cb6e2a6f",
+  "PolicyID": "6b8bb56c-be70-4146-ae52-028e677b4b51",
+  "EffectiveDates": {
+    "StartDate": "2023-10-05",
+    "EndDate": "2024-10-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3fb7f950-cf1c-424f-ab08-477f24f0a592",
+    "Name": "Jacqueline Hicks",
+    "PolicyNumber": "6b8bb56c-be70-4146-ae52-028e677b4b51",
+    "ContactInformation": {
+      "Phone": "832-745-9871x7999",
+      "Email": "lindseyteresa@example.com",
+      "Address": "886 Scott Manors\nPort Gary, NC 96405"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-25",
+    "Location": "21360 Wilson Curve\nJeffreyburgh, TX 80055",
+    "Description": "Care travel then security. Soldier day idea should discussion that employee."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9047
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 98410
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3622
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 47282
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2169
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 2407,
+    "TotalApproved": 2406
+  },
+  "AdjusterDetails": {
+    "Name": "Kyle Jones",
+    "ContactInformation": {
+      "Phone": "779.835.9080",
+      "Email": "jeromedavis@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/ce1c7c31-ac52-474e-83af-bb3fd82f9bda"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-25T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-30T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-04T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

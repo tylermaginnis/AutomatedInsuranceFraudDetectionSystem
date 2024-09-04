@@ -1,0 +1,81 @@
+{
+    "ClaimID": "112fa5a5-eb5c-4644-bcf2-0ec8442fca76",
+    "PolicyID": "107a992d-f841-4cb5-97db-e2455a39fc07",
+    "EffectiveDates": {
+        "StartDate": "2024-06-11",
+        "EndDate": "2025-06-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b95eb13-4a81-40e0-9404-041b63b3ba8a",
+        "Name": "Luis Sims",
+        "PolicyNumber": "107a992d-f841-4cb5-97db-e2455a39fc07",
+        "ContactInformation": {
+            "Phone": "564.942.5911x68777",
+            "Email": "gambleelizabeth@example.org",
+            "Address": "368 Robert Drives Suite 880\nLake Donaldland, ND 94817"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-21",
+        "Location": "79976 Garcia Spring\nBradyside, NE 49960",
+        "Description": "Some last focus listen fly. Use perform newspaper table hundred new. Behind task heavy easy wide."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 127869
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29008
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 85769
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18307
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15018
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 136637,
+        "TotalApproved": 131515
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Harris",
+        "ContactInformation": {
+            "Phone": "(646)702-0072x095",
+            "Email": "markroberts@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/ba263281-a10a-4a08-acc3-90e29794f36d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-21T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-26T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-03T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

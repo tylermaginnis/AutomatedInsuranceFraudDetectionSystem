@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f0ac0c2a-9a90-4177-8a93-3fdafcc06b3e",
+  "PolicyID": "db6c1a44-161e-4bd8-8e74-450d801598fc",
+  "EffectiveDates": {
+    "StartDate": "2023-10-16",
+    "EndDate": "2024-10-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "481848b7-9e75-4986-869c-9b2370f9810b",
+    "Name": "Edward Snyder",
+    "PolicyNumber": "db6c1a44-161e-4bd8-8e74-450d801598fc",
+    "ContactInformation": {
+      "Phone": "(707)551-0123x28877",
+      "Email": "fwilson@example.org",
+      "Address": "00570 Valdez Plain Apt. 784\nWilsonhaven, SC 96715"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-09",
+    "Location": "Unit 8977 Box 8421\nDPO AP 01694",
+    "Description": "Nation several politics open. Individual station whether indeed this say room. Sit remain perhaps like couple.\nBecome clear relationship consumer. American because benefit line run."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 28517
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 22948
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 35746
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 20278
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 93237
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 174081,
+    "TotalApproved": 18839
+  },
+  "AdjusterDetails": {
+    "Name": "Benjamin Riley",
+    "ContactInformation": {
+      "Phone": "001-336-287-1415x813",
+      "Email": "danny28@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/2a638ea3-fa2e-4c26-a8f3-9c4c827e0e94"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-09T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-14T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-19T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e738389f-ef10-4913-8a35-265fff04e6b9",
+    "PolicyID": "4cf67f4d-f3da-455e-85f4-89b99505a5a6",
+    "EffectiveDates": {
+        "StartDate": "2024-02-14",
+        "EndDate": "2025-02-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71455117-9bb4-4e42-a16c-53bcaaf2e534",
+        "Name": "Troy Estrada",
+        "PolicyNumber": "4cf67f4d-f3da-455e-85f4-89b99505a5a6",
+        "ContactInformation": {
+            "Phone": "3269797726",
+            "Email": "collinsdavid@example.org",
+            "Address": "357 Callahan Mountain\nNorth Mary, IL 64279"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-07",
+        "Location": "23499 Fleming Ridge Suite 995\nSouth Johnberg, NE 10670",
+        "Description": "Begin professional involve scene. Between ground husband build eight.\nOffer war radio TV item doctor card. Single imagine hand sing important house. Smile song they body."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1116
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 133153
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20124
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9916
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8669
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 38589,
+        "TotalApproved": 23877
+    },
+    "AdjusterDetails": {
+        "Name": "Julie Weaver",
+        "ContactInformation": {
+            "Phone": "307-516-5852x85601",
+            "Email": "rsimpson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/36e6a8d7-a615-4c6c-9c94-f531f4db1d8f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

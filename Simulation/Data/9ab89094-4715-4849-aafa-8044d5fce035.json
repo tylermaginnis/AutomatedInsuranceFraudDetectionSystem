@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9ab89094-4715-4849-aafa-8044d5fce035",
+  "PolicyID": "4283d505-6435-4537-900b-04f3fe5d6245",
+  "EffectiveDates": {
+    "StartDate": "2023-11-13",
+    "EndDate": "2024-11-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "88d75284-e11a-40b7-b44a-dbe4ced996a5",
+    "Name": "Alec Terrell",
+    "PolicyNumber": "4283d505-6435-4537-900b-04f3fe5d6245",
+    "ContactInformation": {
+      "Phone": "7637615315",
+      "Email": "tinachristian@example.org",
+      "Address": "136 William Throughway\nBrandonton, MI 21560"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-18",
+    "Location": "4899 Cameron Fort\nNew Michael, KY 00702",
+    "Description": "Student care fly or with standard. Sort need window others maintain official stand price. Agreement near month with."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 84448
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 22466
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1822
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 86132
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 61375
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 69792,
+    "TotalApproved": 68370
+  },
+  "AdjusterDetails": {
+    "Name": "Leslie Sullivan",
+    "ContactInformation": {
+      "Phone": "781-648-2019x3033",
+      "Email": "andreajohnson@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/e1a28cfb-45ee-4661-8271-fd452b233e03"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-18T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-23T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-11-28T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

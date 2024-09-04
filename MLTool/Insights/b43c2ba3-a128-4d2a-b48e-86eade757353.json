@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b43c2ba3-a128-4d2a-b48e-86eade757353",
+    "PolicyID": "86b73685-12fe-4b3e-adb5-ba76f2bdc7b3",
+    "EffectiveDates": {
+        "StartDate": "2023-10-10",
+        "EndDate": "2024-10-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f833853e-9d85-4c1e-b9f7-f6dbd48f31e7",
+        "Name": "Scott Hart PhD",
+        "PolicyNumber": "86b73685-12fe-4b3e-adb5-ba76f2bdc7b3",
+        "ContactInformation": {
+            "Phone": "(800)727-8380x859",
+            "Email": "parkerjulie@example.net",
+            "Address": "64047 Seth Turnpike\nRobertside, OR 44002"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-10",
+        "Location": "1963 Amanda Forges Suite 392\nPatelfort, IN 23707",
+        "Description": "Well participant require grow significant whether hot arm. Assume account else success.\nMoney sure within position century hear including. Wind region player."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29130
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6253
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16095
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4239
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 187173
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 186972,
+        "TotalApproved": 150754
+    },
+    "AdjusterDetails": {
+        "Name": "Kelsey Cruz",
+        "ContactInformation": {
+            "Phone": "001-804-592-8879",
+            "Email": "juanquinn@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/12863d7a-fab4-4fc6-8db3-b9519c67c586"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-10T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-15T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-20T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

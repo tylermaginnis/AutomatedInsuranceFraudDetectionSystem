@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7d3b8abf-142e-453b-b31b-feaca6bd6da4",
+    "PolicyID": "f286d7dc-1392-4884-ab14-782779933d9f",
+    "EffectiveDates": {
+        "StartDate": "2024-07-07",
+        "EndDate": "2025-07-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2afa5935-567a-4972-ad39-5fc6d2d14637",
+        "Name": "Caleb Zamora",
+        "PolicyNumber": "f286d7dc-1392-4884-ab14-782779933d9f",
+        "ContactInformation": {
+            "Phone": "+1-232-203-0636x5696",
+            "Email": "april21@example.net",
+            "Address": "57361 Julie Station Suite 409\nNorth Mandy, AK 23267"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-13",
+        "Location": "16124 Kim Creek Apt. 906\nNew Vincenttown, NV 72884",
+        "Description": "Local at stand usually inside administration. Vote effort experience walk spring debate hot. Leader candidate east understand group."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36004
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1203
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46862
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16373
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67525
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 111785,
+        "TotalApproved": 70897
+    },
+    "AdjusterDetails": {
+        "Name": "Herbert Miller",
+        "ContactInformation": {
+            "Phone": "(349)436-3544x7076",
+            "Email": "langeric@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/92b2b57f-c997-41e1-bb0a-5ac1684b3a77"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-13T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-18T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-23T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a18ea0b2-e2cf-4ed9-ba0d-4659f95c38c1",
+    "PolicyID": "7b2816b6-9211-440a-a024-a041647eef6a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-21",
+        "EndDate": "2025-03-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c4707156-bbc4-4ef2-bceb-30f4e7188ad9",
+        "Name": "Dr. Alexander Flores",
+        "PolicyNumber": "7b2816b6-9211-440a-a024-a041647eef6a",
+        "ContactInformation": {
+            "Phone": "555.293.8438x3457",
+            "Email": "joannanielsen@example.com",
+            "Address": "799 Joanna Locks Suite 909\nLake Larry, RI 25901"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-17",
+        "Location": "09782 Kevin Drive Apt. 273\nNorth Susan, VT 69210",
+        "Description": "Either else travel century. Economy discussion us and fish almost. First during painting sport physical way when."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7826
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2989
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30881
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 30672
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 74581
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 140029,
+        "TotalApproved": 134297
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Hubbard",
+        "ContactInformation": {
+            "Phone": "489-251-9676",
+            "Email": "jorge55@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ae6f7623-b1d2-4835-8d3e-32a99e41ce36"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eaaa69e8-cfce-476b-ba5d-f2290e3a4716",
+    "PolicyID": "d8dfd318-9d77-4d8b-8d85-a250fe5a6211",
+    "EffectiveDates": {
+        "StartDate": "2023-11-21",
+        "EndDate": "2024-11-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b6a99680-4413-438f-afe4-6b072f805418",
+        "Name": "Sierra Anderson",
+        "PolicyNumber": "d8dfd318-9d77-4d8b-8d85-a250fe5a6211",
+        "ContactInformation": {
+            "Phone": "(510)602-5340x00120",
+            "Email": "zlopez@example.net",
+            "Address": "2451 Antonio Mill\nCharlesburgh, AS 82479"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-14",
+        "Location": "251 Amy Crest\nWest Williamberg, LA 45288",
+        "Description": "Wrong doctor push speak edge.\nAmong fall attention blue economy attorney. Cell it thus decide along.\nOrganization consumer south. Hard early own. Because event nature decision theory."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4874
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 77834
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34048
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8043
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27326
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 79555,
+        "TotalApproved": 51651
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Holt",
+        "ContactInformation": {
+            "Phone": "422-934-8182x9639",
+            "Email": "abigailflowers@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5f958abf-6152-4370-9ee4-fe4719b4d88d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

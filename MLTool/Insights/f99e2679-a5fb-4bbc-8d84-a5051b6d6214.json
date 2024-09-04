@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f99e2679-a5fb-4bbc-8d84-a5051b6d6214",
+    "PolicyID": "f581cf47-275f-4a1f-a22b-0d38428e359a",
+    "EffectiveDates": {
+        "StartDate": "2024-05-26",
+        "EndDate": "2025-05-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "703e125f-5187-41d4-b40d-0aa2e397f23c",
+        "Name": "Tammy Wells",
+        "PolicyNumber": "f581cf47-275f-4a1f-a22b-0d38428e359a",
+        "ContactInformation": {
+            "Phone": "414-618-0320x575",
+            "Email": "thomasjustin@example.org",
+            "Address": "79106 Terrence Stream Suite 659\nNorth Andrea, OH 26261"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-01",
+        "Location": "105 Richardson Ville Suite 487\nBarnesshire, PW 34023",
+        "Description": "Environmental leave special from couple about several citizen. Fire four agreement middle sport chance. Physical rest century reveal out write than."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5493
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2190
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 82081
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5286
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15350
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 28489,
+        "TotalApproved": 6379
+    },
+    "AdjusterDetails": {
+        "Name": "Lacey May",
+        "ContactInformation": {
+            "Phone": "7345459010",
+            "Email": "terrydavid@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9332fde9-404a-46d8-8969-8518ad243f3f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-01T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-06T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-11T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

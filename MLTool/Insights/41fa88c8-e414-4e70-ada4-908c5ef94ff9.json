@@ -1,0 +1,81 @@
+{
+    "ClaimID": "41fa88c8-e414-4e70-ada4-908c5ef94ff9",
+    "PolicyID": "9ce0cc65-076c-45b9-9cc8-86287bba6be2",
+    "EffectiveDates": {
+        "StartDate": "2024-08-01",
+        "EndDate": "2025-08-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8abb33f7-aabb-445f-a8ef-2f6e0a4420b9",
+        "Name": "Jeffrey White",
+        "PolicyNumber": "9ce0cc65-076c-45b9-9cc8-86287bba6be2",
+        "ContactInformation": {
+            "Phone": "001-459-527-5549",
+            "Email": "melissa93@example.com",
+            "Address": "PSC 6029, Box 8743\nAPO AA 90032"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-11",
+        "Location": "24154 Katherine Circle\nScottport, VT 47442",
+        "Description": "Phone population stuff fall arm television fine. Help language role however network participant that keep."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 137148
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 78901
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8577
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11593
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10478
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 140566,
+        "TotalApproved": 92883
+    },
+    "AdjusterDetails": {
+        "Name": "Scott Fisher",
+        "ContactInformation": {
+            "Phone": "001-719-425-5090x3128",
+            "Email": "daniel93@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e5e43fd8-ac22-4b74-8d6a-9d1527da0f04"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-11T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-16T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-21T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

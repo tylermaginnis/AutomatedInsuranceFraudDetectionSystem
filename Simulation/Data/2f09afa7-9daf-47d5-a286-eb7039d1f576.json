@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2f09afa7-9daf-47d5-a286-eb7039d1f576",
+  "PolicyID": "96b14b65-f953-404a-9099-ed2e6e841dc7",
+  "EffectiveDates": {
+    "StartDate": "2024-01-15",
+    "EndDate": "2025-01-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "124b5aa0-eb26-45cd-bbe0-ff7a558e025b",
+    "Name": "Geoffrey Harmon",
+    "PolicyNumber": "96b14b65-f953-404a-9099-ed2e6e841dc7",
+    "ContactInformation": {
+      "Phone": "307-747-6076x0707",
+      "Email": "elizabeth10@example.com",
+      "Address": "062 Garcia Ville\nSouth Cody, PA 41125"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-09",
+    "Location": "5127 Wendy Mount\nEast Amanda, WY 18409",
+    "Description": "Answer people father his place seek second writer. Forward floor audience seem. Establish glass yard food speak."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 14573
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 76825
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11519
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 32439
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 97957
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 86621,
+    "TotalApproved": 12781
+  },
+  "AdjusterDetails": {
+    "Name": "Dr. Lori West",
+    "ContactInformation": {
+      "Phone": "849-777-8269x0641",
+      "Email": "fcarey@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/9af5777b-7d69-4a21-978b-3d0c57a7124a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-09T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-03-14T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-19T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

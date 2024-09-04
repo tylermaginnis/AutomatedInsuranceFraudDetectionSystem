@@ -1,0 +1,81 @@
+{
+    "ClaimID": "dfb7ad1c-f169-4181-b046-959a8980237f",
+    "PolicyID": "076b9028-e814-4a8f-a89b-3d6511c2f573",
+    "EffectiveDates": {
+        "StartDate": "2024-04-06",
+        "EndDate": "2025-04-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "959fc30c-3df4-4a85-b915-381669adf8cc",
+        "Name": "Leslie Rodriguez",
+        "PolicyNumber": "076b9028-e814-4a8f-a89b-3d6511c2f573",
+        "ContactInformation": {
+            "Phone": "+1-798-720-7100x8792",
+            "Email": "alyssahamilton@example.org",
+            "Address": "068 Harris Forges\nLake William, MT 78249"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-14",
+        "Location": "898 Cabrera Course Suite 242\nKennedyburgh, WI 98519",
+        "Description": "Claim happen coach to positive into. Floor effort race value piece environment. Detail method budget add entire address crime."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9155
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27995
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6373
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1552
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4370
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 62524,
+        "TotalApproved": 35977
+    },
+    "AdjusterDetails": {
+        "Name": "Erin Gallagher",
+        "ContactInformation": {
+            "Phone": "417.499.4445x26870",
+            "Email": "kimberlyhouse@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/343a98f6-70d9-4d9b-ac67-5c60dc2cf335"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

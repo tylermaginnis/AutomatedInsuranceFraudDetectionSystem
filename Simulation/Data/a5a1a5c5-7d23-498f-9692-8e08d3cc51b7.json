@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a5a1a5c5-7d23-498f-9692-8e08d3cc51b7",
+  "PolicyID": "824d1ff2-f4ec-47c5-8fc3-136d3a87df72",
+  "EffectiveDates": {
+    "StartDate": "2023-11-04",
+    "EndDate": "2024-11-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "081009c8-ebb0-4c58-8082-92767ae5f665",
+    "Name": "Erik Dunn",
+    "PolicyNumber": "824d1ff2-f4ec-47c5-8fc3-136d3a87df72",
+    "ContactInformation": {
+      "Phone": "411.714.4700",
+      "Email": "travis51@example.org",
+      "Address": "887 Diaz Rest Apt. 337\nNew Ryanburgh, MI 28155"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-05",
+    "Location": "3090 Casey Pass Apt. 230\nPort Jimmy, AZ 10627",
+    "Description": "Themselves decision fire eight coach. Kitchen down civil Congress.\nForward dream practice various cup. Range serve need hard shake ago phone. Decide woman a system."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 3108
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2282
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 118759
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 26150
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 18160
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 90599,
+    "TotalApproved": 40939
+  },
+  "AdjusterDetails": {
+    "Name": "Diana Mcdonald",
+    "ContactInformation": {
+      "Phone": "001-395-800-8244",
+      "Email": "elizabeth56@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/22c7e587-5386-4a52-82a7-7107e1c19164"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-05T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-10T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-15T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

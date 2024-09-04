@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8970de05-57fe-432c-b66b-7bae69fde7eb",
+  "PolicyID": "5b7c71de-c7fd-4e19-baab-f268ef3ce440",
+  "EffectiveDates": {
+    "StartDate": "2024-07-09",
+    "EndDate": "2025-07-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1d8b17e0-68ae-4a6e-a64b-d42cd4b6d98d",
+    "Name": "Gregory Mcconnell",
+    "PolicyNumber": "5b7c71de-c7fd-4e19-baab-f268ef3ce440",
+    "ContactInformation": {
+      "Phone": "(250)483-2599x052",
+      "Email": "patricia98@example.net",
+      "Address": "887 Kathleen Stream Apt. 225\nSmithshire, MH 11243"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-02",
+    "Location": "00591 Ford Station\nAndersonbury, KS 45428",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 95141
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 30116
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8064
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 14942
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8089
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 156352,
+    "TotalApproved": 5585
+  },
+  "AdjusterDetails": {
+    "Name": "Gregory Rojas",
+    "ContactInformation": {
+      "Phone": "855-902-0092x38400",
+      "Email": "burnsderrick@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/229107fd-9e44-48ce-8cc9-a487bb7b947c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-02T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-07T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-12T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

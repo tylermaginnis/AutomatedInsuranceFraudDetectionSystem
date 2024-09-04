@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7f02af26-7472-4f1a-9061-17e6c046417e",
+    "PolicyID": "12be17f5-4dbe-4909-a747-f924371af523",
+    "EffectiveDates": {
+        "StartDate": "2023-12-21",
+        "EndDate": "2024-12-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "561d056d-13d5-40db-98ab-96d66f21ad82",
+        "Name": "Robert Casey",
+        "PolicyNumber": "12be17f5-4dbe-4909-a747-f924371af523",
+        "ContactInformation": {
+            "Phone": "827-272-6512x11650",
+            "Email": "kanesarah@example.org",
+            "Address": "1934 Jordan Vista\nNew John, AK 11999"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-03",
+        "Location": "USNV Bauer\nFPO AA 84288",
+        "Description": "Direction rest defense outside total doctor. According position ten close Mrs professor. Attention lead five tough not free.\nCentral plan quality. Young when least fact discuss."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6168
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11219
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4794
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4698
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10863
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 103949,
+        "TotalApproved": 92993
+    },
+    "AdjusterDetails": {
+        "Name": "Jamie Leon",
+        "ContactInformation": {
+            "Phone": "+1-219-624-6929x3881",
+            "Email": "ringram@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/51fbfdc6-b789-4500-ae96-8a1508291517"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

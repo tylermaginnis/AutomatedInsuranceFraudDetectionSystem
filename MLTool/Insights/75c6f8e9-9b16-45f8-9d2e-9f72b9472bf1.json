@@ -1,0 +1,81 @@
+{
+    "ClaimID": "75c6f8e9-9b16-45f8-9d2e-9f72b9472bf1",
+    "PolicyID": "8aed0584-466a-4862-9e3d-d5999687b56a",
+    "EffectiveDates": {
+        "StartDate": "2024-08-28",
+        "EndDate": "2025-08-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "df1b3f38-865f-47d4-b5c9-4f804d2142ec",
+        "Name": "Evelyn Perry",
+        "PolicyNumber": "8aed0584-466a-4862-9e3d-d5999687b56a",
+        "ContactInformation": {
+            "Phone": "001-325-575-1675x7882",
+            "Email": "kristin66@example.com",
+            "Address": "75090 Kimberly Lane Apt. 967\nPatrickside, OR 83122"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-15",
+        "Location": "8939 Vanessa Turnpike\nOsborneside, TX 96736",
+        "Description": "Hit forget staff dark. Green film guess large imagine red condition fact.\nVarious common central guy. Firm apply close movement more politics. Rest force west successful per onto."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9315
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2870
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 75259
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3048
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5107
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 48151,
+        "TotalApproved": 41266
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Smith",
+        "ContactInformation": {
+            "Phone": "(253)297-7125x27917",
+            "Email": "mark93@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/39e1825d-7378-4f36-879d-5ddc379eb2e5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

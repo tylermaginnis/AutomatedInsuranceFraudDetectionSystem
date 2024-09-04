@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2859d4e9-7f54-494d-9ce5-e46d4b69bcbf",
+    "PolicyID": "60eff4d3-406d-4841-b90c-1e9660b12f5c",
+    "EffectiveDates": {
+        "StartDate": "2024-03-05",
+        "EndDate": "2025-03-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4cd0a164-352d-42ca-a1d7-593fa89fa61e",
+        "Name": "Sandra Sparks",
+        "PolicyNumber": "60eff4d3-406d-4841-b90c-1e9660b12f5c",
+        "ContactInformation": {
+            "Phone": "(494)699-4535x366",
+            "Email": "cannonlaura@example.net",
+            "Address": "371 Johnson Meadow\nPort Benjamin, DC 20392"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-12",
+        "Location": "8473 Payne Terrace\nPort Kaitlynville, AK 18426",
+        "Description": "Off story science. Build factor man. Yes among drive concern agency.\nTrial wide end family soon land. Trial president parent success policy in sound. Sense join billion standard official approach."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 73499
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 151667
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25624
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8271
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 40058
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 66858,
+        "TotalApproved": 25054
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Gonzalez",
+        "ContactInformation": {
+            "Phone": "(985)747-7477x3769",
+            "Email": "adrian75@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4d043aed-8774-4185-9b90-3454dda68302"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-12T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-17T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-22T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

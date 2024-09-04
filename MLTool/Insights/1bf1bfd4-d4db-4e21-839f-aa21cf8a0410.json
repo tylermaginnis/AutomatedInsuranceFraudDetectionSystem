@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1bf1bfd4-d4db-4e21-839f-aa21cf8a0410",
+    "PolicyID": "94ed24cc-98b8-4d10-8804-08eed3a44523",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ee26dee0-2b7f-42fd-8694-5c671e7abf96",
+        "Name": "Manuel Bass",
+        "PolicyNumber": "94ed24cc-98b8-4d10-8804-08eed3a44523",
+        "ContactInformation": {
+            "Phone": "457.508.1230",
+            "Email": "williamsjose@example.com",
+            "Address": "PSC 8729, Box 5890\nAPO AA 97671"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-19",
+        "Location": "31424 Mora Tunnel Apt. 931\nJosephberg, MD 10136",
+        "Description": "Former budget item. Rule bag challenge. Include for really themselves necessary. Knowledge education standard question talk allow today."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1685
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32347
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3773
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6411
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47850
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 135393,
+        "TotalApproved": 11934
+    },
+    "AdjusterDetails": {
+        "Name": "Todd Whitehead",
+        "ContactInformation": {
+            "Phone": "565.703.5834x68396",
+            "Email": "isummers@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3839dcaf-4834-4a04-9ecf-cd1c65fba374"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-19T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-24T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-29T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

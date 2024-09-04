@@ -1,0 +1,81 @@
+{
+    "ClaimID": "459ebe8e-c952-4336-9c1c-9b2996379234",
+    "PolicyID": "e5a28ec5-278a-49ff-8e45-300077997acf",
+    "EffectiveDates": {
+        "StartDate": "2023-09-19",
+        "EndDate": "2024-09-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b15bed0-ae5c-41ca-81ee-db9ae615ade3",
+        "Name": "Daniel Patrick",
+        "PolicyNumber": "e5a28ec5-278a-49ff-8e45-300077997acf",
+        "ContactInformation": {
+            "Phone": "+1-747-681-1037x2098",
+            "Email": "youngtina@example.net",
+            "Address": "200 Melissa Plains\nPort Annettemouth, NM 03529"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-08",
+        "Location": "291 John Lights\nSouth Nicoleton, AR 15248",
+        "Description": "Seem recent war plant husband. Catch movie few yourself. Determine box view around. Table deal ability drive rate green."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7730
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 60927
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 87349
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3081
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15343
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 94852,
+        "TotalApproved": 5953
+    },
+    "AdjusterDetails": {
+        "Name": "Dale Thomas",
+        "ContactInformation": {
+            "Phone": "573.394.5170x175",
+            "Email": "jamesjohn@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/41cf03f1-b81d-466e-9bfb-5dae65771229"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-08T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-13T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-18T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

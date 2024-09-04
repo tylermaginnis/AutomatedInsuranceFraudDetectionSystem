@@ -1,0 +1,81 @@
+{
+    "ClaimID": "58a6a5e0-1235-49c7-a738-4769b08bcb50",
+    "PolicyID": "8a41b0a9-d846-4133-a36d-f70b1a6e3dc3",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "56630b30-198b-4bef-9da5-3207af57a151",
+        "Name": "Angela Acosta",
+        "PolicyNumber": "8a41b0a9-d846-4133-a36d-f70b1a6e3dc3",
+        "ContactInformation": {
+            "Phone": "(518)248-8088x084",
+            "Email": "michaelrobinson@example.org",
+            "Address": "9509 Clark Underpass Apt. 770\nBrianport, IA 75177"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-22",
+        "Location": "763 Jennifer Field Apt. 158\nPort Brianview, DC 41491",
+        "Description": "Bit responsibility probably black. Oil contain yourself individual. Civil nearly run matter nothing day.\nActivity might she thing. Board such story item popular act some."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9394
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31443
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8956
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16347
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7333
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 192674,
+        "TotalApproved": 126175
+    },
+    "AdjusterDetails": {
+        "Name": "Audrey Osborne",
+        "ContactInformation": {
+            "Phone": "+1-235-266-8869x996",
+            "Email": "okelly@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0a78447f-59c6-47b3-88ba-16fabecf1aed"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-22T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-27T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

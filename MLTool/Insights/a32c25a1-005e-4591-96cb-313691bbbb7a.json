@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a32c25a1-005e-4591-96cb-313691bbbb7a",
+    "PolicyID": "8dba4046-0f3b-4bea-a3ec-2ff4a5fe19f3",
+    "EffectiveDates": {
+        "StartDate": "2023-10-15",
+        "EndDate": "2024-10-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "02096e14-9d72-45b5-b6fa-5afb9f4140e5",
+        "Name": "Kelly Gutierrez",
+        "PolicyNumber": "8dba4046-0f3b-4bea-a3ec-2ff4a5fe19f3",
+        "ContactInformation": {
+            "Phone": "403-664-5622x3304",
+            "Email": "jennifertaylor@example.net",
+            "Address": "3008 Bean Station Suite 452\nWoodbury, PR 66027"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-16",
+        "Location": "15826 Flores Landing\nHigginsberg, FL 18572",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 85259
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22728
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5924
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18413
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5831
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 138155,
+        "TotalApproved": 25831
+    },
+    "AdjusterDetails": {
+        "Name": "Glen Sutton",
+        "ContactInformation": {
+            "Phone": "514.787.6776x54021",
+            "Email": "khardy@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8455e551-d953-48c9-92d4-2e3e28c469a8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-16T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-21T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-26T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

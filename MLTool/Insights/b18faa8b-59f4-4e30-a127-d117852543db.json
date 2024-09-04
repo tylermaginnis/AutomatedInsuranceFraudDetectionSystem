@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b18faa8b-59f4-4e30-a127-d117852543db",
+    "PolicyID": "bcbb69fd-e585-44b2-b3d2-fef7324c75cd",
+    "EffectiveDates": {
+        "StartDate": "2024-03-23",
+        "EndDate": "2025-03-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6d64b150-be07-454b-b049-f69c2e56026e",
+        "Name": "Chelsea Herring",
+        "PolicyNumber": "bcbb69fd-e585-44b2-b3d2-fef7324c75cd",
+        "ContactInformation": {
+            "Phone": "(950)544-1915x127",
+            "Email": "smithgregory@example.com",
+            "Address": "6771 Albert Roads\nGarnerborough, FL 46223"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-05",
+        "Location": "90853 Ellis Turnpike Apt. 977\nEdwardbury, AR 79093",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 80941
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22040
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9297
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24940
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11139
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 148357,
+        "TotalApproved": 90316
+    },
+    "AdjusterDetails": {
+        "Name": "Kristin Waters",
+        "ContactInformation": {
+            "Phone": "758.757.3301",
+            "Email": "wrivera@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f1325592-712a-4053-a686-471b4410847a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

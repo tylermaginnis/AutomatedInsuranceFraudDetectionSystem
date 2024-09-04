@@ -1,0 +1,80 @@
+{
+  "ClaimID": "55b641b4-b2ca-40c9-b911-59bf8a0934e2",
+  "PolicyID": "76de80ba-f952-42a1-8cf8-b89c8b4be5ac",
+  "EffectiveDates": {
+    "StartDate": "2024-08-21",
+    "EndDate": "2025-08-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6d082f09-09ad-48b9-b671-11bdaa69422a",
+    "Name": "Anna Jones",
+    "PolicyNumber": "76de80ba-f952-42a1-8cf8-b89c8b4be5ac",
+    "ContactInformation": {
+      "Phone": "846-679-4508",
+      "Email": "mfoster@example.com",
+      "Address": "51924 Ray Mission Suite 165\nBellberg, TN 70051"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-22",
+    "Location": "Unit 6578 Box 3972\nDPO AE 86337",
+    "Description": "Serious pretty themselves argue lay over. Writer customer degree security us up important across. Early kid fund experience standard."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7219
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5864
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 34241
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6543
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 21680
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 3841,
+    "TotalApproved": 2392
+  },
+  "AdjusterDetails": {
+    "Name": "Thomas Hill",
+    "ContactInformation": {
+      "Phone": "533-754-6679x0541",
+      "Email": "vwilliams@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/5d270a7e-b2d9-46e5-b686-1188d6bdca8c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-22T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-27T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-02T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

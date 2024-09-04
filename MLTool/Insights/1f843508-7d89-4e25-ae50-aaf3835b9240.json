@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1f843508-7d89-4e25-ae50-aaf3835b9240",
+    "PolicyID": "0e57f323-9748-4665-9c0e-f7556c57e2a8",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9476cd67-fed5-4140-9e4d-5374b8ed3c24",
+        "Name": "Ryan Martin",
+        "PolicyNumber": "0e57f323-9748-4665-9c0e-f7556c57e2a8",
+        "ContactInformation": {
+            "Phone": "382-970-1219x02575",
+            "Email": "deborahbrown@example.com",
+            "Address": "1975 Ronnie Ridges\nLake Brittanyton, PR 62655"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-05",
+        "Location": "76939 David Crest Suite 313\nRobertville, MS 48845",
+        "Description": "Trip I today statement.\nCollection while along letter something once show. Sell any beautiful boy green three. Else summer very hair. Deal energy only could organization."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11031
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19972
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36934
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11753
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2157
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157710,
+        "TotalApproved": 124690
+    },
+    "AdjusterDetails": {
+        "Name": "Katie Houston",
+        "ContactInformation": {
+            "Phone": "001-560-539-7785",
+            "Email": "acostalorraine@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a17fdc0f-258f-4a58-8393-fa8c039d1335"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

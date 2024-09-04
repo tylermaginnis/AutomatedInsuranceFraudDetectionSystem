@@ -1,0 +1,81 @@
+{
+    "ClaimID": "673ccbcd-e1bf-45a0-a233-c9acfa1b5722",
+    "PolicyID": "e064c595-bfe8-4efa-909c-fffa76b67377",
+    "EffectiveDates": {
+        "StartDate": "2023-10-03",
+        "EndDate": "2024-10-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5e345e00-c283-49c4-98e4-31a5e84fba4f",
+        "Name": "Joshua Richards",
+        "PolicyNumber": "e064c595-bfe8-4efa-909c-fffa76b67377",
+        "ContactInformation": {
+            "Phone": "3816783080",
+            "Email": "marie33@example.com",
+            "Address": "4499 Devin Flat\nWest Danafurt, RI 02117"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-30",
+        "Location": "5214 Waters Manors\nWheelerfort, AR 92909",
+        "Description": "Family too today expect official likely animal. Old card west range bill.\nOwner close little several. Main special cold same necessary."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 73425
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22625
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20008
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 64924
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8442
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 196268,
+        "TotalApproved": 109320
+    },
+    "AdjusterDetails": {
+        "Name": "Roberto Bradford",
+        "ContactInformation": {
+            "Phone": "253.551.7377",
+            "Email": "samantha69@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c423df3d-75aa-405f-98f9-204301058443"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-30T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-04T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-09T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

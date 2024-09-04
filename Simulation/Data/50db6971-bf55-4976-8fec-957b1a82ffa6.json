@@ -1,0 +1,80 @@
+{
+  "ClaimID": "50db6971-bf55-4976-8fec-957b1a82ffa6",
+  "PolicyID": "ba1e619d-64a0-4122-b0f2-17742d6565ec",
+  "EffectiveDates": {
+    "StartDate": "2023-11-04",
+    "EndDate": "2024-11-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3a87abce-a8df-4232-8d4f-b2674677dda3",
+    "Name": "Tiffany Haley",
+    "PolicyNumber": "ba1e619d-64a0-4122-b0f2-17742d6565ec",
+    "ContactInformation": {
+      "Phone": "762.410.9976",
+      "Email": "peggy92@example.net",
+      "Address": "960 Shannon Knoll Apt. 022\nJosephshire, LA 46055"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-06",
+    "Location": "8274 Raymond Street\nLake Williamside, ID 47823",
+    "Description": "Always side senior federal. Concern hotel per turn series me name. Institution bag back hit standard Mr. Network order effect just."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 28565
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2234
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 18221
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 91183
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5255
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 180785,
+    "TotalApproved": 44107
+  },
+  "AdjusterDetails": {
+    "Name": "Joshua Barrera",
+    "ContactInformation": {
+      "Phone": "720.511.3642",
+      "Email": "shirley47@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/5cc7bf21-1b40-4935-b50b-ff4cd1e14c2a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-06T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-11T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-16T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

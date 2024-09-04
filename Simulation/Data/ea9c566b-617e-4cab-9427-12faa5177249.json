@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ea9c566b-617e-4cab-9427-12faa5177249",
+  "PolicyID": "e5a7970f-ad7f-486c-aa70-f6fd51f09301",
+  "EffectiveDates": {
+    "StartDate": "2024-03-26",
+    "EndDate": "2025-03-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7ece58e9-3ace-4c82-a227-b65960378bd0",
+    "Name": "Lisa Lawrence",
+    "PolicyNumber": "e5a7970f-ad7f-486c-aa70-f6fd51f09301",
+    "ContactInformation": {
+      "Phone": "637.215.9104",
+      "Email": "robertsondevin@example.com",
+      "Address": "519 Williams Course\nJoneschester, NY 10163"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-02",
+    "Location": "49897 Richard Turnpike\nPeterborough, CA 14308",
+    "Description": "Box past compare rate. Western tend good pass today director us.\nStory should which write. Again call blood describe. Agree suffer international me itself effort owner."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1950
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 62848
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 25076
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 128166
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4013
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 85215,
+    "TotalApproved": 49177
+  },
+  "AdjusterDetails": {
+    "Name": "Vickie Mcgrath DVM",
+    "ContactInformation": {
+      "Phone": "001-558-242-7093x771",
+      "Email": "dosborne@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/4b460aba-b390-4eac-9154-f63c7d92bd24"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-02T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-07T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-12T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

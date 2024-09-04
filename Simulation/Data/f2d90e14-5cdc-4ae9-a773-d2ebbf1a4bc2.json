@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f2d90e14-5cdc-4ae9-a773-d2ebbf1a4bc2",
+  "PolicyID": "b6234456-383c-4bc9-b40e-53736c43f842",
+  "EffectiveDates": {
+    "StartDate": "2023-09-16",
+    "EndDate": "2024-09-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "40a151b8-e88d-442d-afeb-03402b1e678f",
+    "Name": "Isabella Blake",
+    "PolicyNumber": "b6234456-383c-4bc9-b40e-53736c43f842",
+    "ContactInformation": {
+      "Phone": "513-442-9447x105",
+      "Email": "jenkinsbradley@example.net",
+      "Address": "2635 Bates Plaza\nNewtonstad, MT 31601"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-21",
+    "Location": "75224 Tyler Lodge Suite 181\nFernandotown, AR 74436",
+    "Description": "Sit serve soldier free international believe loss. Arrive three season power.\nAttack including vote present collection chair so. Morning city loss support test."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 43588
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 28290
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 114848
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 68450
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 33030
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 130244,
+    "TotalApproved": 14525
+  },
+  "AdjusterDetails": {
+    "Name": "Paul Yoder",
+    "ContactInformation": {
+      "Phone": "001-899-489-1675",
+      "Email": "oatkinson@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/c3fae7f3-ea55-4247-b8b8-709f463a5e29"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-21T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-26T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-31T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

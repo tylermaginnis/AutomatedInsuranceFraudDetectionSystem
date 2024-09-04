@@ -1,0 +1,81 @@
+{
+    "ClaimID": "71d17212-6886-4d09-9fec-73d012526c72",
+    "PolicyID": "a04faa22-7d1d-44a8-9c28-b9e8c6b06daa",
+    "EffectiveDates": {
+        "StartDate": "2024-02-28",
+        "EndDate": "2025-02-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f6a626e6-57be-466a-aa15-9a840a1ef0e7",
+        "Name": "Dale Garcia",
+        "PolicyNumber": "a04faa22-7d1d-44a8-9c28-b9e8c6b06daa",
+        "ContactInformation": {
+            "Phone": "+1-726-333-3922",
+            "Email": "vincentforbes@example.org",
+            "Address": "106 Richardson Point\nLake Judy, IL 90167"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-06",
+        "Location": "76906 Margaret Ridge\nEast Eric, MP 32619",
+        "Description": "Between boy get city open ability information. Look manage present station peace. Adult deep material apply bank mention. Culture offer building old."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3728
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9256
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32317
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13440
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37424
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 172434,
+        "TotalApproved": 41842
+    },
+    "AdjusterDetails": {
+        "Name": "Susan Miranda",
+        "ContactInformation": {
+            "Phone": "+1-359-987-1799x7383",
+            "Email": "natalie60@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0c4091c2-b8ae-4832-af52-0c8285692af6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-06T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-11T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-16T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

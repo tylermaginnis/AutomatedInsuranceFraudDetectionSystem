@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5c9776cc-9136-4bb8-8ed6-ec33e42b163f",
+  "PolicyID": "5986a1f4-5e54-4706-9795-c3d1a4c16fe7",
+  "EffectiveDates": {
+    "StartDate": "2024-03-17",
+    "EndDate": "2025-03-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "347642ee-f5b8-42c3-804c-031ba94bb053",
+    "Name": "Scott Rivera",
+    "PolicyNumber": "5986a1f4-5e54-4706-9795-c3d1a4c16fe7",
+    "ContactInformation": {
+      "Phone": "001-537-648-0605x7489",
+      "Email": "pwall@example.com",
+      "Address": "94698 Jared Rapid Apt. 677\nSouth Kyleside, WV 80436"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-02",
+    "Location": "88608 Petty Port Apt. 873\nPort Jimmyland, SD 13049",
+    "Description": "Box again building institution under edge learn. Create marriage article machine artist per situation choose.\nTruth well some need learn current head. Career information mean recent."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 46874
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 35683
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 23250
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8739
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 44827
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 43350,
+    "TotalApproved": 20542
+  },
+  "AdjusterDetails": {
+    "Name": "John Bullock",
+    "ContactInformation": {
+      "Phone": "3895998521",
+      "Email": "mwillis@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/500e18e7-4045-4d95-8e2b-8f546e4a0178"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-02T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-07T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-12T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

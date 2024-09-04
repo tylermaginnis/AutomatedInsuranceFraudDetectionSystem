@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6f238fce-74f1-4e1f-862a-23e65bc65482",
+    "PolicyID": "905a31a1-6d3f-4f1d-b672-11b60f2a4e24",
+    "EffectiveDates": {
+        "StartDate": "2024-07-27",
+        "EndDate": "2025-07-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1ead306b-ba49-4ca4-a8f6-71f07e1ae23c",
+        "Name": "Maria Ayers",
+        "PolicyNumber": "905a31a1-6d3f-4f1d-b672-11b60f2a4e24",
+        "ContactInformation": {
+            "Phone": "(860)912-7591x671",
+            "Email": "cesar53@example.com",
+            "Address": "1869 David Way\nNorth Sandra, IL 39089"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-09",
+        "Location": "0071 Martinez Branch\nMariafort, HI 00950",
+        "Description": "There will move pass food pretty voice. Throw finish pretty measure home. Claim political specific condition decide attention clear.\nSpend avoid control. Would cup wall may rock billion."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17981
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27914
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25903
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 93706
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16640
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 30616,
+        "TotalApproved": 4805
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Martinez",
+        "ContactInformation": {
+            "Phone": "292-223-1039x8079",
+            "Email": "michael36@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/80d3c2b7-2a9c-46e1-8d13-fb6d7749c2ef"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

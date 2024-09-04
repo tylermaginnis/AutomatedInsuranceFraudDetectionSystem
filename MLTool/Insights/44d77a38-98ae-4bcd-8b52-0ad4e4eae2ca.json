@@ -1,0 +1,81 @@
+{
+    "ClaimID": "44d77a38-98ae-4bcd-8b52-0ad4e4eae2ca",
+    "PolicyID": "64ffabbd-f102-4a62-8a3e-7520391b57e0",
+    "EffectiveDates": {
+        "StartDate": "2024-06-12",
+        "EndDate": "2025-06-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ac83c91c-86ac-4726-b230-516865b8495f",
+        "Name": "Rachel Hernandez",
+        "PolicyNumber": "64ffabbd-f102-4a62-8a3e-7520391b57e0",
+        "ContactInformation": {
+            "Phone": "(377)984-3132x47354",
+            "Email": "rmoody@example.org",
+            "Address": "95877 Green Manors Apt. 733\nEast Robert, MI 56501"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-01",
+        "Location": "22973 Mathew Oval Apt. 774\nNew Jennifertown, WV 57616",
+        "Description": "Open within any professor two none. Character indicate back source dinner conference.\nSuddenly dog anyone argue while decade section like. Wear more boy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34268
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15590
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 70100
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37289
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49594
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 37415,
+        "TotalApproved": 23783
+    },
+    "AdjusterDetails": {
+        "Name": "John Scott",
+        "ContactInformation": {
+            "Phone": "(730)814-9858x6891",
+            "Email": "matthewsdaniel@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b7e13e8f-4c22-4d2f-a3a7-1ec8465c4973"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

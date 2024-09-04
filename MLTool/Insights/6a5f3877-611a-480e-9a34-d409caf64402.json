@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6a5f3877-611a-480e-9a34-d409caf64402",
+    "PolicyID": "f4669398-fac2-4503-8ac6-1a5260328124",
+    "EffectiveDates": {
+        "StartDate": "2024-04-05",
+        "EndDate": "2025-04-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ed02193-03d9-43d2-9a2a-9136ecf40076",
+        "Name": "Brian English",
+        "PolicyNumber": "f4669398-fac2-4503-8ac6-1a5260328124",
+        "ContactInformation": {
+            "Phone": "354.679.1667",
+            "Email": "heatherperez@example.org",
+            "Address": "Unit 5659 Box 8296\nDPO AA 35984"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-06",
+        "Location": "401 Perry Meadows\nLake Alicia, HI 02426",
+        "Description": "Life yard seem always popular candidate. Partner material charge difference. Teacher doctor issue industry improve hit eye music.\nHot hair anything set big live old. Business on own mission."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4101
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26903
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17818
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30872
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19881
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 180968,
+        "TotalApproved": 96583
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Santiago",
+        "ContactInformation": {
+            "Phone": "(596)835-6133",
+            "Email": "friddle@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4258c1f8-9c66-427f-8b1e-1f6ee95ba941"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-06T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-11T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-16T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

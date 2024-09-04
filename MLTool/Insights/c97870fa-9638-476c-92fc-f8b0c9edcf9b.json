@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c97870fa-9638-476c-92fc-f8b0c9edcf9b",
+    "PolicyID": "b1aa19c7-9d28-453a-98b9-d5ef77ef9be4",
+    "EffectiveDates": {
+        "StartDate": "2024-08-24",
+        "EndDate": "2025-08-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "06600763-a565-4391-bc63-b4596ed0eb5a",
+        "Name": "Amanda Smith",
+        "PolicyNumber": "b1aa19c7-9d28-453a-98b9-d5ef77ef9be4",
+        "ContactInformation": {
+            "Phone": "527.746.4703x353",
+            "Email": "james59@example.net",
+            "Address": "736 Yates Station Apt. 057\nWest Nicholas, AR 04848"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-09",
+        "Location": "PSC 9567, Box 4901\nAPO AA 36624",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 61652
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49515
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7459
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15252
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14378
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 148256,
+        "TotalApproved": 52209
+    },
+    "AdjusterDetails": {
+        "Name": "Stuart Wilkerson",
+        "ContactInformation": {
+            "Phone": "5622471648",
+            "Email": "jared85@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/67276f40-d449-49bd-8c0d-ccd0390b6971"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-09T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-14T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-19T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

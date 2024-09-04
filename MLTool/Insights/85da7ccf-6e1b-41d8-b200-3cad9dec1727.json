@@ -1,0 +1,81 @@
+{
+    "ClaimID": "85da7ccf-6e1b-41d8-b200-3cad9dec1727",
+    "PolicyID": "0e57f323-9748-4665-9c0e-f7556c57e2a8",
+    "EffectiveDates": {
+        "StartDate": "2023-11-25",
+        "EndDate": "2024-11-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9476cd67-fed5-4140-9e4d-5374b8ed3c24",
+        "Name": "Ryan Martin",
+        "PolicyNumber": "0e57f323-9748-4665-9c0e-f7556c57e2a8",
+        "ContactInformation": {
+            "Phone": "382-970-1219x02575",
+            "Email": "deborahbrown@example.com",
+            "Address": "1975 Ronnie Ridges\nLake Brittanyton, PR 62655"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-06",
+        "Location": "416 Lindsey Hill\nHayesside, LA 70336",
+        "Description": "Lead trouble care later. Appear enter technology she.\nScience kid still onto would. Only fear sure article. Sister talk stock."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 36892
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5458
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 52884
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17462
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8784
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 163529,
+        "TotalApproved": 130334
+    },
+    "AdjusterDetails": {
+        "Name": "Kenneth Bowman",
+        "ContactInformation": {
+            "Phone": "817-797-6744x89011",
+            "Email": "benjaminrice@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c44f4542-366e-49a2-94ce-2b33e3a50999"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-06T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-11T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-16T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

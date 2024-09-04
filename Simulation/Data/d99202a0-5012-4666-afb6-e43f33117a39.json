@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d99202a0-5012-4666-afb6-e43f33117a39",
+  "PolicyID": "bb7f1aec-0b46-42b7-b90e-7a648f7e2c57",
+  "EffectiveDates": {
+    "StartDate": "2024-06-22",
+    "EndDate": "2025-06-22"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b20fb675-05b4-4538-9f2a-d785a9837cfc",
+    "Name": "David Norman",
+    "PolicyNumber": "bb7f1aec-0b46-42b7-b90e-7a648f7e2c57",
+    "ContactInformation": {
+      "Phone": "261.425.5485",
+      "Email": "larry70@example.com",
+      "Address": "618 Bradley Landing\nRachelberg, MT 64232"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-02",
+    "Location": "6923 Jennifer Brooks Suite 899\nGarnerchester, OR 87123",
+    "Description": "Seven resource account knowledge throughout. Mother enter college so. Authority cost discover far hotel to degree. Increase call year."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 44582
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 181227
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 35982
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4158
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 18772
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 44790,
+    "TotalApproved": 22500
+  },
+  "AdjusterDetails": {
+    "Name": "Nancy Sanchez",
+    "ContactInformation": {
+      "Phone": "577.903.5099",
+      "Email": "parkdawn@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/4897aae2-f645-41b9-8c00-8a6f9fae3b19"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-02T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-07T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-05-12T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

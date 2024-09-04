@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8983e15c-afe1-4d58-99a6-4e05ece90614",
+    "PolicyID": "87c1ba7e-180d-4b47-b5f8-f8c15b467754",
+    "EffectiveDates": {
+        "StartDate": "2024-01-01",
+        "EndDate": "2024-12-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "02e35c18-6f7a-4d34-89a0-29582ce9aaed",
+        "Name": "Robert Henderson",
+        "PolicyNumber": "87c1ba7e-180d-4b47-b5f8-f8c15b467754",
+        "ContactInformation": {
+            "Phone": "+1-869-610-3937x2465",
+            "Email": "xthomas@example.org",
+            "Address": "Unit 7048 Box 6887\nDPO AE 60118"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-01",
+        "Location": "PSC 6300, Box 9562\nAPO AE 74150",
+        "Description": "Effect step near mouth report later. Catch center physical expert.\nHe choose current pick poor. Reality real available write since."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6560
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3198
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15178
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9459
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43192
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 10216,
+        "TotalApproved": 5446
+    },
+    "AdjusterDetails": {
+        "Name": "Ralph Lopez",
+        "ContactInformation": {
+            "Phone": "(365)262-4796",
+            "Email": "ksmith@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/89247545-d12c-4e29-a70e-04b0f400a72e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

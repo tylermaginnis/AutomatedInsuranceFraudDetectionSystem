@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e7afc27f-6b7f-48f0-8649-c6c54a092e00",
+    "PolicyID": "b618351b-ae05-4d7b-a996-222054d33656",
+    "EffectiveDates": {
+        "StartDate": "2023-10-15",
+        "EndDate": "2024-10-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "444ed9de-fded-4d6c-a884-af43d56d9f73",
+        "Name": "Douglas Vaughn",
+        "PolicyNumber": "b618351b-ae05-4d7b-a996-222054d33656",
+        "ContactInformation": {
+            "Phone": "972.308.3757x61648",
+            "Email": "james27@example.com",
+            "Address": "5822 Hopkins Spring\nJenniferport, MN 05283"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-01",
+        "Location": "PSC 9436, Box 6979\nAPO AA 03559",
+        "Description": "Song respond wall have house administration. Where unit check.\nPush pretty but. Thus voice thus technology everyone whole moment. Business trade win experience."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49767
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24178
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1453
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31856
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8239
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 162916,
+        "TotalApproved": 110579
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Black",
+        "ContactInformation": {
+            "Phone": "360.487.8692",
+            "Email": "jamesgould@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/be0048cc-be34-4f69-8a47-7b3d7eeac74f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

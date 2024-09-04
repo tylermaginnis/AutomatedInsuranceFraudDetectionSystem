@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d4093bf5-a0c6-4fdb-9416-e1c106bf6903",
+    "PolicyID": "27083651-079e-4717-be93-5af9a2ed8a64",
+    "EffectiveDates": {
+        "StartDate": "2024-07-28",
+        "EndDate": "2025-07-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e1d854fb-ce68-4717-b99c-f2ee9a8675a1",
+        "Name": "Robert Eaton",
+        "PolicyNumber": "27083651-079e-4717-be93-5af9a2ed8a64",
+        "ContactInformation": {
+            "Phone": "319.479.8951",
+            "Email": "beckywoods@example.net",
+            "Address": "USS Williams\nFPO AA 06733"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-02",
+        "Location": "07625 Emily Isle\nAmandastad, NM 15228",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 62595
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42477
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6774
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12090
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19615
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 143551,
+        "TotalApproved": 85104
+    },
+    "AdjusterDetails": {
+        "Name": "William Becker",
+        "ContactInformation": {
+            "Phone": "001-332-725-8895x535",
+            "Email": "josejackson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/261b6f9f-0375-43eb-9aff-cb107240bd9f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-02T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-07T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-12T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

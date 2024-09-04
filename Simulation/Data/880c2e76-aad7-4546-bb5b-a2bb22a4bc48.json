@@ -1,0 +1,80 @@
+{
+  "ClaimID": "880c2e76-aad7-4546-bb5b-a2bb22a4bc48",
+  "PolicyID": "0454fd00-43c8-4043-810f-46cdff832b61",
+  "EffectiveDates": {
+    "StartDate": "2024-04-13",
+    "EndDate": "2025-04-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "93881f86-16f7-46d5-86e0-558de30881bc",
+    "Name": "Mr. Zachary Hopkins",
+    "PolicyNumber": "0454fd00-43c8-4043-810f-46cdff832b61",
+    "ContactInformation": {
+      "Phone": "(345)329-7788",
+      "Email": "fodom@example.org",
+      "Address": "USNS Duffy\nFPO AA 03245"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-17",
+    "Location": "3070 Sarah Circles Suite 477\nPotterstad, VA 68303",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 95399
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 24387
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6505
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 12526
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6028
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 144845,
+    "TotalApproved": 91945
+  },
+  "AdjusterDetails": {
+    "Name": "Leslie King",
+    "ContactInformation": {
+      "Phone": "+1-676-497-6366x8879",
+      "Email": "ocummings@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/2d928c5d-1200-40e2-9c37-c9f0f68aa362"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-17T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-22T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-27T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

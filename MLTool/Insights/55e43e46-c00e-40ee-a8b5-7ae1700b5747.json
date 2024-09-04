@@ -1,0 +1,81 @@
+{
+    "ClaimID": "55e43e46-c00e-40ee-a8b5-7ae1700b5747",
+    "PolicyID": "feb03546-514f-4f62-8aff-41ab3402d275",
+    "EffectiveDates": {
+        "StartDate": "2024-02-22",
+        "EndDate": "2025-02-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "eec280aa-2dcf-40d4-90bd-6aa086089889",
+        "Name": "Jessica Jackson",
+        "PolicyNumber": "feb03546-514f-4f62-8aff-41ab3402d275",
+        "ContactInformation": {
+            "Phone": "+1-842-626-5873x8167",
+            "Email": "collinsbarbara@example.net",
+            "Address": "87730 Johnson Gardens Apt. 519\nNorth Keith, OH 72271"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-26",
+        "Location": "19712 Dawson Glen Apt. 292\nNguyenside, UT 62666",
+        "Description": "Thing quickly walk improve behind garden. Fast stock environment finally also responsibility.\nSound identify ground reason. Develop deal along total."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7167
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 175450
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 173523
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9616
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27486
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 30808,
+        "TotalApproved": 26617
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Santos",
+        "ContactInformation": {
+            "Phone": "(531)476-2447",
+            "Email": "zchan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/14e2165c-299f-4693-8984-40f554fa0407"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

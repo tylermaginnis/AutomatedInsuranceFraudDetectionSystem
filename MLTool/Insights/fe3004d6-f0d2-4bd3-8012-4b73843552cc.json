@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fe3004d6-f0d2-4bd3-8012-4b73843552cc",
+    "PolicyID": "66e01149-b4d2-4dbf-a40a-3c4ac233e5ee",
+    "EffectiveDates": {
+        "StartDate": "2024-02-21",
+        "EndDate": "2025-02-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7c845fb1-3c9d-4be4-98b5-f9c95c4c7326",
+        "Name": "Andrew Sanders",
+        "PolicyNumber": "66e01149-b4d2-4dbf-a40a-3c4ac233e5ee",
+        "ContactInformation": {
+            "Phone": "001-587-322-7069x07310",
+            "Email": "gonzalezkimberly@example.com",
+            "Address": "6005 Alexander Island Suite 747\nNew Tracy, SC 63925"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-14",
+        "Location": "5451 Kimberly Causeway Suite 775\nEdwardtown, SC 64491",
+        "Description": "Talk relationship out last. Popular last Mrs true human check series. Seat treat glass they imagine American. More our more hope impact put."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 76796
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5759
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 123146
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1549
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 65455
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 113126,
+        "TotalApproved": 70870
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Spencer",
+        "ContactInformation": {
+            "Phone": "+1-731-320-9741",
+            "Email": "flopez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f502a06d-708c-487f-bef3-b61b5cc18204"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

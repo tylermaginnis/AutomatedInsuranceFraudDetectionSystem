@@ -1,0 +1,81 @@
+{
+    "ClaimID": "91f47d6d-4573-426a-9262-ccbd275db5c9",
+    "PolicyID": "5da9d479-0aa7-4c6d-8a33-a1e1631e0e36",
+    "EffectiveDates": {
+        "StartDate": "2024-06-05",
+        "EndDate": "2025-06-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4cb72922-864d-4fd1-bed1-6a31b116f95e",
+        "Name": "Kristie Ellis",
+        "PolicyNumber": "5da9d479-0aa7-4c6d-8a33-a1e1631e0e36",
+        "ContactInformation": {
+            "Phone": "001-494-219-4177x6900",
+            "Email": "pbell@example.org",
+            "Address": "831 Alexander Fall\nArieltown, WI 10294"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-28",
+        "Location": "0626 Penny Canyon\nDiazton, AR 64314",
+        "Description": "General young college difficult prove above reflect. Feeling city money really sister hospital evidence.\nI business parent minute share movement all. Enjoy source perform hour husband."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4433
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26086
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9723
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1379
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9086
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 50982,
+        "TotalApproved": 6912
+    },
+    "AdjusterDetails": {
+        "Name": "Carla Brown",
+        "ContactInformation": {
+            "Phone": "551-717-5959",
+            "Email": "wmunoz@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6d3120e8-4471-44c5-8698-053677ba0b70"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-28T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-02T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-07T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

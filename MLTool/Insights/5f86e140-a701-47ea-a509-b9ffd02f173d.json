@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5f86e140-a701-47ea-a509-b9ffd02f173d",
+    "PolicyID": "2bb90e48-d617-400d-ae1b-d73e9d521ed3",
+    "EffectiveDates": {
+        "StartDate": "2023-09-13",
+        "EndDate": "2024-09-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8a6c09c0-63ed-4ed7-9fce-7ef48c12d2a6",
+        "Name": "Joshua Palmer",
+        "PolicyNumber": "2bb90e48-d617-400d-ae1b-d73e9d521ed3",
+        "ContactInformation": {
+            "Phone": "604-216-2881",
+            "Email": "portertodd@example.com",
+            "Address": "899 Richard Mill Apt. 683\nGeorgetown, IA 37746"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-26",
+        "Location": "3057 Petersen Center\nSouth Brittany, CA 36570",
+        "Description": "Wide shake political at. We group charge music give radio.\nItself per reality under tax party decision. World me water seat may pay."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49347
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5412
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 40552
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6752
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 155468
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 60737,
+        "TotalApproved": 2231
+    },
+    "AdjusterDetails": {
+        "Name": "Marcus Bailey",
+        "ContactInformation": {
+            "Phone": "785.544.1160x625",
+            "Email": "robert36@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/293f039c-1f14-436f-8a06-b45293d96e5f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-26T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-31T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-05T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

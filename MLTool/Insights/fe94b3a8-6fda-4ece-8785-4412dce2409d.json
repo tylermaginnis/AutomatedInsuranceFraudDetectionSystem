@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fe94b3a8-6fda-4ece-8785-4412dce2409d",
+    "PolicyID": "60331445-f302-4ca4-acd9-c5cec0e2fcfa",
+    "EffectiveDates": {
+        "StartDate": "2024-08-16",
+        "EndDate": "2025-08-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "699bbeef-f6e4-4b54-af30-d54523478171",
+        "Name": "Kevin Jones",
+        "PolicyNumber": "60331445-f302-4ca4-acd9-c5cec0e2fcfa",
+        "ContactInformation": {
+            "Phone": "001-731-540-3899x70338",
+            "Email": "austin77@example.com",
+            "Address": "975 Nelson Islands\nJosephside, UT 25929"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-28",
+        "Location": "06876 Jillian Circle\nHansenville, ME 60510",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 79080
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37312
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7252
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17693
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16350
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157687,
+        "TotalApproved": 129144
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Lane",
+        "ContactInformation": {
+            "Phone": "445.300.0898",
+            "Email": "andrea82@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f957dd09-f98a-4b83-bea6-4b44c5d1fec0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-28T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-02T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-07T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

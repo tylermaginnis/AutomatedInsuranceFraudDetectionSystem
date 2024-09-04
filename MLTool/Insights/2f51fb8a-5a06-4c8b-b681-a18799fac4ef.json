@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2f51fb8a-5a06-4c8b-b681-a18799fac4ef",
+    "PolicyID": "9aa47be0-b3d2-4c09-8be6-74a93e29bce9",
+    "EffectiveDates": {
+        "StartDate": "2023-10-07",
+        "EndDate": "2024-10-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "83c598f3-5df1-4515-9b71-2acc95cd76dc",
+        "Name": "Tabitha Ferguson",
+        "PolicyNumber": "9aa47be0-b3d2-4c09-8be6-74a93e29bce9",
+        "ContactInformation": {
+            "Phone": "(931)218-8652x41382",
+            "Email": "donald14@example.net",
+            "Address": "17889 Ashley Corner\nBeckerhaven, MA 99577"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-13",
+        "Location": "7796 Richard Orchard\nPort Danielmouth, OH 48900",
+        "Description": "Describe boy rich few work cup imagine bag. Appear high number group international. So dream cause agent."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14685
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7042
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10218
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18321
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 155050
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 6463,
+        "TotalApproved": 4734
+    },
+    "AdjusterDetails": {
+        "Name": "Jacob Gallegos",
+        "ContactInformation": {
+            "Phone": "(501)296-7470",
+            "Email": "lday@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/7ec6e440-0e55-4e74-8100-2299e7e9909b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-13T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-18T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-23T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

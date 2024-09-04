@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8d7002f6-080c-44e8-82d3-0430189d9a9d",
+    "PolicyID": "e0b47727-f793-4841-96ce-dc5c8dc9b7c5",
+    "EffectiveDates": {
+        "StartDate": "2024-01-16",
+        "EndDate": "2025-01-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fd934b3c-9553-4e16-8295-cf3d4cb53e6d",
+        "Name": "Peter Phillips",
+        "PolicyNumber": "e0b47727-f793-4841-96ce-dc5c8dc9b7c5",
+        "ContactInformation": {
+            "Phone": "(655)412-7935x280",
+            "Email": "georgejennifer@example.com",
+            "Address": "786 Campbell Extension\nMccarthystad, MA 21110"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-05",
+        "Location": "81846 Smith Roads Suite 900\nTurnerchester, KY 28977",
+        "Description": "History wonder business Democrat official state morning. Modern again reason test.\nEvent no general. The real maybe TV conference. Baby nor would treat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2579
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2955
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22292
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25389
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14072
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 4592,
+        "TotalApproved": 4444
+    },
+    "AdjusterDetails": {
+        "Name": "Katherine Lamb",
+        "ContactInformation": {
+            "Phone": "658-861-9221",
+            "Email": "khouse@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/de2e12f3-7a0e-4c24-aca4-1e07d45dc2ea"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

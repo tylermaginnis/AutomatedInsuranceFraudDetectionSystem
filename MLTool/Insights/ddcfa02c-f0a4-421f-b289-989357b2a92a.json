@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ddcfa02c-f0a4-421f-b289-989357b2a92a",
+    "PolicyID": "5807f7a5-88f7-4cb1-b828-c19d625f2676",
+    "EffectiveDates": {
+        "StartDate": "2023-11-06",
+        "EndDate": "2024-11-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ff568415-54f1-437c-815c-1f27d2f1c739",
+        "Name": "Kimberly Lee",
+        "PolicyNumber": "5807f7a5-88f7-4cb1-b828-c19d625f2676",
+        "ContactInformation": {
+            "Phone": "930.632.3646",
+            "Email": "ccampbell@example.com",
+            "Address": "27704 Amy Spur\nMarcushaven, FM 89015"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-29",
+        "Location": "3176 Stephen Green Apt. 800\nOlsonborough, IA 38921",
+        "Description": "Central PM your clear before should save. Production find write most effort result other.\nTo budget box stage animal mean better. Fear how more watch. Operation general from family religious around."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9441
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4231
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 182723
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40119
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3487
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 62935,
+        "TotalApproved": 50811
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Brown",
+        "ContactInformation": {
+            "Phone": "946-610-1674",
+            "Email": "vincentmiller@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0205fbf6-6ba8-4b03-ae99-8f17360f999b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-29T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

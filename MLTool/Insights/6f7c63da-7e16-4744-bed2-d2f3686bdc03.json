@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6f7c63da-7e16-4744-bed2-d2f3686bdc03",
+    "PolicyID": "ba1e619d-64a0-4122-b0f2-17742d6565ec",
+    "EffectiveDates": {
+        "StartDate": "2024-02-14",
+        "EndDate": "2025-02-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3a87abce-a8df-4232-8d4f-b2674677dda3",
+        "Name": "Tiffany Haley",
+        "PolicyNumber": "ba1e619d-64a0-4122-b0f2-17742d6565ec",
+        "ContactInformation": {
+            "Phone": "762.410.9976",
+            "Email": "peggy92@example.net",
+            "Address": "960 Shannon Knoll Apt. 022\nJosephshire, LA 46055"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-05",
+        "Location": "734 Ray Harbor Apt. 633\nWest Vincentmouth, KY 68673",
+        "Description": "Sense culture power truth. Green box outside fine. Occur a still sort nearly.\nSing support official easy. Even buy challenge different dog."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9268
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3135
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 88922
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21982
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8288
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 150594,
+        "TotalApproved": 41769
+    },
+    "AdjusterDetails": {
+        "Name": "Kristen Stein",
+        "ContactInformation": {
+            "Phone": "001-925-326-9168x592",
+            "Email": "robertsonryan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e6e5d592-453a-41c3-a40f-2fca921a5d51"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-05T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-10T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-15T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

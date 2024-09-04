@@ -1,0 +1,81 @@
+{
+    "ClaimID": "dfd673be-2cf9-4c79-a2e8-f1ef642c7a60",
+    "PolicyID": "9e1e2e56-f43d-4d2c-b57a-928ac1ea0327",
+    "EffectiveDates": {
+        "StartDate": "2023-12-29",
+        "EndDate": "2024-12-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "78898990-9ac3-47dd-8c74-fde394ede539",
+        "Name": "Richard Snyder",
+        "PolicyNumber": "9e1e2e56-f43d-4d2c-b57a-928ac1ea0327",
+        "ContactInformation": {
+            "Phone": "225.584.6390",
+            "Email": "craig24@example.net",
+            "Address": "581 Andrews Road Apt. 061\nEast Bryanville, NJ 15296"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-20",
+        "Location": "080 Joseph Mission Apt. 590\nJameshaven, MO 37622",
+        "Description": "Explain lead leave film produce among term. Job detail large official deal. Us single campaign."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 83794
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4167
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 165076
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3094
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8601
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 139559,
+        "TotalApproved": 99761
+    },
+    "AdjusterDetails": {
+        "Name": "Keith Watkins",
+        "ContactInformation": {
+            "Phone": "+1-561-868-0622x5700",
+            "Email": "moorecatherine@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5f421d21-fcf7-4026-b80c-bb2e2cfe643e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

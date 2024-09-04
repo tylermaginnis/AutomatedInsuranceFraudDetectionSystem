@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0f125831-c217-4e0f-b5cc-a4e993b516f5",
+    "PolicyID": "a921c032-d6f1-4dcd-8b89-ef745de0b150",
+    "EffectiveDates": {
+        "StartDate": "2023-09-17",
+        "EndDate": "2024-09-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8bab73d3-87f0-405b-a603-bd38a302510c",
+        "Name": "Erin Munoz",
+        "PolicyNumber": "a921c032-d6f1-4dcd-8b89-ef745de0b150",
+        "ContactInformation": {
+            "Phone": "830.604.4538",
+            "Email": "paul26@example.com",
+            "Address": "8677 Michelle Mission Suite 880\nNew Cynthia, KY 46859"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-07",
+        "Location": "872 Charles Haven Apt. 973\nStewartfort, RI 12091",
+        "Description": "Activity pattern pressure. Suffer other water.\nMrs feeling population stuff.\nHear suddenly board compare forget teach. Thousand word other control.\nCapital woman until however."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70768
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 82478
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8104
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34151
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 93932
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 22366,
+        "TotalApproved": 4964
+    },
+    "AdjusterDetails": {
+        "Name": "Diana Fleming",
+        "ContactInformation": {
+            "Phone": "+1-651-804-0579",
+            "Email": "littlekayla@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/43fd59bf-1cfa-419a-a601-3d87302d7209"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-07T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-12T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-17T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

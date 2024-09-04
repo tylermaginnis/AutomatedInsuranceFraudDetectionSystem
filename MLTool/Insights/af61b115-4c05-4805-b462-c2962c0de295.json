@@ -1,0 +1,81 @@
+{
+    "ClaimID": "af61b115-4c05-4805-b462-c2962c0de295",
+    "PolicyID": "c1f9acc0-c0eb-476d-a571-44a06014dd4a",
+    "EffectiveDates": {
+        "StartDate": "2023-11-14",
+        "EndDate": "2024-11-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "40225429-ea2f-4f03-a858-b1bbc76d589f",
+        "Name": "Timothy Patterson",
+        "PolicyNumber": "c1f9acc0-c0eb-476d-a571-44a06014dd4a",
+        "ContactInformation": {
+            "Phone": "(675)356-3143x945",
+            "Email": "chelsea83@example.org",
+            "Address": "28877 Paul Harbor Suite 071\nDavisberg, MA 83339"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-26",
+        "Location": "3348 Madeline Flat\nWest Laura, WA 57793",
+        "Description": "Through analysis focus deep. Tax project fall car hope world stock economic. Shoulder eat position station during office southern."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24282
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 99997
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 198570
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34463
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 161450
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 138261,
+        "TotalApproved": 126445
+    },
+    "AdjusterDetails": {
+        "Name": "Manuel Brown",
+        "ContactInformation": {
+            "Phone": "001-497-923-5057x05375",
+            "Email": "danielarmstrong@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f45c50ee-b9f5-4359-8902-7930078f508e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-01T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-06T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

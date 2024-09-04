@@ -1,0 +1,81 @@
+{
+    "ClaimID": "09f15328-b81f-40b5-8890-d67657d9c2d2",
+    "PolicyID": "a3082fe7-9c48-4bd7-8e41-a3ad57c68530",
+    "EffectiveDates": {
+        "StartDate": "2023-10-21",
+        "EndDate": "2024-10-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "50be690b-fba8-4df2-a84a-aba492f46119",
+        "Name": "Terry Davis",
+        "PolicyNumber": "a3082fe7-9c48-4bd7-8e41-a3ad57c68530",
+        "ContactInformation": {
+            "Phone": "(920)309-0125x68814",
+            "Email": "james71@example.net",
+            "Address": "767 Joseph Crossroad\nKnappburgh, TX 48891"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-15",
+        "Location": "5531 David Spurs Apt. 461\nRichardfort, FL 87204",
+        "Description": "Senior off stuff. Citizen standard far case teacher. Treat successful rather approach possible kid listen court.\nFine even room. Follow call they film part. Agreement expect everyone conference say."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38230
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3156
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1687
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1506
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4527
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 144129,
+        "TotalApproved": 78681
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Parker",
+        "ContactInformation": {
+            "Phone": "376-729-3976",
+            "Email": "robert44@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3c8dd020-5617-4c34-8ddc-73be737c4287"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

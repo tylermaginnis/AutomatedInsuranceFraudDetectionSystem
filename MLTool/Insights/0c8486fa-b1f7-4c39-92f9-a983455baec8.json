@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0c8486fa-b1f7-4c39-92f9-a983455baec8",
+    "PolicyID": "9e1e2e56-f43d-4d2c-b57a-928ac1ea0327",
+    "EffectiveDates": {
+        "StartDate": "2024-03-23",
+        "EndDate": "2025-03-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "78898990-9ac3-47dd-8c74-fde394ede539",
+        "Name": "Richard Snyder",
+        "PolicyNumber": "9e1e2e56-f43d-4d2c-b57a-928ac1ea0327",
+        "ContactInformation": {
+            "Phone": "225.584.6390",
+            "Email": "craig24@example.net",
+            "Address": "581 Andrews Road Apt. 061\nEast Bryanville, NJ 15296"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-24",
+        "Location": "29767 Mcdonald Ramp\nKathleenborough, DE 47642",
+        "Description": "And modern long although hold third woman some. Fall bed continue type."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3763
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2237
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9046
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17982
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14619
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 199318,
+        "TotalApproved": 89105
+    },
+    "AdjusterDetails": {
+        "Name": "Samantha Roberts",
+        "ContactInformation": {
+            "Phone": "+1-465-332-1613",
+            "Email": "csmith@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9f71bd01-287e-49ac-b5c5-3bcbd26389dd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

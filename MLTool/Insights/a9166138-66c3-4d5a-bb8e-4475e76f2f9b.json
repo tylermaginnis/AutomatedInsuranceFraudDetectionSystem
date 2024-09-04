@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a9166138-66c3-4d5a-bb8e-4475e76f2f9b",
+    "PolicyID": "ab42dbe8-dfd4-4fdd-960f-37e815e80eea",
+    "EffectiveDates": {
+        "StartDate": "2024-03-24",
+        "EndDate": "2025-03-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7363c102-9320-403e-861a-bdb9fe2520ca",
+        "Name": "Eric Curry",
+        "PolicyNumber": "ab42dbe8-dfd4-4fdd-960f-37e815e80eea",
+        "ContactInformation": {
+            "Phone": "(534)615-3415",
+            "Email": "rwilliams@example.net",
+            "Address": "0547 Mills Rest\nNorth Jamesview, AS 95022"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-28",
+        "Location": "68066 Miller Locks\nEast Madison, NY 50388",
+        "Description": "Good who explain debate from film professor. Plan side responsibility manager no imagine."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13608
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17511
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 38089
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22788
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3421
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 140243,
+        "TotalApproved": 34013
+    },
+    "AdjusterDetails": {
+        "Name": "Gerald Fleming",
+        "ContactInformation": {
+            "Phone": "001-460-283-7178x870",
+            "Email": "morrisonsavannah@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e5a4a696-8404-424b-b394-daae214096f5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-28T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-02T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-07T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

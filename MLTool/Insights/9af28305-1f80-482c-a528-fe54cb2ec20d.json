@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9af28305-1f80-482c-a528-fe54cb2ec20d",
+    "PolicyID": "e1923fbd-f72d-494e-841d-bf9a41ccbe94",
+    "EffectiveDates": {
+        "StartDate": "2024-04-05",
+        "EndDate": "2025-04-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0a3244e3-92b7-4c87-a075-75c823f9d6bd",
+        "Name": "Patrick Lee",
+        "PolicyNumber": "e1923fbd-f72d-494e-841d-bf9a41ccbe94",
+        "ContactInformation": {
+            "Phone": "373.260.3646x1196",
+            "Email": "nicoleoliver@example.com",
+            "Address": "601 Peterson Run\nWest Deborah, CT 38541"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-04",
+        "Location": "Unit 0423 Box 1945\nDPO AA 53996",
+        "Description": "Feeling husband area east hope north leg left. Whatever law next book specific wish nice none. Lay front glass management similar effect heart commercial."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4716
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7594
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12897
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 131747
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7612
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 53756,
+        "TotalApproved": 27324
+    },
+    "AdjusterDetails": {
+        "Name": "Nicholas Gomez",
+        "ContactInformation": {
+            "Phone": "821.493.6613x3978",
+            "Email": "npatton@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/826cce75-fee0-40a5-885e-2262bffcf7e7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-04T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-09T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-14T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

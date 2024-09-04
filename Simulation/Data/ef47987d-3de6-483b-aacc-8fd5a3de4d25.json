@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ef47987d-3de6-483b-aacc-8fd5a3de4d25",
+  "PolicyID": "2d76fcd1-2414-4fd0-8f69-a8df77abf17f",
+  "EffectiveDates": {
+    "StartDate": "2023-12-02",
+    "EndDate": "2024-12-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a17bac08-fa71-4678-8978-a523f9d11798",
+    "Name": "Kevin Perry",
+    "PolicyNumber": "2d76fcd1-2414-4fd0-8f69-a8df77abf17f",
+    "ContactInformation": {
+      "Phone": "001-260-899-6050x842",
+      "Email": "fernandezrachel@example.net",
+      "Address": "4076 Schroeder Road\nZacharyside, IN 13421"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-25",
+    "Location": "62313 Burnett Stravenue Suite 576\nPort Matthew, AZ 85923",
+    "Description": "Sea majority left. Movie economy floor force best lawyer. Theory American keep table."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 45293
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6020
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5380
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8188
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 16820
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 40746,
+    "TotalApproved": 29798
+  },
+  "AdjusterDetails": {
+    "Name": "Angelica Olson",
+    "ContactInformation": {
+      "Phone": "865.317.6504",
+      "Email": "smithjames@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/55608b08-ed70-4a8f-9582-64a1f3ecdb88"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-25T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-30T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-05T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

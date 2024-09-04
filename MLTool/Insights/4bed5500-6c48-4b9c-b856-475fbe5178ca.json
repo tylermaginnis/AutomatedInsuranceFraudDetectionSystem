@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4bed5500-6c48-4b9c-b856-475fbe5178ca",
+    "PolicyID": "8a6c9ec3-1cf8-4ff7-88df-b99b00845013",
+    "EffectiveDates": {
+        "StartDate": "2024-03-19",
+        "EndDate": "2025-03-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1d90a0f0-368c-492c-9a2a-544bab5b7221",
+        "Name": "Kim Smith",
+        "PolicyNumber": "8a6c9ec3-1cf8-4ff7-88df-b99b00845013",
+        "ContactInformation": {
+            "Phone": "(443)597-4356x8963",
+            "Email": "samanthamiddleton@example.net",
+            "Address": "46569 Chase Shore Suite 347\nPort Miachester, IN 01285"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-01",
+        "Location": "11904 Arthur Trace\nSouth Bradley, SC 34879",
+        "Description": "Arm listen professional much it within conference. Future nor someone five scientist.\nAge hour huge late light machine operation story. Include too coach military appear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2929
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 88368
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 67719
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1195
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3649
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 172640,
+        "TotalApproved": 65422
+    },
+    "AdjusterDetails": {
+        "Name": "Susan Watts",
+        "ContactInformation": {
+            "Phone": "607-341-4660x5154",
+            "Email": "boydjennifer@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e10fd5e3-6e2f-46be-823e-b25fd8fe994b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-01T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-06T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-11T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

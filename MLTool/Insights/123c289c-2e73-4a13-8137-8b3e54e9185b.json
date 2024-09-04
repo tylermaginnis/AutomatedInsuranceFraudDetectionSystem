@@ -1,0 +1,81 @@
+{
+    "ClaimID": "123c289c-2e73-4a13-8137-8b3e54e9185b",
+    "PolicyID": "25d934b0-199c-4549-a8fa-e6c381c5c287",
+    "EffectiveDates": {
+        "StartDate": "2024-01-25",
+        "EndDate": "2025-01-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7f9211ee-01b7-4a62-8b29-761869be3e23",
+        "Name": "Andrea Hardy",
+        "PolicyNumber": "25d934b0-199c-4549-a8fa-e6c381c5c287",
+        "ContactInformation": {
+            "Phone": "(350)866-0018x669",
+            "Email": "angelacasey@example.com",
+            "Address": "170 Newton Prairie Apt. 435\nLake Sheri, MT 61712"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-17",
+        "Location": "754 Andrew Alley\nPort Johnnybury, PR 45270",
+        "Description": "Practice west window simply. Thank ahead watch add remember thus end. Remember bar blue culture also glass."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9216
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 134728
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9356
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 30422
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9711
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 33675,
+        "TotalApproved": 30433
+    },
+    "AdjusterDetails": {
+        "Name": "Haley Henry",
+        "ContactInformation": {
+            "Phone": "504-951-6966",
+            "Email": "rhonda52@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/66de63d8-4fed-48f5-81ea-19bdbb9947fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-17T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-22T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-27T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "79799857-927b-4414-aa7b-d88b3b749c7b",
+  "PolicyID": "d2ba5fdf-270a-4de4-be09-0d7745e3b2cd",
+  "EffectiveDates": {
+    "StartDate": "2024-05-12",
+    "EndDate": "2025-05-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3bfb117e-bd57-42fb-b179-b7a186cb720b",
+    "Name": "Suzanne Smith",
+    "PolicyNumber": "d2ba5fdf-270a-4de4-be09-0d7745e3b2cd",
+    "ContactInformation": {
+      "Phone": "8009732060",
+      "Email": "jason62@example.com",
+      "Address": "USNV Alvarado\nFPO AE 06597"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-05",
+    "Location": "0954 Miller Cliff Apt. 119\nNorth Charlene, ND 45570",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 81169
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 38568
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6525
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11678
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 12918
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 150858,
+    "TotalApproved": 128889
+  },
+  "AdjusterDetails": {
+    "Name": "Erica Smith",
+    "ContactInformation": {
+      "Phone": "001-303-333-3546x402",
+      "Email": "carnold@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/7a8896e9-e211-41c2-be12-31808c14de68"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-05T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-10T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-15T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

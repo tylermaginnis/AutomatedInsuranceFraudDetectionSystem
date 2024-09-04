@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2d8f603b-72c8-4c11-b122-cc556404bbbd",
+    "PolicyID": "9348863b-b6e0-4673-a95c-bd7e996c53d1",
+    "EffectiveDates": {
+        "StartDate": "2023-09-27",
+        "EndDate": "2024-09-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2e76a76f-cd5b-49ba-9425-84fe5e8fd8ec",
+        "Name": "Tracy Beck",
+        "PolicyNumber": "9348863b-b6e0-4673-a95c-bd7e996c53d1",
+        "ContactInformation": {
+            "Phone": "878.344.6060",
+            "Email": "genejordan@example.org",
+            "Address": "72900 Harvey Forks Suite 776\nTeresaview, HI 75552"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-15",
+        "Location": "USCGC Ray\nFPO AA 73263",
+        "Description": "Situation human bit fall term. Successful team buy common name safe. Turn travel behavior set blue wrong record drive."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 146602
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1078
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5947
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31837
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5707
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 171558,
+        "TotalApproved": 163217
+    },
+    "AdjusterDetails": {
+        "Name": "Lynn Joseph",
+        "ContactInformation": {
+            "Phone": "7595984382",
+            "Email": "holmesangela@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/439a8a1d-f76f-4db1-ae29-98f590a3ed24"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "79a2cf4e-cd07-4874-81a6-1f9850802551",
+    "PolicyID": "ccb899fc-705d-43c3-899e-8fb83c6eb869",
+    "EffectiveDates": {
+        "StartDate": "2023-11-05",
+        "EndDate": "2024-11-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e14a8dac-cdb9-4120-9061-1c584daa9d2b",
+        "Name": "Patrick Hodges",
+        "PolicyNumber": "ccb899fc-705d-43c3-899e-8fb83c6eb869",
+        "ContactInformation": {
+            "Phone": "205-629-0009x087",
+            "Email": "lpena@example.org",
+            "Address": "0256 Garcia Brook\nWest Eugenechester, NY 87884"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-16",
+        "Location": "74464 Barbara Ridges\nPaulhaven, NV 87089",
+        "Description": "Guy agency final quickly notice law. Him tax research single. Here we Mr expect thousand senior.\nFuture us soon part. Green huge anything street forget say. Inside business treatment direction."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39064
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6847
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 58376
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48945
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 122714
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 147871,
+        "TotalApproved": 118920
+    },
+    "AdjusterDetails": {
+        "Name": "Jonathan Hensley",
+        "ContactInformation": {
+            "Phone": "+1-481-482-9837",
+            "Email": "stanleyricky@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9dd72c25-6831-46ca-8901-570eb0377362"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-16T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-21T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-26T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

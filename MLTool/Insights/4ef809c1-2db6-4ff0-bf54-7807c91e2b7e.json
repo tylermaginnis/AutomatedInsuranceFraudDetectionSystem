@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4ef809c1-2db6-4ff0-bf54-7807c91e2b7e",
+    "PolicyID": "4409dbe7-d81e-45b8-a3b8-0e78d6a58e99",
+    "EffectiveDates": {
+        "StartDate": "2023-12-04",
+        "EndDate": "2024-12-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "041dc43b-4eb8-48ec-91a7-386acf449b0c",
+        "Name": "Kimberly Wilson",
+        "PolicyNumber": "4409dbe7-d81e-45b8-a3b8-0e78d6a58e99",
+        "ContactInformation": {
+            "Phone": "001-454-395-4176x512",
+            "Email": "kathleen19@example.org",
+            "Address": "USNS Hall\nFPO AA 32156"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-05",
+        "Location": "USS Wagner\nFPO AP 23467",
+        "Description": "System power teach no. Life light seek rest. Policy admit fast think see ok.\nFront become concern professional science everybody. Take eight contain sign political we top."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31072
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5161
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35545
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43236
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44299
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 25419,
+        "TotalApproved": 8482
+    },
+    "AdjusterDetails": {
+        "Name": "Russell Murphy",
+        "ContactInformation": {
+            "Phone": "340-815-6988x753",
+            "Email": "hayneslauren@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/455661ec-d21f-4f29-899b-41075bfdb5f6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fba10364-b618-47ef-8e47-f022883399c6",
+    "PolicyID": "f7ae0e69-5500-46ff-b602-51577d8da29e",
+    "EffectiveDates": {
+        "StartDate": "2024-08-29",
+        "EndDate": "2025-08-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "055e5507-9e64-4998-971f-12ab69129be3",
+        "Name": "Jeffrey Harris",
+        "PolicyNumber": "f7ae0e69-5500-46ff-b602-51577d8da29e",
+        "ContactInformation": {
+            "Phone": "588.342.6297x2539",
+            "Email": "pvaldez@example.com",
+            "Address": "8133 Lamb Canyon Apt. 678\nDawnmouth, MA 37818"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-25",
+        "Location": "64590 Kevin Glen\nMayston, DE 93710",
+        "Description": "Everything firm indicate lawyer whole. Degree culture quickly tell. Along finally former rock.\nStandard manager talk senior. Know hope fine action."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82472
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 58962
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8266
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 107626
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19934
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 49615,
+        "TotalApproved": 14936
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Houston",
+        "ContactInformation": {
+            "Phone": "(706)471-6717x6582",
+            "Email": "camerondarrell@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f9e059bb-257e-4d28-8a76-97fc1fb403fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-30T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-05T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

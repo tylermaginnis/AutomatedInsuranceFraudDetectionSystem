@@ -1,0 +1,81 @@
+{
+    "ClaimID": "67fcdeb3-3ef7-46eb-91e9-965a53fae61e",
+    "PolicyID": "71701ec6-92c7-4f41-bbed-b16cadbc8bea",
+    "EffectiveDates": {
+        "StartDate": "2024-05-21",
+        "EndDate": "2025-05-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c09f80ad-ed17-48ee-9795-6a5c648aaca4",
+        "Name": "Alexandra Cameron",
+        "PolicyNumber": "71701ec6-92c7-4f41-bbed-b16cadbc8bea",
+        "ContactInformation": {
+            "Phone": "(481)216-0424",
+            "Email": "logan62@example.net",
+            "Address": "0083 Smith Trail Apt. 660\nWest Tammy, HI 92592"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-31",
+        "Location": "17364 Jeffery Plaza\nRichardton, MI 96179",
+        "Description": "Consumer ever character as enough social woman. Director like food sort. Certain fight daughter owner thank himself building of."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 124875
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 132724
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2382
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23849
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8484
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 92375,
+        "TotalApproved": 60311
+    },
+    "AdjusterDetails": {
+        "Name": "John Conner",
+        "ContactInformation": {
+            "Phone": "+1-978-706-3319",
+            "Email": "dunderwood@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/88b57951-0e39-4861-9aea-5d4461c9c50c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-31T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-05T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-10T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

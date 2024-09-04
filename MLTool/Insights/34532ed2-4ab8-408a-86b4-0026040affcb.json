@@ -1,0 +1,81 @@
+{
+    "ClaimID": "34532ed2-4ab8-408a-86b4-0026040affcb",
+    "PolicyID": "9db617dc-410f-4c76-a9b3-b8beacd4ba44",
+    "EffectiveDates": {
+        "StartDate": "2023-09-09",
+        "EndDate": "2024-09-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8f782102-95be-4de8-bef5-c179d7783706",
+        "Name": "Greg Mcintyre",
+        "PolicyNumber": "9db617dc-410f-4c76-a9b3-b8beacd4ba44",
+        "ContactInformation": {
+            "Phone": "001-754-582-5391x701",
+            "Email": "mindy63@example.org",
+            "Address": "PSC 5222, Box 6821\nAPO AE 03835"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-09-16",
+        "Location": "2983 Andrew Lakes Suite 077\nEast Michelleland, TX 15751",
+        "Description": "Attention interesting light sea case. City human task learn his moment nor. Perhaps form policy claim weight until."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44692
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12616
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 87576
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 64770
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 125035
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 35213,
+        "TotalApproved": 20193
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Reed",
+        "ContactInformation": {
+            "Phone": "448-279-7820",
+            "Email": "alangarcia@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bf844222-c667-4739-a8fd-e2c725f0bedc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-09-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-09-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-09-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

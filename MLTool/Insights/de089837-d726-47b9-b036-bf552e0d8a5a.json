@@ -1,0 +1,81 @@
+{
+    "ClaimID": "de089837-d726-47b9-b036-bf552e0d8a5a",
+    "PolicyID": "dc2ef023-15ee-41fa-a8e5-509557991367",
+    "EffectiveDates": {
+        "StartDate": "2024-07-02",
+        "EndDate": "2025-07-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0c0e39de-4781-4367-bb9f-a8f91dc2839b",
+        "Name": "Brittany Torres",
+        "PolicyNumber": "dc2ef023-15ee-41fa-a8e5-509557991367",
+        "ContactInformation": {
+            "Phone": "+1-272-498-1274",
+            "Email": "mckinneymary@example.net",
+            "Address": "969 Bennett Terrace Suite 031\nNorth Kathy, KS 59053"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-11",
+        "Location": "44773 Jasmine Pass Apt. 675\nEast Julie, CO 13016",
+        "Description": "Themselves quality behavior hold maintain month return piece. Expert campaign daughter for everybody his. Involve yourself which budget opportunity attack."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3238
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90527
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3904
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2412
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5988
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 91373,
+        "TotalApproved": 22804
+    },
+    "AdjusterDetails": {
+        "Name": "Jeffery Rodriguez",
+        "ContactInformation": {
+            "Phone": "+1-680-233-9850",
+            "Email": "jacobmartin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/11dd53ab-d23a-4327-86f2-f7020b77bea8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

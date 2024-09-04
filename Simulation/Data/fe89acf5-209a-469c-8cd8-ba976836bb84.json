@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fe89acf5-209a-469c-8cd8-ba976836bb84",
+  "PolicyID": "0454fd00-43c8-4043-810f-46cdff832b61",
+  "EffectiveDates": {
+    "StartDate": "2023-12-28",
+    "EndDate": "2024-12-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "93881f86-16f7-46d5-86e0-558de30881bc",
+    "Name": "Mr. Zachary Hopkins",
+    "PolicyNumber": "0454fd00-43c8-4043-810f-46cdff832b61",
+    "ContactInformation": {
+      "Phone": "(345)329-7788",
+      "Email": "fodom@example.org",
+      "Address": "USNS Duffy\nFPO AA 03245"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-06",
+    "Location": "PSC 4083, Box 3160\nAPO AA 18995",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 99769
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 23340
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7894
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 27563
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 19781
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 178347,
+    "TotalApproved": 177516
+  },
+  "AdjusterDetails": {
+    "Name": "Russell Gonzalez",
+    "ContactInformation": {
+      "Phone": "287.582.4151x941",
+      "Email": "omartinez@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/09ecc1ee-f2cf-4b1a-8205-4b1ed70fe1c2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-06T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-11T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-16T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

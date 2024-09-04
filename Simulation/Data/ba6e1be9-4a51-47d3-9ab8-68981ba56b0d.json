@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ba6e1be9-4a51-47d3-9ab8-68981ba56b0d",
+  "PolicyID": "bb7f1aec-0b46-42b7-b90e-7a648f7e2c57",
+  "EffectiveDates": {
+    "StartDate": "2024-03-24",
+    "EndDate": "2025-03-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b20fb675-05b4-4538-9f2a-d785a9837cfc",
+    "Name": "David Norman",
+    "PolicyNumber": "bb7f1aec-0b46-42b7-b90e-7a648f7e2c57",
+    "ContactInformation": {
+      "Phone": "261.425.5485",
+      "Email": "larry70@example.com",
+      "Address": "618 Bradley Landing\nRachelberg, MT 64232"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-30",
+    "Location": "78770 Michelle Streets\nEast John, PW 63993",
+    "Description": "Others like hold try. No performance election if drive but magazine my."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 27955
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 18632
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 64958
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8401
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6706
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 131714,
+    "TotalApproved": 1074
+  },
+  "AdjusterDetails": {
+    "Name": "Kimberly Velasquez",
+    "ContactInformation": {
+      "Phone": "(469)503-8460x062",
+      "Email": "james55@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/16098ccb-ee4c-426c-96d7-480d6f91b0b9"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-30T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-04T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-09T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

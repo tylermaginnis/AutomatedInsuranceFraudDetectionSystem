@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fe702d5c-8956-4059-9e51-5367b65d3439",
+    "PolicyID": "ad918b8f-4fdf-4040-8d5c-a6c4a8862374",
+    "EffectiveDates": {
+        "StartDate": "2024-07-23",
+        "EndDate": "2025-07-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fe9c268b-e207-46c1-b5a1-f0739bb6135a",
+        "Name": "Richard Carter",
+        "PolicyNumber": "ad918b8f-4fdf-4040-8d5c-a6c4a8862374",
+        "ContactInformation": {
+            "Phone": "001-810-281-7847x7146",
+            "Email": "jasonadams@example.org",
+            "Address": "Unit 9449 Box 1785\nDPO AP 73266"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-07",
+        "Location": "9841 Kimberly Locks\nTimothytown, NJ 45101",
+        "Description": "Audience data job speak pressure action big north. Include plant writer hear nation effect. By instead talk control society writer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3456
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 95141
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 83950
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38814
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1364
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 65642,
+        "TotalApproved": 40411
+    },
+    "AdjusterDetails": {
+        "Name": "William Terry",
+        "ContactInformation": {
+            "Phone": "360-214-8005x84770",
+            "Email": "spencer96@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0eb5484c-b61a-4287-ab30-d2f11c265281"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

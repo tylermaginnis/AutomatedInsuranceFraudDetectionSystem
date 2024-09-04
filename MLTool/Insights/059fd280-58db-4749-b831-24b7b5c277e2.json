@@ -1,0 +1,81 @@
+{
+    "ClaimID": "059fd280-58db-4749-b831-24b7b5c277e2",
+    "PolicyID": "ffa6af7f-bbf4-426a-9118-6d08b470959c",
+    "EffectiveDates": {
+        "StartDate": "2024-08-04",
+        "EndDate": "2025-08-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "791675b4-9659-4cf5-94b1-6452d408cbf1",
+        "Name": "Julia Davis",
+        "PolicyNumber": "ffa6af7f-bbf4-426a-9118-6d08b470959c",
+        "ContactInformation": {
+            "Phone": "8907895191",
+            "Email": "vhenry@example.com",
+            "Address": "78112 April Pines\nWilliamhaven, TX 39525"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-12",
+        "Location": "6570 Madison Field\nWest Leslie, OH 74920",
+        "Description": "Movement win certainly some. Leg by number produce total talk.\nShe lay account do story. Foreign poor environment."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7723
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18152
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 120247
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49605
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3406
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 138979,
+        "TotalApproved": 15803
+    },
+    "AdjusterDetails": {
+        "Name": "Gregory Howe",
+        "ContactInformation": {
+            "Phone": "(486)247-7979",
+            "Email": "jdonovan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/20ed17ef-43ec-41cf-8894-3599b915917d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-12T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-17T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-22T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

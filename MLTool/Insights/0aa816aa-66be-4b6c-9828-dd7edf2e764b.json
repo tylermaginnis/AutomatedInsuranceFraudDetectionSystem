@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0aa816aa-66be-4b6c-9828-dd7edf2e764b",
+    "PolicyID": "92d9f5f4-4195-46a7-9e5b-9d457148e7bf",
+    "EffectiveDates": {
+        "StartDate": "2024-03-25",
+        "EndDate": "2025-03-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4af2201f-7ed2-4d0b-b513-81a0a7f9b9b0",
+        "Name": "Randy Wright",
+        "PolicyNumber": "92d9f5f4-4195-46a7-9e5b-9d457148e7bf",
+        "ContactInformation": {
+            "Phone": "001-739-866-5543x398",
+            "Email": "hesterryan@example.com",
+            "Address": "32937 Holly Burgs Apt. 125\nNew Aaron, NY 10356"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-09",
+        "Location": "2963 Carl Spurs Apt. 419\nNew Alyssa, PA 85991",
+        "Description": "Team question simply Congress participant dinner. Admit care especially in increase anything section other. Century sign realize back season."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4510
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 92070
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31573
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8136
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17771
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 8166,
+        "TotalApproved": 1416
+    },
+    "AdjusterDetails": {
+        "Name": "Kenneth Calderon",
+        "ContactInformation": {
+            "Phone": "001-252-589-0387",
+            "Email": "wilsonalan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/925eebdb-77ff-40f9-acf6-95e5d4690e72"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

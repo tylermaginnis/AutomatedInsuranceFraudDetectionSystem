@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2df769a3-e99e-4a78-904c-daf40139c78f",
+    "PolicyID": "d9d8e952-5c6b-4d0c-919f-8aaef4dd412a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-10",
+        "EndDate": "2025-03-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9287f4bd-296c-493c-a7a2-ed585399fd5c",
+        "Name": "Calvin Lewis",
+        "PolicyNumber": "d9d8e952-5c6b-4d0c-919f-8aaef4dd412a",
+        "ContactInformation": {
+            "Phone": "001-437-771-9751",
+            "Email": "kevinfowler@example.org",
+            "Address": "76489 Tyler Haven\nSparksville, SD 68725"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-04",
+        "Location": "6192 Lee Key Apt. 097\nNew Timothytown, AL 54161",
+        "Description": "Either enter relationship affect citizen. Single resource site material them turn.\nEducation that learn window probably. Late generation billion TV pattern no begin case. As drug six give financial."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13398
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21149
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7602
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 153858
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12121
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 61623,
+        "TotalApproved": 32969
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Hancock",
+        "ContactInformation": {
+            "Phone": "(228)289-7129x9216",
+            "Email": "edwardsrobin@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f65d54af-1bb0-430a-b6df-9f46e6264e37"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-04T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-09T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-14T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

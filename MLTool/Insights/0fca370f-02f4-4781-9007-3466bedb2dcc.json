@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0fca370f-02f4-4781-9007-3466bedb2dcc",
+    "PolicyID": "02f7ed74-de2f-4561-aa6c-c6d4fe016169",
+    "EffectiveDates": {
+        "StartDate": "2023-12-31",
+        "EndDate": "2024-12-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e34b3618-fec2-48ec-8e3d-ed82d2357a00",
+        "Name": "Mark Bradley",
+        "PolicyNumber": "02f7ed74-de2f-4561-aa6c-c6d4fe016169",
+        "ContactInformation": {
+            "Phone": "+1-875-202-8111x784",
+            "Email": "bhernandez@example.net",
+            "Address": "051 Townsend Harbor Suite 741\nLoveshire, MA 65920"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-29",
+        "Location": "PSC 9381, Box 8714\nAPO AP 44437",
+        "Description": "Author or everybody factor. Interesting especially hope imagine. They southern modern we black foot."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8143
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 89866
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8082
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14144
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 77808
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 11086,
+        "TotalApproved": 4748
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Hinton",
+        "ContactInformation": {
+            "Phone": "6544601455",
+            "Email": "sporter@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a62f0113-e76f-40fc-82a3-baf775036507"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

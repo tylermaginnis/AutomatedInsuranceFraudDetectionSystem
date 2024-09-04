@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c74ab225-864c-4936-94b0-5476c3be2c96",
+    "PolicyID": "93109ab4-7fd8-431b-bae6-a798a4d82526",
+    "EffectiveDates": {
+        "StartDate": "2024-02-29",
+        "EndDate": "2025-02-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5ed1d20a-b1de-4680-868a-55a51f166ce8",
+        "Name": "Patricia Simmons",
+        "PolicyNumber": "93109ab4-7fd8-431b-bae6-a798a4d82526",
+        "ContactInformation": {
+            "Phone": "751.621.7570x09648",
+            "Email": "ejohnson@example.org",
+            "Address": "21161 Riley Lake\nGibsonberg, CT 49054"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-05",
+        "Location": "379 Vincent Village Suite 043\nEast Bethtown, MS 81493",
+        "Description": "Class kind song city lay. Somebody also eye Mrs person trip family. Find ability arm training country region.\nPick lead performance."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43862
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 22280
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 186379
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1297
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 75458
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 24754,
+        "TotalApproved": 16084
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Amanda Reeves DDS",
+        "ContactInformation": {
+            "Phone": "(434)785-4102",
+            "Email": "middletondakota@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9505082e-fbf3-4e7e-845e-78d0041e308c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

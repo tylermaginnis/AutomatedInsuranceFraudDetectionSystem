@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e3d58739-5a11-4a00-a02b-d04bd4c25fb2",
+    "PolicyID": "2559ab90-e17c-4840-ab83-f82a8b241c8a",
+    "EffectiveDates": {
+        "StartDate": "2024-01-11",
+        "EndDate": "2025-01-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8f811430-cbde-47d3-af84-7593dcfac61e",
+        "Name": "Thomas Kirby",
+        "PolicyNumber": "2559ab90-e17c-4840-ab83-f82a8b241c8a",
+        "ContactInformation": {
+            "Phone": "(792)254-0759",
+            "Email": "hooperjoseph@example.net",
+            "Address": "452 Patrick Station Apt. 806\nSouth Christopher, NV 39677"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-22",
+        "Location": "Unit 6546 Box 9327\nDPO AA 87141",
+        "Description": "Cut discussion feeling something there reason until. Everyone there story family. Institution page beyond light speak put."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 52619
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6612
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5389
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30274
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1495
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 130056,
+        "TotalApproved": 98692
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Barker",
+        "ContactInformation": {
+            "Phone": "+1-366-461-8628",
+            "Email": "abarton@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/63c5c79a-5c5f-422d-8a43-3065eda48334"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-22T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-27T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-01T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

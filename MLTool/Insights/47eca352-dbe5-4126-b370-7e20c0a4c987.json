@@ -1,0 +1,81 @@
+{
+    "ClaimID": "47eca352-dbe5-4126-b370-7e20c0a4c987",
+    "PolicyID": "c9909473-7914-45f3-985f-3b53f6b41297",
+    "EffectiveDates": {
+        "StartDate": "2024-03-28",
+        "EndDate": "2025-03-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a7c5e73e-eb02-40e6-88ec-890d5938a1ad",
+        "Name": "Gina Anderson",
+        "PolicyNumber": "c9909473-7914-45f3-985f-3b53f6b41297",
+        "ContactInformation": {
+            "Phone": "(522)249-0365x2132",
+            "Email": "rhonda01@example.org",
+            "Address": "74185 Michael Vista\nRoberttown, WA 38648"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-23",
+        "Location": "5602 Kyle Field Apt. 422\nHarrisville, MT 31395",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 68767
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23541
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8248
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14222
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10906
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 125684,
+        "TotalApproved": 6855
+    },
+    "AdjusterDetails": {
+        "Name": "Heather Williams",
+        "ContactInformation": {
+            "Phone": "(764)352-3448x662",
+            "Email": "russelladams@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0735b93e-6a0f-4a22-a51b-86c306ee0e91"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-23T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-28T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-02T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

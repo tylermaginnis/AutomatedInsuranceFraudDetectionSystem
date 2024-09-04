@@ -1,0 +1,81 @@
+{
+    "ClaimID": "577d1780-1bec-436d-a077-6a1fee6895e7",
+    "PolicyID": "402cad34-abca-495c-b06c-5bbeef8a8038",
+    "EffectiveDates": {
+        "StartDate": "2024-01-29",
+        "EndDate": "2025-01-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6bff0dd7-b0de-41be-92f1-466998e1362b",
+        "Name": "Emily Vasquez",
+        "PolicyNumber": "402cad34-abca-495c-b06c-5bbeef8a8038",
+        "ContactInformation": {
+            "Phone": "+1-749-573-8689x30920",
+            "Email": "bmiller@example.net",
+            "Address": "2182 Glen Lane\nJacobbury, MH 85652"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-12",
+        "Location": "535 Tyler Mountains Suite 448\nPettyhaven, IN 97055",
+        "Description": "Writer here seven. Fine look avoid total travel.\nWriter commercial who. Me season involve professional card military. And agreement force player front should."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 43000
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6757
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5845
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28497
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36735
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 100547,
+        "TotalApproved": 68715
+    },
+    "AdjusterDetails": {
+        "Name": "Jeremy Gordon",
+        "ContactInformation": {
+            "Phone": "592-427-2605x046",
+            "Email": "wrightanna@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/630d0455-a8c9-42b3-aee6-178e2c204933"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-12T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-17T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-22T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

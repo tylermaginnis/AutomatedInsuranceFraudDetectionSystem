@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e98d3eff-544b-4047-8c7c-aca7f2f000a1",
+    "PolicyID": "811bda55-27f8-421e-948d-b99e0f1c7b73",
+    "EffectiveDates": {
+        "StartDate": "2023-10-06",
+        "EndDate": "2024-10-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6a369acd-a72a-48ee-8896-45897c5060fa",
+        "Name": "Angela Walker",
+        "PolicyNumber": "811bda55-27f8-421e-948d-b99e0f1c7b73",
+        "ContactInformation": {
+            "Phone": "276.287.5169x7260",
+            "Email": "jessesmith@example.net",
+            "Address": "0755 Karina Manor\nMcdonaldport, MI 93591"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-29",
+        "Location": "3166 Coleman Summit\nMillertown, MI 10518",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 88892
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49315
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7597
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13130
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18352
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 177286,
+        "TotalApproved": 52131
+    },
+    "AdjusterDetails": {
+        "Name": "Carolyn Lee",
+        "ContactInformation": {
+            "Phone": "001-363-699-3233x49841",
+            "Email": "vnorman@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bc1cc0c4-bc7b-4b29-8cc4-4aa82ab717b7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-29T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-04T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-09T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

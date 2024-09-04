@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e4d7ecf0-4eb5-4d7e-b42d-59265727430a",
+    "PolicyID": "700d31a1-4a82-46da-8dbd-d65747a991f7",
+    "EffectiveDates": {
+        "StartDate": "2023-12-27",
+        "EndDate": "2024-12-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "09e657ca-8492-4c6c-87c1-4948594d2b47",
+        "Name": "Chad Fleming",
+        "PolicyNumber": "700d31a1-4a82-46da-8dbd-d65747a991f7",
+        "ContactInformation": {
+            "Phone": "717.284.3554x975",
+            "Email": "emilyyoung@example.org",
+            "Address": "855 Michael Isle Suite 674\nWest Brianstad, AR 94254"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-15",
+        "Location": "83045 Duncan Mountain Suite 362\nWest Victor, WY 66487",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 66650
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23962
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7422
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 29352
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9277
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 136663,
+        "TotalApproved": 112926
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Dudley",
+        "ContactInformation": {
+            "Phone": "738-586-9921",
+            "Email": "randy35@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/fa0449fe-30ff-47c6-902a-40b356af6783"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

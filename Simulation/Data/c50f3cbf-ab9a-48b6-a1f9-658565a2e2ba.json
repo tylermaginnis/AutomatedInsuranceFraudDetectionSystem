@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c50f3cbf-ab9a-48b6-a1f9-658565a2e2ba",
+  "PolicyID": "f83a222a-75f4-47de-bc2c-327632515d2d",
+  "EffectiveDates": {
+    "StartDate": "2024-08-25",
+    "EndDate": "2025-08-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5616fe2a-3339-4138-92fc-743d9ffa31e2",
+    "Name": "Catherine Dickson",
+    "PolicyNumber": "f83a222a-75f4-47de-bc2c-327632515d2d",
+    "ContactInformation": {
+      "Phone": "(710)947-8963x746",
+      "Email": "conwayjessica@example.com",
+      "Address": "2787 Laura Inlet Apt. 332\nNorth Felicia, NM 55630"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-07-20",
+    "Location": "Unit 6339 Box 7486\nDPO AE 02189",
+    "Description": "Yet particular hotel wonder carry. Treatment throughout movement arm care majority computer. Next smile support practice."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4697
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 37906
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3984
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6417
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 181470
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 75074,
+    "TotalApproved": 31123
+  },
+  "AdjusterDetails": {
+    "Name": "David Peterson",
+    "ContactInformation": {
+      "Phone": "940.261.2554",
+      "Email": "gregorydrake@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/d0c51936-40c6-44ae-a0f3-c59cbfab2718"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-07-20T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-07-25T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-07-30T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

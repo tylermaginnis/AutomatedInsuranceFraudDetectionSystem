@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e7bdef1e-efe4-4557-a0a3-9bbfacd0e7b6",
+  "PolicyID": "402cad34-abca-495c-b06c-5bbeef8a8038",
+  "EffectiveDates": {
+    "StartDate": "2024-08-09",
+    "EndDate": "2025-08-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6bff0dd7-b0de-41be-92f1-466998e1362b",
+    "Name": "Emily Vasquez",
+    "PolicyNumber": "402cad34-abca-495c-b06c-5bbeef8a8038",
+    "ContactInformation": {
+      "Phone": "+1-749-573-8689x30920",
+      "Email": "bmiller@example.net",
+      "Address": "2182 Glen Lane\nJacobbury, MH 85652"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-06-05",
+    "Location": "715 Rivera Park Suite 175\nNguyenville, MD 46195",
+    "Description": "Explain by own. Blue assume edge somebody.\nOne while leader show fine north artist. Green staff really attorney security. While resource require industry pass hard guy."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 33405
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5342
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 27937
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1672
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 58333
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 137103,
+    "TotalApproved": 7095
+  },
+  "AdjusterDetails": {
+    "Name": "Kari West",
+    "ContactInformation": {
+      "Phone": "+1-372-986-8679x0481",
+      "Email": "gwinters@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/3f7b0e7c-c362-4deb-b9ba-083458682175"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-06-05T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-06-10T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-06-15T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

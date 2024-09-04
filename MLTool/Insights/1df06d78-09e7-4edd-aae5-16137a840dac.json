@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1df06d78-09e7-4edd-aae5-16137a840dac",
+    "PolicyID": "62cd4d1e-4d79-40c7-a21b-33f74905842f",
+    "EffectiveDates": {
+        "StartDate": "2023-10-15",
+        "EndDate": "2024-10-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "47087ebf-ef83-4b3e-8080-c33b190c0009",
+        "Name": "Curtis Valdez",
+        "PolicyNumber": "62cd4d1e-4d79-40c7-a21b-33f74905842f",
+        "ContactInformation": {
+            "Phone": "349-857-1869",
+            "Email": "huberaustin@example.org",
+            "Address": "15524 Susan Extension Suite 843\nLake Rickfort, NE 73100"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-04",
+        "Location": "66034 Jones Crest Suite 997\nWest Aaronport, TX 98210",
+        "Description": "Fly staff customer true author.\nLine table beat social civil draw decision. Between father control world relationship clearly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37276
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7110
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9846
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5855
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36903
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 130104,
+        "TotalApproved": 1779
+    },
+    "AdjusterDetails": {
+        "Name": "Donna Warren",
+        "ContactInformation": {
+            "Phone": "836-741-3037x553",
+            "Email": "melissahernandez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a4a04537-d919-4d2a-b7f5-a801f4227f42"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-04T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-09T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-14T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

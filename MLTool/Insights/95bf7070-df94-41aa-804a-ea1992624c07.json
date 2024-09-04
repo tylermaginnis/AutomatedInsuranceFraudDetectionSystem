@@ -1,0 +1,81 @@
+{
+    "ClaimID": "95bf7070-df94-41aa-804a-ea1992624c07",
+    "PolicyID": "a5960890-fef2-4ff1-b72a-7873686ecee7",
+    "EffectiveDates": {
+        "StartDate": "2023-11-16",
+        "EndDate": "2024-11-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c1785b4a-f65c-471c-8889-114a7079399e",
+        "Name": "Kaitlin Martinez",
+        "PolicyNumber": "a5960890-fef2-4ff1-b72a-7873686ecee7",
+        "ContactInformation": {
+            "Phone": "234.729.3544x9220",
+            "Email": "jacqueline80@example.net",
+            "Address": "Unit 5264 Box 8928\nDPO AP 85218"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-30",
+        "Location": "789 Misty Loaf Apt. 160\nWilsonhaven, HI 58508",
+        "Description": "Type live reason sea. Professor significant method if family not. Between organization increase box in system."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19870
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 52358
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39433
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14055
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7880
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 103323,
+        "TotalApproved": 94687
+    },
+    "AdjusterDetails": {
+        "Name": "David David",
+        "ContactInformation": {
+            "Phone": "705.703.3312x0145",
+            "Email": "christophervargas@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a98a7ceb-5c33-44f1-9aac-f6e979b0ffca"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-30T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-04T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-09T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

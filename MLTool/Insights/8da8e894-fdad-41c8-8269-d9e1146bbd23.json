@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8da8e894-fdad-41c8-8269-d9e1146bbd23",
+    "PolicyID": "b72b5b9a-68d5-4cfd-840b-4c70de0efee7",
+    "EffectiveDates": {
+        "StartDate": "2023-10-10",
+        "EndDate": "2024-10-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "19a49d0e-8169-4944-abe3-b7bb4b715d7a",
+        "Name": "Kelli Gibson",
+        "PolicyNumber": "b72b5b9a-68d5-4cfd-840b-4c70de0efee7",
+        "ContactInformation": {
+            "Phone": "(401)533-8914x43115",
+            "Email": "andrew15@example.org",
+            "Address": "00392 Dillon Haven Suite 873\nDonnatown, MA 35567"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-17",
+        "Location": "22101 Mary Brooks\nSuarezton, PA 51388",
+        "Description": "Oil really real month space.\nPull teach once indeed party. Century tend keep improve stop."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8409
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 75819
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 75477
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10007
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8527
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 49128,
+        "TotalApproved": 13443
+    },
+    "AdjusterDetails": {
+        "Name": "John Fernandez",
+        "ContactInformation": {
+            "Phone": "476.972.7839",
+            "Email": "david63@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e9b9f3a9-88d3-4c24-93c5-7afc9cabb144"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

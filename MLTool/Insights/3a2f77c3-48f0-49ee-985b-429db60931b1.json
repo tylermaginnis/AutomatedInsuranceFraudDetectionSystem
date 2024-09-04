@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3a2f77c3-48f0-49ee-985b-429db60931b1",
+    "PolicyID": "0d04751b-d18a-4439-af1d-29bbb26c0ac4",
+    "EffectiveDates": {
+        "StartDate": "2024-03-25",
+        "EndDate": "2025-03-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef310790-2ebf-4cc3-8d4e-d42833e86001",
+        "Name": "Sara Chapman",
+        "PolicyNumber": "0d04751b-d18a-4439-af1d-29bbb26c0ac4",
+        "ContactInformation": {
+            "Phone": "001-320-638-0973",
+            "Email": "qford@example.net",
+            "Address": "08940 Kennedy Orchard Apt. 612\nStephanieport, FL 51821"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-29",
+        "Location": "10134 Price Forks\nSouth Leslie, VI 66104",
+        "Description": "Girl free white plant make. Recently successful oil class of. Eye she management hold remain might time. Write research either happy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2460
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1963
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 54257
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14490
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6464
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 191147,
+        "TotalApproved": 58717
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Guzman",
+        "ContactInformation": {
+            "Phone": "960-733-2806",
+            "Email": "phillipsjudy@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ded441b5-c3f8-4ffc-8e4c-d6e7552502df"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-29T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-03T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-08T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

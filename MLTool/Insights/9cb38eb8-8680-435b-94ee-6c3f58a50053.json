@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9cb38eb8-8680-435b-94ee-6c3f58a50053",
+    "PolicyID": "b715dc73-b725-4a51-a3ff-bdad003a1894",
+    "EffectiveDates": {
+        "StartDate": "2024-02-10",
+        "EndDate": "2025-02-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fb04b432-6f3c-430b-a979-832dbfc1aa36",
+        "Name": "Jessica Lucero",
+        "PolicyNumber": "b715dc73-b725-4a51-a3ff-bdad003a1894",
+        "ContactInformation": {
+            "Phone": "001-516-504-3082x170",
+            "Email": "owilkins@example.net",
+            "Address": "438 Mcfarland Rapids Suite 663\nWest Douglas, KS 60869"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-22",
+        "Location": "827 Ashley Creek\nEast Melissa, WY 82257",
+        "Description": "Value exist type certainly heavy out research. Foreign buy north step big spring. Anything environmental recent whatever democratic establish."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33249
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26730
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17206
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 156408
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 151208
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 193519,
+        "TotalApproved": 153642
+    },
+    "AdjusterDetails": {
+        "Name": "Janice Cortez",
+        "ContactInformation": {
+            "Phone": "001-833-474-5933",
+            "Email": "walterguerra@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/de912798-fd2d-4934-9792-40102f4b4aea"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-22T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-27T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-02T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

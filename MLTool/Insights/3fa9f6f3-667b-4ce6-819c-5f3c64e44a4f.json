@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3fa9f6f3-667b-4ce6-819c-5f3c64e44a4f",
+    "PolicyID": "9a767119-3ef6-458d-af60-8470ef5962d2",
+    "EffectiveDates": {
+        "StartDate": "2024-07-31",
+        "EndDate": "2025-07-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b38980f1-5f0e-492b-ba5d-89d8f640985d",
+        "Name": "Cesar Torres",
+        "PolicyNumber": "9a767119-3ef6-458d-af60-8470ef5962d2",
+        "ContactInformation": {
+            "Phone": "559-982-0405x72338",
+            "Email": "esmith@example.net",
+            "Address": "16346 Reynolds Trafficway Suite 180\nLake Joe, AK 13992"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-26",
+        "Location": "07379 Rodriguez Place\nSinghmouth, NY 50637",
+        "Description": "Candidate understand start step degree. Similar suggest authority stock decade. Thus ahead art walk."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28680
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 76744
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9245
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 56251
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 160322
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 64650,
+        "TotalApproved": 64236
+    },
+    "AdjusterDetails": {
+        "Name": "James Moore",
+        "ContactInformation": {
+            "Phone": "(470)906-3089x731",
+            "Email": "dicksonmike@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/7c04b053-03bb-4074-a6c6-4bbc8e447343"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-26T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-31T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-05T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

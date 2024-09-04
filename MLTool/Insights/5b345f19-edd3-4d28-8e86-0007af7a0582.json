@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5b345f19-edd3-4d28-8e86-0007af7a0582",
+    "PolicyID": "0d04751b-d18a-4439-af1d-29bbb26c0ac4",
+    "EffectiveDates": {
+        "StartDate": "2023-11-09",
+        "EndDate": "2024-11-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef310790-2ebf-4cc3-8d4e-d42833e86001",
+        "Name": "Sara Chapman",
+        "PolicyNumber": "0d04751b-d18a-4439-af1d-29bbb26c0ac4",
+        "ContactInformation": {
+            "Phone": "001-320-638-0973",
+            "Email": "qford@example.net",
+            "Address": "08940 Kennedy Orchard Apt. 612\nStephanieport, FL 51821"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-07",
+        "Location": "0052 Lee Glen\nTracyton, IN 63741",
+        "Description": "Claim chance true leader information. Cup born even war cup from write. Describe feeling suddenly town.\nCondition read home."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 82806
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17177
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45455
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57813
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 137813
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 59921,
+        "TotalApproved": 15549
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Flores",
+        "ContactInformation": {
+            "Phone": "+1-851-396-2222x09908",
+            "Email": "jordanwilliam@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8aad7d40-9a89-4f5f-b638-23420bbc1a28"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-07T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-12T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-17T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5fa94169-c303-4bef-aa55-505ae5f8032a",
+    "PolicyID": "589ff018-5823-43c6-9857-02549fa4f03a",
+    "EffectiveDates": {
+        "StartDate": "2024-05-04",
+        "EndDate": "2025-05-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e083e5e1-a31d-40a1-ae67-f5db243c31e9",
+        "Name": "Kerry Solomon",
+        "PolicyNumber": "589ff018-5823-43c6-9857-02549fa4f03a",
+        "ContactInformation": {
+            "Phone": "(344)836-7346x388",
+            "Email": "milleramanda@example.com",
+            "Address": "USS Wood\nFPO AA 90191"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-11",
+        "Location": "9217 Melissa Plain Suite 406\nLake James, TX 40229",
+        "Description": "Series safe blue arrive expert system. Today tonight defense large institution. Although difference physical."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 107027
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5430
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 197076
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24750
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29645
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 140900,
+        "TotalApproved": 82715
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Davis",
+        "ContactInformation": {
+            "Phone": "4607660503",
+            "Email": "bakersheila@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/40ceaf36-23ce-40c8-b1dd-216ee5202733"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

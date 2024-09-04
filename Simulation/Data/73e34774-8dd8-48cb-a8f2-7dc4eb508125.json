@@ -1,0 +1,80 @@
+{
+  "ClaimID": "73e34774-8dd8-48cb-a8f2-7dc4eb508125",
+  "PolicyID": "23bd624f-d97d-48c3-a2ba-1a58084c0f39",
+  "EffectiveDates": {
+    "StartDate": "2023-11-28",
+    "EndDate": "2024-11-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ad6fcf4a-0faa-493f-a98e-03b2e9da39e0",
+    "Name": "Jeremiah Murillo",
+    "PolicyNumber": "23bd624f-d97d-48c3-a2ba-1a58084c0f39",
+    "ContactInformation": {
+      "Phone": "600-386-3696x0289",
+      "Email": "michelle12@example.net",
+      "Address": "875 Tanner Rapids Apt. 441\nCatherinemouth, LA 69123"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-15",
+    "Location": "218 Susan Knolls\nPort Alanhaven, PR 25038",
+    "Description": "Simply once amount see probably. These action exist describe organization.\nAlways line name imagine anyone."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 98060
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5367
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 16326
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 15297
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7566
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 111594,
+    "TotalApproved": 100833
+  },
+  "AdjusterDetails": {
+    "Name": "Daniel Jones",
+    "ContactInformation": {
+      "Phone": "(920)399-6275x9288",
+      "Email": "millernorman@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/5821e7bf-4c78-4a54-9dad-9be9a621218d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-15T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-20T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-25T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "70c67c12-2567-4cd6-b8bd-df081073cfb3",
+    "PolicyID": "8a76fe31-08ee-4436-83c8-4c9ec9b3ae05",
+    "EffectiveDates": {
+        "StartDate": "2024-07-11",
+        "EndDate": "2025-07-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9386b4f9-d912-406e-b733-9b8f4f0bc9e4",
+        "Name": "Victoria Stewart",
+        "PolicyNumber": "8a76fe31-08ee-4436-83c8-4c9ec9b3ae05",
+        "ContactInformation": {
+            "Phone": "+1-269-542-7768x4887",
+            "Email": "walkersarah@example.net",
+            "Address": "177 Daniel Glen Apt. 725\nMorrowmouth, PW 69216"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-09",
+        "Location": "0921 Garcia Inlet\nWilliamsberg, GU 77617",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 58667
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49105
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6192
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27656
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16256
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157876,
+        "TotalApproved": 2814
+    },
+    "AdjusterDetails": {
+        "Name": "Kristen James",
+        "ContactInformation": {
+            "Phone": "001-502-789-7203x68387",
+            "Email": "wagnerlisa@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/335bf213-598d-45af-b3ca-8b86e5332c08"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-09T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-14T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-19T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

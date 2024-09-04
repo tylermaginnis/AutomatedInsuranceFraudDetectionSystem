@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f99eef35-342c-4cbb-b131-c000589a625c",
+    "PolicyID": "402b5c07-521b-4a2a-8f95-405cc720a813",
+    "EffectiveDates": {
+        "StartDate": "2024-05-08",
+        "EndDate": "2025-05-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d8db393c-2378-481d-bb18-392c38107f3a",
+        "Name": "Ricky Pearson",
+        "PolicyNumber": "402b5c07-521b-4a2a-8f95-405cc720a813",
+        "ContactInformation": {
+            "Phone": "+1-406-858-0063x980",
+            "Email": "nancyrobertson@example.net",
+            "Address": "Unit 9516 Box 7314\nDPO AE 42588"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-18",
+        "Location": "536 Callahan Spurs\nNew Heather, AZ 69564",
+        "Description": "Film remember value many. Quality election truth. Party as live behind.\nNote myself guy industry. Yet anyone myself good common protect for. Entire mention father talk."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 118744
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10635
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3144
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6706
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16330
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 168470,
+        "TotalApproved": 42855
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Johnson",
+        "ContactInformation": {
+            "Phone": "+1-693-779-5966x0367",
+            "Email": "fmelton@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/3c7a264f-ae13-45ab-adfb-bf6316c488c2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-18T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-23T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-28T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

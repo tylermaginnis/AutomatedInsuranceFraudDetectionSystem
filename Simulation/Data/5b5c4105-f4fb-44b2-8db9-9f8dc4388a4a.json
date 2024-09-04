@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5b5c4105-f4fb-44b2-8db9-9f8dc4388a4a",
+  "PolicyID": "ba1be0aa-b733-4402-9ded-46764c87c1c2",
+  "EffectiveDates": {
+    "StartDate": "2024-04-20",
+    "EndDate": "2025-04-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e85cfaed-1031-4248-8c86-7c2558d81d9b",
+    "Name": "Jon Thompson",
+    "PolicyNumber": "ba1be0aa-b733-4402-9ded-46764c87c1c2",
+    "ContactInformation": {
+      "Phone": "(605)885-9467x271",
+      "Email": "mark21@example.net",
+      "Address": "75129 Veronica Via Apt. 790\nWest Williamside, SD 17829"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-13",
+    "Location": "1462 Sutton Ramp Suite 322\nPiercefurt, AR 96703",
+    "Description": "Become hour without well summer. See upon quite. Process region government fund seek simple.\nLawyer effort practice respond kid. Over shake work everybody plant least country."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3149
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 36253
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 76364
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 88605
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1999
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 50082,
+    "TotalApproved": 7464
+  },
+  "AdjusterDetails": {
+    "Name": "Daniel Sutton",
+    "ContactInformation": {
+      "Phone": "260.735.7966x71589",
+      "Email": "bmendez@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/c7f69324-ceba-4b38-bf78-17e0776287c7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-13T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-18T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-23T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

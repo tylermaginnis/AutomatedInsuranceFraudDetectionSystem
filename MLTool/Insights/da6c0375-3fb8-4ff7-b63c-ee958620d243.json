@@ -1,0 +1,81 @@
+{
+    "ClaimID": "da6c0375-3fb8-4ff7-b63c-ee958620d243",
+    "PolicyID": "4283d505-6435-4537-900b-04f3fe5d6245",
+    "EffectiveDates": {
+        "StartDate": "2024-05-10",
+        "EndDate": "2025-05-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "88d75284-e11a-40b7-b44a-dbe4ced996a5",
+        "Name": "Alec Terrell",
+        "PolicyNumber": "4283d505-6435-4537-900b-04f3fe5d6245",
+        "ContactInformation": {
+            "Phone": "7637615315",
+            "Email": "tinachristian@example.org",
+            "Address": "136 William Throughway\nBrandonton, MI 21560"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-10",
+        "Location": "85488 Melissa Crest Apt. 023\nRamosville, IN 36216",
+        "Description": "Plant paper never ahead. Long onto anyone prepare. Paper improve generation already.\nGirl station owner science fast. Whole state off. Recognize sister them up leave."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34655
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10653
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38379
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8431
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 166680
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 39368,
+        "TotalApproved": 7712
+    },
+    "AdjusterDetails": {
+        "Name": "Keith Huffman",
+        "ContactInformation": {
+            "Phone": "3586184887",
+            "Email": "victoriaclay@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f4ba7ded-fc02-48cd-8010-6db540563143"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-10T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-15T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-20T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

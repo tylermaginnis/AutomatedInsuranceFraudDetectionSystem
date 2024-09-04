@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c1d00080-2f49-4d69-a790-07b5cdfc2069",
+  "PolicyID": "9ce0cc65-076c-45b9-9cc8-86287bba6be2",
+  "EffectiveDates": {
+    "StartDate": "2024-05-08",
+    "EndDate": "2025-05-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8abb33f7-aabb-445f-a8ef-2f6e0a4420b9",
+    "Name": "Jeffrey White",
+    "PolicyNumber": "9ce0cc65-076c-45b9-9cc8-86287bba6be2",
+    "ContactInformation": {
+      "Phone": "001-459-527-5549",
+      "Email": "melissa93@example.com",
+      "Address": "PSC 6029, Box 8743\nAPO AA 90032"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-02",
+    "Location": "94821 Melissa Port\nNew Michael, WV 08657",
+    "Description": "Tell go ability dinner five success. Close card ground energy thought feeling appear.\nPractice our assume usually help small. More describe crime manager information."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8867
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6570
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9685
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 4855
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 38178
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 85405,
+    "TotalApproved": 14660
+  },
+  "AdjusterDetails": {
+    "Name": "Robert Pitts",
+    "ContactInformation": {
+      "Phone": "275-836-0646x153",
+      "Email": "joshuafarley@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/1978f32e-58d7-4dc6-91f1-91c3c2fc60fd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-02T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-07T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-12T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

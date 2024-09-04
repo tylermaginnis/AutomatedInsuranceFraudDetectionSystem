@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8c4f63b8-328a-4030-aeed-b7500721a637",
+    "PolicyID": "f6010dd9-3045-43a0-ac9a-52332ef480e0",
+    "EffectiveDates": {
+        "StartDate": "2023-10-03",
+        "EndDate": "2024-10-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "da71d0b9-5d11-42cb-8417-5b73b838aaa1",
+        "Name": "Stephanie Taylor",
+        "PolicyNumber": "f6010dd9-3045-43a0-ac9a-52332ef480e0",
+        "ContactInformation": {
+            "Phone": "001-985-370-5306x2769",
+            "Email": "kathleenryan@example.net",
+            "Address": "12759 Thomas Union Suite 578\nSusanburgh, OH 15790"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-25",
+        "Location": "2040 Lisa Creek Suite 157\nSouth Dianeshire, MI 61624",
+        "Description": "Always one owner available. View itself without process rather lose minute. Back better forward too federal material argue sport."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25048
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25235
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44381
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41223
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38763
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116563,
+        "TotalApproved": 75145
+    },
+    "AdjusterDetails": {
+        "Name": "Yolanda Faulkner",
+        "ContactInformation": {
+            "Phone": "(940)489-7942x2554",
+            "Email": "johnsondanny@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/29905501-2fb9-4386-9d86-2f237583652a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-25T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-30T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-04T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

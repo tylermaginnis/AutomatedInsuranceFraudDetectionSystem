@@ -1,0 +1,80 @@
+{
+  "ClaimID": "83994d47-76dc-436d-a064-e76a49e928e8",
+  "PolicyID": "63d6c7cf-5d02-4bb7-ac71-5ffd36cdcf22",
+  "EffectiveDates": {
+    "StartDate": "2024-08-17",
+    "EndDate": "2025-08-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6a1bb04c-dc76-4290-91a6-99af28d84f1d",
+    "Name": "Christopher Adams",
+    "PolicyNumber": "63d6c7cf-5d02-4bb7-ac71-5ffd36cdcf22",
+    "ContactInformation": {
+      "Phone": "5148966832",
+      "Email": "michaelbuck@example.org",
+      "Address": "793 Jeremy Junction\nSouth Jacobburgh, MO 57227"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-12",
+    "Location": "73859 Morrison Expressway Suite 760\nAndersonshire, WV 25175",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 93728
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 29780
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9434
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11179
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15888
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 160009,
+    "TotalApproved": 62898
+  },
+  "AdjusterDetails": {
+    "Name": "Theresa Klein",
+    "ContactInformation": {
+      "Phone": "743-524-8529",
+      "Email": "qwebb@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/19142943-17c4-414d-a6d9-adb7b82326e6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-12T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-17T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-22T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

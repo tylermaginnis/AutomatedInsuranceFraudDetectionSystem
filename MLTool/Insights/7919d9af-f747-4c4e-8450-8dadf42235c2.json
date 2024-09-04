@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7919d9af-f747-4c4e-8450-8dadf42235c2",
+    "PolicyID": "026459cf-a89d-47e8-a25b-5d39d5017633",
+    "EffectiveDates": {
+        "StartDate": "2024-05-29",
+        "EndDate": "2025-05-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "912f1cb4-39b3-4d42-8762-ac9884ec578e",
+        "Name": "Lisa Jackson",
+        "PolicyNumber": "026459cf-a89d-47e8-a25b-5d39d5017633",
+        "ContactInformation": {
+            "Phone": "294.926.3081",
+            "Email": "samuelpowell@example.org",
+            "Address": "85591 Xavier Village Suite 659\nLake Monica, FM 10318"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-26",
+        "Location": "59525 Gibbs Road Suite 911\nLake Shawn, GU 41646",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91753
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48126
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6105
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15795
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18615
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 180394,
+        "TotalApproved": 48501
+    },
+    "AdjusterDetails": {
+        "Name": "Karla Simpson PhD",
+        "ContactInformation": {
+            "Phone": "+1-534-938-4182x364",
+            "Email": "deanna90@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1137b74e-a919-4704-b347-f561ae7ced9b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-26T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-31T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-05T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

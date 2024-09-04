@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b47aff61-5a8f-4e00-a2a6-088532dc1194",
+    "PolicyID": "2e360434-51fc-4a20-b9eb-369bfacf0a20",
+    "EffectiveDates": {
+        "StartDate": "2024-07-29",
+        "EndDate": "2025-07-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4de7434c-ed63-434b-b01c-8f76aada9e25",
+        "Name": "Jessica Mathis",
+        "PolicyNumber": "2e360434-51fc-4a20-b9eb-369bfacf0a20",
+        "ContactInformation": {
+            "Phone": "941-367-6288",
+            "Email": "janicesloan@example.org",
+            "Address": "17226 Ryan Meadows Apt. 351\nPort Ann, CO 42987"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-05",
+        "Location": "9720 Spencer Radial\nLake Margaretberg, CT 58477",
+        "Description": "Plan seek expect hope paper. Exactly notice bar development window. Education resource born such rule both.\nStrategy finally rest pressure real rock right pretty. Ok whole to."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20948
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5639
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33005
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 54395
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18709
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 16712,
+        "TotalApproved": 4643
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Heath",
+        "ContactInformation": {
+            "Phone": "843-405-5766",
+            "Email": "jermaine51@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/21c36faf-086a-4b48-9796-be0b6686bed6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

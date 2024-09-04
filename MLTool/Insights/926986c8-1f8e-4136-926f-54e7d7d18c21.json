@@ -1,0 +1,81 @@
+{
+    "ClaimID": "926986c8-1f8e-4136-926f-54e7d7d18c21",
+    "PolicyID": "be5c9acc-5260-44ee-9df9-d2327f8cd873",
+    "EffectiveDates": {
+        "StartDate": "2024-04-16",
+        "EndDate": "2025-04-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "020fbe7b-4bad-4c2a-ba55-6bdf5ac6c54b",
+        "Name": "Justin Taylor",
+        "PolicyNumber": "be5c9acc-5260-44ee-9df9-d2327f8cd873",
+        "ContactInformation": {
+            "Phone": "461-393-9045",
+            "Email": "martinezchristopher@example.net",
+            "Address": "PSC 3705, Box 7902\nAPO AP 46236"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-10",
+        "Location": "784 Rodriguez Cliffs\nWest Tommyside, AS 38983",
+        "Description": "Decide too office out. Easy condition still against individual suddenly close. Many although try.\nTough traditional social program unit many much. Today today to."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8135
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 162633
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5921
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 74373
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 158312
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 130147,
+        "TotalApproved": 96779
+    },
+    "AdjusterDetails": {
+        "Name": "John Hoover",
+        "ContactInformation": {
+            "Phone": "001-968-321-7261x971",
+            "Email": "kristen56@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9d1233ff-63f7-4c03-ba40-2f747ff36394"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

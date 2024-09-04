@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4bf1fe8a-b685-4fb2-bd17-b0b83200054d",
+  "PolicyID": "4c048fd3-2299-4593-ae67-e0b601ddb3a5",
+  "EffectiveDates": {
+    "StartDate": "2024-05-16",
+    "EndDate": "2025-05-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8f7e5718-27f1-4e9c-956c-c23c68a14af0",
+    "Name": "Robert Haley",
+    "PolicyNumber": "4c048fd3-2299-4593-ae67-e0b601ddb3a5",
+    "ContactInformation": {
+      "Phone": "465-358-1294x7740",
+      "Email": "robynbarnes@example.com",
+      "Address": "5469 Roth Light Suite 061\nNorth Arthur, OR 81666"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-13",
+    "Location": "83148 Wendy Village Apt. 449\nPort Marvin, WY 53360",
+    "Description": "Fill structure meet magazine improve recently. Pattern inside state show true big. Imagine police stand free theory reach personal politics."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 38300
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 34975
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3830
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 34542
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 112570
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 141960,
+    "TotalApproved": 51162
+  },
+  "AdjusterDetails": {
+    "Name": "Daniel Rose",
+    "ContactInformation": {
+      "Phone": "965.722.9216x4171",
+      "Email": "kbanks@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/c1687d51-006d-4ccc-ab64-0e8836febcda"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-13T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-18T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-23T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

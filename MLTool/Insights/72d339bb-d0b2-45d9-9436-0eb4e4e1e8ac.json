@@ -1,0 +1,81 @@
+{
+    "ClaimID": "72d339bb-d0b2-45d9-9436-0eb4e4e1e8ac",
+    "PolicyID": "41990308-e39a-4568-be77-a25a43ba48df",
+    "EffectiveDates": {
+        "StartDate": "2024-03-02",
+        "EndDate": "2025-03-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3d740a76-dcfa-4b70-858c-e268330272c8",
+        "Name": "Jamie Simpson",
+        "PolicyNumber": "41990308-e39a-4568-be77-a25a43ba48df",
+        "ContactInformation": {
+            "Phone": "+1-995-564-4493",
+            "Email": "woodkristin@example.net",
+            "Address": "PSC 0008, Box 7051\nAPO AP 53758"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-03",
+        "Location": "598 Ann Alley Suite 944\nMaysmouth, OH 92732",
+        "Description": "Share part writer exactly sing save. World rate democratic. It early nature door. Agreement area true international still southern my."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18206
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3349
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46873
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3260
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4605
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 126945,
+        "TotalApproved": 72016
+    },
+    "AdjusterDetails": {
+        "Name": "John May",
+        "ContactInformation": {
+            "Phone": "+1-553-402-4697x62921",
+            "Email": "moranmichael@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/52875d96-c32f-4354-92c5-3ce47bed939c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

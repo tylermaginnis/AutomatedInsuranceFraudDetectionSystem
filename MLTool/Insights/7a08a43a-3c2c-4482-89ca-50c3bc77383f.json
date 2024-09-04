@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7a08a43a-3c2c-4482-89ca-50c3bc77383f",
+    "PolicyID": "774871fd-5fea-40d1-b3c2-94c8fcb90c5c",
+    "EffectiveDates": {
+        "StartDate": "2024-03-07",
+        "EndDate": "2025-03-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c8539f87-6432-4921-b8f4-f1a59047943e",
+        "Name": "Cheryl Moody",
+        "PolicyNumber": "774871fd-5fea-40d1-b3c2-94c8fcb90c5c",
+        "ContactInformation": {
+            "Phone": "(410)772-5058x709",
+            "Email": "wongjessica@example.com",
+            "Address": "8887 Rachel Via\nSouth Debra, MI 17064"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-05",
+        "Location": "257 Brown Circles\nWest Nicholas, TX 30597",
+        "Description": "Reach always everything. Herself as benefit Mr manager left role. Like else race end."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8567
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3378
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16469
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9844
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3336
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 171207,
+        "TotalApproved": 28731
+    },
+    "AdjusterDetails": {
+        "Name": "Jordan Martinez",
+        "ContactInformation": {
+            "Phone": "861.340.1538x7689",
+            "Email": "michaelgarcia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/186170ec-949b-4255-8ea7-0bbeaa8a76b1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

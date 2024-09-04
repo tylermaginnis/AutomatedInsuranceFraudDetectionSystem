@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2932d6d6-fe30-4549-b3ad-75ff27ec7769",
+    "PolicyID": "bae212c6-0a57-4324-89d1-83beccc79337",
+    "EffectiveDates": {
+        "StartDate": "2023-09-24",
+        "EndDate": "2024-09-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d8ea001f-ba83-4efa-bc8a-c4b8e118c827",
+        "Name": "Nathan Huff",
+        "PolicyNumber": "bae212c6-0a57-4324-89d1-83beccc79337",
+        "ContactInformation": {
+            "Phone": "001-849-478-4041x6600",
+            "Email": "mitchellrodgers@example.net",
+            "Address": "782 Smith Orchard Apt. 175\nNorth Dillon, CA 46900"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-22",
+        "Location": "24236 Dougherty Pike Apt. 044\nEdwardschester, MH 00666",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 78186
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26235
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6212
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20880
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9091
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 140604,
+        "TotalApproved": 114635
+    },
+    "AdjusterDetails": {
+        "Name": "Patricia Allen",
+        "ContactInformation": {
+            "Phone": "(522)318-8812",
+            "Email": "deborah54@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c7a2611b-1295-443d-b4d8-520772b30c88"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-22T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-27T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-01T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

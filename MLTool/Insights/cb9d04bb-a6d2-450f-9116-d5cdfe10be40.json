@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cb9d04bb-a6d2-450f-9116-d5cdfe10be40",
+    "PolicyID": "4cec20ae-a619-46a8-be1b-3ebe42e028aa",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2054da1b-ef44-4834-8889-0b6ba711d163",
+        "Name": "Melissa Sanford",
+        "PolicyNumber": "4cec20ae-a619-46a8-be1b-3ebe42e028aa",
+        "ContactInformation": {
+            "Phone": "777-451-8377x681",
+            "Email": "framirez@example.com",
+            "Address": "59455 Barbara Corner\nEast Michelle, ND 91444"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-05",
+        "Location": "18881 Taylor Parkways Apt. 227\nLake Jefferymouth, MO 45813",
+        "Description": "Past hope their section truth listen trade want. Artist street type room news TV foreign.\nBy behavior list side. We campaign up down. Agency color decade part information."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 192362
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24860
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1287
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26009
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10044
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 157376,
+        "TotalApproved": 78254
+    },
+    "AdjusterDetails": {
+        "Name": "Gary Perry",
+        "ContactInformation": {
+            "Phone": "511.434.2320x32043",
+            "Email": "rebecca05@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f9789ed0-114c-4505-9695-da4abb34bcbe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-05T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-10T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-15T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

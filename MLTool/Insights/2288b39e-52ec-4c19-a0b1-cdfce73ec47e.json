@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2288b39e-52ec-4c19-a0b1-cdfce73ec47e",
+    "PolicyID": "ad6c8220-edda-42aa-99ab-d9e3e962c587",
+    "EffectiveDates": {
+        "StartDate": "2024-05-21",
+        "EndDate": "2025-05-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e91dd2ad-2b24-4b73-917e-d3f591522092",
+        "Name": "Samantha Maynard",
+        "PolicyNumber": "ad6c8220-edda-42aa-99ab-d9e3e962c587",
+        "ContactInformation": {
+            "Phone": "810-343-5540",
+            "Email": "wrightcynthia@example.com",
+            "Address": "949 Jason Dam Suite 285\nGinashire, WA 38930"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-26",
+        "Location": "3583 Phillip Falls Suite 392\nLake Karenhaven, AS 51675",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 57582
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37479
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8940
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24976
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6206
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 135183,
+        "TotalApproved": 20769
+    },
+    "AdjusterDetails": {
+        "Name": "Cindy Aguilar",
+        "ContactInformation": {
+            "Phone": "9729592301",
+            "Email": "hmorrison@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c306d3d4-66dd-4143-b986-6b9be51fbe7f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

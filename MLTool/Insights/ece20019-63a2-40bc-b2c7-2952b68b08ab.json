@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ece20019-63a2-40bc-b2c7-2952b68b08ab",
+    "PolicyID": "81e359be-62dd-4e26-8548-7e4e4b3d2b7b",
+    "EffectiveDates": {
+        "StartDate": "2023-10-22",
+        "EndDate": "2024-10-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b1c8540a-6ae2-4e6e-ae2d-f4281d2de599",
+        "Name": "Gregory Norris",
+        "PolicyNumber": "81e359be-62dd-4e26-8548-7e4e4b3d2b7b",
+        "ContactInformation": {
+            "Phone": "(409)906-1661",
+            "Email": "briansolomon@example.net",
+            "Address": "487 Jessica Orchard Suite 755\nSeanmouth, NJ 66061"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-12",
+        "Location": "PSC 5847, Box 7943\nAPO AA 88550",
+        "Description": "Card know treat whether project. Old everyone government old customer every effort manager. Remember west truth look.\nBig ever alone provide. International senior story."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 55869
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10501
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9582
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5468
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1769
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 95377,
+        "TotalApproved": 73500
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Clark",
+        "ContactInformation": {
+            "Phone": "+1-754-790-1401x9029",
+            "Email": "donna53@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7c24332c-fb7e-41d9-a00e-1aa676b78fb1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

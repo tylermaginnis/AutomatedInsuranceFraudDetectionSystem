@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b194b6eb-ae1e-45f5-99fe-8b45a71e146a",
+    "PolicyID": "fff1792e-d4ff-4a20-8874-31ef483b1b31",
+    "EffectiveDates": {
+        "StartDate": "2024-01-15",
+        "EndDate": "2025-01-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "69ba7493-dab5-4389-8da1-9cbccc693aa3",
+        "Name": "Jennifer Martin",
+        "PolicyNumber": "fff1792e-d4ff-4a20-8874-31ef483b1b31",
+        "ContactInformation": {
+            "Phone": "215-216-2597x103",
+            "Email": "yking@example.org",
+            "Address": "032 Samantha Walks\nPort Brittanymouth, OH 51202"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-02",
+        "Location": "Unit 0309 Box 7822\nDPO AA 88675",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 82719
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41507
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9974
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19022
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17613
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 170835,
+        "TotalApproved": 66380
+    },
+    "AdjusterDetails": {
+        "Name": "Erika Smith",
+        "ContactInformation": {
+            "Phone": "(595)635-8410x74010",
+            "Email": "roberthartman@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c081aaeb-d0bc-40ce-ac49-7dd14d1c82ec"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

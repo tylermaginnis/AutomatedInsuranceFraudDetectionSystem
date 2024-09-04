@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a34e7f1f-2cea-4ad8-86ab-e2a95e1cf3b9",
+    "PolicyID": "ec1f964a-8fa1-45d9-a9d4-8d191b72ce01",
+    "EffectiveDates": {
+        "StartDate": "2024-01-30",
+        "EndDate": "2025-01-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5102cc71-23e9-448c-8b61-27f92314d083",
+        "Name": "Vanessa Wolf",
+        "PolicyNumber": "ec1f964a-8fa1-45d9-a9d4-8d191b72ce01",
+        "ContactInformation": {
+            "Phone": "(810)450-5780x33325",
+            "Email": "daniel05@example.com",
+            "Address": "PSC 6512, Box 6027\nAPO AE 91201"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-30",
+        "Location": "49558 Brandon Passage Suite 353\nAdamshire, NC 90166",
+        "Description": "Note throughout agreement shoulder every radio focus. Economy shoulder method interesting whole southern. Go charge dark happen right."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14483
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12870
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12831
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1969
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35123
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 135421,
+        "TotalApproved": 63558
+    },
+    "AdjusterDetails": {
+        "Name": "Marie Juarez",
+        "ContactInformation": {
+            "Phone": "+1-802-921-2686",
+            "Email": "tanyabrewer@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/371736f6-a561-4608-bbfc-c980994af49f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

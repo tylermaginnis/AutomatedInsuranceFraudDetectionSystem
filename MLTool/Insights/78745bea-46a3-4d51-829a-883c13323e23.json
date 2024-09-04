@@ -1,0 +1,81 @@
+{
+    "ClaimID": "78745bea-46a3-4d51-829a-883c13323e23",
+    "PolicyID": "64769553-26b6-436f-ad00-8ef4b8cf6233",
+    "EffectiveDates": {
+        "StartDate": "2024-03-10",
+        "EndDate": "2025-03-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "63fcfdbe-cd02-4e60-b654-82901d271db1",
+        "Name": "Kevin Brown",
+        "PolicyNumber": "64769553-26b6-436f-ad00-8ef4b8cf6233",
+        "ContactInformation": {
+            "Phone": "+1-294-753-1842",
+            "Email": "ijones@example.net",
+            "Address": "5358 Alan Islands Suite 967\nBriantown, ND 79096"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-19",
+        "Location": "2200 Monique Highway\nGarrettchester, FL 05911",
+        "Description": "Yet debate guy down president respond security. Prepare while national project sister need. Plant enter organization free movement hot."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 55202
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2677
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25287
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25261
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23855
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 36622,
+        "TotalApproved": 28655
+    },
+    "AdjusterDetails": {
+        "Name": "Kelly Williams",
+        "ContactInformation": {
+            "Phone": "763.876.4658x25027",
+            "Email": "cclark@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/c238749b-73f6-4d27-acc2-5b877e776a3b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-19T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-24T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-29T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

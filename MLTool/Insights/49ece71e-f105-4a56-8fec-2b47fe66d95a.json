@@ -1,0 +1,81 @@
+{
+    "ClaimID": "49ece71e-f105-4a56-8fec-2b47fe66d95a",
+    "PolicyID": "1efabd29-4884-49bf-a9bb-14829741b0f4",
+    "EffectiveDates": {
+        "StartDate": "2024-02-20",
+        "EndDate": "2025-02-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6bc32a0f-2cd9-453d-bc5e-f54d9d9b49a9",
+        "Name": "Meredith Anderson",
+        "PolicyNumber": "1efabd29-4884-49bf-a9bb-14829741b0f4",
+        "ContactInformation": {
+            "Phone": "580.931.8728",
+            "Email": "nklein@example.net",
+            "Address": "2836 Perez Lights Apt. 020\nThompsonmouth, MN 79085"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-19",
+        "Location": "0298 Stephens Spring Apt. 147\nLake Adamland, PR 74635",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 52150
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20653
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6922
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13141
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15284
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 108150,
+        "TotalApproved": 81751
+    },
+    "AdjusterDetails": {
+        "Name": "Jose Chavez",
+        "ContactInformation": {
+            "Phone": "9965604822",
+            "Email": "campbellronnie@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0ef4d098-43e0-4727-8064-9e61a7a51048"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-19T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-24T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-29T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

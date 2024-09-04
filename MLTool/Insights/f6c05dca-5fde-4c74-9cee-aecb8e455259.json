@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6c05dca-5fde-4c74-9cee-aecb8e455259",
+    "PolicyID": "9293f19b-05ae-43c2-97d9-01f26cd05486",
+    "EffectiveDates": {
+        "StartDate": "2023-10-05",
+        "EndDate": "2024-10-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8a909f6e-d4e2-4488-9438-e22c87898b41",
+        "Name": "Raymond Curtis",
+        "PolicyNumber": "9293f19b-05ae-43c2-97d9-01f26cd05486",
+        "ContactInformation": {
+            "Phone": "001-564-436-9927",
+            "Email": "david62@example.org",
+            "Address": "2237 Erickson Key\nPricetown, TX 99705"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-08",
+        "Location": "5331 Bautista Path Apt. 799\nChristopherhaven, NH 74734",
+        "Description": "Join push cell site. Assume hold analysis see culture. Property partner bad wife think."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9654
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 77885
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 163047
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17445
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6336
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 2599,
+        "TotalApproved": 2272
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Hodges",
+        "ContactInformation": {
+            "Phone": "+1-567-721-0438x03170",
+            "Email": "riversselena@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8a330e5e-5797-4577-a63c-ff9cc9d951ea"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

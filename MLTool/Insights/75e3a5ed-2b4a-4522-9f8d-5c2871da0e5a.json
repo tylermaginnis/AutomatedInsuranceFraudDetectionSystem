@@ -1,0 +1,81 @@
+{
+    "ClaimID": "75e3a5ed-2b4a-4522-9f8d-5c2871da0e5a",
+    "PolicyID": "547a3d3a-a010-4d97-9b16-7502990f35df",
+    "EffectiveDates": {
+        "StartDate": "2023-09-23",
+        "EndDate": "2024-09-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "76fa0b0c-ee05-4f30-8880-e847b0a5c56d",
+        "Name": "Mary Walter",
+        "PolicyNumber": "547a3d3a-a010-4d97-9b16-7502990f35df",
+        "ContactInformation": {
+            "Phone": "3552610219",
+            "Email": "ovelasquez@example.com",
+            "Address": "710 Matthew Burg\nWheelerberg, IL 52848"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-26",
+        "Location": "80785 Franklin Stream\nRicardoborough, NE 66740",
+        "Description": "Themselves establish much need chair as hot. Soon top low much according dark safe. Agreement theory from mind. Visit minute force star whole eye three."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13416
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16194
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 74385
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32009
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1990
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 191752,
+        "TotalApproved": 39881
+    },
+    "AdjusterDetails": {
+        "Name": "Donna Moreno",
+        "ContactInformation": {
+            "Phone": "(715)217-4513",
+            "Email": "priceariel@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1a535b0f-cfbe-440b-b73c-8104bedd86fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

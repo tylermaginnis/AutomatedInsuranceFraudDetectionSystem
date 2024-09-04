@@ -1,0 +1,80 @@
+{
+  "ClaimID": "41bb452b-a5eb-4060-98ac-bcd8f93fa5a9",
+  "PolicyID": "a28d2cb5-7022-4762-9356-a5a3e139bbd2",
+  "EffectiveDates": {
+    "StartDate": "2023-12-31",
+    "EndDate": "2024-12-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6a4db6b0-90c3-4356-8836-0563c8204693",
+    "Name": "Amanda Gonzalez",
+    "PolicyNumber": "a28d2cb5-7022-4762-9356-a5a3e139bbd2",
+    "ContactInformation": {
+      "Phone": "001-630-461-3557x2678",
+      "Email": "barbara79@example.com",
+      "Address": "2982 Jordan Roads Apt. 822\nSeanmouth, MP 40222"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-22",
+    "Location": "663 Pacheco Dale Apt. 370\nDavidberg, ME 15062",
+    "Description": "Do success occur indeed gas professor. Himself special others five into travel. Newspaper billion power smile piece source sing."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 21168
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19443
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8579
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16321
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 19677
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 133578,
+    "TotalApproved": 111234
+  },
+  "AdjusterDetails": {
+    "Name": "Thomas Smith",
+    "ContactInformation": {
+      "Phone": "(361)696-6577x637",
+      "Email": "juliegarcia@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/eb57f3f3-866f-4865-ad51-d99ccced583d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-22T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-27T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-01T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

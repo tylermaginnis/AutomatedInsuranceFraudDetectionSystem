@@ -1,0 +1,81 @@
+{
+    "ClaimID": "555dafdb-583d-4a90-a1f0-6f4214e133fc",
+    "PolicyID": "d7b24c90-fad5-4405-bb1c-657cc7be9f95",
+    "EffectiveDates": {
+        "StartDate": "2024-04-29",
+        "EndDate": "2025-04-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "87e082ee-9f1e-490a-820b-f92ca297d27f",
+        "Name": "Megan Weber",
+        "PolicyNumber": "d7b24c90-fad5-4405-bb1c-657cc7be9f95",
+        "ContactInformation": {
+            "Phone": "867-788-3141x73205",
+            "Email": "allison13@example.com",
+            "Address": "Unit 1125 Box 2384\nDPO AE 19584"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-17",
+        "Location": "271 Miller Dale Apt. 275\nPort Williamside, OR 73736",
+        "Description": "Figure final guy fund. Glass score foreign people. Wonder leg that impact society."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31596
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44291
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9294
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30270
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 116492
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151039,
+        "TotalApproved": 94003
+    },
+    "AdjusterDetails": {
+        "Name": "Theresa Price",
+        "ContactInformation": {
+            "Phone": "(484)321-4414",
+            "Email": "acevedosarah@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ac70aeaf-c41e-4600-910e-3fc369df7d5a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-17T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-22T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-27T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

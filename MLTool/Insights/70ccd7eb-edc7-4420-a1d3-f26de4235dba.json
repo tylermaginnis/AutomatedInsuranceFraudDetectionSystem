@@ -1,0 +1,81 @@
+{
+    "ClaimID": "70ccd7eb-edc7-4420-a1d3-f26de4235dba",
+    "PolicyID": "e3d23889-f70f-4095-b9d3-93ab2304cbd0",
+    "EffectiveDates": {
+        "StartDate": "2024-05-23",
+        "EndDate": "2025-05-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2c747bfc-b534-4844-b97e-49bf33075e7a",
+        "Name": "Lisa Rivera",
+        "PolicyNumber": "e3d23889-f70f-4095-b9d3-93ab2304cbd0",
+        "ContactInformation": {
+            "Phone": "(502)574-9375x0358",
+            "Email": "valenzueladonald@example.com",
+            "Address": "USS Long\nFPO AP 35257"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-24",
+        "Location": "98352 William Park\nNorth Michael, NV 01841",
+        "Description": "Everything a audience another establish return. Customer prove position friend her."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 182710
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20948
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3009
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 124596
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8509
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 98715,
+        "TotalApproved": 14981
+    },
+    "AdjusterDetails": {
+        "Name": "Anne Wood",
+        "ContactInformation": {
+            "Phone": "(653)806-4025x772",
+            "Email": "samuel65@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6087afce-582e-419d-9ecf-c5fe80c2f6ac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-24T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-29T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-04T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

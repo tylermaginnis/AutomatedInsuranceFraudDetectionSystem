@@ -1,0 +1,81 @@
+{
+    "ClaimID": "444ea64a-05ee-4df4-85c7-8f989739bdb1",
+    "PolicyID": "010473eb-076a-4ef1-8251-c8e708dc29a7",
+    "EffectiveDates": {
+        "StartDate": "2024-02-14",
+        "EndDate": "2025-02-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0699a4af-d802-41bd-b6fb-977129ac8432",
+        "Name": "Charles Ross",
+        "PolicyNumber": "010473eb-076a-4ef1-8251-c8e708dc29a7",
+        "ContactInformation": {
+            "Phone": "445-231-6733",
+            "Email": "jessicawerner@example.com",
+            "Address": "PSC 9128, Box 5264\nAPO AP 92574"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-20",
+        "Location": "24687 Phillips Manors\nPort Brandy, OR 02726",
+        "Description": "From must sense relationship. Many face what system money fire dog. Southern early interview well serve hotel concern begin."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12887
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48543
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2283
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13924
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14436
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 165810,
+        "TotalApproved": 107553
+    },
+    "AdjusterDetails": {
+        "Name": "Hannah Hudson",
+        "ContactInformation": {
+            "Phone": "996-307-0993x532",
+            "Email": "fporter@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/41e20b8f-7b2c-4005-98bc-26e6081ce616"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-20T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-25T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-01T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

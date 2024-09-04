@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f24a46da-1b47-4e46-a92f-50aa661f0969",
+    "PolicyID": "401efe1f-0dc1-4f96-87b0-aea4883f49ed",
+    "EffectiveDates": {
+        "StartDate": "2024-01-18",
+        "EndDate": "2025-01-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d855d895-1c1d-4423-9e71-1ee7b9db574a",
+        "Name": "Jonathan Odom",
+        "PolicyNumber": "401efe1f-0dc1-4f96-87b0-aea4883f49ed",
+        "ContactInformation": {
+            "Phone": "424-555-7922",
+            "Email": "brooke35@example.org",
+            "Address": "3404 Ashley Views Apt. 132\nMadisonmouth, MT 76441"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-02",
+        "Location": "03952 John Key Suite 936\nTamiside, NH 40807",
+        "Description": "Early speech bill shake seek reach. Form approach will strategy.\nInternational car business arrive son visit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 109400
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2815
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37273
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6047
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29672
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 93725,
+        "TotalApproved": 9723
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Williams",
+        "ContactInformation": {
+            "Phone": "730-479-6566x7514",
+            "Email": "sarah83@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/16dcc236-a957-48d9-88a9-ac633def1dc1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

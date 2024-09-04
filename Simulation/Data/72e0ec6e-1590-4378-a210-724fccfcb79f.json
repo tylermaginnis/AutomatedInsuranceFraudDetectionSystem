@@ -1,0 +1,80 @@
+{
+  "ClaimID": "72e0ec6e-1590-4378-a210-724fccfcb79f",
+  "PolicyID": "3fb49ff8-aa30-4adf-a256-a711ade511fb",
+  "EffectiveDates": {
+    "StartDate": "2023-12-12",
+    "EndDate": "2024-12-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4f47b3b3-4beb-43f3-b075-ef06626d9664",
+    "Name": "Tracy Hunt",
+    "PolicyNumber": "3fb49ff8-aa30-4adf-a256-a711ade511fb",
+    "ContactInformation": {
+      "Phone": "(996)348-4843x86206",
+      "Email": "thomasjohnson@example.com",
+      "Address": "6479 Palmer Terrace Suite 055\nSouth Joseph, MP 20024"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-07",
+    "Location": "351 Justin Divide Suite 384\nNew Zachary, AL 77773",
+    "Description": "Interest table someone talk look chair strong four. Boy because forget perhaps. None more idea compare. Guess water west good anything respond many answer."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 10078
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 31315
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 32766
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 86946
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3420
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 82633,
+    "TotalApproved": 31834
+  },
+  "AdjusterDetails": {
+    "Name": "David Cabrera Jr.",
+    "ContactInformation": {
+      "Phone": "428.778.5821x43115",
+      "Email": "joseph07@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/bd2dff8e-d69b-4190-9bed-92082babc777"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-07T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-12T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-17T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1226711c-9e46-4a89-8fcc-003d8019f5ef",
+    "PolicyID": "c2afc456-0a22-461c-828f-456457389e36",
+    "EffectiveDates": {
+        "StartDate": "2024-01-03",
+        "EndDate": "2025-01-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1b5846bf-3a5b-4fdd-a530-77d829441d04",
+        "Name": "Crystal Clark",
+        "PolicyNumber": "c2afc456-0a22-461c-828f-456457389e36",
+        "ContactInformation": {
+            "Phone": "001-422-595-1363x553",
+            "Email": "clarknicole@example.com",
+            "Address": "Unit 8630 Box 4628\nDPO AE 08169"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "95047 Austin Skyway Suite 980\nJerrystad, IL 15220",
+        "Description": "Lawyer address ability shoulder bar letter direction the. Bag professional foot lose amount. Spring man threat.\nClass audience bed chair usually nice eye. Situation person trip trip third check."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4246
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46495
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7065
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1895
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47908
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 170744,
+        "TotalApproved": 152301
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Wall",
+        "ContactInformation": {
+            "Phone": "001-545-229-3957x91040",
+            "Email": "plawrence@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/93aec2bb-ca46-4e79-ba36-aaf9bae41219"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

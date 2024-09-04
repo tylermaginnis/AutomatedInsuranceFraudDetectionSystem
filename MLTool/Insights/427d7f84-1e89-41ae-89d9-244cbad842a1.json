@@ -1,0 +1,81 @@
+{
+    "ClaimID": "427d7f84-1e89-41ae-89d9-244cbad842a1",
+    "PolicyID": "cd0958f9-1d67-4e1f-82df-146683f4a5a4",
+    "EffectiveDates": {
+        "StartDate": "2023-10-27",
+        "EndDate": "2024-10-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "92e447ab-de96-4cdd-ad61-6b3349a4eda3",
+        "Name": "Audrey Ramirez",
+        "PolicyNumber": "cd0958f9-1d67-4e1f-82df-146683f4a5a4",
+        "ContactInformation": {
+            "Phone": "3777379365",
+            "Email": "april49@example.org",
+            "Address": "31783 Vargas Trail Suite 782\nNorth Coreyton, MS 29796"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-25",
+        "Location": "8329 Anne Club Suite 725\nLake Kyle, GU 29609",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 90859
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32996
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9365
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27873
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10394
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 171487,
+        "TotalApproved": 72143
+    },
+    "AdjusterDetails": {
+        "Name": "Tracey Vega",
+        "ContactInformation": {
+            "Phone": "834.658.6773",
+            "Email": "michellewarner@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/90001fbb-00b2-433d-b9aa-4a0bd21f9071"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-25T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-30T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-04T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

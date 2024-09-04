@@ -1,0 +1,81 @@
+{
+    "ClaimID": "37140b00-9169-4257-bca9-33f8656155d2",
+    "PolicyID": "b026cb25-650b-4959-a6ea-19e3707157ad",
+    "EffectiveDates": {
+        "StartDate": "2024-08-18",
+        "EndDate": "2025-08-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4c1f4e0f-a262-4c62-905d-faf97d85d1fe",
+        "Name": "Gail Smith",
+        "PolicyNumber": "b026cb25-650b-4959-a6ea-19e3707157ad",
+        "ContactInformation": {
+            "Phone": "(338)373-1921x6395",
+            "Email": "robinsonkristen@example.com",
+            "Address": "9520 Salas Harbor\nNew Robertburgh, MS 79689"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-08",
+        "Location": "6199 Emily Loop\nSouth Kristen, MH 20780",
+        "Description": "Score growth training skin beat. Offer professor kid unit.\nChurch start huge test certain interesting start. Least fact say language game place."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11238
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 87867
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7462
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 76112
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 111321
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 171815,
+        "TotalApproved": 36853
+    },
+    "AdjusterDetails": {
+        "Name": "Russell Gray",
+        "ContactInformation": {
+            "Phone": "7398667986",
+            "Email": "deaneric@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2eee40e5-dffd-4fd6-8551-9272ff336f41"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

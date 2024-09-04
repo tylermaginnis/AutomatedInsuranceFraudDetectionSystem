@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e369cef3-078a-48cd-af09-9965ac1230b9",
+    "PolicyID": "2ffb363e-a112-42aa-9a23-0cc7d2933c74",
+    "EffectiveDates": {
+        "StartDate": "2024-02-26",
+        "EndDate": "2025-02-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b9486b1c-9f79-4704-8646-5128596b38b9",
+        "Name": "Angela Tran",
+        "PolicyNumber": "2ffb363e-a112-42aa-9a23-0cc7d2933c74",
+        "ContactInformation": {
+            "Phone": "421.636.6735x547",
+            "Email": "awhite@example.net",
+            "Address": "12090 Christensen Road\nOliviaborough, FL 97840"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-22",
+        "Location": "44059 Carla Rest\nNorth Kenneth, SC 70316",
+        "Description": "Prevent price in front watch. Matter firm country society. Better campaign shake surface."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10671
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 169386
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49121
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9365
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9690
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 193853,
+        "TotalApproved": 170358
+    },
+    "AdjusterDetails": {
+        "Name": "Maurice Ramirez",
+        "ContactInformation": {
+            "Phone": "+1-701-927-1053x97991",
+            "Email": "donna86@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b357a58f-7af5-41dd-a8d6-fe7b3922f0ec"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

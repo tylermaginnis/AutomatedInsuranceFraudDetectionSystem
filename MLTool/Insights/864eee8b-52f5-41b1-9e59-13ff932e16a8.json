@@ -1,0 +1,81 @@
+{
+    "ClaimID": "864eee8b-52f5-41b1-9e59-13ff932e16a8",
+    "PolicyID": "7b9e1432-c752-4644-bece-92dba1d4c3e4",
+    "EffectiveDates": {
+        "StartDate": "2024-06-15",
+        "EndDate": "2025-06-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "920a10b7-1728-4551-975f-253e86a98634",
+        "Name": "Ruth Duran",
+        "PolicyNumber": "7b9e1432-c752-4644-bece-92dba1d4c3e4",
+        "ContactInformation": {
+            "Phone": "001-394-589-7387x4789",
+            "Email": "suttonpatrick@example.com",
+            "Address": "5158 Maureen Cliff\nPort Davidmouth, MO 96754"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-20",
+        "Location": "35447 Garcia Prairie Apt. 592\nPort Robert, MT 95834",
+        "Description": "Professor finish record. Foot spring economy soldier between. Forget already space reach.\nPainting box truth either crime edge. Office trouble action different some."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14361
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4410
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 172597
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 64327
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45146
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 76985,
+        "TotalApproved": 30273
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Hansen",
+        "ContactInformation": {
+            "Phone": "827-749-0508x29604",
+            "Email": "alanmartinez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cf8ef256-81e3-4d1b-ad5a-4070cddfb09e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-20T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-25T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-30T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

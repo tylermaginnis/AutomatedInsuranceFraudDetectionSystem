@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5c2e3897-1fe3-47fb-b22f-933933bed16b",
+  "PolicyID": "c788eaf2-aa26-4c7a-b67d-b231832d3dcb",
+  "EffectiveDates": {
+    "StartDate": "2024-01-21",
+    "EndDate": "2025-01-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a07e006c-6387-4371-88d4-78e5865ca2fa",
+    "Name": "Nathan Trevino",
+    "PolicyNumber": "c788eaf2-aa26-4c7a-b67d-b231832d3dcb",
+    "ContactInformation": {
+      "Phone": "3656975847",
+      "Email": "desiree88@example.net",
+      "Address": "Unit 1014 Box 1101\nDPO AE 39566"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-29",
+    "Location": "867 Hampton Vista\nWalterborough, NY 28435",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 96339
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 25733
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8815
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 27391
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5275
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 163553,
+    "TotalApproved": 79299
+  },
+  "AdjusterDetails": {
+    "Name": "Jacob Escobar",
+    "ContactInformation": {
+      "Phone": "(227)562-1337x3889",
+      "Email": "kimberly30@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/72b6d21c-7a8c-42b9-8671-735e4c324409"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-29T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-04T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-09T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

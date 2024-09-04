@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6928d713-739b-44ff-a4b6-98ff27bba326",
+    "PolicyID": "4770356b-0db5-4647-8601-bb73e97a9519",
+    "EffectiveDates": {
+        "StartDate": "2023-12-21",
+        "EndDate": "2024-12-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fe417b9f-2ba3-4a0f-8c41-7ae7c82e30ad",
+        "Name": "Monique Schneider",
+        "PolicyNumber": "4770356b-0db5-4647-8601-bb73e97a9519",
+        "ContactInformation": {
+            "Phone": "+1-638-409-6757x46952",
+            "Email": "qjarvis@example.net",
+            "Address": "5747 Cooper Expressway Suite 656\nNolanside, PR 87611"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "4987 Christopher Turnpike Suite 602\nYuburgh, PR 13888",
+        "Description": "Both doctor success meeting put. Bad arm wait often side admit.\nReduce day start head wife customer trial. Minute them generation have claim now share while."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21950
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17384
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39765
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25722
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28200
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 191755,
+        "TotalApproved": 155376
+    },
+    "AdjusterDetails": {
+        "Name": "Jesse Tran",
+        "ContactInformation": {
+            "Phone": "5928353783",
+            "Email": "john19@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4364ea91-4fd5-4499-b061-25b01cd1e86b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

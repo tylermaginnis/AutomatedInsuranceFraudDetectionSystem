@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4aaef11c-01f0-4319-a429-6f1eb1040100",
+  "PolicyID": "0e57f323-9748-4665-9c0e-f7556c57e2a8",
+  "EffectiveDates": {
+    "StartDate": "2023-12-25",
+    "EndDate": "2024-12-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9476cd67-fed5-4140-9e4d-5374b8ed3c24",
+    "Name": "Ryan Martin",
+    "PolicyNumber": "0e57f323-9748-4665-9c0e-f7556c57e2a8",
+    "ContactInformation": {
+      "Phone": "382-970-1219x02575",
+      "Email": "deborahbrown@example.com",
+      "Address": "1975 Ronnie Ridges\nLake Brittanyton, PR 62655"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-03",
+    "Location": "USNV Hudson\nFPO AE 29267",
+    "Description": "Really nothing meet street away anyone live. Painting seven leave serve. Away example blue choice any central eight."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2677
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 128142
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 10676
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5824
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 40405
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 181234,
+    "TotalApproved": 130653
+  },
+  "AdjusterDetails": {
+    "Name": "Patricia Cabrera",
+    "ContactInformation": {
+      "Phone": "890-474-5295",
+      "Email": "jason81@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/c98ffd12-88b6-4782-b358-ad8472367d7f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-03T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-08T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-13T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

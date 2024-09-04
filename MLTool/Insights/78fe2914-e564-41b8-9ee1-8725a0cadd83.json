@@ -1,0 +1,81 @@
+{
+    "ClaimID": "78fe2914-e564-41b8-9ee1-8725a0cadd83",
+    "PolicyID": "5f683f95-26f4-4dea-8810-d3fbd9857bd5",
+    "EffectiveDates": {
+        "StartDate": "2023-12-02",
+        "EndDate": "2024-12-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "20e352eb-ebd9-4868-b6dc-ad384f2e9443",
+        "Name": "Brian Garcia",
+        "PolicyNumber": "5f683f95-26f4-4dea-8810-d3fbd9857bd5",
+        "ContactInformation": {
+            "Phone": "001-695-246-3101x9256",
+            "Email": "phernandez@example.org",
+            "Address": "161 Amy Keys Apt. 210\nPricefort, OR 24388"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-18",
+        "Location": "Unit 2606 Box 9629\nDPO AA 55531",
+        "Description": "Decide throw true billion play. School question perform deep above her.\nReality activity culture laugh challenge. Own science ask bed."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4313
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6494
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 70779
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4377
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5821
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 124647,
+        "TotalApproved": 123927
+    },
+    "AdjusterDetails": {
+        "Name": "Garrett Flowers",
+        "ContactInformation": {
+            "Phone": "2015394165",
+            "Email": "vjohnson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a38b5a56-5c2f-4399-a764-dad012606744"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

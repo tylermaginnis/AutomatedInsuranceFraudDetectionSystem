@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a5fc38d8-ca96-4c3e-b031-ff6d8501672c",
+    "PolicyID": "f8be759c-0917-4c58-a00b-8c113d8cd705",
+    "EffectiveDates": {
+        "StartDate": "2023-10-14",
+        "EndDate": "2024-10-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "abeff9da-6c4a-413a-9aab-b2028d4360ab",
+        "Name": "Emily Harris",
+        "PolicyNumber": "f8be759c-0917-4c58-a00b-8c113d8cd705",
+        "ContactInformation": {
+            "Phone": "524-941-7031",
+            "Email": "vkelly@example.org",
+            "Address": "21608 Richard Mews\nNew Jeremy, PR 82811"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-21",
+        "Location": "Unit 9989 Box 0250\nDPO AE 89967",
+        "Description": "Trouble customer left society discussion indeed. Ability the camera subject board bill. And certain a reduce pay.\nWonder team project find other end cup. Whose environment leader open sport drive."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7227
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10857
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9054
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2127
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8400
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 152231,
+        "TotalApproved": 102772
+    },
+    "AdjusterDetails": {
+        "Name": "Arthur Vargas",
+        "ContactInformation": {
+            "Phone": "350-537-8723x651",
+            "Email": "ycollins@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/44c143a5-830c-44b9-8d05-da2eae698634"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-01T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

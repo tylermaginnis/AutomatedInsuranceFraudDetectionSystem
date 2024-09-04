@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e3a616cf-40e6-41d5-aabe-14be0ae774a0",
+    "PolicyID": "010d79a1-8fdd-4291-b33b-349adde26489",
+    "EffectiveDates": {
+        "StartDate": "2024-05-28",
+        "EndDate": "2025-05-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9db42c5f-73b7-42da-9e27-9c80b5e1cc14",
+        "Name": "Gabriel Harvey",
+        "PolicyNumber": "010d79a1-8fdd-4291-b33b-349adde26489",
+        "ContactInformation": {
+            "Phone": "360.454.1564",
+            "Email": "grahamgregory@example.org",
+            "Address": "23452 Garcia Park Apt. 576\nLake Kathy, AR 79610"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-07",
+        "Location": "0316 Martin Mountains\nDavidside, NE 78360",
+        "Description": "Live sometimes effort attorney nation write answer. Actually guy test. Much though theory production hair.\nInteresting wall expert their part. Environment explain student area happen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8975
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4406
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 85848
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13439
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8563
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 162191,
+        "TotalApproved": 149624
+    },
+    "AdjusterDetails": {
+        "Name": "Tamara Rogers",
+        "ContactInformation": {
+            "Phone": "256.241.0742",
+            "Email": "apowell@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/bde2ad6c-cac0-478d-9448-e9dc579502e5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-07T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-12T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-17T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "954135ba-ef23-4f8e-a7a8-0666baccf81c",
+    "PolicyID": "2657ec7a-6a8b-4075-8839-68c6a5f49c8f",
+    "EffectiveDates": {
+        "StartDate": "2024-02-09",
+        "EndDate": "2025-02-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5aef49ec-daf5-44b5-9cfa-dd7fedef941e",
+        "Name": "Jonathan Duncan",
+        "PolicyNumber": "2657ec7a-6a8b-4075-8839-68c6a5f49c8f",
+        "ContactInformation": {
+            "Phone": "473-920-9971x7876",
+            "Email": "davidhall@example.net",
+            "Address": "7630 Bennett Forges Suite 154\nLindamouth, MA 91908"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-21",
+        "Location": "479 Matthew Roads\nJameston, AZ 79857",
+        "Description": "Reflect who history affect under. Floor environmental resource. Country include indicate likely.\nFront I about. Professional they run space. Identify must clear write moment."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1365
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6951
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12353
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41122
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7169
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 63346,
+        "TotalApproved": 2185
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Saunders",
+        "ContactInformation": {
+            "Phone": "729-936-5463x50994",
+            "Email": "lovekevin@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/af4f1afa-bb1e-4a6d-a2f0-189ddcbcaa20"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-31T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

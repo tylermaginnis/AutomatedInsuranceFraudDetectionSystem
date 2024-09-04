@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eec4edf4-f3d4-4ffb-b749-b6960dcc9f0d",
+    "PolicyID": "bcc16caa-fcb2-48cc-93af-380cf457d704",
+    "EffectiveDates": {
+        "StartDate": "2024-07-29",
+        "EndDate": "2025-07-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b960dc39-ac89-4543-8398-66cd0590e625",
+        "Name": "Sandra Scott",
+        "PolicyNumber": "bcc16caa-fcb2-48cc-93af-380cf457d704",
+        "ContactInformation": {
+            "Phone": "+1-462-748-8721x645",
+            "Email": "coreybrowning@example.org",
+            "Address": "Unit 3407 Box 2002\nDPO AA 60034"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-04",
+        "Location": "36236 Jason Road\nCoffeyburgh, DE 58324",
+        "Description": "Leader difference time program fly. Mr these receive resource enter understand. Be take test manager analysis surface concern.\nCase week raise. Quickly create party purpose scene must."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9117
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42481
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 128667
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2567
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20545
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 85439,
+        "TotalApproved": 35452
+    },
+    "AdjusterDetails": {
+        "Name": "Melanie Petty",
+        "ContactInformation": {
+            "Phone": "(622)623-1358",
+            "Email": "cheryl27@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/13cc50d1-730c-42f3-82d3-615bb685fa1e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-04T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-09T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-14T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

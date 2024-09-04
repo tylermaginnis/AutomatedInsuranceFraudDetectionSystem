@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d01d8c7d-9dfa-43ef-83c4-c941f1e37e25",
+  "PolicyID": "709c3963-6e1c-494c-80c9-a8f042176fc1",
+  "EffectiveDates": {
+    "StartDate": "2024-01-25",
+    "EndDate": "2025-01-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6022d3e2-a12f-443b-8cf3-f9ad5f453542",
+    "Name": "Sarah Bean",
+    "PolicyNumber": "709c3963-6e1c-494c-80c9-a8f042176fc1",
+    "ContactInformation": {
+      "Phone": "+1-694-659-7936x802",
+      "Email": "karen03@example.com",
+      "Address": "Unit 0381 Box 4141\nDPO AP 32531"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-30",
+    "Location": "574 Murray Branch Suite 261\nJohnsonport, VT 02651",
+    "Description": "Save school record there open operation however before. Range turn well guy out as economic. Necessary someone compare."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1212
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6955
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7109
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 51209
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 110560
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 187238,
+    "TotalApproved": 162288
+  },
+  "AdjusterDetails": {
+    "Name": "Kristopher Thompson",
+    "ContactInformation": {
+      "Phone": "4005010753",
+      "Email": "susan98@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/c4a32541-e009-442a-8157-858b5f6f4875"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-30T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-04T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-09T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

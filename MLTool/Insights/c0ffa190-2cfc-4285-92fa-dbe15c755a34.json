@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c0ffa190-2cfc-4285-92fa-dbe15c755a34",
+    "PolicyID": "e1deaf99-09a9-4107-b32a-0620730578ba",
+    "EffectiveDates": {
+        "StartDate": "2023-11-22",
+        "EndDate": "2024-11-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e3b5b39f-0163-49bf-8ee2-b952ed7db0a0",
+        "Name": "Kenneth Gordon",
+        "PolicyNumber": "e1deaf99-09a9-4107-b32a-0620730578ba",
+        "ContactInformation": {
+            "Phone": "729-806-6600x09694",
+            "Email": "natalieperry@example.com",
+            "Address": "90632 Leslie Stream Suite 344\nPort Craighaven, DC 48068"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-11",
+        "Location": "21081 Ramos Fields\nWest Matthewville, AL 86276",
+        "Description": "Consumer another walk. Network develop majority between. Per direction suffer this answer.\nOutside third affect during. Clear spring discussion."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 56112
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41761
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 63672
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5673
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1516
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 186620,
+        "TotalApproved": 162439
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Stafford",
+        "ContactInformation": {
+            "Phone": "001-453-944-9232x6620",
+            "Email": "lisaward@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4b100a38-01da-4ef4-9879-390c0ff369eb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-11T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-16T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-21T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

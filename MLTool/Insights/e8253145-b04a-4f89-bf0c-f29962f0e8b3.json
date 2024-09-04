@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e8253145-b04a-4f89-bf0c-f29962f0e8b3",
+    "PolicyID": "fa22ece5-ce3c-417d-8c6e-881549bcade5",
+    "EffectiveDates": {
+        "StartDate": "2024-07-30",
+        "EndDate": "2025-07-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9d2bf7fe-db54-4814-b30a-0d3da3aa4fef",
+        "Name": "Mary Mcdaniel",
+        "PolicyNumber": "fa22ece5-ce3c-417d-8c6e-881549bcade5",
+        "ContactInformation": {
+            "Phone": "350-809-8799x9246",
+            "Email": "smithjordan@example.net",
+            "Address": "6301 Kathleen Plains\nMaysville, AR 22343"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-03",
+        "Location": "304 Cardenas Square\nKevinchester, MO 03370",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 68707
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31596
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8393
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13705
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5853
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 128254,
+        "TotalApproved": 85605
+    },
+    "AdjusterDetails": {
+        "Name": "Scott Carlson",
+        "ContactInformation": {
+            "Phone": "(441)288-5639x407",
+            "Email": "valentinebryan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4227681a-bc6b-466b-8aab-519e86e3b83d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "16a3e7e1-695c-492a-8550-b9024ed6462c",
+    "PolicyID": "f1e61816-574b-4ddf-9268-9c27ccc8eade",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8745258c-b836-443c-9352-d007406dcad3",
+        "Name": "Johnny Kennedy",
+        "PolicyNumber": "f1e61816-574b-4ddf-9268-9c27ccc8eade",
+        "ContactInformation": {
+            "Phone": "201-811-3471x592",
+            "Email": "jeffreysteele@example.org",
+            "Address": "4898 Lopez Parks Apt. 921\nNew Joefurt, WI 22391"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-21",
+        "Location": "561 Jennifer Union\nOdomchester, LA 69811",
+        "Description": "Kitchen I stage point. Try section dog yard use today try.\nEvidence space film fear. Forward page ground send nature nice everything."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3674
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71483
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6655
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6206
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 43201
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 82996,
+        "TotalApproved": 22813
+    },
+    "AdjusterDetails": {
+        "Name": "Janice Taylor",
+        "ContactInformation": {
+            "Phone": "(599)800-4988",
+            "Email": "mcdanielbrandi@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ca182f03-9aad-451b-a2b7-6a7ed6acf66f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-31T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

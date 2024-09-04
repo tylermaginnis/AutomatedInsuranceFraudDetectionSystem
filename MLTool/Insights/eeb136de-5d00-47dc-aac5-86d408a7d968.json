@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eeb136de-5d00-47dc-aac5-86d408a7d968",
+    "PolicyID": "d6220e21-bda4-46cd-bde2-e443bc5df8e1",
+    "EffectiveDates": {
+        "StartDate": "2024-06-22",
+        "EndDate": "2025-06-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "669ee564-e19e-4fc9-b724-1bb2849fdf78",
+        "Name": "Susan Johnson",
+        "PolicyNumber": "d6220e21-bda4-46cd-bde2-e443bc5df8e1",
+        "ContactInformation": {
+            "Phone": "261.983.1653x79491",
+            "Email": "christinenelson@example.org",
+            "Address": "PSC 5038, Box 6513\nAPO AA 38621"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-07",
+        "Location": "744 Patrick Port\nDavidview, PR 36164",
+        "Description": "Federal executive whatever home prepare. Music reduce develop than.\nRule discuss open whether seek nearly. Bad woman picture matter. Owner keep hear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2599
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5894
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 69198
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3630
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6438
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 9188,
+        "TotalApproved": 4473
+    },
+    "AdjusterDetails": {
+        "Name": "Luis Brown",
+        "ContactInformation": {
+            "Phone": "(626)474-1863x6388",
+            "Email": "bryanlong@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5dfafc9c-e751-426b-9dd4-bb3e923ed859"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

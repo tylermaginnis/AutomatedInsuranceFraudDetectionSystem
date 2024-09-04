@@ -1,0 +1,81 @@
+{
+    "ClaimID": "26a51a21-d0fc-4e59-80bd-fa043485030e",
+    "PolicyID": "168732d3-272a-4afb-9ed0-6ee2d6e1e9a9",
+    "EffectiveDates": {
+        "StartDate": "2024-04-05",
+        "EndDate": "2025-04-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "80543ba5-3cad-432b-86e4-9523c77a5c54",
+        "Name": "Tiffany Allison",
+        "PolicyNumber": "168732d3-272a-4afb-9ed0-6ee2d6e1e9a9",
+        "ContactInformation": {
+            "Phone": "3502595001",
+            "Email": "greenkatherine@example.com",
+            "Address": "992 Blackwell Drive Apt. 521\nCalvinburgh, MH 49007"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-07",
+        "Location": "1319 Julie Grove Suite 559\nNorth Benjaminborough, MI 79492",
+        "Description": "Say training little although treat represent. Way discover wide hospital. Expect mention sell few little never white.\nUntil leader school health matter. Card Republican job foreign still wait."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5491
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6898
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15703
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6308
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1569
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 168282,
+        "TotalApproved": 21619
+    },
+    "AdjusterDetails": {
+        "Name": "Linda Baker",
+        "ContactInformation": {
+            "Phone": "272.513.9616",
+            "Email": "theresa71@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/bc5e35e6-90e6-449f-ac90-0640978d38d7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-07T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-12T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-17T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

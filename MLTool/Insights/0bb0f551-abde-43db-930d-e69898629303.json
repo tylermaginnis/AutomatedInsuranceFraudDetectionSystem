@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0bb0f551-abde-43db-930d-e69898629303",
+    "PolicyID": "1efd7195-8c4a-4891-966f-5623931c94c6",
+    "EffectiveDates": {
+        "StartDate": "2024-05-14",
+        "EndDate": "2025-05-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2b16b255-bea2-4213-93ab-80da5313fab7",
+        "Name": "Jason Ramirez",
+        "PolicyNumber": "1efd7195-8c4a-4891-966f-5623931c94c6",
+        "ContactInformation": {
+            "Phone": "448-258-9291",
+            "Email": "andreaconrad@example.com",
+            "Address": "148 Kevin Forge\nKathleenborough, LA 75396"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-02",
+        "Location": "USNS Jones\nFPO AE 20537",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 65435
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20358
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7322
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13007
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10898
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 117020,
+        "TotalApproved": 114983
+    },
+    "AdjusterDetails": {
+        "Name": "John Peck",
+        "ContactInformation": {
+            "Phone": "299-691-9620x92099",
+            "Email": "cameronmanuel@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/92be1e1d-0a98-4ca9-8eaa-402e141616a6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

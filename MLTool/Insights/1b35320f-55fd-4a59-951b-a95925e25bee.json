@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1b35320f-55fd-4a59-951b-a95925e25bee",
+    "PolicyID": "3c719b55-b517-43f8-b643-4688aa165de1",
+    "EffectiveDates": {
+        "StartDate": "2023-09-07",
+        "EndDate": "2024-09-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "33506cb7-2dcd-4a71-9e65-e1e3b43cbaca",
+        "Name": "Carrie Graham",
+        "PolicyNumber": "3c719b55-b517-43f8-b643-4688aa165de1",
+        "ContactInformation": {
+            "Phone": "+1-388-522-5818x9981",
+            "Email": "diana62@example.net",
+            "Address": "412 Meagan Path Apt. 414\nEast Marvin, VI 15925"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-09-08",
+        "Location": "485 Anderson Plaza\nKnightmouth, IA 27800",
+        "Description": "Or fine president measure maintain suffer. Memory nation early open. During accept design road daughter church.\nSeat sell can cell.\nPerson national church support life table."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 179190
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16124
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3800
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14268
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20609
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 95198,
+        "TotalApproved": 18817
+    },
+    "AdjusterDetails": {
+        "Name": "Jeremy Jones",
+        "ContactInformation": {
+            "Phone": "(996)298-3482x96242",
+            "Email": "jacqueline81@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b4596498-5525-4183-ae09-b03d95b8c2ce"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-09-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-09-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-09-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

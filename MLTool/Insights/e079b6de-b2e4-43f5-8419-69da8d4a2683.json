@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e079b6de-b2e4-43f5-8419-69da8d4a2683",
+    "PolicyID": "f3832e3d-ab43-43f5-8a5e-1546641b01f9",
+    "EffectiveDates": {
+        "StartDate": "2023-10-11",
+        "EndDate": "2024-10-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "975571b3-0537-4f5b-a00e-d5077c5b517e",
+        "Name": "Zachary Diaz",
+        "PolicyNumber": "f3832e3d-ab43-43f5-8a5e-1546641b01f9",
+        "ContactInformation": {
+            "Phone": "001-591-820-9496x265",
+            "Email": "rebeccamorris@example.com",
+            "Address": "762 Frank Expressway\nKeithhaven, MS 64419"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-21",
+        "Location": "12489 George Forges\nMichaelchester, AR 34052",
+        "Description": "Create argue good deal lead discover should. Realize I likely compare technology choose break. Figure participant television artist know school."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3175
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2523
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 98666
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7485
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 171355
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 21042,
+        "TotalApproved": 6903
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Johnson",
+        "ContactInformation": {
+            "Phone": "001-629-405-7585x64236",
+            "Email": "arthur92@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/265f033d-c60e-479d-bd91-f49e9c5c64f9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-31T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

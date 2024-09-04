@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1e49dd3e-1f1b-44c7-953a-34b7c559ce8b",
+    "PolicyID": "2e2d2eb1-8226-4ba3-9ebd-d5696da5cfdf",
+    "EffectiveDates": {
+        "StartDate": "2024-08-01",
+        "EndDate": "2025-08-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e5e3e616-1b7d-4be1-9f7e-0bc94e6e9778",
+        "Name": "Jason Bridges",
+        "PolicyNumber": "2e2d2eb1-8226-4ba3-9ebd-d5696da5cfdf",
+        "ContactInformation": {
+            "Phone": "+1-432-520-9290",
+            "Email": "warnermark@example.com",
+            "Address": "112 Austin Rest\nLake Markville, SC 85283"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-13",
+        "Location": "397 Harper Lakes Suite 129\nWest Kenneth, GA 43855",
+        "Description": "Various see painting base relate.\nRequire culture claim entire center first suddenly wide. Us thank discover Mrs.\nBut national support thus PM trial sound. Mission number walk group its matter."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7492
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19291
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9644
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 177630
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31399
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 129321,
+        "TotalApproved": 92183
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Brown",
+        "ContactInformation": {
+            "Phone": "+1-222-272-6360x908",
+            "Email": "christopher07@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e1e40d79-17f1-49a0-8863-726fd69f0fbd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

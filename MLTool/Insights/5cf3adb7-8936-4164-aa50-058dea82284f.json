@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5cf3adb7-8936-4164-aa50-058dea82284f",
+    "PolicyID": "0bfee480-b0e9-4724-bd9f-a479a9e7048e",
+    "EffectiveDates": {
+        "StartDate": "2024-08-05",
+        "EndDate": "2025-08-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1d51c1d7-5efe-4cfa-9e50-77fde071c736",
+        "Name": "Michael Watson",
+        "PolicyNumber": "0bfee480-b0e9-4724-bd9f-a479a9e7048e",
+        "ContactInformation": {
+            "Phone": "372-213-5727",
+            "Email": "cassandrahill@example.org",
+            "Address": "55028 Deborah Street\nKylemouth, IL 69382"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-23",
+        "Location": "0747 Richard Flat Suite 696\nLake Katherinefort, GU 54774",
+        "Description": "Several side not hot. Join data health. Piece technology last something building decide go. Quite must data anything try."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12826
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12876
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4662
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4898
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8925
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 20467,
+        "TotalApproved": 13067
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Hayes",
+        "ContactInformation": {
+            "Phone": "(469)691-5546x561",
+            "Email": "arodriguez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/94e3371a-cb58-4334-8503-8997f73d70c5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-23T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-28T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-02T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

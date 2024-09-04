@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1377b340-c367-4959-84fb-122b82ea6109",
+    "PolicyID": "9c16430d-02eb-4456-bd5a-7b09f2e10ab9",
+    "EffectiveDates": {
+        "StartDate": "2024-03-04",
+        "EndDate": "2025-03-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ee2d99b-f32a-43f4-8c52-5d890bee17bf",
+        "Name": "Kimberly Brown",
+        "PolicyNumber": "9c16430d-02eb-4456-bd5a-7b09f2e10ab9",
+        "ContactInformation": {
+            "Phone": "001-890-968-1050x725",
+            "Email": "kwood@example.com",
+            "Address": "646 Sarah Union\nSouth Veronica, LA 67158"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-30",
+        "Location": "572 Mitchell Point\nEast Jessicaside, KS 10848",
+        "Description": "Democrat lose long movie city them. Start oil fire third many property time. Manager stuff happy myself instead."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33966
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5636
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7024
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3024
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 73509
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 100796,
+        "TotalApproved": 87360
+    },
+    "AdjusterDetails": {
+        "Name": "Cody Thornton",
+        "ContactInformation": {
+            "Phone": "907.419.1471",
+            "Email": "lwalker@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ffd6b1e7-98e7-4f36-994f-d7dac48240d8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

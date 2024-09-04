@@ -1,0 +1,81 @@
+{
+    "ClaimID": "390e9501-0fa7-4f27-9b34-7ee5a2befbc3",
+    "PolicyID": "6296dd6c-37c0-461d-bcd6-d65f13208022",
+    "EffectiveDates": {
+        "StartDate": "2023-11-18",
+        "EndDate": "2024-11-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f9bab500-1021-4a7c-ba88-81da8e6dc14b",
+        "Name": "Tracy Myers",
+        "PolicyNumber": "6296dd6c-37c0-461d-bcd6-d65f13208022",
+        "ContactInformation": {
+            "Phone": "248.240.2838",
+            "Email": "kenneth29@example.org",
+            "Address": "2595 Jeffrey Plains Apt. 510\nEast Jasonstad, GA 46569"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-11",
+        "Location": "678 Michael Camp\nPort John, NV 67917",
+        "Description": "Language western white police imagine movie. Free appear car drop draw. Remain red exactly behind scientist company."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4948
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8043
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 58378
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16558
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38874
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 194564,
+        "TotalApproved": 139076
+    },
+    "AdjusterDetails": {
+        "Name": "Brandon Lewis",
+        "ContactInformation": {
+            "Phone": "662-406-1785",
+            "Email": "samantha87@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/34b2b2d3-8a9e-421b-83a0-9d631919a106"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-11T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-16T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-21T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

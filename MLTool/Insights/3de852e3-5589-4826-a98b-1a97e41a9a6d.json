@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3de852e3-5589-4826-a98b-1a97e41a9a6d",
+    "PolicyID": "2c35c96a-a551-491f-a9a9-6ba08e01365d",
+    "EffectiveDates": {
+        "StartDate": "2024-07-02",
+        "EndDate": "2025-07-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "362b283e-6efa-480f-bf42-44f32cb77399",
+        "Name": "David Rivera",
+        "PolicyNumber": "2c35c96a-a551-491f-a9a9-6ba08e01365d",
+        "ContactInformation": {
+            "Phone": "885.519.8019",
+            "Email": "sjenkins@example.net",
+            "Address": "349 Melissa Cape Suite 109\nEast Joannville, NE 06374"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-14",
+        "Location": "8224 Wilson Parkways\nArnoldland, ND 80281",
+        "Description": "Election cup impact. Approach bill page say agent foot despite. Happen theory bit wait now.\nAcross notice source agreement. Approach model use specific score show view simple."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17195
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9492
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7605
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 197245
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17804
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 95013,
+        "TotalApproved": 21534
+    },
+    "AdjusterDetails": {
+        "Name": "Anne Jones",
+        "ContactInformation": {
+            "Phone": "(353)233-0545",
+            "Email": "joshuaroman@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c0e26e76-e7e0-4367-9d2a-f79e9ea0c93c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

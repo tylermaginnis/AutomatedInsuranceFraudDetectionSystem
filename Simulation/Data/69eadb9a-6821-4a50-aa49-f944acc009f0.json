@@ -1,0 +1,80 @@
+{
+  "ClaimID": "69eadb9a-6821-4a50-aa49-f944acc009f0",
+  "PolicyID": "bc9ae5ca-40c7-4428-a6ca-cd13cd9b8699",
+  "EffectiveDates": {
+    "StartDate": "2023-12-01",
+    "EndDate": "2024-11-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "06d0e0c6-ecc4-43b3-ad18-2cda7ed0a50d",
+    "Name": "Denise Hansen",
+    "PolicyNumber": "bc9ae5ca-40c7-4428-a6ca-cd13cd9b8699",
+    "ContactInformation": {
+      "Phone": "965-290-4193",
+      "Email": "dmorgan@example.com",
+      "Address": "75883 Kimberly Islands Suite 839\nAcostaborough, MO 64388"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-12",
+    "Location": "532 Jeffery Meadow\nNew Rodney, VT 51278",
+    "Description": "Military detail expect central. Society analysis discover entire prepare cut.\nMilitary interest around southern record."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 63165
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9552
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 43273
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 24120
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6149
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 170918,
+    "TotalApproved": 117787
+  },
+  "AdjusterDetails": {
+    "Name": "Kimberly Harper",
+    "ContactInformation": {
+      "Phone": "(407)212-8392",
+      "Email": "zhernandez@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/eadea4f9-d728-4956-931c-3d18c2b97816"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-12T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-17T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-22T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

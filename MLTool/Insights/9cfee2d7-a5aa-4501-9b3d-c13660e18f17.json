@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9cfee2d7-a5aa-4501-9b3d-c13660e18f17",
+    "PolicyID": "623a18c3-b7d1-4e48-a94d-779f8b0d0013",
+    "EffectiveDates": {
+        "StartDate": "2023-12-19",
+        "EndDate": "2024-12-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cf69cbe3-a031-41cd-96c0-1b7a184282aa",
+        "Name": "Peter Delgado",
+        "PolicyNumber": "623a18c3-b7d1-4e48-a94d-779f8b0d0013",
+        "ContactInformation": {
+            "Phone": "(379)943-3577x48799",
+            "Email": "todd02@example.com",
+            "Address": "1781 Munoz Keys Apt. 422\nPort Toddland, AZ 35242"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-02",
+        "Location": "38528 Carol Wall Suite 147\nWest Tamaraton, WA 48797",
+        "Description": "Student central onto father respond recently. Pretty surface call happen. Country believe line sense great quite fight."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16242
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9782
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3993
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 69715
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18945
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 109266,
+        "TotalApproved": 100168
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Davis",
+        "ContactInformation": {
+            "Phone": "8612196365",
+            "Email": "rubenjacobson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/ea321803-f9a9-40ee-8274-171de2237bca"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-02T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-07T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-12T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

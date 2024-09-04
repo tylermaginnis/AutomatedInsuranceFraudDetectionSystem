@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ae601973-8ffc-4c32-b08d-c192803bbec8",
+    "PolicyID": "1dd39ff5-ba46-4050-83b1-d0cfe04c6922",
+    "EffectiveDates": {
+        "StartDate": "2024-07-26",
+        "EndDate": "2025-07-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "646a1d02-4e34-488f-b9bc-2feaaf2e9064",
+        "Name": "Dustin Brooks",
+        "PolicyNumber": "1dd39ff5-ba46-4050-83b1-d0cfe04c6922",
+        "ContactInformation": {
+            "Phone": "995-580-9277x91505",
+            "Email": "michael68@example.org",
+            "Address": "146 Alexis Course\nWesttown, PR 64245"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-14",
+        "Location": "19997 James Route Suite 964\nLake Kimberlyburgh, NJ 86418",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 99730
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40584
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9429
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18259
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7723
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 175725,
+        "TotalApproved": 103094
+    },
+    "AdjusterDetails": {
+        "Name": "Carlos Rivera",
+        "ContactInformation": {
+            "Phone": "438.879.1417x0058",
+            "Email": "rachel08@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/91ec46f4-c7db-43e2-a2b2-e9f689eb7534"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

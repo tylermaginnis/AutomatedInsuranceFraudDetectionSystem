@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bca2065f-342b-445a-980b-a3cbf3e526fd",
+    "PolicyID": "e683a3d4-30f4-4d60-9437-96cb0390d081",
+    "EffectiveDates": {
+        "StartDate": "2023-12-21",
+        "EndDate": "2024-12-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f6551ec4-bc33-44a8-9bef-f70338969fde",
+        "Name": "Aaron Pratt",
+        "PolicyNumber": "e683a3d4-30f4-4d60-9437-96cb0390d081",
+        "ContactInformation": {
+            "Phone": "(518)901-2161",
+            "Email": "ifox@example.org",
+            "Address": "09233 Christine Square Suite 551\nNew Kevinport, WV 40537"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-16",
+        "Location": "991 Sarah Circles Suite 330\nNew Dustin, MA 49764",
+        "Description": "About hit begin pretty national trial couple. Marriage future artist glass civil notice. West power people every risk."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27247
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 148064
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4062
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3100
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8512
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 18081,
+        "TotalApproved": 12924
+    },
+    "AdjusterDetails": {
+        "Name": "Jamie Lee",
+        "ContactInformation": {
+            "Phone": "216-316-7815x66027",
+            "Email": "cynthiagarcia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a7f2a155-c96d-4443-bcfe-94f1485f9bda"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-16T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-21T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-26T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

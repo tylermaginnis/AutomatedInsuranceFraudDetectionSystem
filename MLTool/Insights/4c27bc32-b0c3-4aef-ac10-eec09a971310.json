@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4c27bc32-b0c3-4aef-ac10-eec09a971310",
+    "PolicyID": "70fcc4ec-594c-4ec6-b6ad-6a003fdbff7e",
+    "EffectiveDates": {
+        "StartDate": "2024-08-10",
+        "EndDate": "2025-08-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0a4a3296-56c3-47b1-8c8c-648e9b1a18a2",
+        "Name": "Kevin Hamilton",
+        "PolicyNumber": "70fcc4ec-594c-4ec6-b6ad-6a003fdbff7e",
+        "ContactInformation": {
+            "Phone": "+1-743-372-5501",
+            "Email": "kylemann@example.org",
+            "Address": "3746 Brianna Spur\nSouth Christina, AL 60190"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-02",
+        "Location": "98914 Sarah Wall Apt. 349\nChangborough, MO 51627",
+        "Description": "Above clearly will fill successful behavior. Because thus require thousand need keep.\nFoot identify lay nice recognize. Front first how again. Bed any style popular."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12169
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6791
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2703
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29333
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7553
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 198846,
+        "TotalApproved": 114886
+    },
+    "AdjusterDetails": {
+        "Name": "Kristy Burke",
+        "ContactInformation": {
+            "Phone": "703.524.8125x0325",
+            "Email": "curryjacqueline@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f2c09ba3-d471-4b91-a721-9ebd1e5588a5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

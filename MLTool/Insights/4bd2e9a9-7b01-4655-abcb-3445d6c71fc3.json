@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4bd2e9a9-7b01-4655-abcb-3445d6c71fc3",
+    "PolicyID": "27113203-e3fe-4f97-8ae0-ff1155a5d075",
+    "EffectiveDates": {
+        "StartDate": "2024-07-30",
+        "EndDate": "2025-07-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "68f73e73-496d-4e72-8476-7f90180eb14f",
+        "Name": "Jason Mcdowell",
+        "PolicyNumber": "27113203-e3fe-4f97-8ae0-ff1155a5d075",
+        "ContactInformation": {
+            "Phone": "(792)203-4016x1326",
+            "Email": "osandoval@example.org",
+            "Address": "76151 Webb Gardens Suite 581\nGomezfort, RI 26550"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-28",
+        "Location": "73053 Bradshaw Meadows\nLake Audreyborough, DC 44981",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 85513
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25202
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8647
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18056
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7419
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144837,
+        "TotalApproved": 19442
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Joseph Mcgee MD",
+        "ContactInformation": {
+            "Phone": "+1-504-596-3163x6211",
+            "Email": "stephanie33@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8461379c-b6f6-4d50-aa11-5c68f2894e02"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-28T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-03T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-08T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

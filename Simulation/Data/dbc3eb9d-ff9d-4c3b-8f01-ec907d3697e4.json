@@ -1,0 +1,80 @@
+{
+  "ClaimID": "dbc3eb9d-ff9d-4c3b-8f01-ec907d3697e4",
+  "PolicyID": "d1280ecd-077d-4f81-b42f-2f3cc854fc65",
+  "EffectiveDates": {
+    "StartDate": "2024-08-15",
+    "EndDate": "2025-08-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "dd833bc0-4ee4-4619-b827-b3a49be8e899",
+    "Name": "William Smith",
+    "PolicyNumber": "d1280ecd-077d-4f81-b42f-2f3cc854fc65",
+    "ContactInformation": {
+      "Phone": "729-758-0377",
+      "Email": "valenciakristen@example.com",
+      "Address": "2295 Timothy Estate\nLaurieview, MN 91150"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-19",
+    "Location": "53597 Sandra Stravenue Suite 276\nNew Christopher, MP 85119",
+    "Description": "Down rule community time second provide book even. Boy reduce shake common move. Book financial leg under."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 198816
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 33960
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2823
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1954
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 27124
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 33897,
+    "TotalApproved": 22412
+  },
+  "AdjusterDetails": {
+    "Name": "Mr. Zachary Bolton",
+    "ContactInformation": {
+      "Phone": "+1-243-576-2168x690",
+      "Email": "ksolis@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/11f59d0b-053b-42e5-801e-a213a5053d0c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-19T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-24T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-29T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

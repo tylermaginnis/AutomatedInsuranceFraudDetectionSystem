@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6c1467f9-a9a5-48e7-b380-da00bcd7881b",
+    "PolicyID": "5cb1fb61-29b8-434c-b0e8-324330434450",
+    "EffectiveDates": {
+        "StartDate": "2023-10-30",
+        "EndDate": "2024-10-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ebb65137-2f67-4b97-9ded-d8873c4d1bac",
+        "Name": "Ariel Cruz",
+        "PolicyNumber": "5cb1fb61-29b8-434c-b0e8-324330434450",
+        "ContactInformation": {
+            "Phone": "001-235-781-6982",
+            "Email": "imills@example.com",
+            "Address": "447 Sarah Cove\nBowmanton, AZ 94565"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-22",
+        "Location": "995 Conley Fall\nNorth Markside, NY 74582",
+        "Description": "Either quality off factor. Open available hold themselves.\nFact hair education sign anyone.\nTen land people know building."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4757
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7299
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19333
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 80363
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 30270
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 190267,
+        "TotalApproved": 61978
+    },
+    "AdjusterDetails": {
+        "Name": "Cynthia Oliver",
+        "ContactInformation": {
+            "Phone": "957.241.0844x42989",
+            "Email": "barnettronald@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/fce93eb1-40d6-4b27-ad61-88c6c3d066b1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8590288b-db82-421c-aecb-e513f031cc29",
+    "PolicyID": "b76d761b-7299-455b-ad34-b04c11e47075",
+    "EffectiveDates": {
+        "StartDate": "2023-12-16",
+        "EndDate": "2024-12-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "473e2710-a304-47f4-b0b2-c1c3a9822417",
+        "Name": "Nicholas Ramirez",
+        "PolicyNumber": "b76d761b-7299-455b-ad34-b04c11e47075",
+        "ContactInformation": {
+            "Phone": "950-427-7464x2159",
+            "Email": "sharon33@example.org",
+            "Address": "6489 Clark Flat\nNorth Greg, VI 82689"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-20",
+        "Location": "2885 Wayne Garden Apt. 240\nWoodstown, NJ 62713",
+        "Description": "Life office while economy. Fall state evening natural bring agent sound take.\nUp miss start. Identify institution situation call."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 93442
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3500
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 154558
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6786
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 78344
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 67402,
+        "TotalApproved": 58866
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Peters",
+        "ContactInformation": {
+            "Phone": "611.443.2290x636",
+            "Email": "yreynolds@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d032e5af-3e57-4748-85c4-e9dec862e7a2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

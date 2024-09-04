@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b50a59ed-065f-4bf4-b25b-dc2f4cd61f15",
+    "PolicyID": "5faf277c-c32f-4f02-b029-1e909da02db5",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7bf215fc-2888-42c6-8402-96f9317bac3c",
+        "Name": "Penny Friedman",
+        "PolicyNumber": "5faf277c-c32f-4f02-b029-1e909da02db5",
+        "ContactInformation": {
+            "Phone": "675-930-0126x5497",
+            "Email": "corybrown@example.org",
+            "Address": "7760 Davis Valley Suite 491\nLake Thomasville, SD 46330"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-03",
+        "Location": "108 Antonio Junctions\nSouth Marcusborough, LA 17647",
+        "Description": "Security seat seem within end. Rule somebody project.\nEast strategy itself bad something. This network trade very.\nThat stage professional ok those value appear. Hotel ball commercial opportunity."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7462
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 62142
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 81057
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2005
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34003
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 26985,
+        "TotalApproved": 18093
+    },
+    "AdjusterDetails": {
+        "Name": "Donna Johnson",
+        "ContactInformation": {
+            "Phone": "879-996-4356",
+            "Email": "herbertgrimes@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b6fcf409-5707-4e6b-bec9-f36b37523fd3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-03T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-08T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-13T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

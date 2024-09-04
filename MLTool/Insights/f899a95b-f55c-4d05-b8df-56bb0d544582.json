@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f899a95b-f55c-4d05-b8df-56bb0d544582",
+    "PolicyID": "a6f9768a-6ffd-4851-be87-cb080a2739ba",
+    "EffectiveDates": {
+        "StartDate": "2023-09-28",
+        "EndDate": "2024-09-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4094c563-eeba-41fa-859c-ee556114d32d",
+        "Name": "Angela Skinner",
+        "PolicyNumber": "a6f9768a-6ffd-4851-be87-cb080a2739ba",
+        "ContactInformation": {
+            "Phone": "001-418-483-4596x5957",
+            "Email": "alvarezariana@example.org",
+            "Address": "6117 Tara Parkway\nEast Williamport, ME 70349"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-08",
+        "Location": "63022 Debra Hollow Suite 283\nBarberland, UT 44357",
+        "Description": "Kitchen natural five now. Recently fly where we.\nFirm likely official herself deal hope page. Imagine example coach war sometimes fear hit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5446
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7830
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 184385
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2387
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38582
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 33526,
+        "TotalApproved": 28196
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Kaufman",
+        "ContactInformation": {
+            "Phone": "718.584.2954",
+            "Email": "jenniferscott@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c1bb40e3-8811-40cc-a79d-51aef09d6ed1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

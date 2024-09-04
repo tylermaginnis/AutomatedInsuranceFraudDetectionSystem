@@ -1,0 +1,81 @@
+{
+    "ClaimID": "547379b4-7bb3-4f41-bb33-dd20739ce58b",
+    "PolicyID": "77999d15-a232-4cdd-9e27-c4321586eadd",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5d16bf2-2335-41dd-86b5-77857967a08c",
+        "Name": "Nathan French",
+        "PolicyNumber": "77999d15-a232-4cdd-9e27-c4321586eadd",
+        "ContactInformation": {
+            "Phone": "7466587815",
+            "Email": "kim28@example.net",
+            "Address": "90417 Mcdaniel Locks\nMaldonadotown, NJ 86399"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-06",
+        "Location": "312 Schroeder Estate Apt. 142\nWest Nicole, MN 31014",
+        "Description": "Firm car someone wear. Their during bill night run kitchen on machine. Attorney under decision level attention drive above serve."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11480
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4737
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5848
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13280
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13532
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 173369,
+        "TotalApproved": 141819
+    },
+    "AdjusterDetails": {
+        "Name": "Brandon Smith",
+        "ContactInformation": {
+            "Phone": "001-221-814-3331x03203",
+            "Email": "jasonlewis@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/48e39c1d-5337-4d0b-b384-b71e260fdf1f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

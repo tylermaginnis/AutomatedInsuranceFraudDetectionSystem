@@ -1,0 +1,81 @@
+{
+    "ClaimID": "494f7081-678b-4d97-a66d-95c5db9a3c57",
+    "PolicyID": "90c4e38d-999d-417a-b53b-7783b8265c94",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c81ecc28-5f78-4df3-a6f3-11f3f84778b3",
+        "Name": "Patrick Wright",
+        "PolicyNumber": "90c4e38d-999d-417a-b53b-7783b8265c94",
+        "ContactInformation": {
+            "Phone": "001-796-228-9134x89090",
+            "Email": "andrew66@example.com",
+            "Address": "7223 Francisco Burgs Apt. 407\nSouth Colleenton, MP 56265"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-28",
+        "Location": "27900 Robert Ranch Apt. 089\nPort Lawrencechester, OK 22121",
+        "Description": "Feeling off listen seek. But time personal color special see early. Teacher list available fine impact lawyer really light. Though century commercial film smile benefit purpose."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2222
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 145836
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70816
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 25559
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16274
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 77140,
+        "TotalApproved": 75129
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Mayo",
+        "ContactInformation": {
+            "Phone": "+1-587-439-0276x9585",
+            "Email": "ross92@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ff8aebe9-e068-493a-adb6-fbf59cdf44df"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-02T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-07T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

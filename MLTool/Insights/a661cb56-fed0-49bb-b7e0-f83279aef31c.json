@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a661cb56-fed0-49bb-b7e0-f83279aef31c",
+    "PolicyID": "434544dd-0434-4d11-8e1c-5eeda050d5be",
+    "EffectiveDates": {
+        "StartDate": "2024-04-28",
+        "EndDate": "2025-04-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "28e04504-d851-4bb6-8658-47c1a1da046b",
+        "Name": "Emily Phillips",
+        "PolicyNumber": "434544dd-0434-4d11-8e1c-5eeda050d5be",
+        "ContactInformation": {
+            "Phone": "001-740-830-1121x2355",
+            "Email": "davidalexander@example.net",
+            "Address": "USNV Whitehead\nFPO AP 64584"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-21",
+        "Location": "63090 Jonathan Square\nHoustonhaven, IL 81965",
+        "Description": "Yet goal class sure each north myself. House third artist for left yourself key pass. Low because short consumer lead.\nStreet explain prevent chance history write pass still."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2048
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 164730
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6748
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34088
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5738
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 65393,
+        "TotalApproved": 14960
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Hopkins",
+        "ContactInformation": {
+            "Phone": "001-361-579-9690",
+            "Email": "ogray@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1a7c7234-f68d-45db-a9fd-a1c02967d69f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-31T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e9d7c4a5-6706-4ef0-b88d-19d1bdf86fa1",
+    "PolicyID": "649d4a56-e42c-47fe-9153-b8fdf91a6d26",
+    "EffectiveDates": {
+        "StartDate": "2024-01-10",
+        "EndDate": "2025-01-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6cb60d71-5a5c-4c1b-bbbf-37c8d4f5fba5",
+        "Name": "Mackenzie Jones",
+        "PolicyNumber": "649d4a56-e42c-47fe-9153-b8fdf91a6d26",
+        "ContactInformation": {
+            "Phone": "791.267.9172",
+            "Email": "rsmith@example.com",
+            "Address": "000 Jacqueline Rapid Suite 369\nWest Gary, PR 06461"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-06",
+        "Location": "892 Green Isle Apt. 598\nGoodwinville, LA 16252",
+        "Description": "Anyone somebody statement bring up. Seem music about mention game plan pay raise. Seven film opportunity approach."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7313
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11229
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 75712
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 192691
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35579
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 130644,
+        "TotalApproved": 37791
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Anthony Watkins MD",
+        "ContactInformation": {
+            "Phone": "001-213-441-8980",
+            "Email": "collinsrobert@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/40a7b227-da52-4bd9-ac34-690574edfb21"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

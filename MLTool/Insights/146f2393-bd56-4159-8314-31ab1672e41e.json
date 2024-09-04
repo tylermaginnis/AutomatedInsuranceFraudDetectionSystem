@@ -1,0 +1,81 @@
+{
+    "ClaimID": "146f2393-bd56-4159-8314-31ab1672e41e",
+    "PolicyID": "30533ff4-e5c8-406b-8f64-75b801f2f16e",
+    "EffectiveDates": {
+        "StartDate": "2024-07-18",
+        "EndDate": "2025-07-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "939089c8-3cee-4264-8d4c-905f6d1c7c54",
+        "Name": "Melissa Davila",
+        "PolicyNumber": "30533ff4-e5c8-406b-8f64-75b801f2f16e",
+        "ContactInformation": {
+            "Phone": "821-728-6749",
+            "Email": "nanderson@example.org",
+            "Address": "658 Teresa Divide Apt. 836\nPetersside, MN 07743"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-16",
+        "Location": "USS Patel\nFPO AP 24107",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 53380
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44331
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7006
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17118
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11923
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 133758,
+        "TotalApproved": 76489
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Larson",
+        "ContactInformation": {
+            "Phone": "3597903001",
+            "Email": "jonathancarr@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/caeb8c61-f424-437e-9377-4e5d697b0f12"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-16T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-21T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-26T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

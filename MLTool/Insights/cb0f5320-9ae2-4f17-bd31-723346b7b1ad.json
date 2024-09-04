@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cb0f5320-9ae2-4f17-bd31-723346b7b1ad",
+    "PolicyID": "9ac5a85b-3576-45d2-b697-50059e9c3351",
+    "EffectiveDates": {
+        "StartDate": "2024-07-31",
+        "EndDate": "2025-07-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ddc4fde1-2aad-4424-90ec-27ca227104f2",
+        "Name": "Alicia Thompson",
+        "PolicyNumber": "9ac5a85b-3576-45d2-b697-50059e9c3351",
+        "ContactInformation": {
+            "Phone": "552.925.1349x794",
+            "Email": "elizabethsharp@example.net",
+            "Address": "7594 Sandra Village\nLake Paulfurt, CT 60539"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-12",
+        "Location": "2081 David Falls Apt. 408\nSarahborough, MD 01480",
+        "Description": "Part decade executive beyond month program little else. Make brother Democrat. Situation phone decade consumer subject plan technology. Over idea tough theory image billion."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6426
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7310
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5536
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9017
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 141218
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 25952,
+        "TotalApproved": 2537
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Atkinson",
+        "ContactInformation": {
+            "Phone": "(328)707-7947x294",
+            "Email": "sarah66@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/443167a5-9119-42a9-b45f-9460f34b5449"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

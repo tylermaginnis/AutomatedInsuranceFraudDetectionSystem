@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d66f3408-8ada-41c3-9aa3-fafc0dd0b7ca",
+    "PolicyID": "7819d60d-a833-43c3-92aa-d668c854d499",
+    "EffectiveDates": {
+        "StartDate": "2023-09-21",
+        "EndDate": "2024-09-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a5beb033-cc3c-4163-842f-b5e0b1e38b4a",
+        "Name": "Ryan Moore",
+        "PolicyNumber": "7819d60d-a833-43c3-92aa-d668c854d499",
+        "ContactInformation": {
+            "Phone": "+1-410-896-4154x53502",
+            "Email": "jeffrey79@example.net",
+            "Address": "758 Harris Inlet\nMadisonbury, NH 57516"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-06",
+        "Location": "6621 Melissa Village\nEast Nicholas, DC 31906",
+        "Description": "Coach foot future home. Toward major then end manage including yourself these.\nProve believe before. Hour test party dog board front life."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7200
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8498
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 70318
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17002
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6052
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 13222,
+        "TotalApproved": 6346
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Johnston",
+        "ContactInformation": {
+            "Phone": "755.295.7249",
+            "Email": "nicole33@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6e9d2536-f036-4c19-8c18-514e2a807965"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

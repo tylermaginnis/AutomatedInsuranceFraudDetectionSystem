@@ -1,0 +1,80 @@
+{
+  "ClaimID": "92d42016-16f7-4d61-84d7-03aeab258479",
+  "PolicyID": "d3ed72c6-de47-4e57-8750-f9d9323bfd5c",
+  "EffectiveDates": {
+    "StartDate": "2024-07-03",
+    "EndDate": "2025-07-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "290821e2-7a98-4873-8c0b-3a972c20be7e",
+    "Name": "Diane Cannon",
+    "PolicyNumber": "d3ed72c6-de47-4e57-8750-f9d9323bfd5c",
+    "ContactInformation": {
+      "Phone": "001-378-327-9240x46955",
+      "Email": "wallbruce@example.org",
+      "Address": "140 Smith Port Apt. 035\nEllisonhaven, AL 47439"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-08",
+    "Location": "769 Lopez Circle\nPort Jerry, IA 53953",
+    "Description": "Can free thing southern. Year region doctor approach travel myself general."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 40545
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 59381
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 85949
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6994
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 28928
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 92636,
+    "TotalApproved": 84356
+  },
+  "AdjusterDetails": {
+    "Name": "Lindsay Morris",
+    "ContactInformation": {
+      "Phone": "001-451-218-0051",
+      "Email": "gabriel87@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/214d31dc-0290-464b-a38d-afd4b5ff11c7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-08T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-13T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-05-18T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

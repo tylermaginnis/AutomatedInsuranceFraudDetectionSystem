@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c0f28bd1-d333-4832-9f4b-fe4a9f639a58",
+    "PolicyID": "e2e98556-002f-4cbf-b3a3-460ca765776e",
+    "EffectiveDates": {
+        "StartDate": "2023-10-13",
+        "EndDate": "2024-10-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ebb51c8-eefc-4723-bee0-34059fb2b96b",
+        "Name": "Jesse Alexander",
+        "PolicyNumber": "e2e98556-002f-4cbf-b3a3-460ca765776e",
+        "ContactInformation": {
+            "Phone": "287-232-7722x1360",
+            "Email": "fford@example.net",
+            "Address": "1304 Avila Center Apt. 087\nReedland, TN 84738"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-05",
+        "Location": "741 Pierce Prairie\nJenniferburgh, WA 60407",
+        "Description": "Worker buy commercial seven. Benefit chair old as soon direction right. Drive everyone far manage democratic state site expert."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 30363
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8105
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 81751
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6759
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15194
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 77620,
+        "TotalApproved": 71183
+    },
+    "AdjusterDetails": {
+        "Name": "Brittney Bell",
+        "ContactInformation": {
+            "Phone": "001-875-858-7150x5341",
+            "Email": "fwiley@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/96c0b6e8-987a-44ca-96e6-0202be5e8181"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

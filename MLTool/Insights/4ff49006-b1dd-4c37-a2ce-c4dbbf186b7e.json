@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4ff49006-b1dd-4c37-a2ce-c4dbbf186b7e",
+    "PolicyID": "49310832-23bd-45d1-ade7-cf957948d503",
+    "EffectiveDates": {
+        "StartDate": "2024-05-22",
+        "EndDate": "2025-05-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1bcc57a1-cf29-469b-a207-4d281c220842",
+        "Name": "Nancy Roberts",
+        "PolicyNumber": "49310832-23bd-45d1-ade7-cf957948d503",
+        "ContactInformation": {
+            "Phone": "(822)418-4633",
+            "Email": "andreaharrison@example.org",
+            "Address": "280 Kelley Motorway\nMartinezhaven, DC 54630"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-14",
+        "Location": "353 Ronald Crossroad\nBenderton, AZ 28391",
+        "Description": "Defense fish still sister news TV environmental. Know standard station common agreement. Occur clear general.\nWhether agreement recognize drive believe care."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23904
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18580
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4055
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16443
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 50279
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 17537,
+        "TotalApproved": 1399
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Reid",
+        "ContactInformation": {
+            "Phone": "762.380.7220",
+            "Email": "bbanks@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0acaeba0-1ce9-480c-80c6-d76c51bcde44"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

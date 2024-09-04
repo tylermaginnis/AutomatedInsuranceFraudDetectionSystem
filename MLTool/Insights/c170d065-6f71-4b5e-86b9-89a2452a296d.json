@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c170d065-6f71-4b5e-86b9-89a2452a296d",
+    "PolicyID": "982489f2-dbfe-4cab-a47d-ad8db3234c6e",
+    "EffectiveDates": {
+        "StartDate": "2024-02-02",
+        "EndDate": "2025-02-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ca552337-71d4-473d-b24b-2c27b49ae992",
+        "Name": "Sarah Wong",
+        "PolicyNumber": "982489f2-dbfe-4cab-a47d-ad8db3234c6e",
+        "ContactInformation": {
+            "Phone": "663-223-8111x9304",
+            "Email": "gsanders@example.com",
+            "Address": "6108 Booth Meadows Suite 451\nLake Jenna, MN 71877"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-08",
+        "Location": "1089 Bradshaw Ways\nRandallstad, MS 51781",
+        "Description": "Table church some main. Method measure artist cup cover.\nForget new cultural wear. Stop across be medical unit step. Eight provide positive when cost home."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33386
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4983
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 56288
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25610
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27673
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 73577,
+        "TotalApproved": 30330
+    },
+    "AdjusterDetails": {
+        "Name": "James Harris",
+        "ContactInformation": {
+            "Phone": "450.294.5680x3831",
+            "Email": "collindorsey@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d7a32fa0-4023-48bc-8f42-e063d0d9cba0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b8120b64-9bd0-4eaf-98b9-010c8dbdd8af",
+  "PolicyID": "b998622e-ef9c-495c-ba35-44c7506ccdeb",
+  "EffectiveDates": {
+    "StartDate": "2024-03-24",
+    "EndDate": "2025-03-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0f3e60df-bc2b-49d5-81e8-01b05e4c324c",
+    "Name": "Andrew Dickerson",
+    "PolicyNumber": "b998622e-ef9c-495c-ba35-44c7506ccdeb",
+    "ContactInformation": {
+      "Phone": "359-771-4235",
+      "Email": "ebutler@example.net",
+      "Address": "Unit 0318 Box 2724\nDPO AP 86253"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-25",
+    "Location": "3574 Pope Mission Apt. 514\nWest Amandaville, AL 59001",
+    "Description": "Also morning affect be attack year recent culture. Leg avoid professional kid cold. Possible weight table very him official."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6537
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 134081
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 11827
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4232
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4802
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 19999,
+    "TotalApproved": 14966
+  },
+  "AdjusterDetails": {
+    "Name": "Willie Vazquez",
+    "ContactInformation": {
+      "Phone": "6437462215",
+      "Email": "ajones@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/7235ee27-3eaf-49e1-bdd4-14cf7f35ec6a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-25T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-30T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-05T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

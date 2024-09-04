@@ -1,0 +1,81 @@
+{
+    "ClaimID": "11d6359d-c3d3-419e-94c6-8112bd647338",
+    "PolicyID": "bae212c6-0a57-4324-89d1-83beccc79337",
+    "EffectiveDates": {
+        "StartDate": "2023-09-11",
+        "EndDate": "2024-09-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d8ea001f-ba83-4efa-bc8a-c4b8e118c827",
+        "Name": "Nathan Huff",
+        "PolicyNumber": "bae212c6-0a57-4324-89d1-83beccc79337",
+        "ContactInformation": {
+            "Phone": "001-849-478-4041x6600",
+            "Email": "mitchellrodgers@example.net",
+            "Address": "782 Smith Orchard Apt. 175\nNorth Dillon, CA 46900"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-15",
+        "Location": "7904 Karen Junctions Suite 654\nNorth Rebeccachester, KS 25342",
+        "Description": "Bring poor method section. Travel media guess direction course.\nSituation since apply body information already. Enjoy girl sometimes matter south."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 64068
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6441
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70175
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 197256
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9692
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 85606,
+        "TotalApproved": 28931
+    },
+    "AdjusterDetails": {
+        "Name": "Dawn Howard",
+        "ContactInformation": {
+            "Phone": "9804415353",
+            "Email": "garnerandrew@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e9d3099b-5f45-43c7-adae-b67d6185531f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

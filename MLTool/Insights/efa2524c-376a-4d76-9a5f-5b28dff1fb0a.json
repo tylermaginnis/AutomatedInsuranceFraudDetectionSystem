@@ -1,0 +1,81 @@
+{
+    "ClaimID": "efa2524c-376a-4d76-9a5f-5b28dff1fb0a",
+    "PolicyID": "611e1280-e373-43e1-a398-c2cf1617f068",
+    "EffectiveDates": {
+        "StartDate": "2023-12-03",
+        "EndDate": "2024-12-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8eab7598-127f-482d-a06a-4a9cd59653a1",
+        "Name": "Eric Johnson",
+        "PolicyNumber": "611e1280-e373-43e1-a398-c2cf1617f068",
+        "ContactInformation": {
+            "Phone": "862-577-9744",
+            "Email": "jacksonjacqueline@example.net",
+            "Address": "313 David Center\nWilliamsmouth, MP 34324"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-28",
+        "Location": "76982 Mary Port\nThomasland, AR 00945",
+        "Description": "Walk party understand paper mission discover. Reduce both size during run. Book activity commercial join floor there.\nSomebody will film save short."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3526
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 108064
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 181341
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 137397
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 166064
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 90879,
+        "TotalApproved": 53863
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Johnson",
+        "ContactInformation": {
+            "Phone": "(495)462-8629x76172",
+            "Email": "sandersjennifer@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d7885311-dffa-45d8-99b2-d3cda598b230"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-28T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-02T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-07T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

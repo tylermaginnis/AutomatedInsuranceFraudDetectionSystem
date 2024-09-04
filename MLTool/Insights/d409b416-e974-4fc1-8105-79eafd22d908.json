@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d409b416-e974-4fc1-8105-79eafd22d908",
+    "PolicyID": "3a86eec6-cc7b-405c-83a7-43c8b630843f",
+    "EffectiveDates": {
+        "StartDate": "2024-03-28",
+        "EndDate": "2025-03-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7d49085c-343a-486d-9178-76bbc5969728",
+        "Name": "Amanda Poole",
+        "PolicyNumber": "3a86eec6-cc7b-405c-83a7-43c8b630843f",
+        "ContactInformation": {
+            "Phone": "(225)491-2068x06373",
+            "Email": "laguilar@example.net",
+            "Address": "6359 Rojas Lakes\nJohnberg, MP 09439"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-15",
+        "Location": "4061 Lisa Mountains\nDanielborough, RI 06620",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 82160
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41793
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7811
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12568
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5497
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 149829,
+        "TotalApproved": 122956
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Luna",
+        "ContactInformation": {
+            "Phone": "001-988-874-6429x63738",
+            "Email": "gruiz@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/aed5d1e9-b0a2-4a58-b5bb-3218fba718a9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

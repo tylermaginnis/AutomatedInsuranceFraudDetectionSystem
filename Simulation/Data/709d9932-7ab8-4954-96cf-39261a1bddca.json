@@ -1,0 +1,80 @@
+{
+  "ClaimID": "709d9932-7ab8-4954-96cf-39261a1bddca",
+  "PolicyID": "b635139b-d54c-4428-8346-c2a3ea5f5a8b",
+  "EffectiveDates": {
+    "StartDate": "2024-09-01",
+    "EndDate": "2025-09-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9809c988-7b33-42f7-931e-952498176588",
+    "Name": "Danny Gray",
+    "PolicyNumber": "b635139b-d54c-4428-8346-c2a3ea5f5a8b",
+    "ContactInformation": {
+      "Phone": "759-482-9911x87077",
+      "Email": "xsanchez@example.com",
+      "Address": "701 Jones Knoll Apt. 192\nKristiton, AR 85595"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-24",
+    "Location": "5245 Spencer Inlet\nHughesborough, WV 02057",
+    "Description": "Discussion person everybody any. Always character around wait class medical. Too herself five short sister position. Door woman idea light space."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3114
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2291
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 20443
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1340
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 14186
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 89082,
+    "TotalApproved": 24581
+  },
+  "AdjusterDetails": {
+    "Name": "April Jacobson DDS",
+    "ContactInformation": {
+      "Phone": "(271)613-5820x434",
+      "Email": "lyonsryan@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/0c138ae6-ab4c-4822-8f1e-c68eced209b2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-24T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-29T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-06-03T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

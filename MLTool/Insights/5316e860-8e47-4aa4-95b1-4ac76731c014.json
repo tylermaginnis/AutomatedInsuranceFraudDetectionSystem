@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5316e860-8e47-4aa4-95b1-4ac76731c014",
+    "PolicyID": "76d522e1-b90d-42f8-a615-062f7dff4833",
+    "EffectiveDates": {
+        "StartDate": "2023-09-23",
+        "EndDate": "2024-09-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2f045466-7684-4038-b52f-4de5d2c38f5f",
+        "Name": "Julie Jones",
+        "PolicyNumber": "76d522e1-b90d-42f8-a615-062f7dff4833",
+        "ContactInformation": {
+            "Phone": "882.401.4634x756",
+            "Email": "clintonbrown@example.org",
+            "Address": "13303 Benitez Haven Suite 828\nKingview, PA 13835"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-07",
+        "Location": "5166 Reynolds Flats\nSouth Connor, SD 31885",
+        "Description": "Series respond station church so. Successful film ago kitchen skill.\nPositive certain in force stop field start. Day dark prove.\nHundred air light night manage fight. Tell dinner finally."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5471
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 144174
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47536
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8924
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 24860
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 169333,
+        "TotalApproved": 52916
+    },
+    "AdjusterDetails": {
+        "Name": "Katherine Calhoun",
+        "ContactInformation": {
+            "Phone": "561-340-2288",
+            "Email": "christopherlee@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/559e67c9-fd9d-4453-b2bf-87083104c242"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-07T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-12T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-17T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

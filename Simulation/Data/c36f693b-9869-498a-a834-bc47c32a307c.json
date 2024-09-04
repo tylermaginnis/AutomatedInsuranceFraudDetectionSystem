@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c36f693b-9869-498a-a834-bc47c32a307c",
+  "PolicyID": "85c5990f-d1c0-4fd7-b29f-91667a2ca18f",
+  "EffectiveDates": {
+    "StartDate": "2024-05-26",
+    "EndDate": "2025-05-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9f14f634-ec63-4054-8854-4d0b4466e4e6",
+    "Name": "Christopher Wright",
+    "PolicyNumber": "85c5990f-d1c0-4fd7-b29f-91667a2ca18f",
+    "ContactInformation": {
+      "Phone": "996.864.2995x4378",
+      "Email": "durhamedward@example.net",
+      "Address": "4434 Hunter Prairie Suite 090\nPort Carla, NV 11041"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-24",
+    "Location": "PSC 3206, Box 1450\nAPO AA 33825",
+    "Description": "Country hear suggest improve table experience follow. Perhaps scientist rather write stuff subject partner."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 12835
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 90739
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 88870
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 31958
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7687
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 128955,
+    "TotalApproved": 97587
+  },
+  "AdjusterDetails": {
+    "Name": "Scott Duke",
+    "ContactInformation": {
+      "Phone": "7474109436",
+      "Email": "zhodge@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/0de298d0-fe6f-4acc-91f7-bba21da40218"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-24T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-29T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-03T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

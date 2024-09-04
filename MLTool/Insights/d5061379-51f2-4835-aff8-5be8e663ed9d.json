@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d5061379-51f2-4835-aff8-5be8e663ed9d",
+    "PolicyID": "2a971eea-6d8f-480d-a7d7-6feb469173cc",
+    "EffectiveDates": {
+        "StartDate": "2023-11-26",
+        "EndDate": "2024-11-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a708bf18-1535-43ad-ad3b-63393dc6d8ad",
+        "Name": "Monica Kim",
+        "PolicyNumber": "2a971eea-6d8f-480d-a7d7-6feb469173cc",
+        "ContactInformation": {
+            "Phone": "+1-378-588-2851",
+            "Email": "ryan11@example.com",
+            "Address": "89349 Cox Via Apt. 548\nLake Matthewborough, MP 38829"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-09",
+        "Location": "4542 Garcia Passage Suite 778\nDavisshire, MT 37954",
+        "Description": "Story meeting inside dream far talk health. Computer safe resource Republican.\nMeet network detail win here hospital four both. Finally pretty recent cover operation good."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 133289
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10249
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28772
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 75965
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 42124
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 135148,
+        "TotalApproved": 63081
+    },
+    "AdjusterDetails": {
+        "Name": "Heather Murphy",
+        "ContactInformation": {
+            "Phone": "+1-278-646-3918",
+            "Email": "ujohnson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/43c0833e-b7cd-424d-abde-f8bb8e6afab1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-09T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-14T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-19T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1ee5e362-6c3d-4b82-bd6a-c696e97ef15a",
+  "PolicyID": "37603ced-497c-45e7-b5d4-4327d8ff0d5e",
+  "EffectiveDates": {
+    "StartDate": "2024-02-11",
+    "EndDate": "2025-02-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e13bcc47-1203-4514-80fd-371f0a1a59a1",
+    "Name": "Daryl Alvarez",
+    "PolicyNumber": "37603ced-497c-45e7-b5d4-4327d8ff0d5e",
+    "ContactInformation": {
+      "Phone": "663.395.3725x90373",
+      "Email": "bhernandez@example.com",
+      "Address": "3415 Paula Crossroad\nThomasfort, WY 06338"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-18",
+    "Location": "2026 Charles Estates\nLake Matthewfurt, MA 80066",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 91918
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 34160
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6516
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 25052
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 14235
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 171881,
+    "TotalApproved": 13364
+  },
+  "AdjusterDetails": {
+    "Name": "Dr. Edward Calhoun",
+    "ContactInformation": {
+      "Phone": "7146279332",
+      "Email": "cobbsarah@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/07b636ea-c9e4-47a9-9227-639b2297b6cd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-18T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-23T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-28T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

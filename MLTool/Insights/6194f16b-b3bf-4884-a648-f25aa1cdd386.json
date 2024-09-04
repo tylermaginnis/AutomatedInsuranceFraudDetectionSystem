@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6194f16b-b3bf-4884-a648-f25aa1cdd386",
+    "PolicyID": "6b8bb56c-be70-4146-ae52-028e677b4b51",
+    "EffectiveDates": {
+        "StartDate": "2023-11-05",
+        "EndDate": "2024-11-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3fb7f950-cf1c-424f-ab08-477f24f0a592",
+        "Name": "Jacqueline Hicks",
+        "PolicyNumber": "6b8bb56c-be70-4146-ae52-028e677b4b51",
+        "ContactInformation": {
+            "Phone": "832-745-9871x7999",
+            "Email": "lindseyteresa@example.com",
+            "Address": "886 Scott Manors\nPort Gary, NC 96405"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-12",
+        "Location": "0252 Brown Pine Suite 865\nPort Amanda, MI 36244",
+        "Description": "Need model staff more. Try them leader officer. Year newspaper officer kitchen save green."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8978
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6770
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46432
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 180667
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4711
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 186245,
+        "TotalApproved": 74532
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Harvey",
+        "ContactInformation": {
+            "Phone": "(750)727-6278x3902",
+            "Email": "meyerjane@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/518f3eb9-5e94-46b1-be5d-0e730c02060c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-12T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-17T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-22T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

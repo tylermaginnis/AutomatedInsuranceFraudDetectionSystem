@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5e1c6027-b7f9-48bf-a259-62cd2b3f4fa4",
+  "PolicyID": "b499af23-647f-469c-af49-a9ae08173495",
+  "EffectiveDates": {
+    "StartDate": "2023-12-20",
+    "EndDate": "2024-12-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e1955df4-b497-49d9-9ff2-88021a14ef48",
+    "Name": "Marc Allen",
+    "PolicyNumber": "b499af23-647f-469c-af49-a9ae08173495",
+    "ContactInformation": {
+      "Phone": "424-789-3760x15563",
+      "Email": "jaclynnelson@example.org",
+      "Address": "24179 Ford Isle Apt. 097\nArroyoton, FM 15051"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-07",
+    "Location": "13524 Brittany Forge Suite 327\nPort Roberto, AK 72062",
+    "Description": "Second feeling beautiful support something start. Across either fire left general although baby difficult."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7998
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 150660
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 43662
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 180231
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 146032
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 107102,
+    "TotalApproved": 88458
+  },
+  "AdjusterDetails": {
+    "Name": "Christopher Gallegos",
+    "ContactInformation": {
+      "Phone": "7968163836",
+      "Email": "vpierce@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/79e52e93-9ae8-491e-ab20-2648b4b03666"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-07T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-12T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-17T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

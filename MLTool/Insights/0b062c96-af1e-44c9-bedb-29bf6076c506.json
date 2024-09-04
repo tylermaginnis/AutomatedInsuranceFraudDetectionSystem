@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0b062c96-af1e-44c9-bedb-29bf6076c506",
+    "PolicyID": "55774ab4-f24d-42f9-98fb-f693fa48510a",
+    "EffectiveDates": {
+        "StartDate": "2024-06-13",
+        "EndDate": "2025-06-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2d7c6750-a8e9-4262-ac56-1cd9014ed50a",
+        "Name": "Susan Owens",
+        "PolicyNumber": "55774ab4-f24d-42f9-98fb-f693fa48510a",
+        "ContactInformation": {
+            "Phone": "001-789-443-6794x2032",
+            "Email": "michaelavila@example.org",
+            "Address": "8056 Andrea Ways\nLake Sara, OR 24382"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-03",
+        "Location": "67660 Micheal Plains\nJessicaland, PA 53884",
+        "Description": "Democrat I live whole. Center world everybody crime during bank.\nMention paper international. The character indicate home bit floor. Others cell five bar forward quite."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41672
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 77730
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5530
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13470
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2623
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 199927,
+        "TotalApproved": 142423
+    },
+    "AdjusterDetails": {
+        "Name": "Ivan Wagner",
+        "ContactInformation": {
+            "Phone": "(224)211-2777x76747",
+            "Email": "mlong@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/62e1da6e-cb61-4529-8c79-841e8d9d86be"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-03T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-08T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-13T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

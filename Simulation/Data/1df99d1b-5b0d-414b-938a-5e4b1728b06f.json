@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1df99d1b-5b0d-414b-938a-5e4b1728b06f",
+  "PolicyID": "b9c382d9-d7ed-4c33-91ed-e9432ba0a3cf",
+  "EffectiveDates": {
+    "StartDate": "2023-11-29",
+    "EndDate": "2024-11-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "052964c9-a1ba-4016-b50c-0c0a65676419",
+    "Name": "Mr. James Peterson",
+    "PolicyNumber": "b9c382d9-d7ed-4c33-91ed-e9432ba0a3cf",
+    "ContactInformation": {
+      "Phone": "001-417-934-6173x248",
+      "Email": "frederickharrington@example.com",
+      "Address": "1802 Foster Glen\nJesseberg, OK 61226"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-14",
+    "Location": "364 Adams Springs\nWest Toddville, PA 97453",
+    "Description": "Miss figure else blue attorney early. Clearly election couple give range. Yet see nothing such."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 50720
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7203
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9213
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16622
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 39699
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 131248,
+    "TotalApproved": 10578
+  },
+  "AdjusterDetails": {
+    "Name": "Patrick Richardson",
+    "ContactInformation": {
+      "Phone": "001-515-696-9738",
+      "Email": "erikcastaneda@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/567b17a6-899f-41fa-a4c7-aef7a06c5a31"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-14T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-19T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-24T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

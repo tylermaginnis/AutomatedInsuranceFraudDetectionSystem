@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5ad57d92-d86b-4e40-84fa-c8b6f396d9d8",
+    "PolicyID": "a7cd7e3a-517f-49e1-856f-7d2952c25d32",
+    "EffectiveDates": {
+        "StartDate": "2024-05-28",
+        "EndDate": "2025-05-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a9675f75-236a-4c53-9549-ae3586533f52",
+        "Name": "Brent Escobar",
+        "PolicyNumber": "a7cd7e3a-517f-49e1-856f-7d2952c25d32",
+        "ContactInformation": {
+            "Phone": "+1-204-216-7201x2503",
+            "Email": "dramos@example.com",
+            "Address": "028 Wood Vista\nEast Kelly, NH 73765"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-07",
+        "Location": "3788 Judy Overpass\nJonathanland, NJ 66773",
+        "Description": "Red different director second allow notice them. Common require class against quality bill. Development single per call chance west listen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 132746
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 166171
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7466
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1249
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14267
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 50951,
+        "TotalApproved": 44960
+    },
+    "AdjusterDetails": {
+        "Name": "Shawn Young",
+        "ContactInformation": {
+            "Phone": "001-650-983-5410x4137",
+            "Email": "crystal81@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/efc55f4e-5baa-43b9-9bba-6c3ddb28ff4d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-07T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-12T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-17T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

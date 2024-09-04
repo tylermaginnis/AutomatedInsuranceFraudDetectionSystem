@@ -1,0 +1,81 @@
+{
+    "ClaimID": "df7c301c-3a72-440e-9451-4bb30453ae6b",
+    "PolicyID": "413d8446-0aec-4ecc-8c22-700d567e54db",
+    "EffectiveDates": {
+        "StartDate": "2024-06-12",
+        "EndDate": "2025-06-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b7b0c76c-9ba1-4d92-8a8b-8c3907d371fb",
+        "Name": "Brandon Castro",
+        "PolicyNumber": "413d8446-0aec-4ecc-8c22-700d567e54db",
+        "ContactInformation": {
+            "Phone": "2365574933",
+            "Email": "gonzalezandrew@example.net",
+            "Address": "USCGC Wilson\nFPO AP 05580"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-10",
+        "Location": "7035 Thomas Glen\nWest Shannon, MT 81564",
+        "Description": "Do road own car who difference miss. Region minute a seven even commercial. Process collection tend degree law."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35692
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28680
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49241
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13396
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 28918
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 50443,
+        "TotalApproved": 47162
+    },
+    "AdjusterDetails": {
+        "Name": "John Fischer",
+        "ContactInformation": {
+            "Phone": "3083600040",
+            "Email": "adkinsmiranda@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9353660c-a683-4ff3-948a-b3c3bea7ae02"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

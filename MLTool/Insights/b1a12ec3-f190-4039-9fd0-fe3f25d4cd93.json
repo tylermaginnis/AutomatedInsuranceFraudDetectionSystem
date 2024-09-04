@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b1a12ec3-f190-4039-9fd0-fe3f25d4cd93",
+    "PolicyID": "87f43c16-17a1-41b4-850d-3f5ff9745f02",
+    "EffectiveDates": {
+        "StartDate": "2023-09-11",
+        "EndDate": "2024-09-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a002995c-02a6-4d5a-9c9e-86e473fe304f",
+        "Name": "Erica Roberts",
+        "PolicyNumber": "87f43c16-17a1-41b4-850d-3f5ff9745f02",
+        "ContactInformation": {
+            "Phone": "241-389-2175x7393",
+            "Email": "lisariley@example.com",
+            "Address": "57108 Thompson Village\nKimberlyport, FL 48236"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-08",
+        "Location": "71638 Gonzales Fork\nHarveyton, IL 95364",
+        "Description": "Available end art position gun. Stuff thousand key hold price we. Camera ok firm be just cultural."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41134
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82779
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41168
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5326
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4218
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 143329,
+        "TotalApproved": 18659
+    },
+    "AdjusterDetails": {
+        "Name": "David Campbell",
+        "ContactInformation": {
+            "Phone": "+1-376-703-3300",
+            "Email": "ashley14@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5af0897e-e1a4-434e-b69f-b79f8a25b002"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c4e55ba5-ba52-4baa-a12b-50850fc457b6",
+    "PolicyID": "5715c5f7-aa03-4911-a0e0-6f356255e0a8",
+    "EffectiveDates": {
+        "StartDate": "2023-10-11",
+        "EndDate": "2024-10-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "abda1bbd-778f-40bd-89e2-ea8aca347f87",
+        "Name": "Jared Morton",
+        "PolicyNumber": "5715c5f7-aa03-4911-a0e0-6f356255e0a8",
+        "ContactInformation": {
+            "Phone": "001-653-815-4610x33126",
+            "Email": "katelyn86@example.com",
+            "Address": "5324 Sanders Point\nWest Lisashire, MS 07746"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-15",
+        "Location": "4148 Laurie Prairie\nPort Lisa, NY 49477",
+        "Description": "Base citizen myself medical near physical material. Peace source believe imagine right.\nLeg keep real cover soldier must. Kid total line unit until occur. Call price blood."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5156
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3711
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5560
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17391
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4032
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 183193,
+        "TotalApproved": 13195
+    },
+    "AdjusterDetails": {
+        "Name": "William Hunt",
+        "ContactInformation": {
+            "Phone": "001-826-247-3152x216",
+            "Email": "matthewrivera@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6d6b7fe2-b9f4-4245-bcbb-934c924df6a6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-15T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-20T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-25T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "96b92da3-7ae9-4537-afeb-7dc62e33c1f4",
+    "PolicyID": "decb5d6e-1c11-4791-9526-3ba348214bb3",
+    "EffectiveDates": {
+        "StartDate": "2024-06-17",
+        "EndDate": "2025-06-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "44682349-b221-4aaf-ae9c-53b228465f7b",
+        "Name": "Amy Maldonado",
+        "PolicyNumber": "decb5d6e-1c11-4791-9526-3ba348214bb3",
+        "ContactInformation": {
+            "Phone": "598-909-4944x57756",
+            "Email": "hzamora@example.net",
+            "Address": "Unit 0183 Box 9537\nDPO AP 51702"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-29",
+        "Location": "35315 Johnston Mountains Suite 772\nNelsonview, MH 72486",
+        "Description": "Near tell way last. Within issue identify concern speech together not. Kind might not serious property practice perhaps."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2544
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32720
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37490
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3810
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4449
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 152978,
+        "TotalApproved": 1130
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Brown",
+        "ContactInformation": {
+            "Phone": "647.298.6970x35094",
+            "Email": "washingtonjason@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8cb8de1a-1e16-477d-8ee4-b3046426aecd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-29T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-03T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-08T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

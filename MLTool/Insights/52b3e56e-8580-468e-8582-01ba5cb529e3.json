@@ -1,0 +1,81 @@
+{
+    "ClaimID": "52b3e56e-8580-468e-8582-01ba5cb529e3",
+    "PolicyID": "112d2bb0-e2f0-4822-a123-a4712b98e621",
+    "EffectiveDates": {
+        "StartDate": "2024-06-15",
+        "EndDate": "2025-06-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8a22ac57-948c-449f-a840-fb232d7f2cdb",
+        "Name": "Scott Martinez",
+        "PolicyNumber": "112d2bb0-e2f0-4822-a123-a4712b98e621",
+        "ContactInformation": {
+            "Phone": "001-464-347-5292x225",
+            "Email": "susanparker@example.org",
+            "Address": "6175 Jones Walks\nPayneborough, WA 95873"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-10",
+        "Location": "058 Frazier Expressway\nWardview, TX 56421",
+        "Description": "Leg politics know character significant. Through remain between TV. Thank although range sort establish others."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 57336
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45791
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15430
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1094
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37771
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 157990,
+        "TotalApproved": 94003
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Wilcox",
+        "ContactInformation": {
+            "Phone": "(733)527-8594",
+            "Email": "brittany90@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a73f0bd8-001f-46f3-bc4f-82959ffdb052"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-10T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-15T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-20T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

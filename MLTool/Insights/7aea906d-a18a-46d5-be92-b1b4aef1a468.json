@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7aea906d-a18a-46d5-be92-b1b4aef1a468",
+    "PolicyID": "db2301d0-e62a-4002-8438-0140b6702fe3",
+    "EffectiveDates": {
+        "StartDate": "2024-02-09",
+        "EndDate": "2025-02-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f0b4d6e2-542f-49fa-9f6c-fc79e49f9813",
+        "Name": "Jacqueline Phillips",
+        "PolicyNumber": "db2301d0-e62a-4002-8438-0140b6702fe3",
+        "ContactInformation": {
+            "Phone": "6382723147",
+            "Email": "ghays@example.com",
+            "Address": "1710 Higgins Highway Suite 647\nWest Claire, KS 50472"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-04",
+        "Location": "678 Miller Island\nStephenborough, AK 59162",
+        "Description": "History light environment teacher consider account. Stay agency two discuss. Center focus lot easy possible kitchen.\nAvailable this war. Movement according conference cup."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3955
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36976
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16361
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8616
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6184
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 197377,
+        "TotalApproved": 165260
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Thompson",
+        "ContactInformation": {
+            "Phone": "230-600-6737",
+            "Email": "vickie05@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6ce68631-d40c-42da-b4b9-485f18e09c8c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-04T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-09T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-14T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

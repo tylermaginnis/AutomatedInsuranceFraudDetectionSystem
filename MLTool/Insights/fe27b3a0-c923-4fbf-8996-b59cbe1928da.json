@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fe27b3a0-c923-4fbf-8996-b59cbe1928da",
+    "PolicyID": "27083651-079e-4717-be93-5af9a2ed8a64",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e1d854fb-ce68-4717-b99c-f2ee9a8675a1",
+        "Name": "Robert Eaton",
+        "PolicyNumber": "27083651-079e-4717-be93-5af9a2ed8a64",
+        "ContactInformation": {
+            "Phone": "319.479.8951",
+            "Email": "beckywoods@example.net",
+            "Address": "USS Williams\nFPO AA 06733"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-21",
+        "Location": "04602 Durham Shore\nGarciabury, MA 81789",
+        "Description": "Social wait by nature participant stop street. Choose they age certain black difference."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 178063
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36010
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 68413
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2694
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 105425
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 84942,
+        "TotalApproved": 80870
+    },
+    "AdjusterDetails": {
+        "Name": "Erin Dean",
+        "ContactInformation": {
+            "Phone": "(513)228-6831x17379",
+            "Email": "joseellis@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/652f3f0b-4c88-48fe-b0ee-d253ab6ae0ca"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-21T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-26T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-31T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

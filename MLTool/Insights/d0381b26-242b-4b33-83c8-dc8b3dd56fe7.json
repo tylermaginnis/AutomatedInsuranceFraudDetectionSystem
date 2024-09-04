@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d0381b26-242b-4b33-83c8-dc8b3dd56fe7",
+    "PolicyID": "21860ce0-70c8-41b8-b82b-c9cb3a608dc5",
+    "EffectiveDates": {
+        "StartDate": "2024-03-15",
+        "EndDate": "2025-03-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6d30d67d-5573-4d80-8504-5bd4f1f0cfdc",
+        "Name": "Martha Wright",
+        "PolicyNumber": "21860ce0-70c8-41b8-b82b-c9cb3a608dc5",
+        "ContactInformation": {
+            "Phone": "001-247-512-7530",
+            "Email": "danabennett@example.org",
+            "Address": "950 Sean Branch Apt. 871\nCharlesfurt, GA 51080"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-25",
+        "Location": "167 Miller Knolls\nTannerhaven, LA 15694",
+        "Description": "Land college child force consumer piece race. Half research either section teach energy. Evidence court interview join."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9949
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13311
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5246
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24532
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12681
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 36370,
+        "TotalApproved": 32566
+    },
+    "AdjusterDetails": {
+        "Name": "Katherine Palmer",
+        "ContactInformation": {
+            "Phone": "817-823-3508",
+            "Email": "wrightkevin@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c20212af-33b4-44a5-b991-49bd4f836a25"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-25T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-30T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

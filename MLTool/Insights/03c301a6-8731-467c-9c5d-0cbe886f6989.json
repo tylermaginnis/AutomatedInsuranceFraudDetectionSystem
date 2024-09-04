@@ -1,0 +1,81 @@
+{
+    "ClaimID": "03c301a6-8731-467c-9c5d-0cbe886f6989",
+    "PolicyID": "3b64077e-43c7-40cc-8acd-949641dd0a07",
+    "EffectiveDates": {
+        "StartDate": "2023-12-30",
+        "EndDate": "2024-12-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b3ad44da-7370-47f1-84da-18e436c77fdd",
+        "Name": "Matthew Holt PhD",
+        "PolicyNumber": "3b64077e-43c7-40cc-8acd-949641dd0a07",
+        "ContactInformation": {
+            "Phone": "+1-981-260-7509",
+            "Email": "justingould@example.net",
+            "Address": "46231 Lewis Mountain Apt. 111\nNew Carmen, OR 41215"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-12",
+        "Location": "9374 Bautista Parkways\nLewisborough, NE 09188",
+        "Description": "Eye apply work skin too fly. Long network audience always."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 70019
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 30849
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34259
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 109002
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28685
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 39175,
+        "TotalApproved": 26297
+    },
+    "AdjusterDetails": {
+        "Name": "Kyle Rocha",
+        "ContactInformation": {
+            "Phone": "+1-615-405-5318x118",
+            "Email": "nicholassanders@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/185f8d3b-62c3-48bd-9eea-aa7f538fe612"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-12T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-17T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-22T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

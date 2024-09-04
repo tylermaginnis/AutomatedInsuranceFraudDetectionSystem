@@ -1,0 +1,81 @@
+{
+    "ClaimID": "11982fae-d6cd-4c87-9090-19cff0f090c7",
+    "PolicyID": "135d08ba-c839-4d4d-9bf7-523e7749f91a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-06",
+        "EndDate": "2025-03-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "44b2d1b3-2be8-409c-95e4-7e5cee5d31d2",
+        "Name": "Jennifer Brown",
+        "PolicyNumber": "135d08ba-c839-4d4d-9bf7-523e7749f91a",
+        "ContactInformation": {
+            "Phone": "(927)543-8376x45143",
+            "Email": "bvasquez@example.com",
+            "Address": "4139 Vance Ways\nTommyport, ME 35660"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-11",
+        "Location": "9206 Ronald Mountains\nPort Rachel, NM 55481",
+        "Description": "Rule oil gun also sport store. Space Mrs boy friend factor specific.\nIdentify employee some citizen exactly size. Agent vote rise indeed put spring couple."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 99383
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12281
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20075
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6321
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5779
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 108362,
+        "TotalApproved": 107242
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Robert Arnold",
+        "ContactInformation": {
+            "Phone": "499-487-0912",
+            "Email": "omar02@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/636e004f-5c61-48c6-8bcd-9049754284a7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

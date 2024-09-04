@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8ba07131-c762-4ad4-b5b2-d54806542239",
+  "PolicyID": "a5d8486d-674a-41e0-a179-51c39b54d433",
+  "EffectiveDates": {
+    "StartDate": "2024-05-10",
+    "EndDate": "2025-05-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "24606fb3-bbb4-4a9b-b80b-5b31db9a7d9d",
+    "Name": "John Ortiz",
+    "PolicyNumber": "a5d8486d-674a-41e0-a179-51c39b54d433",
+    "ContactInformation": {
+      "Phone": "(251)779-2399",
+      "Email": "ndavis@example.org",
+      "Address": "250 Wayne Harbor\nStephenland, MT 99290"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-01",
+    "Location": "569 Angela Junctions\nEast Cindy, TX 45727",
+    "Description": "Sea accept stuff certainly should walk including mother. My red staff occur. Company trouble activity next ready of box chance."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 60918
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 54157
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 13287
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 33968
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 11237
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 102915,
+    "TotalApproved": 102114
+  },
+  "AdjusterDetails": {
+    "Name": "Shelley Atkins",
+    "ContactInformation": {
+      "Phone": "373.856.9784",
+      "Email": "albert58@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/e95f563c-beb5-48f8-908f-bb9d062cb712"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-01T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-06T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-11T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

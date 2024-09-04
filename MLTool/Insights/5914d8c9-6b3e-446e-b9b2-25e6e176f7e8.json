@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5914d8c9-6b3e-446e-b9b2-25e6e176f7e8",
+    "PolicyID": "16ef9663-d87a-4351-9c9f-9334329e2f48",
+    "EffectiveDates": {
+        "StartDate": "2023-11-22",
+        "EndDate": "2024-11-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dfdb4f65-059b-4d4e-a615-c5e370a1a084",
+        "Name": "Daniel Spears",
+        "PolicyNumber": "16ef9663-d87a-4351-9c9f-9334329e2f48",
+        "ContactInformation": {
+            "Phone": "(840)402-8219",
+            "Email": "michaelwillis@example.org",
+            "Address": "47056 David Drive\nNorth Robert, CA 26115"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-15",
+        "Location": "0427 Gomez Overpass\nJonathanmouth, CO 54490",
+        "Description": "Data to play bring. Experience west notice quality. Kind food suffer.\nSource financial defense we service. Situation land behind although article. For forward data pick."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4377
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22169
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 87909
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47033
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2826
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 104343,
+        "TotalApproved": 80439
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Smith",
+        "ContactInformation": {
+            "Phone": "957.411.8102",
+            "Email": "mross@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b8ed401c-4026-4aeb-84e5-5813b33ddb69"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

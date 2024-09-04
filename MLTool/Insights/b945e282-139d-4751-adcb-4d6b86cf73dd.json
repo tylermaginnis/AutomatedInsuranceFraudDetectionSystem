@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b945e282-139d-4751-adcb-4d6b86cf73dd",
+    "PolicyID": "5328b1ea-1f79-49e0-a01d-51deb4139f99",
+    "EffectiveDates": {
+        "StartDate": "2024-01-13",
+        "EndDate": "2025-01-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "426a6313-3579-4ff1-9f61-7f5626cb041e",
+        "Name": "Amanda Foster",
+        "PolicyNumber": "5328b1ea-1f79-49e0-a01d-51deb4139f99",
+        "ContactInformation": {
+            "Phone": "587.275.3173x576",
+            "Email": "omitchell@example.com",
+            "Address": "971 Pope Bridge Apt. 777\nNew Loritown, CO 91302"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-13",
+        "Location": "000 Jones Turnpike Suite 605\nLake Elizabethton, MD 72905",
+        "Description": "Performance accept list fall more likely quickly knowledge. You walk father article market law campaign."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32735
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 94836
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27520
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 72199
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 68747
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 42213,
+        "TotalApproved": 13630
+    },
+    "AdjusterDetails": {
+        "Name": "Jeremy White",
+        "ContactInformation": {
+            "Phone": "001-914-590-6413x3855",
+            "Email": "olawrence@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4f560faf-9812-4aa1-8db2-7d6d6365e463"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-13T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-18T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-23T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

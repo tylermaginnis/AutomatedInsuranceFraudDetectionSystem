@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5a65de36-9cbc-497f-b7bd-a54de61a9d8d",
+    "PolicyID": "efa81879-9cba-45f6-a54e-9b290ec18034",
+    "EffectiveDates": {
+        "StartDate": "2024-05-15",
+        "EndDate": "2025-05-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f4a5f1a8-9fa9-49f9-b2ea-2a8ea699769c",
+        "Name": "Donald Phillips",
+        "PolicyNumber": "efa81879-9cba-45f6-a54e-9b290ec18034",
+        "ContactInformation": {
+            "Phone": "676-669-9007",
+            "Email": "kennethmccormick@example.net",
+            "Address": "59404 Castillo Pike\nNew Jennifer, WV 88297"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-15",
+        "Location": "Unit 5342 Box 7978\nDPO AP 98578",
+        "Description": "Management miss when either international science. Fly southern speak trouble paper."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26888
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36343
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6787
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8064
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 90452
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 104930,
+        "TotalApproved": 27624
+    },
+    "AdjusterDetails": {
+        "Name": "Brandi Lee",
+        "ContactInformation": {
+            "Phone": "948.398.5922x73320",
+            "Email": "shannonjohnson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/901cf44e-07f2-4fc7-baf9-1fbe3192cce5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

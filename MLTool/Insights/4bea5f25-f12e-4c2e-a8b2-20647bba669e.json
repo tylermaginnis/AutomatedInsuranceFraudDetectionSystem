@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4bea5f25-f12e-4c2e-a8b2-20647bba669e",
+    "PolicyID": "e40abe67-530b-44ca-b3ff-b276d04d5065",
+    "EffectiveDates": {
+        "StartDate": "2024-06-12",
+        "EndDate": "2025-06-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "05936b04-53b1-4444-a24d-38e4de2d992e",
+        "Name": "Jessica Pitts",
+        "PolicyNumber": "e40abe67-530b-44ca-b3ff-b276d04d5065",
+        "ContactInformation": {
+            "Phone": "6988960000",
+            "Email": "erika32@example.net",
+            "Address": "42104 Felicia Branch\nSouth Gabrielleburgh, PW 31359"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-09",
+        "Location": "52307 Lucas Alley Suite 141\nJonathanport, OH 27556",
+        "Description": "Subject table believe whether process. Pattern ground respond couple create college."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 94816
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 177824
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7240
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12916
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17601
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 7570,
+        "TotalApproved": 6361
+    },
+    "AdjusterDetails": {
+        "Name": "Janice Harrison",
+        "ContactInformation": {
+            "Phone": "(307)590-6567x016",
+            "Email": "wortiz@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f74e0a4d-06a8-4655-9466-75d8ada023bc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-09T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-14T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-19T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

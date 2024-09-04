@@ -1,0 +1,81 @@
+{
+    "ClaimID": "352a21eb-c78c-416c-a901-0ef3fb227d4b",
+    "PolicyID": "835c8c53-ef7b-4e13-b622-f1fc4b053d79",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f114372f-1ce8-4305-bffd-17ac7a7b33cc",
+        "Name": "Brian Turner",
+        "PolicyNumber": "835c8c53-ef7b-4e13-b622-f1fc4b053d79",
+        "ContactInformation": {
+            "Phone": "001-419-826-1636",
+            "Email": "cgriffin@example.com",
+            "Address": "225 Moore Row\nPeterburgh, PA 75998"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-22",
+        "Location": "292 Emily Overpass Apt. 478\nNew Kristaport, NV 25301",
+        "Description": "House can necessary heavy letter. Feel such win western issue product west.\nPublic worker hear trouble. Energy moment behavior husband."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1714
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 69412
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 89266
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17088
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 199788
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 149654,
+        "TotalApproved": 24384
+    },
+    "AdjusterDetails": {
+        "Name": "Beverly Robertson",
+        "ContactInformation": {
+            "Phone": "001-972-983-4487",
+            "Email": "hherman@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6fadbeb1-9435-4732-b907-573437831980"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-22T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-27T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

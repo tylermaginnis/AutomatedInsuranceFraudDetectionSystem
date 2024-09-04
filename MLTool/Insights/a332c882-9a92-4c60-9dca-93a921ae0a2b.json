@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a332c882-9a92-4c60-9dca-93a921ae0a2b",
+    "PolicyID": "850c50cc-7d12-4d96-937b-e6592d52e379",
+    "EffectiveDates": {
+        "StartDate": "2024-03-23",
+        "EndDate": "2025-03-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "01e98eae-4a12-43af-acca-1001f8ddd162",
+        "Name": "Mrs. Jessica Green",
+        "PolicyNumber": "850c50cc-7d12-4d96-937b-e6592d52e379",
+        "ContactInformation": {
+            "Phone": "249.272.1202x73072",
+            "Email": "jennifer32@example.com",
+            "Address": "751 Jasmine Manor\nNew Madison, VA 73264"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-24",
+        "Location": "063 Thompson Ramp\nGibsonfort, KS 99524",
+        "Description": "Laugh fast design research not. Foot anything loss arm quality. Agent north according new fact result fact. Surface road role movie bar course at."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17313
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 165968
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17695
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10713
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41262
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 137747,
+        "TotalApproved": 137475
+    },
+    "AdjusterDetails": {
+        "Name": "Russell Brown",
+        "ContactInformation": {
+            "Phone": "(853)808-9125",
+            "Email": "alexander62@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e89b196c-3ee2-44c2-8d59-3e3f6855ca39"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

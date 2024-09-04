@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d2349465-514d-489f-9a30-5484bf97fc73",
+    "PolicyID": "a77540e1-d515-4f12-bd64-fec7fd736104",
+    "EffectiveDates": {
+        "StartDate": "2024-05-09",
+        "EndDate": "2025-05-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0e614418-d179-4eea-9092-56651097265f",
+        "Name": "Melissa Jones",
+        "PolicyNumber": "a77540e1-d515-4f12-bd64-fec7fd736104",
+        "ContactInformation": {
+            "Phone": "(703)856-2845x4277",
+            "Email": "derekdiaz@example.net",
+            "Address": "2815 Hunter Trace\nNorth Saraport, KS 68390"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-30",
+        "Location": "8486 Hughes Islands\nKennethfort, NV 55296",
+        "Description": "Herself well out human such hand why yourself. Without write smile laugh ready computer key.\nGet vote difficult after line. Right thought myself ahead main degree exist."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5993
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15266
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9803
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44866
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 119145
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 9602,
+        "TotalApproved": 5369
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Rodriguez",
+        "ContactInformation": {
+            "Phone": "001-631-462-8997x843",
+            "Email": "pnguyen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0be06e2b-fe30-40f0-b51a-60e2e13adef2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-30T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-04T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-09T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

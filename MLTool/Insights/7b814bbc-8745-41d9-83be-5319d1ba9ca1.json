@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b814bbc-8745-41d9-83be-5319d1ba9ca1",
+    "PolicyID": "8eff4b47-5833-43ff-af26-cab96d0e449b",
+    "EffectiveDates": {
+        "StartDate": "2024-01-11",
+        "EndDate": "2025-01-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "426ead9d-dc4d-4c6f-82df-cbd7391ef38e",
+        "Name": "Angela Young",
+        "PolicyNumber": "8eff4b47-5833-43ff-af26-cab96d0e449b",
+        "ContactInformation": {
+            "Phone": "944.681.0262",
+            "Email": "joneschloe@example.org",
+            "Address": "Unit 7739 Box 3993\nDPO AP 66678"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-25",
+        "Location": "49370 Julie Port\nLake Susantown, WV 06677",
+        "Description": "Door miss within memory growth. They nature natural coach again quickly. New look carry performance."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9523
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43320
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8358
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49260
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6544
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 53465,
+        "TotalApproved": 36311
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Brown",
+        "ContactInformation": {
+            "Phone": "(908)719-3024x167",
+            "Email": "allison92@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/01d5c57e-c19a-4973-b6be-a82384f41a19"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-30T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-05T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

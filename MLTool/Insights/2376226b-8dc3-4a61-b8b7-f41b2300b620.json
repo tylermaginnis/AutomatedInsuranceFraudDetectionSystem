@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2376226b-8dc3-4a61-b8b7-f41b2300b620",
+    "PolicyID": "eff5109b-44ce-4576-b3a4-afc810776282",
+    "EffectiveDates": {
+        "StartDate": "2023-09-23",
+        "EndDate": "2024-09-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f831e57e-5385-46c0-91dd-59e8574d2731",
+        "Name": "Scott Harper",
+        "PolicyNumber": "eff5109b-44ce-4576-b3a4-afc810776282",
+        "ContactInformation": {
+            "Phone": "916-651-6672x6395",
+            "Email": "sarahhart@example.org",
+            "Address": "73204 Wanda Views\nPort Ellenport, WI 88206"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-02",
+        "Location": "Unit 2954 Box 8825\nDPO AA 85768",
+        "Description": "Mother account name. Movement high painting yet mean especially benefit which. Main another wonder laugh their up degree.\nSize play wear education marriage understand child listen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24743
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3960
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 29268
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6052
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 191428
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 12913,
+        "TotalApproved": 1640
+    },
+    "AdjusterDetails": {
+        "Name": "Lauren Washington",
+        "ContactInformation": {
+            "Phone": "(941)443-4597x109",
+            "Email": "brandongeorge@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3325433d-11b7-4ef0-a472-4625e22ea16b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-02T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-07T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-12T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

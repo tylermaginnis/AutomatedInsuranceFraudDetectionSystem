@@ -1,0 +1,81 @@
+{
+    "ClaimID": "76e13420-0854-41f9-b2bc-8c7cc02f2cf4",
+    "PolicyID": "3f4527f3-2664-455d-adc3-dc9c22bc3194",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3d4845b5-ad1f-4783-9af6-0036d56c3500",
+        "Name": "Christopher Smith",
+        "PolicyNumber": "3f4527f3-2664-455d-adc3-dc9c22bc3194",
+        "ContactInformation": {
+            "Phone": "384.552.9044x13940",
+            "Email": "greid@example.net",
+            "Address": "91389 Nash Mount\nPort Robertfort, FL 90484"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-12",
+        "Location": "27118 Diana Parkway Suite 769\nBrandiborough, MD 96592",
+        "Description": "Thing stop short. Argue season just recently eat fly student could.\nProperty could small read star market. About election stop should poor."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6609
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35965
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16013
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39837
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 180568
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 142750,
+        "TotalApproved": 89718
+    },
+    "AdjusterDetails": {
+        "Name": "Brandi Travis",
+        "ContactInformation": {
+            "Phone": "713-528-4272x0866",
+            "Email": "ashley53@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1b1cbeb7-6c34-463a-aaa8-8c559841112d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-12T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-17T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-22T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

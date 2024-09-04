@@ -1,0 +1,81 @@
+{
+    "ClaimID": "866e17cc-0f2d-4858-b5d8-c86e77d27314",
+    "PolicyID": "5854b891-a9e6-4c3f-a1c7-dbb9bbb47e6b",
+    "EffectiveDates": {
+        "StartDate": "2024-01-11",
+        "EndDate": "2025-01-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "504b60dc-7bc2-4529-aa3f-e7117f3b3ccb",
+        "Name": "Mary Smith",
+        "PolicyNumber": "5854b891-a9e6-4c3f-a1c7-dbb9bbb47e6b",
+        "ContactInformation": {
+            "Phone": "(398)856-3911",
+            "Email": "qnunez@example.net",
+            "Address": "637 Stewart Skyway Apt. 296\nSteveshire, NE 23088"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-10",
+        "Location": "83181 Michael Corners\nEast Ralphport, AZ 41348",
+        "Description": "Door call season effort response. Show sound win language sit. Forget guy voice.\nCitizen rest receive stage own knowledge word. Explain teach room war. Word manage capital buy event defense wall."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40842
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16153
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1986
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 79452
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 162725
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 5024,
+        "TotalApproved": 2745
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Thomas",
+        "ContactInformation": {
+            "Phone": "894-570-9640x4974",
+            "Email": "bennettsean@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b6475b40-4ff7-462c-8bca-b61000dc3935"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-10T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-15T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-20T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

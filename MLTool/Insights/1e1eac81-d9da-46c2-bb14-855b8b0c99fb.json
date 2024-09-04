@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1e1eac81-d9da-46c2-bb14-855b8b0c99fb",
+    "PolicyID": "99df59cf-3d9a-4581-a5e7-09e82868b9fc",
+    "EffectiveDates": {
+        "StartDate": "2024-05-13",
+        "EndDate": "2025-05-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fa55e49f-cc68-4868-ad33-1902aa97eee4",
+        "Name": "Jessica Rose",
+        "PolicyNumber": "99df59cf-3d9a-4581-a5e7-09e82868b9fc",
+        "ContactInformation": {
+            "Phone": "(664)480-2592x07510",
+            "Email": "jamesmorales@example.net",
+            "Address": "27997 Brianna Park Suite 837\nEast Johnland, NE 35469"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-15",
+        "Location": "5613 Fowler Ranch\nSouth Alyssachester, AZ 91335",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 61686
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21523
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6454
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20743
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16121
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 126527,
+        "TotalApproved": 73638
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Obrien",
+        "ContactInformation": {
+            "Phone": "001-642-270-3672x64121",
+            "Email": "ashleegreene@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/edc8f8e1-9419-404a-a802-c20a0f9830d1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

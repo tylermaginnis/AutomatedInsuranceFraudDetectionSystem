@@ -1,0 +1,81 @@
+{
+    "ClaimID": "98c73e7d-4dab-4373-8a9e-3f63f205439c",
+    "PolicyID": "ad1cf925-e467-432c-bbf9-70c3446b9059",
+    "EffectiveDates": {
+        "StartDate": "2024-01-05",
+        "EndDate": "2025-01-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "32372642-da38-4059-83ca-82e025d86ca0",
+        "Name": "Lucas Sanford",
+        "PolicyNumber": "ad1cf925-e467-432c-bbf9-70c3446b9059",
+        "ContactInformation": {
+            "Phone": "667.676.0791x1407",
+            "Email": "zhickman@example.org",
+            "Address": "940 Snow Knoll\nLindsayfort, ND 96025"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-15",
+        "Location": "106 Scott Grove\nNew Mariaburgh, OH 71802",
+        "Description": "Response face product check. First single read standard pattern."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3659
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7752
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2277
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3319
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15894
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 18325,
+        "TotalApproved": 5826
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Mathis",
+        "ContactInformation": {
+            "Phone": "689.738.0022x875",
+            "Email": "rhill@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5614f047-6f8f-4aae-bfa8-e86cbdac66e7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-15T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-20T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-25T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

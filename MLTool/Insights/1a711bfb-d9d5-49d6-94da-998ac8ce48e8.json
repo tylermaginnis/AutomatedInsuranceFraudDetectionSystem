@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1a711bfb-d9d5-49d6-94da-998ac8ce48e8",
+    "PolicyID": "55043a64-e33c-4bd1-8839-62c610923f15",
+    "EffectiveDates": {
+        "StartDate": "2023-12-06",
+        "EndDate": "2024-12-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aaddd974-e03d-4523-a6d5-f0cad8e5dc7a",
+        "Name": "Michaela Rose",
+        "PolicyNumber": "55043a64-e33c-4bd1-8839-62c610923f15",
+        "ContactInformation": {
+            "Phone": "+1-742-386-4087x8923",
+            "Email": "carrie26@example.net",
+            "Address": "17049 Samantha Parks Suite 102\nMitchellshire, FM 09910"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-17",
+        "Location": "117 Willis Center\nWest Donald, VI 28280",
+        "Description": "Environment themselves I create bad despite shake. Such those change per outside. Go at put individual myself gas factor. Carry model task dark charge."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 198310
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1469
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17519
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5379
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 57407
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 85395,
+        "TotalApproved": 3671
+    },
+    "AdjusterDetails": {
+        "Name": "Collin Pearson",
+        "ContactInformation": {
+            "Phone": "2779869733",
+            "Email": "terrancemorgan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9f8b7f9e-cab9-40cb-b0cb-f47c80cbb225"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

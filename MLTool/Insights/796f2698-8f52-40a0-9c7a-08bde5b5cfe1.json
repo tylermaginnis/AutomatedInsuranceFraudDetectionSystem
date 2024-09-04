@@ -1,0 +1,81 @@
+{
+    "ClaimID": "796f2698-8f52-40a0-9c7a-08bde5b5cfe1",
+    "PolicyID": "b109be28-9675-4b69-9d99-320dab77a67f",
+    "EffectiveDates": {
+        "StartDate": "2023-12-03",
+        "EndDate": "2024-12-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3a39d01b-c8ec-44ee-9db4-50de13bb0c13",
+        "Name": "Keith Ramirez",
+        "PolicyNumber": "b109be28-9675-4b69-9d99-320dab77a67f",
+        "ContactInformation": {
+            "Phone": "+1-391-614-6397",
+            "Email": "tburns@example.org",
+            "Address": "39335 Richardson Groves Apt. 131\nShaunburgh, NE 98763"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-18",
+        "Location": "PSC 6298, Box 6453\nAPO AP 48450",
+        "Description": "Decade reveal control boy enter of. Join participant same them box drop. Cover lead forward degree eat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8560
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 111050
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15076
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5427
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8287
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 59461,
+        "TotalApproved": 8723
+    },
+    "AdjusterDetails": {
+        "Name": "Amber Walker DVM",
+        "ContactInformation": {
+            "Phone": "8098706777",
+            "Email": "andrewcameron@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8e1d5bbb-29ea-43c9-a790-ad725945d268"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-18T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-23T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-28T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

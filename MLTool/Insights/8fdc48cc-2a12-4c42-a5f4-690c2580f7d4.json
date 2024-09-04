@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8fdc48cc-2a12-4c42-a5f4-690c2580f7d4",
+    "PolicyID": "1ed84ba5-6928-443b-9a6c-acfc6c5601b6",
+    "EffectiveDates": {
+        "StartDate": "2024-02-13",
+        "EndDate": "2025-02-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1cce98cf-50e5-44f5-a34b-59c505be2f3d",
+        "Name": "Andre Contreras",
+        "PolicyNumber": "1ed84ba5-6928-443b-9a6c-acfc6c5601b6",
+        "ContactInformation": {
+            "Phone": "001-300-308-1840x4703",
+            "Email": "andrewcordova@example.net",
+            "Address": "55889 Steven Centers Suite 761\nHoltbury, NJ 89315"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-30",
+        "Location": "23948 David Circle\nWoodshire, ND 45978",
+        "Description": "Office some today with police no. Body very national start even. Action too hard leg woman.\nEvidence simply lay above blue follow. Plan each rise serve. Attorney ball box space until concern."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39442
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17420
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11665
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6215
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11104
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 143902,
+        "TotalApproved": 71821
+    },
+    "AdjusterDetails": {
+        "Name": "William Orozco",
+        "ContactInformation": {
+            "Phone": "850.422.5531x2222",
+            "Email": "alicia99@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9de49a65-fe42-4b05-884d-b6ec32e08551"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

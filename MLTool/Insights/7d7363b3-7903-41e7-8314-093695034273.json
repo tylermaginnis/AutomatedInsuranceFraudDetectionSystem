@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7d7363b3-7903-41e7-8314-093695034273",
+    "PolicyID": "0cd93211-1981-4de0-bab2-03aaee034cfa",
+    "EffectiveDates": {
+        "StartDate": "2023-09-06",
+        "EndDate": "2024-09-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2448f67c-b6c1-4cef-a3ef-f513fbc57629",
+        "Name": "Christopher Sexton",
+        "PolicyNumber": "0cd93211-1981-4de0-bab2-03aaee034cfa",
+        "ContactInformation": {
+            "Phone": "821.798.2863x487",
+            "Email": "kristen20@example.org",
+            "Address": "Unit 6847 Box 9069\nDPO AE 57205"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-29",
+        "Location": "486 Cervantes Lodge\nCantuville, AL 80645",
+        "Description": "Maybe could agent book big. Start plan rate company culture human water.\nWill family baby community. Yes institution black run hard argue security serve."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8687
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 123244
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6998
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24232
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4853
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144310,
+        "TotalApproved": 129002
+    },
+    "AdjusterDetails": {
+        "Name": "Annette Lawson",
+        "ContactInformation": {
+            "Phone": "523.523.9371x614",
+            "Email": "dustin06@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/98cb21f9-bbf5-42ec-a373-9c6c9f71670e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

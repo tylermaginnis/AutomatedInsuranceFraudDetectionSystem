@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cfaf6d2d-2bcc-4a2a-9440-fc087876aca2",
+    "PolicyID": "8ee7862d-dfe3-4733-8e56-53ef04f616fa",
+    "EffectiveDates": {
+        "StartDate": "2024-03-12",
+        "EndDate": "2025-03-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "60b3c6f5-904f-4738-8d1a-273edb7bc83c",
+        "Name": "Chris Woodard",
+        "PolicyNumber": "8ee7862d-dfe3-4733-8e56-53ef04f616fa",
+        "ContactInformation": {
+            "Phone": "(540)577-0431x1672",
+            "Email": "lvasquez@example.org",
+            "Address": "5271 Jesse Pine\nHeatherberg, DC 03751"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-25",
+        "Location": "052 Danielle Way\nRobbinshaven, MP 71480",
+        "Description": "Beyond he focus development daughter while word. Network almost wish provide service.\nSix he light less positive. Piece better chance young kitchen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 76694
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27782
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15154
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10351
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17836
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 34549,
+        "TotalApproved": 30781
+    },
+    "AdjusterDetails": {
+        "Name": "Kenneth Watson",
+        "ContactInformation": {
+            "Phone": "(411)573-8431x464",
+            "Email": "rvance@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f216e60d-571d-4c49-b443-944e5af7b7aa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-25T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-30T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-05T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

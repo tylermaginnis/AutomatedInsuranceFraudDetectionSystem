@@ -1,0 +1,81 @@
+{
+    "ClaimID": "600e7499-c6c5-45e8-8f5a-6ec3cb50fde7",
+    "PolicyID": "7d80ec61-090a-441d-b127-9a4939faba87",
+    "EffectiveDates": {
+        "StartDate": "2024-03-13",
+        "EndDate": "2025-03-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5c221ba6-a256-47d8-9742-ff8ccbe10202",
+        "Name": "Ralph Jackson",
+        "PolicyNumber": "7d80ec61-090a-441d-b127-9a4939faba87",
+        "ContactInformation": {
+            "Phone": "(558)898-8372x2990",
+            "Email": "jefferywright@example.net",
+            "Address": "USS Johnson\nFPO AA 45985"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-22",
+        "Location": "40240 Wilson Dale Suite 704\nLake Kelly, SD 32482",
+        "Description": "Stock either skin toward meet tax. War note a article suffer treatment unit.\nBase it require day under. When moment million old affect."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 114840
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17689
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 183274
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12695
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12019
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116639,
+        "TotalApproved": 36083
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Watson",
+        "ContactInformation": {
+            "Phone": "+1-430-380-6416x444",
+            "Email": "awatts@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/875f9631-df38-42e0-9216-cfd4562e07d5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

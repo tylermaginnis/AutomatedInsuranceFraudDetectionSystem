@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f0e7c550-9817-49d5-96ca-e1475392c83b",
+    "PolicyID": "e5828320-ec45-4ac1-bae3-75e9fda7104c",
+    "EffectiveDates": {
+        "StartDate": "2023-12-04",
+        "EndDate": "2024-12-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3819b593-f99d-4adc-aaf8-5526e03c043c",
+        "Name": "Seth Lozano",
+        "PolicyNumber": "e5828320-ec45-4ac1-bae3-75e9fda7104c",
+        "ContactInformation": {
+            "Phone": "(576)710-5286x31487",
+            "Email": "douglas90@example.org",
+            "Address": "444 Diane Rapid\nMcguiremouth, WA 79414"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-12",
+        "Location": "46053 Virginia Valleys\nMichealmouth, NJ 70932",
+        "Description": "East continue let lawyer. Pass outside usually record. Hope take field plant center no. Let short party including."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 87805
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49979
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 71803
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11994
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 131275
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 28117,
+        "TotalApproved": 17403
+    },
+    "AdjusterDetails": {
+        "Name": "Dana Bell",
+        "ContactInformation": {
+            "Phone": "001-871-508-1291x494",
+            "Email": "leachdouglas@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8005f618-a1ed-4f8d-b607-5caf57d972fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

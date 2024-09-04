@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3e3d0072-2b1b-4c08-91c4-8e5abc782b61",
+    "PolicyID": "3553e3a4-e943-4ea2-a303-4cddc8b45be3",
+    "EffectiveDates": {
+        "StartDate": "2024-05-16",
+        "EndDate": "2025-05-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c5353a77-1eea-4ab2-99c3-3a0e856357eb",
+        "Name": "Paul Bonilla",
+        "PolicyNumber": "3553e3a4-e943-4ea2-a303-4cddc8b45be3",
+        "ContactInformation": {
+            "Phone": "397-202-9348",
+            "Email": "michellenicholson@example.net",
+            "Address": "PSC 4607, Box 9155\nAPO AP 50681"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-03",
+        "Location": "PSC 6528, Box 9636\nAPO AA 62401",
+        "Description": "Never we child record. Pick get set maintain enter defense.\nWeek population decide measure impact employee table must. Cup institution up government better indeed low."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13940
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12234
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1929
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4162
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12235
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 16542,
+        "TotalApproved": 13508
+    },
+    "AdjusterDetails": {
+        "Name": "Charlene Warner",
+        "ContactInformation": {
+            "Phone": "001-211-915-7671x6051",
+            "Email": "alejandro38@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9f50e15d-9095-4d07-bf1c-13ac76ee7128"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-03T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-08T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-13T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

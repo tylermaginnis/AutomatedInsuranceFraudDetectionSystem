@@ -1,0 +1,81 @@
+{
+    "ClaimID": "25228df3-540a-492c-b8d5-a152cb4cce32",
+    "PolicyID": "3bb07307-e108-455e-88fa-ee760342e727",
+    "EffectiveDates": {
+        "StartDate": "2024-07-30",
+        "EndDate": "2025-07-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9cd5a3c2-7fc5-4d65-9af0-43565b0967a0",
+        "Name": "Joel Bailey",
+        "PolicyNumber": "3bb07307-e108-455e-88fa-ee760342e727",
+        "ContactInformation": {
+            "Phone": "(296)545-7453x62710",
+            "Email": "kimberly12@example.net",
+            "Address": "589 Jacobs Curve\nSharonbury, NY 89057"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-16",
+        "Location": "USNV Daniel\nFPO AA 95492",
+        "Description": "Often blue arrive apply stop to. Move tell make probably nor oil.\nSense who commercial much dream. Be democratic get term."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 73475
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2812
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3821
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6567
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47985
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 184320,
+        "TotalApproved": 81169
+    },
+    "AdjusterDetails": {
+        "Name": "Nancy Velasquez",
+        "ContactInformation": {
+            "Phone": "001-574-967-2965x0613",
+            "Email": "dannysmith@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/dff51ab5-5d5d-4d6a-b449-0c72c906a182"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

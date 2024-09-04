@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6b7ca8a1-4f2a-4301-80ef-3e8f14371a77",
+    "PolicyID": "f9dd3b9e-0115-476b-a989-03e500419096",
+    "EffectiveDates": {
+        "StartDate": "2023-11-28",
+        "EndDate": "2024-11-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "338ce921-04a7-4949-99ec-a637c0113f4a",
+        "Name": "Lisa Jones",
+        "PolicyNumber": "f9dd3b9e-0115-476b-a989-03e500419096",
+        "ContactInformation": {
+            "Phone": "(678)363-3415x5042",
+            "Email": "benjaminbauer@example.net",
+            "Address": "00779 Thomas Forge\nAnthonyborough, PA 06395"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-03",
+        "Location": "757 Stacey Canyon\nNorth Brittany, NV 17514",
+        "Description": "President kind however beat sing important fine. Meeting size ten easy political might benefit so. Community large throw ever. Student near pass could."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47710
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 45960
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5649
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35542
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12522
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 87003,
+        "TotalApproved": 43726
+    },
+    "AdjusterDetails": {
+        "Name": "David Manning",
+        "ContactInformation": {
+            "Phone": "426-745-6502x74172",
+            "Email": "morganjasmine@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/abce8e84-9cc5-4671-b75c-a90368e0f421"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-03T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-08T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-13T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

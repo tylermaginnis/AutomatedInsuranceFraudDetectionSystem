@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a12e3bbe-b61f-4373-9ada-7bea190a0c4a",
+    "PolicyID": "1b4d2d72-b03e-4fc4-82fb-1909957bcce2",
+    "EffectiveDates": {
+        "StartDate": "2024-08-05",
+        "EndDate": "2025-08-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ea53f759-d1f2-4d05-b158-d9b5f5039949",
+        "Name": "Jennifer Murphy",
+        "PolicyNumber": "1b4d2d72-b03e-4fc4-82fb-1909957bcce2",
+        "ContactInformation": {
+            "Phone": "(801)464-6674",
+            "Email": "angela72@example.net",
+            "Address": "4938 Chad Mill\nBenjaminburgh, GA 35246"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-25",
+        "Location": "748 Amy Common Suite 440\nRoblesmouth, NY 23744",
+        "Description": "Environmental today letter conference others. Series anything bit consumer task bank sing treatment.\nHouse change attack consider degree. Six since second little focus even trial."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12983
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12136
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46482
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10488
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9339
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 111480,
+        "TotalApproved": 49465
+    },
+    "AdjusterDetails": {
+        "Name": "Calvin Pruitt",
+        "ContactInformation": {
+            "Phone": "8567240823",
+            "Email": "johnwagner@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1854783e-af96-40ea-8fc9-0435c66c13d2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-25T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-30T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-04T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

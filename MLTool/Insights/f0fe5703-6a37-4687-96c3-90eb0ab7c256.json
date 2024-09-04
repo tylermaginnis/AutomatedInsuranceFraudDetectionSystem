@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f0fe5703-6a37-4687-96c3-90eb0ab7c256",
+    "PolicyID": "2f3201ff-0ef6-4a72-bdd4-1925a9709e30",
+    "EffectiveDates": {
+        "StartDate": "2024-06-18",
+        "EndDate": "2025-06-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "21489a1b-89b6-424e-8b25-ad7d24f12dbc",
+        "Name": "Anthony Gonzalez",
+        "PolicyNumber": "2f3201ff-0ef6-4a72-bdd4-1925a9709e30",
+        "ContactInformation": {
+            "Phone": "415-693-6869",
+            "Email": "brandtgary@example.org",
+            "Address": "PSC 1342, Box 0059\nAPO AP 64349"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-11",
+        "Location": "4173 Kramer Union\nJessicaborough, WI 06864",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 94505
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44908
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7168
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14472
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12172
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 173225,
+        "TotalApproved": 121767
+    },
+    "AdjusterDetails": {
+        "Name": "Paul Lowe",
+        "ContactInformation": {
+            "Phone": "(569)652-0288",
+            "Email": "brandon47@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/00108330-8970-410e-bb38-c0b10aec7f73"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-11T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-16T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-21T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

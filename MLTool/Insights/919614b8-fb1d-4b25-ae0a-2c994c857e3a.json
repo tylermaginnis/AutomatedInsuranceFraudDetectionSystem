@@ -1,0 +1,81 @@
+{
+    "ClaimID": "919614b8-fb1d-4b25-ae0a-2c994c857e3a",
+    "PolicyID": "767c6a5e-70a7-4092-b4b0-47cf2c8a3f10",
+    "EffectiveDates": {
+        "StartDate": "2024-05-14",
+        "EndDate": "2025-05-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7580224c-2036-4a28-9f4a-1e50d1331663",
+        "Name": "Brian Howard",
+        "PolicyNumber": "767c6a5e-70a7-4092-b4b0-47cf2c8a3f10",
+        "ContactInformation": {
+            "Phone": "980-951-8844x93716",
+            "Email": "mbrown@example.org",
+            "Address": "66638 Marco Meadows Suite 082\nSouth Edwardstad, MO 83839"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-20",
+        "Location": "USS Rivera\nFPO AE 01637",
+        "Description": "Officer ability education science yeah. Various condition attention trade cut.\nArea quite consumer contain. Describe fall red development read alone factor."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4982
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25435
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10149
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22470
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50866
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 30141,
+        "TotalApproved": 12509
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Ferguson",
+        "ContactInformation": {
+            "Phone": "(579)825-1124",
+            "Email": "emartin@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ace05a78-04ae-4cb9-84d7-f8bb52496702"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-20T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-25T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-30T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

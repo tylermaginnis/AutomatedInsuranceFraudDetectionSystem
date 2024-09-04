@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1bf11c3b-f6ec-469d-bc6f-c63725cec856",
+    "PolicyID": "32a4637d-f689-4ec1-8b6a-f6a811400c9c",
+    "EffectiveDates": {
+        "StartDate": "2024-01-31",
+        "EndDate": "2025-01-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "916b9130-fa64-44da-8f53-44b2af95d696",
+        "Name": "Michael Rodriguez",
+        "PolicyNumber": "32a4637d-f689-4ec1-8b6a-f6a811400c9c",
+        "ContactInformation": {
+            "Phone": "(231)789-5307",
+            "Email": "dustindouglas@example.org",
+            "Address": "07541 Rachel Terrace Apt. 603\nPort Spencertown, VT 22868"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-25",
+        "Location": "96854 Aaron Circle\nLake Thomas, PR 26845",
+        "Description": "Movie partner bit. Know win once buy. Entire fast never ok yeah.\nReason suffer certainly building best up. Sister keep least than some. Rather million modern serious."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49882
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14349
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10539
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3564
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9085
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 53236,
+        "TotalApproved": 31535
+    },
+    "AdjusterDetails": {
+        "Name": "Megan Johnson DVM",
+        "ContactInformation": {
+            "Phone": "001-530-930-0607x3777",
+            "Email": "fsmith@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e247fd34-2c0c-4361-93dd-bb576834a1cc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-01T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-06T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

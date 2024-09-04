@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d5c60521-6c17-4645-8fe9-333eb3cf7162",
+    "PolicyID": "b64e3666-6b61-4741-aa3e-5568a1b1451e",
+    "EffectiveDates": {
+        "StartDate": "2023-10-30",
+        "EndDate": "2024-10-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fa22cb87-6b53-4b8f-8ca4-1762da79dbda",
+        "Name": "Scott Allen",
+        "PolicyNumber": "b64e3666-6b61-4741-aa3e-5568a1b1451e",
+        "ContactInformation": {
+            "Phone": "+1-514-875-6057x854",
+            "Email": "margaretturner@example.com",
+            "Address": "657 Mary Pines Apt. 744\nVictorborough, OR 26574"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-07",
+        "Location": "80578 James Plaza Apt. 969\nMartinmouth, NM 18834",
+        "Description": "Pay produce author method peace rich morning. Size firm adult especially like week mean.\nAbove million tough computer. Enough avoid whatever machine agree."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11947
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3050
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2033
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11132
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 169694
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 177444,
+        "TotalApproved": 22001
+    },
+    "AdjusterDetails": {
+        "Name": "Leah Smith",
+        "ContactInformation": {
+            "Phone": "947.209.2518x6731",
+            "Email": "tara85@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2b7b958d-0680-404f-b5c8-78d8d40e7aa7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-07T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-12T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-17T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "daf0caa2-7dab-460e-bcfc-0df82d9f3bb0",
+    "PolicyID": "e2520c4f-8284-4d83-907c-3e963a26402a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-13",
+        "EndDate": "2024-10-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2be5dd3a-fb98-486f-aaca-f4ba23f7abb0",
+        "Name": "David Blankenship",
+        "PolicyNumber": "e2520c4f-8284-4d83-907c-3e963a26402a",
+        "ContactInformation": {
+            "Phone": "+1-837-233-7323x7546",
+            "Email": "samanthastanley@example.net",
+            "Address": "USS Sanchez\nFPO AA 31024"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-31",
+        "Location": "40013 William Road\nTownsendport, LA 12130",
+        "Description": "Business region level bit and blue executive certainly. Level brother yet crime successful whether over. Become person piece course community before game."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16836
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10758
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6228
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1970
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 96862
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 43743,
+        "TotalApproved": 43330
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Cobb",
+        "ContactInformation": {
+            "Phone": "+1-218-666-2987",
+            "Email": "kathryn77@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5409758e-f168-43da-91ad-57311e18cdf9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-31T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-05T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-10T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

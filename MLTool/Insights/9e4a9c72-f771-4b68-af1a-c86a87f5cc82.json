@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9e4a9c72-f771-4b68-af1a-c86a87f5cc82",
+    "PolicyID": "0621d8fd-4db6-408f-b66c-1b81a79b4115",
+    "EffectiveDates": {
+        "StartDate": "2024-08-11",
+        "EndDate": "2025-08-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fe4edb85-6bdb-4b73-8a01-469e6df14e7e",
+        "Name": "Ruth Williams",
+        "PolicyNumber": "0621d8fd-4db6-408f-b66c-1b81a79b4115",
+        "ContactInformation": {
+            "Phone": "+1-494-835-9476",
+            "Email": "ashea@example.com",
+            "Address": "13096 Emily Plaza\nKennedyview, GU 27920"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-24",
+        "Location": "091 David Circles Apt. 440\nWest Kimberly, MS 69628",
+        "Description": "Modern address interest hold relate. Suddenly support far during middle. Reflect teacher town probably coach of information growth."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 126982
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 40731
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7134
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14902
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9005
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 69692,
+        "TotalApproved": 12321
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Rivera",
+        "ContactInformation": {
+            "Phone": "849.882.3064",
+            "Email": "aliceberry@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7ba61fbd-39ab-47b4-85f0-aad15d6fd408"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-24T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-29T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-03T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

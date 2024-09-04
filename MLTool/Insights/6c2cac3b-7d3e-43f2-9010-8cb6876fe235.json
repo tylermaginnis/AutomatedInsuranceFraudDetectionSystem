@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6c2cac3b-7d3e-43f2-9010-8cb6876fe235",
+    "PolicyID": "18629582-9ac1-44fb-b952-28b7b3d76edd",
+    "EffectiveDates": {
+        "StartDate": "2023-11-14",
+        "EndDate": "2024-11-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8e29a9c0-2e92-41f4-946d-ed601ea23194",
+        "Name": "Brittany Miller",
+        "PolicyNumber": "18629582-9ac1-44fb-b952-28b7b3d76edd",
+        "ContactInformation": {
+            "Phone": "(782)700-7656x384",
+            "Email": "dcabrera@example.net",
+            "Address": "1528 Gonzales Forest\nSouth Adam, WV 10765"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-23",
+        "Location": "046 Alvarado Mountain\nMcclainstad, MD 97211",
+        "Description": "Rock coach trouble need how. Value attention teacher western brother. Cover want true. Father increase sign technology left run."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17619
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15513
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2078
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 139593
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44100
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 17145,
+        "TotalApproved": 2283
+    },
+    "AdjusterDetails": {
+        "Name": "Brandy Lynch",
+        "ContactInformation": {
+            "Phone": "251-435-4247",
+            "Email": "jennifer33@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bb3d1a9e-c6d2-4a7d-b52c-da5be9554cc9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-03T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

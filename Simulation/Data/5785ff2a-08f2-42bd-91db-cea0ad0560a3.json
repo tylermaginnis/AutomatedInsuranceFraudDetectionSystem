@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5785ff2a-08f2-42bd-91db-cea0ad0560a3",
+  "PolicyID": "638360df-22ed-4d44-bac8-ea408c129b30",
+  "EffectiveDates": {
+    "StartDate": "2023-12-14",
+    "EndDate": "2024-12-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "deb5c72f-b938-4c2f-846f-7966d3b9a369",
+    "Name": "Thomas Mann",
+    "PolicyNumber": "638360df-22ed-4d44-bac8-ea408c129b30",
+    "ContactInformation": {
+      "Phone": "235-884-2508",
+      "Email": "troymyers@example.com",
+      "Address": "907 Paul Freeway Apt. 642\nNorth Edwardton, AS 18819"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-07",
+    "Location": "USNV Hernandez\nFPO AE 85081",
+    "Description": "Seek close research response walk. Health color mother respond because in read hope.\nSon once experience within goal. Relationship office huge opportunity argue land return."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 20553
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 60795
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 97978
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 25784
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 140695
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 7961,
+    "TotalApproved": 2186
+  },
+  "AdjusterDetails": {
+    "Name": "Nicholas Christensen",
+    "ContactInformation": {
+      "Phone": "3739138558",
+      "Email": "jeffrey56@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/47e709c5-fcf7-4659-810d-c543dbb8ecbf"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-07T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-12T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-17T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

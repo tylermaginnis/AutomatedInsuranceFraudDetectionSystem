@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d951047a-3756-426c-b48c-f76e8166ee2f",
+    "PolicyID": "5b2b8a49-e330-4ec5-862f-83ee054c6e36",
+    "EffectiveDates": {
+        "StartDate": "2024-08-19",
+        "EndDate": "2025-08-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "646f90c2-ea69-4ea1-817e-eb88083c3289",
+        "Name": "Gerald Davis",
+        "PolicyNumber": "5b2b8a49-e330-4ec5-862f-83ee054c6e36",
+        "ContactInformation": {
+            "Phone": "(900)980-8988x888",
+            "Email": "emily10@example.com",
+            "Address": "Unit 2366 Box 9102\nDPO AP 37395"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-23",
+        "Location": "76771 Michelle Overpass Suite 981\nLake Robertshire, DE 31237",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 81866
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40769
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5595
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11698
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6601
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 146529,
+        "TotalApproved": 114756
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Marshall",
+        "ContactInformation": {
+            "Phone": "001-685-886-7648x529",
+            "Email": "brian94@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/60c5661b-d890-4f5e-a800-5fae1143e185"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

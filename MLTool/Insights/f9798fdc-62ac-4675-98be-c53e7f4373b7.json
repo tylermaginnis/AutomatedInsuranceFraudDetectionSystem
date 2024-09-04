@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f9798fdc-62ac-4675-98be-c53e7f4373b7",
+    "PolicyID": "6b4b1c12-55de-413d-833b-76607f4e5e50",
+    "EffectiveDates": {
+        "StartDate": "2024-07-29",
+        "EndDate": "2025-07-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "26d5867b-a791-4416-b54e-1642f6a6a740",
+        "Name": "Charles White",
+        "PolicyNumber": "6b4b1c12-55de-413d-833b-76607f4e5e50",
+        "ContactInformation": {
+            "Phone": "208.602.1861x7345",
+            "Email": "sharpbrandon@example.net",
+            "Address": "5717 Edwards Knoll\nWest Nathaniel, MH 17938"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-04",
+        "Location": "505 Curtis Prairie\nBrooksberg, IN 24939",
+        "Description": "Drop without defense protect feel in. Her surface animal television house future. Make shake woman season impact.\nType politics wish moment home low. Design industry anyone answer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11341
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33854
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 67702
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1518
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37476
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 184756,
+        "TotalApproved": 121401
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Johnson",
+        "ContactInformation": {
+            "Phone": "338.578.9452",
+            "Email": "mistyblanchard@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6fca68cd-6872-4c95-88b2-248e09e5ebb2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-04T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-09T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-14T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

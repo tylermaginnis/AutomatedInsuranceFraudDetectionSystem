@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c150bb74-80f5-418e-b97b-35ec03ad9f87",
+  "PolicyID": "f065b437-22ed-4273-b522-36d437a3d6d1",
+  "EffectiveDates": {
+    "StartDate": "2023-11-02",
+    "EndDate": "2024-11-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "929d1ea7-f9e6-4df5-86db-3558719d3228",
+    "Name": "Carly Smith",
+    "PolicyNumber": "f065b437-22ed-4273-b522-36d437a3d6d1",
+    "ContactInformation": {
+      "Phone": "(841)490-5472",
+      "Email": "ewheeler@example.org",
+      "Address": "46829 Valerie Stream Suite 981\nPamelaberg, NY 17792"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-09",
+    "Location": "95281 Hernandez Trace\nEast Jennifer, MA 66867",
+    "Description": "Current black land Mr vote name carry. Find hot dinner.\nReady voice brother piece. Free leave way sea. Trip health including laugh.\nBest role population still. Strong ready medical the appear more."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11602
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4795
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 33549
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2403
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 96354
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 192093,
+    "TotalApproved": 186820
+  },
+  "AdjusterDetails": {
+    "Name": "Maria Ramirez",
+    "ContactInformation": {
+      "Phone": "+1-965-857-5173",
+      "Email": "george26@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/94fd9bcc-64ca-4503-85a3-07ca5bbaaf24"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-09T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-14T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-19T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

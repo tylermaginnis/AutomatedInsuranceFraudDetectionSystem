@@ -1,0 +1,80 @@
+{
+  "ClaimID": "54f07ff1-a170-434f-b097-20335061681a",
+  "PolicyID": "fc5be2ac-c7de-4113-8f97-a2490c0d25bc",
+  "EffectiveDates": {
+    "StartDate": "2024-04-27",
+    "EndDate": "2025-04-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "818e7e86-2321-48bc-bbf4-85d4ac05d651",
+    "Name": "Alexander Stevenson",
+    "PolicyNumber": "fc5be2ac-c7de-4113-8f97-a2490c0d25bc",
+    "ContactInformation": {
+      "Phone": "(448)296-5213x4824",
+      "Email": "psanders@example.org",
+      "Address": "740 Hale Turnpike\nLeonmouth, DC 65331"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-24",
+    "Location": "0073 Meyer Circles Apt. 833\nGinastad, MA 59318",
+    "Description": "Son beautiful what very. Arrive assume few fill pick.\nShow size live maybe position tend. Tree human ago participant someone argue. Practice much play pick back image father three."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 25565
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 51233
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 193991
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6784
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8980
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 131007,
+    "TotalApproved": 83694
+  },
+  "AdjusterDetails": {
+    "Name": "Sara Moore",
+    "ContactInformation": {
+      "Phone": "320-834-0287x85349",
+      "Email": "bcarter@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/aef3a85f-37ed-4990-af1b-565a9cf074a7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-24T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-29T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-03T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

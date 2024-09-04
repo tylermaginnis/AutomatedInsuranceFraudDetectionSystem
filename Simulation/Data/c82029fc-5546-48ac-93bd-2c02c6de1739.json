@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c82029fc-5546-48ac-93bd-2c02c6de1739",
+  "PolicyID": "da1a2377-eebf-4f1d-9b49-ca81521f8749",
+  "EffectiveDates": {
+    "StartDate": "2024-02-26",
+    "EndDate": "2025-02-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d00813fc-114c-428a-b8da-94aa14c7d329",
+    "Name": "Sabrina Silva",
+    "PolicyNumber": "da1a2377-eebf-4f1d-9b49-ca81521f8749",
+    "ContactInformation": {
+      "Phone": "+1-734-205-9809x93074",
+      "Email": "evanle@example.net",
+      "Address": "316 Colin Mission\nJohntown, CA 40253"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-19",
+    "Location": "426 Caldwell Corners\nEast Madison, CO 69222",
+    "Description": "Wall street throw speak cause ok reason. Party president sit sort before Mr show. Measure project would."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 159770
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19959
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6577
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 65921
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3266
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 6173,
+    "TotalApproved": 6040
+  },
+  "AdjusterDetails": {
+    "Name": "Amy Morrison",
+    "ContactInformation": {
+      "Phone": "+1-232-853-6081",
+      "Email": "kyoung@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/630a723f-5160-4153-a7bf-701de1d60e3d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-19T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-24T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-29T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "04ce7b34-0a5e-4e5b-aae8-151a0f753662",
+    "PolicyID": "aa85173e-a1ef-4f7b-9f65-402cf01b5e4c",
+    "EffectiveDates": {
+        "StartDate": "2024-02-24",
+        "EndDate": "2025-02-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d57b5a18-a577-41c3-a00e-e8654ac84d1f",
+        "Name": "Rachael Kim",
+        "PolicyNumber": "aa85173e-a1ef-4f7b-9f65-402cf01b5e4c",
+        "ContactInformation": {
+            "Phone": "371-452-1617x745",
+            "Email": "wolfejerry@example.org",
+            "Address": "9174 Love Camp\nWest Sarah, AS 64201"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "8311 Mary Light Suite 893\nMorganside, NH 82798",
+        "Description": "Anyone mention year free popular school certain. Mean tree measure office social. Sit necessary over place tough organization."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9449
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 84543
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 64428
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 43412
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12318
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 161053,
+        "TotalApproved": 80431
+    },
+    "AdjusterDetails": {
+        "Name": "Joel Wolf",
+        "ContactInformation": {
+            "Phone": "001-218-293-8496x36461",
+            "Email": "collierandrew@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c08bcd41-a8fe-4090-85d8-e1db31f3adff"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

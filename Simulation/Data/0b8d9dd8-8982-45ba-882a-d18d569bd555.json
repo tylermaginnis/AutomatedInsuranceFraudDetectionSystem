@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0b8d9dd8-8982-45ba-882a-d18d569bd555",
+  "PolicyID": "825537ec-8ef2-4593-9013-403c0fa369bf",
+  "EffectiveDates": {
+    "StartDate": "2024-05-21",
+    "EndDate": "2025-05-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "23d43c87-7195-47fa-9353-b312bb7bc15b",
+    "Name": "James Lewis",
+    "PolicyNumber": "825537ec-8ef2-4593-9013-403c0fa369bf",
+    "ContactInformation": {
+      "Phone": "290-436-1260x04243",
+      "Email": "othomas@example.net",
+      "Address": "635 Smith Parkways Apt. 619\nLake Sharonchester, OH 13505"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-05",
+    "Location": "40551 William Point\nLake Cassandra, HI 14035",
+    "Description": "President country discuss human her would news. Up end ever TV serious property head doctor. Operation surface result left."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6160
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 141017
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 10142
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 33390
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 72223
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 96981,
+    "TotalApproved": 33034
+  },
+  "AdjusterDetails": {
+    "Name": "Joseph Allen",
+    "ContactInformation": {
+      "Phone": "350.613.2811x60546",
+      "Email": "katrinagonzalez@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/09fe68b5-43dc-4f37-b3ad-9f45151189d7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-05T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-10T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-15T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

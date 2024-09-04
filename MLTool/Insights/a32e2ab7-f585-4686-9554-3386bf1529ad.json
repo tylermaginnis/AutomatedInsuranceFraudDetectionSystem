@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a32e2ab7-f585-4686-9554-3386bf1529ad",
+    "PolicyID": "3b563f55-f3fc-4255-a925-dd2baa6585c4",
+    "EffectiveDates": {
+        "StartDate": "2023-10-31",
+        "EndDate": "2024-10-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "639dfe49-f48b-42c0-bbc0-164712f47468",
+        "Name": "Bonnie Snyder",
+        "PolicyNumber": "3b563f55-f3fc-4255-a925-dd2baa6585c4",
+        "ContactInformation": {
+            "Phone": "+1-410-930-4548x5857",
+            "Email": "mckaybarbara@example.net",
+            "Address": "30954 James Stravenue Apt. 805\nSchultzberg, MD 71178"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-16",
+        "Location": "67427 Martin Coves Suite 052\nLake Lisa, CO 65555",
+        "Description": "Amount or case must ask standard store. Difficult radio same affect buy book way where.\nMention million travel fight sound. Near left more."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3445
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32802
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4602
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40191
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48737
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 189983,
+        "TotalApproved": 25134
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Thompson",
+        "ContactInformation": {
+            "Phone": "(311)773-4005",
+            "Email": "normabrown@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0eacf76d-a5df-45de-9ece-25dc92c053c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-16T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-21T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-26T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

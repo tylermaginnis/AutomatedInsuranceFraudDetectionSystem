@@ -1,0 +1,81 @@
+{
+    "ClaimID": "35644b9a-25d7-4d60-9606-1f583b79f3bd",
+    "PolicyID": "88abba63-468a-49c8-aab6-e4c5e1dead0d",
+    "EffectiveDates": {
+        "StartDate": "2023-10-11",
+        "EndDate": "2024-10-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "924327a0-ec69-4f71-8c8f-c33c86b04a2d",
+        "Name": "Monica Turner",
+        "PolicyNumber": "88abba63-468a-49c8-aab6-e4c5e1dead0d",
+        "ContactInformation": {
+            "Phone": "547-460-6633",
+            "Email": "david06@example.org",
+            "Address": "985 Karen Key\nEast Toddstad, UT 21264"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-09",
+        "Location": "9773 Kayla Forest\nGreenberg, AS 03891",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 62993
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 31528
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8207
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22839
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17995
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 143562,
+        "TotalApproved": 18854
+    },
+    "AdjusterDetails": {
+        "Name": "Brandon James",
+        "ContactInformation": {
+            "Phone": "294-862-8039",
+            "Email": "nbooker@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/daca5a90-d430-4404-8fa9-53a3790a6a7d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-09T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-14T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-19T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

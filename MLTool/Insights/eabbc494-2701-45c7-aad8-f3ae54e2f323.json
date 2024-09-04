@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eabbc494-2701-45c7-aad8-f3ae54e2f323",
+    "PolicyID": "817d1d22-1a8f-4826-a255-ae8d6488baae",
+    "EffectiveDates": {
+        "StartDate": "2024-05-20",
+        "EndDate": "2025-05-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "887e8f3c-be38-42b0-9f62-af2d6dfa01d4",
+        "Name": "Walter Lynch",
+        "PolicyNumber": "817d1d22-1a8f-4826-a255-ae8d6488baae",
+        "ContactInformation": {
+            "Phone": "001-831-290-2604x287",
+            "Email": "walkerrandall@example.com",
+            "Address": "7337 Carr Bridge\nWilliamhaven, SC 08727"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "6902 Mark Loaf Apt. 409\nMcbridefurt, IL 58201",
+        "Description": "Section fish so sign nice decide. Establish this against factor there score number.\nFinish interview manager improve event fund theory others. Surface idea glass pull evidence."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 67491
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38336
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 58187
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19295
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15356
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 114305,
+        "TotalApproved": 62965
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Stevens",
+        "ContactInformation": {
+            "Phone": "270.836.6304x036",
+            "Email": "jwilson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/81d5a3dc-30e6-400c-9d44-2ca2797aa018"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e9d54467-fb2e-4c1a-8892-2b3b171cf833",
+    "PolicyID": "3814bd3e-ab49-4847-b0a0-4e33ccc1b04a",
+    "EffectiveDates": {
+        "StartDate": "2023-12-17",
+        "EndDate": "2024-12-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "605f0d3a-8539-4bbb-aa01-f4a85038d869",
+        "Name": "Michael Marshall",
+        "PolicyNumber": "3814bd3e-ab49-4847-b0a0-4e33ccc1b04a",
+        "ContactInformation": {
+            "Phone": "+1-649-972-3611x6211",
+            "Email": "caitliningram@example.com",
+            "Address": "5963 Shannon Trail\nEast Sarahchester, UT 96534"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-03",
+        "Location": "51073 Brittany Crescent\nPort Feliciahaven, KS 89799",
+        "Description": "Degree walk yeah idea western soldier. Ten wall account organization word answer build. Sea trouble name federal suddenly instead practice."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25280
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18638
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6918
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35427
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19817
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 180019,
+        "TotalApproved": 56448
+    },
+    "AdjusterDetails": {
+        "Name": "Ronald Leon",
+        "ContactInformation": {
+            "Phone": "965-418-3262",
+            "Email": "mcollins@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6b8a4f33-ade8-430d-b768-344e2441f1d8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

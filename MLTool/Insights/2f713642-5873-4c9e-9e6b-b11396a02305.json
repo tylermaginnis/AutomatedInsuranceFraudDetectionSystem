@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2f713642-5873-4c9e-9e6b-b11396a02305",
+    "PolicyID": "583493f2-45a1-4ec1-981e-deac830d17f5",
+    "EffectiveDates": {
+        "StartDate": "2024-07-17",
+        "EndDate": "2025-07-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5694ff00-1dcd-463a-9639-0f9e857ae982",
+        "Name": "Nancy Garner",
+        "PolicyNumber": "583493f2-45a1-4ec1-981e-deac830d17f5",
+        "ContactInformation": {
+            "Phone": "2619799214",
+            "Email": "hansencheryl@example.com",
+            "Address": "Unit 7283 Box 8408\nDPO AA 18992"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-08",
+        "Location": "54079 Raven Mission\nThompsonchester, IA 57853",
+        "Description": "Majority clearly enough less. Always record if site eye. Exist show bill tax."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28734
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 109269
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22856
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18787
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 113955
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 10223,
+        "TotalApproved": 2408
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Dennis Chavez",
+        "ContactInformation": {
+            "Phone": "613.767.8238x07362",
+            "Email": "travis45@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/22f8fba3-da03-45a7-9264-2d667b3334be"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

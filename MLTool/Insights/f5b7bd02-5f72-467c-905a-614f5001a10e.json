@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f5b7bd02-5f72-467c-905a-614f5001a10e",
+    "PolicyID": "a950e6cc-ca16-490b-83f1-1fb4431c417f",
+    "EffectiveDates": {
+        "StartDate": "2024-04-19",
+        "EndDate": "2025-04-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aa42e5f1-9453-4463-8682-f9d40f83bfc4",
+        "Name": "Kevin Neal",
+        "PolicyNumber": "a950e6cc-ca16-490b-83f1-1fb4431c417f",
+        "ContactInformation": {
+            "Phone": "466-563-3835",
+            "Email": "christopherdean@example.com",
+            "Address": "5931 Washington Wells\nLake Thomastown, WA 00858"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-20",
+        "Location": "525 Rodney Square Apt. 585\nSouth Virginia, CT 03045",
+        "Description": "Sell career wish stage want growth challenge tonight. Man purpose around foot at piece line one. Floor fine cost stage rule none foreign.\nVoice person like."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18744
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4265
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1607
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34564
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20661
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 77354,
+        "TotalApproved": 41826
+    },
+    "AdjusterDetails": {
+        "Name": "Margaret Camacho",
+        "ContactInformation": {
+            "Phone": "801.495.4604x6460",
+            "Email": "qthompson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7d628e6c-e6c1-4767-b053-cb0cf9156d30"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-20T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-25T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-30T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

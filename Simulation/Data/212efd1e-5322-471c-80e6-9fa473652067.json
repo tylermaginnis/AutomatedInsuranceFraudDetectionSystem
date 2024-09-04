@@ -1,0 +1,80 @@
+{
+  "ClaimID": "212efd1e-5322-471c-80e6-9fa473652067",
+  "PolicyID": "93e1c903-6fc3-4139-8b9a-8f2a79335ed4",
+  "EffectiveDates": {
+    "StartDate": "2024-06-09",
+    "EndDate": "2025-06-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5b9739e3-1388-4896-8a48-ec90b33f1604",
+    "Name": "Wanda Ortiz",
+    "PolicyNumber": "93e1c903-6fc3-4139-8b9a-8f2a79335ed4",
+    "ContactInformation": {
+      "Phone": "(779)326-3066x971",
+      "Email": "olsonmelissa@example.com",
+      "Address": "90020 Alex Gardens Suite 636\nCollinshire, ID 79261"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-04",
+    "Location": "943 Cooley Rue Suite 586\nSouth Michael, SD 99235",
+    "Description": "Remain senior down school cup however detail. Bill late heavy."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9300
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 161490
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3563
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2633
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3448
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 124239,
+    "TotalApproved": 71590
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Clark",
+    "ContactInformation": {
+      "Phone": "2038066784",
+      "Email": "smithnathan@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/797be911-56e4-435a-829d-947b1e81c1ed"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-04T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-09T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-14T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

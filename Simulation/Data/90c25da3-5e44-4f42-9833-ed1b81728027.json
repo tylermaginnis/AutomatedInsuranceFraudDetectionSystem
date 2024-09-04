@@ -1,0 +1,80 @@
+{
+  "ClaimID": "90c25da3-5e44-4f42-9833-ed1b81728027",
+  "PolicyID": "8007a1f4-5bea-4d7e-8aa8-d213dcfb83a0",
+  "EffectiveDates": {
+    "StartDate": "2023-09-26",
+    "EndDate": "2024-09-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5505206f-5fce-4095-b6ea-004b1e361342",
+    "Name": "James Thompson",
+    "PolicyNumber": "8007a1f4-5bea-4d7e-8aa8-d213dcfb83a0",
+    "ContactInformation": {
+      "Phone": "+1-762-206-6129x67286",
+      "Email": "qlong@example.org",
+      "Address": "6470 Caldwell Grove\nAdamsport, MT 10095"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-04",
+    "Location": "1340 Crawford Vista\nRiverafurt, WA 43034",
+    "Description": "Pick per citizen happy happy letter. Admit sometimes south station.\nBag wonder either note contain accept. Center about deep often."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 125388
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5492
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2817
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6921
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 77825
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 25730,
+    "TotalApproved": 25458
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Price",
+    "ContactInformation": {
+      "Phone": "785-513-5424",
+      "Email": "fostertracy@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/dac9bc7b-661f-45a3-befa-df2df23be6c1"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-04T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-09T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-14T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

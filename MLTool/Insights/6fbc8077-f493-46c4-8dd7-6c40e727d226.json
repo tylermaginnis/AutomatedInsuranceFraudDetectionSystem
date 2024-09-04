@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6fbc8077-f493-46c4-8dd7-6c40e727d226",
+    "PolicyID": "306cd240-39c4-4c83-af43-bd1aa65d6014",
+    "EffectiveDates": {
+        "StartDate": "2024-08-15",
+        "EndDate": "2025-08-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "331a6cac-3b13-4680-90e3-d699d3eb3ace",
+        "Name": "Sean Carroll",
+        "PolicyNumber": "306cd240-39c4-4c83-af43-bd1aa65d6014",
+        "ContactInformation": {
+            "Phone": "001-711-585-5342x3235",
+            "Email": "johnsoncassandra@example.org",
+            "Address": "7351 Sarah Green\nBairdburgh, LA 53988"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-23",
+        "Location": "7652 Chambers Vista Suite 528\nLake Davidhaven, AZ 31347",
+        "Description": "Summer least industry news compare tonight often. Word build public much force.\nSince up admit main another leader responsibility. From head health follow quality involve quality."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9754
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1503
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2662
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 196991
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 66527
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 26401,
+        "TotalApproved": 25008
+    },
+    "AdjusterDetails": {
+        "Name": "Pamela Newton DDS",
+        "ContactInformation": {
+            "Phone": "001-288-496-5657",
+            "Email": "dharrell@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/216bae22-73ef-4ec6-91a8-8465708f5477"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

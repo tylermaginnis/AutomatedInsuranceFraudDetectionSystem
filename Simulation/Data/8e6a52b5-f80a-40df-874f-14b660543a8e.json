@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8e6a52b5-f80a-40df-874f-14b660543a8e",
+  "PolicyID": "7923fe6b-d7fa-4c7d-8b2b-bb4eb00b974f",
+  "EffectiveDates": {
+    "StartDate": "2024-05-22",
+    "EndDate": "2025-05-22"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "eb354340-89ee-4bf0-9628-0f4ccc59d09b",
+    "Name": "Jeremy Barron",
+    "PolicyNumber": "7923fe6b-d7fa-4c7d-8b2b-bb4eb00b974f",
+    "ContactInformation": {
+      "Phone": "001-755-288-8130",
+      "Email": "keith31@example.net",
+      "Address": "0847 Wood Plains Apt. 306\nEast Jason, KS 53148"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-14",
+    "Location": "40621 Seth Union\nGreenemouth, WA 04432",
+    "Description": "Would morning both once. Data professional lose significant prepare factor ago evening."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7547
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 111999
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 37151
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 61735
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 77246
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 52852,
+    "TotalApproved": 24801
+  },
+  "AdjusterDetails": {
+    "Name": "Stephanie Johnson",
+    "ContactInformation": {
+      "Phone": "430.962.1906x617",
+      "Email": "syoung@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/4e4d9b4b-4ad4-4a69-b10c-d6d7a140dcf1"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-14T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-19T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-05-24T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

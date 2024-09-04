@@ -1,0 +1,81 @@
+{
+    "ClaimID": "07b8da08-edd2-4cec-a498-effa853e4c4a",
+    "PolicyID": "93fbbd49-c9c6-49a8-95ed-9035ca01538b",
+    "EffectiveDates": {
+        "StartDate": "2023-09-25",
+        "EndDate": "2024-09-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2033443c-2019-4536-99fb-a65f7431bbbc",
+        "Name": "Isaiah James",
+        "PolicyNumber": "93fbbd49-c9c6-49a8-95ed-9035ca01538b",
+        "ContactInformation": {
+            "Phone": "924.776.7072",
+            "Email": "danielpoole@example.com",
+            "Address": "7024 King Drives\nJustinmouth, NC 40128"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-04",
+        "Location": "503 Travis Wall Suite 224\nValenciaview, MA 45846",
+        "Description": "Building behind rate similar pattern. American amount trouble involve. Affect people beat prove nation try onto really. World car drug allow parent dog security which."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38204
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16879
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 73822
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41462
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 126539
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 106605,
+        "TotalApproved": 85644
+    },
+    "AdjusterDetails": {
+        "Name": "Kelly Hendricks",
+        "ContactInformation": {
+            "Phone": "289.419.0184",
+            "Email": "michaelholden@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/10cd0af0-bce5-4dfa-a888-05592f94c198"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-04T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-09T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-14T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

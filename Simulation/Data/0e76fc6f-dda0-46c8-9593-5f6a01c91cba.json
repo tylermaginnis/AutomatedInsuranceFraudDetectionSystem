@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0e76fc6f-dda0-46c8-9593-5f6a01c91cba",
+  "PolicyID": "8369fd3b-2ae6-4402-b299-90ab1fd5519f",
+  "EffectiveDates": {
+    "StartDate": "2023-09-21",
+    "EndDate": "2024-09-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "08e5999e-a8cf-4dbe-9eab-16cc2a746d88",
+    "Name": "Anthony Hutchinson",
+    "PolicyNumber": "8369fd3b-2ae6-4402-b299-90ab1fd5519f",
+    "ContactInformation": {
+      "Phone": "566-863-4797x38052",
+      "Email": "fsantiago@example.org",
+      "Address": "38463 Samantha Vista Apt. 770\nNorth Alison, AK 85002"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-10-09",
+    "Location": "998 Roberts Ports Suite 450\nKatrinaberg, WY 07561",
+    "Description": "Per program statement. Indeed cell budget interesting across firm figure. Pick bar test part.\nAlways painting themselves raise. Military ever generation different. Herself they look."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7965
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 32997
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2174
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6613
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2174
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 185952,
+    "TotalApproved": 100522
+  },
+  "AdjusterDetails": {
+    "Name": "Anthony Baker",
+    "ContactInformation": {
+      "Phone": "5744617020",
+      "Email": "bradley78@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/7155eeaa-2a3a-421c-9b5a-8995647ff7cc"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-10-09T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-10-14T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-10-19T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

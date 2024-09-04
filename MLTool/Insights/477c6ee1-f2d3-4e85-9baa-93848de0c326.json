@@ -1,0 +1,81 @@
+{
+    "ClaimID": "477c6ee1-f2d3-4e85-9baa-93848de0c326",
+    "PolicyID": "3c5b6217-e17d-4d99-a812-b9ad8a254f2a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-09",
+        "EndDate": "2024-10-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2d279f82-e724-4911-82b8-eb0448f7e41e",
+        "Name": "Debra Goodwin",
+        "PolicyNumber": "3c5b6217-e17d-4d99-a812-b9ad8a254f2a",
+        "ContactInformation": {
+            "Phone": "694.822.4709",
+            "Email": "christinebrown@example.com",
+            "Address": "160 Norris Trail Apt. 301\nRuizville, AL 70740"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-13",
+        "Location": "0859 Kelly Gateway Suite 532\nLake Christine, NE 70400",
+        "Description": "Size fight yard well. Pattern real indicate join too authority rather bad. Ago boy buy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36319
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38561
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4099
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 57397
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 194115
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 81169,
+        "TotalApproved": 18681
+    },
+    "AdjusterDetails": {
+        "Name": "Chelsea Cannon",
+        "ContactInformation": {
+            "Phone": "9798799190",
+            "Email": "shawn45@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1c6b44a2-168e-47a9-848f-6b0463b14c11"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-13T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-18T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-23T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

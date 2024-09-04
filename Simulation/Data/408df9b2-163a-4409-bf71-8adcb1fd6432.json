@@ -1,0 +1,80 @@
+{
+  "ClaimID": "408df9b2-163a-4409-bf71-8adcb1fd6432",
+  "PolicyID": "f723c61e-87fb-4a13-a027-499397a0f478",
+  "EffectiveDates": {
+    "StartDate": "2024-03-08",
+    "EndDate": "2025-03-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b64b039b-8ca3-42eb-a85b-aae29d215f96",
+    "Name": "Amanda Murray",
+    "PolicyNumber": "f723c61e-87fb-4a13-a027-499397a0f478",
+    "ContactInformation": {
+      "Phone": "517-702-1092",
+      "Email": "jeffery70@example.net",
+      "Address": "140 Kenneth Lane Suite 312\nNormanville, TX 93698"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-15",
+    "Location": "USS Lynch\nFPO AA 10651",
+    "Description": "Prepare car machine down. What way around thus plan wear. Moment suffer Congress individual entire customer.\nLeast should want send local goal. Drive end in position reality bed involve."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 29456
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 15743
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 47293
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4347
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6304
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 58018,
+    "TotalApproved": 45540
+  },
+  "AdjusterDetails": {
+    "Name": "Jamie Taylor",
+    "ContactInformation": {
+      "Phone": "6212133515",
+      "Email": "elizabethrios@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/d3257601-c520-45c0-9465-eab37a0cb512"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-15T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-20T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-25T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

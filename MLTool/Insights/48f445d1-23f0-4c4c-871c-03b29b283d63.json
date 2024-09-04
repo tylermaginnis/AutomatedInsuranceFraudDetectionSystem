@@ -1,0 +1,81 @@
+{
+    "ClaimID": "48f445d1-23f0-4c4c-871c-03b29b283d63",
+    "PolicyID": "ad1cf925-e467-432c-bbf9-70c3446b9059",
+    "EffectiveDates": {
+        "StartDate": "2024-01-02",
+        "EndDate": "2025-01-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "32372642-da38-4059-83ca-82e025d86ca0",
+        "Name": "Lucas Sanford",
+        "PolicyNumber": "ad1cf925-e467-432c-bbf9-70c3446b9059",
+        "ContactInformation": {
+            "Phone": "667.676.0791x1407",
+            "Email": "zhickman@example.org",
+            "Address": "940 Snow Knoll\nLindsayfort, ND 96025"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-14",
+        "Location": "378 Matthew Islands\nNorth Janicetown, VT 44506",
+        "Description": "Determine hold mean never election where card. Run above yourself. Summer manager bar management.\nOccur few individual. After provide structure impact interest direction."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45660
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42102
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47061
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 77544
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 163262
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 156278,
+        "TotalApproved": 91942
+    },
+    "AdjusterDetails": {
+        "Name": "Gary Smith",
+        "ContactInformation": {
+            "Phone": "479-301-2228x768",
+            "Email": "andrew85@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/529f5cec-c48e-4155-b7f1-f388e0244453"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-14T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-19T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-24T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

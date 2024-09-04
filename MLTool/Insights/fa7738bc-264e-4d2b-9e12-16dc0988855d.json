@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fa7738bc-264e-4d2b-9e12-16dc0988855d",
+    "PolicyID": "7340489a-aa24-47ff-bea1-9e18c1456c8e",
+    "EffectiveDates": {
+        "StartDate": "2023-09-28",
+        "EndDate": "2024-09-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6294fbb8-d2cf-4335-b93a-a6cdc239395a",
+        "Name": "Katherine Mcintyre",
+        "PolicyNumber": "7340489a-aa24-47ff-bea1-9e18c1456c8e",
+        "ContactInformation": {
+            "Phone": "229.689.7165x1231",
+            "Email": "millererica@example.net",
+            "Address": "07514 Ayala Mall\nEast Nicolebury, MD 20564"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-15",
+        "Location": "899 Sosa Hill\nCarolynburgh, MN 02951",
+        "Description": "Western decide cost himself opportunity animal for employee. Stay picture agent letter recently prevent probably.\nBeat issue bad early himself. Above happy poor happy study."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5992
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 66471
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3551
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4953
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 151293
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 100760,
+        "TotalApproved": 47202
+    },
+    "AdjusterDetails": {
+        "Name": "James Howard",
+        "ContactInformation": {
+            "Phone": "804-426-3241x1523",
+            "Email": "coxeric@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b11a1e62-f1b7-4316-a594-76795cbc3e5e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

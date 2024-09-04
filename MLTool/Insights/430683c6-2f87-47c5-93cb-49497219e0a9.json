@@ -1,0 +1,81 @@
+{
+    "ClaimID": "430683c6-2f87-47c5-93cb-49497219e0a9",
+    "PolicyID": "4fabe310-c8ab-4d93-a38f-56d7dda17717",
+    "EffectiveDates": {
+        "StartDate": "2023-10-24",
+        "EndDate": "2024-10-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d229a003-b949-49f8-a756-a0d362a02c1a",
+        "Name": "Alicia Kennedy",
+        "PolicyNumber": "4fabe310-c8ab-4d93-a38f-56d7dda17717",
+        "ContactInformation": {
+            "Phone": "(524)630-6697x49713",
+            "Email": "uknapp@example.net",
+            "Address": "318 Taylor Inlet Suite 503\nLake Dianeland, IL 18068"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-08",
+        "Location": "2565 West Pike Suite 103\nBridgesshire, TX 23892",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 70024
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36125
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9651
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14629
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13993
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144422,
+        "TotalApproved": 82779
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Reyes",
+        "ContactInformation": {
+            "Phone": "+1-491-472-0369",
+            "Email": "jmorgan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/984758d8-7ff8-4cb3-b9c5-3b85379ca8f0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

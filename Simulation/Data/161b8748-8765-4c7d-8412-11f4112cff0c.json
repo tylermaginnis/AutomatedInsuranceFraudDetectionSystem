@@ -1,0 +1,80 @@
+{
+  "ClaimID": "161b8748-8765-4c7d-8412-11f4112cff0c",
+  "PolicyID": "2f3201ff-0ef6-4a72-bdd4-1925a9709e30",
+  "EffectiveDates": {
+    "StartDate": "2023-10-09",
+    "EndDate": "2024-10-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "21489a1b-89b6-424e-8b25-ad7d24f12dbc",
+    "Name": "Anthony Gonzalez",
+    "PolicyNumber": "2f3201ff-0ef6-4a72-bdd4-1925a9709e30",
+    "ContactInformation": {
+      "Phone": "415-693-6869",
+      "Email": "brandtgary@example.org",
+      "Address": "PSC 1342, Box 0059\nAPO AP 64349"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-17",
+    "Location": "44181 Alicia Tunnel Apt. 247\nGonzalesland, WI 40417",
+    "Description": "Billion remember decision sense recent. Challenge point owner sound example wife skill economy. Protect central blue young single believe decade.\nActually record huge expect discuss."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 34991
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 122381
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15007
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5777
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 112723
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 178726,
+    "TotalApproved": 126860
+  },
+  "AdjusterDetails": {
+    "Name": "Lori Perez",
+    "ContactInformation": {
+      "Phone": "+1-205-311-8666x7784",
+      "Email": "ctaylor@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/cc21ac40-559c-442e-8b4e-8165c536fdde"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-17T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-22T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-27T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

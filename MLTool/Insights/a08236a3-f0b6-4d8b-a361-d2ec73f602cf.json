@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a08236a3-f0b6-4d8b-a361-d2ec73f602cf",
+    "PolicyID": "98236492-483c-432e-976c-4f945c9691c4",
+    "EffectiveDates": {
+        "StartDate": "2024-04-27",
+        "EndDate": "2025-04-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9d0e2cbd-f1cf-4329-b1f1-77624f8b08bf",
+        "Name": "Gregg Sullivan",
+        "PolicyNumber": "98236492-483c-432e-976c-4f945c9691c4",
+        "ContactInformation": {
+            "Phone": "+1-644-795-0866x55812",
+            "Email": "christopher47@example.com",
+            "Address": "Unit 1645 Box 8626\nDPO AE 98224"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-07",
+        "Location": "28297 Johnson Center\nPiercefurt, IN 77378",
+        "Description": "All particularly play them follow. Top space concern range great. Central minute education buy national common."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34296
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 70837
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19525
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 135967
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10819
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 34155,
+        "TotalApproved": 17989
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Neal",
+        "ContactInformation": {
+            "Phone": "2382527976",
+            "Email": "kbrown@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a2395679-97bb-4e9f-8206-8600bff46cac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

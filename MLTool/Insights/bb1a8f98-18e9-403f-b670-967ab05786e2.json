@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bb1a8f98-18e9-403f-b670-967ab05786e2",
+    "PolicyID": "2d76fcd1-2414-4fd0-8f69-a8df77abf17f",
+    "EffectiveDates": {
+        "StartDate": "2024-02-21",
+        "EndDate": "2025-02-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a17bac08-fa71-4678-8978-a523f9d11798",
+        "Name": "Kevin Perry",
+        "PolicyNumber": "2d76fcd1-2414-4fd0-8f69-a8df77abf17f",
+        "ContactInformation": {
+            "Phone": "001-260-899-6050x842",
+            "Email": "fernandezrachel@example.net",
+            "Address": "4076 Schroeder Road\nZacharyside, IN 13421"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-17",
+        "Location": "1821 Victoria Spurs Suite 697\nPhillipsborough, OH 47284",
+        "Description": "Various toward candidate form. White world difficult discover.\nTime agent never others. Lay eight soon name standard high energy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9569
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2596
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5138
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21889
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 122787
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 175647,
+        "TotalApproved": 125449
+    },
+    "AdjusterDetails": {
+        "Name": "Brianna Owens",
+        "ContactInformation": {
+            "Phone": "5183306972",
+            "Email": "jeanette09@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/584afd62-6204-4031-823c-90b7a9d25129"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-17T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-22T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-27T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

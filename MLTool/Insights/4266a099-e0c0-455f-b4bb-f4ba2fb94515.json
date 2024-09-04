@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4266a099-e0c0-455f-b4bb-f4ba2fb94515",
+    "PolicyID": "643cf1a4-956f-4428-9e88-0d61d1ec0cb7",
+    "EffectiveDates": {
+        "StartDate": "2024-06-14",
+        "EndDate": "2025-06-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "18876fea-8647-49ae-91df-f92e84573338",
+        "Name": "Cody Roach",
+        "PolicyNumber": "643cf1a4-956f-4428-9e88-0d61d1ec0cb7",
+        "ContactInformation": {
+            "Phone": "(914)665-4225",
+            "Email": "wrogers@example.org",
+            "Address": "48013 Moore Gardens\nBeltranside, MA 14015"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-22",
+        "Location": "55520 Simpson Square Apt. 345\nLake Elijah, LA 34022",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 73075
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42357
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8532
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12343
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13430
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 149737,
+        "TotalApproved": 122045
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Brown",
+        "ContactInformation": {
+            "Phone": "852.372.5965x16568",
+            "Email": "floreskristine@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/3f82632e-d06e-45c4-8f1c-e9342278d6fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-22T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-27T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-01T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

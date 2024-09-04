@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0caa2dce-53a8-46f4-917b-a633474f0961",
+  "PolicyID": "bd8a2441-7f3a-4467-a32c-40387ccea437",
+  "EffectiveDates": {
+    "StartDate": "2023-10-08",
+    "EndDate": "2024-10-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "070ff4cc-375c-405b-8735-25950340a771",
+    "Name": "Michael Hatfield",
+    "PolicyNumber": "bd8a2441-7f3a-4467-a32c-40387ccea437",
+    "ContactInformation": {
+      "Phone": "9296206377",
+      "Email": "martinsims@example.org",
+      "Address": "04863 Tyler Forks Suite 913\nJamesberg, AS 10176"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-29",
+    "Location": "123 Sonia Alley Apt. 684\nSharonhaven, VI 17898",
+    "Description": "Use information crime despite down. Car next window number its thought. Sometimes best carry myself street career study."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8338
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 22276
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2512
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 139298
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 112147
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 150770,
+    "TotalApproved": 64171
+  },
+  "AdjusterDetails": {
+    "Name": "Sarah Atkins",
+    "ContactInformation": {
+      "Phone": "(869)564-8780",
+      "Email": "camposmercedes@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/93f825d4-d5f9-407f-ba3d-d624b39b692f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-29T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-03T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-08T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

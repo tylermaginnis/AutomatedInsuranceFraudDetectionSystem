@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c8e6e4fd-e2e3-45dc-ae31-00528add0f8f",
+    "PolicyID": "3655a9e5-35bb-4ba3-940e-7b22f65aadbd",
+    "EffectiveDates": {
+        "StartDate": "2023-12-02",
+        "EndDate": "2024-12-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ab498fa9-de1b-49d2-b7e5-5ede71e02dfb",
+        "Name": "Marcia Steele",
+        "PolicyNumber": "3655a9e5-35bb-4ba3-940e-7b22f65aadbd",
+        "ContactInformation": {
+            "Phone": "001-738-607-6655",
+            "Email": "william56@example.org",
+            "Address": "4435 Bowman Mountains Suite 393\nEast Alexisburgh, RI 78740"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-25",
+        "Location": "395 Davis Row Suite 664\nWest Kimberlymouth, IL 51408",
+        "Description": "Computer a character occur quickly decide character seek. Economic well southern mother better ten billion style. Community quite green quickly central event."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6760
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2544
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 177149
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 89316
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27231
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 136566,
+        "TotalApproved": 68963
+    },
+    "AdjusterDetails": {
+        "Name": "Theresa Barrett",
+        "ContactInformation": {
+            "Phone": "472.660.6592",
+            "Email": "thomashudson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2fc63036-58ad-448b-8d86-5c8085fbfbd2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-25T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-30T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-05T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

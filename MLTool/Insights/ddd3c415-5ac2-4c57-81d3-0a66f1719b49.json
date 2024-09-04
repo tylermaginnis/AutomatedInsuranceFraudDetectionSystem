@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ddd3c415-5ac2-4c57-81d3-0a66f1719b49",
+    "PolicyID": "12a82075-ef34-4aa7-b757-17e1e875369e",
+    "EffectiveDates": {
+        "StartDate": "2024-08-26",
+        "EndDate": "2025-08-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f1278a62-0117-453c-8aff-4310b46ee646",
+        "Name": "Jacqueline Hoffman",
+        "PolicyNumber": "12a82075-ef34-4aa7-b757-17e1e875369e",
+        "ContactInformation": {
+            "Phone": "001-991-714-8690x045",
+            "Email": "paullopez@example.net",
+            "Address": "3048 Karen Parks Apt. 851\nLake Katelynview, DE 78153"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-18",
+        "Location": "15762 Harry Well Suite 287\nSouth Markville, PA 35877",
+        "Description": "Avoid produce citizen understand region short quickly amount. Movie person share road owner. Just mean responsibility alone worker.\nHear nothing place."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16090
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26458
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6495
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 91005
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36407
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 159528,
+        "TotalApproved": 114384
+    },
+    "AdjusterDetails": {
+        "Name": "Erin Hamilton",
+        "ContactInformation": {
+            "Phone": "(750)399-8944",
+            "Email": "johnanderson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1fa5c4f3-2392-462c-b85a-20d4bf8de7c4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-18T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-23T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-28T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

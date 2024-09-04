@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2a5c0a9b-e409-4e21-a316-e63f3aeb6998",
+  "PolicyID": "d2ba5fdf-270a-4de4-be09-0d7745e3b2cd",
+  "EffectiveDates": {
+    "StartDate": "2023-12-16",
+    "EndDate": "2024-12-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3bfb117e-bd57-42fb-b179-b7a186cb720b",
+    "Name": "Suzanne Smith",
+    "PolicyNumber": "d2ba5fdf-270a-4de4-be09-0d7745e3b2cd",
+    "ContactInformation": {
+      "Phone": "8009732060",
+      "Email": "jason62@example.com",
+      "Address": "USNV Alvarado\nFPO AE 06597"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-30",
+    "Location": "3960 Brittany Junction\nNew Claudiafort, ME 05302",
+    "Description": "Break clearly maybe any American avoid professional fish. Myself ground base me trade catch concern."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 24667
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8033
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13304
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 111386
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5489
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 129100,
+    "TotalApproved": 18090
+  },
+  "AdjusterDetails": {
+    "Name": "Anthony Barnes",
+    "ContactInformation": {
+      "Phone": "(564)608-6430",
+      "Email": "tolson@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/57fc3f77-b4a2-4b3c-b735-6cc879792bdc"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-30T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-04T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-09T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

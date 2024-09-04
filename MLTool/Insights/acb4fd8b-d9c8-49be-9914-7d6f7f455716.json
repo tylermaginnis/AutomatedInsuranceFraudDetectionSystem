@@ -1,0 +1,81 @@
+{
+    "ClaimID": "acb4fd8b-d9c8-49be-9914-7d6f7f455716",
+    "PolicyID": "357c7e1e-459c-47e5-a55a-4f98c17708d8",
+    "EffectiveDates": {
+        "StartDate": "2024-08-15",
+        "EndDate": "2025-08-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9b31dd88-2464-4a96-8ebe-54f09c2d087d",
+        "Name": "Maria Berg",
+        "PolicyNumber": "357c7e1e-459c-47e5-a55a-4f98c17708d8",
+        "ContactInformation": {
+            "Phone": "4009835599",
+            "Email": "wayne67@example.com",
+            "Address": "USNV Edwards\nFPO AE 09459"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-11",
+        "Location": "53734 John Grove Apt. 447\nWest Andreamouth, ND 95798",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 64607
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44381
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5524
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11127
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9607
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 135246,
+        "TotalApproved": 37514
+    },
+    "AdjusterDetails": {
+        "Name": "James Rodriguez",
+        "ContactInformation": {
+            "Phone": "202-633-4679",
+            "Email": "michaelguzman@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9c94c363-87d5-42dc-8b5d-5ea4b47c5c2e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-11T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-16T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-21T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

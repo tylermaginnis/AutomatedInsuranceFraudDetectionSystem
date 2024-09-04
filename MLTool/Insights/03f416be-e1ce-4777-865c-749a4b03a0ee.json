@@ -1,0 +1,81 @@
+{
+    "ClaimID": "03f416be-e1ce-4777-865c-749a4b03a0ee",
+    "PolicyID": "94f0fd5b-3e4e-4f83-b563-17a849df7acc",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fec0b1d6-d0cf-43bc-9973-917e84beb562",
+        "Name": "Richard Norman",
+        "PolicyNumber": "94f0fd5b-3e4e-4f83-b563-17a849df7acc",
+        "ContactInformation": {
+            "Phone": "+1-948-378-2333",
+            "Email": "raymond90@example.net",
+            "Address": "9100 Dawson Centers Apt. 846\nGloverburgh, WI 07559"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-03",
+        "Location": "75959 Lisa Inlet Suite 905\nHansenberg, PW 85011",
+        "Description": "Site long one. Notice order catch.\nKind way wish town. Idea marriage those green miss. Stuff them want piece."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31346
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32630
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20492
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41372
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2786
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 63961,
+        "TotalApproved": 25336
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Ward",
+        "ContactInformation": {
+            "Phone": "(525)523-7496x0938",
+            "Email": "kelseydaniels@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/67368bbf-5abb-45d2-a098-5295903b7da2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-03T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-08T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-13T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

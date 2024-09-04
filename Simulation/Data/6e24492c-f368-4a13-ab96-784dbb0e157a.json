@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6e24492c-f368-4a13-ab96-784dbb0e157a",
+  "PolicyID": "f89105c3-adfc-4fd3-aaee-802353d46f71",
+  "EffectiveDates": {
+    "StartDate": "2024-05-22",
+    "EndDate": "2025-05-22"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2999734b-8f47-4c73-b650-6c152334888c",
+    "Name": "Gina Wolfe",
+    "PolicyNumber": "f89105c3-adfc-4fd3-aaee-802353d46f71",
+    "ContactInformation": {
+      "Phone": "001-337-445-0662x2416",
+      "Email": "kristinatran@example.net",
+      "Address": "731 Hendricks Row\nSouth Sheenashire, MH 20360"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-31",
+    "Location": "5553 Davenport Parkway\nSouth Matthew, FM 41856",
+    "Description": "Position state sign draw grow. Between friend sound pattern reach better skin anything."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2707
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4556
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 24068
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1468
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 124082
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 146417,
+    "TotalApproved": 65305
+  },
+  "AdjusterDetails": {
+    "Name": "Beverly Donovan",
+    "ContactInformation": {
+      "Phone": "(570)476-2996x534",
+      "Email": "james21@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/6c900aff-2a6c-4de4-bd0f-71f1c595273f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-31T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-05T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-10T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

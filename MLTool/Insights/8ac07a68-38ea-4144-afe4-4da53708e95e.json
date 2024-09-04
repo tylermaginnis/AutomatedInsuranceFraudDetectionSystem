@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8ac07a68-38ea-4144-afe4-4da53708e95e",
+    "PolicyID": "28662ed9-6fcf-4b9b-8708-4e33065fc5c4",
+    "EffectiveDates": {
+        "StartDate": "2024-06-30",
+        "EndDate": "2025-06-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d813d76d-c8c3-41de-ba21-56b90e5c4ea6",
+        "Name": "Sarah Snyder",
+        "PolicyNumber": "28662ed9-6fcf-4b9b-8708-4e33065fc5c4",
+        "ContactInformation": {
+            "Phone": "+1-464-269-0137x75884",
+            "Email": "martincollin@example.org",
+            "Address": "322 Ricky Coves Suite 986\nHunterville, UT 59077"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-04",
+        "Location": "347 Cheryl View\nNew Susantown, WA 15788",
+        "Description": "Card guy month audience though table as. Whose time night whose grow include painting. Medical rich list phone voice chair."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31036
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7685
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22550
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3911
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11531
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 104392,
+        "TotalApproved": 57164
+    },
+    "AdjusterDetails": {
+        "Name": "Dwayne Banks",
+        "ContactInformation": {
+            "Phone": "+1-599-973-6321",
+            "Email": "michael36@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c5dd24bc-af7e-4662-ba05-0fc383dee8dc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-04T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-09T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-14T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

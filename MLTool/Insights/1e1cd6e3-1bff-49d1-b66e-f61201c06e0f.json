@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1e1cd6e3-1bff-49d1-b66e-f61201c06e0f",
+    "PolicyID": "1dc2ab94-1e13-4a55-8d18-17befe4030fa",
+    "EffectiveDates": {
+        "StartDate": "2024-04-13",
+        "EndDate": "2025-04-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "356cf3eb-9ac8-428c-a184-b49b7123992c",
+        "Name": "Kristin Reed",
+        "PolicyNumber": "1dc2ab94-1e13-4a55-8d18-17befe4030fa",
+        "ContactInformation": {
+            "Phone": "722.892.9098",
+            "Email": "wchung@example.com",
+            "Address": "6433 Hunter River Suite 907\nJohnsonbury, PA 29772"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-02",
+        "Location": "0724 Ricardo Underpass Apt. 217\nCoryside, WA 06682",
+        "Description": "Play resource economy. Character edge network stock kitchen sure. Down health late tell coach building power.\nConsumer impact school young. Sometimes daughter foreign."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 55870
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6182
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 62196
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 75778
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6046
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 174366,
+        "TotalApproved": 90678
+    },
+    "AdjusterDetails": {
+        "Name": "Stacy Thomas",
+        "ContactInformation": {
+            "Phone": "(898)433-8600x7565",
+            "Email": "ohodge@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/88465b30-c793-4650-b415-84b2155faf1b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

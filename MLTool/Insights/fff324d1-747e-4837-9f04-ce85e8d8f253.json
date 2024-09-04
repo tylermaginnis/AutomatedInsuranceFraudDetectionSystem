@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fff324d1-747e-4837-9f04-ce85e8d8f253",
+    "PolicyID": "4bf14818-5653-472a-9da6-8ce80e9ff202",
+    "EffectiveDates": {
+        "StartDate": "2024-06-22",
+        "EndDate": "2025-06-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f42d264a-e14d-4e6f-b793-3c93d5bbf0be",
+        "Name": "Laura Wright",
+        "PolicyNumber": "4bf14818-5653-472a-9da6-8ce80e9ff202",
+        "ContactInformation": {
+            "Phone": "001-790-301-6843x82472",
+            "Email": "daniel61@example.net",
+            "Address": "39987 Jillian Trafficway\nAnthonyshire, CT 10671"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-11",
+        "Location": "PSC 0780, Box 1381\nAPO AP 36567",
+        "Description": "Find practice medical article make never. Nice same trouble study. Spend rise table raise.\nResource choice operation eat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8573
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2895
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 194579
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1336
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16367
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 6442,
+        "TotalApproved": 1685
+    },
+    "AdjusterDetails": {
+        "Name": "Andre Durham",
+        "ContactInformation": {
+            "Phone": "709.702.7959x154",
+            "Email": "yweber@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4c28ff87-7940-414c-978e-f3c8c6e92e32"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

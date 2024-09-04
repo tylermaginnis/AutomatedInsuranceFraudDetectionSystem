@@ -1,0 +1,81 @@
+{
+    "ClaimID": "76f0cd32-c10b-4da4-b34e-aa89d8786bbf",
+    "PolicyID": "3f2275c9-eb2f-471c-af7b-fbe77177cc58",
+    "EffectiveDates": {
+        "StartDate": "2024-01-21",
+        "EndDate": "2025-01-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a3735aeb-7188-412a-b408-b350234beb49",
+        "Name": "Gail York",
+        "PolicyNumber": "3f2275c9-eb2f-471c-af7b-fbe77177cc58",
+        "ContactInformation": {
+            "Phone": "+1-504-974-2631x813",
+            "Email": "klee@example.org",
+            "Address": "PSC 0231, Box 9344\nAPO AE 15465"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-06",
+        "Location": "69434 House Rapid\nSouth Amyshire, PA 03688",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 89367
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39764
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9046
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24099
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6581
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 168857,
+        "TotalApproved": 142915
+    },
+    "AdjusterDetails": {
+        "Name": "Danielle Vega",
+        "ContactInformation": {
+            "Phone": "317-533-2677x9275",
+            "Email": "tinasmith@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b80082ee-9d5a-4308-b162-7ba11c4830f3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-06T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-11T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-16T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

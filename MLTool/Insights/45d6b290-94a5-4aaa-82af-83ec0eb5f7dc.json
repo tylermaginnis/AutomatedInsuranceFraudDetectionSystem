@@ -1,0 +1,81 @@
+{
+    "ClaimID": "45d6b290-94a5-4aaa-82af-83ec0eb5f7dc",
+    "PolicyID": "832a9722-9c2e-4735-a2c3-27e27979682f",
+    "EffectiveDates": {
+        "StartDate": "2024-08-25",
+        "EndDate": "2025-08-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "82ae8c53-829a-4d85-9e18-ecfb060caeb7",
+        "Name": "Corey Campbell",
+        "PolicyNumber": "832a9722-9c2e-4735-a2c3-27e27979682f",
+        "ContactInformation": {
+            "Phone": "324-383-0530x81375",
+            "Email": "craig37@example.org",
+            "Address": "991 Moore Extensions Suite 620\nNew Johnville, NC 84031"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-01",
+        "Location": "43841 Chad Parkways Suite 643\nBuckleyville, NV 14249",
+        "Description": "Institution collection prove. Set point thought control.\nList they charge answer visit couple."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3852
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11094
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40325
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 174446
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8167
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 167893,
+        "TotalApproved": 98459
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Sandoval DVM",
+        "ContactInformation": {
+            "Phone": "(665)993-0492x156",
+            "Email": "jennifer24@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/92208a75-aae2-414c-a5d3-2457e8c76eab"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

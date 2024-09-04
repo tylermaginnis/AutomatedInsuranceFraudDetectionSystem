@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1d31cce0-90de-465e-bdab-7aa6a8f56c13",
+    "PolicyID": "a6cf51fd-3e54-46ed-af73-4e74c03d01dc",
+    "EffectiveDates": {
+        "StartDate": "2024-02-16",
+        "EndDate": "2025-02-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bb3d8f8d-774d-4a3a-8e94-f7df914c59c1",
+        "Name": "Stephanie Bowen",
+        "PolicyNumber": "a6cf51fd-3e54-46ed-af73-4e74c03d01dc",
+        "ContactInformation": {
+            "Phone": "001-856-633-9244x39797",
+            "Email": "smithkaren@example.net",
+            "Address": "59403 Zachary Ranch Suite 499\nRowlandborough, NH 38129"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-02",
+        "Location": "48935 Larson Passage\nWhitemouth, MN 79822",
+        "Description": "Author professor response follow. Knowledge network pull hear today situation. Soldier stuff your shoulder director."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 85336
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6695
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4759
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36472
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5523
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 10807,
+        "TotalApproved": 7900
+    },
+    "AdjusterDetails": {
+        "Name": "Rhonda Mccoy",
+        "ContactInformation": {
+            "Phone": "260.713.2434x1749",
+            "Email": "halljacqueline@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2f9932a3-d80e-4b4a-a1ba-08fea542ff35"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

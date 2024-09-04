@@ -1,0 +1,81 @@
+{
+    "ClaimID": "44178400-73c8-40d7-a3b0-571132b7fccd",
+    "PolicyID": "7a6d66a0-0237-4b66-9186-28cc3a56f0c2",
+    "EffectiveDates": {
+        "StartDate": "2024-05-31",
+        "EndDate": "2025-05-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9f688f07-d647-48ae-9eed-f3d5da928c94",
+        "Name": "Dylan Mcintosh",
+        "PolicyNumber": "7a6d66a0-0237-4b66-9186-28cc3a56f0c2",
+        "ContactInformation": {
+            "Phone": "(847)307-4294",
+            "Email": "jasonbrown@example.com",
+            "Address": "961 Richard Mills\nTaylorfurt, CT 95101"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-09",
+        "Location": "58153 Riley Neck\nHallland, MO 43225",
+        "Description": "Various party return. Major way also they center free. Course raise treat indeed be success gas."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11290
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46974
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 62642
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47433
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 178848
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 19195,
+        "TotalApproved": 3010
+    },
+    "AdjusterDetails": {
+        "Name": "Cassandra Macdonald",
+        "ContactInformation": {
+            "Phone": "589-471-5810x82757",
+            "Email": "nicholasmcintyre@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e7a81358-feaf-48a1-bc4d-68306fbc1c13"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

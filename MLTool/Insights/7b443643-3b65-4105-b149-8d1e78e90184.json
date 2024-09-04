@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b443643-3b65-4105-b149-8d1e78e90184",
+    "PolicyID": "c4d07156-61d7-4817-9166-41637d82dceb",
+    "EffectiveDates": {
+        "StartDate": "2023-12-22",
+        "EndDate": "2024-12-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aecd018c-3d5c-4e8f-8aa5-6535f56c32c6",
+        "Name": "Ashley Perry",
+        "PolicyNumber": "c4d07156-61d7-4817-9166-41637d82dceb",
+        "ContactInformation": {
+            "Phone": "830.669.7679x92504",
+            "Email": "dawncrane@example.net",
+            "Address": "800 Renee Mount\nNew Josephborough, DC 96802"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-16",
+        "Location": "9389 Johnson Parkway Suite 201\nNew Kevinstad, AK 59185",
+        "Description": "Water key hair weight. Under surface future concern. Again structure military poor."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12731
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 89782
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2932
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17341
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10979
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 74926,
+        "TotalApproved": 68328
+    },
+    "AdjusterDetails": {
+        "Name": "John Lynn",
+        "ContactInformation": {
+            "Phone": "379-846-4223",
+            "Email": "galvanronald@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/d1fdb5d7-6e84-4626-85d4-54689ddce70e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

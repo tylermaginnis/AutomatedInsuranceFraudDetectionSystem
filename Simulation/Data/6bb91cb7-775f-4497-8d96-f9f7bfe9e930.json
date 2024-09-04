@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6bb91cb7-775f-4497-8d96-f9f7bfe9e930",
+  "PolicyID": "163d4d26-7bb0-4020-85af-7392ef5efe42",
+  "EffectiveDates": {
+    "StartDate": "2024-04-21",
+    "EndDate": "2025-04-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a7bf63d8-ddcc-4001-8f64-61515d30cdd4",
+    "Name": "Donna Peters",
+    "PolicyNumber": "163d4d26-7bb0-4020-85af-7392ef5efe42",
+    "ContactInformation": {
+      "Phone": "+1-709-871-8330x174",
+      "Email": "justin51@example.org",
+      "Address": "29149 Sheena Heights\nEast Elizabethland, ID 72770"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-03",
+    "Location": "3098 Samuel Spurs Apt. 918\nLake Johnmouth, AR 70237",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 69316
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 49428
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8021
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 22838
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 19249
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 168852,
+    "TotalApproved": 86211
+  },
+  "AdjusterDetails": {
+    "Name": "Patricia Bell",
+    "ContactInformation": {
+      "Phone": "001-616-440-7689x91755",
+      "Email": "lisa72@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/943aafc7-38d4-4913-9649-0abea729d688"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-03T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-08T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-13T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

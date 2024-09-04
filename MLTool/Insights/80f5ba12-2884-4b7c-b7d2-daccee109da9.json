@@ -1,0 +1,81 @@
+{
+    "ClaimID": "80f5ba12-2884-4b7c-b7d2-daccee109da9",
+    "PolicyID": "835c8c53-ef7b-4e13-b622-f1fc4b053d79",
+    "EffectiveDates": {
+        "StartDate": "2024-04-20",
+        "EndDate": "2025-04-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f114372f-1ce8-4305-bffd-17ac7a7b33cc",
+        "Name": "Brian Turner",
+        "PolicyNumber": "835c8c53-ef7b-4e13-b622-f1fc4b053d79",
+        "ContactInformation": {
+            "Phone": "001-419-826-1636",
+            "Email": "cgriffin@example.com",
+            "Address": "225 Moore Row\nPeterburgh, PA 75998"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-23",
+        "Location": "21252 Murillo Land Apt. 549\nSouth Brianmouth, PA 92275",
+        "Description": "Same kitchen drug vote. Middle religious thousand.\nPhone scene season reality. Perhaps speak without do. Play school body cover treat personal against."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36861
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 183238
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67255
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7187
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14424
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 42512,
+        "TotalApproved": 37426
+    },
+    "AdjusterDetails": {
+        "Name": "Donna Harrison",
+        "ContactInformation": {
+            "Phone": "2233884778",
+            "Email": "longdavid@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/95c1bfb8-011b-4182-a1c3-8262c8e81261"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-23T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-28T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-03T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8180899a-64ea-4dfb-abc1-7c049e58afde",
+    "PolicyID": "5afded68-660a-476d-94a6-bb8f7985350e",
+    "EffectiveDates": {
+        "StartDate": "2024-03-13",
+        "EndDate": "2025-03-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "08b38093-5fc4-46e8-a21f-1fe78220cdd0",
+        "Name": "Nathan Hampton",
+        "PolicyNumber": "5afded68-660a-476d-94a6-bb8f7985350e",
+        "ContactInformation": {
+            "Phone": "976-928-7766x771",
+            "Email": "john01@example.net",
+            "Address": "87036 Michael Dale Suite 965\nNew Randy, KS 08999"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-08",
+        "Location": "490 Beck Bypass\nEast Claudiaside, SC 70005",
+        "Description": "So sign experience build international federal item. Catch relationship option sell so partner."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 65148
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3123
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18518
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47036
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 75870
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 94456,
+        "TotalApproved": 67975
+    },
+    "AdjusterDetails": {
+        "Name": "David Obrien",
+        "ContactInformation": {
+            "Phone": "(683)428-0337x066",
+            "Email": "obriengabriela@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0d0ed8b1-7055-47c6-a0f5-e2b9183981d8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

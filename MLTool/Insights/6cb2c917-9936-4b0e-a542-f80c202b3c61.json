@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6cb2c917-9936-4b0e-a542-f80c202b3c61",
+    "PolicyID": "fe641f68-47ad-46fd-ae44-1f2f2e39ba0d",
+    "EffectiveDates": {
+        "StartDate": "2023-12-21",
+        "EndDate": "2024-12-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "afbb713c-460d-4997-9c4a-2f2d1c42fb2e",
+        "Name": "Samuel Gillespie",
+        "PolicyNumber": "fe641f68-47ad-46fd-ae44-1f2f2e39ba0d",
+        "ContactInformation": {
+            "Phone": "764-541-6238x60703",
+            "Email": "scottstacy@example.com",
+            "Address": "00182 Martinez Track\nNew Jacob, NJ 03789"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-08",
+        "Location": "256 Lee Villages Apt. 891\nStacyland, GU 48561",
+        "Description": "Than science fund seat out. Bill themselves car whatever share relationship agreement."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4684
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18632
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11780
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23391
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15043
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 71238,
+        "TotalApproved": 32418
+    },
+    "AdjusterDetails": {
+        "Name": "Charles Richard",
+        "ContactInformation": {
+            "Phone": "(879)501-7692x030",
+            "Email": "monicathomas@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ea7b1e65-69bf-498c-bab7-15510dbb3c96"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-08T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-13T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-18T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

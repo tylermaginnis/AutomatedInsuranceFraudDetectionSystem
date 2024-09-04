@@ -1,0 +1,81 @@
+{
+    "ClaimID": "39fc069a-8153-43e2-8826-f25cc0e5489c",
+    "PolicyID": "522936a9-9709-42ee-9ff2-464b8450d360",
+    "EffectiveDates": {
+        "StartDate": "2024-07-07",
+        "EndDate": "2025-07-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0a820bf6-23ce-4b54-8c6b-b674dbcb0ff9",
+        "Name": "Anthony Chen",
+        "PolicyNumber": "522936a9-9709-42ee-9ff2-464b8450d360",
+        "ContactInformation": {
+            "Phone": "889.978.0688x36583",
+            "Email": "pattersonshannon@example.org",
+            "Address": "Unit 0217 Box 0899\nDPO AE 61951"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-17",
+        "Location": "535 Amanda Walks Suite 577\nAlexview, AZ 23338",
+        "Description": "Finally run five join source approach wear. Police clear finish itself middle."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7043
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39665
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11085
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3896
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 92991
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116466,
+        "TotalApproved": 14132
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Solis",
+        "ContactInformation": {
+            "Phone": "+1-322-704-3225x6403",
+            "Email": "marcushanna@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1c012c21-0453-4bf8-a20e-ced8daa8c295"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

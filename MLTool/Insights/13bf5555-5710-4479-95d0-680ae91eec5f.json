@@ -1,0 +1,81 @@
+{
+    "ClaimID": "13bf5555-5710-4479-95d0-680ae91eec5f",
+    "PolicyID": "3553e3a4-e943-4ea2-a303-4cddc8b45be3",
+    "EffectiveDates": {
+        "StartDate": "2023-11-14",
+        "EndDate": "2024-11-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c5353a77-1eea-4ab2-99c3-3a0e856357eb",
+        "Name": "Paul Bonilla",
+        "PolicyNumber": "3553e3a4-e943-4ea2-a303-4cddc8b45be3",
+        "ContactInformation": {
+            "Phone": "397-202-9348",
+            "Email": "michellenicholson@example.net",
+            "Address": "PSC 4607, Box 9155\nAPO AP 50681"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-05",
+        "Location": "432 Lopez Prairie\nJonesfurt, WV 97245",
+        "Description": "Smile she do election. Eye window car campaign onto every. Piece wall choice sign ability.\nProduce social me sound hear. Thing sing item dark argue simply better there."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5650
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 153471
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 181700
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 103981
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39258
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 103590,
+        "TotalApproved": 37439
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Kennedy",
+        "ContactInformation": {
+            "Phone": "565.517.4490x34727",
+            "Email": "kedwards@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a4db508d-9f7d-44d3-9377-f55847c6401b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-05T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-10T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-15T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

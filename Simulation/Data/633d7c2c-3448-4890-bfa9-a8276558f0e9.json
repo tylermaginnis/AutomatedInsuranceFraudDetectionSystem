@@ -1,0 +1,80 @@
+{
+  "ClaimID": "633d7c2c-3448-4890-bfa9-a8276558f0e9",
+  "PolicyID": "f2605efa-96dc-499d-a0be-9f1c00896afb",
+  "EffectiveDates": {
+    "StartDate": "2024-02-04",
+    "EndDate": "2025-02-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "c093ca1c-5b05-43ca-980f-b0974144d45f",
+    "Name": "Thomas Horne",
+    "PolicyNumber": "f2605efa-96dc-499d-a0be-9f1c00896afb",
+    "ContactInformation": {
+      "Phone": "001-645-371-5114x9210",
+      "Email": "smorgan@example.net",
+      "Address": "30984 Christopher Ford Apt. 865\nJuanfurt, ME 62584"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-24",
+    "Location": "17692 Elijah Knoll\nDavisstad, MH 66632",
+    "Description": "Degree choose seat herself. Child so require war.\nBudget age establish process establish."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 69612
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5856
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 187615
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 51811
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 97697
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 155086,
+    "TotalApproved": 139697
+  },
+  "AdjusterDetails": {
+    "Name": "Kayla Ward",
+    "ContactInformation": {
+      "Phone": "301.364.0911",
+      "Email": "khamilton@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/ec782278-62df-442d-84a9-d3a332a29dcc"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-24T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-29T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-03T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

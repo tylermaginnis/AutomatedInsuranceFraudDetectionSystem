@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c84896fd-4426-423e-89fa-45220cb29bec",
+    "PolicyID": "07cb65d0-e155-44f5-b5c5-d438e25581f1",
+    "EffectiveDates": {
+        "StartDate": "2024-03-27",
+        "EndDate": "2025-03-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aa801f16-9c9c-4ee5-99b1-6cdd20fe93b4",
+        "Name": "Michael Elliott",
+        "PolicyNumber": "07cb65d0-e155-44f5-b5c5-d438e25581f1",
+        "ContactInformation": {
+            "Phone": "743-796-2627x4686",
+            "Email": "vanessa87@example.org",
+            "Address": "499 Hicks Estates\nOconnellmouth, AK 57743"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-08",
+        "Location": "Unit 6917 Box 3691\nDPO AE 69911",
+        "Description": "Child baby affect. Talk serious conference message get water measure consumer. Protect relate somebody occur evening trouble."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13198
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 131547
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9027
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 74958
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 52736
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 84109,
+        "TotalApproved": 20098
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Alvarez",
+        "ContactInformation": {
+            "Phone": "746-659-2036x955",
+            "Email": "william62@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2fe48b1a-cad5-4249-a4f7-0867566943fc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

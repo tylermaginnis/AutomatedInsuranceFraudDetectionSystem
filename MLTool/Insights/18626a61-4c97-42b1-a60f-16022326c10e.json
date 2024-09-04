@@ -1,0 +1,81 @@
+{
+    "ClaimID": "18626a61-4c97-42b1-a60f-16022326c10e",
+    "PolicyID": "a4d057ea-9bf3-43dd-b898-76a2bf31ebd6",
+    "EffectiveDates": {
+        "StartDate": "2024-04-08",
+        "EndDate": "2025-04-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6219d1b5-7b45-479b-b849-633d21311a5f",
+        "Name": "Daniel Mcmahon",
+        "PolicyNumber": "a4d057ea-9bf3-43dd-b898-76a2bf31ebd6",
+        "ContactInformation": {
+            "Phone": "001-455-367-8115x8788",
+            "Email": "umorgan@example.net",
+            "Address": "3614 Robert Station\nSouth Kim, ME 47788"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-07",
+        "Location": "982 Cobb Ports\nJamesshire, OH 39594",
+        "Description": "Recent office east town nice build.\nScientist everyone center hear including. Beat energy project position many."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7211
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18430
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8884
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 170414
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1495
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 177123,
+        "TotalApproved": 101634
+    },
+    "AdjusterDetails": {
+        "Name": "Ethan Scott",
+        "ContactInformation": {
+            "Phone": "(835)582-4028x3043",
+            "Email": "okelly@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e2108a77-a55b-48ec-a32b-ccf86530af83"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

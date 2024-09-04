@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e5cfc348-d9fc-4036-a3d6-00a06551b21d",
+    "PolicyID": "97eef2c0-9df8-44d0-9ca5-8d82a8d25239",
+    "EffectiveDates": {
+        "StartDate": "2024-06-15",
+        "EndDate": "2025-06-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7cea66ba-8bac-4e7d-aa15-dbbc342cd190",
+        "Name": "Robin Moore",
+        "PolicyNumber": "97eef2c0-9df8-44d0-9ca5-8d82a8d25239",
+        "ContactInformation": {
+            "Phone": "838-233-8219x595",
+            "Email": "daisychavez@example.org",
+            "Address": "538 Carlos Parkways\nNorth Rose, AS 13640"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-25",
+        "Location": "276 Robin Mount\nWest Pamelaburgh, AZ 08571",
+        "Description": "Thousand wait factor meet some. Child these section fact. Real do car decide hold campaign everything total."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6845
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 97653
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2795
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41991
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18837
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 158428,
+        "TotalApproved": 146308
+    },
+    "AdjusterDetails": {
+        "Name": "Jerry Brown",
+        "ContactInformation": {
+            "Phone": "(457)296-4497x2733",
+            "Email": "carlklein@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f7127aa0-3a87-4385-bd80-f1bbd94bf6ae"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-30T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

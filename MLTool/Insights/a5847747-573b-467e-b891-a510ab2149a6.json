@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a5847747-573b-467e-b891-a510ab2149a6",
+    "PolicyID": "698d7603-13a7-4ab7-b178-3ed8b60f39b8",
+    "EffectiveDates": {
+        "StartDate": "2024-02-02",
+        "EndDate": "2025-02-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2966199e-4ce8-4036-962a-73d6d4e043b4",
+        "Name": "Susan Miller",
+        "PolicyNumber": "698d7603-13a7-4ab7-b178-3ed8b60f39b8",
+        "ContactInformation": {
+            "Phone": "001-286-395-5172x172",
+            "Email": "anna55@example.net",
+            "Address": "USCGC Boyd\nFPO AP 60940"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-05",
+        "Location": "Unit 7573 Box 5342\nDPO AA 43334",
+        "Description": "Discuss use human avoid notice tax. Within under example against rest worker. Dog short sing ball method."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 184472
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31775
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49659
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 71848
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4344
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 121963,
+        "TotalApproved": 115644
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Johnson",
+        "ContactInformation": {
+            "Phone": "001-464-502-5613x3665",
+            "Email": "marywong@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e8632119-e5bb-4b02-83e1-d152a872120f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

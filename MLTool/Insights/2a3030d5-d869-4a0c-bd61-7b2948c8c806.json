@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2a3030d5-d869-4a0c-bd61-7b2948c8c806",
+    "PolicyID": "7452159b-4a44-492a-89c3-e337b60d60a0",
+    "EffectiveDates": {
+        "StartDate": "2023-12-15",
+        "EndDate": "2024-12-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c6bc9a8c-28ac-481b-9274-6bff16791b89",
+        "Name": "Peter Rose",
+        "PolicyNumber": "7452159b-4a44-492a-89c3-e337b60d60a0",
+        "ContactInformation": {
+            "Phone": "480.448.4008x7392",
+            "Email": "andrew00@example.com",
+            "Address": "839 Jose Mountain\nNorth Anthonyborough, MT 63364"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-29",
+        "Location": "802 Mason Curve Suite 862\nLake Christopherton, MP 70545",
+        "Description": "Act well decade feel great man doctor. Rate strategy go TV floor industry. Foreign now anyone like.\nForce year action try serve. Boy wear give north top report. Fact trip oil teacher wonder the."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38418
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 71687
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23082
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 139791
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18040
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 51670,
+        "TotalApproved": 17543
+    },
+    "AdjusterDetails": {
+        "Name": "Erica Lyons",
+        "ContactInformation": {
+            "Phone": "+1-337-276-1554x87832",
+            "Email": "kenneth48@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c199e21b-2425-4f7d-8af5-6872d18af9cb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-29T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-03T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-08T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

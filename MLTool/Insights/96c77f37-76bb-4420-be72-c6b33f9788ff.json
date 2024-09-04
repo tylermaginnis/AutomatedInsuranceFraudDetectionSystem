@@ -1,0 +1,81 @@
+{
+    "ClaimID": "96c77f37-76bb-4420-be72-c6b33f9788ff",
+    "PolicyID": "2d4521aa-0bd6-4080-91ea-54371d23eb6c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-20",
+        "EndDate": "2025-05-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "97d7cd20-83b0-4195-b9b0-14744e45a46c",
+        "Name": "Laura Deleon",
+        "PolicyNumber": "2d4521aa-0bd6-4080-91ea-54371d23eb6c",
+        "ContactInformation": {
+            "Phone": "8126904139",
+            "Email": "charleskatherine@example.net",
+            "Address": "137 Cobb Glen Apt. 459\nJohnsonland, GU 90709"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-30",
+        "Location": "2612 Webster Views Suite 196\nRonniebury, DE 40102",
+        "Description": "Though support choice somebody. Or above respond color language.\nDifference read knowledge threat. Case open relate run."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16154
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1696
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4020
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7536
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 139939
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 39565,
+        "TotalApproved": 28332
+    },
+    "AdjusterDetails": {
+        "Name": "Andrea Miranda",
+        "ContactInformation": {
+            "Phone": "256.887.4726x65322",
+            "Email": "thompsonanthony@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f61bc95b-2add-4182-bc86-3aea9e6be4c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

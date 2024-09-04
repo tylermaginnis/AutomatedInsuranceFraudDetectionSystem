@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5b45b9e1-9f70-4fe7-9c8d-5165a413fe4a",
+    "PolicyID": "77565c42-9044-4066-993e-09a1bae9f58d",
+    "EffectiveDates": {
+        "StartDate": "2023-10-13",
+        "EndDate": "2024-10-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "42edec6d-7c93-41d7-a9a1-693dacfef4be",
+        "Name": "Collin Jones",
+        "PolicyNumber": "77565c42-9044-4066-993e-09a1bae9f58d",
+        "ContactInformation": {
+            "Phone": "610.439.8392x78655",
+            "Email": "melissalopez@example.net",
+            "Address": "80951 Katherine Wells\nEast Jacobport, SC 45553"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-03",
+        "Location": "USCGC Sexton\nFPO AA 25172",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 57119
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39917
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5578
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19540
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6728
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 128882,
+        "TotalApproved": 11081
+    },
+    "AdjusterDetails": {
+        "Name": "Gregory Williams",
+        "ContactInformation": {
+            "Phone": "+1-285-629-9453x1200",
+            "Email": "jonathan41@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/40de1a05-416f-4880-b249-a70a10ad3989"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-03T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-08T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-13T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

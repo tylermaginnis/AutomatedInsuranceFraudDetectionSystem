@@ -1,0 +1,81 @@
+{
+    "ClaimID": "153ce01f-d01d-42ca-9596-ab16e55b40bc",
+    "PolicyID": "5e5353e4-64f4-4c1e-a5ec-454452ea142a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-14",
+        "EndDate": "2024-10-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5f372cf-eb91-4d56-8ba1-a93c20988fbf",
+        "Name": "David Smith",
+        "PolicyNumber": "5e5353e4-64f4-4c1e-a5ec-454452ea142a",
+        "ContactInformation": {
+            "Phone": "264-420-2739x1939",
+            "Email": "andrearay@example.net",
+            "Address": "6153 James Gateway\nEmilyland, UT 89214"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-05",
+        "Location": "187 Allen Groves Suite 137\nPort Jose, NM 59343",
+        "Description": "Outside with exactly every book item well. Movement good court full establish live. Young attack now particular out whom pull."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 51337
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 114951
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27336
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 83170
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5385
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 42072,
+        "TotalApproved": 25491
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Clayton",
+        "ContactInformation": {
+            "Phone": "3208912924",
+            "Email": "kirbyadam@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ea9e08f1-b631-4aaa-b643-fb3a40fd000b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

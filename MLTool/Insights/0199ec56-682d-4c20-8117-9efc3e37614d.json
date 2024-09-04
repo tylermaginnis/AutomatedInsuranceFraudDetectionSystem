@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0199ec56-682d-4c20-8117-9efc3e37614d",
+    "PolicyID": "6c179333-9131-4bb9-93dc-ee0d34b11834",
+    "EffectiveDates": {
+        "StartDate": "2024-03-08",
+        "EndDate": "2025-03-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6d9b667e-371b-4a13-80f7-5014aac965b8",
+        "Name": "Erica Boone",
+        "PolicyNumber": "6c179333-9131-4bb9-93dc-ee0d34b11834",
+        "ContactInformation": {
+            "Phone": "(606)484-0176",
+            "Email": "njones@example.org",
+            "Address": "873 Campos Underpass\nWest Austinview, WV 89720"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-03",
+        "Location": "0211 Duffy Mall\nWest Charlestown, TN 14524",
+        "Description": "Allow explain four wrong general lead surface. Politics particularly position mean sister.\nForm line practice capital including. Property current despite method leader machine."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17341
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 139071
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2991
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 152542
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 61530
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 177785,
+        "TotalApproved": 18507
+    },
+    "AdjusterDetails": {
+        "Name": "Carl Murray",
+        "ContactInformation": {
+            "Phone": "754.824.6848x96458",
+            "Email": "orrdonald@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f175296d-501c-4d99-8574-c2676ae825c0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

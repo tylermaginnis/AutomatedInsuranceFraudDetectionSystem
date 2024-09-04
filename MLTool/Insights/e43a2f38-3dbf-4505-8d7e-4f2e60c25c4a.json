@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e43a2f38-3dbf-4505-8d7e-4f2e60c25c4a",
+    "PolicyID": "8017f9fd-2bd1-4ce4-b6c8-601af30af98e",
+    "EffectiveDates": {
+        "StartDate": "2024-05-06",
+        "EndDate": "2025-05-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "58f76de6-cdcf-4eb0-82dc-ded51774b96e",
+        "Name": "Dakota Wilson",
+        "PolicyNumber": "8017f9fd-2bd1-4ce4-b6c8-601af30af98e",
+        "ContactInformation": {
+            "Phone": "398-693-0881x1403",
+            "Email": "alexander81@example.net",
+            "Address": "PSC 6719, Box 8000\nAPO AE 59363"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-25",
+        "Location": "623 Marshall Port\nBrendashire, CO 40063",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 56963
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 21893
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5061
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12353
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14268
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 110538,
+        "TotalApproved": 7854
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Mercado",
+        "ContactInformation": {
+            "Phone": "477.387.1851x7944",
+            "Email": "evansmadison@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d24e06fe-a42c-4057-b9a9-0d0ba81bad03"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-25T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-30T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-05T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

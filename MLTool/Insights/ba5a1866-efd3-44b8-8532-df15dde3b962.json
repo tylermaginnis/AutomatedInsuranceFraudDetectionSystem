@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ba5a1866-efd3-44b8-8532-df15dde3b962",
+    "PolicyID": "edfb229a-08fc-4e9e-adaf-f70f3fdf7016",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2821d24f-24b5-4d54-98ef-f1d33e58f6e0",
+        "Name": "Bill Cain",
+        "PolicyNumber": "edfb229a-08fc-4e9e-adaf-f70f3fdf7016",
+        "ContactInformation": {
+            "Phone": "+1-526-279-1694x8062",
+            "Email": "smithjose@example.net",
+            "Address": "945 Hanna Knolls\nElizabethburgh, VT 78128"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-15",
+        "Location": "79294 Traci Lights Suite 420\nGloverborough, MI 53859",
+        "Description": "Shake program get old decide song option. Speech rise relate movement bring. Between glass game community. Need surface letter two around hot.\nWatch foot create quite. Sport human more PM fine."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9260
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42570
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 60368
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 122854
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 25453
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 156078,
+        "TotalApproved": 130950
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Lewis",
+        "ContactInformation": {
+            "Phone": "557.318.9227",
+            "Email": "shirleyharris@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5c0b33a5-400a-4a32-b2b5-a61999746c9c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-15T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-20T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-25T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

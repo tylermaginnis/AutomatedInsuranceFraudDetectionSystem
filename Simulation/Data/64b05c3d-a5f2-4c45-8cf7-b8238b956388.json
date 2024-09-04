@@ -1,0 +1,80 @@
+{
+  "ClaimID": "64b05c3d-a5f2-4c45-8cf7-b8238b956388",
+  "PolicyID": "6d870df1-64a4-443d-a146-48a6f4d3fa81",
+  "EffectiveDates": {
+    "StartDate": "2024-04-25",
+    "EndDate": "2025-04-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "30d5b1a9-4da3-4d8e-aa15-e211556b99e6",
+    "Name": "Rebecca Fisher",
+    "PolicyNumber": "6d870df1-64a4-443d-a146-48a6f4d3fa81",
+    "ContactInformation": {
+      "Phone": "(230)642-3400",
+      "Email": "marshallmatthew@example.net",
+      "Address": "765 Moore Meadow Suite 107\nPort Corybury, DC 52462"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-06",
+    "Location": "8530 Jaime Glens\nDennisfurt, IA 67042",
+    "Description": "Place after thing soldier main. Fire less miss strong particularly like at.\nAt will responsibility finally rock dinner rule. Kitchen benefit responsibility theory remain."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 80368
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 21752
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 133816
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 11083
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5571
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 157869,
+    "TotalApproved": 43792
+  },
+  "AdjusterDetails": {
+    "Name": "Taylor Bryant",
+    "ContactInformation": {
+      "Phone": "435.871.8822x8704",
+      "Email": "michaelhughes@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/47b0c1e6-9270-455d-8826-c6ac8ae15e04"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-06T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-11T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-16T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

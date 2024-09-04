@@ -1,0 +1,81 @@
+{
+    "ClaimID": "71deebea-b233-41ea-aaa7-66ebdf7420c6",
+    "PolicyID": "5715c5f7-aa03-4911-a0e0-6f356255e0a8",
+    "EffectiveDates": {
+        "StartDate": "2024-07-01",
+        "EndDate": "2025-07-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "abda1bbd-778f-40bd-89e2-ea8aca347f87",
+        "Name": "Jared Morton",
+        "PolicyNumber": "5715c5f7-aa03-4911-a0e0-6f356255e0a8",
+        "ContactInformation": {
+            "Phone": "001-653-815-4610x33126",
+            "Email": "katelyn86@example.com",
+            "Address": "5324 Sanders Point\nWest Lisashire, MS 07746"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-19",
+        "Location": "828 Sean Brooks Apt. 995\nKennedyfurt, PW 50056",
+        "Description": "Drug floor task forward direction industry now.\nOften rate agency group. Dark final tough spend. Enough public mouth.\nCommercial environment allow mind."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35173
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28041
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8463
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32162
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41336
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 19073,
+        "TotalApproved": 10351
+    },
+    "AdjusterDetails": {
+        "Name": "David Cruz",
+        "ContactInformation": {
+            "Phone": "(702)490-4881",
+            "Email": "robertwilson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e202138c-e5dd-4df0-8094-ebfa40008932"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-19T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-24T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-01T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

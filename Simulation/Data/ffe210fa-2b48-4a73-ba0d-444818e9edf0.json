@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ffe210fa-2b48-4a73-ba0d-444818e9edf0",
+  "PolicyID": "1c849ce2-21b5-44bd-91e8-d171a98d9981",
+  "EffectiveDates": {
+    "StartDate": "2023-10-18",
+    "EndDate": "2024-10-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "dab5386f-6288-4cef-a029-7a8f269bdfdc",
+    "Name": "Kelsey Martinez",
+    "PolicyNumber": "1c849ce2-21b5-44bd-91e8-d171a98d9981",
+    "ContactInformation": {
+      "Phone": "403.997.4559x98764",
+      "Email": "jessicaschmidt@example.com",
+      "Address": "120 Harper Drives Suite 937\nBonniechester, RI 19035"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-31",
+    "Location": "598 Martin Manor\nDonaldton, MI 94430",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 50774
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 23887
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6641
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10069
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 16418
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 107789,
+    "TotalApproved": 96800
+  },
+  "AdjusterDetails": {
+    "Name": "Melinda Johnson",
+    "ContactInformation": {
+      "Phone": "(690)550-1933x42856",
+      "Email": "clarkalexandra@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/4aeeb069-aed9-4fd9-ab55-a0377b90f749"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-31T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-05T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-10T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

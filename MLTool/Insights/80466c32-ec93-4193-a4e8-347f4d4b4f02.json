@@ -1,0 +1,81 @@
+{
+    "ClaimID": "80466c32-ec93-4193-a4e8-347f4d4b4f02",
+    "PolicyID": "9d8bb0bb-985f-4ce5-97aa-a82491be283d",
+    "EffectiveDates": {
+        "StartDate": "2024-06-06",
+        "EndDate": "2025-06-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "93414317-480d-4454-b26f-faf4da50030e",
+        "Name": "Dustin Larsen",
+        "PolicyNumber": "9d8bb0bb-985f-4ce5-97aa-a82491be283d",
+        "ContactInformation": {
+            "Phone": "878.567.1632",
+            "Email": "kirsten11@example.org",
+            "Address": "802 Matthew Corner\nBrookechester, SC 75001"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-02",
+        "Location": "972 Seth Mountain\nCarterfurt, MS 86984",
+        "Description": "Organization father likely. Security technology everybody argue just action plan. Set anyone go child spend.\nTable develop north energy so issue. Ground early single price discuss talk the."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 91924
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14844
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 94931
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48171
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36790
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 66501,
+        "TotalApproved": 51597
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Barbara Mitchell MD",
+        "ContactInformation": {
+            "Phone": "387-405-8498x23986",
+            "Email": "judith06@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f7c6e8c2-0013-499f-8dc1-5e5c29ca0a81"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

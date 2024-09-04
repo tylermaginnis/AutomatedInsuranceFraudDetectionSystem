@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ace42669-4511-43c7-b14c-b3094eaa5609",
+    "PolicyID": "e1923fbd-f72d-494e-841d-bf9a41ccbe94",
+    "EffectiveDates": {
+        "StartDate": "2023-12-29",
+        "EndDate": "2024-12-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0a3244e3-92b7-4c87-a075-75c823f9d6bd",
+        "Name": "Patrick Lee",
+        "PolicyNumber": "e1923fbd-f72d-494e-841d-bf9a41ccbe94",
+        "ContactInformation": {
+            "Phone": "373.260.3646x1196",
+            "Email": "nicoleoliver@example.com",
+            "Address": "601 Peterson Run\nWest Deborah, CT 38541"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-27",
+        "Location": "2064 Rachel Village\nNorth Logan, SD 51077",
+        "Description": "Democratic per leave meeting area. Hundred still floor government reach crime. Worry hear deep night fight. Control choose child common space character want."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67219
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7885
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17779
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 69070
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8405
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 144159,
+        "TotalApproved": 23280
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Smith",
+        "ContactInformation": {
+            "Phone": "970-298-2018x89876",
+            "Email": "yedwards@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8c30474c-4df9-44f1-b254-1fe08499a103"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-02T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-07T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

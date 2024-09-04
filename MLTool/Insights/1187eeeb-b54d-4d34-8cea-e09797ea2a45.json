@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1187eeeb-b54d-4d34-8cea-e09797ea2a45",
+    "PolicyID": "d1673401-08ed-4582-ab55-13ab17734b5b",
+    "EffectiveDates": {
+        "StartDate": "2024-07-05",
+        "EndDate": "2025-07-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b6a7574-b1d9-4276-8541-00c8ccfcf58a",
+        "Name": "Christina Jackson",
+        "PolicyNumber": "d1673401-08ed-4582-ab55-13ab17734b5b",
+        "ContactInformation": {
+            "Phone": "223.569.1839x0716",
+            "Email": "harrisjohnathan@example.net",
+            "Address": "70677 Harris Stream Apt. 164\nNorth Amanda, MD 48919"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-01",
+        "Location": "36953 Dana Parkways Apt. 562\nNorth Jaimefort, WA 33886",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 72484
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44881
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6648
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29329
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9077
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 162419,
+        "TotalApproved": 39923
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Johnson",
+        "ContactInformation": {
+            "Phone": "(802)724-9584x206",
+            "Email": "angelaboyd@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6cc3bbd7-5d9f-4cf0-9ba8-b7233fdee667"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-01T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-06T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-11T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

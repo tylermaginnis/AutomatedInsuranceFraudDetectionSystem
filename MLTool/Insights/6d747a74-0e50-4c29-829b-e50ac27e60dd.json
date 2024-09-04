@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6d747a74-0e50-4c29-829b-e50ac27e60dd",
+    "PolicyID": "bf13a023-1d9b-4b7a-ad06-f89cc41f6bc8",
+    "EffectiveDates": {
+        "StartDate": "2024-08-08",
+        "EndDate": "2025-08-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c88559b7-0814-4386-bd37-27625fa52954",
+        "Name": "Deanna Pitts",
+        "PolicyNumber": "bf13a023-1d9b-4b7a-ad06-f89cc41f6bc8",
+        "ContactInformation": {
+            "Phone": "665.281.2297x2785",
+            "Email": "danielle59@example.org",
+            "Address": "6046 Bell Overpass\nAllisonhaven, MH 36797"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-17",
+        "Location": "153 Melissa Island\nTaylormouth, MT 67076",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 99462
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31908
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7253
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14229
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9200
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 162052,
+        "TotalApproved": 138882
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Freeman",
+        "ContactInformation": {
+            "Phone": "+1-686-473-5432x660",
+            "Email": "xluna@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7d0a682a-2b70-4754-b87d-47a901175f6f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-17T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-22T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-27T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

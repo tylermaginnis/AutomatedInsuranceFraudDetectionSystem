@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2a4148df-4d5d-4a02-b27d-4b96c9f2922a",
+    "PolicyID": "079c9906-e882-411c-bcbb-32d7f57ec62d",
+    "EffectiveDates": {
+        "StartDate": "2023-10-05",
+        "EndDate": "2024-10-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0cebbd3a-4e87-4ddd-a7e9-aa81c876499b",
+        "Name": "Terry Bender",
+        "PolicyNumber": "079c9906-e882-411c-bcbb-32d7f57ec62d",
+        "ContactInformation": {
+            "Phone": "001-515-816-7725",
+            "Email": "mary80@example.com",
+            "Address": "671 Kimberly Alley\nNew Daniel, OR 44858"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-15",
+        "Location": "6465 Ball Place\nLewismouth, AL 06135",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 93385
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47577
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7639
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27932
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13186
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 189719,
+        "TotalApproved": 41617
+    },
+    "AdjusterDetails": {
+        "Name": "Stacey Wolfe",
+        "ContactInformation": {
+            "Phone": "001-521-955-1226x7043",
+            "Email": "vcarlson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a96b5a47-51d7-4887-83e3-0ac5b37f7137"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-15T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-20T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-25T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

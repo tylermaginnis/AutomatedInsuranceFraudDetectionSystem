@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1073a50d-4790-4f0b-9ed1-90393ee2752d",
+    "PolicyID": "9914a416-39ca-482a-8089-3f91d6c5a198",
+    "EffectiveDates": {
+        "StartDate": "2024-02-11",
+        "EndDate": "2025-02-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "02caed19-7eae-48be-9fe4-27f9cda2c1fb",
+        "Name": "Matthew Gillespie",
+        "PolicyNumber": "9914a416-39ca-482a-8089-3f91d6c5a198",
+        "ContactInformation": {
+            "Phone": "409.959.3708",
+            "Email": "dominique39@example.org",
+            "Address": "3586 Ian Garden Suite 967\nHuffmanside, MS 48993"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-10",
+        "Location": "441 Erickson Lane Apt. 534\nJasonchester, MD 44772",
+        "Description": "Daughter much bring level enjoy. Particular contain enough American Republican. Treat difference stock light so."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9357
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 88679
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37733
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 61335
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 24914
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 80289,
+        "TotalApproved": 45164
+    },
+    "AdjusterDetails": {
+        "Name": "Todd Brown",
+        "ContactInformation": {
+            "Phone": "679-922-2918x14827",
+            "Email": "leonard13@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f991b103-ae18-4179-8254-ed5929c133fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-10T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-15T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-20T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

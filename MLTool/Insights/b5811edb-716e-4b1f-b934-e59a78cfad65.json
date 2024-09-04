@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b5811edb-716e-4b1f-b934-e59a78cfad65",
+    "PolicyID": "f23aaefc-43f0-4c68-91e3-5062d2d9423d",
+    "EffectiveDates": {
+        "StartDate": "2024-05-31",
+        "EndDate": "2025-05-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5c8ad610-b39c-4ffb-ab53-27754eb9abe7",
+        "Name": "Brendan Thomas",
+        "PolicyNumber": "f23aaefc-43f0-4c68-91e3-5062d2d9423d",
+        "ContactInformation": {
+            "Phone": "(484)387-3797",
+            "Email": "bevans@example.com",
+            "Address": "308 Hayes Lock\nMilesberg, KS 43429"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-02",
+        "Location": "371 Hull Forest Apt. 734\nPierceport, SD 81831",
+        "Description": "Experience home poor often window enjoy other. Gun forget because red serve break itself."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 72262
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14797
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6406
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10535
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22594
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 64238,
+        "TotalApproved": 29412
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Lynch",
+        "ContactInformation": {
+            "Phone": "423.421.9886",
+            "Email": "rarmstrong@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/507c312b-2dc1-4db4-bb94-f45aa62627e4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-02T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-07T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-12T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

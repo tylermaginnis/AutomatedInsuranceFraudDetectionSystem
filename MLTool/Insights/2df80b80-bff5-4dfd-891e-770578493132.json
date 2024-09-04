@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2df80b80-bff5-4dfd-891e-770578493132",
+    "PolicyID": "88eb5a9a-7feb-4222-b343-7378b24c14c3",
+    "EffectiveDates": {
+        "StartDate": "2024-07-15",
+        "EndDate": "2025-07-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e6b82973-ed68-4447-925b-bbcbdad7ed76",
+        "Name": "Natalie Mckinney",
+        "PolicyNumber": "88eb5a9a-7feb-4222-b343-7378b24c14c3",
+        "ContactInformation": {
+            "Phone": "575-689-7817",
+            "Email": "helen08@example.org",
+            "Address": "96545 White Mills Suite 548\nLauraberg, NH 33058"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-06",
+        "Location": "4175 Heather Shores Apt. 114\nNew Stacey, KY 70473",
+        "Description": "Best moment return.\nTest to break make. Quickly moment draw early.\nBook more game each teach sell. Around college attack seem Mr stand himself usually. Hold center magazine field sense."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4660
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 84741
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11452
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 199103
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37707
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 113689,
+        "TotalApproved": 86738
+    },
+    "AdjusterDetails": {
+        "Name": "Kenneth Williams",
+        "ContactInformation": {
+            "Phone": "686-654-1192",
+            "Email": "breyes@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b4929ea4-f412-476d-9a2b-92dd6ffb9ad4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

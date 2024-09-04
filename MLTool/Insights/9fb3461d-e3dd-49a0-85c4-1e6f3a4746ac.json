@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9fb3461d-e3dd-49a0-85c4-1e6f3a4746ac",
+    "PolicyID": "168732d3-272a-4afb-9ed0-6ee2d6e1e9a9",
+    "EffectiveDates": {
+        "StartDate": "2024-07-27",
+        "EndDate": "2025-07-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "80543ba5-3cad-432b-86e4-9523c77a5c54",
+        "Name": "Tiffany Allison",
+        "PolicyNumber": "168732d3-272a-4afb-9ed0-6ee2d6e1e9a9",
+        "ContactInformation": {
+            "Phone": "3502595001",
+            "Email": "greenkatherine@example.com",
+            "Address": "992 Blackwell Drive Apt. 521\nCalvinburgh, MH 49007"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-10",
+        "Location": "6057 Gonzalez Rue Suite 501\nNorth Corey, PW 40872",
+        "Description": "Event use the nothing eight appear. Recognize third prove often. Life adult paper during best inside.\nAfter generation woman from notice. Often security against white region."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37752
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 65519
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6483
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11306
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9289
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 80598,
+        "TotalApproved": 22857
+    },
+    "AdjusterDetails": {
+        "Name": "Drew Gonzalez",
+        "ContactInformation": {
+            "Phone": "001-592-919-1120",
+            "Email": "emiller@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/40d3077c-855b-4fd5-b91f-1b1c38117608"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-10T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-15T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-20T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

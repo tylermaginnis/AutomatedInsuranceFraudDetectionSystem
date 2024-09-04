@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d16958a0-baf9-485c-8c7f-dfbc15dc5ccc",
+    "PolicyID": "12e8559e-8f3f-40a0-8860-7af5884c11a3",
+    "EffectiveDates": {
+        "StartDate": "2024-03-06",
+        "EndDate": "2025-03-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ab7c6ed4-e104-4935-8f5d-f78bd04ceb1f",
+        "Name": "Cory Jones",
+        "PolicyNumber": "12e8559e-8f3f-40a0-8860-7af5884c11a3",
+        "ContactInformation": {
+            "Phone": "001-863-201-8219",
+            "Email": "deannajacobson@example.com",
+            "Address": "320 Sarah Square\nOconnellfurt, MD 44183"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-10",
+        "Location": "512 John Street\nRyanhaven, WV 96314",
+        "Description": "Friend cut city make. Letter pattern recent available.\nLong role effort mission yet laugh will young. Best another program month since. Effect coach inside experience important least us."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9346
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 130780
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6225
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7430
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9976
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 171469,
+        "TotalApproved": 35435
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Rodriguez",
+        "ContactInformation": {
+            "Phone": "314.317.3614x086",
+            "Email": "toni14@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/42555a76-e14c-4c40-8cb9-c0ef103cee2b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-10T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-15T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-20T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

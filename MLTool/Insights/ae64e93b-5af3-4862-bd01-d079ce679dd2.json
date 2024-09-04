@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ae64e93b-5af3-4862-bd01-d079ce679dd2",
+    "PolicyID": "4378080c-7f3d-47e0-baa7-2318c7edce31",
+    "EffectiveDates": {
+        "StartDate": "2024-01-28",
+        "EndDate": "2025-01-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "24cbc8ef-5780-453e-a8b2-27c291160df5",
+        "Name": "Stacy Day",
+        "PolicyNumber": "4378080c-7f3d-47e0-baa7-2318c7edce31",
+        "ContactInformation": {
+            "Phone": "(899)342-2046x065",
+            "Email": "ahansen@example.org",
+            "Address": "12991 Angela Hills Suite 189\nEast Rachelland, NY 78371"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-22",
+        "Location": "13467 Gomez Way\nWest Brianville, DC 19671",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 92349
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32429
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8972
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 25621
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15779
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 175150,
+        "TotalApproved": 94526
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Williams",
+        "ContactInformation": {
+            "Phone": "+1-596-691-8958",
+            "Email": "sschultz@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/71ddead4-eafa-488b-9d03-526d3874358d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-22T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-27T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-03T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "47a42064-d9cb-4a94-a982-331a7c10aa48",
+    "PolicyID": "5da9d479-0aa7-4c6d-8a33-a1e1631e0e36",
+    "EffectiveDates": {
+        "StartDate": "2023-11-06",
+        "EndDate": "2024-11-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4cb72922-864d-4fd1-bed1-6a31b116f95e",
+        "Name": "Kristie Ellis",
+        "PolicyNumber": "5da9d479-0aa7-4c6d-8a33-a1e1631e0e36",
+        "ContactInformation": {
+            "Phone": "001-494-219-4177x6900",
+            "Email": "pbell@example.org",
+            "Address": "831 Alexander Fall\nArieltown, WI 10294"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-10",
+        "Location": "7884 Mccarthy Inlet\nWest Patriciaton, IN 92549",
+        "Description": "Own run suggest oil produce. Example structure event. Former special rule crime sea.\nYour hotel executive although until small. Task member go senior. Wonder detail work sense return difficult."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 84482
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 166871
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9052
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 22778
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42655
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 106873,
+        "TotalApproved": 84603
+    },
+    "AdjusterDetails": {
+        "Name": "Denise Terry",
+        "ContactInformation": {
+            "Phone": "480-464-8154x2919",
+            "Email": "christyhopkins@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/eb930fdc-c17b-4ff0-b0fb-80c8cb0c6cda"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

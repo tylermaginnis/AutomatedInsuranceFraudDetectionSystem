@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ee63dd5b-98d4-4980-94d5-47e2e350adc5",
+    "PolicyID": "576ae285-2495-449c-a924-17a2ec36c24e",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9ca24d7c-6c2e-44f3-b1dc-0b43285f9b68",
+        "Name": "William Fernandez",
+        "PolicyNumber": "576ae285-2495-449c-a924-17a2ec36c24e",
+        "ContactInformation": {
+            "Phone": "+1-971-923-3528x914",
+            "Email": "martinjonathan@example.net",
+            "Address": "52026 Barry Extension Suite 738\nLake Alexander, SC 69028"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-04",
+        "Location": "8312 Brown View\nJeffreyfurt, PR 80116",
+        "Description": "Teacher treatment commercial race until law. Employee tough those deep so before pressure fast. Before could his have."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8782
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22465
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 66152
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47142
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7289
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 100699,
+        "TotalApproved": 42950
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Davis",
+        "ContactInformation": {
+            "Phone": "239.772.5055x3220",
+            "Email": "jacquelineprice@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a6b15040-7687-4b82-a49d-131ecd9b9546"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-04T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-09T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-14T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

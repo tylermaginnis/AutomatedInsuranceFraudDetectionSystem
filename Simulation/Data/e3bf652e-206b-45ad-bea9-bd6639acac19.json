@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e3bf652e-206b-45ad-bea9-bd6639acac19",
+  "PolicyID": "12eaa55d-3112-4854-ab9f-6d361c59c21a",
+  "EffectiveDates": {
+    "StartDate": "2024-05-25",
+    "EndDate": "2025-05-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "df122140-d00d-4d8f-92f1-0c6a010bf978",
+    "Name": "Bianca Tran",
+    "PolicyNumber": "12eaa55d-3112-4854-ab9f-6d361c59c21a",
+    "ContactInformation": {
+      "Phone": "001-655-762-7200",
+      "Email": "kschmidt@example.net",
+      "Address": "23404 Kimberly Shoal\nSarafort, DE 58290"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-04",
+    "Location": "04880 Martinez Harbors\nOscarberg, IA 84382",
+    "Description": "Around year while all space become interesting. Speech phone campaign argue Mr similar grow.\nNothing ready course cause class if cut. Guess individual board focus."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 19718
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1919
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1963
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 37512
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 27025
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 141308,
+    "TotalApproved": 5274
+  },
+  "AdjusterDetails": {
+    "Name": "David Rivers",
+    "ContactInformation": {
+      "Phone": "412-675-3718x0056",
+      "Email": "hpham@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/fa69c994-05e9-4621-b4d2-131481dfdd8e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-04T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-09T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-14T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

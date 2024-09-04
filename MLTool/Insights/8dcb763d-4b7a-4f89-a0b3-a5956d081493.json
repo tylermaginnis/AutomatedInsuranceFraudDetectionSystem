@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8dcb763d-4b7a-4f89-a0b3-a5956d081493",
+    "PolicyID": "77fe19d7-59db-4d62-85a0-e12935bf8a1b",
+    "EffectiveDates": {
+        "StartDate": "2024-04-03",
+        "EndDate": "2025-04-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7eb3a4a9-361a-4210-916b-89b35897bcee",
+        "Name": "Steven Evans",
+        "PolicyNumber": "77fe19d7-59db-4d62-85a0-e12935bf8a1b",
+        "ContactInformation": {
+            "Phone": "(214)795-1108x269",
+            "Email": "pgonzales@example.net",
+            "Address": "00059 Johnson Avenue\nAmandaville, NJ 90937"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-28",
+        "Location": "9850 Ferguson Summit\nNew Jamesberg, MI 69517",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 83250
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37001
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8294
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29963
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9613
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 168121,
+        "TotalApproved": 52510
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Edwards",
+        "ContactInformation": {
+            "Phone": "721.640.3017x07530",
+            "Email": "hhamilton@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e5a12b2d-36bd-4be9-8421-dfbbd422c131"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-02T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-07T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

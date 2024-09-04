@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1b91d126-2545-42f2-a07f-9842a4b74d1d",
+    "PolicyID": "68025c2c-0ef3-4d61-9ed1-ae287f8b5aba",
+    "EffectiveDates": {
+        "StartDate": "2024-05-20",
+        "EndDate": "2025-05-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e8f99806-04d7-4e13-978b-312d0c1b0174",
+        "Name": "Corey Alexander",
+        "PolicyNumber": "68025c2c-0ef3-4d61-9ed1-ae287f8b5aba",
+        "ContactInformation": {
+            "Phone": "985-402-5258",
+            "Email": "nhawkins@example.net",
+            "Address": "2131 Zimmerman Via Apt. 741\nSouth George, MA 66062"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-24",
+        "Location": "99459 Clements Ways Apt. 035\nChamberston, OK 52367",
+        "Description": "In nature political out matter state. Second beat threat child company benefit the drive. Change prepare natural environmental day difference art."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8590
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35595
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6044
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7139
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 191575
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 140817,
+        "TotalApproved": 83079
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Matthews",
+        "ContactInformation": {
+            "Phone": "213-877-0014",
+            "Email": "jessica89@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/59b8381b-6fc7-4212-9929-d5d7a6151065"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-24T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-29T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-03T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

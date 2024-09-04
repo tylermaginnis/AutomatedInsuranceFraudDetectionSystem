@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ed2eff3d-f89d-4e0f-ac19-639a1b72efab",
+    "PolicyID": "a02ed3df-c307-4270-8c83-8d2e450acf62",
+    "EffectiveDates": {
+        "StartDate": "2023-11-06",
+        "EndDate": "2024-11-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "de7363c4-4666-4731-8db8-531e9286c14f",
+        "Name": "Joseph Wagner",
+        "PolicyNumber": "a02ed3df-c307-4270-8c83-8d2e450acf62",
+        "ContactInformation": {
+            "Phone": "370.631.3717",
+            "Email": "hugheslucas@example.net",
+            "Address": "9495 Moore Mountains Apt. 514\nJeremyhaven, VA 33403"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-14",
+        "Location": "232 Mary Neck Apt. 929\nPort Seanland, GA 64907",
+        "Description": "What focus news. Quickly administration act act start mother. Friend factor shoulder recognize design. Available case thus skill."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71707
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3049
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8252
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11238
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 93099
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 10692,
+        "TotalApproved": 3172
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Le",
+        "ContactInformation": {
+            "Phone": "989-251-1681",
+            "Email": "mlove@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e07b6842-9e95-4891-913d-9ad95290ae38"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-14T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-19T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-24T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

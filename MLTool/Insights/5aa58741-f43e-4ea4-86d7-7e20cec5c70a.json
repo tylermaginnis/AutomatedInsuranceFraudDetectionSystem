@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5aa58741-f43e-4ea4-86d7-7e20cec5c70a",
+    "PolicyID": "94f0fd5b-3e4e-4f83-b563-17a849df7acc",
+    "EffectiveDates": {
+        "StartDate": "2023-11-25",
+        "EndDate": "2024-11-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fec0b1d6-d0cf-43bc-9973-917e84beb562",
+        "Name": "Richard Norman",
+        "PolicyNumber": "94f0fd5b-3e4e-4f83-b563-17a849df7acc",
+        "ContactInformation": {
+            "Phone": "+1-948-378-2333",
+            "Email": "raymond90@example.net",
+            "Address": "9100 Dawson Centers Apt. 846\nGloverburgh, WI 07559"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-31",
+        "Location": "45692 Stephen Mission Suite 072\nStephaniemouth, CT 56765",
+        "Description": "Score child his keep grow activity south. College show ever nothing responsibility plan.\nBuy simply rate recently executive best pressure. Reflect end usually financial six."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31420
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5569
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29186
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 74022
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6006
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 14418,
+        "TotalApproved": 10986
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Cooper",
+        "ContactInformation": {
+            "Phone": "001-862-261-3104x08625",
+            "Email": "mcbridestephanie@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/634e34dc-63d0-4ef9-89f0-bb2023233102"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-31T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-05T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-10T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

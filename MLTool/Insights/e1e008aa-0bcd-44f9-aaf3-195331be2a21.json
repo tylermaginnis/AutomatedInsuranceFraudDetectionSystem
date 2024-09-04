@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e1e008aa-0bcd-44f9-aaf3-195331be2a21",
+    "PolicyID": "66a8c66c-4937-4ce0-b254-79c10fdf9934",
+    "EffectiveDates": {
+        "StartDate": "2023-12-30",
+        "EndDate": "2024-12-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bab02878-0979-4da3-9f82-b5b36b1feadb",
+        "Name": "Jason Johnson",
+        "PolicyNumber": "66a8c66c-4937-4ce0-b254-79c10fdf9934",
+        "ContactInformation": {
+            "Phone": "2945367372",
+            "Email": "adamhoover@example.net",
+            "Address": "58590 Crystal Spring Apt. 848\nLake Wendy, NC 03757"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-04",
+        "Location": "8818 Holt Lane\nMichelleland, ID 63233",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 71873
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32349
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5459
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26116
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13875
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 149672,
+        "TotalApproved": 14093
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Thomas",
+        "ContactInformation": {
+            "Phone": "+1-610-521-5011x35882",
+            "Email": "kristen40@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6d272611-008a-415a-9b1d-fa453ee8c75d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-04T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-09T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-14T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a35be97b-6b08-4a9d-82db-a49d954a7bc9",
+    "PolicyID": "98b24e99-304a-463f-ac68-3a4c4eb22236",
+    "EffectiveDates": {
+        "StartDate": "2023-10-23",
+        "EndDate": "2024-10-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "79e8e846-7f6f-44f3-b01c-3a07d7244821",
+        "Name": "Heather Diaz",
+        "PolicyNumber": "98b24e99-304a-463f-ac68-3a4c4eb22236",
+        "ContactInformation": {
+            "Phone": "867.843.5919",
+            "Email": "raymond65@example.net",
+            "Address": "8905 Sarah Overpass\nJosephton, FL 70644"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-07",
+        "Location": "627 Lambert Passage\nMedinabury, UT 72278",
+        "Description": "Source sure together choice. Live present pretty sing.\nPick hair the physical. Side front hit side few. Theory young research identify already sound. Add at key cost."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20611
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 196329
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41301
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 93957
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44425
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 173240,
+        "TotalApproved": 35543
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Miles",
+        "ContactInformation": {
+            "Phone": "001-434-270-6780x6992",
+            "Email": "dennis69@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/61db729d-ac9f-4bd7-ac3b-f162227412ac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1b88926e-34c0-40e8-8cd0-8fc6e3dc382d",
+  "PolicyID": "2bb90e48-d617-400d-ae1b-d73e9d521ed3",
+  "EffectiveDates": {
+    "StartDate": "2024-04-25",
+    "EndDate": "2025-04-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8a6c09c0-63ed-4ed7-9fce-7ef48c12d2a6",
+    "Name": "Joshua Palmer",
+    "PolicyNumber": "2bb90e48-d617-400d-ae1b-d73e9d521ed3",
+    "ContactInformation": {
+      "Phone": "604-216-2881",
+      "Email": "portertodd@example.com",
+      "Address": "899 Richard Mill Apt. 683\nGeorgetown, IA 37746"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-03",
+    "Location": "534 Joel Place Suite 733\nWiseport, WV 34313",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 73397
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 37880
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5468
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 21757
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 15875
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 154377,
+    "TotalApproved": 60530
+  },
+  "AdjusterDetails": {
+    "Name": "Charles Marshall",
+    "ContactInformation": {
+      "Phone": "336-258-0125",
+      "Email": "shines@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/4ce7ed06-3932-4f7a-8cbb-98766eb3386a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-03T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-08T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-13T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

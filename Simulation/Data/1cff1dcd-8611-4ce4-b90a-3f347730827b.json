@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1cff1dcd-8611-4ce4-b90a-3f347730827b",
+  "PolicyID": "48806ebc-e12d-406e-bea6-ffc99258b3f0",
+  "EffectiveDates": {
+    "StartDate": "2024-03-08",
+    "EndDate": "2025-03-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8d6802a6-1b9d-46e9-b1d3-614ff19c84fb",
+    "Name": "Tara Edwards",
+    "PolicyNumber": "48806ebc-e12d-406e-bea6-ffc99258b3f0",
+    "ContactInformation": {
+      "Phone": "(475)394-1892",
+      "Email": "nsimmons@example.com",
+      "Address": "0062 Matthew Cove\nDannyfort, DC 78886"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-03",
+    "Location": "015 Victoria Plain Apt. 161\nLake Lauren, LA 33173",
+    "Description": "Board hundred manage positive. Month job one strategy concern evening. Tv recent fall charge catch cut.\nListen cause color Mr contain discuss read. West forget available."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3384
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5556
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 46662
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 37489
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5686
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 191080,
+    "TotalApproved": 173376
+  },
+  "AdjusterDetails": {
+    "Name": "Allison Wilson",
+    "ContactInformation": {
+      "Phone": "(301)855-3621",
+      "Email": "ryanjennifer@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/958b994c-900f-4574-825f-60d841ededeb"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-03T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-08T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-13T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

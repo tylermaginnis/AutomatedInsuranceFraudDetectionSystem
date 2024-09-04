@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c676b1eb-aca6-4af4-84da-b2edfbee8ea2",
+    "PolicyID": "3d559647-dfbd-40c1-9e63-307edb47947f",
+    "EffectiveDates": {
+        "StartDate": "2023-09-27",
+        "EndDate": "2024-09-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "60d76b1f-e5c2-40ba-bc94-4a289043dc77",
+        "Name": "Anthony Kennedy",
+        "PolicyNumber": "3d559647-dfbd-40c1-9e63-307edb47947f",
+        "ContactInformation": {
+            "Phone": "001-441-853-5686",
+            "Email": "jacob57@example.org",
+            "Address": "86731 Trevor Haven Suite 171\nNorth Amber, NE 80726"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-21",
+        "Location": "671 Sarah Estate Apt. 674\nNorth Timothyhaven, IN 50173",
+        "Description": "Interesting big admit interesting. Base office capital recent. Police scene still again.\nStructure cultural show once. Trade age least state society. Lose put central institution."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4572
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11148
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19697
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13916
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32794
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 178821,
+        "TotalApproved": 6749
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Watkins",
+        "ContactInformation": {
+            "Phone": "676.874.2809",
+            "Email": "sferguson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/23efd312-022a-43bb-a30a-9891550f7dbd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-21T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-26T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-31T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

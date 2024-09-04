@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7718080a-5716-4e3d-99c2-75c1a10171ba",
+    "PolicyID": "5049c69a-d63a-4817-b92b-731456381b76",
+    "EffectiveDates": {
+        "StartDate": "2023-10-10",
+        "EndDate": "2024-10-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "21636407-d892-4992-a47a-1886ddb0d2c4",
+        "Name": "Wanda Murray",
+        "PolicyNumber": "5049c69a-d63a-4817-b92b-731456381b76",
+        "ContactInformation": {
+            "Phone": "375-389-7009",
+            "Email": "bbernard@example.net",
+            "Address": "2635 Howard Streets\nChristopherville, LA 52075"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-14",
+        "Location": "251 Kristi Walk Apt. 991\nNew Angelashire, OK 22447",
+        "Description": "Travel among never heart develop require space. Answer long show as nature represent check occur. Range meeting success best Congress until customer account."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 168674
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37916
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 121668
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 68386
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37743
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 197134,
+        "TotalApproved": 163305
+    },
+    "AdjusterDetails": {
+        "Name": "James Frazier",
+        "ContactInformation": {
+            "Phone": "6044186664",
+            "Email": "brian89@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d1d2f722-c87c-4242-b0f6-21e191b24ae1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-14T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-19T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-24T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

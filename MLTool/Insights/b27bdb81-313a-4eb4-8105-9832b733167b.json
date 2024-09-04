@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b27bdb81-313a-4eb4-8105-9832b733167b",
+    "PolicyID": "21860ce0-70c8-41b8-b82b-c9cb3a608dc5",
+    "EffectiveDates": {
+        "StartDate": "2024-01-05",
+        "EndDate": "2025-01-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6d30d67d-5573-4d80-8504-5bd4f1f0cfdc",
+        "Name": "Martha Wright",
+        "PolicyNumber": "21860ce0-70c8-41b8-b82b-c9cb3a608dc5",
+        "ContactInformation": {
+            "Phone": "001-247-512-7530",
+            "Email": "danabennett@example.org",
+            "Address": "950 Sean Branch Apt. 871\nCharlesfurt, GA 51080"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-01",
+        "Location": "583 Matthew Parks Suite 968\nWest Tylerstad, ID 16249",
+        "Description": "Station position whole check popular government. Low season box investment forward care involve situation. Property despite no every data company through."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 176597
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44966
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 71111
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 195997
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5506
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 78792,
+        "TotalApproved": 26964
+    },
+    "AdjusterDetails": {
+        "Name": "Gina Newman",
+        "ContactInformation": {
+            "Phone": "+1-503-571-5767x22362",
+            "Email": "jamesjones@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1ba809e1-84a7-46a1-afbf-d812e2aa2eb9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

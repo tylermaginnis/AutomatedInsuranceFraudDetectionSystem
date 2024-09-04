@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3a3dc5f6-c990-4074-97d9-9429f6b718b8",
+    "PolicyID": "733d15ce-2285-49b1-9933-5020f18719ab",
+    "EffectiveDates": {
+        "StartDate": "2023-11-02",
+        "EndDate": "2024-11-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "51af62c8-834c-4d4f-8bf7-ff95d7f419ec",
+        "Name": "Russell Jacobs",
+        "PolicyNumber": "733d15ce-2285-49b1-9933-5020f18719ab",
+        "ContactInformation": {
+            "Phone": "(859)685-3694x50875",
+            "Email": "jonesangela@example.org",
+            "Address": "697 Veronica Rapid\nWest John, LA 52007"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-17",
+        "Location": "44100 Watkins Track\nLake Richardhaven, IN 69311",
+        "Description": "Property system dream check month water option. Director different lose difficult operation until approach."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25332
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6806
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 99814
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13302
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 58325
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 184786,
+        "TotalApproved": 105637
+    },
+    "AdjusterDetails": {
+        "Name": "Gina Miller",
+        "ContactInformation": {
+            "Phone": "+1-756-446-0230x056",
+            "Email": "nicholas19@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0506e7e0-b3f6-46f2-9dda-4e61f0d843a1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

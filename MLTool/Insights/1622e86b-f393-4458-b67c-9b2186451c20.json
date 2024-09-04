@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1622e86b-f393-4458-b67c-9b2186451c20",
+    "PolicyID": "3c66cea0-093d-4661-be63-eb28ec2dee23",
+    "EffectiveDates": {
+        "StartDate": "2024-06-29",
+        "EndDate": "2025-06-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8a580139-7f5d-4747-884d-e935723fe334",
+        "Name": "Kelly Nash",
+        "PolicyNumber": "3c66cea0-093d-4661-be63-eb28ec2dee23",
+        "ContactInformation": {
+            "Phone": "(286)956-7760",
+            "Email": "lisanielsen@example.com",
+            "Address": "USNV Stevenson\nFPO AE 19628"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-08",
+        "Location": "065 Matthew Haven Suite 789\nMichelleton, MD 89946",
+        "Description": "Education different hundred nearly word against billion. Ready any blue figure. Lawyer term own energy official adult form."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5853
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3488
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22932
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 131415
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17547
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 25195,
+        "TotalApproved": 3786
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Glover DVM",
+        "ContactInformation": {
+            "Phone": "746.936.9390",
+            "Email": "scottroberts@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e340327c-1509-4f75-95ff-cc475cb81710"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2acdb19f-5e72-43de-91d2-d1703a82ce82",
+    "PolicyID": "75de24a2-601c-4eb3-a088-1d3095cc10ab",
+    "EffectiveDates": {
+        "StartDate": "2024-02-25",
+        "EndDate": "2025-02-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e51c7f46-83b9-43b0-8c8c-993b0e5b3b0c",
+        "Name": "Laura Crane DVM",
+        "PolicyNumber": "75de24a2-601c-4eb3-a088-1d3095cc10ab",
+        "ContactInformation": {
+            "Phone": "491.314.0533x076",
+            "Email": "zjones@example.com",
+            "Address": "908 Sally Islands\nLake Becky, WA 97356"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-14",
+        "Location": "031 Fox Pass Suite 213\nBenjaminmouth, NJ 77798",
+        "Description": "Respond friend since class compare prove once. Important suffer investment TV person.\nSit that near always ok quality. Friend police pick."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7361
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5833
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20980
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6299
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1139
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 45150,
+        "TotalApproved": 10996
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Johnson",
+        "ContactInformation": {
+            "Phone": "+1-869-401-4873x45761",
+            "Email": "ashley66@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/98fb026c-d7b8-4087-9b2d-8c58b1afe4a4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

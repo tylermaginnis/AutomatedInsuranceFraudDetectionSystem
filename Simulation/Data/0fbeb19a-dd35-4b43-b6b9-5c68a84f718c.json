@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0fbeb19a-dd35-4b43-b6b9-5c68a84f718c",
+  "PolicyID": "ab42dbe8-dfd4-4fdd-960f-37e815e80eea",
+  "EffectiveDates": {
+    "StartDate": "2024-03-11",
+    "EndDate": "2025-03-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7363c102-9320-403e-861a-bdb9fe2520ca",
+    "Name": "Eric Curry",
+    "PolicyNumber": "ab42dbe8-dfd4-4fdd-960f-37e815e80eea",
+    "ContactInformation": {
+      "Phone": "(534)615-3415",
+      "Email": "rwilliams@example.net",
+      "Address": "0547 Mills Rest\nNorth Jamesview, AS 95022"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-16",
+    "Location": "261 Wright Divide Apt. 320\nEast Robertport, AZ 90071",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 93816
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 33390
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5979
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 28321
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15354
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 176860,
+    "TotalApproved": 68778
+  },
+  "AdjusterDetails": {
+    "Name": "Megan Fields",
+    "ContactInformation": {
+      "Phone": "312-748-7538x06114",
+      "Email": "stewartjohn@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/f30df6de-98aa-4433-89a8-49bfe43d4a5c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-16T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-21T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-26T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

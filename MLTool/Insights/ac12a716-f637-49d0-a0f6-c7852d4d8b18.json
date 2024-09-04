@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ac12a716-f637-49d0-a0f6-c7852d4d8b18",
+    "PolicyID": "2b916ae0-4886-473c-8016-e62b8dd75923",
+    "EffectiveDates": {
+        "StartDate": "2024-02-18",
+        "EndDate": "2025-02-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "630ca475-8a26-4721-8f12-14797680e1d4",
+        "Name": "Jessica Harris",
+        "PolicyNumber": "2b916ae0-4886-473c-8016-e62b8dd75923",
+        "ContactInformation": {
+            "Phone": "+1-866-668-7782",
+            "Email": "connieshannon@example.org",
+            "Address": "8460 Jason Neck\nBenderview, IA 74103"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-14",
+        "Location": "974 Maria Ports\nLake Joseph, NH 24178",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 53943
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41786
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6385
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13474
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12796
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 128384,
+        "TotalApproved": 121611
+    },
+    "AdjusterDetails": {
+        "Name": "Kim Alvarado",
+        "ContactInformation": {
+            "Phone": "960.299.2698",
+            "Email": "kellyashley@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6151d983-2371-4c45-a8ae-fcbc0cda36e4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-14T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-19T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-24T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

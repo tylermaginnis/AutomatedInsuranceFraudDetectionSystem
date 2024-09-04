@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c0ad1f2a-1a3e-4ed4-9157-be08d99ec5c0",
+    "PolicyID": "18d14133-211d-4eba-9faa-d154c47ecfa4",
+    "EffectiveDates": {
+        "StartDate": "2024-01-11",
+        "EndDate": "2025-01-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bc9e28b6-293e-4383-87cb-002688c5ce4d",
+        "Name": "Christine Mendoza",
+        "PolicyNumber": "18d14133-211d-4eba-9faa-d154c47ecfa4",
+        "ContactInformation": {
+            "Phone": "3813465633",
+            "Email": "crystalsmith@example.net",
+            "Address": "40332 Courtney Station Apt. 286\nWolfeport, TN 74748"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-25",
+        "Location": "04898 Erin Isle\nBryantshire, CA 90166",
+        "Description": "Back field after per commercial theory push. Bed suffer start represent various.\nItself long reality skill I. Need of kitchen short.\nAlone surface these church that."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3290
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7094
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3838
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 94428
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4219
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 108727,
+        "TotalApproved": 88139
+    },
+    "AdjusterDetails": {
+        "Name": "Carol Murphy",
+        "ContactInformation": {
+            "Phone": "001-972-753-7709x579",
+            "Email": "monicatucker@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6b3d5441-8ac2-481d-affd-0340c6cee8c7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-25T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-30T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-04T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

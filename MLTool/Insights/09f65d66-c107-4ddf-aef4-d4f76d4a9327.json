@@ -1,0 +1,81 @@
+{
+    "ClaimID": "09f65d66-c107-4ddf-aef4-d4f76d4a9327",
+    "PolicyID": "1587bf5f-0e98-4997-b759-82ae280ce61a",
+    "EffectiveDates": {
+        "StartDate": "2023-12-25",
+        "EndDate": "2024-12-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "22c06208-fc4f-4c97-b319-58cf6c7d0d91",
+        "Name": "Michael Guzman",
+        "PolicyNumber": "1587bf5f-0e98-4997-b759-82ae280ce61a",
+        "ContactInformation": {
+            "Phone": "(346)413-7873",
+            "Email": "dtrujillo@example.org",
+            "Address": "168 Julie Knolls Apt. 018\nSouth Charles, TX 67235"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-11",
+        "Location": "612 Adams Lake Suite 439\nSouth Maria, IN 58789",
+        "Description": "Leader whom present item someone. Maybe loss example seven type minute buy. Force strong way number media force society."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30779
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4980
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5383
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 187424
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 74789
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 69533,
+        "TotalApproved": 58909
+    },
+    "AdjusterDetails": {
+        "Name": "Samuel Perkins",
+        "ContactInformation": {
+            "Phone": "(637)863-2885x92489",
+            "Email": "vmckinney@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9ffad417-2bcf-455d-8e4e-0aa62a71f4cd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-11T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-16T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-21T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

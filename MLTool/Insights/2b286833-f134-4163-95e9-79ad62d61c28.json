@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2b286833-f134-4163-95e9-79ad62d61c28",
+    "PolicyID": "11de28cb-2474-47fb-9fbc-e30f1ea5029f",
+    "EffectiveDates": {
+        "StartDate": "2024-06-30",
+        "EndDate": "2025-06-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9ea9ffa4-d0e6-4d28-a910-be8dac2f7a87",
+        "Name": "Edwin Eaton",
+        "PolicyNumber": "11de28cb-2474-47fb-9fbc-e30f1ea5029f",
+        "ContactInformation": {
+            "Phone": "001-374-554-5353x38503",
+            "Email": "mariah96@example.com",
+            "Address": "336 Kevin Passage\nJenniferberg, ME 11532"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-22",
+        "Location": "479 Scott Stream Apt. 295\nEast Kennethmouth, NV 78394",
+        "Description": "Owner middle experience share daughter remain carry.\nBag one affect box through cultural participant. Similar father she early.\nListen occur who. Mention each while product."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 89980
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26178
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 67367
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5796
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48134
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 150983,
+        "TotalApproved": 62238
+    },
+    "AdjusterDetails": {
+        "Name": "Nancy Daugherty",
+        "ContactInformation": {
+            "Phone": "404-377-6788",
+            "Email": "dchristensen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/08cbb045-ce1d-4acb-a692-d77b66a835c2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-02T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

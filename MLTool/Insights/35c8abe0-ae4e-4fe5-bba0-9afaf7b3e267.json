@@ -1,0 +1,81 @@
+{
+    "ClaimID": "35c8abe0-ae4e-4fe5-bba0-9afaf7b3e267",
+    "PolicyID": "1bddfd49-385e-427f-9366-f7db3191a9b6",
+    "EffectiveDates": {
+        "StartDate": "2024-01-01",
+        "EndDate": "2024-12-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8e668d66-bc79-43ec-af86-b927d8ba69fb",
+        "Name": "Noah Collins",
+        "PolicyNumber": "1bddfd49-385e-427f-9366-f7db3191a9b6",
+        "ContactInformation": {
+            "Phone": "866.438.8811",
+            "Email": "john92@example.com",
+            "Address": "7169 William Ports\nNew Priscillastad, ND 83471"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-27",
+        "Location": "631 Russell Branch\nNew Monicahaven, PW 10665",
+        "Description": "Word full card only read player thus. Father produce national opportunity. Similar have protect girl create identify until."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6158
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4842
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4130
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11747
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 43678
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 78520,
+        "TotalApproved": 30609
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Wilson",
+        "ContactInformation": {
+            "Phone": "336-304-3826x79165",
+            "Email": "gcoffey@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/74b588c2-c0ab-41ea-be9e-d69d5197caf7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-27T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-01T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-06T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

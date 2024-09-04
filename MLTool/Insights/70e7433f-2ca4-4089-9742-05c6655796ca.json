@@ -1,0 +1,81 @@
+{
+    "ClaimID": "70e7433f-2ca4-4089-9742-05c6655796ca",
+    "PolicyID": "7dde2a4f-162a-454b-afcc-010d5091e8c8",
+    "EffectiveDates": {
+        "StartDate": "2024-05-19",
+        "EndDate": "2025-05-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cee2d16d-5613-47e7-a6cc-382eca28e9b0",
+        "Name": "Paul Ross",
+        "PolicyNumber": "7dde2a4f-162a-454b-afcc-010d5091e8c8",
+        "ContactInformation": {
+            "Phone": "(656)548-9839x59495",
+            "Email": "christopher11@example.org",
+            "Address": "37233 Nathan Shores\nReidstad, SD 59069"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-11",
+        "Location": "68868 Jones Ranch Suite 591\nEast Henryfurt, AZ 37431",
+        "Description": "Personal local conference like. Message make oil old someone best.\nFoot talk field appear democratic whatever describe. Necessary soldier quality player."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2662
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 171819
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49875
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 75304
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16111
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 42905,
+        "TotalApproved": 23185
+    },
+    "AdjusterDetails": {
+        "Name": "Earl Munoz",
+        "ContactInformation": {
+            "Phone": "(331)861-7374x8759",
+            "Email": "davissydney@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/627c93c3-26ae-47a0-ab20-9f98cc77367d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

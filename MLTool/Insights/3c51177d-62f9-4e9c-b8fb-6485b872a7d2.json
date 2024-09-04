@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3c51177d-62f9-4e9c-b8fb-6485b872a7d2",
+    "PolicyID": "95b62e14-1f1f-4318-8696-32c7522a5d3f",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5e2fa50-25cb-4fd2-8abd-b6f0dc6ab17e",
+        "Name": "Laurie Frost",
+        "PolicyNumber": "95b62e14-1f1f-4318-8696-32c7522a5d3f",
+        "ContactInformation": {
+            "Phone": "925-414-6807x8451",
+            "Email": "hannahcalhoun@example.org",
+            "Address": "90727 Kenneth Prairie Suite 928\nLake Rebecca, LA 37225"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-13",
+        "Location": "3846 Daugherty Islands Apt. 329\nNorth Julie, RI 91022",
+        "Description": "Shake room fall business. Stuff way still beyond paper level call food.\nCold reflect both across want.\nFactor court company force late enter one. Lawyer she much item."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12671
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 68331
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 155077
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34452
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2956
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 175916,
+        "TotalApproved": 106228
+    },
+    "AdjusterDetails": {
+        "Name": "Jeanne Wilson",
+        "ContactInformation": {
+            "Phone": "499-725-0844",
+            "Email": "kimberly32@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c3e1add4-9592-48af-8994-53ddf6fd43fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-13T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-18T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-23T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

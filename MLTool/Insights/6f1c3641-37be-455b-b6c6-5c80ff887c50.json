@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6f1c3641-37be-455b-b6c6-5c80ff887c50",
+    "PolicyID": "8f23158c-7500-4322-9a55-044e14057637",
+    "EffectiveDates": {
+        "StartDate": "2024-07-01",
+        "EndDate": "2025-07-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d5bf0c24-5341-4c01-8e23-ecebd7cc6793",
+        "Name": "Douglas Abbott",
+        "PolicyNumber": "8f23158c-7500-4322-9a55-044e14057637",
+        "ContactInformation": {
+            "Phone": "+1-799-651-3526",
+            "Email": "ebrown@example.com",
+            "Address": "933 April Rue Suite 410\nJessicafurt, CT 58894"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-22",
+        "Location": "598 Sandra Ridges\nNew Zachary, AL 55789",
+        "Description": "Use range all race.\nCity because inside training. Result especially about as color past star. Instead dark traditional window situation."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 82681
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45645
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 28635
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7294
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1067
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 198446,
+        "TotalApproved": 134703
+    },
+    "AdjusterDetails": {
+        "Name": "Amber Bell",
+        "ContactInformation": {
+            "Phone": "619-718-6446x200",
+            "Email": "jennifer43@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/df38ac0c-09cc-462e-8135-15e022c5204c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-22T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-27T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-01T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

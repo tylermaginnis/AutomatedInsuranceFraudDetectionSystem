@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c9d36d5f-fb1a-4d77-b7c4-cdda0c621532",
+    "PolicyID": "d3fef425-831c-4580-a2bf-59ac55fea6e1",
+    "EffectiveDates": {
+        "StartDate": "2024-01-07",
+        "EndDate": "2025-01-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9d250b5a-ada1-4c74-b0df-b9f474df0420",
+        "Name": "Julie Taylor",
+        "PolicyNumber": "d3fef425-831c-4580-a2bf-59ac55fea6e1",
+        "ContactInformation": {
+            "Phone": "580.344.2826x35277",
+            "Email": "robertdavis@example.org",
+            "Address": "PSC 7719, Box 8736\nAPO AA 85317"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-27",
+        "Location": "93818 Larson Isle\nElizabethport, MO 18532",
+        "Description": "Fall today beautiful. Without brother than laugh myself."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 166353
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1758
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33507
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16903
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 151317
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 136859,
+        "TotalApproved": 77826
+    },
+    "AdjusterDetails": {
+        "Name": "Phillip Wilkins",
+        "ContactInformation": {
+            "Phone": "+1-331-717-4938",
+            "Email": "wyatt41@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b37a7ca4-beea-4965-8313-1909afbc62ac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-01T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-06T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4c71b842-b101-4b9d-aea4-fc30ed099da2",
+    "PolicyID": "e10fc6b5-87f2-4ad4-83bb-5e55f167c6dd",
+    "EffectiveDates": {
+        "StartDate": "2024-02-02",
+        "EndDate": "2025-02-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "aeef4086-71fb-400d-b16d-4e6dfcd04a7c",
+        "Name": "Andrew Farrell",
+        "PolicyNumber": "e10fc6b5-87f2-4ad4-83bb-5e55f167c6dd",
+        "ContactInformation": {
+            "Phone": "4829046795",
+            "Email": "carrie96@example.net",
+            "Address": "03477 Gomez Park\nHarrisborough, OK 18701"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-16",
+        "Location": "30605 Gonzalez Square Apt. 679\nEast Jill, MO 08809",
+        "Description": "Generation pass concern walk he Mrs. Between the after represent government go trip take."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18145
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7426
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49260
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 92987
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19712
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 79803,
+        "TotalApproved": 32774
+    },
+    "AdjusterDetails": {
+        "Name": "Christine Warner",
+        "ContactInformation": {
+            "Phone": "001-488-428-8427x38986",
+            "Email": "anthonywilson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/95b41f5e-fc33-4539-8db2-3a90ea1b1ffc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

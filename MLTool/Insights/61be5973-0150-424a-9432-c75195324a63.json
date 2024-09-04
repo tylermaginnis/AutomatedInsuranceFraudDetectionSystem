@@ -1,0 +1,81 @@
+{
+    "ClaimID": "61be5973-0150-424a-9432-c75195324a63",
+    "PolicyID": "f1c62584-da6d-4fbb-9790-2fc8163cf0c8",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0fe0f626-ca39-4577-a629-090f5dc46232",
+        "Name": "Patricia Coleman",
+        "PolicyNumber": "f1c62584-da6d-4fbb-9790-2fc8163cf0c8",
+        "ContactInformation": {
+            "Phone": "749.324.7119",
+            "Email": "angie50@example.com",
+            "Address": "9945 Williams Causeway\nOliverbury, SC 97732"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-14",
+        "Location": "723 Ashley Overpass Suite 785\nSouth Mary, HI 51778",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 73540
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44605
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8133
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12816
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6174
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 145268,
+        "TotalApproved": 61215
+    },
+    "AdjusterDetails": {
+        "Name": "Carolyn Mccoy",
+        "ContactInformation": {
+            "Phone": "001-562-930-2846",
+            "Email": "jill51@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e3940b80-36d2-40dc-8d6d-8f6bb0401ba6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

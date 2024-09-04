@@ -1,0 +1,81 @@
+{
+    "ClaimID": "39cd4ecf-8d72-4b5f-bf04-f2cf8753b602",
+    "PolicyID": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+    "EffectiveDates": {
+        "StartDate": "2023-12-30",
+        "EndDate": "2024-12-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b718d54-1bda-441f-9f34-2672f6b131e5",
+        "Name": "Patricia Gordon",
+        "PolicyNumber": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+        "ContactInformation": {
+            "Phone": "+1-447-858-9107x4847",
+            "Email": "lisacrane@example.org",
+            "Address": "PSC 6944, Box 1860\nAPO AP 51730"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-02",
+        "Location": "605 Debra Shoals Apt. 693\nMarkbury, KY 76593",
+        "Description": "Court third throughout north various. Even boy to share week political. Fall mean join evening.\nSince hotel within analysis why. Stand break direction challenge stop support bad."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10859
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28725
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8326
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28501
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 39938
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 83377,
+        "TotalApproved": 52068
+    },
+    "AdjusterDetails": {
+        "Name": "Michele Dunn",
+        "ContactInformation": {
+            "Phone": "(619)703-5731x841",
+            "Email": "mcgeeian@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6b91c622-d278-4475-9382-3109820770e3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

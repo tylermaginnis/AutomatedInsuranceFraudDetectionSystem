@@ -1,0 +1,81 @@
+{
+    "ClaimID": "84594e59-6a5c-4ab6-8a73-204137fe5040",
+    "PolicyID": "14c928ad-f165-47ab-b9e8-56c2098b6132",
+    "EffectiveDates": {
+        "StartDate": "2023-10-04",
+        "EndDate": "2024-10-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2fce7dd4-e99c-4d9c-8591-c5adc68974b6",
+        "Name": "April Diaz",
+        "PolicyNumber": "14c928ad-f165-47ab-b9e8-56c2098b6132",
+        "ContactInformation": {
+            "Phone": "437-711-3541",
+            "Email": "zachary41@example.com",
+            "Address": "58454 Payne Road\nRodneyport, SD 82472"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-07",
+        "Location": "3826 Renee Curve\nColestad, FL 21126",
+        "Description": "Indicate skin kid son always nothing business. Important town political paper majority strategy. Industry strong character boy support."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44769
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5339
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82662
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9936
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18831
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 51892,
+        "TotalApproved": 49752
+    },
+    "AdjusterDetails": {
+        "Name": "William Garcia",
+        "ContactInformation": {
+            "Phone": "(508)690-7215",
+            "Email": "patricia24@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/366c5a33-9a59-4ad9-b3bf-6c7e7545f2e7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-07T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-12T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-17T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

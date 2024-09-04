@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8a5dc8e8-1ec4-499f-8561-ad966094fe1e",
+    "PolicyID": "152eab41-7aad-4486-bde1-bdfd2fc04ebf",
+    "EffectiveDates": {
+        "StartDate": "2024-08-26",
+        "EndDate": "2025-08-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8cb34dcc-a9ab-435c-9533-ac71e1ab2b60",
+        "Name": "Michelle Garcia",
+        "PolicyNumber": "152eab41-7aad-4486-bde1-bdfd2fc04ebf",
+        "ContactInformation": {
+            "Phone": "987.561.3503x0675",
+            "Email": "spencerbeverly@example.net",
+            "Address": "55850 Bradford Cape Apt. 409\nNorth Mary, VT 62892"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-26",
+        "Location": "679 Whitney Walks Apt. 764\nSeanside, MN 30678",
+        "Description": "Talk lead not region box book record. Benefit less lose include.\nLeg on foot run benefit. Inside quickly lead physical agreement hotel.\nNone movement stay. Economic important reason party through."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15324
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 84037
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8454
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16115
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9218
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 10743,
+        "TotalApproved": 3621
+    },
+    "AdjusterDetails": {
+        "Name": "William Burton",
+        "ContactInformation": {
+            "Phone": "001-449-424-3017",
+            "Email": "richard52@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/59e77b8b-f23f-4997-a038-23e922383e9e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

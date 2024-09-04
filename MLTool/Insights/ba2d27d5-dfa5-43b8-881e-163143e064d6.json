@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ba2d27d5-dfa5-43b8-881e-163143e064d6",
+    "PolicyID": "57d687c6-d35e-4e9e-8a69-ce868b993ea4",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "607118fb-c4b0-40af-a297-7a7c870a23d8",
+        "Name": "Kimberly Johnson",
+        "PolicyNumber": "57d687c6-d35e-4e9e-8a69-ce868b993ea4",
+        "ContactInformation": {
+            "Phone": "316.993.4835x35973",
+            "Email": "kristen43@example.com",
+            "Address": "00991 Richard Branch Apt. 557\nPort Timfort, ME 55250"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-17",
+        "Location": "36129 Hamilton Brook Suite 836\nNew Ashley, NV 98806",
+        "Description": "Partner carry fly until security tell. Stay anything since. Reality positive writer it cup guess face score."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3150
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5624
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28675
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3247
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 182955
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 126226,
+        "TotalApproved": 91739
+    },
+    "AdjusterDetails": {
+        "Name": "Paul Sanchez",
+        "ContactInformation": {
+            "Phone": "297.412.1671",
+            "Email": "katrinacooley@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4d04280f-2dcf-4e58-884e-d5f19bc55e2d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

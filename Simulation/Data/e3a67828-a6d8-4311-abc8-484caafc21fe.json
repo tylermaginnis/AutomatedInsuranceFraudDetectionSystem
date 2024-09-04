@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e3a67828-a6d8-4311-abc8-484caafc21fe",
+  "PolicyID": "ef37a0b5-8bb4-442b-be54-00d776eade83",
+  "EffectiveDates": {
+    "StartDate": "2024-05-06",
+    "EndDate": "2025-05-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "17df6c7c-56e6-4702-8623-71575d30121d",
+    "Name": "Claire Cohen",
+    "PolicyNumber": "ef37a0b5-8bb4-442b-be54-00d776eade83",
+    "ContactInformation": {
+      "Phone": "+1-774-462-6363x286",
+      "Email": "cabrerarobert@example.net",
+      "Address": "28113 Thornton Parks\nBrandontown, OH 60375"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-03",
+    "Location": "Unit 5027 Box 8554\nDPO AE 27911",
+    "Description": "Only you collection young. Bar skill various bill. Fine president force decade sign win."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15366
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 88250
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 25591
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14397
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 67711
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 131105,
+    "TotalApproved": 123363
+  },
+  "AdjusterDetails": {
+    "Name": "Stephanie Meyer",
+    "ContactInformation": {
+      "Phone": "+1-451-469-7425",
+      "Email": "josephsanchez@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/54d7bdce-6439-4639-8a4a-a9b821697b4c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-03T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-08T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-13T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b91a8d8c-1da1-47ea-98da-8af7ba6db8be",
+    "PolicyID": "651d30d7-d0bc-4694-b002-f97a804196e3",
+    "EffectiveDates": {
+        "StartDate": "2023-10-06",
+        "EndDate": "2024-10-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "23e07ee2-f3ca-42cd-a0bf-05dce5bef842",
+        "Name": "Jason Sims",
+        "PolicyNumber": "651d30d7-d0bc-4694-b002-f97a804196e3",
+        "ContactInformation": {
+            "Phone": "4613214071",
+            "Email": "staceypugh@example.net",
+            "Address": "68290 Brandon Point\nWest David, NV 89666"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-25",
+        "Location": "640 Coleman Forest\nRobertton, WI 11638",
+        "Description": "Medical shoulder middle without. Them door business attack present.\nMedia name modern dog central that note.\nAllow degree another attack she stay."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6811
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29246
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36261
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38184
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 76773
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 169218,
+        "TotalApproved": 10298
+    },
+    "AdjusterDetails": {
+        "Name": "Jordan Jones",
+        "ContactInformation": {
+            "Phone": "(536)560-5560x30083",
+            "Email": "heather93@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0a2dad88-f3e4-46eb-86bd-74f3c1495fd9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

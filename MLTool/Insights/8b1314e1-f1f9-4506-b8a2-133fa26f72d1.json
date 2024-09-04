@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8b1314e1-f1f9-4506-b8a2-133fa26f72d1",
+    "PolicyID": "ad6c8220-edda-42aa-99ab-d9e3e962c587",
+    "EffectiveDates": {
+        "StartDate": "2024-02-03",
+        "EndDate": "2025-02-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e91dd2ad-2b24-4b73-917e-d3f591522092",
+        "Name": "Samantha Maynard",
+        "PolicyNumber": "ad6c8220-edda-42aa-99ab-d9e3e962c587",
+        "ContactInformation": {
+            "Phone": "810-343-5540",
+            "Email": "wrightcynthia@example.com",
+            "Address": "949 Jason Dam Suite 285\nGinashire, WA 38930"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-13",
+        "Location": "4511 Cross Port\nHowardhaven, NM 69641",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 82766
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49031
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9680
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12208
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6858
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 160543,
+        "TotalApproved": 89670
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Reid",
+        "ContactInformation": {
+            "Phone": "469-945-7246",
+            "Email": "contrerasrachel@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1b9d743a-c40b-4f31-9b44-f92f1f669d8b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

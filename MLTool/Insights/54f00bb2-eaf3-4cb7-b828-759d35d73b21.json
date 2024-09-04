@@ -1,0 +1,81 @@
+{
+    "ClaimID": "54f00bb2-eaf3-4cb7-b828-759d35d73b21",
+    "PolicyID": "b37f9bd3-9028-4f6a-ac94-1ef3b8260f5e",
+    "EffectiveDates": {
+        "StartDate": "2024-08-13",
+        "EndDate": "2025-08-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b0d690cc-efc5-4773-8ccd-e16b477cf34e",
+        "Name": "Robert Cannon",
+        "PolicyNumber": "b37f9bd3-9028-4f6a-ac94-1ef3b8260f5e",
+        "ContactInformation": {
+            "Phone": "(842)783-1044x99229",
+            "Email": "ehebert@example.org",
+            "Address": "Unit 6753 Box 7215\nDPO AA 72920"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-25",
+        "Location": "0320 Zimmerman Villages\nGravesville, FL 68878",
+        "Description": "Specific government interesting by. Behind writer difficult hit goal ever have. Religious moment manage traditional rather toward interview. Hope improve thing school trouble few toward."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5195
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 150882
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9074
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 126546
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 101174
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 67740,
+        "TotalApproved": 53770
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer James",
+        "ContactInformation": {
+            "Phone": "283-996-5739x3089",
+            "Email": "xsnyder@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/53b1b735-29d9-46bd-b2bd-368af3ee4d42"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-30T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

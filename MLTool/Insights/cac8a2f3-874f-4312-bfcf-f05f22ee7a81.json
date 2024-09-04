@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cac8a2f3-874f-4312-bfcf-f05f22ee7a81",
+    "PolicyID": "4409dbe7-d81e-45b8-a3b8-0e78d6a58e99",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "041dc43b-4eb8-48ec-91a7-386acf449b0c",
+        "Name": "Kimberly Wilson",
+        "PolicyNumber": "4409dbe7-d81e-45b8-a3b8-0e78d6a58e99",
+        "ContactInformation": {
+            "Phone": "001-454-395-4176x512",
+            "Email": "kathleen19@example.org",
+            "Address": "USNS Hall\nFPO AA 32156"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-15",
+        "Location": "PSC 0807, Box 0039\nAPO AE 75983",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71526
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32754
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9731
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23775
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7130
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144916,
+        "TotalApproved": 111282
+    },
+    "AdjusterDetails": {
+        "Name": "Cindy Johnson",
+        "ContactInformation": {
+            "Phone": "950.936.4809",
+            "Email": "andrewmendez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/aa597448-fc0c-4d71-921f-25f1ed9879fc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

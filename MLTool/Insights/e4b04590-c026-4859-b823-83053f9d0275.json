@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e4b04590-c026-4859-b823-83053f9d0275",
+    "PolicyID": "079c9906-e882-411c-bcbb-32d7f57ec62d",
+    "EffectiveDates": {
+        "StartDate": "2023-10-03",
+        "EndDate": "2024-10-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0cebbd3a-4e87-4ddd-a7e9-aa81c876499b",
+        "Name": "Terry Bender",
+        "PolicyNumber": "079c9906-e882-411c-bcbb-32d7f57ec62d",
+        "ContactInformation": {
+            "Phone": "001-515-816-7725",
+            "Email": "mary80@example.com",
+            "Address": "671 Kimberly Alley\nNew Daniel, OR 44858"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-22",
+        "Location": "00582 Jackson Unions Apt. 759\nLake Robinton, TX 02993",
+        "Description": "Stuff partner picture chair stage real way. Admit never leg would trip in hit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34000
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14253
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1361
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40225
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6046
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 197383,
+        "TotalApproved": 147057
+    },
+    "AdjusterDetails": {
+        "Name": "Brent Cruz",
+        "ContactInformation": {
+            "Phone": "001-418-281-5702x9647",
+            "Email": "cjones@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/97f8630d-9585-40f2-b1c1-2fe5276d9d1e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

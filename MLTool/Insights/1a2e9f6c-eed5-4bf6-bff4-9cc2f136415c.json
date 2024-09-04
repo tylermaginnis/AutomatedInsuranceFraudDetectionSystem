@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1a2e9f6c-eed5-4bf6-bff4-9cc2f136415c",
+    "PolicyID": "651d30d7-d0bc-4694-b002-f97a804196e3",
+    "EffectiveDates": {
+        "StartDate": "2024-03-25",
+        "EndDate": "2025-03-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "23e07ee2-f3ca-42cd-a0bf-05dce5bef842",
+        "Name": "Jason Sims",
+        "PolicyNumber": "651d30d7-d0bc-4694-b002-f97a804196e3",
+        "ContactInformation": {
+            "Phone": "4613214071",
+            "Email": "staceypugh@example.net",
+            "Address": "68290 Brandon Point\nWest David, NV 89666"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-07",
+        "Location": "6029 William Canyon\nPort Annettemouth, NJ 05107",
+        "Description": "Clear water call describe scientist. Him sound between line hold hair instead. Event send term south."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8823
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45177
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16463
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8783
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1127
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 75731,
+        "TotalApproved": 12535
+    },
+    "AdjusterDetails": {
+        "Name": "James Smith",
+        "ContactInformation": {
+            "Phone": "+1-731-824-2058",
+            "Email": "kreynolds@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0d144498-7aee-43d6-90af-cb7a9847ec62"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-07T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-12T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-17T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

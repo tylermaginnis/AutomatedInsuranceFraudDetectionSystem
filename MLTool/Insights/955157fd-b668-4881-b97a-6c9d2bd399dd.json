@@ -1,0 +1,81 @@
+{
+    "ClaimID": "955157fd-b668-4881-b97a-6c9d2bd399dd",
+    "PolicyID": "3553e3a4-e943-4ea2-a303-4cddc8b45be3",
+    "EffectiveDates": {
+        "StartDate": "2024-05-01",
+        "EndDate": "2025-05-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c5353a77-1eea-4ab2-99c3-3a0e856357eb",
+        "Name": "Paul Bonilla",
+        "PolicyNumber": "3553e3a4-e943-4ea2-a303-4cddc8b45be3",
+        "ContactInformation": {
+            "Phone": "397-202-9348",
+            "Email": "michellenicholson@example.net",
+            "Address": "PSC 4607, Box 9155\nAPO AP 50681"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-09",
+        "Location": "PSC 0670, Box 9535\nAPO AA 67712",
+        "Description": "Mr collection standard maintain it per force. Crime try really skin receive likely. Number find wall win forget stay."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 48792
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7595
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5569
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20439
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 171060
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 17473,
+        "TotalApproved": 11440
+    },
+    "AdjusterDetails": {
+        "Name": "Dominic Miller",
+        "ContactInformation": {
+            "Phone": "001-703-653-6046x5295",
+            "Email": "morrismichael@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0baf61ed-fc7e-4b50-839e-63a572016b16"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-09T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-14T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-19T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

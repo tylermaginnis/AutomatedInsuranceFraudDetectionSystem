@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d6949834-ad64-4195-99e6-40fb99616c06",
+    "PolicyID": "225f4c8f-238b-44c0-ab46-4dc65bf3c1b1",
+    "EffectiveDates": {
+        "StartDate": "2023-12-31",
+        "EndDate": "2024-12-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fb9fa5a8-d4c8-4162-965b-32297cfba01e",
+        "Name": "Scott Long",
+        "PolicyNumber": "225f4c8f-238b-44c0-ab46-4dc65bf3c1b1",
+        "ContactInformation": {
+            "Phone": "204.939.2464x414",
+            "Email": "johnmiller@example.com",
+            "Address": "12864 Erickson Meadows Apt. 301\nPort Jeffreytown, MS 25731"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-02",
+        "Location": "852 Anthony Roads Apt. 917\nWest Abigailshire, SD 12879",
+        "Description": "Cost seat direction not common network. Party you reach poor high notice fact. Find everyone four member.\nBenefit full business information. Travel reduce their. Finish land choose plan black would."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9194
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 77904
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25015
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24577
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4019
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 123625,
+        "TotalApproved": 91731
+    },
+    "AdjusterDetails": {
+        "Name": "Rebecca Burton",
+        "ContactInformation": {
+            "Phone": "734-201-8776x581",
+            "Email": "marcus97@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3b19fe24-5dae-4bff-89ad-2564896d1ca0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

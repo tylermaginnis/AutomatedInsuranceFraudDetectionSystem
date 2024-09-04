@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0a34c91b-c196-415f-850e-688c20fa0d89",
+    "PolicyID": "09105fbf-1660-43ec-aeac-c3ee539fbd6d",
+    "EffectiveDates": {
+        "StartDate": "2024-08-13",
+        "EndDate": "2025-08-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9cce2f63-fa71-4834-9340-63d71eef0c45",
+        "Name": "Seth Garcia",
+        "PolicyNumber": "09105fbf-1660-43ec-aeac-c3ee539fbd6d",
+        "ContactInformation": {
+            "Phone": "886-854-5451x5403",
+            "Email": "petersmith@example.net",
+            "Address": "544 Dave Flat\nWest Lawrence, IA 44229"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-20",
+        "Location": "12363 Michael Union\nEast Amyport, IN 64351",
+        "Description": "Organization someone billion as else.\nHead film possible science high short. Wide offer mind. Environmental her yet now.\nWest add upon."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1242
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6464
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 88179
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9699
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5018
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151193,
+        "TotalApproved": 28723
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Banks",
+        "ContactInformation": {
+            "Phone": "(335)587-2888x250",
+            "Email": "lalexander@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3c28b498-40fb-41c5-9e6b-447c4da53ba7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

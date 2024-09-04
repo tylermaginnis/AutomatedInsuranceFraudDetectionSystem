@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5ec9893b-a681-49c7-9d0d-bf71ad90cb74",
+    "PolicyID": "dec67c15-b8df-4ad2-960e-a43d26252838",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b525f060-090b-42c6-9486-c640c6d0c14f",
+        "Name": "Jean Knight",
+        "PolicyNumber": "dec67c15-b8df-4ad2-960e-a43d26252838",
+        "ContactInformation": {
+            "Phone": "001-321-226-2389x825",
+            "Email": "marywillis@example.org",
+            "Address": "237 Kevin Roads Suite 935\nEast Jose, SD 83162"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-09",
+        "Location": "8816 Jimenez Bypass\nNorth Nancy, NH 04897",
+        "Description": "Day choose tax exactly suggest product staff particular. Carry star people nearly economic wife simply. On drop hear baby worry themselves military language. Save ok south."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19318
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 80982
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8682
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39822
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 39723
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 105052,
+        "TotalApproved": 75434
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Diaz",
+        "ContactInformation": {
+            "Phone": "5837909682",
+            "Email": "melindamunoz@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0fa2fee5-2e1b-4d29-9091-f256f34f5773"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

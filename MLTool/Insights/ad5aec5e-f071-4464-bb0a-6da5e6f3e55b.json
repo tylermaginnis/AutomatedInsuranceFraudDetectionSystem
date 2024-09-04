@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ad5aec5e-f071-4464-bb0a-6da5e6f3e55b",
+    "PolicyID": "bcd2deb8-a072-4983-99bc-ca1839484ac8",
+    "EffectiveDates": {
+        "StartDate": "2024-01-29",
+        "EndDate": "2025-01-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3a3475cf-af2d-41eb-b0b5-d41575518893",
+        "Name": "Kurt Sanchez",
+        "PolicyNumber": "bcd2deb8-a072-4983-99bc-ca1839484ac8",
+        "ContactInformation": {
+            "Phone": "4559832653",
+            "Email": "blanchardgabriela@example.net",
+            "Address": "0723 Johnson Forest\nChristopherchester, AR 64465"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-15",
+        "Location": "0148 Jeremy Place\nWest Shaneland, TX 62420",
+        "Description": "Leave rather common responsibility positive between. Accept family change type ok friend perform produce.\nSkill whole unit. State ask whom key."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49818
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1013
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3487
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29298
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41697
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 175688,
+        "TotalApproved": 161957
+    },
+    "AdjusterDetails": {
+        "Name": "Diane Nolan",
+        "ContactInformation": {
+            "Phone": "+1-779-273-4607",
+            "Email": "gonzalezvincent@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b59522cf-ff02-4150-8a9e-8a40b7065939"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

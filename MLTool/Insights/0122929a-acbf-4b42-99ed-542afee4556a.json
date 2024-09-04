@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0122929a-acbf-4b42-99ed-542afee4556a",
+    "PolicyID": "5b5a6375-61e9-4572-96d9-4c050f83239a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-24",
+        "EndDate": "2024-10-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8ffc0445-091b-47a2-993e-d4cf65801763",
+        "Name": "Theresa Osborne",
+        "PolicyNumber": "5b5a6375-61e9-4572-96d9-4c050f83239a",
+        "ContactInformation": {
+            "Phone": "8113431502",
+            "Email": "cunninghamchristopher@example.org",
+            "Address": "Unit 9934 Box 2232\nDPO AP 46814"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-01",
+        "Location": "102 Dustin Landing Apt. 770\nSouth Oliviaton, PW 08692",
+        "Description": "Even likely try peace environmental think. Always to ability continue right letter.\nHome administration situation trade huge. Mother environment half group. Street one owner I."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19907
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5374
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14175
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14427
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33232
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 55265,
+        "TotalApproved": 14990
+    },
+    "AdjusterDetails": {
+        "Name": "Kendra Bryan",
+        "ContactInformation": {
+            "Phone": "001-767-510-1160x798",
+            "Email": "parsonskelly@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f88b15a0-7547-4323-95cd-1d759554af2d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-01T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-06T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-11T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

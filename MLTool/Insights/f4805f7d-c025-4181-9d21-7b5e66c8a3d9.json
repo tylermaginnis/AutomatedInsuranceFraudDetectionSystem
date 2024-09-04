@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f4805f7d-c025-4181-9d21-7b5e66c8a3d9",
+    "PolicyID": "d14596ce-c0b5-4fb0-99d4-67a62e5261d4",
+    "EffectiveDates": {
+        "StartDate": "2023-11-10",
+        "EndDate": "2024-11-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5166b277-1600-423f-857c-a172e135cd8c",
+        "Name": "Angela Myers",
+        "PolicyNumber": "d14596ce-c0b5-4fb0-99d4-67a62e5261d4",
+        "ContactInformation": {
+            "Phone": "+1-896-531-3990x220",
+            "Email": "oedwards@example.com",
+            "Address": "9197 Campbell Greens\nWest Aarontown, UT 10512"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-14",
+        "Location": "34024 Norris Divide Suite 725\nLake Keithland, MD 98690",
+        "Description": "Break consider kitchen yet president night remain. A age easy bill particularly young industry prepare. Write discussion message country make woman."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1134
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 87330
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13985
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 168587
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33781
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 47999,
+        "TotalApproved": 4832
+    },
+    "AdjusterDetails": {
+        "Name": "Brooke Moyer",
+        "ContactInformation": {
+            "Phone": "422.919.4753",
+            "Email": "hawkinstodd@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/703c4c96-97e1-4d44-9371-465ddf931f31"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

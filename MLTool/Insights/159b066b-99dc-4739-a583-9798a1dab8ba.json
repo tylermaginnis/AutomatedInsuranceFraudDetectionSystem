@@ -1,0 +1,81 @@
+{
+    "ClaimID": "159b066b-99dc-4739-a583-9798a1dab8ba",
+    "PolicyID": "a0b2b78a-c51c-475a-9553-e3e1f789fb27",
+    "EffectiveDates": {
+        "StartDate": "2024-08-04",
+        "EndDate": "2025-08-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9fa53e77-3e4c-44d3-936b-56f395c6fa59",
+        "Name": "Jamie Butler DDS",
+        "PolicyNumber": "a0b2b78a-c51c-475a-9553-e3e1f789fb27",
+        "ContactInformation": {
+            "Phone": "439-723-4710x56073",
+            "Email": "ricky11@example.net",
+            "Address": "51274 Parker Rue\nLake Craigchester, AR 37782"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-21",
+        "Location": "1138 Proctor Prairie Apt. 727\nOlsonberg, VA 70235",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 92044
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25572
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8927
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29381
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6411
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 162335,
+        "TotalApproved": 161160
+    },
+    "AdjusterDetails": {
+        "Name": "Paula Anderson",
+        "ContactInformation": {
+            "Phone": "205-277-9057x9564",
+            "Email": "brittanyfreeman@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7a3347fc-8c62-4531-be2c-8557d9ca111e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-31T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

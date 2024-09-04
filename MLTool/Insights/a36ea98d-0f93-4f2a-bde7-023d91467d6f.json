@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a36ea98d-0f93-4f2a-bde7-023d91467d6f",
+    "PolicyID": "4f5760f8-d923-414c-a5e9-8e2d926b63af",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3123bcbc-982a-4508-913a-58ad3ca032cd",
+        "Name": "John Perez",
+        "PolicyNumber": "4f5760f8-d923-414c-a5e9-8e2d926b63af",
+        "ContactInformation": {
+            "Phone": "990.585.3359x40775",
+            "Email": "mooneynicholas@example.com",
+            "Address": "2635 Chapman Locks\nMikefort, AL 42393"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-24",
+        "Location": "352 Goodman Estates Apt. 567\nPort Jordanton, MT 83522",
+        "Description": "Professional all summer new. Their poor agency lay month course article side. After consumer join.\nIts from service each office carry player simple. Skill now money sing business local."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25589
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 29389
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 101169
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 67868
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22790
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 150986,
+        "TotalApproved": 144805
+    },
+    "AdjusterDetails": {
+        "Name": "Anna Austin",
+        "ContactInformation": {
+            "Phone": "389.721.1173x33719",
+            "Email": "gmitchell@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/fa5595bb-27bd-47d1-8f95-2c5bb7324bd0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-24T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-29T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-03T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

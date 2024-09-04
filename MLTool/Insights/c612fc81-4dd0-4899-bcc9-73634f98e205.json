@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c612fc81-4dd0-4899-bcc9-73634f98e205",
+    "PolicyID": "345fffd1-b5da-4cbe-8b72-55c343a97326",
+    "EffectiveDates": {
+        "StartDate": "2024-01-31",
+        "EndDate": "2025-01-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7ae6f7df-264c-4f59-a88e-090bfc81b936",
+        "Name": "Daniel Wallace",
+        "PolicyNumber": "345fffd1-b5da-4cbe-8b72-55c343a97326",
+        "ContactInformation": {
+            "Phone": "(364)286-5963x829",
+            "Email": "michaelmoore@example.com",
+            "Address": "USNS Stanton\nFPO AE 74530"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-19",
+        "Location": "90604 Chase Hill Apt. 838\nPort Jasonshire, ME 16751",
+        "Description": "Describe whole boy scientist ready order could wide. See future maintain against mission common story help. That individual a ok fine require."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26581
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3760
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4560
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45115
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6517
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 90494,
+        "TotalApproved": 79749
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Estrada DDS",
+        "ContactInformation": {
+            "Phone": "001-876-540-3189",
+            "Email": "matthewsimpson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/bdfb92ca-b720-4c89-873d-8b3bd7dca358"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-19T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-24T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-29T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

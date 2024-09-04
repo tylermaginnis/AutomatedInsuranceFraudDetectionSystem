@@ -1,0 +1,81 @@
+{
+    "ClaimID": "01c6b7ec-826b-4e08-a4c9-e6accd44e0cc",
+    "PolicyID": "653d2bf0-1e46-47b4-8431-478c0e1b8db8",
+    "EffectiveDates": {
+        "StartDate": "2023-11-13",
+        "EndDate": "2024-11-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "890bbdef-1deb-4ff6-bb8d-b479f0555f6a",
+        "Name": "Kurt Pierce",
+        "PolicyNumber": "653d2bf0-1e46-47b4-8431-478c0e1b8db8",
+        "ContactInformation": {
+            "Phone": "313-518-8490x415",
+            "Email": "floresbeth@example.com",
+            "Address": "932 Kristin Walk Suite 757\nNew Wendychester, MD 42494"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-27",
+        "Location": "5039 Thomas Crossroad Apt. 084\nBurkeberg, MI 32896",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 75363
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29487
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7816
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11041
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10375
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 134082,
+        "TotalApproved": 14077
+    },
+    "AdjusterDetails": {
+        "Name": "Diane Hernandez",
+        "ContactInformation": {
+            "Phone": "355.279.2489x74084",
+            "Email": "vanessa97@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a1770ab8-9eec-4f83-bd6c-3137e43adaaf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-27T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-02T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-07T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

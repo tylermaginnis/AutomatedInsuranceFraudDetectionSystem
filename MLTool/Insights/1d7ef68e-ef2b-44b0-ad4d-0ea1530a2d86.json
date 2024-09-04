@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1d7ef68e-ef2b-44b0-ad4d-0ea1530a2d86",
+    "PolicyID": "4f1d843e-5e19-4547-91d1-878390fb61a4",
+    "EffectiveDates": {
+        "StartDate": "2024-04-23",
+        "EndDate": "2025-04-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3b59dead-90a5-4b52-a8aa-9c2e752321ea",
+        "Name": "Michael Harris",
+        "PolicyNumber": "4f1d843e-5e19-4547-91d1-878390fb61a4",
+        "ContactInformation": {
+            "Phone": "(383)269-8269x456",
+            "Email": "cgregory@example.com",
+            "Address": "7163 Steven Glens\nJonesside, AK 63040"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-07",
+        "Location": "918 Williams Ranch Suite 835\nWest Phillip, MD 44683",
+        "Description": "Age walk so player money light. Person right must protect. Politics financial most daughter.\nAgo ability even pass dark week human. At last condition political apply occur."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 115246
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28615
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4337
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 63729
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5049
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 25699,
+        "TotalApproved": 6697
+    },
+    "AdjusterDetails": {
+        "Name": "Scott Ramos",
+        "ContactInformation": {
+            "Phone": "280-530-4374",
+            "Email": "lkelley@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f54c5679-ce2d-42d6-bd1c-f6c31ec8697b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-07T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-12T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-17T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

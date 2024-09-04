@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b71345f6-6fc3-4d06-8595-4a72cc548a79",
+    "PolicyID": "7b4c1a8f-545d-46b8-96ed-ba8cef2c04c1",
+    "EffectiveDates": {
+        "StartDate": "2024-04-30",
+        "EndDate": "2025-04-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8e066ac1-78d7-455b-a47a-9938459f8361",
+        "Name": "Lori Lucas",
+        "PolicyNumber": "7b4c1a8f-545d-46b8-96ed-ba8cef2c04c1",
+        "ContactInformation": {
+            "Phone": "001-346-449-8685x28268",
+            "Email": "xlee@example.net",
+            "Address": "66029 Chan Mill\nGeorgeshire, HI 34639"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-21",
+        "Location": "480 Michael Run Apt. 176\nPort Glendaland, WV 85209",
+        "Description": "Book could center admit minute. Camera scene effort four similar character short rich. You security can along court grow walk."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41696
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8379
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23350
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8577
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8199
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 72171,
+        "TotalApproved": 62509
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Miller",
+        "ContactInformation": {
+            "Phone": "342-967-1951x07832",
+            "Email": "sharonmedina@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/04962825-175f-4402-a0c8-f1868494c9ee"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-01T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d0125168-ac1c-4d3b-9045-81b8a43aff58",
+  "PolicyID": "26a8a87f-63b3-4e35-ab95-c1052a3ff65d",
+  "EffectiveDates": {
+    "StartDate": "2024-05-17",
+    "EndDate": "2025-05-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "201d54fc-8579-4951-9562-83a94ebef4d8",
+    "Name": "Christopher Brown DVM",
+    "PolicyNumber": "26a8a87f-63b3-4e35-ab95-c1052a3ff65d",
+    "ContactInformation": {
+      "Phone": "280.342.4296x856",
+      "Email": "vfinley@example.net",
+      "Address": "155 Mckay Lodge\nWest Melissaberg, FL 27653"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-11",
+    "Location": "60565 Richard Canyon Apt. 097\nPort Micheal, DE 77442",
+    "Description": "Imagine story region yes. Painting central various service."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 14457
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16627
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 129391
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2375
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9795
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 161681,
+    "TotalApproved": 43494
+  },
+  "AdjusterDetails": {
+    "Name": "Luke Harvey",
+    "ContactInformation": {
+      "Phone": "472-633-9441",
+      "Email": "carpentersydney@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/5e256512-94aa-4b91-9304-15313513af57"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-11T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-16T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-21T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

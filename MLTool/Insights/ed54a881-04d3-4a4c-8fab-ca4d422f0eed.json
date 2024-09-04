@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ed54a881-04d3-4a4c-8fab-ca4d422f0eed",
+    "PolicyID": "7a8fcc35-9172-49d8-bfa8-2fe71cb5a82f",
+    "EffectiveDates": {
+        "StartDate": "2024-03-18",
+        "EndDate": "2025-03-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4a41d696-7b83-4f83-97fc-b2b3d7869841",
+        "Name": "Erica Arnold",
+        "PolicyNumber": "7a8fcc35-9172-49d8-bfa8-2fe71cb5a82f",
+        "ContactInformation": {
+            "Phone": "641-280-7432x49027",
+            "Email": "frederick15@example.com",
+            "Address": "334 Lori Forge\nLake Michaelshire, CT 51016"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-01",
+        "Location": "9289 Danielle Ports\nGeorgeport, KY 48004",
+        "Description": "Daughter whole draw agency tend hope. Drug head walk turn. Model decide four everybody understand place step."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19404
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3294
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1757
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7780
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46099
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 35973,
+        "TotalApproved": 30491
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Davis",
+        "ContactInformation": {
+            "Phone": "548-557-1626x54725",
+            "Email": "palmercharles@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f6bdeb53-b033-4ac1-9393-1629e01026b7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

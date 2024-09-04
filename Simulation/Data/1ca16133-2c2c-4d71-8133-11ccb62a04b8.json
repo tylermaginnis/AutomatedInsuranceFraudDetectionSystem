@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1ca16133-2c2c-4d71-8133-11ccb62a04b8",
+  "PolicyID": "ffbc0573-553f-42c9-afd5-41b13e7e4d9e",
+  "EffectiveDates": {
+    "StartDate": "2024-05-13",
+    "EndDate": "2025-05-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8dc3ddc4-bea1-423c-85cb-c4ef4ecafca6",
+    "Name": "Christine Park",
+    "PolicyNumber": "ffbc0573-553f-42c9-afd5-41b13e7e4d9e",
+    "ContactInformation": {
+      "Phone": "+1-731-577-8719x92088",
+      "Email": "xbarton@example.com",
+      "Address": "64940 Garza Rapid\nMillerview, IN 32440"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-27",
+    "Location": "242 Lozano Plaza\nJanefurt, WV 49450",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 51683
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 32285
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6460
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 13631
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6597
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 110656,
+    "TotalApproved": 70543
+  },
+  "AdjusterDetails": {
+    "Name": "Chris Williams",
+    "ContactInformation": {
+      "Phone": "+1-416-237-3726",
+      "Email": "cassandrafisher@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/ba03f6f6-3796-4359-adfe-78251340d7c8"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-27T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-01T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-06T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

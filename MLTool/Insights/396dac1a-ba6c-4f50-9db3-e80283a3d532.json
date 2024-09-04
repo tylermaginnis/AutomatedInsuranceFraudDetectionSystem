@@ -1,0 +1,81 @@
+{
+    "ClaimID": "396dac1a-ba6c-4f50-9db3-e80283a3d532",
+    "PolicyID": "cb693780-d123-42d3-914e-cd2c0093eb2f",
+    "EffectiveDates": {
+        "StartDate": "2024-07-15",
+        "EndDate": "2025-07-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "abda2793-be32-47e7-a811-bd210bcef5b7",
+        "Name": "Ryan Bass",
+        "PolicyNumber": "cb693780-d123-42d3-914e-cd2c0093eb2f",
+        "ContactInformation": {
+            "Phone": "001-880-511-2860",
+            "Email": "lnichols@example.org",
+            "Address": "84679 Brett Gateway Apt. 012\nBrownport, NH 77699"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-14",
+        "Location": "022 Day Circle Suite 100\nDavidsonbury, DE 24074",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 62900
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23355
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9790
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23330
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6452
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 125827,
+        "TotalApproved": 71902
+    },
+    "AdjusterDetails": {
+        "Name": "Caleb Mitchell",
+        "ContactInformation": {
+            "Phone": "451.697.7678x642",
+            "Email": "antonio67@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8714ce0b-043c-4a27-a279-6d0522c1b36c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-14T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-19T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-24T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

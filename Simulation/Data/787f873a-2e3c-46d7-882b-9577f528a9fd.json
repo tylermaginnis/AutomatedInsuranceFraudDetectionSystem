@@ -1,0 +1,80 @@
+{
+  "ClaimID": "787f873a-2e3c-46d7-882b-9577f528a9fd",
+  "PolicyID": "d7b9f6f8-5ca0-4d4f-a01e-0a8510195bce",
+  "EffectiveDates": {
+    "StartDate": "2024-02-28",
+    "EndDate": "2025-02-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d336c84d-f248-47bb-8f13-9481b5af302e",
+    "Name": "Julian Wright",
+    "PolicyNumber": "d7b9f6f8-5ca0-4d4f-a01e-0a8510195bce",
+    "ContactInformation": {
+      "Phone": "537.624.7518x2087",
+      "Email": "ryaningram@example.net",
+      "Address": "1010 Andrew Roads Suite 933\nCalvinmouth, NM 90450"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-16",
+    "Location": "46063 Powell Bypass\nMurrayton, MP 78288",
+    "Description": "Morning enjoy else almost appear. Serious whether nor food health process. Upon weight lead idea I part."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 26696
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 34964
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7719
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 10578
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 21966
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 21590,
+    "TotalApproved": 10533
+  },
+  "AdjusterDetails": {
+    "Name": "Samantha Walters",
+    "ContactInformation": {
+      "Phone": "792-507-7870x9293",
+      "Email": "vazquezbrittany@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/5b0f31c8-fd61-4809-84fe-73304773ef27"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-16T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-03-21T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-26T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

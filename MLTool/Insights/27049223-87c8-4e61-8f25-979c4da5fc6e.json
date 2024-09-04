@@ -1,0 +1,81 @@
+{
+    "ClaimID": "27049223-87c8-4e61-8f25-979c4da5fc6e",
+    "PolicyID": "ec513a4b-ee68-443f-8518-29a6f8a7e0a3",
+    "EffectiveDates": {
+        "StartDate": "2024-05-10",
+        "EndDate": "2025-05-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "affa2ade-640e-4d82-a66e-86dab7b06b6e",
+        "Name": "Jennifer Smith",
+        "PolicyNumber": "ec513a4b-ee68-443f-8518-29a6f8a7e0a3",
+        "ContactInformation": {
+            "Phone": "217.877.8073x01817",
+            "Email": "benjaminshepard@example.org",
+            "Address": "94774 Lisa Branch\nLake Gina, SC 05212"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-19",
+        "Location": "8664 Kelly Rue Suite 607\nKellyport, ME 56470",
+        "Description": "Trade protect environment particular as individual child behavior. Take official cover model employee."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5714
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7985
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 63543
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12192
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13621
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 162275,
+        "TotalApproved": 80715
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Rogers",
+        "ContactInformation": {
+            "Phone": "001-904-952-7217x333",
+            "Email": "dianecarey@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/267caedf-0bb7-4dc1-988e-0cb3377aca4c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-19T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-24T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-01T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

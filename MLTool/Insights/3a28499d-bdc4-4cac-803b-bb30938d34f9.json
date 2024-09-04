@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3a28499d-bdc4-4cac-803b-bb30938d34f9",
+    "PolicyID": "645e6c53-be1b-413a-92f7-861d7fee2551",
+    "EffectiveDates": {
+        "StartDate": "2023-10-04",
+        "EndDate": "2024-10-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "74a038b4-b662-4ce9-9564-2488f0de0e74",
+        "Name": "Micheal Krause",
+        "PolicyNumber": "645e6c53-be1b-413a-92f7-861d7fee2551",
+        "ContactInformation": {
+            "Phone": "+1-823-890-5012x1620",
+            "Email": "christopherwalker@example.com",
+            "Address": "5591 Evan Islands Suite 037\nWest Christopher, AS 40506"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-19",
+        "Location": "11726 Greene Pines Apt. 782\nErikamouth, GU 75453",
+        "Description": "Car watch street fast outside. Mother join black scientist provide word send.\nNever hundred final. Attack big prove worker. Song above usually organization music task."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46347
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8598
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8285
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15682
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3192
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 115596,
+        "TotalApproved": 72819
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Maddox",
+        "ContactInformation": {
+            "Phone": "001-568-891-9091",
+            "Email": "tiffanyjohnson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ccac6ac9-3ccb-4912-8c56-d63656829f65"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-19T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-24T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-29T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

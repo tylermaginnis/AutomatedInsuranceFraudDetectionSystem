@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5872b590-6bd0-4101-af6c-466ed6b87ac0",
+    "PolicyID": "d74694bc-ba39-4704-be68-aa02b1165ba7",
+    "EffectiveDates": {
+        "StartDate": "2024-03-03",
+        "EndDate": "2025-03-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "69a7c218-0450-42f1-a3d7-021008d6254c",
+        "Name": "Daniel Hawkins",
+        "PolicyNumber": "d74694bc-ba39-4704-be68-aa02b1165ba7",
+        "ContactInformation": {
+            "Phone": "553-245-0646x4072",
+            "Email": "emily72@example.net",
+            "Address": "849 Leah Run Apt. 181\nPort Christopherhaven, PW 34967"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-13",
+        "Location": "4935 Summers Key\nSparksville, CO 20480",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 60546
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49955
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6039
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11078
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10351
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 137969,
+        "TotalApproved": 4202
+    },
+    "AdjusterDetails": {
+        "Name": "Jonathan Mann",
+        "ContactInformation": {
+            "Phone": "445-303-0571",
+            "Email": "lgutierrez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/3c202793-7b3f-4ddc-9d6a-74de1fbb8d1a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3583e8e6-006d-4f10-962c-dd433a735d56",
+    "PolicyID": "9c72b5fc-b95f-4e0d-9da1-379ed7550bdb",
+    "EffectiveDates": {
+        "StartDate": "2023-11-21",
+        "EndDate": "2024-11-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "627bb9a1-c2af-4e6b-b87b-e0bd66881323",
+        "Name": "Kevin Scott",
+        "PolicyNumber": "9c72b5fc-b95f-4e0d-9da1-379ed7550bdb",
+        "ContactInformation": {
+            "Phone": "+1-507-943-0683x4655",
+            "Email": "douglas13@example.org",
+            "Address": "3638 Thomas Glen\nPort Dawnhaven, CA 85177"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-13",
+        "Location": "983 Heather Ramp Suite 674\nNorth Luis, NE 48811",
+        "Description": "Enough discuss white lay teach. Born about tough house region drop value live.\nCertain rise toward need form read. Paper form tree."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12367
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5396
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38070
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24542
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3756
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 186760,
+        "TotalApproved": 151592
+    },
+    "AdjusterDetails": {
+        "Name": "Diane Padilla",
+        "ContactInformation": {
+            "Phone": "797.716.9258x43674",
+            "Email": "davidgonzales@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/92fc156d-c29b-4b76-8266-4a915dac4d93"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

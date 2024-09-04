@@ -1,0 +1,81 @@
+{
+    "ClaimID": "89b98828-2e75-40f2-91d3-6b7670c7daf4",
+    "PolicyID": "afe97981-95bf-458d-b695-40e85e451ca7",
+    "EffectiveDates": {
+        "StartDate": "2024-06-21",
+        "EndDate": "2025-06-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a393d285-818c-4387-9889-28881cbf9868",
+        "Name": "Eric Schmidt",
+        "PolicyNumber": "afe97981-95bf-458d-b695-40e85e451ca7",
+        "ContactInformation": {
+            "Phone": "930-660-9392x57279",
+            "Email": "vmoore@example.com",
+            "Address": "716 Teresa Passage\nKellychester, CO 94944"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-29",
+        "Location": "2103 Adams Stravenue Suite 120\nSouth Georgechester, DE 78395",
+        "Description": "Cover deal child series prove method set effect. Describe evidence such little.\nCollege pretty news hospital home. Author speech likely as fire themselves special form."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82676
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20400
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25619
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 119283
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 32836
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 143661,
+        "TotalApproved": 74386
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Munoz",
+        "ContactInformation": {
+            "Phone": "516-905-8431x561",
+            "Email": "kennedymichael@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d031818b-5f2c-4ada-ac27-e1ab9491e4b2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-29T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-04T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-09T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

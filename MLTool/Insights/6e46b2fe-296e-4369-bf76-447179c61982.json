@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6e46b2fe-296e-4369-bf76-447179c61982",
+    "PolicyID": "2bfa031d-8186-4535-818b-0cc84528f81a",
+    "EffectiveDates": {
+        "StartDate": "2024-04-02",
+        "EndDate": "2025-04-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "48e14176-f409-446b-a379-6045767b68ff",
+        "Name": "Andres Hines",
+        "PolicyNumber": "2bfa031d-8186-4535-818b-0cc84528f81a",
+        "ContactInformation": {
+            "Phone": "001-799-640-4189x2956",
+            "Email": "markkelly@example.net",
+            "Address": "909 Wilson Ville Apt. 998\nLake Susan, ND 83182"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-10",
+        "Location": "4136 Stephen Flat\nReedberg, DC 65319",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 52288
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23553
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6411
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27403
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16678
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 126333,
+        "TotalApproved": 44218
+    },
+    "AdjusterDetails": {
+        "Name": "Tonya Kaiser",
+        "ContactInformation": {
+            "Phone": "8248006716",
+            "Email": "ylewis@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6e8b0425-c255-4160-81cd-76cadf6f39dc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-10T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-15T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-20T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eefe7967-c8a8-4c7a-b8f1-a97e28ce2f61",
+    "PolicyID": "1dd62e71-310d-4bb5-80e6-2cabb5842dc3",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d7f06dad-865f-4e32-a5c1-c52a619006e7",
+        "Name": "Robin Lynn",
+        "PolicyNumber": "1dd62e71-310d-4bb5-80e6-2cabb5842dc3",
+        "ContactInformation": {
+            "Phone": "461-757-0315x32126",
+            "Email": "erinrussell@example.net",
+            "Address": "9331 Rodriguez Hills\nNew Tylerchester, FM 30048"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-24",
+        "Location": "4751 Williams Junction\nWest Amanda, HI 22405",
+        "Description": "Write though about interesting it. Blue alone Mrs miss. Stand not watch specific."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36064
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7104
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38503
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 104345
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 85993
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 41334,
+        "TotalApproved": 26168
+    },
+    "AdjusterDetails": {
+        "Name": "Nicholas Cain",
+        "ContactInformation": {
+            "Phone": "511-461-5392",
+            "Email": "ryan54@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6802663b-4670-4a0c-a4a3-85b968c09325"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-24T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-29T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-04T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

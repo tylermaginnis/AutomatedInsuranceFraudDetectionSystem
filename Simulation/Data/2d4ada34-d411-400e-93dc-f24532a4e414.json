@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2d4ada34-d411-400e-93dc-f24532a4e414",
+  "PolicyID": "20bc49de-13a2-411c-8727-ad6c848069bd",
+  "EffectiveDates": {
+    "StartDate": "2023-10-05",
+    "EndDate": "2024-10-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9ad13e12-77b2-49a5-bc9a-a688be9cd952",
+    "Name": "Troy Ellis",
+    "PolicyNumber": "20bc49de-13a2-411c-8727-ad6c848069bd",
+    "ContactInformation": {
+      "Phone": "+1-908-503-4897x175",
+      "Email": "scottspencer@example.org",
+      "Address": "Unit 6163 Box 1294\nDPO AP 82739"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-28",
+    "Location": "10750 Hernandez Crest Suite 854\nKatherineside, UT 24997",
+    "Description": "Thousand summer thing project second. Best onto they establish work. Business particular song.\nIssue want office other surface just. Book allow catch."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 78299
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 10732
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 12144
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16182
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2732
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 195527,
+    "TotalApproved": 3585
+  },
+  "AdjusterDetails": {
+    "Name": "Richard Jones",
+    "ContactInformation": {
+      "Phone": "473-663-5014x599",
+      "Email": "samuelmurphy@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/4a39d5ea-cb96-47f2-b1fd-0c6b4f8c6cac"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-28T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-02T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-07T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

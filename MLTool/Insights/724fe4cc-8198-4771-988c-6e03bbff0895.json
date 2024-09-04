@@ -1,0 +1,81 @@
+{
+    "ClaimID": "724fe4cc-8198-4771-988c-6e03bbff0895",
+    "PolicyID": "d2e299e7-8b4e-4b7e-9cd4-932880ff6a93",
+    "EffectiveDates": {
+        "StartDate": "2023-10-09",
+        "EndDate": "2024-10-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "46ef7138-cf80-4234-a2a3-f2eb786ed010",
+        "Name": "Melissa Young",
+        "PolicyNumber": "d2e299e7-8b4e-4b7e-9cd4-932880ff6a93",
+        "ContactInformation": {
+            "Phone": "+1-890-210-6657x7853",
+            "Email": "csampson@example.com",
+            "Address": "58159 Timothy Forge\nSethville, PR 80340"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-20",
+        "Location": "USS Watson\nFPO AE 88613",
+        "Description": "Number second drop better peace show more. To argue know.\nUp party until smile. Offer industry provide threat join tend. Treatment sort thousand deal activity event say."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44130
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14963
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45327
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30595
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8864
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 149107,
+        "TotalApproved": 78645
+    },
+    "AdjusterDetails": {
+        "Name": "Paul Richardson",
+        "ContactInformation": {
+            "Phone": "787-783-7524x93785",
+            "Email": "mason48@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/94b92755-ec9a-429a-a804-664933c75400"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-20T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-25T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-30T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

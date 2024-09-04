@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9f117b37-32eb-43e2-8f20-b7d612a9477e",
+    "PolicyID": "463b8fda-55ec-40b5-a4af-6bb60a48e66b",
+    "EffectiveDates": {
+        "StartDate": "2024-07-27",
+        "EndDate": "2025-07-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8e2f9a8c-c8e1-4403-8d7f-808b655bbf4d",
+        "Name": "Rebecca Cook",
+        "PolicyNumber": "463b8fda-55ec-40b5-a4af-6bb60a48e66b",
+        "ContactInformation": {
+            "Phone": "001-567-928-2634x6481",
+            "Email": "kathrynwalters@example.org",
+            "Address": "49258 Keith Walk Apt. 830\nWest Jamesside, OK 07534"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-02",
+        "Location": "42168 Davis Extension Suite 199\nAndersonmouth, NV 46490",
+        "Description": "Ability happy kitchen line all old around enough.\nThis street camera because. Tough thank suggest police.\nPolitics energy face kind forward concern lose. Easy pretty though join off do bar southern."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 48982
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8259
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6600
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48489
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 145395
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 72642,
+        "TotalApproved": 4486
+    },
+    "AdjusterDetails": {
+        "Name": "Katherine Gray",
+        "ContactInformation": {
+            "Phone": "(339)649-7214x1815",
+            "Email": "corey26@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1d4f1f8d-6f69-42ce-b945-fc178c2c1492"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4b7f72ed-d1bd-4b76-9bee-2d1b46ef05fc",
+    "PolicyID": "583493f2-45a1-4ec1-981e-deac830d17f5",
+    "EffectiveDates": {
+        "StartDate": "2023-09-17",
+        "EndDate": "2024-09-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5694ff00-1dcd-463a-9639-0f9e857ae982",
+        "Name": "Nancy Garner",
+        "PolicyNumber": "583493f2-45a1-4ec1-981e-deac830d17f5",
+        "ContactInformation": {
+            "Phone": "2619799214",
+            "Email": "hansencheryl@example.com",
+            "Address": "Unit 7283 Box 8408\nDPO AA 18992"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-29",
+        "Location": "PSC 0461, Box 0256\nAPO AA 08065",
+        "Description": "Street effect raise quite maintain. Fall wish stock sort little worker garden hair. Character sign read miss risk ask wear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2552
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 193072
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2302
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15048
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6438
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 137959,
+        "TotalApproved": 126858
+    },
+    "AdjusterDetails": {
+        "Name": "Leslie Cook",
+        "ContactInformation": {
+            "Phone": "321-850-5434x4491",
+            "Email": "juanrice@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/03a24c16-f659-4733-b88b-018898a7afa1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-29T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

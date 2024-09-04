@@ -1,0 +1,81 @@
+{
+    "ClaimID": "39ab9bf7-758b-4f0a-af23-98ee45da1379",
+    "PolicyID": "c5393c37-f19f-418d-862d-296b04fa6d34",
+    "EffectiveDates": {
+        "StartDate": "2023-11-10",
+        "EndDate": "2024-11-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e48ed150-b65d-4198-b445-0d70b2ae937e",
+        "Name": "Brooke Gray",
+        "PolicyNumber": "c5393c37-f19f-418d-862d-296b04fa6d34",
+        "ContactInformation": {
+            "Phone": "2105045556",
+            "Email": "ncole@example.net",
+            "Address": "27252 David Haven\nLake William, MN 94140"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-25",
+        "Location": "5221 Cooper Turnpike Apt. 069\nSchwartzside, VA 37933",
+        "Description": "Western model little computer forget Mrs cup. Everyone character happy.\nSingle attorney walk drop. But song since can both.\nAbout behavior often alone left."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 141117
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 160270
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 88744
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13956
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2903
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 149209,
+        "TotalApproved": 113769
+    },
+    "AdjusterDetails": {
+        "Name": "Beth Lopez",
+        "ContactInformation": {
+            "Phone": "8464866823",
+            "Email": "ilopez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6a895ac5-8eb9-4d3c-bec0-78b9a50e17a6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-30T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-05T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

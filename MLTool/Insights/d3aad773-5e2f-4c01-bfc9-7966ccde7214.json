@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d3aad773-5e2f-4c01-bfc9-7966ccde7214",
+    "PolicyID": "d0e2504b-1461-4d14-9ae9-a64f9f8c63a6",
+    "EffectiveDates": {
+        "StartDate": "2024-08-25",
+        "EndDate": "2025-08-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c0f210b2-9043-4801-9bb0-3af889f02323",
+        "Name": "Amy Calderon",
+        "PolicyNumber": "d0e2504b-1461-4d14-9ae9-a64f9f8c63a6",
+        "ContactInformation": {
+            "Phone": "(744)914-1387x94374",
+            "Email": "james75@example.org",
+            "Address": "96135 Rush Landing\nNorth Autumn, MN 80301"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-08-13",
+        "Location": "918 Jacob Flat\nEast Paul, MA 93236",
+        "Description": "American think why seat. Not produce body. Mind body responsibility form determine.\nSame summer our stand some focus drop. Market home cup local."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15146
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 102699
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 83931
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1165
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 56405
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 109328,
+        "TotalApproved": 2247
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Barnett",
+        "ContactInformation": {
+            "Phone": "7299103732",
+            "Email": "imason@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7adfea90-3a7b-480a-bc2a-6da3ccc2349c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-08-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

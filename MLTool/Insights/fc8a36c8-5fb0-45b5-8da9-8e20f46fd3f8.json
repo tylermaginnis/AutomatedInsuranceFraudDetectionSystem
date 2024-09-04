@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fc8a36c8-5fb0-45b5-8da9-8e20f46fd3f8",
+    "PolicyID": "df1e03a5-e766-46e4-a78d-8e4116f8ef55",
+    "EffectiveDates": {
+        "StartDate": "2024-06-08",
+        "EndDate": "2025-06-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "01b7b70d-c73f-47a8-b5bf-8af3f2cc5965",
+        "Name": "Thomas Hunt",
+        "PolicyNumber": "df1e03a5-e766-46e4-a78d-8e4116f8ef55",
+        "ContactInformation": {
+            "Phone": "+1-359-335-2484",
+            "Email": "debraconner@example.org",
+            "Address": "2193 Brown Turnpike Suite 658\nPort Chelseafort, IA 46528"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-25",
+        "Location": "196 Dawn Shores\nEast Sallyton, ME 81485",
+        "Description": "Week there share way nearly even that above. Any window throw president admit opportunity wind. Movie home throughout heart.\nStation role before degree me media school. Draw develop heavy tax."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4110
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2083
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49755
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26372
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70633
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 50221,
+        "TotalApproved": 5766
+    },
+    "AdjusterDetails": {
+        "Name": "Felicia Monroe",
+        "ContactInformation": {
+            "Phone": "(811)845-9318x8814",
+            "Email": "ethangarcia@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5d41ccc6-5cdc-4c15-9633-84cbef768ea3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-25T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-30T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-04T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

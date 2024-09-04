@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c90df33d-fdfb-48cb-bfd0-cfb2ce1e3fa4",
+    "PolicyID": "53cdcda9-04a2-4f07-b8f3-c2f45687e16c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-02",
+        "EndDate": "2025-05-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fa7f3274-1ebd-44de-95c9-c26c7501934f",
+        "Name": "Jessica Foster",
+        "PolicyNumber": "53cdcda9-04a2-4f07-b8f3-c2f45687e16c",
+        "ContactInformation": {
+            "Phone": "3204810668",
+            "Email": "johnmccoy@example.net",
+            "Address": "48496 Robinson Lock Apt. 043\nNoahstad, TX 24153"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "37776 Haynes Ramp\nSouth Andrew, IA 46736",
+        "Description": "Decision drop partner type once. Compare crime commercial little cause month take. Forward return forget against machine indeed act.\nEconomic side thought enter store. Unit heart scientist."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 126155
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4370
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18425
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9141
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24487
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 83254,
+        "TotalApproved": 70953
+    },
+    "AdjusterDetails": {
+        "Name": "Sara Arias",
+        "ContactInformation": {
+            "Phone": "577.710.4867",
+            "Email": "zachary28@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/cbde4bba-a066-4270-bade-00d3caadd9bb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

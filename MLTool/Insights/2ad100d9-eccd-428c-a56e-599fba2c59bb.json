@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2ad100d9-eccd-428c-a56e-599fba2c59bb",
+    "PolicyID": "306cd240-39c4-4c83-af43-bd1aa65d6014",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "331a6cac-3b13-4680-90e3-d699d3eb3ace",
+        "Name": "Sean Carroll",
+        "PolicyNumber": "306cd240-39c4-4c83-af43-bd1aa65d6014",
+        "ContactInformation": {
+            "Phone": "001-711-585-5342x3235",
+            "Email": "johnsoncassandra@example.org",
+            "Address": "7351 Sarah Green\nBairdburgh, LA 53988"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-15",
+        "Location": "318 Montgomery Station\nDiazhaven, DC 55185",
+        "Description": "Economy foreign worry. Really week often win read. Scene note million including factor decision daughter military.\nLittle item music. Short still rich hard identify course."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4365
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3628
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7860
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46436
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6270
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 116050,
+        "TotalApproved": 37121
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Welch",
+        "ContactInformation": {
+            "Phone": "(233)237-3953",
+            "Email": "rlevine@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e3360351-a014-41c1-ab6c-fc9450138bec"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

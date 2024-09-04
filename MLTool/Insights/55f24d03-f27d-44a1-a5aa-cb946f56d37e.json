@@ -1,0 +1,81 @@
+{
+    "ClaimID": "55f24d03-f27d-44a1-a5aa-cb946f56d37e",
+    "PolicyID": "f5963152-b327-41a4-a9aa-5d3e0e2e414e",
+    "EffectiveDates": {
+        "StartDate": "2024-01-09",
+        "EndDate": "2025-01-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "be8aa98d-2955-47f4-8d55-d24e5a45ba41",
+        "Name": "Pamela Munoz",
+        "PolicyNumber": "f5963152-b327-41a4-a9aa-5d3e0e2e414e",
+        "ContactInformation": {
+            "Phone": "(208)255-9641x089",
+            "Email": "khines@example.org",
+            "Address": "7737 Amy Corners\nBoydburgh, AZ 62287"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-24",
+        "Location": "2630 Charles Knolls Suite 824\nEast Alexport, CO 33796",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 68431
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33818
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8624
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10460
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6346
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 127679,
+        "TotalApproved": 11592
+    },
+    "AdjusterDetails": {
+        "Name": "Destiny Webb",
+        "ContactInformation": {
+            "Phone": "001-924-772-6636x2276",
+            "Email": "marciahall@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a94aadff-63ee-43b7-9ded-d3d94d1814b1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-24T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-29T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-03T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

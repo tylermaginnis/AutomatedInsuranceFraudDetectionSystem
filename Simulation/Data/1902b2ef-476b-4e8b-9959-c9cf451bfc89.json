@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1902b2ef-476b-4e8b-9959-c9cf451bfc89",
+  "PolicyID": "bffedf14-8308-4c31-a06b-d9696cbedc33",
+  "EffectiveDates": {
+    "StartDate": "2023-09-13",
+    "EndDate": "2024-09-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b761fad4-0964-4939-9820-8a6986e153b4",
+    "Name": "Victoria Bolton",
+    "PolicyNumber": "bffedf14-8308-4c31-a06b-d9696cbedc33",
+    "ContactInformation": {
+      "Phone": "(712)559-1690",
+      "Email": "dennis41@example.com",
+      "Address": "77034 Jonathan Summit Suite 986\nMichelleburgh, PW 84613"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-10-21",
+    "Location": "3701 Saunders Bridge Apt. 565\nLake Davidburgh, MA 06723",
+    "Description": "Place whether sure his social wish social. Week suffer management type. Coach week court fine."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 180303
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 89481
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 90629
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 39590
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 75431
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 65180,
+    "TotalApproved": 38359
+  },
+  "AdjusterDetails": {
+    "Name": "Brittany Fischer",
+    "ContactInformation": {
+      "Phone": "203.259.5027x249",
+      "Email": "pprice@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/6793ff1e-d993-4a90-ab41-f921d8f48d7d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-10-21T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-10-26T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-10-31T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

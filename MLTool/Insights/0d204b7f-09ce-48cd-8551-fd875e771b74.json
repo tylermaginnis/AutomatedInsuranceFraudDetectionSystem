@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0d204b7f-09ce-48cd-8551-fd875e771b74",
+    "PolicyID": "6d870df1-64a4-443d-a146-48a6f4d3fa81",
+    "EffectiveDates": {
+        "StartDate": "2023-11-11",
+        "EndDate": "2024-11-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "30d5b1a9-4da3-4d8e-aa15-e211556b99e6",
+        "Name": "Rebecca Fisher",
+        "PolicyNumber": "6d870df1-64a4-443d-a146-48a6f4d3fa81",
+        "ContactInformation": {
+            "Phone": "(230)642-3400",
+            "Email": "marshallmatthew@example.net",
+            "Address": "765 Moore Meadow Suite 107\nPort Corybury, DC 52462"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-08",
+        "Location": "221 Maria Street Suite 058\nWest Jeffland, OH 82953",
+        "Description": "Watch he east road break trial. Actually hot defense range. Person trial reveal economy. Leader really in middle science scene religious effect."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3092
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3437
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14532
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82713
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35911
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 180389,
+        "TotalApproved": 151029
+    },
+    "AdjusterDetails": {
+        "Name": "Mariah Padilla",
+        "ContactInformation": {
+            "Phone": "466-501-1658x500",
+            "Email": "qmiller@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/22d0ab11-9662-4e41-a711-dc51911e81ac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-08T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-13T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-18T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

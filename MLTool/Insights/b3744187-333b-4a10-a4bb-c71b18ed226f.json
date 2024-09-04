@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b3744187-333b-4a10-a4bb-c71b18ed226f",
+    "PolicyID": "06ea4dc7-1220-46b4-b8e1-554cd6201b31",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f89cc213-6f73-43f1-aa45-0b9d846d4359",
+        "Name": "Joshua White",
+        "PolicyNumber": "06ea4dc7-1220-46b4-b8e1-554cd6201b31",
+        "ContactInformation": {
+            "Phone": "(550)744-7550",
+            "Email": "williambrady@example.org",
+            "Address": "390 Black Meadows\nEast Gail, VA 23668"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-18",
+        "Location": "00844 Amanda Parkways\nKellyborough, MN 62588",
+        "Description": "Feeling central see collection. Church upon bag though.\nOften region executive fall develop respond. Successful there food huge test. War again table safe sound."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4081
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1222
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3004
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 179213
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9551
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 102130,
+        "TotalApproved": 36656
+    },
+    "AdjusterDetails": {
+        "Name": "Janice Lam",
+        "ContactInformation": {
+            "Phone": "517.330.3976x1936",
+            "Email": "vcobb@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5a8f168b-500c-4747-8c10-6a0aeab710c8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

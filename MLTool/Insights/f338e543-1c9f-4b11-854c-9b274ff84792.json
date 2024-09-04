@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f338e543-1c9f-4b11-854c-9b274ff84792",
+    "PolicyID": "85fb22d7-d6b8-4fa7-a5f9-fd1ca6bed13c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-18",
+        "EndDate": "2025-05-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3c733afc-5db2-4337-8d00-d972b9fa73f8",
+        "Name": "Paul Ramos",
+        "PolicyNumber": "85fb22d7-d6b8-4fa7-a5f9-fd1ca6bed13c",
+        "ContactInformation": {
+            "Phone": "+1-859-360-1690",
+            "Email": "whardy@example.org",
+            "Address": "78359 Gene Rapids Suite 513\nNorth Maryview, AK 52101"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-09",
+        "Location": "0751 Roy Field Apt. 963\nKingfort, VT 06731",
+        "Description": "Form read billion girl blue show road. Continue pretty point mission against.\nChallenge next cultural."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 168399
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21483
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 95524
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34398
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1122
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151714,
+        "TotalApproved": 82172
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Lin",
+        "ContactInformation": {
+            "Phone": "(405)847-1553",
+            "Email": "jill82@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/49cab467-d18d-4686-a8a7-4ede89f33109"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-09T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-14T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-19T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

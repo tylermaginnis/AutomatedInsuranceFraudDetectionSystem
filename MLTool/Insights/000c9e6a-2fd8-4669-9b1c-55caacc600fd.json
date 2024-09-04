@@ -1,0 +1,81 @@
+{
+    "ClaimID": "000c9e6a-2fd8-4669-9b1c-55caacc600fd",
+    "PolicyID": "0acc8de4-b7ed-4b86-9049-a0090cdb0402",
+    "EffectiveDates": {
+        "StartDate": "2024-08-20",
+        "EndDate": "2025-08-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4091ba30-a877-4831-a959-74739ea96ef3",
+        "Name": "Shannon Schwartz",
+        "PolicyNumber": "0acc8de4-b7ed-4b86-9049-a0090cdb0402",
+        "ContactInformation": {
+            "Phone": "001-346-570-0253x3710",
+            "Email": "oward@example.com",
+            "Address": "535 Samuel Spur\nEast Russell, VI 80924"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-28",
+        "Location": "4018 Barrett Oval\nPort Anthony, KS 43300",
+        "Description": "It toward color while. Fight economic nature generation look."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 171969
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 155606
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 96249
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9145
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37718
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 191547,
+        "TotalApproved": 48730
+    },
+    "AdjusterDetails": {
+        "Name": "Tamara Fisher",
+        "ContactInformation": {
+            "Phone": "+1-233-404-8303",
+            "Email": "taylorruth@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4ecc567d-6d61-4286-bca4-f06b7000b6ed"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-28T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-02T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-07T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

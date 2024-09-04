@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7a6046ae-4eb0-425a-bc3a-909331527bf0",
+    "PolicyID": "17d6425c-7e80-4ed4-ad32-aa882c822315",
+    "EffectiveDates": {
+        "StartDate": "2024-02-10",
+        "EndDate": "2025-02-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c89ac3fa-50e5-4a5d-94e0-0f5326520b4b",
+        "Name": "Hayden Mitchell",
+        "PolicyNumber": "17d6425c-7e80-4ed4-ad32-aa882c822315",
+        "ContactInformation": {
+            "Phone": "+1-703-739-5692x217",
+            "Email": "jmartinez@example.net",
+            "Address": "3971 Erin Route\nEast Teresa, NJ 32529"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-09",
+        "Location": "441 Lopez Junction Apt. 890\nBrownborough, OH 64350",
+        "Description": "Month order technology time arrive several girl career. By month especially meeting step even."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9012
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7731
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8476
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1491
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 168815
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 87285,
+        "TotalApproved": 76473
+    },
+    "AdjusterDetails": {
+        "Name": "Carrie Thompson",
+        "ContactInformation": {
+            "Phone": "521-825-7849",
+            "Email": "snyderjohn@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5fb1f3d6-66ba-4204-87f8-9f249871d026"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

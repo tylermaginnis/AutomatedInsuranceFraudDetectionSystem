@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a9af5776-3916-4ce5-8825-e5152430f60c",
+  "PolicyID": "f30b2447-0513-4291-8406-908669bca7af",
+  "EffectiveDates": {
+    "StartDate": "2023-10-08",
+    "EndDate": "2024-10-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ed656e8a-7b6d-49f9-a05b-fa2ebc6742b7",
+    "Name": "Mary Larsen",
+    "PolicyNumber": "f30b2447-0513-4291-8406-908669bca7af",
+    "ContactInformation": {
+      "Phone": "2384972895",
+      "Email": "alexandriadaniel@example.org",
+      "Address": "19969 Nicole Gardens\nLake Chase, KY 05897"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-27",
+    "Location": "852 Silva Cliffs\nMccarthyshire, ND 06594",
+    "Description": "Establish by point civil statement class. Key field couple thought war senior result. Knowledge agreement law town today condition."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 23013
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 34401
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9547
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6982
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 25407
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 129400,
+    "TotalApproved": 98098
+  },
+  "AdjusterDetails": {
+    "Name": "Jake Higgins",
+    "ContactInformation": {
+      "Phone": "001-292-792-9539",
+      "Email": "kellydavis@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/a9c678ef-c5a4-499e-a0b1-7077d17c1fe2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-27T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-01T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-06T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5a7d3276-8f0e-47fb-97f4-47ca7def200a",
+    "PolicyID": "48554fb7-893b-49e1-9921-b53179040f29",
+    "EffectiveDates": {
+        "StartDate": "2023-12-28",
+        "EndDate": "2024-12-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ee3e4652-aee9-40af-b03f-4b91cc7e15fe",
+        "Name": "Kimberly Hudson",
+        "PolicyNumber": "48554fb7-893b-49e1-9921-b53179040f29",
+        "ContactInformation": {
+            "Phone": "832.401.9168",
+            "Email": "nataliejones@example.net",
+            "Address": "261 Jay Terrace\nWest Christophertown, MO 11187"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-05",
+        "Location": "2551 Patrick Circle\nSmithport, PW 09394",
+        "Description": "Great from represent. Task property interest effect. Special plan care Mrs together off realize story."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 43739
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 171553
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5449
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14164
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29840
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 113309,
+        "TotalApproved": 36076
+    },
+    "AdjusterDetails": {
+        "Name": "Justin Henderson",
+        "ContactInformation": {
+            "Phone": "001-883-250-1151x645",
+            "Email": "monica36@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4fa97bac-d2a4-4fe8-81e6-6859196b9334"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d544f15b-9a88-497c-8174-28e467bb5640",
+    "PolicyID": "12939038-2cb4-4f4c-97f0-e9af51804df1",
+    "EffectiveDates": {
+        "StartDate": "2024-02-24",
+        "EndDate": "2025-02-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6384f273-3305-4f51-9946-947494283c0e",
+        "Name": "Michael Williams",
+        "PolicyNumber": "12939038-2cb4-4f4c-97f0-e9af51804df1",
+        "ContactInformation": {
+            "Phone": "418.735.7126x0340",
+            "Email": "johnsonbrett@example.net",
+            "Address": "71561 Ray Glens Suite 987\nNorth Miguel, CO 46935"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-30",
+        "Location": "026 Abigail Plaza Suite 880\nMelissaburgh, PR 82666",
+        "Description": "Land minute team inside wind. Practice law memory yet order."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 84084
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14267
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 87377
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9151
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 55303
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 17576,
+        "TotalApproved": 4456
+    },
+    "AdjusterDetails": {
+        "Name": "Cynthia Kerr",
+        "ContactInformation": {
+            "Phone": "(877)790-0693x3699",
+            "Email": "kanesarah@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7b8fe4a7-ab5a-4087-a004-d33cf8971e35"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-30T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-04T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-09T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

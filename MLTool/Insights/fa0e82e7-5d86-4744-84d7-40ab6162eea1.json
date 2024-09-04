@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fa0e82e7-5d86-4744-84d7-40ab6162eea1",
+    "PolicyID": "ad1cf925-e467-432c-bbf9-70c3446b9059",
+    "EffectiveDates": {
+        "StartDate": "2023-12-12",
+        "EndDate": "2024-12-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "32372642-da38-4059-83ca-82e025d86ca0",
+        "Name": "Lucas Sanford",
+        "PolicyNumber": "ad1cf925-e467-432c-bbf9-70c3446b9059",
+        "ContactInformation": {
+            "Phone": "667.676.0791x1407",
+            "Email": "zhickman@example.org",
+            "Address": "940 Snow Knoll\nLindsayfort, ND 96025"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-22",
+        "Location": "473 Rogers Islands\nSouth Valerieshire, TN 57527",
+        "Description": "Person space direction husband. Situation international yeah none operation responsibility trial. Rich bar across child."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4680
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37772
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4205
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1779
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 125450
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 74388,
+        "TotalApproved": 66696
+    },
+    "AdjusterDetails": {
+        "Name": "Carol Barr",
+        "ContactInformation": {
+            "Phone": "(742)866-5642x219",
+            "Email": "ksimmons@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/51ba1221-01ca-40d2-a3c1-459b2c6df6fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-22T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-27T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-03T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

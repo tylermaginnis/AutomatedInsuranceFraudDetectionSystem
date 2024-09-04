@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d5df15e8-e39a-41c2-80e3-6fb306b29fb2",
+    "PolicyID": "bb2f65c5-7309-4912-a74b-28ccae0b3e5d",
+    "EffectiveDates": {
+        "StartDate": "2024-08-03",
+        "EndDate": "2025-08-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a90c4fcd-1d31-4ee0-9cc8-d1bcff29e1f0",
+        "Name": "Danielle Adams",
+        "PolicyNumber": "bb2f65c5-7309-4912-a74b-28ccae0b3e5d",
+        "ContactInformation": {
+            "Phone": "516-569-0603x41404",
+            "Email": "rachaelroach@example.org",
+            "Address": "01319 Mann Curve Apt. 482\nPenatown, NV 69866"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-08",
+        "Location": "983 Cassandra Court Suite 633\nPort Richard, ND 64741",
+        "Description": "Them to direction third. Staff future sense especially. From defense event. No by report item."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41992
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16590
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 143282
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 99562
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2573
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 178970,
+        "TotalApproved": 135745
+    },
+    "AdjusterDetails": {
+        "Name": "Shaun Anderson MD",
+        "ContactInformation": {
+            "Phone": "941-350-6365x939",
+            "Email": "jonesthomas@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/13455e0c-39b2-46a2-aac7-c0d36adbebbd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-08T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-13T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-18T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

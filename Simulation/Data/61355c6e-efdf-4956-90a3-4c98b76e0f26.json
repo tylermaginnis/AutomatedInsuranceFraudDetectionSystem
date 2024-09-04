@@ -1,0 +1,80 @@
+{
+  "ClaimID": "61355c6e-efdf-4956-90a3-4c98b76e0f26",
+  "PolicyID": "a6b89e43-e2e0-4531-9ff6-d6a28d3f2765",
+  "EffectiveDates": {
+    "StartDate": "2024-05-14",
+    "EndDate": "2025-05-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ee719f11-84c2-492c-a387-519c864d43ea",
+    "Name": "Charles Smith",
+    "PolicyNumber": "a6b89e43-e2e0-4531-9ff6-d6a28d3f2765",
+    "ContactInformation": {
+      "Phone": "001-251-546-8432x94542",
+      "Email": "edwindavis@example.org",
+      "Address": "578 Anna Canyon\nNew Andrew, ND 44028"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-14",
+    "Location": "38745 Hayes Vista\nPort Michaelville, VA 36043",
+    "Description": "Floor Mrs skill war.\nTreat structure little so authority where. Shake bank use bring. Effort indicate study realize."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 10936
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 35360
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 26921
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4677
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 184444
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 181128,
+    "TotalApproved": 120807
+  },
+  "AdjusterDetails": {
+    "Name": "Kristin Berry",
+    "ContactInformation": {
+      "Phone": "+1-216-971-7241x5998",
+      "Email": "john38@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/05da845b-911e-4394-bbda-3ef30a3bd52c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-14T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-19T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-24T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

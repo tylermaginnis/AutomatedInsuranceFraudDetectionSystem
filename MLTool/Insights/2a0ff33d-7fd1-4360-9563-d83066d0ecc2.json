@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2a0ff33d-7fd1-4360-9563-d83066d0ecc2",
+    "PolicyID": "0bd81212-4af4-4837-8c7f-a5f5922ec09f",
+    "EffectiveDates": {
+        "StartDate": "2024-04-10",
+        "EndDate": "2025-04-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "698f82af-5885-4c5d-8a52-f088b2234b24",
+        "Name": "Nancy Garcia",
+        "PolicyNumber": "0bd81212-4af4-4837-8c7f-a5f5922ec09f",
+        "ContactInformation": {
+            "Phone": "+1-892-375-1209",
+            "Email": "richard35@example.org",
+            "Address": "6601 Hernandez Rapids\nTinatown, VT 37304"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-14",
+        "Location": "PSC 6067, Box 2353\nAPO AA 39231",
+        "Description": "Foot chair prove person cultural fall. Have six including education help quite. Son world certainly degree hospital.\nPopulation forget reality stage. Cut enjoy simple technology wonder receive."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 74374
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17645
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 99362
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46154
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8250
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 136333,
+        "TotalApproved": 31418
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Mccarthy",
+        "ContactInformation": {
+            "Phone": "560.200.6497x314",
+            "Email": "zachary17@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8e3718a5-9ef3-4493-9910-3f7f67ac862a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

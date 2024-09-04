@@ -1,0 +1,81 @@
+{
+    "ClaimID": "61283fa4-6fbb-424e-bbcb-8b415d3f2f8e",
+    "PolicyID": "88eb5a9a-7feb-4222-b343-7378b24c14c3",
+    "EffectiveDates": {
+        "StartDate": "2023-09-11",
+        "EndDate": "2024-09-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e6b82973-ed68-4447-925b-bbcbdad7ed76",
+        "Name": "Natalie Mckinney",
+        "PolicyNumber": "88eb5a9a-7feb-4222-b343-7378b24c14c3",
+        "ContactInformation": {
+            "Phone": "575-689-7817",
+            "Email": "helen08@example.org",
+            "Address": "96545 White Mills Suite 548\nLauraberg, NH 33058"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-30",
+        "Location": "58690 Flores Rapid\nEast Matthew, NM 74019",
+        "Description": "Blood reason hair. Concern some want difference officer. Future hard tree community."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 55139
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 43918
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18879
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40718
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8020
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 123490,
+        "TotalApproved": 79378
+    },
+    "AdjusterDetails": {
+        "Name": "Samantha Scott",
+        "ContactInformation": {
+            "Phone": "334.706.0964",
+            "Email": "benjamin88@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/80fc2dad-736d-4508-ba26-563ffa2c76c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

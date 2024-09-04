@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3a5eb594-529b-4aab-beb9-488ef5ac4844",
+    "PolicyID": "9dd578bd-345d-4556-aa02-ae893cfbf61a",
+    "EffectiveDates": {
+        "StartDate": "2024-08-31",
+        "EndDate": "2025-08-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b6d425ec-2f25-4a7f-b0e0-730fbbc15868",
+        "Name": "Timothy Crawford",
+        "PolicyNumber": "9dd578bd-345d-4556-aa02-ae893cfbf61a",
+        "ContactInformation": {
+            "Phone": "307.771.4716",
+            "Email": "mossgrace@example.org",
+            "Address": "83188 Jason Mews Apt. 363\nNew Jaime, LA 03779"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-06",
+        "Location": "709 Curtis Lights Apt. 229\nLake Amy, SD 82116",
+        "Description": "Look old also foot head impact. Country rest state picture maintain per. World show term protect born answer. Stuff room brother drive few political defense."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7378
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 129417
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1447
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 164972
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 65087
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 74117,
+        "TotalApproved": 33287
+    },
+    "AdjusterDetails": {
+        "Name": "Douglas Rodriguez",
+        "ContactInformation": {
+            "Phone": "2445687175",
+            "Email": "ryanhughes@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a46af65d-d638-4781-89f9-5c923878b194"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

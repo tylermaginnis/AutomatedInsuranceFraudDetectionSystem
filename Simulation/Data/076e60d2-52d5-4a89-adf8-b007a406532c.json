@@ -1,0 +1,80 @@
+{
+  "ClaimID": "076e60d2-52d5-4a89-adf8-b007a406532c",
+  "PolicyID": "915186c7-4356-4d6d-a2c4-ee42100a8ea5",
+  "EffectiveDates": {
+    "StartDate": "2024-02-21",
+    "EndDate": "2025-02-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b0b7c4d8-67f1-4ab6-b200-0c6fd313025a",
+    "Name": "Amanda Williams",
+    "PolicyNumber": "915186c7-4356-4d6d-a2c4-ee42100a8ea5",
+    "ContactInformation": {
+      "Phone": "912-711-8396",
+      "Email": "brian15@example.org",
+      "Address": "PSC 0787, Box 4238\nAPO AP 84193"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-07",
+    "Location": "5092 Clark Park\nSouth Cindyport, AR 02666",
+    "Description": "Security answer peace wall. Free media race rock exactly phone face. Yeah create officer road father above physical."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1984
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 25230
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11798
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 158779
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 4477
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 179770,
+    "TotalApproved": 49594
+  },
+  "AdjusterDetails": {
+    "Name": "Lori Decker",
+    "ContactInformation": {
+      "Phone": "2165335898",
+      "Email": "ramosmichael@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/5bb4cf1b-97da-41c3-ab77-cbb14d59c5da"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-07T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-12T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-17T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

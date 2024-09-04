@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a9e50f3c-00d3-40c7-a146-3e05dd925b03",
+    "PolicyID": "589ff018-5823-43c6-9857-02549fa4f03a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-06",
+        "EndDate": "2025-03-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e083e5e1-a31d-40a1-ae67-f5db243c31e9",
+        "Name": "Kerry Solomon",
+        "PolicyNumber": "589ff018-5823-43c6-9857-02549fa4f03a",
+        "ContactInformation": {
+            "Phone": "(344)836-7346x388",
+            "Email": "milleramanda@example.com",
+            "Address": "USS Wood\nFPO AA 90191"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-24",
+        "Location": "639 Paul Villages\nDerekborough, NH 24421",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 95470
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21640
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8947
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27125
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9454
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 162636,
+        "TotalApproved": 23370
+    },
+    "AdjusterDetails": {
+        "Name": "Stacey Evans",
+        "ContactInformation": {
+            "Phone": "707-819-1925",
+            "Email": "fischermary@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a1f4184f-5b96-4ac5-9bba-dfcedbd314ae"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-24T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-29T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-04T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

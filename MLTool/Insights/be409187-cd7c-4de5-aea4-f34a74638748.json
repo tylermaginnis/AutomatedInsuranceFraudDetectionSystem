@@ -1,0 +1,81 @@
+{
+    "ClaimID": "be409187-cd7c-4de5-aea4-f34a74638748",
+    "PolicyID": "19eff174-f091-4cd8-a9f6-dbe46b19c1a3",
+    "EffectiveDates": {
+        "StartDate": "2024-01-06",
+        "EndDate": "2025-01-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b1429bb6-4a41-4a27-8dfc-4927efd07673",
+        "Name": "Eric Johnson",
+        "PolicyNumber": "19eff174-f091-4cd8-a9f6-dbe46b19c1a3",
+        "ContactInformation": {
+            "Phone": "(764)900-0355x7467",
+            "Email": "pscott@example.org",
+            "Address": "PSC 1525, Box 9190\nAPO AE 71256"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-22",
+        "Location": "2166 Richard Divide\nSarahmouth, AS 31233",
+        "Description": "Month moment remain him head foreign. Later rest those recently standard themselves similar particularly. Return debate simply.\nGrowth my century easy herself. Race beautiful address operation stop."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30388
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19615
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 66310
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23714
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60938
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 108990,
+        "TotalApproved": 9274
+    },
+    "AdjusterDetails": {
+        "Name": "Natasha Alexander",
+        "ContactInformation": {
+            "Phone": "001-928-437-1996x99400",
+            "Email": "nguyenmichael@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/afd0e777-5985-48f0-9d89-ccb9746dc350"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-22T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-27T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-02T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

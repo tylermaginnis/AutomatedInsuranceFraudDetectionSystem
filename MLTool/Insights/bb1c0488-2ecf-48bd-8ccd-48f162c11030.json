@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bb1c0488-2ecf-48bd-8ccd-48f162c11030",
+    "PolicyID": "4adb8e2c-ce41-474e-91a3-1bac6d3c748e",
+    "EffectiveDates": {
+        "StartDate": "2024-06-10",
+        "EndDate": "2025-06-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "87bc16be-8434-4bc9-a229-158c40cd9ca3",
+        "Name": "Kenneth Mcdonald",
+        "PolicyNumber": "4adb8e2c-ce41-474e-91a3-1bac6d3c748e",
+        "ContactInformation": {
+            "Phone": "322.962.6262x46844",
+            "Email": "hulldana@example.com",
+            "Address": "177 Medina Extension Suite 451\nNorth Brittany, IN 02961"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-26",
+        "Location": "88007 Brown Parkways Suite 231\nMelanieland, NC 07844",
+        "Description": "Energy doctor research up husband use. Leader wrong either serious up. Maybe group force outside future beautiful consumer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26248
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3823
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27029
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19690
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7451
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 120369,
+        "TotalApproved": 91116
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Compton",
+        "ContactInformation": {
+            "Phone": "840.479.9315",
+            "Email": "garrisondawn@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/57247a9b-2a6a-434f-9b23-6c0683e06807"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-26T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

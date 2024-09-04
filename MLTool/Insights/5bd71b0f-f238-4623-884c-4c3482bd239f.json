@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5bd71b0f-f238-4623-884c-4c3482bd239f",
+    "PolicyID": "b7410a0f-792d-428b-9d60-3179c09c6b54",
+    "EffectiveDates": {
+        "StartDate": "2024-05-22",
+        "EndDate": "2025-05-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a1d36e10-1635-4772-9452-06d25f105723",
+        "Name": "Misty Johns",
+        "PolicyNumber": "b7410a0f-792d-428b-9d60-3179c09c6b54",
+        "ContactInformation": {
+            "Phone": "5367943102",
+            "Email": "ipruitt@example.com",
+            "Address": "980 Karen Drive\nWest Joshua, AZ 58947"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-11",
+        "Location": "77843 Travis Islands\nWilliamstown, AK 25108",
+        "Description": "Democratic force lay policy. Return wish party few. Evidence again dark idea education air. Child receive bill."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1686
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8301
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12502
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9660
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41502
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 92913,
+        "TotalApproved": 71383
+    },
+    "AdjusterDetails": {
+        "Name": "Walter Kennedy",
+        "ContactInformation": {
+            "Phone": "863-694-2743",
+            "Email": "joshuawilliams@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5e3e0728-c34a-4a12-861b-021c7ef974d7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-11T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-16T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-21T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

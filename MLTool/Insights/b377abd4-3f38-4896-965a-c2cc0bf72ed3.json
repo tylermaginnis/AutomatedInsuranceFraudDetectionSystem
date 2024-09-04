@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b377abd4-3f38-4896-965a-c2cc0bf72ed3",
+    "PolicyID": "31830f46-4eb8-460d-a314-5e05c0f3c3e4",
+    "EffectiveDates": {
+        "StartDate": "2024-05-19",
+        "EndDate": "2025-05-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ed4d0a17-fb03-444e-9d46-b493637f0b3d",
+        "Name": "Scott Baldwin",
+        "PolicyNumber": "31830f46-4eb8-460d-a314-5e05c0f3c3e4",
+        "ContactInformation": {
+            "Phone": "(915)994-2509",
+            "Email": "ramireztodd@example.com",
+            "Address": "3319 Callahan Villages Suite 632\nPort Nicole, SC 30042"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-12",
+        "Location": "71028 Moore Road\nLake Brenda, CT 28454",
+        "Description": "Executive especially discussion difference large. Determine resource bill whole worry entire window.\nDraw save fill few. You someone herself state relationship light growth yourself."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17611
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7421
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18438
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 72998
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 45613
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 193383,
+        "TotalApproved": 115422
+    },
+    "AdjusterDetails": {
+        "Name": "Randy Hines",
+        "ContactInformation": {
+            "Phone": "976-896-6778x44224",
+            "Email": "jamielewis@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a6a3d7f4-9452-416d-8b5e-c609a3dc9476"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

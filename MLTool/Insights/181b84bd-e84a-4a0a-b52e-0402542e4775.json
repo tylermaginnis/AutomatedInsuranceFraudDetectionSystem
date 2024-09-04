@@ -1,0 +1,81 @@
+{
+    "ClaimID": "181b84bd-e84a-4a0a-b52e-0402542e4775",
+    "PolicyID": "e1e24abb-5df2-40c1-82c0-b5f78ff1c45d",
+    "EffectiveDates": {
+        "StartDate": "2023-10-01",
+        "EndDate": "2024-09-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3e35387b-b02d-419f-930e-4126bf986adc",
+        "Name": "Amanda Ruiz",
+        "PolicyNumber": "e1e24abb-5df2-40c1-82c0-b5f78ff1c45d",
+        "ContactInformation": {
+            "Phone": "001-634-334-5486x9138",
+            "Email": "kevinmaldonado@example.org",
+            "Address": "463 Wendy Circle\nJacksonside, RI 88580"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-22",
+        "Location": "9905 Shelley Mount Suite 532\nSouth Scott, MT 81317",
+        "Description": "Leg live child. Join ten girl these young.\nPoint federal realize agency tonight study teacher."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7573
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41550
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 98853
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 60956
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3051
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 163567,
+        "TotalApproved": 61586
+    },
+    "AdjusterDetails": {
+        "Name": "Chad Walker",
+        "ContactInformation": {
+            "Phone": "+1-252-203-8279x5705",
+            "Email": "william49@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2c5d053c-c0e7-4ed6-9a32-1730203bbeee"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-22T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-27T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-01T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

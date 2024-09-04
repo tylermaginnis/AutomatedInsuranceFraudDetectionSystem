@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f2aa455f-c30c-40f6-9f6f-a6cb4d591964",
+    "PolicyID": "64b3fc29-16e5-4923-a5e2-e1be02b9ae84",
+    "EffectiveDates": {
+        "StartDate": "2024-03-06",
+        "EndDate": "2025-03-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "79dd5ccc-05f6-4579-a644-e331d36e0907",
+        "Name": "Richard Garrison",
+        "PolicyNumber": "64b3fc29-16e5-4923-a5e2-e1be02b9ae84",
+        "ContactInformation": {
+            "Phone": "409.451.8241",
+            "Email": "hernandezbrianna@example.com",
+            "Address": "8394 Anthony Crest Suite 188\nSouth Carmenburgh, PA 23019"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-23",
+        "Location": "USCGC Stevenson\nFPO AA 93537",
+        "Description": "Least us rule where third place daughter. Never allow this around. Put top trade much."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5274
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16122
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4851
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 79108
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9779
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 81386,
+        "TotalApproved": 74335
+    },
+    "AdjusterDetails": {
+        "Name": "Katherine Walker",
+        "ContactInformation": {
+            "Phone": "949.620.1014x26057",
+            "Email": "rogerjones@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a0f9d7d9-33a7-4100-92eb-185adab95475"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-03T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

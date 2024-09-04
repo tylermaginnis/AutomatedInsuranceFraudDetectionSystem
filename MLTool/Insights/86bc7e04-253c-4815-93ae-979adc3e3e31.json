@@ -1,0 +1,81 @@
+{
+    "ClaimID": "86bc7e04-253c-4815-93ae-979adc3e3e31",
+    "PolicyID": "dda79f98-4dd5-4b0b-9a6f-e0c42fb5478c",
+    "EffectiveDates": {
+        "StartDate": "2024-07-29",
+        "EndDate": "2025-07-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a51bc9e6-aa8d-4558-a980-29a848b81abb",
+        "Name": "Christopher Vazquez",
+        "PolicyNumber": "dda79f98-4dd5-4b0b-9a6f-e0c42fb5478c",
+        "ContactInformation": {
+            "Phone": "+1-304-639-4605x815",
+            "Email": "whitedonald@example.org",
+            "Address": "4279 Amanda Forge\nLake Debraport, PW 87630"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-02",
+        "Location": "45833 Horton Bypass\nLake Kaylaside, AS 57302",
+        "Description": "Way road go around training very mean. Series member common early they.\nHour coach approach cut. Tell shake spend employee."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13504
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7111
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 194455
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 88980
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16938
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 100957,
+        "TotalApproved": 7127
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Mcpherson Jr.",
+        "ContactInformation": {
+            "Phone": "+1-809-945-8142",
+            "Email": "orodriguez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4b749eee-1757-4114-8955-f97ed35e276a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

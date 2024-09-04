@@ -1,0 +1,81 @@
+{
+    "ClaimID": "aa31c4a9-fa02-4217-83a0-75cc8237345c",
+    "PolicyID": "f57fd677-0bf5-4595-a8dd-27511d8267e2",
+    "EffectiveDates": {
+        "StartDate": "2023-11-04",
+        "EndDate": "2024-11-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3cfe2ef9-1dda-43a4-9f7b-0680b8f13585",
+        "Name": "Julie Price",
+        "PolicyNumber": "f57fd677-0bf5-4595-a8dd-27511d8267e2",
+        "ContactInformation": {
+            "Phone": "847-672-6426x238",
+            "Email": "bentonkimberly@example.org",
+            "Address": "72753 Stone Key Suite 031\nWest Toddland, ND 76477"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-01",
+        "Location": "458 Mccoy Haven\nPort Miguel, DE 73276",
+        "Description": "Government build magazine explain evening community field seat.\nAccept as better. Check determine individual able until."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 158079
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42652
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 71510
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6782
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 92717
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 79785,
+        "TotalApproved": 56563
+    },
+    "AdjusterDetails": {
+        "Name": "Alexandra White",
+        "ContactInformation": {
+            "Phone": "+1-930-600-4201x9167",
+            "Email": "mperez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/d52152ef-3386-4db0-9d25-85ecff8696ae"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-01T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-06T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-11T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

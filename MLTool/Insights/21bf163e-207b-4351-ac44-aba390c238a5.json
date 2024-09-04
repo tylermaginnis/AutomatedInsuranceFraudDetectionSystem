@@ -1,0 +1,81 @@
+{
+    "ClaimID": "21bf163e-207b-4351-ac44-aba390c238a5",
+    "PolicyID": "12be17f5-4dbe-4909-a747-f924371af523",
+    "EffectiveDates": {
+        "StartDate": "2023-12-19",
+        "EndDate": "2024-12-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "561d056d-13d5-40db-98ab-96d66f21ad82",
+        "Name": "Robert Casey",
+        "PolicyNumber": "12be17f5-4dbe-4909-a747-f924371af523",
+        "ContactInformation": {
+            "Phone": "827-272-6512x11650",
+            "Email": "kanesarah@example.org",
+            "Address": "1934 Jordan Vista\nNew John, AK 11999"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-19",
+        "Location": "442 Garrison Gardens\nJohnsonchester, MD 45890",
+        "Description": "Speech create Republican during nation eat. Perform agree usually entire whatever support direction."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 122681
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6215
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22610
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2923
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4114
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 30087,
+        "TotalApproved": 16481
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Craig",
+        "ContactInformation": {
+            "Phone": "946-923-6309",
+            "Email": "haroldhorne@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b360048e-1287-485d-b24c-90c5f7e4a8b7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-19T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-24T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-29T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

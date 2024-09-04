@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ad09c1fe-dce2-4fd8-9eec-e7ed4b5a49f3",
+    "PolicyID": "597f0e11-7de8-4f02-ba21-aad49eed1292",
+    "EffectiveDates": {
+        "StartDate": "2023-12-12",
+        "EndDate": "2024-12-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ad62eb9-0f15-4e5b-8283-3b30f623d703",
+        "Name": "Thomas Thornton",
+        "PolicyNumber": "597f0e11-7de8-4f02-ba21-aad49eed1292",
+        "ContactInformation": {
+            "Phone": "(680)684-0754",
+            "Email": "patelchristina@example.net",
+            "Address": "343 Johns Plains Apt. 246\nGrimesburgh, ID 16815"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-21",
+        "Location": "476 John Rest Suite 063\nPort Kathymouth, IL 60377",
+        "Description": "Two expect no well foot speak accept full. Reason left for be.\nTechnology base social east lay evidence brother.\nOwn large exactly rather. Those large even then coach six get."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 152510
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9642
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37092
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5507
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5972
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 32871,
+        "TotalApproved": 23040
+    },
+    "AdjusterDetails": {
+        "Name": "Cody Barnes",
+        "ContactInformation": {
+            "Phone": "962-337-8896x3548",
+            "Email": "cflores@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0eb3fedb-0cc5-4260-b93b-1fd940760d21"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-21T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-26T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-31T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

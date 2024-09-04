@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b85ee6fa-f155-4dae-b6ed-b0c15d7dcad4",
+    "PolicyID": "2d471617-3006-4007-80f5-e16e506cdc98",
+    "EffectiveDates": {
+        "StartDate": "2024-08-25",
+        "EndDate": "2025-08-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "836f3fcd-81ab-456e-9d67-fee87f722fcf",
+        "Name": "Jasmine Carpenter",
+        "PolicyNumber": "2d471617-3006-4007-80f5-e16e506cdc98",
+        "ContactInformation": {
+            "Phone": "(580)226-4110x933",
+            "Email": "stacey29@example.org",
+            "Address": "PSC 1554, Box 7373\nAPO AP 70007"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-14",
+        "Location": "8316 Petersen Lake\nSouth Lucas, PW 12397",
+        "Description": "Under bar reveal piece see employee her network. Mother against majority worker. Report live first know hard last."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27132
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35013
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24526
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1230
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3837
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 62274,
+        "TotalApproved": 17149
+    },
+    "AdjusterDetails": {
+        "Name": "Priscilla Daniel",
+        "ContactInformation": {
+            "Phone": "(485)905-1987",
+            "Email": "veronicaturner@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a568fd6c-87f1-44f9-9797-de92003b865d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-14T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-19T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-24T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

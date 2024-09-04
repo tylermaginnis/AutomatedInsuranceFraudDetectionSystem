@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8d1795ea-a5d5-4eeb-96fb-bf1145ee3b9b",
+    "PolicyID": "d37d09f4-962f-4909-b6f2-080eab05563f",
+    "EffectiveDates": {
+        "StartDate": "2024-06-02",
+        "EndDate": "2025-06-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "64fd3ce4-818c-49ca-ba52-d77bb36b259e",
+        "Name": "Erin Pruitt",
+        "PolicyNumber": "d37d09f4-962f-4909-b6f2-080eab05563f",
+        "ContactInformation": {
+            "Phone": "(852)324-4079",
+            "Email": "donald08@example.net",
+            "Address": "94238 Sweeney Summit\nWest Charlesside, ME 73854"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-04",
+        "Location": "658 Margaret Canyon\nWilliamshire, FM 58579",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 66257
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29260
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7319
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29131
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10635
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 142602,
+        "TotalApproved": 113371
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Baker",
+        "ContactInformation": {
+            "Phone": "399-900-9734x63493",
+            "Email": "keithscott@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f980e9e3-c382-4259-bb32-2cb865795bd9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-04T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-09T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-14T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

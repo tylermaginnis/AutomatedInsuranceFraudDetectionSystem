@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d6798038-5d64-4b28-a7ef-1bf3dbfd809b",
+    "PolicyID": "35dff8c2-5e90-436a-9f27-b6c41791f3d5",
+    "EffectiveDates": {
+        "StartDate": "2023-12-31",
+        "EndDate": "2024-12-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9c82514f-1cda-4333-b04e-1544567ee57d",
+        "Name": "Leah Anderson",
+        "PolicyNumber": "35dff8c2-5e90-436a-9f27-b6c41791f3d5",
+        "ContactInformation": {
+            "Phone": "+1-910-779-9609",
+            "Email": "jessica72@example.net",
+            "Address": "60551 Nathan Hollow\nPort David, SD 38780"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-30",
+        "Location": "525 White Parkways Apt. 697\nWest Samanthachester, DC 77921",
+        "Description": "Image fine of contain. Ok at magazine from site. Window think yes score red job. Page chance treat daughter decision south sense."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18140
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14919
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1260
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12081
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16397
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 66072,
+        "TotalApproved": 31652
+    },
+    "AdjusterDetails": {
+        "Name": "Anne Mays",
+        "ContactInformation": {
+            "Phone": "875-641-2504",
+            "Email": "tuckerjanet@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a534dd0a-7c42-4651-b026-6fa134173618"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-05T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-10T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

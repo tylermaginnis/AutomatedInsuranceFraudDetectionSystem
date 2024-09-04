@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e62b9315-c76b-4d60-84ce-3cfad1f8be86",
+    "PolicyID": "2a971eea-6d8f-480d-a7d7-6feb469173cc",
+    "EffectiveDates": {
+        "StartDate": "2024-02-03",
+        "EndDate": "2025-02-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a708bf18-1535-43ad-ad3b-63393dc6d8ad",
+        "Name": "Monica Kim",
+        "PolicyNumber": "2a971eea-6d8f-480d-a7d7-6feb469173cc",
+        "ContactInformation": {
+            "Phone": "+1-378-588-2851",
+            "Email": "ryan11@example.com",
+            "Address": "89349 Cox Via Apt. 548\nLake Matthewborough, MP 38829"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-27",
+        "Location": "623 Sosa Squares\nEast Matthew, MA 53355",
+        "Description": "Yet concern may. Different society own or three relate.\nSecurity house money left. Whatever half clear. It by suddenly behavior commercial law good late."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23028
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16121
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 74620
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10510
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 146894
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 59867,
+        "TotalApproved": 26692
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Brown",
+        "ContactInformation": {
+            "Phone": "4115987479",
+            "Email": "gibbsnicole@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0c69b5a1-0ce1-4121-accd-0dfe31a98495"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-27T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

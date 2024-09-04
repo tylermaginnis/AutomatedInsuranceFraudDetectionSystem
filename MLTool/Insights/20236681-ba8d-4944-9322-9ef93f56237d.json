@@ -1,0 +1,81 @@
+{
+    "ClaimID": "20236681-ba8d-4944-9322-9ef93f56237d",
+    "PolicyID": "f532ce08-7447-4ed7-8fd0-cc9d9d080338",
+    "EffectiveDates": {
+        "StartDate": "2023-12-20",
+        "EndDate": "2024-12-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e4535b28-f42b-4b3d-bdba-f7c71a23856d",
+        "Name": "Christine Meyer",
+        "PolicyNumber": "f532ce08-7447-4ed7-8fd0-cc9d9d080338",
+        "ContactInformation": {
+            "Phone": "805.640.8791x74128",
+            "Email": "vanceangelica@example.com",
+            "Address": "4098 Emma Row\nEast Michaelview, MI 59570"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-31",
+        "Location": "1819 Stark Locks Suite 628\nNew Shannon, KS 79517",
+        "Description": "Capital office want any together. Letter maybe rate public sea across.\nTrip both require thus side economic admit. Speak audience war white."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12338
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3163
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 139836
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19173
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6511
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 61907,
+        "TotalApproved": 52684
+    },
+    "AdjusterDetails": {
+        "Name": "Samantha Smith",
+        "ContactInformation": {
+            "Phone": "685.637.9000x704",
+            "Email": "jimmy00@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/716733a5-8679-4104-9bf7-1343f70f3bc9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-31T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

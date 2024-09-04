@@ -1,0 +1,81 @@
+{
+    "ClaimID": "abcc9461-dcf1-4711-bea2-8ed3d4956ce5",
+    "PolicyID": "e0ca0ff2-fca5-49d0-ba86-cec42fe7bb5b",
+    "EffectiveDates": {
+        "StartDate": "2023-11-25",
+        "EndDate": "2024-11-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "811de5e2-1218-4735-b5a1-f00d1fccaaeb",
+        "Name": "James Gardner",
+        "PolicyNumber": "e0ca0ff2-fca5-49d0-ba86-cec42fe7bb5b",
+        "ContactInformation": {
+            "Phone": "544-778-0246",
+            "Email": "oschroeder@example.com",
+            "Address": "034 John Brook\nKyleberg, MA 96384"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-04",
+        "Location": "0906 Erin Forges Apt. 354\nKerriton, TX 32424",
+        "Description": "Time policy international speech personal art. Hold world clear management sister such. Decision finally main strong do but. Five again out."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40041
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1255
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 190265
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17792
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 178151
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 30256,
+        "TotalApproved": 2193
+    },
+    "AdjusterDetails": {
+        "Name": "James Morales",
+        "ContactInformation": {
+            "Phone": "+1-724-241-9265",
+            "Email": "tonywagner@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3d549412-f7b6-4571-9e13-4396c970cc31"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-04T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-09T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-14T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

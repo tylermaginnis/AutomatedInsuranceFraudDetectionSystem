@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8fd965ad-896b-4ed0-9f1e-012f1927aa7f",
+    "PolicyID": "0454fd00-43c8-4043-810f-46cdff832b61",
+    "EffectiveDates": {
+        "StartDate": "2024-02-18",
+        "EndDate": "2025-02-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "93881f86-16f7-46d5-86e0-558de30881bc",
+        "Name": "Mr. Zachary Hopkins",
+        "PolicyNumber": "0454fd00-43c8-4043-810f-46cdff832b61",
+        "ContactInformation": {
+            "Phone": "(345)329-7788",
+            "Email": "fodom@example.org",
+            "Address": "USNS Duffy\nFPO AA 03245"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-30",
+        "Location": "672 Cynthia Ferry Apt. 804\nPort Jasminestad, PR 71028",
+        "Description": "Final difference spend kid smile his. Degree onto race card change none. Technology mother more time."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7202
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43390
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15141
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26890
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8283
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 76300,
+        "TotalApproved": 50975
+    },
+    "AdjusterDetails": {
+        "Name": "Kyle Miles III",
+        "ContactInformation": {
+            "Phone": "+1-214-369-7072",
+            "Email": "ewoodard@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/45385a19-ebd6-4249-bdd3-97b27dc75825"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

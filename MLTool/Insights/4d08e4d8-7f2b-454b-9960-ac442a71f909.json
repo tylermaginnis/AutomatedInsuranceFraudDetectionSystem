@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4d08e4d8-7f2b-454b-9960-ac442a71f909",
+    "PolicyID": "99a80d16-150a-478c-b234-1c8c03fb1223",
+    "EffectiveDates": {
+        "StartDate": "2023-11-17",
+        "EndDate": "2024-11-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4d3f8a44-b15c-41a3-ad04-131fa02d4911",
+        "Name": "Kelli Rodriguez",
+        "PolicyNumber": "99a80d16-150a-478c-b234-1c8c03fb1223",
+        "ContactInformation": {
+            "Phone": "+1-308-509-2794x100",
+            "Email": "shansen@example.org",
+            "Address": "98449 Donna Turnpike\nPort Richard, KS 80741"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-16",
+        "Location": "40863 Andrews Divide Apt. 533\nMerrittchester, OH 38040",
+        "Description": "Leg continue hour artist. Building space pattern right important not. Question line include task economic begin."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7861
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 83579
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33023
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17930
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9613
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 81372,
+        "TotalApproved": 23185
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Pollard",
+        "ContactInformation": {
+            "Phone": "560-938-8863x86132",
+            "Email": "jennifer14@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f175d70a-e474-4af9-9e29-4049dc875e5d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-16T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-21T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-26T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

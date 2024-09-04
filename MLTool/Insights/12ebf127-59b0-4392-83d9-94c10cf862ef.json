@@ -1,0 +1,81 @@
+{
+    "ClaimID": "12ebf127-59b0-4392-83d9-94c10cf862ef",
+    "PolicyID": "95046ca8-f035-499d-934c-0b9558a6da43",
+    "EffectiveDates": {
+        "StartDate": "2024-07-28",
+        "EndDate": "2025-07-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "da056d95-f355-4c42-a128-6d800c05b842",
+        "Name": "Shawn Davis",
+        "PolicyNumber": "95046ca8-f035-499d-934c-0b9558a6da43",
+        "ContactInformation": {
+            "Phone": "851.425.2263",
+            "Email": "lparker@example.net",
+            "Address": "151 Atkins Dam\nChelseaburgh, ND 77551"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-12",
+        "Location": "304 Frances Lake Suite 514\nJoshuastad, AZ 46257",
+        "Description": "Fear present parent economic upon five young. Fish beyond beat city sure social artist campaign."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15546
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9259
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18079
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14790
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19899
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 54057,
+        "TotalApproved": 8263
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Rachel Nichols",
+        "ContactInformation": {
+            "Phone": "(672)262-6422x7547",
+            "Email": "crodriguez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/55a23f95-edd6-4bb1-a077-53320045f3d7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b34072e0-0109-4a0e-a0ee-3e0aaab520bc",
+  "PolicyID": "d7b9f6f8-5ca0-4d4f-a01e-0a8510195bce",
+  "EffectiveDates": {
+    "StartDate": "2024-07-05",
+    "EndDate": "2025-07-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d336c84d-f248-47bb-8f13-9481b5af302e",
+    "Name": "Julian Wright",
+    "PolicyNumber": "d7b9f6f8-5ca0-4d4f-a01e-0a8510195bce",
+    "ContactInformation": {
+      "Phone": "537.624.7518x2087",
+      "Email": "ryaningram@example.net",
+      "Address": "1010 Andrew Roads Suite 933\nCalvinmouth, NM 90450"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-21",
+    "Location": "021 Estes Mill Suite 687\nSouth Christina, NH 49465",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 66087
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 37554
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9362
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 25717
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 19553
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 158273,
+    "TotalApproved": 40727
+  },
+  "AdjusterDetails": {
+    "Name": "Lori Carpenter",
+    "ContactInformation": {
+      "Phone": "(484)737-0950x3521",
+      "Email": "lisaalvarez@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/6ae98618-55e0-40ea-9f59-d584c517b4c1"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-21T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-26T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-31T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

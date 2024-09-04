@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6d78c9a-d189-44e4-82dd-1be74ad72353",
+    "PolicyID": "0f14449d-20c6-46bd-bf98-3307a429f4f7",
+    "EffectiveDates": {
+        "StartDate": "2023-10-30",
+        "EndDate": "2024-10-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "17ebf98e-1466-4808-b486-311122c0eb0b",
+        "Name": "Susan Daniels",
+        "PolicyNumber": "0f14449d-20c6-46bd-bf98-3307a429f4f7",
+        "ContactInformation": {
+            "Phone": "001-612-345-8977x22597",
+            "Email": "nelsonrachel@example.org",
+            "Address": "031 Bernard Parks\nWest Melissatown, WA 52622"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-30",
+        "Location": "940 Stephen Way\nNorth Linda, NH 72678",
+        "Description": "Chair exist especially moment. Unit read then age worry. Head position half wear matter fast history director.\nSkill financial against hundred mention. Agent include blue rise."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 148752
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26100
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13330
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18080
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 51663
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 122388,
+        "TotalApproved": 41907
+    },
+    "AdjusterDetails": {
+        "Name": "Dr. Hannah Howard",
+        "ContactInformation": {
+            "Phone": "928-627-5055",
+            "Email": "walterdudley@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/dea62a4d-7841-4490-8a71-22e6705fc1d8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

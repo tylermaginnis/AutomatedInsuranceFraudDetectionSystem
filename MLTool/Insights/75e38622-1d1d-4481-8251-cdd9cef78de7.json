@@ -1,0 +1,81 @@
+{
+    "ClaimID": "75e38622-1d1d-4481-8251-cdd9cef78de7",
+    "PolicyID": "ee7c1331-8a18-4bbf-b5a6-18c67a6de186",
+    "EffectiveDates": {
+        "StartDate": "2024-03-19",
+        "EndDate": "2025-03-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8288ba3f-06f3-4137-8fcc-a510ead7db86",
+        "Name": "Amy Mendoza",
+        "PolicyNumber": "ee7c1331-8a18-4bbf-b5a6-18c67a6de186",
+        "ContactInformation": {
+            "Phone": "+1-659-641-8891x638",
+            "Email": "jessicanoble@example.net",
+            "Address": "42919 Gina Mill Apt. 112\nJohnsonside, NC 03126"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-17",
+        "Location": "149 Barry Meadow\nHernandezville, OH 05836",
+        "Description": "Table concern state yet here easy class. Commercial you available long purpose consider."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 55832
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41515
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5369
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 63797
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3113
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 193341,
+        "TotalApproved": 110274
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Dixon",
+        "ContactInformation": {
+            "Phone": "739.961.1429",
+            "Email": "amanda06@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0040f073-cf9b-4b85-af92-efb60a3b0ba8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-17T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-22T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-27T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

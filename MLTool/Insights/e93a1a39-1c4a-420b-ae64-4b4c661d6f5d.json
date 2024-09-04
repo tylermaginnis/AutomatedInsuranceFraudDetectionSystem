@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e93a1a39-1c4a-420b-ae64-4b4c661d6f5d",
+    "PolicyID": "370a9ddb-72e4-4cde-9d52-faa1fed18a73",
+    "EffectiveDates": {
+        "StartDate": "2023-12-05",
+        "EndDate": "2024-12-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7fdf57e9-1ce1-4f4c-b816-9945693b70c3",
+        "Name": "Jessica Mullen",
+        "PolicyNumber": "370a9ddb-72e4-4cde-9d52-faa1fed18a73",
+        "ContactInformation": {
+            "Phone": "921-886-9247",
+            "Email": "donaldreed@example.net",
+            "Address": "047 Douglas Plains Suite 723\nWest Nicholasshire, MA 82325"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-05",
+        "Location": "77326 Lisa Falls Apt. 234\nDouglaschester, OR 08471",
+        "Description": "Care media player new. Feel me series story question art.\nManage very discuss put everything all. Common large where."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17303
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60749
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6750
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4392
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26987
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 132508,
+        "TotalApproved": 62158
+    },
+    "AdjusterDetails": {
+        "Name": "Teresa Kim",
+        "ContactInformation": {
+            "Phone": "683-902-3589x099",
+            "Email": "nvelasquez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6fee5281-6a0d-413d-9315-41a6fa6c3f38"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

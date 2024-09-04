@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ce930f4e-6a70-484d-ad96-d7ce6edabebf",
+    "PolicyID": "1587bf5f-0e98-4997-b759-82ae280ce61a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-13",
+        "EndDate": "2024-10-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "22c06208-fc4f-4c97-b319-58cf6c7d0d91",
+        "Name": "Michael Guzman",
+        "PolicyNumber": "1587bf5f-0e98-4997-b759-82ae280ce61a",
+        "ContactInformation": {
+            "Phone": "(346)413-7873",
+            "Email": "dtrujillo@example.org",
+            "Address": "168 Julie Knolls Apt. 018\nSouth Charles, TX 67235"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-16",
+        "Location": "3868 Perry Stravenue\nEast Victoriachester, PR 18041",
+        "Description": "Eye field boy deep. Life occur civil talk even brother. List matter the over. Traditional view current himself sense daughter change."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12740
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8571
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2213
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9436
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 107143
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 51574,
+        "TotalApproved": 42290
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Jason Smith",
+        "ContactInformation": {
+            "Phone": "443-986-5209",
+            "Email": "maddenlori@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/74d1d153-fcbe-4b71-b337-5b0e45d6d5a6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

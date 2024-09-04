@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6b3f7e39-8c0c-456b-bced-5550da30247e",
+  "PolicyID": "c48861ca-e7bb-4e5c-96e9-2ca9456a0236",
+  "EffectiveDates": {
+    "StartDate": "2024-07-23",
+    "EndDate": "2025-07-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4151e992-193d-45c6-868b-4d4840903e2e",
+    "Name": "Zachary Luna",
+    "PolicyNumber": "c48861ca-e7bb-4e5c-96e9-2ca9456a0236",
+    "ContactInformation": {
+      "Phone": "401-691-5856x389",
+      "Email": "bonniefreeman@example.org",
+      "Address": "3788 Kevin Mill Apt. 905\nCarloston, OR 92504"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-11",
+    "Location": "49280 Christina Rue\nSouth Christopher, VT 13982",
+    "Description": "Place mother everything management. Reveal learn sing especially step yeah industry. Life spring morning weight."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 178277
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 42361
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4038
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6631
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8781
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 39595,
+    "TotalApproved": 16625
+  },
+  "AdjusterDetails": {
+    "Name": "Julie Mendez",
+    "ContactInformation": {
+      "Phone": "7457041244",
+      "Email": "carrheather@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/06324e5c-256b-4fcb-aa87-d29e5454c774"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-11T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-16T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-21T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

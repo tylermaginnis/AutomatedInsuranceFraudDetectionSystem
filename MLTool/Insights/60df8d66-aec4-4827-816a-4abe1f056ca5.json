@@ -1,0 +1,81 @@
+{
+    "ClaimID": "60df8d66-aec4-4827-816a-4abe1f056ca5",
+    "PolicyID": "9c16430d-02eb-4456-bd5a-7b09f2e10ab9",
+    "EffectiveDates": {
+        "StartDate": "2024-06-22",
+        "EndDate": "2025-06-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ee2d99b-f32a-43f4-8c52-5d890bee17bf",
+        "Name": "Kimberly Brown",
+        "PolicyNumber": "9c16430d-02eb-4456-bd5a-7b09f2e10ab9",
+        "ContactInformation": {
+            "Phone": "001-890-968-1050x725",
+            "Email": "kwood@example.com",
+            "Address": "646 Sarah Union\nSouth Veronica, LA 67158"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-13",
+        "Location": "58939 Anthony Turnpike\nLake Andrea, WI 58236",
+        "Description": "Strategy return there successful behavior prevent bank. Then good beyond someone. Her travel stay customer born.\nMean model off according season water. Easy central future shake wrong watch."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 80465
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 162143
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16058
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 153753
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46957
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 178539,
+        "TotalApproved": 11142
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Parsons",
+        "ContactInformation": {
+            "Phone": "801.809.3265x42743",
+            "Email": "ana80@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/2b496f5b-01a2-4298-98f1-09912bf5d408"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

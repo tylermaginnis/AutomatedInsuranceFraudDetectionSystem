@@ -1,0 +1,81 @@
+{
+    "ClaimID": "69f3d85e-3dca-47b2-a581-53a344ecbe0d",
+    "PolicyID": "d8de10bf-6785-4135-aaca-04de0de09025",
+    "EffectiveDates": {
+        "StartDate": "2023-11-07",
+        "EndDate": "2024-11-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c29a2081-5b59-49d8-bd55-c95edaa4134e",
+        "Name": "Sheila Johnson",
+        "PolicyNumber": "d8de10bf-6785-4135-aaca-04de0de09025",
+        "ContactInformation": {
+            "Phone": "728-890-0449",
+            "Email": "abowen@example.net",
+            "Address": "022 Cynthia Expressway Suite 389\nNorth Michelebury, WV 52278"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-22",
+        "Location": "5429 Jones Point Apt. 751\nEast Johnborough, WY 99596",
+        "Description": "End father also expert white recently cost security. Garden development heavy clearly information one family."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18679
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7748
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 88078
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11233
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 194338
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 101187,
+        "TotalApproved": 2750
+    },
+    "AdjusterDetails": {
+        "Name": "Paula Garcia",
+        "ContactInformation": {
+            "Phone": "963.492.6319x42143",
+            "Email": "mallen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/10df5e84-62dd-4c12-a751-42bbc97d07c1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

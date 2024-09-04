@@ -1,0 +1,81 @@
+{
+    "ClaimID": "959dadd0-75db-4781-b8dd-40f067279e7e",
+    "PolicyID": "71dcc10b-36ae-4ee4-90dd-f865112bb34c",
+    "EffectiveDates": {
+        "StartDate": "2024-08-05",
+        "EndDate": "2025-08-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c4adcb90-61c4-4550-8411-f5f61b37fb36",
+        "Name": "Rebecca Yates",
+        "PolicyNumber": "71dcc10b-36ae-4ee4-90dd-f865112bb34c",
+        "ContactInformation": {
+            "Phone": "+1-281-859-0459x3136",
+            "Email": "caroline94@example.org",
+            "Address": "833 Maria Locks Suite 573\nMaldonadoborough, CA 22668"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-14",
+        "Location": "769 Valerie Skyway\nTurnerport, MD 23310",
+        "Description": "Argue concern organization type break. Report up method. Once country phone force stuff nearly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5254
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42891
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6999
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6155
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29944
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 86362,
+        "TotalApproved": 78531
+    },
+    "AdjusterDetails": {
+        "Name": "Troy Ward",
+        "ContactInformation": {
+            "Phone": "355-817-6640x474",
+            "Email": "forddonna@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/099d95f4-0e24-4b20-81fa-34be3c872401"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-14T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-19T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-24T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

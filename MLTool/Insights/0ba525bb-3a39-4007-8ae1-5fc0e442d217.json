@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0ba525bb-3a39-4007-8ae1-5fc0e442d217",
+    "PolicyID": "90356d98-4a9f-4775-9a86-c5ca182c93f1",
+    "EffectiveDates": {
+        "StartDate": "2024-02-12",
+        "EndDate": "2025-02-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0b22081f-a941-455b-9e91-d078ff0b0d74",
+        "Name": "Nicholas Mitchell",
+        "PolicyNumber": "90356d98-4a9f-4775-9a86-c5ca182c93f1",
+        "ContactInformation": {
+            "Phone": "(296)578-1714x28056",
+            "Email": "gregorygonzales@example.com",
+            "Address": "3066 Judy Alley Suite 553\nJacksonton, MN 18066"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-27",
+        "Location": "378 Atkins Cliffs Suite 309\nLake Lindabury, CA 57381",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 63290
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49083
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9117
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23910
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15261
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 160661,
+        "TotalApproved": 131837
+    },
+    "AdjusterDetails": {
+        "Name": "Natalie Simon",
+        "ContactInformation": {
+            "Phone": "522.376.2165",
+            "Email": "roachlori@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/322756a0-6c86-410e-b886-a3da23a1bd2b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-27T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-01T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-06T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

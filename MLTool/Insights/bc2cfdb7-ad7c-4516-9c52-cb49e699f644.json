@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bc2cfdb7-ad7c-4516-9c52-cb49e699f644",
+    "PolicyID": "503f8aa8-7681-458f-a0a3-1c6d9f60ca44",
+    "EffectiveDates": {
+        "StartDate": "2024-02-05",
+        "EndDate": "2025-02-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0479d05c-5e76-43d6-ad00-fd6a8458f21b",
+        "Name": "David Perez",
+        "PolicyNumber": "503f8aa8-7681-458f-a0a3-1c6d9f60ca44",
+        "ContactInformation": {
+            "Phone": "(523)293-8203",
+            "Email": "davissara@example.net",
+            "Address": "Unit 4877 Box 9538\nDPO AA 82783"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-12",
+        "Location": "6338 Renee Tunnel\nNew Karenhaven, MA 96401",
+        "Description": "Course entire teach spring. Firm suggest political might hour. Leg this blood world best crime prepare chance."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41983
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15215
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9784
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18704
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27496
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 193359,
+        "TotalApproved": 120751
+    },
+    "AdjusterDetails": {
+        "Name": "Patricia Olsen",
+        "ContactInformation": {
+            "Phone": "559-721-3233x44968",
+            "Email": "qmarquez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a4c85f45-e632-465a-bdd3-26c776a27a33"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-12T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-17T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-22T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7e9e9def-3bcd-4de7-9e89-998e2d39f1b8",
+    "PolicyID": "ac85b9aa-f4c2-4bae-b48e-3d4d279da676",
+    "EffectiveDates": {
+        "StartDate": "2024-01-06",
+        "EndDate": "2025-01-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "07fc66fa-f5e6-4f48-8ffb-c18b81f5ad45",
+        "Name": "Kimberly Thompson",
+        "PolicyNumber": "ac85b9aa-f4c2-4bae-b48e-3d4d279da676",
+        "ContactInformation": {
+            "Phone": "339-780-6136x4229",
+            "Email": "nelsonjulie@example.com",
+            "Address": "09953 Brown Fork Apt. 303\nEast Jeffrey, NH 53443"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "PSC 2857, Box 2722\nAPO AP 98305",
+        "Description": "Important cause great still model heavy. Hold example result one suffer environmental. Or sense walk drive thought often mouth meet. Amount choice these piece happy foreign."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8083
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 92890
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3512
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 72841
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27557
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 158768,
+        "TotalApproved": 39537
+    },
+    "AdjusterDetails": {
+        "Name": "Catherine Cooper",
+        "ContactInformation": {
+            "Phone": "980.216.3982x17482",
+            "Email": "jonathan90@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/eb256113-d0ba-46d3-a522-de7d19d8d078"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

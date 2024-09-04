@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fbcf8745-b121-48ea-a6a8-cf2bdf037d82",
+    "PolicyID": "65732136-f638-4f1b-a8d7-93b5a450b7df",
+    "EffectiveDates": {
+        "StartDate": "2024-07-15",
+        "EndDate": "2025-07-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3225bf66-b25f-444b-8d07-5c7f6cb05809",
+        "Name": "Lauren Baker",
+        "PolicyNumber": "65732136-f638-4f1b-a8d7-93b5a450b7df",
+        "ContactInformation": {
+            "Phone": "919-238-6573",
+            "Email": "coreylee@example.org",
+            "Address": "7977 Ashley Mountain Suite 362\nWest Sara, NY 01601"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-03",
+        "Location": "422 Brooks Hill Suite 806\nLake Luiston, FL 66286",
+        "Description": "Hand laugh true discuss space yard four. Player look detail condition moment bit. Civil example explain thought.\nDetermine foot region."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9012
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7364
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5006
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 63311
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3004
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 178972,
+        "TotalApproved": 120441
+    },
+    "AdjusterDetails": {
+        "Name": "Clayton Lopez",
+        "ContactInformation": {
+            "Phone": "001-476-265-5797x3903",
+            "Email": "jonesallison@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/decff73c-c639-4a0d-998a-0f1a641e36d8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

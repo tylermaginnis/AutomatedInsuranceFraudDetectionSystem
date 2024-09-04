@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cd6d834d-929d-48bc-8312-3cbf0620d723",
+    "PolicyID": "35eb93be-60f6-4bd9-a136-f360aa388b85",
+    "EffectiveDates": {
+        "StartDate": "2023-10-24",
+        "EndDate": "2024-10-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0a3c672f-2851-4d51-9c76-7f45e3d30bb7",
+        "Name": "Joseph Li",
+        "PolicyNumber": "35eb93be-60f6-4bd9-a136-f360aa388b85",
+        "ContactInformation": {
+            "Phone": "+1-768-268-2412",
+            "Email": "william69@example.net",
+            "Address": "Unit 3495 Box 1595\nDPO AA 96463"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-26",
+        "Location": "55957 Obrien Manor\nPort Jason, VI 40547",
+        "Description": "Consumer save surface yet. Thousand range their throughout beat four watch.\nSchool thing produce within present available. Himself hold without recent finally. Hold fish product business."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3801
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 93887
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 150630
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9497
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7776
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 86732,
+        "TotalApproved": 45330
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Monroe",
+        "ContactInformation": {
+            "Phone": "+1-340-913-5008x05814",
+            "Email": "olivia26@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0c23e3ee-51f2-4b3e-af9a-e73bcc59dbcc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-26T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-01T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-06T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

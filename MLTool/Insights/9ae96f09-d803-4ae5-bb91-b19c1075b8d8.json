@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9ae96f09-d803-4ae5-bb91-b19c1075b8d8",
+    "PolicyID": "13e5c690-70d6-4a9b-83f5-4f170c902625",
+    "EffectiveDates": {
+        "StartDate": "2024-06-06",
+        "EndDate": "2025-06-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "36857241-a2fb-4a32-823e-107322488a43",
+        "Name": "Dr. Amanda Dickerson",
+        "PolicyNumber": "13e5c690-70d6-4a9b-83f5-4f170c902625",
+        "ContactInformation": {
+            "Phone": "001-492-389-3032x54642",
+            "Email": "brittanycollins@example.net",
+            "Address": "PSC 8970, Box 4116\nAPO AE 00767"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-28",
+        "Location": "83260 Noah Mount Apt. 362\nNew Elizabeth, VI 86296",
+        "Description": "Direction he responsibility prove threat meeting rule. Bring act study use bring somebody."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1135
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2500
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4499
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7010
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2238
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 86956,
+        "TotalApproved": 37322
+    },
+    "AdjusterDetails": {
+        "Name": "William Hurley",
+        "ContactInformation": {
+            "Phone": "001-918-521-5845",
+            "Email": "leegary@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3e93838b-ee1a-469d-bca0-79f1ccb991ed"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-28T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-02T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-07T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

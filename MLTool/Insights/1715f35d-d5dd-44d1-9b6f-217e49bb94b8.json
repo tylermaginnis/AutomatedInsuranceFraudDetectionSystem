@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1715f35d-d5dd-44d1-9b6f-217e49bb94b8",
+    "PolicyID": "55184e54-0e99-4c6e-9c32-17485cf0e61d",
+    "EffectiveDates": {
+        "StartDate": "2024-08-24",
+        "EndDate": "2025-08-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8bfd181b-0de7-49f4-847d-2d98c558147a",
+        "Name": "Jacqueline Walsh",
+        "PolicyNumber": "55184e54-0e99-4c6e-9c32-17485cf0e61d",
+        "ContactInformation": {
+            "Phone": "(336)810-9336x012",
+            "Email": "blackkayla@example.net",
+            "Address": "009 Merritt Corners\nSouth Edwardhaven, HI 78960"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-19",
+        "Location": "4546 Robbins Radial Suite 142\nNew Maryburgh, WY 76925",
+        "Description": "Myself exactly camera. Performance design involve where."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7180
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4338
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 150825
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 56178
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32114
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 13072,
+        "TotalApproved": 3491
+    },
+    "AdjusterDetails": {
+        "Name": "Andre Miller",
+        "ContactInformation": {
+            "Phone": "996.836.6550x54910",
+            "Email": "zavalarebecca@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7ed372b6-eae0-4a85-b4f3-1075d9b9b23f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-19T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-24T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-01T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

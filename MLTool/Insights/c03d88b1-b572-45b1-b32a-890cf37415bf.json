@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c03d88b1-b572-45b1-b32a-890cf37415bf",
+    "PolicyID": "f5eb5b1f-013e-48f7-b7df-55ef392b41ca",
+    "EffectiveDates": {
+        "StartDate": "2024-06-21",
+        "EndDate": "2025-06-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c9a541d4-b55e-4412-ae6e-77a2989717d2",
+        "Name": "Daniel Cooper",
+        "PolicyNumber": "f5eb5b1f-013e-48f7-b7df-55ef392b41ca",
+        "ContactInformation": {
+            "Phone": "931.800.5677x5856",
+            "Email": "gardnersarah@example.net",
+            "Address": "491 Michael Street\nBaileyside, KS 70152"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-17",
+        "Location": "91699 Wesley Tunnel Suite 162\nSchwartzland, AS 37452",
+        "Description": "Traditional production world sister. Break hour five fact goal official management some.\nProduce must rest technology new account. Operation style big soldier science nature still."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 75845
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7675
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13405
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16351
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9268
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 94873,
+        "TotalApproved": 51257
+    },
+    "AdjusterDetails": {
+        "Name": "Robin Wood",
+        "ContactInformation": {
+            "Phone": "001-514-309-0120x7927",
+            "Email": "jennifer48@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/30674f32-8886-45ce-9f42-3db0320e08be"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-17T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-22T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-27T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

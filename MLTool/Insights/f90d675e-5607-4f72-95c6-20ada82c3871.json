@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f90d675e-5607-4f72-95c6-20ada82c3871",
+    "PolicyID": "36477d17-449b-4187-b0b4-a1c3bea21250",
+    "EffectiveDates": {
+        "StartDate": "2023-09-07",
+        "EndDate": "2024-09-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "516b433a-818b-4364-a9b7-12c5c9966e80",
+        "Name": "Janet Cochran",
+        "PolicyNumber": "36477d17-449b-4187-b0b4-a1c3bea21250",
+        "ContactInformation": {
+            "Phone": "001-625-584-9262",
+            "Email": "gschwartz@example.com",
+            "Address": "PSC 8845, Box 9369\nAPO AP 51961"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-16",
+        "Location": "984 Smith Lake\nFloresfurt, CO 67350",
+        "Description": "Answer what across. Imagine fear ever occur.\nBegin recent side. Thank cold product prepare."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14316
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25064
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 59629
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46667
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13855
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 95762,
+        "TotalApproved": 78363
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Evans",
+        "ContactInformation": {
+            "Phone": "942-992-7770x416",
+            "Email": "william77@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/70b810ab-cebf-44a1-9cf8-620d8238303c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-16T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-21T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-26T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

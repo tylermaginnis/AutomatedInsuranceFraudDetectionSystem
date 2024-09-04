@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c5e29da9-fd2a-45c2-8900-6f12246198e1",
+  "PolicyID": "31e972ca-1d6c-44a8-9f77-49c9733adef8",
+  "EffectiveDates": {
+    "StartDate": "2024-02-02",
+    "EndDate": "2025-02-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "471b1b6e-7d55-492f-bddf-726bf189ad41",
+    "Name": "Thomas Andrews",
+    "PolicyNumber": "31e972ca-1d6c-44a8-9f77-49c9733adef8",
+    "ContactInformation": {
+      "Phone": "+1-222-741-8233x3260",
+      "Email": "gilberterin@example.org",
+      "Address": "7188 Victor Land\nAmyfort, GA 75420"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-14",
+    "Location": "0235 Garza Place Suite 686\nSouth Jamie, AK 03512",
+    "Description": "Staff meet environmental blue whether might early. Value relationship morning list early spring."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3103
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3984
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 27742
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9193
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 28711
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 183481,
+    "TotalApproved": 21061
+  },
+  "AdjusterDetails": {
+    "Name": "Michele Jackson",
+    "ContactInformation": {
+      "Phone": "+1-523-521-0765x639",
+      "Email": "hweiss@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/c704656d-ef46-43c8-8065-e2244a0f263d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-14T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-19T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-24T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

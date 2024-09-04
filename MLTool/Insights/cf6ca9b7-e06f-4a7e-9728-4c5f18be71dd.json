@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cf6ca9b7-e06f-4a7e-9728-4c5f18be71dd",
+    "PolicyID": "377910df-06ba-4921-96e7-1935097d3571",
+    "EffectiveDates": {
+        "StartDate": "2024-07-31",
+        "EndDate": "2025-07-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c5428339-f16e-4dd9-8792-12a31567aa78",
+        "Name": "Darrell Deleon",
+        "PolicyNumber": "377910df-06ba-4921-96e7-1935097d3571",
+        "ContactInformation": {
+            "Phone": "(959)514-3153x222",
+            "Email": "rdyer@example.org",
+            "Address": "2919 Thomas Greens Suite 636\nJohnmouth, IL 21358"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "4434 Jones Haven Apt. 445\nTylerberg, NJ 29656",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 67762
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33763
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8215
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21645
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5637
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 137022,
+        "TotalApproved": 24960
+    },
+    "AdjusterDetails": {
+        "Name": "Devon Ferguson",
+        "ContactInformation": {
+            "Phone": "846-385-3105",
+            "Email": "davidvega@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/528426b1-99d9-4f14-9358-a8807af229a6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

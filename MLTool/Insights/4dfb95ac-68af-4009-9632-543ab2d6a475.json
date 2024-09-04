@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4dfb95ac-68af-4009-9632-543ab2d6a475",
+    "PolicyID": "ee57ab21-2092-46fa-b5d2-a242a27e53a4",
+    "EffectiveDates": {
+        "StartDate": "2024-05-04",
+        "EndDate": "2025-05-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6f643f3e-0535-4547-b468-71b17392222f",
+        "Name": "Chad Smith",
+        "PolicyNumber": "ee57ab21-2092-46fa-b5d2-a242a27e53a4",
+        "ContactInformation": {
+            "Phone": "883.332.5939",
+            "Email": "knightsydney@example.net",
+            "Address": "683 Sandra Court Suite 161\nJosephberg, WI 73735"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-21",
+        "Location": "7646 Brandon Plain\nAnthonymouth, DC 68814",
+        "Description": "Address its up should population. Scientist size animal appear forget. Happen list look really organization maybe.\nExactly than place recognize."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11507
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22911
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21126
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3812
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24192
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 192911,
+        "TotalApproved": 94232
+    },
+    "AdjusterDetails": {
+        "Name": "Charles Tucker",
+        "ContactInformation": {
+            "Phone": "917-315-0994x9622",
+            "Email": "webstersarah@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/07994102-6c32-40d8-8283-e283ff3a7168"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-31T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

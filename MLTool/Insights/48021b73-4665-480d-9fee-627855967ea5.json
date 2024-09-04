@@ -1,0 +1,81 @@
+{
+    "ClaimID": "48021b73-4665-480d-9fee-627855967ea5",
+    "PolicyID": "968e0045-c6df-443d-a614-7abf1cecc56c",
+    "EffectiveDates": {
+        "StartDate": "2023-10-13",
+        "EndDate": "2024-10-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "255b4fda-bb01-41b8-874e-39c77a3a093e",
+        "Name": "David Dorsey",
+        "PolicyNumber": "968e0045-c6df-443d-a614-7abf1cecc56c",
+        "ContactInformation": {
+            "Phone": "944.949.5078x2023",
+            "Email": "karen96@example.com",
+            "Address": "PSC 7889, Box 2176\nAPO AP 94375"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-16",
+        "Location": "7751 Richard Grove\nValerieside, CT 22472",
+        "Description": "Law meeting around keep trade foreign. Who operation every.\nFind note major try film live. Fly involve size professional difficult. Hand his I way middle prove body future."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 64216
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30691
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14915
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2584
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6797
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 65952,
+        "TotalApproved": 30425
+    },
+    "AdjusterDetails": {
+        "Name": "Debra Waters",
+        "ContactInformation": {
+            "Phone": "(397)363-0232x7241",
+            "Email": "carlyvaldez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3f81f35d-2f03-4976-b492-0ccd6dbca12b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

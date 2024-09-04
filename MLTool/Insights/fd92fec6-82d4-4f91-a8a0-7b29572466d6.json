@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fd92fec6-82d4-4f91-a8a0-7b29572466d6",
+    "PolicyID": "968e0045-c6df-443d-a614-7abf1cecc56c",
+    "EffectiveDates": {
+        "StartDate": "2024-08-23",
+        "EndDate": "2025-08-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "255b4fda-bb01-41b8-874e-39c77a3a093e",
+        "Name": "David Dorsey",
+        "PolicyNumber": "968e0045-c6df-443d-a614-7abf1cecc56c",
+        "ContactInformation": {
+            "Phone": "944.949.5078x2023",
+            "Email": "karen96@example.com",
+            "Address": "PSC 7889, Box 2176\nAPO AP 94375"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-24",
+        "Location": "25212 Alexandra Landing Suite 990\nPort Amanda, VT 34075",
+        "Description": "Guy lawyer generation evening only alone nice moment. Recognize citizen PM money experience crime food. Fish show action turn across actually statement perform."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12239
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44068
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27098
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4586
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14345
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154736,
+        "TotalApproved": 69820
+    },
+    "AdjusterDetails": {
+        "Name": "Tony Griffin",
+        "ContactInformation": {
+            "Phone": "001-578-312-1345x79561",
+            "Email": "kristina64@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/abbfe234-abc8-4854-8b74-e8292e6ea3f4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

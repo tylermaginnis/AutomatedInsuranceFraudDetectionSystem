@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1df72d69-140d-47ab-bfb6-9991b447494b",
+  "PolicyID": "8095283b-0664-469a-8f7e-f517dec650a7",
+  "EffectiveDates": {
+    "StartDate": "2024-02-13",
+    "EndDate": "2025-02-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "be5909ab-775e-49f5-9bf6-4d1f5e75c556",
+    "Name": "Jacob Ritter",
+    "PolicyNumber": "8095283b-0664-469a-8f7e-f517dec650a7",
+    "ContactInformation": {
+      "Phone": "+1-679-679-9476x472",
+      "Email": "osborneemma@example.org",
+      "Address": "944 Crystal Freeway\nEast Michael, KS 28879"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-19",
+    "Location": "0498 Lawson Ramp\nBradleyland, WA 51415",
+    "Description": "Study beautiful get nothing public bar police especially.\nLast reflect debate start international manager white page."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 18458
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3561
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 184450
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6953
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 119474
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 95677,
+    "TotalApproved": 56268
+  },
+  "AdjusterDetails": {
+    "Name": "Vicki Steele",
+    "ContactInformation": {
+      "Phone": "313.984.6735",
+      "Email": "neil24@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/77a8e2ce-adc3-43de-9e40-d4aaf0a082de"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-19T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-24T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-29T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

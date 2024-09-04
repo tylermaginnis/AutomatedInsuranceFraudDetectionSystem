@@ -1,0 +1,81 @@
+{
+    "ClaimID": "95274d00-9472-455e-a628-83b141f5a53f",
+    "PolicyID": "396b848d-dce5-4f45-89b7-47a2f11f0cba",
+    "EffectiveDates": {
+        "StartDate": "2024-03-03",
+        "EndDate": "2025-03-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3b4bbb2e-68b4-4392-9834-88fe9769e381",
+        "Name": "Alan Gray",
+        "PolicyNumber": "396b848d-dce5-4f45-89b7-47a2f11f0cba",
+        "ContactInformation": {
+            "Phone": "+1-571-532-8297x18624",
+            "Email": "lawrencestephen@example.net",
+            "Address": "PSC 8982, Box 8262\nAPO AE 20060"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-23",
+        "Location": "87285 Morgan Junctions Suite 010\nRachelbury, LA 92709",
+        "Description": "Take again sport south race. Enter from fall its effect recognize cell.\nEstablish hand keep model. Prepare child recently body."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 84501
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8068
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44320
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15958
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 129597
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 91742,
+        "TotalApproved": 59798
+    },
+    "AdjusterDetails": {
+        "Name": "Kelly Meyers",
+        "ContactInformation": {
+            "Phone": "6422528800",
+            "Email": "johnbass@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/31ea52e3-bc1b-414d-b244-b5f7b1b4bb37"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-03T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

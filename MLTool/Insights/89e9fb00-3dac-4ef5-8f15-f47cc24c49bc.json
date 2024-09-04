@@ -1,0 +1,81 @@
+{
+    "ClaimID": "89e9fb00-3dac-4ef5-8f15-f47cc24c49bc",
+    "PolicyID": "bef5bb8a-0a01-4bad-bc73-d3ed2215b5c7",
+    "EffectiveDates": {
+        "StartDate": "2023-10-02",
+        "EndDate": "2024-10-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0062c9bd-921b-4b5f-b52b-a4433ee0488a",
+        "Name": "Lisa Rivera",
+        "PolicyNumber": "bef5bb8a-0a01-4bad-bc73-d3ed2215b5c7",
+        "ContactInformation": {
+            "Phone": "001-809-421-5714x4785",
+            "Email": "suarezdaniel@example.net",
+            "Address": "834 Colon Stravenue\nTaylortown, KY 82289"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-29",
+        "Location": "80409 Sabrina Estates Suite 499\nMiddletonborough, HI 13565",
+        "Description": "Seek heart common.\nRoad many couple computer. Consider husband support.\nFew society skin collection."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79590
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2761
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18242
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36674
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10672
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 34506,
+        "TotalApproved": 29800
+    },
+    "AdjusterDetails": {
+        "Name": "Benjamin James",
+        "ContactInformation": {
+            "Phone": "(690)216-3704x3958",
+            "Email": "michellecline@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9900eabb-9ffe-46ea-9f18-68d60b6c2118"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-29T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-03T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-08T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

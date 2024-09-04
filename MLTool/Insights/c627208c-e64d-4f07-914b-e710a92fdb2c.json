@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c627208c-e64d-4f07-914b-e710a92fdb2c",
+    "PolicyID": "e1845ae3-4e3c-42f7-9d79-b56995fac0bf",
+    "EffectiveDates": {
+        "StartDate": "2023-10-13",
+        "EndDate": "2024-10-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0d73a5ce-ccb1-43d2-93e9-ba4c7e0b9ad2",
+        "Name": "Dawn Porter",
+        "PolicyNumber": "e1845ae3-4e3c-42f7-9d79-b56995fac0bf",
+        "ContactInformation": {
+            "Phone": "001-987-533-4857x88220",
+            "Email": "zguzman@example.com",
+            "Address": "11817 Allen Vista\nLake Gregoryhaven, DE 63253"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-05",
+        "Location": "4621 Horton Extensions\nConleyfurt, DC 18277",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 50518
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47274
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9555
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13445
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19702
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 140494,
+        "TotalApproved": 24722
+    },
+    "AdjusterDetails": {
+        "Name": "Cindy Rowe",
+        "ContactInformation": {
+            "Phone": "797.993.0524",
+            "Email": "thomas98@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/55e9a917-a4d0-4494-85c8-19423f71840b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-05T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-10T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-15T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

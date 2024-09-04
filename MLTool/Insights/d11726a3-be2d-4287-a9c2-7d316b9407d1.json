@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d11726a3-be2d-4287-a9c2-7d316b9407d1",
+    "PolicyID": "7f40cd29-cf48-4f21-980a-fe12653bdf94",
+    "EffectiveDates": {
+        "StartDate": "2024-08-01",
+        "EndDate": "2025-08-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8ffe7e71-fbd8-46b2-9885-15c8a2dd5de7",
+        "Name": "Stephanie Cruz",
+        "PolicyNumber": "7f40cd29-cf48-4f21-980a-fe12653bdf94",
+        "ContactInformation": {
+            "Phone": "+1-827-975-8499x331",
+            "Email": "steven21@example.org",
+            "Address": "8148 Angela Vista Suite 548\nPort Desireeton, MH 52499"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-01",
+        "Location": "USCGC Green\nFPO AE 78840",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 90628
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47749
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6498
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18825
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9171
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 172871,
+        "TotalApproved": 112071
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Rivas",
+        "ContactInformation": {
+            "Phone": "+1-895-426-8203x9068",
+            "Email": "karlgibbs@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e80150e9-81e6-42ef-a136-4efb99dcd6b7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-01T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-06T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-11T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

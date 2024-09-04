@@ -1,0 +1,81 @@
+{
+    "ClaimID": "80752d96-4da6-4813-a3ec-5142bcca027d",
+    "PolicyID": "5854b891-a9e6-4c3f-a1c7-dbb9bbb47e6b",
+    "EffectiveDates": {
+        "StartDate": "2023-12-18",
+        "EndDate": "2024-12-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "504b60dc-7bc2-4529-aa3f-e7117f3b3ccb",
+        "Name": "Mary Smith",
+        "PolicyNumber": "5854b891-a9e6-4c3f-a1c7-dbb9bbb47e6b",
+        "ContactInformation": {
+            "Phone": "(398)856-3911",
+            "Email": "qnunez@example.net",
+            "Address": "637 Stewart Skyway Apt. 296\nSteveshire, NE 23088"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-30",
+        "Location": "4238 Jones Drives Apt. 369\nPort Jamesfurt, CA 35335",
+        "Description": "Boy blue shake role his action administration. Like change professional wish travel statement one.\nLeader kitchen behavior sure."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11670
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8559
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9460
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39572
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91424
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 93155,
+        "TotalApproved": 22024
+    },
+    "AdjusterDetails": {
+        "Name": "James Rosario",
+        "ContactInformation": {
+            "Phone": "487.354.9818",
+            "Email": "brandon10@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a41652a3-aeb9-4ebe-a96f-ae1678b91492"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-30T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c3aab0e2-b616-4a3f-b503-fcfcc7094a73",
+    "PolicyID": "4b5cd895-5bde-4975-9239-010efaf5e345",
+    "EffectiveDates": {
+        "StartDate": "2024-08-23",
+        "EndDate": "2025-08-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3a84a945-239f-4cb4-8668-45a8bbd3207e",
+        "Name": "Abigail Martin",
+        "PolicyNumber": "4b5cd895-5bde-4975-9239-010efaf5e345",
+        "ContactInformation": {
+            "Phone": "(753)762-3884",
+            "Email": "zbutler@example.org",
+            "Address": "766 Yu Way Apt. 561\nNavarroton, NJ 12019"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-21",
+        "Location": "Unit 9288 Box 5257\nDPO AA 30452",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 72190
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45644
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5246
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20385
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19674
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 163139,
+        "TotalApproved": 71798
+    },
+    "AdjusterDetails": {
+        "Name": "Ronnie Jacobs",
+        "ContactInformation": {
+            "Phone": "+1-642-792-3368x767",
+            "Email": "amandathomas@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/60ed5d61-0220-4064-a7da-3396162c8ab4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-31T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1990bcd1-9ae2-4b22-840f-7f35d1ec0bc0",
+    "PolicyID": "d40301ac-9498-47aa-8c3d-c42a39a5ec36",
+    "EffectiveDates": {
+        "StartDate": "2024-07-13",
+        "EndDate": "2025-07-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dc9758e0-b15a-4c6c-8f3e-9374c6412899",
+        "Name": "Raymond Pollard",
+        "PolicyNumber": "d40301ac-9498-47aa-8c3d-c42a39a5ec36",
+        "ContactInformation": {
+            "Phone": "393.234.1598",
+            "Email": "morenocharles@example.com",
+            "Address": "5725 Cynthia Vista\nSouth Juliefurt, PW 37137"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-25",
+        "Location": "3195 Zachary Road\nNew Faithshire, OH 95453",
+        "Description": "Candidate discussion for. Value enough talk evening."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31086
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 144227
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7136
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38731
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 144997
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 15690,
+        "TotalApproved": 8778
+    },
+    "AdjusterDetails": {
+        "Name": "Taylor Moore",
+        "ContactInformation": {
+            "Phone": "470-872-2435",
+            "Email": "marybush@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/95fcddc7-d225-43b8-8e20-fe000ffc8a2e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-25T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-30T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-04T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

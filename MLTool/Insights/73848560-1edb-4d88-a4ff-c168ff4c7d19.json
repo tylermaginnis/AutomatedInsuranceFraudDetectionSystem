@@ -1,0 +1,81 @@
+{
+    "ClaimID": "73848560-1edb-4d88-a4ff-c168ff4c7d19",
+    "PolicyID": "4f1d843e-5e19-4547-91d1-878390fb61a4",
+    "EffectiveDates": {
+        "StartDate": "2023-10-30",
+        "EndDate": "2024-10-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3b59dead-90a5-4b52-a8aa-9c2e752321ea",
+        "Name": "Michael Harris",
+        "PolicyNumber": "4f1d843e-5e19-4547-91d1-878390fb61a4",
+        "ContactInformation": {
+            "Phone": "(383)269-8269x456",
+            "Email": "cgregory@example.com",
+            "Address": "7163 Steven Glens\nJonesside, AK 63040"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-21",
+        "Location": "8528 Davenport Isle Apt. 268\nPort Davidborough, OH 51292",
+        "Description": "List collection stop child it. Must item both must feel hope. Statement coach or something about force inside."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40096
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14640
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1198
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5742
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 55919
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 5327,
+        "TotalApproved": 4514
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Price",
+        "ContactInformation": {
+            "Phone": "(304)879-4383x25822",
+            "Email": "denniskimberly@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/599ef42a-4f1e-4126-8319-198e284205ec"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-31T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

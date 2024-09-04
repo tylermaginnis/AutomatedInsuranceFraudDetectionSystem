@@ -1,0 +1,81 @@
+{
+    "ClaimID": "14bc3d5d-5549-44bb-a0ed-6edc46f2b2dd",
+    "PolicyID": "2657ec7a-6a8b-4075-8839-68c6a5f49c8f",
+    "EffectiveDates": {
+        "StartDate": "2023-09-24",
+        "EndDate": "2024-09-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5aef49ec-daf5-44b5-9cfa-dd7fedef941e",
+        "Name": "Jonathan Duncan",
+        "PolicyNumber": "2657ec7a-6a8b-4075-8839-68c6a5f49c8f",
+        "ContactInformation": {
+            "Phone": "473-920-9971x7876",
+            "Email": "davidhall@example.net",
+            "Address": "7630 Bennett Forges Suite 154\nLindamouth, MA 91908"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-03",
+        "Location": "006 Williams Fields\nNorth Colleenport, NC 67761",
+        "Description": "Action bill western include beyond nice American. Picture itself care political future certain college.\nOwner question decide onto learn. Receive everything up pressure soon mother."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 97429
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40764
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3163
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35829
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41048
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 129292,
+        "TotalApproved": 73950
+    },
+    "AdjusterDetails": {
+        "Name": "Alexander Serrano",
+        "ContactInformation": {
+            "Phone": "001-595-275-9495",
+            "Email": "gibsonjohn@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b3a63912-8293-4107-8e7f-56d6cae7d9bc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

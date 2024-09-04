@@ -1,0 +1,81 @@
+{
+    "ClaimID": "59cd7935-bc62-4236-8513-882039c03793",
+    "PolicyID": "54c14577-bd61-4708-be2e-f5b6efc210b6",
+    "EffectiveDates": {
+        "StartDate": "2024-05-27",
+        "EndDate": "2025-05-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "67590c14-d203-4912-b25e-6313e7103d62",
+        "Name": "Johnny Velasquez",
+        "PolicyNumber": "54c14577-bd61-4708-be2e-f5b6efc210b6",
+        "ContactInformation": {
+            "Phone": "910-961-6774",
+            "Email": "nsmith@example.com",
+            "Address": "9061 Garcia Road Apt. 979\nNew Austinfurt, WY 76652"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-08",
+        "Location": "2872 Jason Ridges\nVickiestad, PR 27765",
+        "Description": "Beautiful few fight pull organization face TV.\nLeast over debate agency role. Money performance weight culture left admit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17600
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50595
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8272
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8411
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17449
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 96938,
+        "TotalApproved": 60634
+    },
+    "AdjusterDetails": {
+        "Name": "Tonya Edwards",
+        "ContactInformation": {
+            "Phone": "563-535-1951",
+            "Email": "eric65@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/297d1fe9-8c70-4f18-a731-fecc5221fb0e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-08T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-13T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-18T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

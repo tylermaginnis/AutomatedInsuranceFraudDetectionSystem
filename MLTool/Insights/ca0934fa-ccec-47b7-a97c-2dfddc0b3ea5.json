@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca0934fa-ccec-47b7-a97c-2dfddc0b3ea5",
+    "PolicyID": "6aa0a7fc-785a-4511-9904-ffcf3914892e",
+    "EffectiveDates": {
+        "StartDate": "2024-02-08",
+        "EndDate": "2025-02-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0ea07f42-3619-4c80-a10f-390174e77a4e",
+        "Name": "Jason Hernandez",
+        "PolicyNumber": "6aa0a7fc-785a-4511-9904-ffcf3914892e",
+        "ContactInformation": {
+            "Phone": "+1-360-461-4257x584",
+            "Email": "ashley25@example.net",
+            "Address": "Unit 4137 Box 9610\nDPO AA 55833"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-12",
+        "Location": "348 Lee Coves Suite 197\nWest Lance, TN 68569",
+        "Description": "Just picture network high. Lead value adult notice move after.\nCultural ten president."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35640
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 183667
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24815
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15396
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42116
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 182047,
+        "TotalApproved": 99848
+    },
+    "AdjusterDetails": {
+        "Name": "Wesley Salazar",
+        "ContactInformation": {
+            "Phone": "+1-207-278-2157x73934",
+            "Email": "daniellopez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ad9f1cfd-0820-4d84-b0e3-1730a08644b0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

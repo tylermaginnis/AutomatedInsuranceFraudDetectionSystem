@@ -1,0 +1,81 @@
+{
+    "ClaimID": "32bc550a-3831-4890-869c-b8676d024d6f",
+    "PolicyID": "1d3fb70d-ed16-4337-b47b-e7c6c8153e52",
+    "EffectiveDates": {
+        "StartDate": "2023-09-07",
+        "EndDate": "2024-09-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b7396623-6750-43e7-960a-76f7383c417c",
+        "Name": "Brittany Wright",
+        "PolicyNumber": "1d3fb70d-ed16-4337-b47b-e7c6c8153e52",
+        "ContactInformation": {
+            "Phone": "310.673.4492",
+            "Email": "david43@example.com",
+            "Address": "1876 Amy Pine\nNorth Edwardchester, MT 02639"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-11",
+        "Location": "15102 Tucker Drive Apt. 225\nJessicabury, NY 56014",
+        "Description": "Model where sort parent. School individual ability by partner performance in. Impact often thing traditional expect rate help."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9464
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 50108
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 113808
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 99075
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19241
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 111596,
+        "TotalApproved": 14165
+    },
+    "AdjusterDetails": {
+        "Name": "Todd Glass",
+        "ContactInformation": {
+            "Phone": "206.515.7053",
+            "Email": "jhuffman@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/49e0760e-a75d-4f92-8334-2015bf2e6690"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-11T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-16T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-21T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

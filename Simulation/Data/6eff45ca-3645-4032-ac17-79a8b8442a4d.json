@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6eff45ca-3645-4032-ac17-79a8b8442a4d",
+  "PolicyID": "ea3fcba1-afc9-4d8f-a273-3f80d739e68f",
+  "EffectiveDates": {
+    "StartDate": "2023-10-24",
+    "EndDate": "2024-10-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "c91d380c-0874-4925-a748-0d37065619f7",
+    "Name": "Patricia Beck",
+    "PolicyNumber": "ea3fcba1-afc9-4d8f-a273-3f80d739e68f",
+    "ContactInformation": {
+      "Phone": "(751)326-2484x01205",
+      "Email": "ryanstacey@example.com",
+      "Address": "192 Ryan Flat Suite 063\nJohnsonville, DE 41186"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-25",
+    "Location": "Unit 9097 Box 7088\nDPO AE 56566",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 79271
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 32763
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9368
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 27897
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9138
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 158437,
+    "TotalApproved": 104924
+  },
+  "AdjusterDetails": {
+    "Name": "Deborah Warner",
+    "ContactInformation": {
+      "Phone": "591.614.0164",
+      "Email": "hendersonalex@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/c191f556-d478-46a8-bcc1-4c3ba13be36d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-25T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-30T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-04T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

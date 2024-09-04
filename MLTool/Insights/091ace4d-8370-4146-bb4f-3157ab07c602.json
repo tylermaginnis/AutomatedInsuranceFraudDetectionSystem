@@ -1,0 +1,81 @@
+{
+    "ClaimID": "091ace4d-8370-4146-bb4f-3157ab07c602",
+    "PolicyID": "fa27bb24-f195-44db-a714-643871ac8568",
+    "EffectiveDates": {
+        "StartDate": "2024-02-12",
+        "EndDate": "2025-02-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7090455f-3b32-48f7-b0be-2cfd6b52fcc0",
+        "Name": "Carlos Lawrence",
+        "PolicyNumber": "fa27bb24-f195-44db-a714-643871ac8568",
+        "ContactInformation": {
+            "Phone": "(339)212-4354x26279",
+            "Email": "greenmarcus@example.net",
+            "Address": "144 Joseph Ports Apt. 102\nDanielleview, NY 63404"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-01",
+        "Location": "19119 Amber Shoals\nLutzstad, LA 64485",
+        "Description": "Building almost seem machine institution appear. Six drop space character group.\nMorning who probably see begin once young. Type much be laugh subject player whatever network. Turn head instead."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4056
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 193514
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5436
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6611
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22229
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 113690,
+        "TotalApproved": 89170
+    },
+    "AdjusterDetails": {
+        "Name": "Erin Edwards",
+        "ContactInformation": {
+            "Phone": "651.597.5239",
+            "Email": "pricefrank@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ad677389-dec8-4070-a7db-d7687b00cd5e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

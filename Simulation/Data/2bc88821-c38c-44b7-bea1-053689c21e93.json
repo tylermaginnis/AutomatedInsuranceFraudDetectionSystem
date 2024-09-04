@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2bc88821-c38c-44b7-bea1-053689c21e93",
+  "PolicyID": "12d03c42-7eb5-4e40-8fca-0e8e84b5652d",
+  "EffectiveDates": {
+    "StartDate": "2024-06-28",
+    "EndDate": "2025-06-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7cc548ec-f4b1-4c4e-809f-496b9badc66c",
+    "Name": "Kyle Mclaughlin",
+    "PolicyNumber": "12d03c42-7eb5-4e40-8fca-0e8e84b5652d",
+    "ContactInformation": {
+      "Phone": "9924095241",
+      "Email": "nicole85@example.net",
+      "Address": "950 Paul Corners Suite 150\nSouth Erikaside, PR 49428"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-07",
+    "Location": "71102 Monica Fords\nLake Gabriela, KY 39271",
+    "Description": "When indeed card set which myself deal.\nReal meet our be save sort. Page speak yes there."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 41360
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 97615
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4482
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15867
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 140753
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 140251,
+    "TotalApproved": 109664
+  },
+  "AdjusterDetails": {
+    "Name": "Brandon King",
+    "ContactInformation": {
+      "Phone": "7774696376",
+      "Email": "triciajohnson@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/bb0b75fd-a9b2-4e5f-8dd4-4c7bbf5571cf"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-07T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-12T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-17T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

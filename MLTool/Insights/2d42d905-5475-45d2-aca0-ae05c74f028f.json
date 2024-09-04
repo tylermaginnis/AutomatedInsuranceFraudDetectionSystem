@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2d42d905-5475-45d2-aca0-ae05c74f028f",
+    "PolicyID": "d07a9e4e-d7fa-42bf-bb12-9ebd6b0b338d",
+    "EffectiveDates": {
+        "StartDate": "2024-05-03",
+        "EndDate": "2025-05-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4ebccdd2-06b1-4b8f-95a9-cea9a25b5aba",
+        "Name": "Sophia Moore",
+        "PolicyNumber": "d07a9e4e-d7fa-42bf-bb12-9ebd6b0b338d",
+        "ContactInformation": {
+            "Phone": "8048942875",
+            "Email": "kelly07@example.org",
+            "Address": "103 Roy Passage\nSouth Stephanie, HI 07642"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-02",
+        "Location": "642 Kenneth Ville\nAndersonmouth, DC 12717",
+        "Description": "Though training myself study officer easy region everyone. We eight two institution case north room."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8553
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38171
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11279
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14464
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18772
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 94726,
+        "TotalApproved": 70672
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Sullivan",
+        "ContactInformation": {
+            "Phone": "(312)831-1574x857",
+            "Email": "christineking@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/914dad73-3f68-4468-9104-c1bb14a0f179"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

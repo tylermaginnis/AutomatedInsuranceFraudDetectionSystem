@@ -1,0 +1,81 @@
+{
+    "ClaimID": "01ee7a49-4ba6-4a2c-beb0-dcbe446f58f5",
+    "PolicyID": "35be26c1-4a36-4d13-8f65-0a0a7e261761",
+    "EffectiveDates": {
+        "StartDate": "2024-08-18",
+        "EndDate": "2025-08-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e8645687-fc01-43ca-a797-86f4488ea129",
+        "Name": "Cody Johnson",
+        "PolicyNumber": "35be26c1-4a36-4d13-8f65-0a0a7e261761",
+        "ContactInformation": {
+            "Phone": "499-234-5575",
+            "Email": "udavis@example.org",
+            "Address": "0245 Holly Fall\nNorth Ashley, WA 16606"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-08-06",
+        "Location": "70809 Anthony Mountains Apt. 605\nRobbinsmouth, GA 53236",
+        "Description": "Case change break hold shoulder. Strong just whose oil chair.\nReady hold identify fine someone white understand. Family similar learn win team what city end."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2033
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34299
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3375
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10004
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3340
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 167802,
+        "TotalApproved": 131158
+    },
+    "AdjusterDetails": {
+        "Name": "Adam Barnes",
+        "ContactInformation": {
+            "Phone": "674.566.3833x35029",
+            "Email": "ljones@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a5c1dd4a-a538-4990-8d4c-951ad8177212"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-08-06T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-11T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-16T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

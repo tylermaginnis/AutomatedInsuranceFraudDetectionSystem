@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bc5a9ca4-ed01-4ae7-b5df-5131d4da2aa6",
+    "PolicyID": "2dec39c9-2380-4aca-a64b-dae0df7232ca",
+    "EffectiveDates": {
+        "StartDate": "2024-06-21",
+        "EndDate": "2025-06-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bc8567e6-8cfb-4a2c-bdde-bd0ba328627c",
+        "Name": "Francisco Smith",
+        "PolicyNumber": "2dec39c9-2380-4aca-a64b-dae0df7232ca",
+        "ContactInformation": {
+            "Phone": "384-798-4854",
+            "Email": "hmitchell@example.com",
+            "Address": "682 Sanchez Flats\nAndrewhaven, AZ 49019"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-13",
+        "Location": "14366 Linda Pike Suite 980\nCatherinebury, PA 17818",
+        "Description": "Bed quite crime around control see put only.\nLikely international concern sell believe generation nation. Plan source important fill."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8353
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14915
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 58903
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8159
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1242
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 104308,
+        "TotalApproved": 52899
+    },
+    "AdjusterDetails": {
+        "Name": "Ronald Anderson",
+        "ContactInformation": {
+            "Phone": "854.238.9663",
+            "Email": "juliesummers@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/853ed75b-eb26-48c0-ada6-c497d9e0153b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

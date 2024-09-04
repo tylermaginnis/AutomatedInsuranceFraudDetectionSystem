@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8bc81240-475b-4b92-847f-9aad633f71b9",
+    "PolicyID": "196ac086-1d43-410c-938e-aee8b0b8b9be",
+    "EffectiveDates": {
+        "StartDate": "2024-04-19",
+        "EndDate": "2025-04-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "27714c74-b08b-4f91-8fec-993543834339",
+        "Name": "Janet Fleming",
+        "PolicyNumber": "196ac086-1d43-410c-938e-aee8b0b8b9be",
+        "ContactInformation": {
+            "Phone": "+1-605-241-8990x47466",
+            "Email": "megan99@example.org",
+            "Address": "222 Jason Shoal Suite 713\nRiceborough, NM 66874"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-13",
+        "Location": "21294 Jenna Street Apt. 926\nGregoryburgh, OK 93273",
+        "Description": "Book raise recognize them least card provide. Government garden long it happy learn. Middle end maybe particular simple develop do."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 135841
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20279
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8809
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 85081
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 198994
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 45156,
+        "TotalApproved": 5598
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Davis",
+        "ContactInformation": {
+            "Phone": "999.763.3756",
+            "Email": "austinchandler@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/862e8e9c-562b-4e8d-bfca-9cd5ff50dfbd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-13T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-18T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-23T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

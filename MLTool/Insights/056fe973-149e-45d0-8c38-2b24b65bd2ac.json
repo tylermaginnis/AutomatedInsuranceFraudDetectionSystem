@@ -1,0 +1,81 @@
+{
+    "ClaimID": "056fe973-149e-45d0-8c38-2b24b65bd2ac",
+    "PolicyID": "990c89a1-3c8e-48ca-8cd7-855c3e2abffd",
+    "EffectiveDates": {
+        "StartDate": "2023-11-22",
+        "EndDate": "2024-11-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6faef729-5d33-49cb-ad67-2f4efa33e976",
+        "Name": "Alisha Mack",
+        "PolicyNumber": "990c89a1-3c8e-48ca-8cd7-855c3e2abffd",
+        "ContactInformation": {
+            "Phone": "4776308159",
+            "Email": "abrown@example.org",
+            "Address": "59876 Gary Garden Suite 566\nEast Patricia, HI 81302"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-05",
+        "Location": "8965 Natalie Turnpike\nBrentport, MN 41241",
+        "Description": "Read hit thank president top baby clearly. Sing how memory.\nBeat continue see certainly last. Its task tonight tough debate interview."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13183
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26542
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1580
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 81132
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 36896
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 41955,
+        "TotalApproved": 13735
+    },
+    "AdjusterDetails": {
+        "Name": "James Barker",
+        "ContactInformation": {
+            "Phone": "(988)747-9673x368",
+            "Email": "camachobailey@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d41de9b0-ba0e-495e-88af-c56078dc638f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

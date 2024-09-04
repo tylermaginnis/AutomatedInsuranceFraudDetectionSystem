@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1ade2a02-17f8-4f67-9077-b5f3cd6dafa7",
+  "PolicyID": "885c18f2-185c-442b-8e8f-7bece1206761",
+  "EffectiveDates": {
+    "StartDate": "2023-09-22",
+    "EndDate": "2024-09-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ea41c9af-3d3a-4b99-abc6-40939da9d2d9",
+    "Name": "Roger Smith",
+    "PolicyNumber": "885c18f2-185c-442b-8e8f-7bece1206761",
+    "ContactInformation": {
+      "Phone": "001-546-921-2542x7369",
+      "Email": "campbelledgar@example.net",
+      "Address": "34535 Kyle Ports\nNorth Katherine, VI 11337"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-20",
+    "Location": "5639 Christopher Groves Suite 039\nEdwardtown, IA 67817",
+    "Description": "Clearly seven view try western mention parent. Hand tonight thing service. Reduce away social charge without north let dog."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 42437
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 20464
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 19256
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8745
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9597
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 74766,
+    "TotalApproved": 40108
+  },
+  "AdjusterDetails": {
+    "Name": "Victor Johnson",
+    "ContactInformation": {
+      "Phone": "458-286-5032x4970",
+      "Email": "dwong@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/a4366126-17bb-4afc-a146-0b6328e50e55"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-20T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-25T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-30T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

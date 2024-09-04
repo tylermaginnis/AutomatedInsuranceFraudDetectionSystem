@@ -1,0 +1,81 @@
+{
+    "ClaimID": "504a482f-9392-4f07-b8e0-23b81f12712a",
+    "PolicyID": "651b69bf-31d0-4b51-8068-498703be3e34",
+    "EffectiveDates": {
+        "StartDate": "2024-05-06",
+        "EndDate": "2025-05-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "16bccb9a-22b3-4b55-91fa-35ed8f73e08b",
+        "Name": "Corey Martin",
+        "PolicyNumber": "651b69bf-31d0-4b51-8068-498703be3e34",
+        "ContactInformation": {
+            "Phone": "374.538.4492x8607",
+            "Email": "mistydennis@example.net",
+            "Address": "402 Harrington Causeway\nLake Annaside, ND 01027"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-15",
+        "Location": "385 James Wells Apt. 671\nStephenstad, NY 48279",
+        "Description": "Expert record spring property old turn. He add research. World deep forward describe determine could.\nLeave necessary knowledge difficult late now. Wish final pick eight."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23587
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 96184
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13225
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12000
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22894
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 20649,
+        "TotalApproved": 15495
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Johnson",
+        "ContactInformation": {
+            "Phone": "628-775-7552x653",
+            "Email": "smithstephen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7e872825-3055-4836-8445-549223f6a38f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

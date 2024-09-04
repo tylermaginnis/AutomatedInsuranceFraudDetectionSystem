@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1cba30a6-cbd6-4638-b66f-4b52d7a4c1cc",
+  "PolicyID": "9bef082b-09a5-43b1-9036-89da14b804bb",
+  "EffectiveDates": {
+    "StartDate": "2024-04-03",
+    "EndDate": "2025-04-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9a0f2153-029d-4968-95a4-0730b179fbdd",
+    "Name": "Natalie Cruz",
+    "PolicyNumber": "9bef082b-09a5-43b1-9036-89da14b804bb",
+    "ContactInformation": {
+      "Phone": "641-785-8041",
+      "Email": "johndavis@example.org",
+      "Address": "11115 Ryan Dam\nSouth Laurie, CO 03197"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-22",
+    "Location": "320 Jeanne Vista Suite 707\nBruceside, VT 42654",
+    "Description": "It toward woman so.\nWorld security news institution spring visit value edge. Special daughter western culture beautiful impact. Keep size free."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 23090
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6867
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 72809
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 159371
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 4481
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 125473,
+    "TotalApproved": 93580
+  },
+  "AdjusterDetails": {
+    "Name": "Tonya Small",
+    "ContactInformation": {
+      "Phone": "282.801.4947x3743",
+      "Email": "eperez@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/9285ccc9-df54-40ce-87bd-fb139694d05b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-22T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-27T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-02T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

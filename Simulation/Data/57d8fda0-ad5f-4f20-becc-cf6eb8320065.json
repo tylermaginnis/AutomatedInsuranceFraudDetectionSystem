@@ -1,0 +1,80 @@
+{
+  "ClaimID": "57d8fda0-ad5f-4f20-becc-cf6eb8320065",
+  "PolicyID": "d075ba5f-6eb9-4b49-bd41-b671b58f6ae7",
+  "EffectiveDates": {
+    "StartDate": "2024-06-19",
+    "EndDate": "2025-06-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2516f653-c1f4-4b13-8a7a-e54f9b0e20a9",
+    "Name": "Anna Pugh",
+    "PolicyNumber": "d075ba5f-6eb9-4b49-bd41-b671b58f6ae7",
+    "ContactInformation": {
+      "Phone": "(666)369-8826",
+      "Email": "robinsoneric@example.net",
+      "Address": "2322 Douglas Junction Suite 634\nKeithmouth, CO 92379"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-29",
+    "Location": "904 Hill Manors\nOchoamouth, TN 43868",
+    "Description": "Year common allow American reduce plan act might.\nNational consider check glass consider. Just improve nature property money."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 139641
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 75554
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 45376
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2183
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 33413
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 48212,
+    "TotalApproved": 18300
+  },
+  "AdjusterDetails": {
+    "Name": "Robin Smith",
+    "ContactInformation": {
+      "Phone": "5082483430",
+      "Email": "zcurtis@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/93301b26-06e6-4872-a515-178ac77f0c5d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-29T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-03T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-08T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

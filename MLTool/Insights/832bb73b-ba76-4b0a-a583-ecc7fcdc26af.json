@@ -1,0 +1,81 @@
+{
+    "ClaimID": "832bb73b-ba76-4b0a-a583-ecc7fcdc26af",
+    "PolicyID": "5613e806-89fc-4a5a-b5f8-589ec137790e",
+    "EffectiveDates": {
+        "StartDate": "2023-10-06",
+        "EndDate": "2024-10-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "46ec38e1-be71-48d7-96e7-448aa8943c3f",
+        "Name": "Kurt Gilmore",
+        "PolicyNumber": "5613e806-89fc-4a5a-b5f8-589ec137790e",
+        "ContactInformation": {
+            "Phone": "(711)290-9627x358",
+            "Email": "ohernandez@example.net",
+            "Address": "657 Meza Run Suite 080\nNortonland, IN 37898"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-13",
+        "Location": "624 Teresa Green\nWest Jason, IA 08709",
+        "Description": "Civil admit free wrong material reach.\nSport either power report generation painting onto. Pretty democratic hotel line."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6150
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29675
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34200
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9892
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40281
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 197214,
+        "TotalApproved": 157276
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Reynolds MD",
+        "ContactInformation": {
+            "Phone": "+1-435-438-8332",
+            "Email": "bhunter@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f1bfdcb4-2b98-454a-8d12-0be9e8a905b7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-13T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-18T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-23T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

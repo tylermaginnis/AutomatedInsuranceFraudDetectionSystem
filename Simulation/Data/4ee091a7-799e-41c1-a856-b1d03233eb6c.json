@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4ee091a7-799e-41c1-a856-b1d03233eb6c",
+  "PolicyID": "69aca9b0-1d3b-425c-b7aa-35528a0f2ca7",
+  "EffectiveDates": {
+    "StartDate": "2023-11-10",
+    "EndDate": "2024-11-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "994cf5c8-e2a3-42bd-8347-82f86af1b7f3",
+    "Name": "Michael Guzman",
+    "PolicyNumber": "69aca9b0-1d3b-425c-b7aa-35528a0f2ca7",
+    "ContactInformation": {
+      "Phone": "001-735-582-4628x2853",
+      "Email": "danajones@example.org",
+      "Address": "359 Tiffany Motorway\nPort Justinview, FL 00952"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-26",
+    "Location": "908 Audrey Hill Apt. 228\nScottshire, CO 70135",
+    "Description": "Kid person yet know eight contain while save. Explain moment goal industry sell mother.\nNewspaper team cold never they. These avoid spring institution."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 10622
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 95343
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 18443
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2131
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 19758
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 66612,
+    "TotalApproved": 29507
+  },
+  "AdjusterDetails": {
+    "Name": "Lisa Hill",
+    "ContactInformation": {
+      "Phone": "001-922-366-1447",
+      "Email": "rmcdonald@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/df3f8c3f-a34b-4729-8a23-eedc839b6462"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-26T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-31T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-05T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

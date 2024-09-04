@@ -1,0 +1,81 @@
+{
+    "ClaimID": "16519d03-461e-4094-8b70-dca36fa7854d",
+    "PolicyID": "26cb08cb-901f-40a6-878b-84f2412ff184",
+    "EffectiveDates": {
+        "StartDate": "2024-02-08",
+        "EndDate": "2025-02-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "57ede5fa-1bd5-474f-b6f6-ddf783087522",
+        "Name": "Stephen Owen",
+        "PolicyNumber": "26cb08cb-901f-40a6-878b-84f2412ff184",
+        "ContactInformation": {
+            "Phone": "775.586.3725",
+            "Email": "robertreyes@example.net",
+            "Address": "25824 James Meadows Apt. 944\nTerrifurt, VA 73170"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-18",
+        "Location": "4147 Sanchez Lane Suite 309\nPort Jesse, NH 75565",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 57078
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36039
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6110
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12762
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8568
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 120557,
+        "TotalApproved": 6716
+    },
+    "AdjusterDetails": {
+        "Name": "Theresa Hoffman",
+        "ContactInformation": {
+            "Phone": "(526)395-3914",
+            "Email": "wmay@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/aa760664-cee3-44ef-90dc-7ba907c25f01"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-18T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-23T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-28T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

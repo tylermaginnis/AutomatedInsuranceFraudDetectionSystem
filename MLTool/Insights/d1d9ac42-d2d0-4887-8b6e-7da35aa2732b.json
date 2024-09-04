@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d1d9ac42-d2d0-4887-8b6e-7da35aa2732b",
+    "PolicyID": "677d20dd-2c72-4746-ba0d-0cc1d721abd5",
+    "EffectiveDates": {
+        "StartDate": "2024-07-11",
+        "EndDate": "2025-07-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "429cc99d-3251-4e8e-ba2c-73aef58c57ae",
+        "Name": "Amanda Sellers",
+        "PolicyNumber": "677d20dd-2c72-4746-ba0d-0cc1d721abd5",
+        "ContactInformation": {
+            "Phone": "220.988.4191x126",
+            "Email": "tinaesparza@example.net",
+            "Address": "650 Contreras Run Suite 316\nMitchellborough, MD 50650"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-03",
+        "Location": "34101 Keith Courts Suite 943\nSouth Barbara, AL 58173",
+        "Description": "Task determine court including lose. Staff sort three science. Ready system energy suddenly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5432
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24374
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36357
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 130969
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9506
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 60531,
+        "TotalApproved": 60466
+    },
+    "AdjusterDetails": {
+        "Name": "David Mccann",
+        "ContactInformation": {
+            "Phone": "001-364-385-1658",
+            "Email": "rowebrandy@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/73a58b06-a874-4fc7-a9c1-d233b69a5487"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

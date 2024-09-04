@@ -1,0 +1,81 @@
+{
+    "ClaimID": "47ec1be7-ffd6-4721-af75-58f94b699130",
+    "PolicyID": "c80bd82d-b4a8-48ca-b899-59a67713bffb",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "24a819dc-ad70-4b4e-9893-28f302eb335b",
+        "Name": "Thomas Williams",
+        "PolicyNumber": "c80bd82d-b4a8-48ca-b899-59a67713bffb",
+        "ContactInformation": {
+            "Phone": "(409)737-5090x2196",
+            "Email": "higginsmichael@example.com",
+            "Address": "176 Bethany Bridge Apt. 677\nSuttonview, NJ 18801"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-08",
+        "Location": "77526 Duran Valleys\nSheilaville, AL 23402",
+        "Description": "Another it contain instead six doctor wish always. Bring others above cut particularly.\nEffect agent while themselves. Pass consumer lawyer risk face note. Buy positive road take."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 153854
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16505
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7008
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3870
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9598
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 58275,
+        "TotalApproved": 20230
+    },
+    "AdjusterDetails": {
+        "Name": "Stephen Browning",
+        "ContactInformation": {
+            "Phone": "+1-366-548-2520x877",
+            "Email": "sheppardallison@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8cb15f59-7f1a-443c-99c9-173a4eecfd46"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "33492b9a-19b9-49f9-9262-202af2d10fc1",
+    "PolicyID": "969f55ca-b0b1-42a1-8bf7-5ace158ce8ff",
+    "EffectiveDates": {
+        "StartDate": "2024-01-12",
+        "EndDate": "2025-01-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5e78bf4b-7ab6-4b45-9ce4-006c5e54c738",
+        "Name": "Lori Yang",
+        "PolicyNumber": "969f55ca-b0b1-42a1-8bf7-5ace158ce8ff",
+        "ContactInformation": {
+            "Phone": "636-514-2187x3163",
+            "Email": "jefffischer@example.net",
+            "Address": "Unit 8844 Box 8983\nDPO AE 50706"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-04",
+        "Location": "966 Schmidt Extensions\nNorth Matthewmouth, DC 17264",
+        "Description": "Both business happy by.\nSubject language hear low interview husband American walk. Along fund cover ago night. Century television bank anyone great. She history feeling view here."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10895
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9899
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11398
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 156112
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5893
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 175295,
+        "TotalApproved": 173152
+    },
+    "AdjusterDetails": {
+        "Name": "Patrick Clements",
+        "ContactInformation": {
+            "Phone": "(849)523-8029",
+            "Email": "richardmunoz@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/11423969-37d5-4335-95df-0a19f6c1aa98"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-04T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-09T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-14T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

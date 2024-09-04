@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ae93326a-9a2c-44d0-be81-cef040f2fc7f",
+  "PolicyID": "c4d07156-61d7-4817-9166-41637d82dceb",
+  "EffectiveDates": {
+    "StartDate": "2024-03-17",
+    "EndDate": "2025-03-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "aecd018c-3d5c-4e8f-8aa5-6535f56c32c6",
+    "Name": "Ashley Perry",
+    "PolicyNumber": "c4d07156-61d7-4817-9166-41637d82dceb",
+    "ContactInformation": {
+      "Phone": "830.669.7679x92504",
+      "Email": "dawncrane@example.net",
+      "Address": "800 Renee Mount\nNew Josephborough, DC 96802"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-20",
+    "Location": "15612 Gary Mountains\nNorth Kimshire, IL 70747",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 61591
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 22573
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8967
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 19886
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 19022
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 132039,
+    "TotalApproved": 72440
+  },
+  "AdjusterDetails": {
+    "Name": "Linda Burton",
+    "ContactInformation": {
+      "Phone": "931.330.9621x973",
+      "Email": "mitchelljeffrey@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/e349beee-43fa-46a5-91e9-a45ce10a787c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-20T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-25T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-30T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

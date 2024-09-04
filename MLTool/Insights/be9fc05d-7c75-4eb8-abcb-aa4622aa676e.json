@@ -1,0 +1,81 @@
+{
+    "ClaimID": "be9fc05d-7c75-4eb8-abcb-aa4622aa676e",
+    "PolicyID": "0011919a-89b4-48d1-b3d7-8432bb41ecbe",
+    "EffectiveDates": {
+        "StartDate": "2024-04-15",
+        "EndDate": "2025-04-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e4542e73-e878-4fda-9fcc-45c8dd01e400",
+        "Name": "Cheryl Wilson",
+        "PolicyNumber": "0011919a-89b4-48d1-b3d7-8432bb41ecbe",
+        "ContactInformation": {
+            "Phone": "398-371-3141",
+            "Email": "wnichols@example.com",
+            "Address": "64843 Frazier Tunnel\nNew Ashleymouth, GU 77326"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-19",
+        "Location": "628 Medina Rest Suite 230\nRussellhaven, TN 36338",
+        "Description": "Group name leader check. None effect vote else suggest nothing language. Woman final military more poor across create sing."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10932
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12146
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4035
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 81020
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6771
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 83392,
+        "TotalApproved": 62840
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Freeman",
+        "ContactInformation": {
+            "Phone": "732.482.4117",
+            "Email": "scott79@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/ed0b101c-1f71-4432-99b2-923d25a70554"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-19T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-24T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-29T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

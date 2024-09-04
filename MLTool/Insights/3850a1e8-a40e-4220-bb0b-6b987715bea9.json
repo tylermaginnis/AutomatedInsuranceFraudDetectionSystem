@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3850a1e8-a40e-4220-bb0b-6b987715bea9",
+    "PolicyID": "fcf7c80f-601c-4222-aca2-2b0b7f98e6f7",
+    "EffectiveDates": {
+        "StartDate": "2023-12-21",
+        "EndDate": "2024-12-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "edd50306-bed5-4395-a670-5e62050a3dd3",
+        "Name": "Zachary Thompson",
+        "PolicyNumber": "fcf7c80f-601c-4222-aca2-2b0b7f98e6f7",
+        "ContactInformation": {
+            "Phone": "+1-406-660-8072",
+            "Email": "trush@example.net",
+            "Address": "6824 Tracy Streets\nGarciafort, OR 68922"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-08",
+        "Location": "7886 Winters Harbor Apt. 751\nNielsenchester, GA 09346",
+        "Description": "Its newspaper prevent election enter room only. National full require dark. Enter rock there her.\nGroup month physical support cause. Never last thing."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 176153
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5415
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2510
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8081
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11094
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 162859,
+        "TotalApproved": 58157
+    },
+    "AdjusterDetails": {
+        "Name": "Erica Smith",
+        "ContactInformation": {
+            "Phone": "(990)370-1129x56069",
+            "Email": "jonathanroberson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e6d29b43-4389-4f0a-87d4-8042f004c97b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-08T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-13T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-18T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

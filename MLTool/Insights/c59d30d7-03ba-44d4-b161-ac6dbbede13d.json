@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c59d30d7-03ba-44d4-b161-ac6dbbede13d",
+    "PolicyID": "f0ea8ae2-b128-4062-b30b-a9ab879e1faa",
+    "EffectiveDates": {
+        "StartDate": "2024-03-19",
+        "EndDate": "2025-03-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8d7caace-a35b-4199-83f5-3e81d8a9d129",
+        "Name": "Jean Horne",
+        "PolicyNumber": "f0ea8ae2-b128-4062-b30b-a9ab879e1faa",
+        "ContactInformation": {
+            "Phone": "(965)608-9148x856",
+            "Email": "turnerstephen@example.com",
+            "Address": "485 Fritz Ways\nFordside, MA 42328"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-17",
+        "Location": "2623 Martin Curve\nSusanfort, MO 16379",
+        "Description": "Painting this surface fish space throw. Wonder young care between sister operation. Amount strategy crime game."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3767
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5864
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5636
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14996
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 191075
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 65641,
+        "TotalApproved": 61516
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Jonathan Jones",
+        "ContactInformation": {
+            "Phone": "+1-330-942-7961",
+            "Email": "barnesronald@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2c187332-322b-436a-9f93-eebb2c03d894"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

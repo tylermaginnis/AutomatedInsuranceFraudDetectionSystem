@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1c0f669d-da60-4f6d-a515-b8c41fd41aae",
+    "PolicyID": "fb5d0720-6f08-4eda-927a-77811d4c818e",
+    "EffectiveDates": {
+        "StartDate": "2024-02-16",
+        "EndDate": "2025-02-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cba0fc67-a6c6-4532-b567-43b093bba339",
+        "Name": "Samantha Johnson",
+        "PolicyNumber": "fb5d0720-6f08-4eda-927a-77811d4c818e",
+        "ContactInformation": {
+            "Phone": "332-890-9488x5852",
+            "Email": "amandawilliams@example.org",
+            "Address": "524 Love Neck Suite 178\nNew Territown, MT 07831"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-23",
+        "Location": "118 Michael Mission Apt. 693\nPort Emily, TX 94929",
+        "Description": "Carry green program boy nature create case.\nLeave model real detail. Money weight tend specific choose vote forward."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5991
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 149991
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 86507
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1081
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21063
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 164793,
+        "TotalApproved": 62083
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Meyers",
+        "ContactInformation": {
+            "Phone": "451-666-0212",
+            "Email": "gilberterica@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a07f14ac-0885-45ce-a215-3e6530d598c7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

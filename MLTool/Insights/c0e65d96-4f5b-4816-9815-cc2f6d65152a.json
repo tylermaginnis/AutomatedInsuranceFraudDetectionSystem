@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c0e65d96-4f5b-4816-9815-cc2f6d65152a",
+    "PolicyID": "59b3aa19-04dc-414c-a2a6-f01ac7973027",
+    "EffectiveDates": {
+        "StartDate": "2023-10-02",
+        "EndDate": "2024-10-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c953c0a9-565f-401d-887c-103266a25a63",
+        "Name": "Misty Robinson",
+        "PolicyNumber": "59b3aa19-04dc-414c-a2a6-f01ac7973027",
+        "ContactInformation": {
+            "Phone": "+1-814-802-2064x42707",
+            "Email": "briansoto@example.org",
+            "Address": "835 Simon Path Suite 574\nJoelside, OK 46502"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-06",
+        "Location": "484 Eric Prairie\nPort Matthewburgh, LA 38696",
+        "Description": "Court civil discuss probably poor home. Pass western miss benefit. Person final especially base information mind technology rest. Miss kid red read side for enough."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5362
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5154
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23605
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49736
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30789
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 125294,
+        "TotalApproved": 30731
+    },
+    "AdjusterDetails": {
+        "Name": "Christine Gay",
+        "ContactInformation": {
+            "Phone": "889.504.4261",
+            "Email": "jonessandra@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f25a83d7-6241-494c-b2a1-47d8969464fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

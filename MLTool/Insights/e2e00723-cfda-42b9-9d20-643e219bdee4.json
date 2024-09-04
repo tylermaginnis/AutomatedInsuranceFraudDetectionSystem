@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e2e00723-cfda-42b9-9d20-643e219bdee4",
+    "PolicyID": "4b5cd895-5bde-4975-9239-010efaf5e345",
+    "EffectiveDates": {
+        "StartDate": "2024-07-16",
+        "EndDate": "2025-07-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3a84a945-239f-4cb4-8668-45a8bbd3207e",
+        "Name": "Abigail Martin",
+        "PolicyNumber": "4b5cd895-5bde-4975-9239-010efaf5e345",
+        "ContactInformation": {
+            "Phone": "(753)762-3884",
+            "Email": "zbutler@example.org",
+            "Address": "766 Yu Way Apt. 561\nNavarroton, NJ 12019"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-09",
+        "Location": "28785 Anderson Manors\nNorth Karen, CO 99615",
+        "Description": "Fund likely country wear second section. Vote mind race inside war whether. Magazine stage bank perhaps political write."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 45654
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 166861
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35006
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 66857
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6893
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 142791,
+        "TotalApproved": 106095
+    },
+    "AdjusterDetails": {
+        "Name": "Dr. Lisa Pittman",
+        "ContactInformation": {
+            "Phone": "+1-235-379-3017x1253",
+            "Email": "robert90@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5f9ea326-2e90-43d3-8e7d-4fb2a8e3b2c9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-09T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-14T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-19T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

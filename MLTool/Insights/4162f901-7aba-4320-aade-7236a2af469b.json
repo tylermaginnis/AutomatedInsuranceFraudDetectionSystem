@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4162f901-7aba-4320-aade-7236a2af469b",
+    "PolicyID": "d4090551-bd29-4c26-bdbc-7b6ff49eb0b8",
+    "EffectiveDates": {
+        "StartDate": "2024-02-27",
+        "EndDate": "2025-02-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "463ad0b5-025d-42aa-af21-dfee43678303",
+        "Name": "Kayla Shaw",
+        "PolicyNumber": "d4090551-bd29-4c26-bdbc-7b6ff49eb0b8",
+        "ContactInformation": {
+            "Phone": "001-476-458-1149x871",
+            "Email": "scottstacey@example.com",
+            "Address": "Unit 0710 Box 5241\nDPO AE 45913"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-06",
+        "Location": "8335 Chad Court\nPerkinsfort, TX 53773",
+        "Description": "Former consider ten actually seem senior. Water heart against economic top."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20271
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8073
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17869
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34878
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 58169
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 82772,
+        "TotalApproved": 14897
+    },
+    "AdjusterDetails": {
+        "Name": "Julie Ray",
+        "ContactInformation": {
+            "Phone": "001-309-713-9013x241",
+            "Email": "ssantiago@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3ab33c5c-1251-4ce3-ab12-38b9bed1a59d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

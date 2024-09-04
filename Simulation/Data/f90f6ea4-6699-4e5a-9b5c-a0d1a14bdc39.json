@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f90f6ea4-6699-4e5a-9b5c-a0d1a14bdc39",
+  "PolicyID": "813e3754-7c26-4321-827a-5b14bfda4896",
+  "EffectiveDates": {
+    "StartDate": "2023-09-16",
+    "EndDate": "2024-09-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "46881af3-21ca-4101-99be-bc6041d561d1",
+    "Name": "Mr. Matthew Hernandez",
+    "PolicyNumber": "813e3754-7c26-4321-827a-5b14bfda4896",
+    "ContactInformation": {
+      "Phone": "581-877-6700x877",
+      "Email": "robert53@example.net",
+      "Address": "650 Leslie Courts Suite 921\nWest Sandraton, NV 64528"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-30",
+    "Location": "3002 Jeremy Villages\nPort Zacharyport, OR 16740",
+    "Description": "Sure service oil fly police hundred site. Different first a human. Situation easy method concern half."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1918
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 38310
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 15246
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7319
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2446
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 8144,
+    "TotalApproved": 3540
+  },
+  "AdjusterDetails": {
+    "Name": "Samuel Smith",
+    "ContactInformation": {
+      "Phone": "489-598-5836",
+      "Email": "olewis@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/12b3d106-a616-431d-bb87-279a407b6924"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-30T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-04T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-09T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

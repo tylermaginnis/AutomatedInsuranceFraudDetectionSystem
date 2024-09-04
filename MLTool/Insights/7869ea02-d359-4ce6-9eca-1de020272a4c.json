@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7869ea02-d359-4ce6-9eca-1de020272a4c",
+    "PolicyID": "e5fe7e26-d5f2-4855-92c8-00a880a612c7",
+    "EffectiveDates": {
+        "StartDate": "2024-04-30",
+        "EndDate": "2025-04-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a389d1cf-8bd8-4d08-bf62-6d572091ad91",
+        "Name": "Kelly Archer",
+        "PolicyNumber": "e5fe7e26-d5f2-4855-92c8-00a880a612c7",
+        "ContactInformation": {
+            "Phone": "933.528.6703",
+            "Email": "hrobinson@example.org",
+            "Address": "45598 Obrien Drive Suite 618\nPort Cassieport, VT 67782"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-22",
+        "Location": "7910 Lawson Ridges Apt. 482\nRobintown, VA 69414",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 53798
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24562
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9748
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16275
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15050
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 119433,
+        "TotalApproved": 78089
+    },
+    "AdjusterDetails": {
+        "Name": "Nicole Frey",
+        "ContactInformation": {
+            "Phone": "343-354-7554x49723",
+            "Email": "abarnes@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/944ec783-3382-414c-85ba-0a9b0c6fc1ea"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-22T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-27T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-01T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

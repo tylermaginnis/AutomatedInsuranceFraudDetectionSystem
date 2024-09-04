@@ -1,0 +1,81 @@
+{
+    "ClaimID": "acb821eb-5387-4365-8ee3-a5ec2abcaefe",
+    "PolicyID": "a507103e-61ae-4120-a616-cdca623c13ee",
+    "EffectiveDates": {
+        "StartDate": "2024-07-10",
+        "EndDate": "2025-07-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d78f4f21-a320-436a-9d0d-50497d4122f2",
+        "Name": "Sue Carpenter",
+        "PolicyNumber": "a507103e-61ae-4120-a616-cdca623c13ee",
+        "ContactInformation": {
+            "Phone": "001-454-891-6837",
+            "Email": "myersyolanda@example.net",
+            "Address": "412 Amanda Springs\nCarolyntown, NE 35256"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-01",
+        "Location": "1067 Courtney View\nVazquezburgh, AK 37170",
+        "Description": "Girl end design film wide view hear. Skill wait half believe.\nNecessary point modern agree street with there brother. Tonight red identify lot."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4185
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17245
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39362
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3463
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22803
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 22207,
+        "TotalApproved": 8405
+    },
+    "AdjusterDetails": {
+        "Name": "Jeffrey Richardson",
+        "ContactInformation": {
+            "Phone": "001-999-883-6496x5780",
+            "Email": "tina25@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b1f0c30c-473d-4130-b07e-f5ac9deb9d6c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "99aaa97f-12f4-4822-bc42-cd296027f16f",
+    "PolicyID": "a4e4a113-deff-42fd-a3d9-c6344635cb04",
+    "EffectiveDates": {
+        "StartDate": "2023-10-15",
+        "EndDate": "2024-10-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "26fac5c6-8907-4584-b971-0012d9a32201",
+        "Name": "Adrienne Hall",
+        "PolicyNumber": "a4e4a113-deff-42fd-a3d9-c6344635cb04",
+        "ContactInformation": {
+            "Phone": "463.452.9576",
+            "Email": "beardpatricia@example.org",
+            "Address": "431 Brooks Squares\nNatalieport, MA 75360"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-30",
+        "Location": "39727 Melinda Corner Suite 015\nLake Devonstad, ID 86536",
+        "Description": "Build treatment data view responsibility evening. Hospital until such serious strong long. Laugh price challenge simple may ready spring."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19968
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39861
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14437
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32572
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8318
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 42396,
+        "TotalApproved": 31682
+    },
+    "AdjusterDetails": {
+        "Name": "Phillip Kidd",
+        "ContactInformation": {
+            "Phone": "838.430.4396",
+            "Email": "donald81@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/72917878-0268-464d-b6f2-43a8fef25ce0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

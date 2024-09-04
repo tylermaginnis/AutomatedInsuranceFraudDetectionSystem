@@ -1,0 +1,81 @@
+{
+    "ClaimID": "19a77f8b-83b2-4c29-a547-ee71d5b6e092",
+    "PolicyID": "e54f9c77-efb3-434a-abd5-71eaf6779c94",
+    "EffectiveDates": {
+        "StartDate": "2023-10-05",
+        "EndDate": "2024-10-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "df29ece7-0f49-4d99-8e6c-b6aefe3a8b8c",
+        "Name": "Emily Evans",
+        "PolicyNumber": "e54f9c77-efb3-434a-abd5-71eaf6779c94",
+        "ContactInformation": {
+            "Phone": "346-452-8808x07510",
+            "Email": "lhuffman@example.com",
+            "Address": "174 Reed Lane\nIantown, OK 06175"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-24",
+        "Location": "3695 Robert Hill\nWest Jacquelineville, AK 07417",
+        "Description": "Often administration paper fill world adult. Everybody ground up lot among sea player.\nWriter decade discover financial garden. Time yourself writer power."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2992
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 52840
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 63671
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62979
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2336
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 112596,
+        "TotalApproved": 107222
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Cox",
+        "ContactInformation": {
+            "Phone": "379-957-7786x443",
+            "Email": "conniemiller@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6359a92a-7453-4217-bd29-a3d802157b4b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

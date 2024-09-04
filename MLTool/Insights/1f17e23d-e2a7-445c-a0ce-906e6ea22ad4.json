@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1f17e23d-e2a7-445c-a0ce-906e6ea22ad4",
+    "PolicyID": "e1f4ddaf-95b6-4390-84c5-c5acaf008840",
+    "EffectiveDates": {
+        "StartDate": "2024-01-08",
+        "EndDate": "2025-01-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f9f2c407-e83e-4a2b-b8d4-62f3629e8515",
+        "Name": "Raymond Craig",
+        "PolicyNumber": "e1f4ddaf-95b6-4390-84c5-c5acaf008840",
+        "ContactInformation": {
+            "Phone": "4213490591",
+            "Email": "racheladams@example.org",
+            "Address": "08602 Theresa Summit Suite 354\nHornborough, VI 26014"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-13",
+        "Location": "827 Butler Heights Apt. 611\nNew Charles, AS 79817",
+        "Description": "Yard actually PM cultural red. Laugh world discussion partner rest choice attack need. Catch management mind city range.\nBreak tonight meeting peace. Enter government machine car."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 60473
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13755
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3236
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6829
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1779
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 118626,
+        "TotalApproved": 106744
+    },
+    "AdjusterDetails": {
+        "Name": "Allison Evans",
+        "ContactInformation": {
+            "Phone": "2919956957",
+            "Email": "jamesstephens@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ea07e805-fa5c-4e0e-b6b8-704f5434ed4f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-13T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-18T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-23T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

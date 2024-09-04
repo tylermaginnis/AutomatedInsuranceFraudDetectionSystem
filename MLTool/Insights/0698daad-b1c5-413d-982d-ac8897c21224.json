@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0698daad-b1c5-413d-982d-ac8897c21224",
+    "PolicyID": "8a93e4fe-743f-4c49-94e9-196070e1a7b4",
+    "EffectiveDates": {
+        "StartDate": "2023-12-16",
+        "EndDate": "2024-12-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c36f2d3f-ef9d-4503-8840-2509f4e82aee",
+        "Name": "Lisa Rogers",
+        "PolicyNumber": "8a93e4fe-743f-4c49-94e9-196070e1a7b4",
+        "ContactInformation": {
+            "Phone": "(541)993-8976",
+            "Email": "tiffanysteele@example.net",
+            "Address": "2221 Stephanie Skyway\nPateltown, WI 02580"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-24",
+        "Location": "302 Joshua Mews\nLake Amber, NC 64956",
+        "Description": "Else scientist goal establish. Budget establish turn occur unit by senior table. Realize address minute message true range miss sure. Around environmental government shoulder hundred."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9735
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10959
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 157583
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6790
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18557
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 21387,
+        "TotalApproved": 13052
+    },
+    "AdjusterDetails": {
+        "Name": "David Monroe",
+        "ContactInformation": {
+            "Phone": "6305185867",
+            "Email": "laura17@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/c82d3538-ec7d-4c36-8e4f-43bee4f4461b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-24T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-29T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-04T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

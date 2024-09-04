@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c0ada9d7-56d9-4858-aadf-5be6444f943d",
+    "PolicyID": "06600475-2a7d-46a9-a686-940f6f9f4e7a",
+    "EffectiveDates": {
+        "StartDate": "2023-09-25",
+        "EndDate": "2024-09-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "169046a7-20dd-4708-8d90-eaa48552a056",
+        "Name": "Mark Lin",
+        "PolicyNumber": "06600475-2a7d-46a9-a686-940f6f9f4e7a",
+        "ContactInformation": {
+            "Phone": "869.802.8442x546",
+            "Email": "ginajensen@example.org",
+            "Address": "4111 Dean Lock Suite 967\nLake Robertstad, NH 75741"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-27",
+        "Location": "1857 Heather Shoals Apt. 347\nPort Amandaside, CT 45947",
+        "Description": "Difficult simple worry decade.\nCertainly music today open present assume down. Receive since case base continue. Commercial part along try would leave fast."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 162397
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41928
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11418
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7850
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1340
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 125149,
+        "TotalApproved": 47366
+    },
+    "AdjusterDetails": {
+        "Name": "Lindsey Silva",
+        "ContactInformation": {
+            "Phone": "7412283118",
+            "Email": "carolyn41@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a2da73a9-41c4-4050-bc39-c5c140c800e1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-27T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-02T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-07T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

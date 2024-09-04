@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3b667fb0-7ff3-4ca5-bf25-16fdaf6dbb67",
+    "PolicyID": "bf3fd264-4c5f-4014-a2bc-078cf668110d",
+    "EffectiveDates": {
+        "StartDate": "2023-12-17",
+        "EndDate": "2024-12-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2a245380-c85e-4522-99f9-6f7d109b90e1",
+        "Name": "Vincent Williams",
+        "PolicyNumber": "bf3fd264-4c5f-4014-a2bc-078cf668110d",
+        "ContactInformation": {
+            "Phone": "+1-437-553-3364x78925",
+            "Email": "tbarrera@example.net",
+            "Address": "195 Hardy Spring Suite 046\nNew Dylan, NV 49255"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-11",
+        "Location": "419 Day Prairie Apt. 795\nYounghaven, TX 56508",
+        "Description": "Southern fish student realize. Shoulder item last thank surface couple. Stock stock cup. Court back second picture."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2918
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41562
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13164
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25452
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2624
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 185047,
+        "TotalApproved": 176404
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Smith",
+        "ContactInformation": {
+            "Phone": "553.629.5892x7508",
+            "Email": "samantha97@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0dc4d6bb-63d5-48eb-9138-b14c15cc4c5a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-11T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-16T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-21T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "611d3c50-3a91-4b9f-a5da-8d89d12952cf",
+    "PolicyID": "229c9962-13c6-4f40-b661-3ac64da4f6a1",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "512e37cd-3874-49d0-adbf-89d77fa3ae5d",
+        "Name": "Keith Cross",
+        "PolicyNumber": "229c9962-13c6-4f40-b661-3ac64da4f6a1",
+        "ContactInformation": {
+            "Phone": "(268)442-9479x45402",
+            "Email": "umeadows@example.org",
+            "Address": "6449 Leslie Ferry\nJamesborough, ME 00549"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-04",
+        "Location": "88101 Steven Pines Suite 048\nPort Bryce, ME 69963",
+        "Description": "Challenge imagine step father summer also president form. Lead suffer center professor almost. Old town away dark kid cultural."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3249
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1144
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8248
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5776
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5044
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 31365,
+        "TotalApproved": 21301
+    },
+    "AdjusterDetails": {
+        "Name": "Diamond Chan",
+        "ContactInformation": {
+            "Phone": "281-492-6043",
+            "Email": "gibsonamanda@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a65980ce-1fc3-44d9-98ee-9cdbfea74442"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-04T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-09T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-14T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0f1b8cec-9c74-4cf6-bc4f-8825c274e9a5",
+  "PolicyID": "259a3dde-e8c2-408f-8576-cd96f709da45",
+  "EffectiveDates": {
+    "StartDate": "2023-09-30",
+    "EndDate": "2024-09-29"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f25e5fca-9e52-4fcf-a83c-429a54edc5ce",
+    "Name": "William Kelly",
+    "PolicyNumber": "259a3dde-e8c2-408f-8576-cd96f709da45",
+    "ContactInformation": {
+      "Phone": "+1-487-613-1024x3795",
+      "Email": "vewing@example.net",
+      "Address": "900 Keith Harbors Apt. 164\nHarrisonmouth, ND 12347"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-25",
+    "Location": "403 Frye Green Apt. 697\nNew Robertview, ND 88773",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 53949
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 32666
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7618
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16193
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7339
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 117765,
+    "TotalApproved": 77917
+  },
+  "AdjusterDetails": {
+    "Name": "Stacy Lee",
+    "ContactInformation": {
+      "Phone": "001-834-429-1915x83300",
+      "Email": "monica94@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/82ef7af1-8af8-4ce8-9f2c-fdb34e2b94b7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-25T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-30T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-05T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

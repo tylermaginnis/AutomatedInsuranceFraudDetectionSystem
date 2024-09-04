@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b8115222-1a59-4b42-acaa-6abf0dbec45a",
+    "PolicyID": "13744d29-d276-4bd1-8b9e-1bea89019c7b",
+    "EffectiveDates": {
+        "StartDate": "2023-12-02",
+        "EndDate": "2024-12-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "43f4f2d9-299e-4f45-b03f-08fc3fbd12b7",
+        "Name": "Susan Lane",
+        "PolicyNumber": "13744d29-d276-4bd1-8b9e-1bea89019c7b",
+        "ContactInformation": {
+            "Phone": "(415)507-9032",
+            "Email": "banksgwendolyn@example.net",
+            "Address": "70383 Darrell Villages\nLake Heather, NE 08801"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-25",
+        "Location": "8854 Brown Station\nWest Ellen, KY 89030",
+        "Description": "Teach up oil yet interest matter. Live receive relationship more son."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11800
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15306
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2477
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7391
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 195828
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 4201,
+        "TotalApproved": 3644
+    },
+    "AdjusterDetails": {
+        "Name": "Blake Olson",
+        "ContactInformation": {
+            "Phone": "8276990114",
+            "Email": "jpena@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/991f912c-b090-4c41-b4ab-443cd1aef326"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-30T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-05T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

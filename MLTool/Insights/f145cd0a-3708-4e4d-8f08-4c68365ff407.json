@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f145cd0a-3708-4e4d-8f08-4c68365ff407",
+    "PolicyID": "54a354ac-d45d-4aec-a733-daa9f3b5329a",
+    "EffectiveDates": {
+        "StartDate": "2024-01-03",
+        "EndDate": "2025-01-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "45133daa-8057-4fde-8651-7ff74f113080",
+        "Name": "Melissa Davis",
+        "PolicyNumber": "54a354ac-d45d-4aec-a733-daa9f3b5329a",
+        "ContactInformation": {
+            "Phone": "9553510235",
+            "Email": "mbrock@example.net",
+            "Address": "4053 Sanchez Mountain Suite 873\nWest Timtown, MD 59156"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-13",
+        "Location": "0220 Nelson Grove\nLake Paul, AK 14629",
+        "Description": "Assume college sit. Black piece here return while reduce quite.\nDiscover bar maybe stage political huge. Building present treatment friend. Three model raise result civil fund final."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 184977
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13915
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8122
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47428
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18586
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 137759,
+        "TotalApproved": 127128
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Walton",
+        "ContactInformation": {
+            "Phone": "815-827-6965x01581",
+            "Email": "courtney31@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c2deb52f-a83b-45a6-b666-46678dcccad5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-13T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-18T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-23T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

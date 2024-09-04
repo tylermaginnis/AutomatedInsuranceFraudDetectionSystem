@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6e784e53-fa18-415a-b4a9-98563f467fc9",
+  "PolicyID": "bc9ae5ca-40c7-4428-a6ca-cd13cd9b8699",
+  "EffectiveDates": {
+    "StartDate": "2024-07-14",
+    "EndDate": "2025-07-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "06d0e0c6-ecc4-43b3-ad18-2cda7ed0a50d",
+    "Name": "Denise Hansen",
+    "PolicyNumber": "bc9ae5ca-40c7-4428-a6ca-cd13cd9b8699",
+    "ContactInformation": {
+      "Phone": "965-290-4193",
+      "Email": "dmorgan@example.com",
+      "Address": "75883 Kimberly Islands Suite 839\nAcostaborough, MO 64388"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-20",
+    "Location": "785 Peters Drives\nMontoyafort, WI 08607",
+    "Description": "Me newspaper mind piece. Night work mission late study. Above soldier option throughout."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 89641
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 33253
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 106518
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1811
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 122077
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 21942,
+    "TotalApproved": 15197
+  },
+  "AdjusterDetails": {
+    "Name": "Sarah Alvarez",
+    "ContactInformation": {
+      "Phone": "001-698-422-7980x48638",
+      "Email": "annagallagher@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/b35e7488-8b5b-435d-9c08-64ecd97c6bd3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-20T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-25T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-30T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

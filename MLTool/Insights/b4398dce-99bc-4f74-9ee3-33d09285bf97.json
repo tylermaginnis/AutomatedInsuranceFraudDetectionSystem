@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b4398dce-99bc-4f74-9ee3-33d09285bf97",
+    "PolicyID": "073b411b-15c7-46e0-92ba-fb496487e6bf",
+    "EffectiveDates": {
+        "StartDate": "2023-09-28",
+        "EndDate": "2024-09-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6eebdb30-0363-4461-8869-f40da0d2f909",
+        "Name": "Christina Williams",
+        "PolicyNumber": "073b411b-15c7-46e0-92ba-fb496487e6bf",
+        "ContactInformation": {
+            "Phone": "(261)693-7224",
+            "Email": "heather06@example.com",
+            "Address": "215 Lisa Knolls\nBrockfurt, FM 19558"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-08",
+        "Location": "34010 Beard Haven Suite 478\nPort John, NY 37491",
+        "Description": "Cultural glass movement keep home office left. Arrive class another science. Protect natural might nothing race officer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7979
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 72251
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 177556
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6124
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15962
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 70478,
+        "TotalApproved": 31876
+    },
+    "AdjusterDetails": {
+        "Name": "Eduardo Hess",
+        "ContactInformation": {
+            "Phone": "593.891.1534",
+            "Email": "megan56@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/13c40597-0a87-4016-8e08-e11f6305a5e4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "70744aca-f184-44ad-9307-76a6d71c0976",
+  "PolicyID": "b026cb25-650b-4959-a6ea-19e3707157ad",
+  "EffectiveDates": {
+    "StartDate": "2024-05-31",
+    "EndDate": "2025-05-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4c1f4e0f-a262-4c62-905d-faf97d85d1fe",
+    "Name": "Gail Smith",
+    "PolicyNumber": "b026cb25-650b-4959-a6ea-19e3707157ad",
+    "ContactInformation": {
+      "Phone": "(338)373-1921x6395",
+      "Email": "robinsonkristen@example.com",
+      "Address": "9520 Salas Harbor\nNew Robertburgh, MS 79689"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-04",
+    "Location": "3500 Tara Court\nCooperhaven, IN 36557",
+    "Description": "Number poor watch. Anyone human majority somebody. Four finally important about. Her phone board yard."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 60870
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2600
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8671
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6632
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6571
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 156823,
+    "TotalApproved": 8109
+  },
+  "AdjusterDetails": {
+    "Name": "Eric Olson",
+    "ContactInformation": {
+      "Phone": "+1-549-637-3866x9220",
+      "Email": "christopher48@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/e9e0492e-9c91-4c20-8fb2-63d30e182bde"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-04T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-09T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-14T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b2e5fd53-054b-46d0-9748-762629fc7350",
+    "PolicyID": "fd769974-84cc-4d7f-b38f-3e9e7c8caf7c",
+    "EffectiveDates": {
+        "StartDate": "2024-05-24",
+        "EndDate": "2025-05-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ba2ada5e-7bec-4c7f-a19c-b28a5fb11197",
+        "Name": "Shannon Ferguson",
+        "PolicyNumber": "fd769974-84cc-4d7f-b38f-3e9e7c8caf7c",
+        "ContactInformation": {
+            "Phone": "(918)519-7741",
+            "Email": "rcantrell@example.com",
+            "Address": "732 Johnson Lane\nLake Katherine, NE 39762"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-16",
+        "Location": "594 Anna Rapids\nAmandastad, WI 09022",
+        "Description": "Lay film suffer energy decide charge. Unit voice myself her.\nInteresting itself north care. Where sit spend beautiful. Each certain life ready."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5605
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 69421
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 180103
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 80436
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9237
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 140364,
+        "TotalApproved": 116672
+    },
+    "AdjusterDetails": {
+        "Name": "Gordon Best",
+        "ContactInformation": {
+            "Phone": "+1-838-332-1954x2391",
+            "Email": "portermaria@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3ab57419-3e72-47f4-a851-87eeaa4cc2e0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

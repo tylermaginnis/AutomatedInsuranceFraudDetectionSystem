@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c9e9ec69-38e8-4819-94e1-25f261ca1818",
+    "PolicyID": "e683f2ca-0442-46a5-aa73-e206e3ab7cd9",
+    "EffectiveDates": {
+        "StartDate": "2024-05-22",
+        "EndDate": "2025-05-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2959bea1-9356-46b7-af8b-a01854cf4031",
+        "Name": "Connor Cervantes",
+        "PolicyNumber": "e683f2ca-0442-46a5-aa73-e206e3ab7cd9",
+        "ContactInformation": {
+            "Phone": "222.665.8353",
+            "Email": "dalebarnes@example.com",
+            "Address": "541 Morgan Mount\nReidland, FL 25609"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-30",
+        "Location": "90721 Boyd Port Suite 707\nWest Williamhaven, MA 62948",
+        "Description": "Meeting material eye visit mind traditional thank. Hotel season set win since.\nBed there local cultural. Indicate rate board nature. South low beyond team world."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4363
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8333
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44789
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6816
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6507
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 156072,
+        "TotalApproved": 129916
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Hood",
+        "ContactInformation": {
+            "Phone": "884.421.0629x6897",
+            "Email": "michael70@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b3c6d5cd-47cf-4860-92d1-aa1428829b00"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-05T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-10T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "35c4dd14-eaad-4fd1-a205-e426f1c4f2c2",
+  "PolicyID": "d4090551-bd29-4c26-bdbc-7b6ff49eb0b8",
+  "EffectiveDates": {
+    "StartDate": "2024-05-21",
+    "EndDate": "2025-05-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "463ad0b5-025d-42aa-af21-dfee43678303",
+    "Name": "Kayla Shaw",
+    "PolicyNumber": "d4090551-bd29-4c26-bdbc-7b6ff49eb0b8",
+    "ContactInformation": {
+      "Phone": "001-476-458-1149x871",
+      "Email": "scottstacey@example.com",
+      "Address": "Unit 0710 Box 5241\nDPO AE 45913"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-01",
+    "Location": "573 Tara Forest Suite 129\nSouth Justin, MT 36939",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 57141
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 20220
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8608
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 25742
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 10116
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 121827,
+    "TotalApproved": 12531
+  },
+  "AdjusterDetails": {
+    "Name": "Stephanie Hill",
+    "ContactInformation": {
+      "Phone": "(233)958-1014",
+      "Email": "itownsend@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/55f1d898-dc67-4470-ac91-a121fc3a3d63"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-01T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-06T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-11T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

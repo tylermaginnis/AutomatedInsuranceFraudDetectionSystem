@@ -1,0 +1,81 @@
+{
+    "ClaimID": "578b9858-2d50-4589-a83d-b169b76c922e",
+    "PolicyID": "64b3fc29-16e5-4923-a5e2-e1be02b9ae84",
+    "EffectiveDates": {
+        "StartDate": "2024-08-16",
+        "EndDate": "2025-08-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "79dd5ccc-05f6-4579-a644-e331d36e0907",
+        "Name": "Richard Garrison",
+        "PolicyNumber": "64b3fc29-16e5-4923-a5e2-e1be02b9ae84",
+        "ContactInformation": {
+            "Phone": "409.451.8241",
+            "Email": "hernandezbrianna@example.com",
+            "Address": "8394 Anthony Crest Suite 188\nSouth Carmenburgh, PA 23019"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "559 Derek Fields Apt. 297\nDixonport, MA 51352",
+        "Description": "Hold course imagine gun bring interview local think. Show middle discuss share.\nMain low particular group happy fear per. Government great despite thing result study.\nLaugh keep third dog total."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14606
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17301
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 53949
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 131815
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6528
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 145329,
+        "TotalApproved": 6382
+    },
+    "AdjusterDetails": {
+        "Name": "Jim Coleman",
+        "ContactInformation": {
+            "Phone": "001-810-480-8053",
+            "Email": "adkinstimothy@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ba3fd363-93b8-4756-ad14-13ab17744da7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

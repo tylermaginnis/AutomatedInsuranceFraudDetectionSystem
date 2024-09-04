@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8fa8393c-4319-4f35-8571-62895ad3e32b",
+    "PolicyID": "a20c3202-7d05-46cf-b829-afb86272aace",
+    "EffectiveDates": {
+        "StartDate": "2024-04-28",
+        "EndDate": "2025-04-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71844aa3-a60f-40df-b2d8-c38afae4de98",
+        "Name": "Ashley Ford",
+        "PolicyNumber": "a20c3202-7d05-46cf-b829-afb86272aace",
+        "ContactInformation": {
+            "Phone": "283-959-9369",
+            "Email": "djones@example.com",
+            "Address": "481 Heather Throughway Apt. 220\nSmithland, ID 63281"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-31",
+        "Location": "891 Robert Common Suite 250\nNorth Melissa, IL 53720",
+        "Description": "Left record yes chance cultural general boy. About summer she yet garden require. Past ok six work shake situation poor though.\nClearly receive good bag state mention."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 115846
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23032
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 83769
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15595
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13945
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 38942,
+        "TotalApproved": 25216
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Salazar",
+        "ContactInformation": {
+            "Phone": "283-378-3496x6272",
+            "Email": "cartercarrie@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c52c2564-d31e-49f0-927a-d5d8609852ae"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-31T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-05T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-10T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

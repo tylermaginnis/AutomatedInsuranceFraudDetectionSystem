@@ -1,0 +1,81 @@
+{
+    "ClaimID": "99085f16-d71f-44d9-a87a-742d4bd11aaa",
+    "PolicyID": "e4303b31-8f05-42c3-9383-342e1299e122",
+    "EffectiveDates": {
+        "StartDate": "2024-02-25",
+        "EndDate": "2025-02-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d5247985-c00a-4f5a-983d-73412cabefa3",
+        "Name": "Phillip Benson",
+        "PolicyNumber": "e4303b31-8f05-42c3-9383-342e1299e122",
+        "ContactInformation": {
+            "Phone": "7899942680",
+            "Email": "murphyjames@example.net",
+            "Address": "9605 Goodman Meadow Apt. 514\nArmstrongside, PW 96908"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-26",
+        "Location": "934 Robert Road Suite 388\nBernardhaven, OR 19426",
+        "Description": "Fish about fact explain great.\nNew buy onto a. Describe fine wear record later heavy.\nSpeak instead Democrat could. Head among grow. To even investment my deep since all."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 74034
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14210
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 78439
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8438
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 143893
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 76854,
+        "TotalApproved": 45236
+    },
+    "AdjusterDetails": {
+        "Name": "Madison Bell",
+        "ContactInformation": {
+            "Phone": "(409)404-6889x907",
+            "Email": "dbaker@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/bc9e0590-d5a0-481f-876e-2bff0ee3b307"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7eb8657d-6ec6-4a00-912a-eca430aa5071",
+    "PolicyID": "d1f18295-1778-4d9c-8021-d726972e74ea",
+    "EffectiveDates": {
+        "StartDate": "2023-10-13",
+        "EndDate": "2024-10-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "296a9db0-06ef-44c4-98ef-8250f523b491",
+        "Name": "Gerald Wilcox",
+        "PolicyNumber": "d1f18295-1778-4d9c-8021-d726972e74ea",
+        "ContactInformation": {
+            "Phone": "502.359.7170",
+            "Email": "leeveronica@example.net",
+            "Address": "244 Kevin Crescent Apt. 485\nEast Julianmouth, DE 97760"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-30",
+        "Location": "68936 Johnson Squares Suite 394\nNorth Claudiafort, DE 19958",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 71157
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49994
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7145
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26829
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18937
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 174062,
+        "TotalApproved": 7413
+    },
+    "AdjusterDetails": {
+        "Name": "Jenny Edwards",
+        "ContactInformation": {
+            "Phone": "(530)997-6316x7527",
+            "Email": "ramosgregory@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ad83891a-848b-4e08-8612-f070700e24b5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

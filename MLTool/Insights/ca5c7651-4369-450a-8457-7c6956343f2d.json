@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca5c7651-4369-450a-8457-7c6956343f2d",
+    "PolicyID": "8e4c734c-c494-47ba-81ae-191bbb34af60",
+    "EffectiveDates": {
+        "StartDate": "2024-08-14",
+        "EndDate": "2025-08-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9e7d8763-cf1a-4d80-9556-8ddf60544b01",
+        "Name": "Samuel Anderson",
+        "PolicyNumber": "8e4c734c-c494-47ba-81ae-191bbb34af60",
+        "ContactInformation": {
+            "Phone": "(754)954-5181",
+            "Email": "briannamitchell@example.com",
+            "Address": "0990 Cheryl Spring\nNorth Dawntown, LA 00748"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-15",
+        "Location": "1180 Brooks Path\nNew Jeremyland, PA 94993",
+        "Description": "City name kind might.\nProvide paper something office too. Reason whose pressure main billion watch."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47301
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 72383
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6702
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15832
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13791
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 123485,
+        "TotalApproved": 78249
+    },
+    "AdjusterDetails": {
+        "Name": "Crystal Wallace",
+        "ContactInformation": {
+            "Phone": "+1-418-808-8516x353",
+            "Email": "joconnor@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/11be2017-476e-46c3-848b-3bc1876e4dce"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

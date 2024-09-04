@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b9363e1f-c43c-4791-90b3-897a5ef7d84f",
+    "PolicyID": "bff265ad-c286-4964-a2b0-1be004363dfc",
+    "EffectiveDates": {
+        "StartDate": "2023-11-02",
+        "EndDate": "2024-11-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f37330e1-77e0-4119-ac87-7e70b46b0ea1",
+        "Name": "Victoria Walker",
+        "PolicyNumber": "bff265ad-c286-4964-a2b0-1be004363dfc",
+        "ContactInformation": {
+            "Phone": "812.673.2733",
+            "Email": "gileswesley@example.net",
+            "Address": "5352 Laura Mills Suite 847\nKristenberg, NY 25711"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-03",
+        "Location": "001 Peter Spring\nAdammouth, VA 12734",
+        "Description": "Another rock learn choice lot. Media among pick bar.\nTheir century state chair. Maybe sound today. Moment pull piece together away."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 196527
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 139709
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27590
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 56991
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37261
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 137247,
+        "TotalApproved": 118712
+    },
+    "AdjusterDetails": {
+        "Name": "Michelle Vargas",
+        "ContactInformation": {
+            "Phone": "(346)505-7180",
+            "Email": "bryanaustin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/982a80c4-5ac7-4797-89ab-2085362a42a6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

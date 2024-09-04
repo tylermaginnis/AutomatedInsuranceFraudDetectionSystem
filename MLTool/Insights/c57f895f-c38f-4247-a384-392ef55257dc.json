@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c57f895f-c38f-4247-a384-392ef55257dc",
+    "PolicyID": "655e04bc-7f9a-4e31-8878-e5d154d2affc",
+    "EffectiveDates": {
+        "StartDate": "2024-06-13",
+        "EndDate": "2025-06-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "38080489-1e8e-4fbe-8c8f-919f9e62e626",
+        "Name": "Cynthia Andrews",
+        "PolicyNumber": "655e04bc-7f9a-4e31-8878-e5d154d2affc",
+        "ContactInformation": {
+            "Phone": "9119758451",
+            "Email": "nperez@example.org",
+            "Address": "6325 Smith Trace\nGomezstad, AK 11592"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-09",
+        "Location": "06803 Robert Corners\nLake Richardborough, KY 55804",
+        "Description": "Long big control allow shake. Notice computer story carry type yes special.\nTurn understand choose work challenge. Want time street business."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 80536
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3569
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13841
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 124981
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10168
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 72502,
+        "TotalApproved": 32587
+    },
+    "AdjusterDetails": {
+        "Name": "Chad Lopez",
+        "ContactInformation": {
+            "Phone": "+1-344-736-0414x88271",
+            "Email": "jacquelinelynch@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5dc7fdfa-83bb-4bc8-a7ee-6f85add0a9a0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-09T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-14T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-19T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

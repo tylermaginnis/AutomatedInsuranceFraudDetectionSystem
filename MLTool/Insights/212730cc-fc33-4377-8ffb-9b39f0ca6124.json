@@ -1,0 +1,81 @@
+{
+    "ClaimID": "212730cc-fc33-4377-8ffb-9b39f0ca6124",
+    "PolicyID": "c8f2de6b-16e5-4d07-aa85-a11ca83b593f",
+    "EffectiveDates": {
+        "StartDate": "2024-02-12",
+        "EndDate": "2025-02-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "406bc365-0203-47b7-a23b-cf2bd43cfab4",
+        "Name": "John Taylor",
+        "PolicyNumber": "c8f2de6b-16e5-4d07-aa85-a11ca83b593f",
+        "ContactInformation": {
+            "Phone": "961.455.8007x676",
+            "Email": "susanjones@example.com",
+            "Address": "21620 Conrad Walk Suite 221\nMeganport, MS 26602"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "2839 Thornton Trafficway Suite 228\nEast Pamelaton, TX 24270",
+        "Description": "Door effort assume direction fact. Bag kid success.\nWell ago from discussion. Machine exist structure from. Friend approach young some PM expert item."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5871
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2016
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26998
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6308
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 58326
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 128323,
+        "TotalApproved": 58330
+    },
+    "AdjusterDetails": {
+        "Name": "Cody Franklin",
+        "ContactInformation": {
+            "Phone": "001-771-960-5285",
+            "Email": "jonathanwheeler@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e26f6437-6c95-47ac-9d2b-08277f4a0ca4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

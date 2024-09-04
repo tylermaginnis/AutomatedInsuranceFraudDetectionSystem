@@ -1,0 +1,81 @@
+{
+    "ClaimID": "816c31ab-9c83-47f1-a1da-8cb8687fe68f",
+    "PolicyID": "bb25cb58-6498-4d5e-8a1e-aeafdf01f109",
+    "EffectiveDates": {
+        "StartDate": "2024-01-03",
+        "EndDate": "2025-01-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f839095d-84ba-4354-82c9-ab76bc9c953a",
+        "Name": "Brenda Swanson",
+        "PolicyNumber": "bb25cb58-6498-4d5e-8a1e-aeafdf01f109",
+        "ContactInformation": {
+            "Phone": "001-856-669-5096",
+            "Email": "dsalas@example.net",
+            "Address": "USCGC Mcconnell\nFPO AA 36643"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-31",
+        "Location": "Unit 9169 Box 6938\nDPO AE 03309",
+        "Description": "Own capital enter usually operation. Physical couple describe other ten guess participant. Their drop technology management.\nInteresting executive college ability."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6640
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4773
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8996
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3036
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8715
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 81669,
+        "TotalApproved": 74531
+    },
+    "AdjusterDetails": {
+        "Name": "Andrea Ramirez",
+        "ContactInformation": {
+            "Phone": "9377021820",
+            "Email": "rachelfletcher@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8f4b9cb8-7e78-467a-8b07-66c784c8bfa8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-31T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

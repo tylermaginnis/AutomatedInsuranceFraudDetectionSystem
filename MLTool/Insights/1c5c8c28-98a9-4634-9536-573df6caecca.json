@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1c5c8c28-98a9-4634-9536-573df6caecca",
+    "PolicyID": "8095283b-0664-469a-8f7e-f517dec650a7",
+    "EffectiveDates": {
+        "StartDate": "2024-06-11",
+        "EndDate": "2025-06-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "be5909ab-775e-49f5-9bf6-4d1f5e75c556",
+        "Name": "Jacob Ritter",
+        "PolicyNumber": "8095283b-0664-469a-8f7e-f517dec650a7",
+        "ContactInformation": {
+            "Phone": "+1-679-679-9476x472",
+            "Email": "osborneemma@example.org",
+            "Address": "944 Crystal Freeway\nEast Michael, KS 28879"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-20",
+        "Location": "Unit 4321 Box 1836\nDPO AE 27881",
+        "Description": "Simply administration decision sister ask record. Push large table old able different. Less should anyone. Natural the Mrs for nation above."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 62956
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5763
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49636
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9885
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44234
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 50655,
+        "TotalApproved": 36871
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Kemp",
+        "ContactInformation": {
+            "Phone": "+1-525-832-2605x406",
+            "Email": "julia95@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6487545a-36e2-4cbb-ba6f-38810f8eb6f8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

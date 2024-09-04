@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9f1fc5b0-260d-403b-8c76-0a94ba5bc343",
+    "PolicyID": "8ee7862d-dfe3-4733-8e56-53ef04f616fa",
+    "EffectiveDates": {
+        "StartDate": "2024-02-28",
+        "EndDate": "2025-02-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "60b3c6f5-904f-4738-8d1a-273edb7bc83c",
+        "Name": "Chris Woodard",
+        "PolicyNumber": "8ee7862d-dfe3-4733-8e56-53ef04f616fa",
+        "ContactInformation": {
+            "Phone": "(540)577-0431x1672",
+            "Email": "lvasquez@example.org",
+            "Address": "5271 Jesse Pine\nHeatherberg, DC 03751"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-03",
+        "Location": "6427 Lewis Dale\nNorth Breanna, FM 96149",
+        "Description": "For though model same although beyond.\nPlan his body candidate. Notice wonder I store probably. Month improve something campaign color religious."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 80811
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 169504
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3530
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 184144
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4012
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 198720,
+        "TotalApproved": 75374
+    },
+    "AdjusterDetails": {
+        "Name": "Craig Cochran",
+        "ContactInformation": {
+            "Phone": "420-724-3150x597",
+            "Email": "vjordan@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/a2b2ab85-d19b-42e4-8ecd-99a815abe854"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-03T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-08T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-13T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

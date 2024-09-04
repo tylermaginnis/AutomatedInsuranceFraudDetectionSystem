@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c00f7d35-ed1b-44b8-8a4f-004d0089a3c9",
+    "PolicyID": "77999d15-a232-4cdd-9e27-c4321586eadd",
+    "EffectiveDates": {
+        "StartDate": "2024-08-29",
+        "EndDate": "2025-08-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5d16bf2-2335-41dd-86b5-77857967a08c",
+        "Name": "Nathan French",
+        "PolicyNumber": "77999d15-a232-4cdd-9e27-c4321586eadd",
+        "ContactInformation": {
+            "Phone": "7466587815",
+            "Email": "kim28@example.net",
+            "Address": "90417 Mcdaniel Locks\nMaldonadotown, NJ 86399"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-06",
+        "Location": "2884 Crawford Well\nDanafort, AR 30392",
+        "Description": "Rise technology reflect establish. Receive information special.\nReturn standard head way hour miss fall. My stay some turn begin. Each after big heavy conference thousand."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7912
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 194967
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6071
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 140656
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9440
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 85848,
+        "TotalApproved": 7179
+    },
+    "AdjusterDetails": {
+        "Name": "Brittany Cohen",
+        "ContactInformation": {
+            "Phone": "789-436-8430x07283",
+            "Email": "bmarquez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0af5d8fd-dd4f-44a2-b805-adf37b03331e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-06T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-11T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-16T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

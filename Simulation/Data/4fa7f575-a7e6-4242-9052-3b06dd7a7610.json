@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4fa7f575-a7e6-4242-9052-3b06dd7a7610",
+  "PolicyID": "d4090551-bd29-4c26-bdbc-7b6ff49eb0b8",
+  "EffectiveDates": {
+    "StartDate": "2023-12-11",
+    "EndDate": "2024-12-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "463ad0b5-025d-42aa-af21-dfee43678303",
+    "Name": "Kayla Shaw",
+    "PolicyNumber": "d4090551-bd29-4c26-bdbc-7b6ff49eb0b8",
+    "ContactInformation": {
+      "Phone": "001-476-458-1149x871",
+      "Email": "scottstacey@example.com",
+      "Address": "Unit 0710 Box 5241\nDPO AE 45913"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-16",
+    "Location": "927 Smith Course Apt. 268\nSouth Adrianburgh, WV 95160",
+    "Description": "Month truth behavior while heavy study. Level measure network focus visit. Base action garden list wide."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5493
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 14296
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 39414
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 153176
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 24663
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 10951,
+    "TotalApproved": 9543
+  },
+  "AdjusterDetails": {
+    "Name": "Darrell Henderson",
+    "ContactInformation": {
+      "Phone": "3043105850",
+      "Email": "gwagner@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/c00aa685-9e5c-4f6e-808a-6a49c0fd36b7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-16T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-21T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-26T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3e02c5d7-6d8d-4009-aba0-3cc529b60b2a",
+  "PolicyID": "c639b87d-e094-467f-ac89-bcd75824343e",
+  "EffectiveDates": {
+    "StartDate": "2023-11-16",
+    "EndDate": "2024-11-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f2e6354f-3b9b-4e52-bcb4-0be7e32cad3b",
+    "Name": "Scott Allen",
+    "PolicyNumber": "c639b87d-e094-467f-ac89-bcd75824343e",
+    "ContactInformation": {
+      "Phone": "305.575.2404x0519",
+      "Email": "darmstrong@example.net",
+      "Address": "77574 Scott Via\nLake Stephanie, NJ 60752"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-18",
+    "Location": "580 Brown Parkway Apt. 059\nJenkinsbury, GA 25296",
+    "Description": "Decade pay region yet tree whom.\nVery poor that. Medical service stay be break international bar.\nShould book deal skin recognize cause light wrong."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3647
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 47145
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 25445
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1844
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 195659
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 11133,
+    "TotalApproved": 3309
+  },
+  "AdjusterDetails": {
+    "Name": "Jorge Nichols",
+    "ContactInformation": {
+      "Phone": "(642)478-1573",
+      "Email": "xavierjennings@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/f4edd773-e20d-4cc9-a2c1-ba263bdc11b7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-18T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-23T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-28T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

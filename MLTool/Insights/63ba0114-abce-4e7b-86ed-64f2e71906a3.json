@@ -1,0 +1,81 @@
+{
+    "ClaimID": "63ba0114-abce-4e7b-86ed-64f2e71906a3",
+    "PolicyID": "c774b6d5-fec5-43bb-8c60-1728b7d4b8a2",
+    "EffectiveDates": {
+        "StartDate": "2024-03-09",
+        "EndDate": "2025-03-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7bf5ed46-2e93-46df-85d0-bca4130086b3",
+        "Name": "Mrs. Sandra Park DDS",
+        "PolicyNumber": "c774b6d5-fec5-43bb-8c60-1728b7d4b8a2",
+        "ContactInformation": {
+            "Phone": "4608144835",
+            "Email": "michael72@example.org",
+            "Address": "5046 Frederick Harbors Apt. 101\nHansenstad, NM 64786"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-05",
+        "Location": "9217 Smith Grove Apt. 302\nWest Gabrielle, SC 51608",
+        "Description": "Politics memory personal town. Tell word still force believe. Large film country age country history.\nThat move view car."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5701
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21573
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16891
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2010
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18483
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 196534,
+        "TotalApproved": 55265
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Ortiz",
+        "ContactInformation": {
+            "Phone": "851-519-8581x56306",
+            "Email": "browningjared@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ba7844eb-ee3a-489c-b1fa-163f7b09981c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

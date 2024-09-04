@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0412aa5b-5bc6-4556-88d6-d59aeaf6ecc3",
+  "PolicyID": "b71062ff-09ea-4e69-9f07-4c3636e98522",
+  "EffectiveDates": {
+    "StartDate": "2024-05-27",
+    "EndDate": "2025-05-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "60c1b486-ca61-440e-8577-0b133027a3b6",
+    "Name": "Alison Garrett",
+    "PolicyNumber": "b71062ff-09ea-4e69-9f07-4c3636e98522",
+    "ContactInformation": {
+      "Phone": "6376017253",
+      "Email": "anthony23@example.com",
+      "Address": "64112 Aaron Junctions Apt. 428\nJenniferside, OK 83658"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-15",
+    "Location": "4983 Justin Squares\nMelvinshire, IN 44291",
+    "Description": "Enough it total when. Everything history your should as understand. Anything tend agency thousand next answer."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16064
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 93139
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4592
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8104
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2720
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 47485,
+    "TotalApproved": 28554
+  },
+  "AdjusterDetails": {
+    "Name": "Wendy Lewis",
+    "ContactInformation": {
+      "Phone": "+1-820-514-5593x318",
+      "Email": "molinasarah@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/90584c5d-deb6-421e-8f8b-59cfc388167d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-15T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-20T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-25T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

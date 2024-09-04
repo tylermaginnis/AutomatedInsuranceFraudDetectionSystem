@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c0c826ff-dd77-475d-aba1-1fa1f9b38bdb",
+    "PolicyID": "c4a54b09-8d3f-4e5c-9dec-63e2b102aaf5",
+    "EffectiveDates": {
+        "StartDate": "2023-11-25",
+        "EndDate": "2024-11-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8699dd44-ba82-482e-9e59-3d0f46410df0",
+        "Name": "Monique Smith",
+        "PolicyNumber": "c4a54b09-8d3f-4e5c-9dec-63e2b102aaf5",
+        "ContactInformation": {
+            "Phone": "(982)477-0334x053",
+            "Email": "thomashess@example.net",
+            "Address": "7146 Rojas Hollow\nKristinport, MI 97552"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-03",
+        "Location": "598 Vega Freeway\nWest Rebeccashire, VA 14094",
+        "Description": "Enough thought fire rock occur.\nTend mouth measure company program new. Yes time family life. Thus everyone moment subject model series."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12635
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5698
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31228
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10321
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28528
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 126309,
+        "TotalApproved": 52869
+    },
+    "AdjusterDetails": {
+        "Name": "Julie Moore",
+        "ContactInformation": {
+            "Phone": "823.424.1645x4409",
+            "Email": "james39@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/17397b3c-3b34-4fd0-8285-d221dc54e798"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

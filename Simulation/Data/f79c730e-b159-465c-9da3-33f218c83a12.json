@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f79c730e-b159-465c-9da3-33f218c83a12",
+  "PolicyID": "8d6dd93b-42df-4cf8-bf93-945ee1f7a8df",
+  "EffectiveDates": {
+    "StartDate": "2024-05-08",
+    "EndDate": "2025-05-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "c16903b1-08f1-4d93-a4f5-3444e1b42c92",
+    "Name": "Brandy Nelson",
+    "PolicyNumber": "8d6dd93b-42df-4cf8-bf93-945ee1f7a8df",
+    "ContactInformation": {
+      "Phone": "+1-332-714-7980x6638",
+      "Email": "lauren28@example.com",
+      "Address": "USNV Alexander\nFPO AE 05768"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-15",
+    "Location": "Unit 0654 Box 9400\nDPO AE 28702",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 68472
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 46531
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7852
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 15721
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 18285
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 156861,
+    "TotalApproved": 99664
+  },
+  "AdjusterDetails": {
+    "Name": "Nicole Howe",
+    "ContactInformation": {
+      "Phone": "(263)302-4503",
+      "Email": "thompsonshannon@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/150770b1-ec07-4562-b11e-f304be0df27a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-15T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-20T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-25T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

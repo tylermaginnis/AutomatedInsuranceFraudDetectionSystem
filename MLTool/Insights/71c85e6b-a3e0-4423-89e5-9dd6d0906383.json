@@ -1,0 +1,81 @@
+{
+    "ClaimID": "71c85e6b-a3e0-4423-89e5-9dd6d0906383",
+    "PolicyID": "0ce35ce7-3e88-4091-94d4-e92bb8aca670",
+    "EffectiveDates": {
+        "StartDate": "2023-12-02",
+        "EndDate": "2024-12-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "77a4c171-4d98-4504-abd1-6638930cb17e",
+        "Name": "Kevin Johns",
+        "PolicyNumber": "0ce35ce7-3e88-4091-94d4-e92bb8aca670",
+        "ContactInformation": {
+            "Phone": "+1-311-425-2832x503",
+            "Email": "vargasbrittany@example.org",
+            "Address": "562 Cooper Mount Apt. 509\nLewisbury, DC 74380"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-31",
+        "Location": "74436 Perez Points\nSouth Michaelstad, WI 59547",
+        "Description": "Tonight talk activity pick about eat machine. Off by read final whose.\nReflect cold director design mention knowledge quite. Water measure truth prove must growth."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11054
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8028
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 100922
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 157935
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5985
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 93476,
+        "TotalApproved": 8560
+    },
+    "AdjusterDetails": {
+        "Name": "Tiffany Davis",
+        "ContactInformation": {
+            "Phone": "795.422.1409",
+            "Email": "laura42@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/9aed9bf6-2d0a-4def-9a45-0b007a70debd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-31T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-05T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-10T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

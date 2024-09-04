@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a3d91884-334f-4d70-90ff-80f017033253",
+    "PolicyID": "29769228-42b4-4f89-b629-4c7f6c63a621",
+    "EffectiveDates": {
+        "StartDate": "2024-05-03",
+        "EndDate": "2025-05-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a84978b7-d4d5-4e89-96c2-1bfb7238d31b",
+        "Name": "Kevin Kline",
+        "PolicyNumber": "29769228-42b4-4f89-b629-4c7f6c63a621",
+        "ContactInformation": {
+            "Phone": "(263)358-5071",
+            "Email": "davismichael@example.net",
+            "Address": "2289 Miranda Brooks\nKellymouth, IN 98016"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-28",
+        "Location": "460 Derrick Trail Suite 944\nNew Stanleyport, ND 24142",
+        "Description": "Fight raise magazine week table man. By will together eight fly public. Well identify day again just support."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28552
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39812
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 36286
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9148
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47474
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 196829,
+        "TotalApproved": 5861
+    },
+    "AdjusterDetails": {
+        "Name": "Sharon Nunez",
+        "ContactInformation": {
+            "Phone": "(277)594-8575x4398",
+            "Email": "hansontodd@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1cb02283-0fd9-43d5-8abe-a342683d4be5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-28T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-02T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-07T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

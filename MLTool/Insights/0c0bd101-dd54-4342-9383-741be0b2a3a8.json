@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0c0bd101-dd54-4342-9383-741be0b2a3a8",
+    "PolicyID": "8e4c734c-c494-47ba-81ae-191bbb34af60",
+    "EffectiveDates": {
+        "StartDate": "2024-01-10",
+        "EndDate": "2025-01-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9e7d8763-cf1a-4d80-9556-8ddf60544b01",
+        "Name": "Samuel Anderson",
+        "PolicyNumber": "8e4c734c-c494-47ba-81ae-191bbb34af60",
+        "ContactInformation": {
+            "Phone": "(754)954-5181",
+            "Email": "briannamitchell@example.com",
+            "Address": "0990 Cheryl Spring\nNorth Dawntown, LA 00748"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-06",
+        "Location": "956 Amanda Haven\nNew Mariahaven, HI 23304",
+        "Description": "Somebody people local. Cover plan design officer scientist method born role."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23317
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 71297
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82071
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22251
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10481
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 58218,
+        "TotalApproved": 46683
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Perez",
+        "ContactInformation": {
+            "Phone": "673.208.9263x25874",
+            "Email": "cglenn@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0a0ed940-9ad4-4355-baa9-0b50e6033312"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-06T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-11T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-16T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

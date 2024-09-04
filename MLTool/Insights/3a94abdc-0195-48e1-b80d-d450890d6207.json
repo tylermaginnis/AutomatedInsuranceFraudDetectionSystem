@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3a94abdc-0195-48e1-b80d-d450890d6207",
+    "PolicyID": "4cf1170b-713c-49b1-bfd8-827eec7e0a59",
+    "EffectiveDates": {
+        "StartDate": "2023-11-30",
+        "EndDate": "2024-11-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "795f4538-a844-412f-8350-ea0c113ea4e9",
+        "Name": "Daniel Shepherd",
+        "PolicyNumber": "4cf1170b-713c-49b1-bfd8-827eec7e0a59",
+        "ContactInformation": {
+            "Phone": "498.563.4816x60496",
+            "Email": "vegaann@example.com",
+            "Address": "4805 Patrick Cliffs Apt. 939\nDouglasfort, NY 34209"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-21",
+        "Location": "8981 Kimberly Well\nNorth Jeremy, HI 43397",
+        "Description": "Its care hear step control play. Stuff start again several dark during carry son. Dark involve voice catch trouble."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9537
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 31948
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3000
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 45625
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7114
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 51300,
+        "TotalApproved": 11735
+    },
+    "AdjusterDetails": {
+        "Name": "Valerie Francis",
+        "ContactInformation": {
+            "Phone": "556.463.5137",
+            "Email": "jacobsonjulia@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/da50237a-b311-4d17-955e-6c9bcaa6d491"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-31T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cb37ca76-b853-4a4b-b398-1e2d9dae4f60",
+    "PolicyID": "60331445-f302-4ca4-acd9-c5cec0e2fcfa",
+    "EffectiveDates": {
+        "StartDate": "2023-12-23",
+        "EndDate": "2024-12-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "699bbeef-f6e4-4b54-af30-d54523478171",
+        "Name": "Kevin Jones",
+        "PolicyNumber": "60331445-f302-4ca4-acd9-c5cec0e2fcfa",
+        "ContactInformation": {
+            "Phone": "001-731-540-3899x70338",
+            "Email": "austin77@example.com",
+            "Address": "975 Nelson Islands\nJosephside, UT 25929"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-25",
+        "Location": "85313 Wood Rest\nHendersonmouth, WV 80170",
+        "Description": "Around thus represent break may ok.\nBuy fact letter peace land soldier. Bag ability especially enter run eat require south."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 69715
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11310
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1551
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12529
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 96394
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 59091,
+        "TotalApproved": 14925
+    },
+    "AdjusterDetails": {
+        "Name": "David Horton",
+        "ContactInformation": {
+            "Phone": "997-600-3303",
+            "Email": "vegamichelle@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/86d6b638-1c1b-4a3f-9aa2-e6976e5e0302"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-30T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

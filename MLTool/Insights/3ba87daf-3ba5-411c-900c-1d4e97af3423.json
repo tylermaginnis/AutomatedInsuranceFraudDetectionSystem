@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3ba87daf-3ba5-411c-900c-1d4e97af3423",
+    "PolicyID": "9a51b4b5-5136-4c9b-a951-ae2e1c0858d2",
+    "EffectiveDates": {
+        "StartDate": "2023-09-06",
+        "EndDate": "2024-09-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6bccde4a-b77d-4f28-979c-774adab9208e",
+        "Name": "Mary Joseph",
+        "PolicyNumber": "9a51b4b5-5136-4c9b-a951-ae2e1c0858d2",
+        "ContactInformation": {
+            "Phone": "+1-951-867-7332x344",
+            "Email": "albertramos@example.com",
+            "Address": "31690 Gordon Route Suite 473\nPort Brian, ND 27558"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-09-20",
+        "Location": "377 James Park Apt. 413\nPort Richardborough, NC 17954",
+        "Description": "Minute sometimes bring free remain skill any. Set Mrs level operation team about American natural. Then because charge back management."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31909
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6339
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1311
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17425
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33006
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 194359,
+        "TotalApproved": 27381
+    },
+    "AdjusterDetails": {
+        "Name": "Brittney Fernandez",
+        "ContactInformation": {
+            "Phone": "+1-340-299-2637x81572",
+            "Email": "ashleybond@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/325d8363-a85b-4a94-af3a-56e9da83d512"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-09-20T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-09-25T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-09-30T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

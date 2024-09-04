@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7c9e0fd3-e64f-44b9-a46e-8fcc96c2c102",
+    "PolicyID": "547a3d3a-a010-4d97-9b16-7502990f35df",
+    "EffectiveDates": {
+        "StartDate": "2024-04-08",
+        "EndDate": "2025-04-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "76fa0b0c-ee05-4f30-8880-e847b0a5c56d",
+        "Name": "Mary Walter",
+        "PolicyNumber": "547a3d3a-a010-4d97-9b16-7502990f35df",
+        "ContactInformation": {
+            "Phone": "3552610219",
+            "Email": "ovelasquez@example.com",
+            "Address": "710 Matthew Burg\nWheelerberg, IL 52848"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-08",
+        "Location": "087 Mary Trafficway\nTiffanyville, VA 37371",
+        "Description": "Medical kitchen form. Anything student future open indeed company."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8497
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12861
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7599
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6075
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8232
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 182094,
+        "TotalApproved": 44735
+    },
+    "AdjusterDetails": {
+        "Name": "Kathryn Gomez",
+        "ContactInformation": {
+            "Phone": "7189946086",
+            "Email": "codyhodges@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/383dea0f-12a1-4e52-81fb-b52667f5bffd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-08T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-13T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-18T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

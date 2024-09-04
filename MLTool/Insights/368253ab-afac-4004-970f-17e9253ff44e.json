@@ -1,0 +1,81 @@
+{
+    "ClaimID": "368253ab-afac-4004-970f-17e9253ff44e",
+    "PolicyID": "582dcaf0-b422-40e6-873e-588bc71bae8c",
+    "EffectiveDates": {
+        "StartDate": "2024-01-20",
+        "EndDate": "2025-01-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a874237b-72a6-4c65-9dd0-463f261d55dc",
+        "Name": "Dakota Nelson",
+        "PolicyNumber": "582dcaf0-b422-40e6-873e-588bc71bae8c",
+        "ContactInformation": {
+            "Phone": "001-580-519-9422",
+            "Email": "barryburnett@example.net",
+            "Address": "Unit 9758 Box 8731\nDPO AE 49981"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-27",
+        "Location": "774 Kyle Plains\nLewisland, WV 22397",
+        "Description": "West people tonight meeting trouble nature page. Could almost bank house must race.\nColor mouth surface with style alone. Store six bed."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7792
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 30528
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 135191
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 95976
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32136
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 155251,
+        "TotalApproved": 118855
+    },
+    "AdjusterDetails": {
+        "Name": "Ernest Donovan",
+        "ContactInformation": {
+            "Phone": "677.334.2594",
+            "Email": "jessica83@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c4f348de-51a0-4890-8a25-37f63705466c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-02T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-07T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

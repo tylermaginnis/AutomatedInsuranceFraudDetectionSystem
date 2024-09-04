@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f2a0d177-3ced-4f03-a375-f3141ef36979",
+    "PolicyID": "95046ca8-f035-499d-934c-0b9558a6da43",
+    "EffectiveDates": {
+        "StartDate": "2023-11-26",
+        "EndDate": "2024-11-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "da056d95-f355-4c42-a128-6d800c05b842",
+        "Name": "Shawn Davis",
+        "PolicyNumber": "95046ca8-f035-499d-934c-0b9558a6da43",
+        "ContactInformation": {
+            "Phone": "851.425.2263",
+            "Email": "lparker@example.net",
+            "Address": "151 Atkins Dam\nChelseaburgh, ND 77551"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-08",
+        "Location": "4848 Derrick Road\nLake Brianland, AR 77524",
+        "Description": "Sure wear painting Congress. Thing hit talk relationship art. Since actually doctor word end radio.\nMiss Republican nature loss agent identify."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4769
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 177661
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14828
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3529
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34084
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 50793,
+        "TotalApproved": 10473
+    },
+    "AdjusterDetails": {
+        "Name": "Ian Brown",
+        "ContactInformation": {
+            "Phone": "3139634312",
+            "Email": "morenocrystal@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1f612046-8e0b-473f-bb86-78ef6e3ca4b2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

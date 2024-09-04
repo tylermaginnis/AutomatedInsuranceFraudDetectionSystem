@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fa628785-b4e2-4ac1-be3b-672111d4ca44",
+    "PolicyID": "c639b87d-e094-467f-ac89-bcd75824343e",
+    "EffectiveDates": {
+        "StartDate": "2024-03-20",
+        "EndDate": "2025-03-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f2e6354f-3b9b-4e52-bcb4-0be7e32cad3b",
+        "Name": "Scott Allen",
+        "PolicyNumber": "c639b87d-e094-467f-ac89-bcd75824343e",
+        "ContactInformation": {
+            "Phone": "305.575.2404x0519",
+            "Email": "darmstrong@example.net",
+            "Address": "77574 Scott Via\nLake Stephanie, NJ 60752"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-05",
+        "Location": "167 Michael Falls\nTommyborough, WA 08430",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 62727
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47761
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6402
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19160
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8716
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144766,
+        "TotalApproved": 142593
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Lori Grant",
+        "ContactInformation": {
+            "Phone": "001-895-944-1666",
+            "Email": "annamcintosh@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/81e9067f-dc91-47ef-a511-323d50b5b38a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-05T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-10T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-15T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

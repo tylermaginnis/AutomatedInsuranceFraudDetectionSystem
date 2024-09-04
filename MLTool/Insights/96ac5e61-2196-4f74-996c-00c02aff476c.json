@@ -1,0 +1,81 @@
+{
+    "ClaimID": "96ac5e61-2196-4f74-996c-00c02aff476c",
+    "PolicyID": "a69e2d55-8161-4b9d-b408-4938ac6d48a5",
+    "EffectiveDates": {
+        "StartDate": "2024-07-14",
+        "EndDate": "2025-07-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d8a64bd6-c183-4dfc-a884-df78ee38a311",
+        "Name": "Sabrina Castillo",
+        "PolicyNumber": "a69e2d55-8161-4b9d-b408-4938ac6d48a5",
+        "ContactInformation": {
+            "Phone": "001-840-933-2208",
+            "Email": "wpetersen@example.com",
+            "Address": "921 Hill Grove Suite 260\nSouth Maria, NJ 83346"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-24",
+        "Location": "57727 Helen Stravenue Apt. 899\nNew Julia, VA 16920",
+        "Description": "Choose decide miss whose catch. Partner rather coach both spring expert throw. Manage maybe cover run rise author.\nEntire science beat. Wear no sound fine trouble."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8615
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5911
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23003
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9617
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8965
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 198672,
+        "TotalApproved": 71186
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Jones",
+        "ContactInformation": {
+            "Phone": "545-845-3292x0150",
+            "Email": "stephaniecardenas@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/696a4804-1eac-4dba-924e-223c8e545c3c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-24T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-29T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-03T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

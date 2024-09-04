@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f86c8aef-0727-4727-8aa6-97c7299ab32a",
+    "PolicyID": "2435dee6-1a30-4ab0-a918-8599ddfb1aa1",
+    "EffectiveDates": {
+        "StartDate": "2024-02-03",
+        "EndDate": "2025-02-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "82310223-3553-4efa-a6f3-1bfc9d63894e",
+        "Name": "Sara Dominguez",
+        "PolicyNumber": "2435dee6-1a30-4ab0-a918-8599ddfb1aa1",
+        "ContactInformation": {
+            "Phone": "+1-517-262-6339x588",
+            "Email": "sarah65@example.net",
+            "Address": "0634 Mendoza Station\nPort Cynthiamouth, NJ 23137"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-08",
+        "Location": "0686 Forbes Vista Suite 386\nJillianmouth, PR 72019",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 64508
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21134
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7892
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13018
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14394
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 120946,
+        "TotalApproved": 74296
+    },
+    "AdjusterDetails": {
+        "Name": "Roger Fields",
+        "ContactInformation": {
+            "Phone": "327.631.0189",
+            "Email": "john88@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/18975db1-65d9-48dd-b061-87ef1d9738e8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-08T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-13T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-18T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

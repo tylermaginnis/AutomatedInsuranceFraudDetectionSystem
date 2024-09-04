@@ -1,0 +1,81 @@
+{
+    "ClaimID": "96bb8ffa-3e09-4f98-a07a-4c4d5e3e5dc0",
+    "PolicyID": "aeee1232-8f8e-460e-9286-ddcbf2f886c0",
+    "EffectiveDates": {
+        "StartDate": "2024-02-27",
+        "EndDate": "2025-02-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1cb6b831-7657-446d-8ae9-1e374d391d25",
+        "Name": "Casey Bennett",
+        "PolicyNumber": "aeee1232-8f8e-460e-9286-ddcbf2f886c0",
+        "ContactInformation": {
+            "Phone": "809-753-4391x2477",
+            "Email": "combsivan@example.net",
+            "Address": "6933 Ryan Skyway\nPort Julieside, IN 14465"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-27",
+        "Location": "341 Schneider Ridge\nDanielview, ID 93126",
+        "Description": "Their experience safe base during. Mrs Republican station board.\nBook responsibility fine like out small station position. Debate floor increase process off."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17076
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19508
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14427
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19652
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 74627
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 178020,
+        "TotalApproved": 154870
+    },
+    "AdjusterDetails": {
+        "Name": "John Miller",
+        "ContactInformation": {
+            "Phone": "627-810-1093x510",
+            "Email": "sheila71@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/36c8883e-c85c-46bb-88cb-0176b4adcd79"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-27T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-01T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-06T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

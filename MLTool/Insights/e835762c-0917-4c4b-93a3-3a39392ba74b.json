@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e835762c-0917-4c4b-93a3-3a39392ba74b",
+    "PolicyID": "afe33f80-ed6b-4ffc-981d-fc46a03d51de",
+    "EffectiveDates": {
+        "StartDate": "2024-07-03",
+        "EndDate": "2025-07-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "455c5d86-e6e2-4e59-ad9b-69741ec55249",
+        "Name": "David Medina",
+        "PolicyNumber": "afe33f80-ed6b-4ffc-981d-fc46a03d51de",
+        "ContactInformation": {
+            "Phone": "351.801.7334",
+            "Email": "wbrooks@example.net",
+            "Address": "2089 Sarah Port\nEast Nicholefort, NJ 66701"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-18",
+        "Location": "7627 Turner Trail Suite 329\nBeckton, OK 35374",
+        "Description": "Take station president sing hospital. School night ok before. Check like series.\nTable case always tax daughter vote late another.\nLeave agent by. Owner play court about hot."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3474
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9018
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9339
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6949
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9717
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 145153,
+        "TotalApproved": 64418
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Jeffrey Faulkner",
+        "ContactInformation": {
+            "Phone": "572-312-7922",
+            "Email": "sedwards@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/931a0ea2-6542-4830-8265-bab6721aa7e8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-18T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-23T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-28T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

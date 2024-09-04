@@ -1,0 +1,81 @@
+{
+    "ClaimID": "28e78829-6576-43ee-98eb-fd7ec149aa6f",
+    "PolicyID": "fa7fa88a-31ea-4882-9e14-345bea239061",
+    "EffectiveDates": {
+        "StartDate": "2024-04-19",
+        "EndDate": "2025-04-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "00f68a86-df9f-4e6f-ae29-fe0b019df7e5",
+        "Name": "Jordan Moore",
+        "PolicyNumber": "fa7fa88a-31ea-4882-9e14-345bea239061",
+        "ContactInformation": {
+            "Phone": "(696)215-2748x8560",
+            "Email": "amycoleman@example.com",
+            "Address": "3815 Michael Ranch\nEast Andrewborough, MT 06888"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-15",
+        "Location": "22861 Moore Crescent Suite 621\nNorth Andrew, MI 53909",
+        "Description": "Not article rich standard religious walk. Prepare find seven organization since. Table could fire."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 143243
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25673
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 77682
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47885
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 164726
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 44317,
+        "TotalApproved": 4403
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Gomez",
+        "ContactInformation": {
+            "Phone": "722-424-1512x0113",
+            "Email": "denise24@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/88c5ed51-a44c-41de-bbda-0eb965152418"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-15T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-20T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-25T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

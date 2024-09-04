@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7140c388-edd3-4582-b4d3-3bd32e785248",
+    "PolicyID": "75656c0d-e06e-4fb2-9be9-e3b2f2238336",
+    "EffectiveDates": {
+        "StartDate": "2024-03-31",
+        "EndDate": "2025-03-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef1b16b0-f452-45e5-9ee1-fd4e19466a28",
+        "Name": "Paige Fitzgerald",
+        "PolicyNumber": "75656c0d-e06e-4fb2-9be9-e3b2f2238336",
+        "ContactInformation": {
+            "Phone": "673-499-6482x17606",
+            "Email": "ofisher@example.org",
+            "Address": "371 Cunningham Lane\nMasonport, FL 42076"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-26",
+        "Location": "924 Williams Burg Suite 053\nSchwartzville, OR 53222",
+        "Description": "Force try impact. Line house court consumer meeting garden.\nDirection these admit form small food until. Top expect hundred fall very door."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2882
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37664
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 136628
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9825
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9103
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 116881,
+        "TotalApproved": 82310
+    },
+    "AdjusterDetails": {
+        "Name": "Sherri Mosley",
+        "ContactInformation": {
+            "Phone": "9578300377",
+            "Email": "jennifershelton@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/bd3906f5-dd09-41c0-a32f-b011d31ca5ae"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-26T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-31T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-05T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

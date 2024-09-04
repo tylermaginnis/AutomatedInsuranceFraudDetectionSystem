@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f9879d49-6f77-4b32-b8ab-5eff4fd4e683",
+    "PolicyID": "e50144a4-737e-429c-bc76-dd7c526b10c8",
+    "EffectiveDates": {
+        "StartDate": "2023-12-10",
+        "EndDate": "2024-12-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "401df0e4-f8fc-4406-94cc-3d4a6663c43c",
+        "Name": "Christopher Jones",
+        "PolicyNumber": "e50144a4-737e-429c-bc76-dd7c526b10c8",
+        "ContactInformation": {
+            "Phone": "001-486-945-7573x5868",
+            "Email": "duarteamanda@example.org",
+            "Address": "561 Mccoy Island Suite 365\nNew David, NC 38470"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-14",
+        "Location": "0386 Mooney Islands\nLake Mariaview, IN 92507",
+        "Description": "Quite house series including. Community now research own should these attorney. Executive structure analysis investment here.\nSeek accept business himself hope cost coach."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3703
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30341
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6535
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 69572
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16605
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 29540,
+        "TotalApproved": 14022
+    },
+    "AdjusterDetails": {
+        "Name": "Seth Long",
+        "ContactInformation": {
+            "Phone": "5919526507",
+            "Email": "rogercraig@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/fd55e861-6a58-4429-9e11-801e47172848"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

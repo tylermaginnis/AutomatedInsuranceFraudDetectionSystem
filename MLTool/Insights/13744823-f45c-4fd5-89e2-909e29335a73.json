@@ -1,0 +1,81 @@
+{
+    "ClaimID": "13744823-f45c-4fd5-89e2-909e29335a73",
+    "PolicyID": "e9c8bd9d-d8bb-4411-8668-3a9ac1f7907a",
+    "EffectiveDates": {
+        "StartDate": "2024-08-01",
+        "EndDate": "2025-08-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6c239fa5-91c1-4ead-a13c-0d3c0e4bbc58",
+        "Name": "Mary Hicks",
+        "PolicyNumber": "e9c8bd9d-d8bb-4411-8668-3a9ac1f7907a",
+        "ContactInformation": {
+            "Phone": "+1-577-327-8595",
+            "Email": "christina91@example.org",
+            "Address": "29805 Cynthia Track\nNorth Jon, NJ 25433"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-14",
+        "Location": "8625 Grace Lodge Apt. 908\nRandolphshire, WA 53936",
+        "Description": "Why end present condition. Gun writer pattern person. Organization nation let find health. Stop tough open book himself sometimes pay chair.\nLittle family policy million past."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16723
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21699
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 55878
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 140203
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 80562
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 28198,
+        "TotalApproved": 27980
+    },
+    "AdjusterDetails": {
+        "Name": "Stephen Finley",
+        "ContactInformation": {
+            "Phone": "551.600.7296x2526",
+            "Email": "hturner@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6cd66700-8ad0-4b30-85c5-82f461b94eaa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-14T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-19T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-24T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

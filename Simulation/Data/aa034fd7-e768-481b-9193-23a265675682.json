@@ -1,0 +1,80 @@
+{
+  "ClaimID": "aa034fd7-e768-481b-9193-23a265675682",
+  "PolicyID": "6d86f26b-ad69-4dd7-8b47-38f3bd1b6ebc",
+  "EffectiveDates": {
+    "StartDate": "2024-03-26",
+    "EndDate": "2025-03-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a918698d-e264-4528-95ea-69f765c6d26d",
+    "Name": "James Henry",
+    "PolicyNumber": "6d86f26b-ad69-4dd7-8b47-38f3bd1b6ebc",
+    "ContactInformation": {
+      "Phone": "973.826.5498x758",
+      "Email": "debra63@example.com",
+      "Address": "165 Sharp Dam\nRonaldside, MA 94429"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-31",
+    "Location": "PSC 4601, Box 2256\nAPO AA 78396",
+    "Description": "Read represent dream Mr form another really. Treat already whom young factor that. Shake local keep artist quite every rate. Weight green we threat bed nothing."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 46393
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 45965
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 37464
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 16319
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 137059
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 113573,
+    "TotalApproved": 22564
+  },
+  "AdjusterDetails": {
+    "Name": "Luis Ruiz",
+    "ContactInformation": {
+      "Phone": "313-931-6928",
+      "Email": "evelyndoyle@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/812e2667-aba4-47f7-9120-9f2b29f9543f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-31T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-05T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-10T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5f255c5b-dcee-4787-979e-7585c752dbec",
+    "PolicyID": "f3832e3d-ab43-43f5-8a5e-1546641b01f9",
+    "EffectiveDates": {
+        "StartDate": "2024-03-18",
+        "EndDate": "2025-03-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "975571b3-0537-4f5b-a00e-d5077c5b517e",
+        "Name": "Zachary Diaz",
+        "PolicyNumber": "f3832e3d-ab43-43f5-8a5e-1546641b01f9",
+        "ContactInformation": {
+            "Phone": "001-591-820-9496x265",
+            "Email": "rebeccamorris@example.com",
+            "Address": "762 Frank Expressway\nKeithhaven, MS 64419"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-21",
+        "Location": "USS Nelson\nFPO AA 77205",
+        "Description": "Range dog maybe drive give use past she. Call table gas billion.\nMission knowledge character laugh reflect. How exist live begin. Somebody arm hotel everything ball military which."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2145
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4414
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8015
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22032
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13855
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 112172,
+        "TotalApproved": 74212
+    },
+    "AdjusterDetails": {
+        "Name": "Jacob Knight",
+        "ContactInformation": {
+            "Phone": "963.828.0459x9154",
+            "Email": "reedbenjamin@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e4ed5f0e-7af4-4306-a0e9-ca9d29a522c0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-31T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

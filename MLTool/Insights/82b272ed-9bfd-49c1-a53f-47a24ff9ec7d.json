@@ -1,0 +1,81 @@
+{
+    "ClaimID": "82b272ed-9bfd-49c1-a53f-47a24ff9ec7d",
+    "PolicyID": "a1a41279-b082-432c-9983-c89e9698f1ae",
+    "EffectiveDates": {
+        "StartDate": "2023-09-29",
+        "EndDate": "2024-09-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a9844fbc-de33-4303-97a1-5ee5e352b424",
+        "Name": "Patrick Hall",
+        "PolicyNumber": "a1a41279-b082-432c-9983-c89e9698f1ae",
+        "ContactInformation": {
+            "Phone": "462-373-0728x3035",
+            "Email": "nguyentroy@example.org",
+            "Address": "2859 Evans Trafficway Suite 745\nYorkborough, AZ 19818"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-26",
+        "Location": "4194 Wilkins Port Apt. 846\nNew Dalemouth, AL 72586",
+        "Description": "Range fill hot store necessary certainly true significant. Hear PM accept so billion."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5097
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6099
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2787
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 58083
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6412
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 164484,
+        "TotalApproved": 29188
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Jacobson",
+        "ContactInformation": {
+            "Phone": "424.915.6736x5405",
+            "Email": "lorimccormick@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/12790232-3cd6-4831-af6e-73a9c636833f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-26T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

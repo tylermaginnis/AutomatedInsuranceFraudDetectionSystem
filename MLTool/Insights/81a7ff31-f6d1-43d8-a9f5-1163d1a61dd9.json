@@ -1,0 +1,81 @@
+{
+    "ClaimID": "81a7ff31-f6d1-43d8-a9f5-1163d1a61dd9",
+    "PolicyID": "3beca5f2-32d3-4bcd-b5a0-a1d7f15b983f",
+    "EffectiveDates": {
+        "StartDate": "2024-05-14",
+        "EndDate": "2025-05-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2a9da5ee-e572-4899-a2de-3645a26c1bdb",
+        "Name": "Laura Moore",
+        "PolicyNumber": "3beca5f2-32d3-4bcd-b5a0-a1d7f15b983f",
+        "ContactInformation": {
+            "Phone": "940.485.4729",
+            "Email": "sheliagrant@example.net",
+            "Address": "51693 Karen Mill\nNorth Sarah, WV 58382"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-14",
+        "Location": "1034 Gonzalez Stream\nSouth Emmahaven, ND 90103",
+        "Description": "Black scene simply green small assume interest. Wear popular cover none.\nSpeak stage whether nation agree. Ready network much card carry three."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1721
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 81001
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 80999
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34091
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20188
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 9149,
+        "TotalApproved": 7158
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Gutierrez",
+        "ContactInformation": {
+            "Phone": "001-872-639-2579x51459",
+            "Email": "clarkalicia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0e101c2e-3948-4b24-9876-798525009843"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "65a0b3bb-1365-41e5-b78f-4d2e9967e75f",
+    "PolicyID": "e18b3a56-adee-47c3-8574-405fe06e82a9",
+    "EffectiveDates": {
+        "StartDate": "2023-10-20",
+        "EndDate": "2024-10-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d556f8de-5bc6-43b1-90d3-7a68a79b02eb",
+        "Name": "Brian Wright",
+        "PolicyNumber": "e18b3a56-adee-47c3-8574-405fe06e82a9",
+        "ContactInformation": {
+            "Phone": "597-857-0351x09284",
+            "Email": "meredith98@example.org",
+            "Address": "7432 Edwards Trace Apt. 128\nWalkerborough, KY 21846"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-06",
+        "Location": "USNV Black\nFPO AA 57170",
+        "Description": "Dream suddenly prove kind several true ground. Happen ball gas mouth range dark.\nCandidate impact research treat. Training information yard whose send.\nImage decide cup meet information stay up."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24356
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11847
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27569
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24425
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 112910
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 27323,
+        "TotalApproved": 23053
+    },
+    "AdjusterDetails": {
+        "Name": "Benjamin Jones",
+        "ContactInformation": {
+            "Phone": "001-330-260-7837x3039",
+            "Email": "jbautista@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f1c1f68e-396e-4fe8-b019-3f8a9b6936e7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-06T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-11T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-16T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

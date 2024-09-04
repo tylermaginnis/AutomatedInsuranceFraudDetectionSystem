@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3b8f4faf-cbfc-4db3-a774-9e19693066a8",
+    "PolicyID": "f57fd677-0bf5-4595-a8dd-27511d8267e2",
+    "EffectiveDates": {
+        "StartDate": "2023-11-30",
+        "EndDate": "2024-11-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3cfe2ef9-1dda-43a4-9f7b-0680b8f13585",
+        "Name": "Julie Price",
+        "PolicyNumber": "f57fd677-0bf5-4595-a8dd-27511d8267e2",
+        "ContactInformation": {
+            "Phone": "847-672-6426x238",
+            "Email": "bentonkimberly@example.org",
+            "Address": "72753 Stone Key Suite 031\nWest Toddland, ND 76477"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-29",
+        "Location": "522 Cervantes Estate Suite 377\nHollandtown, MN 10892",
+        "Description": "Wall listen say teach by. Father this he professor capital region PM."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 61075
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79635
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 105093
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7539
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2719
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 52036,
+        "TotalApproved": 26844
+    },
+    "AdjusterDetails": {
+        "Name": "Courtney Melton",
+        "ContactInformation": {
+            "Phone": "001-744-580-9984x75879",
+            "Email": "sferguson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4171b870-55c3-44cc-a2a5-5d6d0db7d3f7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-29T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-04T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-09T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

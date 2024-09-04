@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c77dca41-3f99-4c85-bc70-ebe8bcc03515",
+    "PolicyID": "9f66e00c-2320-4df9-9f68-ae6a1b888a27",
+    "EffectiveDates": {
+        "StartDate": "2024-09-03",
+        "EndDate": "2025-09-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "af01b52b-4764-4de9-9bb1-48c6030c4bde",
+        "Name": "David Scott",
+        "PolicyNumber": "9f66e00c-2320-4df9-9f68-ae6a1b888a27",
+        "ContactInformation": {
+            "Phone": "931-328-6875",
+            "Email": "caleb24@example.org",
+            "Address": "554 Ramirez Fields Apt. 812\nSouth Jason, AR 24188"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-08-25",
+        "Location": "1511 Christy Glen\nHarperton, GA 07274",
+        "Description": "About table ever turn site. Entire take expect check nor mean south.\nQuality safe outside area resource girl information. Affect language purpose candidate some hundred."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19409
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11147
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1845
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49901
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 171607
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 135248,
+        "TotalApproved": 100602
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Henson",
+        "ContactInformation": {
+            "Phone": "001-891-441-3537x48948",
+            "Email": "bradleywanda@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e42d9a15-e0db-42b5-8715-f7d9570ceaac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-08-25T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-30T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-09-04T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "24a7078a-9100-4c8f-a837-083eed85a475",
+    "PolicyID": "11de28cb-2474-47fb-9fbc-e30f1ea5029f",
+    "EffectiveDates": {
+        "StartDate": "2024-04-01",
+        "EndDate": "2025-04-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9ea9ffa4-d0e6-4d28-a910-be8dac2f7a87",
+        "Name": "Edwin Eaton",
+        "PolicyNumber": "11de28cb-2474-47fb-9fbc-e30f1ea5029f",
+        "ContactInformation": {
+            "Phone": "001-374-554-5353x38503",
+            "Email": "mariah96@example.com",
+            "Address": "336 Kevin Passage\nJenniferberg, ME 11532"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-24",
+        "Location": "1716 Daniel Canyon\nRyanshire, PA 50975",
+        "Description": "Job church goal total seek mission they. Woman fear line usually. Someone point hand rate say baby type."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 147941
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28151
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19153
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 180080
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 123638
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 169057,
+        "TotalApproved": 130033
+    },
+    "AdjusterDetails": {
+        "Name": "Jose Merritt",
+        "ContactInformation": {
+            "Phone": "+1-473-564-2697x7492",
+            "Email": "melissadennis@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/3a63ece8-d69f-4ef9-8deb-5c40451ce34a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

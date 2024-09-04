@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a66ac0e2-a0f0-4c67-8919-13f278c18a91",
+    "PolicyID": "a3677bb0-c302-4b21-bc81-2385bc4baa4d",
+    "EffectiveDates": {
+        "StartDate": "2023-12-27",
+        "EndDate": "2024-12-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0d23d819-4fcc-4e86-9b55-7a11308b0393",
+        "Name": "Christina Sanders",
+        "PolicyNumber": "a3677bb0-c302-4b21-bc81-2385bc4baa4d",
+        "ContactInformation": {
+            "Phone": "+1-876-686-6286",
+            "Email": "tapiachristopher@example.net",
+            "Address": "182 Jimmy Brook\nNorth Stephaniemouth, ND 45378"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-22",
+        "Location": "PSC 5886, Box 4506\nAPO AP 22068",
+        "Description": "Production than degree child rest baby. Window wide industry movement type whose billion.\nThemselves a worker example once professor show. Probably party audience race."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 22242
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 72224
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24871
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 82364
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10252
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 36359,
+        "TotalApproved": 29843
+    },
+    "AdjusterDetails": {
+        "Name": "Carla Martin",
+        "ContactInformation": {
+            "Phone": "+1-580-818-3292",
+            "Email": "sgutierrez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/81c7ddb2-ed2d-4f06-ac47-155c7366f121"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

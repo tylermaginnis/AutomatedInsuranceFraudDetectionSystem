@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5df89a27-1920-4b4c-a048-ceace9f86ac6",
+    "PolicyID": "e66de4cc-1bf3-4d3d-97cd-ad287d8f58da",
+    "EffectiveDates": {
+        "StartDate": "2024-05-13",
+        "EndDate": "2025-05-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cc00c31c-a637-4020-a08f-cde627ec2a96",
+        "Name": "David Hutchinson",
+        "PolicyNumber": "e66de4cc-1bf3-4d3d-97cd-ad287d8f58da",
+        "ContactInformation": {
+            "Phone": "(748)474-2829x167",
+            "Email": "jameswise@example.net",
+            "Address": "1176 Anderson Ferry Suite 808\nNorth Davidshire, MH 00689"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-09",
+        "Location": "Unit 6878 Box 7610\nDPO AP 27694",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 72799
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33129
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5446
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 24536
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6526
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 142436,
+        "TotalApproved": 60127
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Welch",
+        "ContactInformation": {
+            "Phone": "(245)509-7327x19024",
+            "Email": "kayla39@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/eb6759b2-11b4-4248-8be7-ff10270242f3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-09T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-14T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-19T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

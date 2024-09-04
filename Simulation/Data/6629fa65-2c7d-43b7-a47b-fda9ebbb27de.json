@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6629fa65-2c7d-43b7-a47b-fda9ebbb27de",
+  "PolicyID": "05742258-e406-45fb-93b1-a5ac0f5aa8f2",
+  "EffectiveDates": {
+    "StartDate": "2023-12-08",
+    "EndDate": "2024-12-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a4f83f6e-23b8-4945-aa8d-6fe558c1cc85",
+    "Name": "Julie Bennett",
+    "PolicyNumber": "05742258-e406-45fb-93b1-a5ac0f5aa8f2",
+    "ContactInformation": {
+      "Phone": "001-691-967-2599x67289",
+      "Email": "lawrencecarr@example.com",
+      "Address": "PSC 3706, Box 5812\nAPO AE 39168"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-13",
+    "Location": "240 Joseph Centers Suite 243\nJuanbury, CT 63806",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 87908
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 36630
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6371
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 21674
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 15168
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 167751,
+    "TotalApproved": 163641
+  },
+  "AdjusterDetails": {
+    "Name": "Mrs. Erika Wright",
+    "ContactInformation": {
+      "Phone": "+1-356-207-3496x713",
+      "Email": "charlesbates@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/0a46ed24-76cf-4752-879a-9c1d07fda3fe"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-13T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-18T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-23T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

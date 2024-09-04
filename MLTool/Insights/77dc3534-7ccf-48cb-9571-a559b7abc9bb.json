@@ -1,0 +1,81 @@
+{
+    "ClaimID": "77dc3534-7ccf-48cb-9571-a559b7abc9bb",
+    "PolicyID": "52850437-4a2a-4bf0-af4f-d14efd09dc0b",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f88bc873-24fb-49f8-9633-92c217509222",
+        "Name": "Maria Wilson",
+        "PolicyNumber": "52850437-4a2a-4bf0-af4f-d14efd09dc0b",
+        "ContactInformation": {
+            "Phone": "863-369-4201x28804",
+            "Email": "hannahjones@example.net",
+            "Address": "036 Cline Stream Suite 638\nHannahland, FL 67118"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-10",
+        "Location": "USS Wilson\nFPO AA 15425",
+        "Description": "A must cause computer catch act attack moment. Model south yeah usually. Employee yard player too impact.\nMinute large defense site rate move."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7501
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6389
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 27698
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6670
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 86829
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 109558,
+        "TotalApproved": 56316
+    },
+    "AdjusterDetails": {
+        "Name": "Ricardo Gonzalez",
+        "ContactInformation": {
+            "Phone": "363-245-7794x6799",
+            "Email": "mary36@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/68ca0ad6-473a-46fa-8d46-103972279047"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-10T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-15T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-20T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

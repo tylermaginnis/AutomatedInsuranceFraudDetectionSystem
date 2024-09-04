@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fe405e1d-5e7a-4dbd-8842-0d046ff27cf9",
+  "PolicyID": "b036885e-16d0-439e-9b44-f3560f3c2fa6",
+  "EffectiveDates": {
+    "StartDate": "2023-11-09",
+    "EndDate": "2024-11-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4f13aff4-7bff-43ef-9122-b9b8012440cd",
+    "Name": "Tiffany Wells",
+    "PolicyNumber": "b036885e-16d0-439e-9b44-f3560f3c2fa6",
+    "ContactInformation": {
+      "Phone": "+1-523-952-7876",
+      "Email": "kschaefer@example.org",
+      "Address": "1036 Kevin Loop Apt. 632\nNew Theresa, MI 39492"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-29",
+    "Location": "500 Bowen Lodge\nWest Anthonyfort, MT 36863",
+    "Description": "Eat stay like within test. Choice use thus cell.\nCharge middle scene. Lay girl change around. Edge technology time than so politics."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 40880
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 17075
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 95720
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 59151
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5524
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 63790,
+    "TotalApproved": 12450
+  },
+  "AdjusterDetails": {
+    "Name": "Jack Hogan",
+    "ContactInformation": {
+      "Phone": "001-305-690-1094",
+      "Email": "cpaul@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/9f2bb5ab-5ebe-4ed5-a170-edfad03a3c3d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-29T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-03T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-08T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8ce05107-25c7-4943-9e95-4b550b19ca49",
+    "PolicyID": "bcc16caa-fcb2-48cc-93af-380cf457d704",
+    "EffectiveDates": {
+        "StartDate": "2024-03-27",
+        "EndDate": "2025-03-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b960dc39-ac89-4543-8398-66cd0590e625",
+        "Name": "Sandra Scott",
+        "PolicyNumber": "bcc16caa-fcb2-48cc-93af-380cf457d704",
+        "ContactInformation": {
+            "Phone": "+1-462-748-8721x645",
+            "Email": "coreybrowning@example.org",
+            "Address": "Unit 3407 Box 2002\nDPO AA 60034"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-01",
+        "Location": "USS Frederick\nFPO AP 92302",
+        "Description": "Future risk course admit growth person. View similar reason matter. Walk job no also building finally billion."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3445
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 116230
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15931
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 62136
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 56243
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 170628,
+        "TotalApproved": 38620
+    },
+    "AdjusterDetails": {
+        "Name": "Justin Owens",
+        "ContactInformation": {
+            "Phone": "386.667.8828",
+            "Email": "zfischer@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ae5f8aa7-235d-4373-872a-a512690a04ed"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-01T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-06T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-11T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

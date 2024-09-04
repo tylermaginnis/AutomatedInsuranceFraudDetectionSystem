@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c18244da-7dd4-4473-bfca-9c22c7d24b20",
+    "PolicyID": "d061521f-588b-4f92-8e90-15bbdcae8a19",
+    "EffectiveDates": {
+        "StartDate": "2024-05-14",
+        "EndDate": "2025-05-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0288cb97-21be-47d9-be80-44982af2e7dc",
+        "Name": "Alexis Hopkins",
+        "PolicyNumber": "d061521f-588b-4f92-8e90-15bbdcae8a19",
+        "ContactInformation": {
+            "Phone": "894.735.2837",
+            "Email": "vanderson@example.com",
+            "Address": "4251 Johnson Via\nHoganshire, ND 77037"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-03",
+        "Location": "14537 Kelly Isle\nRebeccaton, OK 49660",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 98661
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49102
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8288
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28620
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14981
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 199652,
+        "TotalApproved": 157072
+    },
+    "AdjusterDetails": {
+        "Name": "Victoria Williams",
+        "ContactInformation": {
+            "Phone": "(855)571-0635x58853",
+            "Email": "cameron13@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4bb9c5b6-dfec-4374-85d2-4491d321c0d1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-03T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-08T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-13T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

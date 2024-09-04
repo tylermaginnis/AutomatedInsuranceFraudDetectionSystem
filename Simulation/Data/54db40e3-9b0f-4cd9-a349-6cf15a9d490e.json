@@ -1,0 +1,80 @@
+{
+  "ClaimID": "54db40e3-9b0f-4cd9-a349-6cf15a9d490e",
+  "PolicyID": "b4d4252b-5804-4cf3-841c-b884806b570a",
+  "EffectiveDates": {
+    "StartDate": "2023-09-26",
+    "EndDate": "2024-09-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "fdfd5593-3642-425d-b5b1-d51a37bffe29",
+    "Name": "Joyce Vang",
+    "PolicyNumber": "b4d4252b-5804-4cf3-841c-b884806b570a",
+    "ContactInformation": {
+      "Phone": "816.551.6922x820",
+      "Email": "ksmith@example.org",
+      "Address": "36069 Antonio Forges\nSouth Ann, GU 82963"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-02",
+    "Location": "USNV Huffman\nFPO AA 98229",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 93767
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 47487
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8747
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 18668
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13977
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 182646,
+    "TotalApproved": 112365
+  },
+  "AdjusterDetails": {
+    "Name": "Alexander Mcconnell",
+    "ContactInformation": {
+      "Phone": "(440)334-7817",
+      "Email": "browncrystal@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/dde86c1e-50ce-467d-8d0c-7e6187b5af93"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-02T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-07T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-12T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

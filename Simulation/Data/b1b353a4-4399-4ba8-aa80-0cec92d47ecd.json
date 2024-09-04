@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b1b353a4-4399-4ba8-aa80-0cec92d47ecd",
+  "PolicyID": "9e97219a-c3a4-4429-8ed6-78bc92b2d6c2",
+  "EffectiveDates": {
+    "StartDate": "2024-04-01",
+    "EndDate": "2025-04-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6f3b6ab6-c01b-4305-b4b5-b6f13deb0f38",
+    "Name": "Jeremy Guzman",
+    "PolicyNumber": "9e97219a-c3a4-4429-8ed6-78bc92b2d6c2",
+    "ContactInformation": {
+      "Phone": "352-723-9305x3482",
+      "Email": "williamsmorgan@example.org",
+      "Address": "548 Watson Row\nPort Jacob, CT 28357"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-13",
+    "Location": "982 Quinn Gateway\nPort Oliviachester, MH 33648",
+    "Description": "Then reach particular my. From two tax side feeling at.\nHave detail director professor current family. Fast participant include within."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 45507
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8467
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5157
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 37049
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 96752
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 173075,
+    "TotalApproved": 97763
+  },
+  "AdjusterDetails": {
+    "Name": "Scott Smith",
+    "ContactInformation": {
+      "Phone": "(291)997-7466",
+      "Email": "nicholas43@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/5e23681a-c3b7-4d3c-b8bf-2d448c4f64e0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-13T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-18T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-23T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

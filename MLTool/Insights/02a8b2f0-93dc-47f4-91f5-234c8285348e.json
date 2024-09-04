@@ -1,0 +1,81 @@
+{
+    "ClaimID": "02a8b2f0-93dc-47f4-91f5-234c8285348e",
+    "PolicyID": "e2845cc8-3c5c-4e9d-a53e-cbe6f3f82595",
+    "EffectiveDates": {
+        "StartDate": "2023-12-11",
+        "EndDate": "2024-12-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c26c6932-5625-488b-8fd2-d293542a67b2",
+        "Name": "Rachael Carter",
+        "PolicyNumber": "e2845cc8-3c5c-4e9d-a53e-cbe6f3f82595",
+        "ContactInformation": {
+            "Phone": "+1-651-789-2430",
+            "Email": "gatesrebecca@example.org",
+            "Address": "7828 Danielle Union Apt. 069\nAprilchester, IN 75045"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-29",
+        "Location": "USNV Bishop\nFPO AA 23169",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 61882
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41167
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8406
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28253
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12794
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 152502,
+        "TotalApproved": 137199
+    },
+    "AdjusterDetails": {
+        "Name": "Destiny Jarvis",
+        "ContactInformation": {
+            "Phone": "246.728.8259",
+            "Email": "hernandezshannon@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/49575e31-253e-4027-b9e0-718e988ac242"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-29T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-03T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-08T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

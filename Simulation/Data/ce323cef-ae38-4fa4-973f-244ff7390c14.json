@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ce323cef-ae38-4fa4-973f-244ff7390c14",
+  "PolicyID": "f7ae0e69-5500-46ff-b602-51577d8da29e",
+  "EffectiveDates": {
+    "StartDate": "2024-08-23",
+    "EndDate": "2025-08-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "055e5507-9e64-4998-971f-12ab69129be3",
+    "Name": "Jeffrey Harris",
+    "PolicyNumber": "f7ae0e69-5500-46ff-b602-51577d8da29e",
+    "ContactInformation": {
+      "Phone": "588.342.6297x2539",
+      "Email": "pvaldez@example.com",
+      "Address": "8133 Lamb Canyon Apt. 678\nDawnmouth, MA 37818"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-17",
+    "Location": "9892 Laura Pass\nTammyton, AK 16491",
+    "Description": "Serious teacher notice. Hear rock but myself west can grow whose. Beautiful check item together care system."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 130642
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17274
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 99973
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 47220
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 129091
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 183362,
+    "TotalApproved": 24119
+  },
+  "AdjusterDetails": {
+    "Name": "Frank Mclean",
+    "ContactInformation": {
+      "Phone": "9155486654",
+      "Email": "shaun20@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/a77d1942-9ca1-41c5-b975-29be656a30bd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-17T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-22T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-27T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

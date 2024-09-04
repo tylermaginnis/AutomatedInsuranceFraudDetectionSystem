@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2e5b9727-d042-4a3b-896d-27009412e7a7",
+    "PolicyID": "8e1aad77-713c-4c72-8b14-a69f3e547966",
+    "EffectiveDates": {
+        "StartDate": "2024-09-02",
+        "EndDate": "2025-09-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f996ae46-4bf8-4c9d-a447-3be6d284b898",
+        "Name": "David May",
+        "PolicyNumber": "8e1aad77-713c-4c72-8b14-a69f3e547966",
+        "ContactInformation": {
+            "Phone": "001-268-677-2580x4499",
+            "Email": "murphymichelle@example.net",
+            "Address": "674 David Neck\nEast Scott, MI 13311"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-11",
+        "Location": "5079 Garcia Square Suite 987\nPort Shawnstad, MP 59058",
+        "Description": "Make degree response nearly group close whatever strong. Sit past product difficult quality house. Account imagine important. Stand tax important community garden take character great."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 110872
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5962
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38001
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9558
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16781
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154820,
+        "TotalApproved": 39944
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Crystal Barnes",
+        "ContactInformation": {
+            "Phone": "753.965.0940x8458",
+            "Email": "pettymichael@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f0c290ab-e9de-4dda-baab-d1c520e02798"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

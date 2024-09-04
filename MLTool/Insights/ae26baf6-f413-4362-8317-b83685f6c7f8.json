@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ae26baf6-f413-4362-8317-b83685f6c7f8",
+    "PolicyID": "18828acb-466e-46a7-bc4c-4e63b98d0b61",
+    "EffectiveDates": {
+        "StartDate": "2024-07-25",
+        "EndDate": "2025-07-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bdf694c5-e7ed-4fbb-b8c4-3a3c265b2f7a",
+        "Name": "Bruce Wilson",
+        "PolicyNumber": "18828acb-466e-46a7-bc4c-4e63b98d0b61",
+        "ContactInformation": {
+            "Phone": "001-437-553-6125x7577",
+            "Email": "zwilson@example.com",
+            "Address": "2388 Lutz Plains Suite 339\nGonzalezberg, NM 23684"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-04",
+        "Location": "USCGC Doyle\nFPO AA 76218",
+        "Description": "Almost edge southern consider. Law argue property however must.\nRead example take evening create. Other wrong clear enter join.\nCitizen after then personal nearly. Door sure head company."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4115
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7280
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 36266
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48241
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12596
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 184454,
+        "TotalApproved": 77173
+    },
+    "AdjusterDetails": {
+        "Name": "Monique Mckinney",
+        "ContactInformation": {
+            "Phone": "791.816.8720x279",
+            "Email": "sheri80@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9ad45a71-9676-49c9-90eb-0205bc63be0c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-04T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-09T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-14T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

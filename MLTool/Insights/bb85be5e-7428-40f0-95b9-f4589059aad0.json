@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bb85be5e-7428-40f0-95b9-f4589059aad0",
+    "PolicyID": "02837e38-32d3-4fc7-b100-0c261495f727",
+    "EffectiveDates": {
+        "StartDate": "2024-01-17",
+        "EndDate": "2025-01-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "581f20d7-e57f-419b-b080-abb785b59dac",
+        "Name": "Victoria Hamilton",
+        "PolicyNumber": "02837e38-32d3-4fc7-b100-0c261495f727",
+        "ContactInformation": {
+            "Phone": "5149274631",
+            "Email": "brittney61@example.net",
+            "Address": "656 Sheila Coves\nLake Denise, AK 19560"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-13",
+        "Location": "Unit 4042 Box 0953\nDPO AE 63952",
+        "Description": "Important decision easy particularly. General under into major herself brother late. Anything list mouth city expect box PM."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41349
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4518
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 167771
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 90353
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 113583
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 143475,
+        "TotalApproved": 24404
+    },
+    "AdjusterDetails": {
+        "Name": "Laurie Brown",
+        "ContactInformation": {
+            "Phone": "573-324-8929x26746",
+            "Email": "rebeccawyatt@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/cc510473-2ee3-404c-ab29-f563e4d22b71"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

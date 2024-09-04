@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a658f025-1464-4c5e-9527-87b8b429d749",
+    "PolicyID": "c62360e0-b06c-487d-b2a7-33d2ea7b4143",
+    "EffectiveDates": {
+        "StartDate": "2024-05-03",
+        "EndDate": "2025-05-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "be03815a-de14-4089-aeca-829148a26223",
+        "Name": "Nicole Foster",
+        "PolicyNumber": "c62360e0-b06c-487d-b2a7-33d2ea7b4143",
+        "ContactInformation": {
+            "Phone": "853-637-8970x243",
+            "Email": "adam66@example.org",
+            "Address": "430 Newton Summit Suite 540\nStevenport, MI 02111"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-14",
+        "Location": "295 Sanchez Camp\nLake Samuelbury, MA 75001",
+        "Description": "Head whatever we within common class. Bed before in then.\nSeason amount that me. Employee short recently put mother also economic."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2001
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12173
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9603
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 89495
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39734
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 7480,
+        "TotalApproved": 7005
+    },
+    "AdjusterDetails": {
+        "Name": "William Oliver",
+        "ContactInformation": {
+            "Phone": "001-795-784-7283",
+            "Email": "sgillespie@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/794e6ed2-ea2a-476d-8bd4-14134454b9b9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-14T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-19T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-24T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

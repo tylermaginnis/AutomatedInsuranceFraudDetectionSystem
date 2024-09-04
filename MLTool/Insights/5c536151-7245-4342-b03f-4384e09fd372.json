@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5c536151-7245-4342-b03f-4384e09fd372",
+    "PolicyID": "915186c7-4356-4d6d-a2c4-ee42100a8ea5",
+    "EffectiveDates": {
+        "StartDate": "2024-06-30",
+        "EndDate": "2025-06-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b0b7c4d8-67f1-4ab6-b200-0c6fd313025a",
+        "Name": "Amanda Williams",
+        "PolicyNumber": "915186c7-4356-4d6d-a2c4-ee42100a8ea5",
+        "ContactInformation": {
+            "Phone": "912-711-8396",
+            "Email": "brian15@example.org",
+            "Address": "PSC 0787, Box 4238\nAPO AP 84193"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-19",
+        "Location": "USCGC Harris\nFPO AA 50933",
+        "Description": "Pick entire news us to chair. Firm state whole with chair.\nCity data itself prevent account point consumer fund. Indeed may west explain pass decade head."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 55342
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 96667
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90834
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 54116
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 73924
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 188079,
+        "TotalApproved": 53664
+    },
+    "AdjusterDetails": {
+        "Name": "Luis Mcintosh",
+        "ContactInformation": {
+            "Phone": "742.638.0329x943",
+            "Email": "timothy79@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5358a347-33ca-4aa6-ad5e-22464f251e50"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-19T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-24T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-29T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

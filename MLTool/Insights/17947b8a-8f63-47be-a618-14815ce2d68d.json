@@ -1,0 +1,81 @@
+{
+    "ClaimID": "17947b8a-8f63-47be-a618-14815ce2d68d",
+    "PolicyID": "9e9c9081-4c02-40ca-bd0f-51ce5c463d97",
+    "EffectiveDates": {
+        "StartDate": "2024-06-10",
+        "EndDate": "2025-06-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7d7e6800-c252-4c3b-aee9-060d4508a2d9",
+        "Name": "James Martinez",
+        "PolicyNumber": "9e9c9081-4c02-40ca-bd0f-51ce5c463d97",
+        "ContactInformation": {
+            "Phone": "800-946-7549x494",
+            "Email": "davisstephanie@example.org",
+            "Address": "7603 Robert Causeway Suite 708\nSouth Lisa, NJ 48106"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-05",
+        "Location": "5471 Gilbert Ways Suite 821\nNew Hannahborough, VI 38783",
+        "Description": "Your usually perhaps reach charge.\nSet sometimes direction appear style attention in particularly. West develop three since trip career. Good executive these risk decide decision."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22677
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3141
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17418
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33619
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17022
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 140075,
+        "TotalApproved": 42437
+    },
+    "AdjusterDetails": {
+        "Name": "Colin Richardson",
+        "ContactInformation": {
+            "Phone": "(626)957-2627",
+            "Email": "clarkralph@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/37f39af2-ed51-48b8-8906-ebb0822df899"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

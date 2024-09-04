@@ -1,0 +1,81 @@
+{
+    "ClaimID": "29271a74-2330-4ae1-8a0d-13722b020134",
+    "PolicyID": "d34d0895-d72a-4d06-b890-2d1de3c33dd9",
+    "EffectiveDates": {
+        "StartDate": "2024-03-17",
+        "EndDate": "2025-03-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5a879291-a973-44d8-87e2-cf519551cbf7",
+        "Name": "Barbara Johnson",
+        "PolicyNumber": "d34d0895-d72a-4d06-b890-2d1de3c33dd9",
+        "ContactInformation": {
+            "Phone": "388.654.2460",
+            "Email": "stacey31@example.com",
+            "Address": "USS Lopez\nFPO AA 63164"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-29",
+        "Location": "424 Ortega Springs Apt. 490\nSouth Danielmouth, NE 21166",
+        "Description": "Soldier though trouble religious agency painting. Water find lead campaign police theory.\nThese space a heavy nor."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 163218
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15068
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 99801
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3771
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12494
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 60111,
+        "TotalApproved": 18363
+    },
+    "AdjusterDetails": {
+        "Name": "Adrian Dixon",
+        "ContactInformation": {
+            "Phone": "001-898-689-3636",
+            "Email": "amy53@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c71888d7-709f-41f6-a6dd-e6072b976ea1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-29T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

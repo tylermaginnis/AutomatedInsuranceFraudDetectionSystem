@@ -1,0 +1,80 @@
+{
+  "ClaimID": "895fb66a-462c-4730-bdd1-c45fff0f2010",
+  "PolicyID": "ac85b9aa-f4c2-4bae-b48e-3d4d279da676",
+  "EffectiveDates": {
+    "StartDate": "2024-08-01",
+    "EndDate": "2025-08-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "07fc66fa-f5e6-4f48-8ffb-c18b81f5ad45",
+    "Name": "Kimberly Thompson",
+    "PolicyNumber": "ac85b9aa-f4c2-4bae-b48e-3d4d279da676",
+    "ContactInformation": {
+      "Phone": "339-780-6136x4229",
+      "Email": "nelsonjulie@example.com",
+      "Address": "09953 Brown Fork Apt. 303\nEast Jeffrey, NH 53443"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-30",
+    "Location": "3992 Brown Square Suite 860\nWest Elizabethside, NE 21586",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 52605
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 48097
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8123
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 29800
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19391
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 158016,
+    "TotalApproved": 26563
+  },
+  "AdjusterDetails": {
+    "Name": "Becky Nichols",
+    "ContactInformation": {
+      "Phone": "507.885.4580",
+      "Email": "marc54@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/cec79dee-01fb-4050-9242-45b20867f035"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-30T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-06-04T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-06-09T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

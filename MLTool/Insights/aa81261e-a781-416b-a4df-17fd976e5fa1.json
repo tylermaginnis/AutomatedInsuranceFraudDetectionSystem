@@ -1,0 +1,81 @@
+{
+    "ClaimID": "aa81261e-a781-416b-a4df-17fd976e5fa1",
+    "PolicyID": "2dea91db-90e8-4ecd-93ae-3e8deef9e0ae",
+    "EffectiveDates": {
+        "StartDate": "2024-08-28",
+        "EndDate": "2025-08-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2df1f074-120a-434b-89ae-755e32b05af5",
+        "Name": "Richard Collins",
+        "PolicyNumber": "2dea91db-90e8-4ecd-93ae-3e8deef9e0ae",
+        "ContactInformation": {
+            "Phone": "610-254-9263",
+            "Email": "carlosfranklin@example.org",
+            "Address": "714 Maddox Mall\nMichelleside, MT 16871"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-09",
+        "Location": "100 Lara Bypass\nChristophermouth, KY 83789",
+        "Description": "Specific majority baby front. Industry college room. World suggest bar laugh fear just feeling guy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6296
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 142738
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9310
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16196
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4601
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 83300,
+        "TotalApproved": 68177
+    },
+    "AdjusterDetails": {
+        "Name": "Cole Thomas",
+        "ContactInformation": {
+            "Phone": "753.831.0616x244",
+            "Email": "jefferysparks@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ac88c8e9-0785-4770-bc86-251994f37c9e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-09T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-14T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-19T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

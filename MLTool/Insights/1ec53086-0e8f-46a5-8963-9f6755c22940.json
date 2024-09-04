@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1ec53086-0e8f-46a5-8963-9f6755c22940",
+    "PolicyID": "d9d782c3-1433-4f93-aef9-82fb40988da4",
+    "EffectiveDates": {
+        "StartDate": "2024-05-23",
+        "EndDate": "2025-05-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9171b411-ed45-42be-a5c9-6ced506082c9",
+        "Name": "Shane Jacobs PhD",
+        "PolicyNumber": "d9d782c3-1433-4f93-aef9-82fb40988da4",
+        "ContactInformation": {
+            "Phone": "(849)265-8783",
+            "Email": "helenlopez@example.com",
+            "Address": "8807 Jeremy Ville\nThompsonchester, VT 41548"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-18",
+        "Location": "Unit 6777 Box 7386\nDPO AP 59224",
+        "Description": "Dog painting success size spring. Piece media current culture effort interview management. In bag treat. Idea town number fire dream small."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10998
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1726
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 120318
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14471
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28778
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 60802,
+        "TotalApproved": 43495
+    },
+    "AdjusterDetails": {
+        "Name": "Danielle Arnold",
+        "ContactInformation": {
+            "Phone": "(400)493-7436",
+            "Email": "jameslarsen@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/79dcf5cc-3ef5-472f-b8ce-9f26bf838391"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

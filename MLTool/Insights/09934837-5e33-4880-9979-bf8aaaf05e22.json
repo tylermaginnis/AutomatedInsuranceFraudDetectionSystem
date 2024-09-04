@@ -1,0 +1,81 @@
+{
+    "ClaimID": "09934837-5e33-4880-9979-bf8aaaf05e22",
+    "PolicyID": "60c5539c-8824-4305-9164-8b60d2d94592",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "34a2890a-f8df-4286-a548-b615d358e828",
+        "Name": "David George",
+        "PolicyNumber": "60c5539c-8824-4305-9164-8b60d2d94592",
+        "ContactInformation": {
+            "Phone": "+1-632-321-0781x79862",
+            "Email": "dyerdaniel@example.com",
+            "Address": "5406 Brianna Stream Apt. 604\nEllisland, MD 86368"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-23",
+        "Location": "69740 Cameron Circle Suite 467\nWest Jerry, UT 60268",
+        "Description": "Central customer cover then. Note new our become. Assume price reveal size different."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 60582
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5029
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15122
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67876
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1871
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 193531,
+        "TotalApproved": 149262
+    },
+    "AdjusterDetails": {
+        "Name": "Shelly Sellers",
+        "ContactInformation": {
+            "Phone": "+1-974-748-3129x993",
+            "Email": "fernandezcynthia@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/391dbca8-05ad-4804-9c4e-a1cf33706349"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

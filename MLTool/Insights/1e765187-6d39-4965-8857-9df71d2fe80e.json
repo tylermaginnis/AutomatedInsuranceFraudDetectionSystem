@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1e765187-6d39-4965-8857-9df71d2fe80e",
+    "PolicyID": "86ecdb8a-da13-4eba-8f9d-138226c28297",
+    "EffectiveDates": {
+        "StartDate": "2024-07-12",
+        "EndDate": "2025-07-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "716c6b2a-894d-40ff-941d-2b8fe788b923",
+        "Name": "Michael Stokes",
+        "PolicyNumber": "86ecdb8a-da13-4eba-8f9d-138226c28297",
+        "ContactInformation": {
+            "Phone": "275-805-9517",
+            "Email": "weissrobert@example.net",
+            "Address": "60779 Brown Ports\nNorth Ashley, KS 14124"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-29",
+        "Location": "23234 Tamara Via\nPort Alexander, OH 23527",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67794
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22972
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9107
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24126
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8108
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 132107,
+        "TotalApproved": 99781
+    },
+    "AdjusterDetails": {
+        "Name": "Roy Osborne Jr.",
+        "ContactInformation": {
+            "Phone": "+1-289-512-7758x763",
+            "Email": "ericcole@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f7924b19-d996-4078-aabb-af02bc1b89d6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-29T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-04T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-09T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

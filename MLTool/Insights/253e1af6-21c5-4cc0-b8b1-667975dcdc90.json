@@ -1,0 +1,81 @@
+{
+    "ClaimID": "253e1af6-21c5-4cc0-b8b1-667975dcdc90",
+    "PolicyID": "1bddfd49-385e-427f-9366-f7db3191a9b6",
+    "EffectiveDates": {
+        "StartDate": "2023-09-13",
+        "EndDate": "2024-09-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8e668d66-bc79-43ec-af86-b927d8ba69fb",
+        "Name": "Noah Collins",
+        "PolicyNumber": "1bddfd49-385e-427f-9366-f7db3191a9b6",
+        "ContactInformation": {
+            "Phone": "866.438.8811",
+            "Email": "john92@example.com",
+            "Address": "7169 William Ports\nNew Priscillastad, ND 83471"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-23",
+        "Location": "349 Jennifer Loaf\nPort Christina, DC 59801",
+        "Description": "Relate fill call college risk not several. School son center her.\nCover next dog choice human. Mind total across resource door smile all contain. Paper country central leave with owner member."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 194745
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10027
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12035
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 81386
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38593
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 67442,
+        "TotalApproved": 56023
+    },
+    "AdjusterDetails": {
+        "Name": "Michelle Wheeler",
+        "ContactInformation": {
+            "Phone": "394.859.1473",
+            "Email": "sfoster@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/7e22878f-8f90-48ff-996a-66e8f5c4a535"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-23T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-28T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-02T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

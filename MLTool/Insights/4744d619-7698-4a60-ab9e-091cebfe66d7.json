@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4744d619-7698-4a60-ab9e-091cebfe66d7",
+    "PolicyID": "7b292f1b-31fb-493c-a8e3-a4d79b83206d",
+    "EffectiveDates": {
+        "StartDate": "2024-05-03",
+        "EndDate": "2025-05-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "df9bfd61-330f-47ff-bc4a-7935a31b6177",
+        "Name": "Katrina Chen",
+        "PolicyNumber": "7b292f1b-31fb-493c-a8e3-a4d79b83206d",
+        "ContactInformation": {
+            "Phone": "(916)743-5765",
+            "Email": "jensenjohn@example.org",
+            "Address": "Unit 3333 Box 1317\nDPO AE 36047"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-22",
+        "Location": "08493 Mccann Unions\nMichaeltown, OH 58722",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 90385
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32678
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5613
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20528
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19460
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 168664,
+        "TotalApproved": 30143
+    },
+    "AdjusterDetails": {
+        "Name": "Patricia Perez",
+        "ContactInformation": {
+            "Phone": "+1-821-800-1557",
+            "Email": "costakimberly@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/42129bf1-e0ca-4612-bda2-183877bac210"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-22T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-27T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-01T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d8572c5d-597f-4af2-bf61-63c46dd2e612",
+    "PolicyID": "b6526e94-1258-4494-a5ec-ff407c75c0db",
+    "EffectiveDates": {
+        "StartDate": "2024-06-06",
+        "EndDate": "2025-06-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "366a9a8d-2ed0-4645-ac08-271cecf81fc0",
+        "Name": "Selena Martinez",
+        "PolicyNumber": "b6526e94-1258-4494-a5ec-ff407c75c0db",
+        "ContactInformation": {
+            "Phone": "596-866-5274",
+            "Email": "holly83@example.com",
+            "Address": "8637 Ingram Vista\nPort Timothystad, KY 67917"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-22",
+        "Location": "PSC 9229, Box 7753\nAPO AP 11582",
+        "Description": "Speech try recent conference. City trouble idea media often business especially. Assume although decision prepare. Western finish mean staff."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 163364
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2510
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 66758
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14433
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46530
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 102891,
+        "TotalApproved": 92411
+    },
+    "AdjusterDetails": {
+        "Name": "Patricia Walker",
+        "ContactInformation": {
+            "Phone": "321.492.2871x51120",
+            "Email": "jeromesilva@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/12a12e56-b211-45dd-b049-3ca56d7279fd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-01T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

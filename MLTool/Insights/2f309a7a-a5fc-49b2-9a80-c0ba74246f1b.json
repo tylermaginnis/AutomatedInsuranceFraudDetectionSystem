@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2f309a7a-a5fc-49b2-9a80-c0ba74246f1b",
+    "PolicyID": "d4404111-d3ef-4aff-9931-8e2c2cb44ada",
+    "EffectiveDates": {
+        "StartDate": "2024-03-21",
+        "EndDate": "2025-03-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4591c2b8-bb10-4f56-94ca-0c3d76fac505",
+        "Name": "Shawna Cross",
+        "PolicyNumber": "d4404111-d3ef-4aff-9931-8e2c2cb44ada",
+        "ContactInformation": {
+            "Phone": "711-246-2898x61390",
+            "Email": "kevinarnold@example.net",
+            "Address": "28675 David Canyon Suite 630\nJaymouth, OK 28314"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-26",
+        "Location": "14750 Morris Landing\nSouth Gary, MN 64701",
+        "Description": "Glass whom from help window suffer change another. Agreement set wish south leave nation. You mouth compare law."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49251
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1350
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16642
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2685
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12503
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 37916,
+        "TotalApproved": 36523
+    },
+    "AdjusterDetails": {
+        "Name": "Adam Carr",
+        "ContactInformation": {
+            "Phone": "(344)429-8944",
+            "Email": "schmidtmaria@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/63512309-f1b3-42ad-acd4-4619d5f101b8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-26T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-03T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-08T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "66ce5709-3417-424d-97da-4b32f22ed09a",
+    "PolicyID": "330934c6-c206-492d-9db2-8b3a39da51ed",
+    "EffectiveDates": {
+        "StartDate": "2024-02-17",
+        "EndDate": "2025-02-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71d4aee0-53b7-4546-9859-da0073aacaa3",
+        "Name": "Edward Gardner",
+        "PolicyNumber": "330934c6-c206-492d-9db2-8b3a39da51ed",
+        "ContactInformation": {
+            "Phone": "263-324-8594",
+            "Email": "stewartandrew@example.org",
+            "Address": "84683 Sanchez Inlet\nDavishaven, WY 01748"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-03",
+        "Location": "488 Adriana Route Apt. 252\nNew Brandon, ND 36549",
+        "Description": "Down walk face would. Threat put hand contain reality outside since.\nAnimal popular become book have company. Rise sign collection young need. Floor already true."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27730
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 58012
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5095
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39744
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8700
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 17822,
+        "TotalApproved": 2192
+    },
+    "AdjusterDetails": {
+        "Name": "Theresa Spears",
+        "ContactInformation": {
+            "Phone": "767-767-6386",
+            "Email": "jeanette45@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a5e9558b-cc7e-47d7-8538-9925caa8b3d1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-03T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-08T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-13T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

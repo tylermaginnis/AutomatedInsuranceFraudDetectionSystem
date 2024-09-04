@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2deec621-a542-4a92-8913-fcc9e55dc250",
+    "PolicyID": "11f71f05-3d52-4a3f-af4e-0cb13a9ce409",
+    "EffectiveDates": {
+        "StartDate": "2023-11-09",
+        "EndDate": "2024-11-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9ba67c45-6bc6-4778-89e2-aa904228fe67",
+        "Name": "Ronald Mueller",
+        "PolicyNumber": "11f71f05-3d52-4a3f-af4e-0cb13a9ce409",
+        "ContactInformation": {
+            "Phone": "+1-303-965-6274x870",
+            "Email": "edawson@example.org",
+            "Address": "5769 Jessica Loop Apt. 778\nPort John, MA 68701"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-22",
+        "Location": "9191 Mcconnell Village\nGuerreroborough, WI 44754",
+        "Description": "Arrive upon these real wind example. Professor term everything if among follow American. Minute radio tax measure only.\nInterview road say party less."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7593
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47212
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11724
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8889
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5950
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 167148,
+        "TotalApproved": 5874
+    },
+    "AdjusterDetails": {
+        "Name": "Vanessa Schwartz",
+        "ContactInformation": {
+            "Phone": "001-712-213-2200",
+            "Email": "alvarezstacy@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5092bbe5-a495-4b60-80fc-035e4a82a183"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-01T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

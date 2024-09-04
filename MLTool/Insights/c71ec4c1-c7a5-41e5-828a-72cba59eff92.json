@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c71ec4c1-c7a5-41e5-828a-72cba59eff92",
+    "PolicyID": "b778e829-7cc2-46d9-aba7-869e3a56cb40",
+    "EffectiveDates": {
+        "StartDate": "2023-11-28",
+        "EndDate": "2024-11-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "37360d55-4cc3-42c2-89ce-7dcf89173e9b",
+        "Name": "Matthew Mccall",
+        "PolicyNumber": "b778e829-7cc2-46d9-aba7-869e3a56cb40",
+        "ContactInformation": {
+            "Phone": "577-684-6965x0622",
+            "Email": "jeffrey01@example.net",
+            "Address": "3704 Sanchez Forge\nEast Vanessa, NV 33667"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-06",
+        "Location": "36958 Jessica Walks\nCobbmouth, MP 83346",
+        "Description": "Kid school form rock network respond. Easy for performance exactly stage seek until finally."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5194
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25320
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38323
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4465
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27620
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 4967,
+        "TotalApproved": 4299
+    },
+    "AdjusterDetails": {
+        "Name": "Charles Smith",
+        "ContactInformation": {
+            "Phone": "412-501-8440",
+            "Email": "clarkchristine@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1c3adb88-8b12-43f6-a95e-e96c173b5285"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-06T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-11T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-16T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

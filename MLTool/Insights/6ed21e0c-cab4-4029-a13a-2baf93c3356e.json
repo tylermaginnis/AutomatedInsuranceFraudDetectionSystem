@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6ed21e0c-cab4-4029-a13a-2baf93c3356e",
+    "PolicyID": "25644239-8b3b-47ac-8ad2-357839615c91",
+    "EffectiveDates": {
+        "StartDate": "2024-07-15",
+        "EndDate": "2025-07-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8d225c23-5f4d-4aa7-a6d1-52a1bceb9712",
+        "Name": "Rebecca Howard",
+        "PolicyNumber": "25644239-8b3b-47ac-8ad2-357839615c91",
+        "ContactInformation": {
+            "Phone": "001-624-717-5216x63386",
+            "Email": "joannaguilar@example.org",
+            "Address": "6193 Eric Lakes\nShortshire, NH 88195"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-09",
+        "Location": "503 Bryan Well Suite 988\nCopelandton, SD 46899",
+        "Description": "Much name student stage. System decision action organization general.\nTrue social light almost let. Team less why pressure."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 182049
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25001
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6901
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 64291
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 55025
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 161234,
+        "TotalApproved": 2063
+    },
+    "AdjusterDetails": {
+        "Name": "Tyler Fields",
+        "ContactInformation": {
+            "Phone": "440.302.7059",
+            "Email": "kingdaniel@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/351720da-bd8e-4cdd-b92c-cf34aa50c175"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

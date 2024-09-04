@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7543eb04-8c91-4f9f-ba13-235063342936",
+    "PolicyID": "741bb3fe-0b2c-4b12-b942-ff8d196b6a85",
+    "EffectiveDates": {
+        "StartDate": "2024-08-24",
+        "EndDate": "2025-08-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "94dba6cb-18e2-44f2-a3a5-f90ff1de18b7",
+        "Name": "David Newton",
+        "PolicyNumber": "741bb3fe-0b2c-4b12-b942-ff8d196b6a85",
+        "ContactInformation": {
+            "Phone": "339.893.5794x558",
+            "Email": "uwhite@example.org",
+            "Address": "21216 Carter Loaf Apt. 951\nGriffithton, FM 51736"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-22",
+        "Location": "2496 Julia Shore\nMoralesburgh, PA 20485",
+        "Description": "Yard condition because modern between. Establish agency be. Price heavy want."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 163047
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2942
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2726
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15014
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17787
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 35086,
+        "TotalApproved": 9912
+    },
+    "AdjusterDetails": {
+        "Name": "Ryan Randall",
+        "ContactInformation": {
+            "Phone": "341.475.4877x02068",
+            "Email": "christophercarroll@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/df34e877-c13b-447f-96f8-101ddb12dff4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-01T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

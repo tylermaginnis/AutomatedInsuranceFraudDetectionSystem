@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5b74a0b1-f3a8-41a2-a56b-c2a25dcfc333",
+    "PolicyID": "b4a80e49-f5fd-4c56-9d66-23c25aea720c",
+    "EffectiveDates": {
+        "StartDate": "2024-01-30",
+        "EndDate": "2025-01-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9321bdb9-ae69-4025-8238-39c9e13fdc18",
+        "Name": "Edgar Camacho",
+        "PolicyNumber": "b4a80e49-f5fd-4c56-9d66-23c25aea720c",
+        "ContactInformation": {
+            "Phone": "4126420915",
+            "Email": "laurenvasquez@example.com",
+            "Address": "9047 Emily Garden Suite 626\nMichellefurt, IN 89613"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-08",
+        "Location": "348 Robin Ramp Apt. 321\nDesireefort, TX 05819",
+        "Description": "Scientist enter network prevent detail. Yes major painting lawyer quickly sea.\nBehavior institution action by dinner lawyer. Senior data unit avoid increase building create."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4655
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8193
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3479
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 63790
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7339
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 19141,
+        "TotalApproved": 15271
+    },
+    "AdjusterDetails": {
+        "Name": "Jenna Brown",
+        "ContactInformation": {
+            "Phone": "001-304-931-1935",
+            "Email": "sortega@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/604eb1ff-ce2b-4b8f-af1d-9a3c02badd52"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

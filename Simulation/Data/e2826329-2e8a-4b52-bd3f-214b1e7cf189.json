@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e2826329-2e8a-4b52-bd3f-214b1e7cf189",
+  "PolicyID": "d9d8e952-5c6b-4d0c-919f-8aaef4dd412a",
+  "EffectiveDates": {
+    "StartDate": "2023-12-20",
+    "EndDate": "2024-12-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9287f4bd-296c-493c-a7a2-ed585399fd5c",
+    "Name": "Calvin Lewis",
+    "PolicyNumber": "d9d8e952-5c6b-4d0c-919f-8aaef4dd412a",
+    "ContactInformation": {
+      "Phone": "001-437-771-9751",
+      "Email": "kevinfowler@example.org",
+      "Address": "76489 Tyler Haven\nSparksville, SD 68725"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-17",
+    "Location": "USCGC Long\nFPO AE 37084",
+    "Description": "Affect success anyone heart have for. Degree drive process goal. They any return."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2005
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 34039
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 100793
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1490
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 175490
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 137298,
+    "TotalApproved": 133274
+  },
+  "AdjusterDetails": {
+    "Name": "Katie Barnes",
+    "ContactInformation": {
+      "Phone": "(554)533-3592x182",
+      "Email": "christina59@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/5f00c35b-89db-49a2-b888-960579addcea"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-17T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-22T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-27T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5bb7eff5-884b-420a-b9d7-36fb33c09fea",
+    "PolicyID": "ff129f85-5da0-4153-b1d6-0eb8409b58e0",
+    "EffectiveDates": {
+        "StartDate": "2023-10-25",
+        "EndDate": "2024-10-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d7596475-839d-4f44-a06e-04f7d8e445e3",
+        "Name": "Michael Collins",
+        "PolicyNumber": "ff129f85-5da0-4153-b1d6-0eb8409b58e0",
+        "ContactInformation": {
+            "Phone": "001-774-659-6147x122",
+            "Email": "phillipspenny@example.com",
+            "Address": "896 King Greens Apt. 258\nMelissaport, OK 23093"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-02",
+        "Location": "5483 Thomas Creek\nAmandaton, PR 29037",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 63989
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 42676
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6834
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24845
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17634
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 155978,
+        "TotalApproved": 34657
+    },
+    "AdjusterDetails": {
+        "Name": "Diana Hall MD",
+        "ContactInformation": {
+            "Phone": "001-537-535-6874x9296",
+            "Email": "whitelorraine@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e26be284-9712-4b93-876e-61962a23dac3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-02T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-07T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-12T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

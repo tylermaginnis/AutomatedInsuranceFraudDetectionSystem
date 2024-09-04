@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d4e26705-e031-4328-a7aa-14dc51bf9527",
+  "PolicyID": "c17944d7-5df0-448a-8160-77666726bfb3",
+  "EffectiveDates": {
+    "StartDate": "2024-01-23",
+    "EndDate": "2025-01-22"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "59dc7b16-ea3b-4b81-afed-4d04225d078c",
+    "Name": "Brian Schmitt",
+    "PolicyNumber": "c17944d7-5df0-448a-8160-77666726bfb3",
+    "ContactInformation": {
+      "Phone": "7209458373",
+      "Email": "martinezelizabeth@example.org",
+      "Address": "97628 Erin Mission\nWolfland, VI 41276"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-05",
+    "Location": "395 Samantha Mountain\nPeterschester, ND 99074",
+    "Description": "Choice whose computer case ball citizen. Follow study hair other. Region story if nice listen program history."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2143
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6536
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 66843
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5458
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 54013
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 168124,
+    "TotalApproved": 49901
+  },
+  "AdjusterDetails": {
+    "Name": "Edward Lee",
+    "ContactInformation": {
+      "Phone": "641-316-5239",
+      "Email": "marthabauer@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/0e724c1c-2e4d-401d-b831-6151a31b0cc2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-05T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-10T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-15T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

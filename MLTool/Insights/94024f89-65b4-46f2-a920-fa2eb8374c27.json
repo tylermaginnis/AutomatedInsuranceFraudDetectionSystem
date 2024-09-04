@@ -1,0 +1,81 @@
+{
+    "ClaimID": "94024f89-65b4-46f2-a920-fa2eb8374c27",
+    "PolicyID": "b635139b-d54c-4428-8346-c2a3ea5f5a8b",
+    "EffectiveDates": {
+        "StartDate": "2023-11-19",
+        "EndDate": "2024-11-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9809c988-7b33-42f7-931e-952498176588",
+        "Name": "Danny Gray",
+        "PolicyNumber": "b635139b-d54c-4428-8346-c2a3ea5f5a8b",
+        "ContactInformation": {
+            "Phone": "759-482-9911x87077",
+            "Email": "xsanchez@example.com",
+            "Address": "701 Jones Knoll Apt. 192\nKristiton, AR 85595"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-06",
+        "Location": "668 Hancock Crescent Apt. 884\nEast Jane, OK 03814",
+        "Description": "System later rather company. Mother close left lot those.\nMrs social still interesting.\nCertainly professional as decide ask. Morning positive east.\nProfessor apply walk bank major medical day still."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3549
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 59585
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 83453
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 183983
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1796
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 76324,
+        "TotalApproved": 56790
+    },
+    "AdjusterDetails": {
+        "Name": "Jacob Garcia",
+        "ContactInformation": {
+            "Phone": "454-252-7564x9817",
+            "Email": "hollyhartman@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5866860c-53b9-46db-b5e2-48122002511e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

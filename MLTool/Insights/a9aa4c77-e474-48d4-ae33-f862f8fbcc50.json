@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a9aa4c77-e474-48d4-ae33-f862f8fbcc50",
+    "PolicyID": "b717bae4-fa62-48ab-8e11-8eb3dcb839f1",
+    "EffectiveDates": {
+        "StartDate": "2024-05-11",
+        "EndDate": "2025-05-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6435a2df-5ecf-45ec-a9ad-48a67c6c21ad",
+        "Name": "Daniel Phillips",
+        "PolicyNumber": "b717bae4-fa62-48ab-8e11-8eb3dcb839f1",
+        "ContactInformation": {
+            "Phone": "+1-393-529-7924x17723",
+            "Email": "beckian@example.com",
+            "Address": "32445 Huber Flat\nWest Marissa, ME 48366"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-31",
+        "Location": "61421 Nelson Cliff\nNew Justinmouth, ME 65701",
+        "Description": "Reason international major one.\nTonight type painting scientist military their about four. Imagine wrong dog yet place positive collection image."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1262
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2595
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31712
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4227
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1365
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 131251,
+        "TotalApproved": 127388
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Dodson",
+        "ContactInformation": {
+            "Phone": "001-213-717-3039x90007",
+            "Email": "joshua16@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/fc4a8848-6a9a-4ec6-9469-6e3da1b885f5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-31T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

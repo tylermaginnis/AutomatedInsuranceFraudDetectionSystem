@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b783e9b8-d563-464e-93a0-6b3e8a673426",
+  "PolicyID": "30533ff4-e5c8-406b-8f64-75b801f2f16e",
+  "EffectiveDates": {
+    "StartDate": "2024-02-20",
+    "EndDate": "2025-02-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "939089c8-3cee-4264-8d4c-905f6d1c7c54",
+    "Name": "Melissa Davila",
+    "PolicyNumber": "30533ff4-e5c8-406b-8f64-75b801f2f16e",
+    "ContactInformation": {
+      "Phone": "821-728-6749",
+      "Email": "nanderson@example.org",
+      "Address": "658 Teresa Divide Apt. 836\nPetersside, MN 07743"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-22",
+    "Location": "PSC 1087, Box 7751\nAPO AE 45470",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 80686
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 42904
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5733
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 17068
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10653
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 157044,
+    "TotalApproved": 67210
+  },
+  "AdjusterDetails": {
+    "Name": "Patrick Johnson",
+    "ContactInformation": {
+      "Phone": "(440)663-5957x054",
+      "Email": "nathan47@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/bbb39855-6f6f-408f-9527-c1b5a81d4e01"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-22T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-27T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-03T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

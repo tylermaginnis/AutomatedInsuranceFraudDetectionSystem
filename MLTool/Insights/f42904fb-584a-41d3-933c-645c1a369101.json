@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f42904fb-584a-41d3-933c-645c1a369101",
+    "PolicyID": "7816dbff-c4a3-4e6b-af58-daa0f0a5e0a2",
+    "EffectiveDates": {
+        "StartDate": "2023-11-13",
+        "EndDate": "2024-11-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2ba18cb7-8779-4a8f-9b24-ddaa61bc3fcf",
+        "Name": "Bryan Cummings",
+        "PolicyNumber": "7816dbff-c4a3-4e6b-af58-daa0f0a5e0a2",
+        "ContactInformation": {
+            "Phone": "001-839-498-6528x288",
+            "Email": "kellyaustin@example.com",
+            "Address": "5674 Peterson Overpass\nLake Kevin, OK 38805"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-20",
+        "Location": "12674 Cody Mews\nLake Andrew, MH 43675",
+        "Description": "Care ago bar enjoy remain. Over rock young left.\nGovernment off goal find. Feel let throughout to end including. Information others common."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 105238
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 75206
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44389
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7636
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 80372
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 29099,
+        "TotalApproved": 2152
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Chambers",
+        "ContactInformation": {
+            "Phone": "233-614-6929x4973",
+            "Email": "leetodd@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fb3017c6-b67c-4a24-be7b-eab450f11ec3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-20T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-25T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-30T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

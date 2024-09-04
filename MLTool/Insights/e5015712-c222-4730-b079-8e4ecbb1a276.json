@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e5015712-c222-4730-b079-8e4ecbb1a276",
+    "PolicyID": "346c409b-bc4f-4bb5-8cdf-064579a0094e",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a985a6e2-275c-4310-911b-62df080be993",
+        "Name": "Jillian Schneider",
+        "PolicyNumber": "346c409b-bc4f-4bb5-8cdf-064579a0094e",
+        "ContactInformation": {
+            "Phone": "(915)853-2237x011",
+            "Email": "gravessierra@example.com",
+            "Address": "5204 Jason Mill Suite 404\nSouth Amberborough, GU 86877"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-06",
+        "Location": "849 Christie Crossroad Suite 129\nKatieburgh, ID 14922",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 92069
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35653
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7015
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28121
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17873
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 180731,
+        "TotalApproved": 164434
+    },
+    "AdjusterDetails": {
+        "Name": "Kenneth Castillo",
+        "ContactInformation": {
+            "Phone": "965.314.5841x62655",
+            "Email": "pjames@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/12bbc09a-637d-47df-915e-64b72ce4ea09"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-06T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-11T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-16T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

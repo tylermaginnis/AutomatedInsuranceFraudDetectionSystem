@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1c15fcdd-bd64-4290-9642-2a4e98b8053b",
+    "PolicyID": "0b1b9977-9b09-495d-a949-f704946d343b",
+    "EffectiveDates": {
+        "StartDate": "2024-05-07",
+        "EndDate": "2025-05-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ca4eb19f-1d22-4f22-ae29-4587cfdfa008",
+        "Name": "Thomas Davis",
+        "PolicyNumber": "0b1b9977-9b09-495d-a949-f704946d343b",
+        "ContactInformation": {
+            "Phone": "001-703-982-0019",
+            "Email": "christina65@example.org",
+            "Address": "9457 Kathryn Fields\nFlorestown, AZ 78631"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-14",
+        "Location": "USCGC Hayes\nFPO AP 14495",
+        "Description": "Country future analysis all across. Either picture strategy feel sport career. Its development either thank key."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4908
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 145244
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18245
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 74249
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18440
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 84701,
+        "TotalApproved": 5635
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Fletcher",
+        "ContactInformation": {
+            "Phone": "001-551-945-3600x15502",
+            "Email": "markortiz@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/687f14d1-e57a-40ce-8c5e-b6845e27d8f6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

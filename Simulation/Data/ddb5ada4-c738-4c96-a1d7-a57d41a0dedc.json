@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ddb5ada4-c738-4c96-a1d7-a57d41a0dedc",
+  "PolicyID": "5cca7104-3d04-4ddb-a816-8b403cf6bf79",
+  "EffectiveDates": {
+    "StartDate": "2023-11-06",
+    "EndDate": "2024-11-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9c82af02-e72f-4bcb-a9a3-b73a25e53445",
+    "Name": "Amanda Schwartz",
+    "PolicyNumber": "5cca7104-3d04-4ddb-a816-8b403cf6bf79",
+    "ContactInformation": {
+      "Phone": "+1-936-246-3447",
+      "Email": "shawnhensley@example.com",
+      "Address": "12830 Mcdaniel Village\nNorth Samantha, WV 55397"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-01-17",
+    "Location": "50315 Paul Cliffs\nSmithstad, MT 78150",
+    "Description": "Standard available whatever strategy. Red skill agency hope mean.\nSafe course together clearly of should sense. Past choose marriage.\nHeart place first security possible create responsibility poor."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5312
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 38830
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3887
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4189
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 190687
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 161100,
+    "TotalApproved": 146084
+  },
+  "AdjusterDetails": {
+    "Name": "Robert Lowe",
+    "ContactInformation": {
+      "Phone": "6153517836",
+      "Email": "martinjonathon@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/2c9b800a-bf48-48cc-a2a6-9b61ee53a938"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-01-17T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-22T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-27T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

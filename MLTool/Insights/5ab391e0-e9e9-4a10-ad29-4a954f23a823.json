@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5ab391e0-e9e9-4a10-ad29-4a954f23a823",
+    "PolicyID": "c7fec9eb-8b73-444e-9b97-f7bf90b1e718",
+    "EffectiveDates": {
+        "StartDate": "2024-03-14",
+        "EndDate": "2025-03-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "68a368e8-ffb9-4c04-a5a4-2b223e960a01",
+        "Name": "Danny Ramirez",
+        "PolicyNumber": "c7fec9eb-8b73-444e-9b97-f7bf90b1e718",
+        "ContactInformation": {
+            "Phone": "887-997-4685",
+            "Email": "jguzman@example.net",
+            "Address": "05046 Michael Port\nSouth Elizabethborough, KY 19163"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-14",
+        "Location": "8883 Brown Harbors\nNew Aprilmouth, CO 90575",
+        "Description": "Important factor officer decide memory nothing. Federal food beautiful kitchen. Various decade experience hospital. Time father thought operation war."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3506
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13269
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3453
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15710
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6062
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 23191,
+        "TotalApproved": 7587
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Ross",
+        "ContactInformation": {
+            "Phone": "(756)554-5385x351",
+            "Email": "kenneth44@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/fb73b319-70aa-4550-aa82-ea42e69171cc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-14T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-19T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-24T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

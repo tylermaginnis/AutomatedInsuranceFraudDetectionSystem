@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ee0826d2-d4e9-4a3a-9d32-cb56009ac04c",
+    "PolicyID": "400d55e5-60cd-4fc2-8c88-5ef9b9e06b0a",
+    "EffectiveDates": {
+        "StartDate": "2023-09-30",
+        "EndDate": "2024-09-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "46966f85-1d3e-4bbd-a541-571e64c8fbf8",
+        "Name": "Sarah Moses",
+        "PolicyNumber": "400d55e5-60cd-4fc2-8c88-5ef9b9e06b0a",
+        "ContactInformation": {
+            "Phone": "258.811.2013x6226",
+            "Email": "kimandrew@example.org",
+            "Address": "7041 James Curve\nNorth Donald, WY 30489"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-27",
+        "Location": "PSC 6827, Box 4375\nAPO AP 49753",
+        "Description": "Everybody to including year body onto.\nBaby despite voice also. Card sing central pick pattern. Focus here quickly story defense many."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2389
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11438
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 43698
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10217
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39733
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 150853,
+        "TotalApproved": 53374
+    },
+    "AdjusterDetails": {
+        "Name": "Aaron Chase",
+        "ContactInformation": {
+            "Phone": "001-616-462-3096x3091",
+            "Email": "aaron23@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5574ce77-8752-40ab-863b-43075b4f36f1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-27T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-01T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-06T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

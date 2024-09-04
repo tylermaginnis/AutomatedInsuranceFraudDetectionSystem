@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7b41909f-5c9f-42ae-88fd-26f06bcecdaa",
+    "PolicyID": "4e68ff64-fdc1-4605-af6a-b98e4ce5bb19",
+    "EffectiveDates": {
+        "StartDate": "2024-05-09",
+        "EndDate": "2025-05-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "77c028d9-84ec-41ac-8d1d-7ab8b9ac9223",
+        "Name": "Anthony Miller",
+        "PolicyNumber": "4e68ff64-fdc1-4605-af6a-b98e4ce5bb19",
+        "ContactInformation": {
+            "Phone": "001-686-511-8517",
+            "Email": "vfoster@example.org",
+            "Address": "6218 Jeremy Expressway Apt. 141\nNew Jenna, HI 64395"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-05",
+        "Location": "246 Dixon Street\nPort Nicole, CA 64961",
+        "Description": "Difference degree school own. Report imagine can room teacher think whether could.\nPersonal heavy bag remember. Tell it item none environment. Administration technology fine father."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8089
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39078
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 63916
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9158
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12654
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 10415,
+        "TotalApproved": 9923
+    },
+    "AdjusterDetails": {
+        "Name": "Carl Flowers",
+        "ContactInformation": {
+            "Phone": "001-699-242-2760",
+            "Email": "rhodesrichard@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/076cb1a4-3163-4077-bdf9-2da52c94ea4b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

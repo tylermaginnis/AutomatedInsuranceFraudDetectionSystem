@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7dce3937-d94f-4d50-914b-66a9e9cb0baa",
+  "PolicyID": "57ffb301-f539-4cfc-86ec-4215e1f7bc66",
+  "EffectiveDates": {
+    "StartDate": "2024-02-02",
+    "EndDate": "2025-02-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b0373cf6-d420-4367-b8dc-503ebb20e79c",
+    "Name": "Paul Wilson",
+    "PolicyNumber": "57ffb301-f539-4cfc-86ec-4215e1f7bc66",
+    "ContactInformation": {
+      "Phone": "+1-374-291-5742x8590",
+      "Email": "nicole57@example.net",
+      "Address": "Unit 2496 Box 0578\nDPO AA 50631"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-18",
+    "Location": "3843 Jones Hill\nNew Ronnie, HI 19005",
+    "Description": "Provide avoid already school per seat.\nReligious above night remember sport turn situation especially. Each possible along reason."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4176
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 43877
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 118266
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 22919
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 57013
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 102009,
+    "TotalApproved": 82372
+  },
+  "AdjusterDetails": {
+    "Name": "Greg Tran",
+    "ContactInformation": {
+      "Phone": "922.330.7758",
+      "Email": "barkernicholas@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/3022b8c5-9176-40b0-8b9e-a226f025890e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-18T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-23T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-28T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

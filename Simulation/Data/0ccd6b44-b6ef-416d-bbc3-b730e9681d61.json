@@ -1,0 +1,80 @@
+{
+  "ClaimID": "0ccd6b44-b6ef-416d-bbc3-b730e9681d61",
+  "PolicyID": "dd4a32f1-e60b-4f4e-bcb1-2556012d2e3e",
+  "EffectiveDates": {
+    "StartDate": "2023-11-12",
+    "EndDate": "2024-11-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a1cad163-da48-451b-bdd6-1e2e35a1a2fe",
+    "Name": "Jeremiah Nguyen",
+    "PolicyNumber": "dd4a32f1-e60b-4f4e-bcb1-2556012d2e3e",
+    "ContactInformation": {
+      "Phone": "(772)245-4910",
+      "Email": "mfrost@example.org",
+      "Address": "73947 Santos Bypass\nWest Katherine, FL 24969"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-28",
+    "Location": "Unit 4314 Box 8788\nDPO AE 99846",
+    "Description": "Statement red themselves light first. Most even public item firm. Republican interest now prove minute themselves network almost. Serious new role form inside similar."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6907
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8284
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 15949
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 12005
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 83479
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 198160,
+    "TotalApproved": 144065
+  },
+  "AdjusterDetails": {
+    "Name": "Sonya Dawson",
+    "ContactInformation": {
+      "Phone": "001-912-498-7818x309",
+      "Email": "jacobprice@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/d12cf6bf-e124-48b1-ad30-e6069d47ea56"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-28T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-02T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-07T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

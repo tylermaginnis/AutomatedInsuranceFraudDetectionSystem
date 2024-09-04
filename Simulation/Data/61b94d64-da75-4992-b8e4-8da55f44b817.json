@@ -1,0 +1,80 @@
+{
+  "ClaimID": "61b94d64-da75-4992-b8e4-8da55f44b817",
+  "PolicyID": "e1c619d9-d6c2-4441-ba84-844e419403ce",
+  "EffectiveDates": {
+    "StartDate": "2024-03-07",
+    "EndDate": "2025-03-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e5007b08-395b-4f02-8e8d-9e1349efce4f",
+    "Name": "Jennifer Wiggins",
+    "PolicyNumber": "e1c619d9-d6c2-4441-ba84-844e419403ce",
+    "ContactInformation": {
+      "Phone": "(334)441-9291x8965",
+      "Email": "emann@example.net",
+      "Address": "75659 Alec Spring Suite 863\nDanieltown, CO 85154"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-27",
+    "Location": "0259 Ian Pass\nNew Amyhaven, GU 84872",
+    "Description": "Data where structure open design fine paper. Argue sea indicate consider whose medical."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 61744
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 63292
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19521
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3034
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 3539
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 157725,
+    "TotalApproved": 33921
+  },
+  "AdjusterDetails": {
+    "Name": "Marc Wagner",
+    "ContactInformation": {
+      "Phone": "686-210-7583",
+      "Email": "garyburke@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/c459fe2b-4667-4480-a4c6-95de3b8f1e52"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-27T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-01T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-06T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

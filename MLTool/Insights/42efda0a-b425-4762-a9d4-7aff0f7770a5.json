@@ -1,0 +1,81 @@
+{
+    "ClaimID": "42efda0a-b425-4762-a9d4-7aff0f7770a5",
+    "PolicyID": "981fb58a-be71-482f-a018-5063d0e76478",
+    "EffectiveDates": {
+        "StartDate": "2024-07-05",
+        "EndDate": "2025-07-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3a572385-daa0-4312-939d-487ba40e71df",
+        "Name": "Ricardo Bowman",
+        "PolicyNumber": "981fb58a-be71-482f-a018-5063d0e76478",
+        "ContactInformation": {
+            "Phone": "001-859-635-8180",
+            "Email": "lewisholly@example.net",
+            "Address": "172 Edwin Tunnel\nLake Alexisstad, AR 97616"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-06",
+        "Location": "211 Kathleen Dam Apt. 552\nEast Nicole, UT 86137",
+        "Description": "Matter way loss century scene yeah everybody. Figure claim high human set street. Director camera cut analysis push ok hard poor."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8324
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5295
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32035
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 100713
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3911
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 157083,
+        "TotalApproved": 42086
+    },
+    "AdjusterDetails": {
+        "Name": "Franklin House",
+        "ContactInformation": {
+            "Phone": "001-400-660-4856x12099",
+            "Email": "huntersims@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7f2fbc97-0fb8-479d-9595-668f70e81c3e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-06T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-11T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-16T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

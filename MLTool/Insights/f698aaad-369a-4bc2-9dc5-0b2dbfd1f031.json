@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f698aaad-369a-4bc2-9dc5-0b2dbfd1f031",
+    "PolicyID": "95b62e14-1f1f-4318-8696-32c7522a5d3f",
+    "EffectiveDates": {
+        "StartDate": "2024-06-06",
+        "EndDate": "2025-06-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5e2fa50-25cb-4fd2-8abd-b6f0dc6ab17e",
+        "Name": "Laurie Frost",
+        "PolicyNumber": "95b62e14-1f1f-4318-8696-32c7522a5d3f",
+        "ContactInformation": {
+            "Phone": "925-414-6807x8451",
+            "Email": "hannahcalhoun@example.org",
+            "Address": "90727 Kenneth Prairie Suite 928\nLake Rebecca, LA 37225"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-04",
+        "Location": "5750 Wilson Ways\nNew Ashleyville, NV 71243",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 72263
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46616
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9740
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16128
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13763
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 158510,
+        "TotalApproved": 118547
+    },
+    "AdjusterDetails": {
+        "Name": "Miguel Austin",
+        "ContactInformation": {
+            "Phone": "+1-392-547-1068x159",
+            "Email": "willisjonathon@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/411608b6-01d8-4d23-b0d2-d0cf5717e569"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-04T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-09T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-14T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

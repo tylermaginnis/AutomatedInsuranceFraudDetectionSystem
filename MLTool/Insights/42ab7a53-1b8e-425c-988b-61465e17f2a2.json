@@ -1,0 +1,81 @@
+{
+    "ClaimID": "42ab7a53-1b8e-425c-988b-61465e17f2a2",
+    "PolicyID": "4f26ce00-a4f9-473c-a99b-e5e09b2e2555",
+    "EffectiveDates": {
+        "StartDate": "2024-02-18",
+        "EndDate": "2025-02-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "21ba1b88-b896-4d16-beb0-d27d8397190c",
+        "Name": "Brian Garcia DDS",
+        "PolicyNumber": "4f26ce00-a4f9-473c-a99b-e5e09b2e2555",
+        "ContactInformation": {
+            "Phone": "(348)472-6564x85994",
+            "Email": "moyerpeter@example.net",
+            "Address": "1371 Mayer Branch\nRyanmouth, SC 82245"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-09",
+        "Location": "2285 Bell Knolls Apt. 834\nCourtneymouth, HI 68453",
+        "Description": "Right from wide company. Sister line truth shake fear simple special. Model yes time.\nOccur necessary power receive example side American. Follow finally draw good look."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10545
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28677
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2147
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 63191
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46729
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 40295,
+        "TotalApproved": 3487
+    },
+    "AdjusterDetails": {
+        "Name": "Samuel Wade",
+        "ContactInformation": {
+            "Phone": "001-813-521-4470",
+            "Email": "utownsend@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0d89593d-73ba-4020-adaa-b1f049d84424"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-09T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-14T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-19T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

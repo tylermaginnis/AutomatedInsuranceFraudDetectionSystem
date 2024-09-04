@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9154caf9-b1d5-49f4-a674-afae20c768c9",
+    "PolicyID": "13641441-3017-4ab3-8662-43e17b2b1689",
+    "EffectiveDates": {
+        "StartDate": "2024-06-20",
+        "EndDate": "2025-06-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c2eb34de-5c20-45e3-998a-d1d67b64a7a2",
+        "Name": "Stephanie Henson",
+        "PolicyNumber": "13641441-3017-4ab3-8662-43e17b2b1689",
+        "ContactInformation": {
+            "Phone": "(574)921-5046",
+            "Email": "tcarey@example.org",
+            "Address": "481 Bass Valley Apt. 440\nMckinneyview, HI 79429"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-24",
+        "Location": "3415 Hart Manor\nWilliamsfurt, RI 46235",
+        "Description": "Government place where close join tree woman. Case out board method close human live end. Image day tell."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2699
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6509
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9731
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33656
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11918
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 106942,
+        "TotalApproved": 80144
+    },
+    "AdjusterDetails": {
+        "Name": "Marcus Wallace",
+        "ContactInformation": {
+            "Phone": "+1-725-427-1954x159",
+            "Email": "annagarcia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/809f32a4-91db-4042-b686-78c50d6d494d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

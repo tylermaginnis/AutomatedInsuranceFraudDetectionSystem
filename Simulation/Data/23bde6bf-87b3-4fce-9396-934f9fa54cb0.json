@@ -1,0 +1,80 @@
+{
+  "ClaimID": "23bde6bf-87b3-4fce-9396-934f9fa54cb0",
+  "PolicyID": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+  "EffectiveDates": {
+    "StartDate": "2024-04-11",
+    "EndDate": "2025-04-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4b718d54-1bda-441f-9f34-2672f6b131e5",
+    "Name": "Patricia Gordon",
+    "PolicyNumber": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+    "ContactInformation": {
+      "Phone": "+1-447-858-9107x4847",
+      "Email": "lisacrane@example.org",
+      "Address": "PSC 6944, Box 1860\nAPO AP 51730"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-11",
+    "Location": "797 Jason Loop Apt. 416\nMaciasshire, PR 56439",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 92188
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 44293
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8541
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 16672
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 12563
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 174257,
+    "TotalApproved": 7639
+  },
+  "AdjusterDetails": {
+    "Name": "Nancy Miranda",
+    "ContactInformation": {
+      "Phone": "655.219.9183x904",
+      "Email": "charles39@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/579a7fdb-7f9b-486d-a548-3b705b1eb6c2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-11T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-16T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-21T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e3c55c59-6314-49d2-9e83-59fa90770b95",
+    "PolicyID": "bf3fd264-4c5f-4014-a2bc-078cf668110d",
+    "EffectiveDates": {
+        "StartDate": "2023-11-21",
+        "EndDate": "2024-11-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2a245380-c85e-4522-99f9-6f7d109b90e1",
+        "Name": "Vincent Williams",
+        "PolicyNumber": "bf3fd264-4c5f-4014-a2bc-078cf668110d",
+        "ContactInformation": {
+            "Phone": "+1-437-553-3364x78925",
+            "Email": "tbarrera@example.net",
+            "Address": "195 Hardy Spring Suite 046\nNew Dylan, NV 49255"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-01",
+        "Location": "250 Mason Plains Apt. 232\nSouth Dennis, KY 40324",
+        "Description": "Town fish court bag station almost. Drop for response break carry discussion."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3885
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2138
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15267
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 71045
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7341
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 82955,
+        "TotalApproved": 69308
+    },
+    "AdjusterDetails": {
+        "Name": "Christine Rodriguez",
+        "ContactInformation": {
+            "Phone": "001-660-693-1661x985",
+            "Email": "bradleymarc@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9969b96d-e2d9-4f66-bab5-c98a18376dc0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

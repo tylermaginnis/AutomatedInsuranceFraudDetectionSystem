@@ -1,0 +1,81 @@
+{
+    "ClaimID": "22ad5c10-7f24-4a9c-b58d-1f510d1be483",
+    "PolicyID": "11de28cb-2474-47fb-9fbc-e30f1ea5029f",
+    "EffectiveDates": {
+        "StartDate": "2024-03-16",
+        "EndDate": "2025-03-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9ea9ffa4-d0e6-4d28-a910-be8dac2f7a87",
+        "Name": "Edwin Eaton",
+        "PolicyNumber": "11de28cb-2474-47fb-9fbc-e30f1ea5029f",
+        "ContactInformation": {
+            "Phone": "001-374-554-5353x38503",
+            "Email": "mariah96@example.com",
+            "Address": "336 Kevin Passage\nJenniferberg, ME 11532"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-14",
+        "Location": "155 John Run\nMendozaview, GA 92679",
+        "Description": "Chance Democrat old. Kid base near such whole firm main. Realize up read."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44724
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70368
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7860
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3937
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 85420
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 53869,
+        "TotalApproved": 15471
+    },
+    "AdjusterDetails": {
+        "Name": "Shaun Norton",
+        "ContactInformation": {
+            "Phone": "6733289719",
+            "Email": "pperez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/2c847081-636f-43d8-8b87-9f87063e8f74"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

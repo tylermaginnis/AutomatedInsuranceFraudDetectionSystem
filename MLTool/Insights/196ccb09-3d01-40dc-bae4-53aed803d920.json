@@ -1,0 +1,81 @@
+{
+    "ClaimID": "196ccb09-3d01-40dc-bae4-53aed803d920",
+    "PolicyID": "f14b65c1-0b89-4c17-aed2-e0cc71dce6e6",
+    "EffectiveDates": {
+        "StartDate": "2024-06-01",
+        "EndDate": "2025-06-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c0eabbc6-f298-41d0-a2c5-235f466ade0f",
+        "Name": "Andrea Rubio",
+        "PolicyNumber": "f14b65c1-0b89-4c17-aed2-e0cc71dce6e6",
+        "ContactInformation": {
+            "Phone": "001-512-346-6467",
+            "Email": "franklintracy@example.org",
+            "Address": "02657 Mason Underpass Suite 513\nPort Oliviaview, MO 98787"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-30",
+        "Location": "USS Alvarado\nFPO AA 57939",
+        "Description": "Go front tree new financial local. Economic produce good whom. Without officer present try vote we.\nYet team happy environment exist suddenly. Majority herself individual travel."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 98821
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41427
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 149121
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45475
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 83137
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 103135,
+        "TotalApproved": 40487
+    },
+    "AdjusterDetails": {
+        "Name": "Morgan Lester",
+        "ContactInformation": {
+            "Phone": "928-561-9793x8770",
+            "Email": "brownamanda@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0c403443-ead1-4378-b4d2-7ec4b1320d36"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-30T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ea76daa3-e3ab-4388-8c24-b02d05b4bccd",
+    "PolicyID": "b07561e2-6300-4a8b-b415-ae78f0327685",
+    "EffectiveDates": {
+        "StartDate": "2023-09-15",
+        "EndDate": "2024-09-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e55a6701-6838-408e-af5a-5b1e155e747e",
+        "Name": "John Thomas",
+        "PolicyNumber": "b07561e2-6300-4a8b-b415-ae78f0327685",
+        "ContactInformation": {
+            "Phone": "852-717-9835",
+            "Email": "sherrysnyder@example.com",
+            "Address": "Unit 5671 Box 3469\nDPO AE 69827"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-09",
+        "Location": "802 Christopher Fort Suite 427\nJessicaton, SD 17606",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 73849
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49229
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5269
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29384
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10291
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 168022,
+        "TotalApproved": 142336
+    },
+    "AdjusterDetails": {
+        "Name": "James Miller",
+        "ContactInformation": {
+            "Phone": "305-713-7121",
+            "Email": "hlawson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3b8ba76d-74c2-4ba3-bf1b-db381ad963fb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-09T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-14T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-19T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

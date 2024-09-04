@@ -1,0 +1,81 @@
+{
+    "ClaimID": "42c87174-a93f-4554-a3b9-5107acb8e9f4",
+    "PolicyID": "3a35b953-adbc-4a79-ba19-34cdafaef1ca",
+    "EffectiveDates": {
+        "StartDate": "2024-08-27",
+        "EndDate": "2025-08-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c9e07969-0d81-4af5-972d-89c54eb086f3",
+        "Name": "William Smith",
+        "PolicyNumber": "3a35b953-adbc-4a79-ba19-34cdafaef1ca",
+        "ContactInformation": {
+            "Phone": "818.250.6646x9928",
+            "Email": "gabrielward@example.org",
+            "Address": "25165 Marc Roads Suite 547\nPort James, CT 25436"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-13",
+        "Location": "PSC 5504, Box 2278\nAPO AE 31953",
+        "Description": "Newspaper community team big investment drive. College television military want civil health career. They degree though themselves leave heavy thus."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49401
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 74010
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1228
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11892
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18851
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 3585,
+        "TotalApproved": 2082
+    },
+    "AdjusterDetails": {
+        "Name": "Kathy White",
+        "ContactInformation": {
+            "Phone": "001-508-739-2016",
+            "Email": "lesliehill@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e5d2972b-44f0-45d1-9a2c-a6675183a963"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

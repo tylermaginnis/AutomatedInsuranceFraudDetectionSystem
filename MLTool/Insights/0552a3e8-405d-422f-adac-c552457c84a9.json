@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0552a3e8-405d-422f-adac-c552457c84a9",
+    "PolicyID": "e5bdd8cc-3dc3-4994-b448-02b049195b6e",
+    "EffectiveDates": {
+        "StartDate": "2024-01-31",
+        "EndDate": "2025-01-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0027fbad-f5ab-48d1-a3ba-4ac2bb7673e0",
+        "Name": "Lauren Murray",
+        "PolicyNumber": "e5bdd8cc-3dc3-4994-b448-02b049195b6e",
+        "ContactInformation": {
+            "Phone": "7562652042",
+            "Email": "joel31@example.org",
+            "Address": "678 West Station Apt. 641\nJulieton, MT 89144"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-11",
+        "Location": "USS Best\nFPO AA 59705",
+        "Description": "Attack family ready single point continue decision. Remain hair animal dog.\nKey walk ready child south. Region exactly card possible. Thousand late doctor."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8612
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2353
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4979
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25634
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2542
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 4639,
+        "TotalApproved": 2746
+    },
+    "AdjusterDetails": {
+        "Name": "Brenda Marshall",
+        "ContactInformation": {
+            "Phone": "(996)804-9480",
+            "Email": "sgoodwin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/483eab2e-c24f-4306-b8f2-f378b202b9fe"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-11T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-16T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-21T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

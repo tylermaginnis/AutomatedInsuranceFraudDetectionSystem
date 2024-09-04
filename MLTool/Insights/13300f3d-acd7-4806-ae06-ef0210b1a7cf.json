@@ -1,0 +1,81 @@
+{
+    "ClaimID": "13300f3d-acd7-4806-ae06-ef0210b1a7cf",
+    "PolicyID": "a96dd8ae-c826-463d-9a9b-f8d37f8e08cb",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d5c4e114-f468-4561-b185-530b96fa3876",
+        "Name": "Dawn Brandt",
+        "PolicyNumber": "a96dd8ae-c826-463d-9a9b-f8d37f8e08cb",
+        "ContactInformation": {
+            "Phone": "3148627266",
+            "Email": "martinkristen@example.com",
+            "Address": "047 Jessica Port Apt. 862\nMichaelland, DC 08992"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-26",
+        "Location": "562 Philip Manor\nLeeberg, NM 66666",
+        "Description": "Car option vote get magazine keep section. Face military always upon attorney focus."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1877
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 135437
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 147761
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 60393
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35175
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 27530,
+        "TotalApproved": 26860
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Robinson",
+        "ContactInformation": {
+            "Phone": "001-477-514-0823x5829",
+            "Email": "kristy40@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/813edbb1-4767-4b3a-a48a-b5d71bb32a2e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-26T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-31T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-05T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

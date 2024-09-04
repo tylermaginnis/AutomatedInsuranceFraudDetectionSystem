@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9906f095-3427-442a-9ec8-9c5796e6e8b7",
+    "PolicyID": "50c235b0-c863-4bc1-9ab3-582e545d9041",
+    "EffectiveDates": {
+        "StartDate": "2023-09-10",
+        "EndDate": "2024-09-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "eeda735f-64b0-4359-a192-1b7c22f41784",
+        "Name": "Robin Taylor",
+        "PolicyNumber": "50c235b0-c863-4bc1-9ab3-582e545d9041",
+        "ContactInformation": {
+            "Phone": "570-721-2644x6536",
+            "Email": "anthony23@example.net",
+            "Address": "0444 Brown Haven Suite 905\nFrankside, ND 29738"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-22",
+        "Location": "4421 Daniel Fort\nBlackburnshire, ND 75709",
+        "Description": "Gas well claim develop. Strategy research total professional especially evidence like outside."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 193768
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8422
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 149330
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4834
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 113261
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 63879,
+        "TotalApproved": 63419
+    },
+    "AdjusterDetails": {
+        "Name": "Dawn Lee",
+        "ContactInformation": {
+            "Phone": "218.638.8517x775",
+            "Email": "smithkimberly@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9802a26a-da15-41b8-b91c-b5e26f7383a2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-22T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-27T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

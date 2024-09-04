@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5de87818-1289-46cc-ad3c-e1b8e32a5ec9",
+    "PolicyID": "a0a470cb-6c17-498a-9303-de99279c9748",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "506d9f54-5364-486a-818a-8c90f2ff61ae",
+        "Name": "Alan Davis",
+        "PolicyNumber": "a0a470cb-6c17-498a-9303-de99279c9748",
+        "ContactInformation": {
+            "Phone": "(822)747-5675",
+            "Email": "jbradford@example.org",
+            "Address": "10867 Nicholas Ramp Suite 692\nWest Shane, TX 91552"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-07",
+        "Location": "67281 Bryant Glens Apt. 795\nPhillipsmouth, NY 38258",
+        "Description": "College reveal leg capital. Statement else direction would method. Writer minute himself turn impact. West smile economic affect set old teacher."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 66823
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27715
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25337
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 113799
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15745
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 134919,
+        "TotalApproved": 92628
+    },
+    "AdjusterDetails": {
+        "Name": "Dr. John White",
+        "ContactInformation": {
+            "Phone": "(996)446-4205",
+            "Email": "charlessmith@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/29c2881a-14c4-4fb8-bfee-60774c807b3f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

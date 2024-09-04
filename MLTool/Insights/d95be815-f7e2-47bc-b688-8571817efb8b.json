@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d95be815-f7e2-47bc-b688-8571817efb8b",
+    "PolicyID": "409b0ecb-02f6-4dc7-987b-e17b9a8364f0",
+    "EffectiveDates": {
+        "StartDate": "2024-07-23",
+        "EndDate": "2025-07-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e5548ad4-c1e8-4d86-9ea1-7ae665f80540",
+        "Name": "Laurie Bush",
+        "PolicyNumber": "409b0ecb-02f6-4dc7-987b-e17b9a8364f0",
+        "ContactInformation": {
+            "Phone": "(242)735-6229",
+            "Email": "mguzman@example.com",
+            "Address": "2013 Brandon Glen\nAndersonhaven, NV 99570"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-26",
+        "Location": "349 Alexander Isle\nWilliamsfurt, VI 55908",
+        "Description": "Audience I building state front detail. Second attention science sing area. Someone above public difficult idea course."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7518
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6459
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9959
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 98806
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32651
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 138075,
+        "TotalApproved": 14735
+    },
+    "AdjusterDetails": {
+        "Name": "Shawn Adams",
+        "ContactInformation": {
+            "Phone": "+1-635-665-4597",
+            "Email": "paula26@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8976aac9-e0bf-4f3b-857b-173f49a1e79a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-31T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

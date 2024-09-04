@@ -1,0 +1,81 @@
+{
+    "ClaimID": "97ddcef2-020a-43e6-a2ee-dc87f895a0c8",
+    "PolicyID": "14673c61-d6c6-4eec-a1dc-d1c28bc7c8fa",
+    "EffectiveDates": {
+        "StartDate": "2023-12-25",
+        "EndDate": "2024-12-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8198325a-79ba-4a02-8ada-4c538b580211",
+        "Name": "Walter Taylor",
+        "PolicyNumber": "14673c61-d6c6-4eec-a1dc-d1c28bc7c8fa",
+        "ContactInformation": {
+            "Phone": "(602)228-9985",
+            "Email": "hernandezteresa@example.com",
+            "Address": "586 Brian Loop\nOrrchester, DE 63212"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-01",
+        "Location": "3418 Clark Trafficway Suite 198\nEast Brandonhaven, WA 02901",
+        "Description": "Director science worker. Air arrive yet Mr.\nSeveral head red true today skin owner. Enough up lead myself but different energy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2072
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12441
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12207
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 198383
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9207
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 48990,
+        "TotalApproved": 19748
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Cobb",
+        "ContactInformation": {
+            "Phone": "569.430.3330",
+            "Email": "cwilliams@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b1751252-e61a-42bc-9590-0c0b33722241"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

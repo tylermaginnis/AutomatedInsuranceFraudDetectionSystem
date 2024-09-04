@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fce7d4ea-d31d-480a-8709-4e498cab0315",
+    "PolicyID": "2657ec7a-6a8b-4075-8839-68c6a5f49c8f",
+    "EffectiveDates": {
+        "StartDate": "2023-09-08",
+        "EndDate": "2024-09-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5aef49ec-daf5-44b5-9cfa-dd7fedef941e",
+        "Name": "Jonathan Duncan",
+        "PolicyNumber": "2657ec7a-6a8b-4075-8839-68c6a5f49c8f",
+        "ContactInformation": {
+            "Phone": "473-920-9971x7876",
+            "Email": "davidhall@example.net",
+            "Address": "7630 Bennett Forges Suite 154\nLindamouth, MA 91908"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-17",
+        "Location": "76780 Nathan Park Suite 190\nFitzgeraldhaven, HI 17697",
+        "Description": "Near defense back than say ability. Data forget discover loss defense. Light herself lot that determine street student."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10756
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 111139
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10965
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7244
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4248
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 125221,
+        "TotalApproved": 10636
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Esparza",
+        "ContactInformation": {
+            "Phone": "512-546-6844",
+            "Email": "kevinparker@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/721b0972-3492-4979-a0cb-b2fd525ac91a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

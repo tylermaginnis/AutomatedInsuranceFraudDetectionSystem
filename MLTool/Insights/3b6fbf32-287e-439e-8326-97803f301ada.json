@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3b6fbf32-287e-439e-8326-97803f301ada",
+    "PolicyID": "5f645e05-aca0-4e38-831c-76b7e0924729",
+    "EffectiveDates": {
+        "StartDate": "2024-06-09",
+        "EndDate": "2025-06-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a0b523e3-aa28-47e5-b0b5-c81041590b18",
+        "Name": "Ms. Michelle Johnson PhD",
+        "PolicyNumber": "5f645e05-aca0-4e38-831c-76b7e0924729",
+        "ContactInformation": {
+            "Phone": "+1-940-677-8293x77298",
+            "Email": "evansjohn@example.org",
+            "Address": "9470 Vaughn Place Suite 305\nYangfort, OK 72054"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-09",
+        "Location": "095 Daniel Square Apt. 175\nWest Joel, LA 96226",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 89874
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 29031
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7220
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13521
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12037
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151683,
+        "TotalApproved": 65690
+    },
+    "AdjusterDetails": {
+        "Name": "David Jones",
+        "ContactInformation": {
+            "Phone": "752.936.6426x76678",
+            "Email": "gary48@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/2ab5c440-130d-49f8-b922-c120d0789af6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-09T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-14T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-19T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

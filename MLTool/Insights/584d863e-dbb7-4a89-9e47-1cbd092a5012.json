@@ -1,0 +1,81 @@
+{
+    "ClaimID": "584d863e-dbb7-4a89-9e47-1cbd092a5012",
+    "PolicyID": "eff5109b-44ce-4576-b3a4-afc810776282",
+    "EffectiveDates": {
+        "StartDate": "2023-09-10",
+        "EndDate": "2024-09-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f831e57e-5385-46c0-91dd-59e8574d2731",
+        "Name": "Scott Harper",
+        "PolicyNumber": "eff5109b-44ce-4576-b3a4-afc810776282",
+        "ContactInformation": {
+            "Phone": "916-651-6672x6395",
+            "Email": "sarahhart@example.org",
+            "Address": "73204 Wanda Views\nPort Ellenport, WI 88206"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-06",
+        "Location": "39906 Pena Wall Apt. 351\nNew Brian, OR 88061",
+        "Description": "Popular nor around art far vote state. Deal pay hold someone about hand across down.\nPerhaps determine million language course nature huge media. Worry item week not such protect."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23967
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71475
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4159
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 142858
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90430
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 28162,
+        "TotalApproved": 5636
+    },
+    "AdjusterDetails": {
+        "Name": "Jeffrey Miller",
+        "ContactInformation": {
+            "Phone": "001-442-639-8789x314",
+            "Email": "chaneyallison@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/dd81aaf7-a8f7-4bf5-9913-ed169cdfb86d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-06T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-11T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-16T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

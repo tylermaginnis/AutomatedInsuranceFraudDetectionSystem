@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c71a4b95-9ff8-459a-8dba-7a56bfa8bdb2",
+  "PolicyID": "b83100d1-b9f2-4526-b13c-3decabc735f7",
+  "EffectiveDates": {
+    "StartDate": "2024-08-31",
+    "EndDate": "2025-08-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0e8c9533-5145-44d5-8d38-2078c0cbb0eb",
+    "Name": "Jenna Pearson",
+    "PolicyNumber": "b83100d1-b9f2-4526-b13c-3decabc735f7",
+    "ContactInformation": {
+      "Phone": "001-847-325-2467",
+      "Email": "zmacdonald@example.net",
+      "Address": "2875 Gordon Passage Apt. 986\nBrianmouth, LA 33454"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-08-25",
+    "Location": "522 Sanchez Prairie Suite 663\nHeatherberg, MN 31549",
+    "Description": "Detail nothing purpose much about TV every.\nSchool seven agree air. Score responsibility movement that number rise.\nBeautiful guess role also. Year sense away manage real."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 80001
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 14360
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6141
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9370
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 14251
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 44982,
+    "TotalApproved": 31503
+  },
+  "AdjusterDetails": {
+    "Name": "Todd Adams",
+    "ContactInformation": {
+      "Phone": "+1-278-678-1460x8944",
+      "Email": "vancejasmine@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/883f9783-2f96-464e-b8ac-07c3eb5e4da4"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-08-25T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-08-30T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-09-04T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

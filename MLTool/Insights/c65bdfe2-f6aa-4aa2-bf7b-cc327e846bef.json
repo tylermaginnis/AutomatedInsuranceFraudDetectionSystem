@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c65bdfe2-f6aa-4aa2-bf7b-cc327e846bef",
+    "PolicyID": "e4382ac1-d185-418a-b168-ee8a71402e64",
+    "EffectiveDates": {
+        "StartDate": "2024-01-11",
+        "EndDate": "2025-01-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8420dbf1-806c-448b-b46f-2512866a2287",
+        "Name": "Sierra Marquez",
+        "PolicyNumber": "e4382ac1-d185-418a-b168-ee8a71402e64",
+        "ContactInformation": {
+            "Phone": "+1-939-963-4124x7967",
+            "Email": "ljohnson@example.org",
+            "Address": "263 Jeffrey Mews Apt. 514\nPiercefort, MT 17580"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-11",
+        "Location": "3351 Julie Estates Suite 598\nSouth Nicole, TX 63669",
+        "Description": "Eye theory beautiful account audience phone memory. Industry move beautiful something address wall."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 95659
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 108970
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4486
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19334
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 87964
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 13370,
+        "TotalApproved": 7636
+    },
+    "AdjusterDetails": {
+        "Name": "Nicholas Boone",
+        "ContactInformation": {
+            "Phone": "779-862-3157x0232",
+            "Email": "lesliegreen@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2343d99e-9565-4cf2-ab61-fcd07ca56885"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

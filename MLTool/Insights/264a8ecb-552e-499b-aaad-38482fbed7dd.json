@@ -1,0 +1,81 @@
+{
+    "ClaimID": "264a8ecb-552e-499b-aaad-38482fbed7dd",
+    "PolicyID": "8bf52e64-607d-4bbe-9ffd-9a7d9681f961",
+    "EffectiveDates": {
+        "StartDate": "2024-03-01",
+        "EndDate": "2025-03-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d21825a6-68bc-4f32-89b3-e6cad85f6746",
+        "Name": "Michelle Mccormick",
+        "PolicyNumber": "8bf52e64-607d-4bbe-9ffd-9a7d9681f961",
+        "ContactInformation": {
+            "Phone": "001-368-883-9427x4165",
+            "Email": "tanyamurillo@example.org",
+            "Address": "30183 Hernandez Lodge\nCampbellstad, IN 61846"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-01",
+        "Location": "999 Sheila Manors Suite 027\nWest Brianna, NC 12414",
+        "Description": "Her eat decide too score. Kitchen especially travel adult away any experience total.\nWhether need focus court. Center at detail floor low somebody."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 56498
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1103
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12114
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 58534
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9155
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 165817,
+        "TotalApproved": 78141
+    },
+    "AdjusterDetails": {
+        "Name": "Lori Rivers",
+        "ContactInformation": {
+            "Phone": "3106846867",
+            "Email": "ssimmons@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/422bc0a0-d1f6-4f46-a29c-5d647f1a912a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-01T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-06T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-11T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

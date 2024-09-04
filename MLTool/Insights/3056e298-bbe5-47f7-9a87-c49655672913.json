@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3056e298-bbe5-47f7-9a87-c49655672913",
+    "PolicyID": "379b2257-1b07-46b8-9c01-750df2a0272c",
+    "EffectiveDates": {
+        "StartDate": "2023-12-12",
+        "EndDate": "2024-12-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d7bebee8-02b3-4eb4-a213-2c99ed9b83f3",
+        "Name": "Margaret Ellis",
+        "PolicyNumber": "379b2257-1b07-46b8-9c01-750df2a0272c",
+        "ContactInformation": {
+            "Phone": "+1-742-528-6536x750",
+            "Email": "hodgetina@example.net",
+            "Address": "638 Erin Lane Apt. 093\nNorth Heatherside, ID 29556"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-23",
+        "Location": "7596 Martin Falls Suite 853\nDanielville, AR 43826",
+        "Description": "Between his media. Throughout include leader box general. Mission social large.\nPartner force sign concern science tree new southern. Long walk young hotel."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 97928
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47518
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37764
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 69025
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25199
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 167768,
+        "TotalApproved": 71085
+    },
+    "AdjusterDetails": {
+        "Name": "Sean Rodriguez",
+        "ContactInformation": {
+            "Phone": "800-838-4986x48373",
+            "Email": "mason80@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2464bcb1-1aae-4cbd-9d6d-af51ff7b15d5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-23T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-28T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-03T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

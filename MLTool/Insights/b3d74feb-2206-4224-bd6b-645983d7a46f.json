@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b3d74feb-2206-4224-bd6b-645983d7a46f",
+    "PolicyID": "8f332053-e029-4280-90fe-bb8579c6a697",
+    "EffectiveDates": {
+        "StartDate": "2024-07-14",
+        "EndDate": "2025-07-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "760b799c-20ca-47fe-914b-8e3fdae6c306",
+        "Name": "Robert Young",
+        "PolicyNumber": "8f332053-e029-4280-90fe-bb8579c6a697",
+        "ContactInformation": {
+            "Phone": "694-923-8478x0397",
+            "Email": "amandajefferson@example.org",
+            "Address": "PSC 0843, Box 0916\nAPO AP 16076"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-08",
+        "Location": "5259 Zachary Junctions\nNorth Kellymouth, NE 77233",
+        "Description": "Science whole half teacher program. Station authority better growth."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8510
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 53409
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 98989
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11166
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 61736
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 44241,
+        "TotalApproved": 3367
+    },
+    "AdjusterDetails": {
+        "Name": "Amber Higgins",
+        "ContactInformation": {
+            "Phone": "917.753.0533x4926",
+            "Email": "james72@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9b9d6999-6048-4afe-906e-7ae46b103369"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-08T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-13T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-18T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

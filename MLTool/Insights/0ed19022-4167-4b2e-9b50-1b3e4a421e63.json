@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0ed19022-4167-4b2e-9b50-1b3e4a421e63",
+    "PolicyID": "161d802d-575e-4498-90ac-ebb7189de664",
+    "EffectiveDates": {
+        "StartDate": "2024-05-15",
+        "EndDate": "2025-05-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "16aae2e5-b4c0-4082-a09d-10bf5a7268e1",
+        "Name": "Cheryl Green",
+        "PolicyNumber": "161d802d-575e-4498-90ac-ebb7189de664",
+        "ContactInformation": {
+            "Phone": "(423)572-3278",
+            "Email": "matthewkelley@example.com",
+            "Address": "2698 Daniel Road\nPort Richard, NM 65733"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-06",
+        "Location": "6962 Ronald Brooks\nPort Michelle, NY 57328",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 94348
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25584
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7464
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17735
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18779
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 163910,
+        "TotalApproved": 38786
+    },
+    "AdjusterDetails": {
+        "Name": "Shane Valentine",
+        "ContactInformation": {
+            "Phone": "+1-364-890-1515x878",
+            "Email": "tanya96@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/64761690-8762-4dee-bff6-62cdb97e5dc7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-06T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-11T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-16T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

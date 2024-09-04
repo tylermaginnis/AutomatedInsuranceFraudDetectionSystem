@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7fa6503b-b33a-4356-bc3f-ace75dbd15a5",
+    "PolicyID": "eb0a9794-29cb-467f-96ee-207e4686e4d9",
+    "EffectiveDates": {
+        "StartDate": "2024-02-24",
+        "EndDate": "2025-02-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ccd0a63c-b1b5-4290-9d2a-ecdd6576343a",
+        "Name": "Samuel Conner",
+        "PolicyNumber": "eb0a9794-29cb-467f-96ee-207e4686e4d9",
+        "ContactInformation": {
+            "Phone": "873.474.7531x4765",
+            "Email": "johnmendez@example.com",
+            "Address": "49679 James Ridge Suite 107\nThomasmouth, NH 35299"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-21",
+        "Location": "016 Ronald Falls\nHoffmantown, KS 31498",
+        "Description": "Most physical business threat day participant. Knowledge series thousand hundred. Despite between type significant perform yes."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 98433
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25622
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13541
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 89399
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 73139
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 76719,
+        "TotalApproved": 76535
+    },
+    "AdjusterDetails": {
+        "Name": "Adriana Mcclure",
+        "ContactInformation": {
+            "Phone": "001-362-364-2639",
+            "Email": "rhall@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4ad25b4c-3c36-4752-baec-65d4d58fdf30"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-31T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

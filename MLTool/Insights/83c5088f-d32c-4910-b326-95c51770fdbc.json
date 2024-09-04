@@ -1,0 +1,81 @@
+{
+    "ClaimID": "83c5088f-d32c-4910-b326-95c51770fdbc",
+    "PolicyID": "429594ac-8f43-4bae-8285-e244a1f47b0f",
+    "EffectiveDates": {
+        "StartDate": "2024-08-05",
+        "EndDate": "2025-08-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8033ad4f-2a1e-4b1c-93d1-9d523f9d148b",
+        "Name": "Bradley Murphy",
+        "PolicyNumber": "429594ac-8f43-4bae-8285-e244a1f47b0f",
+        "ContactInformation": {
+            "Phone": "789.814.9193x391",
+            "Email": "angela95@example.com",
+            "Address": "6763 Johnson Divide Suite 102\nCarterchester, KS 95220"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-18",
+        "Location": "067 Kyle Plains Suite 858\nLake Erica, CT 89617",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 59851
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49766
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5808
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14948
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10517
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 140890,
+        "TotalApproved": 103569
+    },
+    "AdjusterDetails": {
+        "Name": "Jerry Hill",
+        "ContactInformation": {
+            "Phone": "932.307.6163x30932",
+            "Email": "aperkins@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/03a1565d-ac38-4ddf-a2d6-f5f31267fdd7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

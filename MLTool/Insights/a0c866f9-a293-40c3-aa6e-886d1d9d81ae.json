@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a0c866f9-a293-40c3-aa6e-886d1d9d81ae",
+    "PolicyID": "377910df-06ba-4921-96e7-1935097d3571",
+    "EffectiveDates": {
+        "StartDate": "2023-10-26",
+        "EndDate": "2024-10-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c5428339-f16e-4dd9-8792-12a31567aa78",
+        "Name": "Darrell Deleon",
+        "PolicyNumber": "377910df-06ba-4921-96e7-1935097d3571",
+        "ContactInformation": {
+            "Phone": "(959)514-3153x222",
+            "Email": "rdyer@example.org",
+            "Address": "2919 Thomas Greens Suite 636\nJohnmouth, IL 21358"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-25",
+        "Location": "17527 Parrish Landing\nClintonchester, IA 94295",
+        "Description": "Fund trip remain month major face. Year history maintain item away.\nWho piece stage matter prove smile thought. Voice system the pass former community."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9818
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2213
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37608
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1633
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1755
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 27302,
+        "TotalApproved": 21706
+    },
+    "AdjusterDetails": {
+        "Name": "Brenda Rodriguez",
+        "ContactInformation": {
+            "Phone": "(510)852-4740x661",
+            "Email": "elliscarlos@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/afe04075-8390-4a34-b191-d7c46751ee6e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-25T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-30T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-04T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

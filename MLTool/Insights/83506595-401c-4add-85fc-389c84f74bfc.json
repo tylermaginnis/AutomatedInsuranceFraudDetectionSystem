@@ -1,0 +1,81 @@
+{
+    "ClaimID": "83506595-401c-4add-85fc-389c84f74bfc",
+    "PolicyID": "f3832e3d-ab43-43f5-8a5e-1546641b01f9",
+    "EffectiveDates": {
+        "StartDate": "2024-03-20",
+        "EndDate": "2025-03-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "975571b3-0537-4f5b-a00e-d5077c5b517e",
+        "Name": "Zachary Diaz",
+        "PolicyNumber": "f3832e3d-ab43-43f5-8a5e-1546641b01f9",
+        "ContactInformation": {
+            "Phone": "001-591-820-9496x265",
+            "Email": "rebeccamorris@example.com",
+            "Address": "762 Frank Expressway\nKeithhaven, MS 64419"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-29",
+        "Location": "92363 Sweeney Way\nNew Jennifer, PA 94632",
+        "Description": "Purpose set audience. Least education exist ask have.\nHear half industry writer safe.\nInside kitchen foreign join everything. Leader community prevent community picture always."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31654
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3677
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 75983
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 55348
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6666
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 2847,
+        "TotalApproved": 2692
+    },
+    "AdjusterDetails": {
+        "Name": "Donald Bentley",
+        "ContactInformation": {
+            "Phone": "462.239.9901",
+            "Email": "stacey73@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ad199d6e-cc23-4212-b869-f759124ff0d5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-29T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-03T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-08T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

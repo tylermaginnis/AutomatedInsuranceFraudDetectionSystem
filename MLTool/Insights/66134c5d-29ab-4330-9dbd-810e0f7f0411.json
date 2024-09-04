@@ -1,0 +1,81 @@
+{
+    "ClaimID": "66134c5d-29ab-4330-9dbd-810e0f7f0411",
+    "PolicyID": "d81056b6-eaf6-415d-99ef-e34b99543e3d",
+    "EffectiveDates": {
+        "StartDate": "2023-09-15",
+        "EndDate": "2024-09-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f635687c-07d5-4516-90eb-34f929bc268b",
+        "Name": "Mary Brown",
+        "PolicyNumber": "d81056b6-eaf6-415d-99ef-e34b99543e3d",
+        "ContactInformation": {
+            "Phone": "001-795-966-5924x3582",
+            "Email": "hicksstacy@example.net",
+            "Address": "883 Jones Pines\nBarkerbury, HI 34099"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-10-23",
+        "Location": "7647 Mark Parkways Suite 635\nSouth Haley, NV 10809",
+        "Description": "Modern on time perhaps adult Republican couple. Attorney write feel three until.\nProperty wish language community alone. Current we everyone herself."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5996
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3445
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2925
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37933
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 104776
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 175847,
+        "TotalApproved": 81121
+    },
+    "AdjusterDetails": {
+        "Name": "Scott Juarez",
+        "ContactInformation": {
+            "Phone": "473-810-5468x552",
+            "Email": "brandondavidson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/670589ce-b76c-43de-8b38-c6ba41728d15"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-10-23T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-28T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-02T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

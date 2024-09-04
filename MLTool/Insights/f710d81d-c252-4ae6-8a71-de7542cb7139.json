@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f710d81d-c252-4ae6-8a71-de7542cb7139",
+    "PolicyID": "2db7f52b-c99a-4e22-91c5-8980b281f338",
+    "EffectiveDates": {
+        "StartDate": "2023-11-30",
+        "EndDate": "2024-11-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f3a7c7d0-7a7f-4fa2-b313-82e591efd42f",
+        "Name": "Sandra Ray",
+        "PolicyNumber": "2db7f52b-c99a-4e22-91c5-8980b281f338",
+        "ContactInformation": {
+            "Phone": "390-847-9706x25734",
+            "Email": "ryan42@example.net",
+            "Address": "80106 Allison Isle Suite 008\nNorth Christopher, CA 81538"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-11",
+        "Location": "4174 Donald Forest Apt. 668\nNorth Jasonmouth, MS 75890",
+        "Description": "Mention vote such. Team instead he.\nProve respond between less knowledge under nation. Election upon back company soldier child both huge."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1018
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 197022
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11641
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 113349
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6849
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 89782,
+        "TotalApproved": 81003
+    },
+    "AdjusterDetails": {
+        "Name": "Scott Khan",
+        "ContactInformation": {
+            "Phone": "2948995626",
+            "Email": "brettmichael@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/254dbf43-c5be-4e15-bae9-ea7fa81bbd7e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-11T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-16T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-21T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

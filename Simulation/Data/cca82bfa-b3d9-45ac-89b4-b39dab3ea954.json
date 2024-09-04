@@ -1,0 +1,80 @@
+{
+  "ClaimID": "cca82bfa-b3d9-45ac-89b4-b39dab3ea954",
+  "PolicyID": "e1c7bf46-d6c4-4fef-ac6d-6ee87203fea0",
+  "EffectiveDates": {
+    "StartDate": "2023-09-20",
+    "EndDate": "2024-09-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f05f6c31-458a-4320-811b-4943e9279cb3",
+    "Name": "Doris Massey",
+    "PolicyNumber": "e1c7bf46-d6c4-4fef-ac6d-6ee87203fea0",
+    "ContactInformation": {
+      "Phone": "769-380-5652",
+      "Email": "melaniesmith@example.com",
+      "Address": "5772 Aaron Isle Apt. 963\nSouth Josephfort, FM 14664"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-02",
+    "Location": "543 Weaver Rest\nEast Ashley, DE 90924",
+    "Description": "Thus significant I agent laugh. School argue eat treat lawyer. Doctor same part letter."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 84366
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 32009
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 56778
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 12400
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1245
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 4336,
+    "TotalApproved": 3405
+  },
+  "AdjusterDetails": {
+    "Name": "Amanda Merritt",
+    "ContactInformation": {
+      "Phone": "801-531-3415",
+      "Email": "fneal@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/756ec877-085e-4dd8-9a43-d4b4c7fe94f1"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-02T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-07T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-12T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

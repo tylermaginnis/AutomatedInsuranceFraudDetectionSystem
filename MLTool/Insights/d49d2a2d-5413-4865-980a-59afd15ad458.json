@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d49d2a2d-5413-4865-980a-59afd15ad458",
+    "PolicyID": "6d782995-cf9e-49f8-ba07-a056afae5ff1",
+    "EffectiveDates": {
+        "StartDate": "2023-10-16",
+        "EndDate": "2024-10-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a83849b2-ac68-43d6-8717-3a55e7cfcbb0",
+        "Name": "Jason Coleman",
+        "PolicyNumber": "6d782995-cf9e-49f8-ba07-a056afae5ff1",
+        "ContactInformation": {
+            "Phone": "(349)747-7544",
+            "Email": "joseph58@example.org",
+            "Address": "Unit 3354 Box 4895\nDPO AA 34034"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-12",
+        "Location": "Unit 2575 Box 7996\nDPO AP 04533",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 51306
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 25905
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9937
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23658
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19350
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 130156,
+        "TotalApproved": 29148
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Roach",
+        "ContactInformation": {
+            "Phone": "(822)622-5396x113",
+            "Email": "ronaldjohnson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/999dc9cc-5bf0-48fb-9c18-ac29c43819c9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-12T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-17T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-22T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c12c50af-cbaa-4969-98ac-f8deb7c837a6",
+    "PolicyID": "a3bc193d-5bda-4872-b034-78252ad4fa78",
+    "EffectiveDates": {
+        "StartDate": "2023-12-18",
+        "EndDate": "2024-12-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "609fed50-5ebb-4d79-961f-442ca4a55af4",
+        "Name": "John Fowler",
+        "PolicyNumber": "a3bc193d-5bda-4872-b034-78252ad4fa78",
+        "ContactInformation": {
+            "Phone": "2008854114",
+            "Email": "jeffreymercer@example.com",
+            "Address": "562 Harper Trace\nWest Natasha, DE 37278"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-11",
+        "Location": "2018 William Estate\nHaydenside, LA 75529",
+        "Description": "Decade let high piece. Check reduce create eye there also activity card.\nApproach beat so clear suddenly. Or indicate later million. Fire site card term religious listen or."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 84603
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33919
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 62010
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32464
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12115
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 172863,
+        "TotalApproved": 30393
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Suarez DDS",
+        "ContactInformation": {
+            "Phone": "978.590.2014x44278",
+            "Email": "holmestroy@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9aef3a05-7538-4630-b7fd-4b3d49c33a83"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

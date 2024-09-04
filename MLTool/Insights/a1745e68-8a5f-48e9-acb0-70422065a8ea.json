@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a1745e68-8a5f-48e9-acb0-70422065a8ea",
+    "PolicyID": "dfd9a859-f3b7-4974-a1b1-2e5eb22a42fa",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1c52e13c-9a93-458f-8d75-047583094e8a",
+        "Name": "Charles Mcneil",
+        "PolicyNumber": "dfd9a859-f3b7-4974-a1b1-2e5eb22a42fa",
+        "ContactInformation": {
+            "Phone": "(557)678-9592",
+            "Email": "samuelgreen@example.org",
+            "Address": "721 Shawna Common\nNorth Jenniferberg, OH 20978"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-18",
+        "Location": "50561 Tyler Shore\nHuffmanmouth, ND 47838",
+        "Description": "Whose offer despite season simply white establish.\nRun question research. With bed president Mr like he wrong."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1129
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 78763
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 76941
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 104710
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5529
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 12641,
+        "TotalApproved": 6317
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Phillips",
+        "ContactInformation": {
+            "Phone": "993-551-0917",
+            "Email": "haley09@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3ce5e428-3211-4443-b69a-97b396102747"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

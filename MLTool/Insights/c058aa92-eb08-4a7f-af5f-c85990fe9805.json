@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c058aa92-eb08-4a7f-af5f-c85990fe9805",
+    "PolicyID": "e337ccb6-413f-4f70-8a53-8d38724ae56c",
+    "EffectiveDates": {
+        "StartDate": "2023-10-20",
+        "EndDate": "2024-10-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5e863e16-3ca8-4ec5-9481-a708fa2d704e",
+        "Name": "Mario Olson",
+        "PolicyNumber": "e337ccb6-413f-4f70-8a53-8d38724ae56c",
+        "ContactInformation": {
+            "Phone": "001-805-777-6903",
+            "Email": "wadecarrie@example.net",
+            "Address": "7943 Fisher Villages\nMichaelshire, AZ 88169"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-09",
+        "Location": "5550 Burch Road Suite 136\nRaymondland, WV 39679",
+        "Description": "Little pass letter so travel.\nShare local after structure. Son or white put green billion. Network in tell issue."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15939
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2329
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22823
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11148
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 62361
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 86799,
+        "TotalApproved": 37838
+    },
+    "AdjusterDetails": {
+        "Name": "John Smith",
+        "ContactInformation": {
+            "Phone": "001-420-325-2165",
+            "Email": "vwilson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/961bd22a-ac00-414b-b8e7-5a85f2cdb996"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-09T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-14T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-19T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

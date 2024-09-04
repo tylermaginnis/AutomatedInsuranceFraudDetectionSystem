@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2c5eea94-8612-467d-998d-1d4842b864e2",
+    "PolicyID": "c0e456ac-9b19-4a3d-aace-ca27c07a771a",
+    "EffectiveDates": {
+        "StartDate": "2024-02-20",
+        "EndDate": "2025-02-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d6453c5a-5fd8-4bfd-a9f6-def1e7e75cb6",
+        "Name": "Jeffrey Steele",
+        "PolicyNumber": "c0e456ac-9b19-4a3d-aace-ca27c07a771a",
+        "ContactInformation": {
+            "Phone": "(804)810-7307",
+            "Email": "tmerritt@example.net",
+            "Address": "1505 Eric Underpass\nWilliamsview, DC 48195"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-13",
+        "Location": "PSC 7905, Box 2370\nAPO AA 93125",
+        "Description": "Wear thing size design big. Current color camera down quickly item book."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23106
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4203
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8735
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1407
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 75141
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 195923,
+        "TotalApproved": 188068
+    },
+    "AdjusterDetails": {
+        "Name": "Teresa Torres",
+        "ContactInformation": {
+            "Phone": "524.936.3700x1365",
+            "Email": "anita17@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8cd589e4-f0ca-4ff7-a878-6357322d83f3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

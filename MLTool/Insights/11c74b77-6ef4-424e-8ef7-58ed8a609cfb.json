@@ -1,0 +1,81 @@
+{
+    "ClaimID": "11c74b77-6ef4-424e-8ef7-58ed8a609cfb",
+    "PolicyID": "7683b2fc-4d8a-497b-a0b9-b58dd506e747",
+    "EffectiveDates": {
+        "StartDate": "2024-08-31",
+        "EndDate": "2025-08-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5d5127bc-eab0-4beb-95cb-d2332cc7dc2e",
+        "Name": "Chris Anderson Jr.",
+        "PolicyNumber": "7683b2fc-4d8a-497b-a0b9-b58dd506e747",
+        "ContactInformation": {
+            "Phone": "+1-306-552-9961x565",
+            "Email": "cpham@example.net",
+            "Address": "08235 John Wells\nCortezmouth, LA 98349"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-07",
+        "Location": "26587 Savage Camp Suite 978\nLake Angelica, AZ 69735",
+        "Description": "Perform evening movie beat nearly. Design state food country daughter organization.\nAuthor light structure bank join identify. Pay suddenly break."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18685
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25085
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 100221
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7656
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23913
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 141606,
+        "TotalApproved": 125441
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Young",
+        "ContactInformation": {
+            "Phone": "9825177909",
+            "Email": "cameron67@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e1a54e91-c9c5-41ad-b4d9-5d03729ae4ec"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

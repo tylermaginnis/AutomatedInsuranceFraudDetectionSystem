@@ -1,0 +1,81 @@
+{
+    "ClaimID": "04edd384-b55f-45f2-96e6-6b28ea71d636",
+    "PolicyID": "321a9a5d-12a7-4e8d-86e0-151dbdc340b8",
+    "EffectiveDates": {
+        "StartDate": "2023-12-17",
+        "EndDate": "2024-12-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "01361e72-80be-4bee-a511-1ce891f04854",
+        "Name": "Daniel Ortiz",
+        "PolicyNumber": "321a9a5d-12a7-4e8d-86e0-151dbdc340b8",
+        "ContactInformation": {
+            "Phone": "001-658-481-8030x67321",
+            "Email": "jennifer05@example.org",
+            "Address": "455 Brandy Port Apt. 706\nWoodsshire, ID 21240"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-18",
+        "Location": "USNV Weaver\nFPO AE 22336",
+        "Description": "Language hand operation tough consumer down gas."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4263
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32699
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18826
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4918
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 110812
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 136315,
+        "TotalApproved": 58513
+    },
+    "AdjusterDetails": {
+        "Name": "Barbara Cervantes",
+        "ContactInformation": {
+            "Phone": "912.749.5263x1993",
+            "Email": "ytorres@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fb310a9c-8cb6-416f-b3ac-dd6a76d94d16"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

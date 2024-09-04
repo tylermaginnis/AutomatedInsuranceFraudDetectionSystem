@@ -1,0 +1,81 @@
+{
+    "ClaimID": "34a86540-2c5a-4c42-b455-50e270ab20a3",
+    "PolicyID": "933c0dd8-d036-4f79-9278-5d6be5811b1d",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2531a358-2ba1-4e6f-9724-161bf62c8518",
+        "Name": "Stephanie Wang",
+        "PolicyNumber": "933c0dd8-d036-4f79-9278-5d6be5811b1d",
+        "ContactInformation": {
+            "Phone": "611-454-2959",
+            "Email": "gonzalezlisa@example.net",
+            "Address": "8688 Ariel Ford\nOwensside, CO 59933"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-20",
+        "Location": "USS Young\nFPO AP 11554",
+        "Description": "Rock degree buy fire smile itself father. What woman sit idea person suddenly discover enjoy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18938
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1864
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10059
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39054
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11215
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 71513,
+        "TotalApproved": 42762
+    },
+    "AdjusterDetails": {
+        "Name": "Alec Williams",
+        "ContactInformation": {
+            "Phone": "001-720-292-2049x63890",
+            "Email": "jodihughes@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/46a8ee5d-89c3-4bcd-a523-00ef93025e39"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-20T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-25T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-30T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

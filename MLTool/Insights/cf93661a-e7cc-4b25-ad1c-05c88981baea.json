@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cf93661a-e7cc-4b25-ad1c-05c88981baea",
+    "PolicyID": "e2845cc8-3c5c-4e9d-a53e-cbe6f3f82595",
+    "EffectiveDates": {
+        "StartDate": "2023-12-30",
+        "EndDate": "2024-12-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c26c6932-5625-488b-8fd2-d293542a67b2",
+        "Name": "Rachael Carter",
+        "PolicyNumber": "e2845cc8-3c5c-4e9d-a53e-cbe6f3f82595",
+        "ContactInformation": {
+            "Phone": "+1-651-789-2430",
+            "Email": "gatesrebecca@example.org",
+            "Address": "7828 Danielle Union Apt. 069\nAprilchester, IN 75045"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-15",
+        "Location": "419 Patricia Light\nEast Charlesstad, NJ 59218",
+        "Description": "Two trouble bar dream none bring. Move herself center now guess question president. Position bed car."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 192256
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44006
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5742
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6336
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 98904
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 15091,
+        "TotalApproved": 4906
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Morton",
+        "ContactInformation": {
+            "Phone": "755-990-4962",
+            "Email": "nstephens@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3e82648d-a50a-4a92-8374-927870158a75"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

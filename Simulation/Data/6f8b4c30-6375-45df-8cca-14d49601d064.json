@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6f8b4c30-6375-45df-8cca-14d49601d064",
+  "PolicyID": "225f4c8f-238b-44c0-ab46-4dc65bf3c1b1",
+  "EffectiveDates": {
+    "StartDate": "2024-07-07",
+    "EndDate": "2025-07-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "fb9fa5a8-d4c8-4162-965b-32297cfba01e",
+    "Name": "Scott Long",
+    "PolicyNumber": "225f4c8f-238b-44c0-ab46-4dc65bf3c1b1",
+    "ContactInformation": {
+      "Phone": "204.939.2464x414",
+      "Email": "johnmiller@example.com",
+      "Address": "12864 Erickson Meadows Apt. 301\nPort Jeffreytown, MS 25731"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-03",
+    "Location": "75441 Travis Turnpike Apt. 547\nToddborough, GA 34280",
+    "Description": "Way rate leg little party network listen consider. Section fire necessary moment ever. Inside look present.\nMove technology respond choice again. Support activity sister exactly travel water protect."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9761
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5324
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 188529
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 18893
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 19341
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 184406,
+    "TotalApproved": 26365
+  },
+  "AdjusterDetails": {
+    "Name": "Brandi Lucero",
+    "ContactInformation": {
+      "Phone": "996-371-9008",
+      "Email": "krandolph@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/775cf583-7763-4477-87c6-dcdc9c10f885"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-03T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-08T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-13T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

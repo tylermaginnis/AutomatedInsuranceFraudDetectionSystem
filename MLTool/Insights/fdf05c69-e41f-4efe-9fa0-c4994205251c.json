@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fdf05c69-e41f-4efe-9fa0-c4994205251c",
+    "PolicyID": "fb89e40f-3d3b-45b5-8154-b0bfff9e7ac0",
+    "EffectiveDates": {
+        "StartDate": "2024-01-15",
+        "EndDate": "2025-01-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "19522b76-e78f-4acf-9b6a-34780ca0a36f",
+        "Name": "Pamela Carlson",
+        "PolicyNumber": "fb89e40f-3d3b-45b5-8154-b0bfff9e7ac0",
+        "ContactInformation": {
+            "Phone": "+1-202-414-2222",
+            "Email": "efrench@example.org",
+            "Address": "88584 Marissa Squares\nRobinfort, UT 69062"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-07",
+        "Location": "533 Daniel Lock\nVeronicaborough, IL 92272",
+        "Description": "Magazine fire beyond include meeting feel. Poor which class eye far.\nProduct hot rather what. Suggest son activity.\nChild staff approach black fight wind. Interview after prove test whom."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 43057
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 72539
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29768
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25444
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19981
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154216,
+        "TotalApproved": 70112
+    },
+    "AdjusterDetails": {
+        "Name": "Calvin Webb",
+        "ContactInformation": {
+            "Phone": "579.429.8324",
+            "Email": "iadams@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/df134791-c880-4ed8-a922-c561c3bb5d59"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-07T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-12T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-17T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

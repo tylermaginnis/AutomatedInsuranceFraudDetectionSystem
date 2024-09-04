@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1c636420-d316-4743-8e87-fba390060245",
+  "PolicyID": "d0e31932-4e04-4afe-ba78-272f30f5fbd6",
+  "EffectiveDates": {
+    "StartDate": "2024-05-16",
+    "EndDate": "2025-05-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "55e4f183-5621-4720-b76d-55a90ab01746",
+    "Name": "Joseph Robinson",
+    "PolicyNumber": "d0e31932-4e04-4afe-ba78-272f30f5fbd6",
+    "ContactInformation": {
+      "Phone": "490-629-3000",
+      "Email": "roger63@example.org",
+      "Address": "26125 Murray Heights Suite 763\nWoodstown, WV 15119"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-13",
+    "Location": "86770 Amanda Stravenue Suite 693\nLopezshire, IN 08905",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 53407
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 32650
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9616
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 15566
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 18816
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 130055,
+    "TotalApproved": 100365
+  },
+  "AdjusterDetails": {
+    "Name": "Michele Harper",
+    "ContactInformation": {
+      "Phone": "001-469-492-3023x8165",
+      "Email": "zreid@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/2c1dfb92-5da7-4e07-b746-ca43914ff49f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-13T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-18T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-23T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

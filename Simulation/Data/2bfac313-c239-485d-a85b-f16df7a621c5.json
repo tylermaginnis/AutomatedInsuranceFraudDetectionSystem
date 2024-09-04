@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2bfac313-c239-485d-a85b-f16df7a621c5",
+  "PolicyID": "c905a604-8bfb-46a3-8f8f-19cb70fc5255",
+  "EffectiveDates": {
+    "StartDate": "2024-04-27",
+    "EndDate": "2025-04-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "845b5ece-b2a4-4337-b38e-40b2209e0063",
+    "Name": "Jennifer Woods",
+    "PolicyNumber": "c905a604-8bfb-46a3-8f8f-19cb70fc5255",
+    "ContactInformation": {
+      "Phone": "858-889-6822x3076",
+      "Email": "crodriguez@example.net",
+      "Address": "879 Anderson Ports Suite 760\nNew Travis, AR 36710"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-29",
+    "Location": "3254 Wong Locks\nEast Willie, OH 76676",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 82342
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 34601
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6101
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 11436
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8779
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 143259,
+    "TotalApproved": 135566
+  },
+  "AdjusterDetails": {
+    "Name": "Katie Holmes",
+    "ContactInformation": {
+      "Phone": "+1-288-280-9292",
+      "Email": "johnsonchristopher@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/5c0b0ffe-fbf4-457e-8f98-d6074c3bee28"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-29T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-03T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-08T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

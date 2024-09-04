@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e25c751a-db90-406e-9efc-09135f6201a2",
+    "PolicyID": "b998622e-ef9c-495c-ba35-44c7506ccdeb",
+    "EffectiveDates": {
+        "StartDate": "2024-03-02",
+        "EndDate": "2025-03-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0f3e60df-bc2b-49d5-81e8-01b05e4c324c",
+        "Name": "Andrew Dickerson",
+        "PolicyNumber": "b998622e-ef9c-495c-ba35-44c7506ccdeb",
+        "ContactInformation": {
+            "Phone": "359-771-4235",
+            "Email": "ebutler@example.net",
+            "Address": "Unit 0318 Box 2724\nDPO AP 86253"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-29",
+        "Location": "858 Adam Highway Suite 883\nNorth Melissachester, HI 52305",
+        "Description": "Institution decide from continue growth many. Process expert fund establish animal fact contain. Information human significant send girl moment do."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 191109
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16970
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 68654
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 156366
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 56459
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 177377,
+        "TotalApproved": 19049
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Joanne Chase",
+        "ContactInformation": {
+            "Phone": "738-804-4946x897",
+            "Email": "pbrown@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/bbed6fa0-5b4a-438c-a610-a61ba8a4dda7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0b898181-2500-4aec-bfb1-a2bfc94ff1a3",
+    "PolicyID": "9783fa27-f461-41d8-b03a-8ca21f5cde58",
+    "EffectiveDates": {
+        "StartDate": "2023-12-04",
+        "EndDate": "2024-12-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3f167d38-0e16-4760-abe8-2237a4c5a045",
+        "Name": "Roberta Johnson",
+        "PolicyNumber": "9783fa27-f461-41d8-b03a-8ca21f5cde58",
+        "ContactInformation": {
+            "Phone": "(555)710-9203x5779",
+            "Email": "william71@example.com",
+            "Address": "Unit 3257 Box 1659\nDPO AA 24775"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-18",
+        "Location": "USS Gordon\nFPO AA 74371",
+        "Description": "American history special give. With environment thousand remember alone none.\nTotal easy box.\nSimply group option would major. Do available sister pass."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44104
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 92269
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 78158
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8098
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35806
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 129842,
+        "TotalApproved": 106970
+    },
+    "AdjusterDetails": {
+        "Name": "Cindy Howard",
+        "ContactInformation": {
+            "Phone": "(222)340-2454x43768",
+            "Email": "anthonymccall@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ea634ef6-25b9-491f-b87d-a825811a9797"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "73c366fb-07d4-48a7-8523-e2b990944eba",
+    "PolicyID": "53498f18-27de-49d1-955a-c0bfdbea8488",
+    "EffectiveDates": {
+        "StartDate": "2024-04-01",
+        "EndDate": "2025-04-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "daaded14-d770-4605-aefe-684026c67fd0",
+        "Name": "Laura Rodriguez",
+        "PolicyNumber": "53498f18-27de-49d1-955a-c0bfdbea8488",
+        "ContactInformation": {
+            "Phone": "+1-702-240-3797",
+            "Email": "sean26@example.org",
+            "Address": "5988 Heather Mountains\nNew Alexandria, PA 82929"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-30",
+        "Location": "52871 Gregory Trail Apt. 930\nMooreberg, OH 90151",
+        "Description": "College suddenly point successful her should. Ago enter billion seek line into.\nAttention speak exactly effort. Feel behavior rather carry last serious."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3994
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12587
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47034
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4086
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34897
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 156666,
+        "TotalApproved": 133073
+    },
+    "AdjusterDetails": {
+        "Name": "Bradley Briggs",
+        "ContactInformation": {
+            "Phone": "001-708-924-9026",
+            "Email": "garciajessica@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/00dcef3a-0f56-4c9a-abf9-0acc5f6901cd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

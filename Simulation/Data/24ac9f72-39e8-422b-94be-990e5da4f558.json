@@ -1,0 +1,80 @@
+{
+  "ClaimID": "24ac9f72-39e8-422b-94be-990e5da4f558",
+  "PolicyID": "8095283b-0664-469a-8f7e-f517dec650a7",
+  "EffectiveDates": {
+    "StartDate": "2023-09-14",
+    "EndDate": "2024-09-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "be5909ab-775e-49f5-9bf6-4d1f5e75c556",
+    "Name": "Jacob Ritter",
+    "PolicyNumber": "8095283b-0664-469a-8f7e-f517dec650a7",
+    "ContactInformation": {
+      "Phone": "+1-679-679-9476x472",
+      "Email": "osborneemma@example.org",
+      "Address": "944 Crystal Freeway\nEast Michael, KS 28879"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-07",
+    "Location": "249 Hughes Trafficway Apt. 228\nNew Micheleview, AS 15488",
+    "Description": "Right speak way training discussion statement say. Support road shoulder task record. Always current through type point decision particularly."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 3749
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5275
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 123839
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 27746
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4744
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 10869,
+    "TotalApproved": 5842
+  },
+  "AdjusterDetails": {
+    "Name": "Amanda Greene",
+    "ContactInformation": {
+      "Phone": "729.290.2452x522",
+      "Email": "watsoncarolyn@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/348774aa-d691-4731-8240-001a01927172"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-07T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-12T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-17T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

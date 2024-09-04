@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8a7d8f17-dd31-477a-825b-bd620ead6c8a",
+    "PolicyID": "e8bc3bd7-7e75-40a1-a784-d5e0b888fa1c",
+    "EffectiveDates": {
+        "StartDate": "2024-03-13",
+        "EndDate": "2025-03-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d1fe6093-753d-412d-af1b-85153a342e4d",
+        "Name": "Kevin Reeves",
+        "PolicyNumber": "e8bc3bd7-7e75-40a1-a784-d5e0b888fa1c",
+        "ContactInformation": {
+            "Phone": "368-947-0740",
+            "Email": "floydomar@example.net",
+            "Address": "98594 Debbie Pine Apt. 229\nKennethborough, NH 34866"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-24",
+        "Location": "68922 Smith Village\nSouth Annetteborough, AS 03970",
+        "Description": "A red already own. Company way type science raise plan. East time artist change everybody form mother.\nElse talk for learn health tend suddenly. Us hot law blood yeah."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 148461
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3576
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21417
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44948
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6461
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 30496,
+        "TotalApproved": 28890
+    },
+    "AdjusterDetails": {
+        "Name": "Tyler Harper",
+        "ContactInformation": {
+            "Phone": "(768)759-2560",
+            "Email": "douglas95@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/35a97079-2344-40af-b47d-97e539308070"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-24T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-29T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d30c376d-639d-41a6-b01f-9e8f7060a411",
+    "PolicyID": "4c9a15dc-bc83-477c-81d9-3bf53ce89bd9",
+    "EffectiveDates": {
+        "StartDate": "2024-02-23",
+        "EndDate": "2025-02-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6ddc4f6a-5944-433a-be04-c4c381f74172",
+        "Name": "Michael Turner",
+        "PolicyNumber": "4c9a15dc-bc83-477c-81d9-3bf53ce89bd9",
+        "ContactInformation": {
+            "Phone": "657-898-5612x58178",
+            "Email": "jholmes@example.com",
+            "Address": "2831 Breanna Club\nHannahborough, MN 41519"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-24",
+        "Location": "15970 Johnson Centers\nAlvarezhaven, OR 53035",
+        "Description": "Daughter floor idea return finally since book. Still guess return identify doctor production step. Bit let rest."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21786
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 196410
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6038
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4472
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16206
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 92132,
+        "TotalApproved": 58300
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Carter",
+        "ContactInformation": {
+            "Phone": "8493500142",
+            "Email": "burnssteven@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e75754db-1bc7-497a-9120-e4c36f8e95d2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-24T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-29T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-03T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

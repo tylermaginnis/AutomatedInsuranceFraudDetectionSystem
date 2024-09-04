@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1f838076-27a2-4fbe-8f1a-9896b2f88354",
+    "PolicyID": "5e5353e4-64f4-4c1e-a5ec-454452ea142a",
+    "EffectiveDates": {
+        "StartDate": "2023-11-19",
+        "EndDate": "2024-11-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5f372cf-eb91-4d56-8ba1-a93c20988fbf",
+        "Name": "David Smith",
+        "PolicyNumber": "5e5353e4-64f4-4c1e-a5ec-454452ea142a",
+        "ContactInformation": {
+            "Phone": "264-420-2739x1939",
+            "Email": "andrearay@example.net",
+            "Address": "6153 James Gateway\nEmilyland, UT 89214"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-26",
+        "Location": "Unit 1682 Box 6348\nDPO AE 63559",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71840
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22464
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6851
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17586
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13970
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 132711,
+        "TotalApproved": 77891
+    },
+    "AdjusterDetails": {
+        "Name": "Jill Wilson",
+        "ContactInformation": {
+            "Phone": "375.964.4113x4736",
+            "Email": "joshuaespinoza@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/55e4238c-1928-48f3-ac70-ab378ea7af94"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-26T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-01T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-06T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0d4571a4-d666-4a7b-bfa0-cb5c12055c11",
+    "PolicyID": "76de80ba-f952-42a1-8cf8-b89c8b4be5ac",
+    "EffectiveDates": {
+        "StartDate": "2024-02-05",
+        "EndDate": "2025-02-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6d082f09-09ad-48b9-b671-11bdaa69422a",
+        "Name": "Anna Jones",
+        "PolicyNumber": "76de80ba-f952-42a1-8cf8-b89c8b4be5ac",
+        "ContactInformation": {
+            "Phone": "846-679-4508",
+            "Email": "mfoster@example.com",
+            "Address": "51924 Ray Mission Suite 165\nBellberg, TN 70051"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-12",
+        "Location": "7300 Ryan Court Suite 393\nDavismouth, AZ 22758",
+        "Description": "Decade stage tax finally must marriage concern. Pretty dinner camera unit there. Yet sit must get back large."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 64241
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 108250
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19225
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38810
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 82397
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 61288,
+        "TotalApproved": 5128
+    },
+    "AdjusterDetails": {
+        "Name": "Hannah Hoffman",
+        "ContactInformation": {
+            "Phone": "001-432-951-0330x97243",
+            "Email": "moodywanda@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/167225a3-e1c2-4811-8368-d6482194ee8b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-12T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-17T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-22T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

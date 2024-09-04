@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ae287b70-cb5b-4030-aacb-703a243373f4",
+    "PolicyID": "5a130f48-fe39-4ba0-a444-9b3f269671d6",
+    "EffectiveDates": {
+        "StartDate": "2024-02-08",
+        "EndDate": "2025-02-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b440ffb9-c443-49b0-80e8-250fe8001424",
+        "Name": "Martin Buchanan",
+        "PolicyNumber": "5a130f48-fe39-4ba0-a444-9b3f269671d6",
+        "ContactInformation": {
+            "Phone": "(434)581-1197",
+            "Email": "davidcox@example.org",
+            "Address": "085 Angela Cliffs\nWest Mariah, DC 35902"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-03",
+        "Location": "PSC 1107, Box 6737\nAPO AE 27385",
+        "Description": "Him despite resource growth. Group concern member develop day.\nWhile ready factor class consumer for visit. Such eight even. Rule when suddenly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18067
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 158416
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6769
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11380
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7087
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 60443,
+        "TotalApproved": 17801
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Gilbert",
+        "ContactInformation": {
+            "Phone": "4578296164",
+            "Email": "johncooley@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/63b24abb-9a0b-4711-aab1-220730d603a5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

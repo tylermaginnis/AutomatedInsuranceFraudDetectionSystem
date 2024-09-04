@@ -1,0 +1,81 @@
+{
+    "ClaimID": "30ad0247-3115-4434-8e0b-1f56526c370b",
+    "PolicyID": "54ead212-83c4-46e0-8b54-f2dd0fc20ba4",
+    "EffectiveDates": {
+        "StartDate": "2023-09-18",
+        "EndDate": "2024-09-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "50aee561-0f96-4b03-9f5b-be353ed37fde",
+        "Name": "Maria Parrish",
+        "PolicyNumber": "54ead212-83c4-46e0-8b54-f2dd0fc20ba4",
+        "ContactInformation": {
+            "Phone": "+1-499-994-5079x819",
+            "Email": "jason68@example.org",
+            "Address": "USNV Rogers\nFPO AA 48986"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-07",
+        "Location": "899 Brent Crossing\nNew Jeffery, TX 36555",
+        "Description": "Record night hand. Money provide year member unit want section truth. Seven future add spring edge hope.\nService base people west the."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 148088
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9747
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40035
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5534
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6998
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 121392,
+        "TotalApproved": 114211
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Smith",
+        "ContactInformation": {
+            "Phone": "903-390-9923x185",
+            "Email": "petersdaniel@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/128c229a-3b6f-444c-92ac-24e208827a14"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "34c8b675-7e40-48e9-83c5-5ddf01920901",
+  "PolicyID": "cf31a2bf-3c71-48c9-853d-0406b1c1ec27",
+  "EffectiveDates": {
+    "StartDate": "2024-06-12",
+    "EndDate": "2025-06-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ec7c3b04-0aa4-4b5b-9ed1-a70d0eeec8f8",
+    "Name": "Charles Neal",
+    "PolicyNumber": "cf31a2bf-3c71-48c9-853d-0406b1c1ec27",
+    "ContactInformation": {
+      "Phone": "745-200-3297x0197",
+      "Email": "christophercallahan@example.net",
+      "Address": "714 Shawn Cape\nKyleport, CA 44685"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-24",
+    "Location": "USS Gomez\nFPO AE 04580",
+    "Description": "Admit mind such grow civil him. Image campaign model read option. And animal certain past from decide by.\nQuickly truth heart rich great none."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 107834
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6521
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 47263
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 126105
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 19188
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 47109,
+    "TotalApproved": 36427
+  },
+  "AdjusterDetails": {
+    "Name": "Brandon Harmon",
+    "ContactInformation": {
+      "Phone": "473.785.9602",
+      "Email": "thomas09@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/a555536f-bfb8-4c23-b4f1-0d44c723f66f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-24T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-29T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-03T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f292e204-5933-42e7-8c2b-b3b11f9ef21c",
+    "PolicyID": "e18582d5-06a3-436a-9d49-c03a6ab8018b",
+    "EffectiveDates": {
+        "StartDate": "2023-09-12",
+        "EndDate": "2024-09-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cf908500-f9fa-4a59-a586-601f6007252f",
+        "Name": "Julie Rangel",
+        "PolicyNumber": "e18582d5-06a3-436a-9d49-c03a6ab8018b",
+        "ContactInformation": {
+            "Phone": "001-421-285-0715",
+            "Email": "weaversherry@example.org",
+            "Address": "877 Keller Plaza\nWallaceton, NM 48839"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-05",
+        "Location": "7764 Morgan Brooks Suite 867\nSouth Pamelaport, FL 44553",
+        "Description": "Catch meeting individual catch. White piece down week natural network.\nMan process season board owner ball tonight. Activity score may. Compare none television skin."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8825
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4861
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91304
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 59190
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3997
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 63728,
+        "TotalApproved": 31397
+    },
+    "AdjusterDetails": {
+        "Name": "Gary Howard",
+        "ContactInformation": {
+            "Phone": "357.461.3725x98860",
+            "Email": "proctortyler@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8d7a47c9-6854-4a34-9ccb-ffc4003660b6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

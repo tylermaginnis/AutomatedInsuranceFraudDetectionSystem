@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b46e67d9-eb7e-4dbf-b55d-c4e698adcccb",
+    "PolicyID": "acd3c991-9e05-476d-b3fe-57546e4f3b5c",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "04bf9238-bf0d-45e4-aa97-d4f552755aa6",
+        "Name": "Donna Smith",
+        "PolicyNumber": "acd3c991-9e05-476d-b3fe-57546e4f3b5c",
+        "ContactInformation": {
+            "Phone": "300.852.0658x29792",
+            "Email": "ynguyen@example.org",
+            "Address": "9358 Mark Club Apt. 831\nNew Frederickburgh, DE 67860"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-07",
+        "Location": "568 William Rapid Suite 234\nRichburgh, AL 44080",
+        "Description": "Data nice teacher every. Six particularly hair like indicate low nothing. Week for reflect structure consumer good.\nCheck bank design quality teacher. Watch own staff production plant."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8183
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4391
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 112246
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35418
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 91117
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 24154,
+        "TotalApproved": 12699
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Harrison",
+        "ContactInformation": {
+            "Phone": "001-480-251-0956x73143",
+            "Email": "hmartinez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4dba503f-4263-4c95-9574-b4c7003f54e1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-07T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-12T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-17T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

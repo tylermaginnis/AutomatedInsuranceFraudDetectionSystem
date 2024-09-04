@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d34f5067-4a83-4df1-beb6-99bf8be37ac0",
+    "PolicyID": "bd3bf02a-1ad7-4790-b9cf-2188fb16dc13",
+    "EffectiveDates": {
+        "StartDate": "2023-10-24",
+        "EndDate": "2024-10-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "915e00ff-dc86-4c50-9a5f-801bccc8732b",
+        "Name": "Carrie Lindsey",
+        "PolicyNumber": "bd3bf02a-1ad7-4790-b9cf-2188fb16dc13",
+        "ContactInformation": {
+            "Phone": "517-892-1831x784",
+            "Email": "denise40@example.com",
+            "Address": "888 Jonathon Fort Suite 294\nJosephbury, AZ 67986"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-01",
+        "Location": "5248 Booth Island Suite 625\nNew John, VA 63994",
+        "Description": "Example create part plant seven her. Book various cover. Compare themselves available environmental week.\nIdea body chance into material others run. Culture foot join direction."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 96672
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1798
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5396
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 128722
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8452
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 155470,
+        "TotalApproved": 93461
+    },
+    "AdjusterDetails": {
+        "Name": "Lynn Salazar",
+        "ContactInformation": {
+            "Phone": "(447)256-9976x046",
+            "Email": "joshua73@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/cb8cb075-02f0-4724-8517-7504701419a0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "67af20ed-1fec-4c99-b6ad-0a927fabe8c0",
+    "PolicyID": "68a26bc2-dd77-4ff8-9b7d-8185acc696fb",
+    "EffectiveDates": {
+        "StartDate": "2024-04-23",
+        "EndDate": "2025-04-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "99390937-21c8-4297-a98b-341644eb0213",
+        "Name": "David Harris",
+        "PolicyNumber": "68a26bc2-dd77-4ff8-9b7d-8185acc696fb",
+        "ContactInformation": {
+            "Phone": "5528289689",
+            "Email": "tanyaruiz@example.com",
+            "Address": "209 Ashlee Fords\nKirkton, SD 23933"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-06",
+        "Location": "Unit 7938 Box 3403\nDPO AA 02764",
+        "Description": "Ground specific special raise guess work. Particular ready occur.\nHigh media not woman ever guess space. Property simply much later. Various eat we set."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20419
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4980
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2427
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23070
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17317
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 2823,
+        "TotalApproved": 1948
+    },
+    "AdjusterDetails": {
+        "Name": "Emily Reeves",
+        "ContactInformation": {
+            "Phone": "777-809-5736",
+            "Email": "xmartin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/48b0563a-7436-4457-bd82-d2a706629a45"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-06T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-11T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-16T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

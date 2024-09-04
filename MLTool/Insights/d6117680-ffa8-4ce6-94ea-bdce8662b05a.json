@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d6117680-ffa8-4ce6-94ea-bdce8662b05a",
+    "PolicyID": "56801c97-1ce1-4c40-93e7-2a436b26620a",
+    "EffectiveDates": {
+        "StartDate": "2023-12-07",
+        "EndDate": "2024-12-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8850e1fa-d4c4-4e6a-92fa-cbb7c10ba323",
+        "Name": "Thomas Nelson",
+        "PolicyNumber": "56801c97-1ce1-4c40-93e7-2a436b26620a",
+        "ContactInformation": {
+            "Phone": "(475)665-9756",
+            "Email": "johnsongary@example.org",
+            "Address": "40008 Atkinson Street\nVasquezville, MP 07737"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-02",
+        "Location": "73517 Johnson Islands Apt. 724\nEast Ericaberg, WI 93233",
+        "Description": "Growth food draw sign money. Follow or night position common adult trip."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45402
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4636
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2388
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8033
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1310
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 66589,
+        "TotalApproved": 53523
+    },
+    "AdjusterDetails": {
+        "Name": "David Thompson",
+        "ContactInformation": {
+            "Phone": "814-866-2274x73416",
+            "Email": "smithrobert@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/adbd2026-c042-488a-ac95-3ef933ee46fa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

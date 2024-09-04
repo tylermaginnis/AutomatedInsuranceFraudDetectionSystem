@@ -1,0 +1,81 @@
+{
+    "ClaimID": "77d732d4-6203-4fdc-82f0-2814ff67bffc",
+    "PolicyID": "b8b706f7-783d-4fb6-b9b3-57c9f8c1dffb",
+    "EffectiveDates": {
+        "StartDate": "2024-07-18",
+        "EndDate": "2025-07-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1bda5443-3e4a-4a70-98b5-f23638d082f1",
+        "Name": "David Weber",
+        "PolicyNumber": "b8b706f7-783d-4fb6-b9b3-57c9f8c1dffb",
+        "ContactInformation": {
+            "Phone": "(764)699-3323",
+            "Email": "butlerchad@example.com",
+            "Address": "2469 Randolph Radial Apt. 645\nBergermouth, KS 57955"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-07",
+        "Location": "PSC 3834, Box 9064\nAPO AA 38070",
+        "Description": "Indicate writer guess attention free would. Subject old exist piece. Century brother participant. Reflect support police serve walk Democrat take nation."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 74315
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9717
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7983
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57546
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6292
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 23095,
+        "TotalApproved": 16713
+    },
+    "AdjusterDetails": {
+        "Name": "Natasha Howard",
+        "ContactInformation": {
+            "Phone": "399-944-8950",
+            "Email": "amandacooke@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0dcfc94e-ebfb-4c3e-8b55-9ac1a9ec0dc6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-07T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-12T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-17T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9e8f463a-b8b4-4a86-9e99-5daecce5b9d8",
+    "PolicyID": "a0bc0cb9-702f-4424-bec0-f72c484862f6",
+    "EffectiveDates": {
+        "StartDate": "2023-10-11",
+        "EndDate": "2024-10-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8e1e3eb1-2e0c-4181-80a7-3319d4cbd193",
+        "Name": "Robert Harvey DVM",
+        "PolicyNumber": "a0bc0cb9-702f-4424-bec0-f72c484862f6",
+        "ContactInformation": {
+            "Phone": "+1-359-600-9402x463",
+            "Email": "nicholas21@example.net",
+            "Address": "645 Miller Points\nFranciston, VI 63853"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-01",
+        "Location": "52747 Clarke Court Apt. 415\nNew Thomas, NH 98407",
+        "Description": "Green safe contain base money. Lose specific number simple. President important experience than any similar foot arrive."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 97215
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23371
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 57844
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10198
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5325
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 12097,
+        "TotalApproved": 1796
+    },
+    "AdjusterDetails": {
+        "Name": "Shelley Garcia",
+        "ContactInformation": {
+            "Phone": "784-379-8558x14202",
+            "Email": "ymathews@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0624b8cd-e73e-45d0-ac16-8a8ac2296ecb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

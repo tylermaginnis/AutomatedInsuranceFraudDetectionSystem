@@ -1,0 +1,81 @@
+{
+    "ClaimID": "22d772b5-5fd9-4d73-8f9f-7de7f0983614",
+    "PolicyID": "94cb94ee-b16b-4cfe-a786-2cdc32d269e4",
+    "EffectiveDates": {
+        "StartDate": "2023-11-17",
+        "EndDate": "2024-11-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "660ab465-af83-4012-ae60-2a766039ce8c",
+        "Name": "Crystal Anderson",
+        "PolicyNumber": "94cb94ee-b16b-4cfe-a786-2cdc32d269e4",
+        "ContactInformation": {
+            "Phone": "001-875-770-1199x53956",
+            "Email": "jonathon87@example.org",
+            "Address": "7531 Lamb Knoll\nNew Ryan, PA 32109"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-02",
+        "Location": "8061 Mary Burgs\nDeleonland, AR 66682",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 50899
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22803
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7416
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26250
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6023
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 113391,
+        "TotalApproved": 18582
+    },
+    "AdjusterDetails": {
+        "Name": "Benjamin Dunlap",
+        "ContactInformation": {
+            "Phone": "214.281.1155x2162",
+            "Email": "stacey01@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c2bdd286-e808-4413-b9b1-df272dcd5ae5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-02T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-07T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-12T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

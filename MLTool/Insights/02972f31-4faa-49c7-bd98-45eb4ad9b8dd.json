@@ -1,0 +1,81 @@
+{
+    "ClaimID": "02972f31-4faa-49c7-bd98-45eb4ad9b8dd",
+    "PolicyID": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+    "EffectiveDates": {
+        "StartDate": "2023-11-29",
+        "EndDate": "2024-11-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b718d54-1bda-441f-9f34-2672f6b131e5",
+        "Name": "Patricia Gordon",
+        "PolicyNumber": "f37360aa-e901-48de-bb43-6cda9c6bddd4",
+        "ContactInformation": {
+            "Phone": "+1-447-858-9107x4847",
+            "Email": "lisacrane@example.org",
+            "Address": "PSC 6944, Box 1860\nAPO AP 51730"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-05",
+        "Location": "48047 Amanda Springs\nKellyfort, NH 09309",
+        "Description": "Close likely stage door civil. Three even then baby spend growth sound.\nArrive sound be happy care artist I player. Your stand them third."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 48639
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45461
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16850
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13523
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2277
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 51751,
+        "TotalApproved": 42708
+    },
+    "AdjusterDetails": {
+        "Name": "Nicole Cunningham",
+        "ContactInformation": {
+            "Phone": "+1-734-689-6499",
+            "Email": "adamwhitaker@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a3ac246b-e600-4b48-aed9-38fccf526ed3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

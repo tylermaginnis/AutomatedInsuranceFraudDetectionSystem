@@ -1,0 +1,81 @@
+{
+    "ClaimID": "62f92924-eb3f-4ff3-ba05-76535b2ca63c",
+    "PolicyID": "5e9118a9-a5a4-4915-8698-5f84c22daf52",
+    "EffectiveDates": {
+        "StartDate": "2024-07-15",
+        "EndDate": "2025-07-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3c83c475-0f26-4bc4-8c42-4a938a066f33",
+        "Name": "Jessica Proctor",
+        "PolicyNumber": "5e9118a9-a5a4-4915-8698-5f84c22daf52",
+        "ContactInformation": {
+            "Phone": "933-596-4526x42134",
+            "Email": "wallerandrew@example.net",
+            "Address": "USNS Hopkins\nFPO AA 84188"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-15",
+        "Location": "21510 Evans Mission\nEast Thomas, KY 01312",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 96852
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44108
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7672
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19467
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14490
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 182589,
+        "TotalApproved": 160521
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Roberts",
+        "ContactInformation": {
+            "Phone": "001-699-738-6575x109",
+            "Email": "michael43@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/37cc8dd4-1bf6-45d7-8164-e9adceeace99"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-15T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-20T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-25T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

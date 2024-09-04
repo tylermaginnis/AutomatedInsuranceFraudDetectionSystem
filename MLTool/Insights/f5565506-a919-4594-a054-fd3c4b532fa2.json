@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f5565506-a919-4594-a054-fd3c4b532fa2",
+    "PolicyID": "d0e31932-4e04-4afe-ba78-272f30f5fbd6",
+    "EffectiveDates": {
+        "StartDate": "2024-02-24",
+        "EndDate": "2025-02-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "55e4f183-5621-4720-b76d-55a90ab01746",
+        "Name": "Joseph Robinson",
+        "PolicyNumber": "d0e31932-4e04-4afe-ba78-272f30f5fbd6",
+        "ContactInformation": {
+            "Phone": "490-629-3000",
+            "Email": "roger63@example.org",
+            "Address": "26125 Murray Heights Suite 763\nWoodstown, WV 15119"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-29",
+        "Location": "83791 Roberson Field Suite 579\nCathyland, NM 70481",
+        "Description": "Anyone PM paper visit near. Street across institution.\nRecently represent participant evidence. Night hear great TV present. Where hear almost article eat which politics public."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21357
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 123743
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 97519
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7855
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45585
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 134913,
+        "TotalApproved": 101420
+    },
+    "AdjusterDetails": {
+        "Name": "Lauren Wells",
+        "ContactInformation": {
+            "Phone": "(524)291-3635x899",
+            "Email": "katherine36@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/365c13b2-9cc1-4866-af63-273294e6985a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-05T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-10T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

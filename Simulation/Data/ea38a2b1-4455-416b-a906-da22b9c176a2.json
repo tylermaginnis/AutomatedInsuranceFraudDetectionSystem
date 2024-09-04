@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ea38a2b1-4455-416b-a906-da22b9c176a2",
+  "PolicyID": "e18b3a56-adee-47c3-8574-405fe06e82a9",
+  "EffectiveDates": {
+    "StartDate": "2024-03-05",
+    "EndDate": "2025-03-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d556f8de-5bc6-43b1-90d3-7a68a79b02eb",
+    "Name": "Brian Wright",
+    "PolicyNumber": "e18b3a56-adee-47c3-8574-405fe06e82a9",
+    "ContactInformation": {
+      "Phone": "597-857-0351x09284",
+      "Email": "meredith98@example.org",
+      "Address": "7432 Edwards Trace Apt. 128\nWalkerborough, KY 21846"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-28",
+    "Location": "18110 Joseph Stravenue\nRobertville, MI 06478",
+    "Description": "Turn perform wear care audience star knowledge. Free bank million present garden cost. Animal entire possible drug."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 165376
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8989
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 41980
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 33761
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9761
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 100382,
+    "TotalApproved": 45192
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Brown",
+    "ContactInformation": {
+      "Phone": "(537)215-7496",
+      "Email": "cnelson@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/e75cc4f5-76e0-4001-9289-eb9c65c1ac82"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-28T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-02T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-07T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

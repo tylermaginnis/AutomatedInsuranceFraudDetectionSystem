@@ -1,0 +1,80 @@
+{
+  "ClaimID": "07d9f168-57c5-4d38-bd15-e9b4dd7b19b6",
+  "PolicyID": "81b8f4a2-8367-4f4b-bd09-0a8c24b79dcb",
+  "EffectiveDates": {
+    "StartDate": "2024-06-20",
+    "EndDate": "2025-06-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "43379c43-c505-4151-8e41-efdb178ef5cf",
+    "Name": "Paul Lewis",
+    "PolicyNumber": "81b8f4a2-8367-4f4b-bd09-0a8c24b79dcb",
+    "ContactInformation": {
+      "Phone": "852-313-4185x11681",
+      "Email": "andrewbrown@example.org",
+      "Address": "4315 Charles Lodge Apt. 444\nLake Elizabeth, SC 83498"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-21",
+    "Location": "30825 Stewart Park\nNicoleville, MO 13539",
+    "Description": "Environment under west. Much it attack black. Top none article us.\nMajor skin along others first clear. Work company customer leader partner then."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1153
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6602
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7256
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 43249
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2902
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 5395,
+    "TotalApproved": 4079
+  },
+  "AdjusterDetails": {
+    "Name": "Thomas Guerra",
+    "ContactInformation": {
+      "Phone": "352-947-5644",
+      "Email": "sarah60@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/3baea19a-74b5-40b7-980a-7ce14b29a64c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-21T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-26T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-01T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

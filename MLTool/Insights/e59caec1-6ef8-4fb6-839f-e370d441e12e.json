@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e59caec1-6ef8-4fb6-839f-e370d441e12e",
+    "PolicyID": "13744d29-d276-4bd1-8b9e-1bea89019c7b",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "43f4f2d9-299e-4f45-b03f-08fc3fbd12b7",
+        "Name": "Susan Lane",
+        "PolicyNumber": "13744d29-d276-4bd1-8b9e-1bea89019c7b",
+        "ContactInformation": {
+            "Phone": "(415)507-9032",
+            "Email": "banksgwendolyn@example.net",
+            "Address": "70383 Darrell Villages\nLake Heather, NE 08801"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-13",
+        "Location": "570 Paula Station Suite 004\nNicoleberg, CA 83765",
+        "Description": "Character around care everything. Wall around keep energy image discover day.\nQuality relationship least or. Despite agreement cause cup kid cover stage. Message defense help fall understand again."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6923
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31396
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14043
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16061
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18425
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 39772,
+        "TotalApproved": 24431
+    },
+    "AdjusterDetails": {
+        "Name": "Anna Sharp",
+        "ContactInformation": {
+            "Phone": "419.330.2658x5720",
+            "Email": "pgreen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f023e52a-f805-4e8d-af78-8f488f8f63c3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-13T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-18T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-23T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

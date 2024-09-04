@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f46c9613-48f2-4615-9a6d-3600d5d3fcf5",
+  "PolicyID": "2b72a225-cfc1-4752-af0d-2885f465c88a",
+  "EffectiveDates": {
+    "StartDate": "2024-07-01",
+    "EndDate": "2025-07-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e080636e-8038-4a6c-b1bb-f28cc24b5c35",
+    "Name": "Susan Curtis",
+    "PolicyNumber": "2b72a225-cfc1-4752-af0d-2885f465c88a",
+    "ContactInformation": {
+      "Phone": "001-728-856-4918",
+      "Email": "virginia15@example.com",
+      "Address": "USS Melendez\nFPO AE 51773"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-10",
+    "Location": "393 Adam Alley\nNorth Philip, GU 49260",
+    "Description": "Today likely magazine street seven. Your follow north husband professor keep. Account look high city child worry pull full."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 91543
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 91474
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6236
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 27072
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7601
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 84431,
+    "TotalApproved": 7243
+  },
+  "AdjusterDetails": {
+    "Name": "Aaron Brady",
+    "ContactInformation": {
+      "Phone": "532.808.3487x93394",
+      "Email": "michaelnelson@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/3c8a9bd8-74e3-4cfc-bc6d-8a08bba49767"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-10T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-15T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-20T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

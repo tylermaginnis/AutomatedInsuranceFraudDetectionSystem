@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a619d38b-3c27-4894-b06a-e47b4a594bfc",
+    "PolicyID": "1f96ec15-7158-4f09-815e-d37c42452bb9",
+    "EffectiveDates": {
+        "StartDate": "2023-09-15",
+        "EndDate": "2024-09-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d7cc0173-0355-4f49-9aa1-7647b25dfc5b",
+        "Name": "Jeremy Jones",
+        "PolicyNumber": "1f96ec15-7158-4f09-815e-d37c42452bb9",
+        "ContactInformation": {
+            "Phone": "569.480.4473x988",
+            "Email": "georgebridget@example.org",
+            "Address": "588 Veronica Creek\nPrestonville, OK 33188"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-09-29",
+        "Location": "23515 Romero Ridge Apt. 599\nCoreychester, NJ 74317",
+        "Description": "Sometimes since consumer away again. High above offer mission."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18097
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 100317
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 62069
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 138422
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6382
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 177664,
+        "TotalApproved": 90569
+    },
+    "AdjusterDetails": {
+        "Name": "Rodney Foster",
+        "ContactInformation": {
+            "Phone": "(491)895-9203x812",
+            "Email": "ogarcia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/675a70e4-c0d3-4329-b38c-8486cd1e07ad"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-09-29T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-10-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-10-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

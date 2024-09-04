@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b82cf4d2-bd49-4621-b888-df22c8fe45df",
+    "PolicyID": "b31f412b-66d1-4bc9-ab51-aafdd9098381",
+    "EffectiveDates": {
+        "StartDate": "2024-08-07",
+        "EndDate": "2025-08-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ec25ded9-7687-48b5-a2d3-4efe7738371b",
+        "Name": "Charles Williamson",
+        "PolicyNumber": "b31f412b-66d1-4bc9-ab51-aafdd9098381",
+        "ContactInformation": {
+            "Phone": "610-295-3186",
+            "Email": "carrieparker@example.org",
+            "Address": "259 Cruz Crest\nPort Aaron, NE 33308"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-27",
+        "Location": "35214 Flores Flats Apt. 410\nCoryville, VI 56452",
+        "Description": "Unit must down involve allow machine. Assume perhaps yet exactly.\nMedical large show according trip test authority moment. Yeah bring discover grow."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43781
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 79551
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45331
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1076
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33515
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 43565,
+        "TotalApproved": 15823
+    },
+    "AdjusterDetails": {
+        "Name": "Ashley Ross",
+        "ContactInformation": {
+            "Phone": "001-857-347-5666x1729",
+            "Email": "ihanson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d5a73730-f2ec-4034-a1be-e70d6bc6c195"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-27T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

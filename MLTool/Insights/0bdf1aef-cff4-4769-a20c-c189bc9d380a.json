@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0bdf1aef-cff4-4769-a20c-c189bc9d380a",
+    "PolicyID": "8de979df-d9c1-426b-ae19-8b63d7ab59df",
+    "EffectiveDates": {
+        "StartDate": "2024-05-12",
+        "EndDate": "2025-05-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "272189f7-59e4-4443-bd3a-8d331e5e0b54",
+        "Name": "Derek Hoover",
+        "PolicyNumber": "8de979df-d9c1-426b-ae19-8b63d7ab59df",
+        "ContactInformation": {
+            "Phone": "(544)588-2939",
+            "Email": "nicoleflores@example.org",
+            "Address": "PSC 9232, Box 1671\nAPO AE 12822"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-12",
+        "Location": "62448 Green Hollow\nEscobarberg, OK 10604",
+        "Description": "Discussion teacher just three time situation card every. Ever large pass activity idea thousand."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31207
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46463
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18383
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 91708
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37841
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 62695,
+        "TotalApproved": 11387
+    },
+    "AdjusterDetails": {
+        "Name": "Chad Parker",
+        "ContactInformation": {
+            "Phone": "588-775-1356x537",
+            "Email": "kevinstewart@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f4c61cab-ff90-4233-8d94-556e77d75d42"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-12T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-17T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-22T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

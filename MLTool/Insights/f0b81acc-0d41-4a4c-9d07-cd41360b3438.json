@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f0b81acc-0d41-4a4c-9d07-cd41360b3438",
+    "PolicyID": "f8dc2e9a-116c-4fa0-9580-67b417f84cbf",
+    "EffectiveDates": {
+        "StartDate": "2024-07-20",
+        "EndDate": "2025-07-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "68cf1d44-169c-4ce3-8173-26fcf07bce9a",
+        "Name": "Scott Thompson",
+        "PolicyNumber": "f8dc2e9a-116c-4fa0-9580-67b417f84cbf",
+        "ContactInformation": {
+            "Phone": "(992)538-9566",
+            "Email": "aperez@example.net",
+            "Address": "USCGC Harvey\nFPO AP 37660"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-21",
+        "Location": "8978 Estrada Green\nShaneburgh, GA 28604",
+        "Description": "Section concern evening artist key.\nStory clearly short still body from improve. Positive executive physical artist."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13760
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 189169
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 60816
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3099
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2005
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 56527,
+        "TotalApproved": 53518
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Hardy",
+        "ContactInformation": {
+            "Phone": "(725)503-9628x0218",
+            "Email": "rburke@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6f5bb915-5a01-4967-bed6-e2473fa7f464"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-21T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-26T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

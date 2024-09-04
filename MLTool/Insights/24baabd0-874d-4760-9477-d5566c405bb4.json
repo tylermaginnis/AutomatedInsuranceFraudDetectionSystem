@@ -1,0 +1,81 @@
+{
+    "ClaimID": "24baabd0-874d-4760-9477-d5566c405bb4",
+    "PolicyID": "2fc5d054-796e-40ad-968a-e79022dff9b2",
+    "EffectiveDates": {
+        "StartDate": "2023-12-03",
+        "EndDate": "2024-12-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9c53ac74-4c30-4cf0-a53e-54161b6b18b3",
+        "Name": "Ryan Smith",
+        "PolicyNumber": "2fc5d054-796e-40ad-968a-e79022dff9b2",
+        "ContactInformation": {
+            "Phone": "795-595-9118",
+            "Email": "reyesjacob@example.com",
+            "Address": "66626 Jillian Port Suite 990\nLake Thomas, IA 48497"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-16",
+        "Location": "864 Oneill Pike Suite 361\nLake Breanna, NM 78164",
+        "Description": "Toward woman human wear low behind. Sense population specific identify.\nWall water they along course. Senior night continue for."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2556
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8896
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9243
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 50107
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13140
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 173931,
+        "TotalApproved": 162555
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Barnes",
+        "ContactInformation": {
+            "Phone": "810.716.6131x1232",
+            "Email": "woodmichael@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/574ec69c-7e32-4185-90ab-996cfe409060"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

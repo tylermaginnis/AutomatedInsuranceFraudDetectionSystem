@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0c36cece-0ffc-406b-b2b3-d9ed95ec4908",
+    "PolicyID": "66a8c66c-4937-4ce0-b254-79c10fdf9934",
+    "EffectiveDates": {
+        "StartDate": "2024-03-09",
+        "EndDate": "2025-03-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bab02878-0979-4da3-9f82-b5b36b1feadb",
+        "Name": "Jason Johnson",
+        "PolicyNumber": "66a8c66c-4937-4ce0-b254-79c10fdf9934",
+        "ContactInformation": {
+            "Phone": "2945367372",
+            "Email": "adamhoover@example.net",
+            "Address": "58590 Crystal Spring Apt. 848\nLake Wendy, NC 03757"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-24",
+        "Location": "2138 Nicole Rue Suite 020\nDavidborough, AZ 23389",
+        "Description": "Whose purpose view foot available.\nFather play gas despite student guy meet. International against rise body."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27818
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7982
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1769
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38429
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8980
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 63534,
+        "TotalApproved": 23437
+    },
+    "AdjusterDetails": {
+        "Name": "Tanya Smith",
+        "ContactInformation": {
+            "Phone": "(733)592-1815x13093",
+            "Email": "evansjoanne@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3ec7bfb3-0bde-452f-9c55-6ede5a482f1d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-24T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-29T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-03T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

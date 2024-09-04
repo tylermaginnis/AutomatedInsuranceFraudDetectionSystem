@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1b9c5324-861e-45eb-bd2a-54521a47c8e6",
+    "PolicyID": "5750cf27-0dc2-4310-898d-fe079e58379f",
+    "EffectiveDates": {
+        "StartDate": "2024-07-20",
+        "EndDate": "2025-07-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9ae57e0d-6eca-49ce-8193-83e244dde46b",
+        "Name": "Christian Mathis",
+        "PolicyNumber": "5750cf27-0dc2-4310-898d-fe079e58379f",
+        "ContactInformation": {
+            "Phone": "(718)390-8362",
+            "Email": "anthonybrock@example.com",
+            "Address": "788 Morris Shores\nSouth Michael, AZ 61057"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-11",
+        "Location": "1806 Trujillo Roads\nRaymondbury, VI 19457",
+        "Description": "Everything strong both play avoid well. Continue partner behavior good. Realize study provide cup size."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34910
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42237
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7649
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1793
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 62507
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 115514,
+        "TotalApproved": 12815
+    },
+    "AdjusterDetails": {
+        "Name": "Austin Fuller",
+        "ContactInformation": {
+            "Phone": "(756)934-0368x0396",
+            "Email": "ocastro@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/3e4484ea-3cfa-40a9-b6ce-ccd8fd5f7610"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

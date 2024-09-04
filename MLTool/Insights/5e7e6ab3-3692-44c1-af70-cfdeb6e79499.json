@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5e7e6ab3-3692-44c1-af70-cfdeb6e79499",
+    "PolicyID": "b0663d2e-6a06-4ea5-a8de-1860b12cba85",
+    "EffectiveDates": {
+        "StartDate": "2023-09-21",
+        "EndDate": "2024-09-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f607906f-70f2-4133-98ef-75f49651f3db",
+        "Name": "Nicole Farley",
+        "PolicyNumber": "b0663d2e-6a06-4ea5-a8de-1860b12cba85",
+        "ContactInformation": {
+            "Phone": "+1-862-472-4452",
+            "Email": "michael89@example.com",
+            "Address": "33517 Cory Park Suite 608\nWrightchester, IN 23424"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-18",
+        "Location": "247 Smith Expressway\nPort Dwayne, MS 72334",
+        "Description": "Speak move radio ahead alone the card. Summer very put explain. Than ball write easy.\nRole ever work opportunity. Nice foreign its everybody spend food film. Big try remember area discussion."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12619
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8888
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7611
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41438
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7296
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 60141,
+        "TotalApproved": 46165
+    },
+    "AdjusterDetails": {
+        "Name": "Stacy Jackson",
+        "ContactInformation": {
+            "Phone": "(469)975-3367x651",
+            "Email": "caseytrujillo@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8a60b8ae-2832-4d9e-a72d-a95dab3560d1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-18T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-23T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-28T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

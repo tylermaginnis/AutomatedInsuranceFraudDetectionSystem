@@ -1,0 +1,81 @@
+{
+    "ClaimID": "98a03e0a-2cf8-43a7-99d3-a3ee6e48143b",
+    "PolicyID": "bcd2deb8-a072-4983-99bc-ca1839484ac8",
+    "EffectiveDates": {
+        "StartDate": "2023-10-13",
+        "EndDate": "2024-10-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3a3475cf-af2d-41eb-b0b5-d41575518893",
+        "Name": "Kurt Sanchez",
+        "PolicyNumber": "bcd2deb8-a072-4983-99bc-ca1839484ac8",
+        "ContactInformation": {
+            "Phone": "4559832653",
+            "Email": "blanchardgabriela@example.net",
+            "Address": "0723 Johnson Forest\nChristopherchester, AR 64465"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-23",
+        "Location": "8537 Ortiz Road\nLake Patricia, MO 09056",
+        "Description": "Manager ago serious girl. Quickly individual buy do but. Price character positive college fund."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9496
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 72282
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 86508
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37180
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11214
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 127609,
+        "TotalApproved": 125440
+    },
+    "AdjusterDetails": {
+        "Name": "Jaime Parsons",
+        "ContactInformation": {
+            "Phone": "+1-712-822-6750x02798",
+            "Email": "wcrawford@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4c06be1b-2dc9-4c87-94f2-ae544320f7f1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

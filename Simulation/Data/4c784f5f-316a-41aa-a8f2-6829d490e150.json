@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4c784f5f-316a-41aa-a8f2-6829d490e150",
+  "PolicyID": "4d23ce5c-d9cb-464b-ae17-fb01c84343a0",
+  "EffectiveDates": {
+    "StartDate": "2024-07-12",
+    "EndDate": "2025-07-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5db5c932-3cd5-4f95-b0df-8629445404d8",
+    "Name": "Mark Miller",
+    "PolicyNumber": "4d23ce5c-d9cb-464b-ae17-fb01c84343a0",
+    "ContactInformation": {
+      "Phone": "540-445-5710x4935",
+      "Email": "ddavis@example.net",
+      "Address": "96025 Gaines Rapids Apt. 201\nNorth Alexandra, NE 50839"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-07",
+    "Location": "USNV Andrews\nFPO AA 72804",
+    "Description": "Fine war great other look.\nIndicate street south officer budget list impact food. Choice story six item network. Suggest owner sense wish role low."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 17687
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 30421
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 83468
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 183878
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 157071
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 73046,
+    "TotalApproved": 7803
+  },
+  "AdjusterDetails": {
+    "Name": "Andrew Brock",
+    "ContactInformation": {
+      "Phone": "7977345772",
+      "Email": "tpierce@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/05f0b5ed-438e-42bc-9cff-3bdbc8e2734e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-07T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-12T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-17T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

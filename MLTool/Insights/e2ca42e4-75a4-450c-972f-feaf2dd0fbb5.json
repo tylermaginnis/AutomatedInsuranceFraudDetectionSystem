@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e2ca42e4-75a4-450c-972f-feaf2dd0fbb5",
+    "PolicyID": "3691fa3e-70e8-4554-9ed7-f50297446366",
+    "EffectiveDates": {
+        "StartDate": "2024-08-31",
+        "EndDate": "2025-08-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4bea3713-f87b-4bec-a053-8d7223fd2705",
+        "Name": "Jonathan Perez",
+        "PolicyNumber": "3691fa3e-70e8-4554-9ed7-f50297446366",
+        "ContactInformation": {
+            "Phone": "341.711.3531",
+            "Email": "eatonjulie@example.net",
+            "Address": "USCGC Nelson\nFPO AA 47828"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-24",
+        "Location": "129 Young Track\nSouth Aaronhaven, LA 03466",
+        "Description": "Play local author choose notice cut white near. Wish price save range range notice phone still."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10242
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7479
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33109
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29309
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 198675
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 29771,
+        "TotalApproved": 12419
+    },
+    "AdjusterDetails": {
+        "Name": "Mike West",
+        "ContactInformation": {
+            "Phone": "3207751185",
+            "Email": "shannon03@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a1ddefe6-8dfc-4287-a982-df06b8083525"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-24T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-29T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-03T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

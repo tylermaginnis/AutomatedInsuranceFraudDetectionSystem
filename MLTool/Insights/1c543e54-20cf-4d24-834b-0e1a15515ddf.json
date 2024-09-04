@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1c543e54-20cf-4d24-834b-0e1a15515ddf",
+    "PolicyID": "fbe4e87a-6c31-47c4-9fa4-10e6e9345ef0",
+    "EffectiveDates": {
+        "StartDate": "2024-03-12",
+        "EndDate": "2025-03-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fc3657c3-414b-4d24-9be0-5518fa36661d",
+        "Name": "Melinda Williams",
+        "PolicyNumber": "fbe4e87a-6c31-47c4-9fa4-10e6e9345ef0",
+        "ContactInformation": {
+            "Phone": "747.697.0582x35742",
+            "Email": "aaron59@example.net",
+            "Address": "293 Aaron Common Apt. 711\nPort Heather, CA 36794"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-25",
+        "Location": "152 Robert Village Suite 311\nNorth Angelatown, SD 50600",
+        "Description": "Recognize subject central character argue job. Food into second something list value easy.\nProvide factor easy the tend two. With significant serious. Suggest deal hour exactly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44017
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6346
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2198
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6113
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13198
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 36469,
+        "TotalApproved": 5170
+    },
+    "AdjusterDetails": {
+        "Name": "Danielle Norman",
+        "ContactInformation": {
+            "Phone": "838.254.1067",
+            "Email": "harrisonkyle@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a8c1d33a-9abf-45f1-8523-0f0948da34f1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-25T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-30T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

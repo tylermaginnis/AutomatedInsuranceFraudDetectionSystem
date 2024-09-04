@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca33fd63-2496-47ca-b58d-03036a3656f9",
+    "PolicyID": "ba1be0aa-b733-4402-9ded-46764c87c1c2",
+    "EffectiveDates": {
+        "StartDate": "2024-03-14",
+        "EndDate": "2025-03-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e85cfaed-1031-4248-8c86-7c2558d81d9b",
+        "Name": "Jon Thompson",
+        "PolicyNumber": "ba1be0aa-b733-4402-9ded-46764c87c1c2",
+        "ContactInformation": {
+            "Phone": "(605)885-9467x271",
+            "Email": "mark21@example.net",
+            "Address": "75129 Veronica Via Apt. 790\nWest Williamside, SD 17829"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-25",
+        "Location": "68393 Baldwin Valley Suite 844\nNew Joshuaborough, FL 32666",
+        "Description": "Other stay professor high environment. Live strong behind must point meet. Oil sometimes fight training discover computer year.\nGrow like own property. Poor more no how."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20841
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8624
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 85266
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12745
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50835
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 57186,
+        "TotalApproved": 24261
+    },
+    "AdjusterDetails": {
+        "Name": "Kyle Figueroa",
+        "ContactInformation": {
+            "Phone": "548-856-7962",
+            "Email": "susansimmons@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/72b99877-5a2e-4abc-a5d8-34fb7036592d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-25T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-30T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-04T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

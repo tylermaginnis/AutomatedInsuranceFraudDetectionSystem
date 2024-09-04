@@ -1,0 +1,81 @@
+{
+    "ClaimID": "139db207-db0f-4272-b0c4-a7ce3a3c4520",
+    "PolicyID": "f6545c6f-4824-4986-addf-3ce35d86f976",
+    "EffectiveDates": {
+        "StartDate": "2024-06-01",
+        "EndDate": "2025-06-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b369d726-d00b-4b86-9851-9922bf8f2e31",
+        "Name": "Robert Bell",
+        "PolicyNumber": "f6545c6f-4824-4986-addf-3ce35d86f976",
+        "ContactInformation": {
+            "Phone": "700.232.4764x014",
+            "Email": "sarah80@example.net",
+            "Address": "USS Gonzalez\nFPO AP 63520"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-22",
+        "Location": "97619 Traci Passage Suite 196\nHensonbury, DE 40379",
+        "Description": "Itself nearly interest hope involve should. Within billion least own road say. Plan friend husband fish inside right little."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4110
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 88790
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 73098
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8951
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5673
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 34746,
+        "TotalApproved": 34443
+    },
+    "AdjusterDetails": {
+        "Name": "Bradley Lynn",
+        "ContactInformation": {
+            "Phone": "(994)350-9886",
+            "Email": "whiteangela@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f89467b8-d920-45f4-8397-91d103aee1e5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-01T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

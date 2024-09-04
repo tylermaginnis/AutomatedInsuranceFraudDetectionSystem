@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e201005d-bb2d-4778-a49a-bbe8c3584de0",
+    "PolicyID": "7f58e713-0aa3-4714-86c1-e420ad33aef8",
+    "EffectiveDates": {
+        "StartDate": "2023-10-18",
+        "EndDate": "2024-10-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ce45d9ec-ecf0-42a2-b52a-6619a6e409c8",
+        "Name": "Hayley Walker",
+        "PolicyNumber": "7f58e713-0aa3-4714-86c1-e420ad33aef8",
+        "ContactInformation": {
+            "Phone": "+1-742-916-6819x445",
+            "Email": "thomas42@example.org",
+            "Address": "356 Jessica Valleys\nFosterberg, OK 85282"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-13",
+        "Location": "90601 Fox Mall\nSouth Phillipbury, SD 50492",
+        "Description": "Young hold cover top. Either themselves control tonight can.\nForget rule right player pick us exist treat. Military center organization continue."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47110
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47573
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15746
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8343
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 84958
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 172052,
+        "TotalApproved": 144082
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Arnold",
+        "ContactInformation": {
+            "Phone": "891.443.7677",
+            "Email": "robert75@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/98e8b615-252c-4b4b-930f-45a56bc7cfb9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

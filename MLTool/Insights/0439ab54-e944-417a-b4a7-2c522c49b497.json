@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0439ab54-e944-417a-b4a7-2c522c49b497",
+    "PolicyID": "7a5c5076-f6f9-4727-a660-45e1b0d9c214",
+    "EffectiveDates": {
+        "StartDate": "2024-04-26",
+        "EndDate": "2025-04-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b6a0c010-9429-4903-9956-462babcfec2c",
+        "Name": "Stephanie Hughes",
+        "PolicyNumber": "7a5c5076-f6f9-4727-a660-45e1b0d9c214",
+        "ContactInformation": {
+            "Phone": "893.979.3499",
+            "Email": "dbrewer@example.net",
+            "Address": "37184 Garcia Corners Apt. 727\nGreenfurt, MT 66658"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-16",
+        "Location": "0123 Mccullough Stravenue\nHoside, NV 72932",
+        "Description": "Wide present fact information. Us well impact read according him.\nWork choice public hotel exactly. Discuss see move question voice recognize none."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8351
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12242
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29773
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1823
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3357
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 167528,
+        "TotalApproved": 147357
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Adam Powell MD",
+        "ContactInformation": {
+            "Phone": "(379)655-4090",
+            "Email": "elizabethblackwell@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8951182d-a706-4acf-ae42-d658aa5c87c9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

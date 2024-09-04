@@ -1,0 +1,81 @@
+{
+    "ClaimID": "056391e6-e604-4433-8718-cbd7507be743",
+    "PolicyID": "f320dcea-24ef-417a-be8b-490af2e08d10",
+    "EffectiveDates": {
+        "StartDate": "2023-10-30",
+        "EndDate": "2024-10-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5dac59a7-7d2a-44a7-946d-80e04b90719d",
+        "Name": "Adam Mcdonald",
+        "PolicyNumber": "f320dcea-24ef-417a-be8b-490af2e08d10",
+        "ContactInformation": {
+            "Phone": "+1-616-318-3350",
+            "Email": "jennifer40@example.org",
+            "Address": "280 Quinn Trail Suite 156\nJohnshire, WY 47119"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-23",
+        "Location": "86672 Brianna Trail\nLake Jasontown, WI 97935",
+        "Description": "Stop either dog despite environment. Finish already under whether one measure happy. Finally rock weight price box."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1262
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 99265
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1895
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6787
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5313
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 36676,
+        "TotalApproved": 25956
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Wells",
+        "ContactInformation": {
+            "Phone": "4976394145",
+            "Email": "joshuawilliamson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/85fb4625-9aef-4ca4-9e29-7977f90646a4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-03T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0bd7a235-49b4-410e-b2ae-5db7273fe264",
+    "PolicyID": "8fd0c425-7faa-48bb-a8da-cca5a22dbeac",
+    "EffectiveDates": {
+        "StartDate": "2023-12-10",
+        "EndDate": "2024-12-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f298e359-0ac0-4dfe-8c19-cb8f88ba2493",
+        "Name": "Alice Gutierrez",
+        "PolicyNumber": "8fd0c425-7faa-48bb-a8da-cca5a22dbeac",
+        "ContactInformation": {
+            "Phone": "+1-544-437-1422",
+            "Email": "anthony84@example.org",
+            "Address": "052 Joseph Inlet\nNew Davidstad, ND 96540"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-18",
+        "Location": "109 Michelle Prairie Suite 079\nNorth Samantha, KY 98767",
+        "Description": "Goal window sit indeed choice better. Policy stop almost fear everybody writer give. From second process."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1978
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 116090
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4170
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10425
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1726
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 192024,
+        "TotalApproved": 16754
+    },
+    "AdjusterDetails": {
+        "Name": "Sandra Jones",
+        "ContactInformation": {
+            "Phone": "(399)845-6304",
+            "Email": "davisbarbara@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/82ea8d79-c567-4e62-b6ef-2aef6281d0ca"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-18T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-23T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-28T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

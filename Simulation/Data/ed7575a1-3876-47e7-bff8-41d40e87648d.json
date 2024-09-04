@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ed7575a1-3876-47e7-bff8-41d40e87648d",
+  "PolicyID": "840ffcae-d38c-43b2-b466-f8cd9c728dd6",
+  "EffectiveDates": {
+    "StartDate": "2024-05-23",
+    "EndDate": "2025-05-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "77489d4a-0537-469b-ae28-de82fb4950cc",
+    "Name": "Scott Short",
+    "PolicyNumber": "840ffcae-d38c-43b2-b466-f8cd9c728dd6",
+    "ContactInformation": {
+      "Phone": "822.439.0918x40433",
+      "Email": "vsmith@example.net",
+      "Address": "Unit 8114 Box 0876\nDPO AP 04594"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-06",
+    "Location": "96178 Sullivan Islands\nPort Cynthia, FL 86588",
+    "Description": "Beautiful start part good next. Sometimes radio threat cultural. Mouth firm floor ground process say moment these."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 24065
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 17293
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 86413
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6242
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1859
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 33501,
+    "TotalApproved": 9356
+  },
+  "AdjusterDetails": {
+    "Name": "Mark Brown",
+    "ContactInformation": {
+      "Phone": "(767)919-1536",
+      "Email": "sydneysanders@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/8bd7464c-3505-4a2e-9d48-a5f80ace03f3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-06T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-11T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-16T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

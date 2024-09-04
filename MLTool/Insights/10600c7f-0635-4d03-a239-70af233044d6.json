@@ -1,0 +1,81 @@
+{
+    "ClaimID": "10600c7f-0635-4d03-a239-70af233044d6",
+    "PolicyID": "1fb25f68-8017-4b81-a4d4-f01c8e3381e5",
+    "EffectiveDates": {
+        "StartDate": "2023-12-13",
+        "EndDate": "2024-12-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "24fec684-60f4-40af-9c7a-45c1f8448e45",
+        "Name": "Jessica Stanley",
+        "PolicyNumber": "1fb25f68-8017-4b81-a4d4-f01c8e3381e5",
+        "ContactInformation": {
+            "Phone": "+1-913-654-1637x1958",
+            "Email": "paigematthews@example.com",
+            "Address": "198 Anderson Parks Apt. 710\nJustinton, OR 46232"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-26",
+        "Location": "67509 William Forks Suite 683\nWest Jonathan, SD 51037",
+        "Description": "Learn against foreign tough. Face cut card recent help.\nTheory what remember artist responsibility."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 137855
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 37946
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 88985
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18066
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 123986
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 141785,
+        "TotalApproved": 97763
+    },
+    "AdjusterDetails": {
+        "Name": "Amy Clayton",
+        "ContactInformation": {
+            "Phone": "792.812.9727",
+            "Email": "iellis@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/269a5e29-728c-44af-87f9-c94c218f7954"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-31T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

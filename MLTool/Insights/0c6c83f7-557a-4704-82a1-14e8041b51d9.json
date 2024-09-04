@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0c6c83f7-557a-4704-82a1-14e8041b51d9",
+    "PolicyID": "9f0aa979-518e-4798-ba1d-9681ac92bfaa",
+    "EffectiveDates": {
+        "StartDate": "2024-06-25",
+        "EndDate": "2025-06-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bb73fb18-697d-4a3c-8319-4110e7688980",
+        "Name": "Kirk Gallegos",
+        "PolicyNumber": "9f0aa979-518e-4798-ba1d-9681ac92bfaa",
+        "ContactInformation": {
+            "Phone": "(536)398-1854x750",
+            "Email": "tammy73@example.org",
+            "Address": "62479 Hines Mill\nJessicaburgh, FL 33704"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-17",
+        "Location": "71931 Hill Ridge\nJimenezchester, LA 97996",
+        "Description": "However member today interview require guess wait feeling. Suffer need door summer movie occur card."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39107
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4409
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 78043
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10768
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 64310
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 57113,
+        "TotalApproved": 19210
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Rivas",
+        "ContactInformation": {
+            "Phone": "001-388-693-8925x74081",
+            "Email": "ywong@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/83cd9400-33dc-425d-8ede-7580c672cec1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-17T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-22T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-27T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

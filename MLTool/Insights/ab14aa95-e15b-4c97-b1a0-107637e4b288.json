@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ab14aa95-e15b-4c97-b1a0-107637e4b288",
+    "PolicyID": "b71062ff-09ea-4e69-9f07-4c3636e98522",
+    "EffectiveDates": {
+        "StartDate": "2023-11-05",
+        "EndDate": "2024-11-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "60c1b486-ca61-440e-8577-0b133027a3b6",
+        "Name": "Alison Garrett",
+        "PolicyNumber": "b71062ff-09ea-4e69-9f07-4c3636e98522",
+        "ContactInformation": {
+            "Phone": "6376017253",
+            "Email": "anthony23@example.com",
+            "Address": "64112 Aaron Junctions Apt. 428\nJenniferside, OK 83658"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-29",
+        "Location": "699 Wilson Walks\nNew Richard, MS 72489",
+        "Description": "Part into follow station compare surface. Religious seat great.\nAbove doctor defense letter since least system. Card ground several particular media."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15005
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11052
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5029
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2900
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1939
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 144030,
+        "TotalApproved": 25276
+    },
+    "AdjusterDetails": {
+        "Name": "Tanya Garcia",
+        "ContactInformation": {
+            "Phone": "347-217-5505",
+            "Email": "christinaanderson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8d665d1e-73bf-4232-a2ac-70ec12dc362f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-29T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-03T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-08T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bd20b69f-e6bd-49ed-9fbe-e1666fab3e44",
+    "PolicyID": "4cf67f4d-f3da-455e-85f4-89b99505a5a6",
+    "EffectiveDates": {
+        "StartDate": "2024-02-06",
+        "EndDate": "2025-02-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71455117-9bb4-4e42-a16c-53bcaaf2e534",
+        "Name": "Troy Estrada",
+        "PolicyNumber": "4cf67f4d-f3da-455e-85f4-89b99505a5a6",
+        "ContactInformation": {
+            "Phone": "3269797726",
+            "Email": "collinsdavid@example.org",
+            "Address": "357 Callahan Mountain\nNorth Mary, IL 64279"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-24",
+        "Location": "8146 Fry Passage\nWest Amanda, IL 04295",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 51099
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44964
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9291
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11077
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18423
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 134854,
+        "TotalApproved": 84714
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Aguirre",
+        "ContactInformation": {
+            "Phone": "842.433.4199",
+            "Email": "wardchristine@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6772ed95-a8eb-40d4-a530-c7317537a342"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-24T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-29T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-03T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

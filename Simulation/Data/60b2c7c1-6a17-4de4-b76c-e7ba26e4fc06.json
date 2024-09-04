@@ -1,0 +1,80 @@
+{
+  "ClaimID": "60b2c7c1-6a17-4de4-b76c-e7ba26e4fc06",
+  "PolicyID": "92d9f5f4-4195-46a7-9e5b-9d457148e7bf",
+  "EffectiveDates": {
+    "StartDate": "2024-03-06",
+    "EndDate": "2025-03-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4af2201f-7ed2-4d0b-b513-81a0a7f9b9b0",
+    "Name": "Randy Wright",
+    "PolicyNumber": "92d9f5f4-4195-46a7-9e5b-9d457148e7bf",
+    "ContactInformation": {
+      "Phone": "001-739-866-5543x398",
+      "Email": "hesterryan@example.com",
+      "Address": "32937 Holly Burgs Apt. 125\nNew Aaron, NY 10356"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-29",
+    "Location": "6754 Tammy Tunnel Apt. 215\nNew Melissaland, VA 31013",
+    "Description": "President onto safe lay audience poor we. Doctor open play officer short amount. This field read police strong boy smile."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8548
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 20733
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2255
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8949
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 29845
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 61336,
+    "TotalApproved": 11672
+  },
+  "AdjusterDetails": {
+    "Name": "Jason Frazier",
+    "ContactInformation": {
+      "Phone": "001-770-962-8294x9161",
+      "Email": "ngonzalez@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/ea2343f8-9a5f-4c43-b090-c715521a7a10"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-29T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-03T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-08T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

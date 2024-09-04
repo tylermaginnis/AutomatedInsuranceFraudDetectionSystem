@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9565295e-9565-4693-b266-97d9d69c87c7",
+    "PolicyID": "eddb5c19-2aeb-419a-b8a4-60927c8fede1",
+    "EffectiveDates": {
+        "StartDate": "2024-05-26",
+        "EndDate": "2025-05-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2caeae10-9143-4a93-959a-e63ec176beab",
+        "Name": "Tiffany Lee",
+        "PolicyNumber": "eddb5c19-2aeb-419a-b8a4-60927c8fede1",
+        "ContactInformation": {
+            "Phone": "872-621-8631x416",
+            "Email": "jessicaspears@example.com",
+            "Address": "81925 Hector Estates Suite 141\nNorth Ricky, TX 83425"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-09",
+        "Location": "6771 Jennifer Mountains\nNew Elizabethberg, VA 49768",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 70043
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23929
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7299
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28729
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15310
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 145310,
+        "TotalApproved": 11343
+    },
+    "AdjusterDetails": {
+        "Name": "Benjamin Robinson",
+        "ContactInformation": {
+            "Phone": "(741)830-0568",
+            "Email": "becky18@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1e8721cd-8985-42b2-9e98-b6dd1e334c1f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-09T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-14T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-19T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

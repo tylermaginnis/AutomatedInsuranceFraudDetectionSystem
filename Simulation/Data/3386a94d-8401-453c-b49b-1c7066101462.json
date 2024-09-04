@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3386a94d-8401-453c-b49b-1c7066101462",
+  "PolicyID": "bae212c6-0a57-4324-89d1-83beccc79337",
+  "EffectiveDates": {
+    "StartDate": "2023-12-11",
+    "EndDate": "2024-12-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d8ea001f-ba83-4efa-bc8a-c4b8e118c827",
+    "Name": "Nathan Huff",
+    "PolicyNumber": "bae212c6-0a57-4324-89d1-83beccc79337",
+    "ContactInformation": {
+      "Phone": "001-849-478-4041x6600",
+      "Email": "mitchellrodgers@example.net",
+      "Address": "782 Smith Orchard Apt. 175\nNorth Dillon, CA 46900"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-01-18",
+    "Location": "23453 Marshall Causeway\nDeborahborough, OR 10844",
+    "Description": "Course call bill. Never long challenge activity. Laugh expert toward indeed guess.\nWhich opportunity fly fly meet least. How ready at film although begin."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 36136
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3323
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 11728
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6656
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 69882
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 18114,
+    "TotalApproved": 7023
+  },
+  "AdjusterDetails": {
+    "Name": "Michael King",
+    "ContactInformation": {
+      "Phone": "319.899.0226x42870",
+      "Email": "huberantonio@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/1ce0c799-d710-4c65-b50e-1aeb8caefd59"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-01-18T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-23T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-28T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

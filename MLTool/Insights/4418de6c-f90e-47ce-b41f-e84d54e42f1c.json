@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4418de6c-f90e-47ce-b41f-e84d54e42f1c",
+    "PolicyID": "dcf5f3e8-2687-4655-a137-9bd18d5f0e59",
+    "EffectiveDates": {
+        "StartDate": "2024-01-16",
+        "EndDate": "2025-01-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f405adf3-e768-4dfa-9e96-c7bd17d82954",
+        "Name": "Kelsey Meadows",
+        "PolicyNumber": "dcf5f3e8-2687-4655-a137-9bd18d5f0e59",
+        "ContactInformation": {
+            "Phone": "+1-785-952-8628x04455",
+            "Email": "kevin81@example.org",
+            "Address": "8688 Linda Curve\nEast Matthewport, CA 50808"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-11",
+        "Location": "42321 Charles Camp\nRosalesmouth, MN 81353",
+        "Description": "Tax several evidence growth air management behind. Like discuss appear medical boy. Piece organization fear sort mention."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12973
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34674
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 63042
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35690
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 65426
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 52311,
+        "TotalApproved": 46990
+    },
+    "AdjusterDetails": {
+        "Name": "Gail Jones",
+        "ContactInformation": {
+            "Phone": "001-404-504-0261x50637",
+            "Email": "jessica37@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/703ec1f3-6623-4efc-b21e-eef825adc3f7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

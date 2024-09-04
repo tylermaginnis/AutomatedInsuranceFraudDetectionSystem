@@ -1,0 +1,81 @@
+{
+    "ClaimID": "32b0980e-fe7d-4a15-9a59-4f2e7ea8ea7e",
+    "PolicyID": "4f2ae60e-73de-4abc-b456-8793fb497c1e",
+    "EffectiveDates": {
+        "StartDate": "2024-01-12",
+        "EndDate": "2025-01-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ec48d8c9-e541-4425-bfba-c7f0e53635fb",
+        "Name": "Alexandra Underwood",
+        "PolicyNumber": "4f2ae60e-73de-4abc-b456-8793fb497c1e",
+        "ContactInformation": {
+            "Phone": "001-967-588-1791x835",
+            "Email": "martinezanna@example.com",
+            "Address": "56124 Diana Locks\nJosephburgh, IN 21583"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-12",
+        "Location": "1145 Susan Drive Suite 355\nEast Michael, KS 76142",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 54633
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41869
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5894
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16824
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12034
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 131254,
+        "TotalApproved": 73215
+    },
+    "AdjusterDetails": {
+        "Name": "Samuel Ware",
+        "ContactInformation": {
+            "Phone": "441-586-4086",
+            "Email": "sheriturner@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/280dafa7-9aef-446c-ae2c-6720f9b5beb8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

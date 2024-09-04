@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f05e9b2c-7850-49fe-a359-ec58a3779a4c",
+    "PolicyID": "fcf7c80f-601c-4222-aca2-2b0b7f98e6f7",
+    "EffectiveDates": {
+        "StartDate": "2024-04-16",
+        "EndDate": "2025-04-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "edd50306-bed5-4395-a670-5e62050a3dd3",
+        "Name": "Zachary Thompson",
+        "PolicyNumber": "fcf7c80f-601c-4222-aca2-2b0b7f98e6f7",
+        "ContactInformation": {
+            "Phone": "+1-406-660-8072",
+            "Email": "trush@example.net",
+            "Address": "6824 Tracy Streets\nGarciafort, OR 68922"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-15",
+        "Location": "58147 Scott Summit Suite 386\nScottfurt, WI 79641",
+        "Description": "Discussion toward sit data turn. Happen financial young office lot produce about most. Among manager not question.\nArt up else rise particular. Line type this."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27751
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1394
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8500
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22454
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 100210
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 51322,
+        "TotalApproved": 4364
+    },
+    "AdjusterDetails": {
+        "Name": "Allison Shaw",
+        "ContactInformation": {
+            "Phone": "+1-465-332-4241x0907",
+            "Email": "riverachelsea@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4fa7d323-86e4-4b1a-88b4-880e0c0421c0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

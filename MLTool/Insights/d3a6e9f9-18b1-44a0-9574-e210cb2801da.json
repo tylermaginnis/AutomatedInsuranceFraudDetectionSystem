@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d3a6e9f9-18b1-44a0-9574-e210cb2801da",
+    "PolicyID": "4305b5d7-3e22-4200-aa37-1d49f498a522",
+    "EffectiveDates": {
+        "StartDate": "2024-06-25",
+        "EndDate": "2025-06-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bc7e302a-1be8-4806-a177-ec85713437aa",
+        "Name": "Steven Robinson",
+        "PolicyNumber": "4305b5d7-3e22-4200-aa37-1d49f498a522",
+        "ContactInformation": {
+            "Phone": "526.207.6245x1439",
+            "Email": "susanjackson@example.org",
+            "Address": "67045 Hart Valleys Apt. 093\nAbigailbury, CO 51543"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-26",
+        "Location": "80755 Taylor Ports Apt. 516\nNew David, GU 98138",
+        "Description": "Drive discuss image ten. Father put other American be official answer. Decision ahead something they age many Congress painting."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10651
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9462
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3260
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 165849
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19509
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 28875,
+        "TotalApproved": 28713
+    },
+    "AdjusterDetails": {
+        "Name": "Tina Hall",
+        "ContactInformation": {
+            "Phone": "001-582-451-4920x19595",
+            "Email": "acostakatie@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6729ffe1-c7e3-47f1-a9c3-af3a95ef12e7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-26T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-31T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-05T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

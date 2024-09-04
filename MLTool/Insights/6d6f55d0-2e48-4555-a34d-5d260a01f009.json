@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6d6f55d0-2e48-4555-a34d-5d260a01f009",
+    "PolicyID": "a96dd8ae-c826-463d-9a9b-f8d37f8e08cb",
+    "EffectiveDates": {
+        "StartDate": "2024-06-26",
+        "EndDate": "2025-06-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d5c4e114-f468-4561-b185-530b96fa3876",
+        "Name": "Dawn Brandt",
+        "PolicyNumber": "a96dd8ae-c826-463d-9a9b-f8d37f8e08cb",
+        "ContactInformation": {
+            "Phone": "3148627266",
+            "Email": "martinkristen@example.com",
+            "Address": "047 Jessica Port Apt. 862\nMichaelland, DC 08992"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-30",
+        "Location": "63190 Cook Burgs\nWest Richard, ME 38546",
+        "Description": "Inside would month hair along. Reason never help sometimes ok collection rise. Direction cut entire your include eye.\nOnce require camera interest establish. Process thing foot stay."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4937
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2092
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 86917
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 50459
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1313
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 98085,
+        "TotalApproved": 59360
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Wright",
+        "ContactInformation": {
+            "Phone": "348-377-4626x265",
+            "Email": "xlloyd@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a75af691-ba09-46fc-8df7-db5f83f54e5c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

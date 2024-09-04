@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b1dd31fe-4b16-44a3-8a99-954f8e73b9a6",
+    "PolicyID": "fd23976f-c2fc-480f-8286-2eecc536214d",
+    "EffectiveDates": {
+        "StartDate": "2023-12-21",
+        "EndDate": "2024-12-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0bfd50f0-d138-4631-a671-ee7616778abd",
+        "Name": "Jesse Harris",
+        "PolicyNumber": "fd23976f-c2fc-480f-8286-2eecc536214d",
+        "ContactInformation": {
+            "Phone": "916.369.1194x341",
+            "Email": "lorithomas@example.com",
+            "Address": "3713 Taylor Wall Suite 312\nMcdonaldbury, WV 90659"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-01",
+        "Location": "2531 Haley Village\nSouth Courtneyfurt, IN 12527",
+        "Description": "Senior protect concern. Thing sister enough help save third newspaper.\nNatural wait apply from plan. Wide blood animal fire together rate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1391
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1004
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9737
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 59811
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70561
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 117093,
+        "TotalApproved": 11584
+    },
+    "AdjusterDetails": {
+        "Name": "Charles Fleming",
+        "ContactInformation": {
+            "Phone": "(413)947-1309x011",
+            "Email": "htaylor@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/e6daff71-05d3-4063-a0b6-600fbc1c6910"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

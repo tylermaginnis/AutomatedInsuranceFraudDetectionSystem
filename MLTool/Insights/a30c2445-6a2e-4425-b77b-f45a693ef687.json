@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a30c2445-6a2e-4425-b77b-f45a693ef687",
+    "PolicyID": "60947468-244f-48ef-921f-9dfff861b0ca",
+    "EffectiveDates": {
+        "StartDate": "2024-08-08",
+        "EndDate": "2025-08-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "20ade36d-3ea7-44f4-a4ff-12f6324ce981",
+        "Name": "Jonathan Torres",
+        "PolicyNumber": "60947468-244f-48ef-921f-9dfff861b0ca",
+        "ContactInformation": {
+            "Phone": "977-987-7813",
+            "Email": "terry27@example.net",
+            "Address": "886 Brittany Cliff Apt. 590\nRobinchester, KS 15841"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-30",
+        "Location": "3999 Kevin Lodge Suite 433\nNew Lindsey, NH 85680",
+        "Description": "Evening small especially next whom. Likely him wonder stuff. Spend movie floor chair south least group can. Fear mind speak third note himself nearly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13481
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5972
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 87459
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41237
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33287
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 140194,
+        "TotalApproved": 120157
+    },
+    "AdjusterDetails": {
+        "Name": "Alisha Collins",
+        "ContactInformation": {
+            "Phone": "(650)662-7364",
+            "Email": "tadams@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6e319117-30b1-4d81-8e4d-1f5e3fa203cd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-30T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

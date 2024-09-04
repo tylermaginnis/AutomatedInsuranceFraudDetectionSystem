@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d969e4a8-86b3-418b-8fa9-ae2ee0408a77",
+    "PolicyID": "76de80ba-f952-42a1-8cf8-b89c8b4be5ac",
+    "EffectiveDates": {
+        "StartDate": "2024-07-27",
+        "EndDate": "2025-07-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6d082f09-09ad-48b9-b671-11bdaa69422a",
+        "Name": "Anna Jones",
+        "PolicyNumber": "76de80ba-f952-42a1-8cf8-b89c8b4be5ac",
+        "ContactInformation": {
+            "Phone": "846-679-4508",
+            "Email": "mfoster@example.com",
+            "Address": "51924 Ray Mission Suite 165\nBellberg, TN 70051"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-29",
+        "Location": "Unit 4566 Box 0164\nDPO AA 54718",
+        "Description": "Number hit cold. Gas say similar contain kid various trip. Rest street any site Mrs there take.\nKnow less represent west gas wind because. Maintain once ready goal civil sound inside."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 91905
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11395
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 140263
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7989
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 59271
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 31806,
+        "TotalApproved": 9724
+    },
+    "AdjusterDetails": {
+        "Name": "Nicole Harvey",
+        "ContactInformation": {
+            "Phone": "238-925-7777x23370",
+            "Email": "cadams@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/53c4aabd-7731-46f0-b5a1-5602ce8282dc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-29T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-03T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-08T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

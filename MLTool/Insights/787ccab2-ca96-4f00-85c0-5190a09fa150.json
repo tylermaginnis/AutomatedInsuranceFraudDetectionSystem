@@ -1,0 +1,81 @@
+{
+    "ClaimID": "787ccab2-ca96-4f00-85c0-5190a09fa150",
+    "PolicyID": "d99f1835-448a-4d3e-8472-d34545549d0f",
+    "EffectiveDates": {
+        "StartDate": "2024-08-06",
+        "EndDate": "2025-08-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "536e903a-4c30-4fed-ba88-4abe61433244",
+        "Name": "Kelly Davis",
+        "PolicyNumber": "d99f1835-448a-4d3e-8472-d34545549d0f",
+        "ContactInformation": {
+            "Phone": "(416)481-0155x1723",
+            "Email": "carterhannah@example.org",
+            "Address": "873 Jessica Inlet Suite 001\nRamirezton, NC 02145"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-15",
+        "Location": "958 Mcneil Mission\nColetown, VA 45099",
+        "Description": "Tax I evidence fact remember. Learn compare lay recently job.\nFrom outside bill. Miss form top them history authority. Animal chance never practice."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44015
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18398
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 53673
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8582
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17740
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157411,
+        "TotalApproved": 121006
+    },
+    "AdjusterDetails": {
+        "Name": "Austin Garrison",
+        "ContactInformation": {
+            "Phone": "746-601-2451",
+            "Email": "tcarroll@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/45efcec6-e08a-4e2c-b634-ac3a8003a464"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-15T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-20T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-25T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

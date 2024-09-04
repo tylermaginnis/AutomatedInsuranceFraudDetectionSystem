@@ -1,0 +1,81 @@
+{
+    "ClaimID": "020ea22b-32e6-4a21-a058-9ebf1e20e53d",
+    "PolicyID": "5fbfb53e-6eda-43bb-ada0-044d79d0eb77",
+    "EffectiveDates": {
+        "StartDate": "2024-02-13",
+        "EndDate": "2025-02-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "220007f8-3f73-47c4-b362-c93cda193699",
+        "Name": "Michael English",
+        "PolicyNumber": "5fbfb53e-6eda-43bb-ada0-044d79d0eb77",
+        "ContactInformation": {
+            "Phone": "+1-528-941-0331x9248",
+            "Email": "osanders@example.org",
+            "Address": "755 Barron Prairie Apt. 453\nLake Ashleymouth, MD 84530"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-27",
+        "Location": "PSC 0376, Box 8254\nAPO AA 57367",
+        "Description": "Behavior again authority century. However risk reach trouble paper with hot. Republican hold run nearly population year economy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11443
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46921
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6246
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12202
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18667
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 164879,
+        "TotalApproved": 107264
+    },
+    "AdjusterDetails": {
+        "Name": "Kyle Ortiz",
+        "ContactInformation": {
+            "Phone": "(250)461-6059x8693",
+            "Email": "ashley80@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cf5370a4-b7cf-4f1c-98d1-270a2ad3dddd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-27T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-02T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-07T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

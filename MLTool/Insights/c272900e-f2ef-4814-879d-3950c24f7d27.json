@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c272900e-f2ef-4814-879d-3950c24f7d27",
+    "PolicyID": "d1d5b07d-ff79-47f3-ad27-cc183d1e9565",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a3ce7be8-1b72-463e-a9fe-5bf7b81ee079",
+        "Name": "Sandra Carlson",
+        "PolicyNumber": "d1d5b07d-ff79-47f3-ad27-cc183d1e9565",
+        "ContactInformation": {
+            "Phone": "(308)940-6467",
+            "Email": "rodriguezpatrick@example.net",
+            "Address": "76669 Kimberly Fort Suite 882\nGalvantown, MH 95043"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-11",
+        "Location": "9463 Mary Row\nNew Carrie, PR 50568",
+        "Description": "Shake huge on Democrat call. Find happen new painting.\nPeace information hundred social use. Enjoy range movie would body close line."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19828
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1891
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18766
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46084
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1369
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 26707,
+        "TotalApproved": 7202
+    },
+    "AdjusterDetails": {
+        "Name": "Brenda French",
+        "ContactInformation": {
+            "Phone": "001-921-214-4146x269",
+            "Email": "hperez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b5637ea8-76f5-4dac-84c7-68577d21a26c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-11T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-16T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-21T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

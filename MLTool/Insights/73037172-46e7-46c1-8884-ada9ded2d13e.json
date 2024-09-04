@@ -1,0 +1,81 @@
+{
+    "ClaimID": "73037172-46e7-46c1-8884-ada9ded2d13e",
+    "PolicyID": "f58b0fc9-da64-4d82-87c5-74a6a52f9847",
+    "EffectiveDates": {
+        "StartDate": "2023-11-16",
+        "EndDate": "2024-11-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "92817b29-cbd8-4689-a136-8e74e36cc5ad",
+        "Name": "Jeffery Webb",
+        "PolicyNumber": "f58b0fc9-da64-4d82-87c5-74a6a52f9847",
+        "ContactInformation": {
+            "Phone": "513.730.1526x873",
+            "Email": "todd27@example.net",
+            "Address": "63021 Steve Field Suite 489\nEast James, MI 47083"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-08",
+        "Location": "166 Burnett Garden\nCarterhaven, OH 92602",
+        "Description": "Idea it party drop interview tonight break capital. Fear station I local on few.\nRequire you person morning much more everything game. Final tonight recent democratic teach memory medical."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 123684
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18055
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12237
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 133405
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 151821
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 162473,
+        "TotalApproved": 52693
+    },
+    "AdjusterDetails": {
+        "Name": "Henry Berger",
+        "ContactInformation": {
+            "Phone": "8584682363",
+            "Email": "jamesnguyen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3a53a946-1a1c-40b4-8015-81773856bbbf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

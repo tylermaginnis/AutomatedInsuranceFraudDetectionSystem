@@ -1,0 +1,81 @@
+{
+    "ClaimID": "34696616-0155-4d49-bec0-885d0db0671b",
+    "PolicyID": "d1cbbcf5-6320-4e49-af47-e4ca6ed080b2",
+    "EffectiveDates": {
+        "StartDate": "2024-08-27",
+        "EndDate": "2025-08-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ee5468af-aa38-4a90-b989-56772d1056dc",
+        "Name": "Marcus Hicks",
+        "PolicyNumber": "d1cbbcf5-6320-4e49-af47-e4ca6ed080b2",
+        "ContactInformation": {
+            "Phone": "790-830-8757x721",
+            "Email": "atkinsjose@example.org",
+            "Address": "02316 Kelly Lane\nAshleyside, PA 28985"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-13",
+        "Location": "09041 Haas Ports\nAnnaside, PW 63136",
+        "Description": "Community book clear customer year generation rule. Wait edge American fly particularly action late. Minute like ball lot focus.\nAlone quality must."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18562
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32096
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4154
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 137333
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27079
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 37755,
+        "TotalApproved": 37360
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Bender",
+        "ContactInformation": {
+            "Phone": "+1-596-617-5550",
+            "Email": "ajohnson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f59df09f-be2b-4c63-be11-48731a2ee800"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-13T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-18T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-23T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

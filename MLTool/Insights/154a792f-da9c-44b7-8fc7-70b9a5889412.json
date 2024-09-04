@@ -1,0 +1,81 @@
+{
+    "ClaimID": "154a792f-da9c-44b7-8fc7-70b9a5889412",
+    "PolicyID": "94b5111a-1848-4980-9e92-328d906b9797",
+    "EffectiveDates": {
+        "StartDate": "2024-08-25",
+        "EndDate": "2025-08-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "11e7f3c0-7bd2-4df4-9e10-5f3acfa350d2",
+        "Name": "Bianca Parker",
+        "PolicyNumber": "94b5111a-1848-4980-9e92-328d906b9797",
+        "ContactInformation": {
+            "Phone": "9582743552",
+            "Email": "saramiller@example.net",
+            "Address": "53410 Cynthia Highway\nWebbhaven, ME 05882"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-04",
+        "Location": "1506 Katelyn Isle\nEast Anthonyborough, AK 47121",
+        "Description": "Class peace let age then brother. Human throw treatment again black between form.\nPerhaps vote north pick usually subject young once. Kid mother throw nor course side."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 45746
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 125738
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 46239
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 98675
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 137928
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 50023,
+        "TotalApproved": 22138
+    },
+    "AdjusterDetails": {
+        "Name": "Erika Frederick",
+        "ContactInformation": {
+            "Phone": "2168325464",
+            "Email": "blakejoshua@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cc97c653-bd4c-4c3f-a1c2-64efc3dcff00"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-04T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-09T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-14T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

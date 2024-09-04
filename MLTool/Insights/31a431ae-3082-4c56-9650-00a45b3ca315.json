@@ -1,0 +1,81 @@
+{
+    "ClaimID": "31a431ae-3082-4c56-9650-00a45b3ca315",
+    "PolicyID": "a8c06eea-767c-40f4-9d6d-1fb94d82d76c",
+    "EffectiveDates": {
+        "StartDate": "2023-11-05",
+        "EndDate": "2024-11-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3c9297cc-ec0d-4a7d-92c7-83c6d11be5fc",
+        "Name": "Michele Carrillo",
+        "PolicyNumber": "a8c06eea-767c-40f4-9d6d-1fb94d82d76c",
+        "ContactInformation": {
+            "Phone": "516.717.5129x510",
+            "Email": "manuelfrancis@example.com",
+            "Address": "750 Kurt Knoll Apt. 693\nEmilymouth, KS 17065"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-05",
+        "Location": "401 Kelly Points Apt. 649\nWest Christopher, VI 28360",
+        "Description": "Memory respond scientist run party great nice. Lay near must always.\nEstablish response office southern top. Reason black themselves free cell. Expect walk executive discussion leg customer perform."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 174254
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42564
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 172210
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3750
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12262
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 24161,
+        "TotalApproved": 21724
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Bryant",
+        "ContactInformation": {
+            "Phone": "+1-510-596-5485",
+            "Email": "brentwilliams@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/36da2ae1-442c-4925-aecc-95157dcb759d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

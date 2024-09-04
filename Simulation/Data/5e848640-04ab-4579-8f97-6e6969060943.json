@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5e848640-04ab-4579-8f97-6e6969060943",
+  "PolicyID": "3f2275c9-eb2f-471c-af7b-fbe77177cc58",
+  "EffectiveDates": {
+    "StartDate": "2023-09-19",
+    "EndDate": "2024-09-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a3735aeb-7188-412a-b408-b350234beb49",
+    "Name": "Gail York",
+    "PolicyNumber": "3f2275c9-eb2f-471c-af7b-fbe77177cc58",
+    "ContactInformation": {
+      "Phone": "+1-504-974-2631x813",
+      "Email": "klee@example.org",
+      "Address": "PSC 0231, Box 9344\nAPO AE 15465"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-10-11",
+    "Location": "946 Michael Extension\nBartonville, UT 03302",
+    "Description": "Challenge quickly me development. Thank skill modern science. Number kid what maybe understand research just force."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 98758
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 87676
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3287
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 44433
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1679
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 60935,
+    "TotalApproved": 18076
+  },
+  "AdjusterDetails": {
+    "Name": "Jordan Bailey",
+    "ContactInformation": {
+      "Phone": "(940)451-1967",
+      "Email": "patriciastewart@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/203571f2-6a4c-4c73-925b-8c32c5efbeba"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-10-11T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-10-16T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-10-21T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

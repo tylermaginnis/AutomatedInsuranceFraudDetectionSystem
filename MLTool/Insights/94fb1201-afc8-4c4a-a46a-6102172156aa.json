@@ -1,0 +1,81 @@
+{
+    "ClaimID": "94fb1201-afc8-4c4a-a46a-6102172156aa",
+    "PolicyID": "f951b4e5-b12d-479d-8bea-e3f47cf65cfe",
+    "EffectiveDates": {
+        "StartDate": "2024-03-11",
+        "EndDate": "2025-03-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1cc9669b-9110-4c3a-912a-7d506ef82a22",
+        "Name": "Dr. Sydney Macias",
+        "PolicyNumber": "f951b4e5-b12d-479d-8bea-e3f47cf65cfe",
+        "ContactInformation": {
+            "Phone": "001-559-475-2233x352",
+            "Email": "gnorman@example.net",
+            "Address": "3380 Troy Rest Apt. 104\nDavisfort, AR 72258"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-11",
+        "Location": "55038 Lauren Run\nPort Jason, CO 41515",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 75687
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24688
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5477
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26289
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9139
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 141280,
+        "TotalApproved": 2857
+    },
+    "AdjusterDetails": {
+        "Name": "Ann Richards",
+        "ContactInformation": {
+            "Phone": "719.374.7989x982",
+            "Email": "stephanie16@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/dfa6c002-86b6-4e1c-bbf4-387886389557"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

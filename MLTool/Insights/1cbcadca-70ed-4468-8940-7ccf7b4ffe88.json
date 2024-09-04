@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1cbcadca-70ed-4468-8940-7ccf7b4ffe88",
+    "PolicyID": "9c16430d-02eb-4456-bd5a-7b09f2e10ab9",
+    "EffectiveDates": {
+        "StartDate": "2024-04-11",
+        "EndDate": "2025-04-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ee2d99b-f32a-43f4-8c52-5d890bee17bf",
+        "Name": "Kimberly Brown",
+        "PolicyNumber": "9c16430d-02eb-4456-bd5a-7b09f2e10ab9",
+        "ContactInformation": {
+            "Phone": "001-890-968-1050x725",
+            "Email": "kwood@example.com",
+            "Address": "646 Sarah Union\nSouth Veronica, LA 67158"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-10",
+        "Location": "9906 Brown Trafficway Suite 458\nTraceyland, NV 17123",
+        "Description": "Majority use I reveal effect. Almost close dream discussion state data baby. Cup close religious American."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7851
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5246
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 57440
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8218
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2802
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 47930,
+        "TotalApproved": 22235
+    },
+    "AdjusterDetails": {
+        "Name": "Austin Baker",
+        "ContactInformation": {
+            "Phone": "863-650-4641",
+            "Email": "jennifer16@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/21dfd43e-ced7-46e2-aad4-7af166577058"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-10T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-15T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-20T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

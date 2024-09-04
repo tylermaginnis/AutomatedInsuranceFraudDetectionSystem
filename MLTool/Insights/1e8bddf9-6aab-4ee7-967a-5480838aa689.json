@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1e8bddf9-6aab-4ee7-967a-5480838aa689",
+    "PolicyID": "bd3c1f70-ee65-478b-aaa8-0f823ad6d63d",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ef419ce4-f181-44fc-ba64-1beda3206a4e",
+        "Name": "Caitlin Mcpherson",
+        "PolicyNumber": "bd3c1f70-ee65-478b-aaa8-0f823ad6d63d",
+        "ContactInformation": {
+            "Phone": "(702)251-2939",
+            "Email": "lisa86@example.net",
+            "Address": "033 Clark Isle\nChapmanburgh, NE 27591"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-26",
+        "Location": "6430 Robertson Ranch Apt. 511\nNew Dorothy, VA 35390",
+        "Description": "Option continue field fund. Offer too store individual college must north. Stop necessary discussion information experience.\nAt service employee staff cost think. Manage role social night enjoy rate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7372
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6202
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 70634
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10272
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18618
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 195004,
+        "TotalApproved": 37235
+    },
+    "AdjusterDetails": {
+        "Name": "Tracy Landry",
+        "ContactInformation": {
+            "Phone": "489.378.1076x27319",
+            "Email": "zbrown@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/bb38237e-4653-4bf4-b3e2-acb0906b31f1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-26T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-31T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-05T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

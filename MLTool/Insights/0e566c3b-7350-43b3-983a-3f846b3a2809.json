@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0e566c3b-7350-43b3-983a-3f846b3a2809",
+    "PolicyID": "4f0eb324-7442-494d-ab43-59d2123b8037",
+    "EffectiveDates": {
+        "StartDate": "2024-03-23",
+        "EndDate": "2025-03-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7d9a80e6-efc3-4166-ab26-3e2f3a0dad4d",
+        "Name": "Robert Kim",
+        "PolicyNumber": "4f0eb324-7442-494d-ab43-59d2123b8037",
+        "ContactInformation": {
+            "Phone": "001-771-692-9909x937",
+            "Email": "beth93@example.net",
+            "Address": "067 Turner Way\nMitchellton, AL 12835"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-24",
+        "Location": "51589 Durham Skyway Apt. 019\nLopezport, PR 57819",
+        "Description": "Poor pretty behind base. Ability day still PM quickly.\nClose little whose reality policy option water wrong. Growth without people full phone war."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 65499
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15305
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8385
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17048
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 89976
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 62018,
+        "TotalApproved": 31757
+    },
+    "AdjusterDetails": {
+        "Name": "Tanya Baxter",
+        "ContactInformation": {
+            "Phone": "001-993-251-7706x8057",
+            "Email": "lbrown@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/96e9e887-5408-4481-bc2b-d15996d7b3f7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-24T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-29T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-03T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

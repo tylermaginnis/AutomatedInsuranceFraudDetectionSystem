@@ -1,0 +1,81 @@
+{
+    "ClaimID": "37749e81-890d-4ff2-9964-2bc242c6532a",
+    "PolicyID": "b4a80e49-f5fd-4c56-9d66-23c25aea720c",
+    "EffectiveDates": {
+        "StartDate": "2023-12-29",
+        "EndDate": "2024-12-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9321bdb9-ae69-4025-8238-39c9e13fdc18",
+        "Name": "Edgar Camacho",
+        "PolicyNumber": "b4a80e49-f5fd-4c56-9d66-23c25aea720c",
+        "ContactInformation": {
+            "Phone": "4126420915",
+            "Email": "laurenvasquez@example.com",
+            "Address": "9047 Emily Garden Suite 626\nMichellefurt, IN 89613"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-01",
+        "Location": "2364 Kenneth Stravenue Apt. 313\nSouth Carriefurt, NJ 86898",
+        "Description": "Evidence machine skill. Attorney difficult author issue fast eat thus.\nOthers Democrat common they dark politics. Down positive hit road situation station."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10394
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17220
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 190520
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23002
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5042
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 81755,
+        "TotalApproved": 9758
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Wagner",
+        "ContactInformation": {
+            "Phone": "714-687-3343x3726",
+            "Email": "jhorn@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ebbaf991-90e3-42b6-aaf8-b6d343feb91c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

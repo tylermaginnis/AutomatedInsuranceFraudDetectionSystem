@@ -1,0 +1,81 @@
+{
+    "ClaimID": "05ff5add-5d62-46f8-abd4-13a7cbe4fc05",
+    "PolicyID": "a7d5ac45-030d-4c70-809a-11ddbe07607f",
+    "EffectiveDates": {
+        "StartDate": "2024-03-15",
+        "EndDate": "2025-03-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4e9709c0-17fe-46c3-847e-ced4fdc75009",
+        "Name": "Steven Lee",
+        "PolicyNumber": "a7d5ac45-030d-4c70-809a-11ddbe07607f",
+        "ContactInformation": {
+            "Phone": "+1-708-900-2743x874",
+            "Email": "kburgess@example.net",
+            "Address": "531 Green Coves Suite 734\nSouth Scottstad, NC 06726"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-10",
+        "Location": "2774 Jasmine Land Suite 490\nNorth Valerie, VA 89613",
+        "Description": "Score tell leave part lose. Under about without represent television. Performance government imagine chair always dream."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16361
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14384
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 74978
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37873
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 189235
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 147519,
+        "TotalApproved": 61808
+    },
+    "AdjusterDetails": {
+        "Name": "Teresa Mcintyre",
+        "ContactInformation": {
+            "Phone": "(996)817-9234",
+            "Email": "plong@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1c3f3afb-7bbf-4fa1-8ed4-5e19076e1661"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-10T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-15T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-20T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "00a574ca-f166-4ed4-a7a2-998d601bcd3d",
+    "PolicyID": "e095be3d-5398-4b01-a6d5-86ca135aabc0",
+    "EffectiveDates": {
+        "StartDate": "2024-06-08",
+        "EndDate": "2025-06-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b3270f8b-6eb9-4a3e-9b4c-4bcfd0935206",
+        "Name": "Carolyn Bates",
+        "PolicyNumber": "e095be3d-5398-4b01-a6d5-86ca135aabc0",
+        "ContactInformation": {
+            "Phone": "001-624-680-5447x88266",
+            "Email": "mdavis@example.com",
+            "Address": "479 Ray Dale\nChristineport, OH 52231"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-17",
+        "Location": "00092 Phillips Grove Apt. 133\nJohnsonland, ND 30485",
+        "Description": "Well realize number sometimes there fall sound. Far structure foreign but movement.\nEast indeed real image. Side with surface method. Action hospital very race."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 74327
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20548
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9469
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6573
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 157991
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 143023,
+        "TotalApproved": 129271
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Nguyen",
+        "ContactInformation": {
+            "Phone": "454.832.2836x083",
+            "Email": "qsanchez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/669f6814-e5d0-47cb-86c3-4872a5e08f61"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-17T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-22T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-27T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

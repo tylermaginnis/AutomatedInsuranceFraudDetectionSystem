@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a369cde3-442b-4e84-abc7-d60a12e91eed",
+    "PolicyID": "77868c86-ce36-4d0c-88eb-25d4b530f127",
+    "EffectiveDates": {
+        "StartDate": "2023-10-22",
+        "EndDate": "2024-10-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0d92a20f-033b-4f9c-8a37-a6f4d9ada63e",
+        "Name": "Samantha Scott",
+        "PolicyNumber": "77868c86-ce36-4d0c-88eb-25d4b530f127",
+        "ContactInformation": {
+            "Phone": "742-673-8969x779",
+            "Email": "chelsey46@example.net",
+            "Address": "1907 Sean Point Apt. 178\nChristinaburgh, WY 51946"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-13",
+        "Location": "773 Gina Falls\nTravisfort, KY 19373",
+        "Description": "Standard class heavy learn no history they.\nOil course agent husband reflect begin outside. Another child partner character democratic ten growth. Brother management cover everybody popular eat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4393
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 94303
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 189941
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17086
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17577
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 1666,
+        "TotalApproved": 1386
+    },
+    "AdjusterDetails": {
+        "Name": "William Duncan",
+        "ContactInformation": {
+            "Phone": "554-420-3995",
+            "Email": "christopher33@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a26fa35b-cc04-4a56-89ab-5e4db2c6de7f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-13T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-18T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-23T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

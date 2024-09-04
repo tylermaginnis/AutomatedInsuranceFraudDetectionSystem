@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4723f055-b93d-42eb-a286-7db4153405ef",
+    "PolicyID": "bf36de0a-440b-4487-b1e3-f30b998656d9",
+    "EffectiveDates": {
+        "StartDate": "2024-04-01",
+        "EndDate": "2025-04-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0cd75083-b950-43d6-bef8-3e76530713c2",
+        "Name": "Holly Anderson",
+        "PolicyNumber": "bf36de0a-440b-4487-b1e3-f30b998656d9",
+        "ContactInformation": {
+            "Phone": "001-689-207-3551",
+            "Email": "bschmidt@example.org",
+            "Address": "2538 Stephens Garden\nSouth Jenniferside, OH 98013"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-12",
+        "Location": "35061 Marco Glens Suite 321\nEast Jill, RI 69948",
+        "Description": "Along movement pressure season learn shake. Toward blood final candidate practice decade.\nRoad each short class. Write him concern defense ten in."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8859
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14536
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31856
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4218
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5439
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 126375,
+        "TotalApproved": 124009
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Gonzalez",
+        "ContactInformation": {
+            "Phone": "883-430-7723x63218",
+            "Email": "arthur87@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/fc2776cc-66e1-4e68-801d-a150ceb23de3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

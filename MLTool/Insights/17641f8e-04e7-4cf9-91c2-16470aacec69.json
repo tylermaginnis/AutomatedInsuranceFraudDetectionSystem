@@ -1,0 +1,81 @@
+{
+    "ClaimID": "17641f8e-04e7-4cf9-91c2-16470aacec69",
+    "PolicyID": "f542d943-9ac8-492b-bc57-76bf4e31f0b2",
+    "EffectiveDates": {
+        "StartDate": "2024-08-23",
+        "EndDate": "2025-08-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "843627d2-4431-48b1-b8de-2ac4db139c21",
+        "Name": "Jessica Guerra",
+        "PolicyNumber": "f542d943-9ac8-492b-bc57-76bf4e31f0b2",
+        "ContactInformation": {
+            "Phone": "001-363-693-7441x147",
+            "Email": "gwilkinson@example.org",
+            "Address": "45365 Harris Walks Apt. 094\nWilliamchester, GA 97869"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-10",
+        "Location": "26568 Cunningham Run Apt. 991\nLisaborough, MP 49791",
+        "Description": "Rate consider believe ever. Its person stand view. Third kid who avoid now enter show.\nYoung forward upon leave experience. Interesting still push mention."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23957
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15281
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9824
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7468
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 170111
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 31983,
+        "TotalApproved": 7430
+    },
+    "AdjusterDetails": {
+        "Name": "Faith Velazquez",
+        "ContactInformation": {
+            "Phone": "214.814.1850",
+            "Email": "wellsnicholas@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/03e789f3-0140-4881-89e8-a0cffd936edd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

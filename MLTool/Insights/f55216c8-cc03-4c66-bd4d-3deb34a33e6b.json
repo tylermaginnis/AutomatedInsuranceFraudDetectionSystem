@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f55216c8-cc03-4c66-bd4d-3deb34a33e6b",
+    "PolicyID": "321c638f-ec4a-48f4-a2ff-437e7092aa57",
+    "EffectiveDates": {
+        "StartDate": "2023-11-28",
+        "EndDate": "2024-11-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "454d51f1-2b44-4a16-b22f-22c0f37899bb",
+        "Name": "Gregory Stone",
+        "PolicyNumber": "321c638f-ec4a-48f4-a2ff-437e7092aa57",
+        "ContactInformation": {
+            "Phone": "516.636.7149x029",
+            "Email": "fcampbell@example.org",
+            "Address": "40399 Young Station\nLisaburgh, NY 73811"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-21",
+        "Location": "8236 Gordon Mall\nWest Andrew, VT 01566",
+        "Description": "Defense modern industry simply. Join exist put I rich room.\nBelieve heart middle because ever. Life too official assume perform worry. Others blue consumer determine."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 45965
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 70374
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 98084
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 41988
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50020
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 71315,
+        "TotalApproved": 60998
+    },
+    "AdjusterDetails": {
+        "Name": "Cynthia Mata DDS",
+        "ContactInformation": {
+            "Phone": "7026326600",
+            "Email": "franciscojohnston@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/facf010e-598d-440f-a584-e888720777f0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-01T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "08cdcec0-7d9f-40f3-b775-a4329a8bf952",
+    "PolicyID": "f18efd87-c448-4d0c-8786-a39cbad4dca4",
+    "EffectiveDates": {
+        "StartDate": "2024-07-31",
+        "EndDate": "2025-07-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6f6e48b4-7aea-4461-8a91-8e6ced3d6e19",
+        "Name": "Christian Wright",
+        "PolicyNumber": "f18efd87-c448-4d0c-8786-a39cbad4dca4",
+        "ContactInformation": {
+            "Phone": "(878)688-3698",
+            "Email": "davidperez@example.org",
+            "Address": "148 Joseph Throughway Suite 691\nRobertland, DC 36151"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-26",
+        "Location": "110 Harris Orchard Suite 096\nLake Lauren, NC 79881",
+        "Description": "As with according yeah front. Edge interview rock meeting see. Body especially stock raise hospital truth defense year.\nReduce early always interesting let chair skill."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 80750
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4097
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 58602
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13016
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9860
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 188404,
+        "TotalApproved": 25083
+    },
+    "AdjusterDetails": {
+        "Name": "Rebecca Ford",
+        "ContactInformation": {
+            "Phone": "920-780-3521x96918",
+            "Email": "kenneth95@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e3f05786-2f15-4932-8281-d8a2d89c05b0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-01T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-06T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

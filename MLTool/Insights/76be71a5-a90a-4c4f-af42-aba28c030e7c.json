@@ -1,0 +1,81 @@
+{
+    "ClaimID": "76be71a5-a90a-4c4f-af42-aba28c030e7c",
+    "PolicyID": "24774fef-d033-41bd-a053-f400ed352f82",
+    "EffectiveDates": {
+        "StartDate": "2023-09-09",
+        "EndDate": "2024-09-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "41e44588-f32d-4b72-8b9e-382a898da036",
+        "Name": "Kayla Harvey",
+        "PolicyNumber": "24774fef-d033-41bd-a053-f400ed352f82",
+        "ContactInformation": {
+            "Phone": "+1-829-378-8911x713",
+            "Email": "zwilliams@example.com",
+            "Address": "80540 Sanchez Walks Apt. 789\nKarenbury, GU 72759"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-09",
+        "Location": "PSC 9875, Box 0299\nAPO AE 60617",
+        "Description": "Notice rest east forget responsibility. Author training old mission population. Economy poor piece voice beautiful."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18851
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 94009
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42407
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17289
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21034
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 53514,
+        "TotalApproved": 8364
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Williams",
+        "ContactInformation": {
+            "Phone": "001-311-417-0816x04276",
+            "Email": "jessica26@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b4e419fd-fe45-48f7-90cd-42c1968e17cc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-09T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-14T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-19T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

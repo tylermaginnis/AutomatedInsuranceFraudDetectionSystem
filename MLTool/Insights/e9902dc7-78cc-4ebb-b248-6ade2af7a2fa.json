@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e9902dc7-78cc-4ebb-b248-6ade2af7a2fa",
+    "PolicyID": "204a4b8b-36ce-48eb-9423-e62128c642c9",
+    "EffectiveDates": {
+        "StartDate": "2024-07-25",
+        "EndDate": "2025-07-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bb4b6671-e3cc-437e-a4d6-ae4b8a9433b5",
+        "Name": "Elizabeth Huynh",
+        "PolicyNumber": "204a4b8b-36ce-48eb-9423-e62128c642c9",
+        "ContactInformation": {
+            "Phone": "205-548-5432",
+            "Email": "pholden@example.org",
+            "Address": "2428 Schmitt Viaduct\nBarryfurt, WA 68419"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-14",
+        "Location": "606 Mills Gateway Apt. 196\nThomasburgh, AL 26107",
+        "Description": "In range system campaign although do. Machine continue through discover cultural own total.\nSize crime try. Ago entire prepare though detail. Nothing move parent discussion rich market."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 65867
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12347
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 41339
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 71488
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2879
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 34852,
+        "TotalApproved": 8838
+    },
+    "AdjusterDetails": {
+        "Name": "Ryan Smith",
+        "ContactInformation": {
+            "Phone": "+1-961-988-9073",
+            "Email": "daniel70@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a6322019-895b-4872-a241-4f09ab411fb3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0ff004e3-c623-495b-902b-3415e6db8119",
+    "PolicyID": "fc32a3a1-deec-4c46-84eb-2928deae1b47",
+    "EffectiveDates": {
+        "StartDate": "2023-11-22",
+        "EndDate": "2024-11-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "881b61a7-70ca-4d5b-b005-35901f363a54",
+        "Name": "William Gonzalez",
+        "PolicyNumber": "fc32a3a1-deec-4c46-84eb-2928deae1b47",
+        "ContactInformation": {
+            "Phone": "830-447-2145",
+            "Email": "kaufmanlawrence@example.com",
+            "Address": "1565 Wood Plain\nEast Sharon, OR 61466"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-23",
+        "Location": "4037 Murphy Wells Suite 790\nSarahshire, MO 01258",
+        "Description": "Represent subject democratic and magazine. Among off inside wind.\nInternational cover young family. Avoid himself business stage."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26478
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9484
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3342
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 70014
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 93242
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 189418,
+        "TotalApproved": 175744
+    },
+    "AdjusterDetails": {
+        "Name": "Martin Green",
+        "ContactInformation": {
+            "Phone": "7859697027",
+            "Email": "patrickrogers@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2bf3f059-9590-4fce-a07c-e502d23a3d96"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

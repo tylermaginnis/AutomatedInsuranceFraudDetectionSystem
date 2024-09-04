@@ -1,0 +1,81 @@
+{
+    "ClaimID": "98a22687-44ce-4874-9a49-be03ece6aafb",
+    "PolicyID": "bb4491b1-03c4-4b18-9f36-67303a989817",
+    "EffectiveDates": {
+        "StartDate": "2023-10-28",
+        "EndDate": "2024-10-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9f07a803-4fd5-4afe-8fb0-16fdb535481d",
+        "Name": "Clayton Green",
+        "PolicyNumber": "bb4491b1-03c4-4b18-9f36-67303a989817",
+        "ContactInformation": {
+            "Phone": "865.327.3971",
+            "Email": "chapmancolleen@example.com",
+            "Address": "83821 Taylor Harbors Apt. 755\nLisaton, NJ 04872"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-05",
+        "Location": "USNS Woods\nFPO AA 59916",
+        "Description": "Beyond computer set until style public. Pattern project information hospital.\nBefore short possible."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 86362
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8891
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2061
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19263
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13238
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 122306,
+        "TotalApproved": 24785
+    },
+    "AdjusterDetails": {
+        "Name": "Wendy Mayer",
+        "ContactInformation": {
+            "Phone": "(265)902-1418x5559",
+            "Email": "gary78@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/91b64380-fca4-401f-af7c-00a8a2804d80"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

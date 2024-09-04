@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d772877a-f154-4224-8421-11a4c04e27a5",
+  "PolicyID": "1a5ba983-d7b9-4544-bae9-e1206b60e789",
+  "EffectiveDates": {
+    "StartDate": "2024-02-09",
+    "EndDate": "2025-02-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6a655e16-a001-489a-9ce6-25d4de86bdae",
+    "Name": "Melinda Yang",
+    "PolicyNumber": "1a5ba983-d7b9-4544-bae9-e1206b60e789",
+    "ContactInformation": {
+      "Phone": "001-262-631-8739x535",
+      "Email": "derrickvasquez@example.net",
+      "Address": "251 Terry Station\nLake Carrie, IL 45082"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-28",
+    "Location": "6447 Gonzalez Meadow\nLake Crystalborough, NV 27536",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 63344
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 39347
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5068
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 24646
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9289
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 141694,
+    "TotalApproved": 23299
+  },
+  "AdjusterDetails": {
+    "Name": "Claire Hansen",
+    "ContactInformation": {
+      "Phone": "499-890-4163x82303",
+      "Email": "granttammy@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/01c711f0-1b4c-46b8-b48c-b071623e2cf7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-28T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-02T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-07T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

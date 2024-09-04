@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cf750aa8-83a4-466c-b9f6-f8293f95c647",
+    "PolicyID": "2dea91db-90e8-4ecd-93ae-3e8deef9e0ae",
+    "EffectiveDates": {
+        "StartDate": "2024-01-26",
+        "EndDate": "2025-01-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2df1f074-120a-434b-89ae-755e32b05af5",
+        "Name": "Richard Collins",
+        "PolicyNumber": "2dea91db-90e8-4ecd-93ae-3e8deef9e0ae",
+        "ContactInformation": {
+            "Phone": "610-254-9263",
+            "Email": "carlosfranklin@example.org",
+            "Address": "714 Maddox Mall\nMichelleside, MT 16871"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-28",
+        "Location": "262 Ayala Common\nEast Troymouth, KY 82033",
+        "Description": "Oil sister thought professional learn. Beyond civil Mr sport whether sure door.\nAlready quality yourself beautiful sure make. Suffer collection building price suggest design hour edge."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41597
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10293
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 77854
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1016
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 83208
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 180343,
+        "TotalApproved": 142481
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Kane",
+        "ContactInformation": {
+            "Phone": "001-962-696-1244",
+            "Email": "laura18@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4d7c9bb3-338d-4d19-ac3f-266a12bd917f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-28T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-04T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-09T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

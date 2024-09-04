@@ -1,0 +1,81 @@
+{
+    "ClaimID": "95e757e1-dec0-4547-b42f-1f81abbf99a6",
+    "PolicyID": "c2cfb384-36e1-4dbc-8ca3-db124c71e4d4",
+    "EffectiveDates": {
+        "StartDate": "2023-10-19",
+        "EndDate": "2024-10-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "654410cf-91c8-435c-b9ef-61d674844b49",
+        "Name": "Laura Knapp",
+        "PolicyNumber": "c2cfb384-36e1-4dbc-8ca3-db124c71e4d4",
+        "ContactInformation": {
+            "Phone": "001-774-568-2105x358",
+            "Email": "byrdsean@example.com",
+            "Address": "56395 Jennifer Valleys\nWest Brian, NV 15579"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-23",
+        "Location": "Unit 5004 Box 6618\nDPO AA 80126",
+        "Description": "World good lot. Small improve case decade against shake. Camera beat certain believe happy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27584
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 166196
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15278
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35107
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1328
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 138898,
+        "TotalApproved": 55330
+    },
+    "AdjusterDetails": {
+        "Name": "Patrick Morris",
+        "ContactInformation": {
+            "Phone": "(341)845-6402",
+            "Email": "huntermichael@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4add74c7-837b-4043-94f5-41a360805ed4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

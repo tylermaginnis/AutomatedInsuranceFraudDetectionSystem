@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2cb970ad-883b-4d40-bca6-33db1008baa4",
+  "PolicyID": "3dd09024-1a5b-4fb4-bf0e-0607687bba46",
+  "EffectiveDates": {
+    "StartDate": "2023-09-27",
+    "EndDate": "2024-09-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ad9dc41a-5152-4008-8113-61b61ff6a4bb",
+    "Name": "Gregory Walker",
+    "PolicyNumber": "3dd09024-1a5b-4fb4-bf0e-0607687bba46",
+    "ContactInformation": {
+      "Phone": "577-447-7307x1069",
+      "Email": "erikarichardson@example.net",
+      "Address": "9662 Stephanie Mountains Suite 536\nStevenborough, AS 41955"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-22",
+    "Location": "454 Brent Shoal\nBairdside, WV 21176",
+    "Description": "Region fly just bad. Pressure what usually explain. Learn wear open get.\nLaugh environmental early. Feel loss book lot choose become after myself. Political mind herself support wall."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13277
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7164
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 75984
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 46068
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 13030
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 121540,
+    "TotalApproved": 31654
+  },
+  "AdjusterDetails": {
+    "Name": "Luke Williams",
+    "ContactInformation": {
+      "Phone": "617-619-7803x750",
+      "Email": "pmills@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/d3baa298-c887-4dc9-b644-d41cb9154e54"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-22T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-27T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-01T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

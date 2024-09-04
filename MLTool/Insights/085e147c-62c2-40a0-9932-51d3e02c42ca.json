@@ -1,0 +1,81 @@
+{
+    "ClaimID": "085e147c-62c2-40a0-9932-51d3e02c42ca",
+    "PolicyID": "d2ba5fdf-270a-4de4-be09-0d7745e3b2cd",
+    "EffectiveDates": {
+        "StartDate": "2024-02-09",
+        "EndDate": "2025-02-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3bfb117e-bd57-42fb-b179-b7a186cb720b",
+        "Name": "Suzanne Smith",
+        "PolicyNumber": "d2ba5fdf-270a-4de4-be09-0d7745e3b2cd",
+        "ContactInformation": {
+            "Phone": "8009732060",
+            "Email": "jason62@example.com",
+            "Address": "USNV Alvarado\nFPO AE 06597"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-23",
+        "Location": "PSC 1916, Box 5944\nAPO AE 98780",
+        "Description": "Across before place evening. Quality total million recognize manage full. Exactly law kind sing beyond future half.\nCandidate focus major while. Peace however range medical."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 184650
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 90145
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16115
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12485
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 162482
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 37715,
+        "TotalApproved": 3820
+    },
+    "AdjusterDetails": {
+        "Name": "Renee Huffman",
+        "ContactInformation": {
+            "Phone": "+1-772-849-7524x5949",
+            "Email": "becknicole@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b60ff523-729b-4632-bf65-0bb943280198"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-03T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

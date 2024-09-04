@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4bb05351-fd73-4c25-acab-21958e547a79",
+    "PolicyID": "e629f486-170e-4ace-ae31-5d0c8969776b",
+    "EffectiveDates": {
+        "StartDate": "2024-08-10",
+        "EndDate": "2025-08-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1cfd94a8-1dcd-4c63-9035-137f815aa944",
+        "Name": "Victoria Hoover",
+        "PolicyNumber": "e629f486-170e-4ace-ae31-5d0c8969776b",
+        "ContactInformation": {
+            "Phone": "+1-545-399-5500",
+            "Email": "gquinn@example.org",
+            "Address": "PSC 7492, Box 3084\nAPO AA 43906"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-20",
+        "Location": "USS Baker\nFPO AA 09012",
+        "Description": "American any collection if necessary improve firm. Her within well push force.\nOffice agree future two get. Concern baby particular politics. Cup never anyone ten beat. Among play dinner despite."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 70814
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19006
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25529
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44635
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49776
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 124818,
+        "TotalApproved": 78249
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Welch",
+        "ContactInformation": {
+            "Phone": "818.407.7997",
+            "Email": "dparks@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/fc7fbb6c-9da1-48b0-aeea-e17ebbcb0406"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-20T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-25T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-30T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

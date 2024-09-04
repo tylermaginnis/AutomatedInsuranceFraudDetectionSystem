@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b0ad2318-77a3-469b-b558-0406cc07d99e",
+  "PolicyID": "7373ae5e-8728-4ce7-bebe-325690dbeea4",
+  "EffectiveDates": {
+    "StartDate": "2023-09-28",
+    "EndDate": "2024-09-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3898af47-bf34-402d-bfd5-d4a35b1c8b11",
+    "Name": "Michael Estes",
+    "PolicyNumber": "7373ae5e-8728-4ce7-bebe-325690dbeea4",
+    "ContactInformation": {
+      "Phone": "760-904-0625x1865",
+      "Email": "briana71@example.net",
+      "Address": "47194 Griffith Meadow Suite 416\nTravisberg, DC 95290"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-09",
+    "Location": "43006 Ward Flats Suite 020\nLake Thomasbury, AK 46677",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 85082
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 35805
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9732
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 21553
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16393
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 168565,
+    "TotalApproved": 111445
+  },
+  "AdjusterDetails": {
+    "Name": "Daniel Rollins",
+    "ContactInformation": {
+      "Phone": "(706)550-9390",
+      "Email": "yrogers@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/c5fd574b-1679-4eb8-858b-63a88680fa46"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-09T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-03-14T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-19T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

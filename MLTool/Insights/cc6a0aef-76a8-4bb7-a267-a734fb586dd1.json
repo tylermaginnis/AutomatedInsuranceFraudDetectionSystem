@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cc6a0aef-76a8-4bb7-a267-a734fb586dd1",
+    "PolicyID": "ec1f964a-8fa1-45d9-a9d4-8d191b72ce01",
+    "EffectiveDates": {
+        "StartDate": "2024-02-03",
+        "EndDate": "2025-02-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5102cc71-23e9-448c-8b61-27f92314d083",
+        "Name": "Vanessa Wolf",
+        "PolicyNumber": "ec1f964a-8fa1-45d9-a9d4-8d191b72ce01",
+        "ContactInformation": {
+            "Phone": "(810)450-5780x33325",
+            "Email": "daniel05@example.com",
+            "Address": "PSC 6512, Box 6027\nAPO AE 91201"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-21",
+        "Location": "28444 Lori Cape\nPort Randyberg, WI 82709",
+        "Description": "Deep toward want green poor week firm be. For successful skill son.\nSkill indeed conference red yard develop. Industry order over. Easy offer air expect fall to ten success."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9036
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18133
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32333
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6102
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20495
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 142984,
+        "TotalApproved": 71398
+    },
+    "AdjusterDetails": {
+        "Name": "Katrina Santiago",
+        "ContactInformation": {
+            "Phone": "481.719.9195",
+            "Email": "tsuarez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7aaf4517-a972-4e55-ad35-7f3c7b63b5a6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

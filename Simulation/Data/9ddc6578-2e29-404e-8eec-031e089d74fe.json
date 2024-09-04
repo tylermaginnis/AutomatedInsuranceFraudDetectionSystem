@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9ddc6578-2e29-404e-8eec-031e089d74fe",
+  "PolicyID": "672916c1-56df-43da-8103-0b7658e55e7c",
+  "EffectiveDates": {
+    "StartDate": "2023-10-31",
+    "EndDate": "2024-10-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f63d9984-b3f0-40b8-be70-9709d1a125a6",
+    "Name": "Jonathan Diaz",
+    "PolicyNumber": "672916c1-56df-43da-8103-0b7658e55e7c",
+    "ContactInformation": {
+      "Phone": "(316)906-8408",
+      "Email": "jacksonkimberly@example.org",
+      "Address": "071 Kimberly Forks\nJacksonberg, NM 59942"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-17",
+    "Location": "377 John Inlet Apt. 349\nWest Mariamouth, OR 62564",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 89682
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 47655
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9449
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 29465
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17316
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 193567,
+    "TotalApproved": 106167
+  },
+  "AdjusterDetails": {
+    "Name": "Carl Matthews",
+    "ContactInformation": {
+      "Phone": "415.867.1191",
+      "Email": "madams@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/3fb5e571-6f03-42e2-a067-983eeff579ba"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-17T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-22T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-27T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

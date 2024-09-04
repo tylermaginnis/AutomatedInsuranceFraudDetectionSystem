@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8a2f6f06-97ac-472e-a7b1-8bac99fdcc3b",
+  "PolicyID": "c9379a5a-7016-4158-ad5e-2cf58e4770d1",
+  "EffectiveDates": {
+    "StartDate": "2024-01-30",
+    "EndDate": "2025-01-29"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "38b0f3be-7612-470c-acff-c65483e6096e",
+    "Name": "James Khan",
+    "PolicyNumber": "c9379a5a-7016-4158-ad5e-2cf58e4770d1",
+    "ContactInformation": {
+      "Phone": "9423603106",
+      "Email": "smithamanda@example.org",
+      "Address": "5795 Blake Lake\nSouth Loriborough, AS 75818"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-10",
+    "Location": "7224 Obrien Heights\nKimland, SC 03196",
+    "Description": "Few idea old remember go even.\nReceive team music road. This a likely believe party opportunity movement. Test quite oil his same less."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 22577
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 32732
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5681
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 68845
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 46161
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 192588,
+    "TotalApproved": 90374
+  },
+  "AdjusterDetails": {
+    "Name": "Charles Nguyen",
+    "ContactInformation": {
+      "Phone": "757-828-3330x315",
+      "Email": "regina12@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/7b1878bb-95de-40e3-848f-7fac146c8276"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-10T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-15T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-20T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

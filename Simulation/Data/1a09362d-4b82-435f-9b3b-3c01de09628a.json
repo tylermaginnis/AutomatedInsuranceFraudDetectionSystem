@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1a09362d-4b82-435f-9b3b-3c01de09628a",
+  "PolicyID": "21534c29-ca5f-4ab7-86a1-d67291921ec0",
+  "EffectiveDates": {
+    "StartDate": "2024-05-17",
+    "EndDate": "2025-05-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e6a62378-9601-42b5-8cce-155ac3fd3359",
+    "Name": "Linda Bell",
+    "PolicyNumber": "21534c29-ca5f-4ab7-86a1-d67291921ec0",
+    "ContactInformation": {
+      "Phone": "671.893.4745",
+      "Email": "tkelly@example.org",
+      "Address": "70955 Perez Fork Apt. 927\nEast Cynthiabury, DE 34951"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-31",
+    "Location": "31803 Ramirez Via Apt. 210\nKendraview, DE 01852",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 96427
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 27850
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7343
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15174
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9047
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 155841,
+    "TotalApproved": 40112
+  },
+  "AdjusterDetails": {
+    "Name": "Jerry Little",
+    "ContactInformation": {
+      "Phone": "+1-654-990-4902x188",
+      "Email": "kimberly69@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/4c1b1ca2-d49d-4c02-8346-85d89e9157e0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-31T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-05T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-10T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

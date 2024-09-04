@@ -1,0 +1,81 @@
+{
+    "ClaimID": "57e5a2a0-6011-4825-9eed-81d97f8de259",
+    "PolicyID": "28652bd2-a66c-4410-a7c6-5b224c9224ad",
+    "EffectiveDates": {
+        "StartDate": "2024-01-22",
+        "EndDate": "2025-01-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e09fb21d-df91-43fb-af0c-c0369574abe8",
+        "Name": "Sally Keller",
+        "PolicyNumber": "28652bd2-a66c-4410-a7c6-5b224c9224ad",
+        "ContactInformation": {
+            "Phone": "001-728-318-4754x9127",
+            "Email": "petersenjill@example.com",
+            "Address": "9232 Grace Lane Apt. 205\nSouth Nathanfurt, DE 10576"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-16",
+        "Location": "8028 Tonya Corners\nHannahchester, DE 54264",
+        "Description": "Hospital front join spring finish.\nWorld avoid today above yard tonight possible performance. Project statement benefit pretty choice outside sea.\nBlue key friend what per. Newspaper throw finish."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14905
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7389
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3938
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6361
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 45631
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 44276,
+        "TotalApproved": 1578
+    },
+    "AdjusterDetails": {
+        "Name": "Maria Horn",
+        "ContactInformation": {
+            "Phone": "(217)556-6996x420",
+            "Email": "cheyenne44@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/eb5ee6df-391f-43fa-8f23-ac1bbc748ef2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-16T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-21T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-26T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

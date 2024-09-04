@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d36d04a3-aad0-4dc0-885e-fc95aa4f21cc",
+    "PolicyID": "2ac127ab-dab8-4961-8575-7cd508fd0b99",
+    "EffectiveDates": {
+        "StartDate": "2024-04-05",
+        "EndDate": "2025-04-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fe0f853a-500e-41cd-bdee-ec956ad0946c",
+        "Name": "David Beck",
+        "PolicyNumber": "2ac127ab-dab8-4961-8575-7cd508fd0b99",
+        "ContactInformation": {
+            "Phone": "792.573.4292",
+            "Email": "thomas82@example.com",
+            "Address": "464 Hawkins Locks Suite 269\nElizabethhaven, MO 63023"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-20",
+        "Location": "153 Teresa Parks Apt. 259\nWest Brookeland, WV 06620",
+        "Description": "Best level time field he. The cell side right.\nWill example contain military. Picture important people since strong activity state.\nTheory between system true. Bed dream agree field kind effort."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 75640
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2168
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26347
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1305
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15981
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 110541,
+        "TotalApproved": 3207
+    },
+    "AdjusterDetails": {
+        "Name": "Anna Carr",
+        "ContactInformation": {
+            "Phone": "001-449-741-9692x36880",
+            "Email": "patrick24@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/69f9b78e-d137-4ed5-a79e-b92fe2c3351f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

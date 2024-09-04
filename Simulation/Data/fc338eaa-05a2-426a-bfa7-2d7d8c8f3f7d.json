@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fc338eaa-05a2-426a-bfa7-2d7d8c8f3f7d",
+  "PolicyID": "e1c619d9-d6c2-4441-ba84-844e419403ce",
+  "EffectiveDates": {
+    "StartDate": "2024-02-16",
+    "EndDate": "2025-02-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e5007b08-395b-4f02-8e8d-9e1349efce4f",
+    "Name": "Jennifer Wiggins",
+    "PolicyNumber": "e1c619d9-d6c2-4441-ba84-844e419403ce",
+    "ContactInformation": {
+      "Phone": "(334)441-9291x8965",
+      "Email": "emann@example.net",
+      "Address": "75659 Alec Spring Suite 863\nDanieltown, CO 85154"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-22",
+    "Location": "724 Gilbert Pine Apt. 884\nPort Gary, AS 86657",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 84128
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 27243
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9546
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 16896
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 16011
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 153824,
+    "TotalApproved": 98938
+  },
+  "AdjusterDetails": {
+    "Name": "Wendy James",
+    "ContactInformation": {
+      "Phone": "+1-495-730-0298x83099",
+      "Email": "lori28@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/dbc0166a-17fd-4567-98f2-0058ea7c0e7b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-22T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-27T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-01T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

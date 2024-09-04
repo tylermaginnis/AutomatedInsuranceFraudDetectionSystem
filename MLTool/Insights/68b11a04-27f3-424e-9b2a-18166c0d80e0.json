@@ -1,0 +1,81 @@
+{
+    "ClaimID": "68b11a04-27f3-424e-9b2a-18166c0d80e0",
+    "PolicyID": "d9d782c3-1433-4f93-aef9-82fb40988da4",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9171b411-ed45-42be-a5c9-6ced506082c9",
+        "Name": "Shane Jacobs PhD",
+        "PolicyNumber": "d9d782c3-1433-4f93-aef9-82fb40988da4",
+        "ContactInformation": {
+            "Phone": "(849)265-8783",
+            "Email": "helenlopez@example.com",
+            "Address": "8807 Jeremy Ville\nThompsonchester, VT 41548"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-08",
+        "Location": "35156 Rose Fort Suite 584\nHalltown, KY 06524",
+        "Description": "Himself far director serious change bad next. Travel call both avoid near house prove system."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18987
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 106295
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 79476
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4542
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16774
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 44896,
+        "TotalApproved": 31921
+    },
+    "AdjusterDetails": {
+        "Name": "Brett Taylor",
+        "ContactInformation": {
+            "Phone": "937.516.7232",
+            "Email": "dsandoval@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5d120cdc-ce86-40dd-9f1c-26611bedcdcf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

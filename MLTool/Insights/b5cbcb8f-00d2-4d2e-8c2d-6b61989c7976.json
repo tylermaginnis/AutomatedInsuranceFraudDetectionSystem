@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b5cbcb8f-00d2-4d2e-8c2d-6b61989c7976",
+    "PolicyID": "33a8f096-8d74-4675-a3bd-013c12898c4b",
+    "EffectiveDates": {
+        "StartDate": "2024-03-03",
+        "EndDate": "2025-03-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b428aa38-2916-42ba-87be-a9e3f89b6033",
+        "Name": "Tracy Brown",
+        "PolicyNumber": "33a8f096-8d74-4675-a3bd-013c12898c4b",
+        "ContactInformation": {
+            "Phone": "846-491-3755x6613",
+            "Email": "gary64@example.net",
+            "Address": "Unit 6575 Box 6584\nDPO AP 31374"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-02",
+        "Location": "04100 Holland Circles\nNorth Jessicafurt, SD 46902",
+        "Description": "Late pattern option admit daughter recent into. Call theory wear something note human."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5184
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7114
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49062
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18378
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 76921
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 140306,
+        "TotalApproved": 127995
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Ortiz",
+        "ContactInformation": {
+            "Phone": "001-948-810-8201x3890",
+            "Email": "ccrosby@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0d2525be-0877-4576-aebd-64dcdbcf8e1c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

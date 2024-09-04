@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a130c923-264d-42f7-9446-b6947cf052af",
+    "PolicyID": "65e912fb-ee9d-4ef5-a270-472fd1cd567b",
+    "EffectiveDates": {
+        "StartDate": "2024-08-26",
+        "EndDate": "2025-08-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "529825a7-094f-44f9-afa8-18c3b3f417c7",
+        "Name": "Debra Chandler",
+        "PolicyNumber": "65e912fb-ee9d-4ef5-a270-472fd1cd567b",
+        "ContactInformation": {
+            "Phone": "+1-390-889-4880x77323",
+            "Email": "lhahn@example.org",
+            "Address": "5147 Barker Plaza Apt. 081\nJohnborough, UT 26983"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-29",
+        "Location": "18784 Manning Spur Apt. 655\nMathisland, WI 41039",
+        "Description": "Page baby hard. Financial office authority enter involve during wear. Goal according almost mention child particularly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2896
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3980
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2387
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37980
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7995
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 194122,
+        "TotalApproved": 98306
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Holden",
+        "ContactInformation": {
+            "Phone": "(694)358-6079x9060",
+            "Email": "jessica86@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/7099d4e7-9fda-4d34-91f9-b95b9281ba7f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-29T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-04T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-09T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

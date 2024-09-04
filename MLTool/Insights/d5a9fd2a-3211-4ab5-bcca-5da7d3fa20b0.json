@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d5a9fd2a-3211-4ab5-bcca-5da7d3fa20b0",
+    "PolicyID": "59e3a55e-ed6b-4327-93e3-9bd57fb42ef5",
+    "EffectiveDates": {
+        "StartDate": "2024-04-05",
+        "EndDate": "2025-04-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "02a4fa99-9e29-4428-ad65-63efa82ddeec",
+        "Name": "Curtis Mcmillan",
+        "PolicyNumber": "59e3a55e-ed6b-4327-93e3-9bd57fb42ef5",
+        "ContactInformation": {
+            "Phone": "338.294.0966",
+            "Email": "mcclaindouglas@example.org",
+            "Address": "8473 Donna Station\nTiffanyville, PW 10419"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-06",
+        "Location": "8878 Nunez Harbor\nEast Gloriamouth, AZ 91703",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70987
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41062
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7962
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14827
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19557
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 154395,
+        "TotalApproved": 77623
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Walters",
+        "ContactInformation": {
+            "Phone": "(933)382-0157x0665",
+            "Email": "christopherharmon@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0841a85c-3d49-41a6-8076-457474865558"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-06T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-11T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-16T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "34402c5c-4d54-4a17-98c5-6119e6150bec",
+    "PolicyID": "19a5f306-a611-480d-836a-1544843e8e1b",
+    "EffectiveDates": {
+        "StartDate": "2023-09-21",
+        "EndDate": "2024-09-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "24b89b85-fd44-4cf2-8da4-b6a5e595dd46",
+        "Name": "Seth Jackson",
+        "PolicyNumber": "19a5f306-a611-480d-836a-1544843e8e1b",
+        "ContactInformation": {
+            "Phone": "583-511-3157",
+            "Email": "karina39@example.com",
+            "Address": "1393 Walker Centers Suite 862\nNorth Tracychester, CT 05617"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-16",
+        "Location": "2985 Orr Lakes Apt. 110\nPort Jeffreyfurt, NH 39733",
+        "Description": "Challenge she loss media report control education. Success staff investment employee hard green either weight."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50434
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43733
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15092
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19745
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30237
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 126290,
+        "TotalApproved": 116621
+    },
+    "AdjusterDetails": {
+        "Name": "Jonathan Daniel",
+        "ContactInformation": {
+            "Phone": "+1-472-580-6155x3320",
+            "Email": "ptaylor@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6e276581-d317-4fee-8ad5-445c6d2a768f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

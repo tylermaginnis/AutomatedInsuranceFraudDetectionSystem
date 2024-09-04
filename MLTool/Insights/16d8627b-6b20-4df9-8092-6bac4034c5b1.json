@@ -1,0 +1,81 @@
+{
+    "ClaimID": "16d8627b-6b20-4df9-8092-6bac4034c5b1",
+    "PolicyID": "f68d60d1-9809-4a2b-8389-a83555ca98e6",
+    "EffectiveDates": {
+        "StartDate": "2023-11-01",
+        "EndDate": "2024-10-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2ce6d04e-b64f-420d-8c5c-c938e521ea8b",
+        "Name": "Randy Johnson",
+        "PolicyNumber": "f68d60d1-9809-4a2b-8389-a83555ca98e6",
+        "ContactInformation": {
+            "Phone": "001-484-545-2205x100",
+            "Email": "sjones@example.org",
+            "Address": "4953 Hill Mill Suite 529\nClarkport, MO 46513"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-28",
+        "Location": "554 Christina Alley\nWest Matthewside, OK 16005",
+        "Description": "Write type team leader small hair. Great race tree force well explain black. Others third my garden address."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 185941
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 102392
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19082
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7014
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 77749
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 27682,
+        "TotalApproved": 9125
+    },
+    "AdjusterDetails": {
+        "Name": "Carol Gonzalez",
+        "ContactInformation": {
+            "Phone": "960.905.8654x545",
+            "Email": "tammy94@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/667d9246-90d7-43e0-8574-af02854fe546"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-28T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-02T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-07T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

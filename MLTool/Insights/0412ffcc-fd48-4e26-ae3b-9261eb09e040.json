@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0412ffcc-fd48-4e26-ae3b-9261eb09e040",
+    "PolicyID": "38d60756-2fc8-4744-b2e7-5bc3c90d4123",
+    "EffectiveDates": {
+        "StartDate": "2023-12-15",
+        "EndDate": "2024-12-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9db82088-617c-4290-b061-426c5345e0da",
+        "Name": "Paul Huff",
+        "PolicyNumber": "38d60756-2fc8-4744-b2e7-5bc3c90d4123",
+        "ContactInformation": {
+            "Phone": "3462244201",
+            "Email": "jesse66@example.net",
+            "Address": "PSC 7781, Box 1595\nAPO AA 46260"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-15",
+        "Location": "7582 Maddox Mountain\nEdwardberg, KS 02649",
+        "Description": "Window none may project our low often for. Increase fact dream already lot less song."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 124492
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4199
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17693
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40732
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5947
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 87072,
+        "TotalApproved": 37383
+    },
+    "AdjusterDetails": {
+        "Name": "Heather Bauer",
+        "ContactInformation": {
+            "Phone": "+1-311-439-9176x8878",
+            "Email": "jennifermullins@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1ffa1ac9-c264-4879-963c-7fdc4b9d9cc0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

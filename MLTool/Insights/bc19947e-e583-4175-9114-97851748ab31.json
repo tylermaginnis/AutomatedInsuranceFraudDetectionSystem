@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bc19947e-e583-4175-9114-97851748ab31",
+    "PolicyID": "857f8df9-0916-43fe-a87e-b765a7787cbf",
+    "EffectiveDates": {
+        "StartDate": "2023-10-08",
+        "EndDate": "2024-10-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5a28b626-79d8-412e-9153-a729d1750a6a",
+        "Name": "Jason Lawrence",
+        "PolicyNumber": "857f8df9-0916-43fe-a87e-b765a7787cbf",
+        "ContactInformation": {
+            "Phone": "+1-654-459-0922x10451",
+            "Email": "johnsonrebecca@example.net",
+            "Address": "7581 Mark Route Suite 909\nElizabethfort, FL 78066"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-23",
+        "Location": "030 Daugherty Summit Apt. 669\nLake Eric, SD 57780",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 69294
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23666
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8148
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26469
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9629
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 137206,
+        "TotalApproved": 75145
+    },
+    "AdjusterDetails": {
+        "Name": "Jay Mendoza",
+        "ContactInformation": {
+            "Phone": "944.951.5921",
+            "Email": "burgessrobert@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/26a076ed-7806-4ddf-a0d2-f78d5156579d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-23T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-28T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-02T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

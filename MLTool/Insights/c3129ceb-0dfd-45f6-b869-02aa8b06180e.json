@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c3129ceb-0dfd-45f6-b869-02aa8b06180e",
+    "PolicyID": "0d28773e-3600-48cf-adf5-b647a3ca172d",
+    "EffectiveDates": {
+        "StartDate": "2024-07-18",
+        "EndDate": "2025-07-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ee2a01d-2807-4e5c-9169-281d911abbde",
+        "Name": "Desiree Phillips",
+        "PolicyNumber": "0d28773e-3600-48cf-adf5-b647a3ca172d",
+        "ContactInformation": {
+            "Phone": "338-254-2529x6889",
+            "Email": "briansantos@example.net",
+            "Address": "Unit 2843 Box 4177\nDPO AE 05393"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-05",
+        "Location": "65134 Adkins Crossing\nBrittanyburgh, DC 97363",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 55921
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 46600
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7868
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19357
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11347
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 141093,
+        "TotalApproved": 119502
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Thomas",
+        "ContactInformation": {
+            "Phone": "211.827.6130x018",
+            "Email": "jasonmckinney@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b2625f67-cb44-4b14-ad68-d969f3b864f1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-05T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-10T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-15T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

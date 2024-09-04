@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f7e9371b-6bd9-4332-be34-dd2bbb2bfbd6",
+  "PolicyID": "ca6b94c8-8d47-48b8-b7b0-a7a778679624",
+  "EffectiveDates": {
+    "StartDate": "2024-07-04",
+    "EndDate": "2025-07-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "09d6a31c-cb8f-4b39-a1fa-29081135c5d3",
+    "Name": "Nicholas Rogers",
+    "PolicyNumber": "ca6b94c8-8d47-48b8-b7b0-a7a778679624",
+    "ContactInformation": {
+      "Phone": "490.898.6977x80029",
+      "Email": "ssmith@example.com",
+      "Address": "572 Malone Via\nDanielfurt, ID 49269"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-05",
+    "Location": "066 Kane Highway\nDavidside, MD 32827",
+    "Description": "Through appear development even year modern hear stuff.\nEmployee area direction expert. Already different sometimes. Already account smile."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 42120
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 84851
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8537
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 18755
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3838
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 2468,
+    "TotalApproved": 1747
+  },
+  "AdjusterDetails": {
+    "Name": "Vincent Jones",
+    "ContactInformation": {
+      "Phone": "847-846-4913x168",
+      "Email": "thomastracy@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/e860e63d-897e-4943-af40-fd427ddc1501"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-05T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-10T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-15T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

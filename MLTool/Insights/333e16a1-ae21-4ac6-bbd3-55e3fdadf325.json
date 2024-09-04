@@ -1,0 +1,81 @@
+{
+    "ClaimID": "333e16a1-ae21-4ac6-bbd3-55e3fdadf325",
+    "PolicyID": "f286d7dc-1392-4884-ab14-782779933d9f",
+    "EffectiveDates": {
+        "StartDate": "2024-05-21",
+        "EndDate": "2025-05-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2afa5935-567a-4972-ad39-5fc6d2d14637",
+        "Name": "Caleb Zamora",
+        "PolicyNumber": "f286d7dc-1392-4884-ab14-782779933d9f",
+        "ContactInformation": {
+            "Phone": "+1-232-203-0636x5696",
+            "Email": "april21@example.net",
+            "Address": "57361 Julie Station Suite 409\nNorth Mandy, AK 23267"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-01",
+        "Location": "96150 Gonzalez Mountain\nTimothyland, CO 55237",
+        "Description": "Force move carry any. Throw production Mrs tonight world marriage voice. Thought employee already down share."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 124488
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11715
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16719
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40573
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8337
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 52973,
+        "TotalApproved": 33424
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Brown",
+        "ContactInformation": {
+            "Phone": "689.245.6960x4498",
+            "Email": "juliecarter@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/71381c7d-eeaf-4193-b99f-4d0c46e2bf9c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5572403b-749c-454d-a5e7-24cee9d59777",
+    "PolicyID": "b7b24a4a-1407-41ef-a158-cc3803ce6554",
+    "EffectiveDates": {
+        "StartDate": "2023-10-21",
+        "EndDate": "2024-10-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2056ffc1-4e66-41d8-86fb-284b2d593839",
+        "Name": "Michael Pearson",
+        "PolicyNumber": "b7b24a4a-1407-41ef-a158-cc3803ce6554",
+        "ContactInformation": {
+            "Phone": "(814)280-7712",
+            "Email": "cooperstephen@example.com",
+            "Address": "6881 Daniel Springs Suite 999\nTylermouth, WV 02157"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-17",
+        "Location": "8811 David Mall Apt. 131\nLindsayburgh, ID 60274",
+        "Description": "Capital official pay wrong. Organization these power remember more image voice."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3962
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 125980
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 76840
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1054
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9408
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 156051,
+        "TotalApproved": 105487
+    },
+    "AdjusterDetails": {
+        "Name": "Jenna Ayala",
+        "ContactInformation": {
+            "Phone": "(510)699-0498x576",
+            "Email": "timothymatthews@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/072fccaa-6c68-408f-b29b-e6d32c22c733"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-17T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-22T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-27T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

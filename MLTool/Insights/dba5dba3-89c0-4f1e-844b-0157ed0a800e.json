@@ -1,0 +1,81 @@
+{
+    "ClaimID": "dba5dba3-89c0-4f1e-844b-0157ed0a800e",
+    "PolicyID": "fbf3fb9e-f393-43a0-be2b-a92ca1bc448b",
+    "EffectiveDates": {
+        "StartDate": "2023-09-22",
+        "EndDate": "2024-09-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b0de5dbd-dbd2-4d51-9bfd-94bb814fcd63",
+        "Name": "David Robinson",
+        "PolicyNumber": "fbf3fb9e-f393-43a0-be2b-a92ca1bc448b",
+        "ContactInformation": {
+            "Phone": "5062098542",
+            "Email": "kayla42@example.com",
+            "Address": "00048 Myers Knolls\nNorth David, MD 73469"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-03",
+        "Location": "4294 Davis Cove Apt. 855\nErikatown, VT 42522",
+        "Description": "Leader hand individual thus standard. Heart little view eye would must. Think everybody mention.\nScene when goal cover. Itself positive way serve modern for."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6223
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8047
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5753
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2845
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 143692
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 85691,
+        "TotalApproved": 21032
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Smith",
+        "ContactInformation": {
+            "Phone": "001-363-657-8247x167",
+            "Email": "torresdavid@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0a6f16fd-5d64-4722-9aee-db20ccde6525"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-03T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-08T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-13T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

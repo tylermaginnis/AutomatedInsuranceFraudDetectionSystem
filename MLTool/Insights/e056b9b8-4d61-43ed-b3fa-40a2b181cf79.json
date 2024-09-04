@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e056b9b8-4d61-43ed-b3fa-40a2b181cf79",
+    "PolicyID": "2bda9e0f-8f1d-4275-95ea-0fb6435fec42",
+    "EffectiveDates": {
+        "StartDate": "2024-08-13",
+        "EndDate": "2025-08-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2592ded6-8694-4964-b950-6366d6a596b2",
+        "Name": "Mrs. Ann Smith",
+        "PolicyNumber": "2bda9e0f-8f1d-4275-95ea-0fb6435fec42",
+        "ContactInformation": {
+            "Phone": "461.615.6686",
+            "Email": "melinda41@example.com",
+            "Address": "9713 Alyssa Meadow\nPhelpsview, MD 91577"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-08",
+        "Location": "449 Vanessa Mill\nPort Hectorfort, CT 79799",
+        "Description": "Challenge seven right today. Score rate talk effect how policy establish organization. Require which whom have executive stop both side. Eight character think nation."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 27475
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 70241
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7303
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 134549
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9539
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 167612,
+        "TotalApproved": 118549
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Pittman",
+        "ContactInformation": {
+            "Phone": "(674)770-3183x878",
+            "Email": "browndavid@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/73f5b938-82a2-4eb9-a663-e1bd82c105be"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

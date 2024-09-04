@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7cfd8e5a-184e-43ac-a294-a5460aae3fca",
+    "PolicyID": "31515308-d079-4103-a374-bd9e00f1a579",
+    "EffectiveDates": {
+        "StartDate": "2023-12-10",
+        "EndDate": "2024-12-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c806a69d-9595-4497-a950-16e1c844c664",
+        "Name": "Matthew Smith",
+        "PolicyNumber": "31515308-d079-4103-a374-bd9e00f1a579",
+        "ContactInformation": {
+            "Phone": "7774219078",
+            "Email": "pittschristine@example.com",
+            "Address": "561 Hogan Well Suite 099\nMitchellside, NE 80750"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-13",
+        "Location": "265 Christopher Tunnel\nEast David, ID 04917",
+        "Description": "Mean teacher arrive project admit stand doctor step. Week push light poor phone."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43298
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 132572
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3935
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2714
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44619
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 5138,
+        "TotalApproved": 2419
+    },
+    "AdjusterDetails": {
+        "Name": "Cynthia Hill",
+        "ContactInformation": {
+            "Phone": "(869)319-6808",
+            "Email": "gonzalezchristine@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2c5e7778-34af-4f53-a3d8-ac2c41b311c9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-13T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-18T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-23T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

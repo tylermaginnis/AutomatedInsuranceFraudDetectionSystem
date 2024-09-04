@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a53fe992-5575-46c2-8e30-cf4896a4f647",
+    "PolicyID": "22593b5c-b733-4b55-9509-1b6bd456680d",
+    "EffectiveDates": {
+        "StartDate": "2023-12-06",
+        "EndDate": "2024-12-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fb1b57e1-9fab-4968-8673-0a88013073b2",
+        "Name": "Reginald Lewis",
+        "PolicyNumber": "22593b5c-b733-4b55-9509-1b6bd456680d",
+        "ContactInformation": {
+            "Phone": "001-424-224-8878",
+            "Email": "bjackson@example.org",
+            "Address": "130 Cathy Crescent\nDelgadoburgh, VA 05732"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-30",
+        "Location": "8178 Barbara Shoal Suite 117\nCrystalchester, NY 26584",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 89301
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 20903
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9665
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12195
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9519
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 141583,
+        "TotalApproved": 51906
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Thomas",
+        "ContactInformation": {
+            "Phone": "001-655-732-3484",
+            "Email": "glendasloan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c4c376f8-67df-4ed1-93fd-96af35211816"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "42568882-6e63-4128-9393-69b2b1b491b7",
+    "PolicyID": "2ade2ae3-a35b-4155-b429-e7a81ec90074",
+    "EffectiveDates": {
+        "StartDate": "2023-10-24",
+        "EndDate": "2024-10-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e3c219cc-6de8-46a9-9176-3bfa8ec6cfd6",
+        "Name": "Randy Nelson MD",
+        "PolicyNumber": "2ade2ae3-a35b-4155-b429-e7a81ec90074",
+        "ContactInformation": {
+            "Phone": "+1-731-810-9009",
+            "Email": "yburke@example.net",
+            "Address": "25786 Jennifer Wells\nLake Elizabeth, AS 45860"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-16",
+        "Location": "866 Amy Lake\nLake Elizabethmouth, WY 61095",
+        "Description": "Painting future own throughout cost number. Investment employee walk upon author address war."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32803
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 56450
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67848
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7325
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6438
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 142782,
+        "TotalApproved": 56850
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Escobar",
+        "ContactInformation": {
+            "Phone": "+1-428-583-8193x99009",
+            "Email": "melissa10@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5ff102d0-5c75-4763-8361-56aa044ebff1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

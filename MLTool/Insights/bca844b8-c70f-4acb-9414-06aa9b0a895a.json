@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bca844b8-c70f-4acb-9414-06aa9b0a895a",
+    "PolicyID": "b4b96854-d452-4542-bbb8-2cb6aedff2de",
+    "EffectiveDates": {
+        "StartDate": "2024-02-02",
+        "EndDate": "2025-02-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9c9613a5-9c92-4311-bdb8-8bec012a0cf0",
+        "Name": "Jeffrey Gardner",
+        "PolicyNumber": "b4b96854-d452-4542-bbb8-2cb6aedff2de",
+        "ContactInformation": {
+            "Phone": "(214)273-0583",
+            "Email": "patriciadecker@example.org",
+            "Address": "47978 Caitlyn Parkways\nWashingtonfurt, MD 79701"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-08",
+        "Location": "9092 Alexis Lakes\nSouth Lisa, CA 24175",
+        "Description": "Example we own art director customer material. While speech choice identify high.\nBefore read air mother nature brother economy key. South night data anyone choice debate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26318
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15476
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4626
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18354
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 89248
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 189332,
+        "TotalApproved": 62123
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Cook",
+        "ContactInformation": {
+            "Phone": "(706)739-7917x10188",
+            "Email": "vberger@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/22832626-bfbd-4b04-a1a5-9a841e42bbe6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

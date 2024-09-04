@@ -1,0 +1,81 @@
+{
+    "ClaimID": "77488191-6d12-44cc-b8ce-2ddbac1ae029",
+    "PolicyID": "c73e283d-6c13-4611-9134-3060c1835d1c",
+    "EffectiveDates": {
+        "StartDate": "2024-08-06",
+        "EndDate": "2025-08-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2ad700ca-a827-4f91-b8ae-5332b35280c7",
+        "Name": "Beverly Curry",
+        "PolicyNumber": "c73e283d-6c13-4611-9134-3060c1835d1c",
+        "ContactInformation": {
+            "Phone": "629.847.7209x0062",
+            "Email": "mcintoshjames@example.net",
+            "Address": "05162 Gonzalez Camp\nBlairstad, MT 05701"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-14",
+        "Location": "3925 Jeffrey Shoals\nGonzalezchester, AK 52348",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 51398
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49968
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7341
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22032
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9386
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 140125,
+        "TotalApproved": 55243
+    },
+    "AdjusterDetails": {
+        "Name": "Charles Fuller",
+        "ContactInformation": {
+            "Phone": "(711)386-4101",
+            "Email": "johningram@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/68711367-db00-482a-a8a7-0329688c685f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

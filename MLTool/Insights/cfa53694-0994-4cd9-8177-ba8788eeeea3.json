@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cfa53694-0994-4cd9-8177-ba8788eeeea3",
+    "PolicyID": "562d00f1-7a91-4a62-8675-b00f73cd3c41",
+    "EffectiveDates": {
+        "StartDate": "2024-07-29",
+        "EndDate": "2025-07-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bb9c21d9-342f-4dd4-b391-723a5f708a80",
+        "Name": "Darrell Clark",
+        "PolicyNumber": "562d00f1-7a91-4a62-8675-b00f73cd3c41",
+        "ContactInformation": {
+            "Phone": "944-778-9943x870",
+            "Email": "zavalamichael@example.net",
+            "Address": "3051 Jeffrey Harbor Apt. 039\nNew Christinaburgh, NV 56819"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-22",
+        "Location": "158 John Bypass\nSouth Theresa, DC 16208",
+        "Description": "Pretty rest home practice official rate mission activity. Participant thousand example spend wear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40366
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 170742
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18696
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2158
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42865
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 190868,
+        "TotalApproved": 72532
+    },
+    "AdjusterDetails": {
+        "Name": "Ruth Smith",
+        "ContactInformation": {
+            "Phone": "001-583-679-1141x501",
+            "Email": "mortonwilliam@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/205f0e03-ed66-473e-a22a-7e22e56a0fa2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-22T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-27T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-01T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

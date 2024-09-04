@@ -1,0 +1,80 @@
+{
+  "ClaimID": "49f84bd1-342b-46f1-9e85-dfec0c2889d3",
+  "PolicyID": "d0ca2220-d11d-4d11-ae48-8a6b4738adc2",
+  "EffectiveDates": {
+    "StartDate": "2024-08-24",
+    "EndDate": "2025-08-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "46fa82b2-7c1c-436c-bcb8-7e3b6dd5dae2",
+    "Name": "David Pena",
+    "PolicyNumber": "d0ca2220-d11d-4d11-ae48-8a6b4738adc2",
+    "ContactInformation": {
+      "Phone": "001-263-996-9743x50663",
+      "Email": "wfoster@example.com",
+      "Address": "20022 Ann Loop Suite 302\nLake Theresa, AS 99308"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-08-23",
+    "Location": "704 Kristen Club Apt. 902\nHolmesbury, MI 84585",
+    "Description": "Stop short I go month. Detail there finish garden wide enjoy college smile. Tree if democratic place care.\nMove military light or young series. Them risk return. Support focus test affect."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 169334
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7349
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1830
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 99812
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 25381
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 44472,
+    "TotalApproved": 3718
+  },
+  "AdjusterDetails": {
+    "Name": "Andrew George",
+    "ContactInformation": {
+      "Phone": "+1-566-376-6999x17588",
+      "Email": "christinasmith@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/11ec43f8-8702-48c5-a6d2-0bc99609d25c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-08-23T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-08-28T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-09-02T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

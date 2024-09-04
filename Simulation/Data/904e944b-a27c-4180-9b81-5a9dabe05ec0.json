@@ -1,0 +1,80 @@
+{
+  "ClaimID": "904e944b-a27c-4180-9b81-5a9dabe05ec0",
+  "PolicyID": "3a9b86c9-a590-4239-878d-f43181061517",
+  "EffectiveDates": {
+    "StartDate": "2024-04-22",
+    "EndDate": "2025-04-22"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d2cb1c2d-0c8e-4d2c-8309-12e763fb58fa",
+    "Name": "Gerald Webster",
+    "PolicyNumber": "3a9b86c9-a590-4239-878d-f43181061517",
+    "ContactInformation": {
+      "Phone": "+1-667-306-3947x97787",
+      "Email": "ugriffith@example.net",
+      "Address": "76139 Sanders Springs\nErinborough, OH 26549"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-04",
+    "Location": "6422 Micheal Vista\nEast Robertburgh, OH 65967",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 98781
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 43454
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7191
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16563
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 17361
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 183350,
+    "TotalApproved": 98158
+  },
+  "AdjusterDetails": {
+    "Name": "Hector Ortiz",
+    "ContactInformation": {
+      "Phone": "001-429-882-7227",
+      "Email": "crystal47@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/9749b29d-0354-49ad-86ab-7cbc2ab6520f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-04T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-09T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-14T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "618fc665-7cab-445f-adbc-72ae863a4fcc",
+    "PolicyID": "2c9dc47c-5d78-4cba-a1b1-9ae8bfb4d49d",
+    "EffectiveDates": {
+        "StartDate": "2024-05-28",
+        "EndDate": "2025-05-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c4a84d54-2c1e-4fc8-864f-580e1404b2a4",
+        "Name": "Andrew Mueller",
+        "PolicyNumber": "2c9dc47c-5d78-4cba-a1b1-9ae8bfb4d49d",
+        "ContactInformation": {
+            "Phone": "001-459-881-0333",
+            "Email": "alan49@example.org",
+            "Address": "801 Randall Roads Apt. 414\nPort Nathanborough, TX 97421"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-30",
+        "Location": "53412 Karen Squares\nNorth Mary, AZ 14679",
+        "Description": "Happen old mind discuss. Center relationship make player could.\nLand get human we seem. Group design allow even. Girl ten culture."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14366
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 38410
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8080
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 56510
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 189043
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 198994,
+        "TotalApproved": 37438
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Collins",
+        "ContactInformation": {
+            "Phone": "405-247-7285x583",
+            "Email": "wendyfrazier@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/19e11995-5473-45be-badf-8fd6dfe25b50"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-30T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

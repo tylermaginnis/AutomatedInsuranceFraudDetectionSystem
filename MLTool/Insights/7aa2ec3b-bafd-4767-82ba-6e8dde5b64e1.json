@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7aa2ec3b-bafd-4767-82ba-6e8dde5b64e1",
+    "PolicyID": "a51bb7a8-afdf-4c9d-aeae-63df17e30fa8",
+    "EffectiveDates": {
+        "StartDate": "2024-03-30",
+        "EndDate": "2025-03-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cc9d23ba-23bc-4285-be40-99f0bed849cb",
+        "Name": "Michael Shelton",
+        "PolicyNumber": "a51bb7a8-afdf-4c9d-aeae-63df17e30fa8",
+        "ContactInformation": {
+            "Phone": "875.237.6251x09494",
+            "Email": "gwilliams@example.com",
+            "Address": "PSC 4660, Box 5301\nAPO AE 60400"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-17",
+        "Location": "996 Christina Circles\nErikhaven, WA 72799",
+        "Description": "Worker five country someone professor. Food turn treat east main tax.\nPresent doctor week successful. Maybe television attention. Task fill surface figure nearly student."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 48523
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7740
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 58303
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33241
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3727
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 132146,
+        "TotalApproved": 3402
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Schroeder",
+        "ContactInformation": {
+            "Phone": "+1-744-998-0236x3333",
+            "Email": "beckerjulie@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8c607bd3-cce8-4472-8481-677056d5439b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-17T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-22T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-27T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

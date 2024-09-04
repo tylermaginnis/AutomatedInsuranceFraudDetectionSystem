@@ -1,0 +1,80 @@
+{
+  "ClaimID": "159f2ca5-bece-40ff-84e6-cc3729cae709",
+  "PolicyID": "5b7c71de-c7fd-4e19-baab-f268ef3ce440",
+  "EffectiveDates": {
+    "StartDate": "2024-07-22",
+    "EndDate": "2025-07-22"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1d8b17e0-68ae-4a6e-a64b-d42cd4b6d98d",
+    "Name": "Gregory Mcconnell",
+    "PolicyNumber": "5b7c71de-c7fd-4e19-baab-f268ef3ce440",
+    "ContactInformation": {
+      "Phone": "(250)483-2599x052",
+      "Email": "patricia98@example.net",
+      "Address": "887 Kathleen Stream Apt. 225\nSmithshire, MH 11243"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-13",
+    "Location": "7503 Moses Camp\nNelsonmouth, WI 07040",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 68438
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 37643
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9012
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 26142
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16668
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 157903,
+    "TotalApproved": 40220
+  },
+  "AdjusterDetails": {
+    "Name": "Lisa Price",
+    "ContactInformation": {
+      "Phone": "8222520528",
+      "Email": "jonathan57@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/28ffa97c-ff4f-4a74-83af-f0f0ad3fc21d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-13T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-18T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-05-23T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

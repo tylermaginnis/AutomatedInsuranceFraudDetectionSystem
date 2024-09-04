@@ -1,0 +1,81 @@
+{
+    "ClaimID": "60a0f0c7-5483-4501-8ff9-36e67f0c638e",
+    "PolicyID": "520512b5-571c-4175-a2da-0800a2c6d7d0",
+    "EffectiveDates": {
+        "StartDate": "2024-02-18",
+        "EndDate": "2025-02-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "62f61713-e99c-4171-a09b-760d22019012",
+        "Name": "Jeffrey Rios",
+        "PolicyNumber": "520512b5-571c-4175-a2da-0800a2c6d7d0",
+        "ContactInformation": {
+            "Phone": "6353652304",
+            "Email": "qnelson@example.com",
+            "Address": "8113 Davis Fields\nAnneville, TN 94000"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-08",
+        "Location": "547 Bradley Island\nGarrettburgh, MH 30470",
+        "Description": "Trouble include answer down north five send. Especially tell situation early offer. Shoulder fall only.\nAsk car six item. He often offer stand current whole heavy. Must line why close character."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17420
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 177065
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 109410
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18195
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 94977
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 117878,
+        "TotalApproved": 46802
+    },
+    "AdjusterDetails": {
+        "Name": "Michelle Johnson",
+        "ContactInformation": {
+            "Phone": "897.433.4572x958",
+            "Email": "sonia13@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b6deb221-5918-4f99-9db8-f13373d2be5f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

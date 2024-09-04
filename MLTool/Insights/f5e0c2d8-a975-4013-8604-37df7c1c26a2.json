@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f5e0c2d8-a975-4013-8604-37df7c1c26a2",
+    "PolicyID": "7c7faa21-3f48-418c-963b-ef2e04171022",
+    "EffectiveDates": {
+        "StartDate": "2023-11-22",
+        "EndDate": "2024-11-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d5796f36-542c-40bc-a26a-5963c10dde59",
+        "Name": "Jonathan Brewer",
+        "PolicyNumber": "7c7faa21-3f48-418c-963b-ef2e04171022",
+        "ContactInformation": {
+            "Phone": "905-325-5277x984",
+            "Email": "wolfjames@example.net",
+            "Address": "566 Barbara Stravenue\nWest Breannachester, NV 17351"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-11",
+        "Location": "7990 Lawrence Pass Suite 474\nSouth Laura, IA 53975",
+        "Description": "Shake short others throw meeting. Box less land science give sometimes. Activity argue image above way ahead.\nGas general garden. Who loss wear where sometimes."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1963
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29003
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 30357
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15311
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 98035
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 62521,
+        "TotalApproved": 47133
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Harris",
+        "ContactInformation": {
+            "Phone": "4542690427",
+            "Email": "mgomez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6a9df9bf-2a6a-43e2-a525-012a7fd9daf4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

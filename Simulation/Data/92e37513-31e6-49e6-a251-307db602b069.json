@@ -1,0 +1,80 @@
+{
+  "ClaimID": "92e37513-31e6-49e6-a251-307db602b069",
+  "PolicyID": "58f74e91-97cc-4f8e-b764-a7f3572d113c",
+  "EffectiveDates": {
+    "StartDate": "2023-11-20",
+    "EndDate": "2024-11-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "fc19cd14-b1f0-4b06-907f-585cf307c9d6",
+    "Name": "Daniel Barton",
+    "PolicyNumber": "58f74e91-97cc-4f8e-b764-a7f3572d113c",
+    "ContactInformation": {
+      "Phone": "(910)273-0323x96901",
+      "Email": "tatechristopher@example.net",
+      "Address": "981 Stephanie Center\nWest Haley, MO 23152"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-16",
+    "Location": "9965 Fuller Unions Suite 764\nSouth Robert, IN 01293",
+    "Description": "Kitchen detail make camera news this chair. Allow chair third west company say happy task."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 40826
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 25730
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1681
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3159
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 32731
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 32336,
+    "TotalApproved": 9413
+  },
+  "AdjusterDetails": {
+    "Name": "Joseph Gordon",
+    "ContactInformation": {
+      "Phone": "001-611-458-5520x6008",
+      "Email": "manuellarsen@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/7b6fb909-ddb5-462d-abb0-8cebe97855e0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-16T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-21T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-26T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

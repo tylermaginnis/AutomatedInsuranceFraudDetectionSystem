@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b40f2599-8153-4e93-b7b6-d235db46921c",
+    "PolicyID": "5b4903de-2ff2-426f-a52d-89151d8b38db",
+    "EffectiveDates": {
+        "StartDate": "2024-03-26",
+        "EndDate": "2025-03-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7f0bc876-cb29-4bc2-8ecc-e7a2251444e3",
+        "Name": "Danny Manning",
+        "PolicyNumber": "5b4903de-2ff2-426f-a52d-89151d8b38db",
+        "ContactInformation": {
+            "Phone": "+1-382-910-6130x750",
+            "Email": "steven51@example.org",
+            "Address": "25151 Timothy Crossing\nMarkhaven, FL 22180"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-03",
+        "Location": "666 Thomas Unions\nFinleyfurt, NC 76954",
+        "Description": "Civil garden call. Every on later race indeed.\nSame father really meet. Remain feel somebody box treat.\nOpportunity some young game raise. Crime up politics."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 25501
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1124
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48583
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18653
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2891
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 36870,
+        "TotalApproved": 4650
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Rojas",
+        "ContactInformation": {
+            "Phone": "6154509659",
+            "Email": "jparsons@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/2f07c7bc-8cc3-4509-803d-f9eec958e971"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-03T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-08T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-13T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

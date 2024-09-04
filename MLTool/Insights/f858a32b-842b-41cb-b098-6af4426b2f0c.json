@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f858a32b-842b-41cb-b098-6af4426b2f0c",
+    "PolicyID": "b32bcfe6-9746-4e8c-89d1-b8ff3431f8e9",
+    "EffectiveDates": {
+        "StartDate": "2024-03-12",
+        "EndDate": "2025-03-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "29013a92-3d8b-42b2-925f-d5a79212cfb3",
+        "Name": "Natalie Simon",
+        "PolicyNumber": "b32bcfe6-9746-4e8c-89d1-b8ff3431f8e9",
+        "ContactInformation": {
+            "Phone": "+1-415-800-4129x25672",
+            "Email": "tyler28@example.org",
+            "Address": "475 Cook Loaf Suite 198\nSouth Sara, MI 94594"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-18",
+        "Location": "8054 Natalie Bridge\nLake Sarahville, PA 58203",
+        "Description": "Allow them knowledge data. Might end live focus raise minute serve.\nEight southern keep. Certain country on style last.\nSport ten only senior begin. Morning shoulder among few."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1040
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1326
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9244
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7733
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 95199
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 67405,
+        "TotalApproved": 24542
+    },
+    "AdjusterDetails": {
+        "Name": "Tony Schultz",
+        "ContactInformation": {
+            "Phone": "453-257-2633x102",
+            "Email": "sara87@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cd6919d9-2bf7-4059-852f-dcd9f18a920f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-18T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-23T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-28T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

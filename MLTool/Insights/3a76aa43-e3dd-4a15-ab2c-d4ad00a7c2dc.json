@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3a76aa43-e3dd-4a15-ab2c-d4ad00a7c2dc",
+    "PolicyID": "209eaa12-30a5-4532-834c-bce329af929e",
+    "EffectiveDates": {
+        "StartDate": "2024-09-02",
+        "EndDate": "2025-09-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6c964dec-495a-442b-86d0-a8d29df1934c",
+        "Name": "Larry Zimmerman",
+        "PolicyNumber": "209eaa12-30a5-4532-834c-bce329af929e",
+        "ContactInformation": {
+            "Phone": "(742)423-7175",
+            "Email": "tinalucas@example.org",
+            "Address": "14645 Fisher Knoll\nTerrellville, IN 02531"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-03",
+        "Location": "19383 Jason Unions Apt. 600\nLake Jessicaton, OR 29297",
+        "Description": "Listen road meeting stuff. My watch myself Republican director our expert.\nBetween though production radio. With somebody sea light ready face star. Avoid subject play meeting sound ever laugh."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47947
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21844
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 40047
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 83750
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12244
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 114204,
+        "TotalApproved": 69579
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Curry",
+        "ContactInformation": {
+            "Phone": "001-903-624-1769x142",
+            "Email": "lcollins@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9d13dead-9901-4772-af04-597d518ab177"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-03T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-08T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-13T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

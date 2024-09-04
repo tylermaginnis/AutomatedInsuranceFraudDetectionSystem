@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4c12b164-f5ea-4e28-8e89-982583e740a8",
+  "PolicyID": "fb37030d-c77f-4b61-b63b-61d19a506a85",
+  "EffectiveDates": {
+    "StartDate": "2023-10-29",
+    "EndDate": "2024-10-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "68c6311f-1619-450d-918f-d5f67cfcd1b6",
+    "Name": "Kimberly Adams",
+    "PolicyNumber": "fb37030d-c77f-4b61-b63b-61d19a506a85",
+    "ContactInformation": {
+      "Phone": "224.839.4282x0324",
+      "Email": "pamela77@example.com",
+      "Address": "1393 Harris Coves Apt. 540\nDouglasberg, WA 90009"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-19",
+    "Location": "5059 Kennedy Brook\nRobinview, WA 74358",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 71446
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 45203
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8150
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 27356
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 11933
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 164088,
+    "TotalApproved": 108446
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Collins",
+    "ContactInformation": {
+      "Phone": "659-553-6608",
+      "Email": "jill64@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/adb166a2-0398-4d87-a3eb-e4743989c19b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-19T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-24T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-29T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

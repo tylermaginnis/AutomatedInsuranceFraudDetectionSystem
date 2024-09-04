@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c2fb8888-cb11-43d6-af8c-ee520e2a5485",
+  "PolicyID": "27a79cda-57f8-4704-99c6-fd2a6d7dc5ef",
+  "EffectiveDates": {
+    "StartDate": "2024-01-18",
+    "EndDate": "2025-01-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6dfda015-b676-46b2-a1af-d643eb4944b0",
+    "Name": "Karen Ross",
+    "PolicyNumber": "27a79cda-57f8-4704-99c6-fd2a6d7dc5ef",
+    "ContactInformation": {
+      "Phone": "581-427-4127",
+      "Email": "wrightmatthew@example.net",
+      "Address": "67561 Foster Village\nNew Laura, VT 59684"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-26",
+    "Location": "2923 Adam Tunnel Apt. 117\nNorth Susan, NJ 48246",
+    "Description": "Wonder idea talk.\nSame likely understand medical meeting big. Situation fish strong really person set find send. Citizen enough nice join hot suffer them. Morning artist necessary."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 19744
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7499
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4999
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 121729
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6270
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 46613,
+    "TotalApproved": 16098
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Martin",
+    "ContactInformation": {
+      "Phone": "601-959-0840x0540",
+      "Email": "reynoldsjames@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/83e2efbe-4301-47a3-a1f2-aae9f41caec3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-26T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-31T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-05T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

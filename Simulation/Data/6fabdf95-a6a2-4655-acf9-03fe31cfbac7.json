@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6fabdf95-a6a2-4655-acf9-03fe31cfbac7",
+  "PolicyID": "97592afb-572c-47df-9de1-c03d9f8dcc27",
+  "EffectiveDates": {
+    "StartDate": "2024-08-17",
+    "EndDate": "2025-08-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "96f9ffed-1a70-4c1b-8caf-2c215744f5d6",
+    "Name": "Annette Lee",
+    "PolicyNumber": "97592afb-572c-47df-9de1-c03d9f8dcc27",
+    "ContactInformation": {
+      "Phone": "388.498.7935x017",
+      "Email": "warddanielle@example.com",
+      "Address": "26882 Peters Crossing\nFrancistown, FM 12553"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-07-13",
+    "Location": "27940 Vargas Stream\nSouth Michaelfort, MD 88271",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 58259
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 44747
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5230
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 12846
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6245
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 127327,
+    "TotalApproved": 88280
+  },
+  "AdjusterDetails": {
+    "Name": "Justin Walters",
+    "ContactInformation": {
+      "Phone": "2665747002",
+      "Email": "sierra88@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/e5a0933f-acc4-4131-b44b-3374bc7f4a15"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-07-13T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-07-18T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-07-23T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

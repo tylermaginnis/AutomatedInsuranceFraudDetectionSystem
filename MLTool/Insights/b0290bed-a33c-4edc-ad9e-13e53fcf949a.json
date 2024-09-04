@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b0290bed-a33c-4edc-ad9e-13e53fcf949a",
+    "PolicyID": "dc847b2d-5566-40c6-98a3-181b124bce29",
+    "EffectiveDates": {
+        "StartDate": "2024-03-20",
+        "EndDate": "2025-03-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "67e27cc8-6e52-4342-9569-c25290997019",
+        "Name": "Todd Morgan",
+        "PolicyNumber": "dc847b2d-5566-40c6-98a3-181b124bce29",
+        "ContactInformation": {
+            "Phone": "001-302-944-7739x844",
+            "Email": "andrea55@example.net",
+            "Address": "8670 Amanda Ridge\nSouth Anthonyport, DC 47639"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-27",
+        "Location": "87585 Edward Crest\nLake Jasonshire, WI 70814",
+        "Description": "Unit gas born audience kid product develop. Without interest party president."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2499
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 48845
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 136524
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1589
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19214
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 30029,
+        "TotalApproved": 29694
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Johnson",
+        "ContactInformation": {
+            "Phone": "(212)606-6975",
+            "Email": "lawrencelee@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4a562a7a-0333-49b8-94d0-8018633807b6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-27T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

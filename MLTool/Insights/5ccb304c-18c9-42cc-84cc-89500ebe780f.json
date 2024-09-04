@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5ccb304c-18c9-42cc-84cc-89500ebe780f",
+    "PolicyID": "7bb17fc8-f058-4833-9485-b346dd8770f4",
+    "EffectiveDates": {
+        "StartDate": "2023-11-07",
+        "EndDate": "2024-11-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0012a065-5ff3-4e1e-9375-59b365b5886e",
+        "Name": "Mary Gutierrez",
+        "PolicyNumber": "7bb17fc8-f058-4833-9485-b346dd8770f4",
+        "ContactInformation": {
+            "Phone": "001-740-724-5087x00177",
+            "Email": "lisa89@example.net",
+            "Address": "345 Dennis Rapid\nWest Steven, FL 37415"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-17",
+        "Location": "8365 Jordan Lodge Suite 512\nReyesbury, NV 89480",
+        "Description": "Her center single policy process entire road fear. Way add through be new house shoulder beyond. Act interesting water. Full carry hit style all cold ask."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7362
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 197058
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 149696
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9994
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 73372
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 108532,
+        "TotalApproved": 78382
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Livingston",
+        "ContactInformation": {
+            "Phone": "316.949.7628x2087",
+            "Email": "nhill@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7b79343d-3a91-4d4f-8c34-ae2729c3f5af"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-17T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-22T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-27T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c8b3f1c4-e77b-41bd-9caf-395c2d154141",
+    "PolicyID": "f926a5c3-5199-427e-9fcd-0d0d444e7175",
+    "EffectiveDates": {
+        "StartDate": "2023-10-28",
+        "EndDate": "2024-10-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fe5b17cf-1ee6-46b5-b496-03686243fcb4",
+        "Name": "Denise Garza",
+        "PolicyNumber": "f926a5c3-5199-427e-9fcd-0d0d444e7175",
+        "ContactInformation": {
+            "Phone": "+1-943-808-3228",
+            "Email": "ucallahan@example.com",
+            "Address": "47681 Fischer Light\nNew Brandon, TX 44766"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-24",
+        "Location": "1312 Riddle Lodge Suite 889\nSouth Sarahfurt, NC 78805",
+        "Description": "Road old score economy money. Power nor appear least statement.\nNear ask how after pretty. Or onto most suddenly agent.\nAlmost anything travel. Company analysis picture. Likely woman expect camera."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 80780
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47009
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6459
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40327
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4023
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 160908,
+        "TotalApproved": 59376
+    },
+    "AdjusterDetails": {
+        "Name": "Keith Benson",
+        "ContactInformation": {
+            "Phone": "571.736.9686x393",
+            "Email": "fbailey@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f356c010-0a4c-4e86-8a2c-abd20e4d65e7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-24T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-29T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-03T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

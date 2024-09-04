@@ -1,0 +1,81 @@
+{
+    "ClaimID": "37fec1fb-c840-4638-916f-101d77ad1ba2",
+    "PolicyID": "05159ca8-a81c-491e-9968-c3859ecc6317",
+    "EffectiveDates": {
+        "StartDate": "2024-03-08",
+        "EndDate": "2025-03-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "11176056-cc0a-40ea-b43a-664694453cc7",
+        "Name": "Stephanie Bishop MD",
+        "PolicyNumber": "05159ca8-a81c-491e-9968-c3859ecc6317",
+        "ContactInformation": {
+            "Phone": "001-947-373-4575",
+            "Email": "jonesemily@example.com",
+            "Address": "4733 Amanda Pine\nJeffreyland, DE 82920"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-22",
+        "Location": "869 Black Crest Suite 737\nEast Larry, OR 42179",
+        "Description": "Agent move gun contain gas structure series. Large than special read occur. Team sing beautiful soon radio per.\nRealize deal often side remain course nature."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7836
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6088
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2226
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19535
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15658
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 177214,
+        "TotalApproved": 132648
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Smith",
+        "ContactInformation": {
+            "Phone": "713.290.4441",
+            "Email": "erin20@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d2127775-5347-48f7-869b-9c3d675cc7f8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-22T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-27T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-02T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bedc329d-e5f7-49b5-8101-3dd63377bd12",
+    "PolicyID": "d2961b68-8c94-4066-840c-972a7eaff33b",
+    "EffectiveDates": {
+        "StartDate": "2024-08-18",
+        "EndDate": "2025-08-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "de5b7e51-74bf-47e2-9980-05e8ed50f9c9",
+        "Name": "Joy Johnson",
+        "PolicyNumber": "d2961b68-8c94-4066-840c-972a7eaff33b",
+        "ContactInformation": {
+            "Phone": "001-941-594-7246x61424",
+            "Email": "jameskathryn@example.net",
+            "Address": "5769 Cynthia Parks\nBishopshire, PA 78715"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-08-04",
+        "Location": "18254 Sampson Inlet\nNew Bailey, IN 28160",
+        "Description": "Day system family decision they view thank. National only hard possible themselves stock. Particularly green difficult performance now decide."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45499
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 137236
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4081
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6372
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16118
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 133513,
+        "TotalApproved": 110391
+    },
+    "AdjusterDetails": {
+        "Name": "Vanessa Edwards",
+        "ContactInformation": {
+            "Phone": "303-809-0957x55502",
+            "Email": "michaelhines@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d577ca0c-050e-47af-822c-592ed13c9dc2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-08-04T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-08-09T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-14T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

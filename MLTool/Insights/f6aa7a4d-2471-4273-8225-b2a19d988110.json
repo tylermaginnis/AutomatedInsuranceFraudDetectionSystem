@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6aa7a4d-2471-4273-8225-b2a19d988110",
+    "PolicyID": "6e6155ec-983e-45d2-b172-faee5f103bbf",
+    "EffectiveDates": {
+        "StartDate": "2023-10-29",
+        "EndDate": "2024-10-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71c31b52-4419-484e-bb13-28da79840848",
+        "Name": "Rachel Burton",
+        "PolicyNumber": "6e6155ec-983e-45d2-b172-faee5f103bbf",
+        "ContactInformation": {
+            "Phone": "001-269-482-3595",
+            "Email": "clarkrachel@example.org",
+            "Address": "4670 Wilson Trafficway Suite 372\nWest Mackenzie, IN 52432"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-11",
+        "Location": "494 Henderson Forges\nBaileychester, IN 46675",
+        "Description": "Edge remain finally nature reach time system popular. Plant try cell hundred. Brother subject begin itself memory."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 60704
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 152732
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19266
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19541
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 158903
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 113981,
+        "TotalApproved": 109472
+    },
+    "AdjusterDetails": {
+        "Name": "Lynn Griffith",
+        "ContactInformation": {
+            "Phone": "(599)954-5788x6722",
+            "Email": "vaughankurt@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bf459999-61be-4d13-9223-0b0933636577"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-11T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-16T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-21T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

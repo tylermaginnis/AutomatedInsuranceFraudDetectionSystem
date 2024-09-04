@@ -1,0 +1,81 @@
+{
+    "ClaimID": "183b3a69-dc8c-48f2-9535-030591e6d8d9",
+    "PolicyID": "e2ab9211-1a05-45be-9a97-f73fd66aaad2",
+    "EffectiveDates": {
+        "StartDate": "2024-07-29",
+        "EndDate": "2025-07-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b9c74a05-296d-4640-8fa6-abcbeede5431",
+        "Name": "Melissa Ware",
+        "PolicyNumber": "e2ab9211-1a05-45be-9a97-f73fd66aaad2",
+        "ContactInformation": {
+            "Phone": "001-784-743-5205",
+            "Email": "adriennewatson@example.com",
+            "Address": "250 Lauren Plaza\nJohnstad, MA 45267"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-22",
+        "Location": "2607 Villarreal Corners Suite 401\nSouth Jesse, MN 45515",
+        "Description": "Serious hour always citizen listen. Health may keep establish name those group. Front subject prevent fill in common state.\nSpeech turn science. Value executive mother color paper blue hot research."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 53873
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 143180
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10927
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8866
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 157971
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 96576,
+        "TotalApproved": 9240
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Barber",
+        "ContactInformation": {
+            "Phone": "+1-905-669-9135x65887",
+            "Email": "brian84@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e5195cf1-725f-4bd7-9bb8-e9d9ac25d1b5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-01T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6f4b315-9858-4c9f-a24d-36b81f6494df",
+    "PolicyID": "506672d7-7fff-4457-b799-df7661b05ae0",
+    "EffectiveDates": {
+        "StartDate": "2023-12-27",
+        "EndDate": "2024-12-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8249c42b-803e-4368-81be-ae600f238244",
+        "Name": "Dominique Phillips",
+        "PolicyNumber": "506672d7-7fff-4457-b799-df7661b05ae0",
+        "ContactInformation": {
+            "Phone": "614.661.9331x3411",
+            "Email": "kimberly20@example.net",
+            "Address": "451 Danielle Flat\nSpencerton, ID 22358"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-24",
+        "Location": "713 James Unions\nMooreview, MA 34333",
+        "Description": "Camera main actually. Interest east data. On expect institution travel store however area."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13790
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5527
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13490
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7185
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39218
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 189705,
+        "TotalApproved": 121113
+    },
+    "AdjusterDetails": {
+        "Name": "Michael West",
+        "ContactInformation": {
+            "Phone": "3782575889",
+            "Email": "nicholas79@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fa420f29-2230-47ad-893c-f9186ce4b8ba"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-24T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-29T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

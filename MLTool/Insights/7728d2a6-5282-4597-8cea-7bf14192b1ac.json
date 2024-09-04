@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7728d2a6-5282-4597-8cea-7bf14192b1ac",
+    "PolicyID": "ffa6af7f-bbf4-426a-9118-6d08b470959c",
+    "EffectiveDates": {
+        "StartDate": "2023-11-09",
+        "EndDate": "2024-11-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "791675b4-9659-4cf5-94b1-6452d408cbf1",
+        "Name": "Julia Davis",
+        "PolicyNumber": "ffa6af7f-bbf4-426a-9118-6d08b470959c",
+        "ContactInformation": {
+            "Phone": "8907895191",
+            "Email": "vhenry@example.com",
+            "Address": "78112 April Pines\nWilliamhaven, TX 39525"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-18",
+        "Location": "559 Stevenson Shoal Suite 508\nSouth Robert, AZ 26456",
+        "Description": "Wind rule few anything usually. Republican close professional hospital realize. Attack throughout our.\nGreen coach draw itself toward. Yeah suffer capital goal thousand stuff too wait."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1404
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8866
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5441
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15465
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38108
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 115001,
+        "TotalApproved": 46512
+    },
+    "AdjusterDetails": {
+        "Name": "Gary Brady",
+        "ContactInformation": {
+            "Phone": "(209)447-1317",
+            "Email": "ritternicholas@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8ce517ae-6b9d-4769-8722-b721cac7bf4d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-18T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-23T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-28T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

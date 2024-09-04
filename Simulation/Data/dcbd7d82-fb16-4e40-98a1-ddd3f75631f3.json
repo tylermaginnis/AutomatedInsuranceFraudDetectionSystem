@@ -1,0 +1,80 @@
+{
+  "ClaimID": "dcbd7d82-fb16-4e40-98a1-ddd3f75631f3",
+  "PolicyID": "8bd8980c-fead-4c08-8216-b159d3cd2c70",
+  "EffectiveDates": {
+    "StartDate": "2024-06-28",
+    "EndDate": "2025-06-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1f78bac6-c68d-464a-ae48-0bd7ff3a1652",
+    "Name": "Bobby Mason",
+    "PolicyNumber": "8bd8980c-fead-4c08-8216-b159d3cd2c70",
+    "ContactInformation": {
+      "Phone": "(940)324-3563x6378",
+      "Email": "scottscott@example.org",
+      "Address": "USNV Sullivan\nFPO AA 51772"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-06-06",
+    "Location": "99716 Franklin Corners Suite 464\nNorth Carlatown, MT 81479",
+    "Description": "Popular notice prevent law a. Water forget point together away then."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 39937
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 40165
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3351
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7798
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 35740
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 73305,
+    "TotalApproved": 17712
+  },
+  "AdjusterDetails": {
+    "Name": "Mary Davis",
+    "ContactInformation": {
+      "Phone": "5369398261",
+      "Email": "benjaminbanks@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/fe88e404-68b2-47fa-b0c1-728a6016c22d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-06-06T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-06-11T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-06-16T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

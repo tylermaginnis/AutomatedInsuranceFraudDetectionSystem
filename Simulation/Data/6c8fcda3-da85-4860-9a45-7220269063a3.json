@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6c8fcda3-da85-4860-9a45-7220269063a3",
+  "PolicyID": "bee71980-adac-4a4b-81a8-26b10a29a415",
+  "EffectiveDates": {
+    "StartDate": "2024-01-24",
+    "EndDate": "2025-01-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f03531ae-122a-47c6-9b09-590d32843e98",
+    "Name": "Jennifer Gillespie",
+    "PolicyNumber": "bee71980-adac-4a4b-81a8-26b10a29a415",
+    "ContactInformation": {
+      "Phone": "001-998-516-7753",
+      "Email": "qcampbell@example.org",
+      "Address": "45110 Thompson Crescent\nWest Tracy, OK 43470"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-22",
+    "Location": "5563 Amber Hill Apt. 508\nRyanberg, NM 89996",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 80442
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 26060
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9810
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 24598
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 13039
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 153949,
+    "TotalApproved": 130042
+  },
+  "AdjusterDetails": {
+    "Name": "Joseph Kennedy",
+    "ContactInformation": {
+      "Phone": "001-946-584-1214",
+      "Email": "kellybradley@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/d04d1b30-16d1-45e2-9a12-3813a0f479ee"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-22T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-27T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-03T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

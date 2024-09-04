@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1f3b6802-79b8-456e-a8fe-91070a65c168",
+  "PolicyID": "7414f48a-acef-4037-896e-d66ef15c19d3",
+  "EffectiveDates": {
+    "StartDate": "2024-07-15",
+    "EndDate": "2025-07-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e84f6c22-24b3-4034-bc7a-572ae1407391",
+    "Name": "Sonya Jackson",
+    "PolicyNumber": "7414f48a-acef-4037-896e-d66ef15c19d3",
+    "ContactInformation": {
+      "Phone": "(442)321-3282x2644",
+      "Email": "danieltodd@example.net",
+      "Address": "63661 Jones Manor\nLeslieville, TX 12720"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-17",
+    "Location": "5785 Luna Crescent Suite 607\nNorth Jamesville, MI 26028",
+    "Description": "Member note city avoid note. Likely provide food. Audience very worker office energy back police.\nGuess budget spend discuss. Policy third bad one. Until standard send check rule body five."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8213
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1020
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5709
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3300
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16301
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 17475,
+    "TotalApproved": 14341
+  },
+  "AdjusterDetails": {
+    "Name": "Laura Mcdonald",
+    "ContactInformation": {
+      "Phone": "232-330-3786",
+      "Email": "jamie73@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/e389fc5b-1762-47a1-b50d-b1f474f6525c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-17T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-02-22T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-27T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

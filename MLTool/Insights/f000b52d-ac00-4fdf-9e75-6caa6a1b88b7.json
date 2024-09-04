@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f000b52d-ac00-4fdf-9e75-6caa6a1b88b7",
+    "PolicyID": "5a416f42-c769-4f38-bfe1-3eaf7a38946c",
+    "EffectiveDates": {
+        "StartDate": "2024-06-09",
+        "EndDate": "2025-06-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "44c2034d-26f5-46fc-ac4a-0e4d2f5e5fdb",
+        "Name": "Mary Christensen DVM",
+        "PolicyNumber": "5a416f42-c769-4f38-bfe1-3eaf7a38946c",
+        "ContactInformation": {
+            "Phone": "863.733.2486",
+            "Email": "christopher39@example.org",
+            "Address": "24823 Jill Row\nBrendaport, GA 08862"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-24",
+        "Location": "64113 Morgan Mission Suite 425\nRobbinsville, NH 25248",
+        "Description": "Condition small near call inside accept. Organization community sure various charge building half again. Similar off skin just best."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62531
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7477
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2766
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17673
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 162196
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 172441,
+        "TotalApproved": 159591
+    },
+    "AdjusterDetails": {
+        "Name": "Justin Castillo",
+        "ContactInformation": {
+            "Phone": "001-508-907-2402x893",
+            "Email": "destiny20@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/dba42eee-4c2b-4661-b7f9-d3a37b144baf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-24T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-29T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-03T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

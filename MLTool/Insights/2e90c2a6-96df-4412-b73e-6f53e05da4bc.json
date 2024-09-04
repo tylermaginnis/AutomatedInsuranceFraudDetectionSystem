@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2e90c2a6-96df-4412-b73e-6f53e05da4bc",
+    "PolicyID": "4ac87be6-47c3-4b13-b0e3-fa1f464d157c",
+    "EffectiveDates": {
+        "StartDate": "2023-10-17",
+        "EndDate": "2024-10-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cbd608aa-a9d1-4dc2-8a06-2ad955007347",
+        "Name": "Sara Schmidt",
+        "PolicyNumber": "4ac87be6-47c3-4b13-b0e3-fa1f464d157c",
+        "ContactInformation": {
+            "Phone": "347.831.0816",
+            "Email": "jenniferhudson@example.org",
+            "Address": "8490 Garcia Inlet Apt. 805\nShaneport, MA 98716"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-14",
+        "Location": "5413 Michael Glen\nRodriguezhaven, ID 80920",
+        "Description": "Among rate focus deep fall everyone significant. Yes coach risk serious. Popular nothing exist stand drug hold our can."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 60159
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6836
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 34176
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 37751
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18938
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 38989,
+        "TotalApproved": 21381
+    },
+    "AdjusterDetails": {
+        "Name": "David Walker",
+        "ContactInformation": {
+            "Phone": "001-959-464-1915x539",
+            "Email": "sharon56@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ef3c40c0-47d9-42c9-8274-f0f35459f29e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-14T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-19T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-24T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

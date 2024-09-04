@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fce06b85-bf5e-43bd-87ea-6ba778aad8b1",
+    "PolicyID": "010473eb-076a-4ef1-8251-c8e708dc29a7",
+    "EffectiveDates": {
+        "StartDate": "2023-11-09",
+        "EndDate": "2024-11-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0699a4af-d802-41bd-b6fb-977129ac8432",
+        "Name": "Charles Ross",
+        "PolicyNumber": "010473eb-076a-4ef1-8251-c8e708dc29a7",
+        "ContactInformation": {
+            "Phone": "445-231-6733",
+            "Email": "jessicawerner@example.com",
+            "Address": "PSC 9128, Box 5264\nAPO AP 92574"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-22",
+        "Location": "5400 Charles Parkways Apt. 685\nLaurenstad, KY 30205",
+        "Description": "Machine line subject political site break.\nRequire wrong same mother save child."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1305
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44169
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 87690
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5343
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20693
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 195004,
+        "TotalApproved": 172501
+    },
+    "AdjusterDetails": {
+        "Name": "Maria Robinson",
+        "ContactInformation": {
+            "Phone": "700.206.6496x38914",
+            "Email": "erush@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/2f139ee9-cbd7-4add-afc5-c1f020ae484c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-22T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-27T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-01T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

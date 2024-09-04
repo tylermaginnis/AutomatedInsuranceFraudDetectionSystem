@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c899e1e6-c378-49a5-8a05-fad17622340c",
+  "PolicyID": "680a7d56-80dd-47f5-a2e4-ad5dca0fefad",
+  "EffectiveDates": {
+    "StartDate": "2024-03-18",
+    "EndDate": "2025-03-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4b17ceed-cc02-48a9-be93-c73cf22be687",
+    "Name": "John Anderson",
+    "PolicyNumber": "680a7d56-80dd-47f5-a2e4-ad5dca0fefad",
+    "ContactInformation": {
+      "Phone": "(805)516-7852x741",
+      "Email": "maxwelldebra@example.org",
+      "Address": "5218 Eaton Villages\nRushport, KY 18016"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-13",
+    "Location": "07357 Virginia Well Suite 689\nPort Jenna, GU 59904",
+    "Description": "Article happy election.\nFar son many wonder in. Prepare bit let kind. Important single next.\nShare few capital stand watch. Live action argue spring sit not create."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6702
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 23739
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5926
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9182
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9976
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 37068,
+    "TotalApproved": 8190
+  },
+  "AdjusterDetails": {
+    "Name": "Craig Smith",
+    "ContactInformation": {
+      "Phone": "316-870-5204",
+      "Email": "micheal37@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/46cec7c6-51f7-4eaa-9528-ed55c228a4a6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-13T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-18T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-23T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

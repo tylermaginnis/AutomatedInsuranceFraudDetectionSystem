@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2a86730d-b263-4293-824a-13206e38b308",
+    "PolicyID": "d3ca6320-da02-4e7e-bd62-c17d648d02d2",
+    "EffectiveDates": {
+        "StartDate": "2024-04-19",
+        "EndDate": "2025-04-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e188bcc2-5e2a-4bb1-b411-b08c58cc030e",
+        "Name": "Christopher Mann",
+        "PolicyNumber": "d3ca6320-da02-4e7e-bd62-c17d648d02d2",
+        "ContactInformation": {
+            "Phone": "984.281.2260x40024",
+            "Email": "kathryn32@example.net",
+            "Address": "43550 Lauren Fords Suite 821\nWest Carl, SD 01530"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-04",
+        "Location": "51954 Watson Flats Suite 583\nEast John, WI 47334",
+        "Description": "Simply different teacher argue sit. Mouth son point hold. Involve feel radio guy book situation sometimes."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 81481
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2282
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 81273
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9016
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43119
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 192108,
+        "TotalApproved": 189544
+    },
+    "AdjusterDetails": {
+        "Name": "Keith Thompson",
+        "ContactInformation": {
+            "Phone": "706-472-9989x45406",
+            "Email": "crichard@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5bac98d5-d40e-4aa2-8618-36a8d2eb0b7e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-04T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-09T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-14T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

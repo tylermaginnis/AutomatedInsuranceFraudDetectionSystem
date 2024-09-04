@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6582e74-01b2-484b-bd29-1c78a480561c",
+    "PolicyID": "5e48df1c-75fe-47b1-8162-91ef9c758bad",
+    "EffectiveDates": {
+        "StartDate": "2024-05-24",
+        "EndDate": "2025-05-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dddd7238-dce7-490f-9da8-091f4e40231d",
+        "Name": "Tyler Meyer",
+        "PolicyNumber": "5e48df1c-75fe-47b1-8162-91ef9c758bad",
+        "ContactInformation": {
+            "Phone": "001-428-603-6962x4684",
+            "Email": "ywilliams@example.com",
+            "Address": "72401 Destiny Fork Apt. 793\nNew Jacob, MI 97380"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-11",
+        "Location": "203 Moreno Roads\nHendrixville, PR 99035",
+        "Description": "Human upon indicate stage pretty sure draw. Campaign quite past let guy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 48930
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9570
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8287
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40044
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12124
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 96710,
+        "TotalApproved": 86900
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Watts",
+        "ContactInformation": {
+            "Phone": "+1-725-569-3219x8236",
+            "Email": "alewis@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7e3d9ded-fe31-4de9-bdf9-9ab991988184"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-11T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-16T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-21T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "14540a49-57e6-49d9-b012-2d9d6397d790",
+    "PolicyID": "dbeae9fe-e900-4892-b3c5-acfb496fb645",
+    "EffectiveDates": {
+        "StartDate": "2024-01-03",
+        "EndDate": "2025-01-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b45d1248-edae-45c7-b1c5-dbc2bb1bdda3",
+        "Name": "Adam Mosley",
+        "PolicyNumber": "dbeae9fe-e900-4892-b3c5-acfb496fb645",
+        "ContactInformation": {
+            "Phone": "001-587-394-3487x75371",
+            "Email": "scottdon@example.net",
+            "Address": "024 John Route Apt. 786\nFisherside, NY 86267"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-24",
+        "Location": "2211 Vincent Lock Suite 799\nSellersberg, OK 33407",
+        "Description": "Away thank play animal. Thing five kind be agency.\nWorker talk either score arrive reduce mind. Most reveal upon practice remain since security."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24634
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14804
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 139607
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8483
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22128
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 159623,
+        "TotalApproved": 29354
+    },
+    "AdjusterDetails": {
+        "Name": "Victor Young",
+        "ContactInformation": {
+            "Phone": "288-376-6975x68977",
+            "Email": "wmolina@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b51013bd-3f8d-41e3-a633-3836451b16ce"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-24T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-29T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-03T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

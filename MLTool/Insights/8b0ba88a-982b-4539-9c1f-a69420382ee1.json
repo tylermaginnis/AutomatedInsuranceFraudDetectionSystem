@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8b0ba88a-982b-4539-9c1f-a69420382ee1",
+    "PolicyID": "26157df0-f8ed-46e8-a926-9aefa6d95334",
+    "EffectiveDates": {
+        "StartDate": "2024-01-10",
+        "EndDate": "2025-01-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1cafc11b-6c79-4939-a702-ced704e4e50a",
+        "Name": "Sarah Byrd",
+        "PolicyNumber": "26157df0-f8ed-46e8-a926-9aefa6d95334",
+        "ContactInformation": {
+            "Phone": "(290)384-5385",
+            "Email": "timothylewis@example.net",
+            "Address": "1238 Patrick Island Suite 632\nMarshallchester, FM 92850"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-06",
+        "Location": "087 Lance Rue Apt. 900\nWest Donnaburgh, PW 72714",
+        "Description": "Left painting weight act trade TV try. Million stand drug nature a.\nCard take price key smile operation best. Majority piece hear dream stay campaign."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16895
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 31143
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1567
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11829
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6589
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 125475,
+        "TotalApproved": 11045
+    },
+    "AdjusterDetails": {
+        "Name": "Ms. Angela Orozco",
+        "ContactInformation": {
+            "Phone": "878.598.7412x92058",
+            "Email": "nfrost@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/443ab253-61e8-4e70-a28b-d151e9b37d0b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-06T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-11T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-16T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

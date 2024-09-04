@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4a4669b0-590e-4427-8736-4ccda560f7a7",
+  "PolicyID": "bffedf14-8308-4c31-a06b-d9696cbedc33",
+  "EffectiveDates": {
+    "StartDate": "2023-10-10",
+    "EndDate": "2024-10-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b761fad4-0964-4939-9820-8a6986e153b4",
+    "Name": "Victoria Bolton",
+    "PolicyNumber": "bffedf14-8308-4c31-a06b-d9696cbedc33",
+    "ContactInformation": {
+      "Phone": "(712)559-1690",
+      "Email": "dennis41@example.com",
+      "Address": "77034 Jonathan Summit Suite 986\nMichelleburgh, PW 84613"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-30",
+    "Location": "373 Mitchell Stravenue\nFrankstad, FM 60582",
+    "Description": "Cause suffer ready usually wind how figure. Set much modern same this."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 50535
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8071
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14696
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 66548
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2801
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 178628,
+    "TotalApproved": 153005
+  },
+  "AdjusterDetails": {
+    "Name": "Kendra Jarvis",
+    "ContactInformation": {
+      "Phone": "(914)930-5885x5124",
+      "Email": "judith09@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/2f7ec391-4e4d-4374-a33c-d8dfb2caa6bf"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-30T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-04T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-09T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

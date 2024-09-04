@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ff8f65d4-7846-4d17-8690-fd62709c5997",
+    "PolicyID": "8ee7862d-dfe3-4733-8e56-53ef04f616fa",
+    "EffectiveDates": {
+        "StartDate": "2023-09-19",
+        "EndDate": "2024-09-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "60b3c6f5-904f-4738-8d1a-273edb7bc83c",
+        "Name": "Chris Woodard",
+        "PolicyNumber": "8ee7862d-dfe3-4733-8e56-53ef04f616fa",
+        "ContactInformation": {
+            "Phone": "(540)577-0431x1672",
+            "Email": "lvasquez@example.org",
+            "Address": "5271 Jesse Pine\nHeatherberg, DC 03751"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-28",
+        "Location": "PSC 5978, Box 7478\nAPO AP 04661",
+        "Description": "Animal explain notice. Watch laugh away building economic.\nThree between modern lay process. Maybe onto team see region sign attack."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11194
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16960
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7062
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1478
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4076
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 173220,
+        "TotalApproved": 41958
+    },
+    "AdjusterDetails": {
+        "Name": "Erin Smith",
+        "ContactInformation": {
+            "Phone": "001-561-625-1597x432",
+            "Email": "ryan76@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/cbc56d4b-a189-4ddf-b608-719374e972cb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-28T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-02T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-07T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

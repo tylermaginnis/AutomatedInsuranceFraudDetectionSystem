@@ -1,0 +1,80 @@
+{
+  "ClaimID": "437170c8-61e2-4c96-aac5-9ae12d3de1f2",
+  "PolicyID": "27938c99-07e4-472c-b206-68139666d614",
+  "EffectiveDates": {
+    "StartDate": "2024-04-15",
+    "EndDate": "2025-04-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "64435b31-b27e-4c45-ba45-3e68cdff9b6d",
+    "Name": "Kimberly Sullivan",
+    "PolicyNumber": "27938c99-07e4-472c-b206-68139666d614",
+    "ContactInformation": {
+      "Phone": "883.725.0681x523",
+      "Email": "hickskristine@example.org",
+      "Address": "5974 Brown Hills\nNathanhaven, WY 15778"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-23",
+    "Location": "50402 Richards Junctions\nSusanside, TN 82824",
+    "Description": "Particular commercial thousand interesting. Next case along body financial. State a get type smile."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 18375
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 26474
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 24900
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 17556
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 10350
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 87886,
+    "TotalApproved": 26439
+  },
+  "AdjusterDetails": {
+    "Name": "Eric Rosario",
+    "ContactInformation": {
+      "Phone": "7605100497",
+      "Email": "craigsandra@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/e6962a06-799a-4eaa-82ac-0dbee9c6b806"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-23T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-28T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-02T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

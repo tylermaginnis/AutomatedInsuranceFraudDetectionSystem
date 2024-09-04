@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b3d222a3-1d41-4636-b6fa-945db70df346",
+    "PolicyID": "0011919a-89b4-48d1-b3d7-8432bb41ecbe",
+    "EffectiveDates": {
+        "StartDate": "2024-06-01",
+        "EndDate": "2025-06-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e4542e73-e878-4fda-9fcc-45c8dd01e400",
+        "Name": "Cheryl Wilson",
+        "PolicyNumber": "0011919a-89b4-48d1-b3d7-8432bb41ecbe",
+        "ContactInformation": {
+            "Phone": "398-371-3141",
+            "Email": "wnichols@example.com",
+            "Address": "64843 Frazier Tunnel\nNew Ashleymouth, GU 77326"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-31",
+        "Location": "5911 Livingston Plains\nReillyborough, RI 31562",
+        "Description": "Order partner executive white be among. Experience hard employee final collection. Need itself unit agent leave help boy.\nCase compare her ask. Rule store speech draw produce."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33936
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3272
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 95187
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 193283
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 58014
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 31021,
+        "TotalApproved": 18016
+    },
+    "AdjusterDetails": {
+        "Name": "Dennis Williams",
+        "ContactInformation": {
+            "Phone": "+1-505-962-9623x634",
+            "Email": "quinncraig@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/7c289227-b0dd-484b-984e-58bf880ce9bd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-31T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

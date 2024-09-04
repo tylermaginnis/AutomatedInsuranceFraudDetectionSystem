@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e1084aaf-7897-4780-a964-8ed99886989b",
+    "PolicyID": "bc9ae5ca-40c7-4428-a6ca-cd13cd9b8699",
+    "EffectiveDates": {
+        "StartDate": "2024-04-15",
+        "EndDate": "2025-04-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "06d0e0c6-ecc4-43b3-ad18-2cda7ed0a50d",
+        "Name": "Denise Hansen",
+        "PolicyNumber": "bc9ae5ca-40c7-4428-a6ca-cd13cd9b8699",
+        "ContactInformation": {
+            "Phone": "965-290-4193",
+            "Email": "dmorgan@example.com",
+            "Address": "75883 Kimberly Islands Suite 839\nAcostaborough, MO 64388"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-22",
+        "Location": "828 Chad Ways\nErikatown, NV 86559",
+        "Description": "Property today although daughter. Car town yeah form deep example. Mention new list once imagine.\nHim sometimes nor hotel first. Direction all girl address sell tree."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 81074
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3992
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2260
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32995
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10019
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 176793,
+        "TotalApproved": 170052
+    },
+    "AdjusterDetails": {
+        "Name": "James Walker",
+        "ContactInformation": {
+            "Phone": "316-439-9263",
+            "Email": "gamblejames@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3326110c-c220-4d39-acb4-4fd9b8732ba1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-02T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

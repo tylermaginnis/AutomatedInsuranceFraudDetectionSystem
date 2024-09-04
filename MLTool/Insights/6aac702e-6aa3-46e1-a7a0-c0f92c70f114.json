@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6aac702e-6aa3-46e1-a7a0-c0f92c70f114",
+    "PolicyID": "d6220e21-bda4-46cd-bde2-e443bc5df8e1",
+    "EffectiveDates": {
+        "StartDate": "2024-05-12",
+        "EndDate": "2025-05-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "669ee564-e19e-4fc9-b724-1bb2849fdf78",
+        "Name": "Susan Johnson",
+        "PolicyNumber": "d6220e21-bda4-46cd-bde2-e443bc5df8e1",
+        "ContactInformation": {
+            "Phone": "261.983.1653x79491",
+            "Email": "christinenelson@example.org",
+            "Address": "PSC 5038, Box 6513\nAPO AA 38621"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-08",
+        "Location": "54752 Levine Village\nLake Erin, SD 09079",
+        "Description": "Capital now their conference. Face here two even ball. Fund man case decision mean side black."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 116038
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2535
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15166
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43766
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7038
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 38659,
+        "TotalApproved": 30608
+    },
+    "AdjusterDetails": {
+        "Name": "Nicole Johnson",
+        "ContactInformation": {
+            "Phone": "985.397.1078",
+            "Email": "oscarjones@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f18861ce-e2c0-4051-9e93-a7ba2c0b4598"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

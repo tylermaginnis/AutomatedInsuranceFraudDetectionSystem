@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5059f839-7e75-4a81-bdfb-69f1b7873e8a",
+    "PolicyID": "5eb87caa-b7ae-4c4e-aa01-5cba8b437bde",
+    "EffectiveDates": {
+        "StartDate": "2024-04-27",
+        "EndDate": "2025-04-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5c786672-caa3-4d22-9954-7e3244ee8aae",
+        "Name": "Benjamin Gardner",
+        "PolicyNumber": "5eb87caa-b7ae-4c4e-aa01-5cba8b437bde",
+        "ContactInformation": {
+            "Phone": "001-595-897-7180x19188",
+            "Email": "jasonrobinson@example.net",
+            "Address": "73350 Jason Path\nAdamsburgh, SD 92224"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-11",
+        "Location": "975 Li Locks\nNorth Jamesberg, NJ 80390",
+        "Description": "Sing ago cold far public rest. Who growth character white charge some. Save official trial western southern figure more third.\nRather phone actually fact owner party we. Raise hot last century."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44352
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 72987
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9969
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40747
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 155801
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 47213,
+        "TotalApproved": 38703
+    },
+    "AdjusterDetails": {
+        "Name": "Laura Patterson",
+        "ContactInformation": {
+            "Phone": "5069733774",
+            "Email": "teresa06@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6db88ff1-50c4-479d-9c5d-8c5c6396317c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-11T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-16T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-21T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

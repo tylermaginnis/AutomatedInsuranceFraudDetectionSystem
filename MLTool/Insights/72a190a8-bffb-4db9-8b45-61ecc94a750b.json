@@ -1,0 +1,81 @@
+{
+    "ClaimID": "72a190a8-bffb-4db9-8b45-61ecc94a750b",
+    "PolicyID": "073b0f35-028a-49cc-9a49-cf895ab1aa2d",
+    "EffectiveDates": {
+        "StartDate": "2024-05-09",
+        "EndDate": "2025-05-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cb893b92-6492-4b0c-b64e-2622ffcfc8cc",
+        "Name": "Douglas Watson",
+        "PolicyNumber": "073b0f35-028a-49cc-9a49-cf895ab1aa2d",
+        "ContactInformation": {
+            "Phone": "658.849.4439",
+            "Email": "morriserik@example.org",
+            "Address": "698 Wiley Mission Apt. 503\nSouth Alvin, FL 19388"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-21",
+        "Location": "83913 Gilbert Island Apt. 173\nSimsside, CT 27478",
+        "Description": "First reach herself talk. Concern rule various off without.\nKitchen mention ball full benefit hard join. Big service fire new. Only current want total."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26617
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11172
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5122
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8044
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4050
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 185232,
+        "TotalApproved": 7248
+    },
+    "AdjusterDetails": {
+        "Name": "Julie Stewart",
+        "ContactInformation": {
+            "Phone": "(747)707-0114x5832",
+            "Email": "ruizadrian@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/65e86013-3954-4e53-a205-d0b5d8cf10a1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-31T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ec203015-8753-4acb-b3db-63ee9ffd64db",
+    "PolicyID": "9dd38a3e-7294-43a0-9659-6c8c7ec257e1",
+    "EffectiveDates": {
+        "StartDate": "2024-03-09",
+        "EndDate": "2025-03-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "36332625-531d-4d1c-a735-259bf7c49ce8",
+        "Name": "Nathan Norris",
+        "PolicyNumber": "9dd38a3e-7294-43a0-9659-6c8c7ec257e1",
+        "ContactInformation": {
+            "Phone": "643.992.3341",
+            "Email": "sherririvera@example.com",
+            "Address": "161 Davis Trail\nHuangville, WA 18673"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-16",
+        "Location": "Unit 0229 Box 2901\nDPO AA 57337",
+        "Description": "Huge others unit letter free new serious. Hair either candidate opportunity in special newspaper common."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40866
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 54002
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2239
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6428
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6931
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 69520,
+        "TotalApproved": 66001
+    },
+    "AdjusterDetails": {
+        "Name": "Cheryl Watson",
+        "ContactInformation": {
+            "Phone": "8084297491",
+            "Email": "vegamelinda@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e8ddf541-d314-4ee1-a088-a4071fe5aca8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

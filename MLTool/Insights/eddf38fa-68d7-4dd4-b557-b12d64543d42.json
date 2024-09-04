@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eddf38fa-68d7-4dd4-b557-b12d64543d42",
+    "PolicyID": "09287396-205e-4d05-9f47-265641ff16dc",
+    "EffectiveDates": {
+        "StartDate": "2024-05-01",
+        "EndDate": "2025-05-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "79d05c0d-ac15-420a-96f5-dccae59466ab",
+        "Name": "Timothy Cortez",
+        "PolicyNumber": "09287396-205e-4d05-9f47-265641ff16dc",
+        "ContactInformation": {
+            "Phone": "567-396-3504x833",
+            "Email": "jesus50@example.org",
+            "Address": "69476 Morris Knoll\nDanielland, VT 81378"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-05",
+        "Location": "46099 Matthew Walk\nEast April, PA 18544",
+        "Description": "Citizen ten product face woman this. Important indicate hand visit office such carry."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2392
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 197303
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 43210
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17371
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 49643
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 73291,
+        "TotalApproved": 19533
+    },
+    "AdjusterDetails": {
+        "Name": "Aaron Hayes",
+        "ContactInformation": {
+            "Phone": "+1-235-878-0643x545",
+            "Email": "lkelley@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b7be2554-9830-4b15-b21c-f80d3a7c6514"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

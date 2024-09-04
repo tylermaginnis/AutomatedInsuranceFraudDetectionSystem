@@ -1,0 +1,81 @@
+{
+    "ClaimID": "df0eeeb0-aa65-4926-a038-7749be631330",
+    "PolicyID": "1130749f-beec-4ede-83d1-da2faa77b516",
+    "EffectiveDates": {
+        "StartDate": "2024-02-12",
+        "EndDate": "2025-02-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "600297b6-b55e-4b54-a336-00fc4d7361f0",
+        "Name": "Elizabeth Poole",
+        "PolicyNumber": "1130749f-beec-4ede-83d1-da2faa77b516",
+        "ContactInformation": {
+            "Phone": "212-666-4559x25452",
+            "Email": "wmartin@example.net",
+            "Address": "708 Beck Trail Suite 300\nMartinview, MH 48306"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-01",
+        "Location": "4778 Jones Field\nValentineland, FL 76823",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 74229
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20679
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6833
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14739
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13112
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 129592,
+        "TotalApproved": 85711
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Hill",
+        "ContactInformation": {
+            "Phone": "833-442-8997",
+            "Email": "dwilliams@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/adccb72e-bd76-4822-b1d2-f9d7f86fbfda"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-01T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-06T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-11T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ef61ad4d-f819-43a3-b061-560a2b6af24d",
+    "PolicyID": "fc6e8d74-ae39-4498-b1c5-44f0a4f05f00",
+    "EffectiveDates": {
+        "StartDate": "2024-06-25",
+        "EndDate": "2025-06-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "31961f19-be32-4272-a1b1-3c2cd84c9983",
+        "Name": "Marc Gardner",
+        "PolicyNumber": "fc6e8d74-ae39-4498-b1c5-44f0a4f05f00",
+        "ContactInformation": {
+            "Phone": "994-758-4410x714",
+            "Email": "karenadkins@example.org",
+            "Address": "PSC 6148, Box 7376\nAPO AE 68816"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-02",
+        "Location": "USNS Bowen\nFPO AP 11323",
+        "Description": "Former wish garden unit. Fire walk teach. Hour less audience ready discover analysis.\nTreatment through arm discuss.\nRepresent discussion painting couple. Raise relate far forward yet point suddenly."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 101450
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 70177
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18397
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4377
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57065
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 52734,
+        "TotalApproved": 31651
+    },
+    "AdjusterDetails": {
+        "Name": "Ian Matthews",
+        "ContactInformation": {
+            "Phone": "001-607-650-6133x077",
+            "Email": "groberts@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/cfcb7081-4e0f-47ee-8ae6-df39602339d2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

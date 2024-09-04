@@ -1,0 +1,80 @@
+{
+  "ClaimID": "92e0e7ad-84f2-464a-b5aa-f0b4254a0c60",
+  "PolicyID": "9200a787-1cfb-4c85-b654-08c57959a32f",
+  "EffectiveDates": {
+    "StartDate": "2023-10-15",
+    "EndDate": "2024-10-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "370a61a7-7d80-4401-ab0a-d697c20db62a",
+    "Name": "Kyle Gray",
+    "PolicyNumber": "9200a787-1cfb-4c85-b654-08c57959a32f",
+    "ContactInformation": {
+      "Phone": "830-224-0914x37787",
+      "Email": "garzamichelle@example.com",
+      "Address": "43006 Benjamin Crossing\nOneillhaven, OH 90806"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-27",
+    "Location": "53221 Warner Wells\nBrownland, CT 75165",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 73164
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 38824
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8574
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11472
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6379
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 138413,
+    "TotalApproved": 63268
+  },
+  "AdjusterDetails": {
+    "Name": "Meghan Scott",
+    "ContactInformation": {
+      "Phone": "607.536.2186x1161",
+      "Email": "zblevins@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/0146ad27-2f55-4189-a546-867e5251b36a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-27T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-01T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-06T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

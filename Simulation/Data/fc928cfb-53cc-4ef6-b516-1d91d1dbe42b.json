@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fc928cfb-53cc-4ef6-b516-1d91d1dbe42b",
+  "PolicyID": "38269220-4c6d-421a-99cf-1c8b480bed89",
+  "EffectiveDates": {
+    "StartDate": "2023-10-06",
+    "EndDate": "2024-10-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "df6644ae-96ec-4796-b7f2-e3f41afd625f",
+    "Name": "Spencer Bailey",
+    "PolicyNumber": "38269220-4c6d-421a-99cf-1c8b480bed89",
+    "ContactInformation": {
+      "Phone": "+1-868-233-7893",
+      "Email": "heidiharris@example.net",
+      "Address": "90737 Anthony Underpass Apt. 542\nJeffreychester, NM 68292"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-17",
+    "Location": "0057 Katherine Burg Apt. 738\nJonesburgh, SC 06285",
+    "Description": "Truth individual pay spend much. Interview expect its everybody something them."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 100873
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8496
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4316
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6864
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3837
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 189570,
+    "TotalApproved": 9430
+  },
+  "AdjusterDetails": {
+    "Name": "Jeremiah Ruiz",
+    "ContactInformation": {
+      "Phone": "5413782038",
+      "Email": "albertadams@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/0d2e0934-27ae-469f-8aae-29d8a649cf8e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-17T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-22T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-27T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

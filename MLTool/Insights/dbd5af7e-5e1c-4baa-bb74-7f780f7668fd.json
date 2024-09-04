@@ -1,0 +1,81 @@
+{
+    "ClaimID": "dbd5af7e-5e1c-4baa-bb74-7f780f7668fd",
+    "PolicyID": "843f527c-b163-4b96-bb66-c342c53bb857",
+    "EffectiveDates": {
+        "StartDate": "2023-12-12",
+        "EndDate": "2024-12-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6c144fcc-3779-4061-bb7d-25517a7a8791",
+        "Name": "Derek Nicholson",
+        "PolicyNumber": "843f527c-b163-4b96-bb66-c342c53bb857",
+        "ContactInformation": {
+            "Phone": "001-275-533-2713x16847",
+            "Email": "dwilliams@example.org",
+            "Address": "4941 Mark Meadows\nMeyersberg, ME 24741"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-07",
+        "Location": "978 Smith Ports\nNew Stephenmouth, IA 32882",
+        "Description": "View born you too. Toward say gun figure plan.\nMajor performance ever fight. Despite possible way third responsibility best. Create mind yard some off per blue."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7401
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1823
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 68361
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14259
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 76549
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 98510,
+        "TotalApproved": 84271
+    },
+    "AdjusterDetails": {
+        "Name": "Cheryl Flores",
+        "ContactInformation": {
+            "Phone": "(337)409-1283x8428",
+            "Email": "johngreene@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ad485373-1f75-40f7-90c6-ee5a44c45222"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

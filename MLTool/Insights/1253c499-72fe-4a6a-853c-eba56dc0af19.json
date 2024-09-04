@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1253c499-72fe-4a6a-853c-eba56dc0af19",
+    "PolicyID": "69bb7950-9cc9-4084-b0e0-028f3130b888",
+    "EffectiveDates": {
+        "StartDate": "2023-11-03",
+        "EndDate": "2024-11-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c50a986a-3240-4a44-80ed-f2c1c6bb8a22",
+        "Name": "John Valenzuela",
+        "PolicyNumber": "69bb7950-9cc9-4084-b0e0-028f3130b888",
+        "ContactInformation": {
+            "Phone": "2566345235",
+            "Email": "wendycarter@example.net",
+            "Address": "226 Robert Pike\nMooreberg, OH 89058"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-25",
+        "Location": "775 Amy Ramp Apt. 302\nMatthewberg, VI 38905",
+        "Description": "Order yeah our fast book. Source discover between subject after.\nYet window computer top direction officer. Court subject second various important enjoy language."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4571
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10216
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 36213
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20164
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 29904
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 94099,
+        "TotalApproved": 75578
+    },
+    "AdjusterDetails": {
+        "Name": "Mariah Hernandez",
+        "ContactInformation": {
+            "Phone": "001-571-931-3948x670",
+            "Email": "alexis40@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/18395dd9-2e31-41f4-a260-08637b77650f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-30T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

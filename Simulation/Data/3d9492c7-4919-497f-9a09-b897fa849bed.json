@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3d9492c7-4919-497f-9a09-b897fa849bed",
+  "PolicyID": "152eab41-7aad-4486-bde1-bdfd2fc04ebf",
+  "EffectiveDates": {
+    "StartDate": "2024-08-06",
+    "EndDate": "2025-08-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8cb34dcc-a9ab-435c-9533-ac71e1ab2b60",
+    "Name": "Michelle Garcia",
+    "PolicyNumber": "152eab41-7aad-4486-bde1-bdfd2fc04ebf",
+    "ContactInformation": {
+      "Phone": "987.561.3503x0675",
+      "Email": "spencerbeverly@example.net",
+      "Address": "55850 Bradford Cape Apt. 409\nNorth Mary, VT 62892"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-18",
+    "Location": "45891 Sergio Drives\nBeasleyport, NH 15391",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 67789
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 34683
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5152
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 23929
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8520
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 140073,
+    "TotalApproved": 122180
+  },
+  "AdjusterDetails": {
+    "Name": "David Davidson",
+    "ContactInformation": {
+      "Phone": "001-856-862-3148",
+      "Email": "hawkinstracy@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/e4d56f5c-7e52-4197-aab7-e8f5cc41c334"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-18T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-23T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-28T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "78499a47-6b90-4da3-84b7-f2e10d285d28",
+    "PolicyID": "3691fa3e-70e8-4554-9ed7-f50297446366",
+    "EffectiveDates": {
+        "StartDate": "2024-05-22",
+        "EndDate": "2025-05-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4bea3713-f87b-4bec-a053-8d7223fd2705",
+        "Name": "Jonathan Perez",
+        "PolicyNumber": "3691fa3e-70e8-4554-9ed7-f50297446366",
+        "ContactInformation": {
+            "Phone": "341.711.3531",
+            "Email": "eatonjulie@example.net",
+            "Address": "USCGC Nelson\nFPO AA 47828"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-07",
+        "Location": "357 Darryl Shoal\nNorth Tylerstad, DC 29511",
+        "Description": "Staff star Congress everybody movie develop. White Congress sit month action not. Despite direction ball training along."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 83862
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 193058
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34119
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17270
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 21768
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 149703,
+        "TotalApproved": 57853
+    },
+    "AdjusterDetails": {
+        "Name": "Jacob Miller",
+        "ContactInformation": {
+            "Phone": "244-881-2126",
+            "Email": "hollyjoyce@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1d995744-ffbd-4bc7-b664-7fc43670c918"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

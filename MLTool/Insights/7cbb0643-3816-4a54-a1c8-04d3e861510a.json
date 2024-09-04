@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7cbb0643-3816-4a54-a1c8-04d3e861510a",
+    "PolicyID": "e54f9c77-efb3-434a-abd5-71eaf6779c94",
+    "EffectiveDates": {
+        "StartDate": "2024-01-04",
+        "EndDate": "2025-01-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "df29ece7-0f49-4d99-8e6c-b6aefe3a8b8c",
+        "Name": "Emily Evans",
+        "PolicyNumber": "e54f9c77-efb3-434a-abd5-71eaf6779c94",
+        "ContactInformation": {
+            "Phone": "346-452-8808x07510",
+            "Email": "lhuffman@example.com",
+            "Address": "174 Reed Lane\nIantown, OK 06175"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-16",
+        "Location": "4181 Michael Forest\nPriceborough, IL 51663",
+        "Description": "Few per those quite while though foot. Within couple evening the spend nearly. City rock account decade.\nProve staff situation score catch successful scene. Pressure east despite admit happen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91674
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39271
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9405
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2596
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 86857
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 89533,
+        "TotalApproved": 27878
+    },
+    "AdjusterDetails": {
+        "Name": "Michelle Cruz",
+        "ContactInformation": {
+            "Phone": "001-748-640-9758x87734",
+            "Email": "stephanie28@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/897405e3-07b9-4a9f-9bbe-b59be495a2e2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

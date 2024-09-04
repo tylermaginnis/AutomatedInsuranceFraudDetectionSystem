@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5574712c-31eb-49df-a679-d67ce5220c04",
+    "PolicyID": "b3f443d3-d725-4621-9d74-13e5a79ecae7",
+    "EffectiveDates": {
+        "StartDate": "2024-04-15",
+        "EndDate": "2025-04-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "76d8ce23-7901-4bcc-8925-3bfe7d796907",
+        "Name": "Virginia Nelson",
+        "PolicyNumber": "b3f443d3-d725-4621-9d74-13e5a79ecae7",
+        "ContactInformation": {
+            "Phone": "001-798-571-9657x8636",
+            "Email": "darlenedavis@example.org",
+            "Address": "896 Samantha Canyon Apt. 437\nJessicahaven, PR 90312"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-05",
+        "Location": "0299 Cheryl Dale\nRicardoside, AK 04625",
+        "Description": "Baby for clearly power. Not drive serve doctor guy. Mouth attention make design wide owner. President billion wish size find."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2108
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4070
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11479
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2726
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13565
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 121011,
+        "TotalApproved": 18442
+    },
+    "AdjusterDetails": {
+        "Name": "Joann Friedman",
+        "ContactInformation": {
+            "Phone": "(990)859-0085",
+            "Email": "sandrasmith@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/fa12822a-b1c7-45af-8049-23220150ecad"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

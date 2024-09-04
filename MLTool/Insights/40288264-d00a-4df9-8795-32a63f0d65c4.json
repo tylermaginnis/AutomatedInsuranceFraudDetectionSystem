@@ -1,0 +1,81 @@
+{
+    "ClaimID": "40288264-d00a-4df9-8795-32a63f0d65c4",
+    "PolicyID": "b4d4252b-5804-4cf3-841c-b884806b570a",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fdfd5593-3642-425d-b5b1-d51a37bffe29",
+        "Name": "Joyce Vang",
+        "PolicyNumber": "b4d4252b-5804-4cf3-841c-b884806b570a",
+        "ContactInformation": {
+            "Phone": "816.551.6922x820",
+            "Email": "ksmith@example.org",
+            "Address": "36069 Antonio Forges\nSouth Ann, GU 82963"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-29",
+        "Location": "3760 Perez Route\nWilliamsburgh, OK 02822",
+        "Description": "Movie wonder character third human return. Religious hour few hold indeed a.\nAnalysis issue kid whom look third support. Field put trial better once."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 189842
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 86947
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 31054
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9523
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3350
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 66401,
+        "TotalApproved": 3038
+    },
+    "AdjusterDetails": {
+        "Name": "Denise Miller",
+        "ContactInformation": {
+            "Phone": "(213)835-9806",
+            "Email": "john03@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/01507399-8f30-4fb0-9e0a-f86ad210f3bd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

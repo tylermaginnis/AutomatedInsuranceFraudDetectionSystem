@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ea9be72c-03c4-4562-bead-1f2ee18bdeaa",
+    "PolicyID": "638360df-22ed-4d44-bac8-ea408c129b30",
+    "EffectiveDates": {
+        "StartDate": "2024-05-15",
+        "EndDate": "2025-05-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "deb5c72f-b938-4c2f-846f-7966d3b9a369",
+        "Name": "Thomas Mann",
+        "PolicyNumber": "638360df-22ed-4d44-bac8-ea408c129b30",
+        "ContactInformation": {
+            "Phone": "235-884-2508",
+            "Email": "troymyers@example.com",
+            "Address": "907 Paul Freeway Apt. 642\nNorth Edwardton, AS 18819"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-09",
+        "Location": "85222 Lauren Village Suite 235\nLake Sherri, ME 19425",
+        "Description": "Approach economic win movie.\nWife agency agree system peace. All good beat left. Three she last important effect newspaper.\nHit sign he budget. Just executive argue save."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 83796
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 96406
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16560
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 128757
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23544
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 94333,
+        "TotalApproved": 18655
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Diaz",
+        "ContactInformation": {
+            "Phone": "216-674-9715",
+            "Email": "smithalvin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b9503a03-9d68-4eef-b423-01634f4ad32d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-09T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-14T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-19T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

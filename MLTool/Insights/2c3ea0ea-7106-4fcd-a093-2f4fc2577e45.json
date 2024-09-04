@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2c3ea0ea-7106-4fcd-a093-2f4fc2577e45",
+    "PolicyID": "71f0bdb8-ca28-425a-aa1d-af4bbb9fab07",
+    "EffectiveDates": {
+        "StartDate": "2024-03-21",
+        "EndDate": "2025-03-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "66e46454-8551-428e-accc-778d56f9970e",
+        "Name": "Jennifer Crosby",
+        "PolicyNumber": "71f0bdb8-ca28-425a-aa1d-af4bbb9fab07",
+        "ContactInformation": {
+            "Phone": "2634990959",
+            "Email": "katherinesmith@example.org",
+            "Address": "USS Ball\nFPO AP 40642"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-02",
+        "Location": "62185 Martinez Terrace\nEast Tinahaven, CO 37329",
+        "Description": "Role loss morning drop current pressure music. Win leave each experience somebody.\nKitchen seem trouble service. Over full seek capital consider attorney deep cold."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 179583
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37087
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8229
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42323
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20225
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 89538,
+        "TotalApproved": 50779
+    },
+    "AdjusterDetails": {
+        "Name": "Cynthia Charles",
+        "ContactInformation": {
+            "Phone": "+1-710-336-8076x1217",
+            "Email": "eric99@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/fd0cfe2f-40a8-4130-8cbf-f5768f9b48f9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

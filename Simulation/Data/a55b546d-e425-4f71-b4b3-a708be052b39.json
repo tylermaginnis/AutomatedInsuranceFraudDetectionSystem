@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a55b546d-e425-4f71-b4b3-a708be052b39",
+  "PolicyID": "d711a9da-78ad-4185-8b36-176a4453fdc1",
+  "EffectiveDates": {
+    "StartDate": "2023-10-07",
+    "EndDate": "2024-10-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6c1dc93d-7623-4683-9d23-153a258ba941",
+    "Name": "Jason Bryant",
+    "PolicyNumber": "d711a9da-78ad-4185-8b36-176a4453fdc1",
+    "ContactInformation": {
+      "Phone": "+1-498-686-7217x447",
+      "Email": "abigailwalker@example.com",
+      "Address": "73304 Perez Street\nLake Selenaport, CT 11957"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-18",
+    "Location": "079 Amber Throughway Apt. 620\nWest Kimberlyport, WV 77200",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 54620
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 45378
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9390
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 10181
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 14225
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 133794,
+    "TotalApproved": 92899
+  },
+  "AdjusterDetails": {
+    "Name": "Elizabeth Castro",
+    "ContactInformation": {
+      "Phone": "587.450.5873",
+      "Email": "kirkbrittany@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/6552378a-71dc-40d1-9c00-bf9f7588bae7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-18T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-23T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-28T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

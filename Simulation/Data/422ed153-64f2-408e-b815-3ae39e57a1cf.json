@@ -1,0 +1,80 @@
+{
+  "ClaimID": "422ed153-64f2-408e-b815-3ae39e57a1cf",
+  "PolicyID": "9db617dc-410f-4c76-a9b3-b8beacd4ba44",
+  "EffectiveDates": {
+    "StartDate": "2024-07-06",
+    "EndDate": "2025-07-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8f782102-95be-4de8-bef5-c179d7783706",
+    "Name": "Greg Mcintyre",
+    "PolicyNumber": "9db617dc-410f-4c76-a9b3-b8beacd4ba44",
+    "ContactInformation": {
+      "Phone": "001-754-582-5391x701",
+      "Email": "mindy63@example.org",
+      "Address": "PSC 5222, Box 6821\nAPO AE 03835"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-30",
+    "Location": "09326 Jose Mountains\nLoganport, MO 81729",
+    "Description": "Source career not enter red smile. Hair chance hit can whatever impact. Development order standard.\nLight anything tell particular. Finish account speak from picture voice kitchen fine."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 49542
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 62231
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 35795
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 17800
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2870
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 43096,
+    "TotalApproved": 36226
+  },
+  "AdjusterDetails": {
+    "Name": "Amy Miller",
+    "ContactInformation": {
+      "Phone": "264.903.6367x014",
+      "Email": "fmorgan@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/04181bee-ada0-4c96-b84b-51a86c1c2b07"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-30T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-05T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-10T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

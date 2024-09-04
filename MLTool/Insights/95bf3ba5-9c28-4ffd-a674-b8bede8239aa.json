@@ -1,0 +1,81 @@
+{
+    "ClaimID": "95bf3ba5-9c28-4ffd-a674-b8bede8239aa",
+    "PolicyID": "e9bef7d7-65f6-4a5a-94b3-8c8447909230",
+    "EffectiveDates": {
+        "StartDate": "2023-10-02",
+        "EndDate": "2024-10-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d1b52a2b-4b17-4995-9397-663f781d1d10",
+        "Name": "Tanya Taylor",
+        "PolicyNumber": "e9bef7d7-65f6-4a5a-94b3-8c8447909230",
+        "ContactInformation": {
+            "Phone": "+1-719-387-2165x13466",
+            "Email": "pricedeanna@example.com",
+            "Address": "9096 Roy Wells\nPort Catherine, TN 86735"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-24",
+        "Location": "03615 Matthew Manor\nLake Codyside, WY 53142",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 56183
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29389
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8140
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18634
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6639
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 118985,
+        "TotalApproved": 33781
+    },
+    "AdjusterDetails": {
+        "Name": "Roy Barker",
+        "ContactInformation": {
+            "Phone": "(793)360-1740x906",
+            "Email": "johnny85@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/5f88d704-2c4b-4016-a726-5da7faf53111"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-24T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-29T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-04T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

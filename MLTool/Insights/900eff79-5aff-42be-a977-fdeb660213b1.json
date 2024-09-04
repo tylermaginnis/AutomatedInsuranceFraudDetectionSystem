@@ -1,0 +1,81 @@
+{
+    "ClaimID": "900eff79-5aff-42be-a977-fdeb660213b1",
+    "PolicyID": "98543513-3645-4577-81b8-255a5f58824e",
+    "EffectiveDates": {
+        "StartDate": "2023-10-14",
+        "EndDate": "2024-10-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "434274aa-b8da-45b6-8eb5-e37c971b1671",
+        "Name": "Robert Mitchell",
+        "PolicyNumber": "98543513-3645-4577-81b8-255a5f58824e",
+        "ContactInformation": {
+            "Phone": "883.268.4720x96547",
+            "Email": "juarezkyle@example.com",
+            "Address": "8523 Robert Flat\nNorth Jamie, MS 84383"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-05",
+        "Location": "643 Brittany Mall\nLake Mark, SD 01219",
+        "Description": "Site eight girl send like. Leg style off partner that example choose.\nElse become between give spend dark defense."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49275
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 96336
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 113959
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4489
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4182
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 117049,
+        "TotalApproved": 102412
+    },
+    "AdjusterDetails": {
+        "Name": "Bonnie Malone",
+        "ContactInformation": {
+            "Phone": "553-404-5936",
+            "Email": "jacobsonthomas@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/904e32be-0e8f-4348-b177-793cc4d83360"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-05T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-10T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-15T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

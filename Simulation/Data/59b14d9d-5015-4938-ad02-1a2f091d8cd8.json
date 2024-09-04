@@ -1,0 +1,80 @@
+{
+  "ClaimID": "59b14d9d-5015-4938-ad02-1a2f091d8cd8",
+  "PolicyID": "30b7db1d-5b44-4e9a-99ee-e72d320ff8b9",
+  "EffectiveDates": {
+    "StartDate": "2024-07-30",
+    "EndDate": "2025-07-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "faa78c66-91d1-4073-9a54-af4f1fe85cf3",
+    "Name": "Brittany Cunningham",
+    "PolicyNumber": "30b7db1d-5b44-4e9a-99ee-e72d320ff8b9",
+    "ContactInformation": {
+      "Phone": "284.909.5334",
+      "Email": "montoyaanna@example.net",
+      "Address": "685 Gabriella Village Suite 807\nPort Stephanieton, MI 39451"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-23",
+    "Location": "85892 Edwards Prairie Apt. 745\nRogerborough, NC 20454",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 93890
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 21279
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7761
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 20409
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11640
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 154979,
+    "TotalApproved": 144210
+  },
+  "AdjusterDetails": {
+    "Name": "Ashley Wilkerson",
+    "ContactInformation": {
+      "Phone": "(411)621-3418x33833",
+      "Email": "vaughantami@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/6cda91a6-7121-46f3-890b-2e86f200dec0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-23T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-28T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-02T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

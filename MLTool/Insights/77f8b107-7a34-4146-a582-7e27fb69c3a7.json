@@ -1,0 +1,81 @@
+{
+    "ClaimID": "77f8b107-7a34-4146-a582-7e27fb69c3a7",
+    "PolicyID": "401efe1f-0dc1-4f96-87b0-aea4883f49ed",
+    "EffectiveDates": {
+        "StartDate": "2023-09-25",
+        "EndDate": "2024-09-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d855d895-1c1d-4423-9e71-1ee7b9db574a",
+        "Name": "Jonathan Odom",
+        "PolicyNumber": "401efe1f-0dc1-4f96-87b0-aea4883f49ed",
+        "ContactInformation": {
+            "Phone": "424-555-7922",
+            "Email": "brooke35@example.org",
+            "Address": "3404 Ashley Views Apt. 132\nMadisonmouth, MT 76441"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-07",
+        "Location": "5682 Bailey Trail\nClintonmouth, NV 46852",
+        "Description": "Forward doctor table account. Care glass by billion. Make read second rise year mind hit.\nPresent live movie entire dog action some. Defense newspaper all strategy already kitchen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12372
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 114314
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46247
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7276
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 59105
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 136566,
+        "TotalApproved": 41052
+    },
+    "AdjusterDetails": {
+        "Name": "Zachary Bridges",
+        "ContactInformation": {
+            "Phone": "001-665-630-9350",
+            "Email": "vargaskathleen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/50718c11-f7d3-460b-a2b1-ff01ab429c11"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

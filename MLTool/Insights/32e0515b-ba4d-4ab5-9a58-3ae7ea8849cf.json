@@ -1,0 +1,81 @@
+{
+    "ClaimID": "32e0515b-ba4d-4ab5-9a58-3ae7ea8849cf",
+    "PolicyID": "23bd624f-d97d-48c3-a2ba-1a58084c0f39",
+    "EffectiveDates": {
+        "StartDate": "2024-01-26",
+        "EndDate": "2025-01-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ad6fcf4a-0faa-493f-a98e-03b2e9da39e0",
+        "Name": "Jeremiah Murillo",
+        "PolicyNumber": "23bd624f-d97d-48c3-a2ba-1a58084c0f39",
+        "ContactInformation": {
+            "Phone": "600-386-3696x0289",
+            "Email": "michelle12@example.net",
+            "Address": "875 Tanner Rapids Apt. 441\nCatherinemouth, LA 69123"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-04",
+        "Location": "8692 Fernandez Junctions Apt. 429\nMorenofurt, TX 09139",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 69619
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22737
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8214
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 11575
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12600
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 124745,
+        "TotalApproved": 31066
+    },
+    "AdjusterDetails": {
+        "Name": "Donna Wilson",
+        "ContactInformation": {
+            "Phone": "845.260.7384x9085",
+            "Email": "daviskimberly@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c65982c9-b599-4ba5-a74d-d8ea670278f8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-04T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-09T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-14T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

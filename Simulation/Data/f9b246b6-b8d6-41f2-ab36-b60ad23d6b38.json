@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f9b246b6-b8d6-41f2-ab36-b60ad23d6b38",
+  "PolicyID": "9b8265d7-8cf9-4f49-a902-040c9d6b8a9a",
+  "EffectiveDates": {
+    "StartDate": "2023-10-02",
+    "EndDate": "2024-10-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "dc77de68-b0ee-4179-88b7-2fd1506a27f8",
+    "Name": "Mrs. Brenda Parsons DDS",
+    "PolicyNumber": "9b8265d7-8cf9-4f49-a902-040c9d6b8a9a",
+    "ContactInformation": {
+      "Phone": "417.331.0573",
+      "Email": "bgould@example.net",
+      "Address": "9016 Hoffman Hill\nWest Lori, MP 99491"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-17",
+    "Location": "11421 Mitchell Radial Apt. 179\nWest Stephanie, GA 27074",
+    "Description": "And nature reality every beat relationship hear. Information local read produce.\nBall west thing manage fly society note special. Fly where relationship southern."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 48358
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 49443
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 57734
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 28100
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3405
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 27446,
+    "TotalApproved": 16950
+  },
+  "AdjusterDetails": {
+    "Name": "Philip Lopez",
+    "ContactInformation": {
+      "Phone": "893-517-4695",
+      "Email": "qflores@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/9beac2cd-0b04-49b4-83b7-328b212ecaf5"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-17T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-22T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-27T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

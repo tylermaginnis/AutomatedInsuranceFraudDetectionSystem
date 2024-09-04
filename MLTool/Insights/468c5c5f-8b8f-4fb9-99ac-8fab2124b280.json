@@ -1,0 +1,81 @@
+{
+    "ClaimID": "468c5c5f-8b8f-4fb9-99ac-8fab2124b280",
+    "PolicyID": "65cf49f3-6a2b-4740-8872-5a13c2ee3d6f",
+    "EffectiveDates": {
+        "StartDate": "2023-11-04",
+        "EndDate": "2024-11-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "83ff445f-0cf4-4ab1-bc62-841caa9a7fc3",
+        "Name": "Thomas Rice",
+        "PolicyNumber": "65cf49f3-6a2b-4740-8872-5a13c2ee3d6f",
+        "ContactInformation": {
+            "Phone": "001-509-424-2191x832",
+            "Email": "gharris@example.com",
+            "Address": "6858 Larson Drives\nChristopherport, AK 43768"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-09",
+        "Location": "3531 Joseph Bridge Apt. 936\nEast Katelyn, NY 31876",
+        "Description": "Force sport Congress administration nor you should. White against sport walk so majority none bill."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2302
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4805
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16273
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14298
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 182719
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 45887,
+        "TotalApproved": 42619
+    },
+    "AdjusterDetails": {
+        "Name": "Brian Thomas",
+        "ContactInformation": {
+            "Phone": "409.235.7281x049",
+            "Email": "tmercer@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b182b906-16de-4bf3-b5f9-2277c4f3b40b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-09T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-14T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-19T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

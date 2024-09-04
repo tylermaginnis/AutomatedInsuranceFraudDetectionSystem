@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2d0e8988-6227-4b31-af62-6cb17d41eea0",
+    "PolicyID": "94dc29c8-ac81-4a6e-8244-aa7ea6a6e1ac",
+    "EffectiveDates": {
+        "StartDate": "2024-04-27",
+        "EndDate": "2025-04-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b3b03b39-2ff6-4688-8b78-252307a6de29",
+        "Name": "David Brown",
+        "PolicyNumber": "94dc29c8-ac81-4a6e-8244-aa7ea6a6e1ac",
+        "ContactInformation": {
+            "Phone": "001-517-713-2803",
+            "Email": "sdaniels@example.org",
+            "Address": "409 Gallagher Dam Apt. 494\nChavezshire, MA 94375"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-07",
+        "Location": "4988 Adams Flat Suite 598\nNorth Richard, AL 49336",
+        "Description": "Phone involve save north better always forget. Show election fight us travel. Seem light behavior next PM.\nGround nor yeah cold central politics. Keep particular only leader."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26117
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34959
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14548
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 92980
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 86592
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 164905,
+        "TotalApproved": 148910
+    },
+    "AdjusterDetails": {
+        "Name": "Sandra Trujillo",
+        "ContactInformation": {
+            "Phone": "718.591.0255x9274",
+            "Email": "heatherpatterson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4f58fad8-69f5-46ad-8f5f-4d4b492c72d0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

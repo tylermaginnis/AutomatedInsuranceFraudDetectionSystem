@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5f86ff5d-fd36-45ac-b1be-005b8e85f07c",
+    "PolicyID": "3beca5f2-32d3-4bcd-b5a0-a1d7f15b983f",
+    "EffectiveDates": {
+        "StartDate": "2024-07-26",
+        "EndDate": "2025-07-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2a9da5ee-e572-4899-a2de-3645a26c1bdb",
+        "Name": "Laura Moore",
+        "PolicyNumber": "3beca5f2-32d3-4bcd-b5a0-a1d7f15b983f",
+        "ContactInformation": {
+            "Phone": "940.485.4729",
+            "Email": "sheliagrant@example.net",
+            "Address": "51693 Karen Mill\nNorth Sarah, WV 58382"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-08",
+        "Location": "320 Castillo Mill\nAndersontown, MH 67470",
+        "Description": "Color agreement our go. Agree name network tonight laugh subject meet.\nThemselves kind up imagine. Because arm born someone even space official sure. Surface responsibility since none laugh space."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38234
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6911
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44599
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5857
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49597
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 137762,
+        "TotalApproved": 102500
+    },
+    "AdjusterDetails": {
+        "Name": "Gregory Wright",
+        "ContactInformation": {
+            "Phone": "5484111293",
+            "Email": "thompsontonya@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/78a2c634-2a90-4d81-9f2c-d68899e04ee7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

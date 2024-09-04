@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7c55cf00-d3e2-40fb-8484-e2dd17eb0be0",
+    "PolicyID": "a3bc193d-5bda-4872-b034-78252ad4fa78",
+    "EffectiveDates": {
+        "StartDate": "2023-09-15",
+        "EndDate": "2024-09-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "609fed50-5ebb-4d79-961f-442ca4a55af4",
+        "Name": "John Fowler",
+        "PolicyNumber": "a3bc193d-5bda-4872-b034-78252ad4fa78",
+        "ContactInformation": {
+            "Phone": "2008854114",
+            "Email": "jeffreymercer@example.com",
+            "Address": "562 Harper Trace\nWest Natasha, DE 37278"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-05",
+        "Location": "6213 Lindsey Square Suite 841\nEast Mollyville, CT 91514",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 83693
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 42439
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9350
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22932
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16216
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 174630,
+        "TotalApproved": 47505
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Davis",
+        "ContactInformation": {
+            "Phone": "786-330-3257x01276",
+            "Email": "kathy30@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/133c471b-6a1a-49f0-b80c-c7a8db9a7b4e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-05T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-10T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-15T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

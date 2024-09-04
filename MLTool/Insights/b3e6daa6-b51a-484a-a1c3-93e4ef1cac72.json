@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b3e6daa6-b51a-484a-a1c3-93e4ef1cac72",
+    "PolicyID": "b7b24a4a-1407-41ef-a158-cc3803ce6554",
+    "EffectiveDates": {
+        "StartDate": "2024-03-02",
+        "EndDate": "2025-03-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2056ffc1-4e66-41d8-86fb-284b2d593839",
+        "Name": "Michael Pearson",
+        "PolicyNumber": "b7b24a4a-1407-41ef-a158-cc3803ce6554",
+        "ContactInformation": {
+            "Phone": "(814)280-7712",
+            "Email": "cooperstephen@example.com",
+            "Address": "6881 Daniel Springs Suite 999\nTylermouth, WV 02157"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-27",
+        "Location": "04515 Freeman Crest\nLake Mitchell, NE 69725",
+        "Description": "Free miss meeting than. About later order power focus pick call.\nAdult himself mind unit peace newspaper him. Throw majority rock marriage policy dinner. Necessary field want six world."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4079
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35092
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 32802
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 183944
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 22548
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 153296,
+        "TotalApproved": 15523
+    },
+    "AdjusterDetails": {
+        "Name": "Zachary Myers",
+        "ContactInformation": {
+            "Phone": "294.460.1318",
+            "Email": "samuel60@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/b3fa4854-fab8-4619-8190-b854479bc226"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-27T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-02T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-07T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

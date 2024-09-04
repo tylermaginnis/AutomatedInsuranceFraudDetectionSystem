@@ -1,0 +1,81 @@
+{
+    "ClaimID": "57a45ce0-d559-455d-8509-4c5681a929b7",
+    "PolicyID": "1d9b252c-f5ec-4a7e-9051-13fd9c5e14fb",
+    "EffectiveDates": {
+        "StartDate": "2024-01-03",
+        "EndDate": "2025-01-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5aa4096-0459-4477-98a8-a5cb4866b77a",
+        "Name": "Michelle Turner",
+        "PolicyNumber": "1d9b252c-f5ec-4a7e-9051-13fd9c5e14fb",
+        "ContactInformation": {
+            "Phone": "+1-734-929-5585x095",
+            "Email": "travis89@example.com",
+            "Address": "900 Adam Squares\nTiffanybury, GU 90789"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-26",
+        "Location": "980 Jessica Square\nFosterton, NV 44534",
+        "Description": "Beautiful half blue become understand. Else finally boy expect serve thus."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 158696
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12166
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16547
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 22768
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 21766
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 105349,
+        "TotalApproved": 29622
+    },
+    "AdjusterDetails": {
+        "Name": "Donna Haynes",
+        "ContactInformation": {
+            "Phone": "420.863.4529x977",
+            "Email": "matthew87@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3a97ee14-6a7c-4936-a1a7-b9da3e21c1ed"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-26T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-02T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-07T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

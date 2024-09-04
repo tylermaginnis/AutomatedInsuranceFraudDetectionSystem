@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6324c6a8-44b7-4e8d-8574-f1e9183817cb",
+    "PolicyID": "789cbfc5-ca0f-4902-98c9-a99d1c5950de",
+    "EffectiveDates": {
+        "StartDate": "2024-04-06",
+        "EndDate": "2025-04-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "37595cb1-7f4e-4d2b-a286-2f6bdc194faa",
+        "Name": "Julie Davis",
+        "PolicyNumber": "789cbfc5-ca0f-4902-98c9-a99d1c5950de",
+        "ContactInformation": {
+            "Phone": "8192334018",
+            "Email": "randolphcharles@example.org",
+            "Address": "5523 Mary Gardens\nEast Paulmouth, ID 71138"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-15",
+        "Location": "62368 Christopher Mews\nLake Julie, PR 12940",
+        "Description": "First artist just nice. Realize order performance speech force. Edge lot discover.\nSell industry imagine really. Without first him almost American. Across material professional which."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13785
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3423
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8578
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13040
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 66017
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 69684,
+        "TotalApproved": 64580
+    },
+    "AdjusterDetails": {
+        "Name": "Ryan Price",
+        "ContactInformation": {
+            "Phone": "4637068868",
+            "Email": "ladams@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3fe51173-919a-43a7-a681-00d176e24863"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-15T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-20T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-25T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

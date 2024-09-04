@@ -1,0 +1,80 @@
+{
+  "ClaimID": "919f5b62-2dcf-43a7-8931-6d38e750a5c6",
+  "PolicyID": "fb9e81e5-7d76-4ea9-b75f-6d80b7d8923c",
+  "EffectiveDates": {
+    "StartDate": "2024-07-04",
+    "EndDate": "2025-07-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8f5c470b-f9de-45ab-972c-3c6e5617f798",
+    "Name": "Corey Hall",
+    "PolicyNumber": "fb9e81e5-7d76-4ea9-b75f-6d80b7d8923c",
+    "ContactInformation": {
+      "Phone": "+1-631-921-8442x79197",
+      "Email": "elittle@example.com",
+      "Address": "10074 John Haven Apt. 316\nWilliamstown, VA 74191"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-03",
+    "Location": "533 Barnett Pike Suite 843\nLake Kimberlyville, OR 44209",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 82446
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 39559
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5307
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 21939
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 15945
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 165196,
+    "TotalApproved": 99547
+  },
+  "AdjusterDetails": {
+    "Name": "Beth Barrett DDS",
+    "ContactInformation": {
+      "Phone": "376-697-8417x15276",
+      "Email": "nathan45@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/bb41cb92-9df7-4f54-a375-291d96b4c5cc"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-03T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-08T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-05-13T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4c06f2c5-4494-4c47-8d83-a9b1efa1372a",
+    "PolicyID": "efa81879-9cba-45f6-a54e-9b290ec18034",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f4a5f1a8-9fa9-49f9-b2ea-2a8ea699769c",
+        "Name": "Donald Phillips",
+        "PolicyNumber": "efa81879-9cba-45f6-a54e-9b290ec18034",
+        "ContactInformation": {
+            "Phone": "676-669-9007",
+            "Email": "kennethmccormick@example.net",
+            "Address": "59404 Castillo Pike\nNew Jennifer, WV 88297"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-27",
+        "Location": "229 Bailey Junctions Apt. 656\nJohnside, NY 57137",
+        "Description": "Region president all really.\nApproach week free according toward so only magazine. Loss management from standard young final.\nAccept coach ground society everybody."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 59532
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39212
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 94011
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9797
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 53260
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 142268,
+        "TotalApproved": 112875
+    },
+    "AdjusterDetails": {
+        "Name": "Kelly Anderson",
+        "ContactInformation": {
+            "Phone": "944-617-2140",
+            "Email": "jwang@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/bb668e64-ddda-41ca-8f10-08cc6322b7b5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-27T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-04T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-09T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

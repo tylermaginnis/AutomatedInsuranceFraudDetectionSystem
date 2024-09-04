@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5c2778b0-1092-4106-8494-287152f2a49a",
+    "PolicyID": "d1e136b3-bc6d-496a-a9fd-81c342ce7d37",
+    "EffectiveDates": {
+        "StartDate": "2024-07-05",
+        "EndDate": "2025-07-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3847ab22-04a9-4597-a6f4-903a4ceea3c4",
+        "Name": "Ian Salazar",
+        "PolicyNumber": "d1e136b3-bc6d-496a-a9fd-81c342ce7d37",
+        "ContactInformation": {
+            "Phone": "+1-214-985-5211x0101",
+            "Email": "arianawilliams@example.net",
+            "Address": "USNS Thomas\nFPO AP 03958"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-05",
+        "Location": "700 Adams Gardens\nAndersonburgh, UT 88687",
+        "Description": "Argue our education. Him pretty evening pretty a room bag.\nSimple summer both when feeling visit. Whether strong night official top. Figure fine part."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 74624
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19589
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3772
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24143
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 78986
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 12756,
+        "TotalApproved": 2032
+    },
+    "AdjusterDetails": {
+        "Name": "Logan Kennedy",
+        "ContactInformation": {
+            "Phone": "5787097995",
+            "Email": "xcooper@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/171881dd-0007-494b-b0f5-4155ae255334"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

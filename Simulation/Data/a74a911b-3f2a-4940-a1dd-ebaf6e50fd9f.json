@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a74a911b-3f2a-4940-a1dd-ebaf6e50fd9f",
+  "PolicyID": "bf086eb3-56dc-40d0-b1e0-cbd133fbc3cf",
+  "EffectiveDates": {
+    "StartDate": "2023-10-07",
+    "EndDate": "2024-10-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9441a9d3-0824-4a29-a77f-8d9fd3093768",
+    "Name": "Angela Jones",
+    "PolicyNumber": "bf086eb3-56dc-40d0-b1e0-cbd133fbc3cf",
+    "ContactInformation": {
+      "Phone": "001-687-537-5101",
+      "Email": "loriolson@example.org",
+      "Address": "459 Harris Ridge\nSouth Phillip, MS 75989"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-29",
+    "Location": "052 Palmer Brook\nEast Devinfurt, IN 21185",
+    "Description": "Whole if seek simply.\nBreak clearly represent thank finish development Mr. Be hotel sound theory toward around. Sport type church.\nMarriage keep job more yard night that. Once agreement stuff form."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7002
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 13526
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1318
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2585
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 41297
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 94305,
+    "TotalApproved": 8613
+  },
+  "AdjusterDetails": {
+    "Name": "Zachary Smith",
+    "ContactInformation": {
+      "Phone": "293.611.3575",
+      "Email": "dustin81@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/919c6c99-fdc7-4b05-876a-1d2f92b59c83"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-29T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-04T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-09T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

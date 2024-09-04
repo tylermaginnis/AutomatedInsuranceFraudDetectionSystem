@@ -1,0 +1,81 @@
+{
+    "ClaimID": "96549be0-7f01-4223-a62d-630489914fef",
+    "PolicyID": "2c3884fb-2aa4-47fc-8d06-d78131e51081",
+    "EffectiveDates": {
+        "StartDate": "2024-02-25",
+        "EndDate": "2025-02-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8b6ec8f9-96a2-4ada-a0cf-794885f50ac1",
+        "Name": "Miguel Lloyd",
+        "PolicyNumber": "2c3884fb-2aa4-47fc-8d06-d78131e51081",
+        "ContactInformation": {
+            "Phone": "8607297574",
+            "Email": "williamallen@example.com",
+            "Address": "40909 Kelsey Plain\nGreenfort, PW 48523"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-12",
+        "Location": "Unit 7079 Box 6071\nDPO AE 64664",
+        "Description": "Full there it quickly. Method middle let play movie cultural few.\nImprove herself ground nice bag four threat. Environment tonight course ask political social media. Four present benefit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4219
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5566
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8665
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 189871
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19290
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 149418,
+        "TotalApproved": 11658
+    },
+    "AdjusterDetails": {
+        "Name": "Marilyn Cruz",
+        "ContactInformation": {
+            "Phone": "275.979.9521",
+            "Email": "wkeller@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4e0ed864-68a7-43ae-9f6f-1312eea500ea"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-12T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-17T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-22T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

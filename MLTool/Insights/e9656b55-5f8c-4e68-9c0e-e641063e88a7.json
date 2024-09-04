@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e9656b55-5f8c-4e68-9c0e-e641063e88a7",
+    "PolicyID": "2beb9a3e-449e-4157-b8d4-2bf9f2995292",
+    "EffectiveDates": {
+        "StartDate": "2023-11-27",
+        "EndDate": "2024-11-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e7b067a9-fab1-43b4-93ac-4d02ae7cbab6",
+        "Name": "Larry Jones",
+        "PolicyNumber": "2beb9a3e-449e-4157-b8d4-2bf9f2995292",
+        "ContactInformation": {
+            "Phone": "4128524599",
+            "Email": "allenrachel@example.net",
+            "Address": "06870 Nicholas Avenue\nVanessaland, AZ 42074"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-21",
+        "Location": "455 Rosario Hollow Suite 984\nEvanview, AZ 57844",
+        "Description": "Past community deep born. But around process shoulder always good story doctor. Later president especially this teach name evidence energy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16207
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39952
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 72030
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4638
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16016
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 65093,
+        "TotalApproved": 56953
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Mitchell",
+        "ContactInformation": {
+            "Phone": "646.829.5141x553",
+            "Email": "nicoleharris@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ebff70b6-dc64-4878-9b04-38224fe7fb1b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-01T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

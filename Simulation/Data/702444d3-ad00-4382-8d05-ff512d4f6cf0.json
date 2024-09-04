@@ -1,0 +1,80 @@
+{
+  "ClaimID": "702444d3-ad00-4382-8d05-ff512d4f6cf0",
+  "PolicyID": "dcf4637f-3fb7-4a80-81ca-d955c775bce8",
+  "EffectiveDates": {
+    "StartDate": "2024-07-17",
+    "EndDate": "2025-07-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4d42a893-9771-4564-a6af-4b67585e29af",
+    "Name": "Mrs. Kimberly Garcia",
+    "PolicyNumber": "dcf4637f-3fb7-4a80-81ca-d955c775bce8",
+    "ContactInformation": {
+      "Phone": "803.751.3769",
+      "Email": "darrell93@example.org",
+      "Address": "301 Mathis Flats Apt. 661\nGregoryton, SC 67767"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-20",
+    "Location": "0033 Hernandez Lock\nLake Kevin, DC 42125",
+    "Description": "Beyond close into. Cost factor bed garden animal to newspaper. Create degree authority future instead."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8482
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7229
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 133499
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19219
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 71842
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 90856,
+    "TotalApproved": 22914
+  },
+  "AdjusterDetails": {
+    "Name": "Henry Waller",
+    "ContactInformation": {
+      "Phone": "8782050741",
+      "Email": "thomasbecker@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/04529581-2782-4496-8721-cc4cc6da67ba"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-20T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-25T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-30T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b1fcb7c6-c696-49fb-8e4a-7f0cbd874aee",
+    "PolicyID": "d5f163e8-a034-48e4-8211-25ca5d566977",
+    "EffectiveDates": {
+        "StartDate": "2024-02-02",
+        "EndDate": "2025-02-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cef1dcea-d90f-4026-bb0f-96f9faf535db",
+        "Name": "Amber Hall",
+        "PolicyNumber": "d5f163e8-a034-48e4-8211-25ca5d566977",
+        "ContactInformation": {
+            "Phone": "+1-364-687-3673x197",
+            "Email": "nicole78@example.com",
+            "Address": "Unit 6081 Box 6355\nDPO AE 71648"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-17",
+        "Location": "22594 Omar Mountain\nLake Christinaside, ID 96524",
+        "Description": "Born me base guess thus material five. Quickly treatment voice until.\nThem already nature cause change public might nothing. Economic try country three store young. Marriage computer no deal cold."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10035
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9222
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2730
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 62922
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10033
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 8701,
+        "TotalApproved": 3119
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Mendez",
+        "ContactInformation": {
+            "Phone": "525-928-4921x42695",
+            "Email": "jasonpeterson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3482e1c2-e743-4444-adba-2c57636bcb31"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

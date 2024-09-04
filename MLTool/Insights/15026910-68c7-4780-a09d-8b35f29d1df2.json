@@ -1,0 +1,81 @@
+{
+    "ClaimID": "15026910-68c7-4780-a09d-8b35f29d1df2",
+    "PolicyID": "9e09003b-8683-48ac-961c-f66b5933d003",
+    "EffectiveDates": {
+        "StartDate": "2024-09-04",
+        "EndDate": "2025-09-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "faecc031-43ab-429c-97b8-a2fe547ee509",
+        "Name": "Daniel Weber",
+        "PolicyNumber": "9e09003b-8683-48ac-961c-f66b5933d003",
+        "ContactInformation": {
+            "Phone": "2796885947",
+            "Email": "barnesalexander@example.net",
+            "Address": "PSC 1130, Box 9305\nAPO AA 90427"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-21",
+        "Location": "113 Ward Valley\nPort Anthonyville, PA 43004",
+        "Description": "Sea that to yard. Page decision whatever agreement walk article girl. Recently keep Republican role need age decade. Quickly fish off center piece indicate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4578
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 65196
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2033
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34690
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1078
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 120263,
+        "TotalApproved": 115466
+    },
+    "AdjusterDetails": {
+        "Name": "Caroline Bryant",
+        "ContactInformation": {
+            "Phone": "619-994-4713x8898",
+            "Email": "rick01@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ef50829c-0834-4220-9526-c22d5b8cb6a5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-21T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-26T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-31T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

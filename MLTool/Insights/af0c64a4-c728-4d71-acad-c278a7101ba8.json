@@ -1,0 +1,81 @@
+{
+    "ClaimID": "af0c64a4-c728-4d71-acad-c278a7101ba8",
+    "PolicyID": "583493f2-45a1-4ec1-981e-deac830d17f5",
+    "EffectiveDates": {
+        "StartDate": "2023-11-15",
+        "EndDate": "2024-11-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5694ff00-1dcd-463a-9639-0f9e857ae982",
+        "Name": "Nancy Garner",
+        "PolicyNumber": "583493f2-45a1-4ec1-981e-deac830d17f5",
+        "ContactInformation": {
+            "Phone": "2619799214",
+            "Email": "hansencheryl@example.com",
+            "Address": "Unit 7283 Box 8408\nDPO AA 18992"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-23",
+        "Location": "Unit 1061 Box 6168\nDPO AE 75703",
+        "Description": "Reveal modern though government paper level. Nothing national respond popular fund begin those. Floor health whose choice."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 79126
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25150
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 51414
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32640
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4568
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 118709,
+        "TotalApproved": 24719
+    },
+    "AdjusterDetails": {
+        "Name": "Abigail Miller",
+        "ContactInformation": {
+            "Phone": "713-464-0510x326",
+            "Email": "gball@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/823e6023-d581-4c30-b4f9-0d1c64759f0c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-03T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

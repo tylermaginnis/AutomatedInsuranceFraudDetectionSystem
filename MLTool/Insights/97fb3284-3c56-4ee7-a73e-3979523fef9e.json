@@ -1,0 +1,81 @@
+{
+    "ClaimID": "97fb3284-3c56-4ee7-a73e-3979523fef9e",
+    "PolicyID": "e6e46f20-b2e7-45c3-bee0-61b63ac765fe",
+    "EffectiveDates": {
+        "StartDate": "2024-08-18",
+        "EndDate": "2025-08-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0a87591e-98c0-458c-b45c-019492f31c54",
+        "Name": "Edward Austin",
+        "PolicyNumber": "e6e46f20-b2e7-45c3-bee0-61b63ac765fe",
+        "ContactInformation": {
+            "Phone": "(385)922-5546",
+            "Email": "fmendez@example.com",
+            "Address": "496 Gabrielle Walk Suite 683\nJonesland, KY 81441"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-02",
+        "Location": "PSC 4085, Box 5490\nAPO AE 92731",
+        "Description": "Statement the suffer talk deal rest. Up you movie trial talk military.\nEverything smile music fight no. Skin draw part personal recently.\nGround available purpose discussion. History fire happy move."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41986
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42566
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8279
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19296
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14451
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 113015,
+        "TotalApproved": 70527
+    },
+    "AdjusterDetails": {
+        "Name": "Hannah Rice",
+        "ContactInformation": {
+            "Phone": "(301)921-7776x189",
+            "Email": "johnsdavid@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/7f500c48-6ad7-453a-952d-c80e38dce3fb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-02T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-07T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-12T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "23cc00bc-6368-4a54-9ca7-9f10d6345ab5",
+    "PolicyID": "36477d17-449b-4187-b0b4-a1c3bea21250",
+    "EffectiveDates": {
+        "StartDate": "2024-04-29",
+        "EndDate": "2025-04-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "516b433a-818b-4364-a9b7-12c5c9966e80",
+        "Name": "Janet Cochran",
+        "PolicyNumber": "36477d17-449b-4187-b0b4-a1c3bea21250",
+        "ContactInformation": {
+            "Phone": "001-625-584-9262",
+            "Email": "gschwartz@example.com",
+            "Address": "PSC 8845, Box 9369\nAPO AP 51961"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "1789 Martin Vista\nLake Nicoleburgh, ID 64630",
+        "Description": "Part executive whom southern country thus record. Source minute consumer maintain PM practice. Occur each mention Republican."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11986
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 34119
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9722
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2745
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36386
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 133989,
+        "TotalApproved": 119427
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Smith",
+        "ContactInformation": {
+            "Phone": "565.732.7621x69055",
+            "Email": "ygray@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/973ed2f3-c219-4a94-8851-e8323d0b4329"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

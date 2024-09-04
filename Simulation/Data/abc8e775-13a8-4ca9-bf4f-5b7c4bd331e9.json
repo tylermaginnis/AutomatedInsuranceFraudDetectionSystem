@@ -1,0 +1,80 @@
+{
+  "ClaimID": "abc8e775-13a8-4ca9-bf4f-5b7c4bd331e9",
+  "PolicyID": "259a3dde-e8c2-408f-8576-cd96f709da45",
+  "EffectiveDates": {
+    "StartDate": "2024-01-18",
+    "EndDate": "2025-01-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f25e5fca-9e52-4fcf-a83c-429a54edc5ce",
+    "Name": "William Kelly",
+    "PolicyNumber": "259a3dde-e8c2-408f-8576-cd96f709da45",
+    "ContactInformation": {
+      "Phone": "+1-487-613-1024x3795",
+      "Email": "vewing@example.net",
+      "Address": "900 Keith Harbors Apt. 164\nHarrisonmouth, ND 12347"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-01-20",
+    "Location": "166 Erica Hollow Apt. 392\nPort Kristen, MP 97975",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 84653
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 40617
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 7393
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 10527
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5631
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 148821,
+    "TotalApproved": 64017
+  },
+  "AdjusterDetails": {
+    "Name": "Mr. Michael Farley",
+    "ContactInformation": {
+      "Phone": "+1-616-809-0274x930",
+      "Email": "thomas43@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/3e5ea1a7-5654-4613-8862-ef3deca7c5bd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-01-20T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-25T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-30T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

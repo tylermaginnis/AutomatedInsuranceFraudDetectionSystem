@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2101bf13-84c0-4939-b111-5266231a2d76",
+  "PolicyID": "52540cf7-489a-4133-9ec0-2479bd43a63b",
+  "EffectiveDates": {
+    "StartDate": "2024-08-21",
+    "EndDate": "2025-08-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3cb2dae6-90e1-4bfd-a431-dd454b90d414",
+    "Name": "Lauren Pierce",
+    "PolicyNumber": "52540cf7-489a-4133-9ec0-2479bd43a63b",
+    "ContactInformation": {
+      "Phone": "765.824.8070x617",
+      "Email": "angela48@example.com",
+      "Address": "419 Flores Valley Apt. 314\nLake Tyler, TN 04095"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-02-24",
+    "Location": "5291 Kyle Parkway\nNew Kevin, KS 90798",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 81658
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 45895
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6330
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 27566
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5451
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 166900,
+    "TotalApproved": 124404
+  },
+  "AdjusterDetails": {
+    "Name": "Cameron Harrington",
+    "ContactInformation": {
+      "Phone": "853.294.6532x37702",
+      "Email": "caroline61@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/fde5f139-8786-4657-9e16-b3d5a41e9bb6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-02-24T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-01T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-06T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

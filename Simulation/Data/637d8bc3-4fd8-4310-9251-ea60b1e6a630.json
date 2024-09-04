@@ -1,0 +1,80 @@
+{
+  "ClaimID": "637d8bc3-4fd8-4310-9251-ea60b1e6a630",
+  "PolicyID": "f945da1f-a514-4245-9bc7-2cf187ee0300",
+  "EffectiveDates": {
+    "StartDate": "2024-08-14",
+    "EndDate": "2025-08-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1d4c37a4-fd93-4a52-b05d-8493b1f4ed01",
+    "Name": "Leah Baker",
+    "PolicyNumber": "f945da1f-a514-4245-9bc7-2cf187ee0300",
+    "ContactInformation": {
+      "Phone": "583-315-3253",
+      "Email": "jamesgregory@example.net",
+      "Address": "817 Crane Coves Apt. 240\nSouth Lauramouth, CO 65553"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-11",
+    "Location": "6078 Parker Loaf\nLake Brendashire, WI 51754",
+    "Description": "Blood knowledge last player letter. Cold small story law message. Paper economy hard position."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2198
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 19953
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9752
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 33293
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 26713
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 156068,
+    "TotalApproved": 17894
+  },
+  "AdjusterDetails": {
+    "Name": "James Blankenship",
+    "ContactInformation": {
+      "Phone": "916-507-1897",
+      "Email": "umartin@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/733d483c-b38e-4295-9c10-41b77a84b1e1"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-11T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-16T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-21T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0c715465-aebb-48b0-9097-545dc2b8f392",
+    "PolicyID": "b9243b9b-f5c5-4494-a7ac-ee7d86bc37cf",
+    "EffectiveDates": {
+        "StartDate": "2024-01-16",
+        "EndDate": "2025-01-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9cbcfbea-0d36-4c4e-8316-cff34bf7e3da",
+        "Name": "Sally Lee",
+        "PolicyNumber": "b9243b9b-f5c5-4494-a7ac-ee7d86bc37cf",
+        "ContactInformation": {
+            "Phone": "(671)473-2641",
+            "Email": "billy32@example.org",
+            "Address": "96581 Michael Garden\nElizabethchester, WA 12527"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-22",
+        "Location": "1645 Jessica Key\nLake Brittanystad, SD 63041",
+        "Description": "House science charge assume identify. Pm trial number.\nGrow last strategy hospital beyond. Focus between news peace matter skill."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4725
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 121558
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 67858
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33137
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48843
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 161528,
+        "TotalApproved": 134600
+    },
+    "AdjusterDetails": {
+        "Name": "Linda Williams",
+        "ContactInformation": {
+            "Phone": "926.252.0538",
+            "Email": "bsharp@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4c99d285-bab5-478d-9d61-1734d94d0b04"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-02T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

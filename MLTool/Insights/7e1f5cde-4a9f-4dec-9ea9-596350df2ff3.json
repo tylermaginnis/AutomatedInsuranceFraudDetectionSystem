@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7e1f5cde-4a9f-4dec-9ea9-596350df2ff3",
+    "PolicyID": "ec08bf7a-d18f-419f-bdd9-e1ac0d321cd8",
+    "EffectiveDates": {
+        "StartDate": "2024-01-23",
+        "EndDate": "2025-01-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6ef03b23-a5cf-41ff-8a38-5b0c4e6af932",
+        "Name": "Melissa Taylor",
+        "PolicyNumber": "ec08bf7a-d18f-419f-bdd9-e1ac0d321cd8",
+        "ContactInformation": {
+            "Phone": "345.458.1330x8054",
+            "Email": "gcastaneda@example.net",
+            "Address": "928 Nicole Fields Suite 853\nPort Angela, SC 27282"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-22",
+        "Location": "26231 Brandon Centers\nCourtneyburgh, TX 95279",
+        "Description": "Station we education develop along.\nSee my bill particularly its enough happen.\nUnderstand wait so important. Over guess season billion land while property. Growth perhaps follow minute smile."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 133148
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23946
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11517
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 79385
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29811
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 115829,
+        "TotalApproved": 11878
+    },
+    "AdjusterDetails": {
+        "Name": "Stephen Larson",
+        "ContactInformation": {
+            "Phone": "001-696-960-4228",
+            "Email": "melissawilson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ee87b11c-0ae0-485c-b6ed-6a07b18fdc34"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

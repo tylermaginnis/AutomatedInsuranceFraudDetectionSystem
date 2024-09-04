@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5a476be3-f882-477d-81cb-d6834299f4ce",
+    "PolicyID": "0b8c6ae9-fd98-4e86-8de6-cacc95f1eb80",
+    "EffectiveDates": {
+        "StartDate": "2024-07-22",
+        "EndDate": "2025-07-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f5afba86-ebd3-4d29-afda-6aaeacb1fc28",
+        "Name": "Tina Deleon",
+        "PolicyNumber": "0b8c6ae9-fd98-4e86-8de6-cacc95f1eb80",
+        "ContactInformation": {
+            "Phone": "+1-610-464-4496x0282",
+            "Email": "dsmith@example.net",
+            "Address": "USCGC Moss\nFPO AP 99170"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-29",
+        "Location": "279 James Mission\nWhiteshire, SC 64925",
+        "Description": "North week center teacher. Federal soon only. Laugh question central coach network."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35294
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16704
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1108
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6110
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15980
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 63763,
+        "TotalApproved": 44088
+    },
+    "AdjusterDetails": {
+        "Name": "Allison Brown",
+        "ContactInformation": {
+            "Phone": "599.292.3843x94159",
+            "Email": "iconway@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/2c412146-1965-4ca3-9a9e-ba0578bd9c10"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-29T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-03T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-08T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1e918c11-dbd4-49f4-9a21-a2207394bb51",
+  "PolicyID": "d9d8e952-5c6b-4d0c-919f-8aaef4dd412a",
+  "EffectiveDates": {
+    "StartDate": "2024-05-01",
+    "EndDate": "2025-05-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9287f4bd-296c-493c-a7a2-ed585399fd5c",
+    "Name": "Calvin Lewis",
+    "PolicyNumber": "d9d8e952-5c6b-4d0c-919f-8aaef4dd412a",
+    "ContactInformation": {
+      "Phone": "001-437-771-9751",
+      "Email": "kevinfowler@example.org",
+      "Address": "76489 Tyler Haven\nSparksville, SD 68725"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-21",
+    "Location": "68551 Kevin Landing\nNew Benjaminton, AS 04461",
+    "Description": "Wide across inside alone green report.\nFrom resource address expect. Before detail home story every. Agent continue direction everything do."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11642
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9983
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 98563
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1053
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 15121
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 103529,
+    "TotalApproved": 91103
+  },
+  "AdjusterDetails": {
+    "Name": "Loretta Gibbs",
+    "ContactInformation": {
+      "Phone": "+1-800-604-5941",
+      "Email": "feliciamontoya@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/18757e68-41cd-4d79-bbf5-3819ac341ffd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-21T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-26T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-05-01T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

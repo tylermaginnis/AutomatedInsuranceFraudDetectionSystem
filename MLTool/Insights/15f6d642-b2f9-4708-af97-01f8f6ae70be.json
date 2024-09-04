@@ -1,0 +1,81 @@
+{
+    "ClaimID": "15f6d642-b2f9-4708-af97-01f8f6ae70be",
+    "PolicyID": "fdd68c0b-1cf3-41b3-97e8-d18de3f2a4db",
+    "EffectiveDates": {
+        "StartDate": "2024-08-21",
+        "EndDate": "2025-08-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6f64ca48-22fb-402c-8a2e-56e44973458f",
+        "Name": "Veronica Love",
+        "PolicyNumber": "fdd68c0b-1cf3-41b3-97e8-d18de3f2a4db",
+        "ContactInformation": {
+            "Phone": "243.994.6543x744",
+            "Email": "sethwoods@example.org",
+            "Address": "67310 Robert Hill Apt. 959\nCharlesmouth, NE 49249"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-28",
+        "Location": "007 Michael Island Apt. 406\nWest Patriciamouth, WI 68974",
+        "Description": "Manage inside ground owner realize. Rather series various rest bring. Morning any evidence decade so chair.\nClass public minute else white push food. Center wait between training play hear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 72715
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15285
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 48978
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3711
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2697
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 26702,
+        "TotalApproved": 6575
+    },
+    "AdjusterDetails": {
+        "Name": "Alicia Townsend",
+        "ContactInformation": {
+            "Phone": "001-828-994-6406x9985",
+            "Email": "bennettjerry@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/615ac5f7-4d13-4726-8277-545cd511f02b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-28T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-02T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-07T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

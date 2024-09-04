@@ -1,0 +1,81 @@
+{
+    "ClaimID": "dd2e7b5a-cba5-4034-9678-a2a011ba2d5e",
+    "PolicyID": "42f5d6dd-7821-4df1-9a61-62895ebcddc3",
+    "EffectiveDates": {
+        "StartDate": "2024-05-23",
+        "EndDate": "2025-05-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5143df35-a053-41b8-ba19-6ec81ca5eab7",
+        "Name": "Kenneth Jones",
+        "PolicyNumber": "42f5d6dd-7821-4df1-9a61-62895ebcddc3",
+        "ContactInformation": {
+            "Phone": "(920)438-7449",
+            "Email": "wfields@example.org",
+            "Address": "612 Robbins Fort\nLanceside, PA 12441"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-09",
+        "Location": "USNV Yu\nFPO AE 46726",
+        "Description": "Base oil support would late new federal. Behind watch owner or parent goal.\nDoctor player dinner color. Nor Mr black office unit part for.\nJob choice life tough ability."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 91997
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3879
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 111382
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 178774
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 82746
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 102095,
+        "TotalApproved": 56944
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Schultz",
+        "ContactInformation": {
+            "Phone": "3815824720",
+            "Email": "kwebb@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9ddfcc19-1846-42ed-9569-56acc95b0f96"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-09T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-14T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-19T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

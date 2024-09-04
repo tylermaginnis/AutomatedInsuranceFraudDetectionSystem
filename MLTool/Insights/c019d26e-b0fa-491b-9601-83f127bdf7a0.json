@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c019d26e-b0fa-491b-9601-83f127bdf7a0",
+    "PolicyID": "52284091-c3f1-444f-9dbc-03e07b8ef3a0",
+    "EffectiveDates": {
+        "StartDate": "2023-10-26",
+        "EndDate": "2024-10-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7c0fbc5c-8bf2-4858-aa19-01613d242b47",
+        "Name": "Michelle Harrell",
+        "PolicyNumber": "52284091-c3f1-444f-9dbc-03e07b8ef3a0",
+        "ContactInformation": {
+            "Phone": "(695)348-7782",
+            "Email": "dawntyler@example.org",
+            "Address": "919 Bennett Crossing\nDianamouth, WA 73555"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-04",
+        "Location": "9809 Anthony Stream Suite 517\nCortezchester, ID 93581",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 73479
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38403
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7939
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20442
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14249
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 154512,
+        "TotalApproved": 97748
+    },
+    "AdjusterDetails": {
+        "Name": "Morgan Haynes",
+        "ContactInformation": {
+            "Phone": "(595)247-9609x1316",
+            "Email": "webertimothy@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/026b91c4-43cb-409e-9e23-df34ef1eb166"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-04T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-09T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-14T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

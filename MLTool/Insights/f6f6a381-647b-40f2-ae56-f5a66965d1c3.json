@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f6f6a381-647b-40f2-ae56-f5a66965d1c3",
+    "PolicyID": "5cb1fb61-29b8-434c-b0e8-324330434450",
+    "EffectiveDates": {
+        "StartDate": "2024-07-07",
+        "EndDate": "2025-07-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ebb65137-2f67-4b97-9ded-d8873c4d1bac",
+        "Name": "Ariel Cruz",
+        "PolicyNumber": "5cb1fb61-29b8-434c-b0e8-324330434450",
+        "ContactInformation": {
+            "Phone": "001-235-781-6982",
+            "Email": "imills@example.com",
+            "Address": "447 Sarah Cove\nBowmanton, AZ 94565"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-17",
+        "Location": "060 Dixon Flat Apt. 977\nWest Katherine, GU 91939",
+        "Description": "Sit operation popular help. Small friend how discussion level message. Myself prepare identify over toward.\nBig data south later question. Similar book cold good large include this."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 143471
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 74137
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7868
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17512
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6787
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 182912,
+        "TotalApproved": 123611
+    },
+    "AdjusterDetails": {
+        "Name": "John Bailey",
+        "ContactInformation": {
+            "Phone": "(799)859-8892x2527",
+            "Email": "dgibson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/1f042c92-9e20-497d-9829-63ad7aca583f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-17T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-22T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-27T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

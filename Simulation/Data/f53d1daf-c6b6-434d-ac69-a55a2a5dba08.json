@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f53d1daf-c6b6-434d-ac69-a55a2a5dba08",
+  "PolicyID": "d5054961-ff19-4d95-bb30-6a79f156a006",
+  "EffectiveDates": {
+    "StartDate": "2024-06-29",
+    "EndDate": "2025-06-29"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "14cba359-2e4b-4c59-8be2-6fc357bb906a",
+    "Name": "Robert Poole",
+    "PolicyNumber": "d5054961-ff19-4d95-bb30-6a79f156a006",
+    "ContactInformation": {
+      "Phone": "+1-959-897-0588",
+      "Email": "tammygarcia@example.net",
+      "Address": "3623 Cisneros Common\nSouth Rhonda, MH 73093"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-01",
+    "Location": "501 Angel Falls\nNew Frederickburgh, MD 07779",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 59397
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 46091
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5721
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15844
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13050
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 140103,
+    "TotalApproved": 90346
+  },
+  "AdjusterDetails": {
+    "Name": "Connie Reyes",
+    "ContactInformation": {
+      "Phone": "+1-622-469-1094x215",
+      "Email": "patricia50@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/e0d0abda-7b13-41e9-bdc8-c15f448b90dc"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-01T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-06T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-11T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

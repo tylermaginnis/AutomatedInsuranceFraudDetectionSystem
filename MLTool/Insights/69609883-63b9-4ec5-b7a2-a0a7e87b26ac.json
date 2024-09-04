@@ -1,0 +1,81 @@
+{
+    "ClaimID": "69609883-63b9-4ec5-b7a2-a0a7e87b26ac",
+    "PolicyID": "ca6b94c8-8d47-48b8-b7b0-a7a778679624",
+    "EffectiveDates": {
+        "StartDate": "2024-01-31",
+        "EndDate": "2025-01-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "09d6a31c-cb8f-4b39-a1fa-29081135c5d3",
+        "Name": "Nicholas Rogers",
+        "PolicyNumber": "ca6b94c8-8d47-48b8-b7b0-a7a778679624",
+        "ContactInformation": {
+            "Phone": "490.898.6977x80029",
+            "Email": "ssmith@example.com",
+            "Address": "572 Malone Via\nDanielfurt, ID 49269"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-29",
+        "Location": "0843 David Hollow Suite 670\nBrandyview, IL 29224",
+        "Description": "Clearly plan seem store traditional. Alone true street film. Difficult hospital improve tax me. Difference American outside simple later would discussion."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 115544
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18883
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9142
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 66909
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10391
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 162443,
+        "TotalApproved": 30538
+    },
+    "AdjusterDetails": {
+        "Name": "Sharon Mccoy",
+        "ContactInformation": {
+            "Phone": "630-996-7161x64898",
+            "Email": "harrisonedward@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ee4b853e-2565-499c-9541-45d8286d469b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d64f216e-2a59-45f3-9255-3525ace2f814",
+    "PolicyID": "94b764c9-7bd4-4e17-8b46-164f074873b4",
+    "EffectiveDates": {
+        "StartDate": "2024-01-02",
+        "EndDate": "2025-01-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "77f393c1-ecd0-4dc1-ad55-fb2b422ddc30",
+        "Name": "Rachel Hunter",
+        "PolicyNumber": "94b764c9-7bd4-4e17-8b46-164f074873b4",
+        "ContactInformation": {
+            "Phone": "(574)429-3268x095",
+            "Email": "iwilson@example.net",
+            "Address": "198 Blake Inlet Suite 652\nSouth Christopher, IA 36592"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-31",
+        "Location": "3034 Megan Parkway\nPort Cameronshire, CT 33331",
+        "Description": "While hour cold measure house arrive. When home girl station.\nRace within weight fine image. Rich local hot rock charge shoulder. Stay skin home others success indicate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1372
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9128
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2650
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9453
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2408
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 54364,
+        "TotalApproved": 21723
+    },
+    "AdjusterDetails": {
+        "Name": "Joe Bailey",
+        "ContactInformation": {
+            "Phone": "511.823.9368",
+            "Email": "gstewart@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4a87cec4-7a2a-405f-8708-46d0f81d71dd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-31T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-05T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-10T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

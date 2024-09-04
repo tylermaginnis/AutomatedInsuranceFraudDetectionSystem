@@ -1,0 +1,80 @@
+{
+  "ClaimID": "70668f31-eef2-4849-89e9-4ae49842b32f",
+  "PolicyID": "76f9065a-bd18-4af7-80e9-016b4b30d25f",
+  "EffectiveDates": {
+    "StartDate": "2024-05-07",
+    "EndDate": "2025-05-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9eb9d83d-bf68-40e0-841f-695fcbe853d0",
+    "Name": "Sharon Erickson",
+    "PolicyNumber": "76f9065a-bd18-4af7-80e9-016b4b30d25f",
+    "ContactInformation": {
+      "Phone": "219-745-0987",
+      "Email": "paulbailey@example.com",
+      "Address": "596 Jaime Grove Suite 097\nPort Patrick, MT 52757"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-24",
+    "Location": "00833 Werner Coves Apt. 445\nNew Hunterside, AL 19221",
+    "Description": "He hope less nearly alone.\nDream type their entire painting prevent assume. Word left top cell executive film. Street interesting read whether sing his apply."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 42850
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 161496
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2568
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2117
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3578
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 77752,
+    "TotalApproved": 59346
+  },
+  "AdjusterDetails": {
+    "Name": "Julie Watson",
+    "ContactInformation": {
+      "Phone": "(695)800-1559",
+      "Email": "tcoffey@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/ba874d55-dba6-41e3-b7fb-41e1a29a6976"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-24T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-29T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-03T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

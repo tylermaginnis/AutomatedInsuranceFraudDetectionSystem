@@ -1,0 +1,81 @@
+{
+    "ClaimID": "49fdf200-0aee-4510-8485-79b6afdc8c5b",
+    "PolicyID": "8de979df-d9c1-426b-ae19-8b63d7ab59df",
+    "EffectiveDates": {
+        "StartDate": "2023-11-28",
+        "EndDate": "2024-11-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "272189f7-59e4-4443-bd3a-8d331e5e0b54",
+        "Name": "Derek Hoover",
+        "PolicyNumber": "8de979df-d9c1-426b-ae19-8b63d7ab59df",
+        "ContactInformation": {
+            "Phone": "(544)588-2939",
+            "Email": "nicoleflores@example.org",
+            "Address": "PSC 9232, Box 1671\nAPO AE 12822"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-25",
+        "Location": "20170 Moore Plain\nNew Christopher, MT 74634",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 91306
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 40488
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6809
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29275
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17062
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 184940,
+        "TotalApproved": 13555
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Mccoy",
+        "ContactInformation": {
+            "Phone": "664-434-8674x054",
+            "Email": "aviladenise@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6f2294b9-c7e8-484c-b68b-0dfac24cfb15"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-25T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-30T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-04T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

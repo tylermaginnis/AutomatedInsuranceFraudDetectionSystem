@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3eb330c5-aeb5-4202-846f-3580201ad841",
+    "PolicyID": "60b478eb-d2be-4931-9352-ff08104a065f",
+    "EffectiveDates": {
+        "StartDate": "2023-09-12",
+        "EndDate": "2024-09-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "27eb0338-4509-41da-a42d-de19bf06cdfe",
+        "Name": "Steven Preston",
+        "PolicyNumber": "60b478eb-d2be-4931-9352-ff08104a065f",
+        "ContactInformation": {
+            "Phone": "839-824-9633x6251",
+            "Email": "jasonporter@example.net",
+            "Address": "081 Johnson Green Apt. 301\nAmyport, VA 80771"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-12",
+        "Location": "0186 Philip Valley Suite 575\nMartinezview, MH 62695",
+        "Description": "It single act trouble line. Idea participant performance action tell despite conference.\nSave note able eye. Those operation end cover. Interest anything kid meeting whatever guess wall yourself."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47670
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3112
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49675
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7902
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4503
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 149621,
+        "TotalApproved": 93960
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Wright",
+        "ContactInformation": {
+            "Phone": "(687)813-9267x9097",
+            "Email": "amyjenkins@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4e24c8ea-b00f-4b97-b3b1-fc89a93b5225"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-12T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-17T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-22T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9205bdb3-45c9-47f9-b22f-56fb82686786",
+    "PolicyID": "30d05078-4bc2-4eff-8177-5bb8b142f42c",
+    "EffectiveDates": {
+        "StartDate": "2024-06-22",
+        "EndDate": "2025-06-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d5f13af1-3f0b-49b6-b1db-6965ef8dc4ca",
+        "Name": "Ashley Burke",
+        "PolicyNumber": "30d05078-4bc2-4eff-8177-5bb8b142f42c",
+        "ContactInformation": {
+            "Phone": "451.631.4842x12144",
+            "Email": "jonesmegan@example.net",
+            "Address": "542 Cynthia Parkway\nPort Nina, WY 61497"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-01",
+        "Location": "844 Edward Groves Suite 114\nAndrefort, OH 02510",
+        "Description": "Myself area remain. Enter hot form kid word. Physical say of well see foot management."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16079
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4632
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 90147
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5130
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 51426
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 147268,
+        "TotalApproved": 37648
+    },
+    "AdjusterDetails": {
+        "Name": "Michele Becker",
+        "ContactInformation": {
+            "Phone": "212.371.6860x8895",
+            "Email": "floresjacqueline@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/959d7e47-ef27-4c98-8e54-78c2d236a8b9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-01T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-06T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-11T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

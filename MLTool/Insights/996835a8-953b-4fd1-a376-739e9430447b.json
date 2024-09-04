@@ -1,0 +1,81 @@
+{
+    "ClaimID": "996835a8-953b-4fd1-a376-739e9430447b",
+    "PolicyID": "a3f99633-f79e-401e-924b-d18e6b733cc2",
+    "EffectiveDates": {
+        "StartDate": "2024-01-20",
+        "EndDate": "2025-01-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "431770ec-a6b7-4d52-8fa8-0dc87cf23133",
+        "Name": "Ann Ramsey",
+        "PolicyNumber": "a3f99633-f79e-401e-924b-d18e6b733cc2",
+        "ContactInformation": {
+            "Phone": "423.434.3056",
+            "Email": "kleinjesse@example.com",
+            "Address": "5827 Dorothy Spring\nLaneville, CA 54688"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-18",
+        "Location": "USS Burgess\nFPO AA 29502",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 72057
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44237
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8406
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18149
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12039
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 154888,
+        "TotalApproved": 40631
+    },
+    "AdjusterDetails": {
+        "Name": "Jo Newman",
+        "ContactInformation": {
+            "Phone": "+1-865-707-7214x254",
+            "Email": "karenadams@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/533e1fac-0f5c-4f4d-a9ff-759a5817e5ff"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-18T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-23T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-28T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

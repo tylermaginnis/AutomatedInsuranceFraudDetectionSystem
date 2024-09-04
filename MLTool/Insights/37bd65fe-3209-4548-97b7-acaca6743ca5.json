@@ -1,0 +1,81 @@
+{
+    "ClaimID": "37bd65fe-3209-4548-97b7-acaca6743ca5",
+    "PolicyID": "c20b93ba-d986-4fc0-a50b-25f14905fbff",
+    "EffectiveDates": {
+        "StartDate": "2024-08-23",
+        "EndDate": "2025-08-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "606f1373-cfc7-43c1-99ae-0992df3d3a4b",
+        "Name": "Sarah Fleming",
+        "PolicyNumber": "c20b93ba-d986-4fc0-a50b-25f14905fbff",
+        "ContactInformation": {
+            "Phone": "701.760.1746x45587",
+            "Email": "bradley04@example.org",
+            "Address": "8192 Pacheco Cliff\nJosephport, GU 46397"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-23",
+        "Location": "587 Wallace Center\nLake Kelliton, DC 32716",
+        "Description": "Else security huge letter decide. Floor west east risk. Theory catch what.\nAttack company style here. Have specific thus surface draw.\nCare run ability plan case use be. Require reason student heart."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15102
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2839
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17836
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3963
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 87806
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 37403,
+        "TotalApproved": 23992
+    },
+    "AdjusterDetails": {
+        "Name": "Douglas Carter",
+        "ContactInformation": {
+            "Phone": "790.471.7309x722",
+            "Email": "lance60@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6e4e9a79-072f-4680-8ee5-64e88ddce7bc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

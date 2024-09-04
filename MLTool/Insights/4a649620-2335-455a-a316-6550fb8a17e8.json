@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4a649620-2335-455a-a316-6550fb8a17e8",
+    "PolicyID": "ca132daa-e4fd-4ce2-8a64-6575103f46ea",
+    "EffectiveDates": {
+        "StartDate": "2024-04-20",
+        "EndDate": "2025-04-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0b7eff3f-c5a9-40a7-a362-c8c100315aad",
+        "Name": "Robert Clark",
+        "PolicyNumber": "ca132daa-e4fd-4ce2-8a64-6575103f46ea",
+        "ContactInformation": {
+            "Phone": "001-533-582-5831x39042",
+            "Email": "jhernandez@example.com",
+            "Address": "47657 Trujillo Green Suite 315\nPort Carolynmouth, NH 30849"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-30",
+        "Location": "730 Ballard Mountains\nGatesfort, KY 53823",
+        "Description": "Tend store decision billion black report serve. Recognize suffer certain. End at debate while interesting whose your."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1428
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 183243
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 48576
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20339
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45755
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 82114,
+        "TotalApproved": 81722
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Bowen",
+        "ContactInformation": {
+            "Phone": "775-687-0298",
+            "Email": "gbaker@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2d736641-3ace-4e77-9b7a-45e220f7d15f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

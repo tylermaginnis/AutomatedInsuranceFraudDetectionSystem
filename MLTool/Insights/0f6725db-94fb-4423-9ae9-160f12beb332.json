@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0f6725db-94fb-4423-9ae9-160f12beb332",
+    "PolicyID": "f58b0fc9-da64-4d82-87c5-74a6a52f9847",
+    "EffectiveDates": {
+        "StartDate": "2024-01-03",
+        "EndDate": "2025-01-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "92817b29-cbd8-4689-a136-8e74e36cc5ad",
+        "Name": "Jeffery Webb",
+        "PolicyNumber": "f58b0fc9-da64-4d82-87c5-74a6a52f9847",
+        "ContactInformation": {
+            "Phone": "513.730.1526x873",
+            "Email": "todd27@example.net",
+            "Address": "63021 Steve Field Suite 489\nEast James, MI 47083"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-08",
+        "Location": "617 Michelle Station Suite 510\nLake Jerry, MO 19576",
+        "Description": "Fish feel himself professor. Drive everyone cup long.\nArm west who hospital involve me really. History since party green course. Force if others exactly century during."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 181222
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8151
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6610
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11993
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18785
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 176360,
+        "TotalApproved": 91335
+    },
+    "AdjusterDetails": {
+        "Name": "Linda Harper",
+        "ContactInformation": {
+            "Phone": "+1-857-811-6259x3043",
+            "Email": "smithpatrick@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ac4cd144-32c8-4d94-a1ab-249ceb76db98"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

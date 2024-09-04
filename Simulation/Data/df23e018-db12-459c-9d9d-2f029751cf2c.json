@@ -1,0 +1,80 @@
+{
+  "ClaimID": "df23e018-db12-459c-9d9d-2f029751cf2c",
+  "PolicyID": "585d8268-2f57-48c8-823f-5de77384479c",
+  "EffectiveDates": {
+    "StartDate": "2024-01-21",
+    "EndDate": "2025-01-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9d88f30f-d763-46e2-adc7-0139b5b09e72",
+    "Name": "Crystal Taylor",
+    "PolicyNumber": "585d8268-2f57-48c8-823f-5de77384479c",
+    "ContactInformation": {
+      "Phone": "829.922.9820x602",
+      "Email": "michael47@example.com",
+      "Address": "Unit 1025 Box 7255\nDPO AE 05668"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-05",
+    "Location": "1767 Clark Ranch\nBrianview, MA 88711",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 87207
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 31503
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7965
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 18386
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 15876
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 160937,
+    "TotalApproved": 156920
+  },
+  "AdjusterDetails": {
+    "Name": "Joshua Robinson",
+    "ContactInformation": {
+      "Phone": "001-344-764-7448x93962",
+      "Email": "ethan14@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/0cf42c78-008d-495d-8746-ed01b0dd651a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-05T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-10T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-15T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

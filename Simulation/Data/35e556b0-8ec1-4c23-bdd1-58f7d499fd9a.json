@@ -1,0 +1,80 @@
+{
+  "ClaimID": "35e556b0-8ec1-4c23-bdd1-58f7d499fd9a",
+  "PolicyID": "26cb08cb-901f-40a6-878b-84f2412ff184",
+  "EffectiveDates": {
+    "StartDate": "2024-02-24",
+    "EndDate": "2025-02-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "57ede5fa-1bd5-474f-b6f6-ddf783087522",
+    "Name": "Stephen Owen",
+    "PolicyNumber": "26cb08cb-901f-40a6-878b-84f2412ff184",
+    "ContactInformation": {
+      "Phone": "775.586.3725",
+      "Email": "robertreyes@example.net",
+      "Address": "25824 James Meadows Apt. 944\nTerrifurt, VA 73170"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-20",
+    "Location": "7891 Kim Rapids\nRussofurt, HI 29636",
+    "Description": "Whose green doctor. Early foot simply education surface story. Hope carry management seven.\nProduction paper increase both the. Expert price even."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 16052
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 15382
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 68994
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 45187
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 35463
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 160661,
+    "TotalApproved": 142283
+  },
+  "AdjusterDetails": {
+    "Name": "Brandon Terrell",
+    "ContactInformation": {
+      "Phone": "(272)470-0630",
+      "Email": "kenneth97@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/e3169698-73c4-4cb8-8cbf-652bfdc2c3da"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-20T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-25T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-30T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

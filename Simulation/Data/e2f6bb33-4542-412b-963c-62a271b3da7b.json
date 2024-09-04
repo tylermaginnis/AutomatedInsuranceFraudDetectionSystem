@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e2f6bb33-4542-412b-963c-62a271b3da7b",
+  "PolicyID": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+  "EffectiveDates": {
+    "StartDate": "2024-05-01",
+    "EndDate": "2025-05-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e5105667-3211-446f-9c3d-593050b81d43",
+    "Name": "Julie Porter",
+    "PolicyNumber": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+    "ContactInformation": {
+      "Phone": "001-222-366-0081",
+      "Email": "cameronbailey@example.org",
+      "Address": "288 Maddox Center Apt. 437\nPort Loganton, WY 10809"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-18",
+    "Location": "868 Moore Brook Apt. 940\nCarrshire, AS 19133",
+    "Description": "Always let along wait space near. Later capital season over.\nSix call choice maintain attention start. Remain kid push future dog buy half. Act strong care case."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5482
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5309
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 25133
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 113636
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6680
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 70495,
+    "TotalApproved": 66221
+  },
+  "AdjusterDetails": {
+    "Name": "Betty Foster",
+    "ContactInformation": {
+      "Phone": "818.964.3749x9952",
+      "Email": "nelsonlauren@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/dfc007c6-4b6e-401d-b823-c8958d047026"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-18T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-23T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-28T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

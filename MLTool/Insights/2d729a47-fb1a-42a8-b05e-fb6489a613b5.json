@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2d729a47-fb1a-42a8-b05e-fb6489a613b5",
+    "PolicyID": "e18b3a56-adee-47c3-8574-405fe06e82a9",
+    "EffectiveDates": {
+        "StartDate": "2024-07-13",
+        "EndDate": "2025-07-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d556f8de-5bc6-43b1-90d3-7a68a79b02eb",
+        "Name": "Brian Wright",
+        "PolicyNumber": "e18b3a56-adee-47c3-8574-405fe06e82a9",
+        "ContactInformation": {
+            "Phone": "597-857-0351x09284",
+            "Email": "meredith98@example.org",
+            "Address": "7432 Edwards Trace Apt. 128\nWalkerborough, KY 21846"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-31",
+        "Location": "18747 Deborah Stream\nHawkinsview, WA 19692",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 67580
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32681
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8947
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17069
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10334
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 136611,
+        "TotalApproved": 70230
+    },
+    "AdjusterDetails": {
+        "Name": "Jeremy Murphy",
+        "ContactInformation": {
+            "Phone": "001-608-785-0439",
+            "Email": "joshua22@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/135e8b91-6538-4a08-8af0-c8a591e4601b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-31T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-05T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-10T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7d60bc6e-0f0f-43ef-b06c-4f2cf507310a",
+    "PolicyID": "45bf83f0-743d-449c-ad3e-d5ad18d1166c",
+    "EffectiveDates": {
+        "StartDate": "2024-01-04",
+        "EndDate": "2025-01-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "89128c63-a580-4e62-9c52-03856db57411",
+        "Name": "Brian Dorsey",
+        "PolicyNumber": "45bf83f0-743d-449c-ad3e-d5ad18d1166c",
+        "ContactInformation": {
+            "Phone": "(607)588-1073x49701",
+            "Email": "michael48@example.net",
+            "Address": "314 Dana Park Apt. 576\nNew Lisa, IL 59407"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-06",
+        "Location": "1884 Jones Burg\nBrandonbury, MO 06066",
+        "Description": "What pretty doctor mind. Range century nature concern. Trip Mrs concern wish ahead.\nUp family whose color important evening rock. Father mention describe close wish charge yet successful."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6911
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 107007
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 52797
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5533
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6457
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 10194,
+        "TotalApproved": 6636
+    },
+    "AdjusterDetails": {
+        "Name": "James Williams",
+        "ContactInformation": {
+            "Phone": "(657)477-5299",
+            "Email": "brownderek@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6397932c-4f12-4bc8-b7eb-ae4a7ddf61d9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-06T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-11T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-16T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

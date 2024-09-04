@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fc8e0378-e2d2-4c67-ac49-33a1c81b882d",
+    "PolicyID": "c0262886-a3cb-44ea-9925-51abea716bbf",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "04ce3703-ecfb-4217-b50b-2a25b4503dca",
+        "Name": "Russell Phillips",
+        "PolicyNumber": "c0262886-a3cb-44ea-9925-51abea716bbf",
+        "ContactInformation": {
+            "Phone": "229.239.6416x095",
+            "Email": "nicholeboyle@example.net",
+            "Address": "0586 Sarah Crossroad\nWest Kathrynton, MN 01204"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-13",
+        "Location": "81604 Smith Skyway\nLake Emily, WV 29541",
+        "Description": "Side past who evidence available important. Almost high however key create. Let process will sing place. When hold term theory executive former be."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 76426
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5434
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7645
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50973
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28072
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 180188,
+        "TotalApproved": 127171
+    },
+    "AdjusterDetails": {
+        "Name": "Kevin Williams",
+        "ContactInformation": {
+            "Phone": "(928)986-1993",
+            "Email": "bjohnson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/ae8965b1-ea92-463b-b0cd-067cd41b3bbb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-13T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-18T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-23T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

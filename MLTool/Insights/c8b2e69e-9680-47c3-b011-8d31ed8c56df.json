@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c8b2e69e-9680-47c3-b011-8d31ed8c56df",
+    "PolicyID": "5cfd19c3-9754-4e2f-8186-768797914757",
+    "EffectiveDates": {
+        "StartDate": "2024-02-08",
+        "EndDate": "2025-02-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fafbc1b5-7f22-4d99-90a5-105805deba6c",
+        "Name": "Benjamin White",
+        "PolicyNumber": "5cfd19c3-9754-4e2f-8186-768797914757",
+        "ContactInformation": {
+            "Phone": "001-969-818-8215x35768",
+            "Email": "williamfreeman@example.com",
+            "Address": "96761 Sydney Square Suite 620\nLake Jennifer, MO 76509"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-14",
+        "Location": "949 Miller Harbor\nHuangton, ME 33987",
+        "Description": "Foreign local kid. Bill PM west bar. Debate whatever bed oil not offer.\nTeacher unit third bad pressure international line. State economy use help."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2560
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 70860
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 28628
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 45311
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 54710
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 168804,
+        "TotalApproved": 150482
+    },
+    "AdjusterDetails": {
+        "Name": "Theresa Lawrence",
+        "ContactInformation": {
+            "Phone": "001-281-548-7083x7250",
+            "Email": "millerpatricia@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/6e61f93e-5b20-4155-bb89-002c43b7c5a5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-14T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-19T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-24T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

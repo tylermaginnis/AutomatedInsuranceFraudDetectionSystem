@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a4278f96-42c2-47ad-83ce-7047d17a6c71",
+    "PolicyID": "2b812027-bcf8-4ec0-98d6-a775fa7d3844",
+    "EffectiveDates": {
+        "StartDate": "2023-09-26",
+        "EndDate": "2024-09-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b4d6c12e-e8c8-49ab-8c09-c7ee2441f6da",
+        "Name": "Cody Ferguson",
+        "PolicyNumber": "2b812027-bcf8-4ec0-98d6-a775fa7d3844",
+        "ContactInformation": {
+            "Phone": "001-969-808-2791x39604",
+            "Email": "johnnyatkins@example.com",
+            "Address": "81839 Moran Points Suite 926\nRodriguezmouth, AS 10510"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-21",
+        "Location": "002 Garcia Walk\nWest Kenneth, MH 22878",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 69694
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34442
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5889
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23849
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12750
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 146624,
+        "TotalApproved": 72988
+    },
+    "AdjusterDetails": {
+        "Name": "Terry Snow",
+        "ContactInformation": {
+            "Phone": "514-917-0372",
+            "Email": "michael91@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/70435627-b9de-41c4-a78d-4f8c9fe7676e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-21T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-26T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-01T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

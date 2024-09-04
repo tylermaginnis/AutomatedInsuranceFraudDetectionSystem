@@ -1,0 +1,81 @@
+{
+    "ClaimID": "41fa3eaf-322d-4e34-ac19-919734baa907",
+    "PolicyID": "bb7f206b-49ba-4432-83b5-1274655fa565",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "104569f9-f5de-4517-a08e-c0ba45815c74",
+        "Name": "Brian Sanders",
+        "PolicyNumber": "bb7f206b-49ba-4432-83b5-1274655fa565",
+        "ContactInformation": {
+            "Phone": "001-339-814-9218x703",
+            "Email": "wendyduke@example.org",
+            "Address": "15118 Brett Cape\nNewtonland, VT 37620"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-23",
+        "Location": "79631 Charles Gardens Suite 062\nWest Virginia, IN 32649",
+        "Description": "Once process professional think interesting.\nDeep hair phone talk be mean marriage. I provide to. Again hear education season scientist technology."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1134
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9886
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15667
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1887
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3501
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 171620,
+        "TotalApproved": 165384
+    },
+    "AdjusterDetails": {
+        "Name": "Richard Werner",
+        "ContactInformation": {
+            "Phone": "442-456-1321x356",
+            "Email": "donald68@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0aad41ea-90b7-4a62-85d5-65e5c1ba6d18"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-02T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

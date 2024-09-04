@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e4f42ad7-8ac6-4e30-976f-4a82a4f0435b",
+    "PolicyID": "83682cfd-a12a-438d-9285-cdf0e063f49b",
+    "EffectiveDates": {
+        "StartDate": "2024-07-20",
+        "EndDate": "2025-07-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1c4b8804-f733-4c47-8c4f-8acb91ccc03e",
+        "Name": "Blake Kelley",
+        "PolicyNumber": "83682cfd-a12a-438d-9285-cdf0e063f49b",
+        "ContactInformation": {
+            "Phone": "(358)209-7560",
+            "Email": "lscott@example.com",
+            "Address": "88197 Obrien Bypass\nLake Joelview, NV 20636"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-25",
+        "Location": "34048 Rachel Hollow\nVickiberg, DE 91177",
+        "Description": "Offer we father drive worker catch old sound. Man president senior fire now special policy. Boy just clear."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35203
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23466
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17374
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15469
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6704
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 48231,
+        "TotalApproved": 16307
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Jason Alvarado",
+        "ContactInformation": {
+            "Phone": "787-570-8422x7636",
+            "Email": "anita11@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/9fdb9678-2742-4cf8-bcf8-a3868c6ef710"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-30T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

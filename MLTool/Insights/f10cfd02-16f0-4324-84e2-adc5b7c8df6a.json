@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f10cfd02-16f0-4324-84e2-adc5b7c8df6a",
+    "PolicyID": "05159ca8-a81c-491e-9968-c3859ecc6317",
+    "EffectiveDates": {
+        "StartDate": "2023-12-17",
+        "EndDate": "2024-12-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "11176056-cc0a-40ea-b43a-664694453cc7",
+        "Name": "Stephanie Bishop MD",
+        "PolicyNumber": "05159ca8-a81c-491e-9968-c3859ecc6317",
+        "ContactInformation": {
+            "Phone": "001-947-373-4575",
+            "Email": "jonesemily@example.com",
+            "Address": "4733 Amanda Pine\nJeffreyland, DE 82920"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-29",
+        "Location": "02643 Leach Lakes\nKyleville, VA 98291",
+        "Description": "Statement probably important. Clear simple develop.\nCompare what wide future area. Industry lot capital million recognize.\nWear traditional talk either try worry increase."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3945
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14840
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13004
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15906
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9501
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 75817,
+        "TotalApproved": 60861
+    },
+    "AdjusterDetails": {
+        "Name": "Steven Tucker MD",
+        "ContactInformation": {
+            "Phone": "776.720.3835x6314",
+            "Email": "cheyennehoffman@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e04d56f7-b089-4973-9e60-11db1f1bc476"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-29T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-04T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-09T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

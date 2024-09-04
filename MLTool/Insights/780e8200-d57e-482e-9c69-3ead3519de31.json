@@ -1,0 +1,81 @@
+{
+    "ClaimID": "780e8200-d57e-482e-9c69-3ead3519de31",
+    "PolicyID": "c80bd82d-b4a8-48ca-b899-59a67713bffb",
+    "EffectiveDates": {
+        "StartDate": "2024-08-20",
+        "EndDate": "2025-08-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "24a819dc-ad70-4b4e-9893-28f302eb335b",
+        "Name": "Thomas Williams",
+        "PolicyNumber": "c80bd82d-b4a8-48ca-b899-59a67713bffb",
+        "ContactInformation": {
+            "Phone": "(409)737-5090x2196",
+            "Email": "higginsmichael@example.com",
+            "Address": "176 Bethany Bridge Apt. 677\nSuttonview, NJ 18801"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-09",
+        "Location": "7735 Hamilton Extension\nLake Madisonfort, NV 95524",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 50681
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28057
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9787
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18283
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16609
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 123417,
+        "TotalApproved": 110145
+    },
+    "AdjusterDetails": {
+        "Name": "Dawn Lamb",
+        "ContactInformation": {
+            "Phone": "936.977.0288",
+            "Email": "zgutierrez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/99357115-d088-473f-bf34-8be42fc02cb2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-09T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-14T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-19T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

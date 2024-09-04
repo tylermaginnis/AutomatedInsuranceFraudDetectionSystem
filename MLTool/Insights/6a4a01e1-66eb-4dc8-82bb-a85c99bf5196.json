@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6a4a01e1-66eb-4dc8-82bb-a85c99bf5196",
+    "PolicyID": "5da9d479-0aa7-4c6d-8a33-a1e1631e0e36",
+    "EffectiveDates": {
+        "StartDate": "2024-06-10",
+        "EndDate": "2025-06-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4cb72922-864d-4fd1-bed1-6a31b116f95e",
+        "Name": "Kristie Ellis",
+        "PolicyNumber": "5da9d479-0aa7-4c6d-8a33-a1e1631e0e36",
+        "ContactInformation": {
+            "Phone": "001-494-219-4177x6900",
+            "Email": "pbell@example.org",
+            "Address": "831 Alexander Fall\nArieltown, WI 10294"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-29",
+        "Location": "543 Benjamin Creek\nNorth Laura, NY 67150",
+        "Description": "Two support you ever within. Nature find table call strong.\nVery turn worry talk what. Live candidate concern create recent. What mother issue industry such."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5252
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6058
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 56199
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40052
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 185078
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 81907,
+        "TotalApproved": 4113
+    },
+    "AdjusterDetails": {
+        "Name": "Alejandro Stevens",
+        "ContactInformation": {
+            "Phone": "001-651-863-6761x600",
+            "Email": "patrickmiller@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f190bab6-4fb2-44d8-b687-5d6a386e9dbd"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-29T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

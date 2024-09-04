@@ -1,0 +1,81 @@
+{
+    "ClaimID": "077de62c-1421-4ce5-a539-2e678b915590",
+    "PolicyID": "f723c61e-87fb-4a13-a027-499397a0f478",
+    "EffectiveDates": {
+        "StartDate": "2023-12-05",
+        "EndDate": "2024-12-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b64b039b-8ca3-42eb-a85b-aae29d215f96",
+        "Name": "Amanda Murray",
+        "PolicyNumber": "f723c61e-87fb-4a13-a027-499397a0f478",
+        "ContactInformation": {
+            "Phone": "517-702-1092",
+            "Email": "jeffery70@example.net",
+            "Address": "140 Kenneth Lane Suite 312\nNormanville, TX 93698"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-20",
+        "Location": "11253 Amy Lake\nWest James, UT 62180",
+        "Description": "Process life around office.\nGet run region. Eat catch might area maintain. When task police Democrat tonight there."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10628
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4436
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 97678
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2388
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 74207
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 176115,
+        "TotalApproved": 71445
+    },
+    "AdjusterDetails": {
+        "Name": "Maria Kelly",
+        "ContactInformation": {
+            "Phone": "+1-410-979-6193x4292",
+            "Email": "juliehester@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/131c8a56-e881-403d-a842-437a93751dd5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "41f2e4f0-ddaf-443c-bf73-a7d87ed0cc7f",
+    "PolicyID": "de4d6b65-5267-456f-a58c-e145effc9185",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f5501545-bf0d-4e91-be6e-531510d01b33",
+        "Name": "Tina Simon",
+        "PolicyNumber": "de4d6b65-5267-456f-a58c-e145effc9185",
+        "ContactInformation": {
+            "Phone": "+1-208-615-6234",
+            "Email": "qsanchez@example.org",
+            "Address": "151 Kristine Pines\nWest Alecview, NM 05050"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-27",
+        "Location": "991 Jones Fords\nNicolestad, AZ 79912",
+        "Description": "Season father ready medical company painting partner. Behind learn travel fast star discussion determine. Purpose nor level population century yet business."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 91768
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 102920
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10893
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 85170
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24904
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 162793,
+        "TotalApproved": 116088
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Rodriguez DVM",
+        "ContactInformation": {
+            "Phone": "(891)652-0278",
+            "Email": "mcleanbrenda@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/040fc2c3-7816-46fa-8f2c-958815316ed1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-27T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-01T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-06T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "59f5f864-cca3-40df-a745-0b7e59eac3dd",
+    "PolicyID": "b998622e-ef9c-495c-ba35-44c7506ccdeb",
+    "EffectiveDates": {
+        "StartDate": "2024-01-08",
+        "EndDate": "2025-01-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0f3e60df-bc2b-49d5-81e8-01b05e4c324c",
+        "Name": "Andrew Dickerson",
+        "PolicyNumber": "b998622e-ef9c-495c-ba35-44c7506ccdeb",
+        "ContactInformation": {
+            "Phone": "359-771-4235",
+            "Email": "ebutler@example.net",
+            "Address": "Unit 0318 Box 2724\nDPO AP 86253"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-25",
+        "Location": "64235 Parker Crescent Suite 009\nJeannehaven, NY 45804",
+        "Description": "Condition computer game up return bring child.\nAlong song also father before operation. Large letter same teach job. West there TV always. Morning must executive."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2374
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 45810
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 77723
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 141876
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 59032
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 81186,
+        "TotalApproved": 73447
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Lee",
+        "ContactInformation": {
+            "Phone": "6319733850",
+            "Email": "thomaswillie@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/db30637e-0a9e-480e-8b94-484315a5a8c7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-30T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-05T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

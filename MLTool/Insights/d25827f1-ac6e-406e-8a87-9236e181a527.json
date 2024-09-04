@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d25827f1-ac6e-406e-8a87-9236e181a527",
+    "PolicyID": "70555650-30d2-49f4-90ee-953d1c7065c0",
+    "EffectiveDates": {
+        "StartDate": "2024-01-19",
+        "EndDate": "2025-01-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dde0ca2d-7ce1-47ae-89cc-a3002ac64aa2",
+        "Name": "Franklin Russo",
+        "PolicyNumber": "70555650-30d2-49f4-90ee-953d1c7065c0",
+        "ContactInformation": {
+            "Phone": "+1-498-279-4461",
+            "Email": "pmurray@example.net",
+            "Address": "2457 Harper Circles\nSherriberg, ND 59396"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-15",
+        "Location": "4340 Melton Stravenue Apt. 258\nEast Maria, MA 52908",
+        "Description": "Old really art whether art. Attention PM sing hotel game. Bank read management various find.\nTrip prove evening wall system author. Market find fly risk hot choose center performance."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 90334
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 131691
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33633
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1893
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 61500
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 107575,
+        "TotalApproved": 36470
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Blanchard",
+        "ContactInformation": {
+            "Phone": "655.442.6545x78030",
+            "Email": "wallaceronald@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5dc8033b-7e2a-405d-9216-1173f22b95b8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-15T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-20T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-25T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

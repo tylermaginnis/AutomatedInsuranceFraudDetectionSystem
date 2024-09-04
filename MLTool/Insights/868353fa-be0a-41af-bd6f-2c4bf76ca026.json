@@ -1,0 +1,81 @@
+{
+    "ClaimID": "868353fa-be0a-41af-bd6f-2c4bf76ca026",
+    "PolicyID": "381f465c-9978-4701-b4bb-3195a406b5a2",
+    "EffectiveDates": {
+        "StartDate": "2024-04-17",
+        "EndDate": "2025-04-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a6058f80-e768-4451-bdf6-ed090154e9a1",
+        "Name": "Scott Tate",
+        "PolicyNumber": "381f465c-9978-4701-b4bb-3195a406b5a2",
+        "ContactInformation": {
+            "Phone": "959-872-3377",
+            "Email": "hross@example.org",
+            "Address": "03481 Peters Crescent Apt. 003\nNorth Bonnietown, OH 14373"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-10",
+        "Location": "08615 Veronica Stravenue Suite 782\nLake Dawnshire, NH 00544",
+        "Description": "High ten structure loss. Stage necessary show wonder their. Hit response other. Work more hour morning PM floor seven where.\nTough occur apply right radio send. Poor media investment how although."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12699
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2676
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 45060
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 22600
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 91974
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 111654,
+        "TotalApproved": 63570
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Nelson",
+        "ContactInformation": {
+            "Phone": "001-868-753-9645x62249",
+            "Email": "john94@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f6c1201d-f257-4dcf-8a8b-8e86a1338102"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-10T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-15T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-20T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

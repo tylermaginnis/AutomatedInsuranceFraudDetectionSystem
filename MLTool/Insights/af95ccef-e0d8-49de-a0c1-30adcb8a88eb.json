@@ -1,0 +1,81 @@
+{
+    "ClaimID": "af95ccef-e0d8-49de-a0c1-30adcb8a88eb",
+    "PolicyID": "8b737ac0-0b90-4bd6-90a3-1964266e30a3",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1445acc9-65d7-4e19-9b9e-623bcaea81b5",
+        "Name": "Patricia Williams",
+        "PolicyNumber": "8b737ac0-0b90-4bd6-90a3-1964266e30a3",
+        "ContactInformation": {
+            "Phone": "(802)553-2420",
+            "Email": "dmiller@example.com",
+            "Address": "0145 Brandon Ranch Apt. 226\nSouth Melissa, MP 23165"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-13",
+        "Location": "623 Rios Turnpike\nLake Miranda, AL 13454",
+        "Description": "Source industry difficult church card. Those finish leader foreign.\nDuring himself light knowledge. Window stand Mr board.\nRule throw left through value. Cup wide prevent."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6508
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 28058
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 47189
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9989
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1088
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 164126,
+        "TotalApproved": 160525
+    },
+    "AdjusterDetails": {
+        "Name": "Tonya Christian",
+        "ContactInformation": {
+            "Phone": "001-729-984-6109x404",
+            "Email": "qmiller@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9c0b880f-2b3e-4ec7-9f83-532260c87d61"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-13T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-18T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-23T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

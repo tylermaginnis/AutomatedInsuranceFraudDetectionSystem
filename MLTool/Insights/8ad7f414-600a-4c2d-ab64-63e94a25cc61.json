@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8ad7f414-600a-4c2d-ab64-63e94a25cc61",
+    "PolicyID": "5e48df1c-75fe-47b1-8162-91ef9c758bad",
+    "EffectiveDates": {
+        "StartDate": "2023-12-23",
+        "EndDate": "2024-12-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dddd7238-dce7-490f-9da8-091f4e40231d",
+        "Name": "Tyler Meyer",
+        "PolicyNumber": "5e48df1c-75fe-47b1-8162-91ef9c758bad",
+        "ContactInformation": {
+            "Phone": "001-428-603-6962x4684",
+            "Email": "ywilliams@example.com",
+            "Address": "72401 Destiny Fork Apt. 793\nNew Jacob, MI 97380"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-27",
+        "Location": "2890 Dana Island Suite 840\nNorth Nathan, IN 55885",
+        "Description": "Major institution discuss six.\nDirector pick easy would.\nSituation ability act even special. System member age policy back list difference."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4385
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10905
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4204
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34231
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7390
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 2592,
+        "TotalApproved": 1061
+    },
+    "AdjusterDetails": {
+        "Name": "Logan Mendez",
+        "ContactInformation": {
+            "Phone": "368-714-4066",
+            "Email": "xhardin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f55b0d01-983f-417e-95cf-44e78ba295e5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-27T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-01T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-06T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

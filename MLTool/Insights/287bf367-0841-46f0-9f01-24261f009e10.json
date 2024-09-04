@@ -1,0 +1,81 @@
+{
+    "ClaimID": "287bf367-0841-46f0-9f01-24261f009e10",
+    "PolicyID": "010473eb-076a-4ef1-8251-c8e708dc29a7",
+    "EffectiveDates": {
+        "StartDate": "2024-03-02",
+        "EndDate": "2025-03-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0699a4af-d802-41bd-b6fb-977129ac8432",
+        "Name": "Charles Ross",
+        "PolicyNumber": "010473eb-076a-4ef1-8251-c8e708dc29a7",
+        "ContactInformation": {
+            "Phone": "445-231-6733",
+            "Email": "jessicawerner@example.com",
+            "Address": "PSC 9128, Box 5264\nAPO AP 92574"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-31",
+        "Location": "706 Nicole Garden Suite 908\nWest Lori, LA 72451",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62837
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29381
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6774
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10607
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17414
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 127013,
+        "TotalApproved": 79970
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Rosales",
+        "ContactInformation": {
+            "Phone": "7002500848",
+            "Email": "dhicks@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8cbd2b1f-13f3-45d5-a876-6d51eb3c9027"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-31T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-05T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-10T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

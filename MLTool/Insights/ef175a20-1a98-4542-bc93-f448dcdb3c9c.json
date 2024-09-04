@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ef175a20-1a98-4542-bc93-f448dcdb3c9c",
+    "PolicyID": "22b1e8b6-4ce6-4682-b7cc-61c44e9ce28c",
+    "EffectiveDates": {
+        "StartDate": "2023-11-23",
+        "EndDate": "2024-11-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "88be34bb-14a0-46d7-bd28-41aac103f3dd",
+        "Name": "Kristina Reed",
+        "PolicyNumber": "22b1e8b6-4ce6-4682-b7cc-61c44e9ce28c",
+        "ContactInformation": {
+            "Phone": "696-850-3112x07081",
+            "Email": "reillymichael@example.net",
+            "Address": "434 Ricardo Burgs Apt. 761\nNew Hectorborough, MD 49262"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-22",
+        "Location": "80025 Joshua Plaza Apt. 283\nEdwardsside, NM 76633",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 92351
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28025
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6331
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23221
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12272
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 162200,
+        "TotalApproved": 66677
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Collins",
+        "ContactInformation": {
+            "Phone": "442.903.1999",
+            "Email": "natalierivera@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/172c5481-c10b-46e3-94eb-056a64001084"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-22T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-27T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-01T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

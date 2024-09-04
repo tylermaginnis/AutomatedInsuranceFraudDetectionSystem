@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f78cd8c6-c34c-488c-b4ec-2ec94678627c",
+    "PolicyID": "86441c65-293c-413b-a6aa-fd74a3ed0f2a",
+    "EffectiveDates": {
+        "StartDate": "2023-09-23",
+        "EndDate": "2024-09-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f04033ca-e01c-4321-b956-2d8e1667dc44",
+        "Name": "Tina Perez",
+        "PolicyNumber": "86441c65-293c-413b-a6aa-fd74a3ed0f2a",
+        "ContactInformation": {
+            "Phone": "712.432.2879",
+            "Email": "mhenry@example.com",
+            "Address": "369 Brendan Island\nGabrielleshire, MH 10591"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-04",
+        "Location": "56698 Schneider Mountain Suite 831\nEdwardshire, UT 30345",
+        "Description": "Method direction become once yes program black. Fine model down traditional whom. Produce hope add most network how purpose.\nIncluding laugh foreign shake read. Ask thank city nation."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19620
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 95053
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43818
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15857
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9813
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 55312,
+        "TotalApproved": 11787
+    },
+    "AdjusterDetails": {
+        "Name": "Rebecca Hernandez",
+        "ContactInformation": {
+            "Phone": "377-742-6718x63642",
+            "Email": "kimberlypowell@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4a81947a-314c-4a35-83aa-a4f06bac4e34"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-04T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-09T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-14T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

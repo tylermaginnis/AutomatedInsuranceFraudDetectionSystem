@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b3347c10-8652-45f2-8a1c-b86658e1a0ca",
+  "PolicyID": "fb89e40f-3d3b-45b5-8154-b0bfff9e7ac0",
+  "EffectiveDates": {
+    "StartDate": "2024-06-07",
+    "EndDate": "2025-06-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "19522b76-e78f-4acf-9b6a-34780ca0a36f",
+    "Name": "Pamela Carlson",
+    "PolicyNumber": "fb89e40f-3d3b-45b5-8154-b0bfff9e7ac0",
+    "ContactInformation": {
+      "Phone": "+1-202-414-2222",
+      "Email": "efrench@example.org",
+      "Address": "88584 Marissa Squares\nRobinfort, UT 69062"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-06",
+    "Location": "726 Poole Terrace Apt. 224\nSmithside, IN 76189",
+    "Description": "Budget visit decide unit there sort society. Become bit quite pass figure.\nWriter mention trouble season model. Chair could now interview world.\nEffect court anything model case power prepare."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1178
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 195572
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1194
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3768
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 94474
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 31997,
+    "TotalApproved": 8283
+  },
+  "AdjusterDetails": {
+    "Name": "Christopher Gonzalez",
+    "ContactInformation": {
+      "Phone": "(886)408-8081",
+      "Email": "moorechristopher@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/419b1a0d-d1c0-4545-9365-acaf0811f1a7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-06T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-11T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-16T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

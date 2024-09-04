@@ -1,0 +1,80 @@
+{
+  "ClaimID": "92a0386c-95d1-4fc1-944d-5e9de1fe01d4",
+  "PolicyID": "b2336575-f8e8-470e-9f4d-538834cc41c3",
+  "EffectiveDates": {
+    "StartDate": "2023-10-05",
+    "EndDate": "2024-10-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5af63239-4d91-46c2-bdbe-8a25c0b40335",
+    "Name": "Cindy Walker",
+    "PolicyNumber": "b2336575-f8e8-470e-9f4d-538834cc41c3",
+    "ContactInformation": {
+      "Phone": "(994)707-1887",
+      "Email": "garciakimberly@example.com",
+      "Address": "364 Mcdowell Radial Suite 260\nSouth Louistown, RI 36902"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-11",
+    "Location": "504 Michael Court\nHunterbury, AK 85560",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 91124
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 30312
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6490
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 15413
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 11194
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 154533,
+    "TotalApproved": 145518
+  },
+  "AdjusterDetails": {
+    "Name": "Bridget Mccann",
+    "ContactInformation": {
+      "Phone": "(845)979-5263",
+      "Email": "thomas90@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/a481bc72-2cff-4beb-bc70-af6f2faf7a60"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-11T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-16T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-21T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

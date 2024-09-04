@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f0aa60b7-027d-4b80-a96a-483262726779",
+    "PolicyID": "e9c8bd9d-d8bb-4411-8668-3a9ac1f7907a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-18",
+        "EndDate": "2025-03-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6c239fa5-91c1-4ead-a13c-0d3c0e4bbc58",
+        "Name": "Mary Hicks",
+        "PolicyNumber": "e9c8bd9d-d8bb-4411-8668-3a9ac1f7907a",
+        "ContactInformation": {
+            "Phone": "+1-577-327-8595",
+            "Email": "christina91@example.org",
+            "Address": "29805 Cynthia Track\nNorth Jon, NJ 25433"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-15",
+        "Location": "8179 Deborah Ridge Apt. 702\nNew Elizabeth, IL 83079",
+        "Description": "Republican range future apply government. Gas why their clear piece. Because scene fill specific section."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 122673
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5499
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11958
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46732
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 95139
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 159992,
+        "TotalApproved": 139545
+    },
+    "AdjusterDetails": {
+        "Name": "Megan Oliver",
+        "ContactInformation": {
+            "Phone": "001-556-937-3775x3377",
+            "Email": "leeroberta@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8c6787ed-3821-418c-badb-1272659ed452"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

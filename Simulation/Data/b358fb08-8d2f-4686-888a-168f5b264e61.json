@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b358fb08-8d2f-4686-888a-168f5b264e61",
+  "PolicyID": "9bef082b-09a5-43b1-9036-89da14b804bb",
+  "EffectiveDates": {
+    "StartDate": "2024-01-05",
+    "EndDate": "2025-01-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9a0f2153-029d-4968-95a4-0730b179fbdd",
+    "Name": "Natalie Cruz",
+    "PolicyNumber": "9bef082b-09a5-43b1-9036-89da14b804bb",
+    "ContactInformation": {
+      "Phone": "641-785-8041",
+      "Email": "johndavis@example.org",
+      "Address": "11115 Ryan Dam\nSouth Laurie, CO 03197"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-12",
+    "Location": "183 Kristina Radial\nJimmyfort, SC 44607",
+    "Description": "Pretty bring under good media medical ahead. Kid commercial too account hear improve budget rise. Call human available must human modern some."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6760
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6125
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5600
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2412
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5598
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 52891,
+    "TotalApproved": 26137
+  },
+  "AdjusterDetails": {
+    "Name": "Donna Alvarez",
+    "ContactInformation": {
+      "Phone": "+1-607-578-8139x92826",
+      "Email": "leedonna@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/c9f8ea8a-6147-4d25-80c0-18c10496c3fe"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-12T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-17T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-02-22T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

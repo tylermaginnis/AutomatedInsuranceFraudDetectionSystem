@@ -1,0 +1,81 @@
+{
+    "ClaimID": "214c4c04-fb14-4bb5-ab66-eac505517933",
+    "PolicyID": "f37b0d37-e433-4250-9c31-5ddd21263324",
+    "EffectiveDates": {
+        "StartDate": "2023-10-31",
+        "EndDate": "2024-10-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6461033e-b512-4a6e-b369-afa0af2eac00",
+        "Name": "Brianna Morgan",
+        "PolicyNumber": "f37b0d37-e433-4250-9c31-5ddd21263324",
+        "ContactInformation": {
+            "Phone": "+1-729-318-0252x425",
+            "Email": "hharper@example.net",
+            "Address": "08661 Beverly Ridges\nWest Heatherport, WA 64594"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-10",
+        "Location": "8133 Marshall Crossing\nSouth Ashley, IN 28510",
+        "Description": "Represent light night room hold partner we. Customer explain plan various nation tell."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7925
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8219
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 50079
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3599
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9653
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 41332,
+        "TotalApproved": 38181
+    },
+    "AdjusterDetails": {
+        "Name": "Luis Mccullough",
+        "ContactInformation": {
+            "Phone": "402.365.8544x4034",
+            "Email": "villanuevachristina@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/be871678-f048-4b50-b914-cce5c0b174ae"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-10T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-15T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-20T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

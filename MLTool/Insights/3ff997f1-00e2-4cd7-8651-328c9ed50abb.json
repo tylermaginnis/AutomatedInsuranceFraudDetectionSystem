@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3ff997f1-00e2-4cd7-8651-328c9ed50abb",
+    "PolicyID": "a6f1645d-b6e3-453c-9bc0-7530c7501183",
+    "EffectiveDates": {
+        "StartDate": "2024-08-06",
+        "EndDate": "2025-08-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "858a326a-3f4d-4afe-903a-497ae1c9bdbf",
+        "Name": "Antonio Davidson",
+        "PolicyNumber": "a6f1645d-b6e3-453c-9bc0-7530c7501183",
+        "ContactInformation": {
+            "Phone": "001-713-896-6115x45358",
+            "Email": "michelle53@example.com",
+            "Address": "4908 Hill Lake\nNorth Diane, MN 80978"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-23",
+        "Location": "2542 Joyce Flats\nHullfort, GU 06330",
+        "Description": "Message style brother paper lose soldier. Consumer fall plant win brother civil television modern. Quickly minute life local ever interest."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 103900
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15989
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28450
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 99717
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8924
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 91628,
+        "TotalApproved": 63695
+    },
+    "AdjusterDetails": {
+        "Name": "Jordan Wilson",
+        "ContactInformation": {
+            "Phone": "328-969-7327",
+            "Email": "pagepatrick@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c3ce57f5-2aa3-44e0-bd6c-05b4e89eeef3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-03T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

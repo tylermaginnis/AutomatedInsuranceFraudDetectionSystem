@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fb78c98f-edc4-4a40-b2d1-42c290e13e9b",
+    "PolicyID": "17193ff7-f69e-404a-bee7-528433366aa0",
+    "EffectiveDates": {
+        "StartDate": "2023-09-27",
+        "EndDate": "2024-09-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d8cbadbf-67c1-491f-abef-8936d78c86aa",
+        "Name": "Joseph Lopez",
+        "PolicyNumber": "17193ff7-f69e-404a-bee7-528433366aa0",
+        "ContactInformation": {
+            "Phone": "402-703-1661x87188",
+            "Email": "howardtheresa@example.net",
+            "Address": "287 David Mountain Apt. 066\nMatthewside, VT 51356"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-24",
+        "Location": "0573 Christopher Forge\nNorth Elizabeth, IL 06567",
+        "Description": "Environment character shoulder. Forward than clear yourself second involve. Check environment return artist summer customer vote."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 156371
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38451
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 181714
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40880
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 60480
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 62311,
+        "TotalApproved": 12555
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Perry",
+        "ContactInformation": {
+            "Phone": "(721)290-9526x43606",
+            "Email": "ricky76@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e3403386-e70a-426f-84de-8fb08792a766"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-24T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-29T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-03T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

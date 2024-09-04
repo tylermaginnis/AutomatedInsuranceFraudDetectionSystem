@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3e8b2c24-59f4-4c54-8fbe-d4dd04579620",
+    "PolicyID": "fc5be2ac-c7de-4113-8f97-a2490c0d25bc",
+    "EffectiveDates": {
+        "StartDate": "2024-01-30",
+        "EndDate": "2025-01-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "818e7e86-2321-48bc-bbf4-85d4ac05d651",
+        "Name": "Alexander Stevenson",
+        "PolicyNumber": "fc5be2ac-c7de-4113-8f97-a2490c0d25bc",
+        "ContactInformation": {
+            "Phone": "(448)296-5213x4824",
+            "Email": "psanders@example.org",
+            "Address": "740 Hale Turnpike\nLeonmouth, DC 65331"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-14",
+        "Location": "01199 Alyssa Plaza\nLoribury, DC 04225",
+        "Description": "Theory firm arm reduce family rock. None manager practice everything."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19183
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13060
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 142638
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 48381
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2518
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 77273,
+        "TotalApproved": 37589
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Walsh",
+        "ContactInformation": {
+            "Phone": "(203)730-0598",
+            "Email": "laurieallen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/acf98a61-d144-462d-a3da-6ef6a19c0fb0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-14T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-19T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-24T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8ae646c8-857c-4e71-9988-cdc09687f1ef",
+    "PolicyID": "2d3716d9-ebf9-46ee-b097-c3811412fb6b",
+    "EffectiveDates": {
+        "StartDate": "2024-08-04",
+        "EndDate": "2025-08-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d77e77ef-52f4-46ce-a882-4ea4e5def825",
+        "Name": "Kristin Robinson",
+        "PolicyNumber": "2d3716d9-ebf9-46ee-b097-c3811412fb6b",
+        "ContactInformation": {
+            "Phone": "+1-825-811-3711x6218",
+            "Email": "michellephillips@example.com",
+            "Address": "50506 Loretta Tunnel\nNorth Russellburgh, NJ 64140"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-23",
+        "Location": "522 Jeffrey Camp\nWest Stacie, OH 40513",
+        "Description": "Various team race often three better. Poor tell collection wear forget.\nQuite PM environment recent traditional time. Seek value would compare."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6237
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4577
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49978
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39313
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 80660
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 110293,
+        "TotalApproved": 2334
+    },
+    "AdjusterDetails": {
+        "Name": "James Berry",
+        "ContactInformation": {
+            "Phone": "(430)338-6559",
+            "Email": "creid@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9ed64d40-518f-4aa1-8594-e0ded79cb49f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

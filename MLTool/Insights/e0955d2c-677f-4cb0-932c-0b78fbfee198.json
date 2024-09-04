@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e0955d2c-677f-4cb0-932c-0b78fbfee198",
+    "PolicyID": "709c3963-6e1c-494c-80c9-a8f042176fc1",
+    "EffectiveDates": {
+        "StartDate": "2024-02-06",
+        "EndDate": "2025-02-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6022d3e2-a12f-443b-8cf3-f9ad5f453542",
+        "Name": "Sarah Bean",
+        "PolicyNumber": "709c3963-6e1c-494c-80c9-a8f042176fc1",
+        "ContactInformation": {
+            "Phone": "+1-694-659-7936x802",
+            "Email": "karen03@example.com",
+            "Address": "Unit 0381 Box 4141\nDPO AP 32531"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-10",
+        "Location": "28935 Christian Skyway\nNew Peterhaven, PW 69289",
+        "Description": "Pull town actually coach. Order glass weight two crime spring let sit. Industry near alone responsibility oil wonder season."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6502
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44420
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 20574
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9620
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18004
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 128041,
+        "TotalApproved": 49384
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Lang",
+        "ContactInformation": {
+            "Phone": "4819313454",
+            "Email": "bhoffman@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/5c0afdc4-0d09-4699-a08e-20e84fb792f8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-10T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-15T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-20T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

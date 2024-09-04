@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8c82e753-5d03-495f-884c-2f74ea785212",
+    "PolicyID": "eaf719fd-c9e7-47a3-be34-c21e2b7d92d7",
+    "EffectiveDates": {
+        "StartDate": "2023-11-01",
+        "EndDate": "2024-10-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a9a72ace-b1ae-4111-af40-920192b7d54d",
+        "Name": "Mary Valentine",
+        "PolicyNumber": "eaf719fd-c9e7-47a3-be34-c21e2b7d92d7",
+        "ContactInformation": {
+            "Phone": "(439)639-7942",
+            "Email": "aherrera@example.net",
+            "Address": "60808 James Shoals\nJohnsonchester, AL 03334"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-21",
+        "Location": "034 Shelley Club Apt. 809\nBrownstad, DE 38179",
+        "Description": "Structure more must. Hair into life support marriage.\nPaper here again must good cup personal per. Rich baby draw. Song amount feeling true early charge."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13489
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18315
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 172962
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1872
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42181
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 77010,
+        "TotalApproved": 48071
+    },
+    "AdjusterDetails": {
+        "Name": "Paul Gutierrez",
+        "ContactInformation": {
+            "Phone": "615-613-5793",
+            "Email": "zimmermandavid@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4b2b989c-06e1-42ca-965f-1711c0bfa313"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-21T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-26T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

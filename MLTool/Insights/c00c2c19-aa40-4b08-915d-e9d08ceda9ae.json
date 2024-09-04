@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c00c2c19-aa40-4b08-915d-e9d08ceda9ae",
+    "PolicyID": "fea26049-b4ab-426d-b525-039c1436c567",
+    "EffectiveDates": {
+        "StartDate": "2023-09-10",
+        "EndDate": "2024-09-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "30af4c7d-5752-4e21-bab9-8ba4a94891c2",
+        "Name": "Bridget Blair",
+        "PolicyNumber": "fea26049-b4ab-426d-b525-039c1436c567",
+        "ContactInformation": {
+            "Phone": "(380)826-8180x2387",
+            "Email": "brandon75@example.org",
+            "Address": "291 Dylan Passage Apt. 175\nSavagemouth, TX 53269"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-11",
+        "Location": "55151 Anderson Port\nCraigfurt, CT 91113",
+        "Description": "Step so operation. Appear information no old.\nWear say over budget result. Bag family how middle operation type market."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18751
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1001
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 133693
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7801
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6423
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 26126,
+        "TotalApproved": 21446
+    },
+    "AdjusterDetails": {
+        "Name": "Karen Murray",
+        "ContactInformation": {
+            "Phone": "+1-499-461-2779x671",
+            "Email": "spencermccormick@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0f084ca7-3c8d-4745-8f2a-3984a264371d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-11T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-16T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-21T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

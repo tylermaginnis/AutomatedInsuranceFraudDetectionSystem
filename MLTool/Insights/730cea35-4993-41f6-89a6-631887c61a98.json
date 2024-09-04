@@ -1,0 +1,81 @@
+{
+    "ClaimID": "730cea35-4993-41f6-89a6-631887c61a98",
+    "PolicyID": "3651bd0f-1a09-48bd-81d3-a2ccdf996200",
+    "EffectiveDates": {
+        "StartDate": "2024-03-14",
+        "EndDate": "2025-03-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a902e464-680a-45ef-8c29-af049c740716",
+        "Name": "Bill Thomas",
+        "PolicyNumber": "3651bd0f-1a09-48bd-81d3-a2ccdf996200",
+        "ContactInformation": {
+            "Phone": "001-529-804-6861x50396",
+            "Email": "lharvey@example.com",
+            "Address": "115 Shaffer Harbors Apt. 088\nSharonmouth, WY 85557"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-07",
+        "Location": "32872 Miller Corners Suite 152\nJohnstad, DC 55111",
+        "Description": "Purpose recognize interview stock agreement. Institution fine good center economic miss memory."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 96560
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 90771
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1422
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 43033
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 72779
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 138516,
+        "TotalApproved": 114765
+    },
+    "AdjusterDetails": {
+        "Name": "Benjamin Kaiser",
+        "ContactInformation": {
+            "Phone": "+1-435-239-5008x1409",
+            "Email": "ohaynes@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/01f3c602-5253-41d2-bb3a-f508d7260b36"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-07T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-12T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-17T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

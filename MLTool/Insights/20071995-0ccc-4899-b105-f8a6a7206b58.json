@@ -1,0 +1,81 @@
+{
+    "ClaimID": "20071995-0ccc-4899-b105-f8a6a7206b58",
+    "PolicyID": "98875a3d-892b-4f9e-a55f-67ba9ac04d55",
+    "EffectiveDates": {
+        "StartDate": "2023-10-01",
+        "EndDate": "2024-09-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6481c2d8-1ce6-43bc-9fc4-e4225c82cf78",
+        "Name": "John Garcia",
+        "PolicyNumber": "98875a3d-892b-4f9e-a55f-67ba9ac04d55",
+        "ContactInformation": {
+            "Phone": "4747834377",
+            "Email": "garciapatricia@example.org",
+            "Address": "8351 Nicole Spurs Suite 077\nNorth Amyfurt, VT 86666"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-10",
+        "Location": "957 Robert Loop\nDustinmouth, MA 31406",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 67845
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38553
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6449
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 24632
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6908
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 144387,
+        "TotalApproved": 89945
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Smith",
+        "ContactInformation": {
+            "Phone": "+1-333-377-5472x732",
+            "Email": "raymondbrown@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/10131965-e901-44b1-a611-32ea626c8af6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-10T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-15T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-20T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

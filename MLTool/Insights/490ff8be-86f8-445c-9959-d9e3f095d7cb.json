@@ -1,0 +1,81 @@
+{
+    "ClaimID": "490ff8be-86f8-445c-9959-d9e3f095d7cb",
+    "PolicyID": "f68d60d1-9809-4a2b-8389-a83555ca98e6",
+    "EffectiveDates": {
+        "StartDate": "2023-12-11",
+        "EndDate": "2024-12-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2ce6d04e-b64f-420d-8c5c-c938e521ea8b",
+        "Name": "Randy Johnson",
+        "PolicyNumber": "f68d60d1-9809-4a2b-8389-a83555ca98e6",
+        "ContactInformation": {
+            "Phone": "001-484-545-2205x100",
+            "Email": "sjones@example.org",
+            "Address": "4953 Hill Mill Suite 529\nClarkport, MO 46513"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-19",
+        "Location": "420 Donald Knoll Apt. 171\nNew Jose, NM 42284",
+        "Description": "Point reach anyone even about hard technology drop. Building note as check.\nActivity mention safe region year stop. Follow investment guy window director."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 44882
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7207
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9072
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10081
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 73015
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 121218,
+        "TotalApproved": 47924
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Walker",
+        "ContactInformation": {
+            "Phone": "(710)316-3208",
+            "Email": "adrianowen@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/938a375c-bb0c-4e5f-bbff-c2f398787bf0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-19T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-24T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-29T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

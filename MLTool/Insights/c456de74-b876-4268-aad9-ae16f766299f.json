@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c456de74-b876-4268-aad9-ae16f766299f",
+    "PolicyID": "e1c619d9-d6c2-4441-ba84-844e419403ce",
+    "EffectiveDates": {
+        "StartDate": "2024-02-04",
+        "EndDate": "2025-02-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e5007b08-395b-4f02-8e8d-9e1349efce4f",
+        "Name": "Jennifer Wiggins",
+        "PolicyNumber": "e1c619d9-d6c2-4441-ba84-844e419403ce",
+        "ContactInformation": {
+            "Phone": "(334)441-9291x8965",
+            "Email": "emann@example.net",
+            "Address": "75659 Alec Spring Suite 863\nDanieltown, CO 85154"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-19",
+        "Location": "62183 Silva Pass\nSouth Emily, NY 22319",
+        "Description": "Suddenly could law site difficult.\nCard network trade public brother. Wish deep dog imagine break by risk.\nNature director future cause whole plan. Goal up democratic improve section."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7301
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 83797
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9369
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 65281
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8932
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 95116,
+        "TotalApproved": 94287
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Watkins",
+        "ContactInformation": {
+            "Phone": "(843)326-2780",
+            "Email": "fhamilton@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5fa0278c-2301-4e2f-a7f2-750ff0875fff"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-19T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-24T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-29T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

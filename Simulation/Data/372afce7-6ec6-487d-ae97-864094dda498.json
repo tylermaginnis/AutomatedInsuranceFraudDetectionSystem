@@ -1,0 +1,80 @@
+{
+  "ClaimID": "372afce7-6ec6-487d-ae97-864094dda498",
+  "PolicyID": "f33dddff-411c-4648-8eaf-e341dcf0bc2b",
+  "EffectiveDates": {
+    "StartDate": "2024-07-17",
+    "EndDate": "2025-07-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "69500360-183b-4182-b15a-3c0fdbc361e7",
+    "Name": "Amy Carter",
+    "PolicyNumber": "f33dddff-411c-4648-8eaf-e341dcf0bc2b",
+    "ContactInformation": {
+      "Phone": "205-724-4740",
+      "Email": "brandy09@example.net",
+      "Address": "211 Miller Spur Apt. 436\nPort Wanda, IL 40659"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-06-08",
+    "Location": "2394 Craig Divide\nCharlesland, WV 71009",
+    "Description": "Street contain her reflect. Eight television poor small sing fish. Billion admit debate how size or. Sometimes environmental air."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 27518
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 89925
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 96453
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6904
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 61303
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 173600,
+    "TotalApproved": 135045
+  },
+  "AdjusterDetails": {
+    "Name": "Erin Richards",
+    "ContactInformation": {
+      "Phone": "001-801-379-7015x8215",
+      "Email": "nicole79@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/4a37561b-be89-4556-bd2d-6fa2fcf7513e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-06-08T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-06-13T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-06-18T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

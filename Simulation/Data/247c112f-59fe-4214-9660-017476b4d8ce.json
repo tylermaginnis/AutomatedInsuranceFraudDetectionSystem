@@ -1,0 +1,80 @@
+{
+  "ClaimID": "247c112f-59fe-4214-9660-017476b4d8ce",
+  "PolicyID": "bf086eb3-56dc-40d0-b1e0-cbd133fbc3cf",
+  "EffectiveDates": {
+    "StartDate": "2023-12-19",
+    "EndDate": "2024-12-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9441a9d3-0824-4a29-a77f-8d9fd3093768",
+    "Name": "Angela Jones",
+    "PolicyNumber": "bf086eb3-56dc-40d0-b1e0-cbd133fbc3cf",
+    "ContactInformation": {
+      "Phone": "001-687-537-5101",
+      "Email": "loriolson@example.org",
+      "Address": "459 Harris Ridge\nSouth Phillip, MS 75989"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-04",
+    "Location": "Unit 4520 Box 0887\nDPO AE 51590",
+    "Description": "Middle hot generation just project as wish. Energy after account range nation indeed very. Government baby red ago avoid measure information."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 11854
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 3662
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1715
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7016
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 17148
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 137124,
+    "TotalApproved": 49317
+  },
+  "AdjusterDetails": {
+    "Name": "Stacy Pennington",
+    "ContactInformation": {
+      "Phone": "001-508-406-5514x44990",
+      "Email": "jessicamcclure@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/e9e07712-e4f2-4462-b72f-edf2949e5581"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-04T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-09T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-14T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

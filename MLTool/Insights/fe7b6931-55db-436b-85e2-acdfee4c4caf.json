@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fe7b6931-55db-436b-85e2-acdfee4c4caf",
+    "PolicyID": "0495f73d-e44f-471e-bf58-4a0af5a8fdef",
+    "EffectiveDates": {
+        "StartDate": "2023-12-29",
+        "EndDate": "2024-12-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a4faaa48-49e4-40bd-a807-521267314621",
+        "Name": "Daniel Carter",
+        "PolicyNumber": "0495f73d-e44f-471e-bf58-4a0af5a8fdef",
+        "ContactInformation": {
+            "Phone": "836.895.1208",
+            "Email": "davisjoshua@example.net",
+            "Address": "56309 Mia Crossroad\nRosalesside, RI 59827"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "413 Dana Bypass\nAmandaburgh, MN 57480",
+        "Description": "Key raise show management total factor prepare chance. Though remain stop industry next federal network.\nHome necessary store. End see report voice. Someone rock available exist."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6854
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18695
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1721
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 93546
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35635
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 12738,
+        "TotalApproved": 10448
+    },
+    "AdjusterDetails": {
+        "Name": "Tara Ward",
+        "ContactInformation": {
+            "Phone": "476-216-1405",
+            "Email": "ramirezpeter@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/eaf66c1a-9e70-49c8-bc10-f6fe7ee3bdf9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

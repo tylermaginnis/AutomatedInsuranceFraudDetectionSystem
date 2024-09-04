@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e61d5764-c916-4275-83c4-fd2a5c7205c2",
+    "PolicyID": "2e2d2eb1-8226-4ba3-9ebd-d5696da5cfdf",
+    "EffectiveDates": {
+        "StartDate": "2023-09-30",
+        "EndDate": "2024-09-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e5e3e616-1b7d-4be1-9f7e-0bc94e6e9778",
+        "Name": "Jason Bridges",
+        "PolicyNumber": "2e2d2eb1-8226-4ba3-9ebd-d5696da5cfdf",
+        "ContactInformation": {
+            "Phone": "+1-432-520-9290",
+            "Email": "warnermark@example.com",
+            "Address": "112 Austin Rest\nLake Markville, SC 85283"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-29",
+        "Location": "3558 Richard Streets\nBradyton, PA 35323",
+        "Description": "Place hard career rock reality win. Resource cut why both.\nTogether onto partner kind my lead computer. Likely right understand without well project water."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4650
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2919
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1109
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1078
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19860
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 97663,
+        "TotalApproved": 14944
+    },
+    "AdjusterDetails": {
+        "Name": "Bradley Hernandez",
+        "ContactInformation": {
+            "Phone": "+1-465-242-8838x699",
+            "Email": "wmartinez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1a55cba0-f033-421f-8a64-da9fb3d4318d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-29T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

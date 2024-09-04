@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2649e586-b589-4c24-95de-36f16b140ecb",
+  "PolicyID": "5bc4933f-a486-4027-b3a9-56aab83abb7e",
+  "EffectiveDates": {
+    "StartDate": "2024-06-16",
+    "EndDate": "2025-06-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "10b08b00-17b8-4253-9be6-7f5cf8ea7adc",
+    "Name": "Stephen Wolf",
+    "PolicyNumber": "5bc4933f-a486-4027-b3a9-56aab83abb7e",
+    "ContactInformation": {
+      "Phone": "4296514524",
+      "Email": "deniseowens@example.org",
+      "Address": "43813 Moon View\nJeffreychester, AK 60793"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-14",
+    "Location": "USS Pierce\nFPO AP 13893",
+    "Description": "Both program garden it else development themselves. Whole officer good wife. Project particularly clearly establish."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7867
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 12576
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7037
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 69293
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 17884
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 8279,
+    "TotalApproved": 2656
+  },
+  "AdjusterDetails": {
+    "Name": "Jonathan Wells",
+    "ContactInformation": {
+      "Phone": "4212460126",
+      "Email": "jasonwood@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/635bd955-aa11-4b06-b2d9-e29dc0bc6e31"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-14T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-19T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-24T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

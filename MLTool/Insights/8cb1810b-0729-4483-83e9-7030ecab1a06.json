@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8cb1810b-0729-4483-83e9-7030ecab1a06",
+    "PolicyID": "6227cf57-8b94-4810-9297-7459f1acf436",
+    "EffectiveDates": {
+        "StartDate": "2024-06-05",
+        "EndDate": "2025-06-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "50f8d4c1-f5e4-4413-b32f-6a7d6513f4fc",
+        "Name": "Monica Carlson",
+        "PolicyNumber": "6227cf57-8b94-4810-9297-7459f1acf436",
+        "ContactInformation": {
+            "Phone": "2137932981",
+            "Email": "sydney30@example.org",
+            "Address": "07318 Scott Ways\nErinchester, NJ 72466"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-10",
+        "Location": "613 Curtis Freeway\nLake Kristina, UT 45398",
+        "Description": "Quite few matter something method ready difference. Anything image conference Democrat consider worry."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 47545
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46284
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8579
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4089
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33916
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 4145,
+        "TotalApproved": 1269
+    },
+    "AdjusterDetails": {
+        "Name": "Melissa Murphy",
+        "ContactInformation": {
+            "Phone": "001-301-219-9894x2616",
+            "Email": "hjames@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e64252cf-da2e-41b6-8523-63dfd1f0378c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-10T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-15T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-20T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7715ee33-2aa5-4c34-8513-81eccba623c7",
+  "PolicyID": "4d23ce5c-d9cb-464b-ae17-fb01c84343a0",
+  "EffectiveDates": {
+    "StartDate": "2024-03-05",
+    "EndDate": "2025-03-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5db5c932-3cd5-4f95-b0df-8629445404d8",
+    "Name": "Mark Miller",
+    "PolicyNumber": "4d23ce5c-d9cb-464b-ae17-fb01c84343a0",
+    "ContactInformation": {
+      "Phone": "540-445-5710x4935",
+      "Email": "ddavis@example.net",
+      "Address": "96025 Gaines Rapids Apt. 201\nNorth Alexandra, NE 50839"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-20",
+    "Location": "097 Megan Harbors\nStrongberg, VA 74132",
+    "Description": "Travel sometimes focus task base medical. Red perhaps dog structure perhaps goal.\nSummer professional race step kind policy since audience. Hear stay if eight well tend send."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 12901
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 14664
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5837
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8541
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 23846
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 161995,
+    "TotalApproved": 139575
+  },
+  "AdjusterDetails": {
+    "Name": "Dylan Bauer",
+    "ContactInformation": {
+      "Phone": "862-678-0752x8153",
+      "Email": "rebeccachen@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/0817650e-5a12-4e0e-b022-4f9bbb60f66a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-20T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-25T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-30T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

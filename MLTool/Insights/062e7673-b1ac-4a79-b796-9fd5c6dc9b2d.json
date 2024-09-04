@@ -1,0 +1,81 @@
+{
+    "ClaimID": "062e7673-b1ac-4a79-b796-9fd5c6dc9b2d",
+    "PolicyID": "fbc06fbb-9a45-474c-8cbc-270a854bf217",
+    "EffectiveDates": {
+        "StartDate": "2024-05-04",
+        "EndDate": "2025-05-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b0fdde17-d201-40b8-8497-f9de21e0c4ff",
+        "Name": "Frank Roberts",
+        "PolicyNumber": "fbc06fbb-9a45-474c-8cbc-270a854bf217",
+        "ContactInformation": {
+            "Phone": "740-858-1053x23031",
+            "Email": "johnsonlacey@example.net",
+            "Address": "47027 Stephanie Stream\nCummingsshire, FL 73425"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-19",
+        "Location": "82648 Sandoval Plain\nPort Travisport, IN 99489",
+        "Description": "Item back fly up movie model. Summer only into car. Family trade leg bring cultural eat sort. Material adult important fine world central I."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16238
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8676
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13321
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26250
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 57178
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 194990,
+        "TotalApproved": 58856
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Higgins",
+        "ContactInformation": {
+            "Phone": "001-518-366-6567x1433",
+            "Email": "grahamjon@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/d522f07d-e6e2-44b3-9917-7c4818632eec"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-19T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-24T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-29T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

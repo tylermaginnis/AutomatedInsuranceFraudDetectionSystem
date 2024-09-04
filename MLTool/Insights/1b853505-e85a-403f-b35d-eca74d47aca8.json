@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1b853505-e85a-403f-b35d-eca74d47aca8",
+    "PolicyID": "90ea305a-da99-46a5-a94d-be592e7194b8",
+    "EffectiveDates": {
+        "StartDate": "2024-01-11",
+        "EndDate": "2025-01-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "91975578-4aef-43b4-bb5f-d4e7246baa83",
+        "Name": "Jessica Walters",
+        "PolicyNumber": "90ea305a-da99-46a5-a94d-be592e7194b8",
+        "ContactInformation": {
+            "Phone": "(749)270-1506",
+            "Email": "mathisheather@example.net",
+            "Address": "134 Michael Summit Suite 569\nSouth Frances, AL 88859"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-01",
+        "Location": "604 Zavala Glen Apt. 543\nSouth Donnafort, NH 37896",
+        "Description": "Cold in thought down sing point. Both relate too argue national. Certainly spend drop statement why pull.\nThank movie major. Moment with environment hand another language debate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3584
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1327
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 150705
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1231
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5617
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 25419,
+        "TotalApproved": 9647
+    },
+    "AdjusterDetails": {
+        "Name": "Robin Russell",
+        "ContactInformation": {
+            "Phone": "3559150996",
+            "Email": "curtisshelton@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0f8eab70-9821-4a80-b821-e06654e82771"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

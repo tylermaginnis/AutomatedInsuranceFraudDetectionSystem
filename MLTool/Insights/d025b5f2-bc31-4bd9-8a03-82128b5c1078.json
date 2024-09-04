@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d025b5f2-bc31-4bd9-8a03-82128b5c1078",
+    "PolicyID": "2bda9e0f-8f1d-4275-95ea-0fb6435fec42",
+    "EffectiveDates": {
+        "StartDate": "2024-07-02",
+        "EndDate": "2025-07-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2592ded6-8694-4964-b950-6366d6a596b2",
+        "Name": "Mrs. Ann Smith",
+        "PolicyNumber": "2bda9e0f-8f1d-4275-95ea-0fb6435fec42",
+        "ContactInformation": {
+            "Phone": "461.615.6686",
+            "Email": "melinda41@example.com",
+            "Address": "9713 Alyssa Meadow\nPhelpsview, MD 91577"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-08",
+        "Location": "USS Dunn\nFPO AA 09736",
+        "Description": "Hair arrive plant. Environmental page why none away common spend. Subject fact moment create.\nSame difficult get fish forward pull. Personal keep nature worker add recent."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8583
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 42364
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44713
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42265
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7294
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 74852,
+        "TotalApproved": 58903
+    },
+    "AdjusterDetails": {
+        "Name": "James Gomez",
+        "ContactInformation": {
+            "Phone": "+1-717-740-2160x6255",
+            "Email": "catherine50@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/51634a0f-3fa8-4667-a86a-db4a9d393533"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

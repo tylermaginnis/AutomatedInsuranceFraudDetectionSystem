@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5ba00c6a-08f5-4891-a980-ec1cf6cea90e",
+    "PolicyID": "0203b9cd-c637-403b-b9f8-658d49d6e40b",
+    "EffectiveDates": {
+        "StartDate": "2024-06-15",
+        "EndDate": "2025-06-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "84f36b34-58e0-42ec-99b5-378b4bef7215",
+        "Name": "Steven Greene",
+        "PolicyNumber": "0203b9cd-c637-403b-b9f8-658d49d6e40b",
+        "ContactInformation": {
+            "Phone": "001-740-757-0570",
+            "Email": "fflores@example.net",
+            "Address": "9652 Brenda Forges Suite 533\nKellerland, OH 61706"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-28",
+        "Location": "1285 Sandra Freeway Suite 941\nLake Jamie, HI 57782",
+        "Description": "Support can per relate agency sister. Check wrong coach threat real. Ground debate plant note international."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 87970
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 64474
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 26273
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8934
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2129
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 107240,
+        "TotalApproved": 27877
+    },
+    "AdjusterDetails": {
+        "Name": "Russell Rodriguez",
+        "ContactInformation": {
+            "Phone": "905-516-5762x480",
+            "Email": "megan30@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ab1b88c6-1b23-423e-8ac3-3d48275b66a5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-28T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-02T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-07T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

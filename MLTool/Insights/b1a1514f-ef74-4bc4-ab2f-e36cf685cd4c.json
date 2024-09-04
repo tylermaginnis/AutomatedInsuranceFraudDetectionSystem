@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b1a1514f-ef74-4bc4-ab2f-e36cf685cd4c",
+    "PolicyID": "7c17dad3-dd4c-4c40-aa7b-47b8d4986d25",
+    "EffectiveDates": {
+        "StartDate": "2024-02-29",
+        "EndDate": "2025-02-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "98f04bb1-aa9a-4d54-95b3-e854e63662f3",
+        "Name": "Michelle Wong",
+        "PolicyNumber": "7c17dad3-dd4c-4c40-aa7b-47b8d4986d25",
+        "ContactInformation": {
+            "Phone": "863.988.5317x135",
+            "Email": "ftaylor@example.net",
+            "Address": "1292 Christopher Coves Suite 968\nJamesmouth, FM 04466"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-04",
+        "Location": "8713 Boyd Valley Suite 159\nNorth Christina, NE 11930",
+        "Description": "Nothing man baby fall man. Fish experience indicate change subject.\nProject fall worker itself child. Push read bank company over that.\nWrite would fill. Lot travel attorney pick success expect."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33883
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 50375
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17758
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49333
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8348
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 25699,
+        "TotalApproved": 21812
+    },
+    "AdjusterDetails": {
+        "Name": "Christopher Wilkerson",
+        "ContactInformation": {
+            "Phone": "350-425-0080x64777",
+            "Email": "joannataylor@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e3b47e53-6172-420a-9016-a88b8acf67f4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-04T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-09T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-14T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

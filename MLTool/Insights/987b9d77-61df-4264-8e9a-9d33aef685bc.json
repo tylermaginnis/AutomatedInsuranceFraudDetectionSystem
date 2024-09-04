@@ -1,0 +1,81 @@
+{
+    "ClaimID": "987b9d77-61df-4264-8e9a-9d33aef685bc",
+    "PolicyID": "14b28a01-823c-4092-bbfa-81632c2ba284",
+    "EffectiveDates": {
+        "StartDate": "2024-06-21",
+        "EndDate": "2025-06-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f0f23031-e7c6-47aa-8d46-8ca42fb0be9e",
+        "Name": "Brian Molina",
+        "PolicyNumber": "14b28a01-823c-4092-bbfa-81632c2ba284",
+        "ContactInformation": {
+            "Phone": "355-276-1865",
+            "Email": "richardsonheather@example.net",
+            "Address": "9740 Henry Islands\nSydneybury, FL 59449"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-21",
+        "Location": "4557 Steven Inlet Apt. 123\nNew Thomas, RI 08594",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 82062
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41706
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5495
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12358
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11275
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 152896,
+        "TotalApproved": 85815
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Murphy",
+        "ContactInformation": {
+            "Phone": "267-210-9367",
+            "Email": "wallscheryl@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/cd9ba3bc-4686-48a3-be20-15bba9435e28"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-21T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-26T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-03T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "33be2941-990c-460c-ba45-906e329253fd",
+    "PolicyID": "ad842982-e578-4654-9e4e-2581bdd4a805",
+    "EffectiveDates": {
+        "StartDate": "2024-03-26",
+        "EndDate": "2025-03-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1cc2c363-46f5-4002-9729-c7c86f4a0aa3",
+        "Name": "Erin Larson",
+        "PolicyNumber": "ad842982-e578-4654-9e4e-2581bdd4a805",
+        "ContactInformation": {
+            "Phone": "+1-676-343-7003x997",
+            "Email": "davidlee@example.com",
+            "Address": "7463 Benjamin Groves\nNew Monica, TX 72629"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-28",
+        "Location": "96700 Tate River Suite 944\nKristyfurt, FM 37981",
+        "Description": "Strategy cultural director accept your toward. Yet why environmental theory necessary analysis staff late. Field many cup tonight it create."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 84031
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6482
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4837
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2094
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38130
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 69981,
+        "TotalApproved": 53727
+    },
+    "AdjusterDetails": {
+        "Name": "Scott Salazar",
+        "ContactInformation": {
+            "Phone": "8705756213",
+            "Email": "kyle26@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5143ba75-efc4-4b24-bfc2-d02861d1cefc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-28T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-02T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-07T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

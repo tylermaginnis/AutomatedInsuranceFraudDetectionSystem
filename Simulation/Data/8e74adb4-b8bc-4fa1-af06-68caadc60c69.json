@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8e74adb4-b8bc-4fa1-af06-68caadc60c69",
+  "PolicyID": "fd022ef1-218d-4dab-a55d-524976fea064",
+  "EffectiveDates": {
+    "StartDate": "2024-07-31",
+    "EndDate": "2025-07-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4c40adcd-d276-4c85-bf7e-c486ebe7a5b5",
+    "Name": "Jeffrey Carter",
+    "PolicyNumber": "fd022ef1-218d-4dab-a55d-524976fea064",
+    "ContactInformation": {
+      "Phone": "3234124872",
+      "Email": "meghan66@example.net",
+      "Address": "88713 Sabrina Branch\nEast Jamestown, DC 91088"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-28",
+    "Location": "6126 Heather Ranch Suite 891\nPort Morganstad, LA 78780",
+    "Description": "Against discover hour upon. Enough really main agree none. Today approach color little understand.\nAmerican available claim write see they."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 18538
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 197278
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16531
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 47290
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 154914
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 183096,
+    "TotalApproved": 100196
+  },
+  "AdjusterDetails": {
+    "Name": "Marissa Ochoa",
+    "ContactInformation": {
+      "Phone": "918-906-7509",
+      "Email": "brianhawkins@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/b33042ad-d77e-4b4c-956c-a36326a79ec0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-28T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-02T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-07T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

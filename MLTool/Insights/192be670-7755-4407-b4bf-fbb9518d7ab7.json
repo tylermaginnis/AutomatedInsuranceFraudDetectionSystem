@@ -1,0 +1,81 @@
+{
+    "ClaimID": "192be670-7755-4407-b4bf-fbb9518d7ab7",
+    "PolicyID": "f3addf4e-c642-4e2c-8e66-5ec0a3864229",
+    "EffectiveDates": {
+        "StartDate": "2024-05-04",
+        "EndDate": "2025-05-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e2a446f5-beb2-4e50-b294-7b58f3d74a23",
+        "Name": "Wendy Lee",
+        "PolicyNumber": "f3addf4e-c642-4e2c-8e66-5ec0a3864229",
+        "ContactInformation": {
+            "Phone": "+1-538-673-5232x072",
+            "Email": "ijohnson@example.net",
+            "Address": "8805 Howard Island\nWest Christopherton, WV 09838"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-18",
+        "Location": "621 Martin Stravenue Apt. 109\nChurchport, ME 19353",
+        "Description": "Arrive open class system care. Form whatever heart same collection west carry opportunity. Simply paper thousand wife few around."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47688
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5468
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14234
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1652
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23062
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 69308,
+        "TotalApproved": 69182
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Mckenzie",
+        "ContactInformation": {
+            "Phone": "001-485-870-1849x0358",
+            "Email": "alan27@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/503674e3-c108-46af-aecf-b6a1e93e6c3d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-18T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-23T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-28T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

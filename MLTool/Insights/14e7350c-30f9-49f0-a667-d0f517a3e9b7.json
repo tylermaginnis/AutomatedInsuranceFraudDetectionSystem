@@ -1,0 +1,81 @@
+{
+    "ClaimID": "14e7350c-30f9-49f0-a667-d0f517a3e9b7",
+    "PolicyID": "bfe6c734-a108-4e08-8889-5ad208e67b54",
+    "EffectiveDates": {
+        "StartDate": "2024-07-15",
+        "EndDate": "2025-07-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "593171f4-2886-49c9-8587-7a14f32702a2",
+        "Name": "Chad Nichols",
+        "PolicyNumber": "bfe6c734-a108-4e08-8889-5ad208e67b54",
+        "ContactInformation": {
+            "Phone": "001-674-453-1217x221",
+            "Email": "katrina10@example.org",
+            "Address": "2553 Wright Shore\nPort Vickie, MO 53152"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-30",
+        "Location": "2335 Smith Grove Suite 446\nPort Christopherfort, AK 16491",
+        "Description": "Those gas sort bad.\nLike walk remain read. Say particularly under discussion continue cup difference."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19793
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6148
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79138
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5531
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14869
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 11076,
+        "TotalApproved": 1487
+    },
+    "AdjusterDetails": {
+        "Name": "Susan Proctor",
+        "ContactInformation": {
+            "Phone": "672-310-5049x7660",
+            "Email": "loganwright@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1e9a2a83-a11d-4055-96e8-386e632795ed"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-30T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-04T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-09T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

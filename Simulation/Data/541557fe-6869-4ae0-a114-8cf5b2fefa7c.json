@@ -1,0 +1,80 @@
+{
+  "ClaimID": "541557fe-6869-4ae0-a114-8cf5b2fefa7c",
+  "PolicyID": "b6526e94-1258-4494-a5ec-ff407c75c0db",
+  "EffectiveDates": {
+    "StartDate": "2024-02-05",
+    "EndDate": "2025-02-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "366a9a8d-2ed0-4645-ac08-271cecf81fc0",
+    "Name": "Selena Martinez",
+    "PolicyNumber": "b6526e94-1258-4494-a5ec-ff407c75c0db",
+    "ContactInformation": {
+      "Phone": "596-866-5274",
+      "Email": "holly83@example.com",
+      "Address": "8637 Ingram Vista\nPort Timothystad, KY 67917"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-19",
+    "Location": "2869 Peter Manor\nElizabethburgh, VI 84455",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 93711
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 41681
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7984
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 24524
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6913
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 174813,
+    "TotalApproved": 33624
+  },
+  "AdjusterDetails": {
+    "Name": "Charles Wallace",
+    "ContactInformation": {
+      "Phone": "369-349-2876",
+      "Email": "nguyenbetty@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/72ef3021-5279-4d70-912e-2c19f1608397"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-19T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-24T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-29T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

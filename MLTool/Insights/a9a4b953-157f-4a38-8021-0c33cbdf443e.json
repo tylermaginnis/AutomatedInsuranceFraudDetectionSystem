@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a9a4b953-157f-4a38-8021-0c33cbdf443e",
+    "PolicyID": "fb37030d-c77f-4b61-b63b-61d19a506a85",
+    "EffectiveDates": {
+        "StartDate": "2024-07-03",
+        "EndDate": "2025-07-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "68c6311f-1619-450d-918f-d5f67cfcd1b6",
+        "Name": "Kimberly Adams",
+        "PolicyNumber": "fb37030d-c77f-4b61-b63b-61d19a506a85",
+        "ContactInformation": {
+            "Phone": "224.839.4282x0324",
+            "Email": "pamela77@example.com",
+            "Address": "1393 Harris Coves Apt. 540\nDouglasberg, WA 90009"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-28",
+        "Location": "543 Paula Crossroad Apt. 382\nNicholasshire, IN 21331",
+        "Description": "Style just model pull job while have. Meet benefit represent child believe court tend. Something heavy college process line PM approach."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9968
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14286
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14217
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42270
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3694
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 180562,
+        "TotalApproved": 79725
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Webb",
+        "ContactInformation": {
+            "Phone": "(590)979-6880",
+            "Email": "jenniferjohnson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/137f5a16-7ed1-4cf4-b914-53313fd5b245"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-28T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-03T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-08T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

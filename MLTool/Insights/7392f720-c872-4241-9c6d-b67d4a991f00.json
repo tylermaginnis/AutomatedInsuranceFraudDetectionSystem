@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7392f720-c872-4241-9c6d-b67d4a991f00",
+    "PolicyID": "e51c2890-6313-4109-807c-189ab1c4ea52",
+    "EffectiveDates": {
+        "StartDate": "2024-04-18",
+        "EndDate": "2025-04-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8d3412b5-6bd9-474d-b9c8-69a3f7126d0c",
+        "Name": "Steve Rivas MD",
+        "PolicyNumber": "e51c2890-6313-4109-807c-189ab1c4ea52",
+        "ContactInformation": {
+            "Phone": "(814)515-7752x45018",
+            "Email": "stonejessica@example.org",
+            "Address": "347 Martinez Burg\nNew Ryan, FM 03177"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-02",
+        "Location": "302 Anderson Prairie\nLake Jacobland, NH 99127",
+        "Description": "Budget everybody read without truth tough case work.\nPolice keep body cup. Poor especially almost purpose record amount. Itself appear think kitchen me own."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 64696
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19012
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49375
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20667
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1163
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 134000,
+        "TotalApproved": 78165
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Smith",
+        "ContactInformation": {
+            "Phone": "001-855-352-9754x03211",
+            "Email": "kimberly47@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/945fda09-640a-4c56-947d-bac66a293904"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-02T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-07T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-12T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6f17585d-018f-4313-a063-91d9bc74d838",
+    "PolicyID": "2636ed95-bfa1-4f88-89e0-b961ec02684d",
+    "EffectiveDates": {
+        "StartDate": "2024-06-30",
+        "EndDate": "2025-06-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8cdbaa13-beaf-4093-9a82-d9f52f5c71ef",
+        "Name": "Katie Collins",
+        "PolicyNumber": "2636ed95-bfa1-4f88-89e0-b961ec02684d",
+        "ContactInformation": {
+            "Phone": "(442)973-8396",
+            "Email": "barbara49@example.org",
+            "Address": "USNS Jordan\nFPO AE 55559"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-19",
+        "Location": "833 Lamb Fall\nRodriguezhaven, RI 59405",
+        "Description": "Baby book believe remember. Every say understand article room. Outside accept despite move clearly.\nWear word work point also. Market measure agent game throughout."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13849
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3115
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5069
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8477
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19219
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 6450,
+        "TotalApproved": 5722
+    },
+    "AdjusterDetails": {
+        "Name": "Kelly Oconnor",
+        "ContactInformation": {
+            "Phone": "(758)772-8503x838",
+            "Email": "lisatyler@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/714dc773-cd43-41cf-96d6-0423111f8d00"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-19T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-24T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-29T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

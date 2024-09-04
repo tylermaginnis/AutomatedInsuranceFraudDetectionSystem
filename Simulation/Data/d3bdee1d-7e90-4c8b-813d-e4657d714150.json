@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d3bdee1d-7e90-4c8b-813d-e4657d714150",
+  "PolicyID": "3c5b6217-e17d-4d99-a812-b9ad8a254f2a",
+  "EffectiveDates": {
+    "StartDate": "2023-10-10",
+    "EndDate": "2024-10-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2d279f82-e724-4911-82b8-eb0448f7e41e",
+    "Name": "Debra Goodwin",
+    "PolicyNumber": "3c5b6217-e17d-4d99-a812-b9ad8a254f2a",
+    "ContactInformation": {
+      "Phone": "694.822.4709",
+      "Email": "christinebrown@example.com",
+      "Address": "160 Norris Trail Apt. 301\nRuizville, AL 70740"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-04",
+    "Location": "110 Reyes Drives\nLake Michaeltown, WV 70505",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 56932
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 33031
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9459
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15827
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9433
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 124682,
+    "TotalApproved": 108939
+  },
+  "AdjusterDetails": {
+    "Name": "Joseph Mooney",
+    "ContactInformation": {
+      "Phone": "(688)271-5729",
+      "Email": "davisbryan@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/8c1a72e2-54ff-44bf-b859-a4d925d4eee7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-04T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-09T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-14T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

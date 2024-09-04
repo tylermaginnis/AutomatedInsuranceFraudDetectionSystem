@@ -1,0 +1,81 @@
+{
+    "ClaimID": "85e52adc-f37e-4022-bc8f-b883019895af",
+    "PolicyID": "056e8323-60f1-4c94-9c1b-d7726df3e383",
+    "EffectiveDates": {
+        "StartDate": "2023-09-18",
+        "EndDate": "2024-09-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "710d5972-2ad6-42cf-af20-0d7a617d9a3c",
+        "Name": "Daniel Hays",
+        "PolicyNumber": "056e8323-60f1-4c94-9c1b-d7726df3e383",
+        "ContactInformation": {
+            "Phone": "001-455-242-9836",
+            "Email": "pschroeder@example.com",
+            "Address": "PSC 4937, Box 6467\nAPO AE 82804"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-20",
+        "Location": "Unit 2214 Box 1722\nDPO AP 49920",
+        "Description": "Yourself somebody item card. So very term early.\nArtist big order stuff subject. You parent account put international happen. Little stage window pass traditional."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7628
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 64187
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31852
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19659
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38400
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 140253,
+        "TotalApproved": 29492
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy Garrison",
+        "ContactInformation": {
+            "Phone": "5065574295",
+            "Email": "davidbell@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/cf5f0e5d-e78e-4b1c-beca-48761ccd0f72"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-20T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-25T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-30T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

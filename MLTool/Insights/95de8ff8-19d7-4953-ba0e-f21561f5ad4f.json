@@ -1,0 +1,81 @@
+{
+    "ClaimID": "95de8ff8-19d7-4953-ba0e-f21561f5ad4f",
+    "PolicyID": "83ac9aca-8c67-4427-bc3a-354b56df9b25",
+    "EffectiveDates": {
+        "StartDate": "2024-04-21",
+        "EndDate": "2025-04-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "92e5e6f3-f8dd-433a-91c4-711276486070",
+        "Name": "Mary Williams",
+        "PolicyNumber": "83ac9aca-8c67-4427-bc3a-354b56df9b25",
+        "ContactInformation": {
+            "Phone": "+1-623-304-1520x65009",
+            "Email": "chelsea83@example.net",
+            "Address": "9606 Christine Road Suite 279\nLake Kathyfort, TX 72643"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-27",
+        "Location": "28868 Hanna Coves Suite 044\nSouth Eric, NY 22424",
+        "Description": "Remain between generation wish. First season change set. Visit life place.\nWhile decision however smile build size draw."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 54876
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 125734
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13655
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7198
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41412
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 177654,
+        "TotalApproved": 65682
+    },
+    "AdjusterDetails": {
+        "Name": "Beth Gilmore",
+        "ContactInformation": {
+            "Phone": "(656)279-3891",
+            "Email": "gomezrichard@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/0b4b4192-4708-40e8-9ef5-5f42814a35e0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-27T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-02T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-07T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

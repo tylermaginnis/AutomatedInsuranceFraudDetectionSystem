@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1325d427-b40d-437b-837d-41c0bcb64401",
+    "PolicyID": "f23aaefc-43f0-4c68-91e3-5062d2d9423d",
+    "EffectiveDates": {
+        "StartDate": "2024-08-12",
+        "EndDate": "2025-08-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5c8ad610-b39c-4ffb-ab53-27754eb9abe7",
+        "Name": "Brendan Thomas",
+        "PolicyNumber": "f23aaefc-43f0-4c68-91e3-5062d2d9423d",
+        "ContactInformation": {
+            "Phone": "(484)387-3797",
+            "Email": "bevans@example.com",
+            "Address": "308 Hayes Lock\nMilesberg, KS 43429"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-05",
+        "Location": "7252 Cunningham Lake Suite 195\nWilliamchester, NJ 74130",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 69600
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 22931
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5427
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21820
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9330
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 129108,
+        "TotalApproved": 72007
+    },
+    "AdjusterDetails": {
+        "Name": "Dale Campbell",
+        "ContactInformation": {
+            "Phone": "(232)833-2900x008",
+            "Email": "chad89@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/94dd9dcd-c9b5-4a11-974d-31bec47a9b27"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-05T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-10T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-15T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

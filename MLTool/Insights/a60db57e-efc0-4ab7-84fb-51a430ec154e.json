@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a60db57e-efc0-4ab7-84fb-51a430ec154e",
+    "PolicyID": "9dd38a3e-7294-43a0-9659-6c8c7ec257e1",
+    "EffectiveDates": {
+        "StartDate": "2024-08-12",
+        "EndDate": "2025-08-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "36332625-531d-4d1c-a735-259bf7c49ce8",
+        "Name": "Nathan Norris",
+        "PolicyNumber": "9dd38a3e-7294-43a0-9659-6c8c7ec257e1",
+        "ContactInformation": {
+            "Phone": "643.992.3341",
+            "Email": "sherririvera@example.com",
+            "Address": "161 Davis Trail\nHuangville, WA 18673"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-06",
+        "Location": "6779 Phillip Row\nNew Sarahchester, LA 45855",
+        "Description": "Hospital specific wish performance want institution. Artist best receive.\nCommon raise off. Admit practice realize staff generation happen. Across fall writer subject growth close increase."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46079
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4676
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5462
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36538
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 64070
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 52771,
+        "TotalApproved": 26481
+    },
+    "AdjusterDetails": {
+        "Name": "Misty Alexander",
+        "ContactInformation": {
+            "Phone": "745.392.0599x750",
+            "Email": "mcole@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/3eacb712-0da1-45f8-b284-db1e2cfb11ea"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-06T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-11T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-16T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

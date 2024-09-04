@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fb6f6b43-dff4-457a-8789-9717926aa282",
+    "PolicyID": "3f419a8c-3195-4172-8f4e-c3ac36748e3b",
+    "EffectiveDates": {
+        "StartDate": "2024-01-23",
+        "EndDate": "2025-01-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a7b47a2f-b00c-4fbc-95fe-f90643094b94",
+        "Name": "Derek Hernandez",
+        "PolicyNumber": "3f419a8c-3195-4172-8f4e-c3ac36748e3b",
+        "ContactInformation": {
+            "Phone": "396-331-9712x03071",
+            "Email": "wardpaul@example.com",
+            "Address": "9165 Erin Pike\nEast Joannamouth, CT 15935"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-17",
+        "Location": "41533 Mcgrath Canyon\nEast George, LA 28663",
+        "Description": "Economy even right behavior let. Majority they consumer common.\nAdministration beyond benefit drop type institution ten. Idea speak sort social key. Similar choice cost we."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 130574
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8081
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 85136
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 49695
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7290
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 19644,
+        "TotalApproved": 8957
+    },
+    "AdjusterDetails": {
+        "Name": "Terri Nelson",
+        "ContactInformation": {
+            "Phone": "956.453.6135x790",
+            "Email": "lisa24@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/5df9e061-42e9-4c75-a1cd-7e67855fcb82"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-17T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-22T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-27T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

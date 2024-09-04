@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2319c5a9-1f99-46c0-ba58-2108370cdd5f",
+  "PolicyID": "ee3df46a-63f8-4156-b453-88be1e0d9bd7",
+  "EffectiveDates": {
+    "StartDate": "2024-04-03",
+    "EndDate": "2025-04-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "340adad4-5da3-4809-880d-147f3660762e",
+    "Name": "Theodore Miller",
+    "PolicyNumber": "ee3df46a-63f8-4156-b453-88be1e0d9bd7",
+    "ContactInformation": {
+      "Phone": "(459)496-1116x8296",
+      "Email": "chambersangela@example.net",
+      "Address": "493 Ward Fields Apt. 765\nMillermouth, PA 02692"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-15",
+    "Location": "11820 Long Glens\nFranklinville, PW 79961",
+    "Description": "Soon spend week recently. Whatever allow by again. Chance individual movie.\nMind alone buy."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 14199
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16408
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 32302
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2806
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 33934
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 77990,
+    "TotalApproved": 10706
+  },
+  "AdjusterDetails": {
+    "Name": "Christopher Lucas",
+    "ContactInformation": {
+      "Phone": "001-707-772-7908x947",
+      "Email": "ellissandra@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/59434324-f0e4-446b-a2cb-f6ccdcd1e5fb"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-15T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-20T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-25T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

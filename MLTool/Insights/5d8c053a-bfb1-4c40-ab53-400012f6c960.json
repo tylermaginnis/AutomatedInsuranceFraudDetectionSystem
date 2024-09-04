@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5d8c053a-bfb1-4c40-ab53-400012f6c960",
+    "PolicyID": "eaf257fe-90f0-4680-bcd6-f923080f1ce9",
+    "EffectiveDates": {
+        "StartDate": "2023-11-02",
+        "EndDate": "2024-11-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5b2d3b26-8df1-447f-bdb9-af16a00af979",
+        "Name": "Anna Thomas",
+        "PolicyNumber": "eaf257fe-90f0-4680-bcd6-f923080f1ce9",
+        "ContactInformation": {
+            "Phone": "+1-206-749-7863x444",
+            "Email": "ewright@example.org",
+            "Address": "642 Haley Vista Apt. 295\nShermanstad, WY 32703"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-18",
+        "Location": "Unit 4088 Box 1498\nDPO AE 51857",
+        "Description": "None wall nature final design might threat man. So discover trade beyond eat surface official."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7543
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2544
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2284
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21059
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6594
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 129492,
+        "TotalApproved": 29310
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Delgado",
+        "ContactInformation": {
+            "Phone": "+1-866-305-2092x553",
+            "Email": "cheryl73@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fef9fda4-0c67-496b-b463-e686fbbd9d77"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-18T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-23T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-28T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

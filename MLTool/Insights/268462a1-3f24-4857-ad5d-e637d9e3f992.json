@@ -1,0 +1,81 @@
+{
+    "ClaimID": "268462a1-3f24-4857-ad5d-e637d9e3f992",
+    "PolicyID": "8d8414aa-2865-4c35-acc2-453253b563d0",
+    "EffectiveDates": {
+        "StartDate": "2024-01-19",
+        "EndDate": "2025-01-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1c1a51d7-3041-4173-b6e5-c89b05e4c4f9",
+        "Name": "Derek Bradford",
+        "PolicyNumber": "8d8414aa-2865-4c35-acc2-453253b563d0",
+        "ContactInformation": {
+            "Phone": "001-457-343-5839",
+            "Email": "shannon99@example.net",
+            "Address": "6480 Charles Gateway\nPort Alantown, GU 05894"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-05",
+        "Location": "977 Thomas Mount Apt. 866\nLake Sarah, TN 01660",
+        "Description": "Why might benefit build spend stage face. Hundred chair show affect what kid. Long must hour training produce read. Seek man performance miss agree police design decade."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 63660
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9131
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 95705
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2702
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 55431
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 132765,
+        "TotalApproved": 19127
+    },
+    "AdjusterDetails": {
+        "Name": "Juan Houston",
+        "ContactInformation": {
+            "Phone": "6068611152",
+            "Email": "urodriguez@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a257e7ed-ff40-4a29-8501-3b12ea305afb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

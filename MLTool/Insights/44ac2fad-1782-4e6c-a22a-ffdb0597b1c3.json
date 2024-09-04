@@ -1,0 +1,81 @@
+{
+    "ClaimID": "44ac2fad-1782-4e6c-a22a-ffdb0597b1c3",
+    "PolicyID": "1f96ec15-7158-4f09-815e-d37c42452bb9",
+    "EffectiveDates": {
+        "StartDate": "2023-10-24",
+        "EndDate": "2024-10-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d7cc0173-0355-4f49-9aa1-7647b25dfc5b",
+        "Name": "Jeremy Jones",
+        "PolicyNumber": "1f96ec15-7158-4f09-815e-d37c42452bb9",
+        "ContactInformation": {
+            "Phone": "569.480.4473x988",
+            "Email": "georgebridget@example.org",
+            "Address": "588 Veronica Creek\nPrestonville, OK 33188"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-14",
+        "Location": "744 Mcdonald Flat Suite 357\nPaulaview, VA 54413",
+        "Description": "Face all wall. Board amount low tonight carry strategy boy road. Experience pay training section those available last."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11350
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45635
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17507
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4955
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35162
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 10307,
+        "TotalApproved": 1288
+    },
+    "AdjusterDetails": {
+        "Name": "Alexandra Lewis",
+        "ContactInformation": {
+            "Phone": "507.865.3961x692",
+            "Email": "john24@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8fe6d2a4-c971-4496-b24e-9666085332db"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-14T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-19T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-24T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

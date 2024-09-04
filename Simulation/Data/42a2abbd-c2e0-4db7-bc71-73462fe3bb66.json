@@ -1,0 +1,80 @@
+{
+  "ClaimID": "42a2abbd-c2e0-4db7-bc71-73462fe3bb66",
+  "PolicyID": "5f368acf-1ee2-41c8-98cd-01553b62626a",
+  "EffectiveDates": {
+    "StartDate": "2024-06-16",
+    "EndDate": "2025-06-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "41baf347-d8d1-4ffd-a3e5-2189363f8d4a",
+    "Name": "Kayla Contreras",
+    "PolicyNumber": "5f368acf-1ee2-41c8-98cd-01553b62626a",
+    "ContactInformation": {
+      "Phone": "+1-515-638-6000",
+      "Email": "wwilliams@example.net",
+      "Address": "9359 Sherri Islands\nMariestad, MO 04784"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-12",
+    "Location": "62982 Jordan Dale\nWest Charles, NM 82182",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 83984
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 31808
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9988
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 29723
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5486
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 160989,
+    "TotalApproved": 13806
+  },
+  "AdjusterDetails": {
+    "Name": "Jason Knight",
+    "ContactInformation": {
+      "Phone": "001-414-988-6598x01296",
+      "Email": "gregory28@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/1b84fce9-821a-4dec-9ca2-b1b4639a0b4f"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-12T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-17T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-22T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

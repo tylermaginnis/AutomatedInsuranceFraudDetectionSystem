@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2345e922-380c-4ca9-a52a-faa5b285ac76",
+    "PolicyID": "00235ffe-0fca-46de-a115-fb19291a9ca4",
+    "EffectiveDates": {
+        "StartDate": "2024-01-09",
+        "EndDate": "2025-01-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "89c2137d-687b-434b-89f9-bb933bbdf2b2",
+        "Name": "Vanessa Bailey",
+        "PolicyNumber": "00235ffe-0fca-46de-a115-fb19291a9ca4",
+        "ContactInformation": {
+            "Phone": "779.544.4993x143",
+            "Email": "azimmerman@example.org",
+            "Address": "96959 Bryant Corner Suite 458\nWest Sandraburgh, CT 88267"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-05",
+        "Location": "0203 Rodney Lake\nRiveraborough, NM 50773",
+        "Description": "Sense society including those door goal message contain. Class land dog moment.\nApproach doctor through several. Write kid budget state to. Meeting laugh tree book song."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33846
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 46498
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17068
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5657
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 148644
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 63192,
+        "TotalApproved": 17261
+    },
+    "AdjusterDetails": {
+        "Name": "Lisa Olson",
+        "ContactInformation": {
+            "Phone": "366-700-7974",
+            "Email": "rebecca74@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/de23c3ea-00d9-44b3-be92-3597b95e99e9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-05T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-10T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-15T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

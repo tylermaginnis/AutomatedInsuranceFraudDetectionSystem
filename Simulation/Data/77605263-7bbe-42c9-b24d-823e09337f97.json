@@ -1,0 +1,80 @@
+{
+  "ClaimID": "77605263-7bbe-42c9-b24d-823e09337f97",
+  "PolicyID": "885c18f2-185c-442b-8e8f-7bece1206761",
+  "EffectiveDates": {
+    "StartDate": "2023-11-27",
+    "EndDate": "2024-11-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ea41c9af-3d3a-4b99-abc6-40939da9d2d9",
+    "Name": "Roger Smith",
+    "PolicyNumber": "885c18f2-185c-442b-8e8f-7bece1206761",
+    "ContactInformation": {
+      "Phone": "001-546-921-2542x7369",
+      "Email": "campbelledgar@example.net",
+      "Address": "34535 Kyle Ports\nNorth Katherine, VI 11337"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-28",
+    "Location": "PSC 6918, Box 1390\nAPO AA 34311",
+    "Description": "Citizen morning call world mission charge adult. Note dinner example.\nPainting quite light information have effort. Far for school bag situation security information and."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 31647
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 37830
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 46705
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3718
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 10393
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 48477,
+    "TotalApproved": 11746
+  },
+  "AdjusterDetails": {
+    "Name": "Jesse Gross",
+    "ContactInformation": {
+      "Phone": "(264)602-6704",
+      "Email": "carolynsmith@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/5cb42c46-4e7b-4112-97c5-0811e7082a06"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-28T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-02T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-07T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

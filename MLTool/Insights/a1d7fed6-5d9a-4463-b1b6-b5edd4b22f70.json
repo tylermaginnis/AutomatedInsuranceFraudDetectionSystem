@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a1d7fed6-5d9a-4463-b1b6-b5edd4b22f70",
+    "PolicyID": "178f62d4-90b8-4cd6-9e25-d2d1ef7149d3",
+    "EffectiveDates": {
+        "StartDate": "2024-01-11",
+        "EndDate": "2025-01-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7ddf8f05-e7e0-47de-8c3c-f2afb095e488",
+        "Name": "Sara Martin",
+        "PolicyNumber": "178f62d4-90b8-4cd6-9e25-d2d1ef7149d3",
+        "ContactInformation": {
+            "Phone": "738-690-2079",
+            "Email": "nlawrence@example.org",
+            "Address": "0907 Emily Forge\nLatoyaville, NV 45682"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-17",
+        "Location": "63708 Karen Parkway Apt. 889\nNielsenmouth, PA 09989",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 66455
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29957
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8875
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27020
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 12280
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144587,
+        "TotalApproved": 94403
+    },
+    "AdjusterDetails": {
+        "Name": "John Vance",
+        "ContactInformation": {
+            "Phone": "749-965-5916",
+            "Email": "brownjennifer@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0fd0e95c-f2a3-4750-b7ee-18239ad0d192"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-17T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-22T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-27T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

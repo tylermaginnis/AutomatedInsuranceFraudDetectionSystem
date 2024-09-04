@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9fffa878-81dc-40be-9a5a-4fa69507c67d",
+    "PolicyID": "9ca4ed24-c43c-4967-873c-5c1b42e4e456",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "64342450-e40a-4962-a9c1-bae2d00279be",
+        "Name": "Ashley Hall",
+        "PolicyNumber": "9ca4ed24-c43c-4967-873c-5c1b42e4e456",
+        "ContactInformation": {
+            "Phone": "787-794-8894",
+            "Email": "acollins@example.com",
+            "Address": "069 Brewer Row\nLeton, AR 82259"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-15",
+        "Location": "13500 Graves Alley\nNorth Jason, PA 79836",
+        "Description": "Believe impact find. Pass drive increase property together local. Defense there week ball nature specific assume."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6482
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9181
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8701
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 98385
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 144451
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 112854,
+        "TotalApproved": 10689
+    },
+    "AdjusterDetails": {
+        "Name": "Nicole Brown",
+        "ContactInformation": {
+            "Phone": "(544)397-6056",
+            "Email": "wparrish@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/eeba0377-bf26-4d51-b6e2-8b7f44819395"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-15T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-20T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-25T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

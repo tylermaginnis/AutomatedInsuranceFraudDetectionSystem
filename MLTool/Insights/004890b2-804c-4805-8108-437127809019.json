@@ -1,0 +1,81 @@
+{
+    "ClaimID": "004890b2-804c-4805-8108-437127809019",
+    "PolicyID": "9ffb90be-d820-44cb-9946-6cbb36521d0c",
+    "EffectiveDates": {
+        "StartDate": "2023-10-24",
+        "EndDate": "2024-10-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5a66d24d-26b3-4651-b974-06a44e841a6f",
+        "Name": "Linda Reeves",
+        "PolicyNumber": "9ffb90be-d820-44cb-9946-6cbb36521d0c",
+        "ContactInformation": {
+            "Phone": "415.549.2907x754",
+            "Email": "stephanie73@example.net",
+            "Address": "358 Jones Stravenue Suite 329\nNorth Kristi, MA 79027"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-22",
+        "Location": "16285 Cody Field\nDianamouth, MA 17292",
+        "Description": "Traditional public five first Congress everything nation. Effect ahead concern design particular religious my. Ago toward weight instead side citizen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3163
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 155461
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4385
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11303
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6859
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 162730,
+        "TotalApproved": 22678
+    },
+    "AdjusterDetails": {
+        "Name": "April Morales",
+        "ContactInformation": {
+            "Phone": "988.784.0387x2616",
+            "Email": "henryray@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8c6267f1-e15c-4816-ad59-0693e0db87a9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-22T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-27T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-01T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

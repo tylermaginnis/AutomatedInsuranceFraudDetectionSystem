@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e3e2d1f2-1ce9-46f1-aa35-bc8b74561b2b",
+    "PolicyID": "d60068b9-3424-4be3-be36-4e9ac155c962",
+    "EffectiveDates": {
+        "StartDate": "2024-06-03",
+        "EndDate": "2025-06-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "93775b3b-8acd-45d8-83e9-fdd1a27a5603",
+        "Name": "Terry Hammond",
+        "PolicyNumber": "d60068b9-3424-4be3-be36-4e9ac155c962",
+        "ContactInformation": {
+            "Phone": "(854)775-8060",
+            "Email": "christopherpierce@example.com",
+            "Address": "9211 Nicole Harbor Apt. 835\nAshleyport, OH 47591"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-04",
+        "Location": "9010 Haley Camp\nPort Nicolas, WA 12137",
+        "Description": "Along build skin develop leader before start ready. Follow condition lot laugh must. Really home plan voice model center plan I."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 79648
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2747
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4998
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 82198
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18548
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 3727,
+        "TotalApproved": 1165
+    },
+    "AdjusterDetails": {
+        "Name": "Samuel Gonzalez",
+        "ContactInformation": {
+            "Phone": "(677)501-0307",
+            "Email": "alisha76@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d6934e79-b3e7-43db-b436-792f34116053"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-04T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-09T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-14T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

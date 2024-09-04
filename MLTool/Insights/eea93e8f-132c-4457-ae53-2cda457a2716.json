@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eea93e8f-132c-4457-ae53-2cda457a2716",
+    "PolicyID": "48a746da-d658-402f-aeaf-8295d33fe4e2",
+    "EffectiveDates": {
+        "StartDate": "2024-05-12",
+        "EndDate": "2025-05-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "64c742df-367b-44e8-b6ae-3728807369a4",
+        "Name": "Tanya Brown",
+        "PolicyNumber": "48a746da-d658-402f-aeaf-8295d33fe4e2",
+        "ContactInformation": {
+            "Phone": "+1-924-619-8367x5910",
+            "Email": "hfischer@example.org",
+            "Address": "583 Johnson Junction Apt. 487\nSouth Michael, MT 01339"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-26",
+        "Location": "20980 Sabrina Islands\nPort Nicholasfurt, MO 29348",
+        "Description": "Hospital head down point rock less. Analysis onto this address north.\nIncluding page create group mean. Yourself street see bank continue. Community cultural nearly but."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38775
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36682
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5628
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 183498
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8985
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 23511,
+        "TotalApproved": 1677
+    },
+    "AdjusterDetails": {
+        "Name": "Ronald Robinson",
+        "ContactInformation": {
+            "Phone": "001-524-308-0288x15516",
+            "Email": "taylorjohnny@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/553b8d95-872e-4d92-bba8-21a0893035c2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-26T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-31T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-05T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

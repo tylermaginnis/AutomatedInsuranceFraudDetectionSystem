@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9a4b165b-6d4d-41da-9adf-f2a1fbfadfa2",
+    "PolicyID": "5b20bd7f-5da1-4169-a9ef-0b65b3232452",
+    "EffectiveDates": {
+        "StartDate": "2024-01-18",
+        "EndDate": "2025-01-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cb0f8424-b2ec-48f2-8914-bb104a38de9e",
+        "Name": "Mr. John Holland",
+        "PolicyNumber": "5b20bd7f-5da1-4169-a9ef-0b65b3232452",
+        "ContactInformation": {
+            "Phone": "001-493-386-7866x92510",
+            "Email": "jasonjohnson@example.org",
+            "Address": "34148 Michael Via\nBakerville, GA 18395"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-28",
+        "Location": "56168 Jamie Walk Suite 626\nNorth Nichole, AL 95374",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 62083
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35080
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7658
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18458
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16696
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 139975,
+        "TotalApproved": 22950
+    },
+    "AdjusterDetails": {
+        "Name": "Dawn Estes",
+        "ContactInformation": {
+            "Phone": "971.867.2775",
+            "Email": "bankskathy@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/822b8efd-c3db-44f2-aaca-a0a39ab0e33f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-28T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-02T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-07T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

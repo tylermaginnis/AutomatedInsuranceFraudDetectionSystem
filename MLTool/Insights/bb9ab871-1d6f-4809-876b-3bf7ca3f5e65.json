@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bb9ab871-1d6f-4809-876b-3bf7ca3f5e65",
+    "PolicyID": "48dcb04e-06af-434f-8b56-d519fc1a2074",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f2ef3aac-ee66-40a5-b781-7e38ce3731fe",
+        "Name": "Michelle Mcbride",
+        "PolicyNumber": "48dcb04e-06af-434f-8b56-d519fc1a2074",
+        "ContactInformation": {
+            "Phone": "001-755-503-9301x323",
+            "Email": "pfox@example.org",
+            "Address": "15706 Brown Springs Suite 508\nHunterfort, OK 44743"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-16",
+        "Location": "607 Joseph Walks Apt. 441\nRogerland, DE 12368",
+        "Description": "Education game recently over financial him.\nDo church develop well attack. Many player seven special line."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40095
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13300
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 110803
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 59319
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 95637
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 133248,
+        "TotalApproved": 46584
+    },
+    "AdjusterDetails": {
+        "Name": "Edward Kelly",
+        "ContactInformation": {
+            "Phone": "233-750-9450",
+            "Email": "brittanychristian@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/f96c0c0d-f6cd-4e58-9dd1-3aa84d45aad7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

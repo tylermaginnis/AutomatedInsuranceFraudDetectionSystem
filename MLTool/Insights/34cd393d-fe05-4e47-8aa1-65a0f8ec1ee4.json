@@ -1,0 +1,81 @@
+{
+    "ClaimID": "34cd393d-fe05-4e47-8aa1-65a0f8ec1ee4",
+    "PolicyID": "b04d8c8d-dd1a-4aac-b8e8-ddfa50740bdf",
+    "EffectiveDates": {
+        "StartDate": "2024-03-15",
+        "EndDate": "2025-03-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "107b1e78-2400-4b40-8b3e-60a965a4234f",
+        "Name": "Brian Walker",
+        "PolicyNumber": "b04d8c8d-dd1a-4aac-b8e8-ddfa50740bdf",
+        "ContactInformation": {
+            "Phone": "+1-327-821-1656",
+            "Email": "moralesjoshua@example.org",
+            "Address": "948 Kirby Park Apt. 181\nHarrischester, GU 86142"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-15",
+        "Location": "Unit 5024 Box 8099\nDPO AA 39002",
+        "Description": "Value candidate make ability. Media religious institution ten analysis arrive. Discover family lot forward anything country debate.\nWestern ball then skill wide without sign."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 171484
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6248
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7717
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 69008
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46775
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 34552,
+        "TotalApproved": 26149
+    },
+    "AdjusterDetails": {
+        "Name": "Curtis Davidson",
+        "ContactInformation": {
+            "Phone": "(813)943-7748x12501",
+            "Email": "johnrodriguez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/d0bb5420-222c-4faa-9fde-e2dd626eb77b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-15T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-20T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-25T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

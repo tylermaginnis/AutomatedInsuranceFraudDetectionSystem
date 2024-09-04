@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5a226ba0-503d-441b-a161-76ba68e03bef",
+    "PolicyID": "b0663d2e-6a06-4ea5-a8de-1860b12cba85",
+    "EffectiveDates": {
+        "StartDate": "2023-10-27",
+        "EndDate": "2024-10-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f607906f-70f2-4133-98ef-75f49651f3db",
+        "Name": "Nicole Farley",
+        "PolicyNumber": "b0663d2e-6a06-4ea5-a8de-1860b12cba85",
+        "ContactInformation": {
+            "Phone": "+1-862-472-4452",
+            "Email": "michael89@example.com",
+            "Address": "33517 Cory Park Suite 608\nWrightchester, IN 23424"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-29",
+        "Location": "616 Andrea Lodge Apt. 041\nDominguezport, PR 99566",
+        "Description": "Land drop spend meeting along. Government statement program force.\nGarden maintain environmental half end writer by second. Policy right particularly. Radio kitchen develop night early."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12577
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 62440
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10918
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6557
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 39326
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 142115,
+        "TotalApproved": 79726
+    },
+    "AdjusterDetails": {
+        "Name": "Virginia Cole",
+        "ContactInformation": {
+            "Phone": "997.893.2563",
+            "Email": "dixonchristine@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d7917337-abfe-43b7-94ae-93e1a0e266e4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-04T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-09T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

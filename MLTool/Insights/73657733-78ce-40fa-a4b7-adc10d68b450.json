@@ -1,0 +1,81 @@
+{
+    "ClaimID": "73657733-78ce-40fa-a4b7-adc10d68b450",
+    "PolicyID": "f352cb0f-24ce-49a6-b1ca-49aa792ddae6",
+    "EffectiveDates": {
+        "StartDate": "2024-05-09",
+        "EndDate": "2025-05-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d07a1108-a952-4077-a215-371681412dd7",
+        "Name": "Wendy Fletcher",
+        "PolicyNumber": "f352cb0f-24ce-49a6-b1ca-49aa792ddae6",
+        "ContactInformation": {
+            "Phone": "430.263.4574",
+            "Email": "cduncan@example.com",
+            "Address": "7939 Keller Rapids Suite 722\nMooreside, IA 40285"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-03",
+        "Location": "786 Moody Forge\nBaldwinshire, OH 23837",
+        "Description": "Who middle recently. Rich floor need sing modern bag personal. Really beyond watch result wind meeting.\nTraditional me choose safe whose entire. Nature police sure six spend."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14689
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 56173
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34442
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18073
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6794
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 197673,
+        "TotalApproved": 188932
+    },
+    "AdjusterDetails": {
+        "Name": "Crystal James",
+        "ContactInformation": {
+            "Phone": "001-830-302-9260",
+            "Email": "gonzalezkathryn@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/400022fa-691f-4e2f-bdc7-7185deacdba6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-03T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-08T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-13T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

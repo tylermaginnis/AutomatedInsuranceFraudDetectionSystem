@@ -1,0 +1,81 @@
+{
+    "ClaimID": "add154ad-170b-4dc5-a934-6907bf9c4b46",
+    "PolicyID": "bb2f65c5-7309-4912-a74b-28ccae0b3e5d",
+    "EffectiveDates": {
+        "StartDate": "2024-08-21",
+        "EndDate": "2025-08-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a90c4fcd-1d31-4ee0-9cc8-d1bcff29e1f0",
+        "Name": "Danielle Adams",
+        "PolicyNumber": "bb2f65c5-7309-4912-a74b-28ccae0b3e5d",
+        "ContactInformation": {
+            "Phone": "516-569-0603x41404",
+            "Email": "rachaelroach@example.org",
+            "Address": "01319 Mann Curve Apt. 482\nPenatown, NV 69866"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-27",
+        "Location": "7210 Susan Parks Suite 219\nJacobview, ID 26338",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 95907
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20905
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8730
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18180
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12085
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 155807,
+        "TotalApproved": 8623
+    },
+    "AdjusterDetails": {
+        "Name": "Louis Ramos",
+        "ContactInformation": {
+            "Phone": "(760)611-8311x78338",
+            "Email": "debramerritt@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/760352b0-1dbe-45fc-b038-60a48d0c2d92"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-27T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-02T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-07T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

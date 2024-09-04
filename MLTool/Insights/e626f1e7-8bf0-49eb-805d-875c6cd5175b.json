@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e626f1e7-8bf0-49eb-805d-875c6cd5175b",
+    "PolicyID": "6d6b1201-e796-4ad6-aea1-c82334a05279",
+    "EffectiveDates": {
+        "StartDate": "2024-04-15",
+        "EndDate": "2025-04-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4c40ebcf-053e-4b88-bf3e-ea1042d373eb",
+        "Name": "Christopher Hall",
+        "PolicyNumber": "6d6b1201-e796-4ad6-aea1-c82334a05279",
+        "ContactInformation": {
+            "Phone": "+1-772-435-0807x659",
+            "Email": "carlahines@example.com",
+            "Address": "Unit 2736 Box 7791\nDPO AE 34406"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-22",
+        "Location": "1569 Ruth Light Apt. 701\nNewmantown, AK 03701",
+        "Description": "Stuff since south make. Course player section investment court health. Network language yet voice involve rule attack personal.\nWorry agreement country trade."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14244
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22753
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3387
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1772
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7963
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 158136,
+        "TotalApproved": 138545
+    },
+    "AdjusterDetails": {
+        "Name": "Joanna Ware",
+        "ContactInformation": {
+            "Phone": "235.795.9337",
+            "Email": "albertsmith@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9a2d579a-1340-453f-bb7f-2afb463162e6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

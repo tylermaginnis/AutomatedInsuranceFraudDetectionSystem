@@ -1,0 +1,81 @@
+{
+    "ClaimID": "26b6bba5-8790-42c2-b55f-2e16ba2bf9ac",
+    "PolicyID": "06600475-2a7d-46a9-a686-940f6f9f4e7a",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "169046a7-20dd-4708-8d90-eaa48552a056",
+        "Name": "Mark Lin",
+        "PolicyNumber": "06600475-2a7d-46a9-a686-940f6f9f4e7a",
+        "ContactInformation": {
+            "Phone": "869.802.8442x546",
+            "Email": "ginajensen@example.org",
+            "Address": "4111 Dean Lock Suite 967\nLake Robertstad, NH 75741"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-17",
+        "Location": "5949 Kaiser Lane\nCynthiaville, HI 31524",
+        "Description": "Only I investment himself must. She along compare allow.\nSize official speak his. Politics everything success service general middle local their. Thousand side fall relate."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1882
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2369
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9940
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 176296
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 22636
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 152555,
+        "TotalApproved": 40052
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Porter",
+        "ContactInformation": {
+            "Phone": "9737685908",
+            "Email": "barneskim@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/480018ae-2fab-4760-b229-904f1dca5ce9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

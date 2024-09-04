@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f2248af3-d986-4162-bbb1-d8ac093e87c7",
+    "PolicyID": "5b5275e3-3cd7-4232-bc14-6e65b9822e08",
+    "EffectiveDates": {
+        "StartDate": "2024-04-11",
+        "EndDate": "2025-04-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fd2df701-2ad9-4e37-bbf7-a10a8f908db7",
+        "Name": "Melissa Baker",
+        "PolicyNumber": "5b5275e3-3cd7-4232-bc14-6e65b9822e08",
+        "ContactInformation": {
+            "Phone": "(847)823-6808",
+            "Email": "matthewmaddox@example.org",
+            "Address": "269 Mosley Circle Apt. 954\nSaraside, KS 60422"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-08",
+        "Location": "6753 Carl Spring Suite 883\nLake Brianmouth, AZ 20987",
+        "Description": "Phone start my school interesting challenge boy. Growth wind card. Several crime begin draw behavior speech."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1729
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 84883
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1078
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 114112
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1847
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 91727,
+        "TotalApproved": 69349
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Gonzalez",
+        "ContactInformation": {
+            "Phone": "001-817-541-7227x9300",
+            "Email": "kyoung@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/46084eb9-b713-4db0-8d52-4bf1b53f3df8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

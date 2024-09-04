@@ -1,0 +1,81 @@
+{
+    "ClaimID": "517bcd0a-4891-47f7-8a7e-0ee810a8684b",
+    "PolicyID": "6255cd68-3779-4706-9666-35e10936173e",
+    "EffectiveDates": {
+        "StartDate": "2023-09-12",
+        "EndDate": "2024-09-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "72298345-b5f9-48ab-96f7-3404ed5fdf09",
+        "Name": "Paula Evans",
+        "PolicyNumber": "6255cd68-3779-4706-9666-35e10936173e",
+        "ContactInformation": {
+            "Phone": "477-281-3625x51540",
+            "Email": "nancymartin@example.net",
+            "Address": "0041 Jeremiah Mall Suite 312\nWest Jesse, NY 26836"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-19",
+        "Location": "37634 Jones Locks\nAshleytown, VA 84824",
+        "Description": "Why too over this officer. Know everyone language institution visit as. Build food scene sound fire high will."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7432
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1867
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7940
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35193
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17974
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 109008,
+        "TotalApproved": 81727
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Mueller",
+        "ContactInformation": {
+            "Phone": "626.449.4921",
+            "Email": "mark18@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8a325be0-173f-40bb-87b6-b89139ab895f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-19T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-24T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-29T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

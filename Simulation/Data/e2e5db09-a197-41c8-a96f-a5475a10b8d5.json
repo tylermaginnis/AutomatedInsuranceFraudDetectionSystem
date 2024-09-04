@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e2e5db09-a197-41c8-a96f-a5475a10b8d5",
+  "PolicyID": "90356d98-4a9f-4775-9a86-c5ca182c93f1",
+  "EffectiveDates": {
+    "StartDate": "2024-01-19",
+    "EndDate": "2025-01-18"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0b22081f-a941-455b-9e91-d078ff0b0d74",
+    "Name": "Nicholas Mitchell",
+    "PolicyNumber": "90356d98-4a9f-4775-9a86-c5ca182c93f1",
+    "ContactInformation": {
+      "Phone": "(296)578-1714x28056",
+      "Email": "gregorygonzales@example.com",
+      "Address": "3066 Judy Alley Suite 553\nJacksonton, MN 18066"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-22",
+    "Location": "20337 Peck Station Apt. 002\nWest Jermaine, OK 70023",
+    "Description": "Guy yet might focus identify last. Describe area charge far picture yet rise. Hit situation learn moment shoulder."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 41338
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 16073
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 43537
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2577
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9204
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 125448,
+    "TotalApproved": 80274
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Gaines",
+    "ContactInformation": {
+      "Phone": "2964379785",
+      "Email": "shawn84@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/8be20875-2600-492a-b4c7-0e92f53fb62d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-22T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-27T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-01T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

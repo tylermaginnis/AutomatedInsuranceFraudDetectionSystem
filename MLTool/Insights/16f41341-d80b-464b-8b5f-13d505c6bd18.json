@@ -1,0 +1,81 @@
+{
+    "ClaimID": "16f41341-d80b-464b-8b5f-13d505c6bd18",
+    "PolicyID": "15be4684-9c8b-4450-9094-84fe82d6017a",
+    "EffectiveDates": {
+        "StartDate": "2024-06-14",
+        "EndDate": "2025-06-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b20bd287-7452-4206-9231-6dd1cbd8d455",
+        "Name": "Sean Davis",
+        "PolicyNumber": "15be4684-9c8b-4450-9094-84fe82d6017a",
+        "ContactInformation": {
+            "Phone": "626-684-0102x772",
+            "Email": "angela94@example.com",
+            "Address": "43934 Brown Crescent\nAnthonyview, KS 11823"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-01",
+        "Location": "5086 Thomas Corner Apt. 289\nPort Ashley, MP 54620",
+        "Description": "Time five this alone field. Research natural director enjoy.\nEnter plant forward should to. Democrat partner clearly condition without peace. Do mention scene glass yard military."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 86077
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 72848
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 39192
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4666
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 77902
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 140917,
+        "TotalApproved": 94724
+    },
+    "AdjusterDetails": {
+        "Name": "Kathleen Goodwin",
+        "ContactInformation": {
+            "Phone": "001-320-693-3581",
+            "Email": "john77@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4d95c283-38f7-442d-b064-3fb113a884ff"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

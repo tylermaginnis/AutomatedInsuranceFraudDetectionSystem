@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b4e377e8-bb44-4e5f-80c4-c94a062e21f8",
+    "PolicyID": "8eff4b47-5833-43ff-af26-cab96d0e449b",
+    "EffectiveDates": {
+        "StartDate": "2024-02-22",
+        "EndDate": "2025-02-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "426ead9d-dc4d-4c6f-82df-cbd7391ef38e",
+        "Name": "Angela Young",
+        "PolicyNumber": "8eff4b47-5833-43ff-af26-cab96d0e449b",
+        "ContactInformation": {
+            "Phone": "944.681.0262",
+            "Email": "joneschloe@example.org",
+            "Address": "Unit 7739 Box 3993\nDPO AP 66678"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-20",
+        "Location": "448 Jones Ways Apt. 032\nFreyland, IL 72328",
+        "Description": "Until probably general particular heavy expect. Success two marriage in."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 69491
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 48316
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 85423
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42437
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 97414
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 191444,
+        "TotalApproved": 5769
+    },
+    "AdjusterDetails": {
+        "Name": "Kristen Robinson",
+        "ContactInformation": {
+            "Phone": "(534)743-7338",
+            "Email": "isanchez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/092ccda2-3b50-42e0-8298-e5f1974df528"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-20T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-25T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-30T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

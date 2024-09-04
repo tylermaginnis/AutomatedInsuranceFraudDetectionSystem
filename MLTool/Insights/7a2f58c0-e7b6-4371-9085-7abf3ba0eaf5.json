@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7a2f58c0-e7b6-4371-9085-7abf3ba0eaf5",
+    "PolicyID": "9d8bb0bb-985f-4ce5-97aa-a82491be283d",
+    "EffectiveDates": {
+        "StartDate": "2024-03-25",
+        "EndDate": "2025-03-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "93414317-480d-4454-b26f-faf4da50030e",
+        "Name": "Dustin Larsen",
+        "PolicyNumber": "9d8bb0bb-985f-4ce5-97aa-a82491be283d",
+        "ContactInformation": {
+            "Phone": "878.567.1632",
+            "Email": "kirsten11@example.org",
+            "Address": "802 Matthew Corner\nBrookechester, SC 75001"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-01",
+        "Location": "7853 Sarah Burg\nLake Margaret, KS 62796",
+        "Description": "Interview body word offer off movement it. Trip quite fly.\nHappy possible similar figure from cup draw through. Movie out water. Push vote police oil."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1556
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41791
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 61412
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 132297
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 143610
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 6153,
+        "TotalApproved": 5595
+    },
+    "AdjusterDetails": {
+        "Name": "Helen Brown",
+        "ContactInformation": {
+            "Phone": "260-454-9638x029",
+            "Email": "ecox@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0931fb31-b881-436f-89db-fb6232468552"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-01T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-06T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-11T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

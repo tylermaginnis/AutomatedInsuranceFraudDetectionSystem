@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3aae70bb-90ad-46c9-bf7d-ef88fd290348",
+    "PolicyID": "00235ffe-0fca-46de-a115-fb19291a9ca4",
+    "EffectiveDates": {
+        "StartDate": "2024-04-16",
+        "EndDate": "2025-04-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "89c2137d-687b-434b-89f9-bb933bbdf2b2",
+        "Name": "Vanessa Bailey",
+        "PolicyNumber": "00235ffe-0fca-46de-a115-fb19291a9ca4",
+        "ContactInformation": {
+            "Phone": "779.544.4993x143",
+            "Email": "azimmerman@example.org",
+            "Address": "96959 Bryant Corner Suite 458\nWest Sandraburgh, CT 88267"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-13",
+        "Location": "019 Jennifer Haven Suite 212\nJamestown, NH 40066",
+        "Description": "Indeed understand family miss black trial cup. Account feeling participant risk simple energy simple.\nBest city bad mother value throughout. Box baby operation unit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 55312
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3545
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 81473
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7085
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7529
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 131175,
+        "TotalApproved": 43274
+    },
+    "AdjusterDetails": {
+        "Name": "David Carrillo",
+        "ContactInformation": {
+            "Phone": "(673)277-1199x558",
+            "Email": "carolynvargas@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3716ac82-7977-4c90-a5f3-35947c542dad"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-13T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-18T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-23T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

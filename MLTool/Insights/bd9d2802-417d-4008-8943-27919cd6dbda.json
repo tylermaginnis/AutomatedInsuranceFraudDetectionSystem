@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bd9d2802-417d-4008-8943-27919cd6dbda",
+    "PolicyID": "b8959a33-2d8f-45a5-a4d1-352f4ae3b965",
+    "EffectiveDates": {
+        "StartDate": "2023-11-25",
+        "EndDate": "2024-11-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e08392d2-4125-40f3-ac07-265288e6979d",
+        "Name": "Susan Hughes",
+        "PolicyNumber": "b8959a33-2d8f-45a5-a4d1-352f4ae3b965",
+        "ContactInformation": {
+            "Phone": "8688088433",
+            "Email": "amy98@example.com",
+            "Address": "376 Ryan Mills Suite 745\nLisaton, PR 67159"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-28",
+        "Location": "USNS Burgess\nFPO AA 39434",
+        "Description": "Wear store trip instead. Than look off bring whole bit.\nPeople pay arm. Catch threat everything eat forget. Study than better when statement."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 62466
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2821
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 39551
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2120
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9543
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 190079,
+        "TotalApproved": 75676
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Peters",
+        "ContactInformation": {
+            "Phone": "001-621-664-8904x28675",
+            "Email": "aspencer@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0e6ac1d6-5c6a-4227-baeb-c1d71498ef84"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-28T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

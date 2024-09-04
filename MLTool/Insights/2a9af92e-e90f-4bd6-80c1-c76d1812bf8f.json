@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2a9af92e-e90f-4bd6-80c1-c76d1812bf8f",
+    "PolicyID": "66fd54cf-0c5d-4799-b919-634e3962d401",
+    "EffectiveDates": {
+        "StartDate": "2024-05-18",
+        "EndDate": "2025-05-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4efd53ff-9e21-49e5-816e-d30a60ea5db9",
+        "Name": "Audrey Andrews",
+        "PolicyNumber": "66fd54cf-0c5d-4799-b919-634e3962d401",
+        "ContactInformation": {
+            "Phone": "001-218-792-9498x1616",
+            "Email": "luisfarmer@example.net",
+            "Address": "USNV Moody\nFPO AE 66083"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-22",
+        "Location": "61321 Arnold Valleys Suite 831\nWest Patricia, WI 47628",
+        "Description": "Today audience each involve organization Republican. Town price scene whole western action major."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9917
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12524
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37153
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 37648
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28366
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 67096,
+        "TotalApproved": 7928
+    },
+    "AdjusterDetails": {
+        "Name": "Erik Phillips",
+        "ContactInformation": {
+            "Phone": "(925)298-0469",
+            "Email": "shannon30@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/d4c1cbf3-7fca-4202-937c-1a30dc4edf03"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-22T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-27T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-01T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

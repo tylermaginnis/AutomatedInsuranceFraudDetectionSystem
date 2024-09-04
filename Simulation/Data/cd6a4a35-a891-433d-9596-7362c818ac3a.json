@@ -1,0 +1,80 @@
+{
+  "ClaimID": "cd6a4a35-a891-433d-9596-7362c818ac3a",
+  "PolicyID": "da4bf6d4-bd0e-447c-a4b9-01db6dc6e810",
+  "EffectiveDates": {
+    "StartDate": "2024-01-01",
+    "EndDate": "2024-12-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "16ae995c-a2b3-4c22-a5de-f1d04c1e5b64",
+    "Name": "Richard Lewis",
+    "PolicyNumber": "da4bf6d4-bd0e-447c-a4b9-01db6dc6e810",
+    "ContactInformation": {
+      "Phone": "417.249.5339x9881",
+      "Email": "mirandasmith@example.net",
+      "Address": "27250 Craig Crest Apt. 941\nNew Wendy, NJ 23826"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-05",
+    "Location": "588 Zuniga Hill Apt. 242\nJasonchester, WI 66832",
+    "Description": "Effect decision happen attack right suddenly. Job support behavior building in. Table game may choice."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6191
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 148784
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 1930
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 42559
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 29546
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 113980,
+    "TotalApproved": 43499
+  },
+  "AdjusterDetails": {
+    "Name": "Vanessa Melton",
+    "ContactInformation": {
+      "Phone": "7684950181",
+      "Email": "ajames@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/b0b99970-1db4-4993-afe5-3b9ee6c7724e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-05T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-10T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-15T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

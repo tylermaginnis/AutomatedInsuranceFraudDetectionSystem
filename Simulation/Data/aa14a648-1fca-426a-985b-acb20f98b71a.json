@@ -1,0 +1,80 @@
+{
+  "ClaimID": "aa14a648-1fca-426a-985b-acb20f98b71a",
+  "PolicyID": "e56b292d-c88c-4474-a280-27abbe281d6f",
+  "EffectiveDates": {
+    "StartDate": "2024-06-01",
+    "EndDate": "2025-06-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f8202d32-79aa-4785-a620-6b196d4cc408",
+    "Name": "Paul Jackson",
+    "PolicyNumber": "e56b292d-c88c-4474-a280-27abbe281d6f",
+    "ContactInformation": {
+      "Phone": "001-517-928-5689x351",
+      "Email": "ycampbell@example.com",
+      "Address": "01124 Hoover Burgs\nWest Ashley, TN 12616"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-26",
+    "Location": "580 Andrea Greens\nClarkstad, TX 67972",
+    "Description": "Learn actually while tough hit piece several cell. Back important control beyond turn attorney. Only without operation somebody what often."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8194
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 79415
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 148397
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 3606
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 40051
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 116246,
+    "TotalApproved": 32729
+  },
+  "AdjusterDetails": {
+    "Name": "Kelly Henry",
+    "ContactInformation": {
+      "Phone": "849.462.7452",
+      "Email": "dreyes@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/1c8bff4c-4206-4954-8365-e7e8658a2b43"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-26T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-01T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-06T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "feece005-f92c-4405-aae9-f79f3a2e7122",
+    "PolicyID": "a20c3202-7d05-46cf-b829-afb86272aace",
+    "EffectiveDates": {
+        "StartDate": "2024-07-05",
+        "EndDate": "2025-07-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "71844aa3-a60f-40df-b2d8-c38afae4de98",
+        "Name": "Ashley Ford",
+        "PolicyNumber": "a20c3202-7d05-46cf-b829-afb86272aace",
+        "ContactInformation": {
+            "Phone": "283-959-9369",
+            "Email": "djones@example.com",
+            "Address": "481 Heather Throughway Apt. 220\nSmithland, ID 63281"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-17",
+        "Location": "347 Emily Street\nEast Richardborough, AS 54865",
+        "Description": "Approach arm country including quickly the. Him plan east second standard to."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3288
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29763
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 161478
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2338
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5369
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 183758,
+        "TotalApproved": 35579
+    },
+    "AdjusterDetails": {
+        "Name": "Corey Fernandez",
+        "ContactInformation": {
+            "Phone": "+1-213-977-7164x646",
+            "Email": "lamjohn@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/00a09769-4ae5-4b96-8a17-862978f85673"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "97621e2e-8f13-4cc0-b249-7142dd211de7",
+    "PolicyID": "d60068b9-3424-4be3-be36-4e9ac155c962",
+    "EffectiveDates": {
+        "StartDate": "2024-07-23",
+        "EndDate": "2025-07-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "93775b3b-8acd-45d8-83e9-fdd1a27a5603",
+        "Name": "Terry Hammond",
+        "PolicyNumber": "d60068b9-3424-4be3-be36-4e9ac155c962",
+        "ContactInformation": {
+            "Phone": "(854)775-8060",
+            "Email": "christopherpierce@example.com",
+            "Address": "9211 Nicole Harbor Apt. 835\nAshleyport, OH 47591"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-01",
+        "Location": "384 Susan Mill Suite 491\nSouth Anthony, ID 34478",
+        "Description": "Hard environment me your maybe operation technology. Heart feel father again address against challenge among. Design manager movie sport."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3905
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34058
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 87703
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13507
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 174521
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 46300,
+        "TotalApproved": 2733
+    },
+    "AdjusterDetails": {
+        "Name": "Cameron Garza",
+        "ContactInformation": {
+            "Phone": "638.856.9397",
+            "Email": "awade@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f5dc2249-474a-427b-8ce3-542433e8302b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-01T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-06T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-11T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

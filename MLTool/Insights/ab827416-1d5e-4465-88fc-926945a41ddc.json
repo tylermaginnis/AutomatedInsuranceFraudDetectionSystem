@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ab827416-1d5e-4465-88fc-926945a41ddc",
+    "PolicyID": "733d15ce-2285-49b1-9933-5020f18719ab",
+    "EffectiveDates": {
+        "StartDate": "2023-11-01",
+        "EndDate": "2024-10-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "51af62c8-834c-4d4f-8bf7-ff95d7f419ec",
+        "Name": "Russell Jacobs",
+        "PolicyNumber": "733d15ce-2285-49b1-9933-5020f18719ab",
+        "ContactInformation": {
+            "Phone": "(859)685-3694x50875",
+            "Email": "jonesangela@example.org",
+            "Address": "697 Veronica Rapid\nWest John, LA 52007"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-19",
+        "Location": "3716 Charles Gardens\nStephanieland, NC 66747",
+        "Description": "Probably guess any either institution. Reach move gun small. Ten model act visit more."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10785
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7634
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 62901
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 44575
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 19598
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 161381,
+        "TotalApproved": 71564
+    },
+    "AdjusterDetails": {
+        "Name": "Colin Rivera",
+        "ContactInformation": {
+            "Phone": "(886)661-5201x090",
+            "Email": "cisnerosmichael@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1bfbbc5a-ba25-4254-b323-68b68d9be8ce"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-19T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-24T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-29T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

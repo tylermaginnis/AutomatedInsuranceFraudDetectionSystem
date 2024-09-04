@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e474d01c-3f05-40b5-b56d-e916fbea3999",
+    "PolicyID": "589a208f-fafb-48a2-a9a2-2987887514ad",
+    "EffectiveDates": {
+        "StartDate": "2023-12-12",
+        "EndDate": "2024-12-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d6cbb83a-9830-4f5a-b9ba-a700607db5e8",
+        "Name": "Jonathon Waters",
+        "PolicyNumber": "589a208f-fafb-48a2-a9a2-2987887514ad",
+        "ContactInformation": {
+            "Phone": "983.537.5661x903",
+            "Email": "kathy10@example.com",
+            "Address": "USNV Gray\nFPO AE 64333"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-21",
+        "Location": "9022 Davis Ramp Suite 330\nNew Brandystad, MO 98500",
+        "Description": "Hour sell political painting window. Positive situation western suddenly trade. Today local total. Prepare structure any rate discover scientist structure."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10605
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 51457
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7009
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8088
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8503
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 48231,
+        "TotalApproved": 36334
+    },
+    "AdjusterDetails": {
+        "Name": "Ann Flowers",
+        "ContactInformation": {
+            "Phone": "(944)281-2636",
+            "Email": "polson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b9d81241-d0cb-40e5-9587-9767e8df4f73"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-21T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-26T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-31T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

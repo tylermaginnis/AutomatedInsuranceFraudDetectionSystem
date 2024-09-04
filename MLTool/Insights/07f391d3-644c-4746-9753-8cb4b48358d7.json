@@ -1,0 +1,81 @@
+{
+    "ClaimID": "07f391d3-644c-4746-9753-8cb4b48358d7",
+    "PolicyID": "476f657b-51f2-441f-8b5c-20b5f2617fba",
+    "EffectiveDates": {
+        "StartDate": "2023-11-26",
+        "EndDate": "2024-11-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8cce1ce6-79bd-48b7-8454-cf67a846ef95",
+        "Name": "Benjamin Rogers",
+        "PolicyNumber": "476f657b-51f2-441f-8b5c-20b5f2617fba",
+        "ContactInformation": {
+            "Phone": "+1-227-383-7874",
+            "Email": "markobrien@example.org",
+            "Address": "Unit 7190 Box 0657\nDPO AP 74029"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-11",
+        "Location": "5244 Tapia Viaduct\nWest Jenna, MN 83428",
+        "Description": "Size sense police hotel and. Begin open appear. According perform already different many research.\nWonder our sing. Whatever say green find soon despite. Strategy source art throughout law."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17449
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 64616
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7437
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 33107
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4985
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 171399,
+        "TotalApproved": 158345
+    },
+    "AdjusterDetails": {
+        "Name": "Kenneth Scott",
+        "ContactInformation": {
+            "Phone": "+1-998-482-9420x2615",
+            "Email": "jeffreyjordan@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3f94f275-d4ac-4069-89a9-cc65b550f978"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-11T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-16T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-21T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

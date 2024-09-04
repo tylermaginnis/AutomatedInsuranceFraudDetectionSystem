@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2c481b7c-b45f-42ab-9e8c-44c294632b1c",
+    "PolicyID": "b8959a33-2d8f-45a5-a4d1-352f4ae3b965",
+    "EffectiveDates": {
+        "StartDate": "2024-08-10",
+        "EndDate": "2025-08-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e08392d2-4125-40f3-ac07-265288e6979d",
+        "Name": "Susan Hughes",
+        "PolicyNumber": "b8959a33-2d8f-45a5-a4d1-352f4ae3b965",
+        "ContactInformation": {
+            "Phone": "8688088433",
+            "Email": "amy98@example.com",
+            "Address": "376 Ryan Mills Suite 745\nLisaton, PR 67159"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-26",
+        "Location": "9536 Mitchell Bypass\nEast Nicole, FL 04171",
+        "Description": "Window message somebody enjoy world allow meet animal. College education tell allow interest claim recent.\nHome military hard glass. Southern direction determine authority author bring."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39343
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3647
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12803
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10792
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8780
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 101677,
+        "TotalApproved": 87914
+    },
+    "AdjusterDetails": {
+        "Name": "Emily Estrada",
+        "ContactInformation": {
+            "Phone": "+1-536-610-6501x4728",
+            "Email": "david74@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/34b1718e-06cb-4737-a101-4053ea8dffac"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-26T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-31T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-08-05T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

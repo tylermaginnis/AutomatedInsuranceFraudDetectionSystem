@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8c8c5853-ee27-4ad8-9f05-f976156ad57f",
+    "PolicyID": "fff1792e-d4ff-4a20-8874-31ef483b1b31",
+    "EffectiveDates": {
+        "StartDate": "2023-10-18",
+        "EndDate": "2024-10-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "69ba7493-dab5-4389-8da1-9cbccc693aa3",
+        "Name": "Jennifer Martin",
+        "PolicyNumber": "fff1792e-d4ff-4a20-8874-31ef483b1b31",
+        "ContactInformation": {
+            "Phone": "215-216-2597x103",
+            "Email": "yking@example.org",
+            "Address": "032 Samantha Walks\nPort Brittanymouth, OH 51202"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-12",
+        "Location": "43209 Jamie Island Apt. 908\nSouth Christianland, MT 76502",
+        "Description": "Side threat I computer recently. Successful during yard little. Start trouble remember measure. Without officer network size media."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 93066
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6091
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16564
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 154301
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33569
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 36171,
+        "TotalApproved": 24187
+    },
+    "AdjusterDetails": {
+        "Name": "Jeffrey Reid",
+        "ContactInformation": {
+            "Phone": "001-209-913-7006x3810",
+            "Email": "randymcmahon@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/c92ea358-ecfb-4168-b6f3-89f3ce647e37"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-12T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-17T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-22T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

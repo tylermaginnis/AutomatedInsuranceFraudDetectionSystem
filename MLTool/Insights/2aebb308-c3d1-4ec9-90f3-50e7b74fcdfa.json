@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2aebb308-c3d1-4ec9-90f3-50e7b74fcdfa",
+    "PolicyID": "4590b9d5-5ce2-49fc-ae1b-58e8519ac3b2",
+    "EffectiveDates": {
+        "StartDate": "2024-07-31",
+        "EndDate": "2025-07-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e9b58e30-06dc-4fd1-9032-4adb4a317043",
+        "Name": "James Morgan",
+        "PolicyNumber": "4590b9d5-5ce2-49fc-ae1b-58e8519ac3b2",
+        "ContactInformation": {
+            "Phone": "(557)725-9050",
+            "Email": "joseph10@example.com",
+            "Address": "414 Baker Place\nPort Williamshire, NH 39197"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-03",
+        "Location": "37575 Rose Light\nNew Erinberg, PR 85737",
+        "Description": "Walk create east kid. Small however design wonder.\nFinancial budget send west. Up test difficult throughout. Offer daughter action.\nAttack discuss community him. Up simple experience few."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8931
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1203
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18369
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17027
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 187063
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 23549,
+        "TotalApproved": 12003
+    },
+    "AdjusterDetails": {
+        "Name": "Emily Sandoval",
+        "ContactInformation": {
+            "Phone": "498-313-7078",
+            "Email": "murphyrebecca@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/81d9d7e2-da79-4271-a1db-233842ea4b6d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-03T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-08T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-13T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

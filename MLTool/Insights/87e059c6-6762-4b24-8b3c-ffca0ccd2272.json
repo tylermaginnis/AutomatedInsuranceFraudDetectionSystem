@@ -1,0 +1,81 @@
+{
+    "ClaimID": "87e059c6-6762-4b24-8b3c-ffca0ccd2272",
+    "PolicyID": "4a6675e7-0b1c-4cbf-9c7d-ee5f30faa147",
+    "EffectiveDates": {
+        "StartDate": "2024-04-30",
+        "EndDate": "2025-04-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5d0c8ad4-836a-4c8a-952f-9bb13e4e7f1f",
+        "Name": "Jared Smith",
+        "PolicyNumber": "4a6675e7-0b1c-4cbf-9c7d-ee5f30faa147",
+        "ContactInformation": {
+            "Phone": "275.492.7940x5637",
+            "Email": "wwilson@example.com",
+            "Address": "715 Graham Camp Suite 895\nNorth Kellieville, RI 74584"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-21",
+        "Location": "PSC 0800, Box 9310\nAPO AP 99868",
+        "Description": "Order that between claim with main. Officer strategy government. Evening north fire southern visit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12194
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35844
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 68915
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6993
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12804
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 103408,
+        "TotalApproved": 92351
+    },
+    "AdjusterDetails": {
+        "Name": "Jacqueline Good",
+        "ContactInformation": {
+            "Phone": "6949199558",
+            "Email": "jade64@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/13998672-2fe7-4ce5-ba60-206ac753735f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-21T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-26T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-31T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

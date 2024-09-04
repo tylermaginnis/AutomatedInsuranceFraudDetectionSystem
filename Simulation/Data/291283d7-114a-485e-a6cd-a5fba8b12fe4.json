@@ -1,0 +1,80 @@
+{
+  "ClaimID": "291283d7-114a-485e-a6cd-a5fba8b12fe4",
+  "PolicyID": "ef37a0b5-8bb4-442b-be54-00d776eade83",
+  "EffectiveDates": {
+    "StartDate": "2023-10-29",
+    "EndDate": "2024-10-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "17df6c7c-56e6-4702-8623-71575d30121d",
+    "Name": "Claire Cohen",
+    "PolicyNumber": "ef37a0b5-8bb4-442b-be54-00d776eade83",
+    "ContactInformation": {
+      "Phone": "+1-774-462-6363x286",
+      "Email": "cabrerarobert@example.net",
+      "Address": "28113 Thornton Parks\nBrandontown, OH 60375"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-19",
+    "Location": "5306 Veronica Overpass\nWest Roy, NH 30992",
+    "Description": "Notice official rich work rule different collection. Give lot American responsibility court become."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 170075
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5210
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7173
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 79709
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2685
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 68027,
+    "TotalApproved": 27713
+  },
+  "AdjusterDetails": {
+    "Name": "Kristin Adams",
+    "ContactInformation": {
+      "Phone": "407.814.7234x9167",
+      "Email": "vcalderon@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/daedd82e-b822-455b-9b25-eb49ae3a208a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-19T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-24T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-29T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

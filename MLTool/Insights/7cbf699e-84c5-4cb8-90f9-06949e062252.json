@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7cbf699e-84c5-4cb8-90f9-06949e062252",
+    "PolicyID": "ce792fe6-8f1a-43f0-b067-d8f0bdcda224",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b365701e-67d1-4043-979a-7d5c817348ef",
+        "Name": "Brett Harris",
+        "PolicyNumber": "ce792fe6-8f1a-43f0-b067-d8f0bdcda224",
+        "ContactInformation": {
+            "Phone": "555-941-5156x45931",
+            "Email": "suarezdenise@example.com",
+            "Address": "8022 Barnes Views\nEast Jacob, FL 74839"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-08",
+        "Location": "864 Buckley Trafficway\nLaurenfurt, KS 47177",
+        "Description": "Where off represent. Executive these dog agree."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 152153
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11870
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6215
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8253
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 32968
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 11539,
+        "TotalApproved": 4201
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Kelly",
+        "ContactInformation": {
+            "Phone": "821.424.4411",
+            "Email": "dhanson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/3aa2e957-8388-41d8-8055-8730832d87da"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-08T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-13T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-18T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

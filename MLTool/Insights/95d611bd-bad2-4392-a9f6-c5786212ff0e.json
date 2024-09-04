@@ -1,0 +1,81 @@
+{
+    "ClaimID": "95d611bd-bad2-4392-a9f6-c5786212ff0e",
+    "PolicyID": "d6a40958-1416-4ce5-a42c-8a333a2773e3",
+    "EffectiveDates": {
+        "StartDate": "2024-05-10",
+        "EndDate": "2025-05-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "90a595bf-71c4-48fb-8f10-91c05c396e83",
+        "Name": "Amy Harris",
+        "PolicyNumber": "d6a40958-1416-4ce5-a42c-8a333a2773e3",
+        "ContactInformation": {
+            "Phone": "759.353.5358x48273",
+            "Email": "ortegatodd@example.org",
+            "Address": "485 Mercer Groves Apt. 660\nBrownfort, NY 94632"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-01",
+        "Location": "753 James Lodge\nMoralesfurt, MO 67719",
+        "Description": "Current medical design wide exist. By someone shoulder position family spring son.\nTreatment science resource rest find begin. Risk south research box."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29232
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 47086
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13047
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60130
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1891
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 190833,
+        "TotalApproved": 23974
+    },
+    "AdjusterDetails": {
+        "Name": "Thomas Cole",
+        "ContactInformation": {
+            "Phone": "796.767.9640x6436",
+            "Email": "mcleankelly@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/bf19405a-f239-4265-9599-867cbbcb3954"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-01T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-06T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-11T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

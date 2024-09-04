@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bdfc580c-941f-4b74-b138-0d54dc7d1aaa",
+    "PolicyID": "63d6c7cf-5d02-4bb7-ac71-5ffd36cdcf22",
+    "EffectiveDates": {
+        "StartDate": "2023-12-20",
+        "EndDate": "2024-12-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6a1bb04c-dc76-4290-91a6-99af28d84f1d",
+        "Name": "Christopher Adams",
+        "PolicyNumber": "63d6c7cf-5d02-4bb7-ac71-5ffd36cdcf22",
+        "ContactInformation": {
+            "Phone": "5148966832",
+            "Email": "michaelbuck@example.org",
+            "Address": "793 Jeremy Junction\nSouth Jacobburgh, MO 57227"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-15",
+        "Location": "45195 Sullivan Park\nSouth Alexander, FL 14452",
+        "Description": "Staff total certain system writer special make. Economic safe president feeling. Mouth beyond enough will citizen improve skill."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5671
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17648
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 151933
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 159358
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 21649
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 17694,
+        "TotalApproved": 3620
+    },
+    "AdjusterDetails": {
+        "Name": "David Webster",
+        "ContactInformation": {
+            "Phone": "(852)972-3408x499",
+            "Email": "jennifer16@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8cbea119-7f4d-467e-af74-ff4cef9d198b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c43e633d-ea88-45a4-b783-6df260c02593",
+    "PolicyID": "feb03546-514f-4f62-8aff-41ab3402d275",
+    "EffectiveDates": {
+        "StartDate": "2024-02-07",
+        "EndDate": "2025-02-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "eec280aa-2dcf-40d4-90bd-6aa086089889",
+        "Name": "Jessica Jackson",
+        "PolicyNumber": "feb03546-514f-4f62-8aff-41ab3402d275",
+        "ContactInformation": {
+            "Phone": "+1-842-626-5873x8167",
+            "Email": "collinsbarbara@example.net",
+            "Address": "87730 Johnson Gardens Apt. 519\nNorth Keith, OH 72271"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-18",
+        "Location": "7959 Kelly Flat Suite 673\nRhondabury, SD 03107",
+        "Description": "Ball activity education maybe eight camera. Decide without plant house bar new.\nDiscuss head cup our. Long worker available foot as final stock. Simply company discuss rule free hold."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 74638
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2067
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14310
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 49403
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 10304
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 107101,
+        "TotalApproved": 102880
+    },
+    "AdjusterDetails": {
+        "Name": "William Wong",
+        "ContactInformation": {
+            "Phone": "+1-272-672-5110",
+            "Email": "tiffanyadams@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/e46ec920-c241-4a3f-b08e-d28060afb6d7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a4a9f39d-ed6f-4d47-af36-81e5f5c3b549",
+    "PolicyID": "ee0d54c0-0bde-458f-b65f-a54db8cbb8b8",
+    "EffectiveDates": {
+        "StartDate": "2024-03-29",
+        "EndDate": "2025-03-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c511e674-83a0-4e69-b4eb-bce393b005b5",
+        "Name": "Shelley Moore",
+        "PolicyNumber": "ee0d54c0-0bde-458f-b65f-a54db8cbb8b8",
+        "ContactInformation": {
+            "Phone": "001-851-578-7413x535",
+            "Email": "ericodonnell@example.org",
+            "Address": "6598 Nielsen Spring Apt. 413\nNorth Jenniferchester, ID 71374"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-18",
+        "Location": "370 Cline Lodge Suite 472\nMichaelberg, PA 20606",
+        "Description": "Window fine consumer old behavior why miss. Garden security base me run stage. Central five north campaign worker recent. Guy animal feel check picture prevent feeling or."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70800
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5940
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23334
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67421
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36596
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 166956,
+        "TotalApproved": 34241
+    },
+    "AdjusterDetails": {
+        "Name": "Anita Smith",
+        "ContactInformation": {
+            "Phone": "(890)746-0596",
+            "Email": "tsherman@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/9b1ef44d-39a8-429d-928c-337fce49d77a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-18T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-23T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-28T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

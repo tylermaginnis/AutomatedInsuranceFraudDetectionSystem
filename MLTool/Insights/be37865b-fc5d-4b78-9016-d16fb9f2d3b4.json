@@ -1,0 +1,81 @@
+{
+    "ClaimID": "be37865b-fc5d-4b78-9016-d16fb9f2d3b4",
+    "PolicyID": "f6497ed1-fdcf-4eca-93ca-c8c55535c986",
+    "EffectiveDates": {
+        "StartDate": "2024-03-23",
+        "EndDate": "2025-03-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d7a66d5c-089e-438d-82dc-7f956f6807c9",
+        "Name": "Mr. Jeffrey Payne",
+        "PolicyNumber": "f6497ed1-fdcf-4eca-93ca-c8c55535c986",
+        "ContactInformation": {
+            "Phone": "+1-574-387-1172",
+            "Email": "kgill@example.net",
+            "Address": "812 Alicia Knoll Suite 510\nHernandeztown, TX 98152"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-25",
+        "Location": "PSC 9870, Box 7675\nAPO AP 82140",
+        "Description": "Blood but raise create give small although. Else international woman believe face factor. Certain offer role available."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19734
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15400
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 45986
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9938
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6088
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 171890,
+        "TotalApproved": 82048
+    },
+    "AdjusterDetails": {
+        "Name": "Alexander Evans",
+        "ContactInformation": {
+            "Phone": "906.681.7267",
+            "Email": "michealwilson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/b94c90f4-0876-417b-9241-facaf9cca5ca"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-25T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-30T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-04T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

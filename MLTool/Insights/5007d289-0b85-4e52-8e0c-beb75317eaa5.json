@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5007d289-0b85-4e52-8e0c-beb75317eaa5",
+    "PolicyID": "7ed004b5-5130-40c7-9a28-f274cebae263",
+    "EffectiveDates": {
+        "StartDate": "2023-10-05",
+        "EndDate": "2024-10-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bd635481-74df-47b9-97b3-c172ad96d6d4",
+        "Name": "Steven Clark",
+        "PolicyNumber": "7ed004b5-5130-40c7-9a28-f274cebae263",
+        "ContactInformation": {
+            "Phone": "8194292931",
+            "Email": "oevans@example.net",
+            "Address": "1736 Zuniga Mews Suite 246\nNorth Lanceville, WY 02499"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-15",
+        "Location": "40730 Melissa Lodge Apt. 413\nJohnmouth, MN 41318",
+        "Description": "Wonder ever exist break guess range. Film military your over goal include operation.\nStrong draw decide eat mention ball. Dog two team. During condition foreign sure among."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2499
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10039
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 137611
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8826
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27962
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 20284,
+        "TotalApproved": 14224
+    },
+    "AdjusterDetails": {
+        "Name": "Brett Lawrence",
+        "ContactInformation": {
+            "Phone": "703-554-8846",
+            "Email": "kerremily@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/222af11a-b9e8-42fc-bdde-5ecc3a732c54"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

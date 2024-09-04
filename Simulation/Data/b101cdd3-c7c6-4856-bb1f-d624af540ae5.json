@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b101cdd3-c7c6-4856-bb1f-d624af540ae5",
+  "PolicyID": "9f121d2a-f6f4-439e-a5a5-a23748b4c4d5",
+  "EffectiveDates": {
+    "StartDate": "2023-12-31",
+    "EndDate": "2024-12-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "690cfbc5-40b3-426d-9b24-36568bf27e59",
+    "Name": "Luis Watkins DDS",
+    "PolicyNumber": "9f121d2a-f6f4-439e-a5a5-a23748b4c4d5",
+    "ContactInformation": {
+      "Phone": "001-484-355-0828x95182",
+      "Email": "heatherhobbs@example.org",
+      "Address": "812 Rodney Fall Suite 410\nStaffordmouth, AK 35156"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-12",
+    "Location": "Unit 4203 Box 8907\nDPO AE 84050",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 95412
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 41074
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6809
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15498
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 18868
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 177661,
+    "TotalApproved": 169937
+  },
+  "AdjusterDetails": {
+    "Name": "Nicholas Molina",
+    "ContactInformation": {
+      "Phone": "001-692-787-7858x4322",
+      "Email": "michaelmcdonald@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/6be1d650-a6e6-402c-8d6c-6df710c03f10"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-12T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-17T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-22T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

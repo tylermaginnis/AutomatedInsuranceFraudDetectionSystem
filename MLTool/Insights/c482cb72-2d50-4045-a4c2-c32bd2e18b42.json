@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c482cb72-2d50-4045-a4c2-c32bd2e18b42",
+    "PolicyID": "2da24aca-2421-4e54-a9ca-7e191885df88",
+    "EffectiveDates": {
+        "StartDate": "2023-12-21",
+        "EndDate": "2024-12-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ff0224de-33ec-4033-b9d1-4adadd683fba",
+        "Name": "Anthony Gardner",
+        "PolicyNumber": "2da24aca-2421-4e54-a9ca-7e191885df88",
+        "ContactInformation": {
+            "Phone": "581.533.3605",
+            "Email": "floresjudy@example.net",
+            "Address": "5983 Rivera Green Apt. 600\nNew Kathy, ND 62476"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-06",
+        "Location": "4467 French Throughway\nWilcoxshire, PR 94505",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 90159
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31471
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9788
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16457
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18471
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 166346,
+        "TotalApproved": 138810
+    },
+    "AdjusterDetails": {
+        "Name": "Angel Osborn",
+        "ContactInformation": {
+            "Phone": "239.630.4560x10728",
+            "Email": "iwilliamson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/7dabca68-c65c-4556-abc8-4c069be93e95"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-06T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-11T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-16T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

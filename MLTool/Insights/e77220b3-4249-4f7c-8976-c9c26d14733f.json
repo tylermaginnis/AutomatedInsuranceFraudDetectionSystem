@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e77220b3-4249-4f7c-8976-c9c26d14733f",
+    "PolicyID": "9800f953-438c-4ce6-94bf-58ce72bfe892",
+    "EffectiveDates": {
+        "StartDate": "2024-01-02",
+        "EndDate": "2025-01-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1d166f21-eb96-4a70-b953-7f6941cd3a6e",
+        "Name": "Timothy Fry",
+        "PolicyNumber": "9800f953-438c-4ce6-94bf-58ce72bfe892",
+        "ContactInformation": {
+            "Phone": "5458181866",
+            "Email": "kcosta@example.net",
+            "Address": "63689 Rick Forges Suite 469\nLake Jasminefurt, WA 69899"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-07",
+        "Location": "6765 Allen Radial\nWhiteheadview, MP 63195",
+        "Description": "Nature same responsibility on indeed military. Thousand institution scientist stand seem firm hundred. Control sound government you must after might."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17489
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5752
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9448
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 137444
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42003
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 41880,
+        "TotalApproved": 39575
+    },
+    "AdjusterDetails": {
+        "Name": "Alexander Wilkins",
+        "ContactInformation": {
+            "Phone": "706-901-5848",
+            "Email": "bob00@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c2cb25e7-59b6-4685-a2f7-a0e9d4e6541d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

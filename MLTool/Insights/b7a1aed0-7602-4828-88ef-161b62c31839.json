@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b7a1aed0-7602-4828-88ef-161b62c31839",
+    "PolicyID": "bfe6c734-a108-4e08-8889-5ad208e67b54",
+    "EffectiveDates": {
+        "StartDate": "2024-02-13",
+        "EndDate": "2025-02-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "593171f4-2886-49c9-8587-7a14f32702a2",
+        "Name": "Chad Nichols",
+        "PolicyNumber": "bfe6c734-a108-4e08-8889-5ad208e67b54",
+        "ContactInformation": {
+            "Phone": "001-674-453-1217x221",
+            "Email": "katrina10@example.org",
+            "Address": "2553 Wright Shore\nPort Vickie, MO 53152"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-20",
+        "Location": "385 Nicholas Trace Suite 065\nLake Stephenberg, MH 12298",
+        "Description": "Your price spend book. Staff under full national. Country remember minute. Protect seven well manage key any else tend."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8259
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 10029
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 41056
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9648
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17928
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 13294,
+        "TotalApproved": 5643
+    },
+    "AdjusterDetails": {
+        "Name": "Austin Winters",
+        "ContactInformation": {
+            "Phone": "578.872.9680x278",
+            "Email": "huffmanmichael@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/162aad96-589c-493f-b4a1-1afcd50e8494"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-20T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-25T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-30T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

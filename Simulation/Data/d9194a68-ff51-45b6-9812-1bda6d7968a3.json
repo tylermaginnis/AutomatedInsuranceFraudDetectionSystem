@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d9194a68-ff51-45b6-9812-1bda6d7968a3",
+  "PolicyID": "a5663ade-53b5-448d-a54b-5548418cca6a",
+  "EffectiveDates": {
+    "StartDate": "2023-09-10",
+    "EndDate": "2024-09-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "32265b1e-4a4c-4566-bff9-b3b956163e6c",
+    "Name": "Carol Lowery",
+    "PolicyNumber": "a5663ade-53b5-448d-a54b-5548418cca6a",
+    "ContactInformation": {
+      "Phone": "986.637.2677x4012",
+      "Email": "foxwilliam@example.net",
+      "Address": "47303 Randolph Well\nPort Davidland, VA 98970"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-18",
+    "Location": "494 Michael Plains\nGarciaborough, FM 41661",
+    "Description": "Wife six add others great. Choice me ask ahead house and make table.\nFather ready traditional line form. Wait body rich most dog front. Possible value cup feel school those."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 85651
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6697
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4071
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3672
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 17915
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 183981,
+    "TotalApproved": 165122
+  },
+  "AdjusterDetails": {
+    "Name": "Sandra Anderson",
+    "ContactInformation": {
+      "Phone": "759.507.2602",
+      "Email": "swarren@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/0a5e47b1-feee-46e5-9a9e-2cb60189acb0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-18T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-23T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-28T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

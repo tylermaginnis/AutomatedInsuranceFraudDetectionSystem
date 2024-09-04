@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bcd9da99-3c21-4143-81ce-a4c5ec95de55",
+    "PolicyID": "5f78b01d-250a-493b-8cb0-12f366101220",
+    "EffectiveDates": {
+        "StartDate": "2024-03-31",
+        "EndDate": "2025-03-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "be04d219-edf5-49d1-9b7e-3a90191221cb",
+        "Name": "Michelle Wolf",
+        "PolicyNumber": "5f78b01d-250a-493b-8cb0-12f366101220",
+        "ContactInformation": {
+            "Phone": "9136831460",
+            "Email": "tuckerdarren@example.org",
+            "Address": "5448 Humphrey Gardens\nNorth Angela, VT 43888"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-13",
+        "Location": "7423 Robinson Trafficway Suite 238\nRodgersport, UT 76950",
+        "Description": "Program check rule final again. Beat far sign relationship. See risk wind on.\nCamera side say move. Education service and away."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7864
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4980
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2792
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 93030
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13692
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 164277,
+        "TotalApproved": 49049
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Le",
+        "ContactInformation": {
+            "Phone": "614.596.6687",
+            "Email": "scottrogers@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/0adf0010-9199-43cd-80cf-2c2a413044c2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-13T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-18T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-23T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

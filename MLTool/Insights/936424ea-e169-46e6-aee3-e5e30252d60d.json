@@ -1,0 +1,81 @@
+{
+    "ClaimID": "936424ea-e169-46e6-aee3-e5e30252d60d",
+    "PolicyID": "e94fae2a-faef-4ebc-a840-461f53528ec9",
+    "EffectiveDates": {
+        "StartDate": "2023-11-17",
+        "EndDate": "2024-11-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "14899431-eaf3-4121-985a-7b9737236bb8",
+        "Name": "John Romero",
+        "PolicyNumber": "e94fae2a-faef-4ebc-a840-461f53528ec9",
+        "ContactInformation": {
+            "Phone": "478.436.4583",
+            "Email": "xmurphy@example.com",
+            "Address": "9065 Reid Spur\nGonzalesport, DE 33869"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-02",
+        "Location": "5084 Shaw Estates Suite 303\nNorth Cynthiaside, AZ 17288",
+        "Description": "Think market myself finish information. First then ten wish purpose.\nThought discover glass understand song official. Care hair own recent finish paper professional. Reduce husband soon."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19293
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 68324
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6642
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20350
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 43147
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 33016,
+        "TotalApproved": 6753
+    },
+    "AdjusterDetails": {
+        "Name": "Ryan Espinoza",
+        "ContactInformation": {
+            "Phone": "265-865-3253x6881",
+            "Email": "jon08@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/65b338a3-0298-453d-95dc-2c4970e79ffb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

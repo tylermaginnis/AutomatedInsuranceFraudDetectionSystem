@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4faff5d7-ae36-42e3-830b-8c85b1d959a8",
+  "PolicyID": "26c0cf4e-a97c-448c-b494-4dd5b55d9847",
+  "EffectiveDates": {
+    "StartDate": "2023-12-04",
+    "EndDate": "2024-12-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8168fcb4-2e38-4a29-8b42-6d1bf04abe02",
+    "Name": "Wesley Brooks",
+    "PolicyNumber": "26c0cf4e-a97c-448c-b494-4dd5b55d9847",
+    "ContactInformation": {
+      "Phone": "353-344-9675x04644",
+      "Email": "psutton@example.net",
+      "Address": "PSC 3696, Box 1023\nAPO AA 98746"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-14",
+    "Location": "79230 Joseph Lock\nRobertland, FM 84029",
+    "Description": "New watch factor generation record. Do bill everything medical.\nBut real TV husband to. Less meet huge other act."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 22375
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 1252
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 11321
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 44028
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6308
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 23526,
+    "TotalApproved": 20176
+  },
+  "AdjusterDetails": {
+    "Name": "Rebecca Strong",
+    "ContactInformation": {
+      "Phone": "001-808-749-9685",
+      "Email": "wheelerrobert@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/13add64d-942b-4714-ab29-5bc245d8ba62"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-14T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-19T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-24T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

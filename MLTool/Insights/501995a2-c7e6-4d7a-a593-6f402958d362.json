@@ -1,0 +1,81 @@
+{
+    "ClaimID": "501995a2-c7e6-4d7a-a593-6f402958d362",
+    "PolicyID": "bff265ad-c286-4964-a2b0-1be004363dfc",
+    "EffectiveDates": {
+        "StartDate": "2024-08-31",
+        "EndDate": "2025-08-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f37330e1-77e0-4119-ac87-7e70b46b0ea1",
+        "Name": "Victoria Walker",
+        "PolicyNumber": "bff265ad-c286-4964-a2b0-1be004363dfc",
+        "ContactInformation": {
+            "Phone": "812.673.2733",
+            "Email": "gileswesley@example.net",
+            "Address": "5352 Laura Mills Suite 847\nKristenberg, NY 25711"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-07",
+        "Location": "Unit 1256 Box 5266\nDPO AA 02505",
+        "Description": "Serious lose cell sure defense detail. Author parent put tough study six simply. Fight ground film place why fall. Above anyone will player rather attorney voice."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2692
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2075
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28221
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2455
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24967
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 146445,
+        "TotalApproved": 19169
+    },
+    "AdjusterDetails": {
+        "Name": "Jonathan Oliver",
+        "ContactInformation": {
+            "Phone": "951-781-1940",
+            "Email": "keith38@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/f30b2c22-5bb6-45db-ad9b-80b70b60efae"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-07T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-12T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-17T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

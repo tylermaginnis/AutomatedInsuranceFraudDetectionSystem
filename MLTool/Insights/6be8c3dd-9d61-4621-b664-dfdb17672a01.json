@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6be8c3dd-9d61-4621-b664-dfdb17672a01",
+    "PolicyID": "d4404111-d3ef-4aff-9931-8e2c2cb44ada",
+    "EffectiveDates": {
+        "StartDate": "2023-10-26",
+        "EndDate": "2024-10-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4591c2b8-bb10-4f56-94ca-0c3d76fac505",
+        "Name": "Shawna Cross",
+        "PolicyNumber": "d4404111-d3ef-4aff-9931-8e2c2cb44ada",
+        "ContactInformation": {
+            "Phone": "711-246-2898x61390",
+            "Email": "kevinarnold@example.net",
+            "Address": "28675 David Canyon Suite 630\nJaymouth, OK 28314"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-10",
+        "Location": "17447 Carter Drives Apt. 738\nLake Tammybury, MO 94200",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 62307
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 31391
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7003
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23016
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8404
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 132121,
+        "TotalApproved": 119907
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Reyes",
+        "ContactInformation": {
+            "Phone": "(397)425-4794x995",
+            "Email": "garciaraymond@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/27e4399f-6931-4c1d-bcfc-4b7ec2761d27"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

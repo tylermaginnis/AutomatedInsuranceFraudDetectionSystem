@@ -1,0 +1,81 @@
+{
+    "ClaimID": "30e78a77-7dba-4014-9402-48c1a88d2b0c",
+    "PolicyID": "ee96f846-fb16-4eb9-8c9c-11ea52843d95",
+    "EffectiveDates": {
+        "StartDate": "2023-12-14",
+        "EndDate": "2024-12-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2a76e320-adbd-4921-b05b-215efc3e3ba8",
+        "Name": "John Foster",
+        "PolicyNumber": "ee96f846-fb16-4eb9-8c9c-11ea52843d95",
+        "ContactInformation": {
+            "Phone": "845-546-8422",
+            "Email": "marksadrienne@example.com",
+            "Address": "44702 Evans Walk\nSuzanneside, WA 89293"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-10",
+        "Location": "984 Daniel Loaf Suite 242\nBethbury, KS 51175",
+        "Description": "West opportunity whole indicate decade class. Push on everything some. City professor decade address land draw."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36058
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1592
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12565
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3430
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 37812
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 152115,
+        "TotalApproved": 69419
+    },
+    "AdjusterDetails": {
+        "Name": "Justin Roberson",
+        "ContactInformation": {
+            "Phone": "243-845-7652x2657",
+            "Email": "amberchandler@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f6f52157-77fe-43f1-baea-e904f6de749b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-10T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-15T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-20T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

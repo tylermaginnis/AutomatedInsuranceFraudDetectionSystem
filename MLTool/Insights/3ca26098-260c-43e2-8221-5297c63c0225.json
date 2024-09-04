@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3ca26098-260c-43e2-8221-5297c63c0225",
+    "PolicyID": "3cca7cb2-4c0f-4f44-b99d-505e9eaf28d0",
+    "EffectiveDates": {
+        "StartDate": "2023-12-16",
+        "EndDate": "2024-12-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cec3baf0-6e88-41d8-afd6-b6597b681e06",
+        "Name": "Matthew Lewis",
+        "PolicyNumber": "3cca7cb2-4c0f-4f44-b99d-505e9eaf28d0",
+        "ContactInformation": {
+            "Phone": "(971)219-3275x546",
+            "Email": "nlam@example.net",
+            "Address": "Unit 4063 Box 7006\nDPO AA 55014"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-08",
+        "Location": "PSC 9479, Box 0215\nAPO AP 41311",
+        "Description": "President free three bed personal dark who. Difficult water degree child option region price. Close so yourself act turn rest hair."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13980
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3163
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35048
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 119540
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2422
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 45335,
+        "TotalApproved": 31120
+    },
+    "AdjusterDetails": {
+        "Name": "Jean Robertson",
+        "ContactInformation": {
+            "Phone": "(339)825-8438",
+            "Email": "kaitlynelliott@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/62630ee4-d069-4a09-92a8-08663d8845d8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-08T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-13T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-18T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

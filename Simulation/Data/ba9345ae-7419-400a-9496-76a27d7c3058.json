@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ba9345ae-7419-400a-9496-76a27d7c3058",
+  "PolicyID": "672916c1-56df-43da-8103-0b7658e55e7c",
+  "EffectiveDates": {
+    "StartDate": "2024-06-10",
+    "EndDate": "2025-06-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f63d9984-b3f0-40b8-be70-9709d1a125a6",
+    "Name": "Jonathan Diaz",
+    "PolicyNumber": "672916c1-56df-43da-8103-0b7658e55e7c",
+    "ContactInformation": {
+      "Phone": "(316)906-8408",
+      "Email": "jacksonkimberly@example.org",
+      "Address": "071 Kimberly Forks\nJacksonberg, NM 59942"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-05",
+    "Location": "974 Hopkins Meadow\nMuellerland, MS 64489",
+    "Description": "Toward turn nature Mr surface. Imagine interest first everything will nearly.\nResponse beat off recently heart determine. Might accept assume tough born."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 18984
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13231
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 138068
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 120409
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 24885
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 115066,
+    "TotalApproved": 42187
+  },
+  "AdjusterDetails": {
+    "Name": "Hector Lopez",
+    "ContactInformation": {
+      "Phone": "(609)865-5007x6610",
+      "Email": "hgonzalez@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/1884cc3b-df3f-4cdb-b1d0-2f8732b6d64c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-05T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-10T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-15T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

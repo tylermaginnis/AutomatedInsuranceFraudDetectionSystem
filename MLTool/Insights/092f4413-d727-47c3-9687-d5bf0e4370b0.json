@@ -1,0 +1,81 @@
+{
+    "ClaimID": "092f4413-d727-47c3-9687-d5bf0e4370b0",
+    "PolicyID": "655e04bc-7f9a-4e31-8878-e5d154d2affc",
+    "EffectiveDates": {
+        "StartDate": "2023-09-30",
+        "EndDate": "2024-09-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "38080489-1e8e-4fbe-8c8f-919f9e62e626",
+        "Name": "Cynthia Andrews",
+        "PolicyNumber": "655e04bc-7f9a-4e31-8878-e5d154d2affc",
+        "ContactInformation": {
+            "Phone": "9119758451",
+            "Email": "nperez@example.org",
+            "Address": "6325 Smith Trace\nGomezstad, AK 11592"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-08",
+        "Location": "847 Stacy Islands\nWest Michael, NJ 27269",
+        "Description": "Entire church decision each opportunity real air company. The month every best. Significant whom when specific much hot."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2803
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18651
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 94574
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6073
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3306
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 108160,
+        "TotalApproved": 16701
+    },
+    "AdjusterDetails": {
+        "Name": "Jose Pierce",
+        "ContactInformation": {
+            "Phone": "796-514-9501x870",
+            "Email": "gonzalezsteve@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1a0fd19a-2864-49b5-946a-5adfc5f9cd32"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

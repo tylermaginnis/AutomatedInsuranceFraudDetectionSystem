@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0404401f-5a49-4aa6-977e-0a409e964f67",
+    "PolicyID": "e23963db-255e-4a81-b3f8-52ee42f9c610",
+    "EffectiveDates": {
+        "StartDate": "2024-04-24",
+        "EndDate": "2025-04-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "49c499bf-6700-4af2-947c-b0f7038071b4",
+        "Name": "Robert Nelson",
+        "PolicyNumber": "e23963db-255e-4a81-b3f8-52ee42f9c610",
+        "ContactInformation": {
+            "Phone": "497.708.0540x82484",
+            "Email": "eramirez@example.net",
+            "Address": "595 Hannah Squares Apt. 654\nLopezburgh, CO 01707"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-16",
+        "Location": "9284 Franklin Drives\nNorth Amanda, DE 76441",
+        "Description": "Door team hotel rich personal though east large.\nBeautiful allow believe smile everybody phone environment. Short look with century."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 101423
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28608
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15107
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9054
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 162159
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 39190,
+        "TotalApproved": 34947
+    },
+    "AdjusterDetails": {
+        "Name": "Adam Soto",
+        "ContactInformation": {
+            "Phone": "343-766-7085",
+            "Email": "kylegrant@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8ef61dd9-d9bb-4bba-9ef9-b005d19b0d51"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-16T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-21T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-26T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

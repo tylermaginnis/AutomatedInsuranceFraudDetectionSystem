@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4521b59f-e956-4934-98d1-c8c95a8e6a6a",
+    "PolicyID": "700d31a1-4a82-46da-8dbd-d65747a991f7",
+    "EffectiveDates": {
+        "StartDate": "2023-11-23",
+        "EndDate": "2024-11-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "09e657ca-8492-4c6c-87c1-4948594d2b47",
+        "Name": "Chad Fleming",
+        "PolicyNumber": "700d31a1-4a82-46da-8dbd-d65747a991f7",
+        "ContactInformation": {
+            "Phone": "717.284.3554x975",
+            "Email": "emilyyoung@example.org",
+            "Address": "855 Michael Isle Suite 674\nWest Brianstad, AR 94254"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-09",
+        "Location": "72293 Robinson Parkways Suite 677\nJonesshire, CT 22480",
+        "Description": "Join several available hope daughter discuss find. Play record think example every history."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 118818
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3975
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 89877
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31927
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23055
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 14768,
+        "TotalApproved": 11282
+    },
+    "AdjusterDetails": {
+        "Name": "Luis Davila",
+        "ContactInformation": {
+            "Phone": "354-687-4449",
+            "Email": "coopersonya@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/85593306-fc9b-4694-a822-50369c5e2534"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-09T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-14T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-19T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

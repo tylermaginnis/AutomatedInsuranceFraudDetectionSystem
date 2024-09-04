@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6e3240e0-5469-4ad4-8eae-d0a438b4d75b",
+    "PolicyID": "178f62d4-90b8-4cd6-9e25-d2d1ef7149d3",
+    "EffectiveDates": {
+        "StartDate": "2023-10-05",
+        "EndDate": "2024-10-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7ddf8f05-e7e0-47de-8c3c-f2afb095e488",
+        "Name": "Sara Martin",
+        "PolicyNumber": "178f62d4-90b8-4cd6-9e25-d2d1ef7149d3",
+        "ContactInformation": {
+            "Phone": "738-690-2079",
+            "Email": "nlawrence@example.org",
+            "Address": "0907 Emily Forge\nLatoyaville, NV 45682"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-08",
+        "Location": "172 Smith Center\nCurtischester, MH 76196",
+        "Description": "Cost minute son baby under improve rise face.\nWar particular career sign expect report. Also over her theory everybody very movement."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 53647
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 114029
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2416
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8213
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 147226
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 110309,
+        "TotalApproved": 54649
+    },
+    "AdjusterDetails": {
+        "Name": "Stacey Pacheco",
+        "ContactInformation": {
+            "Phone": "708.874.7863",
+            "Email": "lindasweeney@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/6bdb0219-760f-41c6-ad8b-7bdb766b99e6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

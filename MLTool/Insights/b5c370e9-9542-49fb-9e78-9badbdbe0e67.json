@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b5c370e9-9542-49fb-9e78-9badbdbe0e67",
+    "PolicyID": "d9d782c3-1433-4f93-aef9-82fb40988da4",
+    "EffectiveDates": {
+        "StartDate": "2024-05-31",
+        "EndDate": "2025-05-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "9171b411-ed45-42be-a5c9-6ced506082c9",
+        "Name": "Shane Jacobs PhD",
+        "PolicyNumber": "d9d782c3-1433-4f93-aef9-82fb40988da4",
+        "ContactInformation": {
+            "Phone": "(849)265-8783",
+            "Email": "helenlopez@example.com",
+            "Address": "8807 Jeremy Ville\nThompsonchester, VT 41548"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-08",
+        "Location": "5556 Stewart Terrace\nKimberlyton, TX 02370",
+        "Description": "Become eat all result picture. Growth section small since stuff act visit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 134624
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3726
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31422
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18342
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 48039
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 100193,
+        "TotalApproved": 10445
+    },
+    "AdjusterDetails": {
+        "Name": "Luke Hammond",
+        "ContactInformation": {
+            "Phone": "4016906610",
+            "Email": "phillipserin@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/16840b94-610f-4a85-95dc-8e2cf269bf35"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

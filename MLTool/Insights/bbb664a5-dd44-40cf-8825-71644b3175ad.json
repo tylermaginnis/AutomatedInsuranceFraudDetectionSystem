@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bbb664a5-dd44-40cf-8825-71644b3175ad",
+    "PolicyID": "36a5e4d8-9115-4b1d-ada9-e843d2ef583a",
+    "EffectiveDates": {
+        "StartDate": "2024-05-26",
+        "EndDate": "2025-05-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e6082358-2b5b-441b-82a1-a7c6b3190fb1",
+        "Name": "Briana Cooper",
+        "PolicyNumber": "36a5e4d8-9115-4b1d-ada9-e843d2ef583a",
+        "ContactInformation": {
+            "Phone": "964.429.0763",
+            "Email": "melvinmiller@example.com",
+            "Address": "8251 Mercer Wall\nLake Shannonton, ID 18418"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-11",
+        "Location": "9747 Jordan Roads Apt. 427\nPort Debraside, LA 62731",
+        "Description": "Music baby least news can care three. Western case plan maintain morning.\nImprove claim ask ever report yourself responsibility. Close draw thing check popular."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15087
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 84857
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 82755
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23048
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18249
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 163240,
+        "TotalApproved": 162775
+    },
+    "AdjusterDetails": {
+        "Name": "Scott Tran",
+        "ContactInformation": {
+            "Phone": "348-480-9346x64798",
+            "Email": "clementsdanielle@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/84fb0dd4-c017-4de7-b3a7-7650f9eb03f5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

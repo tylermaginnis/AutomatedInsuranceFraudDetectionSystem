@@ -1,0 +1,81 @@
+{
+    "ClaimID": "67c4c653-065c-4ede-8df5-28215ad8c406",
+    "PolicyID": "5d8205fa-ff4c-4bed-8a40-8b5c34e39dc3",
+    "EffectiveDates": {
+        "StartDate": "2024-04-09",
+        "EndDate": "2025-04-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "10bd7938-259d-4cf5-83ae-18c6c054890e",
+        "Name": "Rose Osborne",
+        "PolicyNumber": "5d8205fa-ff4c-4bed-8a40-8b5c34e39dc3",
+        "ContactInformation": {
+            "Phone": "001-868-207-5446x7561",
+            "Email": "rick87@example.com",
+            "Address": "013 Cassie Lock Suite 032\nEast Ashlee, PW 87416"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-04",
+        "Location": "5796 Lopez Stream Suite 065\nDavidstad, LA 74514",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 91266
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23603
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7554
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24566
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 17777
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 164766,
+        "TotalApproved": 111287
+    },
+    "AdjusterDetails": {
+        "Name": "Jeff Bell",
+        "ContactInformation": {
+            "Phone": "7397913045",
+            "Email": "lisahamilton@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/bfbfc667-7ba8-4d33-9e2d-89be79b8daaf"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-04T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-09T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-14T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

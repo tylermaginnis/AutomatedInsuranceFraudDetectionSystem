@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f3af9bc2-fa12-42ae-8941-21e0c58f555d",
+    "PolicyID": "373cc641-5931-4d25-8b2a-29687657f515",
+    "EffectiveDates": {
+        "StartDate": "2024-08-08",
+        "EndDate": "2025-08-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b81cb9e1-f769-45b6-aef2-3fe9cd0e0ea1",
+        "Name": "Nancy Burns",
+        "PolicyNumber": "373cc641-5931-4d25-8b2a-29687657f515",
+        "ContactInformation": {
+            "Phone": "001-325-679-3541x836",
+            "Email": "kaitlyn62@example.net",
+            "Address": "376 Laurie Points Suite 546\nRitaton, ID 81504"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-26",
+        "Location": "754 Lorraine Pines\nFordmouth, NC 34347",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 60302
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25777
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5005
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 28003
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6468
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 125555,
+        "TotalApproved": 79349
+    },
+    "AdjusterDetails": {
+        "Name": "James Smith",
+        "ContactInformation": {
+            "Phone": "001-800-560-5812",
+            "Email": "suttonlinda@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b29b245a-c9e3-4352-8471-ca97f5720801"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-26T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-31T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-05T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

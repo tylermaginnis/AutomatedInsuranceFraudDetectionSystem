@@ -1,0 +1,81 @@
+{
+    "ClaimID": "187d042b-69af-4f39-81eb-f48820acb4fc",
+    "PolicyID": "76a31e9a-984d-42b2-9f56-9c4a2e0a37e9",
+    "EffectiveDates": {
+        "StartDate": "2024-03-12",
+        "EndDate": "2025-03-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6e2e1be2-7690-48fc-9841-04beb6bcfcfb",
+        "Name": "Joyce Austin",
+        "PolicyNumber": "76a31e9a-984d-42b2-9f56-9c4a2e0a37e9",
+        "ContactInformation": {
+            "Phone": "(595)411-0236x9263",
+            "Email": "susan47@example.com",
+            "Address": "182 Huffman Rapids\nNew John, PA 72624"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-26",
+        "Location": "24186 Barnes Rue\nPort Ericmouth, MN 82151",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 86407
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29799
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6604
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13896
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10595
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 147301,
+        "TotalApproved": 134138
+    },
+    "AdjusterDetails": {
+        "Name": "Erica Moss",
+        "ContactInformation": {
+            "Phone": "216.614.1155",
+            "Email": "williamlane@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/1bc9d60a-e907-4f7e-88b6-7e5212ed461d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-26T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-31T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-05T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9b9ca7c0-2730-4e70-9c14-5cf3aacc461f",
+    "PolicyID": "fa0ff002-0a3a-4ee5-88fd-347b5789df30",
+    "EffectiveDates": {
+        "StartDate": "2024-03-21",
+        "EndDate": "2025-03-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "963902d1-811b-4e79-ad5c-c4c542bda563",
+        "Name": "Jessica Graham",
+        "PolicyNumber": "fa0ff002-0a3a-4ee5-88fd-347b5789df30",
+        "ContactInformation": {
+            "Phone": "993.588.6996",
+            "Email": "griley@example.com",
+            "Address": "651 Priscilla Springs\nNorth Stephanie, WY 59634"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-18",
+        "Location": "USCGC Henderson\nFPO AP 94231",
+        "Description": "Room this office them he two.\nSend return by there everything last. Rise bag some.\nNever challenge occur per. Free much listen. Republican walk clearly recognize property.\nTheory last exist."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28424
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34641
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17037
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 66836
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8785
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 140498,
+        "TotalApproved": 39030
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Hill",
+        "ContactInformation": {
+            "Phone": "5329016786",
+            "Email": "hhoward@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0ac52bba-1810-4af7-8be4-9b8dc07caab0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-18T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-23T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-28T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

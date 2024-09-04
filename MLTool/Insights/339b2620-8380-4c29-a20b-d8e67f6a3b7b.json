@@ -1,0 +1,81 @@
+{
+    "ClaimID": "339b2620-8380-4c29-a20b-d8e67f6a3b7b",
+    "PolicyID": "ca6b94c8-8d47-48b8-b7b0-a7a778679624",
+    "EffectiveDates": {
+        "StartDate": "2023-12-24",
+        "EndDate": "2024-12-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "09d6a31c-cb8f-4b39-a1fa-29081135c5d3",
+        "Name": "Nicholas Rogers",
+        "PolicyNumber": "ca6b94c8-8d47-48b8-b7b0-a7a778679624",
+        "ContactInformation": {
+            "Phone": "490.898.6977x80029",
+            "Email": "ssmith@example.com",
+            "Address": "572 Malone Via\nDanielfurt, ID 49269"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-09",
+        "Location": "40447 Sherry Glen Apt. 842\nJessicastad, KS 75378",
+        "Description": "Question president beyond. Upon message plan process suffer ability would."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3146
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 33954
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10717
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 82774
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10394
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 195782,
+        "TotalApproved": 166777
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Goodman",
+        "ContactInformation": {
+            "Phone": "+1-476-985-1445x97869",
+            "Email": "nancy22@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9d598d62-c32e-4bc8-9421-5d065431003b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-09T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-14T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-19T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

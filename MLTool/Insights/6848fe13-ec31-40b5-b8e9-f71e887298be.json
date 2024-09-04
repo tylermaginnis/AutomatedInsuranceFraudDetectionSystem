@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6848fe13-ec31-40b5-b8e9-f71e887298be",
+    "PolicyID": "13cd4964-07dd-4dbd-9485-1d0bc04c41fd",
+    "EffectiveDates": {
+        "StartDate": "2023-11-01",
+        "EndDate": "2024-10-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "05c6957e-acc5-4632-835b-143834c0f15e",
+        "Name": "Ryan Castillo",
+        "PolicyNumber": "13cd4964-07dd-4dbd-9485-1d0bc04c41fd",
+        "ContactInformation": {
+            "Phone": "222-543-6664x65162",
+            "Email": "ericevans@example.net",
+            "Address": "PSC 7899, Box 3789\nAPO AE 42517"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-15",
+        "Location": "81966 Kristen Loaf\nNew Jaredmouth, AK 88946",
+        "Description": "Reason attorney determine commercial speak practice during. Perhaps about nothing evening so. Spend affect none evening."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 72608
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 76929
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9988
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 46694
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7330
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 147783,
+        "TotalApproved": 55471
+    },
+    "AdjusterDetails": {
+        "Name": "Kayla Jones",
+        "ContactInformation": {
+            "Phone": "(286)219-1777",
+            "Email": "pstafford@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/28b7faf2-4395-482f-9f3a-ab4466947965"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

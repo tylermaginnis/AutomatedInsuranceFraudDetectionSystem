@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4cf16d52-5aad-4242-b21a-5418272a9d59",
+    "PolicyID": "930ddea9-a94c-496f-bb75-448563fa11ae",
+    "EffectiveDates": {
+        "StartDate": "2024-08-24",
+        "EndDate": "2025-08-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2976b490-dcc3-4b9a-9f9d-eb494b57b1be",
+        "Name": "Jonathan Gomez",
+        "PolicyNumber": "930ddea9-a94c-496f-bb75-448563fa11ae",
+        "ContactInformation": {
+            "Phone": "(555)370-9416x6996",
+            "Email": "egolden@example.com",
+            "Address": "696 Carmen Road Apt. 187\nSouth Jeffton, NM 96426"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-18",
+        "Location": "35934 Krista Path\nSouth Erik, PR 46812",
+        "Description": "War physical Mrs detail American. South dark environment. Tonight sell seek throughout table prevent vote."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4813
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 88007
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9117
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 58458
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8222
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 18709,
+        "TotalApproved": 9525
+    },
+    "AdjusterDetails": {
+        "Name": "Barry Warner",
+        "ContactInformation": {
+            "Phone": "+1-840-675-8435x53735",
+            "Email": "theresa05@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/29b95509-7b2d-4f64-adbb-2e32adc33e72"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-18T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-23T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-28T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

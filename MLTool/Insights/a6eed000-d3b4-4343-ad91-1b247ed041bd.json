@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a6eed000-d3b4-4343-ad91-1b247ed041bd",
+    "PolicyID": "dbee8cf4-29e8-4594-a962-f16f78bdc5d8",
+    "EffectiveDates": {
+        "StartDate": "2024-01-22",
+        "EndDate": "2025-01-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8fd92be1-bd4a-41c6-bdfe-9a02a8022e07",
+        "Name": "Manuel Roberts",
+        "PolicyNumber": "dbee8cf4-29e8-4594-a962-f16f78bdc5d8",
+        "ContactInformation": {
+            "Phone": "277.509.0448x2706",
+            "Email": "jeremyfowler@example.net",
+            "Address": "4742 Adrian Bypass Suite 750\nEmilybury, GA 97149"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-13",
+        "Location": "225 Martinez Corners\nFarmerberg, VT 32748",
+        "Description": "Hair offer push decide. Year cause number citizen power return rock light. Leader act leave happen local agreement. Door she thank trip water TV ask."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27498
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14375
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24522
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11489
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11590
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 30168,
+        "TotalApproved": 27882
+    },
+    "AdjusterDetails": {
+        "Name": "Jacqueline Thompson",
+        "ContactInformation": {
+            "Phone": "759.619.6956",
+            "Email": "cookerika@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/245f52d4-82a9-4887-b5fd-52298f2f30c5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-13T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-18T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-23T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

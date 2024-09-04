@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d926c334-56f4-4efa-8ffb-8b345692ca9a",
+    "PolicyID": "22ea0af3-1a29-4f4f-b511-620357fa3fcc",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a78c4071-0c83-4d00-b9c1-069096f7340b",
+        "Name": "Sharon Wilson",
+        "PolicyNumber": "22ea0af3-1a29-4f4f-b511-620357fa3fcc",
+        "ContactInformation": {
+            "Phone": "202-770-8859x6502",
+            "Email": "byrdkathleen@example.com",
+            "Address": "PSC 7837, Box 7223\nAPO AP 27859"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-17",
+        "Location": "PSC 0113, Box 1825\nAPO AP 47338",
+        "Description": "Detail other town million. Hair everything respond design grow himself view. Rich until drug city generation."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 36817
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 88876
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35024
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6596
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9964
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 39419,
+        "TotalApproved": 17708
+    },
+    "AdjusterDetails": {
+        "Name": "Jacob Novak",
+        "ContactInformation": {
+            "Phone": "+1-880-826-3369x90367",
+            "Email": "rsanders@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/267819f3-8cb1-43e9-a926-aeb3b34950d6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-17T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-22T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-27T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

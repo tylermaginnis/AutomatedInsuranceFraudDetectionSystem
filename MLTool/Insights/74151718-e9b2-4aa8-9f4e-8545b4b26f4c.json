@@ -1,0 +1,81 @@
+{
+    "ClaimID": "74151718-e9b2-4aa8-9f4e-8545b4b26f4c",
+    "PolicyID": "229c9962-13c6-4f40-b661-3ac64da4f6a1",
+    "EffectiveDates": {
+        "StartDate": "2024-07-07",
+        "EndDate": "2025-07-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "512e37cd-3874-49d0-adbf-89d77fa3ae5d",
+        "Name": "Keith Cross",
+        "PolicyNumber": "229c9962-13c6-4f40-b661-3ac64da4f6a1",
+        "ContactInformation": {
+            "Phone": "(268)442-9479x45402",
+            "Email": "umeadows@example.org",
+            "Address": "6449 Leslie Ferry\nJamesborough, ME 00549"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-05",
+        "Location": "22039 Alexander Creek Apt. 909\nWest Lisaton, NE 29122",
+        "Description": "Wonder sell pattern. Seven catch reveal under according.\nRun talk goal beyond."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 119214
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6346
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 53896
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13649
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2252
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 172761,
+        "TotalApproved": 6896
+    },
+    "AdjusterDetails": {
+        "Name": "John Thompson",
+        "ContactInformation": {
+            "Phone": "533-360-9099x65603",
+            "Email": "rachel94@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e8f27e61-a962-4d78-b8cf-456008a5376a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

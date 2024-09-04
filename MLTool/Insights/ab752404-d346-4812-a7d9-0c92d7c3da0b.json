@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ab752404-d346-4812-a7d9-0c92d7c3da0b",
+    "PolicyID": "589364c0-ed81-4b91-ba1d-736aff68c0ed",
+    "EffectiveDates": {
+        "StartDate": "2024-01-24",
+        "EndDate": "2025-01-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "21068843-1d1e-4045-afea-674e862587e7",
+        "Name": "David Hall",
+        "PolicyNumber": "589364c0-ed81-4b91-ba1d-736aff68c0ed",
+        "ContactInformation": {
+            "Phone": "635-614-8182",
+            "Email": "alexander77@example.org",
+            "Address": "561 Barrett Coves Suite 470\nLake Robert, NV 30472"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-02",
+        "Location": "639 Patricia Viaduct\nEast Calvin, KY 20670",
+        "Description": "Determine eight citizen same loss fish. Task check rather baby history general six.\nHowever they almost. Weight pull capital become. Tend will general truth."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26980
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2052
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14017
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 99663
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 69508
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 65561,
+        "TotalApproved": 18495
+    },
+    "AdjusterDetails": {
+        "Name": "Antonio Escobar",
+        "ContactInformation": {
+            "Phone": "(278)273-0083",
+            "Email": "rrodriguez@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/24d2a6d1-b2ef-419e-9dcf-e683484dc5d0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-02T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-07T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-12T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

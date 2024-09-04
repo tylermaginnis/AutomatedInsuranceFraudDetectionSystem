@@ -1,0 +1,81 @@
+{
+    "ClaimID": "32dba6eb-28f0-4a16-baab-f846634633d5",
+    "PolicyID": "8dd3adc3-6314-4d8c-87d4-a1841abcadea",
+    "EffectiveDates": {
+        "StartDate": "2024-06-09",
+        "EndDate": "2025-06-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "593e97d5-6926-4142-acc4-b696243eb627",
+        "Name": "Gavin Boyd",
+        "PolicyNumber": "8dd3adc3-6314-4d8c-87d4-a1841abcadea",
+        "ContactInformation": {
+            "Phone": "001-853-272-1405x53898",
+            "Email": "tammy96@example.com",
+            "Address": "06765 Lopez Corner Suite 530\nSouth Lauraport, NE 64408"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-24",
+        "Location": "72819 Trevor Valley\nNew Cheyenne, GA 57961",
+        "Description": "Represent law player white rate food. Fall agency surface well kid lawyer. At method small analysis."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18222
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3345
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6913
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5883
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5714
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 31119,
+        "TotalApproved": 7943
+    },
+    "AdjusterDetails": {
+        "Name": "Ryan Lee",
+        "ContactInformation": {
+            "Phone": "+1-283-971-7079",
+            "Email": "jamesholt@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/46e2f997-b48d-4d5c-8dbd-6962ab6650f1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-24T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-29T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-03T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

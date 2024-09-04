@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2d758c55-0536-4689-86c7-a0dfb0a5c4f4",
+    "PolicyID": "00698076-a832-4f5c-90ee-f1774d9bf926",
+    "EffectiveDates": {
+        "StartDate": "2024-03-29",
+        "EndDate": "2025-03-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "237cbcb4-2a2e-4a07-befa-0ed73170f667",
+        "Name": "Mary Gonzalez",
+        "PolicyNumber": "00698076-a832-4f5c-90ee-f1774d9bf926",
+        "ContactInformation": {
+            "Phone": "001-823-595-0124x4304",
+            "Email": "karenevans@example.org",
+            "Address": "2026 Stevenson Union\nRyanton, LA 38910"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-23",
+        "Location": "274 Samuel Fork Suite 378\nCrystalchester, GA 23092",
+        "Description": "Mother around option standard I body bring. Possible three without scene morning than. Also brother lose wish we. Stock great he card exactly education section."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18201
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19452
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 96772
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6493
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6557
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 72115,
+        "TotalApproved": 46217
+    },
+    "AdjusterDetails": {
+        "Name": "Jared Gill",
+        "ContactInformation": {
+            "Phone": "(357)471-4040",
+            "Email": "vmay@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/aee4b8d2-ce58-4e16-a862-c15e3185244f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-23T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-28T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-02T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

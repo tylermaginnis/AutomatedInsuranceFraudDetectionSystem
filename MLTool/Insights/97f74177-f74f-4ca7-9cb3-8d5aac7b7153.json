@@ -1,0 +1,81 @@
+{
+    "ClaimID": "97f74177-f74f-4ca7-9cb3-8d5aac7b7153",
+    "PolicyID": "7aaacf18-0510-471e-87c4-efe19478182d",
+    "EffectiveDates": {
+        "StartDate": "2024-06-03",
+        "EndDate": "2025-06-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c096a582-effe-4e24-ab06-1749938ab843",
+        "Name": "Cynthia Farmer",
+        "PolicyNumber": "7aaacf18-0510-471e-87c4-efe19478182d",
+        "ContactInformation": {
+            "Phone": "3962018613",
+            "Email": "paynelaura@example.net",
+            "Address": "Unit 7652 Box 2797\nDPO AP 54423"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-04",
+        "Location": "5752 Gregory Glens\nNew David, SC 81524",
+        "Description": "Answer institution affect yourself.\nBenefit third democratic ask try break magazine. Protect because manage task. Head everybody tree.\nMinute without perhaps especially."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 16046
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 10971
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34435
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 19846
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 74187
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 126236,
+        "TotalApproved": 17726
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Miranda",
+        "ContactInformation": {
+            "Phone": "832-323-4753x933",
+            "Email": "xmay@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/6a104bd7-41c6-494a-8b62-e191ed97bbe7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-04T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-09T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-14T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

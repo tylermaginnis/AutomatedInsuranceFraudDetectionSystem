@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ac88a88c-43e3-413f-8edf-f18c6ac777a9",
+    "PolicyID": "b15a505a-722d-4a0a-b700-54f2bd75118f",
+    "EffectiveDates": {
+        "StartDate": "2023-11-25",
+        "EndDate": "2024-11-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bfeb5042-4e5d-42c5-a2c3-428c8c1c4e62",
+        "Name": "Crystal Austin",
+        "PolicyNumber": "b15a505a-722d-4a0a-b700-54f2bd75118f",
+        "ContactInformation": {
+            "Phone": "(345)300-5731",
+            "Email": "masoneric@example.org",
+            "Address": "11436 Cantu Drive Suite 238\nStephaniemouth, CT 22808"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-24",
+        "Location": "7168 Craig Track Apt. 333\nNew Jamesmouth, AS 96396",
+        "Description": "Chair wife build. Director together fill seat leader. Ago thus two hear maybe.\nFine bad popular respond simple. Question rich laugh capital event mouth."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11352
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 27918
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8200
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4598
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 31588
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 104645,
+        "TotalApproved": 24400
+    },
+    "AdjusterDetails": {
+        "Name": "Ronald Hernandez",
+        "ContactInformation": {
+            "Phone": "351.981.1740",
+            "Email": "andersonsherri@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/af928efd-6165-4117-beb6-30002e355891"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-24T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-29T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-04T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e457eabc-aae3-4747-9409-6c4803a047c9",
+    "PolicyID": "c630f097-ecd0-49b3-b505-d0c02996b237",
+    "EffectiveDates": {
+        "StartDate": "2023-10-02",
+        "EndDate": "2024-10-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "734b1868-88cf-4220-a312-26e120df4654",
+        "Name": "Jessica Davis",
+        "PolicyNumber": "c630f097-ecd0-49b3-b505-d0c02996b237",
+        "ContactInformation": {
+            "Phone": "523-811-4651x194",
+            "Email": "jordanjohnson@example.org",
+            "Address": "3211 Johnson Ridge\nNew Kenneth, SD 43300"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-09",
+        "Location": "71503 Ward Mall\nLake Mercedes, WA 65257",
+        "Description": "Read he discover glass really. Tough into never guy though bill military effect.\nGame detail face act finally customer figure. Focus determine speech decade style peace. Later true national source."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47264
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12212
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 72218
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 105528
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 27391
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 157604,
+        "TotalApproved": 92466
+    },
+    "AdjusterDetails": {
+        "Name": "Tanya Bell",
+        "ContactInformation": {
+            "Phone": "001-551-378-9606",
+            "Email": "brownlarry@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3c346829-8e2c-4014-8ca6-84f8701fef6a"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

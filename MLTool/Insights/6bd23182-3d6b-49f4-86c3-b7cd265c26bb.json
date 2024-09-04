@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6bd23182-3d6b-49f4-86c3-b7cd265c26bb",
+    "PolicyID": "748ec1aa-73f9-44d9-b380-c27e99a94dc7",
+    "EffectiveDates": {
+        "StartDate": "2023-11-10",
+        "EndDate": "2024-11-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e51820dd-b756-4a4e-8ea2-d8178cb47d5a",
+        "Name": "Caleb Brooks",
+        "PolicyNumber": "748ec1aa-73f9-44d9-b380-c27e99a94dc7",
+        "ContactInformation": {
+            "Phone": "6383894782",
+            "Email": "qgonzalez@example.com",
+            "Address": "24493 Foster Ridge\nPort Justinton, WA 29431"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-19",
+        "Location": "000 Christina Turnpike\nSouth Kennethbury, ND 59755",
+        "Description": "Responsibility indicate newspaper may.\nNearly and size. Live world lay. For energy human three put staff best service."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26288
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7700
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 96298
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 88086
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 31251
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 11134,
+        "TotalApproved": 9769
+    },
+    "AdjusterDetails": {
+        "Name": "George Smith",
+        "ContactInformation": {
+            "Phone": "001-504-346-5910x575",
+            "Email": "david63@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4461d1a7-9ad3-4793-803b-f749b6c345c6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-19T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-24T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-29T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

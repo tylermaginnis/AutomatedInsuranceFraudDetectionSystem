@@ -1,0 +1,81 @@
+{
+    "ClaimID": "0059f53f-b47b-493b-bd78-ed89406c7dfa",
+    "PolicyID": "46eab463-e695-47c6-86d1-f07b1e6d77db",
+    "EffectiveDates": {
+        "StartDate": "2023-11-06",
+        "EndDate": "2024-11-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e10b055a-3189-4d2d-8cba-033a35d0ee41",
+        "Name": "Tiffany English",
+        "PolicyNumber": "46eab463-e695-47c6-86d1-f07b1e6d77db",
+        "ContactInformation": {
+            "Phone": "+1-794-622-5483x581",
+            "Email": "heatherstone@example.org",
+            "Address": "305 Collins Grove\nJamiemouth, CO 34246"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-27",
+        "Location": "5370 Coleman Cliff Apt. 066\nPort Jessica, NM 46523",
+        "Description": "Radio throw everyone part environment that admit. Attack personal door myself heavy. Sit church power relationship piece bank."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17430
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 68869
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1562
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 20852
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 59464
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 35649,
+        "TotalApproved": 23463
+    },
+    "AdjusterDetails": {
+        "Name": "Katrina Henry",
+        "ContactInformation": {
+            "Phone": "619.751.9080x10999",
+            "Email": "lewisjennifer@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fbfe8441-f17d-401a-9723-abd800595c56"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-27T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-03T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-08T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "4cf677da-c208-4b60-8ff8-99c981559d4d",
+    "PolicyID": "1551de2c-da46-428b-8c67-a0007cfd1162",
+    "EffectiveDates": {
+        "StartDate": "2024-08-17",
+        "EndDate": "2025-08-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e4b50bc3-5bd2-43a8-858f-0a73912ee5ed",
+        "Name": "Robert Bradford",
+        "PolicyNumber": "1551de2c-da46-428b-8c67-a0007cfd1162",
+        "ContactInformation": {
+            "Phone": "001-982-371-6695",
+            "Email": "singhkenneth@example.net",
+            "Address": "USNS Fernandez\nFPO AE 40559"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-05",
+        "Location": "1231 Steven Street Suite 679\nEast Ambermouth, GA 77909",
+        "Description": "Financial speak carry my activity off direction whose. Edge east election exist. Out and blood.\nSince already western wide seat. Power statement picture green center behavior individual."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3162
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7807
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 15251
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 102853
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 35596
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 154465,
+        "TotalApproved": 112202
+    },
+    "AdjusterDetails": {
+        "Name": "David Oconnell",
+        "ContactInformation": {
+            "Phone": "784-363-2228",
+            "Email": "yhutchinson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/66cecb2a-08ff-43de-afa8-59b275dc56c8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

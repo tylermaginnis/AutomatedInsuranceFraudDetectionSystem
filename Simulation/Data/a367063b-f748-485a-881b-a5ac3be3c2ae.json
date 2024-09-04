@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a367063b-f748-485a-881b-a5ac3be3c2ae",
+  "PolicyID": "91c14b11-5e64-4ff8-9010-57bb82621e15",
+  "EffectiveDates": {
+    "StartDate": "2023-09-07",
+    "EndDate": "2024-09-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "35ffc483-938c-4b43-acec-958d9b44878b",
+    "Name": "Susan Martinez",
+    "PolicyNumber": "91c14b11-5e64-4ff8-9010-57bb82621e15",
+    "ContactInformation": {
+      "Phone": "001-488-883-5323x091",
+      "Email": "berickson@example.net",
+      "Address": "397 Johnson Ford Suite 352\nNorth Kevin, SC 75590"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-07",
+    "Location": "8292 Dwayne Villages\nKaufmanborough, VT 31485",
+    "Description": "Edge beyond under growth indeed girl senior. Identify marriage while certain wind here hard."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13882
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 22305
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 1794
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 96047
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 31206
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 8157,
+    "TotalApproved": 6002
+  },
+  "AdjusterDetails": {
+    "Name": "Richard Baker",
+    "ContactInformation": {
+      "Phone": "215-887-3276x023",
+      "Email": "david10@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/310dd953-7d87-44ac-a67f-2880c9f131d3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-07T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-12T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-17T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

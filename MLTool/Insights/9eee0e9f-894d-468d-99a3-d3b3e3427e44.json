@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9eee0e9f-894d-468d-99a3-d3b3e3427e44",
+    "PolicyID": "597d768a-38c4-4ead-bd84-1d2deee6dae6",
+    "EffectiveDates": {
+        "StartDate": "2024-06-13",
+        "EndDate": "2025-06-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ff302ec2-fe91-4815-a732-a7c0e54ec92a",
+        "Name": "Ashley Nicholson",
+        "PolicyNumber": "597d768a-38c4-4ead-bd84-1d2deee6dae6",
+        "ContactInformation": {
+            "Phone": "741.859.8116x7292",
+            "Email": "rebeccachavez@example.com",
+            "Address": "050 Rivera Stravenue Apt. 074\nWest Suzannefort, SD 22905"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-22",
+        "Location": "2653 Parrish Viaduct Apt. 609\nPort Monique, NE 15118",
+        "Description": "Would development must according. According we student.\nFather grow responsibility play doctor less point loss. At rich remain campaign push carry."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40599
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44732
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 15251
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5147
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18833
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 182195,
+        "TotalApproved": 12192
+    },
+    "AdjusterDetails": {
+        "Name": "Jose Mays",
+        "ContactInformation": {
+            "Phone": "589-602-6192",
+            "Email": "tgreen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/8a9aa548-e99f-49ee-925c-c83563d19c94"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-02T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a14f9159-2704-4193-afde-87ea6a8b3351",
+    "PolicyID": "b88f1291-5f9d-4e08-8b0e-1f8fcd5ec752",
+    "EffectiveDates": {
+        "StartDate": "2024-02-15",
+        "EndDate": "2025-02-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a28209e8-7273-4260-baef-a84b559769f7",
+        "Name": "Michael Bennett",
+        "PolicyNumber": "b88f1291-5f9d-4e08-8b0e-1f8fcd5ec752",
+        "ContactInformation": {
+            "Phone": "(639)920-4442x43094",
+            "Email": "stacyramirez@example.net",
+            "Address": "39974 Davis Mission\nLake Daniel, VT 91462"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-07",
+        "Location": "4463 Tucker Shores\nEast Briana, AL 26257",
+        "Description": "Fly difference watch feel article news. Air out from while plant thought. Mission movement always increase fight available."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 140597
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3910
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 134330
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 182941
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 151812
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 192683,
+        "TotalApproved": 138685
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Wood",
+        "ContactInformation": {
+            "Phone": "001-306-219-5527x046",
+            "Email": "steven08@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ea69c371-2aad-4cf9-a9af-05e487b460e8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

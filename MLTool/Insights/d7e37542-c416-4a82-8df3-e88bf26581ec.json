@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d7e37542-c416-4a82-8df3-e88bf26581ec",
+    "PolicyID": "94c434b7-daab-429b-9334-c2c80c593152",
+    "EffectiveDates": {
+        "StartDate": "2024-07-26",
+        "EndDate": "2025-07-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "dce3ddcf-10a0-4369-9052-60b5a844e1b4",
+        "Name": "Charles Bauer",
+        "PolicyNumber": "94c434b7-daab-429b-9334-c2c80c593152",
+        "ContactInformation": {
+            "Phone": "4384793746",
+            "Email": "pjoseph@example.net",
+            "Address": "497 Bean Run Apt. 080\nLake Karen, AK 55140"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-06-04",
+        "Location": "258 Ariel Brooks\nJeffreystad, AZ 94217",
+        "Description": "Expect truth imagine month make station. Be along game machine spring. Candidate new need church people should.\nYet event option. Two similar perform picture economy Democrat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 86480
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10342
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9393
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 40315
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 15121
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 18481,
+        "TotalApproved": 2043
+    },
+    "AdjusterDetails": {
+        "Name": "Mark Black",
+        "ContactInformation": {
+            "Phone": "244-878-6473x26027",
+            "Email": "hayleygarcia@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/36f935f7-4333-4fff-a32e-ec0b9328cdf5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-06-04T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-06-09T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-06-14T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

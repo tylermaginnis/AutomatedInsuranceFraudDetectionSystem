@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8a1e9156-d0a9-44d6-8ea7-e4995c3873f7",
+  "PolicyID": "e936f78b-a985-4f82-938e-b0bb6cd99307",
+  "EffectiveDates": {
+    "StartDate": "2024-07-21",
+    "EndDate": "2025-07-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4ac50bb8-4aea-474b-8222-d0f227a6c08d",
+    "Name": "Shannon Murphy",
+    "PolicyNumber": "e936f78b-a985-4f82-938e-b0bb6cd99307",
+    "ContactInformation": {
+      "Phone": "387-758-9921x851",
+      "Email": "katelyn67@example.com",
+      "Address": "033 Arnold Fields Apt. 652\nPort Kenneth, MP 89529"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-10",
+    "Location": "22585 Brian Mountains\nLake Lisa, WY 13641",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 86500
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 41726
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6753
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 22184
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7640
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 164803,
+    "TotalApproved": 53997
+  },
+  "AdjusterDetails": {
+    "Name": "Donald Miller",
+    "ContactInformation": {
+      "Phone": "545-710-8991x2501",
+      "Email": "bryanfuller@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/8fbf8f29-f953-4c17-a86b-7d859a3c1f87"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-10T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-15T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-05-20T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

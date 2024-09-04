@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6ede95ce-e263-4c4d-8324-581badf3c02b",
+    "PolicyID": "0efc6707-3f6f-41ce-928f-b103a1309e7f",
+    "EffectiveDates": {
+        "StartDate": "2024-02-23",
+        "EndDate": "2025-02-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c7e8d4da-f9fa-4f4e-a02c-36721423c6fb",
+        "Name": "Charles Moody",
+        "PolicyNumber": "0efc6707-3f6f-41ce-928f-b103a1309e7f",
+        "ContactInformation": {
+            "Phone": "001-577-659-2335x0230",
+            "Email": "michelle29@example.net",
+            "Address": "6384 John Fall\nMatthewmouth, VI 55147"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-23",
+        "Location": "314 Curry Village Suite 390\nLanechester, LA 95310",
+        "Description": "Station law always front police. Project artist learn sport. Building goal particularly land least themselves."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14668
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44760
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8515
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9522
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79327
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 30876,
+        "TotalApproved": 9489
+    },
+    "AdjusterDetails": {
+        "Name": "Megan Barrett",
+        "ContactInformation": {
+            "Phone": "722.426.2454",
+            "Email": "robert67@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4d02f14d-ddc4-4b20-b325-2af03ebc92e9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-23T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-28T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-02T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

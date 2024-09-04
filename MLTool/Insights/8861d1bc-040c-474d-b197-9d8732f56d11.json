@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8861d1bc-040c-474d-b197-9d8732f56d11",
+    "PolicyID": "d18dd552-6b24-4af4-a036-f07eb931a565",
+    "EffectiveDates": {
+        "StartDate": "2024-07-10",
+        "EndDate": "2025-07-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d32f5c31-a603-4466-a731-e1a9334be1ae",
+        "Name": "Mark Mccarty",
+        "PolicyNumber": "d18dd552-6b24-4af4-a036-f07eb931a565",
+        "ContactInformation": {
+            "Phone": "+1-481-545-4406x185",
+            "Email": "estradabenjamin@example.net",
+            "Address": "0030 Jonathan Coves\nNew Robert, IL 74655"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-05",
+        "Location": "Unit 1929 Box 0329\nDPO AA 32705",
+        "Description": "To career nor seem. Allow hotel process step important. Brother series add letter hit."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 116379
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10890
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 54122
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1927
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9005
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 17255,
+        "TotalApproved": 15407
+    },
+    "AdjusterDetails": {
+        "Name": "Bradley Murphy",
+        "ContactInformation": {
+            "Phone": "728-344-8061",
+            "Email": "vickiebrennan@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/a762937a-7273-4133-a605-1750d070ec5f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

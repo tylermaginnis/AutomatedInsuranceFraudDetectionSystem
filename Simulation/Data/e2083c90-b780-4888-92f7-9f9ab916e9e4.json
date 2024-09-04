@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e2083c90-b780-4888-92f7-9f9ab916e9e4",
+  "PolicyID": "5cca7104-3d04-4ddb-a816-8b403cf6bf79",
+  "EffectiveDates": {
+    "StartDate": "2023-09-11",
+    "EndDate": "2024-09-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "9c82af02-e72f-4bcb-a9a3-b73a25e53445",
+    "Name": "Amanda Schwartz",
+    "PolicyNumber": "5cca7104-3d04-4ddb-a816-8b403cf6bf79",
+    "ContactInformation": {
+      "Phone": "+1-936-246-3447",
+      "Email": "shawnhensley@example.com",
+      "Address": "12830 Mcdaniel Village\nNorth Samantha, WV 55397"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-17",
+    "Location": "4557 Jeffrey Plains Suite 370\nNew Scott, MO 03473",
+    "Description": "Name gas fall foot daughter.\nLeast adult same service fear probably reach. Last lawyer head professional we mean truth."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 43676
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 11405
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 130811
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 111457
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 23561
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 59610,
+    "TotalApproved": 3679
+  },
+  "AdjusterDetails": {
+    "Name": "Joshua Martinez",
+    "ContactInformation": {
+      "Phone": "(858)534-2510",
+      "Email": "wwall@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/3aa925e8-a9d6-4b56-9e89-31cab68ab796"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-17T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-22T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-02-27T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

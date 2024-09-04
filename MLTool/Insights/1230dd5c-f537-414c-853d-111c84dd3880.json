@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1230dd5c-f537-414c-853d-111c84dd3880",
+    "PolicyID": "e4382ac1-d185-418a-b168-ee8a71402e64",
+    "EffectiveDates": {
+        "StartDate": "2024-05-08",
+        "EndDate": "2025-05-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8420dbf1-806c-448b-b46f-2512866a2287",
+        "Name": "Sierra Marquez",
+        "PolicyNumber": "e4382ac1-d185-418a-b168-ee8a71402e64",
+        "ContactInformation": {
+            "Phone": "+1-939-963-4124x7967",
+            "Email": "ljohnson@example.org",
+            "Address": "263 Jeffrey Mews Apt. 514\nPiercefort, MT 17580"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-15",
+        "Location": "80809 Richardson Throughway Suite 455\nLindseyview, AZ 33698",
+        "Description": "Memory job president certain resource serve they may.\nSpace travel edge summer space. A official continue show side entire.\nMy bill national ok front close method."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 10469
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44123
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1730
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9048
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8984
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 31369,
+        "TotalApproved": 24793
+    },
+    "AdjusterDetails": {
+        "Name": "Nicole Carrillo",
+        "ContactInformation": {
+            "Phone": "+1-895-632-3492x4401",
+            "Email": "hartpaul@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/cb27b1c4-ce03-4ff8-9adf-ac09bb6ca9c2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-15T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-20T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-25T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

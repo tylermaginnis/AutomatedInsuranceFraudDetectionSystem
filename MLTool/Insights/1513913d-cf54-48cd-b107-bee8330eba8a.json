@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1513913d-cf54-48cd-b107-bee8330eba8a",
+    "PolicyID": "13d81872-cca1-4ebf-b313-2a95dac29f58",
+    "EffectiveDates": {
+        "StartDate": "2024-03-24",
+        "EndDate": "2025-03-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "076052b3-6431-45d2-b0ee-126c9b4b1b48",
+        "Name": "Debra Turner",
+        "PolicyNumber": "13d81872-cca1-4ebf-b313-2a95dac29f58",
+        "ContactInformation": {
+            "Phone": "+1-761-283-5773",
+            "Email": "matthewhill@example.com",
+            "Address": "Unit 1417 Box 7051\nDPO AP 33482"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-25",
+        "Location": "3047 Jordan Rest\nKathrynmouth, GA 39998",
+        "Description": "Whole hundred trip project responsibility husband day. Oil child nothing. Price throw unit themselves accept."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19191
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 12112
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2676
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16598
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9434
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 126576,
+        "TotalApproved": 15861
+    },
+    "AdjusterDetails": {
+        "Name": "Luke Moody",
+        "ContactInformation": {
+            "Phone": "808.612.3222",
+            "Email": "joseph40@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4073d478-4257-42f7-878b-8286b52cc1a7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-25T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-30T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-04T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

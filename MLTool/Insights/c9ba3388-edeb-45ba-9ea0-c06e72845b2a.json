@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c9ba3388-edeb-45ba-9ea0-c06e72845b2a",
+    "PolicyID": "672916c1-56df-43da-8103-0b7658e55e7c",
+    "EffectiveDates": {
+        "StartDate": "2024-06-21",
+        "EndDate": "2025-06-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f63d9984-b3f0-40b8-be70-9709d1a125a6",
+        "Name": "Jonathan Diaz",
+        "PolicyNumber": "672916c1-56df-43da-8103-0b7658e55e7c",
+        "ContactInformation": {
+            "Phone": "(316)906-8408",
+            "Email": "jacksonkimberly@example.org",
+            "Address": "071 Kimberly Forks\nJacksonberg, NM 59942"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-18",
+        "Location": "3446 Jennifer Divide\nLake George, DE 73336",
+        "Description": "Thank hour study believe recent challenge financial. Something deal successful executive three cup partner high."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 41378
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41501
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8035
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 25227
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 95127
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 33317,
+        "TotalApproved": 24414
+    },
+    "AdjusterDetails": {
+        "Name": "Angela Lewis",
+        "ContactInformation": {
+            "Phone": "+1-333-843-3617x484",
+            "Email": "cterry@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e4e835bc-a99a-4b15-8d3b-dd59fb406a07"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

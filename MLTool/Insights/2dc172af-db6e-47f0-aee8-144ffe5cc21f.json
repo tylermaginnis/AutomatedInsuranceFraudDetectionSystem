@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2dc172af-db6e-47f0-aee8-144ffe5cc21f",
+    "PolicyID": "6cacb827-e884-46ea-bed4-a24b44d46b05",
+    "EffectiveDates": {
+        "StartDate": "2024-06-26",
+        "EndDate": "2025-06-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b1323412-c52f-4f87-b272-391af1611aaf",
+        "Name": "Ms. Amanda Parks",
+        "PolicyNumber": "6cacb827-e884-46ea-bed4-a24b44d46b05",
+        "ContactInformation": {
+            "Phone": "(207)800-8183x32500",
+            "Email": "wheelerkathleen@example.org",
+            "Address": "81889 Hannah Parks\nLake Bryantown, NJ 81073"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-17",
+        "Location": "PSC 8650, Box 8260\nAPO AE 08397",
+        "Description": "Better place talk thank. Ok director make.\nNumber investment focus Republican north. A by space bring window through."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7069
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 42223
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9835
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7864
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5046
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 101874,
+        "TotalApproved": 20768
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Anderson",
+        "ContactInformation": {
+            "Phone": "738-661-1450",
+            "Email": "richardcaldwell@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c8dc1ba5-5cd2-4ef8-83ef-ae1e76ec1643"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-17T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-22T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-27T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

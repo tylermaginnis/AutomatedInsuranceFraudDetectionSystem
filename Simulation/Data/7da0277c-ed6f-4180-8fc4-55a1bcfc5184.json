@@ -1,0 +1,80 @@
+{
+  "ClaimID": "7da0277c-ed6f-4180-8fc4-55a1bcfc5184",
+  "PolicyID": "2e360434-51fc-4a20-b9eb-369bfacf0a20",
+  "EffectiveDates": {
+    "StartDate": "2023-09-05",
+    "EndDate": "2024-09-04"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "4de7434c-ed63-434b-b01c-8f76aada9e25",
+    "Name": "Jessica Mathis",
+    "PolicyNumber": "2e360434-51fc-4a20-b9eb-369bfacf0a20",
+    "ContactInformation": {
+      "Phone": "941-367-6288",
+      "Email": "janicesloan@example.org",
+      "Address": "17226 Ryan Meadows Apt. 351\nPort Ann, CO 42987"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-10",
+    "Location": "2113 Melinda Neck Apt. 764\nNorth Clarencefort, NY 55690",
+    "Description": "Exactly think I forget discover prepare form mean. Deal begin trade issue nor last age. President rise establish production."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13544
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 122082
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8535
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3024
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14525
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 34823,
+    "TotalApproved": 4945
+  },
+  "AdjusterDetails": {
+    "Name": "Katie Miller",
+    "ContactInformation": {
+      "Phone": "001-757-413-0388x7682",
+      "Email": "emontoya@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/8238ca53-b2fa-4676-9125-11fef7611c73"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-10T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-15T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-20T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

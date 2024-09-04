@@ -1,0 +1,81 @@
+{
+    "ClaimID": "a70ec124-a40c-43a6-bf0b-1bdfe22b540a",
+    "PolicyID": "5dccb6b5-54cf-4a5c-9d43-1c4d33ff26ba",
+    "EffectiveDates": {
+        "StartDate": "2024-02-13",
+        "EndDate": "2025-02-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "95011c90-55ee-4a87-9c95-10df6989f48a",
+        "Name": "Lauren Farley",
+        "PolicyNumber": "5dccb6b5-54cf-4a5c-9d43-1c4d33ff26ba",
+        "ContactInformation": {
+            "Phone": "(960)576-7364",
+            "Email": "michaellawrence@example.net",
+            "Address": "88477 Benson Terrace\nJoelborough, NH 26607"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-23",
+        "Location": "33576 Victoria Causeway\nMcgrathport, CT 38446",
+        "Description": "Senior defense study ten campaign. Traditional from body total while break weight. Stand find religious."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 32978
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 145429
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9894
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 152604
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 15750
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 58602,
+        "TotalApproved": 45138
+    },
+    "AdjusterDetails": {
+        "Name": "Vanessa Hale",
+        "ContactInformation": {
+            "Phone": "526-397-1113",
+            "Email": "ruben96@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/60c76e11-da91-4e4f-adc4-ffcf87de5f31"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-23T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-28T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-02T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

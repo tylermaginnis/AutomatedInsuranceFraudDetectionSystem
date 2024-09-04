@@ -1,0 +1,81 @@
+{
+    "ClaimID": "41ab17bb-65ba-41cc-a5f4-7b30f5e84460",
+    "PolicyID": "f1793e72-be47-42d0-8280-4a9faab2c1b7",
+    "EffectiveDates": {
+        "StartDate": "2024-07-19",
+        "EndDate": "2025-07-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "13db435d-53ac-44a2-862b-70ec6eb41c72",
+        "Name": "Donna Morris",
+        "PolicyNumber": "f1793e72-be47-42d0-8280-4a9faab2c1b7",
+        "ContactInformation": {
+            "Phone": "8328823824",
+            "Email": "huberdavid@example.net",
+            "Address": "59115 Walker Expressway\nLake Anthonybury, FM 17885"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-07",
+        "Location": "467 Daniel Garden\nJordanside, DE 91545",
+        "Description": "Despite method prepare Republican clearly even. Much north ability relate through box. Beautiful machine research later shake sport behind myself."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 38285
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7899
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7825
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17997
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3015
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 105561,
+        "TotalApproved": 2733
+    },
+    "AdjusterDetails": {
+        "Name": "Kent Schmidt",
+        "ContactInformation": {
+            "Phone": "(804)401-3305",
+            "Email": "nicole45@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/449d770f-cf3f-43f7-ae6b-69f75c891916"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-07T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-12T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-17T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

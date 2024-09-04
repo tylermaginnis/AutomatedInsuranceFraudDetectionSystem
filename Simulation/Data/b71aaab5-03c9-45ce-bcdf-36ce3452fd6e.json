@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b71aaab5-03c9-45ce-bcdf-36ce3452fd6e",
+  "PolicyID": "3525fffe-062b-4ae2-bcef-379f2ac52898",
+  "EffectiveDates": {
+    "StartDate": "2024-03-31",
+    "EndDate": "2025-03-31"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "3ba2d384-fd81-43e2-8f31-6ed419c8c725",
+    "Name": "Danielle Pierce",
+    "PolicyNumber": "3525fffe-062b-4ae2-bcef-379f2ac52898",
+    "ContactInformation": {
+      "Phone": "001-792-391-9183x03858",
+      "Email": "david51@example.com",
+      "Address": "93817 Brandy Points Apt. 717\nJoshuamouth, PR 75369"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-09",
+    "Location": "88756 Krystal Oval Apt. 113\nWest Nicholas, CA 50342",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 62300
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 37946
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9045
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 17149
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7851
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 134291,
+    "TotalApproved": 125944
+  },
+  "AdjusterDetails": {
+    "Name": "Crystal Cooper",
+    "ContactInformation": {
+      "Phone": "646-235-4802x0020",
+      "Email": "simmonsdana@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/8abe4655-e7f0-4520-bbb8-a0aeb8b06b87"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-09T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-14T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-19T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

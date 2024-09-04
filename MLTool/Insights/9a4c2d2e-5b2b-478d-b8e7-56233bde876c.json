@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9a4c2d2e-5b2b-478d-b8e7-56233bde876c",
+    "PolicyID": "df6074fe-d8bb-4bbb-bfa7-bdb3ab6df2ec",
+    "EffectiveDates": {
+        "StartDate": "2023-12-12",
+        "EndDate": "2024-12-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c7cc7114-6585-43b7-bda4-f2ec8de4f65f",
+        "Name": "Ana Weeks",
+        "PolicyNumber": "df6074fe-d8bb-4bbb-bfa7-bdb3ab6df2ec",
+        "ContactInformation": {
+            "Phone": "001-655-720-3674",
+            "Email": "brianberry@example.com",
+            "Address": "44492 Thompson Brook Suite 148\nSimpsonstad, MS 79777"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-07",
+        "Location": "0533 Lance Prairie\nPittsberg, VA 94506",
+        "Description": "Surface smile though important you. More toward help big movie determine. Build happy order follow decision. Life drive wall consumer above good never."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11564
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 94340
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14609
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 2667
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 195242
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 36875,
+        "TotalApproved": 28897
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Morris",
+        "ContactInformation": {
+            "Phone": "683.404.3189",
+            "Email": "craigandersen@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d54b8a35-5b03-4343-904b-7ebdac4d0855"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

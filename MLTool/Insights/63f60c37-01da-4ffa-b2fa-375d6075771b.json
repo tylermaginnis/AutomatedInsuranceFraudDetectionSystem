@@ -1,0 +1,81 @@
+{
+    "ClaimID": "63f60c37-01da-4ffa-b2fa-375d6075771b",
+    "PolicyID": "d061521f-588b-4f92-8e90-15bbdcae8a19",
+    "EffectiveDates": {
+        "StartDate": "2024-06-04",
+        "EndDate": "2025-06-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0288cb97-21be-47d9-be80-44982af2e7dc",
+        "Name": "Alexis Hopkins",
+        "PolicyNumber": "d061521f-588b-4f92-8e90-15bbdcae8a19",
+        "ContactInformation": {
+            "Phone": "894.735.2837",
+            "Email": "vanderson@example.com",
+            "Address": "4251 Johnson Via\nHoganshire, ND 77037"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-17",
+        "Location": "0832 Fox Gardens\nRhodesmouth, PW 31500",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 67396
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 30892
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8253
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 24536
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14247
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 145324,
+        "TotalApproved": 36385
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Johns",
+        "ContactInformation": {
+            "Phone": "(326)286-0714",
+            "Email": "mullinsbrooke@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8f099ca8-eb99-4d03-8561-2e0d7cc04f87"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-17T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-22T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-27T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

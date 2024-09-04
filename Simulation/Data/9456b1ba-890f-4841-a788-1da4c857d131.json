@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9456b1ba-890f-4841-a788-1da4c857d131",
+  "PolicyID": "e1c7bf46-d6c4-4fef-ac6d-6ee87203fea0",
+  "EffectiveDates": {
+    "StartDate": "2024-04-03",
+    "EndDate": "2025-04-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f05f6c31-458a-4320-811b-4943e9279cb3",
+    "Name": "Doris Massey",
+    "PolicyNumber": "e1c7bf46-d6c4-4fef-ac6d-6ee87203fea0",
+    "ContactInformation": {
+      "Phone": "769-380-5652",
+      "Email": "melaniesmith@example.com",
+      "Address": "5772 Aaron Isle Apt. 963\nSouth Josephfort, FM 14664"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-10",
+    "Location": "61342 May Ridge\nWest Heatherbury, NJ 94097",
+    "Description": "Discuss visit draw develop minute office. Enough open cause dream wide leg quickly.\nPower beautiful amount foot. Rule radio south through person hospital."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8664
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 15149
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 13721
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5119
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 133877
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 185554,
+    "TotalApproved": 118014
+  },
+  "AdjusterDetails": {
+    "Name": "Michele Bullock",
+    "ContactInformation": {
+      "Phone": "(298)431-0921x946",
+      "Email": "jonathanmelendez@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/51b207bb-19f9-4f1d-8832-b1e30a1f9197"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-10T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-15T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-20T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

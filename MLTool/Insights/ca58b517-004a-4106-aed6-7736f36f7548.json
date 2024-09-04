@@ -1,0 +1,81 @@
+{
+    "ClaimID": "ca58b517-004a-4106-aed6-7736f36f7548",
+    "PolicyID": "52540cf7-489a-4133-9ec0-2479bd43a63b",
+    "EffectiveDates": {
+        "StartDate": "2024-05-26",
+        "EndDate": "2025-05-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3cb2dae6-90e1-4bfd-a431-dd454b90d414",
+        "Name": "Lauren Pierce",
+        "PolicyNumber": "52540cf7-489a-4133-9ec0-2479bd43a63b",
+        "ContactInformation": {
+            "Phone": "765.824.8070x617",
+            "Email": "angela48@example.com",
+            "Address": "419 Flores Valley Apt. 314\nLake Tyler, TN 04095"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-02",
+        "Location": "9124 Baldwin Walks\nAverystad, OR 18393",
+        "Description": "Piece join actually suggest. Individual free main.\nEspecially question treatment above trade also state. Green huge effort treat different stay."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9248
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6219
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1947
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1372
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 44629
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 88770,
+        "TotalApproved": 65057
+    },
+    "AdjusterDetails": {
+        "Name": "Joshua Larson",
+        "ContactInformation": {
+            "Phone": "+1-958-882-8091x362",
+            "Email": "whitetyler@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b86a72fe-5aa1-4c57-82c4-1f2a253332af"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-02T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-07T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-12T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

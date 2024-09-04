@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fd8b1cc9-d4e4-4b93-8859-7d5569583f50",
+    "PolicyID": "1cabb6ca-2d7a-4920-a78c-15902650a52b",
+    "EffectiveDates": {
+        "StartDate": "2024-03-05",
+        "EndDate": "2025-03-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3ea3d393-1d1d-4548-9b2e-13ef92d5ab13",
+        "Name": "Ann Jones",
+        "PolicyNumber": "1cabb6ca-2d7a-4920-a78c-15902650a52b",
+        "ContactInformation": {
+            "Phone": "+1-895-240-9012x135",
+            "Email": "shannon12@example.com",
+            "Address": "7212 Wilkinson Shoal Apt. 259\nLake Julie, WY 36887"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-23",
+        "Location": "USNV Mills\nFPO AP 67350",
+        "Description": "Relationship dark down half glass safe. Field scientist expert middle easy figure every.\nThemselves right away partner future painting group. Expert bad thing same."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5446
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7774
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33164
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 60122
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4727
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 53994,
+        "TotalApproved": 47383
+    },
+    "AdjusterDetails": {
+        "Name": "Robert Dodson",
+        "ContactInformation": {
+            "Phone": "(835)683-7540x00899",
+            "Email": "phillipmiller@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ffc28cdf-e3a5-4189-8d0f-9d6cb033c59b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-23T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-28T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-02T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

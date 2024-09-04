@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d6e01018-312e-415c-b162-9639fe829296",
+    "PolicyID": "bf582c88-4f2f-4455-917e-3c5f8f54cacc",
+    "EffectiveDates": {
+        "StartDate": "2024-04-05",
+        "EndDate": "2025-04-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0ccfece9-7397-48b9-957e-2d46a56aefed",
+        "Name": "Steven Hernandez",
+        "PolicyNumber": "bf582c88-4f2f-4455-917e-3c5f8f54cacc",
+        "ContactInformation": {
+            "Phone": "7776695541",
+            "Email": "carneymichael@example.com",
+            "Address": "7226 Amanda Summit Suite 130\nThomasburgh, IL 47583"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-14",
+        "Location": "4019 Baker Squares Apt. 610\nMillerport, GU 93884",
+        "Description": "Nature bed must which reality. Population despite east benefit if treat effect. House executive worker herself dream among."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6555
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 120171
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9616
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5926
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4715
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 58445,
+        "TotalApproved": 22734
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Burke",
+        "ContactInformation": {
+            "Phone": "(777)768-2025",
+            "Email": "james36@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/13bd0139-e54a-4cd4-b8ea-518738602c86"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

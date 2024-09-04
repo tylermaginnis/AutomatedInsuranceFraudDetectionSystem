@@ -1,0 +1,80 @@
+{
+  "ClaimID": "8612696b-59fd-4095-9512-aeba77458dc2",
+  "PolicyID": "31515308-d079-4103-a374-bd9e00f1a579",
+  "EffectiveDates": {
+    "StartDate": "2024-02-26",
+    "EndDate": "2025-02-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "c806a69d-9595-4497-a950-16e1c844c664",
+    "Name": "Matthew Smith",
+    "PolicyNumber": "31515308-d079-4103-a374-bd9e00f1a579",
+    "ContactInformation": {
+      "Phone": "7774219078",
+      "Email": "pittschristine@example.com",
+      "Address": "561 Hogan Well Suite 099\nMitchellside, NE 80750"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-01",
+    "Location": "2791 Johnson Inlet Apt. 037\nLake Keithberg, IL 94310",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 52914
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 45241
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5080
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 25770
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7333
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 136338,
+    "TotalApproved": 75243
+  },
+  "AdjusterDetails": {
+    "Name": "John Peters",
+    "ContactInformation": {
+      "Phone": "572-884-9277",
+      "Email": "natalieharrison@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/ebe42b16-4976-47b5-914f-25d98f0bbcea"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-01T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-06T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-11T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

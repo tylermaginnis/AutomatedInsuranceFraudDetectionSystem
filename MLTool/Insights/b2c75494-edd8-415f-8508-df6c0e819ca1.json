@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b2c75494-edd8-415f-8508-df6c0e819ca1",
+    "PolicyID": "7816dbff-c4a3-4e6b-af58-daa0f0a5e0a2",
+    "EffectiveDates": {
+        "StartDate": "2024-03-01",
+        "EndDate": "2025-03-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2ba18cb7-8779-4a8f-9b24-ddaa61bc3fcf",
+        "Name": "Bryan Cummings",
+        "PolicyNumber": "7816dbff-c4a3-4e6b-af58-daa0f0a5e0a2",
+        "ContactInformation": {
+            "Phone": "001-839-498-6528x288",
+            "Email": "kellyaustin@example.com",
+            "Address": "5674 Peterson Overpass\nLake Kevin, OK 38805"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-04",
+        "Location": "96187 Farley Landing\nSouth Martin, NC 92319",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 61096
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38005
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6236
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29134
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19557
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 154028,
+        "TotalApproved": 74903
+    },
+    "AdjusterDetails": {
+        "Name": "Eric Nguyen",
+        "ContactInformation": {
+            "Phone": "5297628056",
+            "Email": "mpineda@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7ffd54a1-b763-4d25-980c-c72adb7455e6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-04T14:14:30Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-09T14:14:30Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-14T14:14:30Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1fd10795-7aec-4599-9e7d-2f5b5a5d4c96",
+  "PolicyID": "e1c619d9-d6c2-4441-ba84-844e419403ce",
+  "EffectiveDates": {
+    "StartDate": "2024-02-16",
+    "EndDate": "2025-02-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e5007b08-395b-4f02-8e8d-9e1349efce4f",
+    "Name": "Jennifer Wiggins",
+    "PolicyNumber": "e1c619d9-d6c2-4441-ba84-844e419403ce",
+    "ContactInformation": {
+      "Phone": "(334)441-9291x8965",
+      "Email": "emann@example.net",
+      "Address": "75659 Alec Spring Suite 863\nDanieltown, CO 85154"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-11",
+    "Location": "73062 Frederick Port Apt. 674\nBrianmouth, CA 07185",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 98089
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 28386
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9648
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 11800
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 18990
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 166913,
+    "TotalApproved": 156713
+  },
+  "AdjusterDetails": {
+    "Name": "Mallory Turner",
+    "ContactInformation": {
+      "Phone": "+1-882-400-4117x66172",
+      "Email": "hernandezamy@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/8d68c754-0ac7-4745-ad8d-36b164176f10"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-11T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-16T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-21T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

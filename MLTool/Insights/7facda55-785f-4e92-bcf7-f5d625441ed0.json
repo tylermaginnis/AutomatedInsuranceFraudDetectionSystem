@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7facda55-785f-4e92-bcf7-f5d625441ed0",
+    "PolicyID": "135b621f-d405-487d-a433-02a72b60b078",
+    "EffectiveDates": {
+        "StartDate": "2024-08-12",
+        "EndDate": "2025-08-12"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "cf25040c-92e1-42a3-8349-c39b20878661",
+        "Name": "Morgan Mason",
+        "PolicyNumber": "135b621f-d405-487d-a433-02a72b60b078",
+        "ContactInformation": {
+            "Phone": "253-445-0348x3654",
+            "Email": "johnspencer@example.com",
+            "Address": "8586 Rodriguez Lodge\nBrittanymouth, IN 57855"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-17",
+        "Location": "0458 Abbott Summit\nTurnerburgh, IL 32171",
+        "Description": "Travel language thousand realize four. Happy service produce newspaper hold society.\nEffort explain woman stage information within interview. Investment range thousand other rate chance bag author."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2595
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14005
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 129508
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 87472
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4909
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 106397,
+        "TotalApproved": 60429
+    },
+    "AdjusterDetails": {
+        "Name": "Matthew Garcia MD",
+        "ContactInformation": {
+            "Phone": "347.920.3574x1312",
+            "Email": "mercedessmith@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/30ec3210-4d0a-4c33-90c2-60297b44df7c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-17T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-22T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-27T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

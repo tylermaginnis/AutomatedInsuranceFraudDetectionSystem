@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9da968c4-d2cc-427d-89df-2b82d231d949",
+    "PolicyID": "6f3e1a5b-50ff-4fa4-9f8a-dd96be34f893",
+    "EffectiveDates": {
+        "StartDate": "2024-01-21",
+        "EndDate": "2025-01-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0f44ccdd-2671-44cd-998b-2ce89872968f",
+        "Name": "Jonathan Harrison",
+        "PolicyNumber": "6f3e1a5b-50ff-4fa4-9f8a-dd96be34f893",
+        "ContactInformation": {
+            "Phone": "+1-387-671-2661x804",
+            "Email": "greenrobin@example.com",
+            "Address": "8033 Thomas Canyon Suite 934\nPettychester, LA 33914"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-20",
+        "Location": "PSC 2044, Box 2949\nAPO AA 96261",
+        "Description": "Energy he half term. Media quality sound war herself foreign prove. Information local long view ask test. Several sister and seek management day process."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 69531
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 23869
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33792
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29012
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 13764
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 106537,
+        "TotalApproved": 17384
+    },
+    "AdjusterDetails": {
+        "Name": "Toni Wiggins",
+        "ContactInformation": {
+            "Phone": "(945)587-8045x3116",
+            "Email": "wdavis@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/61143b1f-4c5e-4c26-858d-f25c3d658fc4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "28912219-36a8-4101-b993-cb74e2e74cdb",
+    "PolicyID": "66ea51f6-8072-4256-a4cd-18e23a25cd8c",
+    "EffectiveDates": {
+        "StartDate": "2024-08-24",
+        "EndDate": "2025-08-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "694e0206-9028-48e5-b2af-55770e776940",
+        "Name": "Kara Cameron",
+        "PolicyNumber": "66ea51f6-8072-4256-a4cd-18e23a25cd8c",
+        "ContactInformation": {
+            "Phone": "001-696-706-2117x80584",
+            "Email": "lbyrd@example.org",
+            "Address": "3829 Thomas Shoal\nWilliamsview, KS 72226"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-10",
+        "Location": "4828 Jackson Fall Apt. 647\nAllenburgh, MD 71424",
+        "Description": "Staged accident"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 89963
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47687
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7487
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 16746
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6588
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 168471,
+        "TotalApproved": 20859
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Calvin Petersen II",
+        "ContactInformation": {
+            "Phone": "884.664.4859x7097",
+            "Email": "cheryl46@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4c8d0b98-3b4f-4c4b-81e6-32c21e970482"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-10T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-15T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-20T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

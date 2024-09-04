@@ -1,0 +1,81 @@
+{
+    "ClaimID": "adbc8cac-1cfa-4cf3-803d-5d4fb6f1e0bd",
+    "PolicyID": "31f86781-afee-43e5-a6fc-68f9f94371ad",
+    "EffectiveDates": {
+        "StartDate": "2024-06-17",
+        "EndDate": "2025-06-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4c033be6-35b7-4e23-a8f0-f50945d0da9b",
+        "Name": "Katherine Perez",
+        "PolicyNumber": "31f86781-afee-43e5-a6fc-68f9f94371ad",
+        "ContactInformation": {
+            "Phone": "(337)711-2470x585",
+            "Email": "wrightsarah@example.com",
+            "Address": "3726 Scott Viaduct\nLake Gerald, PR 04687"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-29",
+        "Location": "USNV Martinez\nFPO AE 68092",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79189
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 35570
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6789
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 14013
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11794
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 147355,
+        "TotalApproved": 111851
+    },
+    "AdjusterDetails": {
+        "Name": "William Salazar",
+        "ContactInformation": {
+            "Phone": "409.311.6963",
+            "Email": "harrisjason@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/efe58c39-227c-4b44-9835-4de921776bb4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-29T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-04T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-09T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

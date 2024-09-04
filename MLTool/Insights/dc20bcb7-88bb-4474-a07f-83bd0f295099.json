@@ -1,0 +1,81 @@
+{
+    "ClaimID": "dc20bcb7-88bb-4474-a07f-83bd0f295099",
+    "PolicyID": "6255cd68-3779-4706-9666-35e10936173e",
+    "EffectiveDates": {
+        "StartDate": "2023-12-29",
+        "EndDate": "2024-12-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "72298345-b5f9-48ab-96f7-3404ed5fdf09",
+        "Name": "Paula Evans",
+        "PolicyNumber": "6255cd68-3779-4706-9666-35e10936173e",
+        "ContactInformation": {
+            "Phone": "477-281-3625x51540",
+            "Email": "nancymartin@example.net",
+            "Address": "0041 Jeremiah Mall Suite 312\nWest Jesse, NY 26836"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-18",
+        "Location": "Unit 1573 Box 5776\nDPO AE 44276",
+        "Description": "Morning available democratic present still be value. Set risk either stop blood hotel. Push indeed free."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 44856
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1953
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 24048
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 3160
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 8599
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 159993,
+        "TotalApproved": 24754
+    },
+    "AdjusterDetails": {
+        "Name": "Scott White",
+        "ContactInformation": {
+            "Phone": "+1-744-913-5787x52490",
+            "Email": "cali@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b8f95b86-2fad-448b-bcd4-99e6af6d3c85"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-18T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-23T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-28T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

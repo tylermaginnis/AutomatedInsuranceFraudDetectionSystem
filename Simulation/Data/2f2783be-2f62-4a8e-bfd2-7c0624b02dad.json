@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2f2783be-2f62-4a8e-bfd2-7c0624b02dad",
+  "PolicyID": "07d3c67d-51e5-426d-9cad-9353e1d22a48",
+  "EffectiveDates": {
+    "StartDate": "2023-10-04",
+    "EndDate": "2024-10-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "caf94241-b612-4885-9394-3d8257407185",
+    "Name": "Lori Keller",
+    "PolicyNumber": "07d3c67d-51e5-426d-9cad-9353e1d22a48",
+    "ContactInformation": {
+      "Phone": "252.317.5197",
+      "Email": "nicolejimenez@example.net",
+      "Address": "Unit 9690 Box 9566\nDPO AP 58844"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-10",
+    "Location": "Unit 6809 Box 9698\nDPO AP 79635",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 91561
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 49171
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8680
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 11612
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15591
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 176615,
+    "TotalApproved": 16071
+  },
+  "AdjusterDetails": {
+    "Name": "Evan Collins",
+    "ContactInformation": {
+      "Phone": "+1-713-205-6843x04175",
+      "Email": "karenwebb@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/06f34356-fa02-4d15-b084-680c3eb3ce8a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-10T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-15T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-20T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

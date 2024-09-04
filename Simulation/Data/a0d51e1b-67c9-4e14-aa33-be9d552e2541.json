@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a0d51e1b-67c9-4e14-aa33-be9d552e2541",
+  "PolicyID": "54184a0d-dda9-4445-b72c-4ea202d2c5b0",
+  "EffectiveDates": {
+    "StartDate": "2024-01-25",
+    "EndDate": "2025-01-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "01926ef1-2cc8-464e-9922-f9587cf0a144",
+    "Name": "Holly Rogers",
+    "PolicyNumber": "54184a0d-dda9-4445-b72c-4ea202d2c5b0",
+    "ContactInformation": {
+      "Phone": "+1-558-838-8783",
+      "Email": "gford@example.com",
+      "Address": "3891 Stacy Fall Suite 536\nNorth Lisa, PR 26570"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-01",
+    "Location": "Unit 1670 Box 0035\nDPO AA 52329",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 86945
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 27908
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5689
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14180
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 17602
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 152324,
+    "TotalApproved": 137529
+  },
+  "AdjusterDetails": {
+    "Name": "Rhonda Sullivan",
+    "ContactInformation": {
+      "Phone": "+1-593-908-9762x60683",
+      "Email": "leslie13@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/97989c3d-6b9a-4ca8-a531-6390779d0047"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-01T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-06T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-11T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

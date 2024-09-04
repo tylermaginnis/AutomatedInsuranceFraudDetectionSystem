@@ -1,0 +1,80 @@
+{
+  "ClaimID": "39915e29-3fc1-4a60-847b-b783aae27e06",
+  "PolicyID": "845c8efb-b19b-4826-84fc-5392f394c079",
+  "EffectiveDates": {
+    "StartDate": "2023-09-27",
+    "EndDate": "2024-09-26"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "7033ef10-5703-48d7-89a2-85278a533fc1",
+    "Name": "Miguel Dudley",
+    "PolicyNumber": "845c8efb-b19b-4826-84fc-5392f394c079",
+    "ContactInformation": {
+      "Phone": "+1-427-481-9021",
+      "Email": "susan83@example.net",
+      "Address": "252 Mendez Shore Suite 150\nWest James, TX 05668"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-28",
+    "Location": "3642 Andrews Haven\nMichelebury, CT 72706",
+    "Description": "Industry cause enough collection apply middle. Whether can participant more.\nBest high example simple any their painting learn. Summer against education relate thought. Grow bank very cell nor."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8837
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 165077
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 111407
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 29027
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 67925
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 191208,
+    "TotalApproved": 180589
+  },
+  "AdjusterDetails": {
+    "Name": "David Brown",
+    "ContactInformation": {
+      "Phone": "217.205.0294",
+      "Email": "ahendrix@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/465aa965-eece-410d-9fb4-c09a7e868382"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-28T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-02T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-07T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

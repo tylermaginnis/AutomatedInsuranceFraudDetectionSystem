@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fc05cd3d-51e7-469f-8509-b7f8935ef9b8",
+  "PolicyID": "485af009-4abb-43ff-a18d-088abc9949ba",
+  "EffectiveDates": {
+    "StartDate": "2024-08-19",
+    "EndDate": "2025-08-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8ec455f3-3112-42f3-ad24-aa31f9ef5d98",
+    "Name": "Stephanie Schwartz",
+    "PolicyNumber": "485af009-4abb-43ff-a18d-088abc9949ba",
+    "ContactInformation": {
+      "Phone": "931.826.3730x5048",
+      "Email": "emily75@example.net",
+      "Address": "812 Matthew Way Suite 763\nEdgarberg, MN 80379"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-03",
+    "Location": "98829 Richard Springs\nErichaven, MD 76692",
+    "Description": "Without whom bag space prepare hot. How interesting do light. Ahead finish first man."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 33589
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 45445
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 46038
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 4456
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 166913
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 65780,
+    "TotalApproved": 24996
+  },
+  "AdjusterDetails": {
+    "Name": "Kelly Archer",
+    "ContactInformation": {
+      "Phone": "988-472-2792",
+      "Email": "ayalakelly@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/84d24ae7-8de4-4a42-b350-22ca7f9c4bf2"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-03T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-08T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-13T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

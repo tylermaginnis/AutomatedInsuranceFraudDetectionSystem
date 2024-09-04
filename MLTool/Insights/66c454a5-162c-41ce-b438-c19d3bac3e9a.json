@@ -1,0 +1,81 @@
+{
+    "ClaimID": "66c454a5-162c-41ce-b438-c19d3bac3e9a",
+    "PolicyID": "5e5353e4-64f4-4c1e-a5ec-454452ea142a",
+    "EffectiveDates": {
+        "StartDate": "2023-12-01",
+        "EndDate": "2024-11-30"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b5f372cf-eb91-4d56-8ba1-a93c20988fbf",
+        "Name": "David Smith",
+        "PolicyNumber": "5e5353e4-64f4-4c1e-a5ec-454452ea142a",
+        "ContactInformation": {
+            "Phone": "264-420-2739x1939",
+            "Email": "andrearay@example.net",
+            "Address": "6153 James Gateway\nEmilyland, UT 89214"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-17",
+        "Location": "536 Carl Ways\nPort Kim, HI 37308",
+        "Description": "Pm answer her whose. Idea action exist. Few ask people simply they.\nYour single old green."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6038
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7217
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7729
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 117552
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42628
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 183547,
+        "TotalApproved": 111138
+    },
+    "AdjusterDetails": {
+        "Name": "Peter Paul",
+        "ContactInformation": {
+            "Phone": "+1-884-692-5686",
+            "Email": "josehebert@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/d542c73b-fa06-45d2-9fc3-33b28ceece26"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-17T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-22T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-27T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

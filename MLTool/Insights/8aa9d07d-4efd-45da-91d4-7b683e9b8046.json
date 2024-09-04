@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8aa9d07d-4efd-45da-91d4-7b683e9b8046",
+    "PolicyID": "8e9a78ec-3827-4a25-879f-25dd28a5b418",
+    "EffectiveDates": {
+        "StartDate": "2024-05-08",
+        "EndDate": "2025-05-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "01ce3581-ed2c-4c0e-8e4d-71a7f73d354a",
+        "Name": "Gregory Lee",
+        "PolicyNumber": "8e9a78ec-3827-4a25-879f-25dd28a5b418",
+        "ContactInformation": {
+            "Phone": "218.526.5346",
+            "Email": "tnelson@example.net",
+            "Address": "0529 Tabitha Hills\nMichelleborough, HI 56003"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-06",
+        "Location": "61843 Luis Junctions Apt. 482\nNew Nathanielburgh, MT 96719",
+        "Description": "Executive senior listen hair production page work. Effort wonder data movement role. Group federal message do since."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2071
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9965
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1701
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 117980
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9162
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 5894,
+        "TotalApproved": 5812
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Curry",
+        "ContactInformation": {
+            "Phone": "7244844786",
+            "Email": "btorres@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/a80897aa-234a-4855-b3e4-5a4b183e11a6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-06T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-11T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-16T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

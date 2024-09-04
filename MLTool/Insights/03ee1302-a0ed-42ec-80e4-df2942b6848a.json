@@ -1,0 +1,81 @@
+{
+    "ClaimID": "03ee1302-a0ed-42ec-80e4-df2942b6848a",
+    "PolicyID": "22f86be9-fff3-4332-bd11-ade8f07af92b",
+    "EffectiveDates": {
+        "StartDate": "2024-04-20",
+        "EndDate": "2025-04-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4b985ed5-cc33-4ee9-9045-e4ba093c94b3",
+        "Name": "Deborah Cox",
+        "PolicyNumber": "22f86be9-fff3-4332-bd11-ade8f07af92b",
+        "ContactInformation": {
+            "Phone": "+1-596-879-0842x969",
+            "Email": "brent55@example.org",
+            "Address": "074 Linda Walks Suite 863\nFullerbury, MS 94093"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-06",
+        "Location": "97021 Oconnor Mill\nPort Dillonfort, VI 25916",
+        "Description": "Job plant skin product special Mrs how most. Goal show security significant reach experience three end."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3224
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 97923
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 30620
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1827
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31107
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 198346,
+        "TotalApproved": 133985
+    },
+    "AdjusterDetails": {
+        "Name": "Timothy House",
+        "ContactInformation": {
+            "Phone": "001-546-933-4324x56774",
+            "Email": "michael54@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/2f579737-59a0-458b-9538-78839d9a44b2"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-06T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-11T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-16T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

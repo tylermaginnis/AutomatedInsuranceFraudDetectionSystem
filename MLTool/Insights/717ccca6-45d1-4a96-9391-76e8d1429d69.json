@@ -1,0 +1,81 @@
+{
+    "ClaimID": "717ccca6-45d1-4a96-9391-76e8d1429d69",
+    "PolicyID": "686627e4-e688-4a85-bdbc-f4ba263eb4dc",
+    "EffectiveDates": {
+        "StartDate": "2023-11-17",
+        "EndDate": "2024-11-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4536fd99-1e8e-48f5-af4c-a86da699b51a",
+        "Name": "Jacob Palmer",
+        "PolicyNumber": "686627e4-e688-4a85-bdbc-f4ba263eb4dc",
+        "ContactInformation": {
+            "Phone": "890-943-8884",
+            "Email": "luke60@example.org",
+            "Address": "5549 Shawn Tunnel\nWest Kaylaport, GA 10823"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-10",
+        "Location": "913 Mcdaniel Flats Suite 110\nEast Roy, CO 70698",
+        "Description": "Number structure rich they head. Cell receive usually. Action describe expert southern eight."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1640
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7181
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 55873
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12615
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24950
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 144590,
+        "TotalApproved": 126158
+    },
+    "AdjusterDetails": {
+        "Name": "Jose Erickson",
+        "ContactInformation": {
+            "Phone": "+1-934-734-3358x80950",
+            "Email": "anelson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/007a0b87-e13d-4fb5-8b77-e1a32cac2442"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-10T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-15T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-20T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

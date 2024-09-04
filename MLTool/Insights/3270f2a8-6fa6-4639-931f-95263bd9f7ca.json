@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3270f2a8-6fa6-4639-931f-95263bd9f7ca",
+    "PolicyID": "8d8414aa-2865-4c35-acc2-453253b563d0",
+    "EffectiveDates": {
+        "StartDate": "2023-12-27",
+        "EndDate": "2024-12-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "1c1a51d7-3041-4173-b6e5-c89b05e4c4f9",
+        "Name": "Derek Bradford",
+        "PolicyNumber": "8d8414aa-2865-4c35-acc2-453253b563d0",
+        "ContactInformation": {
+            "Phone": "001-457-343-5839",
+            "Email": "shannon99@example.net",
+            "Address": "6480 Charles Gateway\nPort Alantown, GU 05894"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-09",
+        "Location": "99768 Elizabeth Spring\nEast Elizabeth, ME 97022",
+        "Description": "Prepare prove even drug phone yourself treat. Tough carry fast happen night simple less. Condition standard sign everybody five century say."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26670
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8189
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12832
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1167
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1182
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 128768,
+        "TotalApproved": 21313
+    },
+    "AdjusterDetails": {
+        "Name": "Dana Mcintyre",
+        "ContactInformation": {
+            "Phone": "7338979518",
+            "Email": "christina39@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/75f90278-3916-4fe9-952b-9bd13a57c7f5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-09T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-14T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-19T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

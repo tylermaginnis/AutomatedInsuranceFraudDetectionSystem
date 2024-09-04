@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d35ad3ba-1394-4f76-9f28-b4472a243865",
+    "PolicyID": "982489f2-dbfe-4cab-a47d-ad8db3234c6e",
+    "EffectiveDates": {
+        "StartDate": "2024-08-31",
+        "EndDate": "2025-08-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ca552337-71d4-473d-b24b-2c27b49ae992",
+        "Name": "Sarah Wong",
+        "PolicyNumber": "982489f2-dbfe-4cab-a47d-ad8db3234c6e",
+        "ContactInformation": {
+            "Phone": "663-223-8111x9304",
+            "Email": "gsanders@example.com",
+            "Address": "6108 Booth Meadows Suite 451\nLake Jenna, MN 71877"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-17",
+        "Location": "875 Mary Villages Suite 966\nPhillipsland, TX 03594",
+        "Description": "Traditional specific condition describe. Talk their ability know. Best particular walk reduce form church.\nNature water painting street gas. Send step choose investment hour."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24985
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13562
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3142
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 31834
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5224
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 156887,
+        "TotalApproved": 25021
+    },
+    "AdjusterDetails": {
+        "Name": "Kristen Gonzalez",
+        "ContactInformation": {
+            "Phone": "896.561.1627",
+            "Email": "maria57@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/de6ca6a2-f366-4de5-ad9d-f8b0cb002564"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-17T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-22T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-27T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

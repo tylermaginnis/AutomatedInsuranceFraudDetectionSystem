@@ -1,0 +1,81 @@
+{
+    "ClaimID": "09d8764a-eabb-455a-8407-7b130da5921c",
+    "PolicyID": "05159ca8-a81c-491e-9968-c3859ecc6317",
+    "EffectiveDates": {
+        "StartDate": "2024-02-24",
+        "EndDate": "2025-02-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "11176056-cc0a-40ea-b43a-664694453cc7",
+        "Name": "Stephanie Bishop MD",
+        "PolicyNumber": "05159ca8-a81c-491e-9968-c3859ecc6317",
+        "ContactInformation": {
+            "Phone": "001-947-373-4575",
+            "Email": "jonesemily@example.com",
+            "Address": "4733 Amanda Pine\nJeffreyland, DE 82920"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-31",
+        "Location": "2007 Johnson Lock\nPort Alejandroland, SC 22877",
+        "Description": "Physical daughter eat people. Style blue political expect four if.\nStyle Mr food road.\nTrip down eye ball traditional situation future field. Kitchen answer minute. For federal program market."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 46995
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16795
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5362
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 151537
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 92403
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 20868,
+        "TotalApproved": 16785
+    },
+    "AdjusterDetails": {
+        "Name": "Monica Williams",
+        "ContactInformation": {
+            "Phone": "904-558-7216",
+            "Email": "okrueger@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/cd161d18-0a17-4cc7-83c8-32b2fb340bdc"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-31T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-05T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-10T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

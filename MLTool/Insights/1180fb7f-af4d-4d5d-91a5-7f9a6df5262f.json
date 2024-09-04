@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1180fb7f-af4d-4d5d-91a5-7f9a6df5262f",
+    "PolicyID": "2e1381ee-fad9-4a9c-b2ae-7253e563ba45",
+    "EffectiveDates": {
+        "StartDate": "2024-02-23",
+        "EndDate": "2025-02-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "eb56a227-b573-4095-b5ae-ee12697a2183",
+        "Name": "Amanda Solis",
+        "PolicyNumber": "2e1381ee-fad9-4a9c-b2ae-7253e563ba45",
+        "ContactInformation": {
+            "Phone": "653.523.0393",
+            "Email": "courtneysanchez@example.com",
+            "Address": "308 Emily Crossing\nWaltonfurt, KS 11978"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-10",
+        "Location": "09484 Samuel Fork\nEast Albert, NJ 96168",
+        "Description": "Nice into its effect family population prevent.\nSon old before why. Administration describe talk support. Purpose particularly whether food strategy."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9324
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 48793
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9627
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7284
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19623
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 133339,
+        "TotalApproved": 103300
+    },
+    "AdjusterDetails": {
+        "Name": "April White",
+        "ContactInformation": {
+            "Phone": "628.518.3551x079",
+            "Email": "joseph43@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0ded526f-4460-4070-834b-173945013537"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-10T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-15T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-20T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

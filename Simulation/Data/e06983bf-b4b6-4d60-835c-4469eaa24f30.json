@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e06983bf-b4b6-4d60-835c-4469eaa24f30",
+  "PolicyID": "54c14577-bd61-4708-be2e-f5b6efc210b6",
+  "EffectiveDates": {
+    "StartDate": "2024-01-22",
+    "EndDate": "2025-01-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "67590c14-d203-4912-b25e-6313e7103d62",
+    "Name": "Johnny Velasquez",
+    "PolicyNumber": "54c14577-bd61-4708-be2e-f5b6efc210b6",
+    "ContactInformation": {
+      "Phone": "910-961-6774",
+      "Email": "nsmith@example.com",
+      "Address": "9061 Garcia Road Apt. 979\nNew Austinfurt, WY 76652"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-31",
+    "Location": "809 Elizabeth Ridges\nNorth Thomas, ND 41827",
+    "Description": "Until eye drug discussion despite fight project. Color continue pretty fine consumer response participant. Behind amount reality music worry."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 58279
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 15115
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 37951
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4939
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 47952
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 6742,
+    "TotalApproved": 1906
+  },
+  "AdjusterDetails": {
+    "Name": "Brandon Benton",
+    "ContactInformation": {
+      "Phone": "001-971-862-9680x818",
+      "Email": "paulbowen@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/9c487766-3f72-45a7-9920-75e61ee3f8ca"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-31T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-05T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-10T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9249067c-3d53-4907-8fbb-0648d1cd6776",
+    "PolicyID": "2a89e0ba-fa98-4d29-91ec-96a398cbeff2",
+    "EffectiveDates": {
+        "StartDate": "2024-04-11",
+        "EndDate": "2025-04-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2c6a838f-a2d6-4af9-9cf7-d46822e108fe",
+        "Name": "Cassandra Bailey",
+        "PolicyNumber": "2a89e0ba-fa98-4d29-91ec-96a398cbeff2",
+        "ContactInformation": {
+            "Phone": "001-861-586-0267x555",
+            "Email": "prodriguez@example.org",
+            "Address": "525 Gray Springs Suite 462\nPort Richard, WA 85584"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-09",
+        "Location": "672 Jeremiah Rest\nHopkinsport, ND 60241",
+        "Description": "Seat since simple. Art state produce record add simple sister. Threat assume still person speech cost either a. Exist likely something rock writer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7002
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11325
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3747
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9040
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9037
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 94879,
+        "TotalApproved": 47423
+    },
+    "AdjusterDetails": {
+        "Name": "Sarah Miller",
+        "ContactInformation": {
+            "Phone": "2713692405",
+            "Email": "ihall@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/34dc905f-3f2c-4d75-9871-7f51a5b601e1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

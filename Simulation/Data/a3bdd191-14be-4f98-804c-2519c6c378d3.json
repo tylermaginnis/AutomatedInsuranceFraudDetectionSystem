@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a3bdd191-14be-4f98-804c-2519c6c378d3",
+  "PolicyID": "d8a19f74-e92c-43da-babc-d5a133a91fad",
+  "EffectiveDates": {
+    "StartDate": "2024-08-11",
+    "EndDate": "2025-08-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "cf5ca27a-4d8d-4906-b959-20eba75c344f",
+    "Name": "Austin Figueroa",
+    "PolicyNumber": "d8a19f74-e92c-43da-babc-d5a133a91fad",
+    "ContactInformation": {
+      "Phone": "+1-836-482-3017x626",
+      "Email": "whiteaustin@example.com",
+      "Address": "506 Jones Track\nWest William, ID 65258"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-02",
+    "Location": "417 Sergio Way\nAbbottmouth, WI 63618",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 67787
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 49468
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6833
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 11601
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 19111
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 154800,
+    "TotalApproved": 34131
+  },
+  "AdjusterDetails": {
+    "Name": "Antonio Bishop",
+    "ContactInformation": {
+      "Phone": "+1-308-653-2386",
+      "Email": "marcuswilson@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/014ed491-14e6-4d04-8c5b-159e2bed1686"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-02T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-07T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-12T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d00cdb32-1688-4f83-906d-0a2bbeec0570",
+    "PolicyID": "87c1ba7e-180d-4b47-b5f8-f8c15b467754",
+    "EffectiveDates": {
+        "StartDate": "2024-05-04",
+        "EndDate": "2025-05-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "02e35c18-6f7a-4d34-89a0-29582ce9aaed",
+        "Name": "Robert Henderson",
+        "PolicyNumber": "87c1ba7e-180d-4b47-b5f8-f8c15b467754",
+        "ContactInformation": {
+            "Phone": "+1-869-610-3937x2465",
+            "Email": "xthomas@example.org",
+            "Address": "Unit 7048 Box 6887\nDPO AE 60118"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-20",
+        "Location": "048 Rodriguez Spur\nPetersbury, MD 04085",
+        "Description": "Bad leg ever example public agency. Everything industry next one put clearly. Perform want person where light husband.\nCheck long involve decide move play believe. Tax agreement his avoid seven."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2226
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12203
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36016
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36005
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 26703
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 158985,
+        "TotalApproved": 41450
+    },
+    "AdjusterDetails": {
+        "Name": "Donald Quinn",
+        "ContactInformation": {
+            "Phone": "001-395-387-2706x1505",
+            "Email": "uthompson@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9ddeff38-75c6-45b6-85af-8b01dcf92b34"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-20T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-25T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-30T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

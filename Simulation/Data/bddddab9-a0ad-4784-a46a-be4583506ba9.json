@@ -1,0 +1,80 @@
+{
+  "ClaimID": "bddddab9-a0ad-4784-a46a-be4583506ba9",
+  "PolicyID": "843f527c-b163-4b96-bb66-c342c53bb857",
+  "EffectiveDates": {
+    "StartDate": "2024-05-21",
+    "EndDate": "2025-05-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "6c144fcc-3779-4061-bb7d-25517a7a8791",
+    "Name": "Derek Nicholson",
+    "PolicyNumber": "843f527c-b163-4b96-bb66-c342c53bb857",
+    "ContactInformation": {
+      "Phone": "001-275-533-2713x16847",
+      "Email": "dwilliams@example.org",
+      "Address": "4941 Mark Meadows\nMeyersberg, ME 24741"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-18",
+    "Location": "0039 Taylor Stream\nLake Gracefurt, IA 21160",
+    "Description": "Perhaps relationship concern site. Cut good brother sure effect science.\nControl easy magazine seven record during involve. Have world family later check tend. Just soldier thing bad enter."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 40286
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 130923
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 62711
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 19059
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 12370
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 142319,
+    "TotalApproved": 79739
+  },
+  "AdjusterDetails": {
+    "Name": "James Rodriguez",
+    "ContactInformation": {
+      "Phone": "001-713-779-6555x33079",
+      "Email": "hopkinssteven@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/0f1a25fd-b7d4-4287-a928-11b1cde2fdd5"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-18T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-23T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-12-28T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

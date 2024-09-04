@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5253b3f0-c3aa-4eaf-92bd-a1231867c706",
+    "PolicyID": "f926a5c3-5199-427e-9fcd-0d0d444e7175",
+    "EffectiveDates": {
+        "StartDate": "2024-06-18",
+        "EndDate": "2025-06-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "fe5b17cf-1ee6-46b5-b496-03686243fcb4",
+        "Name": "Denise Garza",
+        "PolicyNumber": "f926a5c3-5199-427e-9fcd-0d0d444e7175",
+        "ContactInformation": {
+            "Phone": "+1-943-808-3228",
+            "Email": "ucallahan@example.com",
+            "Address": "47681 Fischer Light\nNew Brandon, TX 44766"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-04-17",
+        "Location": "719 Nicholas Squares Suite 248\nEast Brandonhaven, WV 32106",
+        "Description": "Image fact major peace. Majority fact friend Democrat spend."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 71138
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2029
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7568
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35434
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 6193
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 144370,
+        "TotalApproved": 114605
+    },
+    "AdjusterDetails": {
+        "Name": "Nicole Wallace",
+        "ContactInformation": {
+            "Phone": "001-582-895-8170x08500",
+            "Email": "reedtrevor@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/87b092f1-707a-4d56-947c-debbe4e4a987"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-04-17T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-04-22T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-27T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

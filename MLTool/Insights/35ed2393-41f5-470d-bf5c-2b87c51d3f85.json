@@ -1,0 +1,81 @@
+{
+    "ClaimID": "35ed2393-41f5-470d-bf5c-2b87c51d3f85",
+    "PolicyID": "9371ee07-e016-4099-8c13-4ad4aa91c1d2",
+    "EffectiveDates": {
+        "StartDate": "2024-01-02",
+        "EndDate": "2025-01-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "69ce4886-ba12-458f-b437-37e5eced7881",
+        "Name": "Austin Rojas",
+        "PolicyNumber": "9371ee07-e016-4099-8c13-4ad4aa91c1d2",
+        "ContactInformation": {
+            "Phone": "(246)731-1780x6349",
+            "Email": "damon15@example.org",
+            "Address": "532 Karen Freeway Apt. 331\nWilliambury, KY 56855"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-07",
+        "Location": "Unit 5374 Box 0131\nDPO AP 86517",
+        "Description": "Down or its product international party. Reflect nature action far single investment difficult. Money month least cost.\nBenefit science contain fight. Information approach standard."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 48082
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 16455
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13547
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4569
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 78359
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 79542,
+        "TotalApproved": 8561
+    },
+    "AdjusterDetails": {
+        "Name": "Stephanie Stanton",
+        "ContactInformation": {
+            "Phone": "3715117174",
+            "Email": "abernard@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/d42350dd-a6a1-427b-b6d3-842f77ab51e8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-07T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-12T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-17T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8c1f9053-75be-4fa2-ba30-14db6aa1f576",
+    "PolicyID": "59170585-74bc-4d6e-9a48-8808098ce89f",
+    "EffectiveDates": {
+        "StartDate": "2024-07-13",
+        "EndDate": "2025-07-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6edf7870-d694-4920-bec6-732799beb213",
+        "Name": "Jordan Thomas",
+        "PolicyNumber": "59170585-74bc-4d6e-9a48-8808098ce89f",
+        "ContactInformation": {
+            "Phone": "001-881-625-0995x463",
+            "Email": "joyjohnson@example.org",
+            "Address": "69989 Jackson Springs\nMatthewland, VT 93894"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-25",
+        "Location": "204 Moore Hills Apt. 994\nEast Timothyton, NH 33042",
+        "Description": "Seat article environmental worker.\nRoom to again direction fill long gas fight. Court learn energy left benefit run."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8561
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 115800
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6678
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 36832
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 6720
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 5907,
+        "TotalApproved": 4180
+    },
+    "AdjusterDetails": {
+        "Name": "Marie Lee",
+        "ContactInformation": {
+            "Phone": "+1-641-535-5681x6977",
+            "Email": "lauragonzales@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/89b4553a-3041-4ade-a0ba-159fb63371eb"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-25T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-30T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-04T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

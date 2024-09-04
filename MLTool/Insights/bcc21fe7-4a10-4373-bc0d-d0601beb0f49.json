@@ -1,0 +1,81 @@
+{
+    "ClaimID": "bcc21fe7-4a10-4373-bc0d-d0601beb0f49",
+    "PolicyID": "d74694bc-ba39-4704-be68-aa02b1165ba7",
+    "EffectiveDates": {
+        "StartDate": "2023-11-08",
+        "EndDate": "2024-11-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "69a7c218-0450-42f1-a3d7-021008d6254c",
+        "Name": "Daniel Hawkins",
+        "PolicyNumber": "d74694bc-ba39-4704-be68-aa02b1165ba7",
+        "ContactInformation": {
+            "Phone": "553-245-0646x4072",
+            "Email": "emily72@example.net",
+            "Address": "849 Leah Run Apt. 181\nPort Christopherhaven, PW 34967"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-18",
+        "Location": "63780 Melissa Springs\nMoyertown, WV 55977",
+        "Description": "Site government per just change become boy. Technology feel six Democrat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19637
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 136263
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7807
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 33530
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 13071
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 121328,
+        "TotalApproved": 15363
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Cooper",
+        "ContactInformation": {
+            "Phone": "700.763.5683x9291",
+            "Email": "marshallsteven@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8e94fd61-90a6-47b3-a83d-67ebbde85794"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

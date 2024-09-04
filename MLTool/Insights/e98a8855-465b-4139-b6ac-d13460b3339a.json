@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e98a8855-465b-4139-b6ac-d13460b3339a",
+    "PolicyID": "e0f2d7c0-1a94-45f9-9540-b0d44f5425d6",
+    "EffectiveDates": {
+        "StartDate": "2024-08-21",
+        "EndDate": "2025-08-21"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4939e6f6-074f-4fc0-963f-cf23bc4018f1",
+        "Name": "Nathan Mckay",
+        "PolicyNumber": "e0f2d7c0-1a94-45f9-9540-b0d44f5425d6",
+        "ContactInformation": {
+            "Phone": "419.886.0642",
+            "Email": "lovebrett@example.net",
+            "Address": "USNV Sanders\nFPO AA 78562"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-29",
+        "Location": "653 Castro Square Apt. 839\nEast Emma, PA 78613",
+        "Description": "Worry hope seat against break military. After level citizen role turn various.\nRest begin really there heart."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 66943
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7266
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7248
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 151286
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 103203
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 81022,
+        "TotalApproved": 51647
+    },
+    "AdjusterDetails": {
+        "Name": "Lindsay Silva",
+        "ContactInformation": {
+            "Phone": "(209)280-5548",
+            "Email": "michael24@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/bc1f9ee6-aa17-404c-be6b-1c0d69456853"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-29T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-03T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-08T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

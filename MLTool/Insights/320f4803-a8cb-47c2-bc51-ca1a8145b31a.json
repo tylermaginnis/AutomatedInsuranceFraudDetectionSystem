@@ -1,0 +1,81 @@
+{
+    "ClaimID": "320f4803-a8cb-47c2-bc51-ca1a8145b31a",
+    "PolicyID": "9914a416-39ca-482a-8089-3f91d6c5a198",
+    "EffectiveDates": {
+        "StartDate": "2024-06-24",
+        "EndDate": "2025-06-24"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "02caed19-7eae-48be-9fe4-27f9cda2c1fb",
+        "Name": "Matthew Gillespie",
+        "PolicyNumber": "9914a416-39ca-482a-8089-3f91d6c5a198",
+        "ContactInformation": {
+            "Phone": "409.959.3708",
+            "Email": "dominique39@example.org",
+            "Address": "3586 Ian Garden Suite 967\nHuffmanside, MS 48993"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-15",
+        "Location": "367 Lewis Passage Apt. 597\nNorth Ashleymouth, LA 74661",
+        "Description": "Market difficult decade that win. As fine prevent shake parent tend.\nAccept wrong sister study sport them. Beautiful also say compare wrong nor. Across we election."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 42911
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 172838
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3693
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 11139
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 25152
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 169188,
+        "TotalApproved": 57217
+    },
+    "AdjusterDetails": {
+        "Name": "Rachel Watts",
+        "ContactInformation": {
+            "Phone": "7236481593",
+            "Email": "zhawkins@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/4d41a388-3df7-4d75-aa8b-4376ab5d2881"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-15T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-20T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-25T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

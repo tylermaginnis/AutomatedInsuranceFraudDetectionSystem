@@ -1,0 +1,81 @@
+{
+    "ClaimID": "aa502c3c-4fbe-494e-acbc-dc8f85fcb44d",
+    "PolicyID": "c6845e86-806c-44df-9dfd-e392cbc2bea0",
+    "EffectiveDates": {
+        "StartDate": "2024-01-14",
+        "EndDate": "2025-01-13"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "758b1bb3-c651-43ce-9d7b-c520a5bdbb04",
+        "Name": "Kristin Dunn",
+        "PolicyNumber": "c6845e86-806c-44df-9dfd-e392cbc2bea0",
+        "ContactInformation": {
+            "Phone": "(878)378-2722x14612",
+            "Email": "kellygeorge@example.com",
+            "Address": "3591 Cynthia Hollow\nNorth Nicole, NJ 19064"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-24",
+        "Location": "7123 Shane Lock\nCrystalstad, CT 38579",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 76013
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 35648
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5455
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 16016
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 11839
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144971,
+        "TotalApproved": 101829
+    },
+    "AdjusterDetails": {
+        "Name": "Corey Kirby",
+        "ContactInformation": {
+            "Phone": "(499)503-2459x541",
+            "Email": "michael79@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/5dee8b53-1728-4ce1-bd7f-af541834042c"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-24T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-29T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-03T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

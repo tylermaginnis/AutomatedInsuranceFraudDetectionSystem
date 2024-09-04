@@ -1,0 +1,81 @@
+{
+    "ClaimID": "595bdc9b-cd18-4578-bf7f-dc8a305076af",
+    "PolicyID": "8bfabaed-c337-42ea-a0b3-0921d361ba33",
+    "EffectiveDates": {
+        "StartDate": "2023-12-16",
+        "EndDate": "2024-12-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d238d849-6c6e-4384-854c-542f994cf5ff",
+        "Name": "Anthony Hill",
+        "PolicyNumber": "8bfabaed-c337-42ea-a0b3-0921d361ba33",
+        "ContactInformation": {
+            "Phone": "(315)975-0714",
+            "Email": "amysmith@example.com",
+            "Address": "89501 Andrea Square Suite 770\nNorth Terri, MH 29605"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-15",
+        "Location": "9351 Maria Brooks Suite 840\nCraigburgh, MT 22355",
+        "Description": "Fast local let himself beautiful century. Born will scene away.\nTime such five pretty. Around still knowledge executive professor speak suddenly. Yes perhaps we opportunity film somebody."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 22252
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9622
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 90311
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7673
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 15252
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 187173,
+        "TotalApproved": 105531
+    },
+    "AdjusterDetails": {
+        "Name": "Tracy Delacruz",
+        "ContactInformation": {
+            "Phone": "670-615-5214",
+            "Email": "scott82@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/1eb6f1e1-4126-4c4e-b18b-d8de52713358"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-15T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-20T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-25T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

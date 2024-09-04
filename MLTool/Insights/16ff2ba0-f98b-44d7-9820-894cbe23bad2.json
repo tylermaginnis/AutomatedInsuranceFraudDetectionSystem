@@ -1,0 +1,81 @@
+{
+    "ClaimID": "16ff2ba0-f98b-44d7-9820-894cbe23bad2",
+    "PolicyID": "4283d505-6435-4537-900b-04f3fe5d6245",
+    "EffectiveDates": {
+        "StartDate": "2023-12-29",
+        "EndDate": "2024-12-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "88d75284-e11a-40b7-b44a-dbe4ced996a5",
+        "Name": "Alec Terrell",
+        "PolicyNumber": "4283d505-6435-4537-900b-04f3fe5d6245",
+        "ContactInformation": {
+            "Phone": "7637615315",
+            "Email": "tinachristian@example.org",
+            "Address": "136 William Throughway\nBrandonton, MI 21560"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-08",
+        "Location": "PSC 0409, Box 0054\nAPO AE 72788",
+        "Description": "Idea rest happen must red serious human. Left successful those modern.\nTogether how half. Teach economic affect.\nBlack bit our him author. Sort include leg sense sea learn."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5430
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4907
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16960
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 51875
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 53128
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 47896,
+        "TotalApproved": 35672
+    },
+    "AdjusterDetails": {
+        "Name": "Megan Martin",
+        "ContactInformation": {
+            "Phone": "+1-521-249-4246x7642",
+            "Email": "mary74@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/15495b01-1ebd-457b-8fa3-09ca8cdb5af4"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-08T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-13T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-18T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

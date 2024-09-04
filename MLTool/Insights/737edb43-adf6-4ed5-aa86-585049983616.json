@@ -1,0 +1,81 @@
+{
+    "ClaimID": "737edb43-adf6-4ed5-aa86-585049983616",
+    "PolicyID": "357348dd-d690-438e-9725-54cb52377b04",
+    "EffectiveDates": {
+        "StartDate": "2024-03-26",
+        "EndDate": "2025-03-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ac12578c-46a2-46b6-bc5e-5d33e9cb2421",
+        "Name": "Bryan Morse",
+        "PolicyNumber": "357348dd-d690-438e-9725-54cb52377b04",
+        "ContactInformation": {
+            "Phone": "+1-442-830-5942",
+            "Email": "deckeramber@example.net",
+            "Address": "USS Chavez\nFPO AE 67414"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-26",
+        "Location": "9378 Randall Fort Suite 020\nNorth Heidi, HI 59300",
+        "Description": "After score necessary pattern travel great. Cell training similar close keep. Environment discover value force art."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2998
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6843
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 60713
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26056
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 47769
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 32116,
+        "TotalApproved": 19849
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Becker",
+        "ContactInformation": {
+            "Phone": "+1-219-399-8311",
+            "Email": "wrollins@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/b0cccaf4-e072-4a95-a3a0-a66faad7df24"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6c274117-1fdc-484a-a7af-2e7f6f78883f",
+    "PolicyID": "171af8de-fba9-4294-b2c2-f584b2f197fd",
+    "EffectiveDates": {
+        "StartDate": "2023-10-23",
+        "EndDate": "2024-10-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "f1acfd71-469c-4b0d-a491-3c6201cf3352",
+        "Name": "James Orozco",
+        "PolicyNumber": "171af8de-fba9-4294-b2c2-f584b2f197fd",
+        "ContactInformation": {
+            "Phone": "+1-522-708-4586",
+            "Email": "valdezjames@example.org",
+            "Address": "PSC 4272, Box 5177\nAPO AE 53604"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-11-20",
+        "Location": "69219 Gibson Mountain\nPort Tinafurt, MN 03203",
+        "Description": "Back pay cultural experience traditional part. Attack everyone nor stand out. Already value moment culture experience stop least."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 71813
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 34508
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4088
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16078
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 32440
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 68586,
+        "TotalApproved": 55601
+    },
+    "AdjusterDetails": {
+        "Name": "Alejandro Anderson",
+        "ContactInformation": {
+            "Phone": "(490)931-2097",
+            "Email": "scottpalmer@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/83250bd8-cf39-4fb0-8c60-345bdbcebc21"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-11-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-11-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-11-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

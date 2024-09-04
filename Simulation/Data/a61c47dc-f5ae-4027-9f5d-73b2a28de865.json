@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a61c47dc-f5ae-4027-9f5d-73b2a28de865",
+  "PolicyID": "225f4c8f-238b-44c0-ab46-4dc65bf3c1b1",
+  "EffectiveDates": {
+    "StartDate": "2024-08-23",
+    "EndDate": "2025-08-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "fb9fa5a8-d4c8-4162-965b-32297cfba01e",
+    "Name": "Scott Long",
+    "PolicyNumber": "225f4c8f-238b-44c0-ab46-4dc65bf3c1b1",
+    "ContactInformation": {
+      "Phone": "204.939.2464x414",
+      "Email": "johnmiller@example.com",
+      "Address": "12864 Erickson Meadows Apt. 301\nPort Jeffreytown, MS 25731"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-03",
+    "Location": "015 Victoria Route Suite 132\nNguyenmouth, ID 57956",
+    "Description": "One prevent weight put. Country mother buy order talk off research.\nProduct face everything human. If happy box buy serious."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 38292
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 38868
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 195315
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 193089
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16302
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 179955,
+    "TotalApproved": 90052
+  },
+  "AdjusterDetails": {
+    "Name": "Jacqueline Zimmerman",
+    "ContactInformation": {
+      "Phone": "913.222.2245x61411",
+      "Email": "gutierrezalexandra@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/ea1c72a5-07b5-485a-b730-ee1a067fd497"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-03T14:40:17Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-08T14:40:17Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-13T14:40:17Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

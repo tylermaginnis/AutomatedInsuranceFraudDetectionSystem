@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c30e82cb-94bb-47ab-bf1f-0cbe92b0294a",
+    "PolicyID": "fa0ff002-0a3a-4ee5-88fd-347b5789df30",
+    "EffectiveDates": {
+        "StartDate": "2024-09-01",
+        "EndDate": "2025-09-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "963902d1-811b-4e79-ad5c-c4c542bda563",
+        "Name": "Jessica Graham",
+        "PolicyNumber": "fa0ff002-0a3a-4ee5-88fd-347b5789df30",
+        "ContactInformation": {
+            "Phone": "993.588.6996",
+            "Email": "griley@example.com",
+            "Address": "651 Priscilla Springs\nNorth Stephanie, WY 59634"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-01",
+        "Location": "73622 Gutierrez Hill Apt. 467\nEast Sarahport, AZ 89679",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 77023
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49618
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9638
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11544
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 18826
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 166649,
+        "TotalApproved": 164134
+    },
+    "AdjusterDetails": {
+        "Name": "John Rogers",
+        "ContactInformation": {
+            "Phone": "001-757-543-0603",
+            "Email": "scottpatterson@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/8eec4612-182a-49de-8c6e-de0166b1de09"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-01T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-06T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-11T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

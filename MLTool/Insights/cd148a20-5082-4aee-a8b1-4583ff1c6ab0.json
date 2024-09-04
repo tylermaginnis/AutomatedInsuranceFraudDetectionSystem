@@ -1,0 +1,81 @@
+{
+    "ClaimID": "cd148a20-5082-4aee-a8b1-4583ff1c6ab0",
+    "PolicyID": "0e921ab4-7276-45ca-b6e4-11ce01ea2a28",
+    "EffectiveDates": {
+        "StartDate": "2024-05-19",
+        "EndDate": "2025-05-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "de3d6de7-3d80-4bf4-8323-f6f5a0deed51",
+        "Name": "Kimberly Chapman",
+        "PolicyNumber": "0e921ab4-7276-45ca-b6e4-11ce01ea2a28",
+        "ContactInformation": {
+            "Phone": "4602851692",
+            "Email": "irasmussen@example.org",
+            "Address": "570 Nicole Locks Suite 553\nThompsonchester, ME 44806"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-20",
+        "Location": "3685 Latoya Island Suite 823\nKylemouth, MD 20548",
+        "Description": "Down seek prove. Option air number tend together. Million child how before morning church.\nMr system concern charge suffer."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 36941
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5955
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 10722
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7105
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3659
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 38786,
+        "TotalApproved": 9246
+    },
+    "AdjusterDetails": {
+        "Name": "Andrew Rodriguez",
+        "ContactInformation": {
+            "Phone": "653-252-9149x881",
+            "Email": "strongangela@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/ceca0141-352d-4c68-93c0-a637ef2d152b"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-20T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-25T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-30T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

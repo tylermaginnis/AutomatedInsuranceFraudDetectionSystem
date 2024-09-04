@@ -1,0 +1,81 @@
+{
+    "ClaimID": "134a2930-b160-4595-b34e-4826ba3e784f",
+    "PolicyID": "79fa16e3-be1a-4e42-be6c-e3f8ea5e8f03",
+    "EffectiveDates": {
+        "StartDate": "2024-05-29",
+        "EndDate": "2025-05-29"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e7fc8b72-2975-4e11-8c5c-bda8e46352b9",
+        "Name": "Michael Fitzgerald",
+        "PolicyNumber": "79fa16e3-be1a-4e42-be6c-e3f8ea5e8f03",
+        "ContactInformation": {
+            "Phone": "(214)495-9076x49653",
+            "Email": "michael11@example.org",
+            "Address": "4573 Alexander Views Apt. 072\nWilsonside, MO 28648"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-05-07",
+        "Location": "486 Margaret Plain\nMelindafort, NJ 43549",
+        "Description": "Argue family ahead they door position. Raise save recently father live. Kind line appear focus let."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 22107
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3221
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1192
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 98618
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7910
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 88854,
+        "TotalApproved": 30522
+    },
+    "AdjusterDetails": {
+        "Name": "Anthony Miller",
+        "ContactInformation": {
+            "Phone": "001-542-235-8585x0888",
+            "Email": "lkennedy@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/cd02f954-bdd9-43ac-bef1-0b0bfc61df28"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-05-07T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-05-12T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-05-17T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

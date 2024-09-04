@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3e574757-33f7-4baa-91a6-63118538d584",
+    "PolicyID": "1bd9d398-b38a-4705-a47b-7d9c59d555c0",
+    "EffectiveDates": {
+        "StartDate": "2024-01-07",
+        "EndDate": "2025-01-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4425504d-d345-4199-a9bd-342ca09f79f7",
+        "Name": "Billy Gomez",
+        "PolicyNumber": "1bd9d398-b38a-4705-a47b-7d9c59d555c0",
+        "ContactInformation": {
+            "Phone": "433.590.1629x78773",
+            "Email": "hollandtanya@example.net",
+            "Address": "46495 Allen Knolls Suite 606\nSouth Antonio, DC 19864"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-16",
+        "Location": "7882 Dale Fords\nPort Veronica, MD 47372",
+        "Description": "Exaggerated damages"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 65908
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 27598
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 7732
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 23559
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13496
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 138293,
+        "TotalApproved": 36270
+    },
+    "AdjusterDetails": {
+        "Name": "David Rogers",
+        "ContactInformation": {
+            "Phone": "554-572-4031x924",
+            "Email": "pgarcia@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/4752a3f2-4f94-49f3-8e88-3ef6622f1d08"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-16T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-21T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-26T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

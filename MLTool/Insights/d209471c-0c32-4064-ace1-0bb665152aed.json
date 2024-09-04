@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d209471c-0c32-4064-ace1-0bb665152aed",
+    "PolicyID": "eaabfa97-0b14-493f-ba99-c456e7eb9cff",
+    "EffectiveDates": {
+        "StartDate": "2023-12-27",
+        "EndDate": "2024-12-26"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "148c1f2d-c2f3-4295-b4c3-5415d9690147",
+        "Name": "Brad Wiggins",
+        "PolicyNumber": "eaabfa97-0b14-493f-ba99-c456e7eb9cff",
+        "ContactInformation": {
+            "Phone": "+1-933-366-5204x580",
+            "Email": "linjose@example.com",
+            "Address": "4363 Hamilton Lane\nSouth Sydneyborough, WI 51705"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-15",
+        "Location": "8299 Cardenas Club\nEast Tracy, MD 68790",
+        "Description": "Big every technology old south painting teach. Finally night each able despite popular. Actually part unit often event."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4719
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7413
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 28409
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 44168
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 28161
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 175435,
+        "TotalApproved": 45614
+    },
+    "AdjusterDetails": {
+        "Name": "Maria Haney",
+        "ContactInformation": {
+            "Phone": "446.590.1651",
+            "Email": "moniquenorton@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/ca3306b7-acff-4eb7-ac0d-7c774ae17683"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-15T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-20T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-25T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

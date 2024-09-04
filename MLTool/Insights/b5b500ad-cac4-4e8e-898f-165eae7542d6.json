@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b5b500ad-cac4-4e8e-898f-165eae7542d6",
+    "PolicyID": "969fd222-bee6-468d-afde-357c411bdab2",
+    "EffectiveDates": {
+        "StartDate": "2024-06-20",
+        "EndDate": "2025-06-20"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d52782ec-88d0-467e-8db2-5c401c77b97c",
+        "Name": "Michelle Ball",
+        "PolicyNumber": "969fd222-bee6-468d-afde-357c411bdab2",
+        "ContactInformation": {
+            "Phone": "962.390.3400",
+            "Email": "morenopatricia@example.org",
+            "Address": "4716 Blackwell Fall Apt. 636\nMckenziehaven, PR 35759"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-18",
+        "Location": "80061 Alyssa Roads\nAshleyfurt, HI 99420",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 88695
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 29588
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5340
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 26640
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5937
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 156200,
+        "TotalApproved": 21495
+    },
+    "AdjusterDetails": {
+        "Name": "Renee Welch",
+        "ContactInformation": {
+            "Phone": "(615)539-2519x318",
+            "Email": "ryanbailey@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e374ff2c-396b-494c-b6a8-b52eec1a0101"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

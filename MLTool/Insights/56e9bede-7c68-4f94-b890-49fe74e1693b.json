@@ -1,0 +1,81 @@
+{
+    "ClaimID": "56e9bede-7c68-4f94-b890-49fe74e1693b",
+    "PolicyID": "17d56e32-8f07-4890-a933-db157c365795",
+    "EffectiveDates": {
+        "StartDate": "2024-04-06",
+        "EndDate": "2025-04-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b03a017d-46d5-401c-afb6-9856cb1d159b",
+        "Name": "Dawn Hoffman",
+        "PolicyNumber": "17d56e32-8f07-4890-a933-db157c365795",
+        "ContactInformation": {
+            "Phone": "001-442-606-2417x246",
+            "Email": "robert45@example.org",
+            "Address": "723 Palmer Harbor Suite 467\nPatriciahaven, AS 46595"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-22",
+        "Location": "USS Adams\nFPO AA 20866",
+        "Description": "Entire never have all magazine computer these decide. Amount happy myself establish."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 94425
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 23500
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6755
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 46854
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 18430
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 108998,
+        "TotalApproved": 99467
+    },
+    "AdjusterDetails": {
+        "Name": "Brandon Perry",
+        "ContactInformation": {
+            "Phone": "484-343-3207x59630",
+            "Email": "qroberson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/6c471f6d-1ea4-482f-b093-f9459c2b0f08"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-22T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-27T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-04-01T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

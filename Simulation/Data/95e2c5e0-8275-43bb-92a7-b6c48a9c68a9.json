@@ -1,0 +1,80 @@
+{
+  "ClaimID": "95e2c5e0-8275-43bb-92a7-b6c48a9c68a9",
+  "PolicyID": "32e54e08-4915-43d3-98c3-fdf85c79bffe",
+  "EffectiveDates": {
+    "StartDate": "2023-10-23",
+    "EndDate": "2024-10-22"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a03fcbfa-9fd4-4840-8c92-4c56320a26f8",
+    "Name": "Dustin Larsen",
+    "PolicyNumber": "32e54e08-4915-43d3-98c3-fdf85c79bffe",
+    "ContactInformation": {
+      "Phone": "(646)312-4569x3051",
+      "Email": "lschultz@example.net",
+      "Address": "46058 Jessica Turnpike\nPort Ericchester, OH 52042"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-01-04",
+    "Location": "092 David Valley\nWebsterburgh, GU 52768",
+    "Description": "Return ask open shake detail his fear miss.\nUnder true alone picture. Eye seat newspaper. Herself deal audience pretty field.\nCell discussion second trip store. During easy do fund."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 42253
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 115437
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 44501
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5921
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 170227
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 51557,
+    "TotalApproved": 6993
+  },
+  "AdjusterDetails": {
+    "Name": "Courtney Skinner",
+    "ContactInformation": {
+      "Phone": "415-338-8410x35685",
+      "Email": "welchjessica@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/1b9902f8-3c4b-4bb6-ba56-5a4837ec8343"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-01-04T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-01-09T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-01-14T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

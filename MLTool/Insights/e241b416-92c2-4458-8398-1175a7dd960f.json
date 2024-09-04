@@ -1,0 +1,81 @@
+{
+    "ClaimID": "e241b416-92c2-4458-8398-1175a7dd960f",
+    "PolicyID": "27938c99-07e4-472c-b206-68139666d614",
+    "EffectiveDates": {
+        "StartDate": "2023-09-05",
+        "EndDate": "2024-09-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "64435b31-b27e-4c45-ba45-3e68cdff9b6d",
+        "Name": "Kimberly Sullivan",
+        "PolicyNumber": "27938c99-07e4-472c-b206-68139666d614",
+        "ContactInformation": {
+            "Phone": "883.725.0681x523",
+            "Email": "hickskristine@example.org",
+            "Address": "5974 Brown Hills\nNathanhaven, WY 15778"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-05",
+        "Location": "3058 Joan Turnpike Apt. 442\nLake Ashley, TN 85725",
+        "Description": "Design likely meeting tax play he. Discuss theory voice many election fast. Day oil firm thank. Rich several probably type glass maybe."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 18428
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8623
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14645
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 6617
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1575
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 6874,
+        "TotalApproved": 6117
+    },
+    "AdjusterDetails": {
+        "Name": "Ronnie Allen",
+        "ContactInformation": {
+            "Phone": "(597)575-3193",
+            "Email": "john91@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c9acda64-ca7d-4d51-af7a-a52bde0ec2f5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-05T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-10T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-15T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

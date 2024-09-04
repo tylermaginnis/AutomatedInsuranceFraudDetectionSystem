@@ -1,0 +1,81 @@
+{
+    "ClaimID": "9cbaf615-99c6-418d-ada0-6dcf8e5de575",
+    "PolicyID": "2daf466c-1dfb-4eb5-9c09-f670ad9990c5",
+    "EffectiveDates": {
+        "StartDate": "2023-10-16",
+        "EndDate": "2024-10-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0a3995a0-c72b-4724-a01d-bde574e00881",
+        "Name": "Cassandra Gomez",
+        "PolicyNumber": "2daf466c-1dfb-4eb5-9c09-f670ad9990c5",
+        "ContactInformation": {
+            "Phone": "958.746.6097x33723",
+            "Email": "robinsonjose@example.com",
+            "Address": "92449 Bruce Pike Apt. 321\nMendozahaven, DE 73190"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-01",
+        "Location": "19993 Jones Garden\nValerieton, UT 52778",
+        "Description": "Computer happy career than today another rule. Responsibility others bar leg set turn.\nControl center focus. Seek now somebody manager his."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2573
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 79746
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7246
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 38466
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 14746
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 86225,
+        "TotalApproved": 12520
+    },
+    "AdjusterDetails": {
+        "Name": "Michele Li",
+        "ContactInformation": {
+            "Phone": "+1-356-417-8322x686",
+            "Email": "traci87@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/31db7f95-925f-494e-96ff-7da3be280a69"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-01T14:38:27Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-06T14:38:27Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-11T14:38:27Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

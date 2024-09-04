@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1913cc4b-36b8-470d-8672-8516db181e23",
+    "PolicyID": "8b5e8fc2-eb2e-48fa-8c75-128ff5fcd7a4",
+    "EffectiveDates": {
+        "StartDate": "2024-03-10",
+        "EndDate": "2025-03-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a137c292-ed94-49f7-a4f1-05a4f77b687b",
+        "Name": "Kayla Rivera",
+        "PolicyNumber": "8b5e8fc2-eb2e-48fa-8c75-128ff5fcd7a4",
+        "ContactInformation": {
+            "Phone": "001-830-697-3302x0960",
+            "Email": "jodisullivan@example.net",
+            "Address": "PSC 4963, Box 4897\nAPO AA 83879"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-01",
+        "Location": "9924 April Neck\nStricklandport, OR 38026",
+        "Description": "Interview later wear look certain cause offer could. Less best any name civil number. Article pass respond control.\nSpeech near reason. Accept center choose health open color southern ask."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4286
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 59372
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 62160
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1659
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 50135
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144561,
+        "TotalApproved": 27857
+    },
+    "AdjusterDetails": {
+        "Name": "Jessica Miller",
+        "ContactInformation": {
+            "Phone": "(918)391-1214",
+            "Email": "wsantiago@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/e8b1258b-fe9e-4f2f-897e-ba5b80632bf0"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-01T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-06T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-11T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

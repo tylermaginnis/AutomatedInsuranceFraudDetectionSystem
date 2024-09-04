@@ -1,0 +1,81 @@
+{
+    "ClaimID": "8ef3f0ce-0ddb-4ab2-bddc-865c96b9b336",
+    "PolicyID": "c121d837-97d6-4d00-8d0a-8e23b5bf83c3",
+    "EffectiveDates": {
+        "StartDate": "2023-12-29",
+        "EndDate": "2024-12-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ed1d230f-f952-4fa9-afe1-ce0efa7f361d",
+        "Name": "John Schultz Jr.",
+        "PolicyNumber": "c121d837-97d6-4d00-8d0a-8e23b5bf83c3",
+        "ContactInformation": {
+            "Phone": "822.640.1027x47958",
+            "Email": "sheri04@example.net",
+            "Address": "5722 Turner Gardens Suite 964\nWest Jennifer, ME 40113"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-16",
+        "Location": "62912 Palmer Tunnel Apt. 240\nPort Maryport, HI 59971",
+        "Description": "Around room price care direction once call. Can window decide material. Range level here them too skill view tell.\nJoin resource beat pretty fall."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 88982
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26605
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 41382
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5829
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 20212
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 144097,
+        "TotalApproved": 91180
+    },
+    "AdjusterDetails": {
+        "Name": "Michael Frazier",
+        "ContactInformation": {
+            "Phone": "+1-202-219-5391",
+            "Email": "sheabrian@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/c6ca1c62-5cdc-4ce0-b299-5bafd1db1014"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-16T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-21T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-26T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

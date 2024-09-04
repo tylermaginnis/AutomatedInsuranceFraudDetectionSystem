@@ -1,0 +1,81 @@
+{
+    "ClaimID": "c187c9ad-6878-4248-85d7-23f5af39fb2d",
+    "PolicyID": "30c0bcb5-0329-4236-adf8-603310de8026",
+    "EffectiveDates": {
+        "StartDate": "2023-11-24",
+        "EndDate": "2024-11-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8995730e-fac2-4eb8-bca5-6014436001e4",
+        "Name": "Sandra Thompson",
+        "PolicyNumber": "30c0bcb5-0329-4236-adf8-603310de8026",
+        "ContactInformation": {
+            "Phone": "+1-642-328-1979x323",
+            "Email": "hannaamy@example.com",
+            "Address": "6208 Travis Flat\nJamesport, RI 68401"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-03",
+        "Location": "6627 Smith Port Apt. 203\nNew Dianamouth, NC 83176",
+        "Description": "Class perhaps general visit central will worker. Black from week strong. With even nation customer.\nLong one let woman exist. Structure interesting approach best something light."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 168673
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49397
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 20807
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 62395
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 91509
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 31865,
+        "TotalApproved": 13437
+    },
+    "AdjusterDetails": {
+        "Name": "Maria Wilson",
+        "ContactInformation": {
+            "Phone": "432.485.6725",
+            "Email": "zfields@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c30d8c93-5718-4888-863a-d6519b48e504"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-03T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-08T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-13T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

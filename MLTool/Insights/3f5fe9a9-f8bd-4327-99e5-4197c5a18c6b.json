@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3f5fe9a9-f8bd-4327-99e5-4197c5a18c6b",
+    "PolicyID": "27f3bdfe-cc2c-47e0-980e-322751529be3",
+    "EffectiveDates": {
+        "StartDate": "2023-09-17",
+        "EndDate": "2024-09-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "74f9ad52-659b-4c59-ac80-679fc22fae99",
+        "Name": "Bethany Valenzuela",
+        "PolicyNumber": "27f3bdfe-cc2c-47e0-980e-322751529be3",
+        "ContactInformation": {
+            "Phone": "856-999-2443x131",
+            "Email": "obrooks@example.org",
+            "Address": "54513 Mcclure Trafficway Suite 169\nSouth Rebecca, DE 41815"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-10",
+        "Location": "738 Martinez Ridge\nSouth Christopherborough, CT 40269",
+        "Description": "Three record dark resource past. Growth you choice defense nation. Speak focus bed eye drop fly official."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1152
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 5430
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 78044
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 18819
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 13979
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 187967,
+        "TotalApproved": 89383
+    },
+    "AdjusterDetails": {
+        "Name": "Christina Robinson",
+        "ContactInformation": {
+            "Phone": "(754)897-6212x095",
+            "Email": "cgould@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/efb84aad-6241-4ec6-896d-5d37457bb773"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-10T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-15T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2023-12-20T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

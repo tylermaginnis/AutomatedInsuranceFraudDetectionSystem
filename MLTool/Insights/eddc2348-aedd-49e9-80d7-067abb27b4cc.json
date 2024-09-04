@@ -1,0 +1,81 @@
+{
+    "ClaimID": "eddc2348-aedd-49e9-80d7-067abb27b4cc",
+    "PolicyID": "8697361a-765e-48cd-b578-e9302ba1e73d",
+    "EffectiveDates": {
+        "StartDate": "2023-10-16",
+        "EndDate": "2024-10-15"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "de5d7581-fb0d-4379-954c-67e226d70731",
+        "Name": "Brian Peters",
+        "PolicyNumber": "8697361a-765e-48cd-b578-e9302ba1e73d",
+        "ContactInformation": {
+            "Phone": "(586)408-8020",
+            "Email": "hprice@example.org",
+            "Address": "5391 Tucker Mountain Apt. 527\nPort Johnland, OH 47327"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-22",
+        "Location": "7376 Lopez Ridges\nMaddenshire, WV 12191",
+        "Description": "Third research first step. Line prove need call American magazine hit. Design section often similar probably."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 14497
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4255
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 8286
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 49084
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 3156
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 76103,
+        "TotalApproved": 7620
+    },
+    "AdjusterDetails": {
+        "Name": "Anna Riley",
+        "ContactInformation": {
+            "Phone": "460.359.2068",
+            "Email": "kellyfriedman@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a9bf4fc4-bad1-48a7-8d05-16685c9ac436"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-22T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-27T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-01T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

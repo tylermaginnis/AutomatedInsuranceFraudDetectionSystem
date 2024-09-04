@@ -1,0 +1,81 @@
+{
+    "ClaimID": "1cd31822-6c2b-43c2-8e17-7a50b9902862",
+    "PolicyID": "36a5e4d8-9115-4b1d-ada9-e843d2ef583a",
+    "EffectiveDates": {
+        "StartDate": "2024-03-04",
+        "EndDate": "2025-03-04"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "e6082358-2b5b-441b-82a1-a7c6b3190fb1",
+        "Name": "Briana Cooper",
+        "PolicyNumber": "36a5e4d8-9115-4b1d-ada9-e843d2ef583a",
+        "ContactInformation": {
+            "Phone": "964.429.0763",
+            "Email": "melvinmiller@example.com",
+            "Address": "8251 Mercer Wall\nLake Shannonton, ID 18418"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-30",
+        "Location": "Unit 5714 Box 1465\nDPO AA 28397",
+        "Description": "Soon recently here right. Clearly money amount happen control sound take save.\nMember fly begin exist."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 81481
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 61962
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 4266
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14542
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 17222
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 61590,
+        "TotalApproved": 41701
+    },
+    "AdjusterDetails": {
+        "Name": "Kyle Padilla",
+        "ContactInformation": {
+            "Phone": "001-747-264-1647x9467",
+            "Email": "scottmisty@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/887116a5-6e20-4dd5-952d-e9da9e434e14"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-30T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-04T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-09T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

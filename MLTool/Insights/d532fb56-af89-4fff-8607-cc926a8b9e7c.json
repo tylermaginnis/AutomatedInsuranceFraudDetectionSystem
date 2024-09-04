@@ -1,0 +1,81 @@
+{
+    "ClaimID": "d532fb56-af89-4fff-8607-cc926a8b9e7c",
+    "PolicyID": "1818a2dd-0701-4a28-b22a-b17786606838",
+    "EffectiveDates": {
+        "StartDate": "2024-07-11",
+        "EndDate": "2025-07-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "4993ed1e-48d4-4a03-a09d-38f9b2966b77",
+        "Name": "Laura Rollins",
+        "PolicyNumber": "1818a2dd-0701-4a28-b22a-b17786606838",
+        "ContactInformation": {
+            "Phone": "(355)307-2334x677",
+            "Email": "stephen78@example.org",
+            "Address": "8855 Sherman Forges Apt. 591\nChristopherville, KS 97242"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-18",
+        "Location": "654 Juan Way\nJasonborough, UT 55847",
+        "Description": "Skill almost six. Size strong chair provide paper school gas more. Life when everyone beat list material.\nSpecial so act throughout side place gas. Make see that real work heavy arm."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8769
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6503
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 139371
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 2748
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 9516
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 23230,
+        "TotalApproved": 13434
+    },
+    "AdjusterDetails": {
+        "Name": "Gerald Patel",
+        "ContactInformation": {
+            "Phone": "3355331856",
+            "Email": "pamelamartinez@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/a52a004b-740d-4fd0-8a33-1852ecb547e8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

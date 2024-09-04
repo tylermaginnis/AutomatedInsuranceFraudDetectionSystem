@@ -1,0 +1,81 @@
+{
+    "ClaimID": "194e212d-6aff-4f82-a607-4d283bbd3a50",
+    "PolicyID": "1d77c3c1-8c5c-4345-b919-47f5a74620c3",
+    "EffectiveDates": {
+        "StartDate": "2023-10-26",
+        "EndDate": "2024-10-25"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "733159f4-94fd-4d38-b95d-968760666e8c",
+        "Name": "Brianna Smith",
+        "PolicyNumber": "1d77c3c1-8c5c-4345-b919-47f5a74620c3",
+        "ContactInformation": {
+            "Phone": "586.787.4255",
+            "Email": "frobles@example.net",
+            "Address": "95194 Bennett Plaza\nNew Oscarshire, CA 97877"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-14",
+        "Location": "9701 Ward Throughway Suite 568\nNorth Ashleychester, WA 39584",
+        "Description": "Woman particularly ability something sure police well. Care fast but believe. Audience improve area challenge successful happy by."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 67808
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 17376
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 98809
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19650
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 7394
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 186917,
+        "TotalApproved": 21923
+    },
+    "AdjusterDetails": {
+        "Name": "Mr. Earl Schwartz",
+        "ContactInformation": {
+            "Phone": "636-397-5014",
+            "Email": "richardmartin@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/bb42fe84-9a02-4718-aae2-30f081272e7f"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-14T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-08-19T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-08-24T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

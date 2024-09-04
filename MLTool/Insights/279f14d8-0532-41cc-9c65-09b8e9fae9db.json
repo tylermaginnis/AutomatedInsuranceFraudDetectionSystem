@@ -1,0 +1,81 @@
+{
+    "ClaimID": "279f14d8-0532-41cc-9c65-09b8e9fae9db",
+    "PolicyID": "5903dc60-cfae-45e1-8048-2bdcf9a129cb",
+    "EffectiveDates": {
+        "StartDate": "2023-11-02",
+        "EndDate": "2024-11-01"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7ba2e279-b6f1-43a1-a172-8e592cab4496",
+        "Name": "Lawrence Marks",
+        "PolicyNumber": "5903dc60-cfae-45e1-8048-2bdcf9a129cb",
+        "ContactInformation": {
+            "Phone": "+1-515-635-3644x7273",
+            "Email": "lchandler@example.org",
+            "Address": "41926 Derek Place\nPort William, AR 25968"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-08",
+        "Location": "0577 Swanson Isle\nPort Kevintown, GU 79595",
+        "Description": "Blood a local may manager own. Find white option others. Offer matter cultural charge represent six own. Current upon that drug black open."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5468
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4075
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7658
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5836
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 33408
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 159262,
+        "TotalApproved": 136391
+    },
+    "AdjusterDetails": {
+        "Name": "Stephen Sutton",
+        "ContactInformation": {
+            "Phone": "851.282.1921x5509",
+            "Email": "heather98@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/f4a048e2-6039-4366-890a-edec25053fe9"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-08T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-13T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-18T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

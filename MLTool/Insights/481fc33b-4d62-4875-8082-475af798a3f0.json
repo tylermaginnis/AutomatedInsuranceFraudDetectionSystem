@@ -1,0 +1,81 @@
+{
+    "ClaimID": "481fc33b-4d62-4875-8082-475af798a3f0",
+    "PolicyID": "6aed5df1-5c93-4753-a924-63c7847afd63",
+    "EffectiveDates": {
+        "StartDate": "2024-05-10",
+        "EndDate": "2025-05-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "a285a44f-2e43-44d7-8653-c077b82cd35c",
+        "Name": "Michael Hall",
+        "PolicyNumber": "6aed5df1-5c93-4753-a924-63c7847afd63",
+        "ContactInformation": {
+            "Phone": "001-463-303-8548x293",
+            "Email": "roger59@example.com",
+            "Address": "272 Lowe Squares Suite 669\nSouth Harryton, DC 99705"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-26",
+        "Location": "4764 Lloyd Freeway\nNew Barbara, WI 59750",
+        "Description": "Not big dream national happy. Goal military purpose general again.\nJust address national record near painting police.\nWest easy card. Candidate conference future large."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 30933
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16499
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8606
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 5058
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 1966
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 18122,
+        "TotalApproved": 9109
+    },
+    "AdjusterDetails": {
+        "Name": "Paul Austin",
+        "ContactInformation": {
+            "Phone": "562.946.9005x76206",
+            "Email": "lawrencepotter@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0073b0a6-6ded-44c9-8ddb-3cf96e097e24"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-26T14:40:17Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-01T14:40:17Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-06T14:40:17Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

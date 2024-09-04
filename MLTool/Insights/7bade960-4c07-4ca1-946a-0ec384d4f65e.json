@@ -1,0 +1,81 @@
+{
+    "ClaimID": "7bade960-4c07-4ca1-946a-0ec384d4f65e",
+    "PolicyID": "fd23976f-c2fc-480f-8286-2eecc536214d",
+    "EffectiveDates": {
+        "StartDate": "2024-01-19",
+        "EndDate": "2025-01-18"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "0bfd50f0-d138-4631-a671-ee7616778abd",
+        "Name": "Jesse Harris",
+        "PolicyNumber": "fd23976f-c2fc-480f-8286-2eecc536214d",
+        "ContactInformation": {
+            "Phone": "916.369.1194x341",
+            "Email": "lorithomas@example.com",
+            "Address": "3713 Taylor Wall Suite 312\nMcdonaldbury, WV 90659"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-11",
+        "Location": "74139 Cortez Crossroad\nLake Craig, ID 39101",
+        "Description": "Statement audience attorney own ready if majority appear.\nInto pretty thought when entire. Movement relate wall. Decade whom friend she act choose."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 7052
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 93040
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 47984
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 62134
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 89415
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 107019,
+        "TotalApproved": 45317
+    },
+    "AdjusterDetails": {
+        "Name": "Lindsey Walker",
+        "ContactInformation": {
+            "Phone": "001-318-936-0850x9967",
+            "Email": "robert45@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ae14b650-ed73-4cb4-b644-5ecf9ebbcfda"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-11T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-16T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-21T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

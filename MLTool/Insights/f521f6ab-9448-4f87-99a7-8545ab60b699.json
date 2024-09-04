@@ -1,0 +1,81 @@
+{
+    "ClaimID": "f521f6ab-9448-4f87-99a7-8545ab60b699",
+    "PolicyID": "097e3be9-696c-4b90-a2aa-bceda073aba9",
+    "EffectiveDates": {
+        "StartDate": "2024-09-02",
+        "EndDate": "2025-09-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "85dcc4bc-1789-496c-8714-12e8103d89b8",
+        "Name": "Christopher Robertson",
+        "PolicyNumber": "097e3be9-696c-4b90-a2aa-bceda073aba9",
+        "ContactInformation": {
+            "Phone": "987.965.3114x6107",
+            "Email": "david54@example.org",
+            "Address": "9827 Todd Neck Suite 497\nWest Rebeccastad, ND 20272"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-03",
+        "Location": "39749 Gibbs Stream Suite 245\nMichaelmouth, PR 58635",
+        "Description": "Soon training local will. Subject pretty ask structure but when. As direction new book audience discover.\nBuild while reality plant little."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1810
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9581
+        },
+        "PIP": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8359
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 28300
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21516
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 151017,
+        "TotalApproved": 106549
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Fowler",
+        "ContactInformation": {
+            "Phone": "+1-977-225-0548x1503",
+            "Email": "cjensen@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/30ca9c57-5d77-43f3-90d6-ba79cb5496a7"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-03T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-08T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-13T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

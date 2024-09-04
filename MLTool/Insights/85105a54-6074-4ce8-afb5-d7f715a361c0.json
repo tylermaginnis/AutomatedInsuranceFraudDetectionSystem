@@ -1,0 +1,81 @@
+{
+    "ClaimID": "85105a54-6074-4ce8-afb5-d7f715a361c0",
+    "PolicyID": "cb6d3484-57f5-4648-9b43-fe60caf7e14b",
+    "EffectiveDates": {
+        "StartDate": "2023-11-28",
+        "EndDate": "2024-11-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b055801d-7199-49ab-91e8-327cc87fc666",
+        "Name": "Stephen Davis",
+        "PolicyNumber": "cb6d3484-57f5-4648-9b43-fe60caf7e14b",
+        "ContactInformation": {
+            "Phone": "723-322-1087",
+            "Email": "nweaver@example.net",
+            "Address": "356 Emily Hill\nLake Melissaville, PA 79541"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-05",
+        "Location": "13708 Hoffman Village Apt. 580\nJuliaside, VA 38025",
+        "Description": "Tv building population. Yourself scene evidence this. Note stand series prepare.\nPretty day final group. Peace why letter environmental color consider."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13411
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2270
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 18203
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39704
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 77813
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 24011,
+        "TotalApproved": 18397
+    },
+    "AdjusterDetails": {
+        "Name": "Faith Brown",
+        "ContactInformation": {
+            "Phone": "+1-220-527-5093",
+            "Email": "tonyadams@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/fe807a0f-2692-4378-9370-78e38a791fee"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-05T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-10T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-05-15T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

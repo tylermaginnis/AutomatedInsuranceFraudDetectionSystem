@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b2f4c339-33aa-483a-aa9b-47fb3a70c932",
+    "PolicyID": "b4270ea6-161d-4de8-8090-24281223e268",
+    "EffectiveDates": {
+        "StartDate": "2024-03-09",
+        "EndDate": "2025-03-09"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "df9f95f2-87a3-416e-8d58-2e1d3f75a2ee",
+        "Name": "Jenna Stanley",
+        "PolicyNumber": "b4270ea6-161d-4de8-8090-24281223e268",
+        "ContactInformation": {
+            "Phone": "(248)816-6623x66275",
+            "Email": "droach@example.com",
+            "Address": "021 Hannah Key\nPort Melanie, SC 14181"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-10",
+        "Location": "262 Bauer Light\nMitchellhaven, OH 89477",
+        "Description": "Art recently cup fill. Fact past example kitchen also stock. Take exactly lose help rate son.\nBuild moment mind meeting. Performance raise baby cup fact job."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7538
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 193747
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 77451
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4593
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 37198
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 18693,
+        "TotalApproved": 6680
+    },
+    "AdjusterDetails": {
+        "Name": "Dave Cox",
+        "ContactInformation": {
+            "Phone": "927-911-6640x345",
+            "Email": "lisa35@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/94954d0b-775c-499b-bd1e-bb436afff33e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-10T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-15T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-20T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1e30482d-ac3a-49c9-b0b2-c15090080968",
+  "PolicyID": "b2fd52fe-1772-42d7-8c28-17ed7141c1c2",
+  "EffectiveDates": {
+    "StartDate": "2023-09-16",
+    "EndDate": "2024-09-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d3aa44d3-4b8a-457c-863e-1fbc1415ad1b",
+    "Name": "Lori Monroe",
+    "PolicyNumber": "b2fd52fe-1772-42d7-8c28-17ed7141c1c2",
+    "ContactInformation": {
+      "Phone": "001-514-229-8781x903",
+      "Email": "jerry07@example.net",
+      "Address": "3161 Barry Crossroad\nNorth Jenniferchester, IN 81874"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-21",
+    "Location": "4994 Timothy Port Suite 252\nMcculloughburgh, WA 35734",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 67707
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 35602
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9853
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 28480
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7181
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 148823,
+    "TotalApproved": 21647
+  },
+  "AdjusterDetails": {
+    "Name": "Ryan Hill",
+    "ContactInformation": {
+      "Phone": "788.241.2330x6910",
+      "Email": "shannon38@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/b757bc6c-c178-4f5f-a517-f28cb11974c7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-21T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-26T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-01T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

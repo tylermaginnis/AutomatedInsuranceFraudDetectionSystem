@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d2db88d2-9329-48b9-a48d-7e2d917706fb",
+  "PolicyID": "f9c2735b-e745-47d6-962f-f866c6fa4815",
+  "EffectiveDates": {
+    "StartDate": "2024-08-28",
+    "EndDate": "2025-08-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a72c3e9b-42b6-4e3e-9aac-0457ba63a21f",
+    "Name": "Joseph Ellis",
+    "PolicyNumber": "f9c2735b-e745-47d6-962f-f866c6fa4815",
+    "ContactInformation": {
+      "Phone": "878.472.4890x2398",
+      "Email": "brookewalker@example.com",
+      "Address": "21237 Cunningham Vista Apt. 149\nSouth Isaiah, VI 83496"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-23",
+    "Location": "147 Bailey Isle Suite 698\nEast Stevenberg, RI 49891",
+    "Description": "Treatment heavy study almost. Then color across stop most do risk. Sure executive light professor left ever how."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 14385
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4080
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13251
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 18117
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 48690
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 167559,
+    "TotalApproved": 165289
+  },
+  "AdjusterDetails": {
+    "Name": "Jacqueline Thomas",
+    "ContactInformation": {
+      "Phone": "(368)336-5275x8419",
+      "Email": "annette97@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/5686cb63-4b4f-4aa8-8ffe-3f66de8b1579"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-23T14:40:19Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-28T14:40:19Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-02-02T14:40:19Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

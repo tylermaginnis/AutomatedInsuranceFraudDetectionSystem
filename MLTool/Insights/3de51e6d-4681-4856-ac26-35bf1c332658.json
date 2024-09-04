@@ -1,0 +1,81 @@
+{
+    "ClaimID": "3de51e6d-4681-4856-ac26-35bf1c332658",
+    "PolicyID": "68aa050d-aaeb-4882-a381-3399b9062a26",
+    "EffectiveDates": {
+        "StartDate": "2024-01-28",
+        "EndDate": "2025-01-27"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "141583d4-0d2d-4f4a-bf21-4caf14af9f54",
+        "Name": "Carol Jones",
+        "PolicyNumber": "68aa050d-aaeb-4882-a381-3399b9062a26",
+        "ContactInformation": {
+            "Phone": "(747)409-7706",
+            "Email": "christophermcdaniel@example.org",
+            "Address": "36204 Proctor Falls\nMatthewburgh, TN 69008"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-06-18",
+        "Location": "91702 Colin Squares\nJacobburgh, TN 48677",
+        "Description": "Certainly concern stuff develop forget third. Trouble director friend. Would past seem somebody."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2891
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 132124
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 38195
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 57829
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 2123
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 51780,
+        "TotalApproved": 26377
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Cole",
+        "ContactInformation": {
+            "Phone": "001-305-741-6179x6997",
+            "Email": "znelson@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3ee30294-4582-4d2f-9b00-c5459b2da806"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-06-18T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-06-23T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-28T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

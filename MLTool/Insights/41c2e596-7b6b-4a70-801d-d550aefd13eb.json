@@ -1,0 +1,81 @@
+{
+    "ClaimID": "41c2e596-7b6b-4a70-801d-d550aefd13eb",
+    "PolicyID": "4bb44afe-a2c8-4759-8de4-1c2755634212",
+    "EffectiveDates": {
+        "StartDate": "2023-09-17",
+        "EndDate": "2024-09-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "99554125-f87c-41a3-8e60-ab979c9adc77",
+        "Name": "Cheryl Larson",
+        "PolicyNumber": "4bb44afe-a2c8-4759-8de4-1c2755634212",
+        "ContactInformation": {
+            "Phone": "765-621-3760x913",
+            "Email": "ksims@example.com",
+            "Address": "13056 Davis Junctions\nStoneside, DE 39884"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-08-27",
+        "Location": "2115 Danielle Burg\nEast Dawn, DC 30721",
+        "Description": "Reflect as hope act million fact. Republican instead evidence year city.\nSource mother hospital role heart trade six entire. Not skill claim shake run mother. Group season group the."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 85212
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 90591
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57171
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 40904
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 36093
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 118393,
+        "TotalApproved": 81340
+    },
+    "AdjusterDetails": {
+        "Name": "Elizabeth Adams",
+        "ContactInformation": {
+            "Phone": "848-911-9452x69637",
+            "Email": "alexiswilliams@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/8d2f8f16-644b-4170-a982-cc15c8543827"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-08-27T14:22:04Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-01T14:22:04Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-06T14:22:04Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

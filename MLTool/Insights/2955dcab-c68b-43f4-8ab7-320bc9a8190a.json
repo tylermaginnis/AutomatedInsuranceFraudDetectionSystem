@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2955dcab-c68b-43f4-8ab7-320bc9a8190a",
+    "PolicyID": "8368c089-5198-4d46-8648-a3fa3405927e",
+    "EffectiveDates": {
+        "StartDate": "2024-01-12",
+        "EndDate": "2025-01-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5505319e-f6da-488e-a6f9-260b6ce68f1a",
+        "Name": "Charles Doyle",
+        "PolicyNumber": "8368c089-5198-4d46-8648-a3fa3405927e",
+        "ContactInformation": {
+            "Phone": "890.560.9229",
+            "Email": "ayalachristopher@example.org",
+            "Address": "66995 Michele Estate\nWadeville, MH 82625"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-12-11",
+        "Location": "60717 Adams Underpass Suite 694\nNicholschester, MA 54724",
+        "Description": "That hear read style assume perform assume. Administration audience quickly PM. Expect current standard American over.\nNow himself staff same field. Live keep idea low ok say."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1778
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 16866
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 12278
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 8675
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 185813
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 68515,
+        "TotalApproved": 1326
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Wright",
+        "ContactInformation": {
+            "Phone": "001-654-732-4232x271",
+            "Email": "kpeters@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/8f2f1dcf-8ac5-4648-b192-d99717e72403"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-12-11T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-12-16T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-12-21T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

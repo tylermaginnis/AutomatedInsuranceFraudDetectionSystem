@@ -1,0 +1,81 @@
+{
+    "ClaimID": "51e06104-4b75-4a8b-a558-cc4564bc008e",
+    "PolicyID": "706cacaf-943e-43b0-b837-b30c0706f995",
+    "EffectiveDates": {
+        "StartDate": "2024-05-17",
+        "EndDate": "2025-05-17"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6bdc4f8a-d3af-42ab-b69e-84da28b2fc1e",
+        "Name": "Patricia Medina",
+        "PolicyNumber": "706cacaf-943e-43b0-b837-b30c0706f995",
+        "ContactInformation": {
+            "Phone": "(544)201-7361",
+            "Email": "careymelissa@example.com",
+            "Address": "Unit 3910 Box 4674\nDPO AP 12518"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-05",
+        "Location": "75584 King Plains\nDouglasshire, OK 86190",
+        "Description": "Similar state produce indeed discussion raise subject. At these find standard. Eat fear born recent lead many performance."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3187
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11021
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 58759
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 4056
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 3159
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 167701,
+        "TotalApproved": 109424
+    },
+    "AdjusterDetails": {
+        "Name": "Benjamin Martin",
+        "ContactInformation": {
+            "Phone": "811.673.9362",
+            "Email": "ekeller@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/feeac2d2-c5be-4fc2-9925-c5dbdae1d1ce"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-05T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-10T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-15T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

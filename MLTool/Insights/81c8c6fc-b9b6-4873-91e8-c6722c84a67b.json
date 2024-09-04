@@ -1,0 +1,81 @@
+{
+    "ClaimID": "81c8c6fc-b9b6-4873-91e8-c6722c84a67b",
+    "PolicyID": "1c720b81-64dc-47f6-ac3a-74800a226d42",
+    "EffectiveDates": {
+        "StartDate": "2023-10-23",
+        "EndDate": "2024-10-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "5678a5a7-ba44-44f1-b786-9fe08fc51686",
+        "Name": "Julie Young",
+        "PolicyNumber": "1c720b81-64dc-47f6-ac3a-74800a226d42",
+        "ContactInformation": {
+            "Phone": "3588472003",
+            "Email": "tiffany19@example.com",
+            "Address": "39289 Webb Underpass\nGonzalesfurt, WA 36788"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-24",
+        "Location": "955 Huff Parkways\nSeanfurt, DC 81548",
+        "Description": "Wrong water wrong edge budget. Physical party call recognize PM might laugh. Window particular much black TV list child."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 180048
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7784
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 148005
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 59594
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 78035
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 63079,
+        "TotalApproved": 7694
+    },
+    "AdjusterDetails": {
+        "Name": "Krista Fernandez",
+        "ContactInformation": {
+            "Phone": "726.393.0415",
+            "Email": "yvargas@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/0dab4912-9334-48e5-aa5a-b27a519efe82"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-24T14:40:19Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-29T14:40:19Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-05T14:40:19Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

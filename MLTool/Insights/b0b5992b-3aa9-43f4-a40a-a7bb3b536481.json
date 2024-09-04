@@ -1,0 +1,81 @@
+{
+    "ClaimID": "b0b5992b-3aa9-43f4-a40a-a7bb3b536481",
+    "PolicyID": "651b69bf-31d0-4b51-8068-498703be3e34",
+    "EffectiveDates": {
+        "StartDate": "2024-07-14",
+        "EndDate": "2025-07-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "16bccb9a-22b3-4b55-91fa-35ed8f73e08b",
+        "Name": "Corey Martin",
+        "PolicyNumber": "651b69bf-31d0-4b51-8068-498703be3e34",
+        "ContactInformation": {
+            "Phone": "374.538.4492x8607",
+            "Email": "mistydennis@example.net",
+            "Address": "402 Harrington Causeway\nLake Annaside, ND 01027"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-07-07",
+        "Location": "5242 Angela Port Suite 651\nNorth William, MT 52333",
+        "Description": "Radio whole yard color when work image. Southern perform about enter language catch difficult. Guess resource artist list gun."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 70225
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5078
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5526
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9191
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6831
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 184024,
+        "TotalApproved": 103034
+    },
+    "AdjusterDetails": {
+        "Name": "Jill Cole",
+        "ContactInformation": {
+            "Phone": "221.657.5924x2128",
+            "Email": "coxvictor@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/e906a1a6-d63a-481b-a342-cb01440cba17"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-07-07T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-07-12T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-07-17T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

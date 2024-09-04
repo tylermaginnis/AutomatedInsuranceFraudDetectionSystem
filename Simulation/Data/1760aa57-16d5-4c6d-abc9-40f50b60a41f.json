@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1760aa57-16d5-4c6d-abc9-40f50b60a41f",
+  "PolicyID": "33553730-177c-4d87-9d89-efa2e3ebc468",
+  "EffectiveDates": {
+    "StartDate": "2023-09-30",
+    "EndDate": "2024-09-29"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ed36e6ae-8ade-4dfa-b916-770d3b3ae294",
+    "Name": "Sandra Livingston",
+    "PolicyNumber": "33553730-177c-4d87-9d89-efa2e3ebc468",
+    "ContactInformation": {
+      "Phone": "619.720.0350",
+      "Email": "warrenjesse@example.org",
+      "Address": "98036 Austin Canyon Suite 485\nTeresahaven, NJ 19275"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-25",
+    "Location": "218 Smith Mountains Suite 787\nNorth Jasonfurt, IA 73443",
+    "Description": "How dinner only.\nHow almost state gas shake. Economic threat room teacher more. Despite buy challenge sing alone thing glass."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 28526
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8083
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9550
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9865
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13003
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 124259,
+    "TotalApproved": 95505
+  },
+  "AdjusterDetails": {
+    "Name": "Christopher Vasquez",
+    "ContactInformation": {
+      "Phone": "911.307.3621x15417",
+      "Email": "dmendoza@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/239e31ff-fcf9-4466-8ee9-23485c75c8e9"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-25T14:40:16Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-03-30T14:40:16Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-04T14:40:16Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

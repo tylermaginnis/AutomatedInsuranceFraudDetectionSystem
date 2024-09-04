@@ -1,0 +1,80 @@
+{
+  "ClaimID": "71f75052-e0ac-414c-884b-b4060999b21d",
+  "PolicyID": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+  "EffectiveDates": {
+    "StartDate": "2023-11-16",
+    "EndDate": "2024-11-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e5105667-3211-446f-9c3d-593050b81d43",
+    "Name": "Julie Porter",
+    "PolicyNumber": "8a3a8225-765a-4f23-b265-2ef0d7f62ca7",
+    "ContactInformation": {
+      "Phone": "001-222-366-0081",
+      "Email": "cameronbailey@example.org",
+      "Address": "288 Maddox Center Apt. 437\nPort Loganton, WY 10809"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-13",
+    "Location": "80952 Charles Village Suite 515\nPort Nicholas, UT 44812",
+    "Description": "Write fill cold provide network the. Share too hot around imagine in. Instead food television happy wonder society."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5943
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 24586
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6537
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 43934
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 60984
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 52757,
+    "TotalApproved": 17512
+  },
+  "AdjusterDetails": {
+    "Name": "Francisco Palmer",
+    "ContactInformation": {
+      "Phone": "(747)597-3269x79280",
+      "Email": "sedwards@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/83f72f9b-c582-47aa-8613-db6d6e86aaec"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-13T14:40:18Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-18T14:40:18Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-02-23T14:40:18Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

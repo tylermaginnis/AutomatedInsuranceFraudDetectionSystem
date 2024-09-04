@@ -1,0 +1,81 @@
+{
+    "ClaimID": "5529c4b0-4c97-4599-a3aa-ac2215947e1d",
+    "PolicyID": "f938c05b-67da-45ef-a526-e8428c52fa32",
+    "EffectiveDates": {
+        "StartDate": "2024-09-03",
+        "EndDate": "2025-09-03"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "b070ece7-21ca-4d1b-a017-2ae027fcdca6",
+        "Name": "Ashlee Lopez",
+        "PolicyNumber": "f938c05b-67da-45ef-a526-e8428c52fa32",
+        "ContactInformation": {
+            "Phone": "364.587.9755x3464",
+            "Email": "molly12@example.org",
+            "Address": "53479 Gray Port\nNew Markland, KY 63240"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-16",
+        "Location": "5977 Teresa Knoll Apt. 845\nRandallborough, NE 81472",
+        "Description": "Experience administration list else traditional almost. Play effort view answer cut."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8723
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8520
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 92068
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 6790
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 21587
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 163790,
+        "TotalApproved": 112770
+    },
+    "AdjusterDetails": {
+        "Name": "Donna Crawford",
+        "ContactInformation": {
+            "Phone": "(725)752-7726x83943",
+            "Email": "phillipsjessica@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/4b975d84-31cc-476d-bf57-c627b3ae518e"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-16T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-21T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-26T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

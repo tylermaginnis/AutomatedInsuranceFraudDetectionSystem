@@ -1,0 +1,81 @@
+{
+    "ClaimID": "aa04a143-f826-4f88-b018-2c0ea4751ace",
+    "PolicyID": "93fbbd49-c9c6-49a8-95ed-9035ca01538b",
+    "EffectiveDates": {
+        "StartDate": "2024-08-08",
+        "EndDate": "2025-08-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "2033443c-2019-4536-99fb-a65f7431bbbc",
+        "Name": "Isaiah James",
+        "PolicyNumber": "93fbbd49-c9c6-49a8-95ed-9035ca01538b",
+        "ContactInformation": {
+            "Phone": "924.776.7072",
+            "Email": "danielpoole@example.com",
+            "Address": "7024 King Drives\nJustinmouth, NC 40128"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-03-06",
+        "Location": "304 Erin Village Apt. 188\nEast Ana, KS 75112",
+        "Description": "Treatment style work rise one reason. Could budget million open want kid. By country remain green listen."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 35173
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 100440
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 26031
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 74990
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 88206
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 160452,
+        "TotalApproved": 88205
+    },
+    "AdjusterDetails": {
+        "Name": "Tiffany Hebert",
+        "ContactInformation": {
+            "Phone": "358.290.8562x043",
+            "Email": "amanda53@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/b04a8024-18ee-47f4-a20d-126182e820e3"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-03-06T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-03-11T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-03-16T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

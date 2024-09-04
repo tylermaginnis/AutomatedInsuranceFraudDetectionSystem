@@ -1,0 +1,81 @@
+{
+    "ClaimID": "2fd7277d-a931-4ce5-9589-6994d0ea70e7",
+    "PolicyID": "91c14b11-5e64-4ff8-9010-57bb82621e15",
+    "EffectiveDates": {
+        "StartDate": "2023-10-15",
+        "EndDate": "2024-10-14"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "35ffc483-938c-4b43-acec-958d9b44878b",
+        "Name": "Susan Martinez",
+        "PolicyNumber": "91c14b11-5e64-4ff8-9010-57bb82621e15",
+        "ContactInformation": {
+            "Phone": "001-488-883-5323x091",
+            "Email": "berickson@example.net",
+            "Address": "397 Johnson Ford Suite 352\nNorth Kevin, SC 75590"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-02-17",
+        "Location": "566 Frank Orchard\nEast Johnfurt, NV 94332",
+        "Description": "Fake injuries"
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 95465
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 34981
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5495
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29681
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5103
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 170725,
+        "TotalApproved": 8109
+    },
+    "AdjusterDetails": {
+        "Name": "Kimberly Brock",
+        "ContactInformation": {
+            "Phone": "300-534-6209x6010",
+            "Email": "marquezluis@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/695aa043-2008-4020-b749-634818014560"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-02-17T14:40:16Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-02-22T14:40:16Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-27T14:40:16Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

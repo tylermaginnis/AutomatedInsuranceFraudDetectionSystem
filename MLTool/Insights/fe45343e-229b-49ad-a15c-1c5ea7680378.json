@@ -1,0 +1,81 @@
+{
+    "ClaimID": "fe45343e-229b-49ad-a15c-1c5ea7680378",
+    "PolicyID": "58e3eea8-a499-4448-bcb4-b901693e4c81",
+    "EffectiveDates": {
+        "StartDate": "2023-11-23",
+        "EndDate": "2024-11-22"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "efd1e88e-4447-43d0-bbd4-5133e25865a6",
+        "Name": "Kayla Ford",
+        "PolicyNumber": "58e3eea8-a499-4448-bcb4-b901693e4c81",
+        "ContactInformation": {
+            "Phone": "+1-663-432-0799",
+            "Email": "mpearson@example.org",
+            "Address": "65368 Martinez River Apt. 859\nLake Lindsay, VI 54934"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-04",
+        "Location": "USCGC Williams\nFPO AP 78406",
+        "Description": "Writer write federal for fire lay fear. Agreement region couple interview be leg age. Way run page own election attack stop."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7181
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 33400
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 38426
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 26847
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 17141
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 175945,
+        "TotalApproved": 149507
+    },
+    "AdjusterDetails": {
+        "Name": "Amanda Herman",
+        "ContactInformation": {
+            "Phone": "001-342-556-6446x197",
+            "Email": "melissa71@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/ea866770-4678-4ccf-b746-b2d2acdf9916"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-04T14:27:53Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-09T14:27:53Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-14T14:27:53Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

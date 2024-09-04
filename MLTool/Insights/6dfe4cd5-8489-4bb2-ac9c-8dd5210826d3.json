@@ -1,0 +1,81 @@
+{
+    "ClaimID": "6dfe4cd5-8489-4bb2-ac9c-8dd5210826d3",
+    "PolicyID": "f18efd87-c448-4d0c-8786-a39cbad4dca4",
+    "EffectiveDates": {
+        "StartDate": "2023-11-07",
+        "EndDate": "2024-11-06"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "6f6e48b4-7aea-4461-8a91-8e6ced3d6e19",
+        "Name": "Christian Wright",
+        "PolicyNumber": "f18efd87-c448-4d0c-8786-a39cbad4dca4",
+        "ContactInformation": {
+            "Phone": "(878)688-3698",
+            "Email": "davidperez@example.org",
+            "Address": "148 Joseph Throughway Suite 691\nRobertland, DC 36151"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-26",
+        "Location": "384 Andrew Field\nWest Carolinestad, TN 73313",
+        "Description": "Control pattern add if authority close. Order else dog heavy step federal picture.\nUsually particular already operation collection explain audience."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 9963
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 49232
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 89875
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 11907
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 35568
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 86456,
+        "TotalApproved": 8073
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Robinson",
+        "ContactInformation": {
+            "Phone": "240.985.1994",
+            "Email": "whitekeith@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/3d6d3788-6ee4-48be-8b30-4dfbe98e8cf5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-26T14:40:18Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-31T14:40:18Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-02-05T14:40:18Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

@@ -1,0 +1,81 @@
+{
+    "ClaimID": "62023818-5b15-4a73-a426-39936b5da46e",
+    "PolicyID": "6150d629-caec-4072-aa28-fddd0aedcc25",
+    "EffectiveDates": {
+        "StartDate": "2024-04-07",
+        "EndDate": "2025-04-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "82c9afad-e3d1-4b1d-a066-1814466bc017",
+        "Name": "Alexander Jacobs",
+        "PolicyNumber": "6150d629-caec-4072-aa28-fddd0aedcc25",
+        "ContactInformation": {
+            "Phone": "346-607-0153x221",
+            "Email": "jenniferreilly@example.net",
+            "Address": "0852 Anthony Estate\nLake Laurastad, DC 50357"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-01-09",
+        "Location": "Unit 9320 Box 3935\nDPO AA 34206",
+        "Description": "Identify account anything voice. Few everyone nation all treatment garden different raise. Allow center read speak skin issue try or."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 12067
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 24191
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 25744
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 19832
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 73975
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 132410,
+        "TotalApproved": 13696
+    },
+    "AdjusterDetails": {
+        "Name": "Dr. Alex Caldwell",
+        "ContactInformation": {
+            "Phone": "631.623.1610",
+            "Email": "briankemp@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/1fecdfbe-edd2-4dc9-8e8e-0a80db249dc5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-01-09T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-01-14T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-01-19T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

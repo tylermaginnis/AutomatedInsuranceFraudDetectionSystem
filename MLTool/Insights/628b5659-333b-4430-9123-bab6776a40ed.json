@@ -1,0 +1,81 @@
+{
+    "ClaimID": "628b5659-333b-4430-9123-bab6776a40ed",
+    "PolicyID": "0ba49a6d-03c9-4cea-a738-943333f44dab",
+    "EffectiveDates": {
+        "StartDate": "2024-01-03",
+        "EndDate": "2025-01-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "7ceaf90e-ac5f-4aa4-a87a-40b48d2256b3",
+        "Name": "Christopher Flynn",
+        "PolicyNumber": "0ba49a6d-03c9-4cea-a738-943333f44dab",
+        "ContactInformation": {
+            "Phone": "+1-676-730-2613x86215",
+            "Email": "vsanchez@example.org",
+            "Address": "2032 Christine Ridges Apt. 063\nShawhaven, GA 09426"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-14",
+        "Location": "6759 King Island Apt. 348\nTheresamouth, UT 58484",
+        "Description": "Senior herself thought accept. A these social security fight too middle. Enjoy have magazine mouth everything.\nLong piece card stop occur. Election growth tend."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 13949
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4205
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23892
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5340
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 23756
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 83121,
+        "TotalApproved": 81126
+    },
+    "AdjusterDetails": {
+        "Name": "Daniel Scott",
+        "ContactInformation": {
+            "Phone": "805.840.9421",
+            "Email": "jimenezrobert@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/7c9d0495-7196-4d4e-9622-a76de6ad81b8"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-14T14:14:31Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-19T14:14:31Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-24T14:14:31Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}

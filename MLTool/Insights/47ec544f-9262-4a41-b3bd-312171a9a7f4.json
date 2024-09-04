@@ -1,0 +1,81 @@
+{
+    "ClaimID": "47ec544f-9262-4a41-b3bd-312171a9a7f4",
+    "PolicyID": "d7bfc809-0cc8-49ab-a00c-a92bb4f8e940",
+    "EffectiveDates": {
+        "StartDate": "2024-02-03",
+        "EndDate": "2025-02-02"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d318128f-ee06-450e-8a7b-62eda9951cb1",
+        "Name": "Mariah Brown",
+        "PolicyNumber": "d7bfc809-0cc8-49ab-a00c-a92bb4f8e940",
+        "ContactInformation": {
+            "Phone": "334.200.3636x00968",
+            "Email": "poneal@example.org",
+            "Address": "4343 Watkins Manor\nNguyenfurt, TN 64781"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-16",
+        "Location": "385 Derek Fork\nEast Michaelland, CA 12009",
+        "Description": "Other example beat determine act station. Add address stay keep.\nArtist young represent while candidate perform see. Week effect long push lose change."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 5203
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 14356
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 12832
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 8137
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 19553
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 190690,
+        "TotalApproved": 72234
+    },
+    "AdjusterDetails": {
+        "Name": "Jennifer Newman",
+        "ContactInformation": {
+            "Phone": "782-455-9520",
+            "Email": "mullencheryl@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/aa62a3af-fa2f-414d-ba18-cbad3cbc5085"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-16T14:39:15Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-21T14:39:15Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-26T14:39:15Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "FraudLikelihood": "low"
+}
