@@ -10,7 +10,7 @@ from datetime import datetime
 class FraudDetectionModel(nn.Module):
     def __init__(self):
         super(FraudDetectionModel, self).__init__()
-        self.fc1 = nn.Linear(11, 50)  # Example input and hidden layer sizes
+        self.fc1 = nn.Linear(16, 50)  # Adjusted input size to match the feature vector length
         self.fc2 = nn.Linear(50, 3)   # Output layer with 3 classes: low, medium, high
 
     def forward(self, x):
@@ -40,7 +40,12 @@ def extract_features_from_claim(claim):
         len(claim["SupportingDocuments"]),
         1 if claim["ClaimStatus"] == "Approved" else 0,
         1 if claim["ClaimStatus"] == "In Review" else 0,
-        calculate_time_between_claims(claim)
+        calculate_time_between_claims(claim),
+        len(claim["ClaimHistory"]),  # Number of entries in claim history
+        sum(1 for entry in claim["ClaimHistory"] if entry["Status"] == "Approved"),  # Number of times claim was approved in history
+        sum(1 for entry in claim["ClaimHistory"] if entry["Status"] == "In Review"),  # Number of times claim was in review in history
+        sum(1 for entry in claim["ClaimHistory"] if entry["Status"] == "Filed"),  # Number of times claim was filed in history
+        sum(1 for entry in claim["ClaimHistory"] if entry["Status"] == "Closed")  # Number of times claim was closed in history
     ]
     print(f"Features extracted: {features}")
     features = torch.tensor(features, dtype=torch.float32)

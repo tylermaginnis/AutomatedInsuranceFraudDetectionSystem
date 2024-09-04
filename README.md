@@ -25,17 +25,13 @@ This project is an Automated Insurance Claim Fraud Detection System. The system 
 - **CLI Interface**: Exposes the fraud detection capabilities via a Command Line Interface (CLI), allowing users to run scripts for data processing and model training.
 
 ### Frontend Interface
-- **Dashboard**: Develops a web dashboard using Flask (Python) and HTML/JavaScript to display the results of the fraud detection process, including visualizations of flagged claims and their associated fraud scores.
+- **Dashboard**: Develops a web dashboard using .Net MVC (C#) and HTML/JavaScript to display the results of the fraud detection process, including visualizations of flagged claims and their associated fraud scores.
 - **Claim Submission Interface**: Includes a form for submitting new claims, which are processed by the backend and scored for fraud risk.
-
-### Monitoring and Logging
-- **Logging**: Implements detailed logging for all processes, including data ingestion, rule application, and model predictions. Uses a lightweight logging tool to centralize and display logs.
-- **Alerts**: Sets up basic alerting mechanisms that notify users if a claim is flagged with a high fraud probability.
 
 ## Key Technologies
 
 - **Languages**: Python, C#
-- **Frameworks**: ASP.NET MVC for the backend and frontend, Scikit-learn for machine learning
+- **Frameworks**: ASP.NET MVC for the backend and frontend, Torch and Shap for machine learning
 - **Data Management**: Pandas for data processing, JSON for local data storage
 - **Web Development**: HTML5, CSS, JavaScript
 - **Logging and Alerts**: Python logging module, lightweight alerting via logs
@@ -90,11 +86,10 @@ The Automated Insurance Claim Fraud Detection System offers a unique, valuable s
 ### Customizing Rules
 
 1. **Update the Machine Learning Model**:
-   If you want to retrain the machine learning model with new data or different parameters, modify the `train_model.py` script and run it to update the model.
+   If you want to retrain the machine learning model with new data or different parameters, modify the `Generator.py` or `MLTool.py` script and run it to update the model.
 
 ### Additional Resources
 
-- **Documentation**: Refer to the `docs` directory for detailed documentation on the system's architecture, data schema, and API endpoints.
 - **Support**: If you encounter any issues or have questions, please open an issue on the GitHub repository or contact the project maintainers.
 
 By following this user guide, you will be able to set up, use, and customize the Automated Insurance Claim Fraud Detection System effectively.

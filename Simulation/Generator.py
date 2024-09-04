@@ -169,6 +169,37 @@ def generate_claim(policy_holder, claim_id, schema, is_abnormal=False):
                 "Notes": "Claim approved"
             }
         ]
+    else:
+        # Generate normal distributions of data
+        claim["ClaimAmounts"]["TotalClaimed"] = random.randint(1000, 200000)
+        claim["ClaimAmounts"]["TotalApproved"] = random.randint(1000, claim["ClaimAmounts"]["TotalClaimed"])
+        for coverage_type in claim["Coverage"]:
+            claim["Coverage"][coverage_type]["ClaimedAmount"] = random.randint(1000, 200000)
+        
+        claim["SupportingDocuments"] = [
+            {
+                "DocumentType": random.choice(["Police Report", "Medical Report", "Repair Estimate", "Witness Statement"]),
+                "DocumentURL": f"http://example.com/documents/{uuid.uuid4()}"
+            }
+        ]
+        claim["ClaimStatus"] = random.choice(["Filed", "In Review", "Approved", "Closed"])
+        claim["ClaimHistory"] = [
+            {
+                "Status": "Filed",
+                "Date": accident_date.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "Notes": "Initial claim filed"
+            },
+            {
+                "Status": "In Review",
+                "Date": (accident_date + timedelta(days=5)).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "Notes": "Claim is being reviewed"
+            },
+            {
+                "Status": "Approved",
+                "Date": (accident_date + timedelta(days=10)).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "Notes": "Claim approved"
+            }
+        ]
     
     return claim
 
