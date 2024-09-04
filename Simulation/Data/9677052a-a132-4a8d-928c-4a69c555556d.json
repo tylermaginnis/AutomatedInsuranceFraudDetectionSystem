@@ -1,0 +1,80 @@
+{
+  "ClaimID": "9677052a-a132-4a8d-928c-4a69c555556d",
+  "PolicyID": "e08e8b61-182b-4013-b875-fb9c8856bc31",
+  "EffectiveDates": {
+    "StartDate": "2024-01-07",
+    "EndDate": "2025-01-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "daf6f516-4e78-49e7-95a2-9daa595de6ee",
+    "Name": "Michael Dixon",
+    "PolicyNumber": "e08e8b61-182b-4013-b875-fb9c8856bc31",
+    "ContactInformation": {
+      "Phone": "203-739-7608x10028",
+      "Email": "wramsey@example.org",
+      "Address": "1172 Lozano Trace Apt. 953\nJacobmouth, NY 19983"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-08",
+    "Location": "8289 Tammy Center Apt. 377\nDuncanville, OH 13801",
+    "Description": "Wonder once upon key design. That beat value east argue majority. Receive direction reveal fight new cut."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 21287
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 79700
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 73980
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 37534
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 50003
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 2449,
+    "TotalApproved": 8793
+  },
+  "AdjusterDetails": {
+    "Name": "Shawn Keller",
+    "ContactInformation": {
+      "Phone": "819.801.2488x39356",
+      "Email": "ytorres@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/99b6e372-1fd1-4b37-93e1-85d13e1060dd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-08T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-13T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-18T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

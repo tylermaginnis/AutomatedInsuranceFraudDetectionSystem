@@ -1,0 +1,80 @@
+{
+  "ClaimID": "85ebfdee-7da0-4ccb-a6bd-a76306ab5456",
+  "PolicyID": "0dde4e8e-cb5a-427b-8598-029a189260d0",
+  "EffectiveDates": {
+    "StartDate": "2024-05-09",
+    "EndDate": "2025-05-09"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8039ed1b-52aa-4cb5-9dae-55c2b2b258ae",
+    "Name": "Gary Ward",
+    "PolicyNumber": "0dde4e8e-cb5a-427b-8598-029a189260d0",
+    "ContactInformation": {
+      "Phone": "(310)396-8392",
+      "Email": "imiller@example.com",
+      "Address": "PSC 2801, Box 8426\nAPO AE 79329"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-28",
+    "Location": "481 Logan Avenue Apt. 911\nStevenland, SD 47912",
+    "Description": "Population total walk everybody return.\nCard doctor oil forget foot standard government. Single person specific. Leader discuss allow could."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 126657
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 64935
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 52832
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 39577
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 31044
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 178140,
+    "TotalApproved": 184699
+  },
+  "AdjusterDetails": {
+    "Name": "Shawn Knox",
+    "ContactInformation": {
+      "Phone": "850.690.8146x5988",
+      "Email": "thomashernandez@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/b08eee94-a023-4dc4-ba47-58400a3a4ff1"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-28T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-02T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-07T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

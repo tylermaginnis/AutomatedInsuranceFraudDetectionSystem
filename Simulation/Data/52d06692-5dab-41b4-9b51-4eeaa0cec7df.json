@@ -1,0 +1,80 @@
+{
+  "ClaimID": "52d06692-5dab-41b4-9b51-4eeaa0cec7df",
+  "PolicyID": "230a77bd-8ba0-4fc1-8d8a-640942441f7f",
+  "EffectiveDates": {
+    "StartDate": "2024-01-13",
+    "EndDate": "2025-01-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a0de7f45-b201-426e-b3c9-ea83c4e1a2ca",
+    "Name": "Daniel Short",
+    "PolicyNumber": "230a77bd-8ba0-4fc1-8d8a-640942441f7f",
+    "ContactInformation": {
+      "Phone": "447.814.7784x677",
+      "Email": "john42@example.com",
+      "Address": "PSC 8152, Box 9764\nAPO AA 10800"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-08",
+    "Location": "616 Hill View Suite 451\nSherryville, WV 90621",
+    "Description": "Economic few behind door pretty career. Story simply light."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9910
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 36631
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7161
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 14611
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 12155
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 181138,
+    "TotalApproved": 187380
+  },
+  "AdjusterDetails": {
+    "Name": "Cameron Lee",
+    "ContactInformation": {
+      "Phone": "+1-200-710-7040x780",
+      "Email": "karaberry@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/92c5a43c-198c-421e-8a8d-553fb6078b4c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-08T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-13T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-18T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

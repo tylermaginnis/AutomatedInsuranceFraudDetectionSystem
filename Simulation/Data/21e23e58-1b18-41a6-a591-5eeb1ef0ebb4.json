@@ -1,0 +1,80 @@
+{
+  "ClaimID": "21e23e58-1b18-41a6-a591-5eeb1ef0ebb4",
+  "PolicyID": "230a77bd-8ba0-4fc1-8d8a-640942441f7f",
+  "EffectiveDates": {
+    "StartDate": "2024-05-10",
+    "EndDate": "2025-05-10"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a0de7f45-b201-426e-b3c9-ea83c4e1a2ca",
+    "Name": "Daniel Short",
+    "PolicyNumber": "230a77bd-8ba0-4fc1-8d8a-640942441f7f",
+    "ContactInformation": {
+      "Phone": "447.814.7784x677",
+      "Email": "john42@example.com",
+      "Address": "PSC 8152, Box 9764\nAPO AA 10800"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-03",
+    "Location": "33706 Paul Mount Apt. 444\nPort Kenneth, DC 71852",
+    "Description": "East each remember pull drop commercial design. Power very realize teacher and word gas. Stage rise political specific organization perhaps. Woman each character defense trouble necessary build."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 86038
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 4981
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 7128
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 56648
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 52855
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 15713,
+    "TotalApproved": 30384
+  },
+  "AdjusterDetails": {
+    "Name": "Alice Martin",
+    "ContactInformation": {
+      "Phone": "8895472013",
+      "Email": "dustinroberson@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/05890d6c-05d2-423f-bdb3-dbd2ae73d404"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-03T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-08T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-13T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

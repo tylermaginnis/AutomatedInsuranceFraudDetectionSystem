@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d9a8771a-9f03-4cc1-9f68-38f35c9a850d",
+  "PolicyID": "780243c0-b66f-4106-847c-ef1e76a3fd92",
+  "EffectiveDates": {
+    "StartDate": "2024-06-15",
+    "EndDate": "2025-06-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e62d962a-964d-4f18-8bf2-ee057e39218b",
+    "Name": "Jonathan Chan",
+    "PolicyNumber": "780243c0-b66f-4106-847c-ef1e76a3fd92",
+    "ContactInformation": {
+      "Phone": "(567)225-9399",
+      "Email": "elliotttheresa@example.org",
+      "Address": "5101 Sullivan Lodge Suite 186\nPort Robertmouth, VI 96157"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-23",
+    "Location": "4917 Kayla Crest Apt. 286\nHostad, TX 08102",
+    "Description": "Ready information officer indeed ever amount. Agree save see near. Loss black hope available."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 48396
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 25433
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6315
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1056
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 87525
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 2995,
+    "TotalApproved": 96422
+  },
+  "AdjusterDetails": {
+    "Name": "Samantha Burke",
+    "ContactInformation": {
+      "Phone": "506.537.0172x5917",
+      "Email": "keithjoseph@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/3d0b6341-3999-499d-9259-f33c4dd5bae7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-23T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-28T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-02T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

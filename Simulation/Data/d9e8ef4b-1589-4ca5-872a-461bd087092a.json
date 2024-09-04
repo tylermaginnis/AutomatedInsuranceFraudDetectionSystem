@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d9e8ef4b-1589-4ca5-872a-461bd087092a",
+  "PolicyID": "697d8006-0e77-4d0c-ac8b-ad42a56572ec",
+  "EffectiveDates": {
+    "StartDate": "2024-04-08",
+    "EndDate": "2025-04-08"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "47481438-3996-40a3-a483-5af6f8e472dd",
+    "Name": "Timothy Meyer",
+    "PolicyNumber": "697d8006-0e77-4d0c-ac8b-ad42a56572ec",
+    "ContactInformation": {
+      "Phone": "272-518-6529x7662",
+      "Email": "imosley@example.net",
+      "Address": "51495 Ruiz Curve Suite 422\nNew Kyle, WY 82377"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-19",
+    "Location": "992 Gay Forges\nMosesburgh, NH 35386",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 54960
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 21031
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 7553
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 23742
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15216
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 122502,
+    "TotalApproved": 71477
+  },
+  "AdjusterDetails": {
+    "Name": "Dr. Andrew Miller",
+    "ContactInformation": {
+      "Phone": "+1-835-964-4733x200",
+      "Email": "lori67@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/01cb44dc-f05e-4a61-a754-05616c714e19"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-19T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-24T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-29T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

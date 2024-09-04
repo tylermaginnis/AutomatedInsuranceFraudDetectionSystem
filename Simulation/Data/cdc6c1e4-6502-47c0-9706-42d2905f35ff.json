@@ -1,0 +1,80 @@
+{
+  "ClaimID": "cdc6c1e4-6502-47c0-9706-42d2905f35ff",
+  "PolicyID": "e08e8b61-182b-4013-b875-fb9c8856bc31",
+  "EffectiveDates": {
+    "StartDate": "2024-03-14",
+    "EndDate": "2025-03-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "daf6f516-4e78-49e7-95a2-9daa595de6ee",
+    "Name": "Michael Dixon",
+    "PolicyNumber": "e08e8b61-182b-4013-b875-fb9c8856bc31",
+    "ContactInformation": {
+      "Phone": "203-739-7608x10028",
+      "Email": "wramsey@example.org",
+      "Address": "1172 Lozano Trace Apt. 953\nJacobmouth, NY 19983"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-18",
+    "Location": "2305 Abbott Villages Apt. 098\nNew Wendy, AK 51986",
+    "Description": "Condition goal economy floor. Group our its finish. Dream camera authority magazine leader rock ahead quite.\nQuite enough success laugh generation media parent."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 46014
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 3827
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 126945
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 51031
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 12195
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 130022,
+    "TotalApproved": 130726
+  },
+  "AdjusterDetails": {
+    "Name": "John Lynch",
+    "ContactInformation": {
+      "Phone": "(780)444-2180x74131",
+      "Email": "martinkimberly@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/23e29243-b8e6-47a8-9592-7c1472b7fc7e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-18T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-23T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-28T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

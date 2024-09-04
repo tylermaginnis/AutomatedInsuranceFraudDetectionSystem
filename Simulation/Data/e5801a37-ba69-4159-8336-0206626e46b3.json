@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e5801a37-ba69-4159-8336-0206626e46b3",
+  "PolicyID": "55884e21-50cb-4e4d-ba7a-beb8b819c286",
+  "EffectiveDates": {
+    "StartDate": "2024-06-20",
+    "EndDate": "2025-06-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "691dcc8c-9ab5-4a65-8ba7-f9b31f7173bf",
+    "Name": "Wesley Edwards",
+    "PolicyNumber": "55884e21-50cb-4e4d-ba7a-beb8b819c286",
+    "ContactInformation": {
+      "Phone": "001-982-231-8128x163",
+      "Email": "whitakerdaniel@example.net",
+      "Address": "067 Weaver Spurs Suite 059\nPort Lisa, WI 69832"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-24",
+    "Location": "6989 Russell Lane\nPort Paulville, NC 47844",
+    "Description": "Treatment eye new forward fear. Four stuff compare firm work yourself bad."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 10086
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 30780
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5137
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 36024
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 23033
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 931,
+    "TotalApproved": 45543
+  },
+  "AdjusterDetails": {
+    "Name": "Anna Lewis",
+    "ContactInformation": {
+      "Phone": "583-363-9863x9714",
+      "Email": "kara86@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/afa89f24-30a7-4d2a-bf78-f6d6ebd420ee"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-24T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-29T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-04T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

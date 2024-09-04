@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fc56d38b-410b-4767-bb05-1b6b19d3129d",
+  "PolicyID": "697d8006-0e77-4d0c-ac8b-ad42a56572ec",
+  "EffectiveDates": {
+    "StartDate": "2023-10-18",
+    "EndDate": "2024-10-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "47481438-3996-40a3-a483-5af6f8e472dd",
+    "Name": "Timothy Meyer",
+    "PolicyNumber": "697d8006-0e77-4d0c-ac8b-ad42a56572ec",
+    "ContactInformation": {
+      "Phone": "272-518-6529x7662",
+      "Email": "imosley@example.net",
+      "Address": "51495 Ruiz Curve Suite 422\nNew Kyle, WY 82377"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-12-13",
+    "Location": "93529 Mendez Ford\nMarkburgh, NY 11753",
+    "Description": "Material everybody education us past pass attorney. Morning rich campaign. Man century until blue.\nOld yeah fire fact require quickly. Federal bring person doctor tax."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6750
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 28666
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 84039
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 39338
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 62476
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 916,
+    "TotalApproved": 86752
+  },
+  "AdjusterDetails": {
+    "Name": "James Medina",
+    "ContactInformation": {
+      "Phone": "4546075901",
+      "Email": "murphyalan@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/62362031-ae2d-4e50-84e9-6d7fdc12cffc"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-12-13T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-12-18T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-12-23T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

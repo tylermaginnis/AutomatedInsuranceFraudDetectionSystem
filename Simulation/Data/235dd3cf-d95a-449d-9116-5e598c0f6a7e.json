@@ -1,0 +1,80 @@
+{
+  "ClaimID": "235dd3cf-d95a-449d-9116-5e598c0f6a7e",
+  "PolicyID": "e08e8b61-182b-4013-b875-fb9c8856bc31",
+  "EffectiveDates": {
+    "StartDate": "2024-09-02",
+    "EndDate": "2025-09-02"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "daf6f516-4e78-49e7-95a2-9daa595de6ee",
+    "Name": "Michael Dixon",
+    "PolicyNumber": "e08e8b61-182b-4013-b875-fb9c8856bc31",
+    "ContactInformation": {
+      "Phone": "203-739-7608x10028",
+      "Email": "wramsey@example.org",
+      "Address": "1172 Lozano Trace Apt. 953\nJacobmouth, NY 19983"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-06-28",
+    "Location": "55418 Brooks Mills Suite 943\nNorth Melvin, ME 13227",
+    "Description": "Modern head president especially agency hotel best.\nSince short daughter seem discover security current. Husband maintain research evidence our."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4753
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 44768
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4460
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 106935
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9650
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 114964,
+    "TotalApproved": 140416
+  },
+  "AdjusterDetails": {
+    "Name": "Stephanie Leblanc",
+    "ContactInformation": {
+      "Phone": "+1-646-281-1098x877",
+      "Email": "brandi44@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/d13450c0-c9cb-40bb-b3ef-bb7fe8e11c59"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-06-28T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-07-03T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-07-08T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

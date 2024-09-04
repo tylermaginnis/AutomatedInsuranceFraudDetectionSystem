@@ -1,0 +1,80 @@
+{
+  "ClaimID": "15a478f1-4610-48ad-8756-fd0598b41b06",
+  "PolicyID": "777c2d7e-4f7f-40ac-9271-a3a3fcbc94d6",
+  "EffectiveDates": {
+    "StartDate": "2024-03-07",
+    "EndDate": "2025-03-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b4a49b4e-6a2e-43b9-8b04-551e6845a91a",
+    "Name": "Sandra Santos",
+    "PolicyNumber": "777c2d7e-4f7f-40ac-9271-a3a3fcbc94d6",
+    "ContactInformation": {
+      "Phone": "8607988012",
+      "Email": "cgomez@example.com",
+      "Address": "PSC 1248, Box 7694\nAPO AE 19984"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-29",
+    "Location": "1133 Green Harbor Suite 360\nPetersonport, FM 10320",
+    "Description": "Family perform better night yes own why. Government simply off picture full wall Mr.\nSeat billion treat. Hard data number. Identify foot include cold."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6526
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 17580
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9829
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 36079
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 57708
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 511,
+    "TotalApproved": 90222
+  },
+  "AdjusterDetails": {
+    "Name": "Adrian Marshall",
+    "ContactInformation": {
+      "Phone": "494-901-8949",
+      "Email": "gleach@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/15845177-90a5-40e8-9dda-e29546465089"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-29T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-04T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-09T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

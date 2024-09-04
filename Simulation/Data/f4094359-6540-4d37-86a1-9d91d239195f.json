@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f4094359-6540-4d37-86a1-9d91d239195f",
+  "PolicyID": "d6b0ad47-5ef7-4793-b8b8-ed9e994598b7",
+  "EffectiveDates": {
+    "StartDate": "2023-09-25",
+    "EndDate": "2024-09-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "704f4bb1-9cb4-4ef0-9862-8b935d8d8403",
+    "Name": "Susan Day",
+    "PolicyNumber": "d6b0ad47-5ef7-4793-b8b8-ed9e994598b7",
+    "ContactInformation": {
+      "Phone": "744-526-8679x221",
+      "Email": "ddecker@example.org",
+      "Address": "579 Megan Ramp\nStephaniemouth, OR 67694"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-10-19",
+    "Location": "39683 Rebekah Neck\nClarkland, AS 96424",
+    "Description": "Common before hour southern capital blue where across.\nHerself good recognize speech. See writer result pretty reason full. Represent out month growth there pay per."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 9648
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5528
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6364
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 15895
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9425
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 5438,
+    "TotalApproved": 14381
+  },
+  "AdjusterDetails": {
+    "Name": "Patricia Cruz",
+    "ContactInformation": {
+      "Phone": "(424)992-1660x09045",
+      "Email": "xjackson@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/b5ef7533-0554-4d28-815e-234d813debe1"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-10-19T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-10-24T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-10-29T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

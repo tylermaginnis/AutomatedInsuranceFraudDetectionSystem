@@ -1,0 +1,248 @@
+{
+  "AutoInsuranceClaim": {
+    "type": "object",
+    "properties": {
+      "ClaimID": {
+        "type": "string",
+        "description": "Unique identifier for the claim"
+      },
+      "PolicyID": {
+        "type": "string",
+        "description": "Unique identifier for the policy"
+      },
+      "EffectiveDates": {
+        "type": "object",
+        "properties": {
+          "StartDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Start date of the policy"
+          },
+          "EndDate": {
+            "type": "string",
+            "format": "date",
+            "description": "End date of the policy"
+          }
+        },
+        "required": ["StartDate", "EndDate"]
+      },
+      "PolicyHolder": {
+        "type": "object",
+        "properties": {
+          "PolicyHolderID": {
+            "type": "string",
+            "description": "Unique identifier for the policy holder"
+          },
+          "Name": {
+            "type": "string",
+            "description": "Name of the policy holder"
+          },
+          "PolicyNumber": {
+            "type": "string",
+            "description": "Policy number of the insurance"
+          },
+          "ContactInformation": {
+            "type": "object",
+            "properties": {
+              "Phone": {
+                "type": "string",
+                "description": "Contact phone number"
+              },
+              "Email": {
+                "type": "string",
+                "description": "Contact email address"
+              },
+              "Address": {
+                "type": "string",
+                "description": "Contact address"
+              }
+            },
+            "required": ["Phone", "Email", "Address"]
+          }
+        },
+        "required": ["PolicyHolderID", "Name", "PolicyNumber", "ContactInformation"]
+      },
+      "AccidentDetails": {
+        "type": "object",
+        "properties": {
+          "Date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of the accident"
+          },
+          "Location": {
+            "type": "string",
+            "description": "Location of the accident"
+          },
+          "Description": {
+            "type": "string",
+            "description": "Description of the accident"
+          }
+        },
+        "required": ["Date", "Location", "Description"]
+      },
+      "Coverage": {
+        "type": "object",
+        "properties": {
+          "BIL": {
+            "type": "object",
+            "properties": {
+              "CoverageLimit": {
+                "type": "number",
+                "description": "Coverage limit for Bodily Injury Liability"
+              },
+              "ClaimedAmount": {
+                "type": "number",
+                "description": "Amount claimed under Bodily Injury Liability"
+              }
+            },
+            "required": ["CoverageLimit", "ClaimedAmount"]
+          },
+          "PDL": {
+            "type": "object",
+            "properties": {
+              "CoverageLimit": {
+                "type": "number",
+                "description": "Coverage limit for Property Damage Liability"
+              },
+              "ClaimedAmount": {
+                "type": "number",
+                "description": "Amount claimed under Property Damage Liability"
+              }
+            },
+            "required": ["CoverageLimit", "ClaimedAmount"]
+          },
+          "PIP": {
+            "type": "object",
+            "properties": {
+              "CoverageLimit": {
+                "type": "number",
+                "description": "Coverage limit for Personal Injury Protection"
+              },
+              "ClaimedAmount": {
+                "type": "number",
+                "description": "Amount claimed under Personal Injury Protection"
+              }
+            },
+            "required": ["CoverageLimit", "ClaimedAmount"]
+          },
+          "CollisionCoverage": {
+            "type": "object",
+            "properties": {
+              "CoverageLimit": {
+                "type": "number",
+                "description": "Coverage limit for Collision Coverage"
+              },
+              "ClaimedAmount": {
+                "type": "number",
+                "description": "Amount claimed under Collision Coverage"
+              }
+            },
+            "required": ["CoverageLimit", "ClaimedAmount"]
+          },
+          "ComprehensiveCoverage": {
+            "type": "object",
+            "properties": {
+              "CoverageLimit": {
+                "type": "number",
+                "description": "Coverage limit for Comprehensive Coverage"
+              },
+              "ClaimedAmount": {
+                "type": "number",
+                "description": "Amount claimed under Comprehensive Coverage"
+              }
+            },
+            "required": ["CoverageLimit", "ClaimedAmount"]
+          }
+        },
+        "required": ["BIL", "PDL", "PIP", "CollisionCoverage", "ComprehensiveCoverage"]
+      },
+      "ClaimStatus": {
+        "type": "string",
+        "description": "Current status of the claim",
+        "enum": ["Filed", "In Review", "Approved", "Denied", "Closed"]
+      },
+      "ClaimAmounts": {
+        "type": "object",
+        "properties": {
+          "TotalClaimed": {
+            "type": "number",
+            "description": "Total amount claimed"
+          },
+          "TotalApproved": {
+            "type": "number",
+            "description": "Total amount approved"
+          }
+        },
+        "required": ["TotalClaimed", "TotalApproved"]
+      },
+      "AdjusterDetails": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "type": "string",
+            "description": "Name of the adjuster"
+          },
+          "ContactInformation": {
+            "type": "object",
+            "properties": {
+              "Phone": {
+                "type": "string",
+                "description": "Contact phone number"
+              },
+              "Email": {
+                "type": "string",
+                "description": "Contact email address"
+              }
+            },
+            "required": ["Phone", "Email"]
+          }
+        },
+        "required": ["Name", "ContactInformation"]
+      },
+      "SupportingDocuments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "DocumentType": {
+              "type": "string",
+              "description": "Type of the document"
+            },
+            "DocumentURL": {
+              "type": "string",
+              "description": "URL to access the document"
+            }
+          },
+          "required": ["DocumentType", "DocumentURL"]
+        },
+        "description": "List of supporting documents"
+      },
+      "ClaimHistory": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "Status": {
+              "type": "string",
+              "description": "Status of the claim at a point in time"
+            },
+            "Date": {
+              "type": "string",
+              "format": "date-time",
+              "description": "Date and time of the status update"
+            },
+            "Notes": {
+              "type": "string",
+              "description": "Additional notes regarding the status update"
+            }
+          },
+          "required": ["Status", "Date"]
+        },
+        "description": "History of the claim status updates"
+      }
+    },
+    "required": ["ClaimID", "PolicyID", "EffectiveDates", "PolicyHolder", "AccidentDetails", "Coverage", "ClaimStatus", "ClaimAmounts", "AdjusterDetails", "SupportingDocuments", "ClaimHistory"]
+  }
+}
+

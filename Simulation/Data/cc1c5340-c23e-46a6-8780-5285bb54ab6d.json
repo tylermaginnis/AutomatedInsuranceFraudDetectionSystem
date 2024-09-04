@@ -1,0 +1,80 @@
+{
+  "ClaimID": "cc1c5340-c23e-46a6-8780-5285bb54ab6d",
+  "PolicyID": "3d62d8fb-4d5c-4a05-87c1-a4033f42261a",
+  "EffectiveDates": {
+    "StartDate": "2024-08-05",
+    "EndDate": "2025-08-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d2684f2e-bc73-42a2-bbee-7b0cbd80cb32",
+    "Name": "Katherine Estrada",
+    "PolicyNumber": "3d62d8fb-4d5c-4a05-87c1-a4033f42261a",
+    "ContactInformation": {
+      "Phone": "001-206-557-4354x0482",
+      "Email": "walkeramanda@example.org",
+      "Address": "6999 Danielle Groves\nSouth Nicoleborough, NE 75805"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-25",
+    "Location": "16319 Rachael Terrace\nAndreaton, MN 99217",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 61518
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 20219
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9233
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 20291
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 13008
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 124269,
+    "TotalApproved": 162833
+  },
+  "AdjusterDetails": {
+    "Name": "Lindsay Scott",
+    "ContactInformation": {
+      "Phone": "001-492-395-5210x8627",
+      "Email": "logan84@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/b678e7a5-fe8b-4889-8bac-b221415f40ba"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-25T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-30T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-06-04T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "c8369a1c-40e3-4725-9f8e-324d75309bf7",
+  "PolicyID": "2eccf2dd-1cfc-49c7-9134-5e413b5bd277",
+  "EffectiveDates": {
+    "StartDate": "2024-07-30",
+    "EndDate": "2025-07-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "02f2e1c5-674d-4106-9eb5-bb6dd7f42e39",
+    "Name": "Amanda Smith",
+    "PolicyNumber": "2eccf2dd-1cfc-49c7-9134-5e413b5bd277",
+    "ContactInformation": {
+      "Phone": "914.987.8564x09067",
+      "Email": "denise13@example.com",
+      "Address": "5582 Troy Neck\nLopezborough, MT 09968"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-05-26",
+    "Location": "939 Juarez Bypass Suite 967\nJessicafort, NM 31047",
+    "Description": "At believe story sing social foreign. Building realize Mr value street image firm. Imagine professional hope environment."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 89025
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 26056
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 135484
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5159
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9741
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 110106,
+    "TotalApproved": 134055
+  },
+  "AdjusterDetails": {
+    "Name": "George Chambers",
+    "ContactInformation": {
+      "Phone": "584.668.7992",
+      "Email": "gjones@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/cdc6b2ec-8f90-48bc-b185-4e49bf999535"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-05-26T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-05-31T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-06-05T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

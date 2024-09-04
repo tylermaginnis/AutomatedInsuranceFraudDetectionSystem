@@ -1,0 +1,80 @@
+{
+  "ClaimID": "f086ddcb-0d5b-4852-a702-82171ba5ad37",
+  "PolicyID": "230a77bd-8ba0-4fc1-8d8a-640942441f7f",
+  "EffectiveDates": {
+    "StartDate": "2024-08-23",
+    "EndDate": "2025-08-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a0de7f45-b201-426e-b3c9-ea83c4e1a2ca",
+    "Name": "Daniel Short",
+    "PolicyNumber": "230a77bd-8ba0-4fc1-8d8a-640942441f7f",
+    "ContactInformation": {
+      "Phone": "447.814.7784x677",
+      "Email": "john42@example.com",
+      "Address": "PSC 8152, Box 9764\nAPO AA 10800"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-02",
+    "Location": "3266 Cynthia Valleys\nEast Alice, MA 13852",
+    "Description": "Father heavy share bank those natural child agreement. Stage throw offer. Either city trip play sing. West others show speak."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 10720
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 44558
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 55514
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 158015
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1117
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 4947,
+    "TotalApproved": 19343
+  },
+  "AdjusterDetails": {
+    "Name": "Mark Jones",
+    "ContactInformation": {
+      "Phone": "9872245171",
+      "Email": "holly06@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/b57767e5-879f-4f37-9c28-1d7adb432d8b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-02T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-07T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-12T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

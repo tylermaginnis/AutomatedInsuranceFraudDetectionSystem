@@ -1,0 +1,80 @@
+{
+  "ClaimID": "a57acc6c-a515-42b1-99ba-0487828b55f8",
+  "PolicyID": "0dde4e8e-cb5a-427b-8598-029a189260d0",
+  "EffectiveDates": {
+    "StartDate": "2024-02-18",
+    "EndDate": "2025-02-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8039ed1b-52aa-4cb5-9dae-55c2b2b258ae",
+    "Name": "Gary Ward",
+    "PolicyNumber": "0dde4e8e-cb5a-427b-8598-029a189260d0",
+    "ContactInformation": {
+      "Phone": "(310)396-8392",
+      "Email": "imiller@example.com",
+      "Address": "PSC 2801, Box 8426\nAPO AE 79329"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-06",
+    "Location": "427 Bates Junctions Suite 366\nWest Kyle, GA 86544",
+    "Description": "Small trial economic hospital imagine. How necessary hit couple attack clearly wait. Defense recognize experience drug measure."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 42987
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 86879
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6056
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 12950
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 36384
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 29934,
+    "TotalApproved": 69926
+  },
+  "AdjusterDetails": {
+    "Name": "Heather Wong",
+    "ContactInformation": {
+      "Phone": "001-680-638-0259x852",
+      "Email": "odavis@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/6aa6942a-215e-49d3-9dd1-3773955d9e83"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-06T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-11T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-16T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

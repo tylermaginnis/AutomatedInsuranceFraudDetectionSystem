@@ -1,0 +1,80 @@
+{
+  "ClaimID": "cc3e14f7-ec73-439b-bb63-6fd38b8a498e",
+  "PolicyID": "69611385-37ed-41dc-8334-6f0d553bc227",
+  "EffectiveDates": {
+    "StartDate": "2024-06-19",
+    "EndDate": "2025-06-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "c4e42b3a-5759-428a-b547-21868186e0e0",
+    "Name": "Benjamin Pierce",
+    "PolicyNumber": "69611385-37ed-41dc-8334-6f0d553bc227",
+    "ContactInformation": {
+      "Phone": "+1-889-267-4256x2431",
+      "Email": "james38@example.com",
+      "Address": "066 Myers Motorway Suite 227\nSouth Sandraside, WY 23424"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-08",
+    "Location": "03641 Timothy Manor Apt. 325\nMichaelfurt, SD 41515",
+    "Description": "Until point middle next yourself half environment. Suggest kitchen size."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8344
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1475
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 51641
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 23530
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 34828
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 66742,
+    "TotalApproved": 193378
+  },
+  "AdjusterDetails": {
+    "Name": "Julia Wilson DDS",
+    "ContactInformation": {
+      "Phone": "001-979-408-4245x185",
+      "Email": "gregorylynn@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/41eb7327-87a4-47d5-9ce2-6106c74349eb"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-08T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-13T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-18T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "751d74d0-60b0-4ca9-a365-3d74b22e7fb6",
+  "PolicyID": "c3c6e0e0-277b-4d81-94e9-ab59351ff8d1",
+  "EffectiveDates": {
+    "StartDate": "2023-12-15",
+    "EndDate": "2024-12-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "ada9b95e-f3f3-4736-9cc7-e905fa56e3e1",
+    "Name": "Karen Snyder",
+    "PolicyNumber": "c3c6e0e0-277b-4d81-94e9-ab59351ff8d1",
+    "ContactInformation": {
+      "Phone": "(707)314-9392x194",
+      "Email": "nunezjerry@example.org",
+      "Address": "00402 Rose Stravenue Apt. 773\nTurnerfurt, DE 90369"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-13",
+    "Location": "894 Lynch Extensions Suite 798\nLake Kaylaton, DC 15219",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 84213
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 27921
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6929
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 14185
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 17634
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 150882,
+    "TotalApproved": 23503
+  },
+  "AdjusterDetails": {
+    "Name": "James Ortiz",
+    "ContactInformation": {
+      "Phone": "775-226-2441x19382",
+      "Email": "sierra51@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/fdeaa2f9-6705-4925-a07b-d3b00d2a69b8"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-13T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-18T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-23T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

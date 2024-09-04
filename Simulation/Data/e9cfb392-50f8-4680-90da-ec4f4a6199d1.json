@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e9cfb392-50f8-4680-90da-ec4f4a6199d1",
+  "PolicyID": "24573d74-1756-4fdb-b48d-b9e6763692bd",
+  "EffectiveDates": {
+    "StartDate": "2024-09-03",
+    "EndDate": "2025-09-03"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f5329b73-a73b-4225-942e-d80d03f97d48",
+    "Name": "Mary Davis",
+    "PolicyNumber": "24573d74-1756-4fdb-b48d-b9e6763692bd",
+    "ContactInformation": {
+      "Phone": "6334796570",
+      "Email": "medinawalter@example.com",
+      "Address": "29202 Brown Inlet Apt. 684\nSouth Joanna, AS 45221"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-05",
+    "Location": "71439 Stephanie Square\nSouth Kennethstad, CA 03466",
+    "Description": "Not although all.\nAnyone way describe true base watch land. Option born different. Man process fast action image focus bad."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1046
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 147947
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5559
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8551
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6421
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 38385,
+    "TotalApproved": 162950
+  },
+  "AdjusterDetails": {
+    "Name": "Brandon Wagner",
+    "ContactInformation": {
+      "Phone": "001-618-716-7149",
+      "Email": "edwardbradley@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/7c96562e-656a-4966-824b-2aaf65a1f7a9"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-05T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-10T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-15T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "6922c65e-bc9e-4523-a118-1f3efc07ef3b",
+  "PolicyID": "ec95a715-dd0a-4111-bb58-f411258fc2e2",
+  "EffectiveDates": {
+    "StartDate": "2024-03-20",
+    "EndDate": "2025-03-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "f39f2bb7-4648-4b64-a042-bd91878834d5",
+    "Name": "Sharon Watkins DDS",
+    "PolicyNumber": "ec95a715-dd0a-4111-bb58-f411258fc2e2",
+    "ContactInformation": {
+      "Phone": "(779)607-2817x91204",
+      "Email": "gregory01@example.net",
+      "Address": "0968 Rodriguez Mountains\nLake Charlene, NH 31172"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-03",
+    "Location": "0988 Williams Island\nMatthewview, MH 15742",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 65993
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 31444
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9229
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 29482
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13638
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 149786,
+    "TotalApproved": 51490
+  },
+  "AdjusterDetails": {
+    "Name": "Mary Ponce",
+    "ContactInformation": {
+      "Phone": "(994)898-8514x587",
+      "Email": "mhunter@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/c28ad83e-2ce3-4d8c-bd2c-4337dbde93d5"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-03T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-08T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-13T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

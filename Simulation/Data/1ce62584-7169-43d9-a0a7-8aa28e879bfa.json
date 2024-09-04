@@ -1,0 +1,80 @@
+{
+  "ClaimID": "1ce62584-7169-43d9-a0a7-8aa28e879bfa",
+  "PolicyID": "230a77bd-8ba0-4fc1-8d8a-640942441f7f",
+  "EffectiveDates": {
+    "StartDate": "2023-10-06",
+    "EndDate": "2024-10-05"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "a0de7f45-b201-426e-b3c9-ea83c4e1a2ca",
+    "Name": "Daniel Short",
+    "PolicyNumber": "230a77bd-8ba0-4fc1-8d8a-640942441f7f",
+    "ContactInformation": {
+      "Phone": "447.814.7784x677",
+      "Email": "john42@example.com",
+      "Address": "PSC 8152, Box 9764\nAPO AA 10800"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-12",
+    "Location": "11321 Rivas Highway\nLake Michelle, SC 03588",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 58607
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 41717
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9759
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 24448
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10378
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 144909,
+    "TotalApproved": 68916
+  },
+  "AdjusterDetails": {
+    "Name": "Rachel Poole",
+    "ContactInformation": {
+      "Phone": "(742)987-1052x3484",
+      "Email": "dana03@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/cf52fb51-6a20-4e3f-afc3-32206dea67e3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-12T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-17T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-02-22T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

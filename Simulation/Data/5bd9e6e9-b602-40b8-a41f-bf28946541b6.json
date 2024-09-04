@@ -1,0 +1,80 @@
+{
+  "ClaimID": "5bd9e6e9-b602-40b8-a41f-bf28946541b6",
+  "PolicyID": "cf10e600-89ad-466a-97fd-84e76725f3e2",
+  "EffectiveDates": {
+    "StartDate": "2023-12-01",
+    "EndDate": "2024-11-30"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "33340e2d-814f-4017-a386-493218939094",
+    "Name": "Gabrielle Mejia",
+    "PolicyNumber": "cf10e600-89ad-466a-97fd-84e76725f3e2",
+    "ContactInformation": {
+      "Phone": "001-408-717-3175",
+      "Email": "scox@example.net",
+      "Address": "5839 Russell Flats\nLindseyport, WV 88660"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-15",
+    "Location": "28008 Garrison Drives\nRicardoberg, DE 84632",
+    "Description": "Religious discussion end beat. Recent thank live smile let eat skin. Trip part say heart begin air.\nThey visit certainly bring drug. Out others keep. Name spring he probably."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4570
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1962
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 23118
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5053
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 17847
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 21312,
+    "TotalApproved": 21760
+  },
+  "AdjusterDetails": {
+    "Name": "Katrina Mccarthy",
+    "ContactInformation": {
+      "Phone": "001-275-392-8083",
+      "Email": "kristinhayes@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/21ef356d-e064-4bfa-a4b1-a9cb5cd9602b"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-15T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-03-20T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-25T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

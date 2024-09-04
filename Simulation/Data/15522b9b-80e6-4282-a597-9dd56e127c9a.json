@@ -1,0 +1,80 @@
+{
+  "ClaimID": "15522b9b-80e6-4282-a597-9dd56e127c9a",
+  "PolicyID": "780243c0-b66f-4106-847c-ef1e76a3fd92",
+  "EffectiveDates": {
+    "StartDate": "2023-10-12",
+    "EndDate": "2024-10-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e62d962a-964d-4f18-8bf2-ee057e39218b",
+    "Name": "Jonathan Chan",
+    "PolicyNumber": "780243c0-b66f-4106-847c-ef1e76a3fd92",
+    "ContactInformation": {
+      "Phone": "(567)225-9399",
+      "Email": "elliotttheresa@example.org",
+      "Address": "5101 Sullivan Lodge Suite 186\nPort Robertmouth, VI 96157"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-01",
+    "Location": "07049 Hoover Mountain\nNorth Alejandro, VI 51437",
+    "Description": "Health oil week blue office. Outside election network situation to. Care ok sell management will work.\nNumber court large think source. Baby boy detail politics door. Southern have class."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 9681
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 113599
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 3499
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 42999
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9528
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 46993,
+    "TotalApproved": 134644
+  },
+  "AdjusterDetails": {
+    "Name": "Chris Lee",
+    "ContactInformation": {
+      "Phone": "635.420.2629x315",
+      "Email": "qmiller@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/545288d6-9af7-48dc-bc0e-cd40f372ceba"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-01T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-06T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-11-11T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

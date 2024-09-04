@@ -1,0 +1,80 @@
+{
+  "ClaimID": "555ebbfa-9844-4400-9603-86151a75615a",
+  "PolicyID": "8e91604e-fcba-44a6-987e-728931ad4fa5",
+  "EffectiveDates": {
+    "StartDate": "2024-02-21",
+    "EndDate": "2025-02-20"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "77c9db00-b0cf-43a3-90d0-192cdf576e77",
+    "Name": "Elizabeth Mccall",
+    "PolicyNumber": "8e91604e-fcba-44a6-987e-728931ad4fa5",
+    "ContactInformation": {
+      "Phone": "588.549.5109",
+      "Email": "swansonloretta@example.org",
+      "Address": "902 Suarez Extension Suite 092\nDavidhaven, NC 41366"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-10",
+    "Location": "865 Taylor Mountain\nLake Davidland, MP 25908",
+    "Description": "Interesting produce point establish.\nLet true fact over choice build front. Item management bit he weight anyone recent. Manager hope measure."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 22646
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 7555
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 11481
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 28471
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 85765
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 1920,
+    "TotalApproved": 14100
+  },
+  "AdjusterDetails": {
+    "Name": "Morgan Lopez",
+    "ContactInformation": {
+      "Phone": "001-554-536-6866x142",
+      "Email": "lmcdonald@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/aadad093-db47-48a8-b086-dd72b12c0677"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-10T11:17:43Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-15T11:17:43Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-20T11:17:43Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}
