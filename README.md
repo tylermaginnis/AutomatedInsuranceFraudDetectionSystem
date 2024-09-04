@@ -19,10 +19,9 @@ This project is an Automated Insurance Claim Fraud Detection System. The system 
 - **Real-Time Fraud Scoring**: As new claims are processed, the system scores them in real-time, combining rule-based results with the ML model's prediction to provide a fraud probability score.
 
 ### System Architecture
-- **Microservices Design**: The system is broken into services for data ingestion, rule-based analysis, machine learning predictions, and a results dashboard.
-- **Docker Containers**: Each service is containerized using Docker to ensure portability and consistency across different environments.
+- **File-Based Design**: The system uses a file-based approach for data processing and model predictions, ensuring simplicity and ease of use.
+- **Python Scripts**: All functionalities, including data ingestion, rule-based analysis, and machine learning predictions, are implemented using Python scripts.
 - **REST API**: Exposes the fraud detection capabilities via a REST API, allowing other systems or applications to integrate and query for fraud analysis.
-- **C# DI Single Page APIs**: Implements single page APIs using C# Dependency Injection (DI) to manage the lifecycle of services and ensure efficient resource utilization.
 
 ### Frontend Interface
 - **Dashboard**: Develops a web dashboard using Flask (Python) and HTML/JavaScript to display the results of the fraud detection process, including visualizations of flagged claims and their associated fraud scores.
@@ -32,31 +31,14 @@ This project is an Automated Insurance Claim Fraud Detection System. The system 
 - **Logging**: Implements detailed logging for all processes, including data ingestion, rule application, and model predictions. Uses a lightweight logging tool to centralize and display logs.
 - **Alerts**: Sets up basic alerting mechanisms that notify users if a claim is flagged with a high fraud probability.
 
-## Development Plan
-
-### Morning
-- Set up project structure: Create separate services for data processing, rule-based analysis, and machine learning.
-- Implement rule-based engine: Develop the initial set of fraud detection rules and integrate them into the system.
-- Set up Docker environment: Containerize the services and set up Docker Compose for easy orchestration.
-
-### Midday
-- Train and integrate ML model: Train a machine learning model on the simulated dataset and integrate it into the backend service.
-- Develop REST API: Create endpoints for submitting claims and retrieving fraud scores.
-
-### Afternoon
-- Build the frontend dashboard: Develop an interface for viewing flagged claims, their fraud scores, and submission of new claims.
-- Testing and refinement: Test the system, fine-tune the rules and model, and ensure the frontend accurately reflects backend processing.
-
 ## Key Technologies
 
 - **Languages**: Python, C#
-- **Frameworks**: Flask for the backend and frontend, Scikit-learn for machine learning
+- **Frameworks**: ASP.NET MVC for the backend and frontend, Scikit-learn for machine learning
 - **Data Management**: Pandas for data processing, JSON for local data storage
-- **Containerization**: Docker, Docker Compose
 - **Web Development**: HTML5, CSS, JavaScript
 - **Logging and Alerts**: Python logging module, lightweight alerting via logs
-- **Dependency Injection**: C# DI for managing service lifecycles
 
 ## Outcome
 
-The Automated Insurance Claim Fraud Detection System offers a unique, valuable solution that extends beyond typical platform features. It not only showcases proficiency in Python, Docker, and microservices architecture but also demonstrates the ability to solve complex problems and enhance the security of the insurance claims process.
+The Automated Insurance Claim Fraud Detection System offers a unique, valuable solution that extends beyond typical platform features. It not only showcases proficiency in Python and machine learning but also demonstrates the ability to solve complex problems and enhance the security of the insurance claims process.
