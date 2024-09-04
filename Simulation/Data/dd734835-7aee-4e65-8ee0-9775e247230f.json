@@ -1,0 +1,80 @@
+{
+  "ClaimID": "dd734835-7aee-4e65-8ee0-9775e247230f",
+  "PolicyID": "58757eb4-808d-48d2-8297-ab630205bf63",
+  "EffectiveDates": {
+    "StartDate": "2024-08-11",
+    "EndDate": "2025-08-11"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "fe3db2fa-fa52-4b35-a671-1b3f88660a46",
+    "Name": "Vanessa Santos",
+    "PolicyNumber": "58757eb4-808d-48d2-8297-ab630205bf63",
+    "ContactInformation": {
+      "Phone": "5545590365",
+      "Email": "earellano@example.com",
+      "Address": "871 Lori Cape\nRichardbury, VA 76755"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-12-25",
+    "Location": "66825 Gonzalez Junction Suite 539\nHeathborough, IA 65919",
+    "Description": "Per born forward certain floor. Make above difficult environment reduce customer. Its series half fear style."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 28521
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 110521
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 5857
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 29178
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2830
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 65444,
+    "TotalApproved": 63669
+  },
+  "AdjusterDetails": {
+    "Name": "Jamie Baker",
+    "ContactInformation": {
+      "Phone": "001-925-534-2390x248",
+      "Email": "williamlopez@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/98ba7b59-2682-424e-b19b-a384a32d064a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-12-25T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-12-30T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-04T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

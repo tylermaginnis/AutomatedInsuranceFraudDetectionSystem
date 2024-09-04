@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3f3bdb34-5037-4316-909d-8571904e7d74",
+  "PolicyID": "d5e41582-02bf-4470-8786-a7c3c1a9c82a",
+  "EffectiveDates": {
+    "StartDate": "2023-10-26",
+    "EndDate": "2024-10-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "d610027a-4809-4247-b598-692c9ade0d49",
+    "Name": "Nathan Smith",
+    "PolicyNumber": "d5e41582-02bf-4470-8786-a7c3c1a9c82a",
+    "ContactInformation": {
+      "Phone": "700-600-0591",
+      "Email": "gutierrezjose@example.org",
+      "Address": "7412 Leslie Alley Suite 818\nLake Carlosberg, LA 20052"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-02-13",
+    "Location": "50506 Cynthia Mews Suite 432\nNew Patrickton, SD 43923",
+    "Description": "Group three scientist call leg daughter. Go hard four least least image public. Good less then environment. Ready quality care herself must husband forget forward."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 112806
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 10598
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 36341
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 24975
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 127519
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 133688,
+    "TotalApproved": 102781
+  },
+  "AdjusterDetails": {
+    "Name": "John Hardin",
+    "ContactInformation": {
+      "Phone": "7056072083",
+      "Email": "jeremy30@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/148c8232-d794-405a-a03c-0e11e6828d5c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-02-13T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-02-18T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-02-23T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

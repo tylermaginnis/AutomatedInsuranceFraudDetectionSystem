@@ -1,0 +1,80 @@
+{
+  "ClaimID": "ff8c3ba1-6462-41da-8ffb-28f9c29c6fe9",
+  "PolicyID": "43cd5226-def7-4f8d-8912-c5040acd75ff",
+  "EffectiveDates": {
+    "StartDate": "2023-12-08",
+    "EndDate": "2024-12-07"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1f60334f-97a6-4830-814e-0350a427bce7",
+    "Name": "Robert Adams",
+    "PolicyNumber": "43cd5226-def7-4f8d-8912-c5040acd75ff",
+    "ContactInformation": {
+      "Phone": "+1-832-937-7546x764",
+      "Email": "susan10@example.org",
+      "Address": "50652 Kevin Valleys\nEast Oliviaton, AS 19976"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-30",
+    "Location": "81874 Miller Junction\nBanksbury, AS 12980",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 86281
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 39857
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9054
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10672
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 10882
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 156746,
+    "TotalApproved": 90824
+  },
+  "AdjusterDetails": {
+    "Name": "Deborah Morris",
+    "ContactInformation": {
+      "Phone": "865-389-8760x811",
+      "Email": "julie03@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/2b1f73e5-f353-4107-89eb-7bd258860ebe"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-30T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-04T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-09T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

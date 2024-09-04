@@ -1,0 +1,80 @@
+{
+  "ClaimID": "214efa92-8f07-41de-8805-69d24a69e7c5",
+  "PolicyID": "d5354b8f-c81d-44c6-84f1-3c49f662f84c",
+  "EffectiveDates": {
+    "StartDate": "2024-04-01",
+    "EndDate": "2025-04-01"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8fb2179d-8248-4416-8766-e2b3cab9e49b",
+    "Name": "John Zuniga",
+    "PolicyNumber": "d5354b8f-c81d-44c6-84f1-3c49f662f84c",
+    "ContactInformation": {
+      "Phone": "480-984-4490",
+      "Email": "richard05@example.com",
+      "Address": "664 Ewing Point\nNelsonberg, OR 03849"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-03-19",
+    "Location": "5848 John Springs\nAdkinshaven, FL 58186",
+    "Description": "Local city have continue cup thing range.\nStuff total grow bed friend several. Well agency pressure trip crime crime age particularly. Seem physical policy last also indeed suggest."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 38810
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 73805
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 1969
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14715
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 19159
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 31586,
+    "TotalApproved": 15169
+  },
+  "AdjusterDetails": {
+    "Name": "Christopher Zuniga Jr.",
+    "ContactInformation": {
+      "Phone": "2572932721",
+      "Email": "fgiles@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/84c6716e-91bf-4832-8b94-9e0404efac23"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-03-19T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-03-24T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-03-29T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

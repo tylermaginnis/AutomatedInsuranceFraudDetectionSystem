@@ -1,0 +1,80 @@
+{
+  "ClaimID": "fc28d58e-6031-4b2c-b9c1-20aaaf9a8ec7",
+  "PolicyID": "58757eb4-808d-48d2-8297-ab630205bf63",
+  "EffectiveDates": {
+    "StartDate": "2024-01-25",
+    "EndDate": "2025-01-24"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "fe3db2fa-fa52-4b35-a671-1b3f88660a46",
+    "Name": "Vanessa Santos",
+    "PolicyNumber": "58757eb4-808d-48d2-8297-ab630205bf63",
+    "ContactInformation": {
+      "Phone": "5545590365",
+      "Email": "earellano@example.com",
+      "Address": "871 Lori Cape\nRichardbury, VA 76755"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-03-11",
+    "Location": "8878 Jones Village\nNorth Kyle, KY 54778",
+    "Description": "Kid magazine record wear close. Relate floor various bring usually bar. According parent song myself yourself."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 4831
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 7188
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 36636
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 14007
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16533
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 142947,
+    "TotalApproved": 22373
+  },
+  "AdjusterDetails": {
+    "Name": "Walter Carrillo",
+    "ContactInformation": {
+      "Phone": "+1-392-680-9779",
+      "Email": "allenjeff@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/ab4aba09-380d-493f-947a-832d544420f0"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-03-11T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-03-16T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-03-21T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

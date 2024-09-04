@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2c536e59-8d47-4519-b953-31a694383f1b",
+  "PolicyID": "5991683d-6d89-4b85-a159-a3a8072a5f9f",
+  "EffectiveDates": {
+    "StartDate": "2023-10-16",
+    "EndDate": "2024-10-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "5c2a8503-34cf-4d41-b5f1-6cd0fa4ee7de",
+    "Name": "Philip Alvarado",
+    "PolicyNumber": "5991683d-6d89-4b85-a159-a3a8072a5f9f",
+    "ContactInformation": {
+      "Phone": "001-687-248-3729x4099",
+      "Email": "aaronrussell@example.org",
+      "Address": "088 Michael Center Suite 811\nMatthewberg, KS 01153"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-12",
+    "Location": "32461 Richards Estate Apt. 474\nLoriton, PW 90333",
+    "Description": "Together consumer unit enjoy after. Rich car outside impact huge long recent.\nYes maybe station pull medical follow. Food make compare exactly rule surface. Respond trade knowledge price identify."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 11553
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 6084
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 23023
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 2914
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 19268
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 160461,
+    "TotalApproved": 111998
+  },
+  "AdjusterDetails": {
+    "Name": "Victoria Wilcox",
+    "ContactInformation": {
+      "Phone": "707.463.8346",
+      "Email": "robin09@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/ca22644b-f174-41a5-bc74-2296d1fbf1d6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-12T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-17T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-11-22T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

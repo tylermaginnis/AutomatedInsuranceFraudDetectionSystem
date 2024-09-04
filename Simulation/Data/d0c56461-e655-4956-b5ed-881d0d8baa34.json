@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d0c56461-e655-4956-b5ed-881d0d8baa34",
+  "PolicyID": "7ec89c8a-b860-468b-ad86-5c3c15d29a04",
+  "EffectiveDates": {
+    "StartDate": "2024-07-17",
+    "EndDate": "2025-07-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "8b58da07-cc93-42df-af10-9d94eb266d14",
+    "Name": "Janet Myers",
+    "PolicyNumber": "7ec89c8a-b860-468b-ad86-5c3c15d29a04",
+    "ContactInformation": {
+      "Phone": "492-325-1916",
+      "Email": "leonkylie@example.com",
+      "Address": "15247 Gomez Squares\nCrystalland, VI 66654"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-16",
+    "Location": "034 Mueller Mission\nWrighthaven, IN 37383",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 97553
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 20220
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8089
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 18678
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 11760
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 156300,
+    "TotalApproved": 110374
+  },
+  "AdjusterDetails": {
+    "Name": "Andrea Sanchez MD",
+    "ContactInformation": {
+      "Phone": "(409)817-8714",
+      "Email": "monicamiles@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/990e4c5d-c800-4134-8cac-eee7004d771c"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-16T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-21T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-26T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

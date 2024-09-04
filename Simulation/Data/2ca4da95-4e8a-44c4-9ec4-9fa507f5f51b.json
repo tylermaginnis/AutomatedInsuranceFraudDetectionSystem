@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2ca4da95-4e8a-44c4-9ec4-9fa507f5f51b",
+  "PolicyID": "b95e6a8e-1f14-4dfe-ad93-4035e1b8b9f4",
+  "EffectiveDates": {
+    "StartDate": "2024-08-02",
+    "EndDate": "2025-08-02"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2ffb4c6b-1b6a-4f13-968b-8100a71f17ba",
+    "Name": "Sandra Huber",
+    "PolicyNumber": "b95e6a8e-1f14-4dfe-ad93-4035e1b8b9f4",
+    "ContactInformation": {
+      "Phone": "+1-375-405-8741x8025",
+      "Email": "christopher21@example.net",
+      "Address": "9560 Oneill Overpass\nParkerchester, CT 70988"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-08-07",
+    "Location": "42281 Kelli Lake Suite 096\nRogersfurt, NH 96625",
+    "Description": "Exaggerated damages"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 81649
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 35852
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5459
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 13380
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5252
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 141592,
+    "TotalApproved": 55285
+  },
+  "AdjusterDetails": {
+    "Name": "Catherine Duncan",
+    "ContactInformation": {
+      "Phone": "264.704.4727x42540",
+      "Email": "sarakelly@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/6a0fb253-345d-483e-851f-627cb003d4cd"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-08-07T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-08-12T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-08-17T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

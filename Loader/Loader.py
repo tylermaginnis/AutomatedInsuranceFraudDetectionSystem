@@ -16,7 +16,7 @@ def load_data(data_dir):
         data_dir (str): The directory containing JSON files.
 
     Returns:
-        pd.DataFrame: DataFrame containing the loaded data.
+        list: List containing the loaded data.
     """
     files = glob(os.path.join(data_dir, "*.json"))
     data = []
@@ -27,18 +27,20 @@ def load_data(data_dir):
             logging.info(f"Loaded data from {file}")
         except Exception as e:
             logging.error(f"Error loading data from {file}: {e}")
-    return pd.DataFrame(data)
+    return data
 
-def clean_and_preprocess_data(df):
+def clean_and_preprocess_data(data):
     """
     Clean and preprocess the data.
 
     Args:
-        df (pd.DataFrame): The input DataFrame.
+        data (list): The input data.
 
     Returns:
-        pd.DataFrame: The cleaned and preprocessed DataFrame.
+        list: The cleaned and preprocessed data.
     """
+    df = pd.DataFrame(data)
+    
     # Handle missing values
     df.fillna(0, inplace=True)
     logging.info("Handled missing values by filling with 0")
@@ -55,18 +57,19 @@ def clean_and_preprocess_data(df):
     else:
         logging.warning("Required columns 'PolicyHolderID' or 'ClaimID' not found in DataFrame")
     
-    return df
+    return df.to_dict(orient='records')
 
-def save_data(df, output_file):
+def save_data(data, output_file):
     """
     Save the cleaned and preprocessed data to a JSON file.
 
     Args:
-        df (pd.DataFrame): The DataFrame to save.
+        data (list): The data to save.
         output_file (str): The file path to save the data.
     """
     try:
-        df.to_json(output_file, orient='records', lines=True)
+        with open(output_file, 'w') as f:
+            json.dump(data, f, indent=4)
         logging.info(f"Saved cleaned data to {output_file}")
     except Exception as e:
         logging.error(f"Error saving data to {output_file}: {e}")
@@ -82,14 +85,12 @@ def main():
 
     data_dir = args.data_dir
     output_file = args.output_file
-    df = load_data(data_dir)
-    if not df.empty:
-        df = clean_and_preprocess_data(df)
-        save_data(df, output_file)
+    data = load_data(data_dir)
+    if data:
+        data = clean_and_preprocess_data(data)
+        save_data(data, output_file)
     else:
         logging.error("No data loaded. Exiting.")
 
 if __name__ == "__main__":
     main()
-
-

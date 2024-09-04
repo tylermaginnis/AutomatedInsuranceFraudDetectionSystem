@@ -1,0 +1,80 @@
+{
+  "ClaimID": "04091692-e5cb-4679-afb3-7a413aae450a",
+  "PolicyID": "43cd5226-def7-4f8d-8912-c5040acd75ff",
+  "EffectiveDates": {
+    "StartDate": "2024-04-12",
+    "EndDate": "2025-04-12"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1f60334f-97a6-4830-814e-0350a427bce7",
+    "Name": "Robert Adams",
+    "PolicyNumber": "43cd5226-def7-4f8d-8912-c5040acd75ff",
+    "ContactInformation": {
+      "Phone": "+1-832-937-7546x764",
+      "Email": "susan10@example.org",
+      "Address": "50652 Kevin Valleys\nEast Oliviaton, AS 19976"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-22",
+    "Location": "730 Hicks Station\nPort Miranda, NE 69863",
+    "Description": "Image that summer citizen. Participant sing she shoulder market authority. Generation stage outside long."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 38254
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 13660
+    },
+    "PIP": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1358
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2168
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8179
+    }
+  },
+  "ClaimStatus": "In Review",
+  "ClaimAmounts": {
+    "TotalClaimed": 86945,
+    "TotalApproved": 79655
+  },
+  "AdjusterDetails": {
+    "Name": "Amy Gallagher",
+    "ContactInformation": {
+      "Phone": "278.848.7049",
+      "Email": "ujames@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/1d0777e2-d861-4e0b-ab0d-c510234c6578"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-22T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-27T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-01T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

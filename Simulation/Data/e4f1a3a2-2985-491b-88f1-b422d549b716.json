@@ -1,0 +1,80 @@
+{
+  "ClaimID": "e4f1a3a2-2985-491b-88f1-b422d549b716",
+  "PolicyID": "77a302a4-7e48-4a61-b992-02c157dc5d89",
+  "EffectiveDates": {
+    "StartDate": "2024-05-28",
+    "EndDate": "2025-05-28"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e42a9d99-aa1f-400f-9a60-88c1d6c65ada",
+    "Name": "Janet Cole",
+    "PolicyNumber": "77a302a4-7e48-4a61-b992-02c157dc5d89",
+    "ContactInformation": {
+      "Phone": "+1-342-248-1407",
+      "Email": "garyreeves@example.org",
+      "Address": "PSC 0859, Box 8827\nAPO AP 60684"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-07",
+    "Location": "9030 Garrett Radial\nAndreahaven, PA 86085",
+    "Description": "Toward already somebody act lay left dream. Modern assume heart. Official owner travel president.\nOnto per color good whom crime just. Space lawyer town prevent bill upon together."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 43473
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 2345
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 163795
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 8905
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 30394
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 85890,
+    "TotalApproved": 49346
+  },
+  "AdjusterDetails": {
+    "Name": "Diana Mclaughlin",
+    "ContactInformation": {
+      "Phone": "937.889.8639x1432",
+      "Email": "vhicks@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/fffa5aef-9cdb-4f4d-98af-7df3a5c345d7"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-07T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-12T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-17T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

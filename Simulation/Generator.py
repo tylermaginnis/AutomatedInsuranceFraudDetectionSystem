@@ -73,7 +73,7 @@ def generate_claim(policy_holder, claim_id, is_fraudulent, schema):
         "ClaimStatus": random.choice(["Filed", "In Review", "Approved", "Closed"]),
         "ClaimAmounts": {
             "TotalClaimed": 0,  # Initialize to 0
-            "TotalApproved": random.randint(1000, 200000)
+            "TotalApproved": 0  # Initialize to 0
         },
         "AdjusterDetails": {
             "Name": fake.name(),
@@ -107,8 +107,11 @@ def generate_claim(policy_holder, claim_id, is_fraudulent, schema):
         ]
     }
     
-    # Ensure TotalClaimed is never 0 and does not exceed TotalApproved
-    claim["ClaimAmounts"]["TotalClaimed"] = random.randint(1, claim["ClaimAmounts"]["TotalApproved"])
+    # Ensure TotalClaimed is never 0
+    claim["ClaimAmounts"]["TotalClaimed"] = random.randint(1000, 200000)
+    
+    # Ensure TotalApproved does not exceed TotalClaimed
+    claim["ClaimAmounts"]["TotalApproved"] = random.randint(1000, claim["ClaimAmounts"]["TotalClaimed"])
     
     if is_fraudulent:
         fraud_types = ["Staged accident", "Exaggerated damages", "Fake injuries"]
@@ -125,6 +128,7 @@ def generate_claim(policy_holder, claim_id, is_fraudulent, schema):
             claim["Coverage"]["CollisionCoverage"]["ClaimedAmount"],
             claim["Coverage"]["ComprehensiveCoverage"]["ClaimedAmount"]
         ])
+        claim["ClaimAmounts"]["TotalApproved"] = random.randint(1000, claim["ClaimAmounts"]["TotalClaimed"])
     
     return claim
 

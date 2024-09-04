@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b42168af-e774-415e-9495-c88675ba12aa",
+  "PolicyID": "d5182786-9639-4924-bdee-562dca2e6ed0",
+  "EffectiveDates": {
+    "StartDate": "2023-12-24",
+    "EndDate": "2024-12-23"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "e86115fb-6da6-4cae-80dd-d2c6634a0d50",
+    "Name": "Peter Lawrence",
+    "PolicyNumber": "d5182786-9639-4924-bdee-562dca2e6ed0",
+    "ContactInformation": {
+      "Phone": "767-523-3011x56917",
+      "Email": "kristinamendoza@example.net",
+      "Address": "2803 Matthews Summit\nLarrystad, NE 50704"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-11-07",
+    "Location": "43928 Angela Park\nMcleanfort, AS 35387",
+    "Description": "Public half identify return girl recently once. Our finally large especially. Education finally number improve support end place."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 48290
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 3619
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 14459
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 47643
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5153
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 29353,
+    "TotalApproved": 22098
+  },
+  "AdjusterDetails": {
+    "Name": "Stephen Camacho",
+    "ContactInformation": {
+      "Phone": "543-515-3141x8845",
+      "Email": "davidmarquez@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/7ee7ba7c-f9e2-4b65-acd7-99e636e1b6eb"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-11-07T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-12T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-17T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "23c85600-e255-4aff-a87c-95e6cb0f8307",
+  "PolicyID": "43cd5226-def7-4f8d-8912-c5040acd75ff",
+  "EffectiveDates": {
+    "StartDate": "2023-10-17",
+    "EndDate": "2024-10-16"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1f60334f-97a6-4830-814e-0350a427bce7",
+    "Name": "Robert Adams",
+    "PolicyNumber": "43cd5226-def7-4f8d-8912-c5040acd75ff",
+    "ContactInformation": {
+      "Phone": "+1-832-937-7546x764",
+      "Email": "susan10@example.org",
+      "Address": "50652 Kevin Valleys\nEast Oliviaton, AS 19976"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2023-11-15",
+    "Location": "5368 Thomas Cliffs Suite 278\nPort Matthew, HI 29001",
+    "Description": "Consider there writer difficult poor find. Study explain daughter them customer.\nHelp book rich art age book money. Ask range work board should produce certain."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 6789
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 36798
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 29156
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 9352
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 21863
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 30166,
+    "TotalApproved": 8250
+  },
+  "AdjusterDetails": {
+    "Name": "Mary Gonzalez",
+    "ContactInformation": {
+      "Phone": "(893)938-3617x0393",
+      "Email": "lisabrock@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/ee6e017f-029f-462c-a443-97367160bf1d"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2023-11-15T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2023-11-20T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2023-11-25T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

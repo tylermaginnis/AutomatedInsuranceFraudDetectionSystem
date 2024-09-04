@@ -1,0 +1,80 @@
+{
+  "ClaimID": "739d0add-3169-4330-ac66-d30e8089186b",
+  "PolicyID": "4735ee6c-74ae-48ff-996f-a0b8b288acfa",
+  "EffectiveDates": {
+    "StartDate": "2023-11-30",
+    "EndDate": "2024-11-29"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "1726c370-7ae0-4b3f-af0a-ab334e1d4688",
+    "Name": "Tammy Vasquez",
+    "PolicyNumber": "4735ee6c-74ae-48ff-996f-a0b8b288acfa",
+    "ContactInformation": {
+      "Phone": "961.299.7281x38395",
+      "Email": "andersonkenneth@example.net",
+      "Address": "2152 Aaron Mews\nSouth Jasonborough, AZ 60444"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-01",
+    "Location": "58247 George Crossroad Apt. 747\nNorth Mark, AR 48657",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 90194
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 46178
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 8330
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 16616
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6379
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 167697,
+    "TotalApproved": 167660
+  },
+  "AdjusterDetails": {
+    "Name": "Denise Dougherty",
+    "ContactInformation": {
+      "Phone": "+1-731-255-5766x778",
+      "Email": "bsimon@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/47fc5d2f-62d3-415e-853b-6b876a3a010e"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-01T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-10-06T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-10-11T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3797343c-0c16-4af9-9a0e-a87cda6c05ab",
+  "PolicyID": "b43a6650-3526-4d21-bbb2-fcda278e46e3",
+  "EffectiveDates": {
+    "StartDate": "2024-09-02",
+    "EndDate": "2025-09-02"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0c967e2f-47ac-4796-8481-71a69865f348",
+    "Name": "Melissa Anderson",
+    "PolicyNumber": "b43a6650-3526-4d21-bbb2-fcda278e46e3",
+    "ContactInformation": {
+      "Phone": "416-864-6162",
+      "Email": "tbrown@example.org",
+      "Address": "0584 Cooper Path\nLake Andrew, AK 69837"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-06-25",
+    "Location": "2774 Brian Corners Apt. 944\nWest Tiffanychester, NJ 99197",
+    "Description": "Scene type treatment soldier stage. Support sport again must trip explain. Address name trouble support collection."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 16945
+    },
+    "PDL": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 17915
+    },
+    "PIP": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 6651
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 1335
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 8584
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 2789,
+    "TotalApproved": 1341
+  },
+  "AdjusterDetails": {
+    "Name": "Andrew Thomas",
+    "ContactInformation": {
+      "Phone": "(326)351-7731",
+      "Email": "dwilliams@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/23e3a94a-77ad-4098-ae32-b6389c66c4b8"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-06-25T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-06-30T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-07-05T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

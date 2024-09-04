@@ -1,0 +1,416 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Key Metrics</h1>
+    <p>Total Number of Claims: @Model.TotalClaims</p>
+</div>
+
+<div id="menu" class="text-center">
+    <h2>Visualizations Menu</h2>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-car-crash fa-3x"></i>
+                    <p class="card-text">Claims by Coverage Type</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-user fa-3x"></i>
+                    <p class="card-text">Claims by Policy Holder</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-user-tie fa-3x"></i>
+                    <p class="card-text">Claims by Adjuster</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-calendar-alt fa-3x"></i>
+                    <p class="card-text">Claims Over Time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-tasks fa-3x"></i>
+                    <p class="card-text">Claims by Status Over Time</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-chart-bar fa-3x"></i>
+                    <p class="card-text">Average Claimed and Approved Amounts by Coverage Type</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-map-marker-alt fa-3x"></i>
+                    <p class="card-text">Claims by State</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-calendar-check fa-3x"></i>
+                    <p class="card-text">Claims by Policy Effective Dates</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="visualizations" style="display:none;">
+    <div class="text-left">
+        <i class="fas fa-arrow-left fa-2x" id="backButton" style="cursor:pointer;"></i>
+    </div>
+    <div id="visualizationContent">
+        <div id="claimsByCoverageType" style="display:none;">
+            <h3>Claims by Coverage Type</h3>
+            <canvas id="claimsByCoverageChart"></canvas>
+        </div>
+        <div id="claimsByPolicyHolder" style="display:none;">
+            <h3>Claims by Policy Holder</h3>
+            <canvas id="claimsByPolicyHolderChart"></canvas>
+        </div>
+        <div id="claimsByAdjuster" style="display:none;">
+            <h3>Claims by Adjuster</h3>
+            <canvas id="claimsByAdjusterChart"></canvas>
+        </div>
+        <div id="claimsOverTime" style="display:none;">
+            <h3>Claims Over Time</h3>
+            <canvas id="claimsOverTimeChart"></canvas>
+        </div>
+        <div id="claimsByStatusOverTime" style="display:none;">
+            <h3>Claims by Status Over Time</h3>
+            <canvas id="claimsByStatusOverTimeChart"></canvas>
+        </div>
+        <div id="averageAmountsByCoverageType" style="display:none;">
+            <h3>Average Claimed and Approved Amounts by Coverage Type</h3>
+            <canvas id="averageAmountsByCoverageChart"></canvas>
+        </div>
+        <div id="claimsByState" style="display:none;">
+            <h3>Claims by State</h3>
+            <canvas id="claimsByStateChart"></canvas>
+        </div>
+        <div id="claimsByPolicyEffectiveDates" style="display:none;">
+            <h3>Claims by Policy Effective Dates</h3>
+            <canvas id="claimsByPolicyEffectiveDatesChart"></canvas>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script>
+        var claimsByCoverageType = @Html.Raw(ViewBag.ClaimsByCoverageTypeJson);
+        var claimsByPolicyHolder = @Html.Raw(ViewBag.ClaimsByPolicyHolderJson);
+        var claimsByAdjuster = @Html.Raw(ViewBag.ClaimsByAdjusterJson);
+        var claimsOverTime = @Html.Raw(ViewBag.ClaimsOverTimeJson);
+        var claimsByStatusOverTime = @Html.Raw(ViewBag.ClaimsByStatusOverTimeJson);
+        var averageAmountsByCoverageType = @Html.Raw(ViewBag.AverageAmountsByCoverageTypeJson);
+        var claimsByState = @Html.Raw(ViewBag.ClaimsByStateJson);
+        var claimsByPolicyEffectiveDates = @Html.Raw(ViewBag.ClaimsByPolicyEffectiveDatesJson);
+
+        var claimsByCoverageTypeData = {
+            labels: claimsByCoverageType.map(c => c.CoverageType),
+            datasets: [{
+                label: 'Total Claimed Amount',
+                data: claimsByCoverageType.map(c => c.TotalClaimedAmount),
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF']
+            }]
+        };
+
+        var claimsByCoverageTypeCtx = document.getElementById('claimsByCoverageChart').getContext('2d');
+        new Chart(claimsByCoverageTypeCtx, {
+            type: 'bar',
+            data: claimsByCoverageTypeData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Claims by Coverage Type'
+                }
+            }
+        });
+
+        var claimsByPolicyHolderData = {
+            labels: claimsByPolicyHolder.map(p => p.PolicyHolder), // Ensure this is a string
+            datasets: [{
+                label: 'Total Amount Claimed by Policy Holder',
+                data: claimsByPolicyHolder.map(p => p.TotalClaimedAmount),
+                backgroundColor: '#FF6384'
+            }, {
+                label: 'Total Amount Approved by Policy Holder',
+                data: claimsByPolicyHolder.map(p => p.TotalApprovedAmount),
+                backgroundColor: '#36A2EB'
+            }]
+        };
+
+        var claimsByPolicyHolderCtx = document.getElementById('claimsByPolicyHolderChart').getContext('2d');
+        new Chart(claimsByPolicyHolderCtx, {
+            type: 'bar',
+            data: claimsByPolicyHolderData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Claims by Policy Holder'
+                }
+            }
+        });
+
+        var claimsByAdjusterData = {
+            labels: claimsByAdjuster.map(a => a.Adjuster),
+            datasets: [{
+                label: 'Total Amount Claimed by Adjuster',
+                data: claimsByAdjuster.map(a => a.TotalClaimedAmount),
+                backgroundColor: '#FF6384'
+            }, {
+                label: 'Total Amount Approved by Adjuster',
+                data: claimsByAdjuster.map(a => a.TotalApprovedAmount),
+                backgroundColor: '#36A2EB'
+            }]
+        };
+
+        var claimsByAdjusterCtx = document.getElementById('claimsByAdjusterChart').getContext('2d');
+        new Chart(claimsByAdjusterCtx, {
+            type: 'bar',
+            data: claimsByAdjusterData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Claims by Adjuster'
+                }
+            }
+        });
+
+        var claimsOverTimeData = {
+            labels: claimsOverTime.map(c => new Date(c.Date).toLocaleString('default', { month: 'long', year: 'numeric' })),
+            datasets: [{
+                label: 'Number of Claims',
+                data: claimsOverTime.map(c => c.ClaimCount),
+                backgroundColor: '#36A2EB'
+            }]
+        };
+
+        var claimsOverTimeCtx = document.getElementById('claimsOverTimeChart').getContext('2d');
+        new Chart(claimsOverTimeCtx, {
+            type: 'line',
+            data: claimsOverTimeData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Claims Over Time by Month'
+                },
+                scales: {
+                    xAxes: [{
+                        type: 'time',
+                        time: {
+                            unit: 'month',
+                            tooltipFormat: 'MMM YYYY',
+                            displayFormats: {
+                                month: 'MMM YYYY'
+                            }
+                        }
+                    }]
+                }
+            }
+        });
+
+        var claimsByStatusOverTime = @Html.Raw(ViewBag.ClaimsByStatusOverTimeJson);
+
+        var statusColors = {
+            'Closed': '#FF6384',
+            'Filed': '#36A2EB',
+            'In Review': '#FFCE56',
+            'Approved': '#4BC0C0'
+        };
+
+        var groupedData = claimsByStatusOverTime.reduce((acc, curr) => {
+            var date = new Date(curr.Date).toLocaleString('default', { month: 'long', year: 'numeric' });
+            if (!acc[date]) acc[date] = {};
+            acc[date][curr.ClaimStatus] = curr.ClaimCount;
+            return acc;
+        }, {});
+
+        var labels = Object.keys(groupedData);
+        var datasets = Object.keys(statusColors).map(status => ({
+            label: status,
+            data: labels.map(label => groupedData[label][status] || 0),
+            backgroundColor: statusColors[status]
+        }));
+
+        var claimsByStatusOverTimeData = {
+            labels: labels,
+            datasets: datasets
+        };
+
+        var claimsByStatusOverTimeCtx = document.getElementById('claimsByStatusOverTimeChart').getContext('2d');
+        new Chart(claimsByStatusOverTimeCtx, {
+            type: 'bar',
+            data: claimsByStatusOverTimeData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Claims by Status Over Time'
+                },
+                scales: {
+                    xAxes: [{
+                        type: 'time',
+                        time: {
+                            unit: 'month',
+                            tooltipFormat: 'MMM YYYY',
+                            displayFormats: {
+                                month: 'MMM YYYY'
+                            }
+                        }
+                    }]
+                }
+            }
+        });
+
+        var averageAmountsByCoverageType = @Html.Raw(ViewBag.AverageAmountsByCoverageTypeJson);
+
+        var coverageTypes = ["BIL", "PDL", "PIP", "CollisionCoverage", "ComprehensiveCoverage"];
+        var averageAmountsByCoverageTypeData = {
+            labels: coverageTypes,
+            datasets: [{
+                label: 'Average Claimed Amount',
+                data: coverageTypes.map(type => {
+                    var coverage = averageAmountsByCoverageType.find(c => c.Coverage === type);
+                    return coverage ? coverage.AverageClaimedAmount : 0;
+                }),
+                backgroundColor: '#36A2EB'
+            }, {
+                label: 'Average Approved Amount',
+                data: coverageTypes.map(type => {
+                    var coverage = averageAmountsByCoverageType.find(c => c.Coverage === type);
+                    return coverage ? coverage.AverageApprovedAmount : 0;
+                }),
+                backgroundColor: '#FF6384'
+            }]
+        };
+
+        var averageAmountsByCoverageTypeCtx = document.getElementById('averageAmountsByCoverageChart').getContext('2d');
+        new Chart(averageAmountsByCoverageTypeCtx, {
+            type: 'bar',
+            data: averageAmountsByCoverageTypeData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Average Claimed and Approved Amounts by Coverage Type'
+                },
+                scales: {
+                    xAxes: [{
+                        stacked: true
+                    }],
+                    yAxes: [{
+                        stacked: true
+                    }]
+                }
+            }
+        });
+
+        var claimsByStateData = {
+            labels: claimsByState.map(s => s.State),
+            datasets: [{
+                label: 'Number of Claims',
+                data: claimsByState.map(s => s.ClaimCount),
+                backgroundColor: '#36A2EB'
+            }]
+        };
+
+        var claimsByStateCtx = document.getElementById('claimsByStateChart').getContext('2d');
+        new Chart(claimsByStateCtx, {
+            type: 'bar',
+            data: claimsByStateData
+        });
+        
+        var claimsByPolicyEffectiveDatesData = {
+            labels: claimsByPolicyEffectiveDates.map(p => new Date(p.Date).toLocaleString('default', { month: 'long', year: 'numeric' })),
+            datasets: [{
+                label: 'Number of Policies',
+                data: claimsByPolicyEffectiveDates.map(p => p.ClaimCount),
+                backgroundColor: '#36A2EB'
+            }]
+        };
+
+        var claimsByPolicyEffectiveDatesCtx = document.getElementById('claimsByPolicyEffectiveDatesChart').getContext('2d');
+        new Chart(claimsByPolicyEffectiveDatesCtx, {
+            type: 'bar',
+            data: claimsByPolicyEffectiveDatesData
+        });
+
+        document.querySelectorAll('#menu .col').forEach((col, index) => {
+            col.addEventListener('click', function() {
+                document.getElementById('menu').style.display = 'none';
+                document.getElementById('visualizations').style.display = 'block';
+                document.querySelectorAll('#visualizationContent > div').forEach(div => div.style.display = 'none');
+                document.querySelectorAll('#visualizationContent > div')[index].style.display = 'block';
+                // Remove the height change to avoid vertical animation
+                // document.getElementById('visualizations').style.height = '100vh';
+            });
+        });
+
+        document.getElementById('backButton').addEventListener('click', function() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('visualizations').style.display = 'none';
+            // Remove the height change to avoid vertical animation
+            // document.getElementById('visualizations').style.height = '0';
+        });
+    </script>
+}

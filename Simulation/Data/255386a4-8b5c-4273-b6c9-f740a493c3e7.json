@@ -1,0 +1,80 @@
+{
+  "ClaimID": "255386a4-8b5c-4273-b6c9-f740a493c3e7",
+  "PolicyID": "aea999f4-906b-4351-97a4-d5c9f3070309",
+  "EffectiveDates": {
+    "StartDate": "2024-03-17",
+    "EndDate": "2025-03-17"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b2c887d8-bba6-42fb-bb04-f0797da8e632",
+    "Name": "John Johnson",
+    "PolicyNumber": "aea999f4-906b-4351-97a4-d5c9f3070309",
+    "ContactInformation": {
+      "Phone": "977.495.1975",
+      "Email": "wvillarreal@example.org",
+      "Address": "2214 Laura Canyon\nNew Johnny, WY 15104"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-10-30",
+    "Location": "0705 Mason Freeway Suite 855\nAmberside, MT 87563",
+    "Description": "Sometimes on spend especially last these standard medical. Personal ground middle chance. Sport include idea public say.\nBoth represent ability. Each remember hospital president society west."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 67642
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 2501
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3577
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 40331
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 12680
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 158589,
+    "TotalApproved": 21642
+  },
+  "AdjusterDetails": {
+    "Name": "Jessica Smith MD",
+    "ContactInformation": {
+      "Phone": "+1-876-636-3094",
+      "Email": "ajenkins@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/92c3fb28-e7e0-4297-8dba-d1f33c1b18d6"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-10-30T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-11-04T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-11-09T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

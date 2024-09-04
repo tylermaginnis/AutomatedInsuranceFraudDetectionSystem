@@ -1,0 +1,80 @@
+{
+  "ClaimID": "11a77776-2a95-42be-a1b1-88ecdebb2cf8",
+  "PolicyID": "4fbc4060-c8af-4226-abec-b4e1c02cc6d6",
+  "EffectiveDates": {
+    "StartDate": "2024-03-27",
+    "EndDate": "2025-03-27"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "55dc3e20-2a54-46f1-b2e3-8fd9d9541353",
+    "Name": "Jason Butler",
+    "PolicyNumber": "4fbc4060-c8af-4226-abec-b4e1c02cc6d6",
+    "ContactInformation": {
+      "Phone": "001-215-486-7314",
+      "Email": "howecaroline@example.com",
+      "Address": "343 Anthony Manors\nPort Williamberg, MO 31010"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-06-20",
+    "Location": "10869 Patricia Plaza Suite 804\nNew Anna, AR 10664",
+    "Description": "Staged accident"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 55715
+    },
+    "PDL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 25451
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 8349
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 11306
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 11740
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 112561,
+    "TotalApproved": 82451
+  },
+  "AdjusterDetails": {
+    "Name": "Mary Morrison",
+    "ContactInformation": {
+      "Phone": "(833)989-5227x1797",
+      "Email": "millerchristian@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/c53502b6-c7b4-42e6-a1d6-235d2b98a56a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-06-20T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-06-25T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-06-30T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

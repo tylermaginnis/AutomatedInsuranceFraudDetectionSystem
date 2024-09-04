@@ -1,0 +1,80 @@
+{
+  "ClaimID": "35d9eadd-73fb-452d-9888-eb8f0938e35c",
+  "PolicyID": "b95e6a8e-1f14-4dfe-ad93-4035e1b8b9f4",
+  "EffectiveDates": {
+    "StartDate": "2024-06-06",
+    "EndDate": "2025-06-06"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2ffb4c6b-1b6a-4f13-968b-8100a71f17ba",
+    "Name": "Sandra Huber",
+    "PolicyNumber": "b95e6a8e-1f14-4dfe-ad93-4035e1b8b9f4",
+    "ContactInformation": {
+      "Phone": "+1-375-405-8741x8025",
+      "Email": "christopher21@example.net",
+      "Address": "9560 Oneill Overpass\nParkerchester, CT 70988"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-06",
+    "Location": "199 Ramirez Crescent Apt. 423\nDannychester, IN 95112",
+    "Description": "Interesting reality stuff. Consider maybe reason.\nReach project beat around heavy. Her parent once president time."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 20126
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2833
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 2184
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 14814
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8906
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 13544,
+    "TotalApproved": 1248
+  },
+  "AdjusterDetails": {
+    "Name": "Jason Phillips",
+    "ContactInformation": {
+      "Phone": "980.655.3044",
+      "Email": "wbates@example.org"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/c08072e7-fcee-4a2a-a9e1-d9cf9c72fa34"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-06T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-11T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-16T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

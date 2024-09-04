@@ -1,0 +1,80 @@
+{
+  "ClaimID": "86b5f08a-6788-4e7b-b0e1-930b4cbae24e",
+  "PolicyID": "8426bb84-a51a-4ff7-bb5b-ac18141dbd3e",
+  "EffectiveDates": {
+    "StartDate": "2024-08-15",
+    "EndDate": "2025-08-15"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "87920279-f545-4c96-91f1-967655784045",
+    "Name": "Katherine Fisher",
+    "PolicyNumber": "8426bb84-a51a-4ff7-bb5b-ac18141dbd3e",
+    "ContactInformation": {
+      "Phone": "001-329-602-9166x91536",
+      "Email": "williamsmith@example.net",
+      "Address": "029 Mark Hollow Suite 122\nHowellland, MD 98316"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-01-02",
+    "Location": "785 Michael Harbor Suite 419\nLake Donna, AZ 27980",
+    "Description": "Away these thing audience. Arm travel upon decision raise ground.\nSkin sit price. Night phone good your of source official green."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 18708
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 5724
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 74283
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 119807
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 44533
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 115859,
+    "TotalApproved": 78440
+  },
+  "AdjusterDetails": {
+    "Name": "Scott Noble",
+    "ContactInformation": {
+      "Phone": "8535125761",
+      "Email": "ariasdiana@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Police Report",
+      "DocumentURL": "http://example.com/documents/44ed112d-1294-4e78-b6d1-ff3c9e1d8e4a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-01-02T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-01-07T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-01-12T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

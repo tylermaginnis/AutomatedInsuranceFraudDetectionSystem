@@ -1,0 +1,80 @@
+{
+  "ClaimID": "3a44a911-0dc5-4d15-906e-56dbb3266d25",
+  "PolicyID": "b95e6a8e-1f14-4dfe-ad93-4035e1b8b9f4",
+  "EffectiveDates": {
+    "StartDate": "2024-04-21",
+    "EndDate": "2025-04-21"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "2ffb4c6b-1b6a-4f13-968b-8100a71f17ba",
+    "Name": "Sandra Huber",
+    "PolicyNumber": "b95e6a8e-1f14-4dfe-ad93-4035e1b8b9f4",
+    "ContactInformation": {
+      "Phone": "+1-375-405-8741x8025",
+      "Email": "christopher21@example.net",
+      "Address": "9560 Oneill Overpass\nParkerchester, CT 70988"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-09-15",
+    "Location": "18135 Ashley Burgs Apt. 939\nMoralesview, MT 27040",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 59992
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 22610
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 6671
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 16888
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 15970
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 122131,
+    "TotalApproved": 1268
+  },
+  "AdjusterDetails": {
+    "Name": "Terry Gutierrez",
+    "ContactInformation": {
+      "Phone": "(365)919-8536x3366",
+      "Email": "fwilliams@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Repair Estimate",
+      "DocumentURL": "http://example.com/documents/2aa1e452-4e74-4fe1-ab1b-095cabab06c1"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-09-15T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-09-20T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-09-25T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

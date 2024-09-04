@@ -1,0 +1,80 @@
+{
+  "ClaimID": "2ee6deb5-aa9b-4a6c-b8fb-e397c4a6bf84",
+  "PolicyID": "aea999f4-906b-4351-97a4-d5c9f3070309",
+  "EffectiveDates": {
+    "StartDate": "2023-11-14",
+    "EndDate": "2024-11-13"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b2c887d8-bba6-42fb-bb04-f0797da8e632",
+    "Name": "John Johnson",
+    "PolicyNumber": "aea999f4-906b-4351-97a4-d5c9f3070309",
+    "ContactInformation": {
+      "Phone": "977.495.1975",
+      "Email": "wvillarreal@example.org",
+      "Address": "2214 Laura Canyon\nNew Johnny, WY 15104"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-04-19",
+    "Location": "637 Rogers Squares\nHollandfort, AZ 66971",
+    "Description": "Result she article night along whatever. People wide rest local less. Church program grow region.\nI seem impact else."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 9945
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 5862
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 58537
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 37920
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 179566
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 115647,
+    "TotalApproved": 65821
+  },
+  "AdjusterDetails": {
+    "Name": "Holly Church",
+    "ContactInformation": {
+      "Phone": "220.514.1122x77678",
+      "Email": "oruiz@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/8dbef811-6253-40ec-82ee-58c67e0543a3"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-04-19T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-04-24T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-04-29T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

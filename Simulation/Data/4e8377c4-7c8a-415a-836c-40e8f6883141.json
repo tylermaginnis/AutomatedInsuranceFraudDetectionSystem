@@ -1,0 +1,80 @@
+{
+  "ClaimID": "4e8377c4-7c8a-415a-836c-40e8f6883141",
+  "PolicyID": "aea999f4-906b-4351-97a4-d5c9f3070309",
+  "EffectiveDates": {
+    "StartDate": "2023-12-15",
+    "EndDate": "2024-12-14"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "b2c887d8-bba6-42fb-bb04-f0797da8e632",
+    "Name": "John Johnson",
+    "PolicyNumber": "aea999f4-906b-4351-97a4-d5c9f3070309",
+    "ContactInformation": {
+      "Phone": "977.495.1975",
+      "Email": "wvillarreal@example.org",
+      "Address": "2214 Laura Canyon\nNew Johnny, WY 15104"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-15",
+    "Location": "1127 Erica Cove\nNorth Jessemouth, LA 32441",
+    "Description": "Another like group avoid then teach. Director seven fill coach face hotel. Learn only guess size play."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 44192
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 131817
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 5753
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 8030
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 99137
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 196287,
+    "TotalApproved": 101778
+  },
+  "AdjusterDetails": {
+    "Name": "Richard Scott",
+    "ContactInformation": {
+      "Phone": "712-343-6480x693",
+      "Email": "cardenasandre@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/7bb433dd-a9c4-43d3-85ab-4ef77da78f51"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-15T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-20T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-25T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

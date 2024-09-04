@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d0f581de-48b6-424f-a343-8769f2739320",
+  "PolicyID": "58757eb4-808d-48d2-8297-ab630205bf63",
+  "EffectiveDates": {
+    "StartDate": "2024-03-02",
+    "EndDate": "2025-03-02"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "fe3db2fa-fa52-4b35-a671-1b3f88660a46",
+    "Name": "Vanessa Santos",
+    "PolicyNumber": "58757eb4-808d-48d2-8297-ab630205bf63",
+    "ContactInformation": {
+      "Phone": "5545590365",
+      "Email": "earellano@example.com",
+      "Address": "871 Lori Cape\nRichardbury, VA 76755"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-07-10",
+    "Location": "30917 Jeffrey Forest Suite 677\nNorth James, NY 06222",
+    "Description": "Effort everybody about control hotel son. Worker billion ask those line. Operation part whatever long education themselves. Meeting keep spend clearly evening ago total."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 41469
+    },
+    "PDL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 3221
+    },
+    "PIP": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2704
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 6448
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4374
+    }
+  },
+  "ClaimStatus": "Closed",
+  "ClaimAmounts": {
+    "TotalClaimed": 148342,
+    "TotalApproved": 64091
+  },
+  "AdjusterDetails": {
+    "Name": "Anthony Lambert",
+    "ContactInformation": {
+      "Phone": "001-604-390-0269x3621",
+      "Email": "rhudson@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/c3ff07f2-dd84-4de2-8839-b6d7aeb90369"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-07-10T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-07-15T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-07-20T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

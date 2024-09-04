@@ -1,0 +1,80 @@
+{
+  "ClaimID": "d64dc4de-5a56-4b1b-b393-6abba2b4ab99",
+  "PolicyID": "b43a6650-3526-4d21-bbb2-fcda278e46e3",
+  "EffectiveDates": {
+    "StartDate": "2024-02-26",
+    "EndDate": "2025-02-25"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "0c967e2f-47ac-4796-8481-71a69865f348",
+    "Name": "Melissa Anderson",
+    "PolicyNumber": "b43a6650-3526-4d21-bbb2-fcda278e46e3",
+    "ContactInformation": {
+      "Phone": "416-864-6162",
+      "Email": "tbrown@example.org",
+      "Address": "0584 Cooper Path\nLake Andrew, AK 69837"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2024-05-09",
+    "Location": "3436 Weaver Circle\nNew Brian, IA 00701",
+    "Description": "Fake injuries"
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 94927
+    },
+    "PDL": {
+      "CoverageLimit": 100000,
+      "ClaimedAmount": 24407
+    },
+    "PIP": {
+      "CoverageLimit": 20000,
+      "ClaimedAmount": 9473
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 27342
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 10607
+    }
+  },
+  "ClaimStatus": "Filed",
+  "ClaimAmounts": {
+    "TotalClaimed": 166756,
+    "TotalApproved": 112247
+  },
+  "AdjusterDetails": {
+    "Name": "Michael Day",
+    "ContactInformation": {
+      "Phone": "001-485-998-0114x184",
+      "Email": "dcrawford@example.com"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Witness Statement",
+      "DocumentURL": "http://example.com/documents/c76b07a1-39e9-4327-b228-e42b3f83c81a"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2024-05-09T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2024-05-14T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2024-05-19T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}

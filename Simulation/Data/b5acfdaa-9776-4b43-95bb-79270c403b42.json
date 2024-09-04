@@ -1,0 +1,80 @@
+{
+  "ClaimID": "b5acfdaa-9776-4b43-95bb-79270c403b42",
+  "PolicyID": "2d5b1040-7bd9-4dd0-b6f5-c57540b35d61",
+  "EffectiveDates": {
+    "StartDate": "2024-08-19",
+    "EndDate": "2025-08-19"
+  },
+  "PolicyHolder": {
+    "PolicyHolderID": "def9cb69-a449-4078-a85e-2f52d6b6a5d3",
+    "Name": "Mary Hale",
+    "PolicyNumber": "2d5b1040-7bd9-4dd0-b6f5-c57540b35d61",
+    "ContactInformation": {
+      "Phone": "(407)731-5389",
+      "Email": "pettybrittany@example.com",
+      "Address": "91529 Molly Avenue Suite 200\nWest Christian, IL 78263"
+    }
+  },
+  "AccidentDetails": {
+    "Date": "2025-04-11",
+    "Location": "938 Justin Springs Suite 317\nLake Davidshire, OH 11751",
+    "Description": "Southern risk worker. Project pass chance age huge statement cost hotel. Travel civil rule that both public key."
+  },
+  "Coverage": {
+    "BIL": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 31337
+    },
+    "PDL": {
+      "CoverageLimit": 10000,
+      "ClaimedAmount": 2811
+    },
+    "PIP": {
+      "CoverageLimit": 200000,
+      "ClaimedAmount": 4565
+    },
+    "CollisionCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 21614
+    },
+    "ComprehensiveCoverage": {
+      "CoverageLimit": 50000,
+      "ClaimedAmount": 5851
+    }
+  },
+  "ClaimStatus": "Approved",
+  "ClaimAmounts": {
+    "TotalClaimed": 179521,
+    "TotalApproved": 157749
+  },
+  "AdjusterDetails": {
+    "Name": "Courtney Sanchez",
+    "ContactInformation": {
+      "Phone": "+1-423-560-7251x4418",
+      "Email": "burgessbrittany@example.net"
+    }
+  },
+  "SupportingDocuments": [
+    {
+      "DocumentType": "Medical Report",
+      "DocumentURL": "http://example.com/documents/c47a6256-5f80-4002-a072-47f9d10088ff"
+    }
+  ],
+  "ClaimHistory": [
+    {
+      "Status": "Filed",
+      "Date": "2025-04-11T13:07:47Z",
+      "Notes": "Initial claim filed"
+    },
+    {
+      "Status": "In Review",
+      "Date": "2025-04-16T13:07:47Z",
+      "Notes": "Claim is being reviewed"
+    },
+    {
+      "Status": "Approved",
+      "Date": "2025-04-21T13:07:47Z",
+      "Notes": "Claim approved"
+    }
+  ]
+}
