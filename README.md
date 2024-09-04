@@ -2,21 +2,16 @@
 
 ## Project Overview
 
-This project is an Automated Insurance Claim Fraud Detection System. The system focuses on detecting potentially fraudulent insurance claims using rule-based logic and machine learning techniques. It showcases advanced problem-solving abilities and the creation of a high-impact tool that enhances the security and efficiency of the insurance claims process.
+This project aims to detect fraudulent insurance claims using machine learning techniques. The system enhances the security and efficiency of the insurance claims process by identifying potentially fraudulent claims.
 
-## Key Features and Technologies
+## Key Features
 
 ### Data Ingestion and Preprocessing
-- **Local Dataset**: Simulated dataset of insurance claims stored locally in JSON files within the `Simulation/Data` directory. The dataset includes features like claim amount, claimant history, claim type, and timestamps.
-- **Data Cleaning and Preparation**: Uses Python (with Pandas) to clean and preprocess the data, handling missing values, normalizing features, and creating new features like claim frequency.
-
-### Rule-Based Fraud Detection
-- **Initial Rules Engine**: Implements a rule-based system that flags claims based on predefined criteria (e.g., claims exceeding a certain amount, multiple claims from the same individual in a short period).
-- **Customizable Rules**: Provides an interface to easily add or modify rules, allowing the system to adapt to evolving fraud patterns.
+- **Local Dataset**: Utilizes a simulated dataset of insurance claims stored in JSON files within the `Simulation/Data` directory. The dataset includes features such as claim amount, claimant history, claim type, and timestamps.
+- **Data Cleaning and Preparation**: Employs Python and Pandas to clean and preprocess the data, handle missing values, normalize features, and create new features like claim frequency.
 
 ### Machine Learning Integration
-- **Model Training**: Trains a machine learning model (e.g., a decision tree or logistic regression) using the simulated claims dataset. The model predicts the likelihood of a claim being fraudulent based on historical data.
-- **Real-Time Fraud Scoring**: As new claims are processed, the system scores them in real-time, combining rule-based results with the ML model's prediction to provide a fraud probability score.
+- **Model Training**: Trains a machine learning model (e.g., decision tree or logistic regression) using the simulated claims dataset to predict the likelihood of a claim being fraudulent.
 - **SHAP Analysis**: Uses SHAP (SHapley Additive exPlanations) to interpret the model's predictions and understand the impact of each feature on the fraud likelihood score.
 
 ### System Architecture
