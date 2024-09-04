@@ -17,11 +17,12 @@ This project is an Automated Insurance Claim Fraud Detection System. The system 
 ### Machine Learning Integration
 - **Model Training**: Trains a machine learning model (e.g., a decision tree or logistic regression) using the simulated claims dataset. The model predicts the likelihood of a claim being fraudulent based on historical data.
 - **Real-Time Fraud Scoring**: As new claims are processed, the system scores them in real-time, combining rule-based results with the ML model's prediction to provide a fraud probability score.
+- **SHAP Analysis**: Uses SHAP (SHapley Additive exPlanations) to interpret the model's predictions and understand the impact of each feature on the fraud likelihood score.
 
 ### System Architecture
 - **File-Based Design**: The system uses a file-based approach for data processing and model predictions, ensuring simplicity and ease of use.
 - **Python Scripts**: All functionalities, including data ingestion, rule-based analysis, and machine learning predictions, are implemented using Python scripts.
-- **REST API**: Exposes the fraud detection capabilities via a REST API, allowing other systems or applications to integrate and query for fraud analysis.
+- **CLI Interface**: Exposes the fraud detection capabilities via a Command Line Interface (CLI), allowing users to run scripts for data processing and model training.
 
 ### Frontend Interface
 - **Dashboard**: Develops a web dashboard using Flask (Python) and HTML/JavaScript to display the results of the fraud detection process, including visualizations of flagged claims and their associated fraud scores.

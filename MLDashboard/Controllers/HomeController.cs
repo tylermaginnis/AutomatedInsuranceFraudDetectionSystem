@@ -11,12 +11,23 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly List<AutoInsuranceClaimsModel.Root> _claims;
+    private readonly List<dynamic> _fraudScores;
 
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
         var jsonData = System.IO.File.ReadAllText("../Loader/Data/normalized.json");
         _claims = JsonConvert.DeserializeObject<List<AutoInsuranceClaimsModel.Root>>(jsonData);
+
+        // Load fraud likelihood scores
+        _fraudScores = new List<dynamic>();
+        var fraudFiles = Directory.GetFiles("../MLTool/Insights/", "*.json");
+        foreach (var file in fraudFiles)
+        {
+            var fraudData = System.IO.File.ReadAllText(file);
+            var fraudScore = JsonConvert.DeserializeObject<dynamic>(fraudData);
+            _fraudScores.Add(fraudScore);
+        }
     }
 
     public IActionResult Index()
@@ -131,7 +142,8 @@ public class HomeController : Controller
             ClaimsByStatusOverTime = claimsByStatusOverTime,
             AverageAmountsByCoverageType = averageAmountsByCoverageType,
             ClaimsByState = claimsByState,
-            ClaimsByPolicyEffectiveDates = claimsByPolicyEffectiveDates
+            ClaimsByPolicyEffectiveDates = claimsByPolicyEffectiveDates,
+            FraudScores = _fraudScores
         };
 
         ViewBag.ClaimsByCoverageTypeJson = JsonConvert.SerializeObject(claimsByCoverageType);
@@ -142,6 +154,7 @@ public class HomeController : Controller
         ViewBag.AverageAmountsByCoverageTypeJson = JsonConvert.SerializeObject(averageAmountsByCoverageType);
         ViewBag.ClaimsByStateJson = JsonConvert.SerializeObject(claimsByState);
         ViewBag.ClaimsByPolicyEffectiveDatesJson = JsonConvert.SerializeObject(claimsByPolicyEffectiveDates);
+        ViewBag.FraudScoresJson = JsonConvert.SerializeObject(_fraudScores);
 
         return View(model);
     }

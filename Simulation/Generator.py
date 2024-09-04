@@ -25,7 +25,7 @@ def generate_policy_holder(policy_holder_id, schema):
         }
     }
 
-def generate_claim(policy_holder, claim_id, is_fraudulent, schema, is_abnormal):
+def generate_claim(policy_holder, claim_id, schema, is_abnormal=False):
     start_date = datetime.now() - timedelta(days=random.randint(0, 365))
     end_date = start_date + timedelta(days=365)
     accident_date = start_date + timedelta(days=random.randint(0, 365))
@@ -112,15 +112,19 @@ def generate_claim(policy_holder, claim_id, is_fraudulent, schema, is_abnormal):
     
     # Ensure TotalApproved does not exceed TotalClaimed
     claim["ClaimAmounts"]["TotalApproved"] = random.randint(1000, claim["ClaimAmounts"]["TotalClaimed"])
-    
-    if is_fraudulent:
-        fraud_types = ["Staged accident", "Exaggerated damages", "Fake injuries"]
-        claim["AccidentDetails"]["Description"] = random.choice(fraud_types)
-        claim["Coverage"]["BIL"]["ClaimedAmount"] = random.randint(50000, 100000)
-        claim["Coverage"]["PDL"]["ClaimedAmount"] = random.randint(20000, 50000)
-        claim["Coverage"]["PIP"]["ClaimedAmount"] = random.randint(5000, 10000)
-        claim["Coverage"]["CollisionCoverage"]["ClaimedAmount"] = random.randint(10000, 30000)
-        claim["Coverage"]["ComprehensiveCoverage"]["ClaimedAmount"] = random.randint(5000, 20000)
+    if is_abnormal:
+        # Generate highly abnormal distributions of data
+        claim["ClaimAmounts"]["TotalClaimed"] = random.randint(1000000, 5000000)
+        claim["ClaimAmounts"]["TotalApproved"] = random.randint(500000, claim["ClaimAmounts"]["TotalClaimed"])
+        for coverage_type in claim["Coverage"]:
+            claim["Coverage"][coverage_type]["ClaimedAmount"] = random.randint(100000, 1000000)
+        
+        # Trigger features intentionally
+        claim["Coverage"]["BIL"]["ClaimedAmount"] = random.randint(900000, 1000000)
+        claim["Coverage"]["PDL"]["ClaimedAmount"] = random.randint(900000, 1000000)
+        claim["Coverage"]["PIP"]["ClaimedAmount"] = random.randint(900000, 1000000)
+        claim["Coverage"]["CollisionCoverage"]["ClaimedAmount"] = random.randint(900000, 1000000)
+        claim["Coverage"]["ComprehensiveCoverage"]["ClaimedAmount"] = random.randint(900000, 1000000)
         claim["ClaimAmounts"]["TotalClaimed"] = sum([
             claim["Coverage"]["BIL"]["ClaimedAmount"],
             claim["Coverage"]["PDL"]["ClaimedAmount"],
@@ -128,14 +132,43 @@ def generate_claim(policy_holder, claim_id, is_fraudulent, schema, is_abnormal):
             claim["Coverage"]["CollisionCoverage"]["ClaimedAmount"],
             claim["Coverage"]["ComprehensiveCoverage"]["ClaimedAmount"]
         ])
-        claim["ClaimAmounts"]["TotalApproved"] = random.randint(1000, claim["ClaimAmounts"]["TotalClaimed"])
-    
-    if is_abnormal:
-        # Generate highly abnormal distributions of data
-        claim["ClaimAmounts"]["TotalClaimed"] = random.randint(1000000, 5000000)
         claim["ClaimAmounts"]["TotalApproved"] = random.randint(500000, claim["ClaimAmounts"]["TotalClaimed"])
-        for coverage_type in claim["Coverage"]:
-            claim["Coverage"][coverage_type]["ClaimedAmount"] = random.randint(100000, 1000000)
+        claim["SupportingDocuments"] = [
+            {
+                "DocumentType": "Police Report",
+                "DocumentURL": f"http://example.com/documents/{uuid.uuid4()}"
+            },
+            {
+                "DocumentType": "Medical Report",
+                "DocumentURL": f"http://example.com/documents/{uuid.uuid4()}"
+            },
+            {
+                "DocumentType": "Repair Estimate",
+                "DocumentURL": f"http://example.com/documents/{uuid.uuid4()}"
+            },
+            {
+                "DocumentType": "Witness Statement",
+                "DocumentURL": f"http://example.com/documents/{uuid.uuid4()}"
+            }
+        ]
+        claim["ClaimStatus"] = "Approved"
+        claim["ClaimHistory"] = [
+            {
+                "Status": "Filed",
+                "Date": accident_date.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "Notes": "Initial claim filed"
+            },
+            {
+                "Status": "In Review",
+                "Date": (accident_date + timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "Notes": "Claim is being reviewed"
+            },
+            {
+                "Status": "Approved",
+                "Date": (accident_date + timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "Notes": "Claim approved"
+            }
+        ]
     
     return claim
 
@@ -148,7 +181,7 @@ def generate_claims(num_claims, num_policy_holders, schema, is_abnormal):
     for i in range(num_claims):
         policy_holder = random.choice(policy_holders)
         is_fraudulent = i < num_fraudulent_claims
-        claim = generate_claim(policy_holder, str(uuid.uuid4()), is_fraudulent, schema, is_abnormal)
+        claim = generate_claim(policy_holder, str(uuid.uuid4()), schema, is_abnormal)
         claims.append(claim)
     
     return claims
@@ -163,8 +196,8 @@ def main():
     parser = argparse.ArgumentParser(description="Generate insurance claims data")
     parser.add_argument("-d", "--clear_data", action="store_true", help="Clear the data in Simulation/Data/ directory before generating new claims")
     parser.add_argument("-a", "--abnormal", action="store_true", help="Generate highly abnormal distributions of data")
-    parser.add_argument("num_claims", type=int, nargs='?', help="Number of claims to generate", default=0)
-    parser.add_argument("num_policy_holders", type=int, nargs='?', help="Number of unique policy holders", default=0)
+    parser.add_argument("-n", "--num_claims", type=int, help="Number of claims to generate", required=True)
+    parser.add_argument("-p", "--num_policy_holders", type=int, help="Number of unique policy holders", required=True)
     args = parser.parse_args()
     
     if args.clear_data:
@@ -174,12 +207,9 @@ def main():
             if os.path.isfile(file_path):
                 os.unlink(file_path)
     
-    if args.num_claims > 0 and args.num_policy_holders > 0:
-        schema = load_schema()
-        claims = generate_claims(args.num_claims, args.num_policy_holders, schema, args.abnormal)
-        save_claims(claims)
-    else:
-        parser.print_usage()
+    schema = load_schema()
+    claims = generate_claims(args.num_claims, args.num_policy_holders, schema, args.abnormal)
+    save_claims(claims)
 
 if __name__ == "__main__":
     main()

@@ -5,11 +5,12 @@ import torch.nn as nn
 import torch.optim as optim
 import argparse
 import shap
+from datetime import datetime
 
 class FraudDetectionModel(nn.Module):
     def __init__(self):
         super(FraudDetectionModel, self).__init__()
-        self.fc1 = nn.Linear(10, 50)  # Example input and hidden layer sizes
+        self.fc1 = nn.Linear(11, 50)  # Example input and hidden layer sizes
         self.fc2 = nn.Linear(50, 3)   # Output layer with 3 classes: low, medium, high
 
     def forward(self, x):
@@ -38,12 +39,23 @@ def extract_features_from_claim(claim):
         claim["ClaimAmounts"]["TotalApproved"],
         len(claim["SupportingDocuments"]),
         1 if claim["ClaimStatus"] == "Approved" else 0,
-        1 if claim["ClaimStatus"] == "In Review" else 0
+        1 if claim["ClaimStatus"] == "In Review" else 0,
+        calculate_time_between_claims(claim)
     ]
     print(f"Features extracted: {features}")
     features = torch.tensor(features, dtype=torch.float32)
     features = (features - features.mean()) / features.std()  # Normalize features
     return features
+
+
+def calculate_time_between_claims(claim):
+    claim_history = claim.get("ClaimHistory", [])
+    if len(claim_history) < 2:
+        return 0  # No previous claims to compare with
+    dates = [datetime.strptime(entry["Date"], "%Y-%m-%dT%H:%M:%SZ") for entry in claim_history]
+    dates.sort()
+    time_diffs = [(dates[i] - dates[i-1]).days for i in range(1, len(dates))]
+    return min(time_diffs) if time_diffs else 0
 
 def calculate_fraud_likelihood(model, claim):
     print(f"Calculating fraud likelihood for claim ID: {claim.get('ClaimID', 'unknown_claim')}")
@@ -56,6 +68,7 @@ def calculate_fraud_likelihood(model, claim):
         likelihood = ["low", "medium", "high"][predicted.item()]
     print(f"Fraud likelihood for claim ID {claim.get('ClaimID', 'unknown_claim')}: {likelihood}")
     return likelihood
+
 
 def process_normalized_json(input_file, output_dir, model_path):
     print(f"Processing normalized JSON from {input_file}")
@@ -83,7 +96,7 @@ def process_normalized_json(input_file, output_dir, model_path):
             json.dump(claim, outfile, indent=4)
         print(f"Processed claim ID {claim_id} and saved to {output_file}")
 
-def train_model(training_data, model_path):
+def train_model(training_data, model_path, generate_shap=False):
     model = FraudDetectionModel()
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
@@ -108,20 +121,17 @@ def train_model(training_data, model_path):
     torch.save(model.state_dict(), model_path)
     print(f"Model training completed and saved to {model_path}")
 
-    # SHAP for feature importance
-    print("Calculating SHAP values for feature importance...")
-    try:
+    if generate_shap:
+        print("Generating SHAP values without checking additivity")
         explainer = shap.DeepExplainer(model, torch.stack([extract_features_from_claim(claim) for claim in training_data]))
         shap_values = explainer.shap_values(torch.stack([extract_features_from_claim(claim) for claim in training_data]), check_additivity=False)
-        shap.summary_plot(shap_values, torch.stack([extract_features_from_claim(claim) for claim in training_data]).numpy())
-        print("SHAP values calculated and summary plot generated.")
-    except Exception as e:
-        print(f"An error occurred while calculating SHAP values: {e}")
+        shap.summary_plot(shap_values, torch.stack([extract_features_from_claim(claim) for claim in training_data]))
 
 def main():
     parser = argparse.ArgumentParser(description='Fraud Detection Model')
     parser.add_argument('-t', '--train', action='store_true', help='Train the model')
     parser.add_argument('-e', '--execute', action='store_true', help='Execute the model on normalized.json')
+    parser.add_argument('-s', '--shap', action='store_true', help='Generate SHAP values without checking additivity')
     args = parser.parse_args()
     
     if args.train:
@@ -129,9 +139,9 @@ def main():
         # Load training data
         with open('Loader/Data/normalized.json', 'r') as file:
             training_data = json.load(file)
-        
+                
         # Train the model
-        train_model(training_data, 'MLTool/Insights.pth')
+        train_model(training_data, 'MLTool/Insights.pth', generate_shap=args.shap)
     
     if args.execute:
         print("Execution mode selected")
