@@ -21,7 +21,6 @@ This project aims to detect fraudulent insurance claims using machine learning t
 
 ### Frontend Interface
 - **Dashboard**: Develops a web dashboard using .Net MVC (C#) and HTML/JavaScript to display the results of the fraud detection process, including visualizations of flagged claims and their associated fraud scores.
-- **Claim Submission Interface**: Includes a form for submitting new claims, which are processed by the backend and scored for fraud risk.
 
 ## Key Technologies
 
@@ -29,7 +28,6 @@ This project aims to detect fraudulent insurance claims using machine learning t
 - **Frameworks**: ASP.NET MVC for the backend and frontend, Torch and Shap for machine learning
 - **Data Management**: Pandas for data processing, JSON for local data storage
 - **Web Development**: HTML5, CSS, JavaScript
-- **Logging and Alerts**: Python logging module, lightweight alerting via logs
 
 ## Outcome
 

@@ -104,7 +104,38 @@ def generate_claim(policy_holder, claim_id, schema, is_abnormal=False):
                 "Date": (accident_date + timedelta(days=10)).strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "Notes": "Claim approved"
             }
-        ]
+        ],
+        "VehicleInformation": {
+            "Make": fake.company(),
+            "Model": fake.word(),
+            "Year": random.randint(2000, 2022),
+            "VIN": str(uuid.uuid4())
+        },
+        "WitnessInformation": [
+            {
+                "Name": fake.name(),
+                "ContactInformation": {
+                    "Phone": fake.phone_number(),
+                    "Email": fake.email()
+                },
+                "Statement": fake.text(max_nb_chars=200)
+            }
+        ],
+        "PoliceReport": {
+            "ReportID": str(uuid.uuid4()),
+            "OfficerName": fake.name(),
+            "ReportDetails": fake.text(max_nb_chars=200)
+        },
+        "ClaimantFinancialInformation": {
+            "CreditScore": random.randint(300, 850),
+            "AnnualIncome": random.randint(20000, 200000),
+            "DebtToIncomeRatio": round(random.uniform(0.1, 1.0), 2)
+        },
+        "ClaimantBehavior": {
+            "ClaimFrequency": random.randint(0, 10),
+            "LatePayments": random.randint(0, 10),
+            "PolicyChanges": random.randint(0, 10)
+        }
     }
     
     # Ensure TotalClaimed is never 0
