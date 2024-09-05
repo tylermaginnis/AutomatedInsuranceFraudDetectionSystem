@@ -102,6 +102,16 @@ The Automated Insurance Claim Fraud Detection System offers a unique, valuable s
 1. **Update the Machine Learning Model**:
    If you want to retrain the machine learning model with new data or different parameters, modify the `Generator.py` or `MLTool.py` script and run it to update the model.
 
+2. **Normalize the Data**:
+   Run the `Loader.py` script to clean and preprocess the data. This will handle missing values, normalize numeric features, and create additional fields inferred by machine learning:
+
+   ```bash
+   python Loader/Loader.py -d MLTool/Insights
+   ```
+
+   By default, `Loader.py` will take the data from Simulation/Data and save the cleaned data to Loader/Data/normalized.json. By passing -d, you can instruct the script to take data from a different directory.
+
+
 ### Additional Resources
 
 - **Support**: If you encounter any issues or have questions, please open an issue on the GitHub repository or contact the project maintainers.
