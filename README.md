@@ -14,9 +14,9 @@ This project aims to detect fraudulent insurance claims using machine learning t
 - **Model Training**: Trains a machine learning model (e.g., decision tree or logistic regression) using the simulated claims dataset to predict the likelihood of a claim being fraudulent.
 - **SHAP Analysis**: Uses SHAP (SHapley Additive exPlanations) to interpret the model's predictions and understand the impact of each feature on the fraud likelihood score.
 
-<img src="images/shap_summary_plot.png" alt="SHAP Summary Plot" width="50%">    
-<img src="images/large_sample.png" alt="Large Sample SHAP Summary Plot" width="50%">    
-<img src="images/large_sample_2.png" alt="SHAP Dependence Plot" width="50%">    
+<img src="images/shap_summary_plot.png" alt="SHAP Summary Plot" >    
+<img src="images/large_sample.png" alt="Large Sample SHAP Summary Plot" >    
+<img src="images/large_sample_2.png" alt="SHAP Dependence Plot" >    
 
 ### System Architecture
 - **File-Based Design**: The system uses a file-based approach for data processing and model predictions, ensuring simplicity and ease of use.
