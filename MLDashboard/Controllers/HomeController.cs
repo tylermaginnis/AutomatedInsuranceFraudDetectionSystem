@@ -11,37 +11,12 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly List<AutoInsuranceClaimsModel.Root> _claims;
-    private readonly List<dynamic> _fraudScores;
 
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
         var jsonData = System.IO.File.ReadAllText("../Loader/Data/normalized.json");
         _claims = JsonConvert.DeserializeObject<List<AutoInsuranceClaimsModel.Root>>(jsonData);
-
-        // Load fraud likelihood scores
-        _fraudScores = new List<dynamic>();
-        var fraudFiles = Directory.GetFiles("../MLTool/Insights/", "*.json");
-        foreach (var file in fraudFiles)
-        {
-            var fraudData = System.IO.File.ReadAllText(file);
-            var fraudScore = JsonConvert.DeserializeObject<dynamic>(fraudData);
-            _fraudScores.Add(fraudScore);
-        }
-
-        // Merge fraud scores into claims by ClaimId
-        foreach (var claim in _claims)
-        {
-            var fraudScore = _fraudScores.FirstOrDefault(fs => fs.ClaimId == claim.ClaimID);
-            if (fraudScore != null)
-            {
-                claim.FraudLikelihood = fraudScore.FraudLikelihood;
-                claim.FraudScore = fraudScore.FraudScore;
-                claim.AdjusterDetails = fraudScore.AdjusterDetails;
-                claim.PolicyHolder = fraudScore.PolicyHolder;
-                claim.AccidentDetails = fraudScore.AccidentDetails;
-            }
-        }
     }
 
     public IActionResult Index()
@@ -220,7 +195,7 @@ public class HomeController : Controller
             AverageAmountsByCoverageType = averageAmountsByCoverageType,
             ClaimsByState = claimsByState,
             ClaimsByPolicyEffectiveDates = claimsByPolicyEffectiveDates,
-            FraudScores = _fraudScores,
+            FraudScores = _claims.Select(c => new { c.ClaimID, c.FraudLikelihood, c.FraudScore, c.AdjusterDetails, c.PolicyHolder, c.AccidentDetails }).ToList(),
             FraudLikelihood = fraudLikelihood,
             ClaimsByFraudLikelihood = claimsByFraudLikelihood,
             FraudScoreDistribution = fraudScoreDistribution,
@@ -238,7 +213,7 @@ public class HomeController : Controller
         ViewBag.AverageAmountsByCoverageTypeJson = JsonConvert.SerializeObject(averageAmountsByCoverageType);
         ViewBag.ClaimsByStateJson = JsonConvert.SerializeObject(claimsByState);
         ViewBag.ClaimsByPolicyEffectiveDatesJson = JsonConvert.SerializeObject(claimsByPolicyEffectiveDates);
-        ViewBag.FraudScoresJson = JsonConvert.SerializeObject(_fraudScores);
+        ViewBag.FraudScoresJson = JsonConvert.SerializeObject(_claims.Select(c => new { c.ClaimID, c.FraudLikelihood, c.FraudScore, c.AdjusterDetails, c.PolicyHolder, c.AccidentDetails }).ToList());
         ViewBag.FraudLikelihoodJson = JsonConvert.SerializeObject(fraudLikelihood);
         ViewBag.ClaimsByFraudLikelihoodJson = JsonConvert.SerializeObject(claimsByFraudLikelihood);
         ViewBag.FraudScoreDistributionJson = JsonConvert.SerializeObject(fraudScoreDistribution);
