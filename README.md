@@ -11,7 +11,12 @@ This project aims to detect fraudulent insurance claims using machine learning t
 - **Data Cleaning and Preparation**: Employs Python and Pandas to clean and preprocess the data, handle missing values, normalize features, and create new features like claim frequency.
 
 ### Machine Learning Integration
-- **Model Training**: Trains a machine learning model (e.g., decision tree or logistic regression) using the simulated claims dataset to predict the likelihood of a claim being fraudulent.
+- **Model Training**: Trains a neural network model using the simulated claims dataset to predict the likelihood of a claim being fraudulent. The model, named `EnhancedFraudDetectionModel`, is a multi-layer feedforward neural network with 5 layers. The training process involves the following steps:
+  1. **Data Loading and Preprocessing**: The training data is loaded from JSON files, and features are extracted from each claim. The dataset is then balanced using SMOTE (Synthetic Minority Over-sampling Technique) to handle class imbalance.
+  2. **Model Initialization**: The `EnhancedFraudDetectionModel` is initialized, which includes defining the architecture with layers, batch normalization, and dropout for regularization.
+  3. **Loss Function and Optimizer**: The model uses Cross-Entropy Loss as the loss function and the Adam optimizer for training.
+  4. **Training Loop**: The model is trained for 100 epochs. In each epoch, the optimizer resets gradients, performs a forward pass to compute predictions, calculates the loss, performs a backward pass to compute gradients, and updates the model parameters.
+  5. **Model Saving**: After training, the model's state dictionary is saved to a specified path for later use.
 - **SHAP Analysis**: Uses SHAP (SHapley Additive exPlanations) to interpret the model's predictions and understand the impact of each feature on the fraud likelihood score.
 
 <div style="text-align: center;">
