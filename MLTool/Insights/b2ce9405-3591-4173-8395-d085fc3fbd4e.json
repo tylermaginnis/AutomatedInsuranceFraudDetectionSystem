@@ -1,0 +1,118 @@
+{
+    "ClaimID": "b2ce9405-3591-4173-8395-d085fc3fbd4e",
+    "PolicyID": "226f336d-885f-4218-a60f-425f9c2ef46f",
+    "EffectiveDates": {
+        "StartDate": "2023-12-11",
+        "EndDate": "2024-12-10"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "de583bb3-2426-418d-8a13-91bb43af79cc",
+        "Name": "Zoe Carroll",
+        "PolicyNumber": "226f336d-885f-4218-a60f-425f9c2ef46f",
+        "ContactInformation": {
+            "Phone": "001-667-302-3459x6666",
+            "Email": "johnsondavid@example.net",
+            "Address": "385 Taylor Hills\nEast Johnny, WY 13145"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-20",
+        "Location": "87270 Chad Route\nLake Ginaburgh, MD 10393",
+        "Description": "Resource should feeling bill something effort. Main member let determine. Place she land total machine point always."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24694
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 1511
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 2714
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 3422
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 29565
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 61906,
+        "TotalApproved": 39617
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Jimenez",
+        "ContactInformation": {
+            "Phone": "768-655-2976x5825",
+            "Email": "bryan07@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/3ed2a5c7-c007-4490-9407-66e1fe13cce1"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-20T21:46:24Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-25T21:46:24Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-30T21:46:24Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Andersen, Jackson and Cline",
+        "Model": "push",
+        "Year": 2011,
+        "VIN": "080631ac-485b-4fbf-a9cf-7735a3e2eb66"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "David Grant",
+            "ContactInformation": {
+                "Phone": "+1-315-385-8026x92635",
+                "Email": "ymoreno@example.com"
+            },
+            "Statement": "Red for career Mr offer next. Notice technology must husband remain door. Black sometimes education although."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "b8280a13-89f1-4445-9a5f-cd645bb98d5a",
+        "OfficerName": "Amy Lee",
+        "ReportDetails": "Suggest issue perhaps most move person. Thus positive purpose deep without even.\nBody leg would lot."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 584,
+        "AnnualIncome": 173421,
+        "DebtToIncomeRatio": 0.65
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 4,
+        "LatePayments": 8,
+        "PolicyChanges": 2
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.4884116649627686,
+        -1.4429116249084473,
+        -1.3217626810073853
+    ]
+}

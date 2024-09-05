@@ -380,8 +380,12 @@
             }
           },
           "required": ["ClaimFrequency", "LatePayments", "PolicyChanges"]
+        },
+        "is_abnormal": {
+          "type": "boolean",
+          "description": "Flag indicating if the claim is abnormal"
         }
       },
-      "required": ["ClaimID", "PolicyID", "EffectiveDates", "PolicyHolder", "AccidentDetails", "Coverage", "ClaimStatus", "ClaimAmounts", "AdjusterDetails", "SupportingDocuments", "ClaimHistory", "ClaimantHistory", "VehicleInformation", "WitnessInformation", "PoliceReport", "ClaimantFinancialInformation", "ClaimantBehavior"]
+      "required": ["ClaimID", "PolicyID", "EffectiveDates", "PolicyHolder", "AccidentDetails", "Coverage", "ClaimStatus", "ClaimAmounts", "AdjusterDetails", "SupportingDocuments", "ClaimHistory", "ClaimantHistory", "VehicleInformation", "WitnessInformation", "PoliceReport", "ClaimantFinancialInformation", "ClaimantBehavior", "is_abnormal"]
     }
   }

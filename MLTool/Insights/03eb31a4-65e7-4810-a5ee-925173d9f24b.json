@@ -1,0 +1,118 @@
+{
+    "ClaimID": "03eb31a4-65e7-4810-a5ee-925173d9f24b",
+    "PolicyID": "6add0ad4-66c1-4914-a410-0254101a4645",
+    "EffectiveDates": {
+        "StartDate": "2023-09-29",
+        "EndDate": "2024-09-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3fee9ac6-66a2-4d19-b1c8-aa5a10f87384",
+        "Name": "Karen Powell",
+        "PolicyNumber": "6add0ad4-66c1-4914-a410-0254101a4645",
+        "ContactInformation": {
+            "Phone": "437-366-5253x0083",
+            "Email": "christine25@example.net",
+            "Address": "1689 May Walks\nSusanmouth, CT 19667"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-01-09",
+        "Location": "905 Taylor Mountain Apt. 550\nDeniseborough, DC 17810",
+        "Description": "Class forget general big never. Hard interesting none or. Concern big Congress always understand."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 81193
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 24264
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 57811
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 9970
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 82854
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 256092,
+        "TotalApproved": 236604
+    },
+    "AdjusterDetails": {
+        "Name": "Joseph Carlson",
+        "ContactInformation": {
+            "Phone": "(625)972-4962x27951",
+            "Email": "jeffreychoi@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/4b12f15e-42af-4dc2-9f38-71a802651f31"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-01-09T21:46:24Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-01-14T21:46:24Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-19T21:46:24Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Moore LLC",
+        "Model": "glass",
+        "Year": 2009,
+        "VIN": "2932667c-f870-488c-bb3c-7daf6439b66a"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "Holly Duran",
+            "ContactInformation": {
+                "Phone": "(340)207-7647x79659",
+                "Email": "bthomas@example.com"
+            },
+            "Statement": "Room interesting kitchen Mrs bag. Little name each foreign condition. Type summer floor lawyer start interesting."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "691b0852-c0b8-44ab-a207-876fc8fdef43",
+        "OfficerName": "Marcus Clarke",
+        "ReportDetails": "Door head success firm own. Tell road single light you eye. Entire simple part per road buy radio."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 391,
+        "AnnualIncome": 38972,
+        "DebtToIncomeRatio": 0.42
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 4,
+        "LatePayments": 5,
+        "PolicyChanges": 7
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.466886043548584,
+        -1.4296783208847046,
+        -1.3136707544326782
+    ]
+}

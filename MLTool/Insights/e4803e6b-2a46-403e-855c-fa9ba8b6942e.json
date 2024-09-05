@@ -1,0 +1,118 @@
+{
+    "ClaimID": "e4803e6b-2a46-403e-855c-fa9ba8b6942e",
+    "PolicyID": "7b78b8d6-37b5-4b88-a91e-c9c4cab72844",
+    "EffectiveDates": {
+        "StartDate": "2024-03-28",
+        "EndDate": "2025-03-28"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8bad7925-4731-40ac-8188-22d4d98d9339",
+        "Name": "Aaron Holmes",
+        "PolicyNumber": "7b78b8d6-37b5-4b88-a91e-c9c4cab72844",
+        "ContactInformation": {
+            "Phone": "001-803-216-8261x3189",
+            "Email": "jgarcia@example.org",
+            "Address": "119 Sharon Station\nNorth Erikland, MN 94269"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-05-22",
+        "Location": "2048 Derrick Ports Suite 292\nPort Fred, WA 85730",
+        "Description": "Street institution little piece management agency travel well. Thing case build nation. Bring environmental movie marriage meet show.\nPerform them spring. Safe walk building may body mouth."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 4246
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 39833
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6747
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8098
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 57485
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 116409,
+        "TotalApproved": 65666
+    },
+    "AdjusterDetails": {
+        "Name": "Harry Jones",
+        "ContactInformation": {
+            "Phone": "429-920-7329x5245",
+            "Email": "brownmichael@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ae94a100-2515-4e05-9c13-0f89e031c242"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-05-22T21:46:28Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-05-27T21:46:28Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-06-01T21:46:28Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "White Ltd",
+        "Model": "side",
+        "Year": 2017,
+        "VIN": "0e6bc80b-8281-42ae-8089-5ce476cccd14"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "Matthew Martinez",
+            "ContactInformation": {
+                "Phone": "971-821-2359",
+                "Email": "yosborne@example.net"
+            },
+            "Statement": "First spend control leader charge school. Go entire across thing cover front."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "c42a85b5-1d45-4bab-a573-0583ca0be1a2",
+        "OfficerName": "Katherine Little",
+        "ReportDetails": "Or thus state political. You concern short church month maybe rule.\nArtist artist role what leader. Friend program head experience."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 773,
+        "AnnualIncome": 36172,
+        "DebtToIncomeRatio": 0.85
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 5,
+        "LatePayments": 10,
+        "PolicyChanges": 3
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.4843220710754395,
+        -1.440514326095581,
+        -1.320228099822998
+    ]
+}

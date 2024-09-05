@@ -1,0 +1,118 @@
+{
+    "ClaimID": "2ef307e3-bde5-4a69-809a-0cfd96a6cbbe",
+    "PolicyID": "8bae4b6b-27b7-4347-9a08-6080516edb8a",
+    "EffectiveDates": {
+        "StartDate": "2024-01-12",
+        "EndDate": "2025-01-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "456419ef-ad62-4d91-bd0d-060349514341",
+        "Name": "Richard Young",
+        "PolicyNumber": "8bae4b6b-27b7-4347-9a08-6080516edb8a",
+        "ContactInformation": {
+            "Phone": "(360)711-4559",
+            "Email": "danielfisher@example.net",
+            "Address": "050 Jones Extensions\nNew Moniqueside, CT 24246"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-11-01",
+        "Location": "59029 Cox Lodge\nEast Kennethstad, MD 00690",
+        "Description": "Born president prevent local whether because decade. Strategy television positive entire give choice training pattern."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5197
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11641
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 89529
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 4887
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 7848
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 119102,
+        "TotalApproved": 89757
+    },
+    "AdjusterDetails": {
+        "Name": "Mrs. Amanda Strong",
+        "ContactInformation": {
+            "Phone": "(861)321-3050x528",
+            "Email": "mary70@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Repair Estimate",
+            "DocumentURL": "http://example.com/documents/9631666f-a6f8-401b-aa2f-8f98812814d5"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-11-01T21:46:24Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-06T21:46:24Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-11T21:46:24Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Miller and Sons",
+        "Model": "indeed",
+        "Year": 2011,
+        "VIN": "3a0e452f-281e-47cb-82d4-c6f20bd95458"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "Melissa Rosario",
+            "ContactInformation": {
+                "Phone": "988-235-2521x470",
+                "Email": "zowen@example.net"
+            },
+            "Statement": "Nor walk baby study.\nRepublican cut understand early drug green. Whole improve worry international behind development imagine unit."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "e35ea081-43f4-4751-b383-9d9b64779b58",
+        "OfficerName": "Jacob Tran",
+        "ReportDetails": "Respond crime network possible security. World project suffer throw. East four term strategy. Small least best forget particular pressure where institution."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 739,
+        "AnnualIncome": 189409,
+        "DebtToIncomeRatio": 0.96
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 4,
+        "LatePayments": 10,
+        "PolicyChanges": 1
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.483748197555542,
+        -1.440077543258667,
+        -1.3199715614318848
+    ]
+}

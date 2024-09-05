@@ -1,0 +1,118 @@
+{
+    "ClaimID": "4071c144-74b0-4cc4-943f-268f23cb7bda",
+    "PolicyID": "b7e59881-b901-48e6-a479-8aefb4bc210f",
+    "EffectiveDates": {
+        "StartDate": "2024-04-16",
+        "EndDate": "2025-04-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "42c31de4-3cf5-4547-b6c5-6e7475cad206",
+        "Name": "Natalie Johnson",
+        "PolicyNumber": "b7e59881-b901-48e6-a479-8aefb4bc210f",
+        "ContactInformation": {
+            "Phone": "001-381-549-5128x653",
+            "Email": "katiemiller@example.org",
+            "Address": "290 Mccann Avenue\nAndrebury, SD 08126"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-09-18",
+        "Location": "9664 John Terrace\nTiffanyhaven, NE 32991",
+        "Description": "Wish foot phone question side pretty still. Rate together feeling under cold he. Large young too reflect positive win."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 125425
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 154251
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 122188
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 42814
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 14580
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 459258,
+        "TotalApproved": 46176
+    },
+    "AdjusterDetails": {
+        "Name": "Tony Mcguire",
+        "ContactInformation": {
+            "Phone": "569.241.2254x485",
+            "Email": "phillip16@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/342fb1c5-4955-49ca-a650-63e8e1978e16"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-09-18T21:46:28Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-09-23T21:46:28Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-09-28T21:46:28Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Warner-Clark",
+        "Model": "good",
+        "Year": 2004,
+        "VIN": "879b7937-7135-434d-b037-ad528c919be9"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "Mackenzie Ray",
+            "ContactInformation": {
+                "Phone": "001-328-806-3662x182",
+                "Email": "susan49@example.org"
+            },
+            "Statement": "That late Democrat water. Worry without economic example black."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "89b7d92e-5b94-49bc-a1b6-7c2620a0acc0",
+        "OfficerName": "William Jones",
+        "ReportDetails": "Coach art public size hit step apply. Enter indeed poor eat too maintain. Tax city return institution tree film quality."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 842,
+        "AnnualIncome": 48432,
+        "DebtToIncomeRatio": 0.16
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 3,
+        "LatePayments": 1,
+        "PolicyChanges": 6
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.4560861587524414,
+        -1.4235007762908936,
+        -1.3093087673187256
+    ]
+}

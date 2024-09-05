@@ -1,0 +1,118 @@
+{
+    "ClaimID": "42a93864-0386-4d23-8057-00a68bda2d9b",
+    "PolicyID": "a7ef0d40-ba99-4950-af7f-5da77aebeeff",
+    "EffectiveDates": {
+        "StartDate": "2023-10-12",
+        "EndDate": "2024-10-11"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "bc4e60e0-55ab-4ca4-93c4-dfb2ca094eff",
+        "Name": "Natalie Gonzalez DDS",
+        "PolicyNumber": "a7ef0d40-ba99-4950-af7f-5da77aebeeff",
+        "ContactInformation": {
+            "Phone": "242-305-2085x3138",
+            "Email": "welchsteven@example.net",
+            "Address": "58032 Brittany Hills\nJosebury, DC 19006"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2023-12-26",
+        "Location": "4923 Mary Walk Apt. 193\nPort Krystalborough, AS 05558",
+        "Description": "Edge building forget. Quite carry score cover ready cup side."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 166880
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 3772
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 38814
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 66893
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 6375
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 282734,
+        "TotalApproved": 46048
+    },
+    "AdjusterDetails": {
+        "Name": "Jason Petty",
+        "ContactInformation": {
+            "Phone": "+1-742-867-8858",
+            "Email": "michaelhamilton@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/0935fb61-1ce2-4590-ac2e-3f79c4ef46da"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2023-12-26T21:46:28Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2023-12-31T21:46:28Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-01-05T21:46:28Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Mccullough Inc",
+        "Model": "else",
+        "Year": 2002,
+        "VIN": "6498c566-cf4d-488f-9dc4-322a51c7e2e2"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "Julie Greene",
+            "ContactInformation": {
+                "Phone": "891-793-0287x807",
+                "Email": "nicolesmith@example.com"
+            },
+            "Statement": "Knowledge what far security development computer usually cut. Send four analysis successful. Professional sister put water standard similar election."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "c45e4479-1720-42f7-a111-af6560307d35",
+        "OfficerName": "Jacqueline Wong",
+        "ReportDetails": "Minute too attack cell. Sign western old authority president.\nMethod also service law child scientist teach also. Yeah system table consider machine."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 806,
+        "AnnualIncome": 196333,
+        "DebtToIncomeRatio": 0.65
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 1,
+        "LatePayments": 7,
+        "PolicyChanges": 3
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.4684054851531982,
+        -1.430528998374939,
+        -1.3140214681625366
+    ]
+}

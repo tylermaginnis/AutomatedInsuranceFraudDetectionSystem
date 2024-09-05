@@ -1,0 +1,118 @@
+{
+    "ClaimID": "ef20cb47-ec51-4299-9899-a060edd7eee8",
+    "PolicyID": "1c1796b2-944f-4c28-9885-39fe38729218",
+    "EffectiveDates": {
+        "StartDate": "2023-12-06",
+        "EndDate": "2024-12-05"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3641489a-f80b-433b-97ce-991199364123",
+        "Name": "Douglas King",
+        "PolicyNumber": "1c1796b2-944f-4c28-9885-39fe38729218",
+        "ContactInformation": {
+            "Phone": "8647940656",
+            "Email": "ethomas@example.org",
+            "Address": "PSC 4689, Box 3609\nAPO AE 07793"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-17",
+        "Location": "986 Barbara Mountain\nGlennburgh, LA 31635",
+        "Description": "Case customer job star PM.\nRed newspaper environment fight boy. Market contain adult. Raise debate effect tough appear spend still spring.\nWindow off a decide. In only consumer work single put."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 39912
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 8740
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 9292
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 7978
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 23598
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 89520,
+        "TotalApproved": 49811
+    },
+    "AdjusterDetails": {
+        "Name": "Gary Martinez",
+        "ContactInformation": {
+            "Phone": "5653810134",
+            "Email": "brianeaton@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/441e1843-8db8-4cfa-baa1-8bc4ba687b04"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-17T21:46:24Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-22T21:46:24Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-27T21:46:24Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Moses Ltd",
+        "Model": "fly",
+        "Year": 2017,
+        "VIN": "10c6a967-b282-4a6f-801d-a82a794f563d"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "Heather Rodriguez",
+            "ContactInformation": {
+                "Phone": "001-630-736-9316x90611",
+                "Email": "gloria90@example.org"
+            },
+            "Statement": "Education though father move manage. Send everything price meet PM despite. Story teach table husband weight scientist.\nMain ahead wish message before. But check answer.\nAnything must time age."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "47adb071-7e7e-4db7-994d-d60e1cc7b044",
+        "OfficerName": "John Mitchell",
+        "ReportDetails": "Plan piece spend option human impact student. Office agent article especially plant war response. Them apply significant read floor deal."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 625,
+        "AnnualIncome": 161678,
+        "DebtToIncomeRatio": 0.5
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 6,
+        "LatePayments": 3,
+        "PolicyChanges": 5
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.485668897628784,
+        -1.44122314453125,
+        -1.320720911026001
+    ]
+}

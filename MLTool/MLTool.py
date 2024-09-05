@@ -6,23 +6,31 @@ import torch.optim as optim
 import argparse
 import shap
 from datetime import datetime
+from imblearn.over_sampling import SMOTE
+import numpy as np
+from torch.utils.data import DataLoader, TensorDataset
+from sklearn.metrics import precision_score, recall_score, f1_score, confusion_matrix
 
 class EnhancedFraudDetectionModel(nn.Module):
     def __init__(self):
         super(EnhancedFraudDetectionModel, self).__init__()
-        self.fc1 = nn.Linear(20, 256)  # Adjusted input size to 20
-        self.bn1 = nn.BatchNorm1d(256)
+        self.fc1 = nn.Linear(13, 512)  # Adjusted input features to match the data
+        self.bn1 = nn.BatchNorm1d(512)
         self.dropout1 = nn.Dropout(0.5)
         
-        self.fc2 = nn.Linear(256, 128)
-        self.bn2 = nn.BatchNorm1d(128)
+        self.fc2 = nn.Linear(512, 256)
+        self.bn2 = nn.BatchNorm1d(256)
         self.dropout2 = nn.Dropout(0.5)
         
-        self.fc3 = nn.Linear(128, 64)
-        self.bn3 = nn.BatchNorm1d(64)
+        self.fc3 = nn.Linear(256, 128)
+        self.bn3 = nn.BatchNorm1d(128)
         self.dropout3 = nn.Dropout(0.5)
         
-        self.fc4 = nn.Linear(64, 3)
+        self.fc4 = nn.Linear(128, 64)
+        self.bn4 = nn.BatchNorm1d(64)
+        self.dropout4 = nn.Dropout(0.5)
+        
+        self.fc5 = nn.Linear(64, 3)
 
     def forward(self, x):
         x = torch.relu(self.bn1(self.fc1(x)))
@@ -34,50 +42,44 @@ class EnhancedFraudDetectionModel(nn.Module):
         x = torch.relu(self.bn3(self.fc3(x)))
         x = self.dropout3(x)
         
-        x = self.fc4(x)
+        x = torch.relu(self.bn4(self.fc4(x)))
+        x = self.dropout4(x)
+        
+        x = self.fc5(x)
         return x
 
 def load_model(model_path):
     print(f"Loading model from {model_path}")
-    model = FraudDetectionModel()
-    model.load_state_dict(torch.load(model_path))
+    model = EnhancedFraudDetectionModel()
+    state_dict = torch.load(model_path)
+    new_state_dict = {}
+    for k, v in state_dict.items():
+        if k.startswith("module."):
+            new_state_dict[k[7:]] = v
+        else:
+            new_state_dict[k] = v
+    model.load_state_dict(new_state_dict)
     model.eval()
     print("Model loaded successfully")
     return model
 
 def extract_features_from_claim(claim):
-    print(f"Extracting features from claim ID: {claim.get('ClaimID', 'unknown_claim')}")
-    # Extract features from the claim
-    features = [
-        claim["Coverage"]["BIL"]["ClaimedAmount"],
-        claim["Coverage"]["PDL"]["ClaimedAmount"],
-        claim["Coverage"]["PIP"]["ClaimedAmount"],
-        claim["Coverage"]["CollisionCoverage"]["ClaimedAmount"],
-        claim["Coverage"]["ComprehensiveCoverage"]["ClaimedAmount"],
-        claim["ClaimAmounts"]["TotalClaimed"],
-        claim["ClaimAmounts"]["TotalApproved"],
-        len(claim["SupportingDocuments"]),
-        1 if claim["ClaimStatus"] == "Approved" else 0,
-        1 if claim["ClaimStatus"] == "In Review" else 0,
-        calculate_time_between_claims(claim),
-        len(claim["ClaimHistory"]),  # Number of entries in claim history
-        sum(1 for entry in claim["ClaimHistory"] if entry["Status"] == "Approved"),  # Number of times claim was approved in history
-        sum(1 for entry in claim["ClaimHistory"] if entry["Status"] == "In Review"),  # Number of times claim was in review in history
-        sum(1 for entry in claim["ClaimHistory"] if entry["Status"] == "Filed"),  # Number of times claim was filed in history
-        sum(1 for entry in claim["ClaimHistory"] if entry["Status"] == "Closed"),  # Number of times claim was closed in history
-        claim["ClaimantFinancialInformation"]["CreditScore"],
-        claim["ClaimantFinancialInformation"]["AnnualIncome"],
-        claim["ClaimantFinancialInformation"]["DebtToIncomeRatio"],
-        claim["ClaimantBehavior"]["ClaimFrequency"],
-        claim["ClaimantBehavior"]["LatePayments"],
-        claim["ClaimantBehavior"]["PolicyChanges"]
-    ]
-    features = features[:20]  # Ensure only 20 features are used
-    print(f"Features extracted: {features}")
-    features = torch.tensor(features, dtype=torch.float32)
-    features = (features - features.mean()) / features.std()  # Normalize features
-    return features
-
+    features = {
+        "TotalClaimed": claim["ClaimAmounts"]["TotalClaimed"],
+        "TotalApproved": claim["ClaimAmounts"]["TotalApproved"],
+        "CreditScore": claim["ClaimantFinancialInformation"]["CreditScore"],
+        "AnnualIncome": claim["ClaimantFinancialInformation"]["AnnualIncome"],
+        "DebtToIncomeRatio": claim["ClaimantFinancialInformation"]["DebtToIncomeRatio"],
+        "ClaimFrequency": claim["ClaimantBehavior"]["ClaimFrequency"],
+        "LatePayments": claim["ClaimantBehavior"]["LatePayments"],
+        "PolicyChanges": claim["ClaimantBehavior"]["PolicyChanges"],
+        "CoverageBIL": claim["Coverage"]["BIL"]["ClaimedAmount"],
+        "CoveragePDL": claim["Coverage"]["PDL"]["ClaimedAmount"],
+        "CoveragePIP": claim["Coverage"]["PIP"]["ClaimedAmount"],
+        "CoverageCollision": claim["Coverage"]["CollisionCoverage"]["ClaimedAmount"],
+        "CoverageComprehensive": claim["Coverage"]["ComprehensiveCoverage"]["ClaimedAmount"]
+    }
+    return torch.tensor(list(features.values()), dtype=torch.float32)
 
 def calculate_time_between_claims(claim):
     claim_history = claim.get("ClaimHistory", [])
@@ -101,7 +103,7 @@ def calculate_fraud_likelihood(model, claim):
     print(f"Fraud likelihood for claim ID {claim.get('ClaimID', 'unknown_claim')}: {likelihood}")
     return likelihood, score
 
-def process_normalized_json(input_file, output_dir, model_path): 
+def process_normalized_json(input_file, output_dir, model_path):
     print(f"Processing normalized JSON from {input_file}")
     # Load the trained model
     model = load_model(model_path)
@@ -128,38 +130,120 @@ def process_normalized_json(input_file, output_dir, model_path):
             json.dump(claim, outfile, indent=4)
         print(f"Processed claim ID {claim_id} and saved to {output_file}")
 
-def train_model(training_data, model_path, generate_shap=False):
-    model = EnhancedFraudDetectionModel()
-    class_weights = torch.tensor([1.0, 2.0, 3.0])  # Example weights, adjust based on class distribution
-    criterion = nn.CrossEntropyLoss(weight=class_weights)
-    optimizer = optim.Adam(model.parameters(), lr=0.001)
-    
-    batch_size = 16  # Example batch size
-    for epoch in range(100):  # Example number of epochs
-        epoch_loss = 0  # Track loss for the epoch
-        for i in range(0, len(training_data), batch_size):
-            batch_of_claims = training_data[i:i + batch_size]
-            features_batch = torch.stack([extract_features_from_claim(claim) for claim in batch_of_claims])
-            labels_batch = torch.tensor([0 if claim.get("FraudLikelihood", "low") == "low" else 1 if claim.get("FraudLikelihood", "medium") == "medium" else 2 for claim in batch_of_claims], dtype=torch.long)
-            
-            optimizer.zero_grad()
-            outputs = model(features_batch)  # Process batch
-            loss = criterion(outputs, labels_batch)
-            loss.backward()
-            optimizer.step()
-            
-            epoch_loss += loss.item()  # Accumulate loss
-        
-        print(f"Epoch {epoch+1}/100, Loss: {epoch_loss/len(training_data)}")  # Print average loss for the epoch
-    
-    torch.save(model.state_dict(), model_path)
-    print(f"Model training completed and saved to {model_path}")
+def balance_dataset(features, labels):
+    smote = SMOTE()
+    features_resampled, labels_resampled = smote.fit_resample(features, labels)
+    return features_resampled, labels_resampled
 
+def train_model(training_data, model_path, generate_shap=False):
+    # Load and preprocess training data
+    normal_claims = [claim for claim in training_data if not claim.get("is_abnormal", False)]
+    abnormal_claims = [claim for claim in training_data if claim.get("is_abnormal", False)]
+    
+    normal_features = torch.stack([extract_features_from_claim(claim) for claim in normal_claims])
+    abnormal_features = torch.stack([extract_features_from_claim(claim) for claim in abnormal_claims])
+    
+    normal_labels = torch.zeros(len(normal_features), dtype=torch.long)
+    abnormal_labels = torch.ones(len(abnormal_features), dtype=torch.long)
+    
+    features = torch.cat([normal_features, abnormal_features])
+    labels = torch.cat([normal_labels, abnormal_labels])
+    
+    # Balance the dataset
+    features, labels = balance_dataset(features, labels)
+    
+    # Convert numpy arrays to torch tensors
+    features = torch.tensor(features, dtype=torch.float32)
+    labels = torch.tensor(labels, dtype=torch.long)
+    
+    # Define and train the model
+    model = EnhancedFraudDetectionModel()  # Use the same model architecture
+    criterion = torch.nn.CrossEntropyLoss()
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    
+    for epoch in range(100):  # Number of epochs
+        optimizer.zero_grad()
+        outputs = model(features)
+        loss = criterion(outputs, labels)
+        loss.backward()
+        optimizer.step()
+    
+    # Save the trained model
+    torch.save(model.state_dict(), model_path)
+    
     if generate_shap:
-        print("Generating SHAP values without checking additivity")
-        explainer = shap.DeepExplainer(model, torch.stack([extract_features_from_claim(claim) for claim in training_data]))
-        shap_values = explainer.shap_values(torch.stack([extract_features_from_claim(claim) for claim in training_data]), check_additivity=False)
-        shap.summary_plot(shap_values, torch.stack([extract_features_from_claim(claim) for claim in training_data]))
+        # Generate SHAP values for model interpretability
+        pass  # Implement SHAP value generation if needed
+
+def calculate_fraud_likelihood(model, claim):
+    print(f"Calculating fraud likelihood for claim ID: {claim.get('ClaimID', 'unknown_claim')}")
+    features = extract_features_from_claim(claim)
+    features = features.unsqueeze(0)  # Add batch dimension
+    with torch.no_grad():
+        output = model(features)
+        print(f"Model output: {output}")  # Debug print to inspect model output
+        _, predicted = torch.max(output, 1)
+        likelihood = ["low", "medium", "high"][predicted.item()]
+        score = output.squeeze().tolist()  # Convert tensor to list for JSON serialization
+    print(f"Fraud likelihood for claim ID {claim.get('ClaimID', 'unknown_claim')}: {likelihood}")
+    return likelihood, score
+
+def process_normalized_json(input_file, output_dir, model_path):
+    print(f"Processing normalized JSON from {input_file}")
+    # Load the trained model
+    model = load_model(model_path)
+    
+    # Read the JSON data from the input file
+    with open(input_file, 'r') as file:
+        data = json.load(file)
+    
+    # Ensure the output directory exists
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    # Process each claim in the data
+    for claim in data:
+        claim_id = claim.get("ClaimID", "unknown_claim")
+        
+        # Calculate fraud likelihood and score
+        fraud_likelihood, fraud_score = calculate_fraud_likelihood(model, claim)
+        claim["FraudLikelihood"] = fraud_likelihood
+        claim["FraudScore"] = fraud_score  # Add the raw score to the claim
+        
+        output_file = os.path.join(output_dir, f"{claim_id}.json")
+        with open(output_file, 'w') as outfile:
+            json.dump(claim, outfile, indent=4)
+        print(f"Processed claim ID {claim_id} and saved to {output_file}")
+
+def evaluate_model(model, test_data):
+    model.eval()
+    correct = 0
+    total = 0
+    all_labels = []
+    all_predictions = []
+    with torch.no_grad():
+        for claim in test_data:
+            features = extract_features_from_claim(claim)
+            fraud_likelihood = claim.get("FraudLikelihood", "low")
+            label = 0 if fraud_likelihood == "low" else 1 if fraud_likelihood == "medium" else 2
+            outputs = model(features.unsqueeze(0))
+            _, predicted = torch.max(outputs.data, 1)
+            total += 1
+            correct += (predicted == label).sum().item()
+            all_labels.append(label)
+            all_predictions.append(predicted.item())
+    
+    accuracy = 100 * correct / total
+    precision = precision_score(all_labels, all_predictions, average='weighted')
+    recall = recall_score(all_labels, all_predictions, average='weighted')
+    f1 = f1_score(all_labels, all_predictions, average='weighted')
+    conf_matrix = confusion_matrix(all_labels, all_predictions)
+    
+    print(f'Accuracy: {accuracy}%')
+    print(f'Precision: {precision}')
+    print(f'Recall: {recall}')
+    print(f'F1 Score: {f1}')
+    print(f'Confusion Matrix:\n{conf_matrix}')
 
 def main():
     parser = argparse.ArgumentParser(description='Fraud Detection Model')

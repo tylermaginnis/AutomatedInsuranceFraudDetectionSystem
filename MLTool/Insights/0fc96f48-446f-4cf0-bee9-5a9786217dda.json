@@ -1,0 +1,118 @@
+{
+    "ClaimID": "0fc96f48-446f-4cf0-bee9-5a9786217dda",
+    "PolicyID": "1c1796b2-944f-4c28-9885-39fe38729218",
+    "EffectiveDates": {
+        "StartDate": "2024-01-01",
+        "EndDate": "2024-12-31"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3641489a-f80b-433b-97ce-991199364123",
+        "Name": "Douglas King",
+        "PolicyNumber": "1c1796b2-944f-4c28-9885-39fe38729218",
+        "ContactInformation": {
+            "Phone": "8647940656",
+            "Email": "ethomas@example.org",
+            "Address": "PSC 4689, Box 3609\nAPO AE 07793"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-07-15",
+        "Location": "267 Krista Curve\nAbigailview, NH 64404",
+        "Description": "Mean up note heart.\nLeast listen toward just factor help.\nGlass method owner involve. Morning safe visit sure effect knowledge. Wall community night through. Agree tonight a case."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11508
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 58912
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 17092
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 79322
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 11589
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 178423,
+        "TotalApproved": 126530
+    },
+    "AdjusterDetails": {
+        "Name": "Mary Schneider",
+        "ContactInformation": {
+            "Phone": "471-429-5580",
+            "Email": "dgregory@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Police Report",
+            "DocumentURL": "http://example.com/documents/fe4ebad8-f593-42b9-aac0-62381f5a9ea6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-07-15T21:46:24Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-07-20T21:46:24Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-07-25T21:46:24Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Rios Ltd",
+        "Model": "voice",
+        "Year": 2006,
+        "VIN": "92a10643-9474-470c-8d4d-9707bb6e56d0"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "William Buckley",
+            "ContactInformation": {
+                "Phone": "(987)501-9992",
+                "Email": "carlygarcia@example.net"
+            },
+            "Statement": "Eight appear name job seven station whatever. Red effort color exactly forward know. Return recently couple tough treat cup.\nPart second step nor. Trip stop one still."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "f8fb3ac9-3264-4563-9a45-f14c6ee4040b",
+        "OfficerName": "Keith Marshall",
+        "ReportDetails": "Nice actually same morning fight miss. Claim century they seat there maintain. Factor fly much accept thousand lose answer."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 341,
+        "AnnualIncome": 142772,
+        "DebtToIncomeRatio": 0.38
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 0,
+        "LatePayments": 0,
+        "PolicyChanges": 2
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.476905345916748,
+        -1.4356284141540527,
+        -1.3174049854278564
+    ]
+}

@@ -135,102 +135,26 @@ def generate_claim(policy_holder, claim_id, schema, is_abnormal=False):
             "ClaimFrequency": random.randint(0, 10),
             "LatePayments": random.randint(0, 10),
             "PolicyChanges": random.randint(0, 10)
-        }
+        },
+        "is_abnormal": is_abnormal  # Add the is_abnormal flag
     }
     
     # Ensure TotalClaimed is never 0
-    claim["ClaimAmounts"]["TotalClaimed"] = random.randint(1000, 200000)
+    claim["ClaimAmounts"]["TotalClaimed"] = sum([coverage["ClaimedAmount"] for coverage in claim["Coverage"].values()])
     
     # Ensure TotalApproved does not exceed TotalClaimed
     claim["ClaimAmounts"]["TotalApproved"] = random.randint(1000, claim["ClaimAmounts"]["TotalClaimed"])
+    
     if is_abnormal:
-        # Generate highly abnormal distributions of data
-        claim["ClaimAmounts"]["TotalClaimed"] = random.randint(1000000, 5000000)
-        claim["ClaimAmounts"]["TotalApproved"] = random.randint(500000, claim["ClaimAmounts"]["TotalClaimed"])
-        for coverage_type in claim["Coverage"]:
-            claim["Coverage"][coverage_type]["ClaimedAmount"] = random.randint(100000, 1000000)
-        
-        # Trigger features intentionally
-        claim["Coverage"]["BIL"]["ClaimedAmount"] = random.randint(900000, 1000000)
-        claim["Coverage"]["PDL"]["ClaimedAmount"] = random.randint(900000, 1000000)
-        claim["Coverage"]["PIP"]["ClaimedAmount"] = random.randint(900000, 1000000)
-        claim["Coverage"]["CollisionCoverage"]["ClaimedAmount"] = random.randint(900000, 1000000)
-        claim["Coverage"]["ComprehensiveCoverage"]["ClaimedAmount"] = random.randint(900000, 1000000)
-        claim["ClaimAmounts"]["TotalClaimed"] = sum([
-            claim["Coverage"]["BIL"]["ClaimedAmount"],
-            claim["Coverage"]["PDL"]["ClaimedAmount"],
-            claim["Coverage"]["PIP"]["ClaimedAmount"],
-            claim["Coverage"]["CollisionCoverage"]["ClaimedAmount"],
-            claim["Coverage"]["ComprehensiveCoverage"]["ClaimedAmount"]
-        ])
-        claim["ClaimAmounts"]["TotalApproved"] = random.randint(500000, claim["ClaimAmounts"]["TotalClaimed"])
-        claim["SupportingDocuments"] = [
-            {
-                "DocumentType": "Police Report",
-                "DocumentURL": f"http://example.com/documents/{uuid.uuid4()}"
-            },
-            {
-                "DocumentType": "Medical Report",
-                "DocumentURL": f"http://example.com/documents/{uuid.uuid4()}"
-            },
-            {
-                "DocumentType": "Repair Estimate",
-                "DocumentURL": f"http://example.com/documents/{uuid.uuid4()}"
-            },
-            {
-                "DocumentType": "Witness Statement",
-                "DocumentURL": f"http://example.com/documents/{uuid.uuid4()}"
-            }
-        ]
-        claim["ClaimStatus"] = "Approved"
-        claim["ClaimHistory"] = [
-            {
-                "Status": "Filed",
-                "Date": accident_date.strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "Notes": "Initial claim filed"
-            },
-            {
-                "Status": "In Review",
-                "Date": (accident_date + timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "Notes": "Claim is being reviewed"
-            },
-            {
-                "Status": "Approved",
-                "Date": (accident_date + timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "Notes": "Claim approved"
-            }
-        ]
-    else:
-        # Generate normal distributions of data
-        claim["ClaimAmounts"]["TotalClaimed"] = random.randint(1000, 200000)
-        claim["ClaimAmounts"]["TotalApproved"] = random.randint(1000, claim["ClaimAmounts"]["TotalClaimed"])
-        for coverage_type in claim["Coverage"]:
-            claim["Coverage"][coverage_type]["ClaimedAmount"] = random.randint(1000, 200000)
-        
-        claim["SupportingDocuments"] = [
-            {
-                "DocumentType": random.choice(["Police Report", "Medical Report", "Repair Estimate", "Witness Statement"]),
-                "DocumentURL": f"http://example.com/documents/{uuid.uuid4()}"
-            }
-        ]
-        claim["ClaimStatus"] = random.choice(["Filed", "In Review", "Approved", "Closed"])
-        claim["ClaimHistory"] = [
-            {
-                "Status": "Filed",
-                "Date": accident_date.strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "Notes": "Initial claim filed"
-            },
-            {
-                "Status": "In Review",
-                "Date": (accident_date + timedelta(days=5)).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "Notes": "Claim is being reviewed"
-            },
-            {
-                "Status": "Approved",
-                "Date": (accident_date + timedelta(days=10)).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "Notes": "Claim approved"
-            }
-        ]
+        # Introduce abnormal patterns for fraudulent claims
+        claim["ClaimantFinancialInformation"]["CreditScore"] = random.randint(300, 500)
+        claim["ClaimantBehavior"]["ClaimFrequency"] = random.randint(5, 10)
+        claim["ClaimantBehavior"]["LatePayments"] = random.randint(5, 10)
+        claim["ClaimantBehavior"]["PolicyChanges"] = random.randint(5, 10)
+        for coverage in claim["Coverage"].values():
+            coverage["ClaimedAmount"] = random.randint(4000000, 5000000)
+        claim["ClaimAmounts"]["TotalClaimed"] = sum([coverage["ClaimedAmount"] for coverage in claim["Coverage"].values()])
+        claim["ClaimAmounts"]["TotalApproved"] = random.randint(1000000, claim["ClaimAmounts"]["TotalClaimed"])
     
     return claim
 
@@ -243,7 +167,7 @@ def generate_claims(num_claims, num_policy_holders, schema, is_abnormal):
     for i in range(num_claims):
         policy_holder = random.choice(policy_holders)
         is_fraudulent = i < num_fraudulent_claims
-        claim = generate_claim(policy_holder, str(uuid.uuid4()), schema, is_abnormal)
+        claim = generate_claim(policy_holder, str(uuid.uuid4()), schema, is_fraudulent)
         claims.append(claim)
     
     return claims

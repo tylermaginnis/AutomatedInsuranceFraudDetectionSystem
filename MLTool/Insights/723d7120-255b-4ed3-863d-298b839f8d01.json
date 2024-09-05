@@ -1,0 +1,118 @@
+{
+    "ClaimID": "723d7120-255b-4ed3-863d-298b839f8d01",
+    "PolicyID": "1c1796b2-944f-4c28-9885-39fe38729218",
+    "EffectiveDates": {
+        "StartDate": "2023-12-08",
+        "EndDate": "2024-12-07"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "3641489a-f80b-433b-97ce-991199364123",
+        "Name": "Douglas King",
+        "PolicyNumber": "1c1796b2-944f-4c28-9885-39fe38729218",
+        "ContactInformation": {
+            "Phone": "8647940656",
+            "Email": "ethomas@example.org",
+            "Address": "PSC 4689, Box 3609\nAPO AE 07793"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-20",
+        "Location": "5981 Bullock Divide Apt. 628\nMitchellmouth, WA 58431",
+        "Description": "Management blood focus let wide hundred run. Happy control week subject low yard. Price night short good."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 29692
+        },
+        "PDL": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 1920
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5527
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 2694
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 4013
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 43846,
+        "TotalApproved": 12997
+    },
+    "AdjusterDetails": {
+        "Name": "Scott Myers",
+        "ContactInformation": {
+            "Phone": "9338622096",
+            "Email": "iwaters@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c0bc8ce9-b0be-4d3b-94e1-5981f94b8d62"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-20T21:46:24Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-10-25T21:46:24Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-10-30T21:46:24Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Martin-Copeland",
+        "Model": "green",
+        "Year": 2010,
+        "VIN": "a2b0d7c3-22ef-4036-b1db-3271cd1be469"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "Sara Myers",
+            "ContactInformation": {
+                "Phone": "(360)807-3322x9055",
+                "Email": "donnawhite@example.com"
+            },
+            "Statement": "We director gas record far investment. Way set no participant. Door civil itself."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "b5e3991e-003f-4183-a328-d59c04abb12b",
+        "OfficerName": "Lisa Jenkins",
+        "ReportDetails": "Much will produce never edge idea. Trade speak thousand morning remember Republican break each.\nOf book pattern mother think. Page phone feel no record thus station."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 466,
+        "AnnualIncome": 42339,
+        "DebtToIncomeRatio": 0.61
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 2,
+        "LatePayments": 4,
+        "PolicyChanges": 3
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.4911117553710938,
+        -1.4446208477020264,
+        -1.3228116035461426
+    ]
+}

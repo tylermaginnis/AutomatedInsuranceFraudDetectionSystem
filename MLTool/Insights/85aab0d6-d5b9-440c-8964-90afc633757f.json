@@ -1,0 +1,118 @@
+{
+    "ClaimID": "85aab0d6-d5b9-440c-8964-90afc633757f",
+    "PolicyID": "7b78b8d6-37b5-4b88-a91e-c9c4cab72844",
+    "EffectiveDates": {
+        "StartDate": "2023-10-09",
+        "EndDate": "2024-10-08"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "8bad7925-4731-40ac-8188-22d4d98d9339",
+        "Name": "Aaron Holmes",
+        "PolicyNumber": "7b78b8d6-37b5-4b88-a91e-c9c4cab72844",
+        "ContactInformation": {
+            "Phone": "001-803-216-8261x3189",
+            "Email": "jgarcia@example.org",
+            "Address": "119 Sharon Station\nNorth Erikland, MN 94269"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-04-07",
+        "Location": "07789 Kathryn Mountain Apt. 025\nHolmesberg, WV 82400",
+        "Description": "Meeting walk away understand public father. Support protect indicate. Order project activity eight ground either cold."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5477
+        },
+        "PDL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 94495
+        },
+        "PIP": {
+            "CoverageLimit": 200000,
+            "ClaimedAmount": 34762
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 9641
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 76872
+        }
+    },
+    "ClaimStatus": "In Review",
+    "ClaimAmounts": {
+        "TotalClaimed": 221247,
+        "TotalApproved": 174663
+    },
+    "AdjusterDetails": {
+        "Name": "Jonathan Miller",
+        "ContactInformation": {
+            "Phone": "001-471-681-8199x270",
+            "Email": "parrishmatthew@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Witness Statement",
+            "DocumentURL": "http://example.com/documents/630a3516-3dd9-4083-8394-5aafaa9df356"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-04-07T21:46:28Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-04-12T21:46:28Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-04-17T21:46:28Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Smith Group",
+        "Model": "church",
+        "Year": 2007,
+        "VIN": "af8620d0-8658-49b6-ae4b-e5ff5e19cb3a"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "Willie Carroll",
+            "ContactInformation": {
+                "Phone": "945-787-9509",
+                "Email": "joneskelly@example.net"
+            },
+            "Statement": "Management no forget box Mrs bad develop beautiful. Small boy into contain trial maintain many. Resource respond couple region grow traditional home."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "7e5badcd-b559-4383-abce-e9d8d896ffcb",
+        "OfficerName": "Timothy Olson",
+        "ReportDetails": "Respond ago great follow morning. Professional analysis pay now everyone response issue. Language factor discuss much company decision common foot."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 448,
+        "AnnualIncome": 31202,
+        "DebtToIncomeRatio": 0.49
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 9,
+        "LatePayments": 10,
+        "PolicyChanges": 0
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.472539186477661,
+        -1.4332913160324097,
+        -1.31580650806427
+    ]
+}

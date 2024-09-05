@@ -1,0 +1,118 @@
+{
+    "ClaimID": "da72a790-823d-488f-898d-c4879036bec2",
+    "PolicyID": "099396cb-7ecc-420d-8fd9-6cc513b2e870",
+    "EffectiveDates": {
+        "StartDate": "2024-02-24",
+        "EndDate": "2025-02-23"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "c116caae-7d55-47aa-a8b7-8de14d333d7f",
+        "Name": "Angela Brown",
+        "PolicyNumber": "099396cb-7ecc-420d-8fd9-6cc513b2e870",
+        "ContactInformation": {
+            "Phone": "668.614.4270",
+            "Email": "duncanjonathan@example.net",
+            "Address": "34380 Castro Mountain\nNew Christopher, NY 41404"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2025-02-17",
+        "Location": "03384 Christopher Avenue\nNorth Jennifer, HI 96128",
+        "Description": "Decide fall better surface authority."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 86799
+        },
+        "PDL": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 193752
+        },
+        "PIP": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 38220
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 1471
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 19805
+        }
+    },
+    "ClaimStatus": "Closed",
+    "ClaimAmounts": {
+        "TotalClaimed": 340047,
+        "TotalApproved": 284248
+    },
+    "AdjusterDetails": {
+        "Name": "Brandon Santos",
+        "ContactInformation": {
+            "Phone": "421-473-5504",
+            "Email": "marquezdaniel@example.org"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/f29ea7c2-164b-4a99-99a9-e0338ce40ad6"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2025-02-17T21:46:24Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2025-02-22T21:46:24Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2025-02-27T21:46:24Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Garcia, Martin and Gibson",
+        "Model": "better",
+        "Year": 2003,
+        "VIN": "b2da98a4-e341-406b-8c76-099a08db4d93"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "John Copeland",
+            "ContactInformation": {
+                "Phone": "4528979523",
+                "Email": "kathryn36@example.net"
+            },
+            "Statement": "From assume news resource position young market. Occur right bar describe end war truth. Gun education writer enter surface until require money."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "c549dc68-8704-4350-983f-a7c6436c3d8c",
+        "OfficerName": "Maria Wall",
+        "ReportDetails": "Concern over person too commercial. Skill discussion choose.\nCold million senior technology nothing those. Level close build memory upon fire.\nSeries base arm phone letter. Member room fall laugh."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 625,
+        "AnnualIncome": 159011,
+        "DebtToIncomeRatio": 0.66
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 3,
+        "LatePayments": 10,
+        "PolicyChanges": 5
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.4557831287384033,
+        -1.42290461063385,
+        -1.3095505237579346
+    ]
+}

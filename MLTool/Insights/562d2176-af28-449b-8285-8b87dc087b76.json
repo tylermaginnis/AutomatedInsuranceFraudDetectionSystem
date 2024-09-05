@@ -1,0 +1,118 @@
+{
+    "ClaimID": "562d2176-af28-449b-8285-8b87dc087b76",
+    "PolicyID": "e1a33d5d-7f75-4582-afdc-d41cf4546018",
+    "EffectiveDates": {
+        "StartDate": "2023-11-20",
+        "EndDate": "2024-11-19"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "ffb75641-8bc8-4ce9-9da9-88e79d7b779c",
+        "Name": "Maurice Young",
+        "PolicyNumber": "e1a33d5d-7f75-4582-afdc-d41cf4546018",
+        "ContactInformation": {
+            "Phone": "001-458-323-6527x324",
+            "Email": "erica27@example.net",
+            "Address": "25497 Christopher Causeway Suite 630\nLake Sonia, MD 03829"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-10-27",
+        "Location": "4285 Martin Key\nNorth Deniseberg, ME 76024",
+        "Description": "Support couple accept big perform themselves left. Time beat third. Task however body eat."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 29247
+        },
+        "PDL": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 45369
+        },
+        "PIP": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 75323
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 20000,
+            "ClaimedAmount": 5450
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 1117
+        }
+    },
+    "ClaimStatus": "Approved",
+    "ClaimAmounts": {
+        "TotalClaimed": 156506,
+        "TotalApproved": 9280
+    },
+    "AdjusterDetails": {
+        "Name": "Jonathan Hill",
+        "ContactInformation": {
+            "Phone": "4608111757",
+            "Email": "zallen@example.net"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/c4c11278-daa7-458c-9ef1-a9f226d9a63d"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-10-27T21:46:28Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-11-01T21:46:28Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-11-06T21:46:28Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Charles Group",
+        "Model": "relationship",
+        "Year": 2006,
+        "VIN": "f73442cf-fddd-41b6-87a2-1392884c6dda"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "Hannah Padilla",
+            "ContactInformation": {
+                "Phone": "717.281.0645",
+                "Email": "lisagraves@example.com"
+            },
+            "Statement": "Bank art matter station miss campaign. Appear could region who standard throughout wall. Behavior shake agent our start production."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "ebb308a2-86aa-4fa0-9c39-6be856ff5ea2",
+        "OfficerName": "Dawn Deleon",
+        "ReportDetails": "Agreement ball past. Court director him serious until trouble team.\nWithin yeah bring gas. New whom because face room service wonder. Final include safe baby compare."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 703,
+        "AnnualIncome": 176405,
+        "DebtToIncomeRatio": 0.68
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 4,
+        "LatePayments": 8,
+        "PolicyChanges": 4
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.482545852661133,
+        -1.4395077228546143,
+        -1.3194388151168823
+    ]
+}

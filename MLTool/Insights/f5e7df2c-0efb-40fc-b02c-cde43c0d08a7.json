@@ -1,0 +1,118 @@
+{
+    "ClaimID": "f5e7df2c-0efb-40fc-b02c-cde43c0d08a7",
+    "PolicyID": "3a311c2e-9b3e-407b-bce9-43e8362a3198",
+    "EffectiveDates": {
+        "StartDate": "2023-12-17",
+        "EndDate": "2024-12-16"
+    },
+    "PolicyHolder": {
+        "PolicyHolderID": "d01bcb84-7241-4a94-bf62-950e463bc939",
+        "Name": "Ryan Wilkins",
+        "PolicyNumber": "3a311c2e-9b3e-407b-bce9-43e8362a3198",
+        "ContactInformation": {
+            "Phone": "001-670-203-5578x68074",
+            "Email": "susan98@example.org",
+            "Address": "114 Rodgers Plains\nLauraborough, WY 65279"
+        }
+    },
+    "AccidentDetails": {
+        "Date": "2024-03-05",
+        "Location": "2916 Cynthia Falls\nSmithburgh, MI 06205",
+        "Description": "Walk source big his. Smile job size shoulder price much.\nGuy son cut buy. Positive seek decade help rate themselves around."
+    },
+    "Coverage": {
+        "BIL": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 161061
+        },
+        "PDL": {
+            "CoverageLimit": 10000,
+            "ClaimedAmount": 81675
+        },
+        "PIP": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 61930
+        },
+        "CollisionCoverage": {
+            "CoverageLimit": 50000,
+            "ClaimedAmount": 13767
+        },
+        "ComprehensiveCoverage": {
+            "CoverageLimit": 100000,
+            "ClaimedAmount": 5428
+        }
+    },
+    "ClaimStatus": "Filed",
+    "ClaimAmounts": {
+        "TotalClaimed": 323861,
+        "TotalApproved": 23839
+    },
+    "AdjusterDetails": {
+        "Name": "Deborah Orr",
+        "ContactInformation": {
+            "Phone": "001-338-205-4118x4447",
+            "Email": "gestrada@example.com"
+        }
+    },
+    "SupportingDocuments": [
+        {
+            "DocumentType": "Medical Report",
+            "DocumentURL": "http://example.com/documents/ad7bbdb9-3252-4033-aabb-149abcff3bfa"
+        }
+    ],
+    "ClaimHistory": [
+        {
+            "Status": "Filed",
+            "Date": "2024-03-05T21:46:24Z",
+            "Notes": "Initial claim filed"
+        },
+        {
+            "Status": "In Review",
+            "Date": "2024-03-10T21:46:24Z",
+            "Notes": "Claim is being reviewed"
+        },
+        {
+            "Status": "Approved",
+            "Date": "2024-03-15T21:46:24Z",
+            "Notes": "Claim approved"
+        }
+    ],
+    "VehicleInformation": {
+        "Make": "Haynes, Duran and Oliver",
+        "Model": "cultural",
+        "Year": 2022,
+        "VIN": "4ed91baa-9b31-4804-931a-d6fa877074ba"
+    },
+    "WitnessInformation": [
+        {
+            "Name": "Shawn Miller",
+            "ContactInformation": {
+                "Phone": "8006963972",
+                "Email": "milleramanda@example.com"
+            },
+            "Statement": "Attention about cold which. Hot care bag side care director third challenge.\nFour quickly either key example than. Political director resource worry as couple."
+        }
+    ],
+    "PoliceReport": {
+        "ReportID": "649c20c1-2d03-454a-9234-2c595bd7a9b3",
+        "OfficerName": "David Hernandez",
+        "ReportDetails": "Back benefit size between. Can reason focus soon population.\nHerself service meet. Want world bank assume. Someone most information reveal politics."
+    },
+    "ClaimantFinancialInformation": {
+        "CreditScore": 540,
+        "AnnualIncome": 179555,
+        "DebtToIncomeRatio": 0.27
+    },
+    "ClaimantBehavior": {
+        "ClaimFrequency": 3,
+        "LatePayments": 6,
+        "PolicyChanges": 5
+    },
+    "is_abnormal": false,
+    "FraudLikelihood": "high",
+    "FraudScore": [
+        3.4654178619384766,
+        -1.4290310144424438,
+        -1.312893271446228
+    ]
+}
