@@ -203,9 +203,9 @@
             <h3>Fraud Scores</h3>
             <canvas id="fraudScoresChart"></canvas>
         </div>
-        <div id="claimsByFraudLikelihood" style="display:none;">
-            <h3>Claims by Fraud Likelihood</h3>
-            <canvas id="claimsByFraudLikelihoodChart"></canvas>
+        <div id="claimTotalsByFraudLikelihood" style="display:none;">
+            <h3>Claims Totals by Fraud Likelihood</h3>
+            <canvas id="claimTotalsByFraudLikelihoodChart"></canvas>
         </div>
         <div id="fraudScoreDistribution" style="display:none;">
             <h3>Fraud Score Distribution</h3>
@@ -242,9 +242,9 @@
         var averageAmountsByCoverageType = @Html.Raw(ViewBag.AverageAmountsByCoverageTypeJson);
         var claimsByState = @Html.Raw(ViewBag.ClaimsByStateJson);
         var claimsByPolicyEffectiveDates = @Html.Raw(ViewBag.ClaimsByPolicyEffectiveDatesJson);
-        var fraudLikelihood = @Html.Raw(ViewBag.FraudLikelihoodJson);
+        var fraudLikelihood = @Html.Raw(ViewBag.ClaimsByFraudLikelihoodJson);
         var fraudScores = @Html.Raw(ViewBag.FraudScoresJson);
-        var claimsByFraudLikelihood = @Html.Raw(ViewBag.ClaimsByFraudLikelihoodJson);
+        var claimTotalsByFraudLikelihood = @Html.Raw(ViewBag.ClaimTotalsByFraudLikelihoodJson);
         var fraudScoreDistribution = @Html.Raw(ViewBag.FraudScoreDistributionJson);
         var claimsByAdjusterFraudLikelihood = @Html.Raw(ViewBag.ClaimsByAdjusterFraudLikelihoodJson);
         var fraudLikelihoodOverTime = @Html.Raw(ViewBag.FraudLikelihoodOverTimeJson);
@@ -509,11 +509,12 @@
             data: claimsByPolicyEffectiveDatesData
         });
 
+
         var fraudLikelihoodData = {
-            labels: fraudLikelihood.map(f => f.ClaimID),
+            labels: fraudLikelihood.map(f => f.FraudLikelihood),
             datasets: [{
-                label: 'Fraud Likelihood',
-                data: fraudLikelihood.map(f => f.FraudLikelihood),
+                label: 'Number of Claims',
+                data: fraudLikelihood.map(f => f.ClaimCount), // Ensure this matches the property name in the controller
                 backgroundColor: '#FF6384'
             }]
         };
@@ -561,19 +562,22 @@
             }
         });
 
-        var claimsByFraudLikelihoodData = {
-            labels: claimsByFraudLikelihood.map(f => f.FraudLikelihood),
+        // Claim Totals by Fraud Likelihood Chart
+        var claimTotalsByFraudLikelihood = @Html.Raw(ViewBag.ClaimTotalsByFraudLikelihoodJson);
+
+        var claimTotalsByFraudLikelihoodData = {
+            labels: claimTotalsByFraudLikelihood.map(f => f.FraudLikelihood),
             datasets: [{
-                label: 'Number of Claims',
-                data: claimsByFraudLikelihood.map(f => f.ClaimCount),
-                backgroundColor: '#FF6384'
+                label: 'Total Claimed Amount',
+                data: claimTotalsByFraudLikelihood.map(f => f.TotalClaimedAmount),
+                backgroundColor: '#36A2EB'
             }]
         };
 
-        var claimsByFraudLikelihoodCtx = document.getElementById('claimsByFraudLikelihoodChart').getContext('2d');
-        new Chart(claimsByFraudLikelihoodCtx, {
+        var claimTotalsByFraudLikelihoodCtx = document.getElementById('claimTotalsByFraudLikelihoodChart').getContext('2d');
+        new Chart(claimTotalsByFraudLikelihoodCtx, {
             type: 'bar',
-            data: claimsByFraudLikelihoodData,
+            data: claimTotalsByFraudLikelihoodData,
             options: {
                 responsive: true,
                 legend: {
@@ -582,16 +586,18 @@
                 },
                 title: {
                     display: true,
-                    text: 'Claims by Fraud Likelihood'
+                    text: 'Claim Totals by Fraud Likelihood'
                 }
             }
         });
 
+        var fraudScoreDistribution = @Html.Raw(ViewBag.FraudScoreDistributionJson);
+
         var fraudScoreDistributionData = {
-            labels: fraudScoreDistribution.map(f => f.FraudScore),
+            labels: fraudScoreDistribution.map(f => f.ScoreRange),
             datasets: [{
                 label: 'Fraud Score Distribution',
-                data: fraudScoreDistribution.map(f => f.ClaimCount),
+                data: fraudScoreDistribution.map(f => f.ClaimCount), // Corrected property name
                 backgroundColor: '#36A2EB'
             }]
         };
@@ -609,18 +615,49 @@
                 title: {
                     display: true,
                     text: 'Fraud Score Distribution'
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            min: 0,
+                            max: Math.max(...fraudScoreDistribution.map(f => f.ClaimCount)) + 10 // Adjust max value based on data
+                        }
+                    }]
                 }
             }
         });
 
+
+        var claimsByAdjusterFraudLikelihood = @Html.Raw(ViewBag.ClaimsByAdjusterFraudLikelihoodJson);
+
+        // Debugging: Log the data to ensure it's correct
+        //console.log(claimsByAdjusterFraudLikelihood);
+
+        var adjusters = [...new Set(claimsByAdjusterFraudLikelihood.map(f => f.Adjuster))];
+        var fraudLikelihoods = [...new Set(claimsByAdjusterFraudLikelihood.map(f => f.FraudLikelihood))];
+
+        var datasets = fraudLikelihoods.map(fraudLikelihood => ({
+            label: fraudLikelihood,
+            data: adjusters.map(adjuster => {
+                var item = claimsByAdjusterFraudLikelihood.find(f => f.Adjuster === adjuster && f.FraudLikelihood === fraudLikelihood);
+                return item ? item.Count : 0;
+            }),
+            backgroundColor: fraudLikelihood === 'high' ? '#FF6384' : '#36A2EB'
+        }));
+
         var claimsByAdjusterFraudLikelihoodData = {
-            labels: claimsByAdjusterFraudLikelihood.map(f => f.Adjuster),
-            datasets: [{
-                label: 'Fraud Likelihood',
-                data: claimsByAdjusterFraudLikelihood.map(f => f.FraudLikelihood),
-                backgroundColor: '#FF6384'
-            }]
+            labels: adjusters,
+            datasets: datasets
         };
+
+        // Debugging: Log the datasets to ensure they are correct
+        //console.log(claimsByAdjusterFraudLikelihoodData);
+
+        // Calculate maxCount based on the Count values
+        var maxCount = Math.max(...claimsByAdjusterFraudLikelihood.map(f => parseInt(f.Count)));
+
+        console.log(maxCount);
 
         var claimsByAdjusterFraudLikelihoodCtx = document.getElementById('claimsByAdjusterFraudLikelihoodChart').getContext('2d');
         new Chart(claimsByAdjusterFraudLikelihoodCtx, {
@@ -635,6 +672,15 @@
                 title: {
                     display: true,
                     text: 'Claims by Adjuster Fraud Likelihood'
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            min: 0,
+                            max: maxCount + 5 // Adjust max value based on data
+                        }
+                    }]
                 }
             }
         });

@@ -121,15 +121,15 @@ public class HomeController : Controller
             .Select(g => new { Date = g.Key, ClaimCount = g.Count() })
             .ToList();
 
-        // Fraud Likelihood
-        var fraudLikelihood = _claims
-            .Where(c => c.FraudLikelihood != null)
-            .GroupBy(c => c.FraudLikelihood)
-            .Select(g => new { FraudLikelihood = g.Key, Count = g.Count() })
-            .ToList();
-
         // Claims by Fraud Likelihood
         var claimsByFraudLikelihood = _claims
+            .Where(c => c.FraudLikelihood != null)
+            .GroupBy(c => c.FraudLikelihood)
+            .Select(g => new { FraudLikelihood = g.Key, ClaimCount = g.Count() })
+            .ToList();
+
+        // Claim Totals by Fraud Likelihood
+        var claimTotalsByFraudLikelihood = _claims
             .Where(c => c.FraudLikelihood != null)
             .GroupBy(c => c.FraudLikelihood)
             .Select(g => new { FraudLikelihood = g.Key, TotalClaimedAmount = g.Sum(c => c.ClaimAmounts.TotalClaimed) })
@@ -139,8 +139,8 @@ public class HomeController : Controller
         var fraudScoreDistribution = _claims
             .Where(c => c.FraudScore != null)
             .SelectMany(c => c.FraudScore)
-            .GroupBy(score => Math.Floor(score / 10) * 10)
-            .Select(g => new { ScoreRange = $"{g.Key}-{g.Key + 9}", Count = g.Count() })
+            .GroupBy(score => Math.Floor(score / 10.0) * 10) // Ensure correct grouping
+            .Select(g => new { ScoreRange = $"{g.Key}-{g.Key + 9}", ClaimCount = g.Count() }) // Correct property name
             .ToList();
 
         // Claims by Adjuster Fraud Likelihood
@@ -149,6 +149,7 @@ public class HomeController : Controller
             .GroupBy(c => new { c.AdjusterDetails.Name, c.FraudLikelihood })
             .Select(g => new { Adjuster = g.Key.Name, FraudLikelihood = g.Key.FraudLikelihood, Count = g.Count() })
             .ToList();
+
 
         // Fraud Likelihood Over Time
         var fraudLikelihoodOverTime = _claims
@@ -196,8 +197,8 @@ public class HomeController : Controller
             ClaimsByState = claimsByState,
             ClaimsByPolicyEffectiveDates = claimsByPolicyEffectiveDates,
             FraudScores = _claims.Select(c => new { c.ClaimID, c.FraudLikelihood, c.FraudScore, c.AdjusterDetails, c.PolicyHolder, c.AccidentDetails }).ToList(),
-            FraudLikelihood = fraudLikelihood,
             ClaimsByFraudLikelihood = claimsByFraudLikelihood,
+            ClaimTotalsByFraudLikelihood = claimTotalsByFraudLikelihood,
             FraudScoreDistribution = fraudScoreDistribution,
             ClaimsByAdjusterFraudLikelihood = claimsByAdjusterFraudLikelihood,
             FraudLikelihoodOverTime = fraudLikelihoodOverTime,
@@ -214,8 +215,8 @@ public class HomeController : Controller
         ViewBag.ClaimsByStateJson = JsonConvert.SerializeObject(claimsByState);
         ViewBag.ClaimsByPolicyEffectiveDatesJson = JsonConvert.SerializeObject(claimsByPolicyEffectiveDates);
         ViewBag.FraudScoresJson = JsonConvert.SerializeObject(_claims.Select(c => new { c.ClaimID, c.FraudLikelihood, c.FraudScore, c.AdjusterDetails, c.PolicyHolder, c.AccidentDetails }).ToList());
-        ViewBag.FraudLikelihoodJson = JsonConvert.SerializeObject(fraudLikelihood);
         ViewBag.ClaimsByFraudLikelihoodJson = JsonConvert.SerializeObject(claimsByFraudLikelihood);
+        ViewBag.ClaimTotalsByFraudLikelihoodJson = JsonConvert.SerializeObject(claimTotalsByFraudLikelihood);
         ViewBag.FraudScoreDistributionJson = JsonConvert.SerializeObject(fraudScoreDistribution);
         ViewBag.ClaimsByAdjusterFraudLikelihoodJson = JsonConvert.SerializeObject(claimsByAdjusterFraudLikelihood);
         ViewBag.FraudLikelihoodOverTimeJson = JsonConvert.SerializeObject(fraudLikelihoodOverTime);
