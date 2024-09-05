@@ -15,9 +15,10 @@ This project aims to detect fraudulent insurance claims using machine learning t
 - **SHAP Analysis**: Uses SHAP (SHapley Additive exPlanations) to interpret the model's predictions and understand the impact of each feature on the fraud likelihood score.
 
 <div style="text-align: center;">
+  <h3>Small Sample SHAP Summary Plot</h3>
   <img src="images/shap_summary_plot.png" alt="SHAP Summary Plot" >    
+  <h3>Varied-Distribution Sample SHAP Summary Plot</h3>
   <img src="images/large_sample.png" alt="Large Sample SHAP Summary Plot" >    
-  <img src="images/large_sample_2.png" alt="SHAP Dependence Plot" >    
 </div>
 
 ### System Architecture
