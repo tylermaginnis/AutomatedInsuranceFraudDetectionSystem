@@ -384,6 +384,17 @@
         "is_abnormal": {
           "type": "boolean",
           "description": "Flag indicating if the claim is abnormal"
+        },
+        "FraudLikelihood": {
+          "type": "string",
+          "description": "Likelihood of the claim being fraudulent"
+        },
+        "FraudScore": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "description": "Raw fraud risk score"
         }
       },
       "required": ["ClaimID", "PolicyID", "EffectiveDates", "PolicyHolder", "AccidentDetails", "Coverage", "ClaimStatus", "ClaimAmounts", "AdjusterDetails", "SupportingDocuments", "ClaimHistory", "ClaimantHistory", "VehicleInformation", "WitnessInformation", "PoliceReport", "ClaimantFinancialInformation", "ClaimantBehavior", "is_abnormal"]

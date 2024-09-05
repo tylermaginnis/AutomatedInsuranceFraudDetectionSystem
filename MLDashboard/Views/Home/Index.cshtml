@@ -82,6 +82,80 @@
             </div>
         </div>
     </div>
+    <br /><br />
+    <h2>Fraud Visualizations Menu</h2>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-exclamation-triangle fa-3x"></i>
+                    <p class="card-text">Fraud Likelihood</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-chart-line fa-3x"></i>
+                    <p class="card-text">Fraud Scores</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-user-secret fa-3x"></i>
+                    <p class="card-text">Claims by Fraud Likelihood</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-balance-scale fa-3x"></i>
+                    <p class="card-text">Fraud Score Distribution</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-user-check fa-3x"></i>
+                    <p class="card-text">Claims by Adjuster Fraud Likelihood</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-calendar-day fa-3x"></i>
+                    <p class="card-text">Fraud Likelihood Over Time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-user-clock fa-3x"></i>
+                    <p class="card-text">Claims by Policy Holder Fraud Likelihood</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-chart-pie fa-3x"></i>
+                    <p class="card-text">Fraud Score by Coverage Type</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div id="visualizations" style="display:none;">
@@ -121,6 +195,38 @@
             <h3>Claims by Policy Effective Dates</h3>
             <canvas id="claimsByPolicyEffectiveDatesChart"></canvas>
         </div>
+        <div id="fraudLikelihood" style="display:none;">
+            <h3>Fraud Likelihood</h3>
+            <canvas id="fraudLikelihoodChart"></canvas>
+        </div>
+        <div id="fraudScores" style="display:none;">
+            <h3>Fraud Scores</h3>
+            <canvas id="fraudScoresChart"></canvas>
+        </div>
+        <div id="claimsByFraudLikelihood" style="display:none;">
+            <h3>Claims by Fraud Likelihood</h3>
+            <canvas id="claimsByFraudLikelihoodChart"></canvas>
+        </div>
+        <div id="fraudScoreDistribution" style="display:none;">
+            <h3>Fraud Score Distribution</h3>
+            <canvas id="fraudScoreDistributionChart"></canvas>
+        </div>
+        <div id="claimsByAdjusterFraudLikelihood" style="display:none;">
+            <h3>Claims by Adjuster Fraud Likelihood</h3>
+            <canvas id="claimsByAdjusterFraudLikelihoodChart"></canvas>
+        </div>
+        <div id="fraudLikelihoodOverTime" style="display:none;">
+            <h3>Fraud Likelihood Over Time</h3>
+            <canvas id="fraudLikelihoodOverTimeChart"></canvas>
+        </div>
+        <div id="claimsByPolicyHolderFraudLikelihood" style="display:none;">
+            <h3>Claims by Policy Holder Fraud Likelihood</h3>
+            <canvas id="claimsByPolicyHolderFraudLikelihoodChart"></canvas>
+        </div>
+        <div id="fraudScoreByCoverageType" style="display:none;">
+            <h3>Fraud Score by Coverage Type</h3>
+            <canvas id="fraudScoreByCoverageTypeChart"></canvas>
+        </div>
     </div>
 </div>
 
@@ -136,6 +242,14 @@
         var averageAmountsByCoverageType = @Html.Raw(ViewBag.AverageAmountsByCoverageTypeJson);
         var claimsByState = @Html.Raw(ViewBag.ClaimsByStateJson);
         var claimsByPolicyEffectiveDates = @Html.Raw(ViewBag.ClaimsByPolicyEffectiveDatesJson);
+        var fraudLikelihood = @Html.Raw(ViewBag.FraudLikelihoodJson);
+        var fraudScores = @Html.Raw(ViewBag.FraudScoresJson);
+        var claimsByFraudLikelihood = @Html.Raw(ViewBag.ClaimsByFraudLikelihoodJson);
+        var fraudScoreDistribution = @Html.Raw(ViewBag.FraudScoreDistributionJson);
+        var claimsByAdjusterFraudLikelihood = @Html.Raw(ViewBag.ClaimsByAdjusterFraudLikelihoodJson);
+        var fraudLikelihoodOverTime = @Html.Raw(ViewBag.FraudLikelihoodOverTimeJson);
+        var claimsByPolicyHolderFraudLikelihood = @Html.Raw(ViewBag.ClaimsByPolicyHolderFraudLikelihoodJson);
+        var fraudScoreByCoverageType = @Html.Raw(ViewBag.FraudScoreByCoverageTypeJson);
 
         var claimsByCoverageTypeData = {
             labels: claimsByCoverageType.map(c => c.CoverageType),
@@ -393,6 +507,214 @@
         new Chart(claimsByPolicyEffectiveDatesCtx, {
             type: 'bar',
             data: claimsByPolicyEffectiveDatesData
+        });
+
+        var fraudLikelihoodData = {
+            labels: fraudLikelihood.map(f => f.ClaimID),
+            datasets: [{
+                label: 'Fraud Likelihood',
+                data: fraudLikelihood.map(f => f.FraudLikelihood),
+                backgroundColor: '#FF6384'
+            }]
+        };
+
+        var fraudLikelihoodCtx = document.getElementById('fraudLikelihoodChart').getContext('2d');
+        new Chart(fraudLikelihoodCtx, {
+            type: 'bar',
+            data: fraudLikelihoodData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Fraud Likelihood'
+                }
+            }
+        });
+
+        var fraudScoresData = {
+            labels: fraudScores.map(f => f.ClaimID),
+            datasets: [{
+                label: 'Fraud Scores',
+                data: fraudScores.map(f => f.FraudScore),
+                backgroundColor: '#36A2EB'
+            }]
+        };
+
+        var fraudScoresCtx = document.getElementById('fraudScoresChart').getContext('2d');
+        new Chart(fraudScoresCtx, {
+            type: 'line',
+            data: fraudScoresData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Fraud Scores'
+                }
+            }
+        });
+
+        var claimsByFraudLikelihoodData = {
+            labels: claimsByFraudLikelihood.map(f => f.FraudLikelihood),
+            datasets: [{
+                label: 'Number of Claims',
+                data: claimsByFraudLikelihood.map(f => f.ClaimCount),
+                backgroundColor: '#FF6384'
+            }]
+        };
+
+        var claimsByFraudLikelihoodCtx = document.getElementById('claimsByFraudLikelihoodChart').getContext('2d');
+        new Chart(claimsByFraudLikelihoodCtx, {
+            type: 'bar',
+            data: claimsByFraudLikelihoodData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Claims by Fraud Likelihood'
+                }
+            }
+        });
+
+        var fraudScoreDistributionData = {
+            labels: fraudScoreDistribution.map(f => f.FraudScore),
+            datasets: [{
+                label: 'Fraud Score Distribution',
+                data: fraudScoreDistribution.map(f => f.ClaimCount),
+                backgroundColor: '#36A2EB'
+            }]
+        };
+
+        var fraudScoreDistributionCtx = document.getElementById('fraudScoreDistributionChart').getContext('2d');
+        new Chart(fraudScoreDistributionCtx, {
+            type: 'bar',
+            data: fraudScoreDistributionData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Fraud Score Distribution'
+                }
+            }
+        });
+
+        var claimsByAdjusterFraudLikelihoodData = {
+            labels: claimsByAdjusterFraudLikelihood.map(f => f.Adjuster),
+            datasets: [{
+                label: 'Fraud Likelihood',
+                data: claimsByAdjusterFraudLikelihood.map(f => f.FraudLikelihood),
+                backgroundColor: '#FF6384'
+            }]
+        };
+
+        var claimsByAdjusterFraudLikelihoodCtx = document.getElementById('claimsByAdjusterFraudLikelihoodChart').getContext('2d');
+        new Chart(claimsByAdjusterFraudLikelihoodCtx, {
+            type: 'bar',
+            data: claimsByAdjusterFraudLikelihoodData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Claims by Adjuster Fraud Likelihood'
+                }
+            }
+        });
+
+        var fraudLikelihoodOverTimeData = {
+            labels: fraudLikelihoodOverTime.map(f => new Date(f.Date).toLocaleString('default', { month: 'long', year: 'numeric' })),
+            datasets: [{
+                label: 'Fraud Likelihood',
+                data: fraudLikelihoodOverTime.map(f => f.FraudLikelihood),
+                backgroundColor: '#36A2EB'
+            }]
+        };
+
+        var fraudLikelihoodOverTimeCtx = document.getElementById('fraudLikelihoodOverTimeChart').getContext('2d');
+        new Chart(fraudLikelihoodOverTimeCtx, {
+            type: 'line',
+            data: fraudLikelihoodOverTimeData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Fraud Likelihood Over Time'
+                }
+            }
+        });
+
+        var claimsByPolicyHolderFraudLikelihoodData = {
+            labels: claimsByPolicyHolderFraudLikelihood.map(f => f.PolicyHolder),
+            datasets: [{
+                label: 'Fraud Likelihood',
+                data: claimsByPolicyHolderFraudLikelihood.map(f => f.FraudLikelihood),
+                backgroundColor: '#FF6384'
+            }]
+        };
+
+        var claimsByPolicyHolderFraudLikelihoodCtx = document.getElementById('claimsByPolicyHolderFraudLikelihoodChart').getContext('2d');
+        new Chart(claimsByPolicyHolderFraudLikelihoodCtx, {
+            type: 'bar',
+            data: claimsByPolicyHolderFraudLikelihoodData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Claims by Policy Holder Fraud Likelihood'
+                }
+            }
+        });
+
+        var fraudScoreByCoverageTypeData = {
+            labels: fraudScoreByCoverageType.map(f => f.CoverageType),
+            datasets: [{
+                label: 'Fraud Score',
+                data: fraudScoreByCoverageType.map(f => f.FraudScore),
+                backgroundColor: '#36A2EB'
+            }]
+        };
+
+        var fraudScoreByCoverageTypeCtx = document.getElementById('fraudScoreByCoverageTypeChart').getContext('2d');
+        new Chart(fraudScoreByCoverageTypeCtx, {
+            type: 'pie',
+            data: fraudScoreByCoverageTypeData,
+            options: {
+                responsive: true,
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Fraud Score by Coverage Type'
+                }
+            }
         });
 
         document.querySelectorAll('#menu .col').forEach((col, index) => {

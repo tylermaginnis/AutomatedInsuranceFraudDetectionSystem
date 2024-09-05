@@ -28,6 +28,20 @@ public class HomeController : Controller
             var fraudScore = JsonConvert.DeserializeObject<dynamic>(fraudData);
             _fraudScores.Add(fraudScore);
         }
+
+        // Merge fraud scores into claims by ClaimId
+        foreach (var claim in _claims)
+        {
+            var fraudScore = _fraudScores.FirstOrDefault(fs => fs.ClaimId == claim.ClaimID);
+            if (fraudScore != null)
+            {
+                claim.FraudLikelihood = fraudScore.FraudLikelihood;
+                claim.FraudScore = fraudScore.FraudScore;
+                claim.AdjusterDetails = fraudScore.AdjusterDetails;
+                claim.PolicyHolder = fraudScore.PolicyHolder;
+                claim.AccidentDetails = fraudScore.AccidentDetails;
+            }
+        }
     }
 
     public IActionResult Index()
@@ -132,6 +146,69 @@ public class HomeController : Controller
             .Select(g => new { Date = g.Key, ClaimCount = g.Count() })
             .ToList();
 
+        // Fraud Likelihood
+        var fraudLikelihood = _claims
+            .Where(c => c.FraudLikelihood != null)
+            .GroupBy(c => c.FraudLikelihood)
+            .Select(g => new { FraudLikelihood = g.Key, Count = g.Count() })
+            .ToList();
+
+        // Claims by Fraud Likelihood
+        var claimsByFraudLikelihood = _claims
+            .Where(c => c.FraudLikelihood != null)
+            .GroupBy(c => c.FraudLikelihood)
+            .Select(g => new { FraudLikelihood = g.Key, TotalClaimedAmount = g.Sum(c => c.ClaimAmounts.TotalClaimed) })
+            .ToList();
+
+        // Fraud Score Distribution
+        var fraudScoreDistribution = _claims
+            .Where(c => c.FraudScore != null)
+            .SelectMany(c => c.FraudScore)
+            .GroupBy(score => Math.Floor(score / 10) * 10)
+            .Select(g => new { ScoreRange = $"{g.Key}-{g.Key + 9}", Count = g.Count() })
+            .ToList();
+
+        // Claims by Adjuster Fraud Likelihood
+        var claimsByAdjusterFraudLikelihood = _claims
+            .Where(c => c.AdjusterDetails != null && c.FraudLikelihood != null)
+            .GroupBy(c => new { c.AdjusterDetails.Name, c.FraudLikelihood })
+            .Select(g => new { Adjuster = g.Key.Name, FraudLikelihood = g.Key.FraudLikelihood, Count = g.Count() })
+            .ToList();
+
+        // Fraud Likelihood Over Time
+        var fraudLikelihoodOverTime = _claims
+            .Where(c => c.FraudLikelihood != null && c.AccidentDetails.Date != null)
+            .GroupBy(c => new { c.FraudLikelihood, Year = DateTime.Parse(c.AccidentDetails.Date).Year, Month = DateTime.Parse(c.AccidentDetails.Date).Month })
+            .Select(g => new { 
+                g.Key.FraudLikelihood, 
+                Date = new DateTime(g.Key.Year, g.Key.Month, 1), 
+                Count = g.Count() 
+            })
+            .ToList();
+
+        // Claims by Policy Holder Fraud Likelihood
+        var claimsByPolicyHolderFraudLikelihood = _claims
+            .Where(c => c.PolicyHolder != null && c.FraudLikelihood != null)
+            .GroupBy(c => new { c.PolicyHolder.Name, c.FraudLikelihood })
+            .Select(g => new { PolicyHolder = g.Key.Name, FraudLikelihood = g.Key.FraudLikelihood, Count = g.Count() })
+            .ToList();
+
+        // Fraud Score by Coverage Type
+        var fraudScoreByCoverageType = _claims
+            .Where(c => c.Coverage != null && c.FraudScore != null)
+            .SelectMany(c => new List<(string CoverageType, double FraudScore)>
+            {
+                ("BIL", c.Coverage.BIL?.ClaimedAmount ?? 0),
+                ("PDL", c.Coverage.PDL?.ClaimedAmount ?? 0),
+                ("PIP", c.Coverage.PIP?.ClaimedAmount ?? 0),
+                ("CollisionCoverage", c.Coverage.CollisionCoverage?.ClaimedAmount ?? 0),
+                ("ComprehensiveCoverage", c.Coverage.ComprehensiveCoverage?.ClaimedAmount ?? 0)
+            })
+            .Where(c => c.FraudScore > 0)
+            .GroupBy(c => c.CoverageType)
+            .Select(g => new { CoverageType = g.Key, AverageFraudScore = g.Average(c => c.FraudScore) })
+            .ToList();
+
         var model = new
         {
             TotalClaims = totalClaims,
@@ -143,7 +220,14 @@ public class HomeController : Controller
             AverageAmountsByCoverageType = averageAmountsByCoverageType,
             ClaimsByState = claimsByState,
             ClaimsByPolicyEffectiveDates = claimsByPolicyEffectiveDates,
-            FraudScores = _fraudScores
+            FraudScores = _fraudScores,
+            FraudLikelihood = fraudLikelihood,
+            ClaimsByFraudLikelihood = claimsByFraudLikelihood,
+            FraudScoreDistribution = fraudScoreDistribution,
+            ClaimsByAdjusterFraudLikelihood = claimsByAdjusterFraudLikelihood,
+            FraudLikelihoodOverTime = fraudLikelihoodOverTime,
+            ClaimsByPolicyHolderFraudLikelihood = claimsByPolicyHolderFraudLikelihood,
+            FraudScoreByCoverageType = fraudScoreByCoverageType
         };
 
         ViewBag.ClaimsByCoverageTypeJson = JsonConvert.SerializeObject(claimsByCoverageType);
@@ -155,6 +239,13 @@ public class HomeController : Controller
         ViewBag.ClaimsByStateJson = JsonConvert.SerializeObject(claimsByState);
         ViewBag.ClaimsByPolicyEffectiveDatesJson = JsonConvert.SerializeObject(claimsByPolicyEffectiveDates);
         ViewBag.FraudScoresJson = JsonConvert.SerializeObject(_fraudScores);
+        ViewBag.FraudLikelihoodJson = JsonConvert.SerializeObject(fraudLikelihood);
+        ViewBag.ClaimsByFraudLikelihoodJson = JsonConvert.SerializeObject(claimsByFraudLikelihood);
+        ViewBag.FraudScoreDistributionJson = JsonConvert.SerializeObject(fraudScoreDistribution);
+        ViewBag.ClaimsByAdjusterFraudLikelihoodJson = JsonConvert.SerializeObject(claimsByAdjusterFraudLikelihood);
+        ViewBag.FraudLikelihoodOverTimeJson = JsonConvert.SerializeObject(fraudLikelihoodOverTime);
+        ViewBag.ClaimsByPolicyHolderFraudLikelihoodJson = JsonConvert.SerializeObject(claimsByPolicyHolderFraudLikelihood);
+        ViewBag.FraudScoreByCoverageTypeJson = JsonConvert.SerializeObject(fraudScoreByCoverageType);
 
         return View(model);
     }

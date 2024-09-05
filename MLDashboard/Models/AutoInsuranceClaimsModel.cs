@@ -13,6 +13,12 @@ public class AutoInsuranceClaimsModel
         public AdjusterDetails AdjusterDetails { get; set; }
         public List<SupportingDocument> SupportingDocuments { get; set; }
         public List<ClaimHistory> ClaimHistory { get; set; }
+        public PoliceReport PoliceReport { get; set; }
+        public ClaimantFinancialInformation ClaimantFinancialInformation { get; set; }
+        public ClaimantBehavior ClaimantBehavior { get; set; }
+        public bool is_abnormal { get; set; }
+        public string FraudLikelihood { get; set; }
+        public List<double> FraudScore { get; set; }
     }
 
     public class EffectiveDates
@@ -105,5 +111,26 @@ public class AutoInsuranceClaimsModel
         public string Status { get; set; }
         public string Date { get; set; }
         public string Notes { get; set; }
+    }
+
+    public class PoliceReport
+    {
+        public string ReportID { get; set; }
+        public string OfficerName { get; set; }
+        public string ReportDetails { get; set; }
+    }
+
+    public class ClaimantFinancialInformation
+    {
+        public int CreditScore { get; set; }
+        public double AnnualIncome { get; set; }
+        public double DebtToIncomeRatio { get; set; }
+    }
+
+    public class ClaimantBehavior
+    {
+        public int ClaimFrequency { get; set; }
+        public int LatePayments { get; set; }
+        public int PolicyChanges { get; set; }
     }
 }
